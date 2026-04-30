@@ -21,6 +21,7 @@ import { OfficeDownload } from "@/components/office-download"
 import { TypographyPicker } from "@/components/typography-picker"
 import { biomes, motifCategories, systems } from "@/data/systems"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
+import { previewAssetPath } from "@/lib/asset-preview"
 import { colorDistance } from "@/lib/color-distance"
 import { useFont } from "@/lib/use-font"
 import { usePaletteOverrides } from "@/lib/use-palette-overrides"
@@ -478,9 +479,11 @@ function Hero({ system }: { system: MorphousSystem }) {
           }}
         >
           <img
-            src={system.assets.motif}
+            src={previewAssetPath(system.assets.motif)}
             alt={`${system.motifName} motif`}
             className="max-h-[28rem] w-auto object-contain drop-shadow-xl"
+            decoding="async"
+            fetchPriority="high"
           />
         </div>
       </div>
@@ -509,9 +512,11 @@ function SystemCard({
     >
       <div className="grid grid-cols-[3.25rem_1fr] gap-3">
         <img
-          src={system.assets.motif}
+          src={previewAssetPath(system.assets.motif)}
           alt={`${system.motifName} motif`}
           className="aspect-square rounded-md border border-border bg-background object-cover"
+          loading="lazy"
+          decoding="async"
         />
         <div className="min-w-0">
           <span className="block truncate text-sm font-semibold">{system.name}</span>
@@ -569,9 +574,11 @@ function BoardSwitcher({
         </div>
       </div>
       <img
-        src={tab === "light" ? light : dark}
+        src={previewAssetPath(tab === "light" ? light : dark)}
         alt={`${tab} system board`}
         className="w-full object-cover"
+        loading="lazy"
+        decoding="async"
       />
     </section>
   )
@@ -1693,7 +1700,13 @@ function AssetThumb({ label, href }: { label: string; href: string }) {
           backgroundImage: `linear-gradient(135deg, color-mix(in oklch, var(--palette-surface), transparent 50%), color-mix(in oklch, var(--palette-depth), transparent 70%))`,
         }}
       >
-        <img src={href} alt={label} className="absolute inset-0 size-full object-cover" />
+        <img
+          src={previewAssetPath(href)}
+          alt={label}
+          className="absolute inset-0 size-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
         <span className="absolute right-1.5 top-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100">
           <Download className="size-3.5" />
         </span>

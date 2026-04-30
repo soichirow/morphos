@@ -25,10 +25,11 @@ bun run check
 bun run test
 bun run ci
 bun run build
+bun run generate:previews
 bun run pages:prepare
 ```
 
-`bun run check` runs lint and typecheck. `bun run ci` runs lint, typecheck, tests, and the production build. `bun run pages:prepare` validates the static build output and adds the GitHub Pages files needed for deployment.
+`bun run check` runs lint and typecheck. `bun run ci` runs lint, typecheck, tests, and the production build. `bun run generate:previews` creates lightweight WebP preview derivatives for gallery rendering. `bun run pages:prepare` validates the static build output and adds the GitHub Pages files needed for deployment.
 
 ## Development
 
@@ -73,6 +74,7 @@ After generated assets or system metadata changes, refresh and validate the cata
 
 ```bash
 bun run generate:catalog
+bun run generate:previews
 bun run validate:catalog
 ```
 
@@ -107,6 +109,7 @@ Before pushing a catalog update:
 
 ```bash
 bun run validate:catalog
+bun run generate:previews
 bun run ci
 bun run pages:prepare
 ```

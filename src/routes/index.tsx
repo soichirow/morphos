@@ -12,6 +12,7 @@ import {
 
 import { Button } from "@/components/ui/button"
 import { systems } from "@/data/systems"
+import { previewAssetPath } from "@/lib/asset-preview"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 
 export const Route = createFileRoute("/")({ component: LandingRoute })
@@ -44,7 +45,6 @@ function LandingRoute() {
   // (no auto-rotation — only changes when the user hovers a card).
   const restingSystem = featured[0] ?? systems[0]
   const heroSystem = (hoverSlug && featured.find((s) => s.slug === hoverSlug)) || restingSystem
-  const heroPool = featured
 
   return (
     <div style={themeStyle(heroSystem, "light")}>
@@ -139,17 +139,12 @@ function LandingRoute() {
           >
             <img
               key={heroSystem.slug}
-              src={heroSystem.assets.motif}
+              src={previewAssetPath(heroSystem.assets.motif)}
               alt={`${heroSystem.motifName} motif`}
               className="absolute inset-0 size-full object-contain p-8 transition-all duration-500 group-hover:scale-[1.03]"
+              decoding="async"
+              fetchPriority="high"
             />
-            <div aria-hidden className="hidden">
-              {heroPool.map((s) =>
-                s.slug === heroSystem.slug ? null : (
-                  <img key={s.slug} src={s.assets.motif} alt="" />
-                )
-              )}
-            </div>
             <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
               <span className="truncate font-medium">{heroSystem.name}</span>
               <span className="inline-flex items-center gap-1 text-muted-foreground group-hover:text-primary">
@@ -313,9 +308,11 @@ function FeatureCard({
         }}
       >
         <img
-          src={system.assets.motif}
+          src={previewAssetPath(system.assets.motif)}
           alt={`${system.motifName} motif`}
           className="absolute inset-0 size-full object-contain p-6 transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+          decoding="async"
         />
       </span>
       <div className="border-t border-border p-3">
@@ -406,4 +403,3 @@ function FooterLinks() {
     </div>
   )
 }
-
