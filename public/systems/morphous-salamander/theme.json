@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-salamander",
+    "name": "Morphous Salamander",
+    "motifName": "Spotted Salamander",
+    "motifCategory": "amphibian",
+    "biome": "Wet Woodland",
+    "motif": "spotted salamander"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wet Leaf Paper",
+      "hex": "#F3EFE6",
+      "oklch": "oklch(0.953 0.013 86.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Salamander Black",
+      "hex": "#0E0E10",
+      "oklch": "oklch(0.165 0.004 285.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Gold Spot",
+      "hex": "#F0C000",
+      "oklch": "oklch(0.827 0.169 90.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wet Leaf Brown",
+      "hex": "#6B4A2C",
+      "oklch": "oklch(0.438 0.063 62.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Edge Green",
+      "hex": "#5C6838",
+      "oklch": "oklch(0.495 0.072 120.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Woodland Tan",
+      "hex": "#A7895A",
+      "oklch": "oklch(0.647 0.073 78.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Leaf Margin",
+      "hex": "#E2D5BC",
+      "oklch": "oklch(0.877 0.036 83.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mud Grey",
+      "hex": "#5A5A57",
+      "oklch": "oklch(0.467 0.005 106.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Underlog Shadow",
+      "hex": "#2A221A",
+      "oklch": "oklch(0.259 0.019 66.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.013 86.8)",
+    "foreground": "oklch(0.165 0.004 285.9)",
+    "card": "oklch(0.877 0.036 83.8)",
+    "card-foreground": "oklch(0.165 0.004 285.9)",
+    "popover": "oklch(0.877 0.036 83.8)",
+    "popover-foreground": "oklch(0.165 0.004 285.9)",
+    "primary": "oklch(0.827 0.169 90.5)",
+    "primary-foreground": "oklch(0.953 0.013 86.8)",
+    "secondary": "oklch(0.909 0.026 84.6)",
+    "secondary-foreground": "oklch(0.259 0.019 66.8)",
+    "muted": "oklch(0.898 0.029 82.6)",
+    "muted-foreground": "oklch(0.259 0.019 66.8)",
+    "accent": "oklch(0.495 0.072 120.6)",
+    "accent-foreground": "oklch(0.165 0.004 285.9)",
+    "destructive": "oklch(0.827 0.169 90.5)",
+    "border": "oklch(0.737 0.026 85.8)",
+    "input": "oklch(0.737 0.026 85.8)",
+    "ring": "oklch(0.438 0.063 62.3)",
+    "chart-1": "oklch(0.827 0.169 90.5)",
+    "chart-2": "oklch(0.438 0.063 62.3)",
+    "chart-3": "oklch(0.495 0.072 120.6)",
+    "chart-4": "oklch(0.647 0.073 78.1)",
+    "chart-5": "oklch(0.259 0.019 66.8)",
+    "sidebar": "oklch(0.903 0.029 84.6)",
+    "sidebar-foreground": "oklch(0.165 0.004 285.9)",
+    "sidebar-primary": "oklch(0.827 0.169 90.5)",
+    "sidebar-primary-foreground": "oklch(0.953 0.013 86.8)",
+    "sidebar-accent": "oklch(0.867 0.062 88.8)",
+    "sidebar-accent-foreground": "oklch(0.827 0.169 90.5)",
+    "sidebar-border": "oklch(0.737 0.026 85.8)",
+    "sidebar-ring": "oklch(0.438 0.063 62.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.165 0.004 285.9)",
+    "foreground": "oklch(0.953 0.013 86.8)",
+    "card": "oklch(0.227 0.011 60.9)",
+    "card-foreground": "oklch(0.953 0.013 86.8)",
+    "popover": "oklch(0.227 0.011 60.9)",
+    "popover-foreground": "oklch(0.953 0.013 86.8)",
+    "primary": "oklch(0.438 0.063 62.3)",
+    "primary-foreground": "oklch(0.165 0.004 285.9)",
+    "secondary": "oklch(0.306 0.016 67.2)",
+    "secondary-foreground": "oklch(0.953 0.013 86.8)",
+    "muted": "oklch(0.306 0.016 67.2)",
+    "muted-foreground": "oklch(0.744 0.009 91.5)",
+    "accent": "oklch(0.495 0.072 120.6)",
+    "accent-foreground": "oklch(0.165 0.004 285.9)",
+    "destructive": "oklch(0.827 0.169 90.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.438 0.063 62.3)",
+    "chart-1": "oklch(0.438 0.063 62.3)",
+    "chart-2": "oklch(0.827 0.169 90.5)",
+    "chart-3": "oklch(0.495 0.072 120.6)",
+    "chart-4": "oklch(0.647 0.073 78.1)",
+    "chart-5": "oklch(0.467 0.005 106.6)",
+    "sidebar": "oklch(0.209 0.008 48.3)",
+    "sidebar-foreground": "oklch(0.953 0.013 86.8)",
+    "sidebar-primary": "oklch(0.438 0.063 62.3)",
+    "sidebar-primary-foreground": "oklch(0.165 0.004 285.9)",
+    "sidebar-accent": "oklch(0.306 0.016 67.2)",
+    "sidebar-accent-foreground": "oklch(0.953 0.013 86.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.438 0.063 62.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English science UI with Noto Sans JP guidance for Japanese headings, body copy, labels, field notes, and numeric specimen tables.",
+  "layout": "Compact 8px science grids, gold spot focus markers, wet woodland panels, lab cards, readable specimen tables, and high-contrast dashboard surfaces.",
+  "tags": [
+    "salamander",
+    "amphibian",
+    "wet-woodland",
+    "contrast-rich",
+    "science",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-salamander/motif.png",
+    "board": "/systems/morphous-salamander/design-system-light.png",
+    "darkBoard": "/systems/morphous-salamander/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-salamander/theme.css",
+    "themeJson": "/systems/morphous-salamander/theme.json",
+    "promptsJson": "/systems/morphous-salamander/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent salamander motif source",
+      "asset": "/systems/morphous-salamander/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a spotted salamander motif, isolated full subject, no environment, no props, no text.\nSubject: A realistic spotted salamander with glossy black skin, vivid gold spots, subtle wet leaf brown reflections, accurate amphibian anatomy, delicate feet, visible toes, rounded head, smooth body, and long tapering tail.\nComposition/framing: centered complete full-body cutout with generous padding; do not crop the head, tail, legs, toes, or body silhouette. Natural low walking posture, slightly diagonal so the body shape is clear.\nLighting/mood: clean studio light that preserves glossy black skin, gold spot detail, and wet woodland scientific specimen clarity.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform magenta color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no leaves, no moss, no rocks, no landscape, no decorative background, no second subject, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-salamander/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE design-system board for a Morphous theme named \"Morphous Salamander\" derived from the visible transparent spotted salamander cutout.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable labels.\nReference use: Use the spotted salamander motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from glossy salamander black skin, vivid gold spots, wet leaf brown reflections, damp woodland leaf litter, moss edge support, and underlog shadow.\nRequired visible sections: Morphous Salamander, Spotted Salamander, Palette, Typography, Japanese Typography, Components, Navigation, Science Dashboard, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; labels: Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, lab metric cards, specimen data charts, empty state, loading state, error state, spacing scale, radius samples, border samples, shadow samples, texture samples, and simple science icon treatment.\nStyle/medium: premium shadcn/tweakcn-style contrast-rich science system, realistic product UI mockup, precise grid, 8px card radius, gold spot markers, wet woodland panels, lab-card hierarchy, readable data density.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: salamander black, gold spot, wet leaf brown, woodland tan, moss edge, mud grey, underlog shadow, wet leaf paper.\nComposition: light wet-leaf-paper background, modular panels, small motif preview, clear design token swatches, wide science dashboard preview across the center, compact component groups around it, visible texture strip inspired by glossy skin and leaf litter.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Salamander\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-salamander/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a DARK MODE version of the visible Morphous Salamander design-system board. It must feel like the same system translated to dark mode, not a new theme.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable labels.\nReference use: Use the visible transparent spotted salamander cutout and the visible light-mode Morphous Salamander board as references. Preserve palette roles, gold spot accents, wet woodland texture, component language, Japanese typography, shadcn/tweakcn component coverage, and science dashboard structure.\nRequired visible sections: Morphous Salamander, Spotted Salamander, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Science Dashboard, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from salamander black and underlog shadow, readable text from wet leaf paper, primary accents from gold spot, secondary support from wet leaf brown and moss edge, subtle glossy skin and gold spot texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels: Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数値.\nUI coverage: dark buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar navigation, lab metric cards, specimen data charts, empty state, loading state, error state, spacing scale, radius samples, border samples, shadow samples, texture samples, and simple science icon treatment.\nComposition: one comprehensive dark board, modular panels, small motif preview, clear design token swatches, wide science dashboard preview across the center, compact component groups around it, visible texture strip inspired by glossy salamander skin, gold spots, and wet leaf litter.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible microtext, no watermark, no random brand names, no misspelling of \"Morphous Salamander\"."
+    }
+  ]
+}

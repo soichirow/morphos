@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-fern",
+  "name": "Fern",
+  "motifName": "Unfurling Fern Frond",
+  "motifCategory": "plant",
+  "biome": "temperate forest",
+  "motif": "organic navigation system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Fern light and dark design-system boards: fern green navigation, moss support, loam brown depth, shadowed forest surfaces, and organic routing rhythm.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Organic 8px navigation grids, frond-spine sidebars, leaflet dividers, layered forest panels, and calm pathfinding hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "fern",
+    "plant",
+    "temperate-forest",
+    "organic",
+    "navigation",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Forest Light",
+      "hex": "#f6f8f3"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Ink",
+      "hex": "#1f2a1f"
+    },
+    {
+      "role": "Primary",
+      "name": "Fern Green",
+      "hex": "#4f7f3a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#6a8f4e"
+    },
+    {
+      "role": "Accent",
+      "name": "New Frond",
+      "hex": "#a7c97a"
+    },
+    {
+      "role": "Signal",
+      "name": "Loam Brown",
+      "hex": "#6b4e2e"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Moss",
+      "hex": "#dde7c9"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Shadow",
+      "hex": "#45533a"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Loam",
+      "hex": "#34291f"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

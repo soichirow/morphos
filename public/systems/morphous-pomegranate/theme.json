@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pomegranate",
+    "name": "Morphous Pomegranate",
+    "motifName": "Pomegranate Split",
+    "motifCategory": "fruit",
+    "biome": "Orchard",
+    "motif": "pomegranate split"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pith Cream",
+      "hex": "#fff3e5",
+      "oklch": "oklch(0.970 0.023 71.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Rind Ink",
+      "hex": "#2a1112",
+      "oklch": "oklch(0.216 0.042 18.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pomegranate Red",
+      "hex": "#b7192b",
+      "oklch": "oklch(0.502 0.189 22.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ruby Aril",
+      "hex": "#d73a4a",
+      "oklch": "oklch(0.588 0.193 20.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#5f7f3a",
+      "oklch": "oklch(0.556 0.104 129.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Aril Shine",
+      "hex": "#e56b76",
+      "oklch": "oklch(0.677 0.152 16.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Pith",
+      "hex": "#f4dfc8",
+      "oklch": "oklch(0.915 0.038 69.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rind Dust",
+      "hex": "#9c6c5d",
+      "oklch": "oklch(0.577 0.066 38.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Orchard Bark",
+      "hex": "#5a3025",
+      "oklch": "oklch(0.360 0.064 35.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.023 71.8)",
+    "foreground": "oklch(0.216 0.042 18.6)",
+    "card": "oklch(0.915 0.038 69.9)",
+    "card-foreground": "oklch(0.216 0.042 18.6)",
+    "popover": "oklch(0.915 0.038 69.9)",
+    "popover-foreground": "oklch(0.216 0.042 18.6)",
+    "primary": "oklch(0.502 0.189 22.9)",
+    "primary-foreground": "oklch(0.970 0.023 71.8)",
+    "secondary": "oklch(0.937 0.032 68.9)",
+    "secondary-foreground": "oklch(0.360 0.064 35.6)",
+    "muted": "oklch(0.931 0.034 71.7)",
+    "muted-foreground": "oklch(0.360 0.064 35.6)",
+    "accent": "oklch(0.556 0.104 129.8)",
+    "accent-foreground": "oklch(0.216 0.042 18.6)",
+    "destructive": "oklch(0.502 0.189 22.9)",
+    "border": "oklch(0.797 0.045 57.0)",
+    "input": "oklch(0.797 0.045 57.0)",
+    "ring": "oklch(0.588 0.193 20.1)",
+    "chart-1": "oklch(0.502 0.189 22.9)",
+    "chart-2": "oklch(0.588 0.193 20.1)",
+    "chart-3": "oklch(0.556 0.104 129.8)",
+    "chart-4": "oklch(0.677 0.152 16.5)",
+    "chart-5": "oklch(0.360 0.064 35.6)",
+    "sidebar": "oklch(0.934 0.033 70.3)",
+    "sidebar-foreground": "oklch(0.216 0.042 18.6)",
+    "sidebar-primary": "oklch(0.502 0.189 22.9)",
+    "sidebar-primary-foreground": "oklch(0.970 0.023 71.8)",
+    "sidebar-accent": "oklch(0.858 0.050 46.8)",
+    "sidebar-accent-foreground": "oklch(0.502 0.189 22.9)",
+    "sidebar-border": "oklch(0.797 0.045 57.0)",
+    "sidebar-ring": "oklch(0.588 0.193 20.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.216 0.042 18.6)",
+    "foreground": "oklch(0.970 0.023 71.8)",
+    "card": "oklch(0.313 0.057 30.3)",
+    "card-foreground": "oklch(0.970 0.023 71.8)",
+    "popover": "oklch(0.313 0.057 30.3)",
+    "popover-foreground": "oklch(0.970 0.023 71.8)",
+    "primary": "oklch(0.588 0.193 20.1)",
+    "primary-foreground": "oklch(0.216 0.042 18.6)",
+    "secondary": "oklch(0.410 0.065 36.1)",
+    "secondary-foreground": "oklch(0.970 0.023 71.8)",
+    "muted": "oklch(0.410 0.065 36.1)",
+    "muted-foreground": "oklch(0.797 0.038 48.2)",
+    "accent": "oklch(0.556 0.104 129.8)",
+    "accent-foreground": "oklch(0.216 0.042 18.6)",
+    "destructive": "oklch(0.502 0.189 22.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.588 0.193 20.1)",
+    "chart-1": "oklch(0.588 0.193 20.1)",
+    "chart-2": "oklch(0.502 0.189 22.9)",
+    "chart-3": "oklch(0.556 0.104 129.8)",
+    "chart-4": "oklch(0.677 0.152 16.5)",
+    "chart-5": "oklch(0.577 0.066 38.1)",
+    "sidebar": "oklch(0.284 0.052 28.0)",
+    "sidebar-foreground": "oklch(0.970 0.023 71.8)",
+    "sidebar-primary": "oklch(0.588 0.193 20.1)",
+    "sidebar-primary-foreground": "oklch(0.216 0.042 18.6)",
+    "sidebar-accent": "oklch(0.410 0.065 36.1)",
+    "sidebar-accent-foreground": "oklch(0.970 0.023 71.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.588 0.193 20.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Editorial product UI with strong English hierarchy, Japanese guidance, story-friendly labels, and precise dashboard numbers.",
+  "layout": "Rich 8px grids, aril-dot texture, rind-line navigation, storytelling panels, and dense data components.",
+  "tags": [
+    "pomegranate",
+    "fruit",
+    "orchard",
+    "ruby",
+    "storytelling",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pomegranate/motif.png",
+    "board": "/systems/morphous-pomegranate/design-system-light.png",
+    "darkBoard": "/systems/morphous-pomegranate/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pomegranate/theme.css",
+    "themeJson": "/systems/morphous-pomegranate/theme.json",
+    "promptsJson": "/systems/morphous-pomegranate/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent pomegranate split motif",
+      "asset": "/systems/morphous-pomegranate/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Pomegranate transparent motif chroma-key source\nPrimary request: Create only a split pomegranate motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A ripe pomegranate split open to reveal ruby arils, deep red leathery rind, cream pith membranes, small orchard leaf-green leaves, woody stem, and rich fruit shadows. Botanical accuracy, crisp cutout edges, rich storytelling identity.\nComposition/framing: centered complete cutout with generous padding; include split fruit, crown, leaves, and stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no apple, no grapefruit, no raspberry, no bowl, no hand, no orchard landscape, no text, no watermark, no loose aril pile dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-pomegranate/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Pomegranate light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Pomegranate\", derived from a split pomegranate cutout. This board is a source reference for a shadcn/tweakcn-compatible storytelling UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Pomegranate, Pomegranate Split, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from deep red rind, ruby arils, cream pith membranes, leaf-green orchard accents, woody stem browns, and rich fruit shadows. The board must read as pomegranate, not raspberry, cranberry, or generic red brand.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: rich storytelling system, 8px radius, pith-cream surfaces, pomegranate-red primary actions, ruby aril badges and chart points, leaf-green status, orchard-bark borders, rind-ink text, aril-dot texture, rind-line dividers.\nConstraints: no raspberry drupelet texture, no apple branding, no generic red gradient, no wine imagery, no unrelated neon colors, no watermark, no random brand names, no misspelling of \"Morphous Pomegranate\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-pomegranate/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Pomegranate dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Pomegranate\". It must feel like the light-mode board translated to dark mode and remain derived from the split pomegranate cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Pomegranate, Pomegranate Split, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve pomegranate-red active states, ruby aril highlights, cream pith text, rind-ink and orchard-bark dark surfaces, leaf-green status, aril-dot texture, storytelling panels, and 8px shadcn/tweakcn grid. Must read as pomegranate, not raspberry or generic red.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: rind-ink dark backgrounds, orchard-bark cards, cream pith foreground, pomegranate-red buttons, ruby chart points, leaf-green success, subtle aril-dot and pith-line overlays, crisp editorial controls.\nConstraints: no raspberry, no wine, no neon red, no pure-black flat background, no generic red dashboard, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Pomegranate\"."
+    }
+  ]
+}

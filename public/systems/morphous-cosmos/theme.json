@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cosmos",
+    "name": "Cosmos",
+    "motifName": "Pink Cosmos Flowers",
+    "motifCategory": "flower",
+    "biome": "autumn meadow",
+    "motif": "airy community system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Air",
+      "hex": "#fff7f4",
+      "oklch": "oklch(0.981 0.009 41.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Ink",
+      "hex": "#252018",
+      "oklch": "oklch(0.246 0.016 79.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cosmos Pink",
+      "hex": "#dc6f98",
+      "oklch": "oklch(0.679 0.143 357.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fern Green",
+      "hex": "#557d4a",
+      "oklch": "oklch(0.546 0.088 139.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Golden Center",
+      "hex": "#d7a22e",
+      "oklch": "oklch(0.743 0.139 82.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Petal Rose",
+      "hex": "#ef9db7",
+      "oklch": "oklch(0.784 0.102 359.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Petal",
+      "hex": "#f9e3ea",
+      "oklch": "oklch(0.936 0.026 356.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Autumn Grass",
+      "hex": "#a7a873",
+      "oklch": "oklch(0.718 0.072 109.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Meadow Soil",
+      "hex": "#49382c",
+      "oklch": "oklch(0.356 0.031 56.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.009 41.9)",
+    "foreground": "oklch(0.246 0.016 79.5)",
+    "card": "oklch(0.936 0.026 356.3)",
+    "card-foreground": "oklch(0.246 0.016 79.5)",
+    "popover": "oklch(0.936 0.026 356.3)",
+    "popover-foreground": "oklch(0.246 0.016 79.5)",
+    "primary": "oklch(0.679 0.143 357.8)",
+    "primary-foreground": "oklch(0.981 0.009 41.9)",
+    "secondary": "oklch(0.954 0.019 5.3)",
+    "secondary-foreground": "oklch(0.356 0.031 56.7)",
+    "muted": "oklch(0.949 0.020 2.3)",
+    "muted-foreground": "oklch(0.356 0.031 56.7)",
+    "accent": "oklch(0.743 0.139 82.2)",
+    "accent-foreground": "oklch(0.246 0.016 79.5)",
+    "destructive": "oklch(0.679 0.143 357.8)",
+    "border": "oklch(0.858 0.025 71.4)",
+    "input": "oklch(0.858 0.025 71.4)",
+    "ring": "oklch(0.546 0.088 139.1)",
+    "chart-1": "oklch(0.679 0.143 357.8)",
+    "chart-2": "oklch(0.546 0.088 139.1)",
+    "chart-3": "oklch(0.743 0.139 82.2)",
+    "chart-4": "oklch(0.784 0.102 359.2)",
+    "chart-5": "oklch(0.356 0.031 56.7)",
+    "sidebar": "oklch(0.951 0.019 5.3)",
+    "sidebar-foreground": "oklch(0.246 0.016 79.5)",
+    "sidebar-primary": "oklch(0.679 0.143 357.8)",
+    "sidebar-primary-foreground": "oklch(0.981 0.009 41.9)",
+    "sidebar-accent": "oklch(0.904 0.039 355.8)",
+    "sidebar-accent-foreground": "oklch(0.679 0.143 357.8)",
+    "sidebar-border": "oklch(0.858 0.025 71.4)",
+    "sidebar-ring": "oklch(0.546 0.088 139.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.246 0.016 79.5)",
+    "foreground": "oklch(0.981 0.009 41.9)",
+    "card": "oklch(0.320 0.027 61.9)",
+    "card-foreground": "oklch(0.981 0.009 41.9)",
+    "popover": "oklch(0.320 0.027 61.9)",
+    "popover-foreground": "oklch(0.981 0.009 41.9)",
+    "primary": "oklch(0.546 0.088 139.1)",
+    "primary-foreground": "oklch(0.246 0.016 79.5)",
+    "secondary": "oklch(0.442 0.037 79.5)",
+    "secondary-foreground": "oklch(0.981 0.009 41.9)",
+    "muted": "oklch(0.442 0.037 79.5)",
+    "muted-foreground": "oklch(0.863 0.034 99.6)",
+    "accent": "oklch(0.743 0.139 82.2)",
+    "accent-foreground": "oklch(0.246 0.016 79.5)",
+    "destructive": "oklch(0.679 0.143 357.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.546 0.088 139.1)",
+    "chart-1": "oklch(0.546 0.088 139.1)",
+    "chart-2": "oklch(0.679 0.143 357.8)",
+    "chart-3": "oklch(0.743 0.139 82.2)",
+    "chart-4": "oklch(0.784 0.102 359.2)",
+    "chart-5": "oklch(0.718 0.072 109.0)",
+    "sidebar": "oklch(0.298 0.024 64.0)",
+    "sidebar-foreground": "oklch(0.981 0.009 41.9)",
+    "sidebar-primary": "oklch(0.546 0.088 139.1)",
+    "sidebar-primary-foreground": "oklch(0.246 0.016 79.5)",
+    "sidebar-accent": "oklch(0.442 0.037 79.5)",
+    "sidebar-accent-foreground": "oklch(0.981 0.009 41.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.546 0.088 139.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Airy 8px community grids, fine-stem dividers, petal-light cards, meadow navigation, and open social hierarchy.",
+  "tags": [
+    "cosmos",
+    "flower",
+    "autumn-meadow",
+    "airy",
+    "community",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cosmos/motif.png",
+    "board": "/systems/morphous-cosmos/design-system-light.png",
+    "darkBoard": "/systems/morphous-cosmos/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cosmos/theme.css",
+    "themeJson": "/systems/morphous-cosmos/theme.json",
+    "promptsJson": "/systems/morphous-cosmos/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cosmos motif source",
+      "asset": "/systems/morphous-cosmos/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only pink cosmos flowers with stems, isolated full subject, no environment, no props, no text.\nSubject: A small autumn meadow cosmos sprig with pink petals, golden yellow centers, fern green feathery leaves, slender stems, subtle autumn grass tones, and accurate botanical structure.\nComposition/framing: centered complete cutout with generous padding; do not crop blooms, leaves, or stems.\nLighting/mood: clean studio light that preserves thin petal softness, golden centers, and delicate fern-like foliage.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet, no meadow scene, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cosmos/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Cosmos\" derived from the visible transparent pink cosmos flowers cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from cosmos pink petals, golden centers, fern green leaves, slender stems, autumn grass muted tones, and meadow soil shadows in the visible cosmos cutout.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Cosmos, Pink Cosmos Flowers, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style community system, realistic UI mockup, precise grid, 8px card radius, airy petal surfaces, fine-stem dividers, open meadow hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: cosmos pink, petal rose, golden center, fern green, meadow air, pale petal, autumn grass, seed ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Cosmos\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cosmos/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Cosmos design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent pink cosmos cutout and the visible light-mode Morphous Cosmos board as references. The light and dark design-system boards are the source references for coding any future theme, so preserve palette roles, component language, airy petal texture, fine-stem dividers, spacing, Japanese typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Cosmos, Pink Cosmos Flowers, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from seed ink and meadow soil, light text from meadow air, primary accents from cosmos pink, secondary accents from petal rose and fern green, golden center focus and charts, autumn grass muted borders, subtle fine-petal overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Cosmos\"."
+    }
+  ]
+}

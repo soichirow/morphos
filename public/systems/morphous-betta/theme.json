@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-betta",
+    "name": "Morphous Betta Fish",
+    "motifName": "Betta Fins",
+    "motifCategory": "fish",
+    "biome": "Aquatic Tank",
+    "motif": "betta fins"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tank Pearl",
+      "hex": "#f3f7f5",
+      "oklch": "oklch(0.973 0.005 165.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Royal Depth",
+      "hex": "#121936",
+      "oklch": "oklch(0.225 0.057 271.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Betta Crimson",
+      "hex": "#c61f39",
+      "oklch": "oklch(0.535 0.198 20.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Royal Blue",
+      "hex": "#2850b8",
+      "oklch": "oklch(0.467 0.171 264.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fin Teal",
+      "hex": "#169c9c",
+      "oklch": "oklch(0.629 0.104 194.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Aqua Flash",
+      "hex": "#61c7c6",
+      "oklch": "oklch(0.769 0.095 194.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Glass Water",
+      "hex": "#dcefed",
+      "oklch": "oklch(0.938 0.020 189.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Midnight Tank",
+      "hex": "#0b1024",
+      "oklch": "oklch(0.180 0.042 271.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.005 165.0)",
+    "foreground": "oklch(0.225 0.057 271.0)",
+    "card": "oklch(0.938 0.020 189.2)",
+    "card-foreground": "oklch(0.225 0.057 271.0)",
+    "popover": "oklch(0.938 0.020 189.2)",
+    "popover-foreground": "oklch(0.225 0.057 271.0)",
+    "primary": "oklch(0.535 0.198 20.2)",
+    "primary-foreground": "oklch(0.973 0.005 165.0)",
+    "secondary": "oklch(0.952 0.013 185.1)",
+    "secondary-foreground": "oklch(0.180 0.042 271.1)",
+    "muted": "oklch(0.946 0.016 187.3)",
+    "muted-foreground": "oklch(0.180 0.042 271.1)",
+    "accent": "oklch(0.629 0.104 194.8)",
+    "accent-foreground": "oklch(0.225 0.057 271.0)",
+    "destructive": "oklch(0.535 0.198 20.2)",
+    "border": "oklch(0.768 0.060 255.7)",
+    "input": "oklch(0.768 0.060 255.7)",
+    "ring": "oklch(0.467 0.171 264.6)",
+    "chart-1": "oklch(0.535 0.198 20.2)",
+    "chart-2": "oklch(0.467 0.171 264.6)",
+    "chart-3": "oklch(0.629 0.104 194.8)",
+    "chart-4": "oklch(0.769 0.095 194.5)",
+    "chart-5": "oklch(0.180 0.042 271.1)",
+    "sidebar": "oklch(0.950 0.015 186.7)",
+    "sidebar-foreground": "oklch(0.225 0.057 271.0)",
+    "sidebar-primary": "oklch(0.535 0.198 20.2)",
+    "sidebar-primary-foreground": "oklch(0.973 0.005 165.0)",
+    "sidebar-accent": "oklch(0.879 0.004 354.7)",
+    "sidebar-accent-foreground": "oklch(0.535 0.198 20.2)",
+    "sidebar-border": "oklch(0.768 0.060 255.7)",
+    "sidebar-ring": "oklch(0.467 0.171 264.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.225 0.057 271.0)",
+    "foreground": "oklch(0.973 0.005 165.0)",
+    "card": "oklch(0.195 0.047 270.5)",
+    "card-foreground": "oklch(0.973 0.005 165.0)",
+    "popover": "oklch(0.195 0.047 270.5)",
+    "popover-foreground": "oklch(0.973 0.005 165.0)",
+    "primary": "oklch(0.467 0.171 264.6)",
+    "primary-foreground": "oklch(0.225 0.057 271.0)",
+    "secondary": "oklch(0.249 0.075 266.9)",
+    "secondary-foreground": "oklch(0.973 0.005 165.0)",
+    "muted": "oklch(0.249 0.075 266.9)",
+    "muted-foreground": "oklch(0.746 0.070 266.4)",
+    "accent": "oklch(0.629 0.104 194.8)",
+    "accent-foreground": "oklch(0.225 0.057 271.0)",
+    "destructive": "oklch(0.535 0.198 20.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.467 0.171 264.6)",
+    "chart-1": "oklch(0.467 0.171 264.6)",
+    "chart-2": "oklch(0.535 0.198 20.2)",
+    "chart-3": "oklch(0.629 0.104 194.8)",
+    "chart-4": "oklch(0.769 0.095 194.5)",
+    "chart-5": "oklch(0.467 0.171 264.6)",
+    "sidebar": "oklch(0.205 0.050 271.2)",
+    "sidebar-foreground": "oklch(0.973 0.005 165.0)",
+    "sidebar-primary": "oklch(0.467 0.171 264.6)",
+    "sidebar-primary-foreground": "oklch(0.225 0.057 271.0)",
+    "sidebar-accent": "oklch(0.249 0.075 266.9)",
+    "sidebar-accent-foreground": "oklch(0.973 0.005 165.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.467 0.171 264.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for expressive English creator UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Fluid 8px grids, fin-ripple texture, vivid command surfaces, soft shadow layers, and creator-focused navigation.",
+  "tags": [
+    "betta",
+    "fish",
+    "aquatic",
+    "crimson",
+    "creator",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-betta/motif.png",
+    "board": "/systems/morphous-betta/design-system-light.png",
+    "darkBoard": "/systems/morphous-betta/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-betta/theme.css",
+    "themeJson": "/systems/morphous-betta/theme.json",
+    "promptsJson": "/systems/morphous-betta/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent betta fish motif",
+      "asset": "/systems/morphous-betta/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout, chroma-key source\nPrimary request: Create only a betta fins motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A single betta fish with dramatic flowing fins, crimson body and fin edges, royal-blue depth, teal iridescent highlights, translucent fin membranes, compact head, and elegant aquarium-fish posture. It must clearly read as a betta fish, not koi, goldfish, guppy, or tropical reef fish.\nComposition/framing: centered complete cutout with generous padding; include full flowing fins, body, and tail without cropping. Clean studio lighting that preserves natural fish texture and fin translucency.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or vignette. Do not use #ff00ff anywhere in the subject.\nConstraints: no aquarium tank scene, no plants, no bubbles, no multiple fish, no koi markings, no props, no cast shadow, no contact shadow, no reflection, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-betta/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Betta Fish light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Betta Fish\", derived from the visible betta fins cutout in this conversation. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution board, 4K-class look, clean professional UI design-system presentation, readable at gallery preview size.\nRequired visible sections: Morphous Betta Fish, Betta Fins, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from crimson fins, royal-blue body depth, teal iridescence, aqua flashes, glass-water surfaces, translucent fin membranes, and midnight tank shadows. The board must read as betta fish fins, not koi, goldfish, coral reef, or generic tropical fish.\nTypography: English product UI examples with Japanese typography guidance; include short readable labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文. Keep all text large and legible around saturated fin colors.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius scale, border, shadow, texture samples, simple UI icons.\nStyle: fluid creator system, precise 8px grid, 8px card radius, light tank-pearl background, glass-water surfaces, betta-crimson primary actions, royal-blue active panels, fin-teal focus rings, aqua status states, translucent fin-ripple texture, vivid command/search surface, soft layered shadows.\nColor palette: crimson, teal, royal blue, aqua flash, midnight tank, glass water, tank pearl, deep ink; use only motif-derived colors plus near-neutrals.\nConstraints: no koi pattern, no goldfish, no coral reef theme, no generic purple gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Betta Fish\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-betta/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Betta Fish dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Betta Fish\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible betta fins cutout.\nCanvas: wide 16:9 high-resolution board, 4K-class look, clean professional UI design-system presentation, readable at gallery preview size.\nRequired visible sections: Morphous Betta Fish, Betta Fins, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same betta system language as the visible light board: midnight tank panels, royal-blue depth, crimson actions, teal focus, aqua status, translucent fin textures, fluid navigation, and precise shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; include short readable labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文. Keep all text large and legible on dark saturated surfaces.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius scale, border, shadow, texture samples, simple UI icons.\nVisual details: dark royal panels, midnight tank background, pale glass text, crimson active states, teal focus rings, aqua chart highlights, fin-ripple overlays, soft luminous shadows, crisp 8px cards, subtle aquatic glass texture.\nColor palette: deep ink, midnight tank, royal blue, betta crimson, fin teal, aqua flash, glass water, pearl text; use only motif-derived colors plus dark near-neutrals.\nConstraints: no koi, no goldfish, no neon coral reef overload, no pure-black-only flat background, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Betta Fish\", no illegible tiny paragraphs."
+    }
+  ]
+}

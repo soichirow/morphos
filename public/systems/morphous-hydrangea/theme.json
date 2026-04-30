@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hydrangea",
+    "name": "Hydrangea",
+    "motifName": "Blue Hydrangea Cluster",
+    "motifCategory": "flower",
+    "biome": "rain garden",
+    "motif": "blue hydrangea cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Rain White",
+      "hex": "#f7f9fb",
+      "oklch": "oklch(0.981 0.003 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Ink",
+      "hex": "#2a2f36",
+      "oklch": "oklch(0.303 0.014 256.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Periwinkle Bloom",
+      "hex": "#7fa6f3",
+      "oklch": "oklch(0.728 0.121 263.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#5fa66a",
+      "oklch": "oklch(0.663 0.114 147.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Hydrangea Blue",
+      "hex": "#4e79c8",
+      "oklch": "oklch(0.583 0.131 261.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Rain Grey",
+      "hex": "#a8b0bb",
+      "oklch": "oklch(0.754 0.018 256.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Petal",
+      "hex": "#e7eef9",
+      "oklch": "oklch(0.947 0.017 259.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Misty Leaf",
+      "hex": "#c7e1d4",
+      "oklch": "oklch(0.887 0.033 164.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Damp Soil",
+      "hex": "#6b635f",
+      "oklch": "oklch(0.506 0.012 48.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.003 247.9)",
+    "foreground": "oklch(0.303 0.014 256.8)",
+    "card": "oklch(0.947 0.017 259.4)",
+    "card-foreground": "oklch(0.303 0.014 256.8)",
+    "popover": "oklch(0.947 0.017 259.4)",
+    "popover-foreground": "oklch(0.303 0.014 256.8)",
+    "primary": "oklch(0.728 0.121 263.2)",
+    "primary-foreground": "oklch(0.981 0.003 247.9)",
+    "secondary": "oklch(0.962 0.011 256.7)",
+    "secondary-foreground": "oklch(0.506 0.012 48.5)",
+    "muted": "oklch(0.956 0.014 258.3)",
+    "muted-foreground": "oklch(0.506 0.012 48.5)",
+    "accent": "oklch(0.583 0.131 261.6)",
+    "accent-foreground": "oklch(0.303 0.014 256.8)",
+    "destructive": "oklch(0.728 0.121 263.2)",
+    "border": "oklch(0.924 0.015 212.0)",
+    "input": "oklch(0.924 0.015 212.0)",
+    "ring": "oklch(0.663 0.114 147.8)",
+    "chart-1": "oklch(0.728 0.121 263.2)",
+    "chart-2": "oklch(0.663 0.114 147.8)",
+    "chart-3": "oklch(0.583 0.131 261.6)",
+    "chart-4": "oklch(0.754 0.018 256.3)",
+    "chart-5": "oklch(0.506 0.012 48.5)",
+    "sidebar": "oklch(0.959 0.013 255.5)",
+    "sidebar-foreground": "oklch(0.303 0.014 256.8)",
+    "sidebar-primary": "oklch(0.728 0.121 263.2)",
+    "sidebar-primary-foreground": "oklch(0.981 0.003 247.9)",
+    "sidebar-accent": "oklch(0.920 0.028 263.4)",
+    "sidebar-accent-foreground": "oklch(0.728 0.121 263.2)",
+    "sidebar-border": "oklch(0.924 0.015 212.0)",
+    "sidebar-ring": "oklch(0.663 0.114 147.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.303 0.014 256.8)",
+    "foreground": "oklch(0.981 0.003 247.9)",
+    "card": "oklch(0.439 0.005 17.4)",
+    "card-foreground": "oklch(0.981 0.003 247.9)",
+    "popover": "oklch(0.439 0.005 17.4)",
+    "popover-foreground": "oklch(0.981 0.003 247.9)",
+    "primary": "oklch(0.663 0.114 147.8)",
+    "primary-foreground": "oklch(0.303 0.014 256.8)",
+    "secondary": "oklch(0.595 0.009 106.7)",
+    "secondary-foreground": "oklch(0.981 0.003 247.9)",
+    "muted": "oklch(0.595 0.009 106.7)",
+    "muted-foreground": "oklch(0.938 0.015 171.0)",
+    "accent": "oklch(0.583 0.131 261.6)",
+    "accent-foreground": "oklch(0.303 0.014 256.8)",
+    "destructive": "oklch(0.728 0.121 263.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.663 0.114 147.8)",
+    "chart-1": "oklch(0.663 0.114 147.8)",
+    "chart-2": "oklch(0.728 0.121 263.2)",
+    "chart-3": "oklch(0.583 0.131 261.6)",
+    "chart-4": "oklch(0.754 0.018 256.3)",
+    "chart-5": "oklch(0.887 0.033 164.1)",
+    "sidebar": "oklch(0.400 0.004 308.4)",
+    "sidebar-foreground": "oklch(0.981 0.003 247.9)",
+    "sidebar-primary": "oklch(0.663 0.114 147.8)",
+    "sidebar-primary-foreground": "oklch(0.303 0.014 256.8)",
+    "sidebar-accent": "oklch(0.595 0.009 106.7)",
+    "sidebar-accent-foreground": "oklch(0.981 0.003 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.663 0.114 147.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Soft 8px knowledge-base grids, bloom-cluster panels, rainline dividers, readable documentation cards, and calm rainy hierarchy.",
+  "tags": [
+    "hydrangea",
+    "flower",
+    "rain-garden",
+    "periwinkle-blue",
+    "leaf-green",
+    "knowledge-base",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hydrangea/motif.png",
+    "board": "/systems/morphous-hydrangea/design-system-light.png",
+    "darkBoard": "/systems/morphous-hydrangea/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hydrangea/theme.css",
+    "themeJson": "/systems/morphous-hydrangea/theme.json",
+    "promptsJson": "/systems/morphous-hydrangea/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hydrangea motif source",
+      "asset": "/systems/morphous-hydrangea/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a blue hydrangea flower cluster with leaves, isolated full subject, no environment, no props, no text.\nSubject: A rain garden hydrangea cluster with periwinkle blue florets, pale petal variation, leaf green foliage, subtle rain-grey details in shadow creases, and accurate botanical structure.\nComposition/framing: centered complete cutout with generous padding; do not crop the flower cluster or leaves. The cluster should read clearly as one cohesive hydrangea head with a few natural leaves.\nLighting/mood: clean studio light that preserves layered florets, leaf veins, and soft knowledge-base calm.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet wrapper, no rain scene, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hydrangea/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, wide source asset\nPrimary request: Create a WIDE 16:9 landscape design-system board for \"Morphous Hydrangea\" based on the visible hydrangea motif cutout. The final composition must be a landscape 4K-style board, visually equivalent to 3840 x 2160, not square and not portrait.\nReference image role: the visible blue hydrangea cutout is the source motif; derive palette and texture from periwinkle blue petals, pale petal highlights, leaf green foliage, rain grey shadows, misty leaf tones, damp soil depth, wet ink, and rain white.\nLayout requirement: use large readable panels across a 16:9 canvas with generous margins and fewer, bigger token rows so preview labels remain legible.\nMood: soft knowledge-base system for a rain garden, calm, precise, readable, shadcn/tweakcn-compatible.\nRequired visible sections with large labels: Morphous Hydrangea, Blue Hydrangea Cluster, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar navigation, dashboard metric cards, charts, empty/loading/error states, radius/spacing/border/shadow samples.\nVisual style: premium light-mode UI board, rain-white background, 8px radius cards, bloom-cluster grouping, rainline dividers, hydrangea petal texture, restrained leaf-green support accents.\nText: short readable labels only; include Geist and Noto Sans JP examples.\nConstraints: no dark mode, no unrelated colors, no generic purple/blue gradients, no watermark, no random brands, no misspelling of \"Morphous Hydrangea\", no tiny unreadable tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hydrangea/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, wide source asset\nPrimary request: Generate a dark-mode version of the visible Morphous Hydrangea light design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference image roles: the visible blue hydrangea cutout is the motif source; the visible light-mode board is the layout and component-language source. Preserve palette roles, component coverage, bloom-cluster grouping, rainline dividers, spacing, Japanese typography guidance, and shadcn/tweakcn UI coverage.\nCanvas: WIDE 16:9 landscape board, visually equivalent to 3840 x 2160, not square and not portrait. Use large readable labels and fewer bigger token rows.\nRequired visible sections: Morphous Hydrangea, Blue Hydrangea Cluster, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from wet ink and damp soil, light text from rain white, primary accents from periwinkle bloom, secondary accents from hydrangea blue and leaf green, rain grey borders, misty leaf status colors, subtle floret overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar navigation, dashboard metric cards, charts, empty/loading/error states, radius/spacing/border/shadow samples.\nText: short readable UI labels only; make section headings and token names large enough for preview downscaling.\nConstraints: no neon colors, no unrelated saturated colors, no purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Hydrangea\", no tiny unreadable tables."
+    }
+  ]
+}

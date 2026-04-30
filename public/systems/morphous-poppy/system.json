@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-poppy",
+  "name": "Morphous Poppy",
+  "motifName": "Red Poppy Bloom",
+  "motifCategory": "flower",
+  "biome": "Grassland",
+  "motif": "bold campaign bloom",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Poppy light and dark design-system boards: poppy red actions, black seed contrast, green stems, wheat tan fields, and bold campaign clarity.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Bold 8px campaign grids, petal-sweep sections, seed-dot status marks, grassline dividers, and high-contrast editorial rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "poppy",
+    "flower",
+    "grassland",
+    "bold",
+    "campaign",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Wheat Light", "hex": "#fff1dc" },
+    { "role": "Ink", "name": "Seed Black", "hex": "#171313" },
+    { "role": "Primary", "name": "Poppy Red", "hex": "#d9251d" },
+    { "role": "Secondary", "name": "Stem Green", "hex": "#557542" },
+    { "role": "Accent", "name": "Petal Coral", "hex": "#ef5a45" },
+    { "role": "Signal", "name": "Wheat Tan", "hex": "#d4a15d" },
+    { "role": "Surface", "name": "Pale Field", "hex": "#f8dfbd" },
+    { "role": "Muted", "name": "Dry Grass", "hex": "#a7a06c" },
+    { "role": "Depth", "name": "Root Umber", "hex": "#4a3227" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-acorn",
+  "name": "Morphous Acorn",
+  "motifName": "Acorn",
+  "motifCategory": "plant",
+  "biome": "oak woodland",
+  "motif": "acorn and oak leaf",
+  "description": "A shadcn/tweakcn-compatible system derived from acorn and oak leaf: oak-brown primary depth, leaf-green controls, tan cap texture, woodland cream surfaces, and grounded knowledge structure.",
+  "typography": "Grounded knowledge UI with sturdy English hierarchy, careful numbers, and Japanese typography guidance.",
+  "layout": "Structured knowledge grids, acorn cap texture, oak-leaf navigation, 8px radii, firm borders, and readable tables.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "acorn",
+    "plant",
+    "oak",
+    "woodland",
+    "knowledge",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Woodland Cream",
+      "hex": "#f5ead5"
+    },
+    {
+      "role": "Ink",
+      "name": "Oak Ink",
+      "hex": "#21170f"
+    },
+    {
+      "role": "Primary",
+      "name": "Oak Brown",
+      "hex": "#7b4c2a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Acorn Tan",
+      "hex": "#b8874f"
+    },
+    {
+      "role": "Accent",
+      "name": "Cap Umber",
+      "hex": "#8d6137"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#5f783f"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Cream",
+      "hex": "#e9d5b9"
+    },
+    {
+      "role": "Muted",
+      "name": "Oak Leaf",
+      "hex": "#7f9559"
+    },
+    {
+      "role": "Depth",
+      "name": "Soil Brown",
+      "hex": "#4c3321"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

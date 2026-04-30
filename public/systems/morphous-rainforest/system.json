@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-rainforest",
+  "name": "Morphous Rainforest",
+  "motifName": "Rainforest",
+  "motifCategory": "landscape",
+  "biome": "Tropical Forest",
+  "motif": "rainforest canopy",
+  "description": "A shadcn/tweakcn-compatible system coded from the Rainforest light and dark design-system boards: deep-emerald actions, mist-green surfaces, bark-brown depth, dense canopy rhythm, and monitoring-dashboard clarity.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Dense 8px product grids, canopy-layer separators, misted monitoring panels, compact environmental charts, and tropical-forest hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "rainforest",
+    "landscape",
+    "tropical",
+    "dense",
+    "monitoring",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Green",
+      "hex": "#edf6e9"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Ink",
+      "hex": "#112018"
+    },
+    {
+      "role": "Primary",
+      "name": "Deep Emerald",
+      "hex": "#166b3a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#4f9a52"
+    },
+    {
+      "role": "Accent",
+      "name": "Fern Light",
+      "hex": "#9ac95f"
+    },
+    {
+      "role": "Signal",
+      "name": "Canopy Lime",
+      "hex": "#78b83d"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Mist",
+      "hex": "#d8ead4"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Shadow",
+      "hex": "#6f8565"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Brown",
+      "hex": "#4b3528"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

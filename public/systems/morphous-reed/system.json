@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-reed",
+  "name": "Morphous Reed",
+  "motifName": "Reed Plume",
+  "motifCategory": "plant",
+  "biome": "marsh",
+  "motif": "marsh reed plume geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from marsh reed plumes: taupe seed heads, reed-green stems, water-grey surfaces, upright field structure, and durable operational controls.",
+  "typography": "Geist for English field UI with Noto Sans JP guidance for compact Japanese forms, coordinates, and tabular labels.",
+  "layout": "Structured 8px grids, vertical reed dividers, field-table density, low shadows, and marsh-water rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "reed",
+    "plant",
+    "marsh",
+    "taupe",
+    "field",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Marsh Paper",
+      "hex": "#f4f2ea"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2f312a"
+    },
+    {
+      "role": "Primary",
+      "name": "Reed Green",
+      "hex": "#697b48"
+    },
+    {
+      "role": "Secondary",
+      "name": "Taupe Plume",
+      "hex": "#b59b7d"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Grey",
+      "hex": "#8fa0a0"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Olive",
+      "hex": "#4f6234"
+    },
+    {
+      "role": "Surface",
+      "name": "Dry Reed",
+      "hex": "#e2d8c4"
+    },
+    {
+      "role": "Muted",
+      "name": "Marsh Green",
+      "hex": "#78935b"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Taupe",
+      "hex": "#6b5c4e"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

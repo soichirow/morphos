@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-raspberry",
+    "name": "Morphous Raspberry",
+    "motifName": "Ripe Raspberry Cane",
+    "motifCategory": "plant",
+    "biome": "Temperate Bramble",
+    "motif": "cane bramble geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Pith",
+      "hex": "#fff7ea",
+      "oklch": "oklch(0.979 0.019 80.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Berry Ink",
+      "hex": "#261116",
+      "oklch": "oklch(0.210 0.036 5.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Raspberry Red",
+      "hex": "#c81e4a",
+      "oklch": "oklch(0.541 0.201 14.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ripe Drupelet",
+      "hex": "#e83f63",
+      "oklch": "oklch(0.626 0.204 13.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Seed Gold",
+      "hex": "#d8a236",
+      "oklch": "oklch(0.745 0.135 80.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cane Green",
+      "hex": "#4f7c45",
+      "oklch": "oklch(0.539 0.096 140.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Cream",
+      "hex": "#f5ead8",
+      "oklch": "oklch(0.941 0.027 80.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Green",
+      "hex": "#7aa35a",
+      "oklch": "oklch(0.668 0.111 132.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bramble Brown",
+      "hex": "#5a3828",
+      "oklch": "oklch(0.377 0.055 45.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.019 80.1)",
+    "foreground": "oklch(0.210 0.036 5.3)",
+    "card": "oklch(0.941 0.027 80.2)",
+    "card-foreground": "oklch(0.210 0.036 5.3)",
+    "popover": "oklch(0.941 0.027 80.2)",
+    "popover-foreground": "oklch(0.210 0.036 5.3)",
+    "primary": "oklch(0.541 0.201 14.1)",
+    "primary-foreground": "oklch(0.979 0.019 80.1)",
+    "secondary": "oklch(0.956 0.023 78.2)",
+    "secondary-foreground": "oklch(0.377 0.055 45.8)",
+    "muted": "oklch(0.952 0.025 81.1)",
+    "muted-foreground": "oklch(0.377 0.055 45.8)",
+    "accent": "oklch(0.745 0.135 80.7)",
+    "accent-foreground": "oklch(0.210 0.036 5.3)",
+    "destructive": "oklch(0.541 0.201 14.1)",
+    "border": "oklch(0.809 0.080 17.0)",
+    "input": "oklch(0.809 0.080 17.0)",
+    "ring": "oklch(0.626 0.204 13.4)",
+    "chart-1": "oklch(0.541 0.201 14.1)",
+    "chart-2": "oklch(0.626 0.204 13.4)",
+    "chart-3": "oklch(0.745 0.135 80.7)",
+    "chart-4": "oklch(0.539 0.096 140.0)",
+    "chart-5": "oklch(0.377 0.055 45.8)",
+    "sidebar": "oklch(0.953 0.024 79.7)",
+    "sidebar-foreground": "oklch(0.210 0.036 5.3)",
+    "sidebar-primary": "oklch(0.541 0.201 14.1)",
+    "sidebar-primary-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-accent": "oklch(0.886 0.037 41.2)",
+    "sidebar-accent-foreground": "oklch(0.541 0.201 14.1)",
+    "sidebar-border": "oklch(0.809 0.080 17.0)",
+    "sidebar-ring": "oklch(0.626 0.204 13.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.036 5.3)",
+    "foreground": "oklch(0.979 0.019 80.1)",
+    "card": "oklch(0.323 0.046 38.0)",
+    "card-foreground": "oklch(0.979 0.019 80.1)",
+    "popover": "oklch(0.323 0.046 38.0)",
+    "popover-foreground": "oklch(0.979 0.019 80.1)",
+    "primary": "oklch(0.626 0.204 13.4)",
+    "primary-foreground": "oklch(0.210 0.036 5.3)",
+    "secondary": "oklch(0.429 0.089 26.1)",
+    "secondary-foreground": "oklch(0.979 0.019 80.1)",
+    "muted": "oklch(0.429 0.089 26.1)",
+    "muted-foreground": "oklch(0.800 0.097 12.2)",
+    "accent": "oklch(0.745 0.135 80.7)",
+    "accent-foreground": "oklch(0.210 0.036 5.3)",
+    "destructive": "oklch(0.541 0.201 14.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.626 0.204 13.4)",
+    "chart-1": "oklch(0.626 0.204 13.4)",
+    "chart-2": "oklch(0.541 0.201 14.1)",
+    "chart-3": "oklch(0.745 0.135 80.7)",
+    "chart-4": "oklch(0.539 0.096 140.0)",
+    "chart-5": "oklch(0.626 0.204 13.4)",
+    "sidebar": "oklch(0.290 0.043 31.2)",
+    "sidebar-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-primary": "oklch(0.626 0.204 13.4)",
+    "sidebar-primary-foreground": "oklch(0.210 0.036 5.3)",
+    "sidebar-accent": "oklch(0.429 0.089 26.1)",
+    "sidebar-accent-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.626 0.204 13.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English product UI with measured numeric rhythm, compact labels, and calm dashboard hierarchy.",
+  "layout": "Precise 8px product grids, bramble-cane separators, seed-dot texture accents, dense dashboard cards, and botanical raspberry hierarchy.",
+  "tags": [
+    "raspberry",
+    "plant",
+    "bramble",
+    "fruit",
+    "fresh",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-raspberry/motif.png",
+    "board": "/systems/morphous-raspberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-raspberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-raspberry/theme.css",
+    "themeJson": "/systems/morphous-raspberry/theme.json",
+    "promptsJson": "/systems/morphous-raspberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent raspberry cane motif",
+      "asset": "/systems/morphous-raspberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Raspberry transparent motif chroma-key source\nPrimary request: Create only a ripe raspberry cane botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A natural raspberry cane with clusters of ripe raspberry-red berries, visible drupelet texture, tiny seed-gold highlights, cane-green stems, serrated leaf-green leaves, fine thorn details, and bramble-brown woody cane segments. Botanical accuracy, crisp subject edges, rich fruit texture, no grapes.\nComposition/framing: centered complete cutout with generous padding; include berries, leaves, and stems without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no grapes, no grapevine, no bowl, no hand, no props, no landscape, no text, no watermark, no loose fruit pile, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-raspberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Raspberry light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Raspberry\", derived from the visible ripe raspberry cane cutout in context. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Raspberry, Ripe Raspberry Cane, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from raspberry-red fruit, dark drupelet shadows, seed-gold highlights, cane-green stems, serrated leaf greens, cream botanical highlights, bramble-brown woody cane, and deep berry ink shadows. The board must read as raspberry, not grape.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, cream product surfaces, raspberry red primary actions, seed-gold highlight chips, cane-line dividers, leaf-green success states, bramble-brown borders, deep berry ink text, subtle raspberry drupelet seed-dot texture.\nConstraints: no grapes, no grape leaves, no wine imagery, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Raspberry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-raspberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Raspberry dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Raspberry\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible ripe raspberry cane cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Raspberry, Ripe Raspberry Cane, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same raspberry system language as the visible light board: raspberry-red primary actions, dark berry ink backgrounds, bramble-brown surfaces and borders, cream text, seed-gold highlights, cane-green controls, leaf-green success states, cane-line dividers, raspberry drupelet seed-dot texture, 8px radius, precise shadcn/tweakcn component grid. Must read as raspberry, not grape.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep berry ink and bramble-brown dark surfaces, cream foreground, raspberry red active states, seed-gold chart highlights, cane green focus/control accents, leaf green success, subtle raspberry seed texture overlays, restrained contrast, crisp cards and controls.\nConstraints: no grapes, no grape leaves, no wine imagery, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Raspberry\"."
+    }
+  ]
+}

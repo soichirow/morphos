@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-toucan",
+    "name": "Morphous Toucan",
+    "motifName": "Toucan",
+    "motifCategory": "bird",
+    "biome": "Rainforest",
+    "motif": "toucan beak"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Canopy Cream",
+      "hex": "#fff7e6",
+      "oklch": "oklch(0.978 0.024 85.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Toucan Black",
+      "hex": "#0b0d0e",
+      "oklch": "oklch(0.157 0.004 229.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Banana Yellow",
+      "hex": "#ffd100",
+      "oklch": "oklch(0.875 0.179 92.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rainforest Teal",
+      "hex": "#008ca5",
+      "oklch": "oklch(0.590 0.105 216.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Beak Orange",
+      "hex": "#ff8a00",
+      "oklch": "oklch(0.747 0.180 57.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#5faf3a",
+      "oklch": "oklch(0.679 0.171 137.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Beak Ivory",
+      "hex": "#fff2d1",
+      "oklch": "oklch(0.963 0.045 89.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Canopy Moss",
+      "hex": "#47523f",
+      "oklch": "oklch(0.423 0.034 132.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Jungle Shade",
+      "hex": "#0f1f17",
+      "oklch": "oklch(0.222 0.027 161.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.024 85.8)",
+    "foreground": "oklch(0.157 0.004 229.1)",
+    "card": "oklch(0.963 0.045 89.1)",
+    "card-foreground": "oklch(0.157 0.004 229.1)",
+    "popover": "oklch(0.963 0.045 89.1)",
+    "popover-foreground": "oklch(0.157 0.004 229.1)",
+    "primary": "oklch(0.875 0.179 92.7)",
+    "primary-foreground": "oklch(0.978 0.024 85.8)",
+    "secondary": "oklch(0.969 0.036 87.8)",
+    "secondary-foreground": "oklch(0.222 0.027 161.4)",
+    "muted": "oklch(0.966 0.039 87.6)",
+    "muted-foreground": "oklch(0.222 0.027 161.4)",
+    "accent": "oklch(0.747 0.180 57.4)",
+    "accent-foreground": "oklch(0.157 0.004 229.1)",
+    "destructive": "oklch(0.875 0.179 92.7)",
+    "border": "oklch(0.779 0.039 98.9)",
+    "input": "oklch(0.779 0.039 98.9)",
+    "ring": "oklch(0.590 0.105 216.2)",
+    "chart-1": "oklch(0.875 0.179 92.7)",
+    "chart-2": "oklch(0.590 0.105 216.2)",
+    "chart-3": "oklch(0.747 0.180 57.4)",
+    "chart-4": "oklch(0.679 0.171 137.4)",
+    "chart-5": "oklch(0.222 0.027 161.4)",
+    "sidebar": "oklch(0.969 0.038 89.1)",
+    "sidebar-foreground": "oklch(0.157 0.004 229.1)",
+    "sidebar-primary": "oklch(0.875 0.179 92.7)",
+    "sidebar-primary-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-accent": "oklch(0.950 0.072 92.7)",
+    "sidebar-accent-foreground": "oklch(0.875 0.179 92.7)",
+    "sidebar-border": "oklch(0.779 0.039 98.9)",
+    "sidebar-ring": "oklch(0.590 0.105 216.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.157 0.004 229.1)",
+    "foreground": "oklch(0.978 0.024 85.8)",
+    "card": "oklch(0.201 0.019 164.6)",
+    "card-foreground": "oklch(0.978 0.024 85.8)",
+    "popover": "oklch(0.201 0.019 164.6)",
+    "popover-foreground": "oklch(0.978 0.024 85.8)",
+    "primary": "oklch(0.590 0.105 216.2)",
+    "primary-foreground": "oklch(0.157 0.004 229.1)",
+    "secondary": "oklch(0.268 0.028 154.9)",
+    "secondary-foreground": "oklch(0.978 0.024 85.8)",
+    "muted": "oklch(0.268 0.028 154.9)",
+    "muted-foreground": "oklch(0.742 0.025 109.6)",
+    "accent": "oklch(0.747 0.180 57.4)",
+    "accent-foreground": "oklch(0.157 0.004 229.1)",
+    "destructive": "oklch(0.875 0.179 92.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.590 0.105 216.2)",
+    "chart-1": "oklch(0.590 0.105 216.2)",
+    "chart-2": "oklch(0.875 0.179 92.7)",
+    "chart-3": "oklch(0.747 0.180 57.4)",
+    "chart-4": "oklch(0.679 0.171 137.4)",
+    "chart-5": "oklch(0.423 0.034 132.3)",
+    "sidebar": "oklch(0.186 0.014 169.8)",
+    "sidebar-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-primary": "oklch(0.590 0.105 216.2)",
+    "sidebar-primary-foreground": "oklch(0.157 0.004 229.1)",
+    "sidebar-accent": "oklch(0.268 0.028 154.9)",
+    "sidebar-accent-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.590 0.105 216.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for lively content UI with Noto Sans JP guidance for multilingual headings, labels, and numeric rhythm.",
+  "layout": "Bold 8px grids, beak-block dividers, high-signal content cards, rainforest navigation, and editorial dashboard surfaces.",
+  "tags": [
+    "toucan",
+    "bird",
+    "rainforest",
+    "lively",
+    "content",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-toucan/motif.png",
+    "board": "/systems/morphous-toucan/design-system-light.png",
+    "darkBoard": "/systems/morphous-toucan/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-toucan/theme.css",
+    "themeJson": "/systems/morphous-toucan/theme.json",
+    "promptsJson": "/systems/morphous-toucan/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent toucan motif source",
+      "asset": "/systems/morphous-toucan/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a toucan beak motif, isolated full subject, no environment, no props, no text.\nSubject: A lively toucan head and oversized beak profile with banana yellow, black, teal, orange, and subtle rainforest green, accurate anatomy, glossy beak material, and crisp natural edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the beak, eye, or head silhouette.\nLighting/mood: clean studio light that preserves saturated beak color and feather detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-toucan/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Toucan\" derived from the transparent toucan beak cutout.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the banana yellow, black, teal, orange, and rainforest tones.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nRequired visible sections: Morphous Toucan, Toucan, Palette, Typography, Japanese Typography, Components, Navigation, Content Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, content cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style lively content system, precise grid, 8px card radius, bold beak-block dividers, rainforest editorial clarity.\nColor palette: use only motif-derived banana yellow, black, teal, orange, leaf green, canopy neutrals, and jungle shade.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Toucan\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-toucan/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Toucan design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Use the transparent toucan cutout and the light-mode Morphous Toucan board as references. Preserve palette roles, beak-block dividers, rainforest texture, component language, spacing, typography, and shadcn/tweakcn coverage.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nRequired visible sections: Morphous Toucan, Toucan, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Content Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from toucan black and jungle shade, readable text from canopy cream, primary accents from banana yellow and beak orange, navigation and charts from rainforest teal, subtle canopy texture overlays, crisp shadcn-style cards and controls.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

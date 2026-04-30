@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-luna-moth",
+    "name": "Morphous Luna Moth",
+    "motifName": "Luna Moth Wings",
+    "motifCategory": "insect",
+    "biome": "Night Forest",
+    "motif": "moonlit wing softness"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moon White",
+      "hex": "#f4f7ed",
+      "oklch": "oklch(0.971 0.014 120.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Charcoal",
+      "hex": "#222820",
+      "oklch": "oklch(0.268 0.017 137.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Luna Mint",
+      "hex": "#b8e3c2",
+      "oklch": "oklch(0.876 0.064 152.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fern Shadow",
+      "hex": "#60745c",
+      "oklch": "oklch(0.536 0.044 140.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moon Vein",
+      "hex": "#d9f0d8",
+      "oklch": "oklch(0.932 0.040 144.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Antenna Amber",
+      "hex": "#caa46a",
+      "oklch": "oklch(0.740 0.088 77.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Powder",
+      "hex": "#e6efe1",
+      "oklch": "oklch(0.941 0.021 134.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Night Lichen",
+      "hex": "#9aa995",
+      "oklch": "oklch(0.717 0.033 137.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Charcoal",
+      "hex": "#30382f",
+      "oklch": "oklch(0.330 0.019 142.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.014 120.3)",
+    "foreground": "oklch(0.268 0.017 137.9)",
+    "card": "oklch(0.941 0.021 134.1)",
+    "card-foreground": "oklch(0.268 0.017 137.9)",
+    "popover": "oklch(0.941 0.021 134.1)",
+    "popover-foreground": "oklch(0.268 0.017 137.9)",
+    "primary": "oklch(0.876 0.064 152.0)",
+    "primary-foreground": "oklch(0.971 0.014 120.3)",
+    "secondary": "oklch(0.953 0.017 128.7)",
+    "secondary-foreground": "oklch(0.330 0.019 142.1)",
+    "muted": "oklch(0.949 0.019 130.2)",
+    "muted-foreground": "oklch(0.330 0.019 142.1)",
+    "accent": "oklch(0.932 0.040 144.1)",
+    "accent-foreground": "oklch(0.268 0.017 137.9)",
+    "destructive": "oklch(0.876 0.064 152.0)",
+    "border": "oklch(0.863 0.025 135.7)",
+    "input": "oklch(0.863 0.025 135.7)",
+    "ring": "oklch(0.536 0.044 140.4)",
+    "chart-1": "oklch(0.876 0.064 152.0)",
+    "chart-2": "oklch(0.536 0.044 140.4)",
+    "chart-3": "oklch(0.932 0.040 144.1)",
+    "chart-4": "oklch(0.740 0.088 77.3)",
+    "chart-5": "oklch(0.330 0.019 142.1)",
+    "sidebar": "oklch(0.952 0.019 130.2)",
+    "sidebar-foreground": "oklch(0.268 0.017 137.9)",
+    "sidebar-primary": "oklch(0.876 0.064 152.0)",
+    "sidebar-primary-foreground": "oklch(0.971 0.014 120.3)",
+    "sidebar-accent": "oklch(0.934 0.027 140.2)",
+    "sidebar-accent-foreground": "oklch(0.876 0.064 152.0)",
+    "sidebar-border": "oklch(0.863 0.025 135.7)",
+    "sidebar-ring": "oklch(0.536 0.044 140.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.268 0.017 137.9)",
+    "foreground": "oklch(0.971 0.014 120.3)",
+    "card": "oklch(0.310 0.019 142.1)",
+    "card-foreground": "oklch(0.971 0.014 120.3)",
+    "popover": "oklch(0.310 0.019 142.1)",
+    "popover-foreground": "oklch(0.971 0.014 120.3)",
+    "primary": "oklch(0.536 0.044 140.4)",
+    "primary-foreground": "oklch(0.268 0.017 137.9)",
+    "secondary": "oklch(0.422 0.023 140.4)",
+    "secondary-foreground": "oklch(0.971 0.014 120.3)",
+    "muted": "oklch(0.422 0.023 140.4)",
+    "muted-foreground": "oklch(0.860 0.022 130.0)",
+    "accent": "oklch(0.932 0.040 144.1)",
+    "accent-foreground": "oklch(0.268 0.017 137.9)",
+    "destructive": "oklch(0.876 0.064 152.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.536 0.044 140.4)",
+    "chart-1": "oklch(0.536 0.044 140.4)",
+    "chart-2": "oklch(0.876 0.064 152.0)",
+    "chart-3": "oklch(0.932 0.040 144.1)",
+    "chart-4": "oklch(0.740 0.088 77.3)",
+    "chart-5": "oklch(0.717 0.033 137.8)",
+    "sidebar": "oklch(0.296 0.017 141.7)",
+    "sidebar-foreground": "oklch(0.971 0.014 120.3)",
+    "sidebar-primary": "oklch(0.536 0.044 140.4)",
+    "sidebar-primary-foreground": "oklch(0.268 0.017 137.9)",
+    "sidebar-accent": "oklch(0.422 0.023 140.4)",
+    "sidebar-accent-foreground": "oklch(0.971 0.014 120.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.536 0.044 140.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm product UI with Noto Sans guidance for multilingual labels, gentle hierarchy, and measured numeric rhythm.",
+  "layout": "Precise 8px grids, soft wing-arc panels, moonlit dividers, low-noise dashboard cards, and quiet nocturne spacing.",
+  "tags": [
+    "luna-moth",
+    "moth",
+    "insect",
+    "night-forest",
+    "quiet",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-luna-moth/motif.png",
+    "board": "/systems/morphous-luna-moth/design-system-light.png",
+    "darkBoard": "/systems/morphous-luna-moth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-luna-moth/theme.css",
+    "themeJson": "/systems/morphous-luna-moth/theme.json",
+    "promptsJson": "/systems/morphous-luna-moth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Luna Moth motif",
+      "asset": "/systems/morphous-luna-moth/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma source\nPrimary request: Create only a luna moth, isolated full subject, no environment, no props, no text.\nSubject: A full luna moth with accurate moth anatomy, open pale mint wings, long tapering hindwing tails, moon-white powder highlights, subtle translucent wing veining, soft rounded wing eye spots, delicate feathered antennae, and bark-charcoal body detail with natural shadows.\nComposition/framing: centered complete cutout with generous padding; show both forewings, hindwings, tails, antennae, legs, and body without cropping. Symmetrical specimen-like pose, crisp isolated edges.\nLighting/mood: clean studio light preserving pale mint green, moon-white highlights, soft wing powder, accurate vein detail, and natural moth texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for local removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, glow, or lighting variation. Do not use #ff00ff or magenta anywhere in the moth.\nNegative constraints: no butterflies, no monarch markings, no dragonflies, no grapes, no strawberries, no parrots, no maple leaves, no flowers, no branch perch, no night forest background, no second moth, no text, no watermark, no fantasy glow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-luna-moth/design-system-light.png",
+      "prompt": "Create a single wide 16:9 high-resolution light-mode design-system source board for \"Morphous Luna Moth\" / \"Luna Moth Wings\". Use an isolated full luna moth motif as the source of truth: pale mint wings, moon-white powder highlights, long tapering tails, subtle eyespots, delicate antennae, bark-charcoal body detail, translucent wing veins, and a quiet night forest mood. Include readable English and Japanese typography guidance plus Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, and Generated Assets. Use motif-derived Luna Mint, Moon White, Bark Charcoal, Fern Shadow, Moon Vein, Antenna Amber, Wing Powder, Night Lichen, and Forest Charcoal; show shadcn/tweakcn buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar/top navigation, dashboard charts, empty/loading/error states, wing-vein textures, 8px radius, spacing, border, shadow, and semantic tokens. Exclude butterflies, monarch patterns, dragonflies, grapes, strawberries, parrots, maple leaves, unrelated bright colors, generic purple or blue gradients, stock UI kit styling, random brands, watermarks, illegible microtext, and misspellings."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-luna-moth/design-system-dark.png",
+      "prompt": "Create a single wide 16:9 high-resolution dark-mode design-system source board for \"Morphous Luna Moth\" / \"Luna Moth Wings\", translated from the light board and the same luna moth motif. Preserve the same palette roles, component language, soft wing-arc panels, typography hierarchy, 8px radius rhythm, wing-vein textures, eyespot accent dots, and quiet shadcn/tweakcn component grid. Use bark-charcoal and forest-charcoal dark surfaces, moon-white readable text, luminous pale mint primary accents, nocturne green support, antenna amber focus accents, powdery wing overlays, and crisp cards and controls. Include readable English and Japanese typography guidance plus Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, and Generated Assets. Exclude neon colors, flat pure-black-only backgrounds, unrelated saturated colors, generic purple or blue gradients, butterflies, monarch patterns, dragonflies, grapes, strawberries, parrots, maple leaves, stock UI kit styling, random brands, watermarks, illegible microtext, and misspellings."
+    }
+  ]
+}

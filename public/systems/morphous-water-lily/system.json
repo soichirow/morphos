@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-water-lily",
+  "name": "Morphous Water Lily",
+  "motifName": "Water Lily Bloom",
+  "motifCategory": "flower",
+  "biome": "pond",
+  "motif": "pond water lily bloom geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from pond water lilies: white petals, yellow centers, green pads, soft water depth, and serene interface structure.",
+  "typography": "Geist for clear English wellness UI with Noto Sans JP guidance for quiet Japanese labels, numerals, and readable form rhythm.",
+  "layout": "Serene 8px grids, lily-pad surfaces, petal-tab grouping, gentle water shadows, and calm dashboard spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "water-lily",
+    "flower",
+    "pond",
+    "white",
+    "serene",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Mist",
+      "hex": "#f5f7f2"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pond Ink",
+      "hex": "#1f2c2a"
+    },
+    {
+      "role": "Primary",
+      "name": "Lily Pad Green",
+      "hex": "#4f7d58"
+    },
+    {
+      "role": "Secondary",
+      "name": "White Petal",
+      "hex": "#fffaf0"
+    },
+    {
+      "role": "Accent",
+      "name": "Yellow Center",
+      "hex": "#d9ad3b"
+    },
+    {
+      "role": "Signal",
+      "name": "Pond Teal",
+      "hex": "#5f9a92"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Water",
+      "hex": "#dfece7"
+    },
+    {
+      "role": "Success",
+      "name": "Pad Vein",
+      "hex": "#6c9b63"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Shadow",
+      "hex": "#4a5141"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-persimmon",
+    "name": "Morphous Persimmon",
+    "motifName": "Persimmon",
+    "motifCategory": "fruit",
+    "biome": "autumn orchard",
+    "motif": "persimmon fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Orchard Cream",
+      "hex": "#fff1df",
+      "oklch": "oklch(0.964 0.028 74.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Branch Ink",
+      "hex": "#24170e",
+      "oklch": "oklch(0.219 0.027 55.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Persimmon Orange",
+      "hex": "#e97824",
+      "oklch": "oklch(0.690 0.165 51.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ripe Fruit",
+      "hex": "#f09a3f",
+      "oklch": "oklch(0.758 0.145 63.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Autumn Gold",
+      "hex": "#d8a23a",
+      "oklch": "oklch(0.745 0.133 80.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Calyx Green",
+      "hex": "#596f36",
+      "oklch": "oklch(0.510 0.086 126.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fruit Cream",
+      "hex": "#f4dec3",
+      "oklch": "oklch(0.912 0.043 72.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Orchard Leaf",
+      "hex": "#829858",
+      "oklch": "oklch(0.647 0.092 124.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Branch Brown",
+      "hex": "#6e4328",
+      "oklch": "oklch(0.427 0.072 51.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.964 0.028 74.3)",
+    "foreground": "oklch(0.219 0.027 55.5)",
+    "card": "oklch(0.912 0.043 72.9)",
+    "card-foreground": "oklch(0.219 0.027 55.5)",
+    "popover": "oklch(0.912 0.043 72.9)",
+    "popover-foreground": "oklch(0.219 0.027 55.5)",
+    "primary": "oklch(0.690 0.165 51.4)",
+    "primary-foreground": "oklch(0.964 0.028 74.3)",
+    "secondary": "oklch(0.934 0.037 72.6)",
+    "secondary-foreground": "oklch(0.427 0.072 51.9)",
+    "muted": "oklch(0.926 0.039 72.4)",
+    "muted-foreground": "oklch(0.427 0.072 51.9)",
+    "accent": "oklch(0.745 0.133 80.1)",
+    "accent-foreground": "oklch(0.219 0.027 55.5)",
+    "destructive": "oklch(0.690 0.165 51.4)",
+    "border": "oklch(0.854 0.084 69.8)",
+    "input": "oklch(0.854 0.084 69.8)",
+    "ring": "oklch(0.758 0.145 63.5)",
+    "chart-1": "oklch(0.690 0.165 51.4)",
+    "chart-2": "oklch(0.758 0.145 63.5)",
+    "chart-3": "oklch(0.745 0.133 80.1)",
+    "chart-4": "oklch(0.510 0.086 126.6)",
+    "chart-5": "oklch(0.427 0.072 51.9)",
+    "sidebar": "oklch(0.929 0.038 71.2)",
+    "sidebar-foreground": "oklch(0.219 0.027 55.5)",
+    "sidebar-primary": "oklch(0.690 0.165 51.4)",
+    "sidebar-primary-foreground": "oklch(0.964 0.028 74.3)",
+    "sidebar-accent": "oklch(0.883 0.058 67.8)",
+    "sidebar-accent-foreground": "oklch(0.690 0.165 51.4)",
+    "sidebar-border": "oklch(0.854 0.084 69.8)",
+    "sidebar-ring": "oklch(0.758 0.145 63.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.219 0.027 55.5)",
+    "foreground": "oklch(0.964 0.028 74.3)",
+    "card": "oklch(0.360 0.058 52.4)",
+    "card-foreground": "oklch(0.964 0.028 74.3)",
+    "popover": "oklch(0.360 0.058 52.4)",
+    "popover-foreground": "oklch(0.964 0.028 74.3)",
+    "primary": "oklch(0.758 0.145 63.5)",
+    "primary-foreground": "oklch(0.219 0.027 55.5)",
+    "secondary": "oklch(0.504 0.090 56.6)",
+    "secondary-foreground": "oklch(0.964 0.028 74.3)",
+    "muted": "oklch(0.504 0.090 56.6)",
+    "muted-foreground": "oklch(0.867 0.084 69.2)",
+    "accent": "oklch(0.745 0.133 80.1)",
+    "accent-foreground": "oklch(0.219 0.027 55.5)",
+    "destructive": "oklch(0.690 0.165 51.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.758 0.145 63.5)",
+    "chart-1": "oklch(0.758 0.145 63.5)",
+    "chart-2": "oklch(0.690 0.165 51.4)",
+    "chart-3": "oklch(0.745 0.133 80.1)",
+    "chart-4": "oklch(0.510 0.086 126.6)",
+    "chart-5": "oklch(0.758 0.145 63.5)",
+    "sidebar": "oklch(0.318 0.049 52.3)",
+    "sidebar-foreground": "oklch(0.964 0.028 74.3)",
+    "sidebar-primary": "oklch(0.758 0.145 63.5)",
+    "sidebar-primary-foreground": "oklch(0.219 0.027 55.5)",
+    "sidebar-accent": "oklch(0.504 0.090 56.6)",
+    "sidebar-accent-foreground": "oklch(0.964 0.028 74.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.758 0.145 63.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Seasonal retail English UI with clear commerce hierarchy, stable numerals, and Japanese typography guidance.",
+  "layout": "Warm retail grids, calyx-shaped accents, orchard branch separators, 8px radii, orange status cues, and clear tables.",
+  "tags": [
+    "persimmon",
+    "fruit",
+    "autumn",
+    "orchard",
+    "retail",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-persimmon/motif.png",
+    "board": "/systems/morphous-persimmon/design-system-light.png",
+    "darkBoard": "/systems/morphous-persimmon/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-persimmon/theme.css",
+    "themeJson": "/systems/morphous-persimmon/theme.json",
+    "promptsJson": "/systems/morphous-persimmon/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent persimmon fruit motif",
+      "asset": "/systems/morphous-persimmon/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Persimmon transparent motif chroma-key source\nPrimary request: Create only a persimmon fruit motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: An autumn orchard persimmon branch with glossy orange persimmon fruit, square green-brown calyx, warm brown branch, cream highlights, and a few muted autumn leaves. Botanical accuracy, crisp subject edges, smooth fruit texture, unmistakably persimmon.\nComposition/framing: centered complete cutout with generous padding; include fruit, calyx, branch, and leaves without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no tomato, no orange citrus, no pumpkin, no apple, no basket, no hand, no props, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-persimmon/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Persimmon light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Persimmon\", derived from the visible persimmon fruit cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible seasonal retail UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Persimmon, Persimmon Fruit, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from orange persimmon fruit, brown branch, cream fruit highlights, calyx green, autumn gold, and orchard leaf tones. The board must read as persimmon, not tomato, orange citrus, or pumpkin.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, orchard-cream surfaces, persimmon-orange primary actions, autumn-gold badges, calyx-green controls, branch-brown dividers, smooth fruit highlight texture.\nConstraints: no tomato identity, no orange citrus slices, no pumpkin, no generic orange-only palette, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Persimmon\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-persimmon/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Persimmon dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Persimmon\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the persimmon fruit cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Persimmon, Persimmon Fruit, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve persimmon system language: persimmon-orange active states, autumn-gold highlights, calyx-green controls, branch-brown borders, orchard-cream text, smooth fruit texture, 8px radius, precise shadcn/tweakcn component grid. Must read as persimmon, not tomato, citrus, or pumpkin.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep branch ink and brown dark surfaces, orchard-cream foreground, persimmon-orange active states, autumn-gold chart highlights, calyx green focus/control accents, subtle fruit sheen overlays, crisp cards and controls.\nConstraints: no tomato identity, no orange citrus, no pumpkin, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Persimmon\"."
+    }
+  ]
+}

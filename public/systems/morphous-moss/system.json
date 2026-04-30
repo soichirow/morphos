@@ -1,0 +1,44 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-moss",
+  "name": "Moss",
+  "motifName": "Moss Cushion",
+  "motifCategory": "plant",
+  "biome": "rainforest floor",
+  "motif": "soft tactile dashboard system",
+  "description": "A shadcn/tweakcn-compatible system coded from the Moss light and dark boards: deep moss controls, lime dew focus, soil depth, soft cushion surfaces, and tactile dashboard density.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Soft 8px dashboard grids, cushion-like metric cards, dew-dot focus states, moss-fiber dividers, and grounded operational hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "moss",
+    "plant",
+    "rainforest-floor",
+    "soft",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Dew Light", "hex": "#f1f6e7" },
+    { "role": "Ink", "name": "Soil Ink", "hex": "#1d2118" },
+    { "role": "Primary", "name": "Deep Moss", "hex": "#3f6f2b" },
+    { "role": "Secondary", "name": "Lime Moss", "hex": "#8bbf3f" },
+    { "role": "Accent", "name": "Dew Grey", "hex": "#b8c7bf" },
+    { "role": "Signal", "name": "Soil Brown", "hex": "#5b4631" },
+    { "role": "Surface", "name": "Soft Cushion", "hex": "#dfeacd" },
+    { "role": "Muted", "name": "Rain Shadow", "hex": "#7d8f76" },
+    { "role": "Depth", "name": "Wet Soil", "hex": "#302719" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

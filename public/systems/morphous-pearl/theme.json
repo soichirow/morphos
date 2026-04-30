@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pearl",
+    "name": "Morphous Pearl",
+    "motifName": "Pearl Surface",
+    "motifCategory": "mineral",
+    "biome": "Oyster Bed",
+    "motif": "pearl surface"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Nacre Ivory",
+      "hex": "#fbf8ef",
+      "oklch": "oklch(0.979 0.012 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Oyster Ink",
+      "hex": "#272523",
+      "oklch": "oklch(0.266 0.005 67.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pearl Blush",
+      "hex": "#c98fa0",
+      "oklch": "oklch(0.711 0.073 359.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shell Silver",
+      "hex": "#aeb4b4",
+      "oklch": "oklch(0.765 0.007 197.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Soft Gold",
+      "hex": "#c7a86a",
+      "oklch": "oklch(0.745 0.088 83.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Nacre Rose",
+      "hex": "#d8aeb8",
+      "oklch": "oklch(0.791 0.051 2.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ivory Sheen",
+      "hex": "#eee9df",
+      "oklch": "oklch(0.935 0.014 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shell Mist",
+      "hex": "#bdb8b0",
+      "oklch": "oklch(0.784 0.013 79.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shell Grey",
+      "hex": "#676a68",
+      "oklch": "oklch(0.521 0.005 157.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.012 91.5)",
+    "foreground": "oklch(0.266 0.005 67.6)",
+    "card": "oklch(0.935 0.014 84.6)",
+    "card-foreground": "oklch(0.266 0.005 67.6)",
+    "popover": "oklch(0.935 0.014 84.6)",
+    "popover-foreground": "oklch(0.266 0.005 67.6)",
+    "primary": "oklch(0.711 0.073 359.9)",
+    "primary-foreground": "oklch(0.979 0.012 91.5)",
+    "secondary": "oklch(0.953 0.013 86.8)",
+    "secondary-foreground": "oklch(0.521 0.005 157.1)",
+    "muted": "oklch(0.947 0.014 84.6)",
+    "muted-foreground": "oklch(0.521 0.005 157.1)",
+    "accent": "oklch(0.745 0.088 83.8)",
+    "accent-foreground": "oklch(0.266 0.005 67.6)",
+    "destructive": "oklch(0.711 0.073 359.9)",
+    "border": "oklch(0.881 0.013 82.4)",
+    "input": "oklch(0.881 0.013 82.4)",
+    "ring": "oklch(0.765 0.007 197.0)",
+    "chart-1": "oklch(0.711 0.073 359.9)",
+    "chart-2": "oklch(0.765 0.007 197.0)",
+    "chart-3": "oklch(0.745 0.088 83.8)",
+    "chart-4": "oklch(0.791 0.051 2.4)",
+    "chart-5": "oklch(0.521 0.005 157.1)",
+    "sidebar": "oklch(0.949 0.014 88.7)",
+    "sidebar-foreground": "oklch(0.266 0.005 67.6)",
+    "sidebar-primary": "oklch(0.711 0.073 359.9)",
+    "sidebar-primary-foreground": "oklch(0.979 0.012 91.5)",
+    "sidebar-accent": "oklch(0.908 0.016 52.5)",
+    "sidebar-accent-foreground": "oklch(0.711 0.073 359.9)",
+    "sidebar-border": "oklch(0.881 0.013 82.4)",
+    "sidebar-ring": "oklch(0.765 0.007 197.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.266 0.005 67.6)",
+    "foreground": "oklch(0.979 0.012 91.5)",
+    "card": "oklch(0.440 0.004 145.5)",
+    "card-foreground": "oklch(0.979 0.012 91.5)",
+    "popover": "oklch(0.440 0.004 145.5)",
+    "popover-foreground": "oklch(0.979 0.012 91.5)",
+    "primary": "oklch(0.765 0.007 197.0)",
+    "primary-foreground": "oklch(0.266 0.005 67.6)",
+    "secondary": "oklch(0.581 0.005 121.6)",
+    "secondary-foreground": "oklch(0.979 0.012 91.5)",
+    "muted": "oklch(0.581 0.005 121.6)",
+    "muted-foreground": "oklch(0.892 0.012 84.6)",
+    "accent": "oklch(0.745 0.088 83.8)",
+    "accent-foreground": "oklch(0.266 0.005 67.6)",
+    "destructive": "oklch(0.711 0.073 359.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.765 0.007 197.0)",
+    "chart-1": "oklch(0.765 0.007 197.0)",
+    "chart-2": "oklch(0.711 0.073 359.9)",
+    "chart-3": "oklch(0.745 0.088 83.8)",
+    "chart-4": "oklch(0.791 0.051 2.4)",
+    "chart-5": "oklch(0.784 0.013 79.8)",
+    "sidebar": "oklch(0.389 0.004 128.6)",
+    "sidebar-foreground": "oklch(0.979 0.012 91.5)",
+    "sidebar-primary": "oklch(0.765 0.007 197.0)",
+    "sidebar-primary-foreground": "oklch(0.266 0.005 67.6)",
+    "sidebar-accent": "oklch(0.581 0.005 121.6)",
+    "sidebar-accent-foreground": "oklch(0.979 0.012 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.765 0.007 197.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Luxury commerce UI with refined English hierarchy, Japanese guidance, elegant labels, and precise price numerals.",
+  "layout": "Polished 8px grids, nacre separators, commerce dashboard panels, and subtle pearl-sheen texture.",
+  "tags": [
+    "pearl",
+    "mineral",
+    "oyster",
+    "luxury",
+    "commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pearl/motif.png",
+    "board": "/systems/morphous-pearl/design-system-light.png",
+    "darkBoard": "/systems/morphous-pearl/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pearl/theme.css",
+    "themeJson": "/systems/morphous-pearl/theme.json",
+    "promptsJson": "/systems/morphous-pearl/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent pearl surface motif",
+      "asset": "/systems/morphous-pearl/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Pearl transparent motif chroma-key source\nPrimary request: Create only a pearl surface motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A luminous natural pearl resting in a small oyster-shell fragment, with ivory nacre, blush iridescence, silver shell grey edges, soft oyster-bed shadows in the shell, and smooth reflective surface. Natural luxury identity, crisp cutout edges, not a plastic bead.\nComposition/framing: centered complete cutout with generous padding; include pearl and partial shell without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no necklace, no jewelry clasp, no model, no beach scene, no soap bubble, no text, no watermark, no loose pile of pearls, no gemstone colors dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-pearl/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Pearl light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Pearl\", derived from a pearl surface cutout. This board is a source reference for a shadcn/tweakcn-compatible luxury commerce UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Pearl, Pearl Surface, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from ivory nacre, blush iridescence, silver shell grey, oyster-bed shadows, soft gold highlights, and polished pearl sheen. The board must read as pearl, not marble, moon, or generic luxury beige.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: luxury commerce system, 8px radius, nacre ivory surfaces, pearl blush primary actions, shell silver controls, soft gold badges, oyster ink text, silver borders, nacre shimmer texture, refined product-table and checkout components.\nConstraints: no marble slab, no moon imagery, no jewelry model, no beige-only palette, no gaudy gold overload, no unrelated neon colors, no watermark, no random brand names, no misspelling of \"Morphous Pearl\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-pearl/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Pearl dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Pearl\". It must feel like the light-mode board translated to dark mode and remain derived from the pearl surface cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Pearl, Pearl Surface, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve pearl blush active states, shell silver controls, soft gold accents, oyster dark surfaces, nacre ivory text, subtle shimmer texture, luxury commerce hierarchy, and 8px shadcn/tweakcn grid. Must read as pearl, not marble or generic luxury.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: oyster-ink dark backgrounds, shell-grey cards, nacre ivory foreground, pearl blush buttons, shell silver borders, soft gold price chips and charts, subtle iridescent sheen overlay, crisp commerce controls.\nConstraints: no marble, no moon, no jewelry-model photography, no pure-black flat background, no gaudy gold UI, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Pearl\"."
+    }
+  ]
+}

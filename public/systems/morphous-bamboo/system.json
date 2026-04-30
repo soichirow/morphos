@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-bamboo",
+  "name": "Morphous Bamboo",
+  "motifName": "Bamboo Culm and Leaves",
+  "motifCategory": "plant",
+  "biome": "Bamboo Grove",
+  "motif": "structured productivity system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Bamboo light and dark design-system boards: bamboo green actions, straw cream surfaces, ink depth, segmented culm structure, and focused productivity rhythm.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Structured 8px productivity grids, culm-segment sidebars, leaf-angle dividers, focused task panels, and calm grove hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "bamboo",
+    "plant",
+    "bamboo-grove",
+    "structured",
+    "productivity",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Straw Cream", "hex": "#f8f0d6" },
+    { "role": "Ink", "name": "Bamboo Ink", "hex": "#162119" },
+    { "role": "Primary", "name": "Bamboo Green", "hex": "#2e7d32" },
+    { "role": "Secondary", "name": "Leaf Green", "hex": "#5daa56" },
+    { "role": "Accent", "name": "New Shoot", "hex": "#a7c957" },
+    { "role": "Signal", "name": "Culm Gold", "hex": "#d6b35c" },
+    { "role": "Surface", "name": "Pale Culm", "hex": "#ebe1c6" },
+    { "role": "Muted", "name": "Grove Shadow", "hex": "#5a6148" },
+    { "role": "Depth", "name": "Dark Grove", "hex": "#1e1f1a" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sandstone",
+    "name": "Morphous Sandstone",
+    "motifName": "Sandstone Texture",
+    "motifCategory": "mineral",
+    "biome": "Desert Cliff",
+    "motif": "sandstone texture"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Desert Page",
+      "hex": "#fbf3e8",
+      "oklch": "oklch(0.967 0.017 76.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cliff Shadow Ink",
+      "hex": "#2c211a",
+      "oklch": "oklch(0.259 0.021 54.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rose Sandstone",
+      "hex": "#c9795f",
+      "oklch": "oklch(0.656 0.108 38.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Layer Ochre",
+      "hex": "#d6a24c",
+      "oklch": "oklch(0.745 0.120 77.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Weathered Tan",
+      "hex": "#b98d6c",
+      "oklch": "oklch(0.677 0.071 58.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sunlit Grain",
+      "hex": "#e0b66f",
+      "oklch": "oklch(0.799 0.102 79.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Sand",
+      "hex": "#efe0ca",
+      "oklch": "oklch(0.913 0.034 77.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Layer",
+      "hex": "#a8846d",
+      "oklch": "oklch(0.642 0.055 54.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Fissure Brown",
+      "hex": "#6a4632",
+      "oklch": "oklch(0.430 0.059 49.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.017 76.1)",
+    "foreground": "oklch(0.259 0.021 54.0)",
+    "card": "oklch(0.913 0.034 77.6)",
+    "card-foreground": "oklch(0.259 0.021 54.0)",
+    "popover": "oklch(0.913 0.034 77.6)",
+    "popover-foreground": "oklch(0.259 0.021 54.0)",
+    "primary": "oklch(0.656 0.108 38.7)",
+    "primary-foreground": "oklch(0.967 0.017 76.1)",
+    "secondary": "oklch(0.936 0.026 76.8)",
+    "secondary-foreground": "oklch(0.430 0.059 49.7)",
+    "muted": "oklch(0.927 0.029 77.5)",
+    "muted-foreground": "oklch(0.430 0.059 49.7)",
+    "accent": "oklch(0.677 0.071 58.1)",
+    "accent-foreground": "oklch(0.259 0.021 54.0)",
+    "destructive": "oklch(0.656 0.108 38.7)",
+    "border": "oklch(0.817 0.039 67.2)",
+    "input": "oklch(0.817 0.039 67.2)",
+    "ring": "oklch(0.745 0.120 77.6)",
+    "chart-1": "oklch(0.656 0.108 38.7)",
+    "chart-2": "oklch(0.745 0.120 77.6)",
+    "chart-3": "oklch(0.677 0.071 58.1)",
+    "chart-4": "oklch(0.799 0.102 79.6)",
+    "chart-5": "oklch(0.430 0.059 49.7)",
+    "sidebar": "oklch(0.930 0.028 76.2)",
+    "sidebar-foreground": "oklch(0.259 0.021 54.0)",
+    "sidebar-primary": "oklch(0.656 0.108 38.7)",
+    "sidebar-primary-foreground": "oklch(0.967 0.017 76.1)",
+    "sidebar-accent": "oklch(0.882 0.039 68.5)",
+    "sidebar-accent-foreground": "oklch(0.656 0.108 38.7)",
+    "sidebar-border": "oklch(0.817 0.039 67.2)",
+    "sidebar-ring": "oklch(0.745 0.120 77.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.259 0.021 54.0)",
+    "foreground": "oklch(0.967 0.017 76.1)",
+    "card": "oklch(0.373 0.047 49.0)",
+    "card-foreground": "oklch(0.967 0.017 76.1)",
+    "popover": "oklch(0.373 0.047 49.0)",
+    "popover-foreground": "oklch(0.967 0.017 76.1)",
+    "primary": "oklch(0.745 0.120 77.6)",
+    "primary-foreground": "oklch(0.259 0.021 54.0)",
+    "secondary": "oklch(0.479 0.058 51.2)",
+    "secondary-foreground": "oklch(0.967 0.017 76.1)",
+    "muted": "oklch(0.479 0.058 51.2)",
+    "muted-foreground": "oklch(0.824 0.032 59.6)",
+    "accent": "oklch(0.677 0.071 58.1)",
+    "accent-foreground": "oklch(0.259 0.021 54.0)",
+    "destructive": "oklch(0.656 0.108 38.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.745 0.120 77.6)",
+    "chart-1": "oklch(0.745 0.120 77.6)",
+    "chart-2": "oklch(0.656 0.108 38.7)",
+    "chart-3": "oklch(0.677 0.071 58.1)",
+    "chart-4": "oklch(0.799 0.102 79.6)",
+    "chart-5": "oklch(0.642 0.055 54.1)",
+    "sidebar": "oklch(0.340 0.040 50.4)",
+    "sidebar-foreground": "oklch(0.967 0.017 76.1)",
+    "sidebar-primary": "oklch(0.745 0.120 77.6)",
+    "sidebar-primary-foreground": "oklch(0.259 0.021 54.0)",
+    "sidebar-accent": "oklch(0.479 0.058 51.2)",
+    "sidebar-accent-foreground": "oklch(0.967 0.017 76.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.745 0.120 77.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Documentation-first English UI with comfortable Japanese guidance, clear body rhythm, and restrained code/table hierarchy.",
+  "layout": "Editorial 8px grids, stratified separators, readable content panels, and fine sandstone grain texture.",
+  "tags": [
+    "sandstone",
+    "mineral",
+    "desert",
+    "documentation",
+    "stratified",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sandstone/motif.png",
+    "board": "/systems/morphous-sandstone/design-system-light.png",
+    "darkBoard": "/systems/morphous-sandstone/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sandstone/theme.css",
+    "themeJson": "/systems/morphous-sandstone/theme.json",
+    "promptsJson": "/systems/morphous-sandstone/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sandstone texture motif",
+      "asset": "/systems/morphous-sandstone/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Sandstone transparent motif chroma-key source\nPrimary request: Create only a desert sandstone rock texture motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural sandstone slab fragment with rose-tan sediment layers, ochre bands, shadow-brown fissures, wind-worn grain, chipped cliff edges, and subtle desert mineral speckles. Geological accuracy, warm documentation identity, clearly stone rather than fabric or parchment.\nComposition/framing: centered complete cutout with generous padding; show the full slab and layered edge without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no sand dune landscape, no paper scroll, no wood, no brick wall, no fossil focus, no hand, no text, no watermark, no loose gravel pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sandstone/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sandstone light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sandstone\", derived from a desert sandstone texture cutout. This board is a source reference for a shadcn/tweakcn-compatible documentation UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Sandstone, Sandstone Texture, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from rose tan sandstone planes, ochre sediment layers, shadow-brown fissures, pale sand highlights, and wind-worn desert cliff grain. The board must read as sandstone, not parchment, coffee, or generic beige.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: warm documentation system, 8px radius, pale sand reading surfaces, rose sandstone primary actions, ochre highlights, fissure-brown borders, cliff-shadow ink text, stratified section dividers, fine grain texture, spacious docs navigation.\nConstraints: no parchment manuscript, no coffee palette, no desert photo hero, no beige-only flat UI, no orange overload, no unrelated neon colors, no watermark, no random brand names, no misspelling of \"Morphous Sandstone\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sandstone/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sandstone dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Sandstone\". It must feel like the light-mode board translated to dark mode and remain derived from the desert sandstone texture cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Sandstone, Sandstone Texture, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve rose sandstone active states, ochre charts, fissure-brown dark surfaces, pale sand text, stratified dividers, wind-worn grain texture, documentation hierarchy, and 8px shadcn/tweakcn grid. Must read as sandstone, not parchment or coffee.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: cliff-shadow dark backgrounds, fissure-brown cards, pale sand foreground, rose sandstone buttons, ochre status and chart accents, subtle sediment-line texture, crisp documentation controls.\nConstraints: no parchment, no espresso palette, no pure-black flat background, no generic orange dashboard, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Sandstone\"."
+    }
+  ]
+}

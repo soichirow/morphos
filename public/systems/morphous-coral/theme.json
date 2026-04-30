@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-coral",
+    "name": "Morphous Coral",
+    "motifName": "Coral",
+    "motifCategory": "marine",
+    "biome": "Reef",
+    "motif": "branching coral"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#fff9f7",
+      "oklch": "oklch(0.986 0.007 39.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Ink",
+      "hex": "#0e1a20",
+      "oklch": "oklch(0.209 0.021 230.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Pink",
+      "hex": "#ff6f7d",
+      "oklch": "oklch(0.720 0.176 16.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reef Orange",
+      "hex": "#ff8a3d",
+      "oklch": "oklch(0.750 0.167 50.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Blue",
+      "hex": "#39c2e6",
+      "oklch": "oklch(0.757 0.124 219.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Polyp Rose",
+      "hex": "#ff8bb0",
+      "oklch": "oklch(0.773 0.145 0.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Coral",
+      "hex": "#ffe6e1",
+      "oklch": "oklch(0.944 0.028 31.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Washed Reef",
+      "hex": "#ffd3c6",
+      "oklch": "oklch(0.901 0.053 37.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Lagoon",
+      "hex": "#105f6f",
+      "oklch": "oklch(0.449 0.075 215.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.986 0.007 39.5)",
+    "foreground": "oklch(0.209 0.021 230.7)",
+    "card": "oklch(0.944 0.028 31.1)",
+    "card-foreground": "oklch(0.209 0.021 230.7)",
+    "popover": "oklch(0.944 0.028 31.1)",
+    "popover-foreground": "oklch(0.209 0.021 230.7)",
+    "primary": "oklch(0.720 0.176 16.7)",
+    "primary-foreground": "oklch(0.986 0.007 39.5)",
+    "secondary": "oklch(0.961 0.019 33.4)",
+    "secondary-foreground": "oklch(0.449 0.075 215.6)",
+    "muted": "oklch(0.955 0.023 31.1)",
+    "muted-foreground": "oklch(0.449 0.075 215.6)",
+    "accent": "oklch(0.757 0.124 219.8)",
+    "accent-foreground": "oklch(0.209 0.021 230.7)",
+    "destructive": "oklch(0.720 0.176 16.7)",
+    "border": "oklch(0.928 0.037 34.3)",
+    "input": "oklch(0.928 0.037 34.3)",
+    "ring": "oklch(0.750 0.167 50.5)",
+    "chart-1": "oklch(0.720 0.176 16.7)",
+    "chart-2": "oklch(0.750 0.167 50.5)",
+    "chart-3": "oklch(0.757 0.124 219.8)",
+    "chart-4": "oklch(0.773 0.145 0.7)",
+    "chart-5": "oklch(0.449 0.075 215.6)",
+    "sidebar": "oklch(0.957 0.021 31.8)",
+    "sidebar-foreground": "oklch(0.209 0.021 230.7)",
+    "sidebar-primary": "oklch(0.720 0.176 16.7)",
+    "sidebar-primary-foreground": "oklch(0.986 0.007 39.5)",
+    "sidebar-accent": "oklch(0.914 0.044 23.2)",
+    "sidebar-accent-foreground": "oklch(0.720 0.176 16.7)",
+    "sidebar-border": "oklch(0.928 0.037 34.3)",
+    "sidebar-ring": "oklch(0.750 0.167 50.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.209 0.021 230.7)",
+    "foreground": "oklch(0.986 0.007 39.5)",
+    "card": "oklch(0.372 0.059 215.4)",
+    "card-foreground": "oklch(0.986 0.007 39.5)",
+    "popover": "oklch(0.372 0.059 215.4)",
+    "popover-foreground": "oklch(0.986 0.007 39.5)",
+    "primary": "oklch(0.750 0.167 50.5)",
+    "primary-foreground": "oklch(0.209 0.021 230.7)",
+    "secondary": "oklch(0.543 0.057 209.8)",
+    "secondary-foreground": "oklch(0.986 0.007 39.5)",
+    "muted": "oklch(0.543 0.057 209.8)",
+    "muted-foreground": "oklch(0.948 0.027 37.6)",
+    "accent": "oklch(0.757 0.124 219.8)",
+    "accent-foreground": "oklch(0.209 0.021 230.7)",
+    "destructive": "oklch(0.720 0.176 16.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.750 0.167 50.5)",
+    "chart-1": "oklch(0.750 0.167 50.5)",
+    "chart-2": "oklch(0.720 0.176 16.7)",
+    "chart-3": "oklch(0.757 0.124 219.8)",
+    "chart-4": "oklch(0.773 0.145 0.7)",
+    "chart-5": "oklch(0.901 0.053 37.1)",
+    "sidebar": "oklch(0.324 0.049 216.4)",
+    "sidebar-foreground": "oklch(0.986 0.007 39.5)",
+    "sidebar-primary": "oklch(0.750 0.167 50.5)",
+    "sidebar-primary-foreground": "oklch(0.209 0.021 230.7)",
+    "sidebar-accent": "oklch(0.543 0.057 209.8)",
+    "sidebar-accent-foreground": "oklch(0.986 0.007 39.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.750 0.167 50.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Modular 8px product grids, branching dividers, reef-shelf panels, dense commerce cards, and warm marine hierarchy.",
+  "tags": [
+    "coral",
+    "marine",
+    "reef",
+    "modular",
+    "commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-coral/motif.png",
+    "board": "/systems/morphous-coral/design-system-light.png",
+    "darkBoard": "/systems/morphous-coral/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-coral/theme.css",
+    "themeJson": "/systems/morphous-coral/theme.json",
+    "promptsJson": "/systems/morphous-coral/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent coral motif source",
+      "asset": "/systems/morphous-coral/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a branching coral specimen, isolated full subject, no environment, no props, no text.\nSubject: A sculptural branching coral with coral pink branches, reef orange tips, pale coral surfaces, small polyp texture, subtle sea blue shadowing, and accurate organic reef structure.\nComposition/framing: centered complete cutout with generous padding; do not crop the branch tips or base.\nLighting/mood: clean studio light that preserves fine coral pores, branching rhythm, and warm reef color.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no underwater scene, no fish, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-coral/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Coral\" derived from the visible transparent branching coral cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the coral pink branches, reef orange tips, pale coral surfaces, sea blue shadows, polyp texture, and modular branching structure in the visible cutout. The light and dark design-system boards are the reference for coding any future theme, so token roles and component examples must be clear and readable.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Coral, Coral, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, shell-white surfaces, coral branch dividers, polyp dot textures, modular commerce-system mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: shell white, coral pink, reef orange, sea blue, polyp rose, pale coral, washed reef, deep lagoon, reef ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Coral\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-coral/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Coral design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent coral cutout and the visible light-mode Morphous Coral board as references. Preserve the coral pink, reef orange, and sea blue palette roles, branching component language, polyp texture, modular spacing, Japanese typography, and shadcn/tweakcn component coverage. The light and dark design-system boards are the reference for coding any future theme, so dark-mode token roles and component states must be clear.\nCanvas: wide landscape design-system board, 16:9 composition, dashboard-board layout with generous readable sections.\nResolution and legibility: high-resolution source board; use large readable labels and avoid dense tiny text. Keep all required labels clear at gallery preview scale.\nRequired visible sections: Morphous Coral, Coral, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from reef ink and deep lagoon, light text from shell white, primary accents from coral pink, secondary accents from reef orange, chart and focus details from sea blue, restrained contrast, subtle coral pore overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Coral\"."
+    }
+  ]
+}

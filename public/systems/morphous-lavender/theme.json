@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lavender",
+    "name": "Lavender",
+    "motifName": "Lavender Sprigs",
+    "motifCategory": "flower",
+    "biome": "provence field",
+    "motif": "lavender sprigs"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Cream",
+      "hex": "#faf7f0",
+      "oklch": "oklch(0.977 0.010 87.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Lavender Ink",
+      "hex": "#382f4f",
+      "oklch": "oklch(0.330 0.056 296.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lavender Purple",
+      "hex": "#8a77e8",
+      "oklch": "oklch(0.639 0.164 288.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sage Green",
+      "hex": "#8ba98e",
+      "oklch": "oklch(0.704 0.051 147.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Deep Violet",
+      "hex": "#6e4ba6",
+      "oklch": "oklch(0.495 0.142 298.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dry Straw",
+      "hex": "#d8c08a",
+      "oklch": "oklch(0.815 0.076 86.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Lavender",
+      "hex": "#d7cff0",
+      "oklch": "oklch(0.871 0.046 296.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Grey",
+      "hex": "#bbbbc6",
+      "oklch": "oklch(0.795 0.015 286.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Evening Violet",
+      "hex": "#211e33",
+      "oklch": "oklch(0.249 0.039 289.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.010 87.5)",
+    "foreground": "oklch(0.330 0.056 296.1)",
+    "card": "oklch(0.871 0.046 296.5)",
+    "card-foreground": "oklch(0.330 0.056 296.1)",
+    "popover": "oklch(0.871 0.046 296.5)",
+    "popover-foreground": "oklch(0.330 0.056 296.1)",
+    "primary": "oklch(0.639 0.164 288.6)",
+    "primary-foreground": "oklch(0.977 0.010 87.5)",
+    "secondary": "oklch(0.916 0.022 302.9)",
+    "secondary-foreground": "oklch(0.249 0.039 289.8)",
+    "muted": "oklch(0.901 0.031 300.3)",
+    "muted-foreground": "oklch(0.249 0.039 289.8)",
+    "accent": "oklch(0.495 0.142 298.9)",
+    "accent-foreground": "oklch(0.330 0.056 296.1)",
+    "destructive": "oklch(0.639 0.164 288.6)",
+    "border": "oklch(0.845 0.035 294.8)",
+    "input": "oklch(0.845 0.035 294.8)",
+    "ring": "oklch(0.704 0.051 147.7)",
+    "chart-1": "oklch(0.639 0.164 288.6)",
+    "chart-2": "oklch(0.704 0.051 147.7)",
+    "chart-3": "oklch(0.495 0.142 298.9)",
+    "chart-4": "oklch(0.815 0.076 86.7)",
+    "chart-5": "oklch(0.249 0.039 289.8)",
+    "sidebar": "oklch(0.908 0.026 300.2)",
+    "sidebar-foreground": "oklch(0.330 0.056 296.1)",
+    "sidebar-primary": "oklch(0.639 0.164 288.6)",
+    "sidebar-primary-foreground": "oklch(0.977 0.010 87.5)",
+    "sidebar-accent": "oklch(0.842 0.060 295.7)",
+    "sidebar-accent-foreground": "oklch(0.639 0.164 288.6)",
+    "sidebar-border": "oklch(0.845 0.035 294.8)",
+    "sidebar-ring": "oklch(0.704 0.051 147.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.330 0.056 296.1)",
+    "foreground": "oklch(0.977 0.010 87.5)",
+    "card": "oklch(0.278 0.046 292.3)",
+    "card-foreground": "oklch(0.977 0.010 87.5)",
+    "popover": "oklch(0.278 0.046 292.3)",
+    "popover-foreground": "oklch(0.977 0.010 87.5)",
+    "primary": "oklch(0.704 0.051 147.7)",
+    "primary-foreground": "oklch(0.330 0.056 296.1)",
+    "secondary": "oklch(0.384 0.030 290.0)",
+    "secondary-foreground": "oklch(0.977 0.010 87.5)",
+    "muted": "oklch(0.384 0.030 290.0)",
+    "muted-foreground": "oklch(0.896 0.003 345.2)",
+    "accent": "oklch(0.495 0.142 298.9)",
+    "accent-foreground": "oklch(0.330 0.056 296.1)",
+    "destructive": "oklch(0.639 0.164 288.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.704 0.051 147.7)",
+    "chart-1": "oklch(0.704 0.051 147.7)",
+    "chart-2": "oklch(0.639 0.164 288.6)",
+    "chart-3": "oklch(0.495 0.142 298.9)",
+    "chart-4": "oklch(0.815 0.076 86.7)",
+    "chart-5": "oklch(0.795 0.015 286.0)",
+    "sidebar": "oklch(0.292 0.049 293.4)",
+    "sidebar-foreground": "oklch(0.977 0.010 87.5)",
+    "sidebar-primary": "oklch(0.704 0.051 147.7)",
+    "sidebar-primary-foreground": "oklch(0.330 0.056 296.1)",
+    "sidebar-accent": "oklch(0.384 0.030 290.0)",
+    "sidebar-accent-foreground": "oklch(0.977 0.010 87.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.704 0.051 147.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm English scheduling UI with Noto Sans JP guidance for Japanese labels, compact calendar views, tabular time, and relaxed operational scanning.",
+  "layout": "Precise 8px grids, 8px cards, sage-stem dividers, lavender event chips, quiet field-cream panels, and restrained shadows for scheduling and resource planning.",
+  "tags": [
+    "lavender",
+    "flower",
+    "provence-field",
+    "sage-green",
+    "dry-straw",
+    "calm-scheduling",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lavender/motif.png",
+    "board": "/systems/morphous-lavender/design-system-light.png",
+    "darkBoard": "/systems/morphous-lavender/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lavender/theme.css",
+    "themeJson": "/systems/morphous-lavender/theme.json",
+    "promptsJson": "/systems/morphous-lavender/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lavender sprig motif",
+      "asset": "/systems/morphous-lavender/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only isolated lavender sprigs for a design-system motif cutout, no environment, no props, no text.\nSubject: A small natural bundle of lavender sprigs that clearly reads as real lavender: many recognizable narrow upright purple flower spikes made of tiny buds, slender sage-green stems, narrow sage leaves, and only tiny dry-straw warmth on a few woody stem tips. Not generic purple flowers, not broad petals, not lilacs.\nComposition/framing: centered complete cutout with generous padding on all sides; show full stems and flower tips without cropping; airy botanical silhouette.\nLighting/mood: clean even studio light preserving lavender-purple buds, sage-green stems/leaves, and subtle dry-straw stem warmth.\nChroma-key workflow: generate on a perfectly flat solid #ff00ff background, copy the exact generated source to .source/motif-chroma.png, then remove the key with remove_chroma_key.py using auto-key border, soft matte, and despill. The final motif.png is RGBA transparent with transparent corners.\nConstraints: no text, no watermark, no ribbon, no vase, no field background, no bouquet wrap, no broad flower petals, no extra flowers, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lavender/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive high-resolution 16:9 light-mode design-system board for a Morphous theme named \"Lavender\", derived from the isolated lavender sprig motif: narrow lavender-purple flower spikes, sage-green stems/leaves, dry-straw stem hints, Provence field calm.\nReference use: Treat the lavender motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from lavender-purple buds, deeper violet shadows, sage stems, dry straw, field cream, and soft grey botanical texture.\nRequired visible sections: header \"Lavender Design System\" and \"Calm scheduling system\"; Palette; Typography; Japanese Typography; Buttons; Inputs; Select; Textarea; Checkbox; Radio; Switch; Tabs; Badges; Alerts; Cards; Navigation; Sidebar; Command/Search; Tables; Charts; Empty State; Error State; Loading State; Spacing; Radius; Shadow; Texture/Pattern; Calendar App Preview.\nPalette swatches: Lavender Purple, Deep Violet, Sage Green, Dry Straw, Field Cream, Soft Grey, Pale Lavender, Lavender Ink. Show readable hex-style labels.\nTypography guidance: English and Japanese examples, with labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, Calendar time.\nComponents: shadcn/tweakcn style, 8px card radius, lavender primary buttons, sage secondary/support, dry straw warning/accent, cream surfaces, soft grey borders, visible focus rings, calm calendar density.\nCalendar app preview: scheduling dashboard with mini month calendar, agenda list, resource lanes, event chips, command search, sidebar navigation, charts, and table rows.\nTexture guidance: subtle lavender sprig line pattern, linen field cream grain, sage stem dividers, not decorative blobs.\nText: short readable UI labels only; include English and Japanese typography samples. Ensure \"Lavender\", \"Calm scheduling\", \"Typography\", \"日本語\", \"Palette\", \"Calendar\", \"Buttons\", and \"Tokens\" are legible.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit, no watermark, no random brand names, no misspelling of Lavender, no dark-mode board in this image."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lavender/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one separate high-resolution 16:9 dark-mode design-system board for the same Morphous theme named \"Lavender\". It must feel like the light Lavender design-system board translated to dark mode, not a new theme.\nReference use: Use the lavender sprig motif and the light Lavender board as references. Preserve motif-derived palette roles, calm scheduling component language, component coverage, spacing, typography, sage stem dividers, dry-straw accents, and lavender sprig texture.\nRequired visible sections: header \"Lavender Dark Mode\" and \"Calm scheduling system\"; Palette; Typography; Japanese Typography; Buttons; Inputs; Select; Textarea; Checkbox; Radio; Switch; Tabs; Badges; Alerts; Cards; Navigation; Sidebar; Command/Search; Tables; Charts; Empty State; Error State; Loading State; Spacing; Radius; Shadow; Texture/Pattern; Calendar App Preview.\nDark palette: deep violet and lavender-charcoal surfaces, lavender purple highlights, pale lavender text, sage green accents, dry straw warning/accent, field cream only as small text/highlight, soft grey borders, lavender ink depths. Keep colors faithful to lavender, not neon purple.\nTypography guidance: readable English and Japanese examples, with labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, Calendar time.\nComponents: shadcn/tweakcn style, 8px card radius, dark cards and popovers, lavender primary buttons, sage secondary/support, dry straw warning/accent, visible focus rings, readable form labels, tabs, badges, alerts, command palette, table rows, charts, loading skeletons.\nCalendar app preview: dark scheduling dashboard with mini month calendar, agenda list, resource lanes, event chips, command search, sidebar navigation, charts, and table rows.\nTexture guidance: subtle lavender sprig line pattern and linen grain in dark surfaces; sage stem dividers; not decorative blobs.\nText: short readable UI labels only; include English and Japanese typography samples. Ensure \"Lavender\", \"Dark Mode\", \"Calm scheduling\", \"Typography\", \"日本語\", \"Palette\", \"Calendar\", \"Buttons\", and \"Tokens\" are legible.\nConstraints: no neon colors, no generic purple gradients, no flat pure-black-only background, no unrelated saturated colors, no illegible text, no watermark, no random brand names, no misspelling of Lavender, no light-mode board in this image."
+    }
+  ]
+}

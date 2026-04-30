@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-maple-seed",
+    "name": "Morphous Maple Seed",
+    "motifName": "Maple Seed",
+    "motifCategory": "plant",
+    "biome": "temperate forest",
+    "motif": "maple samara"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Parchment",
+      "hex": "#f7ead4",
+      "oklch": "oklch(0.942 0.032 81.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Ink",
+      "hex": "#221912",
+      "oklch": "oklch(0.222 0.019 59.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Wing",
+      "hex": "#d58b31",
+      "oklch": "oklch(0.698 0.135 66.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dry Samara",
+      "hex": "#c7a06a",
+      "oklch": "oklch(0.729 0.085 74.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Red Stem",
+      "hex": "#a94635",
+      "oklch": "oklch(0.523 0.134 31.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Forest Leaf",
+      "hex": "#677448",
+      "oklch": "oklch(0.537 0.066 122.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Vein Grey",
+      "hex": "#d7d0c3",
+      "oklch": "oklch(0.860 0.019 83.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Leaf",
+      "hex": "#84945e",
+      "oklch": "oklch(0.640 0.078 122.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Seed Brown",
+      "hex": "#6b4a2d",
+      "oklch": "oklch(0.439 0.062 61.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.942 0.032 81.0)",
+    "foreground": "oklch(0.222 0.019 59.4)",
+    "card": "oklch(0.860 0.019 83.1)",
+    "card-foreground": "oklch(0.222 0.019 59.4)",
+    "popover": "oklch(0.860 0.019 83.1)",
+    "popover-foreground": "oklch(0.222 0.019 59.4)",
+    "primary": "oklch(0.698 0.135 66.8)",
+    "primary-foreground": "oklch(0.942 0.032 81.0)",
+    "secondary": "oklch(0.894 0.025 83.4)",
+    "secondary-foreground": "oklch(0.439 0.062 61.4)",
+    "muted": "oklch(0.882 0.023 80.7)",
+    "muted-foreground": "oklch(0.439 0.062 61.4)",
+    "accent": "oklch(0.523 0.134 31.7)",
+    "accent-foreground": "oklch(0.222 0.019 59.4)",
+    "destructive": "oklch(0.698 0.135 66.8)",
+    "border": "oklch(0.781 0.037 109.0)",
+    "input": "oklch(0.781 0.037 109.0)",
+    "ring": "oklch(0.729 0.085 74.8)",
+    "chart-1": "oklch(0.698 0.135 66.8)",
+    "chart-2": "oklch(0.729 0.085 74.8)",
+    "chart-3": "oklch(0.523 0.134 31.7)",
+    "chart-4": "oklch(0.537 0.066 122.0)",
+    "chart-5": "oklch(0.439 0.062 61.4)",
+    "sidebar": "oklch(0.888 0.024 82.1)",
+    "sidebar-foreground": "oklch(0.222 0.019 59.4)",
+    "sidebar-primary": "oklch(0.698 0.135 66.8)",
+    "sidebar-primary-foreground": "oklch(0.942 0.032 81.0)",
+    "sidebar-accent": "oklch(0.839 0.035 78.6)",
+    "sidebar-accent-foreground": "oklch(0.698 0.135 66.8)",
+    "sidebar-border": "oklch(0.781 0.037 109.0)",
+    "sidebar-ring": "oklch(0.729 0.085 74.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.019 59.4)",
+    "foreground": "oklch(0.942 0.032 81.0)",
+    "card": "oklch(0.368 0.049 60.5)",
+    "card-foreground": "oklch(0.942 0.032 81.0)",
+    "popover": "oklch(0.368 0.049 60.5)",
+    "popover-foreground": "oklch(0.942 0.032 81.0)",
+    "primary": "oklch(0.729 0.085 74.8)",
+    "primary-foreground": "oklch(0.222 0.019 59.4)",
+    "secondary": "oklch(0.482 0.058 76.5)",
+    "secondary-foreground": "oklch(0.942 0.032 81.0)",
+    "muted": "oklch(0.482 0.058 76.5)",
+    "muted-foreground": "oklch(0.808 0.049 107.4)",
+    "accent": "oklch(0.523 0.134 31.7)",
+    "accent-foreground": "oklch(0.222 0.019 59.4)",
+    "destructive": "oklch(0.698 0.135 66.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.729 0.085 74.8)",
+    "chart-1": "oklch(0.729 0.085 74.8)",
+    "chart-2": "oklch(0.698 0.135 66.8)",
+    "chart-3": "oklch(0.523 0.134 31.7)",
+    "chart-4": "oklch(0.537 0.066 122.0)",
+    "chart-5": "oklch(0.640 0.078 122.0)",
+    "sidebar": "oklch(0.328 0.041 62.6)",
+    "sidebar-foreground": "oklch(0.942 0.032 81.0)",
+    "sidebar-primary": "oklch(0.729 0.085 74.8)",
+    "sidebar-primary-foreground": "oklch(0.222 0.019 59.4)",
+    "sidebar-accent": "oklch(0.482 0.058 76.5)",
+    "sidebar-accent-foreground": "oklch(0.942 0.032 81.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.729 0.085 74.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Light navigation English UI with airy labels, clear numerals, and Japanese typography guidance.",
+  "layout": "Wing-like navigation rails, vein-line dividers, airy dashboard grids, 8px radii, soft shadows, and light token rhythm.",
+  "tags": [
+    "maple-seed",
+    "plant",
+    "samara",
+    "forest",
+    "navigation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-maple-seed/motif.png",
+    "board": "/systems/morphous-maple-seed/design-system-light.png",
+    "darkBoard": "/systems/morphous-maple-seed/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-maple-seed/theme.css",
+    "themeJson": "/systems/morphous-maple-seed/theme.json",
+    "promptsJson": "/systems/morphous-maple-seed/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent maple samara motif",
+      "asset": "/systems/morphous-maple-seed/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Maple Seed transparent motif chroma-key source\nPrimary request: Create only a maple samara motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A temperate forest maple seed pair with twin amber papery wings, fine grey vein lines, reddish stem joint, small brown seed bodies, and a light dried botanical texture. Botanical accuracy, crisp subject edges, unmistakably maple samara helicopter seed.\nComposition/framing: centered complete cutout with generous padding; include the paired wing shape, seed bodies, red stem, and vein detail without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no maple leaf as main subject, no dragonfly wings, no feather, no acorn, no props, no hand, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-maple-seed/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Maple Seed light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Maple Seed\", derived from the visible maple samara cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible light navigation UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Maple Seed, Maple Samara, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from amber papery wings, fine grey veins, red stem joints, brown seed bodies, forest leaf hints, and dry parchment surfaces. The board must read as maple samara, not maple leaf, dragonfly, or feather.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, wing-parchment surfaces, amber-wing primary actions, red-stem accents, vein-grey borders, forest-leaf success, seed-brown depth, samara wing-vein texture.\nConstraints: no maple leaf identity, no dragonfly wing identity, no feather imagery, no acorn, no generic orange-only palette, no watermark, no random brand names, no misspelling of \"Morphous Maple Seed\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-maple-seed/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Maple Seed dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Maple Seed\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the maple samara cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Maple Seed, Maple Samara, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve maple samara system language: amber-wing active states, red-stem accents, grey vein lines, seed-brown borders, parchment text, forest-leaf controls, papery wing texture, 8px radius, precise shadcn/tweakcn component grid. Must read as maple seed, not maple leaf or feather.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep forest ink and seed-brown dark surfaces, wing-parchment foreground, amber-wing active states, red-stem chart highlights, vein-grey separators, forest leaf focus/control accents, subtle papery vein overlays, crisp cards and controls.\nConstraints: no maple leaf identity, no dragonfly wing identity, no feather imagery, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Maple Seed\"."
+    }
+  ]
+}

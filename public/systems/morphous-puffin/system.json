@@ -1,0 +1,47 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-puffin",
+  "name": "Morphous Puffin",
+  "motifName": "Puffin",
+  "motifCategory": "bird",
+  "biome": "North Atlantic Cliff",
+  "motif": "puffin beak",
+  "description": "A shadcn/tweakcn-compatible clear coastal system to be coded from the Puffin light and dark design-system boards: black-and-white structure, coral-orange beak actions, sea-blue navigation, and cliff-neutral depth. The light and dark design-system boards are the reference for coding any future theme.",
+  "typography": "Geist for clear coastal product UI with Noto Sans JP guidance for labels, headings, and numeric rhythm.",
+  "layout": "Crisp 8px grids, beak-stripe dividers, high-contrast cards, coastal dashboard panels, and compact content surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "puffin",
+    "bird",
+    "coastal",
+    "clear",
+    "content",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Cliff White", "hex": "#f8f7f1" },
+    { "role": "Ink", "name": "Puffin Black", "hex": "#17191a" },
+    { "role": "Primary", "name": "Coral Beak", "hex": "#f25f45" },
+    { "role": "Secondary", "name": "Orange Beak", "hex": "#f28c28" },
+    { "role": "Accent", "name": "Sea Blue", "hex": "#247c9f" },
+    { "role": "Signal", "name": "Foam Blue", "hex": "#9bd2dc" },
+    { "role": "Surface", "name": "Soft White Breast", "hex": "#ece9df" },
+    { "role": "Muted", "name": "Cliff Stone", "hex": "#7f817b" },
+    { "role": "Depth", "name": "Atlantic Depth", "hex": "#24343b" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "hero": "",
+    "texture": "",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

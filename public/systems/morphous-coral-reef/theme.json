@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-coral-reef",
+    "name": "Morphous Coral Reef",
+    "motifName": "Reef Ecosystem",
+    "motifCategory": "marine",
+    "biome": "Tropical Reef",
+    "motif": "reef ecosystem"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Cream",
+      "hex": "#f6ead7",
+      "oklch": "oklch(0.941 0.028 79.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Shadow",
+      "hex": "#0d3852",
+      "oklch": "oklch(0.326 0.065 240.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Orange",
+      "hex": "#e86f3f",
+      "oklch": "oklch(0.677 0.163 41.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Aqua Blue",
+      "hex": "#2f9fbd",
+      "oklch": "oklch(0.654 0.106 220.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lagoon Cyan",
+      "hex": "#62c5ca",
+      "oklch": "oklch(0.766 0.093 199.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sea Grass",
+      "hex": "#2e7d32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Stone",
+      "hex": "#6d7d88",
+      "oklch": "oklch(0.580 0.025 238.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sand Shell",
+      "hex": "#fff4e3",
+      "oklch": "oklch(0.971 0.025 78.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Reef",
+      "hex": "#0d2630",
+      "oklch": "oklch(0.254 0.036 227.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.941 0.028 79.5)",
+    "foreground": "oklch(0.326 0.065 240.2)",
+    "card": "oklch(0.971 0.025 78.9)",
+    "card-foreground": "oklch(0.326 0.065 240.2)",
+    "popover": "oklch(0.971 0.025 78.9)",
+    "popover-foreground": "oklch(0.326 0.065 240.2)",
+    "primary": "oklch(0.677 0.163 41.2)",
+    "primary-foreground": "oklch(0.941 0.028 79.5)",
+    "secondary": "oklch(0.959 0.027 80.3)",
+    "secondary-foreground": "oklch(0.254 0.036 227.0)",
+    "muted": "oklch(0.962 0.025 78.9)",
+    "muted-foreground": "oklch(0.254 0.036 227.0)",
+    "accent": "oklch(0.766 0.093 199.8)",
+    "accent-foreground": "oklch(0.326 0.065 240.2)",
+    "destructive": "oklch(0.677 0.163 41.2)",
+    "border": "oklch(0.835 0.010 100.0)",
+    "input": "oklch(0.835 0.010 100.0)",
+    "ring": "oklch(0.654 0.106 220.0)",
+    "chart-1": "oklch(0.677 0.163 41.2)",
+    "chart-2": "oklch(0.654 0.106 220.0)",
+    "chart-3": "oklch(0.766 0.093 199.8)",
+    "chart-4": "oklch(0.523 0.135 144.2)",
+    "chart-5": "oklch(0.254 0.036 227.0)",
+    "sidebar": "oklch(0.962 0.027 80.3)",
+    "sidebar-foreground": "oklch(0.326 0.065 240.2)",
+    "sidebar-primary": "oklch(0.677 0.163 41.2)",
+    "sidebar-primary-foreground": "oklch(0.941 0.028 79.5)",
+    "sidebar-accent": "oklch(0.933 0.038 63.5)",
+    "sidebar-accent-foreground": "oklch(0.677 0.163 41.2)",
+    "sidebar-border": "oklch(0.835 0.010 100.0)",
+    "sidebar-ring": "oklch(0.654 0.106 220.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.326 0.065 240.2)",
+    "foreground": "oklch(0.941 0.028 79.5)",
+    "card": "oklch(0.278 0.047 234.6)",
+    "card-foreground": "oklch(0.941 0.028 79.5)",
+    "popover": "oklch(0.278 0.047 234.6)",
+    "popover-foreground": "oklch(0.941 0.028 79.5)",
+    "primary": "oklch(0.654 0.106 220.0)",
+    "primary-foreground": "oklch(0.326 0.065 240.2)",
+    "secondary": "oklch(0.330 0.034 227.3)",
+    "secondary-foreground": "oklch(0.941 0.028 79.5)",
+    "muted": "oklch(0.330 0.034 227.3)",
+    "muted-foreground": "oklch(0.783 0.008 114.3)",
+    "accent": "oklch(0.766 0.093 199.8)",
+    "accent-foreground": "oklch(0.326 0.065 240.2)",
+    "destructive": "oklch(0.677 0.163 41.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.654 0.106 220.0)",
+    "chart-1": "oklch(0.654 0.106 220.0)",
+    "chart-2": "oklch(0.677 0.163 41.2)",
+    "chart-3": "oklch(0.766 0.093 199.8)",
+    "chart-4": "oklch(0.523 0.135 144.2)",
+    "chart-5": "oklch(0.580 0.025 238.0)",
+    "sidebar": "oklch(0.294 0.051 235.0)",
+    "sidebar-foreground": "oklch(0.941 0.028 79.5)",
+    "sidebar-primary": "oklch(0.654 0.106 220.0)",
+    "sidebar-primary-foreground": "oklch(0.326 0.065 240.2)",
+    "sidebar-accent": "oklch(0.330 0.034 227.3)",
+    "sidebar-accent-foreground": "oklch(0.941 0.028 79.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.654 0.106 220.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and metric-heavy ecosystem dashboards.",
+  "layout": "Modular 8px product grids, reef-branch groupings, aqua navigation rails, shell surfaces, lively status chips, and controlled coral texture.",
+  "tags": [
+    "coral-reef",
+    "marine",
+    "tropical-reef",
+    "ecosystem",
+    "vibrant",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-coral-reef/motif.png",
+    "board": "/systems/morphous-coral-reef/design-system-light.png",
+    "darkBoard": "/systems/morphous-coral-reef/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-coral-reef/theme.css",
+    "themeJson": "/systems/morphous-coral-reef/theme.json",
+    "promptsJson": "/systems/morphous-coral-reef/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent coral reef motif",
+      "asset": "/systems/morphous-coral-reef/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Coral Reef transparent motif chroma-key source\nPrimary request: Create only a reef ecosystem motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A compact tropical coral reef ecosystem cluster with branching coral-orange forms, shell-cream coral heads, aqua-blue water reflections, lagoon-cyan highlights, small sea-grass green elements, reef shadow crevices, and biodiversity texture. It must read as coral reef ecosystem, not single coral branch, aquarium decoration, flower bouquet, or abstract blobs.\nComposition/framing: centered complete cutout with generous padding; include coral branches, reef base, small ecosystem details, and water-reflection color without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full underwater scene background, no large fish subject, no scuba diver, no aquarium glass, no plastic decoration look, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-coral-reef/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Coral Reef light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Coral Reef\", derived from the visible reef ecosystem cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Coral Reef, Reef Ecosystem, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from coral-orange branches, aqua-blue water, lagoon-cyan highlights, shell-cream surfaces, sea-grass green signals, sand-shell neutrals, and deep reef shadows. The board must read as coral reef ecosystem, not generic ocean, jellyfish, or single coral branch.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible while controlling the vibrant palette.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: vibrant ecosystem product system, precise 8px grid, 8px card radius, shell-cream surfaces, coral-orange primary actions, aqua-blue navigation, lagoon-cyan focus rings, sea-grass success, reef-branch dividers, controlled coral texture, modular dashboard clusters.\nConstraints: no jellyfish theme, no generic blue ocean app, no plastic aquarium decoration, no unrelated saturated colors beyond reef palette, no generic purple gradients, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Coral Reef\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-coral-reef/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Coral Reef dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Coral Reef\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible reef ecosystem cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Coral Reef, Reef Ecosystem, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same coral reef system language as the visible light board: deep-reef panels, shell-cream text, coral-orange actions, aqua-blue navigation, lagoon-cyan focus, sea-grass status, reef-branch texture, modular ecosystem component clusters, and precise shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible on dark reef surfaces.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep reef and shadow-blue backgrounds, shell text, coral-orange active states, aqua charts, cyan focus rings, sea-grass success, subtle coral texture overlays, crisp 8px cards and tables.\nConstraints: no jellyfish, no generic ocean-only theme, no neon nightclub reef, no pure-black-only flat background, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Coral Reef\", no illegible tiny paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blueberry",
+    "name": "Morphous Blueberry",
+    "motifName": "Blueberry Cluster",
+    "motifCategory": "fruit",
+    "biome": "Boreal Shrub",
+    "motif": "blueberry cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Bloom",
+      "hex": "#FAF7EF",
+      "oklch": "oklch(0.976 0.011 89.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Berry Ink",
+      "hex": "#1F2433",
+      "oklch": "oklch(0.262 0.029 270.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Indigo Bloom",
+      "hex": "#3F4EA1",
+      "oklch": "oklch(0.457 0.135 272.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Powder Blue",
+      "hex": "#E7EEF7",
+      "oklch": "oklch(0.946 0.014 254.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sage Leaf",
+      "hex": "#6C8E6A",
+      "oklch": "oklch(0.611 0.066 143.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Oat Cream",
+      "hex": "#F1EDE3",
+      "oklch": "oklch(0.946 0.014 88.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Blueberry Shadow",
+      "hex": "#2A3370",
+      "oklch": "oklch(0.349 0.105 273.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Twig Bark",
+      "hex": "#8A6A52",
+      "oklch": "oklch(0.550 0.054 58.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Calyx Tan",
+      "hex": "#D6C8B8",
+      "oklch": "oklch(0.840 0.027 71.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.011 89.7)",
+    "foreground": "oklch(0.262 0.029 270.1)",
+    "card": "oklch(0.946 0.014 88.7)",
+    "card-foreground": "oklch(0.262 0.029 270.1)",
+    "popover": "oklch(0.946 0.014 88.7)",
+    "popover-foreground": "oklch(0.262 0.029 270.1)",
+    "primary": "oklch(0.457 0.135 272.3)",
+    "primary-foreground": "oklch(0.976 0.011 89.7)",
+    "secondary": "oklch(0.959 0.013 86.8)",
+    "secondary-foreground": "oklch(0.349 0.105 273.4)",
+    "muted": "oklch(0.955 0.014 88.7)",
+    "muted-foreground": "oklch(0.349 0.105 273.4)",
+    "accent": "oklch(0.611 0.066 143.3)",
+    "accent-foreground": "oklch(0.262 0.029 270.1)",
+    "destructive": "oklch(0.457 0.135 272.3)",
+    "border": "oklch(0.909 0.018 81.3)",
+    "input": "oklch(0.909 0.018 81.3)",
+    "ring": "oklch(0.946 0.014 254.6)",
+    "chart-1": "oklch(0.457 0.135 272.3)",
+    "chart-2": "oklch(0.946 0.014 254.6)",
+    "chart-3": "oklch(0.611 0.066 143.3)",
+    "chart-4": "oklch(0.550 0.054 58.2)",
+    "chart-5": "oklch(0.349 0.105 273.4)",
+    "sidebar": "oklch(0.956 0.013 86.8)",
+    "sidebar-foreground": "oklch(0.262 0.029 270.1)",
+    "sidebar-primary": "oklch(0.457 0.135 272.3)",
+    "sidebar-primary-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-accent": "oklch(0.890 0.003 345.2)",
+    "sidebar-accent-foreground": "oklch(0.457 0.135 272.3)",
+    "sidebar-border": "oklch(0.909 0.018 81.3)",
+    "sidebar-ring": "oklch(0.946 0.014 254.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.262 0.029 270.1)",
+    "foreground": "oklch(0.976 0.011 89.7)",
+    "card": "oklch(0.319 0.080 273.4)",
+    "card-foreground": "oklch(0.976 0.011 89.7)",
+    "popover": "oklch(0.319 0.080 273.4)",
+    "popover-foreground": "oklch(0.976 0.011 89.7)",
+    "primary": "oklch(0.946 0.014 254.6)",
+    "primary-foreground": "oklch(0.262 0.029 270.1)",
+    "secondary": "oklch(0.462 0.072 279.2)",
+    "secondary-foreground": "oklch(0.976 0.011 89.7)",
+    "muted": "oklch(0.462 0.072 279.2)",
+    "muted-foreground": "oklch(0.916 0.018 78.2)",
+    "accent": "oklch(0.611 0.066 143.3)",
+    "accent-foreground": "oklch(0.262 0.029 270.1)",
+    "destructive": "oklch(0.457 0.135 272.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.946 0.014 254.6)",
+    "chart-1": "oklch(0.946 0.014 254.6)",
+    "chart-2": "oklch(0.457 0.135 272.3)",
+    "chart-3": "oklch(0.611 0.066 143.3)",
+    "chart-4": "oklch(0.550 0.054 58.2)",
+    "chart-5": "oklch(0.840 0.027 71.1)",
+    "sidebar": "oklch(0.302 0.066 273.5)",
+    "sidebar-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-primary": "oklch(0.946 0.014 254.6)",
+    "sidebar-primary-foreground": "oklch(0.262 0.029 270.1)",
+    "sidebar-accent": "oklch(0.462 0.072 279.2)",
+    "sidebar-accent-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.946 0.014 254.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact nutrition UI with clear English hierarchy, Japanese guidance, small labels, and legible metric numbers.",
+  "layout": "Compact 8px grids, berry-dot grouping, shrub-line navigation, dense nutrition cards, and powder-bloom texture.",
+  "tags": [
+    "blueberry",
+    "fruit",
+    "boreal",
+    "nutrition",
+    "compact",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blueberry/motif.png",
+    "board": "/systems/morphous-blueberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-blueberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blueberry/theme.css",
+    "themeJson": "/systems/morphous-blueberry/theme.json",
+    "promptsJson": "/systems/morphous-blueberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent blueberry cluster motif",
+      "asset": "/systems/morphous-blueberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Blueberry transparent motif chroma-key source\nPrimary request: Create only a blueberry cluster motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A compact boreal blueberry cluster with indigo-blue berries, dusty powder bloom, small five-point calyx crowns, sage-green leaves, thin shrub-brown twigs, cream highlight flecks, and cool berry shadows. Botanical accuracy, crisp cutout edges, nutrition-system identity.\nComposition/framing: centered complete cutout with generous padding; include berries, leaves, and twig without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no grapes, no blackberries, no bowl, no spoon, no hand, no forest landscape, no text, no watermark, no loose berry pile dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-blueberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blueberry light-mode design-system board\nPrimary request: Generate one comprehensive LIGHT MODE design-system board for a Morphous theme named \"Morphous Blueberry\", derived from the transparent blueberry cluster motif already shown in context. This is a source reference for a shadcn/tweakcn-compatible compact nutrition UI theme.\nCanvas and framing: exact wide landscape 16:9 board, 2560 x 1440 aspect ratio, much wider than tall. Use the full width as a horizontal design-system board. Do not create a square, portrait, poster, vertical sheet, or 3:2 canvas. Keep all text readable at gallery preview size with large labels and short UI copy.\nRequired visible sections: Morphous Blueberry, Blueberry Cluster, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from indigo blueberry skins, dusty powder bloom, sage leaves, cream highlights, shrub-brown twigs, and cool boreal shadows. The board must read as blueberry, not grape, blackberry, or generic blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; readable labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: compact nutrition system, 8px radius, pale cream surfaces, blueberry indigo primary actions, powder-blue muted panels, sage-leaf success and filters, shrub-brown borders, berry-ink text, compact metric cards, subtle powder-bloom and calyx-dot texture.\nConstraints: no grape cluster, no blackberry drupelets, no generic blue gradient, no medical sterile UI, no unrelated neon colors, no watermark, no random brand names, no misspelling of \"Morphous Blueberry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-blueberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blueberry dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Blueberry\" / \"Blueberry Cluster\". Use the transparent blueberry cluster motif and the light-mode Morphous Blueberry design-system board already shown in context as references. Translate the light board into dark mode; do not invent a new unrelated theme.\nCanvas and framing: exact wide landscape 16:9 board, 2560 x 1440 aspect ratio, much wider than tall. Use the full width as a horizontal design-system board. Do not create a square, portrait, poster, vertical sheet, or 3:2 canvas. Keep all text readable at gallery preview size with large labels and short UI copy.\nRequired visible sections: Morphous Blueberry, Blueberry Cluster, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve blueberry-indigo active states, powder-blue muted accents, sage-leaf status, shrub-brown dark borders, cream text, compact nutrition dashboard rhythm, powder-bloom texture, calyx-dot texture, and 8px shadcn/tweakcn grid. Must read as blueberry, not grape or generic blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; readable labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets.\nVisual details: berry-ink dark backgrounds, shrub-brown cards, pale cream foreground, blueberry-indigo buttons, powder-blue charts, sage status chips, subtle powder-bloom and calyx-dot overlays, crisp compact controls, restrained contrast.\nConstraints: no grapes, no blackberries, no wine branding, no neon blue, no pure-black flat background, no generic blue dashboard, no unrelated saturated colors, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Blueberry\"."
+    }
+  ]
+}

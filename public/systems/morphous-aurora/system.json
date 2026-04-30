@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-aurora",
+  "name": "Morphous Aurora",
+  "status": "ready",
+  "motifName": "Aurora",
+  "motifCategory": "weather",
+  "biome": "Polar Night",
+  "motif": "aurora ribbon",
+  "description": "An immersive data system to be coded from the Aurora light and dark design-system boards: green and violet ribbons, midnight blue depth, snow white contrast, and luminous polar data motion.",
+  "typography": "Geist for immersive data UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Ribbon-led grids, polar-night panels, luminous chart zones, layered dashboards, and precise dark-ready component rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "aurora",
+    "weather",
+    "polar",
+    "data",
+    "luminous",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Polar Snow", "hex": "#f4fbfb" },
+    { "role": "Ink", "name": "Midnight Blue", "hex": "#101b3d" },
+    { "role": "Primary", "name": "Aurora Green", "hex": "#4ee28a" },
+    { "role": "Secondary", "name": "Ribbon Violet", "hex": "#7c5cff" },
+    { "role": "Accent", "name": "Ice Cyan", "hex": "#86e7ef" },
+    { "role": "Signal", "name": "Magnetic Pink", "hex": "#c06bdc" },
+    { "role": "Surface", "name": "Frosted Glow", "hex": "#dfeff3" },
+    { "role": "Muted", "name": "Snow Shadow", "hex": "#9baec0" },
+    { "role": "Depth", "name": "Polar Night", "hex": "#071126" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

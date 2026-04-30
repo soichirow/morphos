@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-aurora",
+    "name": "Morphous Aurora",
+    "motifName": "Aurora",
+    "motifCategory": "weather",
+    "biome": "Polar Night",
+    "motif": "aurora ribbon"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Polar Snow",
+      "hex": "#f4fbfb",
+      "oklch": "oklch(0.983 0.007 197.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Midnight Blue",
+      "hex": "#101b3d",
+      "oklch": "oklch(0.234 0.067 267.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Aurora Green",
+      "hex": "#4ee28a",
+      "oklch": "oklch(0.813 0.177 153.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ribbon Violet",
+      "hex": "#7c5cff",
+      "oklch": "oklch(0.599 0.230 286.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ice Cyan",
+      "hex": "#86e7ef",
+      "oklch": "oklch(0.871 0.092 202.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Magnetic Pink",
+      "hex": "#c06bdc",
+      "oklch": "oklch(0.667 0.181 317.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Frosted Glow",
+      "hex": "#dfeff3",
+      "oklch": "oklch(0.941 0.018 214.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Snow Shadow",
+      "hex": "#9baec0",
+      "oklch": "oklch(0.742 0.034 246.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Polar Night",
+      "hex": "#071126",
+      "oklch": "oklch(0.182 0.046 262.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.007 197.0)",
+    "foreground": "oklch(0.234 0.067 267.5)",
+    "card": "oklch(0.941 0.018 214.4)",
+    "card-foreground": "oklch(0.234 0.067 267.5)",
+    "popover": "oklch(0.941 0.018 214.4)",
+    "popover-foreground": "oklch(0.234 0.067 267.5)",
+    "primary": "oklch(0.813 0.177 153.4)",
+    "primary-foreground": "oklch(0.983 0.007 197.0)",
+    "secondary": "oklch(0.959 0.013 208.8)",
+    "secondary-foreground": "oklch(0.182 0.046 262.9)",
+    "muted": "oklch(0.952 0.014 213.1)",
+    "muted-foreground": "oklch(0.182 0.046 262.9)",
+    "accent": "oklch(0.871 0.092 202.5)",
+    "accent-foreground": "oklch(0.234 0.067 267.5)",
+    "destructive": "oklch(0.813 0.177 153.4)",
+    "border": "oklch(0.872 0.022 230.6)",
+    "input": "oklch(0.872 0.022 230.6)",
+    "ring": "oklch(0.599 0.230 286.2)",
+    "chart-1": "oklch(0.813 0.177 153.4)",
+    "chart-2": "oklch(0.599 0.230 286.2)",
+    "chart-3": "oklch(0.871 0.092 202.5)",
+    "chart-4": "oklch(0.667 0.181 317.2)",
+    "chart-5": "oklch(0.182 0.046 262.9)",
+    "sidebar": "oklch(0.955 0.014 213.1)",
+    "sidebar-foreground": "oklch(0.234 0.067 267.5)",
+    "sidebar-primary": "oklch(0.813 0.177 153.4)",
+    "sidebar-primary-foreground": "oklch(0.983 0.007 197.0)",
+    "sidebar-accent": "oklch(0.922 0.034 180.4)",
+    "sidebar-accent-foreground": "oklch(0.813 0.177 153.4)",
+    "sidebar-border": "oklch(0.872 0.022 230.6)",
+    "sidebar-ring": "oklch(0.599 0.230 286.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.234 0.067 267.5)",
+    "foreground": "oklch(0.983 0.007 197.0)",
+    "card": "oklch(0.199 0.054 265.9)",
+    "card-foreground": "oklch(0.983 0.007 197.0)",
+    "popover": "oklch(0.199 0.054 265.9)",
+    "popover-foreground": "oklch(0.983 0.007 197.0)",
+    "primary": "oklch(0.599 0.230 286.2)",
+    "primary-foreground": "oklch(0.234 0.067 267.5)",
+    "secondary": "oklch(0.323 0.039 260.4)",
+    "secondary-foreground": "oklch(0.983 0.007 197.0)",
+    "muted": "oklch(0.323 0.039 260.4)",
+    "muted-foreground": "oklch(0.875 0.017 236.7)",
+    "accent": "oklch(0.871 0.092 202.5)",
+    "accent-foreground": "oklch(0.234 0.067 267.5)",
+    "destructive": "oklch(0.813 0.177 153.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.599 0.230 286.2)",
+    "chart-1": "oklch(0.599 0.230 286.2)",
+    "chart-2": "oklch(0.813 0.177 153.4)",
+    "chart-3": "oklch(0.871 0.092 202.5)",
+    "chart-4": "oklch(0.667 0.181 317.2)",
+    "chart-5": "oklch(0.742 0.034 246.8)",
+    "sidebar": "oklch(0.209 0.057 266.7)",
+    "sidebar-foreground": "oklch(0.983 0.007 197.0)",
+    "sidebar-primary": "oklch(0.599 0.230 286.2)",
+    "sidebar-primary-foreground": "oklch(0.234 0.067 267.5)",
+    "sidebar-accent": "oklch(0.323 0.039 260.4)",
+    "sidebar-accent-foreground": "oklch(0.983 0.007 197.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.599 0.230 286.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for immersive data UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Ribbon-led grids, polar-night panels, luminous chart zones, layered dashboards, and precise dark-ready component rhythm.",
+  "tags": [
+    "aurora",
+    "weather",
+    "polar",
+    "data",
+    "luminous",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-aurora/motif.png",
+    "board": "/systems/morphous-aurora/design-system-light.png",
+    "darkBoard": "/systems/morphous-aurora/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-aurora/theme.css",
+    "themeJson": "/systems/morphous-aurora/theme.json",
+    "promptsJson": "/systems/morphous-aurora/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent aurora motif source",
+      "asset": "/systems/morphous-aurora/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an aurora ribbon motif with green and violet light curtains, midnight blue polar-night depth, and snow white horizon accents, isolated full subject, no text.\nSubject: A flowing aurora band with layered translucent ribbons, natural magnetic wave shapes, soft polar glow, and crisp edges suitable for transparent cutout use.\nComposition/framing: centered complete cutout with generous padding; do not crop the ribbon edges or glow forms.\nLighting/mood: luminous polar night, immersive data-system mood, vivid but natural aurora color.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be uniform with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no people, no buildings, no stars as background field, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-aurora/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Aurora\" derived from the visible transparent aurora ribbon motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from aurora green, ribbon violet, midnight blue, snow white, and flowing polar-light geometry. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Aurora, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, immersive data metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, luminous ribbon accents, polar data dashboard mood.\nConstraints: no unrelated saturated colors, no generic purple-blue gradient wash, no watermark, no random brand names, no misspelling of \"Morphous Aurora\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-aurora/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Aurora design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent aurora ribbon motif and the visible light-mode board as references. Preserve aurora green and violet palette roles, midnight blue depth, ribbon motion, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Aurora, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: polar-night background, snow-white text, aurora green primary accents, ribbon violet secondary accents, luminous chart details, crisp cards and controls.\nConstraints: no neon overload, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

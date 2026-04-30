@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-arctic-hare",
+    "name": "Morphous Arctic Hare",
+    "motifName": "Arctic Hare Fur",
+    "motifCategory": "mammal",
+    "biome": "Tundra",
+    "motif": "arctic hare fur"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow Fur",
+      "hex": "#f6f4ee",
+      "oklch": "oklch(0.967 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Eye",
+      "hex": "#17191a",
+      "oklch": "oklch(0.212 0.004 229.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Frost Grey",
+      "hex": "#8d969b",
+      "oklch": "oklch(0.667 0.013 231.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Winter Pelt",
+      "hex": "#d9d9d3",
+      "oklch": "oklch(0.884 0.008 106.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ear Shadow",
+      "hex": "#b7b0ad",
+      "oklch": "oklch(0.762 0.009 44.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Tundra Lichen",
+      "hex": "#a7b09f",
+      "oklch": "oklch(0.745 0.026 130.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Packed Snow",
+      "hex": "#ebe9e2",
+      "oklch": "oklch(0.934 0.010 93.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Polar Charcoal",
+      "hex": "#2b2f31",
+      "oklch": "oklch(0.302 0.007 229.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.008 91.5)",
+    "foreground": "oklch(0.212 0.004 229.0)",
+    "card": "oklch(0.934 0.010 93.6)",
+    "card-foreground": "oklch(0.212 0.004 229.0)",
+    "popover": "oklch(0.934 0.010 93.6)",
+    "popover-foreground": "oklch(0.212 0.004 229.0)",
+    "primary": "oklch(0.667 0.013 231.8)",
+    "primary-foreground": "oklch(0.967 0.008 91.5)",
+    "secondary": "oklch(0.949 0.010 93.6)",
+    "secondary-foreground": "oklch(0.302 0.007 229.1)",
+    "muted": "oklch(0.943 0.010 93.6)",
+    "muted-foreground": "oklch(0.302 0.007 229.1)",
+    "accent": "oklch(0.762 0.009 44.9)",
+    "accent-foreground": "oklch(0.212 0.004 229.0)",
+    "destructive": "oklch(0.667 0.013 231.8)",
+    "border": "oklch(0.916 0.008 91.5)",
+    "input": "oklch(0.916 0.008 91.5)",
+    "ring": "oklch(0.884 0.008 106.6)",
+    "chart-1": "oklch(0.667 0.013 231.8)",
+    "chart-2": "oklch(0.884 0.008 106.6)",
+    "chart-3": "oklch(0.762 0.009 44.9)",
+    "chart-4": "oklch(0.745 0.026 130.0)",
+    "chart-5": "oklch(0.302 0.007 229.1)",
+    "sidebar": "oklch(0.946 0.010 93.6)",
+    "sidebar-foreground": "oklch(0.212 0.004 229.0)",
+    "sidebar-primary": "oklch(0.667 0.013 231.8)",
+    "sidebar-primary-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-accent": "oklch(0.903 0.008 98.9)",
+    "sidebar-accent-foreground": "oklch(0.667 0.013 231.8)",
+    "sidebar-border": "oklch(0.916 0.008 91.5)",
+    "sidebar-ring": "oklch(0.884 0.008 106.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.212 0.004 229.0)",
+    "foreground": "oklch(0.967 0.008 91.5)",
+    "card": "oklch(0.273 0.006 214.4)",
+    "card-foreground": "oklch(0.967 0.008 91.5)",
+    "popover": "oklch(0.273 0.006 214.4)",
+    "popover-foreground": "oklch(0.967 0.008 91.5)",
+    "primary": "oklch(0.884 0.008 106.6)",
+    "primary-foreground": "oklch(0.212 0.004 229.0)",
+    "secondary": "oklch(0.444 0.004 219.6)",
+    "secondary-foreground": "oklch(0.967 0.008 91.5)",
+    "muted": "oklch(0.444 0.004 219.6)",
+    "muted-foreground": "oklch(0.930 0.008 98.9)",
+    "accent": "oklch(0.762 0.009 44.9)",
+    "accent-foreground": "oklch(0.212 0.004 229.0)",
+    "destructive": "oklch(0.667 0.013 231.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.884 0.008 106.6)",
+    "chart-1": "oklch(0.884 0.008 106.6)",
+    "chart-2": "oklch(0.667 0.013 231.8)",
+    "chart-3": "oklch(0.762 0.009 44.9)",
+    "chart-4": "oklch(0.745 0.026 130.0)",
+    "chart-5": "oklch(0.884 0.008 106.6)",
+    "sidebar": "oklch(0.254 0.006 236.8)",
+    "sidebar-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-primary": "oklch(0.884 0.008 106.6)",
+    "sidebar-primary-foreground": "oklch(0.212 0.004 229.0)",
+    "sidebar-accent": "oklch(0.444 0.004 219.6)",
+    "sidebar-accent-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.884 0.008 106.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English product UI with compact labels, calm numbers, and Japanese UI guidance tuned for pale winter contrast.",
+  "layout": "Minimal 8px grids, soft fur-grain texture, restrained shadows, dense dashboard panels, and low-contrast tundra separators.",
+  "tags": [
+    "arctic-hare",
+    "mammal",
+    "tundra",
+    "winter",
+    "minimal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-arctic-hare/motif.png",
+    "board": "/systems/morphous-arctic-hare/design-system-light.png",
+    "darkBoard": "/systems/morphous-arctic-hare/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-arctic-hare/theme.css",
+    "themeJson": "/systems/morphous-arctic-hare/theme.json",
+    "promptsJson": "/systems/morphous-arctic-hare/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent arctic hare motif",
+      "asset": "/systems/morphous-arctic-hare/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Arctic Hare transparent motif chroma-key source\nPrimary request: Create only an arctic hare fur motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A crouched arctic hare with dense snow-white winter fur, frost-grey underfur shadows, black eye contrast, pale grey ear rims, compact tundra body shape, short tail, visible fine fur texture, and subtle cold-weather anatomy. It must read as arctic hare, not rabbit pet, fox, or snow leopard.\nComposition/framing: centered complete cutout with generous padding; include ears, full body, paws, and tail without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no domestic rabbit styling, no fox, no cat, no antlers, no landscape, no snowdrift base, no props, no text, no watermark, no second animal."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-arctic-hare/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Arctic Hare light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Arctic Hare\", derived from the visible arctic hare fur cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Arctic Hare, Arctic Hare Fur, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from snow-white fur, frost-grey shadows, black eye contrast, pale ear-edge grey, muted tundra lichen, packed-snow surfaces, and polar charcoal depth. The board must read as arctic hare winter minimalism, not generic snowflake or leopard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible on pale surfaces.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: minimal winter product system, precise 8px grid, 8px card radius, snow-fur backgrounds, frost-grey primary actions, black-eye focus rings, soft ear-shadow accents, tundra lichen success states, fur-grain texture, thin cold-grey borders, restrained shadows.\nConstraints: no snowflake theme, no snow leopard spots, no domestic rabbit toy look, no generic purple/blue gradients, no beige-only palette, no random saturated colors, no watermark, no misspelling of \"Morphous Arctic Hare\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-arctic-hare/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Arctic Hare dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Arctic Hare\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible arctic hare fur cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Arctic Hare, Arctic Hare Fur, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same arctic hare system language as the visible light board: polar charcoal backgrounds, snow-fur foregrounds, frost-grey actions, black-eye focus detail, pale ear-shadow accents, tundra lichen status, soft fur-grain texture, restrained 8px component grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible on dark cold surfaces.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: charcoal tundra panels, off-white text, frost-grey active controls, muted lichen success, ear-shadow warning accents, soft fur texture overlays, low-glare contrast, crisp cards and controls.\nConstraints: no snow leopard spots, no neon blue ice theme, no pure-black-only flat background, no generic purple gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Arctic Hare\", no illegible tiny paragraphs."
+    }
+  ]
+}

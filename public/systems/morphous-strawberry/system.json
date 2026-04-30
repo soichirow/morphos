@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-strawberry",
+  "name": "Morphous Strawberry",
+  "motifName": "Strawberry Plant",
+  "motifCategory": "plant",
+  "biome": "Kitchen Garden",
+  "motif": "berry blossom utility",
+  "description": "A shadcn/tweakcn-compatible system coded from the Strawberry light and dark boards: strawberry scarlet actions, cream blossom surfaces, seed yellow highlights, leaf and stem greens, garden soil depth, and deep seed ink text.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for 見出し, 本文, ラベル, and 数値 rhythm.",
+  "layout": "Compact 8px product grids, botanical stem dividers, blossom-soft panels, dense dashboard cards, and garden-grown operational clarity.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "strawberry",
+    "plant",
+    "garden",
+    "fresh",
+    "multilingual",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Blossom",
+      "hex": "#fff4e6"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Seed Ink",
+      "hex": "#211714"
+    },
+    {
+      "role": "Primary",
+      "name": "Strawberry Scarlet",
+      "hex": "#d7192a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2f7d3f"
+    },
+    {
+      "role": "Accent",
+      "name": "Seed Yellow",
+      "hex": "#f2c84b"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Green",
+      "hex": "#6f8f3a"
+    },
+    {
+      "role": "Surface",
+      "name": "Blossom Petal",
+      "hex": "#f9e2dc"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Leaf Vein",
+      "hex": "#9abf7a"
+    },
+    {
+      "role": "Depth",
+      "name": "Garden Soil",
+      "hex": "#5a3828"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

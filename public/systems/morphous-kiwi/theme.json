@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-kiwi",
+    "name": "Morphous Kiwi",
+    "motifName": "Kiwi",
+    "motifCategory": "fruit",
+    "biome": "vine orchard",
+    "motif": "kiwi cross section"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Kiwi Center",
+      "hex": "#f7f5d8",
+      "oklch": "oklch(0.964 0.038 103.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Black",
+      "hex": "#171914",
+      "oklch": "oklch(0.209 0.010 125.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Kiwi Lime",
+      "hex": "#86bd2f",
+      "oklch": "oklch(0.734 0.176 128.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fruit Green",
+      "hex": "#5f9e2d",
+      "oklch": "oklch(0.634 0.158 134.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Center Cream",
+      "hex": "#e8df8f",
+      "oklch": "oklch(0.893 0.101 102.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Vine Green",
+      "hex": "#47733a",
+      "oklch": "oklch(0.509 0.098 138.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Flesh",
+      "hex": "#eef0c7",
+      "oklch": "oklch(0.943 0.054 109.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Orchard Leaf",
+      "hex": "#74a64a",
+      "oklch": "oklch(0.669 0.134 132.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Fuzz Brown",
+      "hex": "#7a5630",
+      "oklch": "oklch(0.483 0.072 66.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.964 0.038 103.9)",
+    "foreground": "oklch(0.209 0.010 125.0)",
+    "card": "oklch(0.943 0.054 109.7)",
+    "card-foreground": "oklch(0.209 0.010 125.0)",
+    "popover": "oklch(0.943 0.054 109.7)",
+    "popover-foreground": "oklch(0.209 0.010 125.0)",
+    "primary": "oklch(0.734 0.176 128.9)",
+    "primary-foreground": "oklch(0.964 0.038 103.9)",
+    "secondary": "oklch(0.952 0.047 107.3)",
+    "secondary-foreground": "oklch(0.483 0.072 66.2)",
+    "muted": "oklch(0.949 0.048 107.3)",
+    "muted-foreground": "oklch(0.483 0.072 66.2)",
+    "accent": "oklch(0.893 0.101 102.7)",
+    "accent-foreground": "oklch(0.209 0.010 125.0)",
+    "destructive": "oklch(0.734 0.176 128.9)",
+    "border": "oklch(0.844 0.081 122.6)",
+    "input": "oklch(0.844 0.081 122.6)",
+    "ring": "oklch(0.634 0.158 134.3)",
+    "chart-1": "oklch(0.734 0.176 128.9)",
+    "chart-2": "oklch(0.634 0.158 134.3)",
+    "chart-3": "oklch(0.893 0.101 102.7)",
+    "chart-4": "oklch(0.509 0.098 138.9)",
+    "chart-5": "oklch(0.483 0.072 66.2)",
+    "sidebar": "oklch(0.951 0.048 108.6)",
+    "sidebar-foreground": "oklch(0.209 0.010 125.0)",
+    "sidebar-primary": "oklch(0.734 0.176 128.9)",
+    "sidebar-primary-foreground": "oklch(0.964 0.038 103.9)",
+    "sidebar-accent": "oklch(0.918 0.070 114.8)",
+    "sidebar-accent-foreground": "oklch(0.734 0.176 128.9)",
+    "sidebar-border": "oklch(0.844 0.081 122.6)",
+    "sidebar-ring": "oklch(0.634 0.158 134.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.209 0.010 125.0)",
+    "foreground": "oklch(0.964 0.038 103.9)",
+    "card": "oklch(0.394 0.052 69.8)",
+    "card-foreground": "oklch(0.964 0.038 103.9)",
+    "popover": "oklch(0.394 0.052 69.8)",
+    "popover-foreground": "oklch(0.964 0.038 103.9)",
+    "primary": "oklch(0.634 0.158 134.3)",
+    "primary-foreground": "oklch(0.209 0.010 125.0)",
+    "secondary": "oklch(0.522 0.072 91.0)",
+    "secondary-foreground": "oklch(0.964 0.038 103.9)",
+    "muted": "oklch(0.522 0.072 91.0)",
+    "muted-foreground": "oklch(0.831 0.080 124.5)",
+    "accent": "oklch(0.893 0.101 102.7)",
+    "accent-foreground": "oklch(0.209 0.010 125.0)",
+    "destructive": "oklch(0.734 0.176 128.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.634 0.158 134.3)",
+    "chart-1": "oklch(0.634 0.158 134.3)",
+    "chart-2": "oklch(0.734 0.176 128.9)",
+    "chart-3": "oklch(0.893 0.101 102.7)",
+    "chart-4": "oklch(0.509 0.098 138.9)",
+    "chart-5": "oklch(0.669 0.134 132.7)",
+    "sidebar": "oklch(0.341 0.039 72.1)",
+    "sidebar-foreground": "oklch(0.964 0.038 103.9)",
+    "sidebar-primary": "oklch(0.634 0.158 134.3)",
+    "sidebar-primary-foreground": "oklch(0.209 0.010 125.0)",
+    "sidebar-accent": "oklch(0.522 0.072 91.0)",
+    "sidebar-accent-foreground": "oklch(0.964 0.038 103.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.634 0.158 134.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Playful but precise English data UI with crisp numerals and Japanese typography guidance.",
+  "layout": "Radial kiwi segment cues, seed-dot charts, compact dashboard grids, 8px radii, fuzzy borders, and lively navigation.",
+  "tags": [
+    "kiwi",
+    "fruit",
+    "vine",
+    "data",
+    "playful",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-kiwi/motif.png",
+    "board": "/systems/morphous-kiwi/design-system-light.png",
+    "darkBoard": "/systems/morphous-kiwi/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-kiwi/theme.css",
+    "themeJson": "/systems/morphous-kiwi/theme.json",
+    "promptsJson": "/systems/morphous-kiwi/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent kiwi cross section motif",
+      "asset": "/systems/morphous-kiwi/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Kiwi transparent motif chroma-key source\nPrimary request: Create only a kiwi cross-section motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A vine-orchard kiwi cut open in clean cross section, vivid lime-green flesh, pale cream center star, ring of tiny black seeds, fuzzy brown skin edge, and a small vine leaf accent. Botanical accuracy, crisp subject edges, juicy radial texture, unmistakably kiwi.\nComposition/framing: centered complete cutout with generous padding; include one circular slice, one partial whole kiwi edge, and a small vine leaf without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no lime citrus, no cucumber, no avocado, no tropical leaf set, no bowl, no hand, no props, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-kiwi/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Kiwi light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Kiwi\", derived from the visible kiwi cross-section cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible playful data UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Kiwi, Kiwi Cross Section, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from lime-green kiwi flesh, seed-black dots, fuzzy brown skin, pale cream center, vine-green leaves, and radial fruit geometry. The board must read as kiwi, not lime citrus or avocado.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, pale flesh surfaces, kiwi-lime primary actions, seed-black tiny chart dots, center-cream accents, vine-green success states, fuzz-brown borders, radial segment texture.\nConstraints: no lime citrus identity, no avocado, no cucumber, no generic green monochrome UI, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Kiwi\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-kiwi/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Kiwi dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Kiwi\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the kiwi cross-section cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Kiwi, Kiwi Cross Section, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve kiwi system language: lime-green active states, seed-black rhythm, fuzzy brown surfaces and borders, cream text, vine-green controls, radial fruit-segment texture, 8px radius, precise shadcn/tweakcn component grid. Must read as kiwi, not lime citrus or avocado.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep seed-black and fuzz-brown dark surfaces, pale cream foreground, kiwi-lime active states, fruit-green chart highlights, vine green focus/control accents, subtle seed-dot overlays, crisp cards and controls.\nConstraints: no lime citrus identity, no avocado, no cucumber, no neon-green overload, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Kiwi\"."
+    }
+  ]
+}

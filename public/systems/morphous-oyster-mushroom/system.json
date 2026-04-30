@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-oyster-mushroom",
+  "name": "Morphous Oyster Mushroom",
+  "motifName": "Oyster Mushroom Fan",
+  "motifCategory": "fungi",
+  "biome": "Fallen Log",
+  "motif": "quiet documentation system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Oyster Mushroom light and dark design-system boards: shell-grey fans, ivory gills, bark-brown structure, soft shadow, and quiet documentation surfaces. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for quiet documentation UI with Noto Sans guidance for multilingual reading, references, and compact tables.",
+  "layout": "Precise 8px documentation grids, fan-gill dividers, soft shell panels, bark sidebars, and low-noise information hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "oyster-mushroom",
+    "fungi",
+    "documentation",
+    "quiet",
+    "shell-grey",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Ivory Gill", "hex": "#f4efe5" },
+    { "role": "Ink", "name": "Log Ink", "hex": "#211d19" },
+    { "role": "Primary", "name": "Shell Grey", "hex": "#9da09a" },
+    { "role": "Secondary", "name": "Bark Brown", "hex": "#71533f" },
+    { "role": "Accent", "name": "Fan Pearl", "hex": "#d9d8cf" },
+    { "role": "Signal", "name": "Moss Note", "hex": "#728061" },
+    { "role": "Surface", "name": "Soft Spore", "hex": "#e4ded3" },
+    { "role": "Muted", "name": "Shadow Taupe", "hex": "#81766e" },
+    { "role": "Depth", "name": "Fallen Log", "hex": "#3b3028" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

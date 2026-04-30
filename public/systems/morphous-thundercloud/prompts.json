@@ -1,0 +1,20 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent thundercloud motif source",
+    "asset": "/systems/morphous-thundercloud/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a thundercloud motif with slate grey cloud mass, electric yellow lightning, rain blue lower streaks, and storm-front shape, isolated full subject, no text.\nSubject: A compact anvil thundercloud with layered storm texture, one crisp lightning branch, rain veil details, and dramatic but clean silhouette.\nComposition/framing: centered complete cutout with generous padding; do not crop the cloud, lightning, or rain streaks.\nLighting/mood: charged storm light, alerting-system mood, natural slate and electric contrast.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be uniform with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no city, no landscape, no people, no extra storms, no text, no watermark, no decorative background."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-thundercloud/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Thundercloud\" derived from the visible transparent thundercloud motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from slate grey cloud forms, electric yellow lightning, rain blue, and storm-front layering. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Thundercloud, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, alert metric cards, incident charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, storm-shelf dividers, high-legibility alert states.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Thundercloud\"."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-thundercloud/design-system-dark.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Thundercloud design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent thundercloud motif and the visible light-mode board as references. Preserve slate grey structure, electric yellow alert language, rain blue context, storm-front texture, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Thundercloud, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: storm core background, pale cloud text, electric yellow primary accents, rain blue secondary accents, slate cards, sharp focus states, crisp controls.\nConstraints: no neon overload, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names."
+  }
+]

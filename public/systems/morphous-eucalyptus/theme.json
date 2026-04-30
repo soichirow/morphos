@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-eucalyptus",
+    "name": "Eucalyptus",
+    "motifName": "eucalyptus leaves",
+    "motifCategory": "plant",
+    "biome": "dry woodland",
+    "motif": "silver leaf clinical calm"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clinic Mist",
+      "hex": "#f4f7f4",
+      "oklch": "oklch(0.973 0.005 145.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Blue Gum Ink",
+      "hex": "#1f2d32",
+      "oklch": "oklch(0.287 0.021 221.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Eucalyptus Silver",
+      "hex": "#78968a",
+      "oklch": "oklch(0.647 0.038 168.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Blue Grey",
+      "hex": "#8ea4ad",
+      "oklch": "oklch(0.705 0.028 224.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Dry Bark Tan",
+      "hex": "#c9aa82",
+      "oklch": "oklch(0.756 0.065 73.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fresh Leaf",
+      "hex": "#a7c7b2",
+      "oklch": "oklch(0.800 0.045 156.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Gum",
+      "hex": "#e7eee8",
+      "oklch": "oklch(0.942 0.011 149.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Woodland Sage",
+      "hex": "#5f756a",
+      "oklch": "oklch(0.541 0.031 163.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Shadow",
+      "hex": "#39443d",
+      "oklch": "oklch(0.374 0.019 157.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.005 145.5)",
+    "foreground": "oklch(0.287 0.021 221.9)",
+    "card": "oklch(0.942 0.011 149.9)",
+    "card-foreground": "oklch(0.287 0.021 221.9)",
+    "popover": "oklch(0.942 0.011 149.9)",
+    "popover-foreground": "oklch(0.287 0.021 221.9)",
+    "primary": "oklch(0.647 0.038 168.8)",
+    "primary-foreground": "oklch(0.973 0.005 145.5)",
+    "secondary": "oklch(0.955 0.009 150.7)",
+    "secondary-foreground": "oklch(0.374 0.019 157.5)",
+    "muted": "oklch(0.952 0.010 145.5)",
+    "muted-foreground": "oklch(0.374 0.019 157.5)",
+    "accent": "oklch(0.756 0.065 73.7)",
+    "accent-foreground": "oklch(0.287 0.021 221.9)",
+    "destructive": "oklch(0.647 0.038 168.8)",
+    "border": "oklch(0.803 0.016 160.5)",
+    "input": "oklch(0.803 0.016 160.5)",
+    "ring": "oklch(0.705 0.028 224.4)",
+    "chart-1": "oklch(0.647 0.038 168.8)",
+    "chart-2": "oklch(0.705 0.028 224.4)",
+    "chart-3": "oklch(0.756 0.065 73.7)",
+    "chart-4": "oklch(0.800 0.045 156.5)",
+    "chart-5": "oklch(0.374 0.019 157.5)",
+    "sidebar": "oklch(0.952 0.009 150.7)",
+    "sidebar-foreground": "oklch(0.287 0.021 221.9)",
+    "sidebar-primary": "oklch(0.647 0.038 168.8)",
+    "sidebar-primary-foreground": "oklch(0.973 0.005 145.5)",
+    "sidebar-accent": "oklch(0.907 0.013 157.0)",
+    "sidebar-accent-foreground": "oklch(0.647 0.038 168.8)",
+    "sidebar-border": "oklch(0.803 0.016 160.5)",
+    "sidebar-ring": "oklch(0.705 0.028 224.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.287 0.021 221.9)",
+    "foreground": "oklch(0.973 0.005 145.5)",
+    "card": "oklch(0.344 0.017 178.4)",
+    "card-foreground": "oklch(0.973 0.005 145.5)",
+    "popover": "oklch(0.344 0.017 178.4)",
+    "popover-foreground": "oklch(0.973 0.005 145.5)",
+    "primary": "oklch(0.705 0.028 224.4)",
+    "primary-foreground": "oklch(0.287 0.021 221.9)",
+    "secondary": "oklch(0.413 0.022 160.2)",
+    "secondary-foreground": "oklch(0.973 0.005 145.5)",
+    "muted": "oklch(0.413 0.022 160.2)",
+    "muted-foreground": "oklch(0.787 0.016 160.5)",
+    "accent": "oklch(0.756 0.065 73.7)",
+    "accent-foreground": "oklch(0.287 0.021 221.9)",
+    "destructive": "oklch(0.647 0.038 168.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.705 0.028 224.4)",
+    "chart-1": "oklch(0.705 0.028 224.4)",
+    "chart-2": "oklch(0.647 0.038 168.8)",
+    "chart-3": "oklch(0.756 0.065 73.7)",
+    "chart-4": "oklch(0.800 0.045 156.5)",
+    "chart-5": "oklch(0.541 0.031 163.5)",
+    "sidebar": "oklch(0.329 0.017 190.6)",
+    "sidebar-foreground": "oklch(0.973 0.005 145.5)",
+    "sidebar-primary": "oklch(0.705 0.028 224.4)",
+    "sidebar-primary-foreground": "oklch(0.287 0.021 221.9)",
+    "sidebar-accent": "oklch(0.413 0.022 160.2)",
+    "sidebar-accent-foreground": "oklch(0.973 0.005 145.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.705 0.028 224.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clean product UI with Noto Sans guidance for multilingual healthcare labels, clear forms, and calm numeric hierarchy.",
+  "layout": "Precise 8px healthcare grids, rounded clinical panels, leaf-stem dividers, soft bark texture, and measured dashboard density.",
+  "tags": [
+    "eucalyptus",
+    "plant",
+    "healthcare",
+    "silver-green",
+    "calm",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-eucalyptus/motif.png",
+    "board": "/systems/morphous-eucalyptus/design-system-light.png",
+    "darkBoard": "/systems/morphous-eucalyptus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-eucalyptus/theme.css",
+    "themeJson": "/systems/morphous-eucalyptus/theme.json",
+    "promptsJson": "/systems/morphous-eucalyptus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent eucalyptus motif source",
+      "asset": "/systems/morphous-eucalyptus/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only eucalyptus leaves, isolated full subject, no environment, no props, no text.\nSubject: A graceful eucalyptus branch with rounded juvenile leaves and slender mature leaves, silver green surfaces, blue grey waxy bloom, subtle bark tan stems, crisp botanical edges, and natural leaf texture.\nComposition/framing: centered complete cutout with generous padding; do not crop the leaves or stems.\nLighting/mood: clean studio light that preserves muted silver-green color and fine leaf detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no forest background, no vase, no flowers."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-eucalyptus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Eucalyptus\" derived from the visible transparent eucalyptus leaf cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the silver green leaves, blue grey waxy bloom, bark tan stems, and dry woodland calm in the visible eucalyptus cutout.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Eucalyptus, Eucalyptus Leaves, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and multilingual examples; use labels like Geist, Noto Sans, Heading, Body, Label, Numeric. Show clear healthcare product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style healthcare design system, realistic UI mockup, precise grid, 8px card radius, clean pale surfaces, soft leaf-stem dividers, subtle dry bark texture, calm clinical hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: silver green, blue grey, bark tan, pale gum, woodland sage, clinic mist, and dark blue gum ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Eucalyptus\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-eucalyptus/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Eucalyptus design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: This dark design-system board is the source reference for coding any future theme together with the light board. Use the visible transparent eucalyptus cutout and the visible light-mode Morphous Eucalyptus board as references. Preserve the silver leaf palette roles, clean healthcare component language, leaf-stem dividers, dry bark texture, spacing, typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Eucalyptus, Eucalyptus Leaves, Dark Mode, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from blue gum ink and bark shadow, readable text from clinic mist, primary accents from eucalyptus silver, secondary accents from leaf blue grey, warm details from dry bark tan, subtle eucalyptus texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and multilingual examples; labels like Geist, Noto Sans, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Eucalyptus\"."
+    }
+  ]
+}

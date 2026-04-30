@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-coral",
+  "name": "Morphous Coral",
+  "motifName": "Coral",
+  "motifCategory": "marine",
+  "biome": "Reef",
+  "motif": "branching coral",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Coral light and dark design-system boards: coral-pink actions, reef-orange status, sea-blue structure, modular branching layouts, and commerce-ready clarity. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Modular 8px product grids, branching dividers, reef-shelf panels, dense commerce cards, and warm marine hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "coral",
+    "marine",
+    "reef",
+    "modular",
+    "commerce",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#fff9f7"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Ink",
+      "hex": "#0e1a20"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Pink",
+      "hex": "#ff6f7d"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reef Orange",
+      "hex": "#ff8a3d"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Blue",
+      "hex": "#39c2e6"
+    },
+    {
+      "role": "Signal",
+      "name": "Polyp Rose",
+      "hex": "#ff8bb0"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Coral",
+      "hex": "#ffe6e1"
+    },
+    {
+      "role": "Muted",
+      "name": "Washed Reef",
+      "hex": "#ffd3c6"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Lagoon",
+      "hex": "#105f6f"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

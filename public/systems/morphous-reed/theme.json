@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-reed",
+    "name": "Morphous Reed",
+    "motifName": "Reed Plume",
+    "motifCategory": "plant",
+    "biome": "marsh",
+    "motif": "marsh reed plume geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Marsh Paper",
+      "hex": "#f4f2ea",
+      "oklch": "oklch(0.960 0.011 95.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2f312a",
+      "oklch": "oklch(0.309 0.013 120.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Reed Green",
+      "hex": "#697b48",
+      "oklch": "oklch(0.555 0.077 124.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Taupe Plume",
+      "hex": "#b59b7d",
+      "oklch": "oklch(0.705 0.052 70.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Grey",
+      "hex": "#8fa0a0",
+      "oklch": "oklch(0.692 0.019 196.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Olive",
+      "hex": "#4f6234",
+      "oklch": "oklch(0.468 0.073 127.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dry Reed",
+      "hex": "#e2d8c4",
+      "oklch": "oklch(0.885 0.029 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Marsh Green",
+      "hex": "#78935b",
+      "oklch": "oklch(0.628 0.085 129.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Taupe",
+      "hex": "#6b5c4e",
+      "oklch": "oklch(0.485 0.029 65.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.011 95.2)",
+    "foreground": "oklch(0.309 0.013 120.1)",
+    "card": "oklch(0.885 0.029 84.6)",
+    "card-foreground": "oklch(0.309 0.013 120.1)",
+    "popover": "oklch(0.885 0.029 84.6)",
+    "popover-foreground": "oklch(0.309 0.013 120.1)",
+    "primary": "oklch(0.555 0.077 124.7)",
+    "primary-foreground": "oklch(0.960 0.011 95.2)",
+    "secondary": "oklch(0.917 0.021 85.9)",
+    "secondary-foreground": "oklch(0.485 0.029 65.1)",
+    "muted": "oklch(0.906 0.023 84.6)",
+    "muted-foreground": "oklch(0.485 0.029 65.1)",
+    "accent": "oklch(0.692 0.019 196.7)",
+    "accent-foreground": "oklch(0.309 0.013 120.1)",
+    "destructive": "oklch(0.555 0.077 124.7)",
+    "border": "oklch(0.794 0.045 111.6)",
+    "input": "oklch(0.794 0.045 111.6)",
+    "ring": "oklch(0.705 0.052 70.8)",
+    "chart-1": "oklch(0.555 0.077 124.7)",
+    "chart-2": "oklch(0.705 0.052 70.8)",
+    "chart-3": "oklch(0.692 0.019 196.7)",
+    "chart-4": "oklch(0.468 0.073 127.3)",
+    "chart-5": "oklch(0.485 0.029 65.1)",
+    "sidebar": "oklch(0.911 0.023 87.2)",
+    "sidebar-foreground": "oklch(0.309 0.013 120.1)",
+    "sidebar-primary": "oklch(0.555 0.077 124.7)",
+    "sidebar-primary-foreground": "oklch(0.960 0.011 95.2)",
+    "sidebar-accent": "oklch(0.847 0.033 95.4)",
+    "sidebar-accent-foreground": "oklch(0.555 0.077 124.7)",
+    "sidebar-border": "oklch(0.794 0.045 111.6)",
+    "sidebar-ring": "oklch(0.705 0.052 70.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.309 0.013 120.1)",
+    "foreground": "oklch(0.960 0.011 95.2)",
+    "card": "oklch(0.427 0.022 69.8)",
+    "card-foreground": "oklch(0.960 0.011 95.2)",
+    "popover": "oklch(0.427 0.022 69.8)",
+    "popover-foreground": "oklch(0.960 0.011 95.2)",
+    "primary": "oklch(0.705 0.052 70.8)",
+    "primary-foreground": "oklch(0.309 0.013 120.1)",
+    "secondary": "oklch(0.516 0.035 95.2)",
+    "secondary-foreground": "oklch(0.960 0.011 95.2)",
+    "muted": "oklch(0.516 0.035 95.2)",
+    "muted-foreground": "oklch(0.813 0.041 124.2)",
+    "accent": "oklch(0.692 0.019 196.7)",
+    "accent-foreground": "oklch(0.309 0.013 120.1)",
+    "destructive": "oklch(0.555 0.077 124.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.705 0.052 70.8)",
+    "chart-1": "oklch(0.705 0.052 70.8)",
+    "chart-2": "oklch(0.555 0.077 124.7)",
+    "chart-3": "oklch(0.692 0.019 196.7)",
+    "chart-4": "oklch(0.468 0.073 127.3)",
+    "chart-5": "oklch(0.628 0.085 129.5)",
+    "sidebar": "oklch(0.393 0.018 80.6)",
+    "sidebar-foreground": "oklch(0.960 0.011 95.2)",
+    "sidebar-primary": "oklch(0.705 0.052 70.8)",
+    "sidebar-primary-foreground": "oklch(0.309 0.013 120.1)",
+    "sidebar-accent": "oklch(0.516 0.035 95.2)",
+    "sidebar-accent-foreground": "oklch(0.960 0.011 95.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.705 0.052 70.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English field UI with Noto Sans JP guidance for compact Japanese forms, coordinates, and tabular labels.",
+  "layout": "Structured 8px grids, vertical reed dividers, field-table density, low shadows, and marsh-water rhythm.",
+  "tags": [
+    "reed",
+    "plant",
+    "marsh",
+    "taupe",
+    "field",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-reed/motif.png",
+    "board": "/systems/morphous-reed/design-system-light.png",
+    "darkBoard": "/systems/morphous-reed/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-reed/theme.css",
+    "themeJson": "/systems/morphous-reed/theme.json",
+    "promptsJson": "/systems/morphous-reed/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent reed plume motif",
+      "asset": "/systems/morphous-reed/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Reed transparent motif chroma-key source\nPrimary request: Create only a marsh reed plume botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: An upright reed plume with feathery taupe seed head, long narrow reed-green leaves, straight segmented stem, water-grey cool highlights, and dry marsh texture. Botanical accuracy, crisp subject edges, vertical field silhouette, no willow branch, no wheat.\nComposition/framing: centered complete cutout with generous padding; include full plume, stem, and leaves without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no cattail cylinder, no wheat awns, no pampas grass bouquet, no bamboo, no landscape, no marsh scene, no vase, no hand, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-reed/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Reed light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Reed\", derived from the visible marsh reed plume cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible structured field system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Reed, Reed Plume, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from taupe plume fibers, reed-green stems, water-grey marsh reflections, dry reed surfaces, peat ink, and mud-taupe depth. The board must read as reed, not willow, wheat, bamboo, or pampas.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, field dashboard metric cards, map/list filter controls, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, marsh-paper surfaces, reed-green primary actions, taupe plume highlights, water-grey focus rings, vertical stem dividers, field-table density, subtle plume-fiber texture.\nConstraints: no willow hanging branches, no wheat harvest imagery, no cattail cylinder, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Reed\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-reed/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Reed dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Reed\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible marsh reed plume cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Reed, Reed Plume, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the reed system language: peat dark backgrounds, marsh-paper text, reed-green active controls, taupe plume chart highlights, water-grey focus states, mud-taupe borders, vertical stem dividers, plume-fiber texture, 8px shadcn/tweakcn grid. Must read as reed, not willow, wheat, bamboo, or pampas.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, field dashboard metric cards, map/list filter controls, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: peat-ink dark surfaces, marsh-paper foreground, reed-green controls, taupe plume highlights, water-grey rings, mud-taupe separators, subtle plume-fiber overlays, restrained contrast, crisp cards and controls.\nConstraints: no willow hanging branches, no wheat harvest imagery, no cattail cylinder, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Reed\"."
+    }
+  ]
+}

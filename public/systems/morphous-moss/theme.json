@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-moss",
+    "name": "Moss",
+    "motifName": "Moss Cushion",
+    "motifCategory": "plant",
+    "biome": "rainforest floor",
+    "motif": "soft tactile dashboard system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dew Light",
+      "hex": "#f1f6e7",
+      "oklch": "oklch(0.965 0.020 121.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Ink",
+      "hex": "#1d2118",
+      "oklch": "oklch(0.240 0.018 127.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Deep Moss",
+      "hex": "#3f6f2b",
+      "oklch": "oklch(0.491 0.112 137.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lime Moss",
+      "hex": "#8bbf3f",
+      "oklch": "oklch(0.743 0.166 128.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Dew Grey",
+      "hex": "#b8c7bf",
+      "oklch": "oklch(0.816 0.020 162.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Soil Brown",
+      "hex": "#5b4631",
+      "oklch": "oklch(0.411 0.044 66.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Cushion",
+      "hex": "#dfeacd",
+      "oklch": "oklch(0.921 0.040 124.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rain Shadow",
+      "hex": "#7d8f76",
+      "oklch": "oklch(0.628 0.042 136.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Soil",
+      "hex": "#302719",
+      "oklch": "oklch(0.279 0.027 78.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.020 121.8)",
+    "foreground": "oklch(0.240 0.018 127.2)",
+    "card": "oklch(0.921 0.040 124.1)",
+    "card-foreground": "oklch(0.240 0.018 127.2)",
+    "popover": "oklch(0.921 0.040 124.1)",
+    "popover-foreground": "oklch(0.240 0.018 127.2)",
+    "primary": "oklch(0.491 0.112 137.5)",
+    "primary-foreground": "oklch(0.965 0.020 121.8)",
+    "secondary": "oklch(0.940 0.032 122.7)",
+    "secondary-foreground": "oklch(0.279 0.027 78.3)",
+    "muted": "oklch(0.933 0.034 123.2)",
+    "muted-foreground": "oklch(0.279 0.027 78.3)",
+    "accent": "oklch(0.816 0.020 162.8)",
+    "accent-foreground": "oklch(0.240 0.018 127.2)",
+    "destructive": "oklch(0.491 0.112 137.5)",
+    "border": "oklch(0.819 0.040 128.3)",
+    "input": "oklch(0.819 0.040 128.3)",
+    "ring": "oklch(0.743 0.166 128.9)",
+    "chart-1": "oklch(0.491 0.112 137.5)",
+    "chart-2": "oklch(0.743 0.166 128.9)",
+    "chart-3": "oklch(0.816 0.020 162.8)",
+    "chart-4": "oklch(0.411 0.044 66.1)",
+    "chart-5": "oklch(0.279 0.027 78.3)",
+    "sidebar": "oklch(0.936 0.033 123.8)",
+    "sidebar-foreground": "oklch(0.240 0.018 127.2)",
+    "sidebar-primary": "oklch(0.491 0.112 137.5)",
+    "sidebar-primary-foreground": "oklch(0.965 0.020 121.8)",
+    "sidebar-accent": "oklch(0.871 0.047 127.3)",
+    "sidebar-accent-foreground": "oklch(0.491 0.112 137.5)",
+    "sidebar-border": "oklch(0.819 0.040 128.3)",
+    "sidebar-ring": "oklch(0.743 0.166 128.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.240 0.018 127.2)",
+    "foreground": "oklch(0.965 0.020 121.8)",
+    "card": "oklch(0.266 0.022 88.0)",
+    "card-foreground": "oklch(0.965 0.020 121.8)",
+    "popover": "oklch(0.266 0.022 88.0)",
+    "popover-foreground": "oklch(0.965 0.020 121.8)",
+    "primary": "oklch(0.743 0.166 128.9)",
+    "primary-foreground": "oklch(0.240 0.018 127.2)",
+    "secondary": "oklch(0.362 0.028 99.2)",
+    "secondary-foreground": "oklch(0.965 0.020 121.8)",
+    "muted": "oklch(0.362 0.028 99.2)",
+    "muted-foreground": "oklch(0.819 0.030 130.8)",
+    "accent": "oklch(0.816 0.020 162.8)",
+    "accent-foreground": "oklch(0.240 0.018 127.2)",
+    "destructive": "oklch(0.491 0.112 137.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.743 0.166 128.9)",
+    "chart-1": "oklch(0.743 0.166 128.9)",
+    "chart-2": "oklch(0.491 0.112 137.5)",
+    "chart-3": "oklch(0.816 0.020 162.8)",
+    "chart-4": "oklch(0.411 0.044 66.1)",
+    "chart-5": "oklch(0.628 0.042 136.9)",
+    "sidebar": "oklch(0.259 0.021 99.7)",
+    "sidebar-foreground": "oklch(0.965 0.020 121.8)",
+    "sidebar-primary": "oklch(0.743 0.166 128.9)",
+    "sidebar-primary-foreground": "oklch(0.240 0.018 127.2)",
+    "sidebar-accent": "oklch(0.362 0.028 99.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.020 121.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.743 0.166 128.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Soft 8px dashboard grids, cushion-like metric cards, dew-dot focus states, moss-fiber dividers, and grounded operational hierarchy.",
+  "tags": [
+    "moss",
+    "plant",
+    "rainforest-floor",
+    "soft",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-moss/motif.png",
+    "board": "/systems/morphous-moss/design-system-light.png",
+    "darkBoard": "/systems/morphous-moss/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-moss/theme.css",
+    "themeJson": "/systems/morphous-moss/theme.json",
+    "promptsJson": "/systems/morphous-moss/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent moss motif source",
+      "asset": "/systems/morphous-moss/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a moss cushion, isolated full subject, no environment, no props, no text.\nSubject: A rainforest floor moss cushion with deep moss green fibers, lime moss tips, tiny dew grey droplets, soil brown underside hints, soft tactile texture, and natural organic edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the cushion edges or dew details.\nLighting/mood: clean studio light that preserves soft moss fibers, dew highlights, and damp soil depth.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no forest floor scene, no rocks, no pot, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-moss/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Moss\" derived from the visible transparent moss cushion cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from deep moss fibers, lime moss tips, dew grey droplets, soft cushion surfaces, rain shadows, soil brown underside, and soil ink depth in the visible moss cutout.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Moss, Moss Cushion, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style dashboard system, realistic UI mockup, precise grid, 8px card radius, cushion-soft metric cards, dew-dot focus states, moss-fiber dividers, tactile operational density.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: deep moss, lime moss, dew grey, soil brown, soft cushion, rain shadow, dew light, soil ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Moss\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-moss/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Moss design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent moss cushion cutout and the visible light-mode Morphous Moss board as references. The light and dark design-system boards are the source references for coding any future theme, so preserve palette roles, component language, moss-fiber texture, dew focus states, spacing, Japanese typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Moss, Moss Cushion, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from soil ink and wet soil, light text from dew light, primary accents from deep moss, secondary accents from lime moss, dew grey borders and highlights, soil brown depth, subtle cushion-fiber overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Moss\"."
+    }
+  ]
+}

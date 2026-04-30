@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-willow",
+  "name": "Morphous Willow",
+  "motifName": "Willow Branch",
+  "motifCategory": "plant",
+  "biome": "riverside",
+  "motif": "drooping willow branch geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from riverside willow branches: soft sage foliage, river-blue focus states, bark-grey structure, pale mist surfaces, and flexible planner rhythms.",
+  "typography": "Geist for clear English planner UI with Noto Sans JP guidance for calm Japanese labels, compact dates, and flowing hierarchy.",
+  "layout": "Fluid 8px planning grids, slender branch dividers, leaf-strand rhythm, soft shadows, and riverside spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "willow",
+    "plant",
+    "riverside",
+    "sage",
+    "planner",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Mist",
+      "hex": "#f3f7f2"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Bark Ink",
+      "hex": "#26302b"
+    },
+    {
+      "role": "Primary",
+      "name": "Willow Sage",
+      "hex": "#7f9f76"
+    },
+    {
+      "role": "Secondary",
+      "name": "Young Leaf",
+      "hex": "#b6c99a"
+    },
+    {
+      "role": "Accent",
+      "name": "River Blue",
+      "hex": "#6f9fb2"
+    },
+    {
+      "role": "Signal",
+      "name": "Bark Grey",
+      "hex": "#7a8178"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Willow",
+      "hex": "#e8efe3"
+    },
+    {
+      "role": "Success",
+      "name": "Bank Moss",
+      "hex": "#5f8a63"
+    },
+    {
+      "role": "Depth",
+      "name": "River Silt",
+      "hex": "#4f5148"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

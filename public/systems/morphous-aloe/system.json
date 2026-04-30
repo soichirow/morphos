@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-aloe",
+  "name": "Morphous Aloe",
+  "motifName": "Aloe Rosette",
+  "motifCategory": "plant",
+  "biome": "dry garden",
+  "motif": "aloe rosette geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from dry-garden aloe rosettes: blue-green fleshy leaves, rust tips, sand surfaces, and healing product clarity.",
+  "typography": "Geist for calm English product UI with Noto Sans JP guidance for healthcare-adjacent Japanese labels, measurements, and forms.",
+  "layout": "Healing 8px grids, rosette grouping, fleshy leaf panels, sand-soft shadows, and practical product controls.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "aloe",
+    "plant",
+    "dry-garden",
+    "blue-green",
+    "healing",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dry Garden Sand",
+      "hex": "#f4ead8"
+    },
+    {
+      "role": "Ink",
+      "name": "Aloe Shadow Ink",
+      "hex": "#20302c"
+    },
+    {
+      "role": "Primary",
+      "name": "Aloe Blue Green",
+      "hex": "#5f9d91"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Gel",
+      "hex": "#b7d7c9"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Tip",
+      "hex": "#b56a3c"
+    },
+    {
+      "role": "Signal",
+      "name": "Medicinal Green",
+      "hex": "#6f8f5f"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#e7d3b8"
+    },
+    {
+      "role": "Muted",
+      "name": "Fresh Gel",
+      "hex": "#76b59a"
+    },
+    {
+      "role": "Depth",
+      "name": "Dry Soil",
+      "hex": "#665244"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

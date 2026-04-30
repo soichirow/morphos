@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-chameleon",
+    "name": "Morphous Chameleon",
+    "motifName": "Chameleon",
+    "motifCategory": "reptile",
+    "biome": "Tropical Branch",
+    "motif": "chameleon profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Branch Cream",
+      "hex": "#f3e9d6",
+      "oklch": "oklch(0.937 0.027 83.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Scale Ink",
+      "hex": "#20251d",
+      "oklch": "oklch(0.257 0.016 133.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lime Scale",
+      "hex": "#c6e13a",
+      "oklch": "oklch(0.861 0.184 118.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Adaptive Teal",
+      "hex": "#0da9a6",
+      "oklch": "oklch(0.665 0.112 192.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ochre Eye",
+      "hex": "#d6a23a",
+      "oklch": "oklch(0.743 0.132 81.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Shift",
+      "hex": "#9acd56",
+      "oklch": "oklch(0.788 0.159 129.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Scale Highlight",
+      "hex": "#dff6e7",
+      "oklch": "oklch(0.952 0.031 157.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Brown",
+      "hex": "#5b4634",
+      "oklch": "oklch(0.412 0.040 61.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tropical Shadow",
+      "hex": "#15322e",
+      "oklch": "oklch(0.293 0.036 183.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.937 0.027 83.5)",
+    "foreground": "oklch(0.257 0.016 133.7)",
+    "card": "oklch(0.952 0.031 157.2)",
+    "card-foreground": "oklch(0.257 0.016 133.7)",
+    "popover": "oklch(0.952 0.031 157.2)",
+    "popover-foreground": "oklch(0.257 0.016 133.7)",
+    "primary": "oklch(0.861 0.184 118.6)",
+    "primary-foreground": "oklch(0.937 0.027 83.5)",
+    "secondary": "oklch(0.946 0.025 132.1)",
+    "secondary-foreground": "oklch(0.293 0.036 183.8)",
+    "muted": "oklch(0.947 0.025 139.8)",
+    "muted-foreground": "oklch(0.293 0.036 183.8)",
+    "accent": "oklch(0.743 0.132 81.1)",
+    "accent-foreground": "oklch(0.257 0.016 133.7)",
+    "destructive": "oklch(0.861 0.184 118.6)",
+    "border": "oklch(0.769 0.024 128.8)",
+    "input": "oklch(0.769 0.024 128.8)",
+    "ring": "oklch(0.665 0.112 192.5)",
+    "chart-1": "oklch(0.861 0.184 118.6)",
+    "chart-2": "oklch(0.665 0.112 192.5)",
+    "chart-3": "oklch(0.743 0.132 81.1)",
+    "chart-4": "oklch(0.788 0.159 129.0)",
+    "chart-5": "oklch(0.293 0.036 183.8)",
+    "sidebar": "oklch(0.948 0.026 136.3)",
+    "sidebar-foreground": "oklch(0.257 0.016 133.7)",
+    "sidebar-primary": "oklch(0.861 0.184 118.6)",
+    "sidebar-primary-foreground": "oklch(0.937 0.027 83.5)",
+    "sidebar-accent": "oklch(0.939 0.050 136.1)",
+    "sidebar-accent-foreground": "oklch(0.861 0.184 118.6)",
+    "sidebar-border": "oklch(0.769 0.024 128.8)",
+    "sidebar-ring": "oklch(0.665 0.112 192.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.016 133.7)",
+    "foreground": "oklch(0.937 0.027 83.5)",
+    "card": "oklch(0.281 0.029 174.0)",
+    "card-foreground": "oklch(0.937 0.027 83.5)",
+    "popover": "oklch(0.281 0.029 174.0)",
+    "popover-foreground": "oklch(0.937 0.027 83.5)",
+    "primary": "oklch(0.665 0.112 192.5)",
+    "primary-foreground": "oklch(0.257 0.016 133.7)",
+    "secondary": "oklch(0.315 0.027 168.5)",
+    "secondary-foreground": "oklch(0.937 0.027 83.5)",
+    "muted": "oklch(0.315 0.027 168.5)",
+    "muted-foreground": "oklch(0.713 0.032 73.8)",
+    "accent": "oklch(0.743 0.132 81.1)",
+    "accent-foreground": "oklch(0.257 0.016 133.7)",
+    "destructive": "oklch(0.861 0.184 118.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.665 0.112 192.5)",
+    "chart-1": "oklch(0.665 0.112 192.5)",
+    "chart-2": "oklch(0.861 0.184 118.6)",
+    "chart-3": "oklch(0.743 0.132 81.1)",
+    "chart-4": "oklch(0.788 0.159 129.0)",
+    "chart-5": "oklch(0.412 0.040 61.9)",
+    "sidebar": "oklch(0.273 0.024 169.2)",
+    "sidebar-foreground": "oklch(0.937 0.027 83.5)",
+    "sidebar-primary": "oklch(0.665 0.112 192.5)",
+    "sidebar-primary-foreground": "oklch(0.257 0.016 133.7)",
+    "sidebar-accent": "oklch(0.315 0.027 168.5)",
+    "sidebar-accent-foreground": "oklch(0.937 0.027 83.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.665 0.112 192.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for adaptive settings UI with Noto Sans JP guidance for control labels, headings, and numeric rhythm.",
+  "layout": "Configurable 8px grids, scale-chip controls, branch-like navigation, settings panels, and adaptive state surfaces.",
+  "tags": [
+    "chameleon",
+    "reptile",
+    "tropical",
+    "adaptive",
+    "settings",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-chameleon/motif.png",
+    "board": "/systems/morphous-chameleon/design-system-light.png",
+    "darkBoard": "/systems/morphous-chameleon/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-chameleon/theme.css",
+    "themeJson": "/systems/morphous-chameleon/theme.json",
+    "promptsJson": "/systems/morphous-chameleon/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent chameleon motif source",
+      "asset": "/systems/morphous-chameleon/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a chameleon profile motif, isolated full subject, no environment, no props, no text.\nSubject: A chameleon side profile with lime and teal scales, ochre eye, bark-brown branch-influenced shadows, curled tail, precise reptile anatomy, granular scale texture, and crisp natural edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the head, tail, feet, or body silhouette.\nLighting/mood: clean studio light that preserves adaptive scale color and fine reptile texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-chameleon/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Chameleon\" derived from the visible transparent chameleon profile cutout.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the lime and teal scales, ochre eye, bark brown, and adaptive tropical branch context.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nResolution and legibility: use large readable labels, roomy panels, and avoid dense tiny token tables.\nRequired visible sections: Morphous Chameleon, Chameleon, Palette, Typography, Japanese Typography, Components, Navigation, Settings Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, settings panels, state charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style adaptive settings system, precise grid, 8px card radius, scale-chip controls, branch-like navigation, responsive state language.\nColor palette: use only motif-derived lime, teal, ochre, bark brown, branch cream, leaf shift, and tropical shadow.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Chameleon\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-chameleon/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Chameleon design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent chameleon cutout and the visible light-mode Morphous Chameleon board as strict references. Preserve palette roles, scale-chip controls, branch navigation, component language, spacing, typography, texture, and shadcn/tweakcn coverage.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nResolution and legibility: use large readable labels, roomy panels, and avoid dense tiny token tables.\nRequired visible sections: Morphous Chameleon, Chameleon, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Settings Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from scale ink and tropical shadow, readable text from branch cream, primary accents from lime scale, secondary support from adaptive teal, focus from ochre eye, subtle scale texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese guidance with short readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sidebar navigation, settings panels, dashboard metric cards, line and bar charts, table rows, command/search menu, status chips, loading/empty/error states, texture samples, spacing/radius/shadow/tokens swatches.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no watermark, no misspelling of \"Morphous Chameleon\"."
+    }
+  ]
+}

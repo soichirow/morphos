@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-snowflake",
+  "name": "Morphous Snowflake",
+  "status": "ready",
+  "motifName": "Snowflake",
+  "motifCategory": "weather",
+  "biome": "Winter Air",
+  "motif": "snowflake crystal",
+  "description": "A precise component system to be coded from the Snowflake light and dark design-system boards: ice white surfaces, blue and silver edges, crystalline geometry, and exact component alignment.",
+  "typography": "Geist for precise component UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Crystal-symmetric grids, fine borders, compact token tables, precise component states, and sharp winter-air spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "snowflake",
+    "weather",
+    "winter",
+    "component",
+    "precise",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Ice White", "hex": "#f8fbff" },
+    { "role": "Ink", "name": "Frost Ink", "hex": "#1f2b36" },
+    { "role": "Primary", "name": "Crystal Blue", "hex": "#4aa3df" },
+    { "role": "Secondary", "name": "Silver Edge", "hex": "#9fb4c7" },
+    { "role": "Accent", "name": "Prism Cyan", "hex": "#8de2f0" },
+    { "role": "Signal", "name": "Winter Violet", "hex": "#7c8bc9" },
+    { "role": "Surface", "name": "Snow Surface", "hex": "#e8f1f7" },
+    { "role": "Muted", "name": "Frozen Mist", "hex": "#b9c8d4" },
+    { "role": "Depth", "name": "Blue Ice", "hex": "#0f2233" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

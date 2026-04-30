@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hummingbird",
+    "name": "Morphous Hummingbird",
+    "motifName": "Hummingbird in Hover",
+    "motifCategory": "bird",
+    "biome": "Cloud Forest",
+    "motif": "fast precise creator system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist White",
+      "hex": "#f5f8f3",
+      "oklch": "oklch(0.975 0.007 132.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Ink",
+      "hex": "#10211f",
+      "oklch": "oklch(0.232 0.023 186.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Emerald Hover",
+      "hex": "#0f8f63",
+      "oklch": "oklch(0.576 0.122 162.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Iridescent Teal",
+      "hex": "#1aa6a0",
+      "oklch": "oklch(0.657 0.109 190.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ruby Throat",
+      "hex": "#b91f45",
+      "oklch": "oklch(0.513 0.187 14.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cloud Moss",
+      "hex": "#6f8f67",
+      "oklch": "oklch(0.615 0.069 139.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fern Mist",
+      "hex": "#dbe8dd",
+      "oklch": "oklch(0.918 0.020 150.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Feather Grey",
+      "hex": "#8b9695",
+      "oklch": "oklch(0.664 0.013 190.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Teal",
+      "hex": "#123b3a",
+      "oklch": "oklch(0.324 0.045 192.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.007 132.4)",
+    "foreground": "oklch(0.232 0.023 186.2)",
+    "card": "oklch(0.918 0.020 150.1)",
+    "card-foreground": "oklch(0.232 0.023 186.2)",
+    "popover": "oklch(0.918 0.020 150.1)",
+    "popover-foreground": "oklch(0.232 0.023 186.2)",
+    "primary": "oklch(0.576 0.122 162.4)",
+    "primary-foreground": "oklch(0.975 0.007 132.4)",
+    "secondary": "oklch(0.943 0.015 145.5)",
+    "secondary-foreground": "oklch(0.324 0.045 192.9)",
+    "muted": "oklch(0.933 0.016 148.4)",
+    "muted-foreground": "oklch(0.324 0.045 192.9)",
+    "accent": "oklch(0.513 0.187 14.1)",
+    "accent-foreground": "oklch(0.232 0.023 186.2)",
+    "destructive": "oklch(0.576 0.122 162.4)",
+    "border": "oklch(0.828 0.016 160.5)",
+    "input": "oklch(0.828 0.016 160.5)",
+    "ring": "oklch(0.657 0.109 190.1)",
+    "chart-1": "oklch(0.576 0.122 162.4)",
+    "chart-2": "oklch(0.657 0.109 190.1)",
+    "chart-3": "oklch(0.513 0.187 14.1)",
+    "chart-4": "oklch(0.615 0.069 139.4)",
+    "chart-5": "oklch(0.324 0.045 192.9)",
+    "sidebar": "oklch(0.937 0.015 145.5)",
+    "sidebar-foreground": "oklch(0.232 0.023 186.2)",
+    "sidebar-primary": "oklch(0.576 0.122 162.4)",
+    "sidebar-primary-foreground": "oklch(0.975 0.007 132.4)",
+    "sidebar-accent": "oklch(0.874 0.034 160.3)",
+    "sidebar-accent-foreground": "oklch(0.576 0.122 162.4)",
+    "sidebar-border": "oklch(0.828 0.016 160.5)",
+    "sidebar-ring": "oklch(0.657 0.109 190.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.232 0.023 186.2)",
+    "foreground": "oklch(0.975 0.007 132.4)",
+    "card": "oklch(0.293 0.038 192.6)",
+    "card-foreground": "oklch(0.975 0.007 132.4)",
+    "popover": "oklch(0.293 0.038 192.6)",
+    "popover-foreground": "oklch(0.975 0.007 132.4)",
+    "primary": "oklch(0.657 0.109 190.1)",
+    "primary-foreground": "oklch(0.232 0.023 186.2)",
+    "secondary": "oklch(0.401 0.040 193.3)",
+    "secondary-foreground": "oklch(0.975 0.007 132.4)",
+    "muted": "oklch(0.401 0.040 193.3)",
+    "muted-foreground": "oklch(0.839 0.009 168.7)",
+    "accent": "oklch(0.513 0.187 14.1)",
+    "accent-foreground": "oklch(0.232 0.023 186.2)",
+    "destructive": "oklch(0.576 0.122 162.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.657 0.109 190.1)",
+    "chart-1": "oklch(0.657 0.109 190.1)",
+    "chart-2": "oklch(0.576 0.122 162.4)",
+    "chart-3": "oklch(0.513 0.187 14.1)",
+    "chart-4": "oklch(0.615 0.069 139.4)",
+    "chart-5": "oklch(0.664 0.013 190.3)",
+    "sidebar": "oklch(0.275 0.034 189.2)",
+    "sidebar-foreground": "oklch(0.975 0.007 132.4)",
+    "sidebar-primary": "oklch(0.657 0.109 190.1)",
+    "sidebar-primary-foreground": "oklch(0.232 0.023 186.2)",
+    "sidebar-accent": "oklch(0.401 0.040 193.3)",
+    "sidebar-accent-foreground": "oklch(0.975 0.007 132.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.657 0.109 190.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for fast creator dashboards with Noto Sans JP guidance for precise multilingual labels, command surfaces, and dense numeric rhythm.",
+  "layout": "Precise 8px grids, wingbeat dividers, compact creator panels, ruby focus moments, and cloud-forest mist spacing.",
+  "tags": [
+    "hummingbird",
+    "bird",
+    "cloud forest",
+    "hover",
+    "creator system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hummingbird/motif.png",
+    "board": "/systems/morphous-hummingbird/design-system-light.png",
+    "darkBoard": "/systems/morphous-hummingbird/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hummingbird/theme.css",
+    "themeJson": "/systems/morphous-hummingbird/theme.json",
+    "promptsJson": "/systems/morphous-hummingbird/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Hummingbird motif",
+      "asset": "/systems/morphous-hummingbird/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: Morphous transparent motif source for public/systems/morphous-hummingbird/motif.png\nPrimary request: Create a high-resolution isolated motif source: a realistic hummingbird in hover for a cloud forest design system.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for transparent removal.\nSubject: one complete hummingbird hovering in midair, full body visible, precise wings suspended in rapid motion, slim beak, emerald and teal iridescent body, ruby throat patch, soft grey wing blur, tiny feet tucked, cloud-forest freshness implied only by color and moisture sheen on feathers, no environmental background.\nStyle/medium: polished natural-history illustration with realistic anatomy and crisp cutout edges.\nComposition/framing: centered single bird with generous padding on all sides; wings and beak not cropped.\nLighting/mood: fast, precise, creator-system energy; clean studio light, no cast shadow.\nColor palette: emerald, teal, ruby throat, feather grey, mist white highlights.\nConstraints: background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, lighting falloff, or edge glow. Do not use #ff00ff anywhere in the subject. No text, no watermark.\nAvoid: flowers, branches, feeders, nests, extra birds, forest scenery, generic parrot, butterfly, dragonfly, neon rainbow colors, random brands."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-hummingbird/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hummingbird light-mode design-system board\nPrimary request: Create one wide 16:9 comprehensive light-mode design-system board for \"Morphous Hummingbird\" / \"Hummingbird in Hover\", source reference for a fast precise creator-system shadcn/tweakcn theme.\nReference use: Derive the system from the transparent hummingbird motif: emerald and teal iridescent body, ruby throat patch, feather grey wings, cloud-forest mist whites, and rapid hovering precision.\nCanvas: wide 16:9 high-resolution design-system board, visually 4K-class, landscape orientation, large readable labels.\nRequired visible sections: Morphous Hummingbird, Hummingbird in Hover, Light Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: mist-white background, emerald primary controls, teal secondary surfaces, ruby throat accents for focus/destructive/important actions, feather-grey borders and muted panels, cloud-forest green support states, subtle wingbeat line texture, precise 8px shadcn/tweakcn grid, compact creator dashboard rhythm.\nTypography: include English and Japanese UI examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sidebar navigation, dashboard metric cards, line and bar charts, table rows, command/search menu, status chips, loading/empty/error states, texture samples, spacing/radius/shadow/tokens swatches.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no flowers, feeders, branches, butterflies, parrots, dragonflies, unrelated saturated colors, generic purple/blue gradients, stock UI kit styling, tiny illegible text, random brands, watermark, or misspelling of \"Morphous Hummingbird\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-hummingbird/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hummingbird dark-mode design-system board\nPrimary request: Create one wide 16:9 comprehensive dark-mode design-system board for \"Morphous Hummingbird\" / \"Hummingbird in Hover\", translated from the light board and the same hovering hummingbird motif. It must feel like the same system in dark mode, not a new theme.\nReference use: Preserve the hummingbird system language: emerald and teal iridescent controls, ruby throat focus accents, feather-grey borders and muted panels, cloud-forest mist text, wingbeat texture, precise creator dashboard rhythm, and 8px shadcn/tweakcn component grid.\nCanvas: wide 16:9 high-resolution design-system board, visually 4K-class, landscape orientation, large readable labels.\nRequired visible sections: Morphous Hummingbird, Hummingbird in Hover, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark canopy-ink and deep teal backgrounds, mist-white foreground, emerald primary actions, teal secondary surfaces, ruby throat active/focus/destructive accents, grey wing separators, cloud-forest green success states, subtle kinetic wingbeat texture, crisp shadcn/tweakcn cards and controls.\nTypography: include English and Japanese UI examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sidebar navigation, dashboard metric cards, line and bar charts, table rows, command/search menu, status chips, loading/empty/error states, texture samples, spacing/radius/shadow/tokens swatches.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no flowers, feeders, branches, butterflies, parrots, dragonflies, unrelated saturated colors, neon rainbow colors, generic purple/blue gradients, pure black-only flat background, stock UI kit styling, tiny illegible text, random brands, watermark, or misspelling of \"Morphous Hummingbird\"."
+    }
+  ]
+}

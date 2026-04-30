@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-rose",
+  "name": "Rose",
+  "motifName": "Deep Garden Rose",
+  "motifCategory": "flower",
+  "biome": "Formal Garden",
+  "motif": "deep garden rose",
+  "description": "A shadcn/tweakcn-compatible romantic editorial system derived from a deep garden rose: velvet red primary actions, leaf green support states, thorn brown structure, petal blush surfaces, and garden-ink typography.",
+  "typography": "Playfair-style editorial headings paired with Inter or Geist for product UI, with Noto Serif JP and Noto Sans JP guidance for Japanese headings, labels, and body text.",
+  "layout": "Formal-garden grids with 8px radii, petal-layer cards, thorn-fine dividers, quiet editorial whitespace, and dashboard modules tuned for readable product workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "rose",
+    "flower",
+    "formal-garden",
+    "romantic",
+    "editorial",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Cream",
+      "hex": "#fff1e8"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Brown",
+      "hex": "#2b1e1a"
+    },
+    {
+      "role": "Primary",
+      "name": "Velvet Red",
+      "hex": "#b80f1a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2f5b2c"
+    },
+    {
+      "role": "Accent",
+      "name": "Blush Neutral",
+      "hex": "#f2e7e2"
+    },
+    {
+      "role": "Signal",
+      "name": "Thorn Brown",
+      "hex": "#6b4a2f"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Petal",
+      "hex": "#f7dfd7"
+    },
+    {
+      "role": "Muted",
+      "name": "Olive Vein",
+      "hex": "#55682f"
+    },
+    {
+      "role": "Depth",
+      "name": "Rose Shadow",
+      "hex": "#38070c"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

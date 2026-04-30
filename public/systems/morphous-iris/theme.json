@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-iris",
+    "name": "Morphous Iris",
+    "motifName": "Blue Iris Bloom",
+    "motifCategory": "flower",
+    "biome": "Riverbank",
+    "motif": "folded petal precision"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Mist",
+      "hex": "#f2f5f4",
+      "oklch": "oklch(0.968 0.003 174.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Blue",
+      "hex": "#171b2f",
+      "oklch": "oklch(0.229 0.039 274.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Iris Indigo",
+      "hex": "#3746a3",
+      "oklch": "oklch(0.438 0.150 271.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Petal Violet",
+      "hex": "#6d4bb0",
+      "oklch": "oklch(0.501 0.155 295.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Golden Throat",
+      "hex": "#d8a526",
+      "oklch": "oklch(0.750 0.144 84.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Reed Green",
+      "hex": "#607a45",
+      "oklch": "oklch(0.545 0.083 130.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Petal",
+      "hex": "#e7e5f5",
+      "oklch": "oklch(0.928 0.022 291.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "River Grey",
+      "hex": "#9aa6ae",
+      "oklch": "oklch(0.718 0.018 236.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Reed",
+      "hex": "#2b3329",
+      "oklch": "oklch(0.310 0.021 139.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.968 0.003 174.5)",
+    "foreground": "oklch(0.229 0.039 274.3)",
+    "card": "oklch(0.928 0.022 291.7)",
+    "card-foreground": "oklch(0.229 0.039 274.3)",
+    "popover": "oklch(0.928 0.022 291.7)",
+    "popover-foreground": "oklch(0.229 0.039 274.3)",
+    "primary": "oklch(0.438 0.150 271.8)",
+    "primary-foreground": "oklch(0.968 0.003 174.5)",
+    "secondary": "oklch(0.946 0.012 286.2)",
+    "secondary-foreground": "oklch(0.310 0.021 139.4)",
+    "muted": "oklch(0.938 0.016 289.9)",
+    "muted-foreground": "oklch(0.310 0.021 139.4)",
+    "accent": "oklch(0.750 0.144 84.4)",
+    "accent-foreground": "oklch(0.229 0.039 274.3)",
+    "destructive": "oklch(0.438 0.150 271.8)",
+    "border": "oklch(0.853 0.018 275.6)",
+    "input": "oklch(0.853 0.018 275.6)",
+    "ring": "oklch(0.501 0.155 295.8)",
+    "chart-1": "oklch(0.438 0.150 271.8)",
+    "chart-2": "oklch(0.501 0.155 295.8)",
+    "chart-3": "oklch(0.750 0.144 84.4)",
+    "chart-4": "oklch(0.545 0.083 130.1)",
+    "chart-5": "oklch(0.310 0.021 139.4)",
+    "sidebar": "oklch(0.941 0.015 290.3)",
+    "sidebar-foreground": "oklch(0.229 0.039 274.3)",
+    "sidebar-primary": "oklch(0.438 0.150 271.8)",
+    "sidebar-primary-foreground": "oklch(0.968 0.003 174.5)",
+    "sidebar-accent": "oklch(0.871 0.034 285.7)",
+    "sidebar-accent-foreground": "oklch(0.438 0.150 271.8)",
+    "sidebar-border": "oklch(0.853 0.018 275.6)",
+    "sidebar-ring": "oklch(0.501 0.155 295.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.229 0.039 274.3)",
+    "foreground": "oklch(0.968 0.003 174.5)",
+    "card": "oklch(0.282 0.010 196.6)",
+    "card-foreground": "oklch(0.968 0.003 174.5)",
+    "popover": "oklch(0.282 0.010 196.6)",
+    "popover-foreground": "oklch(0.968 0.003 174.5)",
+    "primary": "oklch(0.501 0.155 295.8)",
+    "primary-foreground": "oklch(0.229 0.039 274.3)",
+    "secondary": "oklch(0.406 0.015 156.5)",
+    "secondary-foreground": "oklch(0.968 0.003 174.5)",
+    "muted": "oklch(0.406 0.015 156.5)",
+    "muted-foreground": "oklch(0.856 0.009 232.4)",
+    "accent": "oklch(0.750 0.144 84.4)",
+    "accent-foreground": "oklch(0.229 0.039 274.3)",
+    "destructive": "oklch(0.438 0.150 271.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.501 0.155 295.8)",
+    "chart-1": "oklch(0.501 0.155 295.8)",
+    "chart-2": "oklch(0.438 0.150 271.8)",
+    "chart-3": "oklch(0.750 0.144 84.4)",
+    "chart-4": "oklch(0.545 0.083 130.1)",
+    "chart-5": "oklch(0.718 0.018 236.8)",
+    "sidebar": "oklch(0.265 0.014 248.4)",
+    "sidebar-foreground": "oklch(0.968 0.003 174.5)",
+    "sidebar-primary": "oklch(0.501 0.155 295.8)",
+    "sidebar-primary-foreground": "oklch(0.229 0.039 274.3)",
+    "sidebar-accent": "oklch(0.406 0.015 156.5)",
+    "sidebar-accent-foreground": "oklch(0.968 0.003 174.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.501 0.155 295.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Precise 8px content grids, petal-fold panels, reed-line dividers, dense authoring surfaces, and crisp riverbank hierarchy.",
+  "tags": [
+    "iris",
+    "flower",
+    "riverbank",
+    "precise",
+    "content",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-iris/motif.png",
+    "board": "/systems/morphous-iris/design-system-light.png",
+    "darkBoard": "/systems/morphous-iris/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-iris/theme.css",
+    "themeJson": "/systems/morphous-iris/theme.json",
+    "promptsJson": "/systems/morphous-iris/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent iris motif source",
+      "asset": "/systems/morphous-iris/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a blue iris bloom with stem and leaves, isolated full subject, no environment, no props, no text.\nSubject: A riverbank blue iris with folded indigo and violet petals, a visible golden throat, slender reed green leaves, fine petal veins, and accurate botanical structure.\nComposition/framing: centered complete cutout with generous padding; do not crop petals, leaves, or stem.\nLighting/mood: clean studio light that preserves petal folds, golden throat detail, and reed-like leaf edges.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet, no river scene, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-iris/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Iris\" derived from a transparent cutout of a riverbank blue iris bloom with indigo-violet petals, visible golden throat markings, and reed green leaves.\nCanvas and output: strict 16:9 landscape source board, 4096 x 2304 pixel composition, high-resolution, crisp readable text, no small dense labels.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from iris indigo petals, violet folds, golden throat, reed green leaves, river grey shadows, river mist surfaces, and ink-blue depth.\nRequired visible sections: Morphous Iris, Blue Iris Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style content system, realistic UI mockup, precise grid, 8px card radius, petal-fold panels, reed-line separators, crisp editorial controls.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: iris indigo, petal violet, golden throat, reed green, river mist, river grey, wet reed, ink blue.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradient wash, no watermark, no random brand names, no misspelling of \"Morphous Iris\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-iris/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Morphous Iris design-system board for a riverbank blue iris bloom. It must feel like the same precise content system translated to dark mode, not a new theme.\nReference use: Use a transparent blue iris cutout and the light-mode Morphous Iris board concept as references: indigo-violet iris petals, golden throat markings, reed green leaves, river mist neutrals, river grey borders, wet reed shadows, and ink-blue depth. Preserve palette roles, component language, petal-fold texture, spacing, Japanese typography, and shadcn/tweakcn component coverage.\nCanvas and output: strict 16:9 landscape source board, 4096 x 2304 pixel composition, high-resolution, crisp readable text, no small dense labels.\nRequired visible sections: Morphous Iris, Blue Iris Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from ink blue and wet reed, light text from river mist, primary accents from iris indigo, secondary accents from petal violet, golden throat focus and charts, reed green status, subtle folded-petal overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Iris\"."
+    }
+  ]
+}

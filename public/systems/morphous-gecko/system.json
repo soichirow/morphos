@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-gecko",
+  "name": "Morphous Gecko",
+  "motifName": "Gecko",
+  "motifCategory": "reptile",
+  "biome": "Desert Rock",
+  "motif": "gecko scales",
+  "description": "A future shadcn/tweakcn-compatible system to be coded from the Gecko light and dark design-system boards: sand-beige surfaces, orange scale actions, tactile rock texture, shadow-brown depth, and small-footprint tool clarity.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Tight 8px product grids, scale-pattern separators, tactile tool panels, compact controls, and warm desert-rock hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "gecko",
+    "reptile",
+    "desert",
+    "tactile",
+    "multilingual",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Sand",
+      "hex": "#f4dfbd"
+    },
+    {
+      "role": "Ink",
+      "name": "Crevice Ink",
+      "hex": "#241915"
+    },
+    {
+      "role": "Primary",
+      "name": "Scale Orange",
+      "hex": "#d9782c"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gecko Beige",
+      "hex": "#caa66d"
+    },
+    {
+      "role": "Accent",
+      "name": "Sunlit Ochre",
+      "hex": "#e6b654"
+    },
+    {
+      "role": "Signal",
+      "name": "Terracotta Toe",
+      "hex": "#a8522a"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Rock",
+      "hex": "#ead4ad"
+    },
+    {
+      "role": "Muted",
+      "name": "Dusty Scale",
+      "hex": "#a98b67"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Brown",
+      "hex": "#5a3b2a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

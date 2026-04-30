@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-flamingo",
+  "name": "Morphous Flamingo",
+  "motifName": "Flamingo",
+  "motifCategory": "bird",
+  "biome": "Salt Lagoon",
+  "motif": "flamingo feather",
+  "description": "A shadcn/tweakcn-compatible graceful hospitality system to be coded from the Flamingo light and dark design-system boards: pink feather actions, coral focus, salt-white surfaces, lagoon-blue navigation, and warm plume depth. The light and dark design-system boards are the reference for coding any future theme.",
+  "typography": "Geist for elegant service UI with Noto Sans JP guidance for hospitality labels, headings, and numeric rhythm.",
+  "layout": "Airy 8px grids, plume-soft panels, lagoon dividers, reservation cards, and calm service dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "flamingo",
+    "bird",
+    "lagoon",
+    "graceful",
+    "hospitality",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Salt White", "hex": "#fff7f2" },
+    { "role": "Ink", "name": "Plume Charcoal", "hex": "#2c2224" },
+    { "role": "Primary", "name": "Flamingo Pink", "hex": "#f06a8a" },
+    { "role": "Secondary", "name": "Coral Feather", "hex": "#ff7b65" },
+    { "role": "Accent", "name": "Lagoon Blue", "hex": "#5baec4" },
+    { "role": "Signal", "name": "Shell Blush", "hex": "#f8b9ad" },
+    { "role": "Surface", "name": "Pale Salt", "hex": "#f7ebe5" },
+    { "role": "Muted", "name": "Dried Reed", "hex": "#9b8374" },
+    { "role": "Depth", "name": "Lagoon Dusk", "hex": "#34515b" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

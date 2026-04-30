@@ -1,0 +1,170 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-snow-leopard",
+    "name": "Morphous Snow Leopard",
+    "motifName": "Snow Leopard",
+    "motifCategory": "animal",
+    "biome": "Alpine",
+    "motif": "ridgeline silence"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Winter Fur",
+      "hex": "#d5d1cb",
+      "oklch": "oklch(0.862 0.009 78.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Spot Black",
+      "hex": "#37332f",
+      "oklch": "oklch(0.324 0.009 67.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Charcoal Rosette",
+      "hex": "#6c645d",
+      "oklch": "oklch(0.508 0.015 63.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Guard Hair Grey",
+      "hex": "#9e958c",
+      "oklch": "oklch(0.675 0.017 67.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Warm Undercoat",
+      "hex": "#786c5f",
+      "oklch": "oklch(0.539 0.025 69.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Eye Nose Glint",
+      "hex": "#5e5448",
+      "oklch": "oklch(0.452 0.023 72.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Silver Undercoat",
+      "hex": "#b3aba2",
+      "oklch": "oklch(0.745 0.016 70.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deepest Spot",
+      "hex": "#1d1b19",
+      "oklch": "oklch(0.224 0.005 67.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.862 0.009 78.3)",
+    "foreground": "oklch(0.324 0.009 67.5)",
+    "card": "oklch(0.745 0.016 70.8)",
+    "card-foreground": "oklch(0.324 0.009 67.5)",
+    "popover": "oklch(0.745 0.016 70.8)",
+    "popover-foreground": "oklch(0.324 0.009 67.5)",
+    "primary": "oklch(0.508 0.015 63.7)",
+    "primary-foreground": "oklch(0.862 0.009 78.3)",
+    "secondary": "oklch(0.795 0.013 75.3)",
+    "secondary-foreground": "oklch(0.224 0.005 67.6)",
+    "muted": "oklch(0.779 0.015 74.4)",
+    "muted-foreground": "oklch(0.224 0.005 67.6)",
+    "accent": "oklch(0.539 0.025 69.5)",
+    "accent-foreground": "oklch(0.324 0.009 67.5)",
+    "destructive": "oklch(0.508 0.015 63.7)",
+    "border": "oklch(0.720 0.016 70.8)",
+    "input": "oklch(0.720 0.016 70.8)",
+    "ring": "oklch(0.675 0.017 67.5)",
+    "chart-1": "oklch(0.508 0.015 63.7)",
+    "chart-2": "oklch(0.675 0.017 67.5)",
+    "chart-3": "oklch(0.539 0.025 69.5)",
+    "chart-4": "oklch(0.452 0.023 72.2)",
+    "chart-5": "oklch(0.224 0.005 67.6)",
+    "sidebar": "oklch(0.786 0.014 71.3)",
+    "sidebar-foreground": "oklch(0.324 0.009 67.5)",
+    "sidebar-primary": "oklch(0.508 0.015 63.7)",
+    "sidebar-primary-foreground": "oklch(0.862 0.009 78.3)",
+    "sidebar-accent": "oklch(0.717 0.015 67.6)",
+    "sidebar-accent-foreground": "oklch(0.508 0.015 63.7)",
+    "sidebar-border": "oklch(0.720 0.016 70.8)",
+    "sidebar-ring": "oklch(0.675 0.017 67.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.324 0.009 67.5)",
+    "foreground": "oklch(0.862 0.009 78.3)",
+    "card": "oklch(0.258 0.007 67.5)",
+    "card-foreground": "oklch(0.862 0.009 78.3)",
+    "popover": "oklch(0.258 0.007 67.5)",
+    "popover-foreground": "oklch(0.862 0.009 78.3)",
+    "primary": "oklch(0.675 0.017 67.5)",
+    "primary-foreground": "oklch(0.324 0.009 67.5)",
+    "secondary": "oklch(0.335 0.008 75.3)",
+    "secondary-foreground": "oklch(0.862 0.009 78.3)",
+    "muted": "oklch(0.335 0.008 75.3)",
+    "muted-foreground": "oklch(0.779 0.012 71.9)",
+    "accent": "oklch(0.539 0.025 69.5)",
+    "accent-foreground": "oklch(0.324 0.009 67.5)",
+    "destructive": "oklch(0.508 0.015 63.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.675 0.017 67.5)",
+    "chart-1": "oklch(0.675 0.017 67.5)",
+    "chart-2": "oklch(0.508 0.015 63.7)",
+    "chart-3": "oklch(0.539 0.025 69.5)",
+    "chart-4": "oklch(0.452 0.023 72.2)",
+    "chart-5": "oklch(0.675 0.017 67.5)",
+    "sidebar": "oklch(0.279 0.007 67.5)",
+    "sidebar-foreground": "oklch(0.862 0.009 78.3)",
+    "sidebar-primary": "oklch(0.675 0.017 67.5)",
+    "sidebar-primary-foreground": "oklch(0.324 0.009 67.5)",
+    "sidebar-accent": "oklch(0.335 0.008 75.3)",
+    "sidebar-accent-foreground": "oklch(0.862 0.009 78.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.675 0.017 67.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp product UI, compact labels, and large editorial headings.",
+  "layout": "Angular ridgeline grids, monochrome rosette texture, dense dashboards, and restrained 8px cards.",
+  "tags": [
+    "alpine",
+    "animal",
+    "leopard",
+    "neutral",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-snow-leopard/animal.png",
+    "board": "/systems/morphous-snow-leopard/design-system.png",
+    "darkBoard": "/systems/morphous-snow-leopard/design-system-dark.png",
+    "hero": "/systems/morphous-snow-leopard/hero.png",
+    "texture": "/systems/morphous-snow-leopard/texture.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-snow-leopard/theme.css",
+    "themeJson": "/systems/morphous-snow-leopard/theme.json",
+    "promptsJson": "/systems/morphous-snow-leopard/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "web-hero",
+      "label": "Website hero asset",
+      "asset": "/systems/morphous-snow-leopard/hero.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous demo website hero asset\nPrimary request: Create a polished website hero image in the exact visual style of the visible Morphous Snow Leopard design-system board. Use the same pale fur background, charcoal rosette marks, warm undercoat greys, quiet alpine collage, soft paper texture, crisp shadcn-style UI cards, and restrained monochrome palette.\nInput images: The visible design-system board is the style reference; the visible snow leopard cutout is the animal reference.\nComposition: wide website hero banner, 16:9, snow leopard on the right standing over angular alpine rock shapes, left side reserved for live HTML text overlay with low-detail negative space, bottom edge includes layered mountain collage and rosette texture fragments.\nVisual details: premium product design system aesthetic, subtle grain, soft shadow, sharp grid alignment, rounded UI cards no larger than supporting accents, refined neutral colors matching the animal.\nText: no readable text, no letters, no numbers, no logos, no watermark.\nAvoid: saturated colors, purple gradients, stock photo look, blurry dark overlays, busy background behind the left text area."
+    },
+    {
+      "id": "texture",
+      "label": "Rosette texture asset",
+      "asset": "/systems/morphous-snow-leopard/texture.png",
+      "prompt": "Use case: stylized-concept\nAsset type: Morphous demo website texture asset\nPrimary request: Create a seamless-feeling square texture tile in the exact visual style of the visible Morphous Snow Leopard design-system board. Combine snow leopard rosette markings, pale winter fur, warm undercoat grey, soft handmade paper grain, and faint alpine stone facets.\nComposition: square 1:1 texture, no central subject, balanced all-over pattern suitable for CSS background panels and card accents.\nVisual details: subtle neutral monochrome palette sampled from snow leopard fur, low contrast, tactile paper texture, crisp but organic rosette marks, no hard seams, no UI elements.\nText: no readable text, no letters, no numbers, no logos, no watermark.\nAvoid: saturated colors, purple/blue gradients, high-contrast camouflage, photographic animal body parts, busy noisy texture."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-snow-leopard/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Morphous Snow Leopard design-system board in the same style as the visible light design-system reference. It must feel like the same system translated to dark mode, not a new theme.\nInput images: The visible light Morphous Snow Leopard design-system board is the primary style/layout reference; the visible snow leopard cutout is the animal and palette reference.\nCanvas: wide 16:9 design-system board.\nRequired visible text labels: Morphous Snow Leopard, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Texture, Tokens, Slides, Buttons, Inputs, Status, Primary, Secondary, Accent, Muted, Border, Background, Foreground.\nVisual details: deep charcoal and spot-black background from the animal markings, pale fur text, warm undercoat greys, subtle rosette texture overlays, alpine stone collage, crisp shadcn-style cards and controls, readable labels, dashboard cards, sidebar navigation, token table, slide thumbnails.\nStyle: premium monochrome product design system, restrained contrast, soft paper grain, precise grid, 8px card radius, no purple gradients, no unrelated saturated colors.\nAvoid: illegible text, random brand names, misspelled main title, stock-photo look, full black flat background, neon colors, cluttered composition."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-water-lily",
+    "name": "Morphous Water Lily",
+    "motifName": "Water Lily Bloom",
+    "motifCategory": "flower",
+    "biome": "pond",
+    "motif": "pond water lily bloom geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Mist",
+      "hex": "#f5f7f2",
+      "oklch": "oklch(0.973 0.007 124.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pond Ink",
+      "hex": "#1f2c2a",
+      "oklch": "oklch(0.280 0.018 184.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lily Pad Green",
+      "hex": "#4f7d58",
+      "oklch": "oklch(0.546 0.077 149.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "White Petal",
+      "hex": "#fffaf0",
+      "oklch": "oklch(0.986 0.014 84.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Yellow Center",
+      "hex": "#d9ad3b",
+      "oklch": "oklch(0.768 0.137 86.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pond Teal",
+      "hex": "#5f9a92",
+      "oklch": "oklch(0.643 0.063 184.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Water",
+      "hex": "#dfece7",
+      "oklch": "oklch(0.932 0.015 171.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Pad Vein",
+      "hex": "#6c9b63",
+      "oklch": "oklch(0.641 0.096 140.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Shadow",
+      "hex": "#4a5141",
+      "oklch": "oklch(0.424 0.027 126.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.007 124.4)",
+    "foreground": "oklch(0.280 0.018 184.6)",
+    "card": "oklch(0.932 0.015 171.0)",
+    "card-foreground": "oklch(0.280 0.018 184.6)",
+    "popover": "oklch(0.932 0.015 171.0)",
+    "popover-foreground": "oklch(0.280 0.018 184.6)",
+    "primary": "oklch(0.546 0.077 149.5)",
+    "primary-foreground": "oklch(0.973 0.007 124.4)",
+    "secondary": "oklch(0.950 0.012 162.0)",
+    "secondary-foreground": "oklch(0.424 0.027 126.8)",
+    "muted": "oklch(0.943 0.013 164.8)",
+    "muted-foreground": "oklch(0.424 0.027 126.8)",
+    "accent": "oklch(0.768 0.137 86.9)",
+    "accent-foreground": "oklch(0.280 0.018 184.6)",
+    "destructive": "oklch(0.546 0.077 149.5)",
+    "border": "oklch(0.952 0.011 141.3)",
+    "input": "oklch(0.952 0.011 141.3)",
+    "ring": "oklch(0.986 0.014 84.6)",
+    "chart-1": "oklch(0.546 0.077 149.5)",
+    "chart-2": "oklch(0.986 0.014 84.6)",
+    "chart-3": "oklch(0.768 0.137 86.9)",
+    "chart-4": "oklch(0.643 0.063 184.9)",
+    "chart-5": "oklch(0.424 0.027 126.8)",
+    "sidebar": "oklch(0.946 0.013 164.8)",
+    "sidebar-foreground": "oklch(0.280 0.018 184.6)",
+    "sidebar-primary": "oklch(0.546 0.077 149.5)",
+    "sidebar-primary-foreground": "oklch(0.973 0.007 124.4)",
+    "sidebar-accent": "oklch(0.888 0.022 163.0)",
+    "sidebar-accent-foreground": "oklch(0.546 0.077 149.5)",
+    "sidebar-border": "oklch(0.952 0.011 141.3)",
+    "sidebar-ring": "oklch(0.986 0.014 84.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.280 0.018 184.6)",
+    "foreground": "oklch(0.973 0.007 124.4)",
+    "card": "oklch(0.375 0.022 140.0)",
+    "card-foreground": "oklch(0.973 0.007 124.4)",
+    "popover": "oklch(0.375 0.022 140.0)",
+    "popover-foreground": "oklch(0.973 0.007 124.4)",
+    "primary": "oklch(0.986 0.014 84.6)",
+    "primary-foreground": "oklch(0.280 0.018 184.6)",
+    "secondary": "oklch(0.558 0.022 120.1)",
+    "secondary-foreground": "oklch(0.973 0.007 124.4)",
+    "muted": "oklch(0.558 0.022 120.1)",
+    "muted-foreground": "oklch(0.979 0.009 93.6)",
+    "accent": "oklch(0.768 0.137 86.9)",
+    "accent-foreground": "oklch(0.280 0.018 184.6)",
+    "destructive": "oklch(0.546 0.077 149.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.986 0.014 84.6)",
+    "chart-1": "oklch(0.986 0.014 84.6)",
+    "chart-2": "oklch(0.546 0.077 149.5)",
+    "chart-3": "oklch(0.768 0.137 86.9)",
+    "chart-4": "oklch(0.643 0.063 184.9)",
+    "chart-5": "oklch(0.986 0.014 84.6)",
+    "sidebar": "oklch(0.348 0.019 151.2)",
+    "sidebar-foreground": "oklch(0.973 0.007 124.4)",
+    "sidebar-primary": "oklch(0.986 0.014 84.6)",
+    "sidebar-primary-foreground": "oklch(0.280 0.018 184.6)",
+    "sidebar-accent": "oklch(0.558 0.022 120.1)",
+    "sidebar-accent-foreground": "oklch(0.973 0.007 124.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.986 0.014 84.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clear English wellness UI with Noto Sans JP guidance for quiet Japanese labels, numerals, and readable form rhythm.",
+  "layout": "Serene 8px grids, lily-pad surfaces, petal-tab grouping, gentle water shadows, and calm dashboard spacing.",
+  "tags": [
+    "water-lily",
+    "flower",
+    "pond",
+    "white",
+    "serene",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-water-lily/motif.png",
+    "board": "/systems/morphous-water-lily/design-system-light.png",
+    "darkBoard": "/systems/morphous-water-lily/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-water-lily/theme.css",
+    "themeJson": "/systems/morphous-water-lily/theme.json",
+    "promptsJson": "/systems/morphous-water-lily/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent water lily bloom motif",
+      "asset": "/systems/morphous-water-lily/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Water Lily transparent motif chroma-key source\nPrimary request: Create only a pond water lily bloom botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A white water lily bloom with layered pointed petals, warm yellow center stamens, one visible round green lily pad with radial veins, subtle pond-teal reflected edges, and mud-shadow underside depth. Botanical accuracy, crisp subject edges, floating pond-flower identity, no lotus seed pod.\nComposition/framing: centered complete cutout with generous padding; include bloom and one lily pad without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no lotus pod, no pink lotus, no bouquet, no vase, no full pond landscape, no insects, no hand, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-water-lily/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Water Lily light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Water Lily\", derived from the visible pond water lily bloom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible serene interface system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Water Lily, Water Lily Bloom, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from white petals, yellow center stamens, lily-pad greens, pond-teal reflected water, soft water surfaces, and mud-shadow depth. The board must read as water lily, not lotus, magnolia, or generic spa UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, wellness dashboard metric cards, calm line chart, progress rings, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, pond-mist backgrounds, lily-pad green primary actions, yellow-center highlights, pond-teal focus rings, petal-tab controls, lily-pad card surfaces, faint water-ripple texture.\nConstraints: no lotus seed pod, no pink lotus palette, no magnolia branch, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Water Lily\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-water-lily/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Water Lily dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Water Lily\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible pond water lily bloom cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Water Lily, Water Lily Bloom, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the water lily system language: deep pond dark backgrounds, white-petal text, lily-pad green controls, yellow-center chart highlights, pond-teal focus states, mud-shadow borders, petal-tab grouping, faint water-ripple texture, 8px shadcn/tweakcn grid. Must read as water lily, not lotus, magnolia, or generic wellness.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, wellness dashboard metric cards, calm line chart, progress rings, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep pond and mud-shadow surfaces, white-petal foreground, lily-pad green active states, yellow center highlights, pond-teal rings, soft water separators, subtle ripple overlays, restrained contrast, crisp cards and controls.\nConstraints: no lotus seed pod, no pink lotus palette, no magnolia branch, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Water Lily\"."
+    }
+  ]
+}

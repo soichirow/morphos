@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-protea",
+  "name": "Morphous Protea",
+  "motifName": "Protea Bloom",
+  "motifCategory": "flower",
+  "biome": "fynbos",
+  "motif": "sculptural protea bloom geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from fynbos protea blooms: rose-pink bracts, sage foliage, rust shadows, and sculptural dashboard structure.",
+  "typography": "Geist for precise English dashboard UI with Noto Sans JP guidance for clear Japanese analytics labels and dense metrics.",
+  "layout": "Sculptural 8px grids, bract-like panels, sage control rails, warm rust depth, and analytical dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "protea",
+    "flower",
+    "fynbos",
+    "rose-pink",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fynbos Sand",
+      "hex": "#f6eadc"
+    },
+    {
+      "role": "Ink",
+      "name": "Cone Ink",
+      "hex": "#2d1d1c"
+    },
+    {
+      "role": "Primary",
+      "name": "Protea Rose",
+      "hex": "#c45d72"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bract Pink",
+      "hex": "#e09aac"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Tip",
+      "hex": "#a85f3a"
+    },
+    {
+      "role": "Signal",
+      "name": "Sage Leaf",
+      "hex": "#82906a"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Bract",
+      "hex": "#f0d3ca"
+    },
+    {
+      "role": "Muted",
+      "name": "Fynbos Green",
+      "hex": "#6f8a58"
+    },
+    {
+      "role": "Depth",
+      "name": "Cone Brown",
+      "hex": "#604037"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-momiji",
+  "name": "Morphous Momiji",
+  "motifName": "紅葉 / Japanese Autumn Maple",
+  "motifCategory": "plant",
+  "biome": "Japanese Garden",
+  "motif": "washi leaf rhythm",
+  "description": "A shadcn/tweakcn-compatible system coded from the Momiji light and dark boards: ivory washi surfaces, sumi ink text, momiji red actions, vermilion focus, amber charts, copper status, and bark-brown depth.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for 見出し, 本文, ラベル, and 数値 rhythm.",
+  "layout": "Precise 8px product grids, leaf-vein separators, washi texture panels, dense dashboard cards, and calm Japanese autumn hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "momiji",
+    "plant",
+    "japanese",
+    "warm",
+    "multilingual",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Washi",
+      "hex": "#fbf6ef"
+    },
+    {
+      "role": "Ink",
+      "name": "Sumi Ink",
+      "hex": "#231b16"
+    },
+    {
+      "role": "Primary",
+      "name": "Momiji Red",
+      "hex": "#d92d20"
+    },
+    {
+      "role": "Secondary",
+      "name": "Vermilion Leaf",
+      "hex": "#ef5a24"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Vein",
+      "hex": "#f59f2a"
+    },
+    {
+      "role": "Signal",
+      "name": "Copper Edge",
+      "hex": "#b96b32"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Washi",
+      "hex": "#f2e7dc"
+    },
+    {
+      "role": "Muted",
+      "name": "Faded Maple Shadow",
+      "hex": "#b98d73"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Brown",
+      "hex": "#5a3d2d"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "hero": "hero.png",
+    "texture": "texture.png",
+    "examples": [
+      {
+        "id": "dashboard",
+        "label": "Analytics dashboard",
+        "image": "examples/01-dashboard.png"
+      },
+      {
+        "id": "workflow",
+        "label": "Workflow form",
+        "image": "examples/02-workflow.png"
+      }
+    ],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

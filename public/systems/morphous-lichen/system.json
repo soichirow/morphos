@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-lichen",
+  "name": "Morphous Lichen",
+  "motifName": "Lichen on Stone",
+  "motifCategory": "plant",
+  "biome": "Alpine Rock",
+  "motif": "weathered knowledge surface",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Lichen light and dark design-system boards: pale sage surfaces, mineral grey structure, rust orange signals, stone depth, and weathered knowledge clarity.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Weathered 8px knowledge grids, mineral panels, lichen-edge dividers, annotation-friendly cards, and durable alpine hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "lichen",
+    "plant",
+    "alpine-rock",
+    "weathered",
+    "knowledge",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Stone Light", "hex": "#f0f1ea" },
+    { "role": "Ink", "name": "Slate Ink", "hex": "#1f2522" },
+    { "role": "Primary", "name": "Pale Sage", "hex": "#9eae82" },
+    { "role": "Secondary", "name": "Mineral Grey", "hex": "#8b9089" },
+    { "role": "Accent", "name": "Rust Orange", "hex": "#c16a32" },
+    { "role": "Signal", "name": "Lichen Mint", "hex": "#c8d5a7" },
+    { "role": "Surface", "name": "Chalk Stone", "hex": "#dedfd4" },
+    { "role": "Muted", "name": "Weather Grey", "hex": "#aeb2aa" },
+    { "role": "Depth", "name": "Dark Granite", "hex": "#3c403c" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

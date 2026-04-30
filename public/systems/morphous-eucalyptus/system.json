@@ -1,0 +1,44 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-eucalyptus",
+  "name": "Eucalyptus",
+  "motifName": "eucalyptus leaves",
+  "motifCategory": "plant",
+  "biome": "dry woodland",
+  "motif": "silver leaf clinical calm",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Eucalyptus light and dark design-system boards: silver-green leaves, blue-grey undertones, bark-tan warmth, clean healthcare surfaces, and calm accessible contrast. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for clean product UI with Noto Sans guidance for multilingual healthcare labels, clear forms, and calm numeric hierarchy.",
+  "layout": "Precise 8px healthcare grids, rounded clinical panels, leaf-stem dividers, soft bark texture, and measured dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "eucalyptus",
+    "plant",
+    "healthcare",
+    "silver-green",
+    "calm",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Clinic Mist", "hex": "#f4f7f4" },
+    { "role": "Ink", "name": "Blue Gum Ink", "hex": "#1f2d32" },
+    { "role": "Primary", "name": "Eucalyptus Silver", "hex": "#78968a" },
+    { "role": "Secondary", "name": "Leaf Blue Grey", "hex": "#8ea4ad" },
+    { "role": "Accent", "name": "Dry Bark Tan", "hex": "#c9aa82" },
+    { "role": "Signal", "name": "Fresh Leaf", "hex": "#a7c7b2" },
+    { "role": "Surface", "name": "Pale Gum", "hex": "#e7eee8" },
+    { "role": "Muted", "name": "Woodland Sage", "hex": "#5f756a" },
+    { "role": "Depth", "name": "Bark Shadow", "hex": "#39443d" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

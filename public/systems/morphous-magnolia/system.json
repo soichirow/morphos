@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-magnolia",
+  "name": "Morphous Magnolia",
+  "motifName": "Magnolia Blossom",
+  "motifCategory": "flower",
+  "biome": "southern garden",
+  "motif": "magnolia blossom geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from southern magnolia blossoms: cream petals, blush shadows, glossy leaf greens, warm brown branch structure, and elegant portfolio rhythm.",
+  "typography": "Geist for refined English portfolio UI with Noto Sans JP guidance for balanced Japanese captions, names, and metadata.",
+  "layout": "Elegant 8px grids, petal-layer panels, glossy leaf accents, restrained shadows, and gallery-ready spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "magnolia",
+    "flower",
+    "southern-garden",
+    "cream",
+    "portfolio",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Cream",
+      "hex": "#fbf3e5"
+    },
+    {
+      "role": "Ink",
+      "name": "Branch Ink",
+      "hex": "#2f241d"
+    },
+    {
+      "role": "Primary",
+      "name": "Magnolia Leaf",
+      "hex": "#3f6f4a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cream Petal",
+      "hex": "#fff8ea"
+    },
+    {
+      "role": "Accent",
+      "name": "Blush Shadow",
+      "hex": "#d7a7a0"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Brown",
+      "hex": "#7b563b"
+    },
+    {
+      "role": "Surface",
+      "name": "Garden Ivory",
+      "hex": "#efe5d4"
+    },
+    {
+      "role": "Muted",
+      "name": "Gloss Leaf",
+      "hex": "#5f8a55"
+    },
+    {
+      "role": "Depth",
+      "name": "Sepal Umber",
+      "hex": "#5a3b2b"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

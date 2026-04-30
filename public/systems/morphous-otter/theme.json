@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-otter",
+    "name": "Morphous Otter",
+    "motifName": "River Otter Fur",
+    "motifCategory": "mammal",
+    "biome": "river",
+    "motif": "river otter profile geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Foam",
+      "hex": "#f5efe5",
+      "oklch": "oklch(0.954 0.015 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Fur Ink",
+      "hex": "#261a14",
+      "oklch": "oklch(0.231 0.022 47.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Otter Brown",
+      "hex": "#7a4b2f",
+      "oklch": "oklch(0.461 0.076 50.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cream Whisker",
+      "hex": "#ead8bd",
+      "oklch": "oklch(0.890 0.041 78.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "River Blue",
+      "hex": "#4f91a6",
+      "oklch": "oklch(0.621 0.074 220.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Slick Fur",
+      "hex": "#9b6b45",
+      "oklch": "oklch(0.569 0.081 58.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sandbank",
+      "hex": "#dfc7a8",
+      "oklch": "oklch(0.842 0.050 74.1)"
+    },
+    {
+      "role": "Success",
+      "name": "Bank Green",
+      "hex": "#6e8b5a",
+      "oklch": "oklch(0.601 0.078 133.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "River Mud",
+      "hex": "#4a3328",
+      "oklch": "oklch(0.345 0.038 46.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.954 0.015 80.7)",
+    "foreground": "oklch(0.231 0.022 47.7)",
+    "card": "oklch(0.842 0.050 74.1)",
+    "card-foreground": "oklch(0.231 0.022 47.7)",
+    "popover": "oklch(0.842 0.050 74.1)",
+    "popover-foreground": "oklch(0.231 0.022 47.7)",
+    "primary": "oklch(0.461 0.076 50.7)",
+    "primary-foreground": "oklch(0.954 0.015 80.7)",
+    "secondary": "oklch(0.889 0.034 76.0)",
+    "secondary-foreground": "oklch(0.345 0.038 46.6)",
+    "muted": "oklch(0.873 0.040 74.8)",
+    "muted-foreground": "oklch(0.345 0.038 46.6)",
+    "accent": "oklch(0.621 0.074 220.8)",
+    "accent-foreground": "oklch(0.231 0.022 47.7)",
+    "destructive": "oklch(0.461 0.076 50.7)",
+    "border": "oklch(0.859 0.046 74.7)",
+    "input": "oklch(0.859 0.046 74.7)",
+    "ring": "oklch(0.890 0.041 78.1)",
+    "chart-1": "oklch(0.461 0.076 50.7)",
+    "chart-2": "oklch(0.890 0.041 78.1)",
+    "chart-3": "oklch(0.621 0.074 220.8)",
+    "chart-4": "oklch(0.569 0.081 58.5)",
+    "chart-5": "oklch(0.345 0.038 46.6)",
+    "sidebar": "oklch(0.881 0.037 76.6)",
+    "sidebar-foreground": "oklch(0.231 0.022 47.7)",
+    "sidebar-primary": "oklch(0.461 0.076 50.7)",
+    "sidebar-primary-foreground": "oklch(0.954 0.015 80.7)",
+    "sidebar-accent": "oklch(0.798 0.052 70.8)",
+    "sidebar-accent-foreground": "oklch(0.461 0.076 50.7)",
+    "sidebar-border": "oklch(0.859 0.046 74.7)",
+    "sidebar-ring": "oklch(0.890 0.041 78.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.231 0.022 47.7)",
+    "foreground": "oklch(0.954 0.015 80.7)",
+    "card": "oklch(0.309 0.033 48.8)",
+    "card-foreground": "oklch(0.954 0.015 80.7)",
+    "popover": "oklch(0.309 0.033 48.8)",
+    "popover-foreground": "oklch(0.954 0.015 80.7)",
+    "primary": "oklch(0.890 0.041 78.1)",
+    "primary-foreground": "oklch(0.231 0.022 47.7)",
+    "secondary": "oklch(0.475 0.036 54.1)",
+    "secondary-foreground": "oklch(0.954 0.015 80.7)",
+    "muted": "oklch(0.475 0.036 54.1)",
+    "muted-foreground": "oklch(0.926 0.027 80.2)",
+    "accent": "oklch(0.621 0.074 220.8)",
+    "accent-foreground": "oklch(0.231 0.022 47.7)",
+    "destructive": "oklch(0.461 0.076 50.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.890 0.041 78.1)",
+    "chart-1": "oklch(0.890 0.041 78.1)",
+    "chart-2": "oklch(0.461 0.076 50.7)",
+    "chart-3": "oklch(0.621 0.074 220.8)",
+    "chart-4": "oklch(0.569 0.081 58.5)",
+    "chart-5": "oklch(0.890 0.041 78.1)",
+    "sidebar": "oklch(0.286 0.030 49.0)",
+    "sidebar-foreground": "oklch(0.954 0.015 80.7)",
+    "sidebar-primary": "oklch(0.890 0.041 78.1)",
+    "sidebar-primary-foreground": "oklch(0.231 0.022 47.7)",
+    "sidebar-accent": "oklch(0.475 0.036 54.1)",
+    "sidebar-accent-foreground": "oklch(0.954 0.015 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.890 0.041 78.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for friendly English finance UI with Noto Sans JP guidance for Japanese account labels, amounts, and compact transaction tables.",
+  "layout": "Playful 8px finance grids, rounded river-stone panels, whisker-line dividers, wet-fur texture, and readable transaction density.",
+  "tags": [
+    "otter",
+    "mammal",
+    "river",
+    "brown",
+    "finance",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-otter/motif.png",
+    "board": "/systems/morphous-otter/design-system-light.png",
+    "darkBoard": "/systems/morphous-otter/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-otter/theme.css",
+    "themeJson": "/systems/morphous-otter/theme.json",
+    "promptsJson": "/systems/morphous-otter/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent river otter motif",
+      "asset": "/systems/morphous-otter/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Otter transparent motif chroma-key source\nPrimary request: Create only a river otter mammal motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A river otter in compact side profile with wet brown fur, darker river-mud back, cream whisker muzzle, small rounded ears, bright alert eyes, sleek tail curve, and subtle river-blue wet highlights. Anatomical accuracy, crisp subject edges, playful river mammal identity, no fox, no beaver.\nComposition/framing: centered complete cutout with generous padding; include full otter body, head, tail, paws, and whiskers without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no red fox, no beaver flat tail, no seal, no fish, no river landscape, no water splash scene, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-otter/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Otter light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Otter\", derived from the visible river otter cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible playful finance system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Otter, River Otter Fur, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from wet otter-brown fur, cream whiskers, river-blue highlights, sandbank surfaces, bank-green success states, slick-fur warmth, and river-mud depth. The board must read as river otter, not red fox, beaver, seal, or generic brown finance app.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, transaction table rows, search command palette, account navigation, finance dashboard metric cards, cashflow line chart, budget bars, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, river-foam backgrounds, otter-brown primary actions, river-blue focus rings, cream-whisker highlights, rounded river-stone cards, whisker-line dividers, subtle wet-fur texture.\nConstraints: no red fox orange palette, no beaver flat-tail imagery, no seal silhouette, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Otter\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-otter/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Otter dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Otter\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible river otter cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Otter, River Otter Fur, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the otter system language: wet-fur dark backgrounds, river-foam text, otter-brown active controls, river-blue chart highlights, cream-whisker accents, sandbank surfaces, bank-green success, whisker-line dividers, wet-fur texture, 8px shadcn/tweakcn grid. Must read as river otter, not red fox, beaver, seal, or generic brown finance app.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, transaction table rows, search command palette, account navigation, finance dashboard metric cards, cashflow line chart, budget bars, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: wet-fur ink and river-mud surfaces, river-foam foreground, otter-brown controls, river-blue highlights, cream-whisker chips, bank-green success, subtle wet-fur overlays, restrained contrast, crisp cards and controls.\nConstraints: no red fox orange palette, no beaver flat-tail imagery, no seal silhouette, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Otter\"."
+    }
+  ]
+}

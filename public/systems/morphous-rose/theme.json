@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rose",
+    "name": "Rose",
+    "motifName": "Deep Garden Rose",
+    "motifCategory": "flower",
+    "biome": "Formal Garden",
+    "motif": "deep garden rose"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Cream",
+      "hex": "#fff1e8",
+      "oklch": "oklch(0.967 0.019 55.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Brown",
+      "hex": "#2b1e1a",
+      "oklch": "oklch(0.250 0.022 37.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Velvet Red",
+      "hex": "#b80f1a",
+      "oklch": "oklch(0.497 0.196 26.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2f5b2c",
+      "oklch": "oklch(0.427 0.089 142.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blush Neutral",
+      "hex": "#f2e7e2",
+      "oklch": "oklch(0.935 0.014 46.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Thorn Brown",
+      "hex": "#6b4a2f",
+      "oklch": "oklch(0.439 0.060 59.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Petal",
+      "hex": "#f7dfd7",
+      "oklch": "oklch(0.921 0.029 39.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Olive Vein",
+      "hex": "#55682f",
+      "oklch": "oklch(0.488 0.085 124.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Rose Shadow",
+      "hex": "#38070c",
+      "oklch": "oklch(0.226 0.076 20.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.019 55.2)",
+    "foreground": "oklch(0.250 0.022 37.8)",
+    "card": "oklch(0.921 0.029 39.3)",
+    "card-foreground": "oklch(0.250 0.022 37.8)",
+    "popover": "oklch(0.921 0.029 39.3)",
+    "popover-foreground": "oklch(0.250 0.022 37.8)",
+    "primary": "oklch(0.497 0.196 26.5)",
+    "primary-foreground": "oklch(0.967 0.019 55.2)",
+    "secondary": "oklch(0.941 0.024 47.1)",
+    "secondary-foreground": "oklch(0.226 0.076 20.3)",
+    "muted": "oklch(0.934 0.026 42.1)",
+    "muted-foreground": "oklch(0.226 0.076 20.3)",
+    "accent": "oklch(0.935 0.014 46.2)",
+    "accent-foreground": "oklch(0.250 0.022 37.8)",
+    "destructive": "oklch(0.497 0.196 26.5)",
+    "border": "oklch(0.771 0.036 90.6)",
+    "input": "oklch(0.771 0.036 90.6)",
+    "ring": "oklch(0.427 0.089 142.6)",
+    "chart-1": "oklch(0.497 0.196 26.5)",
+    "chart-2": "oklch(0.427 0.089 142.6)",
+    "chart-3": "oklch(0.935 0.014 46.2)",
+    "chart-4": "oklch(0.439 0.060 59.6)",
+    "chart-5": "oklch(0.226 0.076 20.3)",
+    "sidebar": "oklch(0.937 0.026 42.1)",
+    "sidebar-foreground": "oklch(0.250 0.022 37.8)",
+    "sidebar-primary": "oklch(0.497 0.196 26.5)",
+    "sidebar-primary-foreground": "oklch(0.967 0.019 55.2)",
+    "sidebar-accent": "oklch(0.860 0.048 27.8)",
+    "sidebar-accent-foreground": "oklch(0.497 0.196 26.5)",
+    "sidebar-border": "oklch(0.771 0.036 90.6)",
+    "sidebar-ring": "oklch(0.427 0.089 142.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.250 0.022 37.8)",
+    "foreground": "oklch(0.967 0.019 55.2)",
+    "card": "oklch(0.231 0.060 19.9)",
+    "card-foreground": "oklch(0.967 0.019 55.2)",
+    "popover": "oklch(0.231 0.060 19.9)",
+    "popover-foreground": "oklch(0.967 0.019 55.2)",
+    "primary": "oklch(0.427 0.089 142.6)",
+    "primary-foreground": "oklch(0.250 0.022 37.8)",
+    "secondary": "oklch(0.273 0.055 34.4)",
+    "secondary-foreground": "oklch(0.967 0.019 55.2)",
+    "muted": "oklch(0.273 0.055 34.4)",
+    "muted-foreground": "oklch(0.759 0.041 107.3)",
+    "accent": "oklch(0.935 0.014 46.2)",
+    "accent-foreground": "oklch(0.250 0.022 37.8)",
+    "destructive": "oklch(0.497 0.196 26.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.427 0.089 142.6)",
+    "chart-1": "oklch(0.427 0.089 142.6)",
+    "chart-2": "oklch(0.497 0.196 26.5)",
+    "chart-3": "oklch(0.935 0.014 46.2)",
+    "chart-4": "oklch(0.439 0.060 59.6)",
+    "chart-5": "oklch(0.488 0.085 124.7)",
+    "sidebar": "oklch(0.233 0.049 19.5)",
+    "sidebar-foreground": "oklch(0.967 0.019 55.2)",
+    "sidebar-primary": "oklch(0.427 0.089 142.6)",
+    "sidebar-primary-foreground": "oklch(0.250 0.022 37.8)",
+    "sidebar-accent": "oklch(0.273 0.055 34.4)",
+    "sidebar-accent-foreground": "oklch(0.967 0.019 55.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.427 0.089 142.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Playfair-style editorial headings paired with Inter or Geist for product UI, with Noto Serif JP and Noto Sans JP guidance for Japanese headings, labels, and body text.",
+  "layout": "Formal-garden grids with 8px radii, petal-layer cards, thorn-fine dividers, quiet editorial whitespace, and dashboard modules tuned for readable product workflows.",
+  "tags": [
+    "rose",
+    "flower",
+    "formal-garden",
+    "romantic",
+    "editorial",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rose/motif.png",
+    "board": "/systems/morphous-rose/design-system-light.png",
+    "darkBoard": "/systems/morphous-rose/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rose/theme.css",
+    "themeJson": "/systems/morphous-rose/theme.json",
+    "promptsJson": "/systems/morphous-rose/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rose motif source",
+      "asset": "/systems/morphous-rose/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a deep garden rose, isolated full bloom with a short natural stem, a few leaf-green leaves, and small thorn-brown thorns; no environment, no props, no text.\nSubject: romantic editorial deep garden rose with layered velvet red petals, subtle darker crimson folds, healthy leaf green foliage, thorn brown stem details, accurate botanical form and tactile petal texture.\nComposition/framing: centered complete cutout with generous padding; do not crop any petal, leaf, stem, or thorn.\nLighting/mood: clean editorial studio light that preserves natural red velvet petal color, leaf texture, and thorn detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff cyan chroma-key background for removal. The background must be one uniform #00ffff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff or cyan anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet, no garden, no decorative background, no second flower, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rose/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, large source board\nPrimary request: Generate a comprehensive light-mode design-system board for Rose, derived from the provided deep garden rose motif cutout. Treat any cyan around the reference as transparency only, not as a design color.\nCanvas: extra-large wide 16:9 source board intended for 4K display, landscape orientation, spacious grid, fewer larger modules so labels remain readable in gallery previews.\nResolution and legibility: make the output as high-resolution as available, with large readable labels and crisp UI; avoid micro text, dense token tables, or crowded tiny components.\nRequired visible sections: title \"Rose\", motif story, palette, typography, Japanese typography, buttons, form controls, tabs, badges, alerts, navigation, dashboard charts, data table, command/search, empty/error/loading states, texture swatches, radius, spacing, shadow, CSS tokens, asset examples.\nReference use: Derive palette and interaction language from velvet red layered petals, deep crimson shadows, leaf green foliage, olive veins, thorn brown stem, warm cream and blush neutrals. The result should feel like a romantic editorial system inside a formal garden.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, elegant editorial contrast, tactile petal texture used sparingly, restrained practical SaaS UI.\nTypography: include English and Japanese examples with multilingual product UI guidance.\nColor constraints: use motif-derived colors only: velvet red, deep crimson, leaf green, olive vein, thorn brown, warm cream, soft blush neutral, ink brown. No cyan, no blue/purple gradient, no unrelated saturated colors.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no watermark, no random brand names, no illegible micro text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rose/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Rose design-system board. It must feel like the same romantic editorial system translated to dark mode, not a new theme.\nReference use: Use the provided deep garden rose motif and the light design-system board as references. Preserve the velvet red primary controls, deep crimson shadows, leaf green accents, olive vein secondary tones, thorn brown structure, warm cream text highlights, blush status surfaces, and ink brown depth.\nCanvas: extra-large wide 16:9 source board, landscape orientation, spacious grid, fewer larger modules so labels remain readable.\nResolution and legibility: make the output as high-resolution as available, with large readable labels and crisp UI; avoid micro text and crowded token tables.\nRequired visible sections: title \"Rose\", label \"Dark Mode\", palette, typography, Japanese typography, buttons, form controls, tabs, badges, alerts, navigation, dashboard charts, data table, command/search, empty/error/loading states, texture swatches, radius, spacing, shadow, CSS tokens, asset examples.\nVisual details: dark background derived from rose shadow and ink brown, light text from warm cream, deep red interactive states, leaf green success/accent states, thorn brown borders, subtle rose petal texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples with multilingual product UI guidance.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no cyan, no neon colors, no pure flat black, no unrelated saturated colors, no blue/purple gradients, no illegible text, no watermark, no random brand names."
+    }
+  ]
+}

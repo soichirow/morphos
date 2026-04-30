@@ -1,0 +1,76 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-stingray",
+  "name": "Morphous Stingray",
+  "motifName": "Stingray Silhouette",
+  "motifCategory": "marine",
+  "biome": "Sandy Reef",
+  "motif": "stingray silhouette",
+  "description": "A low-profile UX system derived from stingray silhouette forms: sand-grey surfaces, aqua reef accents, charcoal shadows, winglike curves, and quiet underwater hierarchy.",
+  "typography": "Geist for calm English product UI with Noto Sans JP guidance for Japanese headings, labels, numbers, and compact dashboard text.",
+  "layout": "Low-profile navigation, broad 8px cards, soft stingray-wing curves, sandy separators, aqua focus states, and shallow underwater shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "stingray",
+    "marine",
+    "sandy-reef",
+    "aqua",
+    "low-profile",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Sand",
+      "hex": "#d8d0bf"
+    },
+    {
+      "role": "Ink",
+      "name": "Shadow Charcoal",
+      "hex": "#25292b"
+    },
+    {
+      "role": "Primary",
+      "name": "Ray Grey",
+      "hex": "#7f8888"
+    },
+    {
+      "role": "Secondary",
+      "name": "Soft Sand",
+      "hex": "#eee6d6"
+    },
+    {
+      "role": "Accent",
+      "name": "Reef Aqua",
+      "hex": "#4ea8a2"
+    },
+    {
+      "role": "Signal",
+      "name": "Lagoon Teal",
+      "hex": "#2f756f"
+    },
+    {
+      "role": "Surface",
+      "name": "Silt Wash",
+      "hex": "#c8c4b8"
+    },
+    {
+      "role": "Depth",
+      "name": "Underwing Shadow",
+      "hex": "#394043"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

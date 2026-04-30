@@ -1,333 +1,261 @@
-import { useMemo, useState } from "react"
+import { useEffect, useState } from "react"
 import { Link, createFileRoute } from "@tanstack/react-router"
 import {
-  ArrowUpRight,
-  Check,
-  Copy,
-  Download,
+  ArrowRight,
   FileCode2,
-  Image as ImageIcon,
-  Moon,
+  FileText,
+  Globe,
   Palette,
-  Search,
+  Presentation,
   Sparkles,
-  Sun,
-  X,
 } from "lucide-react"
 
-import type { ThemeMode } from "@/lib/morphous-theme"
-import type { MorphousSystem } from "@/data/systems"
 import { Button } from "@/components/ui/button"
-import { OfficeDownload } from "@/components/office-download"
-import { TypographyPicker } from "@/components/typography-picker"
-import { biomes, motifCategories, systems } from "@/data/systems"
+import { systems } from "@/data/systems"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
-import { colorDistance } from "@/lib/color-distance"
-import { useFont } from "@/lib/use-font"
-import { usePaletteOverrides } from "@/lib/use-palette-overrides"
 
-export const Route = createFileRoute("/")({ component: CatalogRoute })
+export const Route = createFileRoute("/")({ component: LandingRoute })
 
-type SortKey = "name" | "biome" | "motifName" | "color"
-type ColorRoleKey = "Primary" | "Accent" | "Background"
+const FEATURE_COUNT = 8
 
-const sortOptions: Array<SortKey> = ["name", "biome", "motifName", "color"]
-const colorRoleOptions: Array<ColorRoleKey> = ["Primary", "Accent", "Background"]
+// Stable initial set for SSR — first N systems in catalog order. Replaced
+// with a random pick on the client after mount, so each visit gets a
+// different feature row without breaking hydration.
+const INITIAL_POOL = systems.slice(0, FEATURE_COUNT)
 
-function CatalogRoute() {
-  const [query, setQuery] = useState("")
-  const [biome, setBiome] = useState("all")
-  const [category, setCategory] = useState("all")
-  const [sort, setSort] = useState<SortKey>("name")
-  const [mode, setMode] = useState<ThemeMode>("light")
-  const [activeSlug, setActiveSlug] = useState(systems[0]?.slug ?? "")
-  const [searchColor, setSearchColor] = useState<string>("")
-  const [colorRole, setColorRole] = useState<ColorRoleKey>("Primary")
-  const { fontId, setFontId, font, jaFontId, setJaFontId, presetId, setPresetId } = useFont()
+function shuffle<T>(arr: ReadonlyArray<T>): Array<T> {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
 
-  const baseSystem = systems.find((system) => system.slug === activeSlug) ?? systems[0]
-  const { tunedSystem: activeSystem, overrides, hasOverrides, setOverride, resetOverrides } =
-    usePaletteOverrides(baseSystem)
+function LandingRoute() {
+  const [featured, setFeatured] = useState<Array<(typeof systems)[number]>>(INITIAL_POOL)
+  const [hoverSlug, setHoverSlug] = useState<string | null>(null)
 
-  const filteredSystems = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
-    const list = systems.filter((system) => {
-      const searchText = [
-        system.name,
-        system.motifName,
-        system.motifCategory,
-        system.biome,
-        system.motif,
-        system.description,
-        system.tags.join(" "),
-      ]
-        .join(" ")
-        .toLowerCase()
-      return (
-        (!normalized || searchText.includes(normalized)) &&
-        (biome === "all" || system.biome === biome) &&
-        (category === "all" || system.motifCategory === category)
-      )
-    })
-    if (sort === "color" && searchColor) {
-      return list.slice().sort((a, b) => {
-        const ca = a.palette.find((c) => c.role === colorRole)?.hex ?? "#000000"
-        const cb = b.palette.find((c) => c.role === colorRole)?.hex ?? "#000000"
-        return colorDistance(searchColor, ca) - colorDistance(searchColor, cb)
-      })
-    }
-    if (sort === "color") return list
-    const key = sort
-    return list
-      .slice()
-      .sort((a, b) =>
-        a[key].localeCompare(
-          b[key]
-        )
-      )
-  }, [biome, category, colorRole, query, searchColor, sort])
+  useEffect(() => {
+    setFeatured(shuffle(systems).slice(0, FEATURE_COUNT))
+  }, [])
+
+  // Theme follows hover. The first featured system is the resting choice
+  // (no auto-rotation — only changes when the user hovers a card).
+  const restingSystem = featured[0] ?? systems[0]
+  const heroSystem = (hoverSlug && featured.find((s) => s.slug === hoverSlug)) || restingSystem
+  const heroPool = featured
 
   return (
-    <div
-      className={mode === "dark" ? "dark" : ""}
-      style={{ ...themeStyle(activeSystem, mode), fontFamily: font.stack }}
-    >
+    <div style={themeStyle(heroSystem, "light")}>
       <div
-        className="pointer-events-none fixed inset-0 -z-10"
+        className="pointer-events-none fixed inset-0 -z-10 transition-colors duration-700"
         style={{
           background:
-            "radial-gradient(60% 50% at 80% 0%, color-mix(in oklch, var(--page-glow), transparent 70%), transparent 70%), " +
+            "radial-gradient(70% 60% at 80% 0%, color-mix(in oklch, var(--page-glow), transparent 65%), transparent 70%), " +
             "radial-gradient(80% 60% at 0% 100%, color-mix(in oklch, var(--palette-primary), transparent 80%), transparent 70%), " +
             "linear-gradient(180deg, var(--page-bg-from), var(--page-bg-to))",
         }}
       />
 
       <main className="relative min-h-svh overflow-x-hidden text-foreground">
-        <header className="sticky top-0 z-30 border-b border-border/60 bg-background/70 backdrop-blur-xl">
-          <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6 lg:px-8">
-            <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-              <div className="flex items-center gap-3">
-                <span
-                  className="grid size-9 place-items-center rounded-lg border border-border bg-card"
-                  style={{ background: paletteGradient(activeSystem) }}
-                  aria-hidden
-                />
-                <div>
-                  <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
-                    Morphous
-                  </p>
-                  <h1 className="text-base font-semibold tracking-tight sm:text-lg">
-                    Nature-coded design systems for shadcn
-                  </h1>
-                </div>
-              </div>
-              <div className="flex flex-wrap items-center gap-2">
-                <TypographyPicker
-                  presetId={presetId}
-                  onPresetChange={setPresetId}
-                  value={fontId}
-                  onChange={setFontId}
-                  jaValue={jaFontId}
-                  onJaChange={setJaFontId}
-                />
-                <div className="flex rounded-lg border border-border bg-card p-1">
-                  <Button
-                    variant={mode === "light" ? "default" : "ghost"}
-                    size="sm"
-                    onClick={() => setMode("light")}
-                  >
-                    <Sun data-icon="inline-start" />
-                    Light
-                  </Button>
-                  <Button
-                    variant={mode === "dark" ? "default" : "ghost"}
-                    size="sm"
-                    onClick={() => setMode("dark")}
-                  >
-                    <Moon data-icon="inline-start" />
-                    Dark
-                  </Button>
-                </div>
-              </div>
+        <header className="mx-auto flex max-w-[88rem] items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-3">
+            <span
+              className="grid size-9 place-items-center rounded-lg border border-border shadow-inner transition-colors duration-700"
+              style={{ background: paletteGradient(heroSystem) }}
+              aria-hidden
+            />
+            <div>
+              <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
+                Morphous
+              </p>
+              <p className="text-sm font-semibold">Nature-coded design systems</p>
             </div>
-
-            <label className="relative block min-w-0">
-              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-              <input
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search motif, biome, category, prompt"
-                className="h-10 w-full rounded-lg border border-input bg-card pl-9 pr-3 text-sm outline-none transition focus:border-ring focus:ring-3 focus:ring-ring/20"
-              />
-            </label>
-            <div className="-mx-4 flex items-center gap-2 overflow-x-auto px-4 pb-1 sm:-mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
-              <ColorSearch
-                value={searchColor}
-                role={colorRole}
-                onColor={(c) => {
-                  setSearchColor(c)
-                  if (c) setSort("color")
-                }}
-                onRole={setColorRole}
-              />
-              <LabelSelect label="Biome" value={biome} onChange={setBiome} options={["all", ...biomes]} />
-              <LabelSelect label="Motif" value={category} onChange={setCategory} options={["all", ...motifCategories]} />
-              <LabelSelect
-                label="Sort"
-                value={sort}
-                onChange={(v) => setSort(v as SortKey)}
-                options={sortOptions}
-              />
-            </div>
+          </div>
+          <div className="flex items-center gap-1">
+            <IconLink href="https://github.com/Ameyanagi/morphos" label="GitHub repository">
+              <GithubIcon className="size-4" />
+            </IconLink>
+            <IconLink href="https://x.com/DrShimogawa" label="X (@DrShimogawa)">
+              <XIcon className="size-4" />
+            </IconLink>
+            <IconLink href="https://ameyanagi.com" label="ameyanagi.com">
+              <Globe className="size-4" />
+            </IconLink>
+            <span className="mx-1 hidden h-5 w-px bg-border sm:block" aria-hidden />
+            <Button asChild size="sm" variant="outline">
+              <Link to="/gallery">
+                Open gallery
+                <ArrowRight data-icon="inline-end" />
+              </Link>
+            </Button>
           </div>
         </header>
 
-        <section className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
-          <Intro count={systems.length} />
+        <section className="mx-auto grid max-w-[88rem] items-center gap-10 px-4 pb-12 pt-6 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:px-8 lg:pb-16 lg:pt-10">
+          <div className="space-y-6">
+            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/85 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
+              <Sparkles className="size-3.5 text-primary" />
+              {systems.length} AI-generated systems · in active development
+            </span>
+            <h1 className="text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+              Pick an animal, a flower, a stone —{" "}
+              <span className="text-primary transition-colors duration-700">
+                ship a design system.
+              </span>
+            </h1>
+            <p className="max-w-xl text-base leading-7 text-muted-foreground sm:text-lg">
+              Morphous turns a single nature motif into an 8-role palette, a light/dark
+              shadcn theme, and matching PowerPoint + Word templates. Every prompt is
+              recorded so the catalog stays reproducible.
+            </p>
+            <div className="flex flex-wrap items-center gap-3">
+              <Button asChild size="lg">
+                <Link to="/gallery">
+                  Browse the gallery
+                  <ArrowRight data-icon="inline-end" />
+                </Link>
+              </Button>
+              <a
+                href="https://github.com/Ameyanagi/morphos"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-sm font-medium text-muted-foreground hover:text-foreground hover:underline"
+              >
+                GitHub →
+              </a>
+            </div>
+          </div>
+
+          <Link
+            to="/gallery"
+            search={{ system: heroSystem.slug }}
+            aria-label={`Open ${heroSystem.name} in the gallery`}
+            className="group relative block aspect-square overflow-hidden rounded-3xl border border-border shadow-xl transition hover:border-primary"
+            style={{
+              background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 60%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 20%)`,
+            }}
+          >
+            <img
+              key={heroSystem.slug}
+              src={heroSystem.assets.motif}
+              alt={`${heroSystem.motifName} motif`}
+              className="absolute inset-0 size-full object-contain p-8 transition-all duration-500 group-hover:scale-[1.03]"
+            />
+            <div aria-hidden className="hidden">
+              {heroPool.map((s) =>
+                s.slug === heroSystem.slug ? null : (
+                  <img key={s.slug} src={s.assets.motif} alt="" />
+                )
+              )}
+            </div>
+            <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
+              <span className="truncate font-medium">{heroSystem.name}</span>
+              <span className="inline-flex items-center gap-1 text-muted-foreground group-hover:text-primary">
+                Open in gallery <ArrowRight className="size-3" />
+              </span>
+            </div>
+          </Link>
         </section>
 
-        <section className="mx-auto grid max-w-7xl gap-5 px-4 py-6 sm:px-6 lg:grid-cols-[20rem_1fr] lg:px-8">
-          <aside className="order-2 space-y-2 lg:order-1 lg:sticky lg:top-32 lg:self-start lg:max-h-[calc(100svh-9rem)] lg:overflow-auto lg:pr-1">
-            <p className="px-1 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
-              {filteredSystems.length} system{filteredSystems.length === 1 ? "" : "s"}
-            </p>
-            {filteredSystems.map((system) => (
-              <SystemCard
+        <section className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
+          <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-primary">
+            Why this exists
+          </p>
+          <p className="mt-3 text-base leading-7 text-foreground">
+            I started this to curate a private collection of nature-inspired palettes for
+            the things I actually ship — my own website, the PowerPoint decks I present
+            from, and the Word documents I write. The PowerPoint and Word templates are
+            still in development; the themes already pick up the palette and fonts, but
+            the layouts will get richer over the next few iterations.
+          </p>
+          <p className="mt-3 text-sm leading-6 text-muted-foreground">
+            The push came from the quality of{" "}
+            <span className="font-medium text-foreground">Codex + ChatGPT Images 2.0</span>
+            , and from a museum trip with my kids where I was honestly shocked by how
+            well-resolved the colors and structures of living things already are.
+          </p>
+          <p className="mt-3 text-sm leading-6 text-muted-foreground">
+            Everything's open —{" "}
+            <a
+              href="https://github.com/Ameyanagi/morphos"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-medium text-primary hover:underline"
+            >
+              source on GitHub
+            </a>
+            , catalog data, Codex skills, and the prompt for every system. —{" "}
+            <a
+              href="https://ameyanagi.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-medium text-primary hover:underline"
+            >
+              Ameyanagi
+            </a>
+          </p>
+        </section>
+
+        <section className="mx-auto max-w-[88rem] px-4 pb-16 sm:px-6 lg:px-8">
+          <div className="mb-5 flex items-baseline justify-between gap-3">
+            <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
+              Featured systems
+            </h2>
+            <Link to="/gallery" className="text-sm font-medium text-primary hover:underline">
+              Browse all {systems.length} →
+            </Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {featured.map((system) => (
+              <FeatureCard
                 key={system.slug}
                 system={system}
-                active={system.slug === activeSystem.slug}
-                onClick={() => setActiveSlug(system.slug)}
+                onHover={() => setHoverSlug(system.slug)}
+                onLeave={() => setHoverSlug(null)}
               />
             ))}
-            <nav aria-label="System detail links" className="sr-only">
-              {systems.map((system) => (
-                <Link key={system.slug} to="/systems/$slug" params={{ slug: system.slug }}>
-                  {system.name}
-                </Link>
-              ))}
-            </nav>
-          </aside>
+          </div>
+          <p className="mt-3 text-xs text-muted-foreground">
+            Hover a card to preview its theme on this page.
+          </p>
+        </section>
 
-          <div className="order-1 space-y-5 lg:order-2">
-            <ActionBar system={activeSystem} mode={mode} font={fontId} jaFont={jaFontId} />
-            <Hero system={activeSystem} />
-
-            <BoardSwitcher
-              light={activeSystem.assets.board}
-              dark={activeSystem.assets.darkBoard}
-              initial={mode}
+        <section className="mx-auto max-w-[88rem] px-4 pb-16 sm:px-6 lg:px-8">
+          <h2 className="mb-5 text-xl font-semibold tracking-tight sm:text-2xl">
+            What every system ships with
+          </h2>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <ValueCard
+              icon={<Palette className="size-4" />}
+              title="8-role palette"
+              body="Background, Ink, Primary, Secondary, Accent, Signal, Surface, Depth — hex + oklch."
             />
-
-            <ComponentPreview />
-
-            <section className="grid gap-4 lg:grid-cols-[0.95fr_1.05fr]">
-              <div className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
-                <div className="flex items-center justify-between gap-3">
-                  <div className="flex items-center gap-2">
-                    <Palette className="size-4 text-primary" />
-                    <h2 className="text-lg font-semibold">Palette</h2>
-                    {hasOverrides ? (
-                      <span className="rounded-full border border-border bg-background px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-primary">
-                        tuned
-                      </span>
-                    ) : null}
-                  </div>
-                  {hasOverrides ? (
-                    <Button variant="ghost" size="sm" onClick={resetOverrides}>
-                      Reset
-                    </Button>
-                  ) : null}
-                </div>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  Click a swatch to retune. Edits flow into the page backdrop and the PPTX/DOCX
-                  exports, and are remembered per system.
-                </p>
-                <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {activeSystem.palette.map((color) => (
-                    <EditableSwatch
-                      key={color.role}
-                      color={color}
-                      tuned={Boolean(overrides[color.role])}
-                      onChange={(hex) => setOverride(color.role, hex)}
-                    />
-                  ))}
-                </div>
-              </div>
-
-              <div className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
-                <div className="flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
-                    <ImageIcon className="size-4 text-primary" />
-                    <h2 className="text-lg font-semibold">Assets</h2>
-                  </div>
-                  <span className="text-[11px] text-muted-foreground">PNG · downloadable</span>
-                </div>
-                <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-                  <AssetThumb label="Motif" href={activeSystem.assets.motif} />
-                  <AssetThumb label="Light board" href={activeSystem.assets.board} />
-                  <AssetThumb label="Dark board" href={activeSystem.assets.darkBoard} />
-                  {activeSystem.assets.hero ? (
-                    <AssetThumb label="Hero" href={activeSystem.assets.hero} />
-                  ) : null}
-                  {activeSystem.assets.texture ? (
-                    <AssetThumb label="Texture" href={activeSystem.assets.texture} />
-                  ) : null}
-                  {activeSystem.assets.examples.map((example) => (
-                    <AssetThumb key={example.id} label={example.label} href={example.image} />
-                  ))}
-                </div>
-              </div>
-            </section>
-
-            <section className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
-              <div className="flex flex-wrap items-center justify-between gap-3">
-                <div>
-                  <h2 className="text-lg font-semibold">Generation Prompts</h2>
-                  <p className="mt-1 text-xs text-muted-foreground">
-                    Every motif and board on this page is AI-generated. Prompts are recorded so
-                    the catalog stays reproducible.
-                  </p>
-                </div>
-                <Button asChild variant="outline" size="sm">
-                  <a href={activeSystem.assets.promptsJson} download>
-                    <Download data-icon="inline-start" />
-                    prompts.json
-                  </a>
-                </Button>
-              </div>
-              <div className="mt-4 grid gap-3 lg:grid-cols-2">
-                {activeSystem.prompts.map((prompt) => (
-                  <PromptCard key={prompt.id} prompt={prompt} />
-                ))}
-              </div>
-            </section>
+            <ValueCard
+              icon={<FileCode2 className="size-4" />}
+              title="Light + dark theme"
+              body="Drop-in theme.css with all 30 shadcn tokens for both modes."
+            />
+            <ValueCard
+              icon={<Presentation className="size-4" />}
+              title="PowerPoint"
+              body="Editable deck with the palette baked into the OOXML theme."
+            />
+            <ValueCard
+              icon={<FileText className="size-4" />}
+              title="Word"
+              body="Cover, palette stripe, palette appendix. Latin + Japanese fonts wired in."
+            />
           </div>
         </section>
 
-        <footer className="mx-auto max-w-7xl px-4 pb-10 sm:px-6 lg:px-8">
-          <div className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div className="flex items-center gap-3">
-                <span
-                  className="grid size-8 place-items-center rounded-md border border-border"
-                  style={{ background: paletteGradient(activeSystem) }}
-                  aria-hidden
-                />
-                <div>
-                  <p className="text-sm font-semibold">Morphous</p>
-                  <p className="text-xs text-muted-foreground">
-                    Nature-coded design systems · {systems.length} catalogued · AI-generated motifs
-                  </p>
-                </div>
-              </div>
-              <button
-                type="button"
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="text-xs font-medium text-primary hover:underline"
-              >
-                Back to top ↑
-              </button>
-            </div>
+        <footer className="mx-auto max-w-[88rem] border-t border-border/60 px-4 py-6 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
+            <span>
+              Morphous · {systems.length} systems · AI-generated motifs · under active development
+            </span>
+            <FooterLinks />
           </div>
         </footer>
       </main>
@@ -335,1211 +263,147 @@ function CatalogRoute() {
   )
 }
 
-function Intro({ count }: { count: number }) {
-  return (
-    <div className="flex flex-wrap items-center gap-3 rounded-full border border-border bg-card/85 px-4 py-2 text-sm backdrop-blur">
-      <div className="flex items-center gap-2 text-primary">
-        <Sparkles className="size-4" />
-        <span className="font-semibold">{count} nature-coded design systems</span>
-      </div>
-      <span className="hidden h-4 w-px bg-border sm:block" aria-hidden />
-      <span className="text-muted-foreground">
-        One motif → palette, shadcn theme, board, PPTX & DOCX. AI-generated, prompts attached.
-      </span>
-    </div>
-  )
-}
-
-function ActionBar({
-  system,
-  mode,
-  font,
-  jaFont,
-}: {
-  system: MorphousSystem
-  mode: ThemeMode
-  font: string
-  jaFont: string
-}) {
-  return (
-    <section className="rounded-xl border border-primary/30 bg-card p-3 shadow-sm ring-1 ring-primary/10">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="flex min-w-0 items-center gap-3">
-          <span
-            className="grid size-10 shrink-0 place-items-center rounded-lg border border-border shadow-inner"
-            style={{ background: paletteGradient(system) }}
-            aria-hidden
-          />
-          <div className="min-w-0">
-            <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-muted-foreground">
-              Download this system
-            </p>
-            <p className="truncate text-sm font-semibold">{system.name}</p>
-          </div>
-        </div>
-        <div className="flex flex-wrap items-center gap-1.5">
-          <Button asChild size="sm">
-            <a href={system.assets.themeCss} download>
-              <FileCode2 data-icon="inline-start" />
-              CSS
-            </a>
-          </Button>
-          <Button asChild size="sm" variant="outline">
-            <a href={system.assets.themeJson} download>
-              <Download data-icon="inline-start" />
-              JSON
-            </a>
-          </Button>
-          <Button asChild size="sm" variant="outline">
-            <a href={system.assets.promptsJson} download>
-              <Copy data-icon="inline-start" />
-              Prompts
-            </a>
-          </Button>
-          <span className="mx-1 h-5 w-px bg-border" aria-hidden />
-          <OfficeDownload system={system} mode={mode} font={font} jaFont={jaFont} />
-          <span className="mx-1 h-5 w-px bg-border" aria-hidden />
-          <Button asChild size="sm" variant="ghost">
-            <Link to="/systems/$slug" params={{ slug: system.slug }}>
-              Detail
-              <ArrowUpRight data-icon="inline-end" />
-            </Link>
-          </Button>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-function Hero({ system }: { system: MorphousSystem }) {
-  return (
-    <section className="overflow-hidden rounded-2xl border border-border bg-card/85 shadow-sm backdrop-blur">
-      <div className="grid lg:grid-cols-[1fr_1fr]">
-        <div className="flex flex-col gap-5 p-6 sm:p-9">
-          <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
-            <span className="rounded-full border border-border bg-background/70 px-2 py-0.5">
-              {system.motifCategory}
-            </span>
-            <span className="size-1 rounded-full bg-border" aria-hidden />
-            <span>{system.biome}</span>
-            {system.tags.slice(0, 4).map((tag) => (
-              <span key={tag} className="ml-1 normal-case tracking-normal text-foreground/60">
-                #{tag}
-              </span>
-            ))}
-          </div>
-
-          <div className="space-y-3">
-            <h2 className="text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
-              {system.name}
-            </h2>
-            <p className="text-base leading-7 text-muted-foreground sm:text-lg">
-              {system.description}
-            </p>
-          </div>
-
-          <div
-            className="h-2 w-full max-w-md overflow-hidden rounded-full border border-border"
-            style={{ background: paletteGradient(system) }}
-            aria-label="Palette stripe"
-          />
-
-          <div className="mt-auto grid gap-2 sm:grid-cols-2">
-            <Info label="Typography" value={system.typography} />
-            <Info label="Layout" value={system.layout} />
-          </div>
-        </div>
-
-        <div
-          className="relative grid min-h-[22rem] place-items-center border-t border-border p-6 lg:min-h-0 lg:border-l lg:border-t-0"
-          style={{
-            background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 70%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 25%)`,
-          }}
-        >
-          <img
-            src={system.assets.motif}
-            alt={`${system.motifName} motif`}
-            className="max-h-[28rem] w-auto object-contain drop-shadow-xl"
-          />
-        </div>
-      </div>
-    </section>
-  )
-}
-
-function SystemCard({
-  system,
-  active,
-  onClick,
-}: {
-  system: MorphousSystem
-  active: boolean
-  onClick: () => void
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={`group block w-full rounded-lg border p-2.5 text-left transition ${
-        active
-          ? "border-primary bg-sidebar-accent/60 shadow-sm"
-          : "border-border bg-card/85 backdrop-blur hover:bg-muted/70"
-      }`}
-    >
-      <div className="grid grid-cols-[3.25rem_1fr] gap-3">
-        <img
-          src={system.assets.motif}
-          alt={`${system.motifName} motif`}
-          className="aspect-square rounded-md border border-border bg-background object-cover"
-        />
-        <div className="min-w-0">
-          <span className="block truncate text-sm font-semibold">{system.name}</span>
-          <span className="block truncate text-xs text-muted-foreground">{system.motifName}</span>
-          <span className="mt-2 flex h-1.5 overflow-hidden rounded-full">
-            {system.palette.slice(0, 8).map((color) => (
-              <span
-                key={color.role}
-                className="flex-1"
-                style={{ backgroundColor: color.hex }}
-                title={`${color.role}: ${color.hex}`}
-              />
-            ))}
-          </span>
-        </div>
-      </div>
-    </button>
-  )
-}
-
-function BoardSwitcher({
-  light,
-  dark,
-  initial,
-}: {
-  light: string
-  dark: string
-  initial: ThemeMode
-}) {
-  const [tab, setTab] = useState<ThemeMode>(initial)
-  return (
-    <section className="overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur">
-      <div className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
-        <div>
-          <h2 className="text-lg font-semibold">Design-system board</h2>
-          <p className="mt-0.5 text-xs text-muted-foreground">
-            AI-generated reference board showing tokens, components, and motif treatment.
-          </p>
-        </div>
-        <div className="flex rounded-lg border border-border bg-card p-1">
-          <Button
-            size="sm"
-            variant={tab === "light" ? "default" : "ghost"}
-            onClick={() => setTab("light")}
-          >
-            <Sun data-icon="inline-start" /> Light
-          </Button>
-          <Button
-            size="sm"
-            variant={tab === "dark" ? "default" : "ghost"}
-            onClick={() => setTab("dark")}
-          >
-            <Moon data-icon="inline-start" /> Dark
-          </Button>
-        </div>
-      </div>
-      <img
-        src={tab === "light" ? light : dark}
-        alt={`${tab} system board`}
-        className="w-full object-cover"
-      />
-    </section>
-  )
-}
-
-function ComponentPreview() {
-  const [tab, setTab] = useState<"components" | "dashboard" | "settings">("components")
-  const [notify, setNotify] = useState(true)
-  const [density, setDensity] = useState(60)
-
-  return (
-    <section className="rounded-xl border border-border bg-card/85 backdrop-blur">
-      <div className="flex flex-col gap-3 border-b border-border p-5 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <h2 className="text-lg font-semibold">shadcn Component Preview</h2>
-          <p className="mt-1 text-sm text-muted-foreground">
-            All components use the active theme tokens — switch the system and watch them retune.
-          </p>
-        </div>
-        <div className="flex rounded-lg border border-border bg-card p-1">
-          {(
-            [
-              ["components", "Components"],
-              ["dashboard", "Dashboard"],
-              ["settings", "Settings"],
-            ] as const
-          ).map(([id, label]) => (
-            <button
-              key={id}
-              type="button"
-              onClick={() => setTab(id)}
-              className={`h-7 rounded-md px-3 text-xs font-medium transition ${
-                tab === id
-                  ? "bg-primary text-primary-foreground"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      <div className="grid gap-0 lg:grid-cols-[12rem_1fr]">
-        <nav className="border-b border-border bg-sidebar p-3 text-sidebar-foreground lg:border-b-0 lg:border-r">
-          {[
-            ["Overview", true],
-            ["Analytics", false],
-            ["Reports", false],
-            ["Boards", false],
-            ["Settings", false],
-          ].map(([item, active]) => (
-            <div
-              key={item as string}
-              className={`mb-1 flex items-center justify-between rounded-md px-3 py-2 text-sm ${
-                active
-                  ? "bg-sidebar-accent text-sidebar-accent-foreground"
-                  : "text-muted-foreground"
-              }`}
-            >
-              <span>{item}</span>
-              {item === "Reports" ? (
-                <span className="rounded-full bg-primary/15 px-1.5 text-[10px] font-medium text-primary">
-                  3
-                </span>
-              ) : null}
-            </div>
-          ))}
-          <div className="mt-3 rounded-lg border border-sidebar-border bg-sidebar-accent/40 p-3">
-            <p className="text-xs font-medium">Theme tokens</p>
-            <p className="mt-1 text-[11px] text-muted-foreground">
-              {tab === "dashboard" ? "primary · accent · chart-1..5" : "input · ring · muted"}
-            </p>
-          </div>
-        </nav>
-
-        <div className="space-y-4 p-5">
-          {tab === "components" ? (
-            <ComponentsMatrix />
-          ) : tab === "dashboard" ? (
-            <>
-              <div className="grid gap-3 sm:grid-cols-3">
-                {[
-                  { label: "Revenue", value: "¥12.4M", delta: "+8.2%", trend: [4, 5, 4, 6, 7, 6, 8] },
-                  { label: "Sessions", value: "45.2K", delta: "+3.1%", trend: [3, 4, 3, 5, 4, 6, 7] },
-                  { label: "Conv. rate", value: "92.6%", delta: "−0.4%", trend: [8, 7, 7, 6, 7, 6, 6] },
-                ].map((kpi, i) => (
-                  <div key={kpi.label} className="rounded-lg border border-border bg-background p-3">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs text-muted-foreground">{kpi.label}</span>
-                      <span
-                        className={`rounded-md px-1.5 text-[10px] font-medium ${
-                          kpi.delta.startsWith("+")
-                            ? "bg-primary/15 text-primary"
-                            : "bg-destructive/15 text-destructive"
-                        }`}
-                      >
-                        {kpi.delta}
-                      </span>
-                    </div>
-                    <div className="mt-2 text-2xl font-semibold tracking-tight">{kpi.value}</div>
-                    <Sparkline values={kpi.trend} colorVar={`var(--chart-${(i % 5) + 1})`} />
-                  </div>
-                ))}
-              </div>
-
-              <div className="grid gap-3 lg:grid-cols-[1.4fr_1fr]">
-                <div className="rounded-lg border border-border bg-background p-3">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-sm font-semibold">Weekly throughput</h3>
-                    <div className="flex gap-1.5 text-[11px] text-muted-foreground">
-                      {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => (
-                        <span key={d} className="w-7 text-center">
-                          {d}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="mt-3 flex h-32 items-end gap-2">
-                    {[45, 72, 58, 86, 64, 93, 74].map((h, i) => (
-                      <span
-                        key={i}
-                        className="flex-1 rounded-t-md transition"
-                        style={{
-                          height: `${h}%`,
-                          backgroundColor: `var(--chart-${(i % 5) + 1})`,
-                        }}
-                      />
-                    ))}
-                  </div>
-                </div>
-
-                <div className="rounded-lg border border-border bg-background p-3">
-                  <h3 className="text-sm font-semibold">Recent activity</h3>
-                  <ul className="mt-3 space-y-2.5">
-                    {[
-                      { who: "AY", what: "Approved monarch palette", when: "2m" },
-                      { who: "RC", what: "Pushed cicada theme.css", when: "14m" },
-                      { who: "MK", what: "Drafted koi prompts", when: "1h" },
-                    ].map((row) => (
-                      <li key={row.who} className="flex items-center gap-3 text-sm">
-                        <span className="grid size-7 place-items-center rounded-full bg-primary text-[11px] font-semibold text-primary-foreground">
-                          {row.who}
-                        </span>
-                        <span className="flex-1 truncate">{row.what}</span>
-                        <span className="text-[11px] text-muted-foreground">{row.when}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
-              <div className="rounded-lg border border-border bg-background">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="border-b border-border bg-muted/40 text-left text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
-                      <th className="px-3 py-2">System</th>
-                      <th className="px-3 py-2">Status</th>
-                      <th className="px-3 py-2">Roles</th>
-                      <th className="px-3 py-2 text-right">Coverage</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {[
-                      ["Snow Leopard", "shipped", 8, 100],
-                      ["Cicada", "shipped", 8, 96],
-                      ["Koi", "review", 8, 88],
-                    ].map(([name, status, roles, cov]) => (
-                      <tr key={name as string} className="border-b border-border last:border-0">
-                        <td className="px-3 py-2 font-medium">{name}</td>
-                        <td className="px-3 py-2">
-                          <span
-                            className={`inline-flex h-5 items-center rounded-full px-2 text-[10px] font-medium ${
-                              status === "shipped"
-                                ? "bg-primary/15 text-primary"
-                                : "bg-accent/20 text-accent-foreground"
-                            }`}
-                          >
-                            {status as string}
-                          </span>
-                        </td>
-                        <td className="px-3 py-2 text-muted-foreground">{roles}</td>
-                        <td className="px-3 py-2">
-                          <div className="flex items-center justify-end gap-2">
-                            <div className="h-1.5 w-20 overflow-hidden rounded-full bg-muted">
-                              <div
-                                className="h-full bg-primary"
-                                style={{ width: `${cov}%` }}
-                              />
-                            </div>
-                            <span className="w-9 text-right text-xs text-muted-foreground">
-                              {cov}%
-                            </span>
-                          </div>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="rounded-lg border border-border bg-background p-4">
-                <h3 className="text-sm font-semibold">Profile</h3>
-                <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                  <label className="grid gap-1 text-sm">
-                    Workspace
-                    <input
-                      className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
-                      defaultValue="Morphous"
-                    />
-                  </label>
-                  <label className="grid gap-1 text-sm">
-                    Plan
-                    <select
-                      className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
-                      defaultValue="studio"
-                    >
-                      <option value="solo">Solo</option>
-                      <option value="studio">Studio</option>
-                      <option value="atelier">Atelier</option>
-                    </select>
-                  </label>
-                </div>
-                <div className="mt-4 flex items-center justify-between rounded-md border border-border bg-card px-3 py-2">
-                  <div>
-                    <p className="text-sm font-medium">Email notifications</p>
-                    <p className="text-[11px] text-muted-foreground">
-                      Daily digest of catalog changes.
-                    </p>
-                  </div>
-                  <Switch checked={notify} onChange={setNotify} />
-                </div>
-                <div className="mt-3 rounded-md border border-border bg-card px-3 py-3">
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="font-medium">Density</span>
-                    <span className="text-muted-foreground">{density}%</span>
-                  </div>
-                  <input
-                    type="range"
-                    min={0}
-                    max={100}
-                    value={density}
-                    onChange={(e) => setDensity(Number(e.target.value))}
-                    className="mt-2 w-full accent-[var(--primary)]"
-                  />
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 rounded-lg border border-primary/30 bg-primary/5 p-4">
-                <span className="grid size-8 shrink-0 place-items-center rounded-full bg-primary/15 text-primary">
-                  <Check className="size-4" />
-                </span>
-                <div className="flex-1">
-                  <p className="text-sm font-medium">Theme synced</p>
-                  <p className="mt-0.5 text-xs text-muted-foreground">
-                    Latest tokens published to shadcn registry · {new Date().toLocaleDateString()}
-                  </p>
-                </div>
-                <Button size="sm" variant="outline">
-                  View
-                </Button>
-              </div>
-
-              <div className="flex flex-wrap gap-2">
-                <Badge>Default</Badge>
-                <Badge tone="accent">Accent</Badge>
-                <Badge tone="muted">Muted</Badge>
-                <span className="inline-flex h-7 items-center rounded-md border border-destructive/40 bg-destructive/10 px-2.5 text-xs font-medium text-destructive">
-                  Destructive
-                </span>
-              </div>
-            </>
-          )}
-        </div>
-      </div>
-    </section>
-  )
-}
-
-function ComponentsMatrix() {
-  const [tab, setTab] = useState("overview")
-  const [check, setCheck] = useState(true)
-  const [radio, setRadio] = useState("light")
-  const [toggle, setToggle] = useState("center")
-  const [sw, setSw] = useState(true)
-  const [val, setVal] = useState(64)
-
-  return (
-    <div className="space-y-6">
-      <Group title="Buttons" desc="variant × size — bg-primary, bg-secondary, hover.bg-muted, border, ring">
-        <div className="flex flex-wrap items-center gap-2">
-          <Button>Primary</Button>
-          <Button variant="secondary">Secondary</Button>
-          <Button variant="outline">Outline</Button>
-          <Button variant="ghost">Ghost</Button>
-          <Button variant="link">Link</Button>
-          <Button variant="destructive">Destructive</Button>
-        </div>
-        <div className="mt-2 flex flex-wrap items-center gap-2">
-          <Button size="xs">XS</Button>
-          <Button size="sm">SM</Button>
-          <Button>MD</Button>
-          <Button size="lg">LG</Button>
-          <Button size="icon" aria-label="icon">
-            <Check />
-          </Button>
-          <Button disabled>Disabled</Button>
-          <Button>
-            <Download data-icon="inline-start" />
-            With icon
-          </Button>
-        </div>
-      </Group>
-
-      <Group title="Inputs" desc="border-input, focus.ring-ring, bg-card">
-        <div className="grid gap-3 sm:grid-cols-3">
-          <label className="grid gap-1 text-xs">
-            <span className="text-muted-foreground">Email</span>
-            <input
-              type="email"
-              placeholder="you@morphous.dev"
-              className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
-            />
-          </label>
-          <label className="grid gap-1 text-xs">
-            <span className="text-muted-foreground">Plan</span>
-            <select
-              defaultValue="studio"
-              className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
-            >
-              <option>Solo</option>
-              <option value="studio">Studio</option>
-              <option>Atelier</option>
-            </select>
-          </label>
-          <label className="grid gap-1 text-xs">
-            <span className="text-muted-foreground">Disabled</span>
-            <input
-              disabled
-              defaultValue="—"
-              className="h-9 rounded-lg border border-input bg-muted px-3 text-sm text-muted-foreground"
-            />
-          </label>
-          <label className="grid gap-1 text-xs sm:col-span-3">
-            <span className="text-muted-foreground">Description</span>
-            <textarea
-              rows={3}
-              defaultValue="A nature-coded design system."
-              className="rounded-lg border border-input bg-card px-3 py-2 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
-            />
-          </label>
-        </div>
-      </Group>
-
-      <Group title="Selection" desc="checkbox, radio group, toggle group, switch — primary highlights">
-        <div className="flex flex-wrap items-center gap-6">
-          <Checkbox checked={check} onChange={setCheck} label="Send weekly digest" />
-          <RadioGroup
-            value={radio}
-            onChange={setRadio}
-            options={[
-              ["light", "Light"],
-              ["dark", "Dark"],
-              ["auto", "Auto"],
-            ]}
-          />
-          <ToggleGroup
-            value={toggle}
-            onChange={setToggle}
-            options={[
-              ["left", "L"],
-              ["center", "C"],
-              ["right", "R"],
-              ["justify", "J"],
-            ]}
-          />
-          <div className="flex items-center gap-2 text-sm">
-            <Switch checked={sw} onChange={setSw} />
-            <span className="text-muted-foreground">Switch</span>
-          </div>
-        </div>
-      </Group>
-
-      <Group title="Slider & Progress" desc="accent-primary, bg-muted track, primary fill">
-        <div className="grid gap-4 sm:grid-cols-[2fr_3fr]">
-          <div className="rounded-md border border-border bg-background p-3">
-            <div className="flex items-center justify-between text-xs">
-              <span className="text-muted-foreground">Volume</span>
-              <span className="font-medium">{val}%</span>
-            </div>
-            <input
-              type="range"
-              min={0}
-              max={100}
-              value={val}
-              onChange={(e) => setVal(Number(e.target.value))}
-              className="mt-2 w-full accent-[var(--primary)]"
-            />
-          </div>
-          <div className="space-y-2">
-            {[
-              ["Indexing", 92, "var(--primary)"],
-              ["Sync", 64, "var(--accent)"],
-              ["Cleanup", 31, "var(--chart-3)"],
-            ].map(([label, pct, color]) => (
-              <div key={label as string}>
-                <div className="flex items-center justify-between text-xs">
-                  <span>{label}</span>
-                  <span className="text-muted-foreground">{pct}%</span>
-                </div>
-                <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-muted">
-                  <div
-                    className="h-full rounded-full"
-                    style={{ width: `${pct as number}%`, backgroundColor: color as string }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </Group>
-
-      <Group title="Badges & Avatars" desc="primary, secondary, accent, muted, destructive · primary fg avatars">
-        <div className="flex flex-wrap items-center gap-3">
-          <Badge>Default</Badge>
-          <Badge tone="accent">Accent</Badge>
-          <Badge tone="muted">Muted</Badge>
-          <span className="inline-flex h-7 items-center rounded-md bg-secondary px-2.5 text-xs font-medium text-secondary-foreground">
-            Secondary
-          </span>
-          <span className="inline-flex h-7 items-center rounded-md border border-destructive/40 bg-destructive/10 px-2.5 text-xs font-medium text-destructive">
-            Destructive
-          </span>
-          <span className="inline-flex h-7 items-center gap-1 rounded-full border border-border bg-background px-2.5 text-xs font-medium">
-            <span className="size-1.5 rounded-full bg-primary" /> Online
-          </span>
-        </div>
-        <div className="mt-3 flex items-center gap-2">
-          {["AY", "RC", "MK", "JS"].map((init, i) => (
-            <span
-              key={init}
-              className="grid size-9 place-items-center rounded-full border-2 border-background text-[11px] font-semibold"
-              style={{
-                marginLeft: i === 0 ? 0 : -10,
-                backgroundColor: `var(--chart-${(i % 5) + 1})`,
-                color: "var(--primary-foreground)",
-              }}
-            >
-              {init}
-            </span>
-          ))}
-          <span className="ml-2 grid size-9 place-items-center rounded-full bg-muted text-xs font-medium text-muted-foreground">
-            +12
-          </span>
-        </div>
-      </Group>
-
-      <Group title="Tabs" desc="bg-card, primary highlight">
-        <div className="inline-flex rounded-lg border border-border bg-card p-1">
-          {["overview", "activity", "members", "billing"].map((id) => (
-            <button
-              key={id}
-              type="button"
-              onClick={() => setTab(id)}
-              className={`h-7 rounded-md px-3 text-xs font-medium capitalize transition ${
-                tab === id
-                  ? "bg-primary text-primary-foreground"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {id}
-            </button>
-          ))}
-        </div>
-      </Group>
-
-      <Group title="Alerts" desc="info → primary, success → primary, warning → accent, destructive">
-        <div className="grid gap-3 lg:grid-cols-2">
-          <Alert tone="info" title="Heads up" body="Theme will be republished in 5 minutes." />
-          <Alert tone="success" title="Saved" body="Palette tuning persisted to this browser." />
-          <Alert tone="warning" title="Contrast warning" body="Accent vs surface is below AA." />
-          <Alert tone="destructive" title="Delete system?" body="This action cannot be undone." />
-        </div>
-      </Group>
-
-      <Group title="Cards" desc="bg-card, border, popover, sidebar surfaces">
-        <div className="grid gap-3 sm:grid-cols-3">
-          <div className="rounded-lg border border-border bg-card p-4">
-            <p className="text-xs uppercase tracking-wide text-muted-foreground">Card</p>
-            <h4 className="mt-1 font-semibold">bg-card</h4>
-            <p className="mt-2 text-xs text-muted-foreground">Standard surface for content.</p>
-          </div>
-          <div className="rounded-lg border border-border bg-popover p-4 text-popover-foreground shadow-md">
-            <p className="text-xs uppercase tracking-wide text-muted-foreground">Popover</p>
-            <h4 className="mt-1 font-semibold">bg-popover</h4>
-            <p className="mt-2 text-xs text-muted-foreground">Floating surfaces, menus, tooltips.</p>
-          </div>
-          <div className="rounded-lg border border-sidebar-border bg-sidebar p-4 text-sidebar-foreground">
-            <p className="text-xs uppercase tracking-wide text-muted-foreground">Sidebar</p>
-            <h4 className="mt-1 font-semibold">bg-sidebar</h4>
-            <p className="mt-2 text-xs text-muted-foreground">Persistent nav background.</p>
-          </div>
-        </div>
-      </Group>
-
-      <Group title="Tooltip & Popover" desc="bg-popover, ring-ring, shadow">
-        <div className="flex flex-wrap gap-6">
-          <div className="relative">
-            <Button variant="outline">Hover target</Button>
-            <span className="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-popover px-2 py-1 text-xs text-popover-foreground shadow-md ring-1 ring-border">
-              Theme tooltip
-            </span>
-          </div>
-          <div className="rounded-lg border border-border bg-popover p-3 text-popover-foreground shadow-md">
-            <p className="text-xs font-medium">Quick action</p>
-            <div className="mt-2 flex gap-2">
-              <Button size="xs">Confirm</Button>
-              <Button size="xs" variant="ghost">
-                Cancel
-              </Button>
-            </div>
-          </div>
-        </div>
-      </Group>
-
-      <Group title="Skeleton" desc="bg-muted with pulse">
-        <div className="space-y-2">
-          <div className="h-4 w-1/3 animate-pulse rounded bg-muted" />
-          <div className="h-3 w-2/3 animate-pulse rounded bg-muted" />
-          <div className="h-3 w-1/2 animate-pulse rounded bg-muted" />
-        </div>
-      </Group>
-    </div>
-  )
-}
-
-function Group({
-  title,
-  desc,
-  children,
-}: {
-  title: string
-  desc?: string
-  children: React.ReactNode
-}) {
-  return (
-    <section>
-      <header className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 className="text-sm font-semibold">{title}</h3>
-        {desc ? <p className="text-[11px] text-muted-foreground">{desc}</p> : null}
-      </header>
-      <div className="mt-2 rounded-lg border border-border bg-background p-4">{children}</div>
-    </section>
-  )
-}
-
-function Checkbox({
-  checked,
-  onChange,
-  label,
-}: {
-  checked: boolean
-  onChange: (v: boolean) => void
-  label: string
-}) {
-  return (
-    <label className="inline-flex cursor-pointer items-center gap-2 text-sm">
-      <span
-        className={`grid size-4 place-items-center rounded border ${
-          checked ? "border-primary bg-primary text-primary-foreground" : "border-input bg-card"
-        }`}
-      >
-        {checked ? <Check className="size-3" /> : null}
-      </span>
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={(e) => onChange(e.target.checked)}
-        className="sr-only"
-      />
-      {label}
-    </label>
-  )
-}
-
-function RadioGroup({
-  value,
-  onChange,
-  options,
-}: {
-  value: string
-  onChange: (v: string) => void
-  options: Array<[string, string]>
-}) {
-  return (
-    <div className="flex items-center gap-3 text-sm">
-      {options.map(([id, label]) => (
-        <label key={id} className="inline-flex cursor-pointer items-center gap-1.5">
-          <span
-            className={`grid size-4 place-items-center rounded-full border-2 ${
-              value === id ? "border-primary" : "border-input"
-            }`}
-          >
-            {value === id ? <span className="size-1.5 rounded-full bg-primary" /> : null}
-          </span>
-          <input
-            type="radio"
-            checked={value === id}
-            onChange={() => onChange(id)}
-            className="sr-only"
-          />
-          {label}
-        </label>
-      ))}
-    </div>
-  )
-}
-
-function ToggleGroup({
-  value,
-  onChange,
-  options,
-}: {
-  value: string
-  onChange: (v: string) => void
-  options: Array<[string, string]>
-}) {
-  return (
-    <div className="inline-flex rounded-lg border border-border bg-card p-1">
-      {options.map(([id, label]) => (
-        <button
-          key={id}
-          type="button"
-          onClick={() => onChange(id)}
-          className={`h-7 min-w-7 rounded-md px-2 text-xs font-medium transition ${
-            value === id
-              ? "bg-primary text-primary-foreground"
-              : "text-muted-foreground hover:text-foreground"
-          }`}
-        >
-          {label}
-        </button>
-      ))}
-    </div>
-  )
-}
-
-function Alert({
-  tone,
+function ValueCard({
+  icon,
   title,
   body,
 }: {
-  tone: "info" | "success" | "warning" | "destructive"
+  icon: React.ReactNode
   title: string
   body: string
 }) {
-  const styles = {
-    info: "border-primary/30 bg-primary/5 text-foreground",
-    success: "border-primary/30 bg-primary/5 text-foreground",
-    warning: "border-accent/40 bg-accent/10 text-foreground",
-    destructive: "border-destructive/40 bg-destructive/10 text-foreground",
-  } as const
-  const dot = {
-    info: "bg-primary",
-    success: "bg-primary",
-    warning: "bg-accent",
-    destructive: "bg-destructive",
-  } as const
   return (
-    <div className={`flex items-start gap-3 rounded-lg border p-3 ${styles[tone]}`}>
-      <span className={`mt-1 size-2 shrink-0 rounded-full ${dot[tone]}`} />
-      <div className="min-w-0">
-        <p className="text-sm font-medium">{title}</p>
-        <p className="mt-0.5 text-xs text-muted-foreground">{body}</p>
-      </div>
-    </div>
-  )
-}
-
-function Switch({ checked, onChange }: { checked: boolean; onChange: (v: boolean) => void }) {
-  return (
-    <button
-      type="button"
-      role="switch"
-      aria-checked={checked}
-      onClick={() => onChange(!checked)}
-      className={`relative h-5 w-9 rounded-full border border-border transition ${
-        checked ? "bg-primary" : "bg-muted"
-      }`}
-    >
-      <span
-        className={`absolute top-0.5 size-3.5 rounded-full bg-background shadow transition ${
-          checked ? "left-[calc(100%-1.125rem)]" : "left-0.5"
-        }`}
-      />
-    </button>
-  )
-}
-
-function Sparkline({ values, colorVar }: { values: Array<number>; colorVar: string }) {
-  const max = Math.max(...values, 1)
-  const w = 100
-  const h = 28
-  const step = w / (values.length - 1)
-  const points = values
-    .map((v, i) => `${(i * step).toFixed(2)},${(h - (v / max) * h).toFixed(2)}`)
-    .join(" ")
-  const area = `0,${h} ${points} ${w},${h}`
-  return (
-    <svg viewBox={`0 0 ${w} ${h}`} className="mt-2 h-7 w-full" preserveAspectRatio="none">
-      <polygon points={area} fill={colorVar} fillOpacity="0.15" />
-      <polyline points={points} fill="none" stroke={colorVar} strokeWidth="1.5" />
-    </svg>
-  )
-}
-
-function ColorSearch({
-  value,
-  role,
-  onColor,
-  onRole,
-}: {
-  value: string
-  role: ColorRoleKey
-  onColor: (hex: string) => void
-  onRole: (role: ColorRoleKey) => void
-}) {
-  const active = Boolean(value)
-  return (
-    <div
-      className={`flex h-10 shrink-0 items-center gap-1 rounded-lg border bg-card pl-2 pr-1 transition ${
-        active ? "border-primary" : "border-input"
-      }`}
-      title={active ? `Sorting by closeness to ${value} on ${role}` : "Pick a color to sort systems"}
-    >
-      <label className="relative flex items-center gap-1.5">
-        <span
-          className={`grid size-5 place-items-center rounded border ${
-            active ? "border-primary" : "border-border border-dashed"
-          }`}
-          style={{ backgroundColor: active ? value : "transparent" }}
-          aria-hidden
-        >
-          {!active ? <Palette className="size-3 text-muted-foreground" /> : null}
-        </span>
-        <span className="text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
-          color
-        </span>
-        <input
-          type="color"
-          value={value || "#7a7a7a"}
-          onChange={(e) => onColor(e.target.value)}
-          className="absolute inset-0 size-full cursor-pointer opacity-0"
-          aria-label="Pick color to sort by"
-        />
-      </label>
-      <span className="h-5 w-px bg-border" aria-hidden />
-      <select
-        value={role}
-        onChange={(e) => onRole(e.target.value as ColorRoleKey)}
-        className="h-9 bg-transparent px-1 text-sm text-foreground outline-none"
-      >
-        {colorRoleOptions.map((r) => (
-          <option key={r} value={r}>
-            {r}
-          </option>
-        ))}
-      </select>
-      {active ? (
-        <button
-          type="button"
-          onClick={() => onColor("")}
-          className="grid size-7 place-items-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
-          aria-label="Clear color filter"
-        >
-          <X className="size-3.5" />
-        </button>
-      ) : null}
-    </div>
-  )
-}
-
-function LabelSelect({
-  label,
-  value,
-  onChange,
-  options,
-}: {
-  label: string
-  value: string
-  onChange: (value: string) => void
-  options: ReadonlyArray<string>
-}) {
-  const isDefault = value === "all" || value === "name"
-  return (
-    <div
-      className={`flex h-10 shrink-0 items-center gap-2 rounded-lg border bg-card px-3 transition ${
-        isDefault ? "border-input" : "border-primary"
-      }`}
-    >
-      <span className="text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground">
-        {label}
+    <article className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur">
+      <span className="grid size-8 place-items-center rounded-lg bg-primary/10 text-primary">
+        {icon}
       </span>
-      <select
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
-        className="h-full min-w-20 bg-transparent text-sm text-foreground outline-none"
-        aria-label={label}
-      >
-        {options.map((option) => (
-          <option key={option} value={option}>
-            {option === "all" ? "All" : option}
-          </option>
-        ))}
-      </select>
-    </div>
-  )
-}
-
-function EditableSwatch({
-  color,
-  tuned,
-  onChange,
-}: {
-  color: { role: string; name: string; hex: string; oklch: string }
-  tuned: boolean
-  onChange: (hex: string) => void
-}) {
-  const [copied, setCopied] = useState(false)
-  const onCopy = async (e: React.MouseEvent) => {
-    e.preventDefault()
-    try {
-      await navigator.clipboard.writeText(color.hex)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1200)
-    } catch {
-      // ignore
-    }
-  }
-  return (
-    <div className="grid grid-cols-[2.75rem_1fr] items-center gap-3 rounded-lg border border-border bg-background/60 p-2 transition hover:bg-background">
-      <label className="relative block h-12 cursor-pointer">
-        <span
-          className="block h-full rounded-md border border-border"
-          style={{ backgroundColor: color.hex }}
-          aria-hidden
-        />
-        <input
-          type="color"
-          value={normalizeHex(color.hex)}
-          onChange={(event) => onChange(event.target.value)}
-          className="absolute inset-0 size-full cursor-pointer opacity-0"
-          aria-label={`Tune ${color.role}`}
-        />
-      </label>
-      <div className="min-w-0">
-        <div className="flex items-center gap-1.5">
-          <span className="truncate text-sm font-medium">{color.role}</span>
-          {tuned ? (
-            <span className="rounded-sm bg-primary/15 px-1 text-[9px] font-medium uppercase tracking-wide text-primary">
-              tuned
-            </span>
-          ) : null}
-        </div>
-        <span className="block truncate text-xs text-muted-foreground">{color.name}</span>
-        <button
-          type="button"
-          onClick={onCopy}
-          className="mt-1 block truncate text-left font-mono text-[11px] text-primary hover:underline"
-        >
-          {copied ? "copied" : color.hex.toUpperCase()}
-        </button>
-      </div>
-    </div>
-  )
-}
-
-function normalizeHex(hex: string): string {
-  const v = hex.replace("#", "")
-  if (v.length === 3) return "#" + v.split("").map((c) => c + c).join("")
-  if (v.length === 6) return "#" + v
-  return "#000000"
-}
-
-function Info({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-lg border border-sidebar-border bg-background/65 p-3 backdrop-blur">
-      <div className="text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground">
-        {label}
-      </div>
-      <p className="mt-1.5 line-clamp-3 text-sm leading-5">{value}</p>
-    </div>
-  )
-}
-
-function PromptCard({
-  prompt,
-}: {
-  prompt: { id: string; label: string; asset: string; prompt: string }
-}) {
-  const [copied, setCopied] = useState(false)
-  const [expanded, setExpanded] = useState(false)
-  const onCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(prompt.prompt)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1200)
-    } catch {
-      // ignore
-    }
-  }
-  return (
-    <article className="rounded-lg border border-border bg-background/70 p-4">
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h3 className="text-sm font-semibold">{prompt.label}</h3>
-          <a
-            href={prompt.asset}
-            className="mt-1 inline-block max-w-full truncate rounded bg-muted px-1.5 py-0.5 font-mono text-[11px] text-primary"
-          >
-            {prompt.asset.replace(/^\/systems\/[^/]+\//, "./")}
-          </a>
-        </div>
-        <Button variant="ghost" size="xs" onClick={onCopy} aria-label="Copy prompt">
-          {copied ? <Check className="size-3.5 text-primary" /> : <Copy className="size-3.5" />}
-        </Button>
-      </div>
-      <p
-        className={`mt-3 whitespace-pre-line text-xs leading-5 text-muted-foreground ${
-          expanded ? "" : "line-clamp-4"
-        }`}
-      >
-        {prompt.prompt}
-      </p>
-      <button
-        type="button"
-        onClick={() => setExpanded((v) => !v)}
-        className="mt-2 text-[11px] font-medium text-primary hover:underline"
-      >
-        {expanded ? "Show less" : "Show more"}
-      </button>
+      <h3 className="mt-3 text-sm font-semibold">{title}</h3>
+      <p className="mt-1.5 text-xs leading-5 text-muted-foreground">{body}</p>
     </article>
   )
 }
 
-function AssetThumb({ label, href }: { label: string; href: string }) {
+function FeatureCard({
+  system,
+  onHover,
+  onLeave,
+}: {
+  system: (typeof systems)[number]
+  onHover?: () => void
+  onLeave?: () => void
+}) {
+  return (
+    <Link
+      to="/gallery"
+      search={{ system: system.slug }}
+      onMouseEnter={onHover}
+      onMouseLeave={onLeave}
+      onFocus={onHover}
+      onBlur={onLeave}
+      className="group block overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur transition hover:border-primary"
+    >
+      <span
+        className="relative block aspect-square w-full overflow-hidden"
+        style={{
+          background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, ${
+            system.palette.find((c) => c.role === "Accent")?.hex ?? "#888"
+          }, transparent 50%), transparent 70%), ${
+            system.palette.find((c) => c.role === "Background")?.hex ?? "#eee"
+          }`,
+        }}
+      >
+        <img
+          src={system.assets.motif}
+          alt={`${system.motifName} motif`}
+          className="absolute inset-0 size-full object-contain p-6 transition-transform duration-500 group-hover:scale-105"
+        />
+      </span>
+      <div className="border-t border-border p-3">
+        <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
+          {system.motifCategory} · {system.biome}
+        </p>
+        <p className="mt-1 truncate text-sm font-semibold">{system.name}</p>
+        <span
+          className="mt-2 flex h-1.5 overflow-hidden rounded-full"
+          aria-hidden
+        >
+          {system.palette.map((c) => (
+            <span key={c.role} className="flex-1" style={{ backgroundColor: c.hex }} />
+          ))}
+        </span>
+      </div>
+    </Link>
+  )
+}
+
+function IconLink({
+  href,
+  label,
+  children,
+}: {
+  href: string
+  label: string
+  children: React.ReactNode
+}) {
   return (
     <a
       href={href}
-      download
-      className="group block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary"
-      title={`Download ${label}`}
+      target="_blank"
+      rel="noreferrer noopener"
+      aria-label={label}
+      title={label}
+      className="grid size-9 place-items-center rounded-lg text-muted-foreground transition hover:bg-muted hover:text-foreground"
     >
-      <span
-        className="relative block aspect-square w-full"
-        style={{
-          backgroundImage: `linear-gradient(135deg, color-mix(in oklch, var(--palette-surface), transparent 50%), color-mix(in oklch, var(--palette-depth), transparent 70%))`,
-        }}
-      >
-        <img src={href} alt={label} className="absolute inset-0 size-full object-cover" />
-        <span className="absolute right-1.5 top-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100">
-          <Download className="size-3.5" />
-        </span>
-      </span>
-      <span className="block truncate px-2.5 py-1.5 text-xs font-medium">{label}</span>
+      {children}
     </a>
   )
 }
 
-function Badge({
-  children,
-  tone = "default",
-}: {
-  children: React.ReactNode
-  tone?: "default" | "accent" | "muted"
-}) {
-  const className =
-    tone === "accent"
-      ? "bg-accent text-accent-foreground"
-      : tone === "muted"
-        ? "bg-muted text-muted-foreground"
-        : "bg-primary text-primary-foreground"
+function XIcon({ className }: { className?: string }) {
   return (
-    <span
-      className={`inline-flex h-7 items-center rounded-md px-2.5 text-xs font-medium ${className}`}
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden
+      fill="currentColor"
+      className={className}
     >
-      {children}
-    </span>
+      <path d="M18.244 2H21.5l-7.5 8.57L23 22h-6.844l-5.36-6.984L4.6 22H1.342l8.04-9.187L1 2h7.012l4.83 6.39L18.244 2Zm-1.2 18h1.83L7.06 4H5.097l11.947 16Z" />
+    </svg>
   )
 }
+
+function GithubIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden fill="currentColor" className={className}>
+      <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.27-1.7-1.27-1.7-1.04-.7.08-.69.08-.69 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.52-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.18a10.95 10.95 0 0 1 5.75 0c2.2-1.49 3.16-1.18 3.16-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+    </svg>
+  )
+}
+
+function FooterLinks() {
+  return (
+    <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+      <a
+        href="https://github.com/Ameyanagi/morphos"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="hover:text-foreground hover:underline"
+      >
+        GitHub
+      </a>
+      <a
+        href="https://ameyanagi.com"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="hover:text-foreground hover:underline"
+      >
+        Built by Ameyanagi
+      </a>
+      <span className="text-muted-foreground/70">MIT or Apache-2.0</span>
+      <Link to="/gallery" className="font-medium text-primary hover:underline">
+        Open gallery →
+      </Link>
+    </div>
+  )
+}
+

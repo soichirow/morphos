@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bamboo",
+    "name": "Morphous Bamboo",
+    "motifName": "Bamboo Culm and Leaves",
+    "motifCategory": "plant",
+    "biome": "Bamboo Grove",
+    "motif": "structured productivity system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Straw Cream",
+      "hex": "#f8f0d6",
+      "oklch": "oklch(0.955 0.035 92.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bamboo Ink",
+      "hex": "#162119",
+      "oklch": "oklch(0.234 0.022 153.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bamboo Green",
+      "hex": "#2e7d32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#5daa56",
+      "oklch": "oklch(0.668 0.141 142.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "New Shoot",
+      "hex": "#a7c957",
+      "oklch": "oklch(0.787 0.146 123.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Culm Gold",
+      "hex": "#d6b35c",
+      "oklch": "oklch(0.780 0.114 87.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Culm",
+      "hex": "#ebe1c6",
+      "oklch": "oklch(0.911 0.037 90.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Grove Shadow",
+      "hex": "#5a6148",
+      "oklch": "oklch(0.479 0.039 120.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Grove",
+      "hex": "#1e1f1a",
+      "oklch": "oklch(0.236 0.009 116.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.035 92.8)",
+    "foreground": "oklch(0.234 0.022 153.0)",
+    "card": "oklch(0.911 0.037 90.1)",
+    "card-foreground": "oklch(0.234 0.022 153.0)",
+    "popover": "oklch(0.911 0.037 90.1)",
+    "popover-foreground": "oklch(0.234 0.022 153.0)",
+    "primary": "oklch(0.523 0.135 144.2)",
+    "primary-foreground": "oklch(0.955 0.035 92.8)",
+    "secondary": "oklch(0.928 0.036 91.1)",
+    "secondary-foreground": "oklch(0.236 0.009 116.3)",
+    "muted": "oklch(0.923 0.037 90.1)",
+    "muted-foreground": "oklch(0.236 0.009 116.3)",
+    "accent": "oklch(0.787 0.146 123.6)",
+    "accent-foreground": "oklch(0.234 0.022 153.0)",
+    "destructive": "oklch(0.523 0.135 144.2)",
+    "border": "oklch(0.763 0.036 100.0)",
+    "input": "oklch(0.763 0.036 100.0)",
+    "ring": "oklch(0.668 0.141 142.1)",
+    "chart-1": "oklch(0.523 0.135 144.2)",
+    "chart-2": "oklch(0.668 0.141 142.1)",
+    "chart-3": "oklch(0.787 0.146 123.6)",
+    "chart-4": "oklch(0.780 0.114 87.7)",
+    "chart-5": "oklch(0.236 0.009 116.3)",
+    "sidebar": "oklch(0.925 0.037 91.7)",
+    "sidebar-foreground": "oklch(0.234 0.022 153.0)",
+    "sidebar-primary": "oklch(0.523 0.135 144.2)",
+    "sidebar-primary-foreground": "oklch(0.955 0.035 92.8)",
+    "sidebar-accent": "oklch(0.864 0.044 108.7)",
+    "sidebar-accent-foreground": "oklch(0.523 0.135 144.2)",
+    "sidebar-border": "oklch(0.763 0.036 100.0)",
+    "sidebar-ring": "oklch(0.668 0.141 142.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.234 0.022 153.0)",
+    "foreground": "oklch(0.955 0.035 92.8)",
+    "card": "oklch(0.236 0.013 140.4)",
+    "card-foreground": "oklch(0.955 0.035 92.8)",
+    "popover": "oklch(0.236 0.013 140.4)",
+    "popover-foreground": "oklch(0.955 0.035 92.8)",
+    "primary": "oklch(0.668 0.141 142.1)",
+    "primary-foreground": "oklch(0.234 0.022 153.0)",
+    "secondary": "oklch(0.295 0.018 121.1)",
+    "secondary-foreground": "oklch(0.955 0.035 92.8)",
+    "muted": "oklch(0.295 0.018 121.1)",
+    "muted-foreground": "oklch(0.751 0.036 105.4)",
+    "accent": "oklch(0.787 0.146 123.6)",
+    "accent-foreground": "oklch(0.234 0.022 153.0)",
+    "destructive": "oklch(0.523 0.135 144.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.668 0.141 142.1)",
+    "chart-1": "oklch(0.668 0.141 142.1)",
+    "chart-2": "oklch(0.523 0.135 144.2)",
+    "chart-3": "oklch(0.787 0.146 123.6)",
+    "chart-4": "oklch(0.780 0.114 87.7)",
+    "chart-5": "oklch(0.479 0.039 120.6)",
+    "sidebar": "oklch(0.235 0.016 141.1)",
+    "sidebar-foreground": "oklch(0.955 0.035 92.8)",
+    "sidebar-primary": "oklch(0.668 0.141 142.1)",
+    "sidebar-primary-foreground": "oklch(0.234 0.022 153.0)",
+    "sidebar-accent": "oklch(0.295 0.018 121.1)",
+    "sidebar-accent-foreground": "oklch(0.955 0.035 92.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.668 0.141 142.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Structured 8px productivity grids, culm-segment sidebars, leaf-angle dividers, focused task panels, and calm grove hierarchy.",
+  "tags": [
+    "bamboo",
+    "plant",
+    "bamboo-grove",
+    "structured",
+    "productivity",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bamboo/motif.png",
+    "board": "/systems/morphous-bamboo/design-system-light.png",
+    "darkBoard": "/systems/morphous-bamboo/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bamboo/theme.css",
+    "themeJson": "/systems/morphous-bamboo/theme.json",
+    "promptsJson": "/systems/morphous-bamboo/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Bamboo motif source",
+      "asset": "/systems/morphous-bamboo/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma source\nPrimary request: Create only a bamboo culm and leaves motif for a Morphous design-system asset, isolated full subject, no environment, no props, no text.\nSubject: A structured botanical cutout of bamboo green segmented culms with straw cream node highlights, narrow leaf-green leaves, a few new shoot accents, dark ink-like grove shadows in the creases, and accurate bamboo culm ring structure.\nComposition/framing: centered complete cutout with generous padding; do not crop culm segments, leaves, or shoot tips. Vertical composition suitable for later transparent PNG extraction.\nLighting/mood: clean studio light that preserves smooth culm texture, node rings, leaf edges, straw cream highlights, bamboo green color, and ink-depth shadows.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform magenta color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no grove scene, no pot, no decorative background, no second subject, no panda, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-bamboo/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE design-system board for a Morphous theme named \"Morphous Bamboo\" derived from the visible transparent bamboo culm and leaves cutout.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable labels.\nReference use: Use the visible bamboo motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from bamboo green culms, leaf green blades, straw cream node highlights, new shoot accents, culm gold warmth, grove shadows, and bamboo ink depth.\nRequired visible sections: Morphous Bamboo, Bamboo Culm and Leaves, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; labels: Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line charts, bar charts, empty state, loading state, error state, spacing scale, radius samples, border samples, shadow samples, texture samples, simple icon treatment.\nStyle/medium: premium shadcn/tweakcn-style productivity system, realistic UI mockup, precise grid, 8px card radius, culm-segment navigation, leaf-angle dividers, structured calm workflow surfaces.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: bamboo green, leaf green, straw cream, new shoot, culm gold, pale culm, grove shadow, bamboo ink.\nComposition: light straw-cream background, modular panels, small motif preview, clear design token swatches, wide dashboard preview across the center, compact component groups along the edges.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Bamboo\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-bamboo/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a DARK MODE version of the visible Morphous Bamboo design-system board. It must feel like the same system translated to dark mode, not a new theme.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable labels.\nReference use: Use the visible transparent bamboo culm and leaves cutout and the visible light-mode Morphous Bamboo board as references. Preserve palette roles, component language, culm-segment navigation, leaf-angle dividers, spacing, Japanese typography, shadcn/tweakcn component coverage, and productivity dashboard structure.\nRequired visible sections: Morphous Bamboo, Bamboo Culm and Leaves, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from bamboo ink and dark grove, light text from straw cream, primary accents from bamboo green, secondary accents from leaf green and new shoot, culm gold charts and focus, grove shadow borders, subtle bamboo node overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels: Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: dark buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar navigation, dashboard metric cards, line charts, bar charts, empty state, loading state, error state, spacing scale, radius samples, border samples, shadow samples, texture samples, and simple icon treatment.\nComposition: one comprehensive dark board, modular panels, small motif preview, clear design token swatches, wide dashboard preview across the center, compact component groups along the edges.\nConstraints: no neon colors, no unrelated saturated colors, no purple or blue gradients, no flat pure-black-only background, no illegible microtext, no watermark, no random brand names, no misspelling of \"Morphous Bamboo\"."
+    }
+  ]
+}

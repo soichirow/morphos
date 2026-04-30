@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-peacock",
+  "name": "Morphous Peacock",
+  "motifName": "Peacock",
+  "motifCategory": "bird",
+  "biome": "Monsoon Garden",
+  "motif": "peacock feather eye",
+  "description": "A shadcn/tweakcn-compatible ornate portfolio system to be coded from the Peacock light and dark design-system boards: teal garden surfaces, cobalt navigation, emerald success, bronze depth, and gold focus. The light and dark design-system boards are the reference for coding any future theme.",
+  "typography": "Geist for refined product UI with Noto Sans JP guidance for multilingual headings, labels, and numeric rhythm.",
+  "layout": "Precise 8px grids, feather-eye medallion accents, ornamental dividers, portfolio cards, and dense editorial surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "peacock",
+    "bird",
+    "monsoon",
+    "ornate",
+    "portfolio",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Garden Mist", "hex": "#f3fbf5" },
+    { "role": "Ink", "name": "Feather Ink", "hex": "#132426" },
+    { "role": "Primary", "name": "Peacock Teal", "hex": "#008c8c" },
+    { "role": "Secondary", "name": "Cobalt Eye", "hex": "#1746a2" },
+    { "role": "Accent", "name": "Emerald Plume", "hex": "#138a4a" },
+    { "role": "Signal", "name": "Bronze Barb", "hex": "#9a6a2f" },
+    { "role": "Focus", "name": "Gold Ocellus", "hex": "#d7a62f" },
+    { "role": "Surface", "name": "Pale Plume", "hex": "#e3f0e7" },
+    { "role": "Depth", "name": "Rain Garden Shadow", "hex": "#263a33" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

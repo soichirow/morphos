@@ -1,0 +1,51 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-crane",
+  "name": "Morphous Crane",
+  "motifName": "Red-Crowned Crane",
+  "motifCategory": "bird",
+  "biome": "Marsh",
+  "motif": "red crowned crane",
+  "description": "A shadcn/tweakcn-compatible ceremonial enterprise system to be coded from the Crane light and dark design-system boards: white feather surfaces, ink-black structure, red-crown focus, marsh-grey support, and ceremonial restraint. The light and dark design-system boards are the reference for coding any future theme.",
+  "typography": "Geist for formal enterprise UI with Noto Sans JP guidance for Japanese headings, labels, and numeric rhythm.",
+  "layout": "Restrained 8px grids, crane-neck vertical rhythm, ink-line dividers, formal enterprise cards, and ceremonial dashboard hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "crane",
+    "bird",
+    "marsh",
+    "ceremonial",
+    "enterprise",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "White Feather", "hex": "#fbfaf5", "oklch": "oklch(0.984 0.007 97.3)" },
+    { "role": "Ink", "name": "Ink Black", "hex": "#171717", "oklch": "oklch(0.205 0.000 89.9)" },
+    { "role": "Primary", "name": "Red Crown", "hex": "#d21f2b", "oklch": "oklch(0.555 0.210 25.1)" },
+    { "role": "Secondary", "name": "Marsh Reed", "hex": "#8d8a75", "oklch": "oklch(0.630 0.031 100.5)" },
+    { "role": "Accent", "name": "Soft Wing Grey", "hex": "#d8d6cc", "oklch": "oklch(0.875 0.014 97.5)" },
+    { "role": "Signal", "name": "Warm Marsh", "hex": "#b9a77a", "oklch": "oklch(0.733 0.064 88.7)" },
+    { "role": "Surface", "name": "Feather Fold", "hex": "#efeee7", "oklch": "oklch(0.948 0.009 100.0)" },
+    { "role": "Muted", "name": "Mist Grey", "hex": "#9b9b95", "oklch": "oklch(0.688 0.009 106.6)" },
+    { "role": "Depth", "name": "Black Wing", "hex": "#2d2d2b", "oklch": "oklch(0.296 0.004 106.6)" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "hero": "",
+    "texture": "",
+    "examples": [],
+    "promptsJson": "prompts.json"
+  },
+  "validation": {
+    "motifAlpha": "Validated RGBA transparency with transparent corners after chroma-key removal.",
+    "boardDimensions": "Built-in imagegen output saved light and dark boards at 1672x941 after regeneration; both remain unscaled imagegen outputs."
+  }
+}

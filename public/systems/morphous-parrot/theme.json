@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-parrot",
+    "name": "Morphous Parrot",
+    "motifName": "Scarlet Macaw / Parrot",
+    "motifCategory": "animal",
+    "biome": "Tropical Canopy",
+    "motif": "feather spectrum rhythm"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Beak Cream",
+      "hex": "#fff2d6",
+      "oklch": "oklch(0.964 0.039 86.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Feather Ink",
+      "hex": "#151820",
+      "oklch": "oklch(0.210 0.017 268.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Scarlet Feather",
+      "hex": "#e1261c",
+      "oklch": "oklch(0.585 0.221 29.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cobalt Wing",
+      "hex": "#1357c8",
+      "oklch": "oklch(0.489 0.188 260.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Emerald Flight",
+      "hex": "#008f5a",
+      "oklch": "oklch(0.573 0.133 158.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sun Yellow",
+      "hex": "#f8c72e",
+      "oklch": "oklch(0.850 0.163 89.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Down",
+      "hex": "#f7e5c4",
+      "oklch": "oklch(0.928 0.048 82.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Canopy Green",
+      "hex": "#2f6f3e",
+      "oklch": "oklch(0.487 0.102 149.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Plume",
+      "hex": "#263141",
+      "oklch": "oklch(0.310 0.033 257.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.964 0.039 86.1)",
+    "foreground": "oklch(0.210 0.017 268.9)",
+    "card": "oklch(0.928 0.048 82.7)",
+    "card-foreground": "oklch(0.210 0.017 268.9)",
+    "popover": "oklch(0.928 0.048 82.7)",
+    "popover-foreground": "oklch(0.210 0.017 268.9)",
+    "primary": "oklch(0.585 0.221 29.1)",
+    "primary-foreground": "oklch(0.964 0.039 86.1)",
+    "secondary": "oklch(0.942 0.043 83.2)",
+    "secondary-foreground": "oklch(0.310 0.033 257.7)",
+    "muted": "oklch(0.939 0.045 84.6)",
+    "muted-foreground": "oklch(0.310 0.033 257.7)",
+    "accent": "oklch(0.573 0.133 158.6)",
+    "accent-foreground": "oklch(0.210 0.017 268.9)",
+    "destructive": "oklch(0.585 0.221 29.1)",
+    "border": "oklch(0.772 0.055 121.6)",
+    "input": "oklch(0.772 0.055 121.6)",
+    "ring": "oklch(0.489 0.188 260.6)",
+    "chart-1": "oklch(0.585 0.221 29.1)",
+    "chart-2": "oklch(0.489 0.188 260.6)",
+    "chart-3": "oklch(0.573 0.133 158.6)",
+    "chart-4": "oklch(0.850 0.163 89.2)",
+    "chart-5": "oklch(0.310 0.033 257.7)",
+    "sidebar": "oklch(0.940 0.045 82.6)",
+    "sidebar-foreground": "oklch(0.210 0.017 268.9)",
+    "sidebar-primary": "oklch(0.585 0.221 29.1)",
+    "sidebar-primary-foreground": "oklch(0.964 0.039 86.1)",
+    "sidebar-accent": "oklch(0.876 0.059 60.2)",
+    "sidebar-accent-foreground": "oklch(0.585 0.221 29.1)",
+    "sidebar-border": "oklch(0.772 0.055 121.6)",
+    "sidebar-ring": "oklch(0.489 0.188 260.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.017 268.9)",
+    "foreground": "oklch(0.964 0.039 86.1)",
+    "card": "oklch(0.278 0.027 257.5)",
+    "card-foreground": "oklch(0.964 0.039 86.1)",
+    "popover": "oklch(0.278 0.027 257.5)",
+    "popover-foreground": "oklch(0.964 0.039 86.1)",
+    "primary": "oklch(0.489 0.188 260.6)",
+    "primary-foreground": "oklch(0.210 0.017 268.9)",
+    "secondary": "oklch(0.349 0.029 199.4)",
+    "secondary-foreground": "oklch(0.964 0.039 86.1)",
+    "muted": "oklch(0.349 0.029 199.4)",
+    "muted-foreground": "oklch(0.753 0.057 132.8)",
+    "accent": "oklch(0.573 0.133 158.6)",
+    "accent-foreground": "oklch(0.210 0.017 268.9)",
+    "destructive": "oklch(0.585 0.221 29.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.489 0.188 260.6)",
+    "chart-1": "oklch(0.489 0.188 260.6)",
+    "chart-2": "oklch(0.585 0.221 29.1)",
+    "chart-3": "oklch(0.573 0.133 158.6)",
+    "chart-4": "oklch(0.850 0.163 89.2)",
+    "chart-5": "oklch(0.487 0.102 149.0)",
+    "sidebar": "oklch(0.259 0.023 259.3)",
+    "sidebar-foreground": "oklch(0.964 0.039 86.1)",
+    "sidebar-primary": "oklch(0.489 0.188 260.6)",
+    "sidebar-primary-foreground": "oklch(0.210 0.017 268.9)",
+    "sidebar-accent": "oklch(0.349 0.029 199.4)",
+    "sidebar-accent-foreground": "oklch(0.964 0.039 86.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.489 0.188 260.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp product UI with Noto Sans guidance for multilingual labels, dense dashboards, and high-contrast numeric rhythm.",
+  "layout": "Precise 8px product grids, layered feather-bar dividers, canopy-shadow panels, dense dashboard surfaces, and vivid tropical hierarchy.",
+  "tags": [
+    "parrot",
+    "scarlet-macaw",
+    "animal",
+    "tropical",
+    "vivid",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-parrot/motif.png",
+    "board": "/systems/morphous-parrot/design-system-light.png",
+    "darkBoard": "/systems/morphous-parrot/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-parrot/theme.css",
+    "themeJson": "/systems/morphous-parrot/theme.json",
+    "promptsJson": "/systems/morphous-parrot/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent parrot motif source",
+      "asset": "/systems/morphous-parrot/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Parrot transparent motif chroma-key source\nPrimary request: Create only a scarlet macaw parrot, isolated full subject, no environment, no props, no text.\nSubject: A scarlet macaw with accurate parrot anatomy, scarlet red body feathers, cobalt blue wings, emerald green feather transitions, sun-yellow wing bands, warm cream beak, pale facial patch, deep feather-ink shadows, crisp talons, and natural layered feather detail.\nComposition/framing: centered complete cutout with generous padding; show the full bird and tail feathers without cropping.\nLighting/mood: clean studio light that preserves saturated feather color, realistic texture, and crisp silhouette edges.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nTransparent-output workflow: copy the generated chroma source to .source/motif-chroma.png, then remove only the #ff00ff background with a hard key using remove_chroma_key.py, auto-key border sampling, tolerance 48, and despill. Do not use soft matte for this red motif because it makes scarlet feather pixels partially transparent.\nConstraints: no maple leaves, no grapevine, no raspberry or strawberry plant, no text, no watermark, no props, no jungle background, no second bird, no perch, no cage."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-parrot/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Parrot\" derived from the visible transparent scarlet macaw cutout.\nReference use: This light design-system board is the source reference for coding the theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the scarlet red body, cobalt blue wings, emerald green transitions, sun-yellow bands, warm beak cream, canopy green support tones, and deep feather-ink shadows in the visible parrot cutout.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Parrot, Scarlet Macaw, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and multilingual examples; use labels like Geist, Noto Sans, Heading, Body, Label, Numeric. Show product UI guidance for dense dashboards.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, clean cream surfaces, layered feather-bar dividers, subtle canopy texture, vivid but disciplined tropical hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: scarlet red, cobalt blue, emerald green, sun yellow, warm beak cream, canopy green, deep feather ink, and soft feather neutrals.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Parrot\" or \"Scarlet Macaw\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-parrot/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Parrot design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: This dark design-system board is the source reference for coding the theme together with the light board. Use the visible transparent scarlet macaw cutout and the visible light-mode Morphous Parrot board as references. Preserve the feather palette roles, component language, feather-bar dividers, canopy texture, spacing, typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Parrot, Scarlet Macaw, Dark Mode, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from deep feather ink and shadow plume, readable text from warm beak cream, primary accents from scarlet red, navigation and charts from cobalt blue, status from emerald green, focus and warning from sun yellow, subtle tropical canopy overlays, crisp shadcn-style cards and controls.\nTypography: include English and multilingual examples; labels like Geist, Noto Sans, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Parrot\" or \"Scarlet Macaw\"."
+    }
+  ]
+}

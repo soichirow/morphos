@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-willow",
+    "name": "Morphous Willow",
+    "motifName": "Willow Branch",
+    "motifCategory": "plant",
+    "biome": "riverside",
+    "motif": "drooping willow branch geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Mist",
+      "hex": "#f3f7f2",
+      "oklch": "oklch(0.972 0.008 139.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Bark Ink",
+      "hex": "#26302b",
+      "oklch": "oklch(0.298 0.016 163.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Willow Sage",
+      "hex": "#7f9f76",
+      "oklch": "oklch(0.667 0.069 138.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Young Leaf",
+      "hex": "#b6c99a",
+      "oklch": "oklch(0.809 0.067 125.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "River Blue",
+      "hex": "#6f9fb2",
+      "oklch": "oklch(0.675 0.059 224.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Bark Grey",
+      "hex": "#7a8178",
+      "oklch": "oklch(0.595 0.016 138.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Willow",
+      "hex": "#e8efe3",
+      "oklch": "oklch(0.944 0.018 131.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Bank Moss",
+      "hex": "#5f8a63",
+      "oklch": "oklch(0.591 0.076 146.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "River Silt",
+      "hex": "#4f5148",
+      "oklch": "oklch(0.430 0.015 117.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.008 139.4)",
+    "foreground": "oklch(0.298 0.016 163.6)",
+    "card": "oklch(0.944 0.018 131.9)",
+    "card-foreground": "oklch(0.298 0.016 163.6)",
+    "popover": "oklch(0.944 0.018 131.9)",
+    "popover-foreground": "oklch(0.298 0.016 163.6)",
+    "primary": "oklch(0.667 0.069 138.9)",
+    "primary-foreground": "oklch(0.972 0.008 139.4)",
+    "secondary": "oklch(0.955 0.013 130.8)",
+    "secondary-foreground": "oklch(0.430 0.015 117.2)",
+    "muted": "oklch(0.951 0.015 132.5)",
+    "muted-foreground": "oklch(0.430 0.015 117.2)",
+    "accent": "oklch(0.675 0.059 224.6)",
+    "accent-foreground": "oklch(0.298 0.016 163.6)",
+    "destructive": "oklch(0.667 0.069 138.9)",
+    "border": "oklch(0.895 0.034 127.3)",
+    "input": "oklch(0.895 0.034 127.3)",
+    "ring": "oklch(0.809 0.067 125.7)",
+    "chart-1": "oklch(0.667 0.069 138.9)",
+    "chart-2": "oklch(0.809 0.067 125.7)",
+    "chart-3": "oklch(0.675 0.059 224.6)",
+    "chart-4": "oklch(0.595 0.016 138.7)",
+    "chart-5": "oklch(0.430 0.015 117.2)",
+    "sidebar": "oklch(0.954 0.015 132.5)",
+    "sidebar-foreground": "oklch(0.298 0.016 163.6)",
+    "sidebar-primary": "oklch(0.667 0.069 138.9)",
+    "sidebar-primary-foreground": "oklch(0.972 0.008 139.4)",
+    "sidebar-accent": "oklch(0.910 0.023 135.0)",
+    "sidebar-accent-foreground": "oklch(0.667 0.069 138.9)",
+    "sidebar-border": "oklch(0.895 0.034 127.3)",
+    "sidebar-ring": "oklch(0.809 0.067 125.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.298 0.016 163.6)",
+    "foreground": "oklch(0.972 0.008 139.4)",
+    "card": "oklch(0.387 0.015 133.6)",
+    "card-foreground": "oklch(0.972 0.008 139.4)",
+    "popover": "oklch(0.387 0.015 133.6)",
+    "popover-foreground": "oklch(0.972 0.008 139.4)",
+    "primary": "oklch(0.809 0.067 125.7)",
+    "primary-foreground": "oklch(0.298 0.016 163.6)",
+    "secondary": "oklch(0.518 0.027 120.7)",
+    "secondary-foreground": "oklch(0.972 0.008 139.4)",
+    "muted": "oklch(0.518 0.027 120.7)",
+    "muted-foreground": "oklch(0.899 0.034 125.6)",
+    "accent": "oklch(0.675 0.059 224.6)",
+    "accent-foreground": "oklch(0.298 0.016 163.6)",
+    "destructive": "oklch(0.667 0.069 138.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.809 0.067 125.7)",
+    "chart-1": "oklch(0.809 0.067 125.7)",
+    "chart-2": "oklch(0.667 0.069 138.9)",
+    "chart-3": "oklch(0.675 0.059 224.6)",
+    "chart-4": "oklch(0.595 0.016 138.7)",
+    "chart-5": "oklch(0.809 0.067 125.7)",
+    "sidebar": "oklch(0.360 0.014 141.2)",
+    "sidebar-foreground": "oklch(0.972 0.008 139.4)",
+    "sidebar-primary": "oklch(0.809 0.067 125.7)",
+    "sidebar-primary-foreground": "oklch(0.298 0.016 163.6)",
+    "sidebar-accent": "oklch(0.518 0.027 120.7)",
+    "sidebar-accent-foreground": "oklch(0.972 0.008 139.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.809 0.067 125.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clear English planner UI with Noto Sans JP guidance for calm Japanese labels, compact dates, and flowing hierarchy.",
+  "layout": "Fluid 8px planning grids, slender branch dividers, leaf-strand rhythm, soft shadows, and riverside spacing.",
+  "tags": [
+    "willow",
+    "plant",
+    "riverside",
+    "sage",
+    "planner",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-willow/motif.png",
+    "board": "/systems/morphous-willow/design-system-light.png",
+    "darkBoard": "/systems/morphous-willow/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-willow/theme.css",
+    "themeJson": "/systems/morphous-willow/theme.json",
+    "promptsJson": "/systems/morphous-willow/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent willow branch motif",
+      "asset": "/systems/morphous-willow/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Willow transparent motif chroma-key source\nPrimary request: Create only a riverside willow branch botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A graceful drooping willow branch with narrow lance-shaped sage-green leaves, pale young leaf undersides, slim flexible bark-grey twigs, subtle river-blue cool highlights, and natural alternating leaf clusters. Botanical accuracy, crisp subject edges, airy hanging silhouette, no cattails, no bamboo.\nComposition/framing: centered complete cutout with generous padding; include one arcing branch and several pendant leaf strands without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no reed plumes, no bamboo segments, no eucalyptus coins, no flower blossoms, no landscape, no river scene, no vase, no hand, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-willow/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Willow light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Willow\", derived from the visible riverside willow branch cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible flowing planner system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Willow, Willow Branch, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from sage-green willow leaves, young leaf highlights, bark-grey twigs, cool river-blue accents, pale river mist surfaces, moss success states, and silt depth. The board must read as willow, not reed, bamboo, eucalyptus, or generic green UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, planner timeline, line chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, river-mist backgrounds, willow-sage primary actions, river-blue focus rings, bark-grey dividers, pendant leaf-line navigation, soft elongated shadows, subtle narrow-leaf texture.\nConstraints: no reed plume silhouettes, no bamboo nodes, no eucalyptus round leaves, no generic purple/blue gradients, no saturated tropical palette, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Willow\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-willow/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Willow dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Willow\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible riverside willow branch cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Willow, Willow Branch, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the willow system language: deep wet-bark backgrounds, pale mist text, willow-sage active states, river-blue focus and chart accents, moss success, bark-grey borders, pendant leaf-line dividers, soft 8px shadcn/tweakcn component grid. Must read as willow, not reed, bamboo, eucalyptus, or generic forest.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, planner timeline, line chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: wet-bark dark surfaces, river-mist foreground, willow-sage controls, river-blue chart highlights, bark-grey separators, subtle narrow-leaf texture overlays, restrained contrast, crisp cards and controls.\nConstraints: no reed plumes, no bamboo nodes, no eucalyptus round leaves, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Willow\"."
+    }
+  ]
+}

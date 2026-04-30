@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-luna-moth",
+  "name": "Morphous Luna Moth",
+  "motifName": "Luna Moth Wings",
+  "motifCategory": "insect",
+  "biome": "Night Forest",
+  "motif": "moonlit wing softness",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Luna Moth light and dark design-system boards: pale mint actions, moon-white surfaces, bark-charcoal depth, and quiet nocturne interface rhythm.",
+  "typography": "Geist for calm product UI with Noto Sans guidance for multilingual labels, gentle hierarchy, and measured numeric rhythm.",
+  "layout": "Precise 8px grids, soft wing-arc panels, moonlit dividers, low-noise dashboard cards, and quiet nocturne spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "luna-moth",
+    "moth",
+    "insect",
+    "night-forest",
+    "quiet",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moon White",
+      "hex": "#f4f7ed"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Charcoal",
+      "hex": "#222820"
+    },
+    {
+      "role": "Primary",
+      "name": "Luna Mint",
+      "hex": "#b8e3c2"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fern Shadow",
+      "hex": "#60745c"
+    },
+    {
+      "role": "Accent",
+      "name": "Moon Vein",
+      "hex": "#d9f0d8"
+    },
+    {
+      "role": "Signal",
+      "name": "Antenna Amber",
+      "hex": "#caa46a"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Powder",
+      "hex": "#e6efe1"
+    },
+    {
+      "role": "Muted",
+      "name": "Night Lichen",
+      "hex": "#9aa995"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Charcoal",
+      "hex": "#30382f"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

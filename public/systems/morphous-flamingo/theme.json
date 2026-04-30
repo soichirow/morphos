@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-flamingo",
+    "name": "Morphous Flamingo",
+    "motifName": "Flamingo",
+    "motifCategory": "bird",
+    "biome": "Salt Lagoon",
+    "motif": "flamingo feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Salt White",
+      "hex": "#fff7f2",
+      "oklch": "oklch(0.981 0.011 54.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Plume Charcoal",
+      "hex": "#2c2224",
+      "oklch": "oklch(0.264 0.016 4.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Flamingo Pink",
+      "hex": "#f06a8a",
+      "oklch": "oklch(0.696 0.167 7.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral Feather",
+      "hex": "#ff7b65",
+      "oklch": "oklch(0.732 0.165 31.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lagoon Blue",
+      "hex": "#5baec4",
+      "oklch": "oklch(0.707 0.087 217.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Shell Blush",
+      "hex": "#f8b9ad",
+      "oklch": "oklch(0.840 0.076 30.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Salt",
+      "hex": "#f7ebe5",
+      "oklch": "oklch(0.948 0.015 48.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dried Reed",
+      "hex": "#9b8374",
+      "oklch": "oklch(0.628 0.037 53.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Lagoon Dusk",
+      "hex": "#34515b",
+      "oklch": "oklch(0.416 0.038 221.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.011 54.5)",
+    "foreground": "oklch(0.264 0.016 4.7)",
+    "card": "oklch(0.948 0.015 48.6)",
+    "card-foreground": "oklch(0.264 0.016 4.7)",
+    "popover": "oklch(0.948 0.015 48.6)",
+    "popover-foreground": "oklch(0.264 0.016 4.7)",
+    "primary": "oklch(0.696 0.167 7.6)",
+    "primary-foreground": "oklch(0.981 0.011 54.5)",
+    "secondary": "oklch(0.961 0.013 53.4)",
+    "secondary-foreground": "oklch(0.416 0.038 221.6)",
+    "muted": "oklch(0.956 0.014 46.2)",
+    "muted-foreground": "oklch(0.416 0.038 221.6)",
+    "accent": "oklch(0.707 0.087 217.3)",
+    "accent-foreground": "oklch(0.264 0.016 4.7)",
+    "destructive": "oklch(0.696 0.167 7.6)",
+    "border": "oklch(0.837 0.023 54.3)",
+    "input": "oklch(0.837 0.023 54.3)",
+    "ring": "oklch(0.732 0.165 31.1)",
+    "chart-1": "oklch(0.696 0.167 7.6)",
+    "chart-2": "oklch(0.732 0.165 31.1)",
+    "chart-3": "oklch(0.707 0.087 217.3)",
+    "chart-4": "oklch(0.840 0.076 30.9)",
+    "chart-5": "oklch(0.416 0.038 221.6)",
+    "sidebar": "oklch(0.959 0.014 50.8)",
+    "sidebar-foreground": "oklch(0.264 0.016 4.7)",
+    "sidebar-primary": "oklch(0.696 0.167 7.6)",
+    "sidebar-primary-foreground": "oklch(0.981 0.011 54.5)",
+    "sidebar-accent": "oklch(0.915 0.029 23.0)",
+    "sidebar-accent-foreground": "oklch(0.696 0.167 7.6)",
+    "sidebar-border": "oklch(0.837 0.023 54.3)",
+    "sidebar-ring": "oklch(0.732 0.165 31.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.264 0.016 4.7)",
+    "foreground": "oklch(0.981 0.011 54.5)",
+    "card": "oklch(0.364 0.024 226.5)",
+    "card-foreground": "oklch(0.981 0.011 54.5)",
+    "popover": "oklch(0.364 0.024 226.5)",
+    "popover-foreground": "oklch(0.981 0.011 54.5)",
+    "primary": "oklch(0.732 0.165 31.1)",
+    "primary-foreground": "oklch(0.264 0.016 4.7)",
+    "secondary": "oklch(0.462 0.022 217.5)",
+    "secondary-foreground": "oklch(0.981 0.011 54.5)",
+    "muted": "oklch(0.462 0.022 217.5)",
+    "muted-foreground": "oklch(0.827 0.022 56.1)",
+    "accent": "oklch(0.707 0.087 217.3)",
+    "accent-foreground": "oklch(0.264 0.016 4.7)",
+    "destructive": "oklch(0.696 0.167 7.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.732 0.165 31.1)",
+    "chart-1": "oklch(0.732 0.165 31.1)",
+    "chart-2": "oklch(0.696 0.167 7.6)",
+    "chart-3": "oklch(0.707 0.087 217.3)",
+    "chart-4": "oklch(0.840 0.076 30.9)",
+    "chart-5": "oklch(0.628 0.037 53.9)",
+    "sidebar": "oklch(0.335 0.014 235.3)",
+    "sidebar-foreground": "oklch(0.981 0.011 54.5)",
+    "sidebar-primary": "oklch(0.732 0.165 31.1)",
+    "sidebar-primary-foreground": "oklch(0.264 0.016 4.7)",
+    "sidebar-accent": "oklch(0.462 0.022 217.5)",
+    "sidebar-accent-foreground": "oklch(0.981 0.011 54.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.732 0.165 31.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for elegant service UI with Noto Sans JP guidance for hospitality labels, headings, and numeric rhythm.",
+  "layout": "Airy 8px grids, plume-soft panels, lagoon dividers, reservation cards, and calm service dashboards.",
+  "tags": [
+    "flamingo",
+    "bird",
+    "lagoon",
+    "graceful",
+    "hospitality",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-flamingo/motif.png",
+    "board": "/systems/morphous-flamingo/design-system-light.png",
+    "darkBoard": "/systems/morphous-flamingo/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-flamingo/theme.css",
+    "themeJson": "/systems/morphous-flamingo/theme.json",
+    "promptsJson": "/systems/morphous-flamingo/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent flamingo motif source",
+      "asset": "/systems/morphous-flamingo/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a flamingo feather motif, isolated full subject, no environment, no props, no text.\nSubject: A graceful flamingo feather cluster with soft pink and coral barbs, salt-white highlights, subtle lagoon-blue reflected shadows, accurate feather anatomy, and crisp natural edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the feather.\nLighting/mood: clean studio light that preserves feather softness and warm lagoon color.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-flamingo/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Flamingo\" derived from the transparent flamingo feather cutout.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the pink, coral, salt white, and lagoon blue feather motif.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nRequired visible sections: Morphous Flamingo, Flamingo, Palette, Typography, Japanese Typography, Components, Navigation, Hospitality Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, booking cards, dashboard charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style graceful hospitality system, precise grid, 8px card radius, plume-soft surfaces, salt lagoon calm.\nColor palette: use only motif-derived pink, coral, salt white, lagoon blue, reed neutrals, and plume charcoal.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Flamingo\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-flamingo/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Flamingo design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Use the transparent flamingo feather cutout and the light-mode Morphous Flamingo board as references. Preserve palette roles, plume texture, component language, spacing, typography, and shadcn/tweakcn coverage.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nRequired visible sections: Morphous Flamingo, Flamingo, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Hospitality Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from plume charcoal and lagoon dusk, readable text from salt white, primary accents from flamingo pink and coral, navigation and charts from lagoon blue, subtle feather texture overlays, crisp shadcn-style cards and controls.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

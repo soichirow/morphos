@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-orchid",
+    "name": "Orchid",
+    "motifName": "White and Magenta Orchid",
+    "motifCategory": "flower",
+    "biome": "tropical greenhouse",
+    "motif": "white and magenta orchid"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal White",
+      "hex": "#fff8f5",
+      "oklch": "oklch(0.984 0.009 44.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Shadow Plum",
+      "hex": "#2b1726",
+      "oklch": "oklch(0.238 0.041 336.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Orchid Magenta",
+      "hex": "#c32878",
+      "oklch": "oklch(0.552 0.200 354.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stem Green",
+      "hex": "#5f7f58",
+      "oklch": "oklch(0.561 0.069 140.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lip Fuchsia",
+      "hex": "#e35aa3",
+      "oklch": "oklch(0.665 0.186 350.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Gold",
+      "hex": "#d5a44f",
+      "oklch": "oklch(0.748 0.118 79.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blush Petal",
+      "hex": "#f4dfe9",
+      "oklch": "oklch(0.923 0.026 347.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Greenhouse Sage",
+      "hex": "#a4b29a",
+      "oklch": "oklch(0.746 0.037 132.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Plum",
+      "hex": "#4a243e",
+      "oklch": "oklch(0.322 0.069 340.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.009 44.9)",
+    "foreground": "oklch(0.238 0.041 336.6)",
+    "card": "oklch(0.923 0.026 347.1)",
+    "card-foreground": "oklch(0.238 0.041 336.6)",
+    "popover": "oklch(0.923 0.026 347.1)",
+    "popover-foreground": "oklch(0.238 0.041 336.6)",
+    "primary": "oklch(0.552 0.200 354.9)",
+    "primary-foreground": "oklch(0.984 0.009 44.9)",
+    "secondary": "oklch(0.950 0.017 359.3)",
+    "secondary-foreground": "oklch(0.322 0.069 340.4)",
+    "muted": "oklch(0.940 0.020 354.0)",
+    "muted-foreground": "oklch(0.322 0.069 340.4)",
+    "accent": "oklch(0.665 0.186 350.3)",
+    "accent-foreground": "oklch(0.238 0.041 336.6)",
+    "destructive": "oklch(0.552 0.200 354.9)",
+    "border": "oklch(0.860 0.009 34.3)",
+    "input": "oklch(0.860 0.009 34.3)",
+    "ring": "oklch(0.561 0.069 140.0)",
+    "chart-1": "oklch(0.552 0.200 354.9)",
+    "chart-2": "oklch(0.561 0.069 140.0)",
+    "chart-3": "oklch(0.665 0.186 350.3)",
+    "chart-4": "oklch(0.748 0.118 79.0)",
+    "chart-5": "oklch(0.322 0.069 340.4)",
+    "sidebar": "oklch(0.945 0.019 356.4)",
+    "sidebar-foreground": "oklch(0.238 0.041 336.6)",
+    "sidebar-primary": "oklch(0.552 0.200 354.9)",
+    "sidebar-primary-foreground": "oklch(0.984 0.009 44.9)",
+    "sidebar-accent": "oklch(0.873 0.048 347.2)",
+    "sidebar-accent-foreground": "oklch(0.552 0.200 354.9)",
+    "sidebar-border": "oklch(0.860 0.009 34.3)",
+    "sidebar-ring": "oklch(0.561 0.069 140.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.238 0.041 336.6)",
+    "foreground": "oklch(0.984 0.009 44.9)",
+    "card": "oklch(0.294 0.058 338.9)",
+    "card-foreground": "oklch(0.984 0.009 44.9)",
+    "popover": "oklch(0.294 0.058 338.9)",
+    "popover-foreground": "oklch(0.984 0.009 44.9)",
+    "primary": "oklch(0.561 0.069 140.0)",
+    "primary-foreground": "oklch(0.238 0.041 336.6)",
+    "secondary": "oklch(0.418 0.044 344.7)",
+    "secondary-foreground": "oklch(0.984 0.009 44.9)",
+    "muted": "oklch(0.418 0.044 344.7)",
+    "muted-foreground": "oklch(0.879 0.018 117.3)",
+    "accent": "oklch(0.665 0.186 350.3)",
+    "accent-foreground": "oklch(0.238 0.041 336.6)",
+    "destructive": "oklch(0.552 0.200 354.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.561 0.069 140.0)",
+    "chart-1": "oklch(0.561 0.069 140.0)",
+    "chart-2": "oklch(0.552 0.200 354.9)",
+    "chart-3": "oklch(0.665 0.186 350.3)",
+    "chart-4": "oklch(0.748 0.118 79.0)",
+    "chart-5": "oklch(0.746 0.037 132.1)",
+    "sidebar": "oklch(0.277 0.054 338.6)",
+    "sidebar-foreground": "oklch(0.984 0.009 44.9)",
+    "sidebar-primary": "oklch(0.561 0.069 140.0)",
+    "sidebar-primary-foreground": "oklch(0.238 0.041 336.6)",
+    "sidebar-accent": "oklch(0.418 0.044 344.7)",
+    "sidebar-accent-foreground": "oklch(0.984 0.009 44.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.561 0.069 140.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for refined English product UI with Noto Sans JP guidance for Japanese headings, labels, metrics, and premium commerce flows.",
+  "layout": "Precise 8px grids, slim greenhouse dividers, petal-fold panels, polished product cards, restrained shadows, and luxury hierarchy.",
+  "tags": [
+    "orchid",
+    "flower",
+    "tropical-greenhouse",
+    "petal-white",
+    "magenta",
+    "luxury",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-orchid/motif.png",
+    "board": "/systems/morphous-orchid/design-system-light.png",
+    "darkBoard": "/systems/morphous-orchid/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-orchid/theme.css",
+    "themeJson": "/systems/morphous-orchid/theme.json",
+    "promptsJson": "/systems/morphous-orchid/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent orchid motif",
+      "asset": "/systems/morphous-orchid/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated white and magenta orchid flower motif, clearly readable as an orchid, no environment, no props, no text.\nSubject: A refined white and magenta orchid bloom with broad petal-white outer petals, vivid orchid-magenta throat and lip, delicate fuchsia veining, subtle shadow-plum depth inside natural petal folds, and a short stem/leaf-green base accent kept visually distinct from the background color.\nComposition/framing: centered complete flower cutout with generous padding on all sides; full bloom visible without cropping; short stem base may appear but no pot or vase.\nLighting/mood: clean studio light that preserves petal white form, magenta saturation, botanical structure, crisp silhouette edges, and natural orchid anatomy.\nChroma-key workflow: generate on a perfectly flat solid #00ff00 background, copy the exact generated source to .source/motif-chroma.png, then remove the key with remove_chroma_key.py using auto-key border, soft matte, and despill. The final motif.png is RGBA transparent with transparent corners. The green key did not require switching to #ff00ff.\nConstraints: no text, no watermark, no shadow, no cast shadow, no contact shadow, no reflection, no greenhouse background, no pot, no vase, no second flower, no insects."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-orchid/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, high-resolution source artwork\nPrimary request: Generate a comprehensive high-resolution 16:9 light-mode design-system board for a theme named \"Morphous Orchid\" / \"Orchid\", derived from the visible white and magenta orchid cutout reference.\nReference image role: the transparent orchid motif is the source of truth for palette, texture, contrast, rhythm, and visual motifs.\nRequired visible sections: Morphous Orchid, Orchid, Palette, Typography, Japanese Typography, Components, Navigation, Sidebar, Product App Preview, Forms, Table, Command/Search, Charts, Status States, Texture/Pattern, Radius, Spacing, Shadow, Tokens, Generated Assets.\nPalette: petal white, orchid magenta, lip fuchsia, shadow plum, deep plum ink, greenhouse/stem green, cream neutrals, blush petal, pollen gold only as a tiny focus color. Show swatches with readable hex-style labels.\nTypography: include English and Japanese guidance with readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric; include short legible Japanese UI labels.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, navigation/sidebar, dashboard metric cards, line/bar charts, empty/error/loading states, spacing scale, radius scale, border, shadow, and texture/pattern samples.\nDesign mood: refined luxury product system, premium shadcn/tweakcn-compatible product UI, precise grid, quiet cream/petal surfaces, 8px card radius, slim greenhouse dividers, delicate petal-vein line texture, magenta action states, stem green secondary accents, shadow-plum depth.\nText: short readable UI labels only; include exact title \"Morphous Orchid\" and display name \"Orchid\". No long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Orchid\" or \"Orchid\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-orchid/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, high-resolution source artwork\nPrimary request: Generate a separate dark-mode version of the visible \"Morphous Orchid\" light design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference image roles: the transparent white and magenta orchid cutout is the palette and motif source; the light-mode Morphous Orchid board is the layout, component coverage, naming, spacing, and system-language reference.\nRequired visible sections: Morphous Orchid, Orchid, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Sidebar, Product App Preview, Forms, Table, Command/Search, Charts, Status States, Texture/Pattern, Radius, Spacing, Shadow, Tokens, Generated Assets.\nPalette translation: deep shadow plum and near-black plum surfaces, petal white text and elevated surfaces, orchid magenta primary actions, lip fuchsia highlights, greenhouse/stem green secondary accents, cream neutrals as restrained contrast, pollen gold only as a tiny focus color.\nTypography: include English and Japanese guidance with readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric; include short legible Japanese UI labels.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, navigation/sidebar, dashboard metric cards, line/bar charts, empty/error/loading states, spacing scale, radius scale, border, shadow, and texture/pattern samples.\nDesign mood: refined luxury product app system, premium shadcn/tweakcn-compatible dark UI, precise grid, luminous magenta action states, slim greenhouse dividers, subtle petal-vein overlays, dark plum depth, readable petal-white text, greenhouse green support accents.\nText: short readable UI labels only; include exact title \"Morphous Orchid\", display name \"Orchid\", and label \"Dark Mode\". No long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible microtext, no watermark, no random brand names, no misspelling of \"Morphous Orchid\" or \"Orchid\"."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-mushroom",
+  "name": "Mushroom",
+  "motifName": "Fly Agaric Mushroom",
+  "motifCategory": "fungi",
+  "biome": "woodland floor",
+  "motif": "playful catalog system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Mushroom light and dark design-system boards: red cap actions, cream spots, forest-green navigation, woodland soil depth, and playful catalog structure. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for playful product UI with Noto Sans guidance for multilingual catalog labels and compact item metadata.",
+  "layout": "Precise 8px catalog grids, cap-spot badges, gill dividers, woodland panels, and clear browsing hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "mushroom",
+    "fungi",
+    "woodland",
+    "woodland-floor",
+    "fly-agaric",
+    "catalog",
+    "playful",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Spore Cream", "hex": "#f6ead7" },
+    { "role": "Ink", "name": "Forest Ink", "hex": "#1d211b" },
+    { "role": "Primary", "name": "Agaric Red", "hex": "#c8332e" },
+    { "role": "Secondary", "name": "Forest Green", "hex": "#2f5a3a" },
+    { "role": "Accent", "name": "Cap Spot", "hex": "#fff1d2" },
+    { "role": "Signal", "name": "Moss Light", "hex": "#87a65a" },
+    { "role": "Surface", "name": "Gill Beige", "hex": "#e7d1b8" },
+    { "role": "Muted", "name": "Stem Taupe", "hex": "#a18468" },
+    { "role": "Depth", "name": "Dark Soil", "hex": "#3a2c22" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

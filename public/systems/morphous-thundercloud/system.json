@@ -1,0 +1,48 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-thundercloud",
+  "name": "Morphous Thundercloud",
+  "status": "ready",
+  "motifName": "Thundercloud",
+  "motifCategory": "weather",
+  "biome": "storm sky",
+  "motif": "thundercloud and lightning",
+  "mood": "incident response system",
+  "description": "An incident response system to be coded from the Thundercloud light and dark design-system boards: storm charcoal structure, electric yellow urgency, rain blue context, cloud grey surfaces, and high-clarity escalation states.",
+  "typography": "Geist for alerting and incident UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Stacked storm-sky panels, sharp lightning focus states, dense alert tables, and legible escalation surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "thundercloud",
+    "weather",
+    "storm",
+    "storm-sky",
+    "alerting",
+    "incident-response",
+    "electric",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Storm Light", "hex": "#eef2f3" },
+    { "role": "Ink", "name": "Anvil Ink", "hex": "#1f252d" },
+    { "role": "Primary", "name": "Electric Yellow", "hex": "#f5c400" },
+    { "role": "Secondary", "name": "Slate Cloud", "hex": "#59636f" },
+    { "role": "Accent", "name": "Rain Blue", "hex": "#4f8aa8" },
+    { "role": "Signal", "name": "Warning Gold", "hex": "#d99b12" },
+    { "role": "Surface", "name": "Cloud Shelf", "hex": "#d7dde1" },
+    { "role": "Muted", "name": "Rain Veil", "hex": "#9ba8b1" },
+    { "role": "Depth", "name": "Storm Core", "hex": "#111820" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

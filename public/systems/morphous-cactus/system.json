@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-cactus",
+  "name": "Cactus",
+  "motifName": "Flowering Cactus",
+  "motifCategory": "plant",
+  "biome": "sonoran desert",
+  "motif": "sturdy field-tool system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Cactus light and dark design-system boards: sage cactus structure, sand and ochre surfaces, bloom-pink signals, needle-cream detail, dry shadow depth, and sturdy field-tool controls.",
+  "typography": "Geist for rugged English product UI with Noto Sans JP guidance for Japanese headings, body, labels, maps, and numeric field status.",
+  "layout": "Precise 8px tool grids, ribbed section dividers, sand-texture panels, high-visibility states, compact dashboard density, and durable field-control hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cactus",
+    "plant",
+    "sonoran-desert",
+    "field-tool",
+    "sturdy",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Desert Sand", "hex": "#f4e6cf" },
+    { "role": "Ink", "name": "Cactus Shadow", "hex": "#20261f" },
+    { "role": "Primary", "name": "Sage Cactus", "hex": "#6f8f68" },
+    { "role": "Secondary", "name": "Desert Ochre", "hex": "#c7924f" },
+    { "role": "Accent", "name": "Bloom Pink", "hex": "#d86f8d" },
+    { "role": "Signal", "name": "Needle Cream", "hex": "#f8e7bd" },
+    { "role": "Surface", "name": "Dry Clay", "hex": "#e2c69d" },
+    { "role": "Muted", "name": "Prickly Pear", "hex": "#506b4f" },
+    { "role": "Depth", "name": "Arroyo Brown", "hex": "#5a3f2b" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

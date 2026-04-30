@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fog",
+    "name": "Morphous Fog",
+    "motifName": "Fog",
+    "motifCategory": "weather",
+    "biome": "Misty Valley",
+    "motif": "fog layers"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Fog",
+      "hex": "#f2f4f2",
+      "oklch": "oklch(0.965 0.003 145.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Valley Ink",
+      "hex": "#273130",
+      "oklch": "oklch(0.303 0.014 189.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pine Green",
+      "hex": "#496f5b",
+      "oklch": "oklch(0.507 0.054 160.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Soft Blue",
+      "hex": "#9eb8c4",
+      "oklch": "oklch(0.767 0.033 227.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mist Silver",
+      "hex": "#c9d1d0",
+      "oklch": "oklch(0.854 0.009 188.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Hint",
+      "hex": "#7e9676",
+      "oklch": "oklch(0.645 0.054 137.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Low Cloud",
+      "hex": "#e3e8e6",
+      "oklch": "oklch(0.927 0.006 170.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Distant Ridge",
+      "hex": "#aab3af",
+      "oklch": "oklch(0.758 0.012 167.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hidden Valley",
+      "hex": "#182120",
+      "oklch": "oklch(0.239 0.013 188.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.003 145.5)",
+    "foreground": "oklch(0.303 0.014 189.0)",
+    "card": "oklch(0.927 0.006 170.4)",
+    "card-foreground": "oklch(0.303 0.014 189.0)",
+    "popover": "oklch(0.927 0.006 170.4)",
+    "popover-foreground": "oklch(0.303 0.014 189.0)",
+    "primary": "oklch(0.507 0.054 160.7)",
+    "primary-foreground": "oklch(0.965 0.003 145.5)",
+    "secondary": "oklch(0.942 0.005 165.0)",
+    "secondary-foreground": "oklch(0.239 0.013 188.0)",
+    "muted": "oklch(0.936 0.005 165.0)",
+    "muted-foreground": "oklch(0.239 0.013 188.0)",
+    "accent": "oklch(0.854 0.009 188.1)",
+    "accent-foreground": "oklch(0.303 0.014 189.0)",
+    "destructive": "oklch(0.507 0.054 160.7)",
+    "border": "oklch(0.867 0.009 168.7)",
+    "input": "oklch(0.867 0.009 168.7)",
+    "ring": "oklch(0.767 0.033 227.4)",
+    "chart-1": "oklch(0.507 0.054 160.7)",
+    "chart-2": "oklch(0.767 0.033 227.4)",
+    "chart-3": "oklch(0.854 0.009 188.1)",
+    "chart-4": "oklch(0.645 0.054 137.9)",
+    "chart-5": "oklch(0.239 0.013 188.0)",
+    "sidebar": "oklch(0.939 0.005 165.0)",
+    "sidebar-foreground": "oklch(0.303 0.014 189.0)",
+    "sidebar-primary": "oklch(0.507 0.054 160.7)",
+    "sidebar-primary-foreground": "oklch(0.965 0.003 145.5)",
+    "sidebar-accent": "oklch(0.878 0.010 164.8)",
+    "sidebar-accent-foreground": "oklch(0.507 0.054 160.7)",
+    "sidebar-border": "oklch(0.867 0.009 168.7)",
+    "sidebar-ring": "oklch(0.767 0.033 227.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.303 0.014 189.0)",
+    "foreground": "oklch(0.965 0.003 145.5)",
+    "card": "oklch(0.260 0.013 188.1)",
+    "card-foreground": "oklch(0.965 0.003 145.5)",
+    "popover": "oklch(0.260 0.013 188.1)",
+    "popover-foreground": "oklch(0.965 0.003 145.5)",
+    "primary": "oklch(0.767 0.033 227.4)",
+    "primary-foreground": "oklch(0.303 0.014 189.0)",
+    "secondary": "oklch(0.366 0.012 180.7)",
+    "secondary-foreground": "oklch(0.965 0.003 145.5)",
+    "muted": "oklch(0.366 0.012 180.7)",
+    "muted-foreground": "oklch(0.874 0.007 160.1)",
+    "accent": "oklch(0.854 0.009 188.1)",
+    "accent-foreground": "oklch(0.303 0.014 189.0)",
+    "destructive": "oklch(0.507 0.054 160.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.767 0.033 227.4)",
+    "chart-1": "oklch(0.767 0.033 227.4)",
+    "chart-2": "oklch(0.507 0.054 160.7)",
+    "chart-3": "oklch(0.854 0.009 188.1)",
+    "chart-4": "oklch(0.645 0.054 137.9)",
+    "chart-5": "oklch(0.758 0.012 167.7)",
+    "sidebar": "oklch(0.275 0.014 188.9)",
+    "sidebar-foreground": "oklch(0.965 0.003 145.5)",
+    "sidebar-primary": "oklch(0.767 0.033 227.4)",
+    "sidebar-primary-foreground": "oklch(0.303 0.014 189.0)",
+    "sidebar-accent": "oklch(0.366 0.012 180.7)",
+    "sidebar-accent-foreground": "oklch(0.965 0.003 145.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.767 0.033 227.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for quiet productivity UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Layered mist bands, soft focus panels, minimal navigation, subdued dashboards, and low-contrast working grids.",
+  "tags": [
+    "fog",
+    "weather",
+    "misty",
+    "productivity",
+    "quiet",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fog/motif.png",
+    "board": "/systems/morphous-fog/design-system-light.png",
+    "darkBoard": "/systems/morphous-fog/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fog/theme.css",
+    "themeJson": "/systems/morphous-fog/theme.json",
+    "promptsJson": "/systems/morphous-fog/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fog motif source",
+      "asset": "/systems/morphous-fog/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a fog layers motif with pearl grey mist, pine green valley hints, soft blue distance, and calm atmospheric bands, isolated full subject, no text.\nSubject: A compact layered fog bank with translucent mist sheets, faint pine silhouettes, soft blue valley depth, and gentle horizontal forms.\nComposition/framing: centered complete cutout with generous padding; do not crop the fog layers or pine hints.\nLighting/mood: muted morning light, quiet productivity-system mood, low-noise natural contrast.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be uniform with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no buildings, no people, no bright sunset, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fog/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Fog\" derived from the visible transparent fog layers motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from pearl grey mist, pine green anchors, soft blue depth, and layered fog bands. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Fog, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, productivity metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, mist-layer dividers, quiet focus panels.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Fog\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fog/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Fog design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent fog layers motif and the visible light-mode board as references. Preserve pearl grey mist, pine green anchors, soft blue depth, layered fog texture, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Fog, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: hidden valley background, pearl grey text, pine green primary accents, soft blue secondary accents, low-contrast mist overlays, quiet cards, crisp controls.\nConstraints: no neon colors, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

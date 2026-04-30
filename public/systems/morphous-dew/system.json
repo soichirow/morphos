@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-dew",
+  "name": "Morphous Dew",
+  "status": "ready",
+  "motifName": "Dew",
+  "motifCategory": "weather",
+  "biome": "Morning Meadow",
+  "motif": "dewdrop on blade",
+  "description": "A fresh onboarding system to be coded from the Dew light and dark design-system boards: clear dew highlights, leaf green progress, dawn gold warmth, and gentle first-run guidance.",
+  "typography": "Geist for fresh onboarding UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Gentle step flows, droplet focus rings, meadow-card surfaces, simple progress states, and welcoming form rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "dew",
+    "weather",
+    "morning",
+    "onboarding",
+    "fresh",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Morning White", "hex": "#f6fbf5" },
+    { "role": "Ink", "name": "Blade Ink", "hex": "#1e3025" },
+    { "role": "Primary", "name": "Leaf Green", "hex": "#4faa55" },
+    { "role": "Secondary", "name": "Clear Dew", "hex": "#9edfe8" },
+    { "role": "Accent", "name": "Dawn Gold", "hex": "#efc35b" },
+    { "role": "Signal", "name": "New Shoot", "hex": "#75bf6b" },
+    { "role": "Surface", "name": "Meadow Mist", "hex": "#e4f1e5" },
+    { "role": "Muted", "name": "Soft Stem", "hex": "#a9bda7" },
+    { "role": "Depth", "name": "Wet Leaf", "hex": "#12301d" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

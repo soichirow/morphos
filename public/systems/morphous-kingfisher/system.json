@@ -1,0 +1,44 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-kingfisher",
+  "name": "Morphous Kingfisher",
+  "motifName": "Kingfisher Plumage",
+  "motifCategory": "bird",
+  "biome": "Riverbank",
+  "motif": "sharp media system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Kingfisher light and dark design-system boards: electric-blue plumage, rust-orange chest, water-teal support, crisp riverbank contrast, and sharp media controls. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for sharp media UI with Noto Sans guidance for multilingual labels, asset metadata, and fast review screens.",
+  "layout": "Precise 8px media grids, beak-sharp dividers, waterline panels, bright focus states, and compact review dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "kingfisher",
+    "bird",
+    "riverbank",
+    "media",
+    "sharp",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "River Foam", "hex": "#f0f5f0" },
+    { "role": "Ink", "name": "Riverbank Ink", "hex": "#13252a" },
+    { "role": "Primary", "name": "Electric Blue", "hex": "#0a79c8" },
+    { "role": "Secondary", "name": "Rust Orange", "hex": "#c75d24" },
+    { "role": "Accent", "name": "Water Teal", "hex": "#15949b" },
+    { "role": "Signal", "name": "Sky Flash", "hex": "#65bfe6" },
+    { "role": "Surface", "name": "Pale Reed", "hex": "#dde7dd" },
+    { "role": "Muted", "name": "Bank Clay", "hex": "#8b684d" },
+    { "role": "Depth", "name": "Deep River", "hex": "#173f4a" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

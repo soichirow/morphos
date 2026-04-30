@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-owl",
+    "name": "Morphous Owl",
+    "motifName": "Owl",
+    "motifCategory": "bird",
+    "biome": "Old Forest",
+    "motif": "owl face and feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Taupe",
+      "hex": "#f4eee4",
+      "oklch": "oklch(0.951 0.015 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Feather Charcoal",
+      "hex": "#24201d",
+      "oklch": "oklch(0.247 0.008 59.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Eye",
+      "hex": "#d89121",
+      "oklch": "oklch(0.711 0.143 72.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Warm Taupe",
+      "hex": "#9a8064",
+      "oklch": "oklch(0.617 0.051 68.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bark Brown",
+      "hex": "#6b4a34",
+      "oklch": "oklch(0.440 0.056 54.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Old Gold",
+      "hex": "#b97925",
+      "oklch": "oklch(0.629 0.124 68.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Down Feather",
+      "hex": "#e6d7c4",
+      "oklch": "oklch(0.886 0.030 73.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Forest Grey",
+      "hex": "#7c746b",
+      "oklch": "oklch(0.563 0.017 70.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Hollow",
+      "hex": "#302a24",
+      "oklch": "oklch(0.290 0.014 67.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.951 0.015 80.7)",
+    "foreground": "oklch(0.247 0.008 59.3)",
+    "card": "oklch(0.886 0.030 73.9)",
+    "card-foreground": "oklch(0.247 0.008 59.3)",
+    "popover": "oklch(0.886 0.030 73.9)",
+    "popover-foreground": "oklch(0.247 0.008 59.3)",
+    "primary": "oklch(0.711 0.143 72.1)",
+    "primary-foreground": "oklch(0.951 0.015 80.7)",
+    "secondary": "oklch(0.914 0.025 77.5)",
+    "secondary-foreground": "oklch(0.290 0.014 67.2)",
+    "muted": "oklch(0.904 0.026 73.2)",
+    "muted-foreground": "oklch(0.290 0.014 67.2)",
+    "accent": "oklch(0.440 0.056 54.4)",
+    "accent-foreground": "oklch(0.247 0.008 59.3)",
+    "destructive": "oklch(0.711 0.143 72.1)",
+    "border": "oklch(0.773 0.026 71.4)",
+    "input": "oklch(0.773 0.026 71.4)",
+    "ring": "oklch(0.617 0.051 68.7)",
+    "chart-1": "oklch(0.711 0.143 72.1)",
+    "chart-2": "oklch(0.617 0.051 68.7)",
+    "chart-3": "oklch(0.440 0.056 54.4)",
+    "chart-4": "oklch(0.629 0.124 68.4)",
+    "chart-5": "oklch(0.290 0.014 67.2)",
+    "sidebar": "oklch(0.909 0.025 75.3)",
+    "sidebar-foreground": "oklch(0.247 0.008 59.3)",
+    "sidebar-primary": "oklch(0.711 0.143 72.1)",
+    "sidebar-primary-foreground": "oklch(0.951 0.015 80.7)",
+    "sidebar-accent": "oklch(0.864 0.048 77.6)",
+    "sidebar-accent-foreground": "oklch(0.711 0.143 72.1)",
+    "sidebar-border": "oklch(0.773 0.026 71.4)",
+    "sidebar-ring": "oklch(0.617 0.051 68.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.247 0.008 59.3)",
+    "foreground": "oklch(0.951 0.015 80.7)",
+    "card": "oklch(0.276 0.012 67.3)",
+    "card-foreground": "oklch(0.951 0.015 80.7)",
+    "popover": "oklch(0.276 0.012 67.3)",
+    "popover-foreground": "oklch(0.951 0.015 80.7)",
+    "primary": "oklch(0.617 0.051 68.7)",
+    "primary-foreground": "oklch(0.247 0.008 59.3)",
+    "secondary": "oklch(0.354 0.014 63.0)",
+    "secondary-foreground": "oklch(0.951 0.015 80.7)",
+    "muted": "oklch(0.354 0.014 63.0)",
+    "muted-foreground": "oklch(0.783 0.015 74.4)",
+    "accent": "oklch(0.440 0.056 54.4)",
+    "accent-foreground": "oklch(0.247 0.008 59.3)",
+    "destructive": "oklch(0.711 0.143 72.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.617 0.051 68.7)",
+    "chart-1": "oklch(0.617 0.051 68.7)",
+    "chart-2": "oklch(0.711 0.143 72.1)",
+    "chart-3": "oklch(0.440 0.056 54.4)",
+    "chart-4": "oklch(0.629 0.124 68.4)",
+    "chart-5": "oklch(0.563 0.017 70.7)",
+    "sidebar": "oklch(0.268 0.012 67.3)",
+    "sidebar-foreground": "oklch(0.951 0.015 80.7)",
+    "sidebar-primary": "oklch(0.617 0.051 68.7)",
+    "sidebar-primary-foreground": "oklch(0.247 0.008 59.3)",
+    "sidebar-accent": "oklch(0.354 0.014 63.0)",
+    "sidebar-accent-foreground": "oklch(0.951 0.015 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.617 0.051 68.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for focused research UI with Noto Sans JP guidance for dense reading, labels, and numeric rhythm.",
+  "layout": "Measured 8px grids, facial-disc framing, feather-line dividers, document panels, and quiet research dashboards.",
+  "tags": [
+    "owl",
+    "bird",
+    "forest",
+    "focused",
+    "research",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-owl/motif.png",
+    "board": "/systems/morphous-owl/design-system-light.png",
+    "darkBoard": "/systems/morphous-owl/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-owl/theme.css",
+    "themeJson": "/systems/morphous-owl/theme.json",
+    "promptsJson": "/systems/morphous-owl/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent owl motif source",
+      "asset": "/systems/morphous-owl/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an owl face and feather motif, isolated full subject, no environment, no props, no text.\nSubject: A focused owl facial disc with surrounding feathers, warm taupe and bark-brown plumage, amber eyes, charcoal markings, accurate feather anatomy, and crisp natural edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the face, eyes, or feather silhouette.\nLighting/mood: clean studio light that preserves old-forest warmth and feather detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-owl/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Owl\" derived from the transparent owl face and feather cutout.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the warm taupe feathers, amber eye, charcoal markings, and old-forest browns.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nRequired visible sections: Morphous Owl, Owl, Palette, Typography, Japanese Typography, Components, Navigation, Research Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, research cards, dashboard charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style focused research system, precise grid, 8px card radius, feather-line dividers, calm old-forest document surfaces.\nColor palette: use only motif-derived taupe, amber, charcoal, bark brown, forest grey, and pale feather neutrals.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Owl\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-owl/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Owl design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: The light and dark design-system boards are the reference for coding any future theme. Use the transparent owl cutout and the light-mode Morphous Owl board as references. Preserve palette roles, facial-disc framing, feather texture, component language, spacing, typography, and shadcn/tweakcn coverage.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nRequired visible sections: Morphous Owl, Owl, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Research Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from feather charcoal and night hollow, readable text from pale taupe and down feather, primary accents from amber eye, secondary accents from warm taupe and bark brown, subtle owl feather overlays, crisp shadcn-style cards and controls.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

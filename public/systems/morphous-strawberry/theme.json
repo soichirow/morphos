@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-strawberry",
+    "name": "Morphous Strawberry",
+    "motifName": "Strawberry Plant",
+    "motifCategory": "plant",
+    "biome": "Kitchen Garden",
+    "motif": "berry blossom utility"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Blossom",
+      "hex": "#fff4e6",
+      "oklch": "oklch(0.972 0.022 74.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Seed Ink",
+      "hex": "#211714",
+      "oklch": "oklch(0.216 0.017 37.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Strawberry Scarlet",
+      "hex": "#d7192a",
+      "oklch": "oklch(0.562 0.217 24.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2f7d3f",
+      "oklch": "oklch(0.526 0.122 147.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Seed Yellow",
+      "hex": "#f2c84b",
+      "oklch": "oklch(0.848 0.146 90.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Green",
+      "hex": "#6f8f3a",
+      "oklch": "oklch(0.607 0.119 127.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blossom Petal",
+      "hex": "#f9e2dc",
+      "oklch": "oklch(0.930 0.027 35.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Leaf Vein",
+      "hex": "#9abf7a",
+      "oklch": "oklch(0.761 0.102 131.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Garden Soil",
+      "hex": "#5a3828",
+      "oklch": "oklch(0.377 0.055 45.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.022 74.1)",
+    "foreground": "oklch(0.216 0.017 37.3)",
+    "card": "oklch(0.930 0.027 35.0)",
+    "card-foreground": "oklch(0.216 0.017 37.3)",
+    "popover": "oklch(0.930 0.027 35.0)",
+    "popover-foreground": "oklch(0.216 0.017 37.3)",
+    "primary": "oklch(0.562 0.217 24.9)",
+    "primary-foreground": "oklch(0.972 0.022 74.1)",
+    "secondary": "oklch(0.949 0.024 51.2)",
+    "secondary-foreground": "oklch(0.377 0.055 45.8)",
+    "muted": "oklch(0.942 0.024 43.2)",
+    "muted-foreground": "oklch(0.377 0.055 45.8)",
+    "accent": "oklch(0.848 0.146 90.0)",
+    "accent-foreground": "oklch(0.216 0.017 37.3)",
+    "destructive": "oklch(0.562 0.217 24.9)",
+    "border": "oklch(0.867 0.038 103.8)",
+    "input": "oklch(0.867 0.038 103.8)",
+    "ring": "oklch(0.526 0.122 147.7)",
+    "chart-1": "oklch(0.562 0.217 24.9)",
+    "chart-2": "oklch(0.526 0.122 147.7)",
+    "chart-3": "oklch(0.848 0.146 90.0)",
+    "chart-4": "oklch(0.607 0.119 127.0)",
+    "chart-5": "oklch(0.377 0.055 45.8)",
+    "sidebar": "oklch(0.944 0.024 47.1)",
+    "sidebar-foreground": "oklch(0.216 0.017 37.3)",
+    "sidebar-primary": "oklch(0.562 0.217 24.9)",
+    "sidebar-primary-foreground": "oklch(0.972 0.022 74.1)",
+    "sidebar-accent": "oklch(0.875 0.049 22.8)",
+    "sidebar-accent-foreground": "oklch(0.562 0.217 24.9)",
+    "sidebar-border": "oklch(0.867 0.038 103.8)",
+    "sidebar-ring": "oklch(0.526 0.122 147.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.216 0.017 37.3)",
+    "foreground": "oklch(0.972 0.022 74.1)",
+    "card": "oklch(0.325 0.044 45.5)",
+    "card-foreground": "oklch(0.972 0.022 74.1)",
+    "popover": "oklch(0.325 0.044 45.5)",
+    "popover-foreground": "oklch(0.972 0.022 74.1)",
+    "primary": "oklch(0.526 0.122 147.7)",
+    "primary-foreground": "oklch(0.216 0.017 37.3)",
+    "secondary": "oklch(0.464 0.048 78.2)",
+    "secondary-foreground": "oklch(0.972 0.022 74.1)",
+    "muted": "oklch(0.464 0.048 78.2)",
+    "muted-foreground": "oklch(0.877 0.053 119.2)",
+    "accent": "oklch(0.848 0.146 90.0)",
+    "accent-foreground": "oklch(0.216 0.017 37.3)",
+    "destructive": "oklch(0.562 0.217 24.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.526 0.122 147.7)",
+    "chart-1": "oklch(0.526 0.122 147.7)",
+    "chart-2": "oklch(0.562 0.217 24.9)",
+    "chart-3": "oklch(0.848 0.146 90.0)",
+    "chart-4": "oklch(0.607 0.119 127.0)",
+    "chart-5": "oklch(0.761 0.102 131.4)",
+    "sidebar": "oklch(0.292 0.036 44.1)",
+    "sidebar-foreground": "oklch(0.972 0.022 74.1)",
+    "sidebar-primary": "oklch(0.526 0.122 147.7)",
+    "sidebar-primary-foreground": "oklch(0.216 0.017 37.3)",
+    "sidebar-accent": "oklch(0.464 0.048 78.2)",
+    "sidebar-accent-foreground": "oklch(0.972 0.022 74.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.526 0.122 147.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for 見出し, 本文, ラベル, and 数値 rhythm.",
+  "layout": "Compact 8px product grids, botanical stem dividers, blossom-soft panels, dense dashboard cards, and garden-grown operational clarity.",
+  "tags": [
+    "strawberry",
+    "plant",
+    "garden",
+    "fresh",
+    "multilingual",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-strawberry/motif.png",
+    "board": "/systems/morphous-strawberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-strawberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-strawberry/theme.css",
+    "themeJson": "/systems/morphous-strawberry/theme.json",
+    "promptsJson": "/systems/morphous-strawberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent strawberry motif",
+      "asset": "/systems/morphous-strawberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Strawberry transparent motif chroma-key source\nPrimary request: Create only a strawberry plant sprig, isolated full subject, no environment, no props, no text.\nSubject: A compact strawberry plant cutting with ripe strawberry fruit, cream-white blossoms, small seed details, serrated leaf clusters, thin green stems, and accurate botanical structure. The palette should clearly include strawberry scarlet, cream blossom, seed yellow, leaf green, stem green, garden soil shadow, and deep seed ink detail.\nComposition/framing: centered complete cutout with generous padding; do not crop the berries, blossoms, leaves, or stems.\nLighting/mood: clean studio light that preserves natural berry gloss, petal softness, leaf veins, and seed texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject, no basket, no bowl, no raspberry, no grape, no parrot, no maple leaves."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-strawberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Strawberry\" derived from the visible transparent strawberry plant cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the strawberry scarlet fruit, cream blossom petals, seed yellow dots, leaf green clusters, stem green lines, garden soil shadow, and deep seed ink details in the visible cutout. The design-system board is the source reference for coding the theme, so token roles and component examples must be clear and readable.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Strawberry, Strawberry Plant, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, 見出し, 本文, ラベル, 数値. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, cream blossom surfaces, strawberry seed micro-patterns, botanical stem dividers, fresh garden product mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: strawberry scarlet, cream blossom, seed yellow, leaf green, stem green, garden soil, deep seed ink, petal blush, muted leaf vein.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Strawberry\", no raspberry, no grape, no parrot, no maple leaves."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-strawberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Create one comprehensive dark-mode design-system board for \"Morphous Strawberry\" / \"Strawberry Plant\". Translate the visible light-mode Morphous Strawberry board into dark mode; preserve the same system, palette roles, component language, structure, and botanical strawberry identity. Do not invent a different theme.\nReference use: Use the visible Strawberry Plant motif and the visible light-mode design-system board as references. Preserve strawberry scarlet primary accents, cream blossom text and surfaces, seed yellow highlights, leaf green and stem green secondary/success accents, garden soil brown depth, deep seed ink background, petal blush muted surfaces, and soft leaf vein borders and textures.\nCanvas: wide 16:9 comprehensive board, landscape. High resolution, crisp UI mockup, readable section labels and short UI text.\nRequired visible sections: Morphous Strawberry, Strawberry Plant, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese guidance with labels such as Geist, Noto Sans JP, 見出し, 本文, ラベル, 数値. Keep Japanese text visually clean and readable.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing scale, radius scale, border, shadow, texture swatches, core token table.\nVisual style: premium shadcn/tweakcn product design-system board, precise grid, 8px card radius, dark botanical interface, subtle strawberry seed micro-patterns, leaf-vein texture overlays, thin stem dividers, restrained shadows and borders, legible contrast. Use dark backgrounds derived from deep seed ink and garden soil, not pure flat black.\nText: use short readable UI labels only; avoid paragraphs of tiny text.\nConstraints: no raspberry, no grape, no parrot, no maple leaves, no neon colors, no purple or blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Strawberry\", no illegible tiny token text."
+    }
+  ]
+}

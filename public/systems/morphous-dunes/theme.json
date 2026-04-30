@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-dunes",
+    "name": "Morphous Dunes",
+    "motifName": "Sand Dunes",
+    "motifCategory": "landscape",
+    "biome": "Desert Dunes",
+    "motif": "wind shaped dune"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Desert Sky",
+      "hex": "#f7efe0",
+      "oklch": "oklch(0.954 0.022 83.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dune Ink",
+      "hex": "#2f2419",
+      "oklch": "oklch(0.270 0.025 66.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sand Gold",
+      "hex": "#d9a441",
+      "oklch": "oklch(0.751 0.130 79.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shadow Umber",
+      "hex": "#8b5e34",
+      "oklch": "oklch(0.521 0.082 62.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sunlit Ridge",
+      "hex": "#efc978",
+      "oklch": "oklch(0.852 0.109 85.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dry Sage",
+      "hex": "#7a8265",
+      "oklch": "oklch(0.592 0.044 120.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Windwashed Sand",
+      "hex": "#ead7b7",
+      "oklch": "oklch(0.886 0.047 80.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Veil",
+      "hex": "#b9a58a",
+      "oklch": "oklch(0.732 0.044 75.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Dune",
+      "hex": "#1f1812",
+      "oklch": "oklch(0.215 0.016 62.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.954 0.022 83.3)",
+    "foreground": "oklch(0.270 0.025 66.4)",
+    "card": "oklch(0.886 0.047 80.8)",
+    "card-foreground": "oklch(0.270 0.025 66.4)",
+    "popover": "oklch(0.886 0.047 80.8)",
+    "popover-foreground": "oklch(0.270 0.025 66.4)",
+    "primary": "oklch(0.751 0.130 79.8)",
+    "primary-foreground": "oklch(0.954 0.022 83.3)",
+    "secondary": "oklch(0.914 0.037 82.2)",
+    "secondary-foreground": "oklch(0.215 0.016 62.4)",
+    "muted": "oklch(0.906 0.041 81.7)",
+    "muted-foreground": "oklch(0.215 0.016 62.4)",
+    "accent": "oklch(0.852 0.109 85.0)",
+    "accent-foreground": "oklch(0.270 0.025 66.4)",
+    "destructive": "oklch(0.751 0.130 79.8)",
+    "border": "oklch(0.831 0.046 79.2)",
+    "input": "oklch(0.831 0.046 79.2)",
+    "ring": "oklch(0.521 0.082 62.4)",
+    "chart-1": "oklch(0.751 0.130 79.8)",
+    "chart-2": "oklch(0.521 0.082 62.4)",
+    "chart-3": "oklch(0.852 0.109 85.0)",
+    "chart-4": "oklch(0.592 0.044 120.3)",
+    "chart-5": "oklch(0.215 0.016 62.4)",
+    "sidebar": "oklch(0.909 0.038 81.5)",
+    "sidebar-foreground": "oklch(0.270 0.025 66.4)",
+    "sidebar-primary": "oklch(0.751 0.130 79.8)",
+    "sidebar-primary-foreground": "oklch(0.954 0.022 83.3)",
+    "sidebar-accent": "oklch(0.870 0.059 81.4)",
+    "sidebar-accent-foreground": "oklch(0.751 0.130 79.8)",
+    "sidebar-border": "oklch(0.831 0.046 79.2)",
+    "sidebar-ring": "oklch(0.521 0.082 62.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.270 0.025 66.4)",
+    "foreground": "oklch(0.954 0.022 83.3)",
+    "card": "oklch(0.233 0.019 66.6)",
+    "card-foreground": "oklch(0.954 0.022 83.3)",
+    "popover": "oklch(0.233 0.019 66.6)",
+    "popover-foreground": "oklch(0.954 0.022 83.3)",
+    "primary": "oklch(0.521 0.082 62.4)",
+    "primary-foreground": "oklch(0.270 0.025 66.4)",
+    "secondary": "oklch(0.344 0.023 69.6)",
+    "secondary-foreground": "oklch(0.954 0.022 83.3)",
+    "muted": "oklch(0.344 0.023 69.6)",
+    "muted-foreground": "oklch(0.856 0.032 79.9)",
+    "accent": "oklch(0.852 0.109 85.0)",
+    "accent-foreground": "oklch(0.270 0.025 66.4)",
+    "destructive": "oklch(0.751 0.130 79.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.521 0.082 62.4)",
+    "chart-1": "oklch(0.521 0.082 62.4)",
+    "chart-2": "oklch(0.751 0.130 79.8)",
+    "chart-3": "oklch(0.852 0.109 85.0)",
+    "chart-4": "oklch(0.592 0.044 120.3)",
+    "chart-5": "oklch(0.732 0.044 75.3)",
+    "sidebar": "oklch(0.244 0.021 60.2)",
+    "sidebar-foreground": "oklch(0.954 0.022 83.3)",
+    "sidebar-primary": "oklch(0.521 0.082 62.4)",
+    "sidebar-primary-foreground": "oklch(0.270 0.025 66.4)",
+    "sidebar-accent": "oklch(0.344 0.023 69.6)",
+    "sidebar-accent-foreground": "oklch(0.954 0.022 83.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.521 0.082 62.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for editorial product UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Wide content bands, dune-curve dividers, airy editorial grids, restrained cards, and generous scanning space.",
+  "tags": [
+    "sand-dunes",
+    "landscape",
+    "desert",
+    "editorial",
+    "gold",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-dunes/motif.png",
+    "board": "/systems/morphous-dunes/design-system-light.png",
+    "darkBoard": "/systems/morphous-dunes/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-dunes/theme.css",
+    "themeJson": "/systems/morphous-dunes/theme.json",
+    "promptsJson": "/systems/morphous-dunes/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sand dunes motif source",
+      "asset": "/systems/morphous-dunes/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a wind-shaped sand dune motif with sand gold ridges, shadow umber troughs, and pale sky-toned highlights, isolated full subject, no environment, no props, no text.\nSubject: A sculptural desert dune crest shaped by wind, with rippled sand texture, soft wind-carved curves, warm sand-gold planes, shadow-umber troughs, dry granular detail, and a crisp natural silhouette. It should feel spacious and editorial as the motif source for a product design system.\nComposition/framing: centered complete cutout with generous padding; show the full dune crest and ripple edges without cropping.\nLighting/mood: clean low desert sunlight that preserves natural sand color, ridge shape, granular texture, and long soft form shadows within the subject only.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, horizon, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no people, no animals, no plants, no buildings, no rocks, no sky, no landscape background, no decorative backdrop, no text, no watermark, no cast shadow outside the subject, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-dunes/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Dunes\" derived from the visible transparent wind-shaped sand dune motif.\nReference use: This light design-system board is the primary source reference for coding the theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif: sand gold ridges, shadow umber troughs, pale sky highlights, wind ripples, dune curves, and spacious desert editorial calm.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide if available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Dunes, Sand Dunes, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric. Show spacious editorial product-system guidance.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line and bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style editorial product design system, realistic UI mockup, precise grid, 8px card radius, wide content bands, dune-curve separators, warm readable surfaces, restrained navigation, and sand-ripple texture. The board should feel like an editorial operations system, not a marketing page.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: sand gold, shadow umber, pale desert sky, windwashed sand, sunlit ridge, dust veil, night dune, and dry sage as the only quiet support signal.\nText: use short readable UI labels; avoid long paragraphs. Spell exactly \"Morphous Dunes\".\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Dunes\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-dunes/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Dunes design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent wind-shaped sand dune motif and the visible light-mode Morphous Dunes board as references. The light and dark boards are source references for coding the theme, so preserve palette roles, component language, spacious editorial dashboard rhythm, dune-curve separators, sand-ripple texture, Japanese typography guidance, spacing, and shadcn/tweakcn component coverage.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide if available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Dunes, Sand Dunes, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from night dune and shadow umber, readable text from pale desert sky and windwashed sand, primary accents from sand gold and sunlit ridge, restrained dry sage support states, subtle ripple texture overlays, crisp shadcn-style cards and controls. Keep the system spacious and editorial with clear operational dashboard/data areas.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line and bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nText: use short readable UI labels; avoid long paragraphs. Spell exactly \"Morphous Dunes\".\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Dunes\"."
+    }
+  ]
+}

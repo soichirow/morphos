@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-protea",
+    "name": "Morphous Protea",
+    "motifName": "Protea Bloom",
+    "motifCategory": "flower",
+    "biome": "fynbos",
+    "motif": "sculptural protea bloom geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fynbos Sand",
+      "hex": "#f6eadc",
+      "oklch": "oklch(0.943 0.023 71.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cone Ink",
+      "hex": "#2d1d1c",
+      "oklch": "oklch(0.251 0.025 23.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Protea Rose",
+      "hex": "#c45d72",
+      "oklch": "oklch(0.609 0.133 9.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bract Pink",
+      "hex": "#e09aac",
+      "oklch": "oklch(0.760 0.087 2.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Tip",
+      "hex": "#a85f3a",
+      "oklch": "oklch(0.562 0.108 46.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sage Leaf",
+      "hex": "#82906a",
+      "oklch": "oklch(0.632 0.057 124.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Bract",
+      "hex": "#f0d3ca",
+      "oklch": "oklch(0.889 0.035 38.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Fynbos Green",
+      "hex": "#6f8a58",
+      "oklch": "oklch(0.599 0.079 131.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cone Brown",
+      "hex": "#604037",
+      "oklch": "oklch(0.405 0.048 36.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.943 0.023 71.8)",
+    "foreground": "oklch(0.251 0.025 23.1)",
+    "card": "oklch(0.889 0.035 38.0)",
+    "card-foreground": "oklch(0.251 0.025 23.1)",
+    "popover": "oklch(0.889 0.035 38.0)",
+    "popover-foreground": "oklch(0.251 0.025 23.1)",
+    "primary": "oklch(0.609 0.133 9.1)",
+    "primary-foreground": "oklch(0.943 0.023 71.8)",
+    "secondary": "oklch(0.912 0.029 48.4)",
+    "secondary-foreground": "oklch(0.405 0.048 36.4)",
+    "muted": "oklch(0.903 0.031 43.1)",
+    "muted-foreground": "oklch(0.405 0.048 36.4)",
+    "accent": "oklch(0.562 0.108 46.5)",
+    "accent-foreground": "oklch(0.251 0.025 23.1)",
+    "destructive": "oklch(0.609 0.133 9.1)",
+    "border": "oklch(0.787 0.034 89.9)",
+    "input": "oklch(0.787 0.034 89.9)",
+    "ring": "oklch(0.760 0.087 2.5)",
+    "chart-1": "oklch(0.609 0.133 9.1)",
+    "chart-2": "oklch(0.760 0.087 2.5)",
+    "chart-3": "oklch(0.562 0.108 46.5)",
+    "chart-4": "oklch(0.632 0.057 124.4)",
+    "chart-5": "oklch(0.405 0.048 36.4)",
+    "sidebar": "oklch(0.907 0.030 47.3)",
+    "sidebar-foreground": "oklch(0.251 0.025 23.1)",
+    "sidebar-primary": "oklch(0.609 0.133 9.1)",
+    "sidebar-primary-foreground": "oklch(0.943 0.023 71.8)",
+    "sidebar-accent": "oklch(0.855 0.044 28.5)",
+    "sidebar-accent-foreground": "oklch(0.609 0.133 9.1)",
+    "sidebar-border": "oklch(0.787 0.034 89.9)",
+    "sidebar-ring": "oklch(0.760 0.087 2.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.251 0.025 23.1)",
+    "foreground": "oklch(0.943 0.023 71.8)",
+    "card": "oklch(0.355 0.041 33.0)",
+    "card-foreground": "oklch(0.943 0.023 71.8)",
+    "popover": "oklch(0.355 0.041 33.0)",
+    "popover-foreground": "oklch(0.943 0.023 71.8)",
+    "primary": "oklch(0.760 0.087 2.5)",
+    "primary-foreground": "oklch(0.251 0.025 23.1)",
+    "secondary": "oklch(0.446 0.038 65.1)",
+    "secondary-foreground": "oklch(0.943 0.023 71.8)",
+    "muted": "oklch(0.446 0.038 65.1)",
+    "muted-foreground": "oklch(0.792 0.042 116.5)",
+    "accent": "oklch(0.562 0.108 46.5)",
+    "accent-foreground": "oklch(0.251 0.025 23.1)",
+    "destructive": "oklch(0.609 0.133 9.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.760 0.087 2.5)",
+    "chart-1": "oklch(0.760 0.087 2.5)",
+    "chart-2": "oklch(0.609 0.133 9.1)",
+    "chart-3": "oklch(0.562 0.108 46.5)",
+    "chart-4": "oklch(0.632 0.057 124.4)",
+    "chart-5": "oklch(0.599 0.079 131.5)",
+    "sidebar": "oklch(0.323 0.035 32.7)",
+    "sidebar-foreground": "oklch(0.943 0.023 71.8)",
+    "sidebar-primary": "oklch(0.760 0.087 2.5)",
+    "sidebar-primary-foreground": "oklch(0.251 0.025 23.1)",
+    "sidebar-accent": "oklch(0.446 0.038 65.1)",
+    "sidebar-accent-foreground": "oklch(0.943 0.023 71.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.760 0.087 2.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English dashboard UI with Noto Sans JP guidance for clear Japanese analytics labels and dense metrics.",
+  "layout": "Sculptural 8px grids, bract-like panels, sage control rails, warm rust depth, and analytical dashboard density.",
+  "tags": [
+    "protea",
+    "flower",
+    "fynbos",
+    "rose-pink",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-protea/motif.png",
+    "board": "/systems/morphous-protea/design-system-light.png",
+    "darkBoard": "/systems/morphous-protea/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-protea/theme.css",
+    "themeJson": "/systems/morphous-protea/theme.json",
+    "promptsJson": "/systems/morphous-protea/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent protea bloom motif",
+      "asset": "/systems/morphous-protea/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Protea transparent motif chroma-key source\nPrimary request: Create only a fynbos protea bloom botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A sculptural protea bloom with rose-pink pointed bracts, pale bract interiors, dense central cone texture, sage-green leathery leaves, rust-tipped edges, and warm cone-brown shadows. Botanical accuracy, crisp subject edges, architectural fynbos identity, no dahlia, no artichoke.\nComposition/framing: centered complete cutout with generous padding; include full bloom, leaves, and short stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no dahlia rosette, no rose spiral, no artichoke vegetable, no bouquet, no vase, no landscape, no hand, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-protea/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Protea light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Protea\", derived from the visible fynbos protea bloom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible sculptural dashboard system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Protea, Protea Bloom, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from rose-pink bracts, pale bract interiors, rust tips, sage leaves, fynbos sand surfaces, central cone texture, and cone-brown depth. The board must read as protea, not dahlia, rose, artichoke, or generic pink dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, dashboard navigation, analytics metric cards, segmented controls, chart panels, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, fynbos-sand backgrounds, protea-rose primary actions, bract-pink secondary surfaces, rust-tip highlights, sage-leaf controls, cone-texture token samples, sculptural panel grouping.\nConstraints: no dahlia rosette, no rose spiral, no artichoke leaves, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Protea\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-protea/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Protea dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Protea\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible fynbos protea bloom cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Protea, Protea Bloom, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the protea system language: cone-ink dark backgrounds, pale bract text, protea-rose active states, bract-pink surfaces, rust-tip chart highlights, sage-leaf focus and success controls, cone-texture overlays, sculptural 8px shadcn/tweakcn grid. Must read as protea, not dahlia, rose, artichoke, or generic pink dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, dashboard navigation, analytics metric cards, segmented controls, chart panels, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: cone-ink and cone-brown surfaces, pale bract foreground, protea-rose controls, rust-tip highlights, sage-leaf status, bract-pink accents, subtle central-cone texture overlays, restrained contrast, crisp cards and controls.\nConstraints: no dahlia rosette, no rose spiral, no artichoke leaves, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Protea\"."
+    }
+  ]
+}

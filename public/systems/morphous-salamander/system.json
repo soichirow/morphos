@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-salamander",
+  "name": "Morphous Salamander",
+  "motifName": "Spotted Salamander",
+  "motifCategory": "amphibian",
+  "biome": "Wet Woodland",
+  "motif": "spotted salamander",
+  "description": "A shadcn/tweakcn-compatible contrast-rich science system coded from the Salamander light and dark design-system boards: glossy black structure, gold spot markers, wet leaf brown data surfaces, woodland tan support, and damp underlog depth for specimen-heavy research workflows.",
+  "typography": "Geist for English science UI with Noto Sans JP guidance for Japanese headings, body copy, labels, field notes, and numeric specimen tables.",
+  "layout": "Compact 8px science grids, gold spot focus markers, wet woodland panels, lab cards, readable specimen tables, and high-contrast dashboard surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "salamander",
+    "amphibian",
+    "wet-woodland",
+    "contrast-rich",
+    "science",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wet Leaf Paper",
+      "hex": "#F3EFE6"
+    },
+    {
+      "role": "Ink",
+      "name": "Salamander Black",
+      "hex": "#0E0E10"
+    },
+    {
+      "role": "Primary",
+      "name": "Gold Spot",
+      "hex": "#F0C000"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wet Leaf Brown",
+      "hex": "#6B4A2C"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Edge Green",
+      "hex": "#5C6838"
+    },
+    {
+      "role": "Signal",
+      "name": "Woodland Tan",
+      "hex": "#A7895A"
+    },
+    {
+      "role": "Surface",
+      "name": "Leaf Margin",
+      "hex": "#E2D5BC"
+    },
+    {
+      "role": "Muted",
+      "name": "Mud Grey",
+      "hex": "#5A5A57"
+    },
+    {
+      "role": "Depth",
+      "name": "Underlog Shadow",
+      "hex": "#2A221A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

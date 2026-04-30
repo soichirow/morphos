@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-oyster-mushroom",
+    "name": "Morphous Oyster Mushroom",
+    "motifName": "Oyster Mushroom Fan",
+    "motifCategory": "fungi",
+    "biome": "Fallen Log",
+    "motif": "quiet documentation system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Gill",
+      "hex": "#f4efe5",
+      "oklch": "oklch(0.953 0.014 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Log Ink",
+      "hex": "#211d19",
+      "oklch": "oklch(0.234 0.010 67.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Grey",
+      "hex": "#9da09a",
+      "oklch": "oklch(0.702 0.009 128.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bark Brown",
+      "hex": "#71533f",
+      "oklch": "oklch(0.469 0.051 54.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fan Pearl",
+      "hex": "#d9d8cf",
+      "oklch": "oklch(0.881 0.012 101.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Note",
+      "hex": "#728061",
+      "oklch": "oklch(0.580 0.049 127.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Spore",
+      "hex": "#e4ded3",
+      "oklch": "oklch(0.902 0.016 82.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shadow Taupe",
+      "hex": "#81766e",
+      "oklch": "oklch(0.573 0.018 58.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Fallen Log",
+      "hex": "#3b3028",
+      "oklch": "oklch(0.319 0.021 57.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.014 84.6)",
+    "foreground": "oklch(0.234 0.010 67.3)",
+    "card": "oklch(0.902 0.016 82.8)",
+    "card-foreground": "oklch(0.234 0.010 67.3)",
+    "popover": "oklch(0.902 0.016 82.8)",
+    "popover-foreground": "oklch(0.234 0.010 67.3)",
+    "primary": "oklch(0.702 0.009 128.6)",
+    "primary-foreground": "oklch(0.953 0.014 84.6)",
+    "secondary": "oklch(0.924 0.015 80.7)",
+    "secondary-foreground": "oklch(0.319 0.021 57.9)",
+    "muted": "oklch(0.917 0.016 86.4)",
+    "muted-foreground": "oklch(0.319 0.021 57.9)",
+    "accent": "oklch(0.881 0.012 101.5)",
+    "accent-foreground": "oklch(0.234 0.010 67.3)",
+    "destructive": "oklch(0.702 0.009 128.6)",
+    "border": "oklch(0.789 0.016 77.0)",
+    "input": "oklch(0.789 0.016 77.0)",
+    "ring": "oklch(0.469 0.051 54.8)",
+    "chart-1": "oklch(0.702 0.009 128.6)",
+    "chart-2": "oklch(0.469 0.051 54.8)",
+    "chart-3": "oklch(0.881 0.012 101.5)",
+    "chart-4": "oklch(0.580 0.049 127.6)",
+    "chart-5": "oklch(0.319 0.021 57.9)",
+    "sidebar": "oklch(0.920 0.016 86.4)",
+    "sidebar-foreground": "oklch(0.234 0.010 67.3)",
+    "sidebar-primary": "oklch(0.702 0.009 128.6)",
+    "sidebar-primary-foreground": "oklch(0.953 0.014 84.6)",
+    "sidebar-accent": "oklch(0.879 0.016 90.2)",
+    "sidebar-accent-foreground": "oklch(0.702 0.009 128.6)",
+    "sidebar-border": "oklch(0.789 0.016 77.0)",
+    "sidebar-ring": "oklch(0.469 0.051 54.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.234 0.010 67.3)",
+    "foreground": "oklch(0.953 0.014 84.6)",
+    "card": "oklch(0.292 0.017 63.3)",
+    "card-foreground": "oklch(0.953 0.014 84.6)",
+    "popover": "oklch(0.292 0.017 63.3)",
+    "popover-foreground": "oklch(0.953 0.014 84.6)",
+    "primary": "oklch(0.469 0.051 54.8)",
+    "primary-foreground": "oklch(0.234 0.010 67.3)",
+    "secondary": "oklch(0.377 0.020 58.1)",
+    "secondary-foreground": "oklch(0.953 0.014 84.6)",
+    "muted": "oklch(0.377 0.020 58.1)",
+    "muted-foreground": "oklch(0.789 0.016 77.0)",
+    "accent": "oklch(0.881 0.012 101.5)",
+    "accent-foreground": "oklch(0.234 0.010 67.3)",
+    "destructive": "oklch(0.702 0.009 128.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.469 0.051 54.8)",
+    "chart-1": "oklch(0.469 0.051 54.8)",
+    "chart-2": "oklch(0.702 0.009 128.6)",
+    "chart-3": "oklch(0.881 0.012 101.5)",
+    "chart-4": "oklch(0.580 0.049 127.6)",
+    "chart-5": "oklch(0.573 0.018 58.4)",
+    "sidebar": "oklch(0.274 0.015 62.7)",
+    "sidebar-foreground": "oklch(0.953 0.014 84.6)",
+    "sidebar-primary": "oklch(0.469 0.051 54.8)",
+    "sidebar-primary-foreground": "oklch(0.234 0.010 67.3)",
+    "sidebar-accent": "oklch(0.377 0.020 58.1)",
+    "sidebar-accent-foreground": "oklch(0.953 0.014 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.469 0.051 54.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for quiet documentation UI with Noto Sans guidance for multilingual reading, references, and compact tables.",
+  "layout": "Precise 8px documentation grids, fan-gill dividers, soft shell panels, bark sidebars, and low-noise information hierarchy.",
+  "tags": [
+    "oyster-mushroom",
+    "fungi",
+    "documentation",
+    "quiet",
+    "shell-grey",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-oyster-mushroom/motif.png",
+    "board": "/systems/morphous-oyster-mushroom/design-system-light.png",
+    "darkBoard": "/systems/morphous-oyster-mushroom/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-oyster-mushroom/theme.css",
+    "themeJson": "/systems/morphous-oyster-mushroom/theme.json",
+    "promptsJson": "/systems/morphous-oyster-mushroom/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent oyster mushroom motif source",
+      "asset": "/systems/morphous-oyster-mushroom/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only oyster mushroom fans, isolated full subject, no environment, no props, no text.\nSubject: A cluster of oyster mushrooms with shell grey fan caps, ivory gills, bark brown attachment tones, soft shadows, layered fan shapes, and realistic delicate fungal texture.\nComposition/framing: centered complete cutout with generous padding; show the full fan cluster without cropping.\nLighting/mood: clean studio light that preserves shell-grey subtlety, ivory gills, and soft fan edges.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no log background, no forest floor, no plate, no basket, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-oyster-mushroom/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Oyster Mushroom\" derived from the visible transparent oyster mushroom fan cutout.\nCanvas and resolution: exact wide 16:9 source board, 3840 x 2160 composition, high-resolution design-system plate. Use large readable section labels and large UI labels; do not create tiny dense text.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the shell grey fan caps, ivory gills, bark brown attachment tones, soft shadows, and quiet fallen-log mood in the visible oyster mushroom cutout.\nRequired visible sections: Morphous Oyster Mushroom, Oyster Mushroom Fan, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric. Show quiet documentation product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style documentation design system, realistic UI mockup, precise grid, 8px card radius, ivory gill surfaces, fan-gill dividers, bark sidebars, soft low-noise reading hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: shell grey, ivory gill, bark brown, fan pearl, soft spore, shadow taupe, fallen log, and log ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Oyster Mushroom\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-oyster-mushroom/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Oyster Mushroom design-system board. It must feel like the same system translated to dark mode, not a new theme.\nCanvas and resolution: exact wide 16:9 source board, 3840 x 2160 composition, high-resolution design-system plate. Use large readable section labels and large UI labels; do not create tiny dense text.\nReference use: This dark design-system board is the source reference for coding any future theme together with the light board. Use the visible transparent oyster mushroom cutout and the visible light-mode Morphous Oyster Mushroom board as references. Preserve the shell-grey palette roles, documentation component language, fan-gill dividers, bark sidebars, spacing, typography, and shadcn/tweakcn component coverage.\nRequired visible sections: Morphous Oyster Mushroom, Oyster Mushroom Fan, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from log ink and fallen log, readable text from ivory gill, primary accents from shell grey, secondary accents from bark brown, highlights from fan pearl, status from moss note, subtle fan-gill texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Oyster Mushroom\"."
+    }
+  ]
+}

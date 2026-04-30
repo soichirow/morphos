@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-aloe",
+    "name": "Morphous Aloe",
+    "motifName": "Aloe Rosette",
+    "motifCategory": "plant",
+    "biome": "dry garden",
+    "motif": "aloe rosette geometry"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dry Garden Sand",
+      "hex": "#f4ead8",
+      "oklch": "oklch(0.940 0.026 82.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Aloe Shadow Ink",
+      "hex": "#20302c",
+      "oklch": "oklch(0.294 0.023 177.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Aloe Blue Green",
+      "hex": "#5f9d91",
+      "oklch": "oklch(0.650 0.067 180.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Gel",
+      "hex": "#b7d7c9",
+      "oklch": "oklch(0.852 0.039 167.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Tip",
+      "hex": "#b56a3c",
+      "oklch": "oklch(0.599 0.114 50.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Medicinal Green",
+      "hex": "#6f8f5f",
+      "oklch": "oklch(0.613 0.079 135.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#e7d3b8",
+      "oklch": "oklch(0.876 0.042 75.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Fresh Gel",
+      "hex": "#76b59a",
+      "oklch": "oklch(0.723 0.076 165.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dry Soil",
+      "hex": "#665244",
+      "oklch": "oklch(0.455 0.035 56.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.940 0.026 82.4)",
+    "foreground": "oklch(0.294 0.023 177.4)",
+    "card": "oklch(0.876 0.042 75.4)",
+    "card-foreground": "oklch(0.294 0.023 177.4)",
+    "popover": "oklch(0.876 0.042 75.4)",
+    "popover-foreground": "oklch(0.294 0.023 177.4)",
+    "primary": "oklch(0.650 0.067 180.4)",
+    "primary-foreground": "oklch(0.940 0.026 82.4)",
+    "secondary": "oklch(0.903 0.036 79.7)",
+    "secondary-foreground": "oklch(0.455 0.035 56.7)",
+    "muted": "oklch(0.894 0.038 75.1)",
+    "muted-foreground": "oklch(0.455 0.035 56.7)",
+    "accent": "oklch(0.599 0.114 50.6)",
+    "accent-foreground": "oklch(0.294 0.023 177.4)",
+    "destructive": "oklch(0.650 0.067 180.4)",
+    "border": "oklch(0.818 0.038 123.8)",
+    "input": "oklch(0.818 0.038 123.8)",
+    "ring": "oklch(0.852 0.039 167.2)",
+    "chart-1": "oklch(0.650 0.067 180.4)",
+    "chart-2": "oklch(0.852 0.039 167.2)",
+    "chart-3": "oklch(0.599 0.114 50.6)",
+    "chart-4": "oklch(0.613 0.079 135.6)",
+    "chart-5": "oklch(0.455 0.035 56.7)",
+    "sidebar": "oklch(0.898 0.037 78.1)",
+    "sidebar-foreground": "oklch(0.294 0.023 177.4)",
+    "sidebar-primary": "oklch(0.650 0.067 180.4)",
+    "sidebar-primary-foreground": "oklch(0.940 0.026 82.4)",
+    "sidebar-accent": "oklch(0.850 0.037 89.5)",
+    "sidebar-accent-foreground": "oklch(0.650 0.067 180.4)",
+    "sidebar-border": "oklch(0.818 0.038 123.8)",
+    "sidebar-ring": "oklch(0.852 0.039 167.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.294 0.023 177.4)",
+    "foreground": "oklch(0.940 0.026 82.4)",
+    "card": "oklch(0.399 0.020 73.4)",
+    "card-foreground": "oklch(0.940 0.026 82.4)",
+    "popover": "oklch(0.399 0.020 73.4)",
+    "popover-foreground": "oklch(0.940 0.026 82.4)",
+    "primary": "oklch(0.852 0.039 167.2)",
+    "primary-foreground": "oklch(0.294 0.023 177.4)",
+    "secondary": "oklch(0.514 0.026 101.7)",
+    "secondary-foreground": "oklch(0.940 0.026 82.4)",
+    "muted": "oklch(0.514 0.026 101.7)",
+    "muted-foreground": "oklch(0.840 0.039 146.4)",
+    "accent": "oklch(0.599 0.114 50.6)",
+    "accent-foreground": "oklch(0.294 0.023 177.4)",
+    "destructive": "oklch(0.650 0.067 180.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.852 0.039 167.2)",
+    "chart-1": "oklch(0.852 0.039 167.2)",
+    "chart-2": "oklch(0.650 0.067 180.4)",
+    "chart-3": "oklch(0.599 0.114 50.6)",
+    "chart-4": "oklch(0.613 0.079 135.6)",
+    "chart-5": "oklch(0.723 0.076 165.6)",
+    "sidebar": "oklch(0.369 0.015 107.1)",
+    "sidebar-foreground": "oklch(0.940 0.026 82.4)",
+    "sidebar-primary": "oklch(0.852 0.039 167.2)",
+    "sidebar-primary-foreground": "oklch(0.294 0.023 177.4)",
+    "sidebar-accent": "oklch(0.514 0.026 101.7)",
+    "sidebar-accent-foreground": "oklch(0.940 0.026 82.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.852 0.039 167.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm English product UI with Noto Sans JP guidance for healthcare-adjacent Japanese labels, measurements, and forms.",
+  "layout": "Healing 8px grids, rosette grouping, fleshy leaf panels, sand-soft shadows, and practical product controls.",
+  "tags": [
+    "aloe",
+    "plant",
+    "dry-garden",
+    "blue-green",
+    "healing",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-aloe/motif.png",
+    "board": "/systems/morphous-aloe/design-system-light.png",
+    "darkBoard": "/systems/morphous-aloe/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-aloe/theme.css",
+    "themeJson": "/systems/morphous-aloe/theme.json",
+    "promptsJson": "/systems/morphous-aloe/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent aloe rosette motif",
+      "asset": "/systems/morphous-aloe/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Aloe transparent motif chroma-key source\nPrimary request: Create only a dry garden aloe rosette botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A compact aloe rosette with fleshy blue-green lance leaves, translucent gel-like highlights, small rust-orange tips and fine edge teeth, warm sand-toned base shadows, and medicinal green inner leaves. Botanical accuracy, crisp subject edges, healing succulent identity, no agave spear rosette.\nComposition/framing: centered complete cutout with generous padding; include the full low rosette from a three-quarter angle without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no large agave spear leaves, no cactus spines, no flower stalk, no pot, no desert landscape, no hand, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-aloe/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Aloe light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Aloe\", derived from the visible dry garden aloe rosette cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible healing product system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Aloe, Aloe Rosette, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from blue-green fleshy leaves, translucent gel highlights, rust leaf tips, medicinal greens, dry garden sand, and warm soil depth. The board must read as aloe, not agave, cactus, eucalyptus, or generic healthcare teal.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, product navigation, health dashboard metric cards, forms, table filters, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, dry-garden-sand backgrounds, aloe-blue-green primary actions, gel-green secondary surfaces, rust-tip warnings, medicinal-green success, rosette panel grouping, subtle fleshy-leaf texture.\nConstraints: no large agave spear silhouette, no cactus spines, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Aloe\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-aloe/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Aloe dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Aloe\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible dry garden aloe rosette cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Aloe, Aloe Rosette, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the aloe system language: aloe-shadow dark backgrounds, sand foreground text, aloe-blue-green active controls, gel-green surfaces, rust-tip highlights, medicinal-green success, fleshy-leaf texture, rosette grouping, 8px shadcn/tweakcn grid. Must read as aloe, not agave, cactus, eucalyptus, or generic healthcare teal.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, product navigation, health dashboard metric cards, forms, table filters, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: aloe-shadow and dry-soil surfaces, sand foreground, aloe-blue-green controls, gel-green accents, rust-tip warning highlights, medicinal-green success, subtle fleshy-leaf overlays, restrained contrast, crisp cards and controls.\nConstraints: no large agave spear silhouette, no cactus spines, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Aloe\"."
+    }
+  ]
+}

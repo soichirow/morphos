@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-cosmos",
+  "name": "Cosmos",
+  "motifName": "Pink Cosmos Flowers",
+  "motifCategory": "flower",
+  "biome": "autumn meadow",
+  "motif": "airy community system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Cosmos light and dark design-system boards: pink petals, golden centers, fern green support, airy meadow surfaces, and community-focused softness.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Airy 8px community grids, fine-stem dividers, petal-light cards, meadow navigation, and open social hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cosmos",
+    "flower",
+    "autumn-meadow",
+    "airy",
+    "community",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Meadow Air", "hex": "#fff7f4" },
+    { "role": "Ink", "name": "Seed Ink", "hex": "#252018" },
+    { "role": "Primary", "name": "Cosmos Pink", "hex": "#dc6f98" },
+    { "role": "Secondary", "name": "Fern Green", "hex": "#557d4a" },
+    { "role": "Accent", "name": "Golden Center", "hex": "#d7a22e" },
+    { "role": "Signal", "name": "Petal Rose", "hex": "#ef9db7" },
+    { "role": "Surface", "name": "Pale Petal", "hex": "#f9e3ea" },
+    { "role": "Muted", "name": "Autumn Grass", "hex": "#a7a873" },
+    { "role": "Depth", "name": "Meadow Soil", "hex": "#49382c" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

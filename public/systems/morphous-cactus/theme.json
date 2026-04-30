@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cactus",
+    "name": "Cactus",
+    "motifName": "Flowering Cactus",
+    "motifCategory": "plant",
+    "biome": "sonoran desert",
+    "motif": "sturdy field-tool system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Desert Sand",
+      "hex": "#f4e6cf",
+      "oklch": "oklch(0.930 0.034 80.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cactus Shadow",
+      "hex": "#20261f",
+      "oklch": "oklch(0.260 0.015 141.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sage Cactus",
+      "hex": "#6f8f68",
+      "oklch": "oklch(0.615 0.068 140.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Desert Ochre",
+      "hex": "#c7924f",
+      "oklch": "oklch(0.698 0.106 71.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bloom Pink",
+      "hex": "#d86f8d",
+      "oklch": "oklch(0.671 0.135 3.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Needle Cream",
+      "hex": "#f8e7bd",
+      "oklch": "oklch(0.931 0.058 88.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dry Clay",
+      "hex": "#e2c69d",
+      "oklch": "oklch(0.840 0.063 77.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Prickly Pear",
+      "hex": "#506b4f",
+      "oklch": "oklch(0.498 0.054 143.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Arroyo Brown",
+      "hex": "#5a3f2b",
+      "oklch": "oklch(0.393 0.049 57.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.930 0.034 80.3)",
+    "foreground": "oklch(0.260 0.015 141.1)",
+    "card": "oklch(0.840 0.063 77.2)",
+    "card-foreground": "oklch(0.260 0.015 141.1)",
+    "popover": "oklch(0.840 0.063 77.2)",
+    "popover-foreground": "oklch(0.260 0.015 141.1)",
+    "primary": "oklch(0.615 0.068 140.0)",
+    "primary-foreground": "oklch(0.930 0.034 80.3)",
+    "secondary": "oklch(0.877 0.051 76.8)",
+    "secondary-foreground": "oklch(0.393 0.049 57.3)",
+    "muted": "oklch(0.865 0.055 77.9)",
+    "muted-foreground": "oklch(0.393 0.049 57.3)",
+    "accent": "oklch(0.671 0.135 3.2)",
+    "accent-foreground": "oklch(0.260 0.015 141.1)",
+    "destructive": "oklch(0.615 0.068 140.0)",
+    "border": "oklch(0.719 0.050 97.0)",
+    "input": "oklch(0.719 0.050 97.0)",
+    "ring": "oklch(0.698 0.106 71.0)",
+    "chart-1": "oklch(0.615 0.068 140.0)",
+    "chart-2": "oklch(0.698 0.106 71.0)",
+    "chart-3": "oklch(0.671 0.135 3.2)",
+    "chart-4": "oklch(0.931 0.058 88.6)",
+    "chart-5": "oklch(0.393 0.049 57.3)",
+    "sidebar": "oklch(0.871 0.053 78.3)",
+    "sidebar-foreground": "oklch(0.260 0.015 141.1)",
+    "sidebar-primary": "oklch(0.615 0.068 140.0)",
+    "sidebar-primary-foreground": "oklch(0.930 0.034 80.3)",
+    "sidebar-accent": "oklch(0.812 0.058 83.4)",
+    "sidebar-accent-foreground": "oklch(0.615 0.068 140.0)",
+    "sidebar-border": "oklch(0.719 0.050 97.0)",
+    "sidebar-ring": "oklch(0.698 0.106 71.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.260 0.015 141.1)",
+    "foreground": "oklch(0.930 0.034 80.3)",
+    "card": "oklch(0.349 0.034 68.2)",
+    "card-foreground": "oklch(0.930 0.034 80.3)",
+    "popover": "oklch(0.349 0.034 68.2)",
+    "popover-foreground": "oklch(0.930 0.034 80.3)",
+    "primary": "oklch(0.698 0.106 71.0)",
+    "primary-foreground": "oklch(0.260 0.015 141.1)",
+    "secondary": "oklch(0.415 0.040 76.8)",
+    "secondary-foreground": "oklch(0.930 0.034 80.3)",
+    "muted": "oklch(0.415 0.040 76.8)",
+    "muted-foreground": "oklch(0.743 0.037 116.1)",
+    "accent": "oklch(0.671 0.135 3.2)",
+    "accent-foreground": "oklch(0.260 0.015 141.1)",
+    "destructive": "oklch(0.615 0.068 140.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.698 0.106 71.0)",
+    "chart-1": "oklch(0.698 0.106 71.0)",
+    "chart-2": "oklch(0.615 0.068 140.0)",
+    "chart-3": "oklch(0.671 0.135 3.2)",
+    "chart-4": "oklch(0.931 0.058 88.6)",
+    "chart-5": "oklch(0.498 0.054 143.8)",
+    "sidebar": "oklch(0.323 0.025 76.8)",
+    "sidebar-foreground": "oklch(0.930 0.034 80.3)",
+    "sidebar-primary": "oklch(0.698 0.106 71.0)",
+    "sidebar-primary-foreground": "oklch(0.260 0.015 141.1)",
+    "sidebar-accent": "oklch(0.415 0.040 76.8)",
+    "sidebar-accent-foreground": "oklch(0.930 0.034 80.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.698 0.106 71.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for rugged English product UI with Noto Sans JP guidance for Japanese headings, body, labels, maps, and numeric field status.",
+  "layout": "Precise 8px tool grids, ribbed section dividers, sand-texture panels, high-visibility states, compact dashboard density, and durable field-control hierarchy.",
+  "tags": [
+    "cactus",
+    "plant",
+    "sonoran-desert",
+    "field-tool",
+    "sturdy",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cactus/motif.png",
+    "board": "/systems/morphous-cactus/design-system-light.png",
+    "darkBoard": "/systems/morphous-cactus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cactus/theme.css",
+    "themeJson": "/systems/morphous-cactus/theme.json",
+    "promptsJson": "/systems/morphous-cactus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cactus motif source",
+      "asset": "/systems/morphous-cactus/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a flowering cactus, isolated full subject, no environment, no props, no text.\nSubject: A Sonoran flowering cactus with sage green ribbed body, precise pale needle spines, sand ochre dry highlights, bloom pink flowers at the crown and upper arms, subtle waxy surface, and crisp natural silhouette. It should feel sturdy and usable as the motif source for a field-tool design system.\nComposition/framing: centered complete cutout with generous padding; show the entire cactus and flowers without cropping.\nLighting/mood: clean studio light that preserves sturdy form, rib detail, spines, and flower color.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no desert background, no pot, no rocks, no second plant, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cactus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Cactus\" derived from the visible transparent flowering cactus cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the sage green cactus ribs, sand and ochre highlights, bloom pink flowers, needle cream spines, dry clay warmth, arroyo brown depth, and Sonoran desert sturdiness in the visible cactus cutout.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Cactus, Flowering Cactus, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric. Show rugged field-tool product UI guidance.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line and bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style field-tool design system, realistic UI mockup, precise grid, 8px card radius, sand surfaces, ribbed cactus dividers, sparse desert texture, sturdy high-visibility hierarchy. The board should feel like durable equipment software for field observations and desert operations, not a marketing page.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: sage cactus, desert sand, desert ochre, bloom pink, needle cream, dry clay, arroyo brown, prickly pear, and cactus shadow.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Cactus\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cactus/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Cactus design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent flowering cactus cutout and the visible light-mode Morphous Cactus board as references. The light and dark boards are source references for coding any future theme, so preserve palette roles, component language, rugged field-tool dashboard density, ribbed cactus dividers, sand texture, Japanese typography guidance, spacing, and shadcn/tweakcn component coverage.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Cactus, Flowering Cactus, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from cactus shadow and arroyo brown, readable text from desert sand and needle cream, primary accents from sage cactus, secondary accents from desert ochre, alerts and highlights from bloom pink, subtle rib and spine texture overlays, crisp shadcn-style cards and controls. Keep the system sturdy and utilitarian like field equipment software, with clear high-visibility state colors.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line and bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Cactus\"."
+    }
+  ]
+}

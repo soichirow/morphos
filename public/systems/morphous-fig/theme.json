@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fig",
+    "name": "Morphous Fig",
+    "motifName": "Fig",
+    "motifCategory": "fruit",
+    "biome": "mediterranean grove",
+    "motif": "fig fruit and leaf"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fig Pith",
+      "hex": "#fbefe7",
+      "oklch": "oklch(0.959 0.017 56.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Fig Skin Ink",
+      "hex": "#22131d",
+      "oklch": "oklch(0.211 0.030 340.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fig Purple",
+      "hex": "#653256",
+      "oklch": "oklch(0.397 0.088 339.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Flesh Rose",
+      "hex": "#c86f7a",
+      "oklch": "oklch(0.644 0.113 12.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Seed Gold",
+      "hex": "#d8a85b",
+      "oklch": "oklch(0.760 0.110 77.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#567a42",
+      "oklch": "oklch(0.538 0.092 135.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Milky Sap",
+      "hex": "#f1dfd0",
+      "oklch": "oklch(0.914 0.028 62.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Grove Green",
+      "hex": "#7d9b62",
+      "oklch": "oklch(0.652 0.087 131.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Umber",
+      "hex": "#6a4635",
+      "oklch": "oklch(0.430 0.057 46.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.017 56.2)",
+    "foreground": "oklch(0.211 0.030 340.0)",
+    "card": "oklch(0.914 0.028 62.3)",
+    "card-foreground": "oklch(0.211 0.030 340.0)",
+    "popover": "oklch(0.914 0.028 62.3)",
+    "popover-foreground": "oklch(0.211 0.030 340.0)",
+    "primary": "oklch(0.397 0.088 339.5)",
+    "primary-foreground": "oklch(0.959 0.017 56.2)",
+    "secondary": "oklch(0.934 0.023 61.2)",
+    "secondary-foreground": "oklch(0.430 0.057 46.1)",
+    "muted": "oklch(0.926 0.026 59.9)",
+    "muted-foreground": "oklch(0.430 0.057 46.1)",
+    "accent": "oklch(0.760 0.110 77.6)",
+    "accent-foreground": "oklch(0.211 0.030 340.0)",
+    "destructive": "oklch(0.397 0.088 339.5)",
+    "border": "oklch(0.821 0.042 107.3)",
+    "input": "oklch(0.821 0.042 107.3)",
+    "ring": "oklch(0.644 0.113 12.9)",
+    "chart-1": "oklch(0.397 0.088 339.5)",
+    "chart-2": "oklch(0.644 0.113 12.9)",
+    "chart-3": "oklch(0.760 0.110 77.6)",
+    "chart-4": "oklch(0.538 0.092 135.2)",
+    "chart-5": "oklch(0.430 0.057 46.1)",
+    "sidebar": "oklch(0.928 0.024 59.4)",
+    "sidebar-foreground": "oklch(0.211 0.030 340.0)",
+    "sidebar-primary": "oklch(0.397 0.088 339.5)",
+    "sidebar-primary-foreground": "oklch(0.959 0.017 56.2)",
+    "sidebar-accent": "oklch(0.855 0.028 43.6)",
+    "sidebar-accent-foreground": "oklch(0.397 0.088 339.5)",
+    "sidebar-border": "oklch(0.821 0.042 107.3)",
+    "sidebar-ring": "oklch(0.644 0.113 12.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.211 0.030 340.0)",
+    "foreground": "oklch(0.959 0.017 56.2)",
+    "card": "oklch(0.361 0.044 36.1)",
+    "card-foreground": "oklch(0.959 0.017 56.2)",
+    "popover": "oklch(0.361 0.044 36.1)",
+    "popover-foreground": "oklch(0.959 0.017 56.2)",
+    "primary": "oklch(0.644 0.113 12.9)",
+    "primary-foreground": "oklch(0.211 0.030 340.0)",
+    "secondary": "oklch(0.478 0.048 72.2)",
+    "secondary-foreground": "oklch(0.959 0.017 56.2)",
+    "muted": "oklch(0.478 0.048 72.2)",
+    "muted-foreground": "oklch(0.822 0.042 118.0)",
+    "accent": "oklch(0.760 0.110 77.6)",
+    "accent-foreground": "oklch(0.211 0.030 340.0)",
+    "destructive": "oklch(0.397 0.088 339.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.644 0.113 12.9)",
+    "chart-1": "oklch(0.644 0.113 12.9)",
+    "chart-2": "oklch(0.397 0.088 339.5)",
+    "chart-3": "oklch(0.760 0.110 77.6)",
+    "chart-4": "oklch(0.538 0.092 135.2)",
+    "chart-5": "oklch(0.652 0.087 131.0)",
+    "sidebar": "oklch(0.315 0.038 24.5)",
+    "sidebar-foreground": "oklch(0.959 0.017 56.2)",
+    "sidebar-primary": "oklch(0.644 0.113 12.9)",
+    "sidebar-primary-foreground": "oklch(0.211 0.030 340.0)",
+    "sidebar-accent": "oklch(0.478 0.048 72.2)",
+    "sidebar-accent-foreground": "oklch(0.959 0.017 56.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.644 0.113 12.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Soft editorial English UI with calm numeric rhythm and Japanese typography guidance for refined product screens.",
+  "layout": "Generous editorial grids, fig-leaf panels, seed-grain texture, 8px radii, quiet cards, and soft data hierarchy.",
+  "tags": [
+    "fig",
+    "fruit",
+    "mediterranean",
+    "editorial",
+    "soft",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fig/motif.png",
+    "board": "/systems/morphous-fig/design-system-light.png",
+    "darkBoard": "/systems/morphous-fig/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fig/theme.css",
+    "themeJson": "/systems/morphous-fig/theme.json",
+    "promptsJson": "/systems/morphous-fig/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fig fruit and leaf motif",
+      "asset": "/systems/morphous-fig/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fig transparent motif chroma-key source\nPrimary request: Create only a fig fruit and leaf motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A Mediterranean fig branch with one whole fig and one cut fig showing rose flesh, tiny golden seeds, fig-purple skin, milky pith, broad lobed leaf-green fig leaves, and warm bark stem. Botanical accuracy, crisp subject edges, soft edible texture, unmistakably fig.\nComposition/framing: centered complete cutout with generous padding; include whole fruit, cut fruit, lobed leaves, and short branch without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no plum, no passionfruit, no pomegranate, no grape cluster, no plate, no hand, no props, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fig/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fig light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Fig\", derived from the visible fig fruit and leaf cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible soft editorial UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Fig, Fig Fruit and Leaf, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from fig-purple skin, rose fruit flesh, golden seed texture, milky pith, broad leaf-green fig leaves, bark umber stems, and Mediterranean grove warmth. The board must read as fig, not plum or passionfruit.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, milky pith surfaces, fig-purple primary actions, flesh-rose accents, seed-gold highlights, leaf-green success states, bark dividers, fig seed-grain texture.\nConstraints: no plum identity, no passionfruit flower, no pomegranate seeds, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Fig\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fig/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fig dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Fig\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the fig fruit and leaf cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Fig, Fig Fruit and Leaf, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve fig system language: fig-purple actions, rose flesh highlights, seed-gold accents, leaf-green controls, bark-umber borders, pith-cream text, fig seed texture, 8px radius, precise shadcn/tweakcn component grid. Must read as fig, not plum or passionfruit.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: dark fig skin and bark surfaces, pith-cream foreground, fig-purple active states, rose and seed-gold chart highlights, leaf green focus/control accents, soft editorial contrast, crisp cards and controls.\nConstraints: no plum identity, no passionfruit flower, no pomegranate imagery, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Fig\"."
+    }
+  ]
+}

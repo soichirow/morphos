@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-blackberry",
+  "name": "Morphous Blackberry",
+  "motifName": "Blackberry",
+  "motifCategory": "fruit",
+  "biome": "hedgerow",
+  "motif": "blackberry bramble",
+  "description": "A shadcn/tweakcn-compatible system derived from blackberry bramble: black-purple fruit depth, magenta drupelet highlights, leaf-green controls, thorned cane dividers, pale bloom surfaces, and hedgerow shadows for a deep content system.",
+  "typography": "Crisp English product UI with dense editorial hierarchy, readable numbers, and paired Japanese UI guidance.",
+  "layout": "Dense content grids, thorn-cane separators, drupelet dot texture, 8px radii, structured navigation, and restrained blackberry depth.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "blackberry",
+    "fruit",
+    "bramble",
+    "hedgerow",
+    "deep",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bloom Mist",
+      "hex": "#f7f1f5"
+    },
+    {
+      "role": "Ink",
+      "name": "Hedgerow Ink",
+      "hex": "#171018"
+    },
+    {
+      "role": "Primary",
+      "name": "Blackberry Purple",
+      "hex": "#40204f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ripe Black",
+      "hex": "#211629"
+    },
+    {
+      "role": "Accent",
+      "name": "Magenta Drupelet",
+      "hex": "#b33472"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#557b45"
+    },
+    {
+      "role": "Surface",
+      "name": "Cane Pith",
+      "hex": "#eadfe5"
+    },
+    {
+      "role": "Muted",
+      "name": "Hedgerow Green",
+      "hex": "#73965a"
+    },
+    {
+      "role": "Depth",
+      "name": "Thorn Brown",
+      "hex": "#4d312c"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

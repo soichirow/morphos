@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-gecko",
+    "name": "Morphous Gecko",
+    "motifName": "Gecko",
+    "motifCategory": "reptile",
+    "biome": "Desert Rock",
+    "motif": "gecko scales"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Sand",
+      "hex": "#f4dfbd",
+      "oklch": "oklch(0.912 0.050 79.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Crevice Ink",
+      "hex": "#241915",
+      "oklch": "oklch(0.226 0.019 40.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Scale Orange",
+      "hex": "#d9782c",
+      "oklch": "oklch(0.669 0.148 54.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gecko Beige",
+      "hex": "#caa66d",
+      "oklch": "oklch(0.745 0.086 78.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sunlit Ochre",
+      "hex": "#e6b654",
+      "oklch": "oklch(0.801 0.128 82.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Terracotta Toe",
+      "hex": "#a8522a",
+      "oklch": "oklch(0.538 0.125 43.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Rock",
+      "hex": "#ead4ad",
+      "oklch": "oklch(0.878 0.057 81.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dusty Scale",
+      "hex": "#a98b67",
+      "oklch": "oklch(0.656 0.062 71.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Brown",
+      "hex": "#5a3b2a",
+      "oklch": "oklch(0.384 0.052 49.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.912 0.050 79.8)",
+    "foreground": "oklch(0.226 0.019 40.9)",
+    "card": "oklch(0.878 0.057 81.9)",
+    "card-foreground": "oklch(0.226 0.019 40.9)",
+    "popover": "oklch(0.878 0.057 81.9)",
+    "popover-foreground": "oklch(0.226 0.019 40.9)",
+    "primary": "oklch(0.669 0.148 54.1)",
+    "primary-foreground": "oklch(0.912 0.050 79.8)",
+    "secondary": "oklch(0.893 0.054 81.8)",
+    "secondary-foreground": "oklch(0.384 0.052 49.4)",
+    "muted": "oklch(0.888 0.056 81.3)",
+    "muted-foreground": "oklch(0.384 0.052 49.4)",
+    "accent": "oklch(0.801 0.128 82.9)",
+    "accent-foreground": "oklch(0.226 0.019 40.9)",
+    "destructive": "oklch(0.669 0.148 54.1)",
+    "border": "oklch(0.801 0.058 78.1)",
+    "input": "oklch(0.801 0.058 78.1)",
+    "ring": "oklch(0.745 0.086 78.4)",
+    "chart-1": "oklch(0.669 0.148 54.1)",
+    "chart-2": "oklch(0.745 0.086 78.4)",
+    "chart-3": "oklch(0.801 0.128 82.9)",
+    "chart-4": "oklch(0.538 0.125 43.8)",
+    "chart-5": "oklch(0.384 0.052 49.4)",
+    "sidebar": "oklch(0.890 0.055 82.4)",
+    "sidebar-foreground": "oklch(0.226 0.019 40.9)",
+    "sidebar-primary": "oklch(0.669 0.148 54.1)",
+    "sidebar-primary-foreground": "oklch(0.912 0.050 79.8)",
+    "sidebar-accent": "oklch(0.852 0.067 75.7)",
+    "sidebar-accent-foreground": "oklch(0.669 0.148 54.1)",
+    "sidebar-border": "oklch(0.801 0.058 78.1)",
+    "sidebar-ring": "oklch(0.745 0.086 78.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.226 0.019 40.9)",
+    "foreground": "oklch(0.912 0.050 79.8)",
+    "card": "oklch(0.332 0.042 46.5)",
+    "card-foreground": "oklch(0.912 0.050 79.8)",
+    "popover": "oklch(0.332 0.042 46.5)",
+    "popover-foreground": "oklch(0.912 0.050 79.8)",
+    "primary": "oklch(0.745 0.086 78.4)",
+    "primary-foreground": "oklch(0.226 0.019 40.9)",
+    "secondary": "oklch(0.447 0.053 57.2)",
+    "secondary-foreground": "oklch(0.912 0.050 79.8)",
+    "muted": "oklch(0.447 0.053 57.2)",
+    "muted-foreground": "oklch(0.798 0.055 76.1)",
+    "accent": "oklch(0.801 0.128 82.9)",
+    "accent-foreground": "oklch(0.226 0.019 40.9)",
+    "destructive": "oklch(0.669 0.148 54.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.745 0.086 78.4)",
+    "chart-1": "oklch(0.745 0.086 78.4)",
+    "chart-2": "oklch(0.669 0.148 54.1)",
+    "chart-3": "oklch(0.801 0.128 82.9)",
+    "chart-4": "oklch(0.538 0.125 43.8)",
+    "chart-5": "oklch(0.656 0.062 71.5)",
+    "sidebar": "oklch(0.302 0.035 47.5)",
+    "sidebar-foreground": "oklch(0.912 0.050 79.8)",
+    "sidebar-primary": "oklch(0.745 0.086 78.4)",
+    "sidebar-primary-foreground": "oklch(0.226 0.019 40.9)",
+    "sidebar-accent": "oklch(0.447 0.053 57.2)",
+    "sidebar-accent-foreground": "oklch(0.912 0.050 79.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.745 0.086 78.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Tight 8px product grids, scale-pattern separators, tactile tool panels, compact controls, and warm desert-rock hierarchy.",
+  "tags": [
+    "gecko",
+    "reptile",
+    "desert",
+    "tactile",
+    "multilingual",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-gecko/motif.png",
+    "board": "/systems/morphous-gecko/design-system-light.png",
+    "darkBoard": "/systems/morphous-gecko/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-gecko/theme.css",
+    "themeJson": "/systems/morphous-gecko/theme.json",
+    "promptsJson": "/systems/morphous-gecko/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent gecko motif source",
+      "asset": "/systems/morphous-gecko/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a desert gecko, isolated full subject, no environment, no props, no text.\nSubject: A small desert gecko in profile with detailed granular scales, delicate toes, warm sand beige body color, scale orange markings, ochre highlights, shadow brown creases, and accurate reptile anatomy.\nComposition/framing: centered complete cutout with generous padding; do not crop the tail, toes, head, or body.\nLighting/mood: clean studio light that preserves fine scale texture, soft desert coloration, and crisp silhouette.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second animal, no rock perch."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-gecko/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Gecko\" derived from the visible transparent desert gecko cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the sand beige body, scale orange markings, ochre highlights, granular skin texture, toe shapes, and shadow brown creases in the visible cutout. The light and dark design-system boards are the reference for coding any future theme, so token roles and component examples must be clear and readable.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Gecko, Gecko, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, sand-beige surfaces, granular scale micro-patterns, desert rock separators, light tactile tool-system mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: warm sand, scale orange, gecko beige, sunlit ochre, terracotta toe, pale rock, dusty scale, shadow brown, crevice ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Gecko\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-gecko/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Gecko design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent gecko cutout and the visible light-mode Morphous Gecko board as references. Preserve the sand beige and orange palette roles, granular scale texture, tactile component language, compact spacing, Japanese typography, and shadcn/tweakcn component coverage. The light and dark design-system boards are the reference for coding any future theme, so dark-mode token roles and component states must be clear.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Gecko, Gecko, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from crevice ink and shadow brown, light text from warm sand, primary accents from scale orange, secondary accents from gecko beige and ochre, restrained contrast, subtle scale texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Gecko\"."
+    }
+  ]
+}

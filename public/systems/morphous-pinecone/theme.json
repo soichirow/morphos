@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pinecone",
+    "name": "Pinecone",
+    "motifName": "Pinecone Scales",
+    "motifCategory": "plant",
+    "biome": "conifer forest",
+    "motif": "layered scale planning"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pine Parchment",
+      "hex": "#f4ecdf",
+      "oklch": "oklch(0.946 0.019 80.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Ink",
+      "hex": "#1e2118",
+      "oklch": "oklch(0.241 0.017 122.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Umber Scale",
+      "hex": "#8a5635",
+      "oklch": "oklch(0.504 0.084 52.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pine Needle",
+      "hex": "#2f5f3f",
+      "oklch": "oklch(0.442 0.075 153.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Resin Amber",
+      "hex": "#c9852b",
+      "oklch": "oklch(0.672 0.130 68.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fresh Spruce",
+      "hex": "#5f8a55",
+      "oklch": "oklch(0.588 0.091 139.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Scale Fiber",
+      "hex": "#e4d3bd",
+      "oklch": "oklch(0.875 0.035 74.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cone Taupe",
+      "hex": "#9b8067",
+      "oklch": "oklch(0.619 0.049 64.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Floor",
+      "hex": "#3a2f24",
+      "oklch": "oklch(0.314 0.025 66.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.946 0.019 80.1)",
+    "foreground": "oklch(0.241 0.017 122.7)",
+    "card": "oklch(0.875 0.035 74.4)",
+    "card-foreground": "oklch(0.241 0.017 122.7)",
+    "popover": "oklch(0.875 0.035 74.4)",
+    "popover-foreground": "oklch(0.241 0.017 122.7)",
+    "primary": "oklch(0.504 0.084 52.2)",
+    "primary-foreground": "oklch(0.946 0.019 80.1)",
+    "secondary": "oklch(0.906 0.029 77.5)",
+    "secondary-foreground": "oklch(0.314 0.025 66.7)",
+    "muted": "oklch(0.895 0.030 75.7)",
+    "muted-foreground": "oklch(0.314 0.025 66.7)",
+    "accent": "oklch(0.672 0.130 68.9)",
+    "accent-foreground": "oklch(0.241 0.017 122.7)",
+    "destructive": "oklch(0.504 0.084 52.2)",
+    "border": "oklch(0.785 0.040 69.7)",
+    "input": "oklch(0.785 0.040 69.7)",
+    "ring": "oklch(0.442 0.075 153.1)",
+    "chart-1": "oklch(0.504 0.084 52.2)",
+    "chart-2": "oklch(0.442 0.075 153.1)",
+    "chart-3": "oklch(0.672 0.130 68.9)",
+    "chart-4": "oklch(0.588 0.091 139.8)",
+    "chart-5": "oklch(0.314 0.025 66.7)",
+    "sidebar": "oklch(0.900 0.029 77.5)",
+    "sidebar-foreground": "oklch(0.241 0.017 122.7)",
+    "sidebar-primary": "oklch(0.504 0.084 52.2)",
+    "sidebar-primary-foreground": "oklch(0.946 0.019 80.1)",
+    "sidebar-accent": "oklch(0.832 0.039 69.8)",
+    "sidebar-accent-foreground": "oklch(0.504 0.084 52.2)",
+    "sidebar-border": "oklch(0.785 0.040 69.7)",
+    "sidebar-ring": "oklch(0.442 0.075 153.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.241 0.017 122.7)",
+    "foreground": "oklch(0.946 0.019 80.1)",
+    "card": "oklch(0.288 0.019 80.4)",
+    "card-foreground": "oklch(0.946 0.019 80.1)",
+    "popover": "oklch(0.288 0.019 80.4)",
+    "popover-foreground": "oklch(0.946 0.019 80.1)",
+    "primary": "oklch(0.442 0.075 153.1)",
+    "primary-foreground": "oklch(0.241 0.017 122.7)",
+    "secondary": "oklch(0.386 0.030 66.7)",
+    "secondary-foreground": "oklch(0.946 0.019 80.1)",
+    "muted": "oklch(0.386 0.030 66.7)",
+    "muted-foreground": "oklch(0.801 0.031 69.0)",
+    "accent": "oklch(0.672 0.130 68.9)",
+    "accent-foreground": "oklch(0.241 0.017 122.7)",
+    "destructive": "oklch(0.504 0.084 52.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.442 0.075 153.1)",
+    "chart-1": "oklch(0.442 0.075 153.1)",
+    "chart-2": "oklch(0.504 0.084 52.2)",
+    "chart-3": "oklch(0.672 0.130 68.9)",
+    "chart-4": "oklch(0.588 0.091 139.8)",
+    "chart-5": "oklch(0.619 0.049 64.5)",
+    "sidebar": "oklch(0.274 0.017 86.9)",
+    "sidebar-foreground": "oklch(0.946 0.019 80.1)",
+    "sidebar-primary": "oklch(0.442 0.075 153.1)",
+    "sidebar-primary-foreground": "oklch(0.241 0.017 122.7)",
+    "sidebar-accent": "oklch(0.386 0.030 66.7)",
+    "sidebar-accent-foreground": "oklch(0.946 0.019 80.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.442 0.075 153.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for structured product UI with Noto Sans guidance for multilingual planning labels and steady numeric rhythm.",
+  "layout": "Precise 8px grids, nested scale panels, cone-spiral section rhythm, resin highlights, and dense planning dashboards.",
+  "tags": [
+    "pinecone",
+    "plant",
+    "conifer",
+    "planning",
+    "layered",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pinecone/motif.png",
+    "board": "/systems/morphous-pinecone/design-system-light.png",
+    "darkBoard": "/systems/morphous-pinecone/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pinecone/theme.css",
+    "themeJson": "/systems/morphous-pinecone/theme.json",
+    "promptsJson": "/systems/morphous-pinecone/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent pinecone motif source",
+      "asset": "/systems/morphous-pinecone/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a pinecone, isolated full subject, no environment, no props, no text.\nSubject: A mature pinecone with accurate layered spiral scales, umber brown scale faces, darker forest shadow gaps, pine green needle fragments if naturally attached, resin amber highlights, crisp dry texture, and botanical realism.\nComposition/framing: centered complete cutout with generous padding; do not crop the cone.\nLighting/mood: clean studio light that preserves scale structure, wood grain, and resin detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no forest background, no pile of cones, no holiday decoration, no snow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-pinecone/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Pinecone\" derived from the visible transparent pinecone cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the umber scales, pine green support tones, resin amber highlights, and conifer forest shadows in the visible pinecone cutout.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Pinecone, Pinecone Scales, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and multilingual examples; use labels like Geist, Noto Sans, Heading, Body, Label, Numeric. Show planning and workflow UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style planning design system, realistic UI mockup, precise grid, 8px card radius, warm parchment surfaces, nested scale dividers, subtle conifer texture, layered workflow hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: umber brown, pine green, resin amber, scale fiber, forest floor, cone taupe, and forest ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Pinecone\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-pinecone/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Pinecone design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: This dark design-system board is the source reference for coding any future theme together with the light board. Use the visible transparent pinecone cutout and the visible light-mode Morphous Pinecone board as references. Preserve the scale palette roles, layered planning component language, cone-spiral dividers, conifer texture, spacing, typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Pinecone, Pinecone Scales, Dark Mode, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from forest ink and forest floor, readable text from pine parchment, primary accents from umber scale, navigation and status from pine needle, focus from resin amber, subtle pinecone scale overlays, crisp shadcn-style cards and controls.\nTypography: include English and multilingual examples; labels like Geist, Noto Sans, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Pinecone\"."
+    }
+  ]
+}

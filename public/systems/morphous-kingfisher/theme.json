@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-kingfisher",
+    "name": "Morphous Kingfisher",
+    "motifName": "Kingfisher Plumage",
+    "motifCategory": "bird",
+    "biome": "Riverbank",
+    "motif": "sharp media system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Foam",
+      "hex": "#f0f5f0",
+      "oklch": "oklch(0.965 0.008 145.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Riverbank Ink",
+      "hex": "#13252a",
+      "oklch": "oklch(0.251 0.026 217.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Electric Blue",
+      "hex": "#0a79c8",
+      "oklch": "oklch(0.563 0.150 248.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rust Orange",
+      "hex": "#c75d24",
+      "oklch": "oklch(0.600 0.151 45.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Teal",
+      "hex": "#15949b",
+      "oklch": "oklch(0.608 0.100 201.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sky Flash",
+      "hex": "#65bfe6",
+      "oklch": "oklch(0.764 0.103 228.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Reed",
+      "hex": "#dde7dd",
+      "oklch": "oklch(0.918 0.017 145.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bank Clay",
+      "hex": "#8b684d",
+      "oklch": "oklch(0.546 0.060 58.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep River",
+      "hex": "#173f4a",
+      "oklch": "oklch(0.344 0.048 218.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.008 145.5)",
+    "foreground": "oklch(0.251 0.026 217.4)",
+    "card": "oklch(0.918 0.017 145.4)",
+    "card-foreground": "oklch(0.251 0.026 217.4)",
+    "popover": "oklch(0.918 0.017 145.4)",
+    "popover-foreground": "oklch(0.251 0.026 217.4)",
+    "primary": "oklch(0.563 0.150 248.4)",
+    "primary-foreground": "oklch(0.965 0.008 145.5)",
+    "secondary": "oklch(0.938 0.014 145.5)",
+    "secondary-foreground": "oklch(0.344 0.048 218.8)",
+    "muted": "oklch(0.931 0.015 145.5)",
+    "muted-foreground": "oklch(0.344 0.048 218.8)",
+    "accent": "oklch(0.608 0.100 201.0)",
+    "accent-foreground": "oklch(0.251 0.026 217.4)",
+    "destructive": "oklch(0.563 0.150 248.4)",
+    "border": "oklch(0.786 0.023 89.8)",
+    "input": "oklch(0.786 0.023 89.8)",
+    "ring": "oklch(0.600 0.151 45.3)",
+    "chart-1": "oklch(0.563 0.150 248.4)",
+    "chart-2": "oklch(0.600 0.151 45.3)",
+    "chart-3": "oklch(0.608 0.100 201.0)",
+    "chart-4": "oklch(0.764 0.103 228.5)",
+    "chart-5": "oklch(0.344 0.048 218.8)",
+    "sidebar": "oklch(0.934 0.015 145.5)",
+    "sidebar-foreground": "oklch(0.251 0.026 217.4)",
+    "sidebar-primary": "oklch(0.563 0.150 248.4)",
+    "sidebar-primary-foreground": "oklch(0.965 0.008 145.5)",
+    "sidebar-accent": "oklch(0.872 0.024 196.7)",
+    "sidebar-accent-foreground": "oklch(0.563 0.150 248.4)",
+    "sidebar-border": "oklch(0.786 0.023 89.8)",
+    "sidebar-ring": "oklch(0.600 0.151 45.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.251 0.026 217.4)",
+    "foreground": "oklch(0.965 0.008 145.5)",
+    "card": "oklch(0.313 0.041 218.8)",
+    "card-foreground": "oklch(0.965 0.008 145.5)",
+    "popover": "oklch(0.313 0.041 218.8)",
+    "popover-foreground": "oklch(0.965 0.008 145.5)",
+    "primary": "oklch(0.600 0.151 45.3)",
+    "primary-foreground": "oklch(0.251 0.026 217.4)",
+    "secondary": "oklch(0.384 0.029 206.2)",
+    "secondary-foreground": "oklch(0.965 0.008 145.5)",
+    "muted": "oklch(0.384 0.029 206.2)",
+    "muted-foreground": "oklch(0.783 0.026 71.4)",
+    "accent": "oklch(0.608 0.100 201.0)",
+    "accent-foreground": "oklch(0.251 0.026 217.4)",
+    "destructive": "oklch(0.563 0.150 248.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.600 0.151 45.3)",
+    "chart-1": "oklch(0.600 0.151 45.3)",
+    "chart-2": "oklch(0.563 0.150 248.4)",
+    "chart-3": "oklch(0.608 0.100 201.0)",
+    "chart-4": "oklch(0.764 0.103 228.5)",
+    "chart-5": "oklch(0.546 0.060 58.7)",
+    "sidebar": "oklch(0.295 0.037 218.8)",
+    "sidebar-foreground": "oklch(0.965 0.008 145.5)",
+    "sidebar-primary": "oklch(0.600 0.151 45.3)",
+    "sidebar-primary-foreground": "oklch(0.251 0.026 217.4)",
+    "sidebar-accent": "oklch(0.384 0.029 206.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.008 145.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.600 0.151 45.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for sharp media UI with Noto Sans guidance for multilingual labels, asset metadata, and fast review screens.",
+  "layout": "Precise 8px media grids, beak-sharp dividers, waterline panels, bright focus states, and compact review dashboards.",
+  "tags": [
+    "kingfisher",
+    "bird",
+    "riverbank",
+    "media",
+    "sharp",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-kingfisher/motif.png",
+    "board": "/systems/morphous-kingfisher/design-system-light.png",
+    "darkBoard": "/systems/morphous-kingfisher/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-kingfisher/theme.css",
+    "themeJson": "/systems/morphous-kingfisher/theme.json",
+    "promptsJson": "/systems/morphous-kingfisher/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent kingfisher motif source",
+      "asset": "/systems/morphous-kingfisher/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a kingfisher bird, isolated full subject, no environment, no props, no text.\nSubject: A kingfisher with electric blue plumage, rust orange chest, water teal wing transitions, pale throat patch, sharp beak, compact bird anatomy, crisp feather detail, and riverbank-inspired natural color.\nComposition/framing: centered complete cutout with generous padding; show the full bird, beak, wings, and tail without cropping.\nLighting/mood: clean studio light that preserves electric-blue feathers, rust-orange chest, and sharp silhouette edges.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no river background, no branch, no fish, no second bird."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-kingfisher/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Kingfisher\" derived from the visible transparent kingfisher cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the electric blue plumage, rust orange chest, water teal wing transitions, pale reed neutrals, bank clay, and sharp riverbank contrast in the visible kingfisher cutout.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Kingfisher, Kingfisher Plumage, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and multilingual examples; use labels like Geist, Noto Sans, Heading, Body, Label, Numeric. Show media product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style media design system, realistic UI mockup, precise grid, 8px card radius, river foam surfaces, beak-sharp dividers, waterline texture, crisp review and publishing hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: electric blue, rust orange, water teal, sky flash, pale reed, bank clay, deep river, and riverbank ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Kingfisher\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-kingfisher/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Kingfisher design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: This dark design-system board is the source reference for coding any future theme together with the light board. Use the visible transparent kingfisher cutout and the visible light-mode Morphous Kingfisher board as references. Preserve the electric plumage palette roles, sharp media component language, beak-sharp dividers, waterline texture, spacing, typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Kingfisher, Kingfisher Plumage, Dark Mode, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from riverbank ink and deep river, readable text from river foam, primary accents from electric blue, secondary accents from rust orange, navigation and charts from water teal, highlights from sky flash, subtle waterline and feather texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and multilingual examples; labels like Geist, Noto Sans, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Kingfisher\"."
+    }
+  ]
+}

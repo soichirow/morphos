@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-dragon-fruit",
+    "name": "Morphous Dragon Fruit",
+    "motifName": "Dragon Fruit Skin and Pulp",
+    "motifCategory": "fruit",
+    "biome": "tropical orchard",
+    "motif": "dragon fruit skin and pulp"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pulp White",
+      "hex": "#fbfbfb",
+      "oklch": "oklch(0.988 0.000 89.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pitaya Pink",
+      "hex": "#ff007a",
+      "oklch": "oklch(0.644 0.259 4.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rind Rose",
+      "hex": "#ff6aae",
+      "oklch": "oklch(0.727 0.193 354.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Scale Lime",
+      "hex": "#c6ff2e",
+      "oklch": "oklch(0.928 0.222 124.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Orchard Chartreuse",
+      "hex": "#d9ff6a",
+      "oklch": "oklch(0.944 0.179 121.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Blush",
+      "hex": "#ffe6ef",
+      "oklch": "oklch(0.948 0.030 353.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Ink",
+      "hex": "#212121",
+      "oklch": "oklch(0.248 0.000 89.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.988 0.000 89.9)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.948 0.030 353.9)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.948 0.030 353.9)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.644 0.259 4.3)",
+    "primary-foreground": "oklch(0.988 0.000 89.9)",
+    "secondary": "oklch(0.965 0.016 353.6)",
+    "secondary-foreground": "oklch(0.248 0.000 89.9)",
+    "muted": "oklch(0.959 0.021 355.2)",
+    "muted-foreground": "oklch(0.248 0.000 89.9)",
+    "accent": "oklch(0.928 0.222 124.9)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.644 0.259 4.3)",
+    "border": "oklch(0.859 0.089 350.9)",
+    "input": "oklch(0.859 0.089 350.9)",
+    "ring": "oklch(0.727 0.193 354.5)",
+    "chart-1": "oklch(0.644 0.259 4.3)",
+    "chart-2": "oklch(0.727 0.193 354.5)",
+    "chart-3": "oklch(0.928 0.222 124.9)",
+    "chart-4": "oklch(0.944 0.179 121.9)",
+    "chart-5": "oklch(0.248 0.000 89.9)",
+    "sidebar": "oklch(0.961 0.020 354.0)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.644 0.259 4.3)",
+    "sidebar-primary-foreground": "oklch(0.988 0.000 89.9)",
+    "sidebar-accent": "oklch(0.892 0.067 350.7)",
+    "sidebar-accent-foreground": "oklch(0.644 0.259 4.3)",
+    "sidebar-border": "oklch(0.859 0.089 350.9)",
+    "sidebar-ring": "oklch(0.727 0.193 354.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.000 89.9)",
+    "foreground": "oklch(0.988 0.000 89.9)",
+    "card": "oklch(0.226 0.000 89.9)",
+    "card-foreground": "oklch(0.988 0.000 89.9)",
+    "popover": "oklch(0.226 0.000 89.9)",
+    "popover-foreground": "oklch(0.988 0.000 89.9)",
+    "primary": "oklch(0.727 0.193 354.5)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.359 0.053 351.3)",
+    "secondary-foreground": "oklch(0.988 0.000 89.9)",
+    "muted": "oklch(0.359 0.053 351.3)",
+    "muted-foreground": "oklch(0.859 0.086 350.5)",
+    "accent": "oklch(0.928 0.222 124.9)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.644 0.259 4.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.727 0.193 354.5)",
+    "chart-1": "oklch(0.727 0.193 354.5)",
+    "chart-2": "oklch(0.644 0.259 4.3)",
+    "chart-3": "oklch(0.928 0.222 124.9)",
+    "chart-4": "oklch(0.944 0.179 121.9)",
+    "chart-5": "oklch(0.727 0.193 354.5)",
+    "sidebar": "oklch(0.209 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.988 0.000 89.9)",
+    "sidebar-primary": "oklch(0.727 0.193 354.5)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.359 0.053 351.3)",
+    "sidebar-accent-foreground": "oklch(0.988 0.000 89.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.727 0.193 354.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable or Geist for energetic English commerce UI with Noto Sans JP guidance for Japanese product labels, prices, tables, and compact status text.",
+  "layout": "Bright 8px commerce grids, seed-speck texture, product cards, hot-pink actions, lime status accents, and crisp dashboard rhythm.",
+  "tags": [
+    "dragon-fruit",
+    "fruit",
+    "tropical-orchard",
+    "hot-pink",
+    "commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-dragon-fruit/motif.png",
+    "board": "/systems/morphous-dragon-fruit/design-system-light.png",
+    "darkBoard": "/systems/morphous-dragon-fruit/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-dragon-fruit/theme.css",
+    "themeJson": "/systems/morphous-dragon-fruit/theme.json",
+    "promptsJson": "/systems/morphous-dragon-fruit/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent dragon fruit motif",
+      "asset": "/systems/morphous-dragon-fruit/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Dragon Fruit transparent motif chroma-key source\nPrimary request: Create only a dragon fruit motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A ripe dragon fruit with waxy hot-pink skin, lime-green scale tips, one whole fruit and one sliced half showing crisp white pulp with tiny black seeds, glossy tropical orchard freshness, and clean commerce-ready silhouette. It must read as dragon fruit, not pomegranate, lychee, cactus flower, or generic tropical fruit.\nComposition/framing: centered complete cutout with generous padding; include whole fruit, sliced half, green scales, white pulp, and black seeds without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no fruit basket, no leaves covering the fruit, no plate, no hand, no market stall, no text, no watermark, no second unrelated fruit."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-dragon-fruit/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Dragon Fruit light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Dragon Fruit\", derived from the visible dragon fruit cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible bold commerce UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Dragon Fruit, Dragon Fruit Skin and Pulp, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from pitaya hot pink skin, rind rose gradients, lime-green scales, orchard chartreuse highlights, white pulp surfaces, tiny black seed texture, deep ink contrast, and soft blush tints. The board must read as dragon fruit, not generic pink commerce.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter Variable, Noto Sans JP, Display, Body, Caption, Numbers, 日本語タイポグラフィ. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product card, ecommerce dashboard metrics, table rows, search command palette, sidebar navigation, empty/loading/error states, spacing, radius, border, shadow, texture samples, icon examples.\nStyle: bold commerce system, precise 8px grid, hot-pink primary actions, lime success accents, black seed texture, white pulp surfaces, Japanese ecommerce labels, clean card rhythm, bright but controlled contrast.\nConstraints: no generic neon palette, no purple/blue gradient kit, no unrelated fruit, no random brand names, no watermark, no misspelling of \"Morphous Dragon Fruit\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-dragon-fruit/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Dragon Fruit dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Dragon Fruit\". It must feel like the visible light board translated to dark mode, not a new theme, and it must remain derived from the visible dragon fruit cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Dragon Fruit, Dark Mode, Dragon Fruit Skin and Pulp, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the dragon fruit system language: near-black seed backgrounds, hot-pink primary controls, lime scale success, rind rose hover states, pulp-white text, Japanese ecommerce labels, seed-speck texture, and 8px shadcn/tweakcn component grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter Variable, Noto Sans JP, Display, Body, Caption, Numbers, 日本語タイポグラフィ. Keep text short and legible on dark commerce surfaces.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product card, ecommerce dashboard metrics, table rows, search command palette, sidebar navigation, empty/loading/error states, spacing, radius, border, shadow, texture samples, icon examples.\nVisual details: dark ink panels, magenta active states, lime-green charts and success labels, seed-black texture, soft blush accents, crisp product-table cards, restrained dark contrast.\nConstraints: no generic neon cyber UI, no purple/blue gradients, no unrelated fruit, no pure-black-only flat background, no watermark, no random brand names, no misspelling of \"Morphous Dragon Fruit\", no illegible tiny paragraphs."
+    }
+  ]
+}

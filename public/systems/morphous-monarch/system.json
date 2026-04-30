@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-monarch",
+  "name": "Morphous Monarch",
+  "motifName": "Monarch Butterfly Wing",
+  "motifCategory": "insect",
+  "biome": "Meadow",
+  "motif": "high-contrast wing panels",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Monarch light and dark design-system boards: orange actions, black structure, cream surfaces, milkweed-green support, and high-contrast editorial hierarchy.",
+  "typography": "Geist for editorial product UI with Noto Sans guidance for multilingual labels, strong headings, and precise numeric rhythm.",
+  "layout": "Precise 8px grids, monarch wing-cell panels, bold separator lines, editorial content blocks, and high-contrast dashboard composition.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "monarch",
+    "butterfly",
+    "insect",
+    "meadow",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Milkweed Cream",
+      "hex": "#fff3df"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#171411"
+    },
+    {
+      "role": "Primary",
+      "name": "Monarch Orange",
+      "hex": "#f26a21"
+    },
+    {
+      "role": "Secondary",
+      "name": "Milkweed Green",
+      "hex": "#6f8f4e"
+    },
+    {
+      "role": "Accent",
+      "name": "Pollen Gold",
+      "hex": "#f2b94b"
+    },
+    {
+      "role": "Signal",
+      "name": "Wing White",
+      "hex": "#f8eee0"
+    },
+    {
+      "role": "Surface",
+      "name": "Meadow Paper",
+      "hex": "#f5dfc0"
+    },
+    {
+      "role": "Muted",
+      "name": "Dusty Milkweed",
+      "hex": "#b79b70"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Wing Brown",
+      "hex": "#3a2418"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

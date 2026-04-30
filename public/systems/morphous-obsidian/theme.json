@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-obsidian",
+    "name": "Morphous Obsidian",
+    "motifName": "Obsidian",
+    "motifCategory": "mineral",
+    "biome": "Volcanic Field",
+    "motif": "obsidian shard"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Smoke White",
+      "hex": "#f2f4f5",
+      "oklch": "oklch(0.966 0.003 228.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Glass",
+      "hex": "#111316",
+      "oklch": "oklch(0.186 0.007 258.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Edge Blue",
+      "hex": "#3b82b8",
+      "oklch": "oklch(0.586 0.109 244.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Smoke Grey",
+      "hex": "#6f7882",
+      "oklch": "oklch(0.569 0.019 251.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Glass Glint",
+      "hex": "#9bb8c8",
+      "oklch": "oklch(0.766 0.039 232.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lava Ember",
+      "hex": "#b24a3a",
+      "oklch": "oklch(0.543 0.139 30.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ash Surface",
+      "hex": "#dfe3e5",
+      "oklch": "oklch(0.913 0.005 228.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Basalt Veil",
+      "hex": "#9aa0a5",
+      "oklch": "oklch(0.702 0.010 242.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Volcanic Core",
+      "hex": "#05070a",
+      "oklch": "oklch(0.127 0.009 253.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.966 0.003 228.8)",
+    "foreground": "oklch(0.186 0.007 258.4)",
+    "card": "oklch(0.913 0.005 228.8)",
+    "card-foreground": "oklch(0.186 0.007 258.4)",
+    "popover": "oklch(0.913 0.005 228.8)",
+    "popover-foreground": "oklch(0.186 0.007 258.4)",
+    "primary": "oklch(0.586 0.109 244.3)",
+    "primary-foreground": "oklch(0.966 0.003 228.8)",
+    "secondary": "oklch(0.935 0.004 236.5)",
+    "secondary-foreground": "oklch(0.127 0.009 253.7)",
+    "muted": "oklch(0.928 0.005 214.3)",
+    "muted-foreground": "oklch(0.127 0.009 253.7)",
+    "accent": "oklch(0.766 0.039 232.1)",
+    "accent-foreground": "oklch(0.186 0.007 258.4)",
+    "destructive": "oklch(0.586 0.109 244.3)",
+    "border": "oklch(0.839 0.007 233.7)",
+    "input": "oklch(0.839 0.007 233.7)",
+    "ring": "oklch(0.569 0.019 251.0)",
+    "chart-1": "oklch(0.586 0.109 244.3)",
+    "chart-2": "oklch(0.569 0.019 251.0)",
+    "chart-3": "oklch(0.766 0.039 232.1)",
+    "chart-4": "oklch(0.543 0.139 30.9)",
+    "chart-5": "oklch(0.127 0.009 253.7)",
+    "sidebar": "oklch(0.931 0.005 214.3)",
+    "sidebar-foreground": "oklch(0.186 0.007 258.4)",
+    "sidebar-primary": "oklch(0.586 0.109 244.3)",
+    "sidebar-primary-foreground": "oklch(0.966 0.003 228.8)",
+    "sidebar-accent": "oklch(0.873 0.018 240.0)",
+    "sidebar-accent-foreground": "oklch(0.586 0.109 244.3)",
+    "sidebar-border": "oklch(0.839 0.007 233.7)",
+    "sidebar-ring": "oklch(0.569 0.019 251.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.186 0.007 258.4)",
+    "foreground": "oklch(0.966 0.003 228.8)",
+    "card": "oklch(0.149 0.007 258.0)",
+    "card-foreground": "oklch(0.966 0.003 228.8)",
+    "popover": "oklch(0.149 0.007 258.0)",
+    "popover-foreground": "oklch(0.966 0.003 228.8)",
+    "primary": "oklch(0.569 0.019 251.0)",
+    "primary-foreground": "oklch(0.186 0.007 258.4)",
+    "secondary": "oklch(0.279 0.007 248.1)",
+    "secondary-foreground": "oklch(0.966 0.003 228.8)",
+    "muted": "oklch(0.279 0.007 248.1)",
+    "muted-foreground": "oklch(0.849 0.006 239.8)",
+    "accent": "oklch(0.766 0.039 232.1)",
+    "accent-foreground": "oklch(0.186 0.007 258.4)",
+    "destructive": "oklch(0.586 0.109 244.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.569 0.019 251.0)",
+    "chart-1": "oklch(0.569 0.019 251.0)",
+    "chart-2": "oklch(0.586 0.109 244.3)",
+    "chart-3": "oklch(0.766 0.039 232.1)",
+    "chart-4": "oklch(0.543 0.139 30.9)",
+    "chart-5": "oklch(0.702 0.010 242.9)",
+    "sidebar": "oklch(0.158 0.007 258.4)",
+    "sidebar-foreground": "oklch(0.966 0.003 228.8)",
+    "sidebar-primary": "oklch(0.569 0.019 251.0)",
+    "sidebar-primary-foreground": "oklch(0.186 0.007 258.4)",
+    "sidebar-accent": "oklch(0.279 0.007 248.1)",
+    "sidebar-accent-foreground": "oklch(0.966 0.003 228.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.569 0.019 251.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for sharp security UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Shard-like section cuts, glassy focus lines, compact security tables, strict controls, and high-confidence audit surfaces.",
+  "tags": [
+    "obsidian",
+    "mineral",
+    "volcanic",
+    "security",
+    "sharp",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-obsidian/motif.png",
+    "board": "/systems/morphous-obsidian/design-system-light.png",
+    "darkBoard": "/systems/morphous-obsidian/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-obsidian/theme.css",
+    "themeJson": "/systems/morphous-obsidian/theme.json",
+    "promptsJson": "/systems/morphous-obsidian/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent obsidian motif source",
+      "asset": "/systems/morphous-obsidian/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an obsidian shard motif with black glass body, smoke grey facets, edge blue glints, and volcanic mineral sharpness, isolated full subject, no text.\nSubject: A single fractured obsidian shard cluster with glossy black planes, razor edges, subtle smoke inclusions, blue edge highlights, and realistic volcanic glass texture.\nComposition/framing: centered complete cutout with generous padding; do not crop shard tips or reflective edges.\nLighting/mood: controlled studio light, sharp security-system mood, high-contrast black glass and cool edge detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be uniform with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no jewelry, no lava field background, no hands, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-obsidian/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Obsidian\" derived from the visible transparent obsidian shard motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from black glass, smoke grey, edge blue, ash surfaces, and fractured shard geometry. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Obsidian, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, security metric cards, audit charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, shard dividers, sharp security controls, glass-edge focus states.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Obsidian\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-obsidian/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Obsidian design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent obsidian shard motif and the visible light-mode board as references. Preserve black glass depth, smoke grey surfaces, edge blue focus, shard geometry, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Obsidian, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: volcanic core background, smoke-white text, edge blue primary accents, smoke grey cards, glass glint borders, strict security status states, crisp controls.\nConstraints: no neon overload, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

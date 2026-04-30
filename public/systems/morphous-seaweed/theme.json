@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-seaweed",
+    "name": "Seaweed",
+    "motifName": "Kelp Frond",
+    "motifCategory": "plant",
+    "biome": "Tidal Pool",
+    "motif": "fluid data system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Foam White",
+      "hex": "#f2f7f3",
+      "oklch": "oklch(0.971 0.007 151.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Tide Ink",
+      "hex": "#142728",
+      "oklch": "oklch(0.257 0.025 200.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Kelp Olive",
+      "hex": "#657b3f",
+      "oklch": "oklch(0.551 0.089 125.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Teal",
+      "hex": "#1f8a8a",
+      "oklch": "oklch(0.577 0.091 194.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidepool Aqua",
+      "hex": "#7fc8bc",
+      "oklch": "oklch(0.781 0.075 182.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sunlit Frond",
+      "hex": "#b0aa4f",
+      "oklch": "oklch(0.724 0.114 105.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wet Pearl",
+      "hex": "#dfe9e2",
+      "oklch": "oklch(0.925 0.014 155.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rockweed",
+      "hex": "#4c5f3a",
+      "oklch": "oklch(0.459 0.062 130.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tidal Shadow",
+      "hex": "#24413f",
+      "oklch": "oklch(0.352 0.035 190.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.007 151.9)",
+    "foreground": "oklch(0.257 0.025 200.0)",
+    "card": "oklch(0.925 0.014 155.6)",
+    "card-foreground": "oklch(0.257 0.025 200.0)",
+    "popover": "oklch(0.925 0.014 155.6)",
+    "popover-foreground": "oklch(0.257 0.025 200.0)",
+    "primary": "oklch(0.551 0.089 125.7)",
+    "primary-foreground": "oklch(0.971 0.007 151.9)",
+    "secondary": "oklch(0.944 0.012 153.7)",
+    "secondary-foreground": "oklch(0.352 0.035 190.0)",
+    "muted": "oklch(0.938 0.012 157.0)",
+    "muted-foreground": "oklch(0.352 0.035 190.0)",
+    "accent": "oklch(0.781 0.075 182.8)",
+    "accent-foreground": "oklch(0.257 0.025 200.0)",
+    "destructive": "oklch(0.551 0.089 125.7)",
+    "border": "oklch(0.764 0.028 138.3)",
+    "input": "oklch(0.764 0.028 138.3)",
+    "ring": "oklch(0.577 0.091 194.9)",
+    "chart-1": "oklch(0.551 0.089 125.7)",
+    "chart-2": "oklch(0.577 0.091 194.9)",
+    "chart-3": "oklch(0.781 0.075 182.8)",
+    "chart-4": "oklch(0.724 0.114 105.4)",
+    "chart-5": "oklch(0.352 0.035 190.0)",
+    "sidebar": "oklch(0.941 0.012 157.0)",
+    "sidebar-foreground": "oklch(0.257 0.025 200.0)",
+    "sidebar-primary": "oklch(0.551 0.089 125.7)",
+    "sidebar-primary-foreground": "oklch(0.971 0.007 151.9)",
+    "sidebar-accent": "oklch(0.881 0.023 141.2)",
+    "sidebar-accent-foreground": "oklch(0.551 0.089 125.7)",
+    "sidebar-border": "oklch(0.764 0.028 138.3)",
+    "sidebar-ring": "oklch(0.577 0.091 194.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.025 200.0)",
+    "foreground": "oklch(0.971 0.007 151.9)",
+    "card": "oklch(0.320 0.031 192.5)",
+    "card-foreground": "oklch(0.971 0.007 151.9)",
+    "popover": "oklch(0.320 0.031 192.5)",
+    "popover-foreground": "oklch(0.971 0.007 151.9)",
+    "primary": "oklch(0.577 0.091 194.9)",
+    "primary-foreground": "oklch(0.257 0.025 200.0)",
+    "secondary": "oklch(0.377 0.037 169.0)",
+    "secondary-foreground": "oklch(0.971 0.007 151.9)",
+    "muted": "oklch(0.377 0.037 169.0)",
+    "muted-foreground": "oklch(0.752 0.030 133.8)",
+    "accent": "oklch(0.781 0.075 182.8)",
+    "accent-foreground": "oklch(0.257 0.025 200.0)",
+    "destructive": "oklch(0.551 0.089 125.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.577 0.091 194.9)",
+    "chart-1": "oklch(0.577 0.091 194.9)",
+    "chart-2": "oklch(0.551 0.089 125.7)",
+    "chart-3": "oklch(0.781 0.075 182.8)",
+    "chart-4": "oklch(0.724 0.114 105.4)",
+    "chart-5": "oklch(0.459 0.062 130.6)",
+    "sidebar": "oklch(0.302 0.030 195.7)",
+    "sidebar-foreground": "oklch(0.971 0.007 151.9)",
+    "sidebar-primary": "oklch(0.577 0.091 194.9)",
+    "sidebar-primary-foreground": "oklch(0.257 0.025 200.0)",
+    "sidebar-accent": "oklch(0.377 0.037 169.0)",
+    "sidebar-accent-foreground": "oklch(0.971 0.007 151.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.577 0.091 194.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for fluid analytical UI with Noto Sans guidance for multilingual data labels and chart-heavy screens.",
+  "layout": "Precise 8px data grids, flowing frond dividers, tidal pool panels, soft foam surfaces, and layered analytical density.",
+  "tags": [
+    "seaweed",
+    "plant",
+    "tidal",
+    "data",
+    "fluid",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-seaweed/motif.png",
+    "board": "/systems/morphous-seaweed/design-system-light.png",
+    "darkBoard": "/systems/morphous-seaweed/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-seaweed/theme.css",
+    "themeJson": "/systems/morphous-seaweed/theme.json",
+    "promptsJson": "/systems/morphous-seaweed/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent seaweed motif source",
+      "asset": "/systems/morphous-seaweed/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a kelp frond, isolated full subject, no environment, no props, no text.\nSubject: A flowing kelp frond with olive green ribbons, sea teal wet shadows, foam white edge highlights, flexible stems, translucent tidal texture, and crisp organic silhouette.\nComposition/framing: centered complete cutout with generous padding; do not crop the fronds.\nLighting/mood: clean studio light that preserves wet surface texture, ribbon shape, and tidal color.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no underwater background, no fish, no rocks, no beach scene."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-seaweed/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Seaweed\" derived from the visible transparent kelp frond cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the kelp olive ribbons, sea teal shadows, foam white highlights, tidepool aqua surfaces, and tidal pool fluidity in the visible seaweed cutout.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Seaweed, Kelp Frond, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and multilingual examples; use labels like Geist, Noto Sans, Heading, Body, Label, Numeric. Show data product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style data design system, realistic UI mockup, precise grid, 8px card radius, foam-white surfaces, flowing kelp dividers, subtle wet texture, fluid analytical hierarchy.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: kelp olive, sea teal, foam white, tidepool aqua, wet pearl, rockweed, sunlit frond, and deep tide ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Seaweed\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-seaweed/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Seaweed design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: This dark design-system board is the source reference for coding any future theme together with the light board. Use the visible transparent kelp frond cutout and the visible light-mode Morphous Seaweed board as references. Preserve the tidal palette roles, fluid data component language, flowing frond dividers, wet texture, spacing, typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Seaweed, Kelp Frond, Dark Mode, Palette, Typography, Multilingual Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from deep tide ink and tidal shadow, readable text from foam white, primary accents from kelp olive, navigation and charts from sea teal, highlights from tidepool aqua and sunlit frond, subtle water and frond texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and multilingual examples; labels like Geist, Noto Sans, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Seaweed\"."
+    }
+  ]
+}

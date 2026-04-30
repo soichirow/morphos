@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-octopus",
+    "name": "Morphous Octopus",
+    "motifName": "Octopus",
+    "motifCategory": "marine",
+    "biome": "Rocky Reef",
+    "motif": "octopus tentacle"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Coral Grey",
+      "hex": "#f0e6e2",
+      "oklch": "oklch(0.932 0.012 43.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Violet",
+      "hex": "#1d1427",
+      "oklch": "oklch(0.212 0.038 305.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Plum Red",
+      "hex": "#9f3150",
+      "oklch": "oklch(0.485 0.146 7.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Suction Rose",
+      "hex": "#c86a76",
+      "oklch": "oklch(0.635 0.119 13.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Reef Mauve",
+      "hex": "#7f5c8d",
+      "oklch": "oklch(0.530 0.085 316.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Coral Ember",
+      "hex": "#d66b4a",
+      "oklch": "oklch(0.647 0.143 37.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Sucker",
+      "hex": "#f4c6bc",
+      "oklch": "oklch(0.864 0.055 32.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Stone",
+      "hex": "#9e8b91",
+      "oklch": "oklch(0.656 0.024 356.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Rocky Reef",
+      "hex": "#4a3c46",
+      "oklch": "oklch(0.375 0.025 336.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.932 0.012 43.3)",
+    "foreground": "oklch(0.212 0.038 305.1)",
+    "card": "oklch(0.864 0.055 32.4)",
+    "card-foreground": "oklch(0.212 0.038 305.1)",
+    "popover": "oklch(0.864 0.055 32.4)",
+    "popover-foreground": "oklch(0.212 0.038 305.1)",
+    "primary": "oklch(0.485 0.146 7.4)",
+    "primary-foreground": "oklch(0.932 0.012 43.3)",
+    "secondary": "oklch(0.891 0.036 32.8)",
+    "secondary-foreground": "oklch(0.375 0.025 336.5)",
+    "muted": "oklch(0.883 0.042 32.6)",
+    "muted-foreground": "oklch(0.375 0.025 336.5)",
+    "accent": "oklch(0.530 0.085 316.0)",
+    "accent-foreground": "oklch(0.212 0.038 305.1)",
+    "destructive": "oklch(0.485 0.146 7.4)",
+    "border": "oklch(0.791 0.042 25.5)",
+    "input": "oklch(0.791 0.042 25.5)",
+    "ring": "oklch(0.635 0.119 13.0)",
+    "chart-1": "oklch(0.485 0.146 7.4)",
+    "chart-2": "oklch(0.635 0.119 13.0)",
+    "chart-3": "oklch(0.530 0.085 316.0)",
+    "chart-4": "oklch(0.647 0.143 37.8)",
+    "chart-5": "oklch(0.375 0.025 336.5)",
+    "sidebar": "oklch(0.887 0.040 33.4)",
+    "sidebar-foreground": "oklch(0.212 0.038 305.1)",
+    "sidebar-primary": "oklch(0.485 0.146 7.4)",
+    "sidebar-primary-foreground": "oklch(0.932 0.012 43.3)",
+    "sidebar-accent": "oklch(0.818 0.064 24.6)",
+    "sidebar-accent-foreground": "oklch(0.485 0.146 7.4)",
+    "sidebar-border": "oklch(0.791 0.042 25.5)",
+    "sidebar-ring": "oklch(0.635 0.119 13.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.212 0.038 305.1)",
+    "foreground": "oklch(0.932 0.012 43.3)",
+    "card": "oklch(0.321 0.029 326.2)",
+    "card-foreground": "oklch(0.932 0.012 43.3)",
+    "popover": "oklch(0.321 0.029 326.2)",
+    "popover-foreground": "oklch(0.932 0.012 43.3)",
+    "primary": "oklch(0.635 0.119 13.0)",
+    "primary-foreground": "oklch(0.212 0.038 305.1)",
+    "secondary": "oklch(0.439 0.025 338.4)",
+    "secondary-foreground": "oklch(0.932 0.012 43.3)",
+    "muted": "oklch(0.439 0.025 338.4)",
+    "muted-foreground": "oklch(0.810 0.016 12.5)",
+    "accent": "oklch(0.530 0.085 316.0)",
+    "accent-foreground": "oklch(0.212 0.038 305.1)",
+    "destructive": "oklch(0.485 0.146 7.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.635 0.119 13.0)",
+    "chart-1": "oklch(0.635 0.119 13.0)",
+    "chart-2": "oklch(0.485 0.146 7.4)",
+    "chart-3": "oklch(0.530 0.085 316.0)",
+    "chart-4": "oklch(0.647 0.143 37.8)",
+    "chart-5": "oklch(0.656 0.024 356.7)",
+    "sidebar": "oklch(0.289 0.032 319.5)",
+    "sidebar-foreground": "oklch(0.932 0.012 43.3)",
+    "sidebar-primary": "oklch(0.635 0.119 13.0)",
+    "sidebar-primary-foreground": "oklch(0.212 0.038 305.1)",
+    "sidebar-accent": "oklch(0.439 0.025 338.4)",
+    "sidebar-accent-foreground": "oklch(0.932 0.012 43.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.635 0.119 13.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Flexible 8px product grids, tentacle-curve separators, suction-cup status marks, automation panels, and adaptive rocky-reef hierarchy.",
+  "tags": [
+    "octopus",
+    "marine",
+    "reef",
+    "flexible",
+    "automation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-octopus/motif.png",
+    "board": "/systems/morphous-octopus/design-system-light.png",
+    "darkBoard": "/systems/morphous-octopus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-octopus/theme.css",
+    "themeJson": "/systems/morphous-octopus/theme.json",
+    "promptsJson": "/systems/morphous-octopus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent octopus motif source",
+      "asset": "/systems/morphous-octopus/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an octopus tentacle and partial body silhouette, isolated full subject, no environment, no props, no text.\nSubject: A flexible octopus form with plum red skin, ink violet shadows, coral grey reflected highlights, pale suction cups, reef mauve undertones, coral ember accents, and accurate soft marine anatomy.\nComposition/framing: centered complete cutout with generous padding; do not crop the visible tentacle tips or body edge.\nLighting/mood: clean studio light that preserves skin texture, suction-cup detail, flexible silhouette, and rich reef color.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no reef background, no water scene, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-octopus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Octopus\" derived from the visible transparent octopus cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the plum red skin, ink violet shadows, coral grey highlights, pale suction cups, reef mauve undertones, coral ember accents, and flexible tentacle geometry in the visible cutout. The light and dark design-system boards are the reference for coding any future theme, so token roles and component examples must be clear and readable.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Octopus, Octopus, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, coral-grey surfaces, suction-cup micro-patterns, tentacle-curve dividers, flexible automation-system mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: coral grey, plum red, suction rose, reef mauve, coral ember, pale sucker, soft stone, rocky reef, ink violet.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Octopus\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-octopus/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Octopus design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent octopus cutout and the visible light-mode Morphous Octopus board as references. Preserve the plum red, ink violet, coral grey, and suction-cup palette roles, flexible component language, tentacle dividers, automation spacing, Japanese typography, and shadcn/tweakcn component coverage. The light and dark design-system boards are the reference for coding any future theme, so dark-mode token roles and component states must be clear.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Octopus, Octopus, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from ink violet and rocky reef, light text from coral grey, primary accents from plum red, secondary accents from suction rose and reef mauve, coral ember status details, restrained contrast, subtle suction-cup and tentacle overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Octopus\"."
+    }
+  ]
+}

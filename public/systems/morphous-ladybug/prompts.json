@@ -1,0 +1,20 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent Ladybug motif",
+    "asset": "/systems/morphous-ladybug/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Ladybug transparent motif chroma-key source\nPrimary request: Create only a ladybug shell or ladybug motif, isolated full subject, no environment, no props, no text.\nSubject: A realistic-stylized ladybug shell motif that clearly reads as ladybug: glossy vermilion red elytra, crisp black spots, black head/body accents, subtle dew-white highlights, tiny natural specular droplets, compact friendly rounded form, accurate insect silhouette, clean edges.\nComposition/framing: centered complete cutout with generous padding on all sides; show the full shell/body without cropping; no cast shadow.\nLighting/mood: clean studio light that preserves glossy shell color, black spot contrast, and compact form detail.\nChroma-key workflow: generate on a perfectly flat solid #ff00ff background with no shadows, gradients, texture, reflections, floor plane, watermark, or text; do not use #ff00ff in the subject. Copy the exact generated source to .source/motif-chroma.png, then remove the chroma key with ${CODEX_HOME:-$HOME/.codex}/skills/.system/imagegen/scripts/remove_chroma_key.py using auto-key border, soft matte, and despill to create transparent RGBA motif.png.\nConstraints: no garden background, no leaf perch, no flowers, no second insect, no shadow, no floor plane."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light design-system board",
+    "asset": "/systems/morphous-ladybug/design-system-light.png",
+    "prompt": "Create one wide 16:9 comprehensive light-mode design-system board for \"Morphous Ladybug\" / \"Ladybug\", source reference for a shadcn/tweakcn theme. Use the transparent ladybug motif as the visual source for a palette of Shell Vermilion #e83222, Deep Elytra Red #b91f18, Dot Black #141313, Gloss Black #050505, Leaf Green #3f7d3a, Fresh Leaf #7fae45, Dew White #f8fbf2, Warm Garden Neutral #ebe4d2, and Soil Umber #4b3527. Include readable English and Japanese typography guidance plus palette, typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture/pattern, radius, spacing, shadow, tokens, and a compact friendly app preview. Use dotted shell badges, vermilion active states, leaf-vein dividers, dew-white surfaces, warm garden neutrals, compact 8px radius controls, and friendly app density. Exclude unrelated bright colors, generic purple or blue gradients, random brands, tiny unreadable paragraphs, landing page hero composition, watermarks, and misspellings."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark design-system board",
+    "asset": "/systems/morphous-ladybug/design-system-dark.png",
+    "prompt": "Create one wide 16:9 comprehensive dark-mode design-system board for \"Morphous Ladybug\" / \"Ladybug\", translated from the light board and the same transparent motif. Keep the same compact component language, dotted shell badges, leaf-vein dividers, shadcn/tweakcn component coverage, English and Japanese typography guidance, palette, typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture/pattern, radius, spacing, shadow, tokens, and compact app preview. Use Graphite Shell #141313, Deep Spot Black #050505, Night Soil #201813, luminous Shell Vermilion #ff3b24, Deep Elytra Red #c7271d, Leaf Green #74ae5a, Fresh Leaf Glow #9ac85f, Dew White #f3f8ec, Mist Grey #aeb8a9, and Warm Garden Line #5b4938. Preserve vermilion actions, dew-white readability, green support accents, shell-gloss highlights, and compact friendly app density. Exclude neon colors, unrelated saturated colors, generic purple or blue gradients, pure-flat black-only backgrounds, random brands, tiny unreadable paragraphs, watermarks, and misspellings."
+  }
+]

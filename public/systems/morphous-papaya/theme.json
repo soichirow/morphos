@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-papaya",
+    "name": "Morphous Papaya",
+    "motifName": "Papaya",
+    "motifCategory": "fruit",
+    "biome": "tropical farm",
+    "motif": "papaya fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Papaya Cream",
+      "hex": "#fff0dc",
+      "oklch": "oklch(0.962 0.031 75.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Ink",
+      "hex": "#1e1711",
+      "oklch": "oklch(0.211 0.016 62.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Melon Orange",
+      "hex": "#ef7d2d",
+      "oklch": "oklch(0.707 0.165 50.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Papaya Flesh",
+      "hex": "#f4a047",
+      "oklch": "oklch(0.774 0.143 64.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ripe Coral",
+      "hex": "#dc5b36",
+      "oklch": "oklch(0.631 0.170 36.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#4f7d3b",
+      "oklch": "oklch(0.540 0.108 137.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Rind Cream",
+      "hex": "#f5dec2",
+      "oklch": "oklch(0.912 0.045 72.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Farm Green",
+      "hex": "#79a455",
+      "oklch": "oklch(0.669 0.118 132.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Seed Black",
+      "hex": "#2a2118",
+      "oklch": "oklch(0.255 0.021 66.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.031 75.2)",
+    "foreground": "oklch(0.211 0.016 62.4)",
+    "card": "oklch(0.912 0.045 72.7)",
+    "card-foreground": "oklch(0.211 0.016 62.4)",
+    "popover": "oklch(0.912 0.045 72.7)",
+    "popover-foreground": "oklch(0.211 0.016 62.4)",
+    "primary": "oklch(0.707 0.165 50.9)",
+    "primary-foreground": "oklch(0.962 0.031 75.2)",
+    "secondary": "oklch(0.934 0.039 74.8)",
+    "secondary-foreground": "oklch(0.255 0.021 66.6)",
+    "muted": "oklch(0.926 0.041 73.2)",
+    "muted-foreground": "oklch(0.255 0.021 66.6)",
+    "accent": "oklch(0.631 0.170 36.6)",
+    "accent-foreground": "oklch(0.211 0.016 62.4)",
+    "destructive": "oklch(0.707 0.165 50.9)",
+    "border": "oklch(0.824 0.061 108.7)",
+    "input": "oklch(0.824 0.061 108.7)",
+    "ring": "oklch(0.774 0.143 64.1)",
+    "chart-1": "oklch(0.707 0.165 50.9)",
+    "chart-2": "oklch(0.774 0.143 64.1)",
+    "chart-3": "oklch(0.631 0.170 36.6)",
+    "chart-4": "oklch(0.540 0.108 137.0)",
+    "chart-5": "oklch(0.255 0.021 66.6)",
+    "sidebar": "oklch(0.929 0.040 73.4)",
+    "sidebar-foreground": "oklch(0.211 0.016 62.4)",
+    "sidebar-primary": "oklch(0.707 0.165 50.9)",
+    "sidebar-primary-foreground": "oklch(0.962 0.031 75.2)",
+    "sidebar-accent": "oklch(0.884 0.059 66.9)",
+    "sidebar-accent-foreground": "oklch(0.707 0.165 50.9)",
+    "sidebar-border": "oklch(0.824 0.061 108.7)",
+    "sidebar-ring": "oklch(0.774 0.143 64.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.211 0.016 62.4)",
+    "foreground": "oklch(0.962 0.031 75.2)",
+    "card": "oklch(0.242 0.019 66.7)",
+    "card-foreground": "oklch(0.962 0.031 75.2)",
+    "popover": "oklch(0.242 0.019 66.7)",
+    "popover-foreground": "oklch(0.962 0.031 75.2)",
+    "primary": "oklch(0.774 0.143 64.1)",
+    "primary-foreground": "oklch(0.211 0.016 62.4)",
+    "secondary": "oklch(0.354 0.040 114.1)",
+    "secondary-foreground": "oklch(0.962 0.031 75.2)",
+    "muted": "oklch(0.354 0.040 114.1)",
+    "muted-foreground": "oklch(0.831 0.064 118.5)",
+    "accent": "oklch(0.631 0.170 36.6)",
+    "accent-foreground": "oklch(0.211 0.016 62.4)",
+    "destructive": "oklch(0.707 0.165 50.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.774 0.143 64.1)",
+    "chart-1": "oklch(0.774 0.143 64.1)",
+    "chart-2": "oklch(0.707 0.165 50.9)",
+    "chart-3": "oklch(0.631 0.170 36.6)",
+    "chart-4": "oklch(0.540 0.108 137.0)",
+    "chart-5": "oklch(0.669 0.118 132.3)",
+    "sidebar": "oklch(0.233 0.019 66.6)",
+    "sidebar-foreground": "oklch(0.962 0.031 75.2)",
+    "sidebar-primary": "oklch(0.774 0.143 64.1)",
+    "sidebar-primary-foreground": "oklch(0.211 0.016 62.4)",
+    "sidebar-accent": "oklch(0.354 0.040 114.1)",
+    "sidebar-accent-foreground": "oklch(0.962 0.031 75.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.774 0.143 64.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Warm marketplace English UI with clear commercial hierarchy, legible numbers, and Japanese typography guidance.",
+  "layout": "Marketplace grids, papaya seed-dot texture, melon panels, 8px radii, clear navigation, and warm transactional states.",
+  "tags": [
+    "papaya",
+    "fruit",
+    "tropical",
+    "marketplace",
+    "orange",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-papaya/motif.png",
+    "board": "/systems/morphous-papaya/design-system-light.png",
+    "darkBoard": "/systems/morphous-papaya/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-papaya/theme.css",
+    "themeJson": "/systems/morphous-papaya/theme.json",
+    "promptsJson": "/systems/morphous-papaya/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent papaya fruit motif",
+      "asset": "/systems/morphous-papaya/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Papaya transparent motif chroma-key source\nPrimary request: Create only a papaya fruit motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A tropical farm papaya cut lengthwise with rich melon-orange flesh, clustered glossy seed-black seeds in the center cavity, cream-green rind, and one broad papaya leaf accent. Botanical accuracy, crisp subject edges, juicy tropical texture, unmistakably papaya.\nComposition/framing: centered complete cutout with generous padding; include the long papaya half, a small whole-fruit edge, seeds, rind, and leaf without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no mango, no cantaloupe, no pumpkin, no passionfruit, no plate, no hand, no props, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-papaya/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Papaya light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Papaya\", derived from the visible papaya fruit cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible marketplace UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Papaya, Papaya Fruit, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from melon-orange papaya flesh, glossy seed-black center, cream-green rind, tropical leaf green, ripe coral shadows, and warm farm light. The board must read as papaya, not mango, pumpkin, or cantaloupe.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, papaya-cream surfaces, melon-orange primary actions, seed-black tiny markers, ripe-coral badges, leaf-green success states, rind dividers, papaya seed texture.\nConstraints: no mango identity, no pumpkin, no cantaloupe rind netting, no tropical beach imagery, no generic orange-only palette, no watermark, no random brand names, no misspelling of \"Morphous Papaya\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-papaya/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Papaya dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Papaya\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the papaya fruit cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Papaya, Papaya Fruit, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve papaya system language: melon-orange actions, seed-black rhythm, ripe-coral highlights, leaf-green controls, rind-cream text, warm seed-cavity dark surfaces, papaya seed texture, 8px radius, precise shadcn/tweakcn component grid. Must read as papaya, not mango or pumpkin.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: dark seed-ink and toasted rind surfaces, papaya-cream foreground, melon-orange active states, ripe-coral chart highlights, leaf green focus/control accents, subtle seed-dot overlays, crisp cards and controls.\nConstraints: no mango identity, no pumpkin, no cantaloupe, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Papaya\"."
+    }
+  ]
+}

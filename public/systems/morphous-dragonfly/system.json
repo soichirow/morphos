@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-dragonfly",
+  "name": "Morphous Dragonfly",
+  "motifName": "Blue Dasher Dragonfly",
+  "motifCategory": "insect",
+  "biome": "Wetland",
+  "motif": "transparent wing grid",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Dragonfly light and dark design-system boards: glass-blue actions, reed-green support, graphite text, translucent wing surfaces, and precise analytical hierarchy.",
+  "typography": "Geist for lightweight product UI with Noto Sans guidance for multilingual labels, analytical tables, and crisp numeric rhythm.",
+  "layout": "Precise 8px analytical grids, transparent wing-vein dividers, reed-like navigation rails, compact dashboard cards, and airy wetland spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "dragonfly",
+    "blue-dasher",
+    "insect",
+    "wetland",
+    "analytical",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Reed White",
+      "hex": "#f4faf8"
+    },
+    {
+      "role": "Ink",
+      "name": "Graphite Thorax",
+      "hex": "#20262a"
+    },
+    {
+      "role": "Primary",
+      "name": "Glass Wing Blue",
+      "hex": "#43a6c6"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reed Green",
+      "hex": "#5f7f4b"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Vein Cyan",
+      "hex": "#8bd4e8"
+    },
+    {
+      "role": "Signal",
+      "name": "Wetland Amber",
+      "hex": "#c69b4a"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Membrane",
+      "hex": "#dceff2"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Reed Shadow",
+      "hex": "#94a79a"
+    },
+    {
+      "role": "Depth",
+      "name": "Pond Graphite",
+      "hex": "#344247"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

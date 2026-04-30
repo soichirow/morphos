@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lichen",
+    "name": "Morphous Lichen",
+    "motifName": "Lichen on Stone",
+    "motifCategory": "plant",
+    "biome": "Alpine Rock",
+    "motif": "weathered knowledge surface"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stone Light",
+      "hex": "#f0f1ea",
+      "oklch": "oklch(0.955 0.009 113.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Slate Ink",
+      "hex": "#1f2522",
+      "oklch": "oklch(0.257 0.010 164.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pale Sage",
+      "hex": "#9eae82",
+      "oklch": "oklch(0.727 0.064 124.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mineral Grey",
+      "hex": "#8b9089",
+      "oklch": "oklch(0.647 0.012 136.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Orange",
+      "hex": "#c16a32",
+      "oklch": "oklch(0.614 0.131 50.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lichen Mint",
+      "hex": "#c8d5a7",
+      "oklch": "oklch(0.851 0.063 120.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Chalk Stone",
+      "hex": "#dedfd4",
+      "oklch": "oklch(0.900 0.015 110.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Weather Grey",
+      "hex": "#aeb2aa",
+      "oklch": "oklch(0.758 0.012 128.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Granite",
+      "hex": "#3c403c",
+      "oklch": "oklch(0.366 0.009 145.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.009 113.2)",
+    "foreground": "oklch(0.257 0.010 164.1)",
+    "card": "oklch(0.900 0.015 110.9)",
+    "card-foreground": "oklch(0.257 0.010 164.1)",
+    "popover": "oklch(0.900 0.015 110.9)",
+    "popover-foreground": "oklch(0.257 0.010 164.1)",
+    "primary": "oklch(0.727 0.064 124.2)",
+    "primary-foreground": "oklch(0.955 0.009 113.2)",
+    "secondary": "oklch(0.924 0.013 111.3)",
+    "secondary-foreground": "oklch(0.366 0.009 145.4)",
+    "muted": "oklch(0.915 0.013 111.3)",
+    "muted-foreground": "oklch(0.366 0.009 145.4)",
+    "accent": "oklch(0.614 0.131 50.6)",
+    "accent-foreground": "oklch(0.257 0.010 164.1)",
+    "destructive": "oklch(0.727 0.064 124.2)",
+    "border": "oklch(0.850 0.014 115.9)",
+    "input": "oklch(0.850 0.014 115.9)",
+    "ring": "oklch(0.647 0.012 136.6)",
+    "chart-1": "oklch(0.727 0.064 124.2)",
+    "chart-2": "oklch(0.647 0.012 136.6)",
+    "chart-3": "oklch(0.614 0.131 50.6)",
+    "chart-4": "oklch(0.851 0.063 120.6)",
+    "chart-5": "oklch(0.366 0.009 145.4)",
+    "sidebar": "oklch(0.918 0.013 111.3)",
+    "sidebar-foreground": "oklch(0.257 0.010 164.1)",
+    "sidebar-primary": "oklch(0.727 0.064 124.2)",
+    "sidebar-primary-foreground": "oklch(0.955 0.009 113.2)",
+    "sidebar-accent": "oklch(0.879 0.020 116.0)",
+    "sidebar-accent-foreground": "oklch(0.727 0.064 124.2)",
+    "sidebar-border": "oklch(0.850 0.014 115.9)",
+    "sidebar-ring": "oklch(0.647 0.012 136.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.010 164.1)",
+    "foreground": "oklch(0.955 0.009 113.2)",
+    "card": "oklch(0.331 0.010 151.6)",
+    "card-foreground": "oklch(0.955 0.009 113.2)",
+    "popover": "oklch(0.331 0.010 151.6)",
+    "popover-foreground": "oklch(0.955 0.009 113.2)",
+    "primary": "oklch(0.647 0.012 136.6)",
+    "primary-foreground": "oklch(0.257 0.010 164.1)",
+    "secondary": "oklch(0.459 0.009 139.4)",
+    "secondary-foreground": "oklch(0.955 0.009 113.2)",
+    "muted": "oklch(0.459 0.009 139.4)",
+    "muted-foreground": "oklch(0.868 0.011 123.5)",
+    "accent": "oklch(0.614 0.131 50.6)",
+    "accent-foreground": "oklch(0.257 0.010 164.1)",
+    "destructive": "oklch(0.727 0.064 124.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.647 0.012 136.6)",
+    "chart-1": "oklch(0.647 0.012 136.6)",
+    "chart-2": "oklch(0.727 0.064 124.2)",
+    "chart-3": "oklch(0.614 0.131 50.6)",
+    "chart-4": "oklch(0.851 0.063 120.6)",
+    "chart-5": "oklch(0.758 0.012 128.6)",
+    "sidebar": "oklch(0.307 0.009 159.6)",
+    "sidebar-foreground": "oklch(0.955 0.009 113.2)",
+    "sidebar-primary": "oklch(0.647 0.012 136.6)",
+    "sidebar-primary-foreground": "oklch(0.257 0.010 164.1)",
+    "sidebar-accent": "oklch(0.459 0.009 139.4)",
+    "sidebar-accent-foreground": "oklch(0.955 0.009 113.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.647 0.012 136.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Weathered 8px knowledge grids, mineral panels, lichen-edge dividers, annotation-friendly cards, and durable alpine hierarchy.",
+  "tags": [
+    "lichen",
+    "plant",
+    "alpine-rock",
+    "weathered",
+    "knowledge",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lichen/motif.png",
+    "board": "/systems/morphous-lichen/design-system-light.png",
+    "darkBoard": "/systems/morphous-lichen/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lichen/theme.css",
+    "themeJson": "/systems/morphous-lichen/theme.json",
+    "promptsJson": "/systems/morphous-lichen/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lichen motif source",
+      "asset": "/systems/morphous-lichen/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a lichen-covered stone fragment, isolated full subject, no environment, no props, no text.\nSubject: An alpine rock fragment with pale sage lichen, mineral grey stone texture, small rust orange patches, lichen mint highlights, weathered edges, and natural geological detail.\nComposition/framing: centered complete cutout with generous padding; do not crop the stone edge or lichen patches.\nLighting/mood: clean studio light that preserves lichen crust texture, mineral grain, rust patches, and stone depth.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no alpine scene, no soil bed, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lichen/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lichen\" derived from the visible transparent lichen on stone cutout.\nReference use: This light design-system board is the source reference for coding any future theme. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from pale sage lichen, mineral grey stone, rust orange patches, lichen mint highlights, chalk stone surfaces, weather grey edges, and slate ink shadows in the visible lichen cutout.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Lichen, Lichen on Stone, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese product UI examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style knowledge system, realistic UI mockup, precise grid, 8px card radius, mineral panels, lichen-edge dividers, annotation-friendly weathered surfaces.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: pale sage, mineral grey, rust orange, lichen mint, chalk stone, weather grey, dark granite, slate ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Lichen\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lichen/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Lichen design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent lichen on stone cutout and the visible light-mode Morphous Lichen board as references. The light and dark design-system boards are the source references for coding any future theme, so preserve palette roles, component language, mineral texture, lichen-edge dividers, spacing, Japanese typography, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Lichen, Lichen on Stone, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from slate ink and dark granite, light text from stone light, primary accents from pale sage, secondary accents from mineral grey and lichen mint, rust orange signals and charts, weather grey borders, subtle mineral grain overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Lichen\"."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sunflower",
+    "name": "Sunflower",
+    "motifName": "Sunflower Head",
+    "motifCategory": "flower",
+    "biome": "Prairie",
+    "motif": "sunflower head"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Prairie Cream",
+      "hex": "#fff8e6",
+      "oklch": "oklch(0.980 0.025 89.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Brown",
+      "hex": "#2b1a12",
+      "oklch": "oklch(0.238 0.031 46.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Solar Yellow",
+      "hex": "#ffc20a",
+      "oklch": "oklch(0.846 0.172 85.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#5a8f3f",
+      "oklch": "oklch(0.594 0.125 136.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Petal Gold",
+      "hex": "#ffd54f",
+      "oklch": "oklch(0.886 0.154 91.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Harvest Orange",
+      "hex": "#d97706",
+      "oklch": "oklch(0.666 0.157 58.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pollen Wash",
+      "hex": "#fff3c4",
+      "oklch": "oklch(0.962 0.062 95.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Prairie Sage",
+      "hex": "#e6e9d9",
+      "oklch": "oklch(0.927 0.022 115.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Seed Umber",
+      "hex": "#5a3a1e",
+      "oklch": "oklch(0.380 0.062 60.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.025 89.2)",
+    "foreground": "oklch(0.238 0.031 46.0)",
+    "card": "oklch(0.962 0.062 95.4)",
+    "card-foreground": "oklch(0.238 0.031 46.0)",
+    "popover": "oklch(0.962 0.062 95.4)",
+    "popover-foreground": "oklch(0.238 0.031 46.0)",
+    "primary": "oklch(0.846 0.172 85.4)",
+    "primary-foreground": "oklch(0.980 0.025 89.2)",
+    "secondary": "oklch(0.969 0.047 93.9)",
+    "secondary-foreground": "oklch(0.380 0.062 60.5)",
+    "muted": "oklch(0.966 0.051 93.7)",
+    "muted-foreground": "oklch(0.380 0.062 60.5)",
+    "accent": "oklch(0.886 0.154 91.2)",
+    "accent-foreground": "oklch(0.238 0.031 46.0)",
+    "destructive": "oklch(0.846 0.172 85.4)",
+    "border": "oklch(0.949 0.046 97.8)",
+    "input": "oklch(0.949 0.046 97.8)",
+    "ring": "oklch(0.594 0.125 136.2)",
+    "chart-1": "oklch(0.846 0.172 85.4)",
+    "chart-2": "oklch(0.594 0.125 136.2)",
+    "chart-3": "oklch(0.886 0.154 91.2)",
+    "chart-4": "oklch(0.666 0.157 58.3)",
+    "chart-5": "oklch(0.380 0.062 60.5)",
+    "sidebar": "oklch(0.969 0.049 94.6)",
+    "sidebar-foreground": "oklch(0.238 0.031 46.0)",
+    "sidebar-primary": "oklch(0.846 0.172 85.4)",
+    "sidebar-primary-foreground": "oklch(0.980 0.025 89.2)",
+    "sidebar-accent": "oklch(0.946 0.082 94.1)",
+    "sidebar-accent-foreground": "oklch(0.846 0.172 85.4)",
+    "sidebar-border": "oklch(0.949 0.046 97.8)",
+    "sidebar-ring": "oklch(0.594 0.125 136.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.238 0.031 46.0)",
+    "foreground": "oklch(0.980 0.025 89.2)",
+    "card": "oklch(0.333 0.052 57.7)",
+    "card-foreground": "oklch(0.980 0.025 89.2)",
+    "popover": "oklch(0.333 0.052 57.7)",
+    "popover-foreground": "oklch(0.980 0.025 89.2)",
+    "primary": "oklch(0.594 0.125 136.2)",
+    "primary-foreground": "oklch(0.238 0.031 46.0)",
+    "secondary": "oklch(0.510 0.049 68.6)",
+    "secondary-foreground": "oklch(0.980 0.025 89.2)",
+    "muted": "oklch(0.510 0.049 68.6)",
+    "muted-foreground": "oklch(0.956 0.023 98.6)",
+    "accent": "oklch(0.886 0.154 91.2)",
+    "accent-foreground": "oklch(0.238 0.031 46.0)",
+    "destructive": "oklch(0.846 0.172 85.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.594 0.125 136.2)",
+    "chart-1": "oklch(0.594 0.125 136.2)",
+    "chart-2": "oklch(0.846 0.172 85.4)",
+    "chart-3": "oklch(0.886 0.154 91.2)",
+    "chart-4": "oklch(0.666 0.157 58.3)",
+    "chart-5": "oklch(0.927 0.022 115.4)",
+    "sidebar": "oklch(0.306 0.045 55.4)",
+    "sidebar-foreground": "oklch(0.980 0.025 89.2)",
+    "sidebar-primary": "oklch(0.594 0.125 136.2)",
+    "sidebar-primary-foreground": "oklch(0.238 0.031 46.0)",
+    "sidebar-accent": "oklch(0.510 0.049 68.6)",
+    "sidebar-accent-foreground": "oklch(0.980 0.025 89.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.594 0.125 136.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for bright metric dashboards with Noto Sans JP guidance for Japanese labels, concise summaries, and warm numeric hierarchy.",
+  "layout": "Precise 8px grids, radial seed-chart modules, sunny metric cards, leaf-green navigation states, and prairie-cream information density.",
+  "tags": [
+    "sunflower",
+    "flower",
+    "prairie",
+    "solar",
+    "metrics",
+    "optimistic",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sunflower/motif.png",
+    "board": "/systems/morphous-sunflower/design-system-light.png",
+    "darkBoard": "/systems/morphous-sunflower/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sunflower/theme.css",
+    "themeJson": "/systems/morphous-sunflower/theme.json",
+    "promptsJson": "/systems/morphous-sunflower/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sunflower motif",
+      "asset": "/systems/morphous-sunflower/motif.png",
+      "sourceAsset": "/systems/morphous-sunflower/.source/motif-chroma.png",
+      "workflow": "Generate the sunflower head on a perfectly flat solid #ff00ff chroma-key background, copy the exact generated source to .source/motif-chroma.png, then remove the key with remove_chroma_key.py using auto-key border, soft matte, transparent threshold 12, opaque threshold 220, and despill. The final motif.png is RGBA with transparent corners.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only an isolated sunflower head, front-facing with a very slight natural angle, no environment, no props, no text.\nSubject: A mature sunflower head that clearly reads as a sunflower, not a daisy or marigold: broad golden yellow petals with petal-gold highlights, dark seed-brown circular center with visible radial seed geometry, subtle leaf-green calyx and a small hint of stem or leaf only if naturally visible behind the head, crisp botanical texture, clean silhouette.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop petals, calyx, or any visible stem/leaf.\nLighting/mood: clean studio light that preserves solar yellow petals, dark seed-brown center, leaf-green detail, and natural form.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for later removal. The background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, lighting variation, vignette, border, or pattern. Do not use #ff00ff anywhere in the flower.\nConstraints: no text, no watermark, no prairie background, no vase, no field, no second flower, no shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-sunflower/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive 3840x2160-style 16:9 light-mode design-system board for a Morphous theme named \"Sunflower\", derived from the provided transparent sunflower head cutout. It must be a single wide board, not a poster crop.\nResolution and legibility: make the board high-resolution and very wide, with large readable labels and roomy sections. Avoid tiny token tables. Prioritize crisp readable text and clear UI examples.\nReference use: Use the visible sunflower cutout as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from solar yellow petals, petal-gold highlights, dark seed-brown center, leaf-green calyx/stem, radial seed geometry, and warm prairie context. The board must visibly respect the motif colors, not generic yellow.\nRequired visible sections: title \"Sunflower\", motif story, palette swatches, typography, Japanese typography, components, navigation/sidebar, optimistic metrics dashboard preview, forms, table, command/search, status states, texture/pattern guidance, radius, spacing, shadow, tokens, generated asset examples.\nTypography: include English and Japanese examples; use readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric. Show guidance for an optimistic metric system and dashboard-heavy product UI.\nUI coverage: buttons, icon buttons, inputs, select menu, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, metric cards, line chart, bar chart, donut/radial seed chart, empty state, error state, loading state, spacing tokens, 8px radius tokens, border and shadow tokens, subtle seed-pattern texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system board, realistic UI mockup, precise alignment, compact professional dashboard composition, 8px card radius, prairie-cream and warm sky/off-white surfaces, solar yellow actions, seed-brown text/depth, leaf-green support accents, petal-gold highlights.\nColor palette labels: Solar Yellow, Petal Gold, Seed Brown, Seed Umber, Leaf Green, Prairie Cream, Pollen Wash, Warm Sky, Prairie Sage.\nText: short readable UI labels; include readable English and Japanese UI samples. Avoid long paragraphs and avoid tiny unreadable token tables.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Sunflower\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-sunflower/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive 3840x2160-style 16:9 dark-mode design-system board for the \"Sunflower\" Morphous system. It must feel like the provided light-mode Sunflower board translated to dark mode, not a new theme.\nReference use: Use the visible transparent sunflower cutout and the visible light-mode Sunflower design-system board as references. Preserve the palette roles, component language, typography guidance, optimistic metrics dashboard structure, radial seed texture, spacing rhythm, and shadcn/tweakcn coverage.\nResolution and legibility: make the board high-resolution and wide, with large readable labels and roomy sections. Avoid tiny token tables. Prioritize crisp readable English and Japanese text.\nRequired visible sections: title \"Sunflower\", \"Dark Mode\", palette swatches, typography, Japanese typography, components, navigation/sidebar, optimistic metrics dashboard preview, forms, table, command/search, status states, texture/pattern guidance, radius, spacing, shadow, tokens, generated asset examples.\nTypography: include English and Japanese examples; use readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric. Keep the same multilingual product UI guidance as the light board.\nUI coverage: buttons, icon buttons, inputs, select menu, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, metric cards, line chart, bar chart, donut/radial seed chart, empty state, error state, loading state, spacing tokens, 8px radius tokens, border and shadow tokens, subtle seed-pattern texture samples.\nVisual details: deep seed-brown and charcoal surfaces, warm cream readable text, solar yellow primary highlights, petal-gold focus rings, leaf-green supportive accents, seed umber borders and shadows, subtle radial seed overlays, crisp shadcn-style cards and controls. Avoid pure black dominance; use warm botanical dark surfaces.\nColor palette labels: Solar Yellow, Petal Gold, Seed Brown, Seed Umber, Leaf Green, Prairie Cream, Warm Charcoal, Dark Pollen, Prairie Sage.\nText: short readable UI labels; include readable English and Japanese UI samples. Avoid long paragraphs and avoid tiny unreadable token tables.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Sunflower\"."
+    }
+  ]
+}

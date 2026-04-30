@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-owl",
+  "name": "Morphous Owl",
+  "motifName": "Owl",
+  "motifCategory": "bird",
+  "biome": "Old Forest",
+  "motif": "owl face and feather",
+  "description": "A shadcn/tweakcn-compatible focused research system to be coded from the Owl light and dark design-system boards: warm taupe surfaces, amber-eye focus, charcoal text, feather-brown depth, and old-forest neutrals. The light and dark design-system boards are the reference for coding any future theme.",
+  "typography": "Geist for focused research UI with Noto Sans JP guidance for dense reading, labels, and numeric rhythm.",
+  "layout": "Measured 8px grids, facial-disc framing, feather-line dividers, document panels, and quiet research dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "owl",
+    "bird",
+    "forest",
+    "focused",
+    "research",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Pale Taupe", "hex": "#f4eee4" },
+    { "role": "Ink", "name": "Feather Charcoal", "hex": "#24201d" },
+    { "role": "Primary", "name": "Amber Eye", "hex": "#d89121" },
+    { "role": "Secondary", "name": "Warm Taupe", "hex": "#9a8064" },
+    { "role": "Accent", "name": "Bark Brown", "hex": "#6b4a34" },
+    { "role": "Signal", "name": "Old Gold", "hex": "#b97925" },
+    { "role": "Surface", "name": "Down Feather", "hex": "#e6d7c4" },
+    { "role": "Muted", "name": "Forest Grey", "hex": "#7c746b" },
+    { "role": "Depth", "name": "Night Hollow", "hex": "#302a24" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

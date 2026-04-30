@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-chameleon",
+  "name": "Morphous Chameleon",
+  "motifName": "Chameleon",
+  "motifCategory": "reptile",
+  "biome": "Tropical Branch",
+  "motif": "chameleon profile",
+  "description": "A shadcn/tweakcn-compatible adaptive settings system to be coded from the Chameleon light and dark design-system boards: lime actions, teal state changes, ochre focus, bark-brown depth, and adaptive scale texture. The light and dark design-system boards are the reference for coding any future theme.",
+  "typography": "Geist for adaptive settings UI with Noto Sans JP guidance for control labels, headings, and numeric rhythm.",
+  "layout": "Configurable 8px grids, scale-chip controls, branch-like navigation, settings panels, and adaptive state surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "chameleon",
+    "reptile",
+    "tropical",
+    "adaptive",
+    "settings",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Branch Cream", "hex": "#f3e9d6" },
+    { "role": "Ink", "name": "Scale Ink", "hex": "#20251d" },
+    { "role": "Primary", "name": "Lime Scale", "hex": "#c6e13a" },
+    { "role": "Secondary", "name": "Adaptive Teal", "hex": "#0da9a6" },
+    { "role": "Accent", "name": "Ochre Eye", "hex": "#d6a23a" },
+    { "role": "Signal", "name": "Leaf Shift", "hex": "#9acd56" },
+    { "role": "Surface", "name": "Scale Highlight", "hex": "#dff6e7" },
+    { "role": "Muted", "name": "Bark Brown", "hex": "#5b4634" },
+    { "role": "Depth", "name": "Tropical Shadow", "hex": "#15322e" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

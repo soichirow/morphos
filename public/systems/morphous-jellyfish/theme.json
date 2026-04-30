@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jellyfish",
+    "name": "Morphous Jellyfish",
+    "motifName": "Jellyfish",
+    "motifCategory": "marine",
+    "biome": "Open Sea",
+    "motif": "jellyfish bell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sea Mist",
+      "hex": "#eef8fb",
+      "oklch": "oklch(0.973 0.011 217.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Ink",
+      "hex": "#101827",
+      "oklch": "oklch(0.209 0.032 262.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bell Lavender",
+      "hex": "#b58ce4",
+      "oklch": "oklch(0.712 0.131 304.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Glow Cyan",
+      "hex": "#49c6d8",
+      "oklch": "oklch(0.765 0.111 208.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Deep Blue",
+      "hex": "#214f8f",
+      "oklch": "oklch(0.431 0.117 257.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Tentacle Violet",
+      "hex": "#7a5cc8",
+      "oklch": "oklch(0.558 0.161 293.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Translucent Pearl",
+      "hex": "#f6eafd",
+      "oklch": "oklch(0.952 0.028 313.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Drift Blue",
+      "hex": "#8ab9c8",
+      "oklch": "oklch(0.758 0.054 219.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Open Sea",
+      "hex": "#16345c",
+      "oklch": "oklch(0.325 0.080 256.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.011 217.5)",
+    "foreground": "oklch(0.209 0.032 262.4)",
+    "card": "oklch(0.952 0.028 313.4)",
+    "card-foreground": "oklch(0.209 0.032 262.4)",
+    "popover": "oklch(0.952 0.028 313.4)",
+    "popover-foreground": "oklch(0.209 0.032 262.4)",
+    "primary": "oklch(0.712 0.131 304.7)",
+    "primary-foreground": "oklch(0.973 0.011 217.5)",
+    "secondary": "oklch(0.961 0.016 297.5)",
+    "secondary-foreground": "oklch(0.325 0.080 256.5)",
+    "muted": "oklch(0.958 0.020 305.3)",
+    "muted-foreground": "oklch(0.325 0.080 256.5)",
+    "accent": "oklch(0.431 0.117 257.4)",
+    "accent-foreground": "oklch(0.209 0.032 262.4)",
+    "destructive": "oklch(0.712 0.131 304.7)",
+    "border": "oklch(0.881 0.027 264.4)",
+    "input": "oklch(0.881 0.027 264.4)",
+    "ring": "oklch(0.765 0.111 208.6)",
+    "chart-1": "oklch(0.712 0.131 304.7)",
+    "chart-2": "oklch(0.765 0.111 208.6)",
+    "chart-3": "oklch(0.431 0.117 257.4)",
+    "chart-4": "oklch(0.558 0.161 293.3)",
+    "chart-5": "oklch(0.325 0.080 256.5)",
+    "sidebar": "oklch(0.959 0.018 300.1)",
+    "sidebar-foreground": "oklch(0.209 0.032 262.4)",
+    "sidebar-primary": "oklch(0.712 0.131 304.7)",
+    "sidebar-primary-foreground": "oklch(0.973 0.011 217.5)",
+    "sidebar-accent": "oklch(0.924 0.039 310.3)",
+    "sidebar-accent-foreground": "oklch(0.712 0.131 304.7)",
+    "sidebar-border": "oklch(0.881 0.027 264.4)",
+    "sidebar-ring": "oklch(0.765 0.111 208.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.209 0.032 262.4)",
+    "foreground": "oklch(0.973 0.011 217.5)",
+    "card": "oklch(0.285 0.065 257.8)",
+    "card-foreground": "oklch(0.973 0.011 217.5)",
+    "popover": "oklch(0.285 0.065 257.8)",
+    "popover-foreground": "oklch(0.973 0.011 217.5)",
+    "primary": "oklch(0.765 0.111 208.6)",
+    "primary-foreground": "oklch(0.209 0.032 262.4)",
+    "secondary": "oklch(0.426 0.070 251.1)",
+    "secondary-foreground": "oklch(0.973 0.011 217.5)",
+    "muted": "oklch(0.426 0.070 251.1)",
+    "muted-foreground": "oklch(0.877 0.031 217.5)",
+    "accent": "oklch(0.431 0.117 257.4)",
+    "accent-foreground": "oklch(0.209 0.032 262.4)",
+    "destructive": "oklch(0.712 0.131 304.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.765 0.111 208.6)",
+    "chart-1": "oklch(0.765 0.111 208.6)",
+    "chart-2": "oklch(0.712 0.131 304.7)",
+    "chart-3": "oklch(0.431 0.117 257.4)",
+    "chart-4": "oklch(0.558 0.161 293.3)",
+    "chart-5": "oklch(0.758 0.054 219.5)",
+    "sidebar": "oklch(0.264 0.055 257.6)",
+    "sidebar-foreground": "oklch(0.973 0.011 217.5)",
+    "sidebar-primary": "oklch(0.765 0.111 208.6)",
+    "sidebar-primary-foreground": "oklch(0.209 0.032 262.4)",
+    "sidebar-accent": "oklch(0.426 0.070 251.1)",
+    "sidebar-accent-foreground": "oklch(0.973 0.011 217.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.765 0.111 208.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Fluid 8px product grids, translucent dividers, floating panels, luminous analytics cards, and calm open-sea hierarchy.",
+  "tags": [
+    "jellyfish",
+    "marine",
+    "open-sea",
+    "translucent",
+    "analytics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jellyfish/motif.png",
+    "board": "/systems/morphous-jellyfish/design-system-light.png",
+    "darkBoard": "/systems/morphous-jellyfish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jellyfish/theme.css",
+    "themeJson": "/systems/morphous-jellyfish/theme.json",
+    "promptsJson": "/systems/morphous-jellyfish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent jellyfish motif source",
+      "asset": "/systems/morphous-jellyfish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a jellyfish, isolated full subject, no environment, no props, no text.\nSubject: A graceful jellyfish with a translucent lavender bell, flowing tentacles, cyan glow edges, deep blue shadow detail, soft violet internal structure, and accurate open-sea anatomy.\nComposition/framing: centered complete cutout with generous padding; do not crop the bell or tentacles.\nLighting/mood: clean studio light that preserves translucency, soft glow, membrane detail, and delicate tentacle strands.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no ocean background, no bubbles, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-jellyfish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Jellyfish\" derived from the visible transparent jellyfish cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the translucent lavender bell, cyan glow edges, deep blue shadows, violet tentacles, membrane gradients, and floating structure in the visible cutout. The light and dark design-system boards are the reference for coding any future theme, so token roles and component examples must be clear and readable.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Jellyfish, Jellyfish, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line/bar charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, translucent pearl surfaces, soft membrane overlays, tentacle-line dividers, ethereal analytics-system mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: sea mist, bell lavender, glow cyan, deep blue, tentacle violet, translucent pearl, drift blue, open sea, abyss ink.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients beyond the motif lavender, no watermark, no random brand names, no misspelling of \"Morphous Jellyfish\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-jellyfish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Jellyfish design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent jellyfish cutout and the visible light-mode Morphous Jellyfish board as references. Preserve the translucent lavender, cyan, and deep blue palette roles, floating component language, membrane texture, drift spacing, Japanese typography, and shadcn/tweakcn component coverage. The light and dark design-system boards are the reference for coding any future theme, so dark-mode token roles and component states must be clear.\nCanvas: wide 16:9 board.\nResolution and legibility: high-resolution 4K-class source board, at least 2400px wide when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Jellyfish, Jellyfish, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from abyss ink and open sea, light text from sea mist, primary accents from bell lavender, secondary accents from glow cyan, deeper analytics accents from deep blue and tentacle violet, restrained luminous contrast, subtle membrane and tentacle overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon overload, no unrelated saturated colors, no generic purple/blue gradients beyond motif translucency, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Jellyfish\"."
+    }
+  ]
+}

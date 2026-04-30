@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-salmon",
+    "name": "Morphous Salmon",
+    "motifName": "Salmon Scale and Run",
+    "motifCategory": "fish",
+    "biome": "Cold River",
+    "motif": "salmon scale and run"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver Scale",
+      "hex": "#e5e8e5",
+      "oklch": "oklch(0.928 0.005 145.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "River Graphite",
+      "hex": "#20262a",
+      "oklch": "oklch(0.264 0.011 237.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Salmon Coral",
+      "hex": "#d86658",
+      "oklch": "oklch(0.645 0.146 28.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Scale Grey",
+      "hex": "#aeb7b7",
+      "oklch": "oklch(0.772 0.010 196.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cold River Blue",
+      "hex": "#3f7f9d",
+      "oklch": "oklch(0.567 0.080 230.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Run Teal",
+      "hex": "#4d9586",
+      "oklch": "oklch(0.619 0.076 178.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam White",
+      "hex": "#f5f2ea",
+      "oklch": "oklch(0.961 0.011 89.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Current",
+      "hex": "#162d38",
+      "oklch": "oklch(0.284 0.035 230.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.928 0.005 145.5)",
+    "foreground": "oklch(0.264 0.011 237.1)",
+    "card": "oklch(0.961 0.011 89.7)",
+    "card-foreground": "oklch(0.264 0.011 237.1)",
+    "popover": "oklch(0.961 0.011 89.7)",
+    "popover-foreground": "oklch(0.264 0.011 237.1)",
+    "primary": "oklch(0.645 0.146 28.9)",
+    "primary-foreground": "oklch(0.928 0.005 145.5)",
+    "secondary": "oklch(0.947 0.008 106.6)",
+    "secondary-foreground": "oklch(0.284 0.035 230.5)",
+    "muted": "oklch(0.952 0.008 91.5)",
+    "muted-foreground": "oklch(0.284 0.035 230.5)",
+    "accent": "oklch(0.567 0.080 230.8)",
+    "accent-foreground": "oklch(0.264 0.011 237.1)",
+    "destructive": "oklch(0.645 0.146 28.9)",
+    "border": "oklch(0.895 0.007 124.5)",
+    "input": "oklch(0.895 0.007 124.5)",
+    "ring": "oklch(0.772 0.010 196.9)",
+    "chart-1": "oklch(0.645 0.146 28.9)",
+    "chart-2": "oklch(0.772 0.010 196.9)",
+    "chart-3": "oklch(0.567 0.080 230.8)",
+    "chart-4": "oklch(0.619 0.076 178.4)",
+    "chart-5": "oklch(0.284 0.035 230.5)",
+    "sidebar": "oklch(0.951 0.009 100.0)",
+    "sidebar-foreground": "oklch(0.264 0.011 237.1)",
+    "sidebar-primary": "oklch(0.645 0.146 28.9)",
+    "sidebar-primary-foreground": "oklch(0.928 0.005 145.5)",
+    "sidebar-accent": "oklch(0.921 0.022 49.9)",
+    "sidebar-accent-foreground": "oklch(0.645 0.146 28.9)",
+    "sidebar-border": "oklch(0.895 0.007 124.5)",
+    "sidebar-ring": "oklch(0.772 0.010 196.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.264 0.011 237.1)",
+    "foreground": "oklch(0.928 0.005 145.5)",
+    "card": "oklch(0.277 0.028 227.8)",
+    "card-foreground": "oklch(0.928 0.005 145.5)",
+    "popover": "oklch(0.277 0.028 227.8)",
+    "popover-foreground": "oklch(0.928 0.005 145.5)",
+    "primary": "oklch(0.772 0.010 196.9)",
+    "primary-foreground": "oklch(0.264 0.011 237.1)",
+    "secondary": "oklch(0.400 0.029 227.4)",
+    "secondary-foreground": "oklch(0.928 0.005 145.5)",
+    "muted": "oklch(0.400 0.029 227.4)",
+    "muted-foreground": "oklch(0.859 0.007 174.3)",
+    "accent": "oklch(0.567 0.080 230.8)",
+    "accent-foreground": "oklch(0.264 0.011 237.1)",
+    "destructive": "oklch(0.645 0.146 28.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.772 0.010 196.9)",
+    "chart-1": "oklch(0.772 0.010 196.9)",
+    "chart-2": "oklch(0.645 0.146 28.9)",
+    "chart-3": "oklch(0.567 0.080 230.8)",
+    "chart-4": "oklch(0.619 0.076 178.4)",
+    "chart-5": "oklch(0.772 0.010 196.9)",
+    "sidebar": "oklch(0.271 0.023 230.3)",
+    "sidebar-foreground": "oklch(0.928 0.005 145.5)",
+    "sidebar-primary": "oklch(0.772 0.010 196.9)",
+    "sidebar-primary-foreground": "oklch(0.264 0.011 237.1)",
+    "sidebar-accent": "oklch(0.400 0.029 227.4)",
+    "sidebar-accent-foreground": "oklch(0.928 0.005 145.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.772 0.010 196.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clear English tracking UI with strong temporal numbers and Japanese guidance tuned to cool river contrast.",
+  "layout": "Flowing journey lanes, 8px dashboard cards, scale texture, river separators, and status-rich tracking components.",
+  "tags": [
+    "salmon",
+    "fish",
+    "cold-river",
+    "tracking",
+    "silver",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-salmon/motif.png",
+    "board": "/systems/morphous-salmon/design-system-light.png",
+    "darkBoard": "/systems/morphous-salmon/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-salmon/theme.css",
+    "themeJson": "/systems/morphous-salmon/theme.json",
+    "promptsJson": "/systems/morphous-salmon/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent salmon motif",
+      "asset": "/systems/morphous-salmon/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Salmon transparent motif chroma-key source\nPrimary request: Create only a salmon scale and run motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A single salmon in cold-river run posture with silver scale body, coral salmon side blush, darker graphite dorsal line, cold river blue reflected highlights, visible scale rows, strong tail, and directional upstream movement. It must read as salmon, not koi, trout, tuna, or generic fish.\nComposition/framing: centered complete cutout with generous padding; include head, body, fins, tail, scale texture, and motion posture without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no river background, no fishing hook, no plate or food styling, no school of fish, no koi markings, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-salmon/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Salmon light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Salmon\", derived from the visible salmon scale and run cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Salmon, Salmon Scale and Run, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from silver salmon scales, coral side blush, cold river blue reflections, graphite dorsal shadows, foam-white water, run-teal signals, and upstream directional motion. The board must read as salmon journey tracking, not koi, trout, or seafood.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible with tracking-oriented metrics.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: journey tracking product system, precise 8px grid, 8px card radius, silver-scale surfaces, salmon-coral primary actions, cold-river-blue controls, run-teal success, scale texture bands, upstream flow navigation, crisp tables and route dashboards.\nConstraints: no koi ornament, no trout speckles, no food imagery, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Salmon\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-salmon/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Salmon dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Salmon\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible salmon scale and run cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Salmon, Salmon Scale and Run, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same salmon system language as the visible light board: deep-current panels, silver-scale text, salmon-coral actions, cold-river-blue controls, run-teal status, graphite borders, scale texture, directional journey lanes, and precise shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible on dark river surfaces.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep blue current backgrounds, silver foregrounds, salmon-coral active states, river-blue charts, teal status badges, subtle scale overlays, upstream route markers, crisp 8px cards.\nConstraints: no koi, no trout, no seafood restaurant imagery, no neon water colors, no pure-black-only flat background, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Salmon\", no illegible tiny paragraphs."
+    }
+  ]
+}

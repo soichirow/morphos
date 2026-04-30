@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-grape",
+    "name": "Morphous Grape",
+    "motifName": "Concord Grape Cluster",
+    "motifCategory": "fruit",
+    "biome": "Vineyard",
+    "motif": "Concord grape cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Vineyard Mist",
+      "hex": "#fbf7ef",
+      "oklch": "oklch(0.977 0.011 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Pressed Skin Ink",
+      "hex": "#221426",
+      "oklch": "oklch(0.219 0.040 318.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Concord Violet",
+      "hex": "#5a1f7a",
+      "oklch": "oklch(0.376 0.150 310.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Powder Bloom",
+      "hex": "#9d85b8",
+      "oklch": "oklch(0.657 0.079 305.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#527a3d",
+      "oklch": "oklch(0.534 0.100 135.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Raisin Brown",
+      "hex": "#7a4f31",
+      "oklch": "oklch(0.469 0.073 54.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Grape Flesh",
+      "hex": "#efe8d8",
+      "oklch": "oklch(0.932 0.023 87.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bloom Blue",
+      "hex": "#8196b3",
+      "oklch": "oklch(0.667 0.049 256.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Vine Brown",
+      "hex": "#5a3a27",
+      "oklch": "oklch(0.381 0.055 51.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.011 84.6)",
+    "foreground": "oklch(0.219 0.040 318.5)",
+    "card": "oklch(0.932 0.023 87.2)",
+    "card-foreground": "oklch(0.219 0.040 318.5)",
+    "popover": "oklch(0.932 0.023 87.2)",
+    "popover-foreground": "oklch(0.219 0.040 318.5)",
+    "primary": "oklch(0.376 0.150 310.8)",
+    "primary-foreground": "oklch(0.977 0.011 84.6)",
+    "secondary": "oklch(0.951 0.017 84.6)",
+    "secondary-foreground": "oklch(0.381 0.055 51.2)",
+    "muted": "oklch(0.944 0.020 87.5)",
+    "muted-foreground": "oklch(0.381 0.055 51.2)",
+    "accent": "oklch(0.534 0.100 135.8)",
+    "accent-foreground": "oklch(0.219 0.040 318.5)",
+    "destructive": "oklch(0.376 0.150 310.8)",
+    "border": "oklch(0.837 0.004 219.5)",
+    "input": "oklch(0.837 0.004 219.5)",
+    "ring": "oklch(0.657 0.079 305.8)",
+    "chart-1": "oklch(0.376 0.150 310.8)",
+    "chart-2": "oklch(0.657 0.079 305.8)",
+    "chart-3": "oklch(0.534 0.100 135.8)",
+    "chart-4": "oklch(0.469 0.073 54.9)",
+    "chart-5": "oklch(0.381 0.055 51.2)",
+    "sidebar": "oklch(0.947 0.018 86.1)",
+    "sidebar-foreground": "oklch(0.219 0.040 318.5)",
+    "sidebar-primary": "oklch(0.376 0.150 310.8)",
+    "sidebar-primary-foreground": "oklch(0.977 0.011 84.6)",
+    "sidebar-accent": "oklch(0.867 0.015 33.1)",
+    "sidebar-accent-foreground": "oklch(0.376 0.150 310.8)",
+    "sidebar-border": "oklch(0.837 0.004 219.5)",
+    "sidebar-ring": "oklch(0.657 0.079 305.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.219 0.040 318.5)",
+    "foreground": "oklch(0.977 0.011 84.6)",
+    "card": "oklch(0.327 0.040 33.6)",
+    "card-foreground": "oklch(0.977 0.011 84.6)",
+    "popover": "oklch(0.327 0.040 33.6)",
+    "popover-foreground": "oklch(0.977 0.011 84.6)",
+    "primary": "oklch(0.657 0.079 305.8)",
+    "primary-foreground": "oklch(0.219 0.040 318.5)",
+    "secondary": "oklch(0.443 0.031 41.9)",
+    "secondary-foreground": "oklch(0.977 0.011 84.6)",
+    "muted": "oklch(0.443 0.031 41.9)",
+    "muted-foreground": "oklch(0.839 0.015 254.6)",
+    "accent": "oklch(0.534 0.100 135.8)",
+    "accent-foreground": "oklch(0.219 0.040 318.5)",
+    "destructive": "oklch(0.376 0.150 310.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.657 0.079 305.8)",
+    "chart-1": "oklch(0.657 0.079 305.8)",
+    "chart-2": "oklch(0.376 0.150 310.8)",
+    "chart-3": "oklch(0.534 0.100 135.8)",
+    "chart-4": "oklch(0.469 0.073 54.9)",
+    "chart-5": "oklch(0.667 0.049 256.5)",
+    "sidebar": "oklch(0.294 0.035 16.6)",
+    "sidebar-foreground": "oklch(0.977 0.011 84.6)",
+    "sidebar-primary": "oklch(0.657 0.079 305.8)",
+    "sidebar-primary-foreground": "oklch(0.219 0.040 318.5)",
+    "sidebar-accent": "oklch(0.443 0.031 41.9)",
+    "sidebar-accent-foreground": "oklch(0.977 0.011 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.657 0.079 305.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English product UI with compact labels, confident numbers, and Japanese UI guidance for calm bilingual dashboards.",
+  "layout": "Precise 8px grids, rounded grape-cluster rhythm, vine-line navigation, dense dashboard panels, and powder-bloom texture accents.",
+  "tags": [
+    "grape",
+    "fruit",
+    "vineyard",
+    "concord",
+    "lush",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-grape/motif.png",
+    "board": "/systems/morphous-grape/design-system-light.png",
+    "darkBoard": "/systems/morphous-grape/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-grape/theme.css",
+    "themeJson": "/systems/morphous-grape/theme.json",
+    "promptsJson": "/systems/morphous-grape/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Concord grape motif",
+      "asset": "/systems/morphous-grape/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Grape transparent motif chroma-key source\nPrimary request: Create only a Concord grape cluster motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A tight cluster of round Concord grapes with deep violet skins, uneven powder bloom, pale grape highlights, small leaf-green vineyard leaves, curling tendrils, and vine-brown stem structure. Natural fruit accuracy, crisp cutout edges, lush vineyard identity.\nComposition/framing: centered complete cutout with generous padding; include cluster, leaves, tendrils, and stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no raspberry drupelets, no blueberries, no wine bottle, no glass, no basket, no hand, no landscape, no text, no watermark, no loose fruit pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-grape/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Grape light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Grape\", derived from a Concord grape cluster cutout. This board is a source reference for a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Grape, Concord Grape Cluster, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from deep violet grape skins, dusty powder bloom, pale grape flesh highlights, leaf-green vineyard leaves, vine-brown stems, and cool vineyard shadows. The board must read as Concord grape, not raspberry, blueberry, or generic purple.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: lush vineyard product system, 8px radius, warm off-white surfaces, Concord violet primary actions, powder-bloom muted panels, leaf-green success and focus states, vine-brown borders, pressed-skin ink text, subtle circular bloom texture and tendril dividers.\nConstraints: no wine branding, no grape-only monochrome purple UI, no raspberry seed texture, no blueberry shrub cues, no generic purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Grape\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-grape/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Grape dark-mode design-system board\nPrimary request: Generate one wide 16:9 comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Grape\" / \"Concord Grape Cluster\". Use the existing Concord grape motif and light-mode design-system board as references. Translate the light board into dark mode; do not invent a new unrelated theme.\nRequired visible sections: Morphous Grape, Concord Grape Cluster, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve deep violet grape skins, powder-bloom blue-grey, leaf green controls/status, vineyard stem brown structure and borders, cream/pale grape neutrals, tendril dividers, rounded cluster rhythm, and 8px shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets.\nVisual details: pressed grape-skin dark backgrounds, vine-brown cards, pale grape foreground, Concord violet active states, powder-bloom chart fills, leaf-green status, subtle circular bloom texture, restrained contrast, crisp cards and controls.\nConstraints: no wine bottles, no wine branding, no raspberry, no strawberry, no parrot, no maple leaves, no blueberry cues, no neon violet, no generic purple/blue gradients, no pure-black flat background, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Grape\"."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-dew",
+    "name": "Morphous Dew",
+    "motifName": "Dew",
+    "motifCategory": "weather",
+    "biome": "Morning Meadow",
+    "motif": "dewdrop on blade"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Morning White",
+      "hex": "#f6fbf5",
+      "oklch": "oklch(0.983 0.009 140.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Blade Ink",
+      "hex": "#1e3025",
+      "oklch": "oklch(0.290 0.031 157.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#4faa55",
+      "oklch": "oklch(0.662 0.150 144.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Clear Dew",
+      "hex": "#9edfe8",
+      "oklch": "oklch(0.863 0.067 206.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Dawn Gold",
+      "hex": "#efc35b",
+      "oklch": "oklch(0.836 0.131 86.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "New Shoot",
+      "hex": "#75bf6b",
+      "oklch": "oklch(0.736 0.138 141.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Meadow Mist",
+      "hex": "#e4f1e5",
+      "oklch": "oklch(0.945 0.021 147.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Stem",
+      "hex": "#a9bda7",
+      "oklch": "oklch(0.777 0.038 142.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Leaf",
+      "hex": "#12301d",
+      "oklch": "oklch(0.280 0.051 153.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.009 140.5)",
+    "foreground": "oklch(0.290 0.031 157.0)",
+    "card": "oklch(0.945 0.021 147.6)",
+    "card-foreground": "oklch(0.290 0.031 157.0)",
+    "popover": "oklch(0.945 0.021 147.6)",
+    "popover-foreground": "oklch(0.290 0.031 157.0)",
+    "primary": "oklch(0.662 0.150 144.9)",
+    "primary-foreground": "oklch(0.983 0.009 140.5)",
+    "secondary": "oklch(0.961 0.015 145.5)",
+    "secondary-foreground": "oklch(0.280 0.051 153.8)",
+    "muted": "oklch(0.956 0.019 145.4)",
+    "muted-foreground": "oklch(0.280 0.051 153.8)",
+    "accent": "oklch(0.836 0.131 86.2)",
+    "accent-foreground": "oklch(0.290 0.031 157.0)",
+    "destructive": "oklch(0.662 0.150 144.9)",
+    "border": "oklch(0.885 0.026 145.4)",
+    "input": "oklch(0.885 0.026 145.4)",
+    "ring": "oklch(0.863 0.067 206.8)",
+    "chart-1": "oklch(0.662 0.150 144.9)",
+    "chart-2": "oklch(0.863 0.067 206.8)",
+    "chart-3": "oklch(0.836 0.131 86.2)",
+    "chart-4": "oklch(0.736 0.138 141.4)",
+    "chart-5": "oklch(0.280 0.051 153.8)",
+    "sidebar": "oklch(0.957 0.017 145.4)",
+    "sidebar-foreground": "oklch(0.290 0.031 157.0)",
+    "sidebar-primary": "oklch(0.662 0.150 144.9)",
+    "sidebar-primary-foreground": "oklch(0.983 0.009 140.5)",
+    "sidebar-accent": "oklch(0.909 0.036 147.9)",
+    "sidebar-accent-foreground": "oklch(0.662 0.150 144.9)",
+    "sidebar-border": "oklch(0.885 0.026 145.4)",
+    "sidebar-ring": "oklch(0.863 0.067 206.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.290 0.031 157.0)",
+    "foreground": "oklch(0.983 0.009 140.5)",
+    "card": "oklch(0.283 0.044 155.3)",
+    "card-foreground": "oklch(0.983 0.009 140.5)",
+    "popover": "oklch(0.283 0.044 155.3)",
+    "popover-foreground": "oklch(0.983 0.009 140.5)",
+    "primary": "oklch(0.863 0.067 206.8)",
+    "primary-foreground": "oklch(0.290 0.031 157.0)",
+    "secondary": "oklch(0.399 0.048 152.8)",
+    "secondary-foreground": "oklch(0.983 0.009 140.5)",
+    "muted": "oklch(0.399 0.048 152.8)",
+    "muted-foreground": "oklch(0.891 0.022 143.2)",
+    "accent": "oklch(0.836 0.131 86.2)",
+    "accent-foreground": "oklch(0.290 0.031 157.0)",
+    "destructive": "oklch(0.662 0.150 144.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.863 0.067 206.8)",
+    "chart-1": "oklch(0.863 0.067 206.8)",
+    "chart-2": "oklch(0.662 0.150 144.9)",
+    "chart-3": "oklch(0.836 0.131 86.2)",
+    "chart-4": "oklch(0.736 0.138 141.4)",
+    "chart-5": "oklch(0.777 0.038 142.7)",
+    "sidebar": "oklch(0.284 0.041 155.3)",
+    "sidebar-foreground": "oklch(0.983 0.009 140.5)",
+    "sidebar-primary": "oklch(0.863 0.067 206.8)",
+    "sidebar-primary-foreground": "oklch(0.290 0.031 157.0)",
+    "sidebar-accent": "oklch(0.399 0.048 152.8)",
+    "sidebar-accent-foreground": "oklch(0.983 0.009 140.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.863 0.067 206.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for fresh onboarding UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Gentle step flows, droplet focus rings, meadow-card surfaces, simple progress states, and welcoming form rhythm.",
+  "tags": [
+    "dew",
+    "weather",
+    "morning",
+    "onboarding",
+    "fresh",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-dew/motif.png",
+    "board": "/systems/morphous-dew/design-system-light.png",
+    "darkBoard": "/systems/morphous-dew/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-dew/theme.css",
+    "themeJson": "/systems/morphous-dew/theme.json",
+    "promptsJson": "/systems/morphous-dew/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent dew motif source",
+      "asset": "/systems/morphous-dew/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a dewdrop on blade motif with clear dew, leaf green grass, dawn gold reflections, and fresh morning detail, isolated full subject, no text.\nSubject: A single curved blade of grass holding a clear dewdrop, with crisp refraction, tiny dawn highlights, natural green texture, and clean silhouette.\nComposition/framing: centered complete cutout with generous padding; do not crop the blade tip or dewdrop.\nLighting/mood: soft morning light, fresh onboarding-system mood, clean transparent highlights.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be uniform with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no insects, no meadow background, no multiple subjects, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-dew/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Dew\" derived from the visible transparent dewdrop on blade motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from clear dew, leaf green, dawn gold, wet grass texture, and droplet geometry. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Dew, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, onboarding metric cards, progress charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, droplet focus rings, fresh step-by-step onboarding mood.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Dew\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-dew/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Dew design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent dewdrop on blade motif and the visible light-mode board as references. Preserve clear dew highlights, leaf green progress states, dawn gold warmth, droplet texture, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Dew, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: wet leaf background, morning-white text, leaf green primary accents, clear dew secondary highlights, dawn gold focus states, crisp cards and controls.\nConstraints: no neon overload, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}

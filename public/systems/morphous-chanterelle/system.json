@@ -1,0 +1,44 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-chanterelle",
+  "name": "Chanterelle",
+  "motifName": "Chanterelle Cluster",
+  "motifCategory": "fungi",
+  "biome": "Oak Forest",
+  "motif": "warm culinary cluster",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Chanterelle light and dark design-system boards: apricot-orange forms, moss-green support, dark soil contrast, oak warmth, and culinary workflow clarity. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for warm product UI with Noto Sans guidance for multilingual culinary labels, menus, and inventory numbers.",
+  "layout": "Precise 8px culinary grids, trumpet-gill dividers, moss accents, warm recipe panels, and practical workflow density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "chanterelle",
+    "fungi",
+    "oak-forest",
+    "culinary",
+    "warm",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Cream Stock", "hex": "#fff0d8" },
+    { "role": "Ink", "name": "Oak Ink", "hex": "#241b14" },
+    { "role": "Primary", "name": "Chanterelle Apricot", "hex": "#e38a2e" },
+    { "role": "Secondary", "name": "Moss Green", "hex": "#5f7a3b" },
+    { "role": "Accent", "name": "Golden Gill", "hex": "#f3b95a" },
+    { "role": "Signal", "name": "Oak Leaf", "hex": "#9b6b3f" },
+    { "role": "Surface", "name": "Butter Cap", "hex": "#f6d8a8" },
+    { "role": "Muted", "name": "Forest Umber", "hex": "#7d5a3c" },
+    { "role": "Depth", "name": "Dark Soil", "hex": "#34261c" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

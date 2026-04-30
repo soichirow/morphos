@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-iris",
+  "name": "Morphous Iris",
+  "motifName": "Blue Iris Bloom",
+  "motifCategory": "flower",
+  "biome": "Riverbank",
+  "motif": "folded petal precision",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Iris light and dark design-system boards: indigo and violet actions, golden throat focus, reed green support, river mist surfaces, and ink-blue depth.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numeric rhythm.",
+  "layout": "Precise 8px content grids, petal-fold panels, reed-line dividers, dense authoring surfaces, and crisp riverbank hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "iris",
+    "flower",
+    "riverbank",
+    "precise",
+    "content",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "River Mist", "hex": "#f2f5f4" },
+    { "role": "Ink", "name": "Ink Blue", "hex": "#171b2f" },
+    { "role": "Primary", "name": "Iris Indigo", "hex": "#3746a3" },
+    { "role": "Secondary", "name": "Petal Violet", "hex": "#6d4bb0" },
+    { "role": "Accent", "name": "Golden Throat", "hex": "#d8a526" },
+    { "role": "Signal", "name": "Reed Green", "hex": "#607a45" },
+    { "role": "Surface", "name": "Pale Petal", "hex": "#e7e5f5" },
+    { "role": "Muted", "name": "River Grey", "hex": "#9aa6ae" },
+    { "role": "Depth", "name": "Wet Reed", "hex": "#2b3329" }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-iris/motif.png",
+    "board": "/systems/morphous-iris/design-system-light.png",
+    "darkBoard": "/systems/morphous-iris/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-iris/theme.css",
+    "themeJson": "/systems/morphous-iris/theme.json",
+    "promptsJson": "/systems/morphous-iris/prompts.json"
+  }
+}

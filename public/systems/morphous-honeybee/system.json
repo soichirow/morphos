@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-honeybee",
+  "name": "Morphous Honeybee",
+  "motifName": "Honeybee on Comb",
+  "motifCategory": "insect",
+  "biome": "Wildflower Field",
+  "motif": "comb-cell operations grid",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Honeybee light and dark design-system boards: honey-amber actions, pollen-gold focus, black cream contrast, comb-cell structure, and productive operations rhythm.",
+  "typography": "Geist for productive operations UI with Noto Sans guidance for multilingual labels, work queues, and efficient numeric rhythm.",
+  "layout": "Precise 8px grids, hex comb modules, compact queue panels, amber status bands, and dense operations surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "honeybee",
+    "bee",
+    "insect",
+    "wildflower",
+    "operations",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Comb Cream",
+      "hex": "#fff5df"
+    },
+    {
+      "role": "Ink",
+      "name": "Bee Black",
+      "hex": "#191713"
+    },
+    {
+      "role": "Primary",
+      "name": "Honey Amber",
+      "hex": "#d99022"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pollen Gold",
+      "hex": "#f2c94c"
+    },
+    {
+      "role": "Accent",
+      "name": "Wax Yellow",
+      "hex": "#f6dc8c"
+    },
+    {
+      "role": "Signal",
+      "name": "Field Green",
+      "hex": "#6f7f3f"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Wax",
+      "hex": "#f3dfb4"
+    },
+    {
+      "role": "Muted",
+      "name": "Smoked Honey",
+      "hex": "#a77a3d"
+    },
+    {
+      "role": "Depth",
+      "name": "Comb Umber",
+      "hex": "#4a321c"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

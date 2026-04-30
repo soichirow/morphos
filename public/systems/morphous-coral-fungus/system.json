@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-coral-fungus",
+  "name": "Morphous Coral Fungus",
+  "motifName": "Coral Fungus Branches",
+  "motifCategory": "fungi",
+  "biome": "Wet Forest",
+  "motif": "branching workflow",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Coral Fungus light and dark design-system boards: coral-peach branches, bark-brown structure, mist-grey surfaces, wet forest depth, and branching workflow logic. The light and dark boards are the reference for coding any future theme.",
+  "typography": "Geist for branching workflow UI with Noto Sans guidance for multilingual labels, trees, and dependency states.",
+  "layout": "Precise 8px workflow grids, branching separators, mist surfaces, bark texture, and clear dependency dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "coral-fungus",
+    "fungi",
+    "wet-forest",
+    "workflow",
+    "branching",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Mist Grey", "hex": "#eef0eb" },
+    { "role": "Ink", "name": "Wet Bark Ink", "hex": "#211c18" },
+    { "role": "Primary", "name": "Coral Peach", "hex": "#e99a7a" },
+    { "role": "Secondary", "name": "Bark Brown", "hex": "#79533f" },
+    { "role": "Accent", "name": "Branch Tip", "hex": "#f2c0a8" },
+    { "role": "Signal", "name": "Moss Signal", "hex": "#75895d" },
+    { "role": "Surface", "name": "Fog Surface", "hex": "#dcded8" },
+    { "role": "Muted", "name": "Damp Taupe", "hex": "#8d7b70" },
+    { "role": "Depth", "name": "Wet Forest", "hex": "#352b24" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

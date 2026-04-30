@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-passionfruit",
+    "name": "Morphous Passionfruit",
+    "motifName": "Passionfruit",
+    "motifCategory": "fruit",
+    "biome": "tropical vine",
+    "motif": "passionfruit flower and fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal White",
+      "hex": "#fff7ed",
+      "oklch": "oklch(0.980 0.016 73.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Rind Ink",
+      "hex": "#211225",
+      "oklch": "oklch(0.212 0.042 319.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Passion Purple",
+      "hex": "#6b2d7c",
+      "oklch": "oklch(0.419 0.139 318.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pulp Yellow",
+      "hex": "#f0b832",
+      "oklch": "oklch(0.813 0.153 84.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Filament Violet",
+      "hex": "#9b4ea2",
+      "oklch": "oklch(0.550 0.150 324.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Vine Green",
+      "hex": "#4b813e",
+      "oklch": "oklch(0.549 0.114 139.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Flower Cream",
+      "hex": "#f2e4d9",
+      "oklch": "oklch(0.927 0.021 60.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Tendril",
+      "hex": "#78a85b",
+      "oklch": "oklch(0.679 0.118 134.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Seed Brown",
+      "hex": "#4b3027",
+      "oklch": "oklch(0.339 0.043 39.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.016 73.7)",
+    "foreground": "oklch(0.212 0.042 319.0)",
+    "card": "oklch(0.927 0.021 60.7)",
+    "card-foreground": "oklch(0.212 0.042 319.0)",
+    "popover": "oklch(0.927 0.021 60.7)",
+    "popover-foreground": "oklch(0.212 0.042 319.0)",
+    "primary": "oklch(0.419 0.139 318.4)",
+    "primary-foreground": "oklch(0.980 0.016 73.7)",
+    "secondary": "oklch(0.949 0.019 67.6)",
+    "secondary-foreground": "oklch(0.339 0.043 39.2)",
+    "muted": "oklch(0.942 0.020 60.2)",
+    "muted-foreground": "oklch(0.339 0.043 39.2)",
+    "accent": "oklch(0.550 0.150 324.2)",
+    "accent-foreground": "oklch(0.212 0.042 319.0)",
+    "destructive": "oklch(0.419 0.139 318.4)",
+    "border": "oklch(0.836 0.047 118.2)",
+    "input": "oklch(0.836 0.047 118.2)",
+    "ring": "oklch(0.813 0.153 84.1)",
+    "chart-1": "oklch(0.419 0.139 318.4)",
+    "chart-2": "oklch(0.813 0.153 84.1)",
+    "chart-3": "oklch(0.550 0.150 324.2)",
+    "chart-4": "oklch(0.549 0.114 139.7)",
+    "chart-5": "oklch(0.339 0.043 39.2)",
+    "sidebar": "oklch(0.944 0.019 62.4)",
+    "sidebar-foreground": "oklch(0.212 0.042 319.0)",
+    "sidebar-primary": "oklch(0.419 0.139 318.4)",
+    "sidebar-primary-foreground": "oklch(0.980 0.016 73.7)",
+    "sidebar-accent": "oklch(0.868 0.022 17.6)",
+    "sidebar-accent-foreground": "oklch(0.419 0.139 318.4)",
+    "sidebar-border": "oklch(0.836 0.047 118.2)",
+    "sidebar-ring": "oklch(0.813 0.153 84.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.212 0.042 319.0)",
+    "foreground": "oklch(0.980 0.016 73.7)",
+    "card": "oklch(0.297 0.035 19.4)",
+    "card-foreground": "oklch(0.980 0.016 73.7)",
+    "popover": "oklch(0.297 0.035 19.4)",
+    "popover-foreground": "oklch(0.980 0.016 73.7)",
+    "primary": "oklch(0.813 0.153 84.1)",
+    "primary-foreground": "oklch(0.212 0.042 319.0)",
+    "secondary": "oklch(0.414 0.040 86.0)",
+    "secondary-foreground": "oklch(0.980 0.016 73.7)",
+    "muted": "oklch(0.414 0.040 86.0)",
+    "muted-foreground": "oklch(0.843 0.057 126.3)",
+    "accent": "oklch(0.550 0.150 324.2)",
+    "accent-foreground": "oklch(0.212 0.042 319.0)",
+    "destructive": "oklch(0.419 0.139 318.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.813 0.153 84.1)",
+    "chart-1": "oklch(0.813 0.153 84.1)",
+    "chart-2": "oklch(0.419 0.139 318.4)",
+    "chart-3": "oklch(0.550 0.150 324.2)",
+    "chart-4": "oklch(0.549 0.114 139.7)",
+    "chart-5": "oklch(0.679 0.118 134.7)",
+    "sidebar": "oklch(0.271 0.032 359.9)",
+    "sidebar-foreground": "oklch(0.980 0.016 73.7)",
+    "sidebar-primary": "oklch(0.813 0.153 84.1)",
+    "sidebar-primary-foreground": "oklch(0.212 0.042 319.0)",
+    "sidebar-accent": "oklch(0.414 0.040 86.0)",
+    "sidebar-accent-foreground": "oklch(0.980 0.016 73.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.813 0.153 84.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Expressive identity UI with confident English display, controlled numerals, and Japanese typography guidance.",
+  "layout": "Radiating flower geometry, vine navigation, pulp-dot texture, 8px radii, expressive dashboard cards, and clear token structure.",
+  "tags": [
+    "passionfruit",
+    "fruit",
+    "flower",
+    "tropical",
+    "expressive",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-passionfruit/motif.png",
+    "board": "/systems/morphous-passionfruit/design-system-light.png",
+    "darkBoard": "/systems/morphous-passionfruit/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-passionfruit/theme.css",
+    "themeJson": "/systems/morphous-passionfruit/theme.json",
+    "promptsJson": "/systems/morphous-passionfruit/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent passionfruit flower and fruit motif",
+      "asset": "/systems/morphous-passionfruit/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Passionfruit transparent motif chroma-key source\nPrimary request: Create only a passionfruit flower and fruit motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A tropical passionfruit vine with an ornate white-and-purple passionflower, radial violet filaments, green tendrils and leaves, one purple passionfruit, and one cut fruit showing yellow pulp and dark seeds. Botanical accuracy, crisp subject edges, expressive flower detail, unmistakably passionfruit.\nComposition/framing: centered complete cutout with generous padding; include flower, vine tendril, whole fruit, cut fruit, and leaves without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no fig, no plum, no orchid-only flower, no generic tropical flower, no plate, no hand, no props, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-passionfruit/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Passionfruit light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Passionfruit\", derived from the visible passionfruit flower and fruit cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible expressive identity UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Passionfruit, Passionfruit Flower and Fruit, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from purple passionfruit rind, yellow pulp, dark seeds, white petals, violet radial filaments, green tendrils, and tropical vine leaves. The board must read as passionfruit, not fig, plum, or orchid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, petal-white surfaces, passion-purple primary actions, pulp-yellow highlights, filament-violet accents, vine-green success states, tendril dividers, pulp seed and flower filament texture.\nConstraints: no fig identity, no orchid-only identity, no generic purple flower system, no tropical beach imagery, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Passionfruit\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-passionfruit/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Passionfruit dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Passionfruit\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the passionfruit flower and fruit cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Passionfruit, Passionfruit Flower and Fruit, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve passionfruit system language: passion-purple active states, pulp-yellow highlights, filament-violet accents, petal-cream text, vine-green controls, seed-brown borders, radial flower filament texture, 8px radius, precise shadcn/tweakcn component grid. Must read as passionfruit, not fig or orchid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: dark rind ink and seed-brown surfaces, petal-cream foreground, passion-purple active states, pulp-yellow chart highlights, vine green focus/control accents, subtle filament and pulp-dot overlays, crisp cards and controls.\nConstraints: no fig identity, no orchid-only identity, no generic purple flower system, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Passionfruit\"."
+    }
+  ]
+}

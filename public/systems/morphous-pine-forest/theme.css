@@ -1,0 +1,77 @@
+/* Morphous Pine Forest
+   System definition: /systems/morphous-pine-forest/system.json
+   Prompt records: /systems/morphous-pine-forest/prompts.json
+   Design-system references:
+   light: /systems/morphous-pine-forest/design-system-light.png
+   dark: /systems/morphous-pine-forest/design-system-dark.png
+*/
+
+:root {
+  --background: oklch(0.921 0.010 125.7);
+  --foreground: oklch(0.243 0.019 160.7);
+  --card: oklch(0.958 0.009 113.2);
+  --card-foreground: oklch(0.243 0.019 160.7);
+  --popover: oklch(0.958 0.009 113.2);
+  --popover-foreground: oklch(0.243 0.019 160.7);
+  --primary: oklch(0.438 0.082 154.4);
+  --primary-foreground: oklch(0.921 0.010 125.7);
+  --secondary: oklch(0.943 0.010 119.6);
+  --secondary-foreground: oklch(0.226 0.027 161.5);
+  --muted: oklch(0.949 0.010 119.6);
+  --muted-foreground: oklch(0.226 0.027 161.5);
+  --accent: oklch(0.441 0.059 55.8);
+  --accent-foreground: oklch(0.243 0.019 160.7);
+  --destructive: oklch(0.438 0.082 154.4);
+  --border: oklch(0.874 0.020 125.9);
+  --input: oklch(0.874 0.020 125.9);
+  --ring: oklch(0.718 0.042 132.6);
+  --chart-1: oklch(0.438 0.082 154.4);
+  --chart-2: oklch(0.718 0.042 132.6);
+  --chart-3: oklch(0.441 0.059 55.8);
+  --chart-4: oklch(0.668 0.117 76.7);
+  --chart-5: oklch(0.226 0.027 161.5);
+  --sidebar: oklch(0.946 0.010 119.6);
+  --sidebar-foreground: oklch(0.243 0.019 160.7);
+  --sidebar-primary: oklch(0.438 0.082 154.4);
+  --sidebar-primary-foreground: oklch(0.921 0.010 125.7);
+  --sidebar-accent: oklch(0.899 0.015 136.1);
+  --sidebar-accent-foreground: oklch(0.438 0.082 154.4);
+  --sidebar-border: oklch(0.874 0.020 125.9);
+  --sidebar-ring: oklch(0.718 0.042 132.6);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.243 0.019 160.7);
+  --foreground: oklch(0.921 0.010 125.7);
+  --card: oklch(0.232 0.024 162.1);
+  --card-foreground: oklch(0.921 0.010 125.7);
+  --popover: oklch(0.232 0.024 162.1);
+  --popover-foreground: oklch(0.921 0.010 125.7);
+  --primary: oklch(0.718 0.042 132.6);
+  --primary-foreground: oklch(0.243 0.019 160.7);
+  --secondary: oklch(0.346 0.029 152.3);
+  --secondary-foreground: oklch(0.921 0.010 125.7);
+  --muted: oklch(0.346 0.029 152.3);
+  --muted-foreground: oklch(0.831 0.024 131.2);
+  --accent: oklch(0.441 0.059 55.8);
+  --accent-foreground: oklch(0.243 0.019 160.7);
+  --destructive: oklch(0.438 0.082 154.4);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.718 0.042 132.6);
+  --chart-1: oklch(0.718 0.042 132.6);
+  --chart-2: oklch(0.438 0.082 154.4);
+  --chart-3: oklch(0.441 0.059 55.8);
+  --chart-4: oklch(0.668 0.117 76.7);
+  --chart-5: oklch(0.718 0.042 132.6);
+  --sidebar: oklch(0.236 0.024 162.2);
+  --sidebar-foreground: oklch(0.921 0.010 125.7);
+  --sidebar-primary: oklch(0.718 0.042 132.6);
+  --sidebar-primary-foreground: oklch(0.243 0.019 160.7);
+  --sidebar-accent: oklch(0.346 0.029 152.3);
+  --sidebar-accent-foreground: oklch(0.921 0.010 125.7);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.718 0.042 132.6);
+  --radius: 0.5rem;
+}

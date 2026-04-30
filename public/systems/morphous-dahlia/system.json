@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-dahlia",
+  "name": "Morphous Dahlia",
+  "motifName": "Dahlia Bloom",
+  "motifCategory": "flower",
+  "biome": "cut flower garden",
+  "motif": "layered dahlia bloom geometry",
+  "description": "A shadcn/tweakcn-compatible system drafted from cut-garden dahlias: burgundy petals, peach-gold highlights, leaf-green supports, and layered brand composition.",
+  "typography": "Geist for expressive English brand UI with Noto Sans JP guidance for confident Japanese headlines, labels, and campaign data.",
+  "layout": "Layered 8px grids, radial petal grouping, compact brand cards, confident shadows, and structured campaign surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "dahlia",
+    "flower",
+    "cut-flower",
+    "burgundy",
+    "brand",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Paper",
+      "hex": "#fff1e8"
+    },
+    {
+      "role": "Ink",
+      "name": "Burgundy Ink",
+      "hex": "#2a1118"
+    },
+    {
+      "role": "Primary",
+      "name": "Dahlia Burgundy",
+      "hex": "#8f1f3f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Petal Peach",
+      "hex": "#e99b78"
+    },
+    {
+      "role": "Accent",
+      "name": "Center Gold",
+      "hex": "#d6a13b"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#5f7d48"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Apricot",
+      "hex": "#f3d0bd"
+    },
+    {
+      "role": "Muted",
+      "name": "Garden Stem",
+      "hex": "#6f944e"
+    },
+    {
+      "role": "Depth",
+      "name": "Wine Shadow",
+      "hex": "#5a1d30"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

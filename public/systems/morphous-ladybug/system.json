@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-ladybug",
+  "name": "Ladybug",
+  "motifName": "Ladybug Shell",
+  "motifCategory": "insect",
+  "biome": "Garden Leaf",
+  "motif": "vermilion dotted shell",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Ladybug light and dark design-system boards: luminous vermilion actions, black spot structure, leaf-green support, dew-white readability, and compact friendly app rhythm.",
+  "typography": "Geist for compact English product UI with Noto Sans JP guidance for Japanese labels, concise forms, friendly headings, and clear tabular numerals.",
+  "layout": "Compact 8px grids, rounded shell-card panels, dotted status marks, leaf-vein dividers, tight navigation, and friendly dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "ladybug",
+    "insect",
+    "garden-leaf",
+    "vermilion",
+    "compact",
+    "friendly",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dew White",
+      "hex": "#f8fbf2"
+    },
+    {
+      "role": "Ink",
+      "name": "Dot Black",
+      "hex": "#141313"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Vermilion",
+      "hex": "#e83222"
+    },
+    {
+      "role": "Secondary",
+      "name": "Deep Elytra Red",
+      "hex": "#b91f18"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#3f7d3a"
+    },
+    {
+      "role": "Signal",
+      "name": "Fresh Leaf",
+      "hex": "#7fae45"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Garden Neutral",
+      "hex": "#ebe4d2"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist Grey",
+      "hex": "#aeb8a9"
+    },
+    {
+      "role": "Depth",
+      "name": "Soil Umber",
+      "hex": "#4b3527"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

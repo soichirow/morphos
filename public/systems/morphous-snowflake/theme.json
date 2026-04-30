@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-snowflake",
+    "name": "Morphous Snowflake",
+    "motifName": "Snowflake",
+    "motifCategory": "weather",
+    "biome": "Winter Air",
+    "motif": "snowflake crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ice White",
+      "hex": "#f8fbff",
+      "oklch": "oklch(0.987 0.006 255.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Frost Ink",
+      "hex": "#1f2b36",
+      "oklch": "oklch(0.283 0.026 246.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Crystal Blue",
+      "hex": "#4aa3df",
+      "oklch": "oklch(0.687 0.123 241.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silver Edge",
+      "hex": "#9fb4c7",
+      "oklch": "oklch(0.760 0.036 245.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Prism Cyan",
+      "hex": "#8de2f0",
+      "oklch": "oklch(0.864 0.084 209.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Winter Violet",
+      "hex": "#7c8bc9",
+      "oklch": "oklch(0.650 0.095 273.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Snow Surface",
+      "hex": "#e8f1f7",
+      "oklch": "oklch(0.953 0.013 236.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Frozen Mist",
+      "hex": "#b9c8d4",
+      "oklch": "oklch(0.825 0.024 241.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Blue Ice",
+      "hex": "#0f2233",
+      "oklch": "oklch(0.245 0.041 247.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.987 0.006 255.5)",
+    "foreground": "oklch(0.283 0.026 246.5)",
+    "card": "oklch(0.953 0.013 236.6)",
+    "card-foreground": "oklch(0.283 0.026 246.5)",
+    "popover": "oklch(0.953 0.013 236.6)",
+    "popover-foreground": "oklch(0.283 0.026 246.5)",
+    "primary": "oklch(0.687 0.123 241.3)",
+    "primary-foreground": "oklch(0.987 0.006 255.5)",
+    "secondary": "oklch(0.967 0.009 242.8)",
+    "secondary-foreground": "oklch(0.245 0.041 247.3)",
+    "muted": "oklch(0.963 0.011 234.8)",
+    "muted-foreground": "oklch(0.245 0.041 247.3)",
+    "accent": "oklch(0.864 0.084 209.0)",
+    "accent-foreground": "oklch(0.283 0.026 246.5)",
+    "destructive": "oklch(0.687 0.123 241.3)",
+    "border": "oklch(0.907 0.016 239.1)",
+    "input": "oklch(0.907 0.016 239.1)",
+    "ring": "oklch(0.760 0.036 245.6)",
+    "chart-1": "oklch(0.687 0.123 241.3)",
+    "chart-2": "oklch(0.760 0.036 245.6)",
+    "chart-3": "oklch(0.864 0.084 209.0)",
+    "chart-4": "oklch(0.650 0.095 273.1)",
+    "chart-5": "oklch(0.245 0.041 247.3)",
+    "sidebar": "oklch(0.964 0.011 243.7)",
+    "sidebar-foreground": "oklch(0.283 0.026 246.5)",
+    "sidebar-primary": "oklch(0.687 0.123 241.3)",
+    "sidebar-primary-foreground": "oklch(0.987 0.006 255.5)",
+    "sidebar-accent": "oklch(0.921 0.026 235.4)",
+    "sidebar-accent-foreground": "oklch(0.687 0.123 241.3)",
+    "sidebar-border": "oklch(0.907 0.016 239.1)",
+    "sidebar-ring": "oklch(0.760 0.036 245.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.283 0.026 246.5)",
+    "foreground": "oklch(0.987 0.006 255.5)",
+    "card": "oklch(0.257 0.036 246.4)",
+    "card-foreground": "oklch(0.987 0.006 255.5)",
+    "popover": "oklch(0.257 0.036 246.4)",
+    "popover-foreground": "oklch(0.987 0.006 255.5)",
+    "primary": "oklch(0.760 0.036 245.6)",
+    "primary-foreground": "oklch(0.283 0.026 246.5)",
+    "secondary": "oklch(0.388 0.035 242.6)",
+    "secondary-foreground": "oklch(0.987 0.006 255.5)",
+    "muted": "oklch(0.388 0.035 242.6)",
+    "muted-foreground": "oklch(0.915 0.014 248.0)",
+    "accent": "oklch(0.864 0.084 209.0)",
+    "accent-foreground": "oklch(0.283 0.026 246.5)",
+    "destructive": "oklch(0.687 0.123 241.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.760 0.036 245.6)",
+    "chart-1": "oklch(0.760 0.036 245.6)",
+    "chart-2": "oklch(0.687 0.123 241.3)",
+    "chart-3": "oklch(0.864 0.084 209.0)",
+    "chart-4": "oklch(0.650 0.095 273.1)",
+    "chart-5": "oklch(0.825 0.024 241.9)",
+    "sidebar": "oklch(0.266 0.033 247.5)",
+    "sidebar-foreground": "oklch(0.987 0.006 255.5)",
+    "sidebar-primary": "oklch(0.760 0.036 245.6)",
+    "sidebar-primary-foreground": "oklch(0.283 0.026 246.5)",
+    "sidebar-accent": "oklch(0.388 0.035 242.6)",
+    "sidebar-accent-foreground": "oklch(0.987 0.006 255.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.760 0.036 245.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise component UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Crystal-symmetric grids, fine borders, compact token tables, precise component states, and sharp winter-air spacing.",
+  "tags": [
+    "snowflake",
+    "weather",
+    "winter",
+    "component",
+    "precise",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-snowflake/motif.png",
+    "board": "/systems/morphous-snowflake/design-system-light.png",
+    "darkBoard": "/systems/morphous-snowflake/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-snowflake/theme.css",
+    "themeJson": "/systems/morphous-snowflake/theme.json",
+    "promptsJson": "/systems/morphous-snowflake/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent snowflake motif source",
+      "asset": "/systems/morphous-snowflake/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a snowflake crystal motif with ice white facets, blue refraction, silver edges, and precise radial geometry, isolated full subject, no text.\nSubject: A single detailed snowflake crystal with natural sixfold symmetry, crisp branching arms, transparent icy facets, and subtle blue-silver highlights.\nComposition/framing: centered complete cutout with generous padding; do not crop any crystal arm or fine branch.\nLighting/mood: clean winter air, precise component-system mood, sharp crystalline contrast.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be uniform with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no pile of snow, no background weather scene, no cartoon style, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-snowflake/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Snowflake\" derived from the visible transparent snowflake crystal motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from ice white, crystal blue, silver edges, and sixfold snowflake geometry. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Snowflake, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, component metric cards, token charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, crystal dividers, fine borders, exact component states.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Snowflake\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-snowflake/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Snowflake design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent snowflake crystal motif and the visible light-mode board as references. Preserve ice white contrast, crystal blue accents, silver edges, sixfold geometry, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board.\nRequired visible sections: Morphous Snowflake, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: blue ice background, ice-white text, crystal blue primary accents, silver-edge borders, prism cyan focus states, crisp cards and controls.\nConstraints: no neon overload, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names."
+    }
+  ]
+}
