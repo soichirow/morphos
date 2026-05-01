@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cloudberry",
+    "name": "Morphous Cloudberry",
+    "motifName": "Cloudberry Fruit",
+    "motifCategory": "fruit",
+    "biome": "Arctic Bog",
+    "motif": "cloudberry fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lichen Cream",
+      "hex": "#fbf4df",
+      "oklch": "oklch(0.967 0.029 91.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#241812",
+      "oklch": "oklch(0.222 0.023 47.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cloudberry Amber",
+      "hex": "#d97816",
+      "oklch": "oklch(0.668 0.154 57.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Honey Drupelet",
+      "hex": "#f0a53b",
+      "oklch": "oklch(0.777 0.146 71.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bog Moss",
+      "hex": "#66783e",
+      "oklch": "oklch(0.544 0.085 123.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sepal Green",
+      "hex": "#405c33",
+      "oklch": "oklch(0.441 0.072 136.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Arctic Mist",
+      "hex": "#ede4cf",
+      "oklch": "oklch(0.920 0.030 87.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dried Sedge",
+      "hex": "#b89a65",
+      "oklch": "oklch(0.701 0.079 81.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Peat Brown",
+      "hex": "#5b3b26",
+      "oklch": "oklch(0.384 0.056 53.6)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Drupelet Glow",
+      "hex": "#ffd27a",
+      "oklch": "oklch(0.885 0.118 82.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.029 91.6)",
+    "foreground": "oklch(0.222 0.023 47.7)",
+    "card": "oklch(0.920 0.030 87.5)",
+    "card-foreground": "oklch(0.222 0.023 47.7)",
+    "popover": "oklch(0.920 0.030 87.5)",
+    "popover-foreground": "oklch(0.222 0.023 47.7)",
+    "primary": "oklch(0.668 0.154 57.6)",
+    "primary-foreground": "oklch(0.967 0.029 91.6)",
+    "secondary": "oklch(0.941 0.029 89.6)",
+    "secondary-foreground": "oklch(0.384 0.056 53.6)",
+    "muted": "oklch(0.933 0.029 87.5)",
+    "muted-foreground": "oklch(0.384 0.056 53.6)",
+    "accent": "oklch(0.544 0.085 123.4)",
+    "accent-foreground": "oklch(0.222 0.023 47.7)",
+    "destructive": "oklch(0.668 0.154 57.6)",
+    "border": "oklch(0.842 0.047 83.3)",
+    "input": "oklch(0.842 0.047 83.3)",
+    "ring": "oklch(0.777 0.146 71.3)",
+    "chart-1": "oklch(0.668 0.154 57.6)",
+    "chart-2": "oklch(0.777 0.146 71.3)",
+    "chart-3": "oklch(0.544 0.085 123.4)",
+    "chart-4": "oklch(0.441 0.072 136.3)",
+    "chart-5": "oklch(0.384 0.056 53.6)",
+    "sidebar": "oklch(0.936 0.029 87.5)",
+    "sidebar-foreground": "oklch(0.222 0.023 47.7)",
+    "sidebar-primary": "oklch(0.668 0.154 57.6)",
+    "sidebar-primary-foreground": "oklch(0.967 0.029 91.6)",
+    "sidebar-accent": "oklch(0.888 0.046 78.0)",
+    "sidebar-accent-foreground": "oklch(0.668 0.154 57.6)",
+    "sidebar-border": "oklch(0.842 0.047 83.3)",
+    "sidebar-ring": "oklch(0.777 0.146 71.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.023 47.7)",
+    "foreground": "oklch(0.967 0.029 91.6)",
+    "card": "oklch(0.331 0.045 53.2)",
+    "card-foreground": "oklch(0.967 0.029 91.6)",
+    "popover": "oklch(0.331 0.045 53.2)",
+    "popover-foreground": "oklch(0.967 0.029 91.6)",
+    "primary": "oklch(0.777 0.146 71.3)",
+    "primary-foreground": "oklch(0.222 0.023 47.7)",
+    "secondary": "oklch(0.458 0.059 62.6)",
+    "secondary-foreground": "oklch(0.967 0.029 91.6)",
+    "muted": "oklch(0.458 0.059 62.6)",
+    "muted-foreground": "oklch(0.850 0.052 85.7)",
+    "accent": "oklch(0.544 0.085 123.4)",
+    "accent-foreground": "oklch(0.222 0.023 47.7)",
+    "destructive": "oklch(0.668 0.154 57.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.777 0.146 71.3)",
+    "chart-1": "oklch(0.777 0.146 71.3)",
+    "chart-2": "oklch(0.668 0.154 57.6)",
+    "chart-3": "oklch(0.544 0.085 123.4)",
+    "chart-4": "oklch(0.441 0.072 136.3)",
+    "chart-5": "oklch(0.701 0.079 81.1)",
+    "sidebar": "oklch(0.299 0.039 52.5)",
+    "sidebar-foreground": "oklch(0.967 0.029 91.6)",
+    "sidebar-primary": "oklch(0.777 0.146 71.3)",
+    "sidebar-primary-foreground": "oklch(0.222 0.023 47.7)",
+    "sidebar-accent": "oklch(0.458 0.059 62.6)",
+    "sidebar-accent-foreground": "oklch(0.967 0.029 91.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.777 0.146 71.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English product UI with compact commerce labels, confident numeric rhythm, and Japanese UI guidance for dense bilingual dashboards.",
+  "layout": "Precise 8px grids, compact northern navigation, seed-dot texture accents, bog-moss dividers, dense dashboard panels, and restrained commerce workflows.",
+  "tags": [
+    "cloudberry",
+    "fruit",
+    "arctic-bog",
+    "northern",
+    "commerce",
+    "amber",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cloudberry/motif.png",
+    "board": "/systems/morphous-cloudberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-cloudberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cloudberry/theme.css",
+    "themeJson": "/systems/morphous-cloudberry/theme.json",
+    "promptsJson": "/systems/morphous-cloudberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cloudberry motif",
+      "asset": "/systems/morphous-cloudberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cloudberry transparent motif chroma-key source\nPrimary request: Create only a cloudberry fruit motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: a compact northern cloudberry fruit with amber-orange translucent drupelets, soft seed facets, a few moss-green arctic bog leaves, tiny sepals, and a short peat-brown stem. Natural Rubus chamaemorus fruit accuracy, crisp cutout edges, botanical detail, compact commerce-system identity.\nComposition/framing: centered complete cutout with generous padding; include fruit, leaves, sepals, and stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no raspberry red drupelets, no blackberry, no orange slices, no jam jar, no basket, no hand, no landscape, no text, no watermark, no loose fruit pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cloudberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cloudberry light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Cloudberry\", derived from a cloudberry fruit cutout. This board is a source reference for a shadcn/tweakcn-compatible compact northern commerce system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, at least 4K-class visual detail when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Cloudberry, Cloudberry Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from amber-orange cloudberry drupelets, translucent honey highlights, moss-green arctic bog leaves, peat-brown stems and wet bog shadows, pale lichen neutrals, and compact northern market signage. The board must read as cloudberry and arctic bog, not raspberry, citrus, apricot, or generic orange.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Compact bilingual commerce dashboard hierarchy; keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, spacing scale, radius samples, border, shadow samples, token code snippets, subtle icons.\nStyle: compact northern commerce product system, 8px radius, warm cloudberry-cream surfaces, amber-orange primary actions, moss-green focus and success states, peat-brown borders and navigation, berry-seed dot texture, lichen mist panels, tight grid, restrained shadows.\nConstraints: no raspberry red UI, no citrus fruit branding, no jam jar, no tropical orange palette, no generic purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Cloudberry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cloudberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cloudberry dark-mode design-system board\nPrimary request: Generate one wide 16:9 comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Cloudberry\" / \"Cloudberry Fruit\". Use the existing cloudberry motif and light-mode design-system board as references. Translate the light board into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class visual density when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Cloudberry, Cloudberry Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve amber-orange cloudberry primary actions, translucent honey highlights, moss-green focus/success controls, peat-brown borders and navigation, lichen mist neutrals, wet arctic bog shadows, seed-dot texture, compact northern commerce spacing, and shadcn/tweakcn 8px grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Compact bilingual commerce dashboard hierarchy; keep text short and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets.\nVisual details: deep peat-bog dark background, cloudberry amber active states, moss green status/focus, peat-brown cards, lichen cream foreground text, restrained contrast, subtle seed-dot and bog-moss texture overlays, crisp compact controls.\nConstraints: no raspberry red, no citrus branding, no tropical orange palette, no neon orange, no generic purple/blue gradients, no pure-black flat background, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Cloudberry\", no tiny unreadable paragraphs."
+    }
+  ]
+}

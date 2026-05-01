@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tamarind",
+    "name": "Morphous Tamarind",
+    "motifName": "Tamarind Pod",
+    "motifCategory": "fruit",
+    "biome": "Dry Tropical Woodland",
+    "motif": "tamarind pod"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pod Fiber",
+      "hex": "#fbf4e8",
+      "oklch": "oklch(0.969 0.018 81.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Sour Pulp Ink",
+      "hex": "#24140f",
+      "oklch": "oklch(0.212 0.028 38.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cinnamon Shell",
+      "hex": "#9a5a2f",
+      "oklch": "oklch(0.532 0.102 52.6)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Roasted Pod",
+      "hex": "#7a3f22",
+      "oklch": "oklch(0.436 0.092 45.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tamarind Caramel",
+      "hex": "#c47a3d",
+      "oklch": "oklch(0.647 0.120 57.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Ledger",
+      "hex": "#4f7d3a",
+      "oklch": "oklch(0.540 0.109 136.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Woodland Dust",
+      "hex": "#e4d2bd",
+      "oklch": "oklch(0.873 0.035 71.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Compound Leaf",
+      "hex": "#6f9a4a",
+      "oklch": "oklch(0.636 0.119 132.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Pod",
+      "hex": "#f4ead9",
+      "oklch": "oklch(0.940 0.025 81.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Glossy Seed",
+      "hex": "#3b2118",
+      "oklch": "oklch(0.279 0.044 39.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Sour Amber",
+      "hex": "#d19638",
+      "oklch": "oklch(0.714 0.128 75.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Pulp Red",
+      "hex": "#a3432e",
+      "oklch": "oklch(0.508 0.132 33.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.969 0.018 81.3)",
+    "foreground": "oklch(0.212 0.028 38.1)",
+    "card": "oklch(0.940 0.025 81.1)",
+    "card-foreground": "oklch(0.212 0.028 38.1)",
+    "popover": "oklch(0.940 0.025 81.1)",
+    "popover-foreground": "oklch(0.212 0.028 38.1)",
+    "primary": "oklch(0.532 0.102 52.6)",
+    "primary-foreground": "oklch(0.969 0.018 81.3)",
+    "secondary": "oklch(0.952 0.022 80.7)",
+    "secondary-foreground": "oklch(0.279 0.044 39.8)",
+    "muted": "oklch(0.949 0.023 82.1)",
+    "muted-foreground": "oklch(0.279 0.044 39.8)",
+    "accent": "oklch(0.540 0.109 136.8)",
+    "accent-foreground": "oklch(0.212 0.028 38.1)",
+    "destructive": "oklch(0.532 0.102 52.6)",
+    "border": "oklch(0.915 0.028 76.2)",
+    "input": "oklch(0.915 0.028 76.2)",
+    "ring": "oklch(0.647 0.120 57.8)",
+    "chart-1": "oklch(0.532 0.102 52.6)",
+    "chart-2": "oklch(0.647 0.120 57.8)",
+    "chart-3": "oklch(0.540 0.109 136.8)",
+    "chart-4": "oklch(0.636 0.119 132.3)",
+    "chart-5": "oklch(0.279 0.044 39.8)",
+    "sidebar": "oklch(0.949 0.022 80.7)",
+    "sidebar-foreground": "oklch(0.212 0.028 38.1)",
+    "sidebar-primary": "oklch(0.532 0.102 52.6)",
+    "sidebar-primary-foreground": "oklch(0.969 0.018 81.3)",
+    "sidebar-accent": "oklch(0.893 0.032 73.5)",
+    "sidebar-accent-foreground": "oklch(0.532 0.102 52.6)",
+    "sidebar-border": "oklch(0.915 0.028 76.2)",
+    "sidebar-ring": "oklch(0.647 0.120 57.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.212 0.028 38.1)",
+    "foreground": "oklch(0.969 0.018 81.3)",
+    "card": "oklch(0.258 0.038 40.7)",
+    "card-foreground": "oklch(0.969 0.018 81.3)",
+    "popover": "oklch(0.258 0.038 40.7)",
+    "popover-foreground": "oklch(0.969 0.018 81.3)",
+    "primary": "oklch(0.647 0.120 57.8)",
+    "primary-foreground": "oklch(0.212 0.028 38.1)",
+    "secondary": "oklch(0.424 0.038 47.8)",
+    "secondary-foreground": "oklch(0.969 0.018 81.3)",
+    "muted": "oklch(0.424 0.038 47.8)",
+    "muted-foreground": "oklch(0.927 0.025 75.3)",
+    "accent": "oklch(0.540 0.109 136.8)",
+    "accent-foreground": "oklch(0.212 0.028 38.1)",
+    "destructive": "oklch(0.532 0.102 52.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.647 0.120 57.8)",
+    "chart-1": "oklch(0.647 0.120 57.8)",
+    "chart-2": "oklch(0.532 0.102 52.6)",
+    "chart-3": "oklch(0.540 0.109 136.8)",
+    "chart-4": "oklch(0.636 0.119 132.3)",
+    "chart-5": "oklch(0.873 0.035 71.6)",
+    "sidebar": "oklch(0.244 0.036 39.2)",
+    "sidebar-foreground": "oklch(0.969 0.018 81.3)",
+    "sidebar-primary": "oklch(0.647 0.120 57.8)",
+    "sidebar-primary-foreground": "oklch(0.212 0.028 38.1)",
+    "sidebar-accent": "oklch(0.424 0.038 47.8)",
+    "sidebar-accent-foreground": "oklch(0.969 0.018 81.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.647 0.120 57.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for mature finance product UI, compact tabular numbers, restrained operational labels, and Noto Sans JP guidance for bilingual balances, approvals, ledgers, and audit workflows.",
+  "layout": "Dense finance dashboard grids with 8px radius controls, ledger-first tables, left navigation, command search, compact forms, reconciliation queues, brittle pod crackle texture, and restrained earth-toned status systems.",
+  "tags": [
+    "tamarind",
+    "fruit",
+    "dry-tropical-woodland",
+    "finance",
+    "ledger",
+    "cinnamon-brown",
+    "leaf-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tamarind/motif.png",
+    "board": "/systems/morphous-tamarind/design-system-light.png",
+    "darkBoard": "/systems/morphous-tamarind/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tamarind/theme.css",
+    "themeJson": "/systems/morphous-tamarind/theme.json",
+    "promptsJson": "/systems/morphous-tamarind/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent tamarind pod motif",
+      "asset": "/systems/morphous-tamarind/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tamarind transparent motif chroma-key source\nPrimary request: Create only a tamarind pod botanical/product motif for a design-system catalog, isolated as one complete opaque subject on a removable chroma-key background.\nSubject: A cluster of tamarind pods from dry tropical woodland: cinnamon-brown curved brittle pods with matte shell texture, one pod cracked open to reveal sticky dark sour pulp and glossy black-brown seeds, a small sprig of compound tamarind leaves in natural leaf green. Botanical accuracy, crisp opaque subject edges, tactile pod ridges, earthy finance-system maturity, dry woodland polish.\nComposition/framing: centered complete cutout with generous padding; include several full pods, one opened pulp section, seeds, short stem, and a small leaf sprig without cropping. Clean studio lighting preserving cinnamon brown, sour pulp brown, leaf green, and seed darks; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no bowl, no plate, no basket, no hand, no knife, no packaging, no tree scene, no extra fruit species, no text, no watermark, no floor plane, no shadow, no green or magenta background spill on the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-tamarind/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tamarind light-mode design-system board, comprehensive shadcn/tweakcn source reference\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Tamarind\", derived from a tamarind pod motif. This board is a source reference for implementing a shadcn/tweakcn-compatible earthy finance system.\nCanvas: true 16:9 landscape source board, ultra high resolution, 4K-class composition for design-system documentation. Make the board broad and spacious, with large readable section titles and component labels that remain legible in gallery previews. Avoid small dense paragraphs.\nRequired visible sections: Morphous Tamarind, Tamarind Pod, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from cinnamon-brown tamarind shells, sticky dark sour pulp, glossy black-brown seeds, tender compound leaf green, dry tropical woodland light, and mature finance operations. The board must read as tamarind pod and earthy finance infrastructure, not generic brown SaaS.\nJapanese typography guidance: Use Noto Sans JP for UI body, compact labels, and table cells; use Japanese serif/mincho only for occasional editorial display headings. Keep kanji counters and financial units legible with tabular numbers. Include examples such as 日本語 UI, 明朝は見出しのみ, Noto Sans JP, 金額, 残高, 取引, 承認, 監査.\nComponent coverage: shadcn/tweakcn-style buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sheets, dialogs, popovers, dropdowns, tooltips, progress, skeleton loading, empty states, error states, and success states.\nData and workflow coverage: finance dashboard metric cards, ledger table rows, transaction search, command palette, reconciliation queue, approval workflow, portfolio allocation, cash movement chart, risk status badges, audit trail snippets, filters, pagination, sortable columns, and dense but readable numeric tables.\nToken and texture coverage: semantic tokens for background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius, spacing, shadow, focus, disabled, hover, selected, and texture overlays. Show brittle pod crackle microtexture, pod-fiber paper grain, sour-pulp dark ink, seed-brown borders, and leaf-green focus states.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, cinnamon-brown primary actions, leaf-green positive status and focus states, dark sour-pulp ink, seed-brown dividers, pale pod-fiber surfaces, finance dashboard density, subtle brittle pod crackle microtexture, earthy finance system mood.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no candy branding, no coffee shop aesthetic, no random brand names, no watermark, no misspelling of \"Morphous Tamarind\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-tamarind/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tamarind dark-mode design-system board, comprehensive shadcn/tweakcn source reference\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Tamarind\". It must feel like the light-mode board translated to dark mode, not a new theme, and it must remain derived from the tamarind pod motif.\nCanvas: 16:9 landscape board intended for 3840 x 2160 output; clean professional UI design-system presentation with large readable labels, generous columns, and no tiny text.\nRequired visible sections: Morphous Tamarind, Tamarind Pod, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same earthy finance language as the light board: cinnamon-brown primary actions, leaf-green positive status and focus states, seed-brown separators, sour-pulp dark ink, pale pod-fiber highlights, brittle pod crackle microtexture, 8px radius, dense shadcn/tweakcn finance component grid. Must read as tamarind pod and finance infrastructure, not generic dark SaaS.\nJapanese typography guidance: Use Noto Sans JP for dark-mode Japanese UI body, labels, and table cells; reserve Japanese serif/mincho for occasional high-trust display headings only. Keep financial kanji, yen-style amounts, and tabular numerals crisp. Include examples such as 日本語 UI, 明朝は見出しのみ, Noto Sans JP, 金額, 残高, 取引, 承認, 監査.\nComponent coverage: shadcn/tweakcn-style buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sheets, dialogs, popovers, dropdowns, tooltips, progress, skeleton loading, empty states, error states, and success states.\nData and workflow coverage: dark finance dashboard metric cards, ledger table rows, transaction search, command palette, reconciliation queue, approval workflow, portfolio allocation, cash movement chart, risk status badges, audit trail snippets, filters, pagination, sortable columns, and dense but readable numeric tables.\nToken and texture coverage: semantic tokens for background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius, spacing, shadow, focus, disabled, hover, selected, and texture overlays. Show deep sour-pulp surfaces, cinnamon active states, pod-fiber highlights, seed-brown borders, leaf-green focus rings, and subtle cracked shell grain.\nVisual details: deep sour-pulp and seed-ink surfaces, cinnamon active states, warm pod-fiber text and highlights, tamarind leaf green focus rings and positive status, muted shell-brown controls, restrained contrast, crisp cards and controls, subtle cracked pod grain overlays.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no candy branding, no coffee shop aesthetic, no random brand names, no watermark, no illegible tiny paragraphs, no misspelling of \"Morphous Tamarind\"."
+    }
+  ]
+}

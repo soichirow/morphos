@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rhododendron",
+    "name": "Morphous Rhododendron",
+    "motifName": "Rhododendron",
+    "motifCategory": "flower",
+    "biome": "cloud forest",
+    "motif": "rhododendron bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cloud Mist",
+      "hex": "#EEF2F2",
+      "oklch": "oklch(0.958 0.004 197.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Ink",
+      "hex": "#1D2422",
+      "oklch": "oklch(0.253 0.011 176.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rhodo Magenta",
+      "hex": "#C73D7A",
+      "oklch": "oklch(0.577 0.182 357.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wax Green",
+      "hex": "#5C8060",
+      "oklch": "oklch(0.563 0.064 147.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rose Bloom",
+      "hex": "#D86993",
+      "oklch": "oklch(0.664 0.146 357.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Mist Grey",
+      "hex": "#8FA0A0",
+      "oklch": "oklch(0.692 0.019 196.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fog White",
+      "hex": "#F8FBFA",
+      "oklch": "oklch(0.986 0.003 174.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Wax",
+      "hex": "#9CB69A",
+      "oklch": "oklch(0.749 0.049 143.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cloud Forest",
+      "hex": "#2A3632",
+      "oklch": "oklch(0.320 0.018 172.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Grey",
+      "hex": "#70706A",
+      "oklch": "oklch(0.543 0.009 106.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Green",
+      "hex": "#6D9464",
+      "oklch": "oklch(0.625 0.082 139.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.958 0.004 197.1)",
+    "foreground": "oklch(0.253 0.011 176.3)",
+    "card": "oklch(0.986 0.003 174.5)",
+    "card-foreground": "oklch(0.253 0.011 176.3)",
+    "popover": "oklch(0.986 0.003 174.5)",
+    "popover-foreground": "oklch(0.253 0.011 176.3)",
+    "primary": "oklch(0.577 0.182 357.4)",
+    "primary-foreground": "oklch(0.958 0.004 197.1)",
+    "secondary": "oklch(0.974 0.003 197.1)",
+    "secondary-foreground": "oklch(0.320 0.018 172.9)",
+    "muted": "oklch(0.977 0.003 197.1)",
+    "muted-foreground": "oklch(0.320 0.018 172.9)",
+    "accent": "oklch(0.664 0.146 357.9)",
+    "accent-foreground": "oklch(0.253 0.011 176.3)",
+    "destructive": "oklch(0.577 0.182 357.4)",
+    "border": "oklch(0.901 0.019 145.4)",
+    "input": "oklch(0.901 0.019 145.4)",
+    "ring": "oklch(0.563 0.064 147.5)",
+    "chart-1": "oklch(0.577 0.182 357.4)",
+    "chart-2": "oklch(0.563 0.064 147.5)",
+    "chart-3": "oklch(0.664 0.146 357.9)",
+    "chart-4": "oklch(0.692 0.019 196.7)",
+    "chart-5": "oklch(0.320 0.018 172.9)",
+    "sidebar": "oklch(0.977 0.003 174.5)",
+    "sidebar-foreground": "oklch(0.253 0.011 176.3)",
+    "sidebar-primary": "oklch(0.577 0.182 357.4)",
+    "sidebar-primary-foreground": "oklch(0.958 0.004 197.1)",
+    "sidebar-accent": "oklch(0.932 0.018 345.6)",
+    "sidebar-accent-foreground": "oklch(0.577 0.182 357.4)",
+    "sidebar-border": "oklch(0.901 0.019 145.4)",
+    "sidebar-ring": "oklch(0.563 0.064 147.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.253 0.011 176.3)",
+    "foreground": "oklch(0.958 0.004 197.1)",
+    "card": "oklch(0.299 0.015 175.1)",
+    "card-foreground": "oklch(0.958 0.004 197.1)",
+    "popover": "oklch(0.299 0.015 175.1)",
+    "popover-foreground": "oklch(0.958 0.004 197.1)",
+    "primary": "oklch(0.563 0.064 147.5)",
+    "primary-foreground": "oklch(0.253 0.011 176.3)",
+    "secondary": "oklch(0.423 0.024 158.9)",
+    "secondary-foreground": "oklch(0.958 0.004 197.1)",
+    "muted": "oklch(0.423 0.024 158.9)",
+    "muted-foreground": "oklch(0.865 0.023 147.4)",
+    "accent": "oklch(0.664 0.146 357.9)",
+    "accent-foreground": "oklch(0.253 0.011 176.3)",
+    "destructive": "oklch(0.577 0.182 357.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.563 0.064 147.5)",
+    "chart-1": "oklch(0.563 0.064 147.5)",
+    "chart-2": "oklch(0.577 0.182 357.4)",
+    "chart-3": "oklch(0.664 0.146 357.9)",
+    "chart-4": "oklch(0.692 0.019 196.7)",
+    "chart-5": "oklch(0.749 0.049 143.2)",
+    "sidebar": "oklch(0.283 0.014 173.1)",
+    "sidebar-foreground": "oklch(0.958 0.004 197.1)",
+    "sidebar-primary": "oklch(0.563 0.064 147.5)",
+    "sidebar-primary-foreground": "oklch(0.253 0.011 176.3)",
+    "sidebar-accent": "oklch(0.423 0.024 158.9)",
+    "sidebar-accent-foreground": "oklch(0.958 0.004 197.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.563 0.064 147.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Layered knowledge English UI with Japanese typography guidance for reference headings, Gothic body text, compact metadata labels, tabular data, and long-form reading surfaces.",
+  "layout": "Knowledge bases, research dashboards, 8px radii, cloud-mist surfaces, rhododendron-magenta actions, wax-green navigation, mist-grey borders, and layered data panels.",
+  "tags": [
+    "rhododendron",
+    "flower",
+    "cloud-forest",
+    "rose-magenta",
+    "wax-green",
+    "knowledge",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rhododendron/motif.png",
+    "board": "/systems/morphous-rhododendron/design-system-light.png",
+    "darkBoard": "/systems/morphous-rhododendron/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rhododendron/theme.css",
+    "themeJson": "/systems/morphous-rhododendron/theme.json",
+    "promptsJson": "/systems/morphous-rhododendron/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rhododendron bloom motif",
+      "asset": "/systems/morphous-rhododendron/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Rhododendron transparent motif chroma-key source\nPrimary request: Create a complete rhododendron bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A cloud forest rhododendron bloom with rose-magenta petals, waxy green leaves, mist-grey undertones, subtle bark stems, and layered botanical texture. Crisp edges, no cast shadow.\nComposition/framing: centered complete bloom cutout with petals, leaves, and stem hints visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no azalea confusion, no rose, no vase, no hand, no props, no landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rhododendron/design-system-light.png",
+      "sourceAsset": "/systems/morphous-rhododendron/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rhododendron light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Rhododendron, derived from the visible rhododendron bloom cutout.\nCanvas: wide 16:9 high-resolution board, polished layered knowledge-system presentation.\nRequired visible sections: Morphous Rhododendron, Rhododendron Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract rose-magenta actions, wax-green navigation, cloud-mist surfaces, mist-grey borders, fog-white cards, and cloud-forest depth for research, documentation, knowledge bases, and data exploration.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, document cards, research tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic pink UI, no azalea confusion, no unrelated neon colors, no tiny unreadable text, no watermark, no misspelling of Morphous Rhododendron."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rhododendron/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-rhododendron/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rhododendron dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Rhododendron that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Rhododendron, Rhododendron Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve rhododendron-magenta actions, wax-green navigation, cloud-forest surfaces, fog-white foregrounds, mist-grey borders, and layered knowledge UI density.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Rhododendron."
+    }
+  ]
+}

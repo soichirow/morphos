@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-date-palm",
+    "name": "Morphous Date Palm",
+    "motifName": "Date Palm",
+    "motifCategory": "fruit",
+    "biome": "oasis grove",
+    "motif": "date cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Oasis Sand",
+      "hex": "#F7E6C2",
+      "oklch": "oklch(0.929 0.051 85.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Palm Ink",
+      "hex": "#22180E",
+      "oklch": "oklch(0.218 0.024 66.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Date Amber",
+      "hex": "#A86725",
+      "oklch": "oklch(0.574 0.115 61.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Desert Gold",
+      "hex": "#D7A84B",
+      "oklch": "oklch(0.757 0.123 82.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Palm Green",
+      "hex": "#4F7C3A",
+      "oklch": "oklch(0.537 0.108 136.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Oasis Teal",
+      "hex": "#2C8074",
+      "oklch": "oklch(0.546 0.082 182.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Linen Date",
+      "hex": "#FFF2D3",
+      "oklch": "oklch(0.963 0.043 88.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Raffia Tan",
+      "hex": "#B98B56",
+      "oklch": "oklch(0.670 0.090 69.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Trunk Brown",
+      "hex": "#3C2415",
+      "oklch": "oklch(0.287 0.044 52.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Frond Shadow",
+      "hex": "#6F4B2C",
+      "oklch": "oklch(0.446 0.067 60.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Sun Gold",
+      "hex": "#E2B855",
+      "oklch": "oklch(0.801 0.126 86.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.929 0.051 85.7)",
+    "foreground": "oklch(0.218 0.024 66.0)",
+    "card": "oklch(0.963 0.043 88.0)",
+    "card-foreground": "oklch(0.218 0.024 66.0)",
+    "popover": "oklch(0.963 0.043 88.0)",
+    "popover-foreground": "oklch(0.218 0.024 66.0)",
+    "primary": "oklch(0.574 0.115 61.8)",
+    "primary-foreground": "oklch(0.929 0.051 85.7)",
+    "secondary": "oklch(0.950 0.046 86.5)",
+    "secondary-foreground": "oklch(0.287 0.044 52.1)",
+    "muted": "oklch(0.955 0.046 87.8)",
+    "muted-foreground": "oklch(0.287 0.044 52.1)",
+    "accent": "oklch(0.537 0.108 136.6)",
+    "accent-foreground": "oklch(0.218 0.024 66.0)",
+    "destructive": "oklch(0.574 0.115 61.8)",
+    "border": "oklch(0.860 0.059 78.8)",
+    "input": "oklch(0.860 0.059 78.8)",
+    "ring": "oklch(0.757 0.123 82.0)",
+    "chart-1": "oklch(0.574 0.115 61.8)",
+    "chart-2": "oklch(0.757 0.123 82.0)",
+    "chart-3": "oklch(0.537 0.108 136.6)",
+    "chart-4": "oklch(0.546 0.082 182.0)",
+    "chart-5": "oklch(0.287 0.044 52.1)",
+    "sidebar": "oklch(0.952 0.046 87.8)",
+    "sidebar-foreground": "oklch(0.218 0.024 66.0)",
+    "sidebar-primary": "oklch(0.574 0.115 61.8)",
+    "sidebar-primary-foreground": "oklch(0.929 0.051 85.7)",
+    "sidebar-accent": "oklch(0.917 0.051 81.6)",
+    "sidebar-accent-foreground": "oklch(0.574 0.115 61.8)",
+    "sidebar-border": "oklch(0.860 0.059 78.8)",
+    "sidebar-ring": "oklch(0.757 0.123 82.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.218 0.024 66.0)",
+    "foreground": "oklch(0.929 0.051 85.7)",
+    "card": "oklch(0.264 0.037 54.8)",
+    "card-foreground": "oklch(0.929 0.051 85.7)",
+    "popover": "oklch(0.264 0.037 54.8)",
+    "popover-foreground": "oklch(0.929 0.051 85.7)",
+    "primary": "oklch(0.757 0.123 82.0)",
+    "primary-foreground": "oklch(0.218 0.024 66.0)",
+    "secondary": "oklch(0.380 0.055 59.7)",
+    "secondary-foreground": "oklch(0.929 0.051 85.7)",
+    "muted": "oklch(0.380 0.055 59.7)",
+    "muted-foreground": "oklch(0.813 0.068 77.1)",
+    "accent": "oklch(0.537 0.108 136.6)",
+    "accent-foreground": "oklch(0.218 0.024 66.0)",
+    "destructive": "oklch(0.574 0.115 61.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.757 0.123 82.0)",
+    "chart-1": "oklch(0.757 0.123 82.0)",
+    "chart-2": "oklch(0.574 0.115 61.8)",
+    "chart-3": "oklch(0.537 0.108 136.6)",
+    "chart-4": "oklch(0.546 0.082 182.0)",
+    "chart-5": "oklch(0.670 0.090 69.2)",
+    "sidebar": "oklch(0.252 0.034 59.5)",
+    "sidebar-foreground": "oklch(0.929 0.051 85.7)",
+    "sidebar-primary": "oklch(0.757 0.123 82.0)",
+    "sidebar-primary-foreground": "oklch(0.218 0.024 66.0)",
+    "sidebar-accent": "oklch(0.380 0.055 59.7)",
+    "sidebar-accent-foreground": "oklch(0.929 0.051 85.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.757 0.123 82.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Structured English product UI with tabular time numerals and Japanese typography guidance for hospitality schedules, compact labels, Gothic body text, and Mincho-accent headings.",
+  "layout": "Calendar-first grids, resource sidebars, 8px cards, date-cluster rhythm, palm-frond separators, desert-gold focus rings, and compact table density.",
+  "tags": [
+    "date-palm",
+    "fruit",
+    "oasis-grove",
+    "amber",
+    "palm-green",
+    "scheduling",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-date-palm/motif.png",
+    "board": "/systems/morphous-date-palm/design-system-light.png",
+    "darkBoard": "/systems/morphous-date-palm/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-date-palm/theme.css",
+    "themeJson": "/systems/morphous-date-palm/theme.json",
+    "promptsJson": "/systems/morphous-date-palm/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent date cluster motif",
+      "asset": "/systems/morphous-date-palm/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Date Palm transparent motif chroma-key source\nPrimary request: Create a complete date palm fruit cluster motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: Hanging cluster of ripe amber-brown dates attached to branching stems, with palm-green frond hints and desert-gold highlights. Botanical accuracy, crisp edges, natural oasis-grove lighting, no cast shadow.\nComposition/framing: centered complete cutout with generous padding, fruit cluster and stems visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no raisins, no coffee beans, no bowl, no hand, no props, no market stall, no landscape, no loose pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-date-palm/design-system-light.png",
+      "sourceAsset": "/systems/morphous-date-palm/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Date Palm light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn board named Morphous Date Palm, derived from the visible date cluster cutout.\nCanvas: wide 16:9 high-resolution board, polished product-system presentation.\nRequired visible sections: Morphous Date Palm, Date Cluster, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Build the UI language from amber-brown dates, palm-green controls, desert-gold focus, oasis-sand backgrounds, raffia tan borders, trunk-brown depth, and subtle palm-frond texture. It should feel like a structured scheduling system for bookings, calendars, logistics, and resource planning.\nTypography: readable English hierarchy with Japanese typography guidance for Noto Sans JP, Gothic body text, Mincho headings, compact labels, and tabular time numerals.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, data tables, command palette, sidebar navigation, metrics, charts, calendar, empty/loading/error/success states, token swatches, texture samples, spacing scale, radius scale, and shadow scale.\nConstraints: no generic brown dashboard, no beige-only palette, no unrelated saturated colors, no tiny unreadable text, no watermark, no misspelling of Morphous Date Palm."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-date-palm/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-date-palm/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Date Palm dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Date Palm that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Date Palm, Date Cluster, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve date-amber actions, palm-green success states, desert-gold focus rings, oasis-sand foregrounds, raffia borders, and trunk-brown dark surfaces. Keep the system suited to calendar, booking, capacity, and resource dashboards.\nTypography: English product UI plus Japanese guidance for Mincho headings, Gothic body text, compact labels, and numeric time tables.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, search command palette, navigation, metrics, charts, calendar, status states, spacing, radius, border, shadow, texture, and tokens.\nConstraints: no neon palette, no generic black UI, no beige-only flat palette, no unrelated colors, no watermark, no misspelling of Morphous Date Palm."
+    }
+  ]
+}

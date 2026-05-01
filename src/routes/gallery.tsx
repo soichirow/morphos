@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react"
 import { Link, createFileRoute } from "@tanstack/react-router"
 import {
   Check,
@@ -27,6 +27,66 @@ import { useFont } from "@/lib/use-font"
 import { usePaletteOverrides } from "@/lib/use-palette-overrides"
 
 type GallerySearch = { system?: string }
+
+type LightboxItem = { src: string; alt: string; downloadName?: string }
+const LightboxContext = createContext<((item: LightboxItem) => void) | null>(null)
+const useLightbox = () => useContext(LightboxContext)
+
+function Lightbox({ item, onClose }: { item: LightboxItem; onClose: () => void }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose()
+    }
+    document.addEventListener("keydown", onKey)
+    const prev = document.body.style.overflow
+    document.body.style.overflow = "hidden"
+    return () => {
+      document.removeEventListener("keydown", onKey)
+      document.body.style.overflow = prev
+    }
+  }, [onClose])
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={item.alt}
+      onClick={onClose}
+      className="fixed inset-0 z-50 grid place-items-center bg-black/80 p-4 backdrop-blur-sm"
+    >
+      <img
+        src={item.src}
+        alt={item.alt}
+        onClick={(e) => e.stopPropagation()}
+        className="max-h-[92svh] max-w-[92vw] cursor-default rounded-md object-contain shadow-2xl"
+        decoding="async"
+      />
+      <div
+        className="absolute right-3 top-3 flex items-center gap-2"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <a
+          href={item.src}
+          download={item.downloadName}
+          className="grid size-9 place-items-center rounded-md bg-background/90 text-foreground shadow hover:bg-background"
+          aria-label="Download"
+          title="Download"
+        >
+          <Download className="size-4" />
+        </a>
+        <button
+          type="button"
+          onClick={onClose}
+          className="grid size-9 place-items-center rounded-md bg-background/90 text-foreground shadow hover:bg-background"
+          aria-label="Close"
+          title="Close (Esc)"
+        >
+          <X className="size-4" />
+        </button>
+      </div>
+    </div>
+  )
+}
 
 export const Route = createFileRoute("/gallery")({
   component: CatalogRoute,
@@ -60,6 +120,8 @@ function CatalogRoute() {
   const [searchColor, setSearchColor] = useState<string>("")
   const [colorRole, setColorRole] = useState<ColorRoleKey>("Primary")
   const { fontId, setFontId, font, jaFontId, setJaFontId, presetId, setPresetId } = useFont()
+  const [lightbox, setLightbox] = useState<LightboxItem | null>(null)
+  const openLightbox = useCallback((item: LightboxItem) => setLightbox(item), [])
 
   const baseSystem = systems.find((system) => system.slug === activeSlug) ?? systems[0]
   const { tunedSystem: activeSystem, overrides, hasOverrides, setOverride, resetOverrides } =
@@ -104,10 +166,12 @@ function CatalogRoute() {
   }, [biome, category, colorRole, query, searchColor, sort])
 
   return (
+    <LightboxContext.Provider value={openLightbox}>
     <div
       className={mode === "dark" ? "dark" : ""}
       style={{ ...themeStyle(activeSystem, mode), fontFamily: font.stack }}
     >
+      {lightbox ? <Lightbox item={lightbox} onClose={() => setLightbox(null)} /> : null}
       <div
         className="pointer-events-none fixed inset-0 -z-10"
         style={{
@@ -119,7 +183,7 @@ function CatalogRoute() {
       />
 
       <main className="relative min-h-svh overflow-x-hidden text-foreground">
-        <header className="sticky top-0 z-30 border-b border-border/60 bg-background/70 backdrop-blur-xl">
+        <header className="z-30 border-b border-border/60 bg-background/70 backdrop-blur-xl lg:sticky lg:top-0">
           <div className="mx-auto flex max-w-[88rem] flex-col gap-3 px-4 py-3 sm:px-6 lg:px-8">
             <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
               <Link
@@ -207,7 +271,7 @@ function CatalogRoute() {
         </section>
 
         <section className="mx-auto grid max-w-[88rem] gap-5 px-4 py-6 sm:px-6 lg:grid-cols-[20rem_1fr] lg:px-8">
-          <aside className="order-2 space-y-2 lg:order-1 lg:sticky lg:top-32 lg:self-start lg:max-h-[calc(100svh-9rem)] lg:overflow-auto lg:pr-1">
+          <aside className="order-2 max-h-[60svh] space-y-2 overflow-auto rounded-xl border border-border/60 bg-card/40 p-2 backdrop-blur lg:order-1 lg:max-h-[calc(100svh-9rem)] lg:rounded-none lg:border-0 lg:bg-transparent lg:p-0 lg:pr-1 lg:sticky lg:top-32 lg:self-start lg:backdrop-blur-none">
             <p className="px-1 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
               {filteredSystems.length} system{filteredSystems.length === 1 ? "" : "s"}
             </p>
@@ -361,6 +425,7 @@ function CatalogRoute() {
         </footer>
       </main>
     </div>
+    </LightboxContext.Provider>
   )
 }
 
@@ -407,25 +472,25 @@ function ActionBar({
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-1.5">
-          <Button asChild size="sm">
-            <a href={system.assets.themeCss} download>
+          <Button asChild size="sm" title="Download theme.css">
+            <a href={system.assets.themeCss} download aria-label="Download theme.css">
               <FileCode2 data-icon="inline-start" />
-              CSS
+              <span className="hidden sm:inline">CSS</span>
             </a>
           </Button>
-          <Button asChild size="sm" variant="outline">
-            <a href={system.assets.themeJson} download>
+          <Button asChild size="sm" variant="outline" title="Download theme.json">
+            <a href={system.assets.themeJson} download aria-label="Download theme.json">
               <Download data-icon="inline-start" />
-              JSON
+              <span className="hidden sm:inline">JSON</span>
             </a>
           </Button>
-          <Button asChild size="sm" variant="outline">
-            <a href={system.assets.promptsJson} download>
+          <Button asChild size="sm" variant="outline" title="Download prompts.json">
+            <a href={system.assets.promptsJson} download aria-label="Download prompts.json">
               <Copy data-icon="inline-start" />
-              Prompts
+              <span className="hidden sm:inline">Prompts</span>
             </a>
           </Button>
-          <span className="mx-1 h-5 w-px bg-border" aria-hidden />
+          <span className="mx-1 hidden h-5 w-px bg-border sm:block" aria-hidden />
           <OfficeDownload system={system} mode={mode} font={font} jaFont={jaFont} />
         </div>
       </div>
@@ -434,10 +499,11 @@ function ActionBar({
 }
 
 function Hero({ system }: { system: MorphousSystem }) {
+  const openLightbox = useLightbox()
   return (
     <section className="overflow-hidden rounded-2xl border border-border bg-card/85 shadow-sm backdrop-blur">
       <div className="grid lg:grid-cols-[1fr_1fr]">
-        <div className="flex flex-col gap-5 p-6 sm:p-9">
+        <div className="flex flex-col gap-5 p-5 sm:p-9">
           <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
             <span className="rounded-full border border-border bg-background/70 px-2 py-0.5">
               {system.motifCategory}
@@ -452,10 +518,10 @@ function Hero({ system }: { system: MorphousSystem }) {
           </div>
 
           <div className="space-y-3">
-            <h2 className="text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
+            <h2 className="text-3xl font-semibold leading-[1.05] tracking-tight sm:text-4xl lg:text-5xl">
               {system.name}
             </h2>
-            <p className="text-base leading-7 text-muted-foreground sm:text-lg">
+            <p className="text-sm leading-6 text-muted-foreground sm:text-base sm:leading-7 lg:text-lg">
               {system.description}
             </p>
           </div>
@@ -473,18 +539,30 @@ function Hero({ system }: { system: MorphousSystem }) {
         </div>
 
         <div
-          className="relative grid min-h-[22rem] place-items-center border-t border-border p-6 lg:min-h-0 lg:border-l lg:border-t-0"
+          className="relative grid min-h-[16rem] place-items-center border-t border-border p-5 sm:min-h-[22rem] sm:p-6 lg:min-h-0 lg:border-l lg:border-t-0"
           style={{
             background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 70%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 25%)`,
           }}
         >
-          <img
-            src={previewAssetPath(system.assets.motif)}
-            alt={`${system.motifName} motif`}
-            className="max-h-[28rem] w-auto object-contain drop-shadow-xl"
-            decoding="async"
-            fetchPriority="high"
-          />
+          <button
+            type="button"
+            onClick={() =>
+              openLightbox?.({
+                src: system.assets.motif,
+                alt: `${system.motifName} motif`,
+              })
+            }
+            aria-label={`View full-resolution ${system.motifName} motif`}
+            className="cursor-zoom-in"
+          >
+            <img
+              src={previewAssetPath(system.assets.motif)}
+              alt={`${system.motifName} motif`}
+              className="max-h-[28rem] w-auto object-contain drop-shadow-xl transition hover:scale-[1.02]"
+              decoding="async"
+              fetchPriority="high"
+            />
+          </button>
         </div>
       </div>
     </section>
@@ -547,6 +625,8 @@ function BoardSwitcher({
   initial: ThemeMode
 }) {
   const [tab, setTab] = useState<ThemeMode>(initial)
+  const openLightbox = useLightbox()
+  const fullSrc = tab === "light" ? light : dark
   return (
     <section className="overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur">
       <div className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
@@ -573,13 +653,20 @@ function BoardSwitcher({
           </Button>
         </div>
       </div>
-      <img
-        src={previewAssetPath(tab === "light" ? light : dark)}
-        alt={`${tab} system board`}
-        className="w-full object-cover"
-        loading="lazy"
-        decoding="async"
-      />
+      <button
+        type="button"
+        onClick={() => openLightbox?.({ src: fullSrc, alt: `${tab} system board` })}
+        className="block w-full cursor-zoom-in"
+        aria-label="View full-resolution board"
+      >
+        <img
+          src={previewAssetPath(fullSrc)}
+          alt={`${tab} system board`}
+          className="w-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+      </button>
     </section>
   )
 }
@@ -1475,7 +1562,7 @@ function ColorSearch({
         <div
           role="listbox"
           aria-label="Color presets"
-          className="absolute left-0 top-full z-50 mt-1 w-64 rounded-lg border border-border bg-popover p-2 text-popover-foreground shadow-lg"
+          className="absolute left-0 top-full z-50 mt-1 w-[min(16rem,calc(100vw-2rem))] rounded-lg border border-border bg-popover p-2 text-popover-foreground shadow-lg"
         >
           <p className="mb-2 px-1 text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
             Sort by closest {role.toLowerCase()} color
@@ -1687,32 +1774,42 @@ function PromptCard({
 }
 
 function AssetThumb({ label, href }: { label: string; href: string }) {
+  const openLightbox = useLightbox()
   return (
-    <a
-      href={href}
-      download
-      className="group block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary"
-      title={`Download ${label}`}
-    >
-      <span
-        className="relative block aspect-square w-full"
-        style={{
-          backgroundImage: `linear-gradient(135deg, color-mix(in oklch, var(--palette-surface), transparent 50%), color-mix(in oklch, var(--palette-depth), transparent 70%))`,
-        }}
+    <div className="group relative block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary">
+      <button
+        type="button"
+        onClick={() => openLightbox?.({ src: href, alt: label })}
+        title={`View ${label}`}
+        className="block w-full cursor-zoom-in text-left"
       >
-        <img
-          src={previewAssetPath(href)}
-          alt={label}
-          className="absolute inset-0 size-full object-cover"
-          loading="lazy"
-          decoding="async"
-        />
-        <span className="absolute right-1.5 top-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100">
-          <Download className="size-3.5" />
+        <span
+          className="relative block aspect-square w-full"
+          style={{
+            backgroundImage: `linear-gradient(135deg, color-mix(in oklch, var(--palette-surface), transparent 50%), color-mix(in oklch, var(--palette-depth), transparent 70%))`,
+          }}
+        >
+          <img
+            src={previewAssetPath(href)}
+            alt={label}
+            className="absolute inset-0 size-full object-cover"
+            loading="lazy"
+            decoding="async"
+          />
         </span>
-      </span>
-      <span className="block truncate px-2.5 py-1.5 text-xs font-medium">{label}</span>
-    </a>
+        <span className="block truncate px-2.5 py-1.5 text-xs font-medium">{label}</span>
+      </button>
+      <a
+        href={href}
+        download
+        onClick={(e) => e.stopPropagation()}
+        title={`Download ${label}`}
+        aria-label={`Download ${label}`}
+        className="absolute right-1.5 top-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100"
+      >
+        <Download className="size-3.5" />
+      </a>
+    </div>
   )
 }
 

@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-guava",
+    "name": "Morphous Guava",
+    "motifName": "Guava Half",
+    "motifCategory": "fruit",
+    "biome": "Tropical Garden",
+    "motif": "guava half"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Seed Cream",
+      "hex": "#fff3da",
+      "oklch": "oklch(0.967 0.035 85.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Guava Seed Ink",
+      "hex": "#281612",
+      "oklch": "oklch(0.224 0.031 33.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pink Flesh",
+      "hex": "#f25f79",
+      "oklch": "oklch(0.680 0.181 12.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ripe Coral",
+      "hex": "#d94661",
+      "oklch": "oklch(0.608 0.183 13.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lime Rind",
+      "hex": "#a7c94a",
+      "oklch": "oklch(0.786 0.157 122.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Tropical Leaf",
+      "hex": "#3f7f36",
+      "oklch": "oklch(0.536 0.125 141.3)"
+    },
+    {
+      "role": "Success",
+      "name": "Garden Green",
+      "hex": "#5f9f42",
+      "oklch": "oklch(0.638 0.143 137.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rind Mist",
+      "hex": "#dfe8b7",
+      "oklch": "oklch(0.912 0.065 116.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pith White",
+      "hex": "#fffaf0",
+      "oklch": "oklch(0.986 0.014 84.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Stem Umber",
+      "hex": "#7a5630",
+      "oklch": "oklch(0.483 0.072 66.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.035 85.4)",
+    "foreground": "oklch(0.224 0.031 33.2)",
+    "card": "oklch(0.986 0.014 84.6)",
+    "card-foreground": "oklch(0.224 0.031 33.2)",
+    "popover": "oklch(0.986 0.014 84.6)",
+    "popover-foreground": "oklch(0.224 0.031 33.2)",
+    "primary": "oklch(0.680 0.181 12.6)",
+    "primary-foreground": "oklch(0.967 0.035 85.4)",
+    "secondary": "oklch(0.978 0.023 84.6)",
+    "secondary-foreground": "oklch(0.483 0.072 66.2)",
+    "muted": "oklch(0.981 0.020 84.6)",
+    "muted-foreground": "oklch(0.483 0.072 66.2)",
+    "accent": "oklch(0.786 0.157 122.8)",
+    "accent-foreground": "oklch(0.224 0.031 33.2)",
+    "destructive": "oklch(0.680 0.181 12.6)",
+    "border": "oklch(0.960 0.033 108.9)",
+    "input": "oklch(0.960 0.033 108.9)",
+    "ring": "oklch(0.608 0.183 13.8)",
+    "chart-1": "oklch(0.680 0.181 12.6)",
+    "chart-2": "oklch(0.608 0.183 13.8)",
+    "chart-3": "oklch(0.786 0.157 122.8)",
+    "chart-4": "oklch(0.536 0.125 141.3)",
+    "chart-5": "oklch(0.483 0.072 66.2)",
+    "sidebar": "oklch(0.981 0.021 85.9)",
+    "sidebar-foreground": "oklch(0.224 0.031 33.2)",
+    "sidebar-primary": "oklch(0.680 0.181 12.6)",
+    "sidebar-primary-foreground": "oklch(0.967 0.035 85.4)",
+    "sidebar-accent": "oklch(0.944 0.025 32.9)",
+    "sidebar-accent-foreground": "oklch(0.680 0.181 12.6)",
+    "sidebar-border": "oklch(0.960 0.033 108.9)",
+    "sidebar-ring": "oklch(0.608 0.183 13.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.031 33.2)",
+    "foreground": "oklch(0.967 0.035 85.4)",
+    "card": "oklch(0.399 0.057 61.0)",
+    "card-foreground": "oklch(0.967 0.035 85.4)",
+    "popover": "oklch(0.399 0.057 61.0)",
+    "popover-foreground": "oklch(0.967 0.035 85.4)",
+    "primary": "oklch(0.608 0.183 13.8)",
+    "primary-foreground": "oklch(0.224 0.031 33.2)",
+    "secondary": "oklch(0.581 0.065 77.7)",
+    "secondary-foreground": "oklch(0.967 0.035 85.4)",
+    "muted": "oklch(0.581 0.065 77.7)",
+    "muted-foreground": "oklch(0.942 0.047 103.3)",
+    "accent": "oklch(0.786 0.157 122.8)",
+    "accent-foreground": "oklch(0.224 0.031 33.2)",
+    "destructive": "oklch(0.680 0.181 12.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.608 0.183 13.8)",
+    "chart-1": "oklch(0.608 0.183 13.8)",
+    "chart-2": "oklch(0.680 0.181 12.6)",
+    "chart-3": "oklch(0.786 0.157 122.8)",
+    "chart-4": "oklch(0.536 0.125 141.3)",
+    "chart-5": "oklch(0.912 0.065 116.2)",
+    "sidebar": "oklch(0.348 0.050 55.5)",
+    "sidebar-foreground": "oklch(0.967 0.035 85.4)",
+    "sidebar-primary": "oklch(0.608 0.183 13.8)",
+    "sidebar-primary-foreground": "oklch(0.224 0.031 33.2)",
+    "sidebar-accent": "oklch(0.581 0.065 77.7)",
+    "sidebar-accent-foreground": "oklch(0.967 0.035 85.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.608 0.183 13.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English consumer UI, compact product labels, tabular commerce metrics, and Noto Sans JP guidance for clear Japanese storefront and operations screens.",
+  "layout": "Precise 8px consumer grids, seed-cream product surfaces, compact order tables, lime-rind focus rings, tropical leaf navigation, guava-seed texture samples, and restrained 8px cards for repeatable shadcn components.",
+  "tags": [
+    "guava",
+    "fruit",
+    "tropical",
+    "garden",
+    "consumer",
+    "pink",
+    "lime",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-guava/motif.png",
+    "board": "/systems/morphous-guava/design-system-light.png",
+    "darkBoard": "/systems/morphous-guava/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-guava/theme.css",
+    "themeJson": "/systems/morphous-guava/theme.json",
+    "promptsJson": "/systems/morphous-guava/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent guava half motif",
+      "asset": "/systems/morphous-guava/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Guava transparent motif chroma-key source\nPrimary request: Create only a guava half botanical/product motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: a fresh tropical garden guava half with vivid pink flesh, many tiny seed-cream seeds embedded in the center, pale cream inner pith, lime-green rind, and one small glossy guava leaf with a short green-brown stem. Botanical accuracy for Psidium guajava, crisp opaque cutout edges, juicy matte flesh texture, consumer product polish, fresh grocery identity.\nComposition/framing: centered complete cutout with generous padding; include the guava half, rind edge, seed cluster, leaf, and stem without cropping. Clean studio lighting that preserves pink flesh and lime rind color, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no bowl, no plate, no hand, no knife, no packaging, no tropical scene, no flowers, no extra fruit species, no text, no watermark, no floor plane, no shadow, no green background spill on the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-guava/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Guava light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Guava\", derived from a guava half motif. This board is a source reference for implementing a shadcn/tweakcn-compatible fresh consumer system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels. Avoid dense tiny paragraphs.\nRequired visible sections: Morphous Guava, Guava Half, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from vivid pink guava flesh, lime-green rind, seed-cream seed clusters, pale cream pith, glossy tropical garden leaves, and fresh consumer grocery workflows. The board must read as guava half and tropical garden freshness, not watermelon, dragon fruit, grapefruit, or generic green-and-pink SaaS.\nTypography: English consumer product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Keep text short and legible, with crisp bilingual storefront and operations hierarchy.\nUI coverage: primary, secondary, ghost, destructive, hover, pressed, disabled, and loading buttons; inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, product/order data widgets, empty/loading/error states, progress, stepper, spacing scale, radius samples, border samples, shadow samples, token code snippets, subtle icons.\nStyle: fresh consumer product system, precise 8px grid, 8px card radius, seed-cream surfaces, pink guava-flesh primary actions, lime-rind focus rings and success states, leaf-green navigation accents, soft rind-mist muted controls, guava-seed dot texture, tropical garden freshness without looking like a vacation poster, restrained shadows and high implementation clarity.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermelon slices, no dragon fruit speckles, no grapefruit citrus branding, no random brand names, no watermark, no misspelling of \"Morphous Guava\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-guava/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Guava dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Guava\" / \"Guava Half\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from a guava half motif.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels. Avoid dense tiny paragraphs.\nRequired visible sections: Morphous Guava, Guava Half, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same fresh consumer language as the light board: pink guava-flesh primary actions, lime-rind focus and success states, seed-cream highlights, pale pith neutrals, tropical leaf navigation, guava-seed dot texture, precise 8px shadcn/tweakcn component grid. Must read as guava half and tropical garden freshness, not watermelon, dragon fruit, grapefruit, or generic dark SaaS.\nTypography: English consumer UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Keep text short and legible.\nUI coverage: primary, secondary, tertiary, ghost, destructive, hover, pressed, disabled, and loading buttons; input, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, donut chart, product/order data widgets, empty/loading/error states, progress, stepper, spacing scale, radius samples, border samples, shadow samples, token code snippets, subtle icons.\nVisual details: deep guava-leaf night surfaces, dark seed-ink background, pink flesh active states, lime rind focus rings and status, cream seed text and highlights, muted rind panels, restrained contrast, crisp cards and controls, subtle seed-dot texture and matte fruit-flesh grain overlays.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no watermelon, no dragon fruit speckles, no grapefruit citrus branding, no random brand names, no watermark, no illegible tiny paragraphs, no misspelling of \"Morphous Guava\"."
+    }
+  ]
+}

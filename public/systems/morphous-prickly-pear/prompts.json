@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent prickly pear motif",
+    "asset": "/systems/morphous-prickly-pear/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Prickly Pear transparent motif chroma-key source\nPrimary request: Create a complete prickly pear fruit motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: Bright fuchsia prickly pear fruits attached to sage-green cactus pads, with tiny pale spine dots, sand-warm highlights, and desert-scrub natural texture. Botanical accuracy, crisp edges, no cast shadow.\nComposition/framing: centered complete cutout with generous padding, fruit and cactus pad visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no dragon fruit, no beetroot, no bowl, no hand, no props, no landscape, no excessive thorns, no loose pile."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-prickly-pear/design-system-light.png",
+    "sourceAsset": "/systems/morphous-prickly-pear/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Prickly Pear light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Prickly Pear, derived from the visible prickly pear cutout.\nCanvas: wide 16:9 high-resolution board, polished product-system presentation.\nRequired visible sections: Morphous Prickly Pear, Prickly Pear Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Build the UI language from fuchsia fruit, sage cactus pads, sand backgrounds, spine-taupe borders, cactus-green success states, fruit-coral alerts, and desert-scrub depth. It should feel like a brisk field app for inspections, forms, maps, and operations.\nTypography: readable English hierarchy with Japanese typography guidance for Noto Sans JP, Gothic body copy, compact form labels, field status labels, and tabular numerals.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, data tables, command palette, sidebar navigation, metrics, charts, mobile form examples, empty/loading/error/success states, token swatches, texture samples, spacing scale, radius scale, and shadow scale.\nConstraints: no generic magenta UI, no neon palette, no unrelated saturated colors, no tiny unreadable text, no watermark, no misspelling of Morphous Prickly Pear."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-prickly-pear/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-prickly-pear/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Prickly Pear dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Prickly Pear that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Prickly Pear, Prickly Pear Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve fuchsia primary actions, cactus-green success, sage filters, fruit-coral alerts, sand foregrounds, spine-taupe borders, and mesquite-shadow surfaces. Keep the system suited to field data capture and compact operational dashboards.\nTypography: English product UI plus Japanese guidance for Gothic body text, compact mobile labels, readable form states, and numeric tables.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, search command palette, navigation, metrics, charts, mobile form panels, status states, spacing, radius, border, shadow, texture, and tokens.\nConstraints: no neon-only palette, no generic black UI, no purple-blue gradients, no unrelated colors, no watermark, no misspelling of Morphous Prickly Pear."
+  }
+]

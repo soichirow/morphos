@@ -23,7 +23,7 @@ export function TypographyPicker({
         <select
           value={presetId}
           onChange={(event) => onPresetChange(event.target.value)}
-          className="h-9 max-w-[8.5rem] truncate bg-transparent pr-1 text-sm font-medium text-foreground outline-none sm:max-w-[14rem]"
+          className="h-9 max-w-[7rem] truncate bg-transparent pr-1 text-sm font-medium text-foreground outline-none sm:max-w-[14rem]"
           aria-label="Typography preset"
         >
           {presetId === "" ? <option value="">Custom</option> : null}

@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-guarana",
+    "name": "Morphous Guarana",
+    "motifName": "Guarana Pod",
+    "motifCategory": "fruit",
+    "biome": "Amazon Vine",
+    "motif": "guarana pod"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pulp White",
+      "hex": "#fff8f2",
+      "oklch": "oklch(0.983 0.011 63.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Black",
+      "hex": "#141112",
+      "oklch": "oklch(0.182 0.005 355.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Guarana Shell",
+      "hex": "#d92128",
+      "oklch": "oklch(0.569 0.215 26.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Split Husk",
+      "hex": "#a9161d",
+      "oklch": "oklch(0.472 0.179 26.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pulp Blush",
+      "hex": "#f5d7cb",
+      "oklch": "oklch(0.901 0.037 43.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Amazon Vine",
+      "hex": "#23613a",
+      "oklch": "oklch(0.441 0.090 152.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Pulse",
+      "hex": "#3f8a4d",
+      "oklch": "oklch(0.570 0.119 147.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shell Mist",
+      "hex": "#ead9d1",
+      "oklch": "oklch(0.897 0.022 47.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Clean Pulp",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Woody Vine",
+      "hex": "#6d4229",
+      "oklch": "oklch(0.424 0.071 50.1)"
+    },
+    {
+      "role": "Chart",
+      "name": "Seed Gloss",
+      "hex": "#3b3436",
+      "oklch": "oklch(0.333 0.010 358.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.011 63.4)",
+    "foreground": "oklch(0.182 0.005 355.4)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.182 0.005 355.4)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.182 0.005 355.4)",
+    "primary": "oklch(0.569 0.215 26.2)",
+    "primary-foreground": "oklch(0.983 0.011 63.4)",
+    "secondary": "oklch(0.993 0.004 56.4)",
+    "secondary-foreground": "oklch(0.424 0.071 50.1)",
+    "muted": "oklch(0.995 0.003 67.8)",
+    "muted-foreground": "oklch(0.424 0.071 50.1)",
+    "accent": "oklch(0.901 0.037 43.1)",
+    "accent-foreground": "oklch(0.182 0.005 355.4)",
+    "destructive": "oklch(0.569 0.215 26.2)",
+    "border": "oklch(0.962 0.008 48.7)",
+    "input": "oklch(0.962 0.008 48.7)",
+    "ring": "oklch(0.472 0.179 26.0)",
+    "chart-1": "oklch(0.569 0.215 26.2)",
+    "chart-2": "oklch(0.472 0.179 26.0)",
+    "chart-3": "oklch(0.901 0.037 43.1)",
+    "chart-4": "oklch(0.441 0.090 152.9)",
+    "chart-5": "oklch(0.424 0.071 50.1)",
+    "sidebar": "oklch(0.995 0.003 67.8)",
+    "sidebar-foreground": "oklch(0.182 0.005 355.4)",
+    "sidebar-primary": "oklch(0.569 0.215 26.2)",
+    "sidebar-primary-foreground": "oklch(0.983 0.011 63.4)",
+    "sidebar-accent": "oklch(0.937 0.024 14.4)",
+    "sidebar-accent-foreground": "oklch(0.569 0.215 26.2)",
+    "sidebar-border": "oklch(0.962 0.008 48.7)",
+    "sidebar-ring": "oklch(0.472 0.179 26.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.182 0.005 355.4)",
+    "foreground": "oklch(0.983 0.011 63.4)",
+    "card": "oklch(0.345 0.051 48.6)",
+    "card-foreground": "oklch(0.983 0.011 63.4)",
+    "popover": "oklch(0.345 0.051 48.6)",
+    "popover-foreground": "oklch(0.983 0.011 63.4)",
+    "primary": "oklch(0.472 0.179 26.0)",
+    "primary-foreground": "oklch(0.182 0.005 355.4)",
+    "secondary": "oklch(0.534 0.059 50.0)",
+    "secondary-foreground": "oklch(0.983 0.011 63.4)",
+    "muted": "oklch(0.534 0.059 50.0)",
+    "muted-foreground": "oklch(0.945 0.016 52.6)",
+    "accent": "oklch(0.901 0.037 43.1)",
+    "accent-foreground": "oklch(0.182 0.005 355.4)",
+    "destructive": "oklch(0.569 0.215 26.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.472 0.179 26.0)",
+    "chart-1": "oklch(0.472 0.179 26.0)",
+    "chart-2": "oklch(0.569 0.215 26.2)",
+    "chart-3": "oklch(0.901 0.037 43.1)",
+    "chart-4": "oklch(0.441 0.090 152.9)",
+    "chart-5": "oklch(0.897 0.022 47.0)",
+    "sidebar": "oklch(0.299 0.037 48.5)",
+    "sidebar-foreground": "oklch(0.983 0.011 63.4)",
+    "sidebar-primary": "oklch(0.472 0.179 26.0)",
+    "sidebar-primary-foreground": "oklch(0.182 0.005 355.4)",
+    "sidebar-accent": "oklch(0.534 0.059 50.0)",
+    "sidebar-accent-foreground": "oklch(0.983 0.011 63.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.472 0.179 26.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for energized English analytics UI, compact metric labels, tabular operational numbers, and Noto Sans JP guidance for clear Japanese data dashboards.",
+  "layout": "Precise 8px analytics grids, white-pulp data surfaces, red-shell active navigation, black-seed chart anchors, vine-green status and focus, woody dividers, shell-split curve motifs, and compact dashboard tables.",
+  "tags": [
+    "guarana",
+    "fruit",
+    "amazon-vine",
+    "analytics",
+    "energized",
+    "red",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-guarana/motif.png",
+    "board": "/systems/morphous-guarana/design-system-light.png",
+    "darkBoard": "/systems/morphous-guarana/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-guarana/theme.css",
+    "themeJson": "/systems/morphous-guarana/theme.json",
+    "promptsJson": "/systems/morphous-guarana/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent guarana pod motif",
+      "asset": "/systems/morphous-guarana/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Guarana transparent motif chroma-key source\nPrimary request: Create only a guarana pod botanical/product motif for a design-system catalog, isolated as one complete opaque subject on a removable chroma-key background.\nSubject: A vivid Amazon vine guarana pod, partially split open: glossy red outer shell, clean white pulp arils, one or two shiny black seeds like natural guarana eyes, a short woody vine stem, and a few deep green vine leaves. Botanical accuracy for Paullinia cupana, crisp opaque subject edges, tactile red shell texture, smooth white pulp, polished black seed highlights, energized analytics-system identity.\nComposition/framing: centered complete cutout with generous padding; include the red shell, white pulp, black seed, vine stem, and leaves without cropping. Clean studio lighting that preserves red shell, white pulp, and black seed contrast. No cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no bowl, no plate, no hand, no packaging, no rainforest scene, no flowers, no coffee beans, no loose fruit pile, no text, no watermark, no floor plane, no shadow, no green background spill on the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-guarana/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Guarana light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Guarana\", derived from a guarana pod cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible energized analytics system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class visual detail when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Guarana, Guarana Pod, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from glossy red guarana shell, white pulp, polished black seed, dark Amazon vine leaves, woody stem, humid rainforest contrast, and high-energy analytics workflows. The board must read as guarana pod and Amazon vine, not cherry, coffee, lychee, rambutan, or generic red SaaS.\nTypography: English analytics UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Emphasize compact numeric hierarchy, dashboard scanability, and bilingual operations clarity. Keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, sparkline chart, line chart, bar chart, donut chart, funnel or cohort widget, empty/loading/error states, progress, stepper, spacing scale, radius samples, border, shadow samples, token code snippets, subtle icons.\nStyle: energized analytics product system, precise 8px grid, 8px card radius, white-pulp surfaces, red-shell primary actions, black-seed foreground and chart anchors, vine-green focus/success states, woody separators, crisp table density, subtle guarana seed-eye texture and shell-split curve motifs, restrained but kinetic dashboard rhythm.\nConstraints: no generic purple/blue gradients, no neon cyberpunk, no candy branding, no coffee-bean theme, no cherry theme, no random brand names, no watermark, no misspelling of \"Morphous Guarana\", no tiny unreadable paragraphs, no unrelated saturated colors."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-guarana/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Guarana dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Guarana\" / \"Guarana Pod\". Use the same guarana motif language and translate the light-mode analytics board into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class visual density when available. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Guarana, Guarana Pod, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve glossy red-shell primary actions, white-pulp text and highlights, polished black-seed depth, vine-green focus/success controls, woody brown separators, humid Amazon contrast, shell-split curve motifs, guarana seed-eye texture, shadcn/tweakcn component coverage, and the 8px analytics grid. Must read as guarana pod and Amazon vine, not coffee, cherry, lychee, rambutan, or generic dark SaaS.\nTypography: English analytics UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Compact bilingual data dashboard hierarchy; keep text short and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, sparkline chart, line chart, bar chart, donut chart, funnel or cohort widget, table rows, sidebar navigation, top navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets, simple icons.\nVisual details: deep seed-black analytics background, dark vine cards, red-shell active states, white-pulp foreground text, vine-green focus rings and status, woody-brown borders, restrained high contrast, crisp compact controls, subtle guarana eye-dot and split-shell texture overlays.\nConstraints: no neon red overload, no pure-black flat background, no generic purple/blue gradients, no unrelated saturated colors, no coffee-bean theme, no cherry theme, no random brand names, no watermark, no illegible tiny paragraphs, no misspelling of \"Morphous Guarana\"."
+    }
+  ]
+}

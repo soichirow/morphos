@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lychee",
+    "name": "Morphous Lychee",
+    "motifName": "Lychee Shell",
+    "motifCategory": "fruit",
+    "biome": "Tropical Orchard",
+    "motif": "lychee shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Flesh",
+      "hex": "#fff7f2",
+      "oklch": "oklch(0.981 0.011 54.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Ink",
+      "hex": "#241817",
+      "oklch": "oklch(0.224 0.020 24.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lychee Shell",
+      "hex": "#e64f62",
+      "oklch": "oklch(0.638 0.186 16.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rose Husk",
+      "hex": "#c93f4f",
+      "oklch": "oklch(0.570 0.174 18.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blush Membrane",
+      "hex": "#f7a1a7",
+      "oklch": "oklch(0.796 0.103 15.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Gloss",
+      "hex": "#1f6f2e",
+      "oklch": "oklch(0.478 0.125 146.4)"
+    },
+    {
+      "role": "Success",
+      "name": "Orchard Leaf",
+      "hex": "#4c8f3d",
+      "oklch": "oklch(0.586 0.135 140.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shell Mist",
+      "hex": "#f4d6d1",
+      "oklch": "oklch(0.900 0.034 29.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Translucent Pearl",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Branch Brown",
+      "hex": "#8a5a34",
+      "oklch": "oklch(0.512 0.083 57.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.011 54.5)",
+    "foreground": "oklch(0.224 0.020 24.2)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.224 0.020 24.2)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.224 0.020 24.2)",
+    "primary": "oklch(0.638 0.186 16.9)",
+    "primary-foreground": "oklch(0.981 0.011 54.5)",
+    "secondary": "oklch(0.993 0.004 56.4)",
+    "secondary-foreground": "oklch(0.512 0.083 57.9)",
+    "muted": "oklch(0.995 0.003 67.8)",
+    "muted-foreground": "oklch(0.512 0.083 57.9)",
+    "accent": "oklch(0.796 0.103 15.1)",
+    "accent-foreground": "oklch(0.224 0.020 24.2)",
+    "destructive": "oklch(0.638 0.186 16.9)",
+    "border": "oklch(0.963 0.012 29.9)",
+    "input": "oklch(0.963 0.012 29.9)",
+    "ring": "oklch(0.570 0.174 18.1)",
+    "chart-1": "oklch(0.638 0.186 16.9)",
+    "chart-2": "oklch(0.570 0.174 18.1)",
+    "chart-3": "oklch(0.796 0.103 15.1)",
+    "chart-4": "oklch(0.478 0.125 146.4)",
+    "chart-5": "oklch(0.512 0.083 57.9)",
+    "sidebar": "oklch(0.993 0.003 39.5)",
+    "sidebar-foreground": "oklch(0.224 0.020 24.2)",
+    "sidebar-primary": "oklch(0.638 0.186 16.9)",
+    "sidebar-primary-foreground": "oklch(0.981 0.011 54.5)",
+    "sidebar-accent": "oklch(0.952 0.020 9.8)",
+    "sidebar-accent-foreground": "oklch(0.638 0.186 16.9)",
+    "sidebar-border": "oklch(0.963 0.012 29.9)",
+    "sidebar-ring": "oklch(0.570 0.174 18.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.020 24.2)",
+    "foreground": "oklch(0.981 0.011 54.5)",
+    "card": "oklch(0.420 0.062 56.7)",
+    "card-foreground": "oklch(0.981 0.011 54.5)",
+    "popover": "oklch(0.420 0.062 56.7)",
+    "popover-foreground": "oklch(0.981 0.011 54.5)",
+    "primary": "oklch(0.570 0.174 18.1)",
+    "primary-foreground": "oklch(0.224 0.020 24.2)",
+    "secondary": "oklch(0.599 0.070 55.2)",
+    "secondary-foreground": "oklch(0.981 0.011 54.5)",
+    "muted": "oklch(0.599 0.070 55.2)",
+    "muted-foreground": "oklch(0.944 0.021 36.0)",
+    "accent": "oklch(0.796 0.103 15.1)",
+    "accent-foreground": "oklch(0.224 0.020 24.2)",
+    "destructive": "oklch(0.638 0.186 16.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.570 0.174 18.1)",
+    "chart-1": "oklch(0.570 0.174 18.1)",
+    "chart-2": "oklch(0.638 0.186 16.9)",
+    "chart-3": "oklch(0.796 0.103 15.1)",
+    "chart-4": "oklch(0.478 0.125 146.4)",
+    "chart-5": "oklch(0.900 0.034 29.0)",
+    "sidebar": "oklch(0.362 0.051 52.3)",
+    "sidebar-foreground": "oklch(0.981 0.011 54.5)",
+    "sidebar-primary": "oklch(0.570 0.174 18.1)",
+    "sidebar-primary-foreground": "oklch(0.224 0.020 24.2)",
+    "sidebar-accent": "oklch(0.599 0.070 55.2)",
+    "sidebar-accent-foreground": "oklch(0.981 0.011 54.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.570 0.174 18.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for refined English commerce UI, compact product labels, tabular order metrics, and Noto Sans JP guidance for clear Japanese storefront and operations screens.",
+  "layout": "Precise 8px commerce grids, pearl-white product surfaces, compact order tables, leaf-green navigation focus, warm branch separators, tactile shell texture samples, and restrained 8px cards for repeatable shadcn components.",
+  "tags": [
+    "lychee",
+    "fruit",
+    "tropical",
+    "orchard",
+    "commerce",
+    "delicate",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lychee/motif.png",
+    "board": "/systems/morphous-lychee/design-system-light.png",
+    "darkBoard": "/systems/morphous-lychee/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lychee/theme.css",
+    "themeJson": "/systems/morphous-lychee/theme.json",
+    "promptsJson": "/systems/morphous-lychee/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lychee shell motif",
+      "asset": "/systems/morphous-lychee/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lychee transparent motif chroma-key source\nPrimary request: Create only a lychee shell botanical/product motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A small elegant cluster of whole and partially peeled lychee fruits from a tropical orchard: delicate pink to rose-red bumpy shell texture, one cracked shell revealing translucent pearl-white flesh, a small glossy deep leaf-green leaf and short warm brown stem. Botanical accuracy, crisp opaque subject edges, tactile shell bumps, luminous pearl flesh, fresh orchard commerce polish.\nComposition/framing: centered complete cutout with generous padding; include the lychee shell, pearl flesh, leaf, and stem without cropping. Clean studio lighting that preserves pink shell and pearl flesh color, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no bowl, no plate, no hand, no knife, no packaging, no orchard scene, no flowers, no extra fruit species, no text, no watermark, no floor plane, no shadow, no green or magenta background spill on the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lychee/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lychee light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lychee\", derived from the visible lychee shell cutout in context. This board is a source reference for implementing a shadcn/tweakcn-compatible delicate commerce system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels.\nRequired visible sections: Morphous Lychee, Lychee Shell, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from pink lychee shell, rose coral bumps, translucent pearl-white flesh, glossy tropical leaf green, warm branch brown, orchard freshness, and refined commerce workflows. The board must read as lychee shell and pearl flesh, not strawberry, raspberry, dragon fruit, or generic pink SaaS.\nTypography: English commerce UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝は見出しのみ, Noto Sans JP. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, order/product data widgets, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, pearl flesh surfaces, pink shell primary actions, leaf-green success and focus states, soft blush muted controls, warm branch-brown dividers, refined retail/product dashboard density, subtle lychee bump microtexture, delicate commerce system mood.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no candy branding, no strawberry seeds, no dragon fruit slices, no random brand names, no watermark, no misspelling of \"Morphous Lychee\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lychee/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lychee dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Lychee\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible lychee shell cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels.\nRequired visible sections: Morphous Lychee, Lychee Shell, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same delicate commerce language as the light board: pink shell primary actions, pearl flesh highlights, glossy leaf-green success and focus states, warm branch-brown separators, blush muted chips, lychee bump texture, 8px radius, precise shadcn/tweakcn component grid. Must read as lychee shell and pearl flesh, not strawberry, raspberry, dragon fruit, or generic dark SaaS.\nTypography: English commerce UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝は見出しのみ, Noto Sans JP. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, order/product data widgets, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep seed-ink and tropical night commerce surfaces, rose-pink active states, pearl text and highlights, leaf-green focus rings and status, warm branch-brown borders, blush shell-muted controls, restrained contrast, crisp cards and controls, subtle bumpy shell grain and translucent pearl gloss overlays.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no candy store branding, no dragon fruit, no strawberry seeds, no random brand names, no watermark, no illegible tiny paragraphs, no misspelling of \"Morphous Lychee\"."
+    }
+  ]
+}

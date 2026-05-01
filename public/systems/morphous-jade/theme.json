@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jade",
+    "name": "Morphous Jade",
+    "motifName": "Jade Stone",
+    "motifCategory": "mineral",
+    "biome": "mountain stream",
+    "motif": "jade stone"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Jade Cream",
+      "hex": "#faf7f2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Vein Black",
+      "hex": "#0f1412",
+      "oklch": "oklch(0.185 0.009 169.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Jade Green",
+      "hex": "#2f8a6e",
+      "oklch": "oklch(0.572 0.096 169.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stream Mint",
+      "hex": "#9fd9c3",
+      "oklch": "oklch(0.839 0.067 169.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cream Veil",
+      "hex": "#f2ede3",
+      "oklch": "oklch(0.947 0.014 84.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Mineral Gold",
+      "hex": "#c9b27a",
+      "oklch": "oklch(0.770 0.078 88.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Stone",
+      "hex": "#e7ece6",
+      "oklch": "oklch(0.938 0.010 140.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "River Ice",
+      "hex": "#e3f0f0",
+      "oklch": "oklch(0.945 0.014 196.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Vein",
+      "hex": "#28352f",
+      "oklch": "oklch(0.315 0.020 165.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.007 80.7)",
+    "foreground": "oklch(0.185 0.009 169.2)",
+    "card": "oklch(0.938 0.010 140.5)",
+    "card-foreground": "oklch(0.185 0.009 169.2)",
+    "popover": "oklch(0.938 0.010 140.5)",
+    "popover-foreground": "oklch(0.185 0.009 169.2)",
+    "primary": "oklch(0.572 0.096 169.0)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.955 0.008 121.6)",
+    "secondary-foreground": "oklch(0.315 0.020 165.3)",
+    "muted": "oklch(0.948 0.009 128.6)",
+    "muted-foreground": "oklch(0.315 0.020 165.3)",
+    "accent": "oklch(0.947 0.014 84.6)",
+    "accent-foreground": "oklch(0.185 0.009 169.2)",
+    "destructive": "oklch(0.572 0.096 169.0)",
+    "border": "oklch(0.940 0.008 168.7)",
+    "input": "oklch(0.940 0.008 168.7)",
+    "ring": "oklch(0.839 0.067 169.3)",
+    "chart-1": "oklch(0.572 0.096 169.0)",
+    "chart-2": "oklch(0.839 0.067 169.3)",
+    "chart-3": "oklch(0.947 0.014 84.6)",
+    "chart-4": "oklch(0.770 0.078 88.1)",
+    "chart-5": "oklch(0.315 0.020 165.3)",
+    "sidebar": "oklch(0.951 0.009 128.6)",
+    "sidebar-foreground": "oklch(0.185 0.009 169.2)",
+    "sidebar-primary": "oklch(0.572 0.096 169.0)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.893 0.019 162.9)",
+    "sidebar-accent-foreground": "oklch(0.572 0.096 169.0)",
+    "sidebar-border": "oklch(0.940 0.008 168.7)",
+    "sidebar-ring": "oklch(0.839 0.067 169.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.185 0.009 169.2)",
+    "foreground": "oklch(0.977 0.007 80.7)",
+    "card": "oklch(0.274 0.017 163.4)",
+    "card-foreground": "oklch(0.977 0.007 80.7)",
+    "popover": "oklch(0.274 0.017 163.4)",
+    "popover-foreground": "oklch(0.977 0.007 80.7)",
+    "primary": "oklch(0.839 0.067 169.3)",
+    "primary-foreground": "oklch(0.185 0.009 169.2)",
+    "secondary": "oklch(0.469 0.018 170.4)",
+    "secondary-foreground": "oklch(0.977 0.007 80.7)",
+    "muted": "oklch(0.469 0.018 170.4)",
+    "muted-foreground": "oklch(0.963 0.006 153.8)",
+    "accent": "oklch(0.947 0.014 84.6)",
+    "accent-foreground": "oklch(0.185 0.009 169.2)",
+    "destructive": "oklch(0.572 0.096 169.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.839 0.067 169.3)",
+    "chart-1": "oklch(0.839 0.067 169.3)",
+    "chart-2": "oklch(0.572 0.096 169.0)",
+    "chart-3": "oklch(0.947 0.014 84.6)",
+    "chart-4": "oklch(0.770 0.078 88.1)",
+    "chart-5": "oklch(0.945 0.014 196.9)",
+    "sidebar": "oklch(0.247 0.014 163.6)",
+    "sidebar-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-primary": "oklch(0.839 0.067 169.3)",
+    "sidebar-primary-foreground": "oklch(0.185 0.009 169.2)",
+    "sidebar-accent": "oklch(0.469 0.018 170.4)",
+    "sidebar-accent-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.839 0.067 169.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Balanced wellness UI with clear English hierarchy, Noto Sans JP guidance for Japanese labels, soft headings, and measured numeric rhythm.",
+  "layout": "Calm 8px grids, vein-line separators, wellness dashboard panels, smooth stone texture, restrained shadows, and readable shadcn/tweakcn component density.",
+  "tags": [
+    "jade",
+    "mineral",
+    "wellness",
+    "mountain-stream",
+    "balanced",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jade/motif.png",
+    "board": "/systems/morphous-jade/design-system-light.png",
+    "darkBoard": "/systems/morphous-jade/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jade/theme.css",
+    "themeJson": "/systems/morphous-jade/theme.json",
+    "promptsJson": "/systems/morphous-jade/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent jade stone motif",
+      "asset": "/systems/morphous-jade/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jade transparent motif chroma-key source\nPrimary request: Create only a jade stone motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A smooth mountain-stream jade stone with cool jade-green body, cream translucent cloudy areas, fine black vein lines, stream-polished rounded edges, subtle wet highlights, and natural mineral inclusions. Geological accuracy, balanced wellness identity, not malachite bands.\nComposition/framing: centered complete cutout with generous padding; show the full stone without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no malachite concentric bands, no emerald gemstone, no carved statue, no leaves, no jewelry setting, no hand, no stream landscape, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-jade/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jade light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Jade\", derived from a jade stone cutout. This board is a source reference for a shadcn/tweakcn-compatible balanced wellness UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class detail with large readable labels.\nRequired visible sections: Morphous Jade, Jade Stone, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from a smooth mountain-stream jade stone: jade green body, cream translucent veils, black vein detail, stream-polished highlights, pale stone surfaces, and deep mineral shadows. The board must read as jade, not malachite, leaf, or generic green wellness.\nTypography: English product UI examples with Japanese typography guidance; include short labels like Geist, Display, Body, Label, Numbers, 日本語 UI, Noto Sans JP. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius samples, border tokens, shadow samples, texture swatches, simple icons.\nStyle: balanced wellness system, 8px radius, jade-cream surfaces, jade-green primary actions, stream-mint focus states, cream veil accents, vein-black text, deep-vein borders, smooth stone cards, subtle mineral vein texture. Clean product UI, precise grid, restrained professional composition.\nConstraints: no malachite bands, no botanical leaf motif, no generic emerald palette, no beige-only UI, no unrelated neon colors, no watermark, no random brand names, no misspelling of \"Morphous Jade\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-jade/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jade dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Jade\". It must feel like the light-mode board translated to dark mode and remain derived from a jade stone cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class detail with large readable labels.\nRequired visible sections: Morphous Jade, Jade Stone, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve jade-green active states, stream-mint controls, cream veil text and accents, vein-black and deep-vein dark surfaces, smooth stone texture, wellness dashboard rhythm, and 8px shadcn/tweakcn grid. Must read as jade, not malachite or leaf.\nTypography: English product UI examples with Japanese typography guidance; include short labels like Geist, Display, Body, Label, Numbers, 日本語 UI, Noto Sans JP. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius samples, border tokens, shadow samples, texture swatches, simple icons.\nVisual details: vein-black dark backgrounds, deep-vein cards, jade-cream foreground, jade-green buttons, stream-mint rings and charts, cream veil chips, subtle black-vein mineral texture, crisp calm controls. Restrained dark wellness interface, not pure black.\nConstraints: no malachite bands, no leaves, no neon green, no pure-black flat background, no generic wellness template, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Jade\"."
+    }
+  ]
+}

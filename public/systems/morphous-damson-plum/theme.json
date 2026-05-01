@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-damson-plum",
+    "name": "Morphous Damson Plum",
+    "motifName": "Damson Plum",
+    "motifCategory": "fruit",
+    "biome": "hedgerow orchard",
+    "motif": "damson plum branch"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bloom Mist",
+      "hex": "#E6ECF4",
+      "oklch": "oklch(0.941 0.013 255.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Text Ink",
+      "hex": "#11131A",
+      "oklch": "oklch(0.188 0.015 272.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Plum Indigo",
+      "hex": "#2E2A57",
+      "oklch": "oklch(0.314 0.078 285.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Indigo Bloom",
+      "hex": "#42406F",
+      "oklch": "oklch(0.396 0.078 284.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Plum Violet",
+      "hex": "#6B5DA8",
+      "oklch": "oklch(0.526 0.116 290.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#3F6F3A",
+      "oklch": "oklch(0.493 0.097 142.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Orchard Green",
+      "hex": "#5C8E4B",
+      "oklch": "oklch(0.594 0.111 138.2)"
+    },
+    {
+      "role": "Rule",
+      "name": "Branch Brown",
+      "hex": "#7A5A3A",
+      "oklch": "oklch(0.493 0.063 65.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hedge Shade",
+      "hex": "#282E2A",
+      "oklch": "oklch(0.294 0.011 156.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone Bloom",
+      "hex": "#F2F4F8",
+      "oklch": "oklch(0.967 0.006 264.5)"
+    },
+    {
+      "role": "Texture",
+      "name": "Wax Bloom",
+      "hex": "#A9B8D6",
+      "oklch": "oklch(0.781 0.046 264.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.941 0.013 255.5)",
+    "foreground": "oklch(0.188 0.015 272.5)",
+    "card": "oklch(0.967 0.006 264.5)",
+    "card-foreground": "oklch(0.188 0.015 272.5)",
+    "popover": "oklch(0.967 0.006 264.5)",
+    "popover-foreground": "oklch(0.188 0.015 272.5)",
+    "primary": "oklch(0.314 0.078 285.0)",
+    "primary-foreground": "oklch(0.941 0.013 255.5)",
+    "secondary": "oklch(0.957 0.008 253.9)",
+    "secondary-foreground": "oklch(0.294 0.011 156.5)",
+    "muted": "oklch(0.960 0.007 260.7)",
+    "muted-foreground": "oklch(0.294 0.011 156.5)",
+    "accent": "oklch(0.526 0.116 290.4)",
+    "accent-foreground": "oklch(0.188 0.015 272.5)",
+    "destructive": "oklch(0.314 0.078 285.0)",
+    "border": "oklch(0.773 0.028 285.7)",
+    "input": "oklch(0.773 0.028 285.7)",
+    "ring": "oklch(0.396 0.078 284.2)",
+    "chart-1": "oklch(0.314 0.078 285.0)",
+    "chart-2": "oklch(0.396 0.078 284.2)",
+    "chart-3": "oklch(0.526 0.116 290.4)",
+    "chart-4": "oklch(0.493 0.097 142.0)",
+    "chart-5": "oklch(0.294 0.011 156.5)",
+    "sidebar": "oklch(0.958 0.009 264.5)",
+    "sidebar-foreground": "oklch(0.188 0.015 272.5)",
+    "sidebar-primary": "oklch(0.314 0.078 285.0)",
+    "sidebar-primary-foreground": "oklch(0.941 0.013 255.5)",
+    "sidebar-accent": "oklch(0.896 0.012 276.1)",
+    "sidebar-accent-foreground": "oklch(0.314 0.078 285.0)",
+    "sidebar-border": "oklch(0.773 0.028 285.7)",
+    "sidebar-ring": "oklch(0.396 0.078 284.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.188 0.015 272.5)",
+    "foreground": "oklch(0.941 0.013 255.5)",
+    "card": "oklch(0.259 0.007 196.7)",
+    "card-foreground": "oklch(0.941 0.013 255.5)",
+    "popover": "oklch(0.259 0.007 196.7)",
+    "popover-foreground": "oklch(0.941 0.013 255.5)",
+    "primary": "oklch(0.396 0.078 284.2)",
+    "primary-foreground": "oklch(0.188 0.015 272.5)",
+    "secondary": "oklch(0.316 0.014 261.7)",
+    "secondary-foreground": "oklch(0.941 0.013 255.5)",
+    "muted": "oklch(0.316 0.014 261.7)",
+    "muted-foreground": "oklch(0.708 0.036 280.0)",
+    "accent": "oklch(0.526 0.116 290.4)",
+    "accent-foreground": "oklch(0.188 0.015 272.5)",
+    "destructive": "oklch(0.314 0.078 285.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.396 0.078 284.2)",
+    "chart-1": "oklch(0.396 0.078 284.2)",
+    "chart-2": "oklch(0.314 0.078 285.0)",
+    "chart-3": "oklch(0.526 0.116 290.4)",
+    "chart-4": "oklch(0.493 0.097 142.0)",
+    "chart-5": "oklch(0.396 0.078 284.2)",
+    "sidebar": "oklch(0.237 0.006 236.8)",
+    "sidebar-foreground": "oklch(0.941 0.013 255.5)",
+    "sidebar-primary": "oklch(0.396 0.078 284.2)",
+    "sidebar-primary-foreground": "oklch(0.188 0.015 272.5)",
+    "sidebar-accent": "oklch(0.316 0.014 261.7)",
+    "sidebar-accent-foreground": "oklch(0.941 0.013 255.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.396 0.078 284.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Editorial English hierarchy with crisp product UI labels, tabular numerals, and Japanese typography guidance for Mincho-style headings and Gothic body text.",
+  "layout": "Dense editorial grids, orchard sidebar navigation, 8px radii, wax-bloom texture panels, fruit-skin charts, leaf-vein status accents, and branch-brown rules.",
+  "tags": [
+    "damson-plum",
+    "fruit",
+    "branch",
+    "hedgerow-orchard",
+    "indigo",
+    "editorial",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-damson-plum/motif.png",
+    "board": "/systems/morphous-damson-plum/design-system-light.png",
+    "darkBoard": "/systems/morphous-damson-plum/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-damson-plum/theme.css",
+    "themeJson": "/systems/morphous-damson-plum/theme.json",
+    "promptsJson": "/systems/morphous-damson-plum/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent damson plum branch motif",
+      "asset": "/systems/morphous-damson-plum/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Damson Plum transparent motif chroma-key source\nPrimary request: Create only a damson plum branch motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural hedgerow orchard damson plum branch with several small oval deep indigo-blue plums, dusty pale wax bloom on the fruit, subtle violet-black shadows, matte bloom texture, fresh serrated green leaves with visible veins, and warm brown woody twig branching. Botanical accuracy, crisp subject edges, rich fruit and leaf texture; the fruit must read as damson plums, not grapes, blueberries, olives, or generic berries.\nComposition/framing: centered complete cutout with generous padding; include fruit clusters, leaves, and brown branch structure without cropping. Clean studio lighting that preserves the natural indigo bloom, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no bowl, no hand, no props, no landscape, no text, no watermark, no loose fruit pile, no second plant species, no grapes, no blueberry cluster, no wine imagery."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-damson-plum/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Damson Plum light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Damson Plum\", derived from the visible damson plum branch cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible rich editorial UI theme.\nCanvas: wide 16:9 board, target 3840x2160 high-resolution if possible, polished professional design-system presentation.\nRequired visible sections: Morphous Damson Plum, Damson Plum Branch, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from deep indigo-blue damson skins, dusty pale wax bloom, plum-violet shadows, fresh orchard leaf green, warm branch brown, hedgerow orchard shade, and pale fruit-bloom surfaces. The board must visibly read as damson plum, not blackberry, grape, blueberry, or generic purple UI.\nTypography: English product UI examples with Japanese typography guidance; include short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝見出し, ゴシック本文. Use readable Japanese sample labels and keep all text large enough for a gallery preview.\nUI coverage: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, small calendar, empty/loading/error/success states, spacing scale, radius scale, border tokens, shadow tokens, texture samples, simple lucide-style icons.\nStyle: premium shadcn/tweakcn-style product design system, precise editorial grid, 8px card radius, pale bloom backgrounds, deep indigo primary actions, orchard-green success controls, branch-brown dividers, plum-violet active chips, soft wax-bloom texture, restrained rich editorial mood.\nComposition: organize as a complete board with large legible headings, clear component/data/form/table/search/status coverage, color token swatches with hex-like short labels, and a small motif/asset example area. Avoid tiny unreadable paragraphs.\nConstraints: no grapes, no blueberries, no wine imagery, no generic purple-blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Damson Plum\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-damson-plum/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Damson Plum dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Damson Plum\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the damson plum branch cutout.\nCanvas: wide 16:9 board, target 3840x2160 high-resolution if possible, polished professional design-system presentation.\nRequired visible sections: Morphous Damson Plum, Damson Plum Branch, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the damson plum system language: deepest indigo fruit surfaces, dusty blue wax bloom highlights, plum-violet active states, orchard leaf green controls, warm branch-brown borders and dividers, hedgerow shade backgrounds, pale bloom foreground, soft fruit-skin and leaf-vein texture, 8px radius, precise shadcn/tweakcn component grid. Must read as damson plum, not grape, blueberry, blackberry, or generic purple dashboard.\nTypography: English product UI examples with Japanese typography guidance; include short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝見出し, ゴシック本文. Use readable Japanese sample labels and keep all text large enough for a gallery preview.\nUI coverage: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, small calendar, empty/loading/error/success states, spacing scale, radius scale, border tokens, shadow tokens, texture samples, simple lucide-style icons.\nVisual details: dark background derived from hedgerow ink and plum indigo, cards in softened plum-black, light text from pale wax bloom, green success states from leaves, brown separators from branch bark, violet-blue focus rings, restrained contrast, crisp component edges.\nComposition: organize as a complete dark-mode board with large legible headings, clear component/data/form/table/search/status coverage, color token swatches with hex-like short labels, and a small motif/asset example area. Avoid tiny unreadable paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple-blue gradients, no pure-black-only flat background, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Damson Plum\", no grapes, no blueberries, no wine imagery."
+    }
+  ]
+}

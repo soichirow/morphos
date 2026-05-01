@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-loquat",
+    "name": "Morphous Loquat",
+    "motifName": "Loquat Cluster",
+    "motifCategory": "fruit",
+    "biome": "Subtropical Orchard",
+    "motif": "loquat cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Orchard Cream",
+      "hex": "#fff8eb",
+      "oklch": "oklch(0.981 0.019 83.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#1b2419",
+      "oklch": "oklch(0.248 0.024 140.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Loquat Gold",
+      "hex": "#f2a23a",
+      "oklch": "oklch(0.774 0.148 68.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Apricot Glow",
+      "hex": "#ffb24a",
+      "oklch": "oklch(0.819 0.147 70.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#1e5a2b",
+      "oklch": "oklch(0.416 0.098 147.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Orchard Green",
+      "hex": "#0f3a22",
+      "oklch": "oklch(0.312 0.064 155.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Service",
+      "hex": "#fffdf6",
+      "oklch": "oklch(0.994 0.009 93.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Underside",
+      "hex": "#d9c78d",
+      "oklch": "oklch(0.831 0.078 92.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Olive Brown",
+      "hex": "#9b7a45",
+      "oklch": "oklch(0.600 0.082 78.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Stem Umber",
+      "hex": "#6f4d2f",
+      "oklch": "oklch(0.450 0.064 61.5)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Peel Cream",
+      "hex": "#ffe8bd",
+      "oklch": "oklch(0.939 0.061 83.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warm Orange",
+      "hex": "#e9821e",
+      "oklch": "oklch(0.706 0.161 57.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.019 83.1)",
+    "foreground": "oklch(0.248 0.024 140.0)",
+    "card": "oklch(0.994 0.009 93.6)",
+    "card-foreground": "oklch(0.248 0.024 140.0)",
+    "popover": "oklch(0.994 0.009 93.6)",
+    "popover-foreground": "oklch(0.248 0.024 140.0)",
+    "primary": "oklch(0.774 0.148 68.8)",
+    "primary-foreground": "oklch(0.981 0.019 83.1)",
+    "secondary": "oklch(0.988 0.014 88.7)",
+    "secondary-foreground": "oklch(0.450 0.064 61.5)",
+    "muted": "oklch(0.991 0.012 91.5)",
+    "muted-foreground": "oklch(0.450 0.064 61.5)",
+    "accent": "oklch(0.416 0.098 147.8)",
+    "accent-foreground": "oklch(0.248 0.024 140.0)",
+    "destructive": "oklch(0.774 0.148 68.8)",
+    "border": "oklch(0.936 0.035 94.6)",
+    "input": "oklch(0.936 0.035 94.6)",
+    "ring": "oklch(0.819 0.147 70.9)",
+    "chart-1": "oklch(0.774 0.148 68.8)",
+    "chart-2": "oklch(0.819 0.147 70.9)",
+    "chart-3": "oklch(0.416 0.098 147.8)",
+    "chart-4": "oklch(0.312 0.064 155.2)",
+    "chart-5": "oklch(0.450 0.064 61.5)",
+    "sidebar": "oklch(0.989 0.013 86.8)",
+    "sidebar-foreground": "oklch(0.248 0.024 140.0)",
+    "sidebar-primary": "oklch(0.774 0.148 68.8)",
+    "sidebar-primary-foreground": "oklch(0.981 0.019 83.1)",
+    "sidebar-accent": "oklch(0.965 0.028 81.5)",
+    "sidebar-accent-foreground": "oklch(0.774 0.148 68.8)",
+    "sidebar-border": "oklch(0.936 0.035 94.6)",
+    "sidebar-ring": "oklch(0.819 0.147 70.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.248 0.024 140.0)",
+    "foreground": "oklch(0.981 0.019 83.1)",
+    "card": "oklch(0.382 0.044 71.2)",
+    "card-foreground": "oklch(0.981 0.019 83.1)",
+    "popover": "oklch(0.382 0.044 71.2)",
+    "popover-foreground": "oklch(0.981 0.019 83.1)",
+    "primary": "oklch(0.819 0.147 70.9)",
+    "primary-foreground": "oklch(0.248 0.024 140.0)",
+    "secondary": "oklch(0.539 0.064 70.9)",
+    "secondary-foreground": "oklch(0.981 0.019 83.1)",
+    "muted": "oklch(0.539 0.064 70.9)",
+    "muted-foreground": "oklch(0.914 0.045 90.4)",
+    "accent": "oklch(0.416 0.098 147.8)",
+    "accent-foreground": "oklch(0.248 0.024 140.0)",
+    "destructive": "oklch(0.774 0.148 68.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.819 0.147 70.9)",
+    "chart-1": "oklch(0.819 0.147 70.9)",
+    "chart-2": "oklch(0.774 0.148 68.8)",
+    "chart-3": "oklch(0.416 0.098 147.8)",
+    "chart-4": "oklch(0.312 0.064 155.2)",
+    "chart-5": "oklch(0.831 0.078 92.9)",
+    "sidebar": "oklch(0.343 0.036 82.0)",
+    "sidebar-foreground": "oklch(0.981 0.019 83.1)",
+    "sidebar-primary": "oklch(0.819 0.147 70.9)",
+    "sidebar-primary-foreground": "oklch(0.248 0.024 140.0)",
+    "sidebar-accent": "oklch(0.539 0.064 70.9)",
+    "sidebar-accent-foreground": "oklch(0.981 0.019 83.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.819 0.147 70.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for warm English service UI, tabular operational numbers, concise form labels, and Noto Sans JP guidance for calm Japanese booking and customer workflows.",
+  "layout": "Precise 8px service grids, compact booking dashboards, dark green navigation rails, cream-gold panels, loquat-peel texture samples, leaf-vein separators, and restrained 8px cards for repeatable shadcn components.",
+  "tags": [
+    "loquat",
+    "fruit",
+    "subtropical-orchard",
+    "service",
+    "warm",
+    "apricot-gold",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-loquat/motif.png",
+    "board": "/systems/morphous-loquat/design-system-light.png",
+    "darkBoard": "/systems/morphous-loquat/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-loquat/theme.css",
+    "themeJson": "/systems/morphous-loquat/theme.json",
+    "promptsJson": "/systems/morphous-loquat/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent loquat cluster motif",
+      "asset": "/systems/morphous-loquat/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Loquat transparent motif chroma-key source\nPrimary request: Create only a loquat cluster botanical motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural subtropical orchard loquat cluster with several oval apricot-gold loquat fruits, matte slightly fuzzy peel, warm orange-gold highlights, small dark blossom-end dimples, thick glossy dark green lance-shaped leaves with visible veins and cream-gold undersides, and short woody olive-brown stems. Botanical Eriobotrya japonica accuracy, crisp cutout edges, premium warm service-system identity.\nComposition/framing: centered complete cutout with generous padding; include the fruit cluster, leaves, and stems without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no peach, no apricot halves, no citrus slices, no mango, no basket, no hand, no orchard landscape, no plate, no text, no watermark, no loose fruit pile, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-loquat/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Loquat light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Loquat\", derived from the visible loquat cluster cutout in context. This board is a source reference for implementing a shadcn/tweakcn-compatible warm service system.\nCanvas: 3840 x 2160 wide 16:9 high-resolution board, clean professional UI design-system presentation, large readable labels, clear section grouping, no tiny paragraphs.\nRequired visible sections: Morphous Loquat, Loquat Cluster, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from apricot-gold loquat skins, warm orange highlights, glossy dark green orchard leaves, cream-gold leaf undersides, olive-brown woody stems, blossom-end dimples, and subtropical orchard service counters. The board must read as loquat and subtropical orchard, not peach, citrus, mango, apricot jam, or generic orange.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Warm service dashboard hierarchy; keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, booking/service queue widgets, empty/loading/error states, progress, stepper, spacing scale, radius samples, border, shadow samples, token code snippets, subtle icons.\nStyle: warm shadcn/tweakcn-style service system, precise 8px grid, 8px card radius, cream surfaces, apricot-gold primary actions, leaf dark-green navigation and focus states, olive-brown borders, soft cream-gold muted panels, subtle loquat peel stipple and leaf-vein texture, restrained shadows, operational service UI rather than marketing layout.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no peach branding, no citrus slices, no mango palette, no jam jar, no random brand names, no watermark, no misspelling of \"Morphous Loquat\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-loquat/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Loquat dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Loquat\" / \"Loquat Cluster\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible loquat cluster cutout.\nCanvas: 3840 x 2160 wide 16:9 high-resolution board, clean professional UI design-system presentation, large readable labels, clear section grouping, no tiny paragraphs.\nRequired visible sections: Morphous Loquat, Loquat Cluster, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same warm service system language as the visible light board: apricot-gold primary actions, warm orange hover states, leaf dark-green navigation and focus rings, cream-gold foreground accents, olive-brown borders, soft orchard texture, 8px radius, precise shadcn/tweakcn component grid. Must read as loquat and subtropical orchard, not peach, citrus, mango, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Warm service dashboard hierarchy; keep text short and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, booking/service queue widgets, table rows, sidebar navigation, top nav, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets, subtle icons.\nVisual details: deep leaf-green and orchard-night dark surfaces, apricot-gold active states, cream text, olive-brown separators, soft loquat-peel stipple texture, leaf-vein texture overlays, restrained contrast, crisp cards and controls, operational service UI rather than marketing layout.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no peach branding, no citrus slices, no mango palette, no jam jar, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Loquat\"."
+    }
+  ]
+}

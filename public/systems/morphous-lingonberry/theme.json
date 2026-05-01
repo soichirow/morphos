@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lingonberry",
+    "name": "Morphous Lingonberry",
+    "motifName": "Lingonberry Sprig",
+    "motifCategory": "fruit",
+    "biome": "Boreal Understory",
+    "motif": "lingonberry sprig"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Frost White",
+      "hex": "#f7f7f6",
+      "oklch": "oklch(0.976 0.001 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Spruce Ink",
+      "hex": "#0e1a16",
+      "oklch": "oklch(0.205 0.019 171.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lingonberry Berry",
+      "hex": "#b30d23",
+      "oklch": "oklch(0.488 0.191 23.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cranberry Red",
+      "hex": "#d61a2c",
+      "oklch": "oklch(0.560 0.215 24.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rowan Coral",
+      "hex": "#e65a5a",
+      "oklch": "oklch(0.650 0.175 23.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Evergreen Forest",
+      "hex": "#0f3d2e",
+      "oklch": "oklch(0.324 0.056 167.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Evergreen Leaf",
+      "hex": "#2e6b46",
+      "oklch": "oklch(0.477 0.088 154.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Green",
+      "hex": "#afc7b0",
+      "oklch": "oklch(0.805 0.041 146.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blossom White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Woody Bark",
+      "hex": "#7a4a38",
+      "oklch": "oklch(0.460 0.072 41.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.001 106.4)",
+    "foreground": "oklch(0.205 0.019 171.5)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.205 0.019 171.5)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.205 0.019 171.5)",
+    "primary": "oklch(0.488 0.191 23.8)",
+    "primary-foreground": "oklch(0.976 0.001 106.4)",
+    "secondary": "oklch(0.991 0.001 106.4)",
+    "secondary-foreground": "oklch(0.460 0.072 41.2)",
+    "muted": "oklch(0.994 0.001 106.4)",
+    "muted-foreground": "oklch(0.460 0.072 41.2)",
+    "accent": "oklch(0.650 0.175 23.3)",
+    "accent-foreground": "oklch(0.205 0.019 171.5)",
+    "destructive": "oklch(0.488 0.191 23.8)",
+    "border": "oklch(0.931 0.014 148.8)",
+    "input": "oklch(0.931 0.014 148.8)",
+    "ring": "oklch(0.560 0.215 24.5)",
+    "chart-1": "oklch(0.488 0.191 23.8)",
+    "chart-2": "oklch(0.560 0.215 24.5)",
+    "chart-3": "oklch(0.650 0.175 23.3)",
+    "chart-4": "oklch(0.324 0.056 167.5)",
+    "chart-5": "oklch(0.460 0.072 41.2)",
+    "sidebar": "oklch(0.991 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.205 0.019 171.5)",
+    "sidebar-primary": "oklch(0.488 0.191 23.8)",
+    "sidebar-primary-foreground": "oklch(0.976 0.001 106.4)",
+    "sidebar-accent": "oklch(0.930 0.022 7.2)",
+    "sidebar-accent-foreground": "oklch(0.488 0.191 23.8)",
+    "sidebar-border": "oklch(0.931 0.014 148.8)",
+    "sidebar-ring": "oklch(0.560 0.215 24.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.019 171.5)",
+    "foreground": "oklch(0.976 0.001 106.4)",
+    "card": "oklch(0.376 0.045 48.3)",
+    "card-foreground": "oklch(0.976 0.001 106.4)",
+    "popover": "oklch(0.376 0.045 48.3)",
+    "popover-foreground": "oklch(0.976 0.001 106.4)",
+    "primary": "oklch(0.560 0.215 24.5)",
+    "primary-foreground": "oklch(0.205 0.019 171.5)",
+    "secondary": "oklch(0.537 0.051 53.3)",
+    "secondary-foreground": "oklch(0.976 0.001 106.4)",
+    "muted": "oklch(0.537 0.051 53.3)",
+    "muted-foreground": "oklch(0.899 0.017 145.4)",
+    "accent": "oklch(0.650 0.175 23.3)",
+    "accent-foreground": "oklch(0.205 0.019 171.5)",
+    "destructive": "oklch(0.488 0.191 23.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.560 0.215 24.5)",
+    "chart-1": "oklch(0.560 0.215 24.5)",
+    "chart-2": "oklch(0.488 0.191 23.8)",
+    "chart-3": "oklch(0.650 0.175 23.3)",
+    "chart-4": "oklch(0.324 0.056 167.5)",
+    "chart-5": "oklch(0.805 0.041 146.3)",
+    "sidebar": "oklch(0.324 0.029 53.4)",
+    "sidebar-foreground": "oklch(0.976 0.001 106.4)",
+    "sidebar-primary": "oklch(0.560 0.215 24.5)",
+    "sidebar-primary-foreground": "oklch(0.205 0.019 171.5)",
+    "sidebar-accent": "oklch(0.537 0.051 53.3)",
+    "sidebar-accent-foreground": "oklch(0.976 0.001 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.560 0.215 24.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English product UI, compact inventory labels, tabular dashboard numbers, and Noto Sans JP guidance for clear Japanese pantry and operations screens.",
+  "layout": "Precise 8px product grids, pantry-dashboard density, evergreen navigation rails, frost-grain separators, compact table rows, and restrained 8px cards for repeatable shadcn components.",
+  "tags": [
+    "lingonberry",
+    "fruit",
+    "boreal",
+    "understory",
+    "pantry",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lingonberry/motif.png",
+    "board": "/systems/morphous-lingonberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-lingonberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lingonberry/theme.css",
+    "themeJson": "/systems/morphous-lingonberry/theme.json",
+    "promptsJson": "/systems/morphous-lingonberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lingonberry sprig motif",
+      "asset": "/systems/morphous-lingonberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lingonberry transparent motif chroma-key source\nPrimary request: Create only a lingonberry sprig botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A natural boreal understory lingonberry sprig with multiple clusters of small round glossy berries that are clearly cranberry red to ruby red, never black or purple. Include small oval evergreen leaves in glossy deep green with pale undersides, slender reddish-brown woody stems, tiny snow-white bell-shaped blossoms or blossom remnants, and light frost crystals on some leaves. Botanical accuracy, crisp subject edges, rich berry gloss and leaf texture.\nComposition/framing: centered complete cutout with generous padding; include berries, leaves, blossoms, and stems without cropping. Clean studio lighting that preserves natural cranberry red color, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: berries must be red, no black berries, no purple berries, no blueberries, no cranberries floating loose, no bowl, no hand, no props, no landscape, no text, no watermark, no second plant species, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lingonberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lingonberry light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lingonberry\", derived from the visible lingonberry sprig cutout in context. This board is a source reference for implementing a shadcn/tweakcn-compatible crisp pantry dashboard system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels.\nRequired visible sections: Morphous Lingonberry, Lingonberry Sprig, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from cranberry-red lingonberry skins, glossy deep evergreen leaves, snow-white blossom and frost highlights, pale leaf undersides, reddish-brown woody stems, boreal understory quietness, and pantry label clarity. The board must read as lingonberry, not raspberry, grape, or cranberry sauce.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝は見出しのみ, Noto Sans JP. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, inventory/pantry data widgets, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, crisp snow-white product surfaces, cranberry red primary actions, glossy evergreen navigation accents, pale lichen green muted controls, blossom white cards, frost-white dividers, spruce-ink text, woody brown borders, subtle berry-skin gloss and frost-grain texture.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no wine imagery, no jam jar branding, no random brand names, no watermark, no misspelling of \"Morphous Lingonberry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lingonberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lingonberry dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Lingonberry\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible lingonberry sprig cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels.\nRequired visible sections: Morphous Lingonberry, Lingonberry Sprig, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same crisp pantry dashboard language as the visible light board: cranberry-red primary actions, glossy evergreen navigation accents, snow-white and frost highlight text, pale lichen muted controls, spruce-ink dark backgrounds, woody brown borders, subtle berry-skin gloss and frost-grain texture, 8px radius, precise shadcn/tweakcn component grid. Must read as lingonberry, not raspberry, grape, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝は見出しのみ, Noto Sans JP. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, inventory/pantry data widgets, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep spruce ink and winter understory dark surfaces, cranberry red active states, evergreen focus rings and nav rails, snow-white foreground, pale frost borders, lichen green muted chips, woody bark brown separators, restrained contrast, crisp cards and controls, subtle frost grain and glossy berry texture overlays.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no wine imagery, no jam brand logo, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Lingonberry\"."
+    }
+  ]
+}

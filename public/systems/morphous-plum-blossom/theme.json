@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-plum-blossom",
+    "name": "Morphous Plum Blossom",
+    "motifName": "Plum Blossom",
+    "motifCategory": "flower",
+    "biome": "winter garden",
+    "motif": "plum blossom branch"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Winter Paper",
+      "hex": "#F8F2F0",
+      "oklch": "oklch(0.965 0.007 39.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#1E1818",
+      "oklch": "oklch(0.216 0.010 17.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Petal Pink",
+      "hex": "#E6A6B6",
+      "oklch": "oklch(0.790 0.078 2.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blossom White",
+      "hex": "#FFF7F7",
+      "oklch": "oklch(0.982 0.009 17.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bud Red",
+      "hex": "#B93F4E",
+      "oklch": "oklch(0.544 0.157 16.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Stamen Gold",
+      "hex": "#D7A84A",
+      "oklch": "oklch(0.757 0.124 82.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist White",
+      "hex": "#FFFBFA",
+      "oklch": "oklch(0.991 0.004 34.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Branch Taupe",
+      "hex": "#A88C86",
+      "oklch": "oklch(0.664 0.035 32.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Black Bark",
+      "hex": "#302324",
+      "oklch": "oklch(0.272 0.020 13.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Frost Grey",
+      "hex": "#C9C2C2",
+      "oklch": "oklch(0.820 0.008 17.3)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Green",
+      "hex": "#6E8A62",
+      "oklch": "oklch(0.601 0.067 136.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.007 39.5)",
+    "foreground": "oklch(0.216 0.010 17.9)",
+    "card": "oklch(0.991 0.004 34.3)",
+    "card-foreground": "oklch(0.216 0.010 17.9)",
+    "popover": "oklch(0.991 0.004 34.3)",
+    "popover-foreground": "oklch(0.216 0.010 17.9)",
+    "primary": "oklch(0.790 0.078 2.6)",
+    "primary-foreground": "oklch(0.965 0.007 39.5)",
+    "secondary": "oklch(0.980 0.006 31.1)",
+    "secondary-foreground": "oklch(0.272 0.020 13.3)",
+    "muted": "oklch(0.983 0.006 31.1)",
+    "muted-foreground": "oklch(0.272 0.020 13.3)",
+    "accent": "oklch(0.544 0.157 16.9)",
+    "accent-foreground": "oklch(0.216 0.010 17.9)",
+    "destructive": "oklch(0.790 0.078 2.6)",
+    "border": "oklch(0.876 0.015 33.1)",
+    "input": "oklch(0.876 0.015 33.1)",
+    "ring": "oklch(0.982 0.009 17.3)",
+    "chart-1": "oklch(0.790 0.078 2.6)",
+    "chart-2": "oklch(0.982 0.009 17.3)",
+    "chart-3": "oklch(0.544 0.157 16.9)",
+    "chart-4": "oklch(0.757 0.124 82.2)",
+    "chart-5": "oklch(0.272 0.020 13.3)",
+    "sidebar": "oklch(0.983 0.006 31.1)",
+    "sidebar-foreground": "oklch(0.216 0.010 17.9)",
+    "sidebar-primary": "oklch(0.790 0.078 2.6)",
+    "sidebar-primary-foreground": "oklch(0.965 0.007 39.5)",
+    "sidebar-accent": "oklch(0.967 0.012 11.0)",
+    "sidebar-accent-foreground": "oklch(0.790 0.078 2.6)",
+    "sidebar-border": "oklch(0.876 0.015 33.1)",
+    "sidebar-ring": "oklch(0.982 0.009 17.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.216 0.010 17.9)",
+    "foreground": "oklch(0.965 0.007 39.5)",
+    "card": "oklch(0.253 0.017 12.2)",
+    "card-foreground": "oklch(0.965 0.007 39.5)",
+    "popover": "oklch(0.253 0.017 12.2)",
+    "popover-foreground": "oklch(0.965 0.007 39.5)",
+    "primary": "oklch(0.982 0.009 17.3)",
+    "primary-foreground": "oklch(0.216 0.010 17.9)",
+    "secondary": "oklch(0.366 0.023 18.2)",
+    "secondary-foreground": "oklch(0.965 0.007 39.5)",
+    "muted": "oklch(0.366 0.023 18.2)",
+    "muted-foreground": "oklch(0.832 0.019 34.3)",
+    "accent": "oklch(0.544 0.157 16.9)",
+    "accent-foreground": "oklch(0.216 0.010 17.9)",
+    "destructive": "oklch(0.790 0.078 2.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.982 0.009 17.3)",
+    "chart-1": "oklch(0.982 0.009 17.3)",
+    "chart-2": "oklch(0.790 0.078 2.6)",
+    "chart-3": "oklch(0.544 0.157 16.9)",
+    "chart-4": "oklch(0.757 0.124 82.2)",
+    "chart-5": "oklch(0.664 0.035 32.1)",
+    "sidebar": "oklch(0.242 0.014 10.7)",
+    "sidebar-foreground": "oklch(0.965 0.007 39.5)",
+    "sidebar-primary": "oklch(0.982 0.009 17.3)",
+    "sidebar-primary-foreground": "oklch(0.216 0.010 17.9)",
+    "sidebar-accent": "oklch(0.366 0.023 18.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.007 39.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.982 0.009 17.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Elegant writing English UI with Japanese typography guidance for Mincho headings, Gothic body text, vertical-rhythm spacing, compact labels, and readable document tables.",
+  "layout": "Writing, publication, and knowledge layouts with 8px radii, winter-paper surfaces, petal-pink actions, bark-ink typography, bud-red emphasis, branch-line dividers, and quiet focus states.",
+  "tags": [
+    "plum-blossom",
+    "flower",
+    "winter-garden",
+    "petal-pink",
+    "bark-ink",
+    "writing",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-plum-blossom/motif.png",
+    "board": "/systems/morphous-plum-blossom/design-system-light.png",
+    "darkBoard": "/systems/morphous-plum-blossom/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-plum-blossom/theme.css",
+    "themeJson": "/systems/morphous-plum-blossom/theme.json",
+    "promptsJson": "/systems/morphous-plum-blossom/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent plum blossom branch motif",
+      "asset": "/systems/morphous-plum-blossom/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Plum Blossom transparent motif chroma-key source\nPrimary request: Create a complete plum blossom branch motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A winter garden plum blossom branch with pale pink and white flowers, deep bud-red buds, dark bark, small stamen details, and refined botanical texture. Crisp edges, no cast shadow.\nComposition/framing: centered complete branch cutout with blossoms, buds, and bark visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no cherry blossom confusion, no vase, no hand, no props, no landscape, no text."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-plum-blossom/design-system-light.png",
+      "sourceAsset": "/systems/morphous-plum-blossom/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Plum Blossom light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Plum Blossom, derived from the visible plum blossom branch cutout.\nCanvas: wide 16:9 high-resolution board, polished elegant writing-system presentation.\nRequired visible sections: Morphous Plum Blossom, Plum Blossom Branch, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract petal-pink actions, blossom-white surfaces, bark-ink typography, bud-red emphasis, winter mist backgrounds, branch-line dividers, and subtle paper texture for writing, publishing, notes, and knowledge interfaces.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, document cards, tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no cherry blossom confusion, no generic pink UI, no neon colors, no tiny unreadable text, no watermark, no misspelling of Morphous Plum Blossom."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-plum-blossom/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-plum-blossom/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Plum Blossom dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Plum Blossom that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Plum Blossom, Plum Blossom Branch, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve petal-pink actions, blossom foregrounds, bark-black surfaces, bud-red accents, winter mist contrast, and paper-like editorial spacing for writing and knowledge work.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Plum Blossom."
+    }
+  ]
+}

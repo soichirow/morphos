@@ -66,11 +66,14 @@ function LandingRoute() {
               style={{ background: paletteGradient(heroSystem) }}
               aria-hidden
             />
-            <div>
+            <div className="min-w-0">
               <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
                 Morphous
               </p>
-              <p className="text-sm font-semibold">Nature-coded design systems</p>
+              <p className="hidden truncate text-sm font-semibold sm:block">
+                Nature-coded design systems
+              </p>
+              <p className="truncate text-sm font-semibold sm:hidden">Morphous gallery</p>
             </div>
           </div>
           <div className="flex items-center gap-1">
@@ -99,7 +102,7 @@ function LandingRoute() {
               <Sparkles className="size-3.5 text-primary" />
               {systems.length} AI-generated systems · in active development
             </span>
-            <h1 className="text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="text-3xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
               Pick an animal, a flower, a stone —{" "}
               <span className="text-primary transition-colors duration-700">
                 ship a design system.
@@ -170,6 +173,28 @@ function LandingRoute() {
             <span className="font-medium text-foreground">Codex + ChatGPT Images 2.0</span>
             , and from a museum trip with my kids where I was honestly shocked by how
             well-resolved the colors and structures of living things already are.
+          </p>
+          <p className="mt-3 text-sm leading-6 text-muted-foreground">
+            Huge respect to{" "}
+            <a
+              href="https://ui.shadcn.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-medium text-foreground hover:text-primary hover:underline"
+            >
+              shadcn/ui
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://tweakcn.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="font-medium text-foreground hover:text-primary hover:underline"
+            >
+              tweakcn
+            </a>{" "}
+            — Morphous slots into both, and most of what I know about token-driven
+            theming I learned from reading their work.
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
             Everything's open —{" "}

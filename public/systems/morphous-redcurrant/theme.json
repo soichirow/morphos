@@ -1,0 +1,181 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-redcurrant",
+    "name": "Morphous Redcurrant",
+    "motifName": "Redcurrant Strings",
+    "motifCategory": "fruit",
+    "biome": "Cool Garden",
+    "motif": "redcurrant strings"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Translucent Cream",
+      "hex": "#fff7ea",
+      "oklch": "oklch(0.979 0.019 80.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Currant Seed Ink",
+      "hex": "#251316",
+      "oklch": "oklch(0.213 0.030 9.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clear Ruby",
+      "hex": "#c41532",
+      "oklch": "oklch(0.525 0.202 21.2)"
+    },
+    {
+      "role": "Primary Depth",
+      "name": "Currant Skin",
+      "hex": "#871326",
+      "oklch": "oklch(0.405 0.148 19.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#4f7d3c",
+      "oklch": "oklch(0.540 0.107 137.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fresh Stem",
+      "hex": "#96b66f",
+      "oklch": "oklch(0.735 0.102 128.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Berry Glass",
+      "hex": "#f6d8d0",
+      "oklch": "oklch(0.905 0.035 35.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cool Garden Mist",
+      "hex": "#dbe3d5",
+      "oklch": "oklch(0.906 0.021 131.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Pale Stem Line",
+      "hex": "#b8c79e",
+      "oklch": "oklch(0.807 0.058 124.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Garden Charcoal",
+      "hex": "#2a3026",
+      "oklch": "oklch(0.300 0.019 132.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.019 80.1)",
+    "foreground": "oklch(0.213 0.030 9.1)",
+    "card": "oklch(0.905 0.035 35.3)",
+    "card-foreground": "oklch(0.213 0.030 9.1)",
+    "popover": "oklch(0.905 0.035 35.3)",
+    "popover-foreground": "oklch(0.213 0.030 9.1)",
+    "primary": "oklch(0.525 0.202 21.2)",
+    "primary-foreground": "oklch(0.979 0.019 80.1)",
+    "secondary": "oklch(0.936 0.027 47.2)",
+    "secondary-foreground": "oklch(0.300 0.019 132.9)",
+    "muted": "oklch(0.927 0.030 44.0)",
+    "muted-foreground": "oklch(0.300 0.019 132.9)",
+    "accent": "oklch(0.735 0.102 128.4)",
+    "accent-foreground": "oklch(0.213 0.030 9.1)",
+    "destructive": "oklch(0.525 0.202 21.2)",
+    "border": "oklch(0.905 0.022 54.3)",
+    "input": "oklch(0.905 0.022 54.3)",
+    "ring": "oklch(0.540 0.107 137.3)",
+    "chart-1": "oklch(0.525 0.202 21.2)",
+    "chart-2": "oklch(0.540 0.107 137.3)",
+    "chart-3": "oklch(0.735 0.102 128.4)",
+    "chart-4": "oklch(0.735 0.102 128.4)",
+    "chart-5": "oklch(0.300 0.019 132.9)",
+    "sidebar": "oklch(0.931 0.028 46.1)",
+    "sidebar-foreground": "oklch(0.213 0.030 9.1)",
+    "sidebar-primary": "oklch(0.525 0.202 21.2)",
+    "sidebar-primary-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-accent": "oklch(0.851 0.054 23.9)",
+    "sidebar-accent-foreground": "oklch(0.525 0.202 21.2)",
+    "sidebar-border": "oklch(0.905 0.022 54.3)",
+    "sidebar-ring": "oklch(0.540 0.107 137.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.213 0.030 9.1)",
+    "foreground": "oklch(0.979 0.019 80.1)",
+    "card": "oklch(0.269 0.009 88.8)",
+    "card-foreground": "oklch(0.979 0.019 80.1)",
+    "popover": "oklch(0.269 0.009 88.8)",
+    "popover-foreground": "oklch(0.979 0.019 80.1)",
+    "primary": "oklch(0.540 0.107 137.3)",
+    "primary-foreground": "oklch(0.213 0.030 9.1)",
+    "secondary": "oklch(0.448 0.018 132.7)",
+    "secondary-foreground": "oklch(0.979 0.019 80.1)",
+    "muted": "oklch(0.448 0.018 132.7)",
+    "muted-foreground": "oklch(0.946 0.017 103.2)",
+    "accent": "oklch(0.735 0.102 128.4)",
+    "accent-foreground": "oklch(0.213 0.030 9.1)",
+    "destructive": "oklch(0.525 0.202 21.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.540 0.107 137.3)",
+    "chart-1": "oklch(0.540 0.107 137.3)",
+    "chart-2": "oklch(0.525 0.202 21.2)",
+    "chart-3": "oklch(0.735 0.102 128.4)",
+    "chart-4": "oklch(0.735 0.102 128.4)",
+    "chart-5": "oklch(0.906 0.021 131.5)",
+    "sidebar": "oklch(0.251 0.012 44.6)",
+    "sidebar-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-primary": "oklch(0.540 0.107 137.3)",
+    "sidebar-primary-foreground": "oklch(0.213 0.030 9.1)",
+    "sidebar-accent": "oklch(0.448 0.018 132.7)",
+    "sidebar-accent-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.540 0.107 137.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English inventory UI with tabular numbers, compact labels, and Japanese typography guidance for precise bilingual product operations.",
+  "layout": "Precise 8px grids, vertical redcurrant-string dividers, berry-dot status markers, dense inventory tables, compact dashboards, and translucent highlight textures.",
+  "tags": [
+    "redcurrant",
+    "fruit",
+    "cool-garden",
+    "ruby",
+    "inventory",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-redcurrant/motif.png",
+    "board": "/systems/morphous-redcurrant/design-system-light.png",
+    "darkBoard": "/systems/morphous-redcurrant/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-redcurrant/theme.css",
+    "themeJson": "/systems/morphous-redcurrant/theme.json",
+    "promptsJson": "/systems/morphous-redcurrant/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent redcurrant strings motif",
+      "asset": "/systems/morphous-redcurrant/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Redcurrant transparent motif chroma-key source\nPrimary request: Create only redcurrant strings for a design-system catalog, isolated as one complete botanical fruit subject on a removable chroma-key background.\nSubject: Several precise dangling strings of translucent redcurrants, small round clear ruby berries with visible seed glints and watery interiors, thin pale green stems, a few cool garden leaf-green currant leaves, tiny nodes and natural botanical detail. The identity must read as redcurrant strings, not grapes or cherries.\nComposition/framing: centered complete cutout with generous padding; include the full hanging strings, stems, and a few leaves without cropping. Clean studio lighting that preserves translucent ruby fruit detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no grape cluster, no cherries, no cranberries, no tomatoes, no bowl, no hand, no garden scene, no props, no text, no watermark, no loose fruit pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-redcurrant/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Redcurrant light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Redcurrant\", derived from redcurrant strings in a cool garden. This board is a source reference for a shadcn/tweakcn-compatible product UI theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, precise inventory system mood.\nRequired visible sections: Morphous Redcurrant, Redcurrant Strings, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from clear ruby translucent currant berries, bright specular highlights, pale cream fruit glow, leaf-green currant foliage, cool garden stems, and crisp botanical string geometry. The board must read as redcurrant strings, not grapes, cherries, cranberries, or generic red UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short, large, and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, inventory list view, search command palette, sidebar navigation, dashboard metric cards, stock status chart, line chart, bar chart, empty/loading/error states, progress, spacing scale, radius samples, border, shadow, texture samples, simple icons.\nStyle: precise inventory system, 8px radius, crisp white and translucent cream surfaces, clear ruby primary actions, leaf green success and focus states, pale stem borders, cool garden grey-green muted panels, fine vertical string dividers, tiny berry-dot status markers, glassy redcurrant highlight texture, dense but organized product dashboard.\nConstraints: no grapes, no cherries, no cranberries, no wine branding, no jam branding, no generic red gradient UI, no unrelated saturated colors, no purple/blue gradient dominance, no watermark, no random brand names, no misspelling of \"Morphous Redcurrant\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-redcurrant/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Redcurrant dark-mode design-system board\nPrimary request: Generate one wide 16:9 comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Redcurrant\" / \"Redcurrant Strings\". Translate the light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional shadcn/tweakcn design-system presentation, precise inventory system mood.\nRequired visible sections: Morphous Redcurrant, Redcurrant Strings, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve clear ruby translucent berry actions, leaf-green status and focus, pale cream highlights, cool garden grey-green muted panels, thin stem-line borders, vertical redcurrant string dividers, berry-dot status markers, crisp inventory dashboard structure, and 8px shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short, large, and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, inventory metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets.\nVisual details: deep currant-skin charcoal backgrounds, ruby glass active states, pale cream foreground, muted garden green surfaces, leaf-green success, soft red glow highlights, thin pale stem borders, translucent berry texture overlays, restrained contrast, crisp cards and controls.\nConstraints: no grapes, no cherries, no cranberries, no tomatoes, no wine branding, no jam branding, no neon red, no generic red/black gaming UI, no pure-black flat background, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Redcurrant\", no tiny unreadable paragraphs."
+    }
+  ]
+}

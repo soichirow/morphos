@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jackfruit",
+    "name": "Morphous Jackfruit",
+    "motifName": "Jackfruit Pod",
+    "motifCategory": "fruit",
+    "biome": "Monsoon Orchard",
+    "motif": "jackfruit pod"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fibrous Cream",
+      "hex": "#fff7e6",
+      "oklch": "oklch(0.978 0.024 85.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Ink",
+      "hex": "#1b1a17",
+      "oklch": "oklch(0.218 0.006 91.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pulp Gold",
+      "hex": "#f2c94c",
+      "oklch": "oklch(0.850 0.146 90.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Deep Pulp",
+      "hex": "#e3a617",
+      "oklch": "oklch(0.763 0.153 81.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rind Green",
+      "hex": "#6b7f3a",
+      "oklch": "oklch(0.564 0.098 122.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Olive Rind",
+      "hex": "#556b2f",
+      "oklch": "oklch(0.496 0.090 126.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Cream",
+      "hex": "#f5f1e6",
+      "oklch": "oklch(0.958 0.015 90.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rind Stone",
+      "hex": "#e6e1d4",
+      "oklch": "oklch(0.910 0.018 89.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Stem Brown",
+      "hex": "#7a4a2e",
+      "oklch": "oklch(0.458 0.077 50.1)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Pulp Amber",
+      "hex": "#d68b00",
+      "oklch": "oklch(0.697 0.150 71.5)"
+    },
+    {
+      "role": "Warning",
+      "name": "Market Marigold",
+      "hex": "#e3a617",
+      "oklch": "oklch(0.763 0.153 81.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Ripe Heat",
+      "hex": "#c65a2a",
+      "oklch": "oklch(0.595 0.151 42.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.024 85.8)",
+    "foreground": "oklch(0.218 0.006 91.6)",
+    "card": "oklch(0.958 0.015 90.2)",
+    "card-foreground": "oklch(0.218 0.006 91.6)",
+    "popover": "oklch(0.958 0.015 90.2)",
+    "popover-foreground": "oklch(0.218 0.006 91.6)",
+    "primary": "oklch(0.850 0.146 90.5)",
+    "primary-foreground": "oklch(0.978 0.024 85.8)",
+    "secondary": "oklch(0.967 0.019 90.5)",
+    "secondary-foreground": "oklch(0.458 0.077 50.1)",
+    "muted": "oklch(0.965 0.018 89.4)",
+    "muted-foreground": "oklch(0.458 0.077 50.1)",
+    "accent": "oklch(0.564 0.098 122.9)",
+    "accent-foreground": "oklch(0.218 0.006 91.6)",
+    "destructive": "oklch(0.850 0.146 90.5)",
+    "border": "oklch(0.941 0.016 86.4)",
+    "input": "oklch(0.941 0.016 86.4)",
+    "ring": "oklch(0.763 0.153 81.2)",
+    "chart-1": "oklch(0.850 0.146 90.5)",
+    "chart-2": "oklch(0.763 0.153 81.2)",
+    "chart-3": "oklch(0.564 0.098 122.9)",
+    "chart-4": "oklch(0.496 0.090 126.2)",
+    "chart-5": "oklch(0.458 0.077 50.1)",
+    "sidebar": "oklch(0.965 0.018 89.4)",
+    "sidebar-foreground": "oklch(0.218 0.006 91.6)",
+    "sidebar-primary": "oklch(0.850 0.146 90.5)",
+    "sidebar-primary-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-accent": "oklch(0.944 0.033 89.9)",
+    "sidebar-accent-foreground": "oklch(0.850 0.146 90.5)",
+    "sidebar-border": "oklch(0.941 0.016 86.4)",
+    "sidebar-ring": "oklch(0.763 0.153 81.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.218 0.006 91.6)",
+    "foreground": "oklch(0.978 0.024 85.8)",
+    "card": "oklch(0.381 0.055 52.4)",
+    "card-foreground": "oklch(0.978 0.024 85.8)",
+    "popover": "oklch(0.381 0.055 52.4)",
+    "popover-foreground": "oklch(0.978 0.024 85.8)",
+    "primary": "oklch(0.763 0.153 81.2)",
+    "primary-foreground": "oklch(0.218 0.006 91.6)",
+    "secondary": "oklch(0.561 0.061 52.7)",
+    "secondary-foreground": "oklch(0.978 0.024 85.8)",
+    "muted": "oklch(0.561 0.061 52.7)",
+    "muted-foreground": "oklch(0.948 0.021 85.9)",
+    "accent": "oklch(0.564 0.098 122.9)",
+    "accent-foreground": "oklch(0.218 0.006 91.6)",
+    "destructive": "oklch(0.850 0.146 90.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.763 0.153 81.2)",
+    "chart-1": "oklch(0.763 0.153 81.2)",
+    "chart-2": "oklch(0.850 0.146 90.5)",
+    "chart-3": "oklch(0.564 0.098 122.9)",
+    "chart-4": "oklch(0.496 0.090 126.2)",
+    "chart-5": "oklch(0.910 0.018 89.4)",
+    "sidebar": "oklch(0.332 0.041 52.2)",
+    "sidebar-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-primary": "oklch(0.763 0.153 81.2)",
+    "sidebar-primary-foreground": "oklch(0.218 0.006 91.6)",
+    "sidebar-accent": "oklch(0.561 0.061 52.7)",
+    "sidebar-accent-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.763 0.153 81.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Confident marketplace UI typography with strong numeric rhythm, compact operational labels, and Japanese guidance for bilingual wholesale, inventory, and origin-tracking workflows.",
+  "layout": "Large scale marketplace density with 8px radius controls, structured side navigation, inventory dashboards, order tables, command search, rind-spike texture accents, and clear form-heavy workflows.",
+  "tags": [
+    "jackfruit",
+    "fruit",
+    "monsoon-orchard",
+    "marketplace",
+    "wholesale",
+    "golden",
+    "green-rind",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jackfruit/motif.png",
+    "board": "/systems/morphous-jackfruit/design-system-light.png",
+    "darkBoard": "/systems/morphous-jackfruit/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jackfruit/theme.css",
+    "themeJson": "/systems/morphous-jackfruit/theme.json",
+    "promptsJson": "/systems/morphous-jackfruit/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent jackfruit pod motif",
+      "asset": "/systems/morphous-jackfruit/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jackfruit transparent motif chroma-key source\nPrimary request: Create only a jackfruit pod botanical/product motif for a design-system catalog, isolated as one complete opaque subject on a removable chroma-key background.\nSubject: A large jackfruit pod from a monsoon orchard, shown as a cutaway cluster: rugged olive-green spiked rind with brown stem, one opened section revealing golden-yellow pulp bulbs and warm chestnut-brown seeds. Botanical accuracy, crisp opaque subject edges, tactile rind spikes, glossy fibrous golden pulp, large marketplace produce scale, fresh monsoon orchard polish.\nComposition/framing: centered complete cutout with generous padding; include rind, golden pulp, brown seeds, and short stem without cropping. Clean studio lighting that preserves green rind, golden pulp, and brown seed colors, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no plate, no basket, no hand, no knife, no packaging, no marketplace scene, no extra fruit species, no text, no watermark, no floor plane, no shadow, no green or magenta background spill on the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-jackfruit/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jackfruit light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Jackfruit\", derived from the visible jackfruit pod cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible large scale marketplace system.\nCanvas: 16:9 landscape board intended for 3840 x 2160 output; clean professional UI design-system presentation with large readable labels, generous columns, and no tiny text.\nRequired visible sections: Morphous Jackfruit, Jackfruit Pod, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from golden jackfruit pulp, olive-green spiked rind, warm brown stem and seeds, pale fibrous cream interior, monsoon orchard freshness, and large scale marketplace operations. The board must read as jackfruit pod and market produce infrastructure, not generic yellow/green SaaS.\nTypography: English marketplace UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝は見出しのみ, Noto Sans JP, 金額, 在庫, 産地. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, inventory and wholesale order data widgets, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, golden pulp primary actions, rind-green navigation and focus states, brown seed/stem dividers, pale fibrous cream surfaces, marketplace dashboard density, subtle jackfruit rind spike microtexture, large scale marketplace system mood.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no candy branding, no pineapple or durian, no random brand names, no watermark, no misspelling of \"Morphous Jackfruit\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-jackfruit/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jackfruit dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Jackfruit\". It must feel like the light-mode board translated to dark mode, not a new theme, and it must remain derived from the jackfruit pod cutout.\nCanvas: 16:9 landscape board intended for 3840 x 2160 output; clean professional UI design-system presentation with large readable labels, generous columns, and no tiny text.\nRequired visible sections: Morphous Jackfruit, Jackfruit Pod, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same large scale marketplace language as the light board: golden pulp primary actions, olive rind-green navigation and focus states, brown seed/stem separators, fibrous cream highlights, spiked rind microtexture, 8px radius, dense shadcn/tweakcn marketplace component grid. Must read as jackfruit pod and wholesale produce infrastructure, not generic dark SaaS.\nTypography: English marketplace UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 明朝は見出しのみ, Noto Sans JP, 金額, 在庫, 産地. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, inventory and wholesale order data widgets, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep seed-ink and monsoon-night market surfaces, golden pulp active states, cream text and highlights, rind-green focus rings and status, warm stem-brown borders, muted rind controls, restrained contrast, crisp cards and controls, subtle spiked rind grain and glossy pulp overlays.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no candy branding, no pineapple, no durian, no random brand names, no watermark, no illegible tiny paragraphs, no misspelling of \"Morphous Jackfruit\"."
+    }
+  ]
+}

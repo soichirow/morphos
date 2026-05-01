@@ -136,7 +136,11 @@ function defaultFmtScheme(): string {
 }
 
 function escapeAttr(s: string): string {
-  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
 }
 
 function mix(a: string, b: string, t: number): string {
@@ -154,9 +158,13 @@ function parseHex(h: string): [number, number, number] {
 }
 
 /** Replace (or add) `path` inside an OOXML zip with `xml`. */
-export async function injectThemeIntoZip(blob: Blob, path: string, xml: string): Promise<Blob> {
+export async function injectThemeIntoZip(
+  blob: Blob,
+  path: string,
+  xml: string
+): Promise<Blob> {
   const JSZip = (await import("jszip")).default
-  const zip = await JSZip.loadAsync(blob)
+  const zip = await JSZip.loadAsync(await blob.arrayBuffer())
   zip.file(path, xml)
   return zip.generateAsync({
     type: "blob",
@@ -173,14 +181,15 @@ export async function injectThemeIntoZip(blob: Blob, path: string, xml: string):
  */
 export async function injectDocxTheme(blob: Blob, xml: string): Promise<Blob> {
   const JSZip = (await import("jszip")).default
-  const zip = await JSZip.loadAsync(blob)
+  const zip = await JSZip.loadAsync(await blob.arrayBuffer())
 
   zip.file("word/theme/theme1.xml", xml)
 
   // 1. Content Types — add theme override if missing.
   const ctName = "[Content_Types].xml"
   let ct = (await zip.file(ctName)?.async("string")) ?? ""
-  const themeContentType = "application/vnd.openxmlformats-officedocument.theme+xml"
+  const themeContentType =
+    "application/vnd.openxmlformats-officedocument.theme+xml"
   if (!ct.includes("/word/theme/theme1.xml")) {
     const override = `<Override ContentType="${themeContentType}" PartName="/word/theme/theme1.xml"/>`
     ct = ct.replace("</Types>", `${override}</Types>`)
@@ -190,7 +199,8 @@ export async function injectDocxTheme(blob: Blob, xml: string): Promise<Blob> {
   // 2. Document relationships — add theme relationship if missing.
   const relsName = "word/_rels/document.xml.rels"
   let rels = (await zip.file(relsName)?.async("string")) ?? ""
-  const themeRelType = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"
+  const themeRelType =
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"
   if (!rels.includes(themeRelType)) {
     const idMatch = rels.match(/Id="rId(\d+)"/g) ?? []
     const maxId = idMatch.reduce((m, s) => {

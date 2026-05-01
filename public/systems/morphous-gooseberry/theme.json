@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-gooseberry",
+    "name": "Morphous Gooseberry",
+    "motifName": "Gooseberry Fruit",
+    "motifCategory": "fruit",
+    "biome": "Cottage Garden",
+    "motif": "gooseberry fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Garden Mist",
+      "hex": "#f7f9f1",
+      "oklch": "oklch(0.978 0.011 118.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Moss Bark",
+      "hex": "#2f3a28",
+      "oklch": "oklch(0.333 0.034 133.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Gooseberry Glass",
+      "hex": "#d6e783",
+      "oklch": "oklch(0.894 0.126 116.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#7fa36a",
+      "oklch": "oklch(0.674 0.090 134.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Vein White",
+      "hex": "#f7f9f1",
+      "oklch": "oklch(0.978 0.011 118.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Thorn Brown",
+      "hex": "#b08a69",
+      "oklch": "oklch(0.661 0.065 62.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pith Cream",
+      "hex": "#f2f4ec",
+      "oklch": "oklch(0.963 0.011 118.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ribbed Sage",
+      "hex": "#cddbb4",
+      "oklch": "oklch(0.871 0.054 123.6)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Blossom",
+      "hex": "#b46a5a",
+      "oklch": "oklch(0.603 0.099 33.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.011 118.0)",
+    "foreground": "oklch(0.333 0.034 133.6)",
+    "card": "oklch(0.963 0.011 118.0)",
+    "card-foreground": "oklch(0.333 0.034 133.6)",
+    "popover": "oklch(0.963 0.011 118.0)",
+    "popover-foreground": "oklch(0.333 0.034 133.6)",
+    "primary": "oklch(0.894 0.126 116.9)",
+    "primary-foreground": "oklch(0.978 0.011 118.0)",
+    "secondary": "oklch(0.969 0.011 118.0)",
+    "secondary-foreground": "oklch(0.333 0.034 133.6)",
+    "muted": "oklch(0.966 0.011 118.0)",
+    "muted-foreground": "oklch(0.333 0.034 133.6)",
+    "accent": "oklch(0.978 0.011 118.0)",
+    "accent-foreground": "oklch(0.333 0.034 133.6)",
+    "destructive": "oklch(0.894 0.126 116.9)",
+    "border": "oklch(0.930 0.026 121.2)",
+    "input": "oklch(0.930 0.026 121.2)",
+    "ring": "oklch(0.674 0.090 134.5)",
+    "chart-1": "oklch(0.894 0.126 116.9)",
+    "chart-2": "oklch(0.674 0.090 134.5)",
+    "chart-3": "oklch(0.978 0.011 118.0)",
+    "chart-4": "oklch(0.661 0.065 62.3)",
+    "chart-5": "oklch(0.333 0.034 133.6)",
+    "sidebar": "oklch(0.969 0.011 118.0)",
+    "sidebar-foreground": "oklch(0.333 0.034 133.6)",
+    "sidebar-primary": "oklch(0.894 0.126 116.9)",
+    "sidebar-primary-foreground": "oklch(0.978 0.011 118.0)",
+    "sidebar-accent": "oklch(0.954 0.025 114.2)",
+    "sidebar-accent-foreground": "oklch(0.894 0.126 116.9)",
+    "sidebar-border": "oklch(0.930 0.026 121.2)",
+    "sidebar-ring": "oklch(0.674 0.090 134.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.333 0.034 133.6)",
+    "foreground": "oklch(0.978 0.011 118.0)",
+    "card": "oklch(0.333 0.034 133.6)",
+    "card-foreground": "oklch(0.978 0.011 118.0)",
+    "popover": "oklch(0.333 0.034 133.6)",
+    "popover-foreground": "oklch(0.978 0.011 118.0)",
+    "primary": "oklch(0.674 0.090 134.5)",
+    "primary-foreground": "oklch(0.333 0.034 133.6)",
+    "secondary": "oklch(0.462 0.037 129.4)",
+    "secondary-foreground": "oklch(0.978 0.011 118.0)",
+    "muted": "oklch(0.462 0.037 129.4)",
+    "muted-foreground": "oklch(0.931 0.030 123.3)",
+    "accent": "oklch(0.978 0.011 118.0)",
+    "accent-foreground": "oklch(0.333 0.034 133.6)",
+    "destructive": "oklch(0.894 0.126 116.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.674 0.090 134.5)",
+    "chart-1": "oklch(0.674 0.090 134.5)",
+    "chart-2": "oklch(0.894 0.126 116.9)",
+    "chart-3": "oklch(0.978 0.011 118.0)",
+    "chart-4": "oklch(0.661 0.065 62.3)",
+    "chart-5": "oklch(0.871 0.054 123.6)",
+    "sidebar": "oklch(0.333 0.034 133.6)",
+    "sidebar-foreground": "oklch(0.978 0.011 118.0)",
+    "sidebar-primary": "oklch(0.674 0.090 134.5)",
+    "sidebar-primary-foreground": "oklch(0.333 0.034 133.6)",
+    "sidebar-accent": "oklch(0.462 0.037 129.4)",
+    "sidebar-accent-foreground": "oklch(0.978 0.011 118.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.674 0.090 134.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English product UI with compact labels, calm numeric rhythm, and Japanese UI guidance for readable bilingual dashboard surfaces.",
+  "layout": "Precise 8px grids, ribbed rounded forms, thorn-line separators, dense dashboard panels, and subtle vein texture accents.",
+  "tags": [
+    "gooseberry",
+    "fruit",
+    "cottage-garden",
+    "pale-green",
+    "tactile",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-gooseberry/motif.png",
+    "board": "/systems/morphous-gooseberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-gooseberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-gooseberry/theme.css",
+    "themeJson": "/systems/morphous-gooseberry/theme.json",
+    "promptsJson": "/systems/morphous-gooseberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Gooseberry motif",
+      "asset": "/systems/morphous-gooseberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Gooseberry transparent motif chroma-key source\nPrimary request: Create only a gooseberry fruit motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A small cottage-garden gooseberry branch with translucent pale green gooseberry fruits, visible white vein lines, fine vertical ribbing, tiny dried blossom tips, a few matte green lobed leaves, slender thorny twig structure, and warm thorn-brown stems. Natural botanical accuracy, tactile fruit skin, crisp cutout edges, pale green vein white thorn brown identity.\nComposition/framing: centered complete cutout with generous padding; include fruit cluster, leaves, thorns, and branch without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no grapes, no currants, no kiwi, no raspberry drupelets, no bowl, no basket, no hand, no landscape, no text, no watermark, no loose fruit pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-gooseberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Gooseberry light-mode design-system board\nPrimary request: Generate one comprehensive LIGHT MODE design-system board for a Morphous theme named exactly \"Morphous Gooseberry\", derived from a gooseberry branch cutout. This is a source reference for a shadcn/tweakcn-compatible product UI theme.\nCanvas and composition: strict horizontal 16:9 landscape board, poster-like design-system sheet, wide dashboard layout, no square canvas, no portrait canvas. Organize into large readable modular sections with a clean grid.\nRequired visible section headings: Morphous Gooseberry, Gooseberry Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from translucent pale green gooseberry skins, white vein lines and ribbing, matte leaf greens, thorn-brown branch structure, dried blossom tips, cottage garden light, and tactile fruit form. The board must read as gooseberry, not grape, kiwi, currant, raspberry, or generic green.\nTypography: English product UI examples with Japanese UI typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short, large, and legible.\nUI coverage: primary, secondary, tertiary, ghost, destructive buttons; hover, pressed, disabled, loading states; inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, spacing scale, radius scale, border, shadow samples, texture samples, simple icons, token code snippets.\nStyle: tactile form system, precise 8px grid, 8px card radius, pale garden-white backgrounds, translucent gooseberry green primary actions, vein-white surfaces, thorn-brown borders and structure, leaf-green success states, dry blossom brown warnings, fine vertical vein texture, ribbed rounded forms, quiet cottage garden product UI.\nConstraints: no grapes, no kiwi slices, no currants, no raspberry seed texture, no fruit labels as random brands, no generic green monochrome UI, no saturated purple/blue gradients, no unrelated bright colors, no watermark, no misspelling of \"Morphous Gooseberry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-gooseberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Gooseberry dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named exactly \"Morphous Gooseberry\" / \"Gooseberry Fruit\". Use the gooseberry motif and light-mode board as references. Translate the same system into dark mode; do not invent a new unrelated theme.\nCanvas and composition: strict horizontal 16:9 landscape board, wide dashboard-style design-system sheet, no square canvas, no portrait canvas. Use large readable labels and modular sections.\nRequired visible section headings: Morphous Gooseberry, Gooseberry Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve translucent pale gooseberry green, vein-white highlights, leaf green controls/status, thorn-brown stems and borders, dried blossom brown warning/destructive tones, ribbed fruit texture, thorn separators, rounded form rhythm, and precise 8px shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese UI typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short, large, and legible.\nUI coverage: primary, secondary, tertiary, ghost, destructive buttons; hover, pressed, disabled, loading states; checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, top navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep moss-bark dark backgrounds, thorn-brown card structure, vein-white foreground text, luminous gooseberry green active states, muted leaf chart fills, dry blossom destructive/warning states, subtle vertical fruit vein texture, tactile ribbed surfaces, restrained contrast, crisp cards and controls.\nConstraints: no grapes, no kiwi slices, no currants, no raspberry texture, no neon green, no pure-black flat background, no generic green monochrome UI, no saturated purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Gooseberry\", no tiny unreadable paragraphs."
+    }
+  ]
+}

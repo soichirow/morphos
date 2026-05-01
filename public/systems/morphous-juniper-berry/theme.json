@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-juniper-berry",
+    "name": "Morphous Juniper Berry",
+    "motifName": "Juniper Berry",
+    "motifCategory": "fruit",
+    "biome": "alpine scrub",
+    "motif": "juniper berries"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lichen Mist",
+      "hex": "#f2f5f0",
+      "oklch": "oklch(0.966 0.007 132.4)"
+    },
+    {
+      "role": "Foreground",
+      "name": "Alpine Ink",
+      "hex": "#17201d",
+      "oklch": "oklch(0.234 0.014 172.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Berry Bloom",
+      "hex": "#506f9f",
+      "oklch": "oklch(0.539 0.084 258.9)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Deep Juniper Blue",
+      "hex": "#33496f",
+      "oklch": "oklch(0.405 0.070 260.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Needle Green",
+      "hex": "#536f3d",
+      "oklch": "oklch(0.507 0.081 132.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "New Tip Green",
+      "hex": "#8aa15a",
+      "oklch": "oklch(0.674 0.100 123.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blue Bloom Wash",
+      "hex": "#d8e1eb",
+      "oklch": "oklch(0.906 0.017 250.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Grey",
+      "hex": "#8b8b84",
+      "oklch": "oklch(0.635 0.010 106.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Twig Brown",
+      "hex": "#6d5547",
+      "oklch": "oklch(0.470 0.039 51.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Evergreen Night",
+      "hex": "#111816",
+      "oklch": "oklch(0.201 0.011 175.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dry Cone Amber",
+      "hex": "#b78a47",
+      "oklch": "oklch(0.663 0.101 75.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Calyx Red",
+      "hex": "#9b4c48",
+      "oklch": "oklch(0.514 0.106 24.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.966 0.007 132.4)",
+    "foreground": "oklch(0.234 0.014 172.7)",
+    "card": "oklch(0.906 0.017 250.9)",
+    "card-foreground": "oklch(0.234 0.014 172.7)",
+    "popover": "oklch(0.906 0.017 250.9)",
+    "popover-foreground": "oklch(0.234 0.014 172.7)",
+    "primary": "oklch(0.539 0.084 258.9)",
+    "primary-foreground": "oklch(0.966 0.007 132.4)",
+    "secondary": "oklch(0.931 0.008 236.6)",
+    "secondary-foreground": "oklch(0.201 0.011 175.8)",
+    "muted": "oklch(0.923 0.011 234.8)",
+    "muted-foreground": "oklch(0.201 0.011 175.8)",
+    "accent": "oklch(0.674 0.100 123.7)",
+    "accent-foreground": "oklch(0.234 0.014 172.7)",
+    "destructive": "oklch(0.539 0.084 258.9)",
+    "border": "oklch(0.811 0.009 236.6)",
+    "input": "oklch(0.811 0.009 236.6)",
+    "ring": "oklch(0.507 0.081 132.5)",
+    "chart-1": "oklch(0.539 0.084 258.9)",
+    "chart-2": "oklch(0.507 0.081 132.5)",
+    "chart-3": "oklch(0.674 0.100 123.7)",
+    "chart-4": "oklch(0.674 0.100 123.7)",
+    "chart-5": "oklch(0.201 0.011 175.8)",
+    "sidebar": "oklch(0.927 0.010 238.5)",
+    "sidebar-foreground": "oklch(0.234 0.014 172.7)",
+    "sidebar-primary": "oklch(0.539 0.084 258.9)",
+    "sidebar-primary-foreground": "oklch(0.966 0.007 132.4)",
+    "sidebar-accent": "oklch(0.863 0.024 256.1)",
+    "sidebar-accent-foreground": "oklch(0.539 0.084 258.9)",
+    "sidebar-border": "oklch(0.811 0.009 236.6)",
+    "sidebar-ring": "oklch(0.507 0.081 132.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.234 0.014 172.7)",
+    "foreground": "oklch(0.966 0.007 132.4)",
+    "card": "oklch(0.213 0.013 170.1)",
+    "card-foreground": "oklch(0.966 0.007 132.4)",
+    "popover": "oklch(0.213 0.013 170.1)",
+    "popover-foreground": "oklch(0.966 0.007 132.4)",
+    "primary": "oklch(0.507 0.081 132.5)",
+    "primary-foreground": "oklch(0.234 0.014 172.7)",
+    "secondary": "oklch(0.307 0.009 159.6)",
+    "secondary-foreground": "oklch(0.966 0.007 132.4)",
+    "muted": "oklch(0.307 0.009 159.6)",
+    "muted-foreground": "oklch(0.821 0.008 114.3)",
+    "accent": "oklch(0.674 0.100 123.7)",
+    "accent-foreground": "oklch(0.234 0.014 172.7)",
+    "destructive": "oklch(0.539 0.084 258.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.507 0.081 132.5)",
+    "chart-1": "oklch(0.507 0.081 132.5)",
+    "chart-2": "oklch(0.539 0.084 258.9)",
+    "chart-3": "oklch(0.674 0.100 123.7)",
+    "chart-4": "oklch(0.674 0.100 123.7)",
+    "chart-5": "oklch(0.635 0.010 106.7)",
+    "sidebar": "oklch(0.218 0.012 178.1)",
+    "sidebar-foreground": "oklch(0.966 0.007 132.4)",
+    "sidebar-primary": "oklch(0.507 0.081 132.5)",
+    "sidebar-primary-foreground": "oklch(0.234 0.014 172.7)",
+    "sidebar-accent": "oklch(0.307 0.009 159.6)",
+    "sidebar-accent-foreground": "oklch(0.966 0.007 132.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.507 0.081 132.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English product UI, tabular dashboard numbers, compact tool labels, and Noto Sans JP guidance for clear Japanese form, table, search, and status workflows.",
+  "layout": "Dense botanical tooling grids, 8px component radii, needle-line dividers, blue-bloom texture samples, bark-grey borders, compact tables, and restrained dashboard panels for repeated shadcn component use.",
+  "tags": [
+    "juniper-berry",
+    "fruit",
+    "alpine-scrub",
+    "blue-bloom",
+    "needle-green",
+    "bark-grey",
+    "botanical-tooling",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-juniper-berry/motif.png",
+    "board": "/systems/morphous-juniper-berry/design-system-light.png",
+    "darkBoard": "/systems/morphous-juniper-berry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-juniper-berry/theme.css",
+    "themeJson": "/systems/morphous-juniper-berry/theme.json",
+    "promptsJson": "/systems/morphous-juniper-berry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent juniper berry motif",
+      "asset": "/systems/morphous-juniper-berry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Juniper Berry transparent motif chroma-key source\nPrimary request: Create only a juniper berry branch motif for a design-system catalog, isolated as a single complete botanical subject on a removable chroma-key background.\nSubject: A natural alpine scrub juniper branch with powdery blue bloom berries, deep blue berry skins, star-shaped berry calyx marks, dense needle-green scale foliage, olive new tips, bark-grey woody branch texture, twig-brown nodes, and lichen-muted highlights. Botanical accuracy, crisp subject edges, realistic waxy bloom on berries, no blueberries and no grapes.\nComposition/framing: centered complete cutout with generous padding; include berries, needle foliage, grey bark branches, and natural branching structure without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no blueberries, no grapes, no gin bottle, no cocktails, no bowl, no hand, no props, no landscape, no text, no watermark, no loose fruit pile, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-juniper-berry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Juniper Berry light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Juniper Berry\", derived from the visible juniper berry branch cutout: blue bloom berries, needle green foliage, bark grey branch structure, alpine scrub restraint, and botanical tooling system mood.\nCanvas: wide 16:9 high-resolution design-system board, clean professional shadcn/tweakcn presentation, 4K-class detail, crisp readable labels, precise grid.\nRequired visible sections: Morphous Juniper Berry, Juniper Berries, Palette, Typography, Japanese UI, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract palette and interaction language from powdery blue berry bloom, deep blueberry skin, needle green tips, olive alpine foliage, bark grey, lichen mist, twig brown, and crisp alpine air surfaces. The board must read as juniper berries, not blueberries, grapes, or generic blue UI.\nTypography: English product UI examples plus Japanese typography guidance; show concise labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 余白, 状態, 検索. Keep all text large enough to survive gallery preview downscaling.\nUI coverage: primary, secondary, ghost, destructive, and icon buttons; inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, status chips, form validation, texture samples, token swatches, spacing scale, 8px radius, borders, shadows, and simple botanical tool icons.\nData and workflow coverage: include dense table states, sortable column headers, filter chips, search result rows, calendar/date input, validation copy, loading skeletons, error banner, success toast, warning badge, chart legends, KPI deltas, and compact navigation for repeated operational use.\nTexture and tokens: show blue-bloom speckle texture, needle-line dividers, bark-grain border samples, lichen-muted surfaces, and semantic shadcn/tweakcn token groups for background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius, shadow, and spacing.\nStyle: premium product design system, quiet botanical tooling system, pale lichen background, berry-blue primary actions, needle-green focus and success accents, bark-grey borders, blue bloom muted panels, twig dividers, subtle berry bloom speckle texture, restrained alpine scrub palette, dense but organized UI.\nConstraints: no blueberries, no grapes, no gin bottle, no cocktails, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Juniper Berry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-juniper-berry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Juniper Berry dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Juniper Berry\". It must feel like the light-mode Juniper Berry board translated to dark mode, not a new theme, and remain derived from the visible juniper berry branch cutout: powdery blue berries, needle green foliage, bark grey branches, alpine scrub restraint, botanical tooling system mood.\nCanvas: wide 16:9 high-resolution design-system board, clean professional shadcn/tweakcn presentation, 4K-class detail, crisp readable labels, precise grid.\nRequired visible sections: Morphous Juniper Berry, Juniper Berries, Dark Mode, Palette, Typography, Japanese UI, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve juniper system language: deep alpine ink backgrounds, blue bloom berry surfaces, frost-blue foregrounds, needle green focus and success controls, bark grey borders, twig brown separators, lichen-muted panels, speckled bloom texture, 8px radius, precise shadcn/tweakcn component grid. Must read as juniper berries, not blueberries, grapes, or generic dark blue UI.\nTypography: English product UI examples plus Japanese typography guidance; show concise labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 余白, 状態, 検索. Keep all text large enough to survive gallery preview downscaling.\nUI coverage: primary, secondary, ghost, destructive, and icon buttons; inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, status chips, form validation, texture samples, token swatches, spacing scale, 8px radius, borders, shadows, and simple botanical tool icons.\nData and workflow coverage: include dense table states, sortable column headers, filter chips, search result rows, calendar/date input, validation copy, loading skeletons, error banner, success toast, warning badge, chart legends, KPI deltas, and compact navigation for repeated operational use.\nTexture and tokens: show night-mode blue-bloom speckle texture, needle-line dividers, bark-grain border samples, lichen-muted dark surfaces, and semantic shadcn/tweakcn token groups for background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius, shadow, and spacing.\nVisual details: deep evergreen alpine night surface, frosted berry-blue primary actions, pale bloom text, needle-green chart and focus accents, bark-grey dividers, twig-brown low-contrast borders, lichen-muted panels, subtle speckled berry bloom texture, restrained contrast, crisp cards and controls.\nConstraints: no blueberries, no grapes, no gin bottle, no cocktails, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Juniper Berry\"."
+    }
+  ]
+}

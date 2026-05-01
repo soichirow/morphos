@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent nectarine motif",
+    "asset": "/systems/morphous-nectarine/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Nectarine transparent motif chroma-key source\nPrimary request: Create a complete nectarine fruit motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A ripe warm-orchard nectarine with smooth coral-red and orange-gold skin, subtle glossy highlights, natural speckling, a small brown stem, and fresh green leaves. Crisp botanical edges, no cast shadow.\nComposition/framing: centered complete fruit cutout with generous padding, no cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no peach fuzz, no apple, no apricot, no bowl, no hand, no props, no sliced fruit, no landscape."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-nectarine/design-system-light.png",
+    "sourceAsset": "/systems/morphous-nectarine/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Nectarine light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Nectarine, derived from the visible nectarine cutout.\nCanvas: wide 16:9 high-resolution board, polished product-system presentation.\nRequired visible sections: Morphous Nectarine, Nectarine Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Build the UI from coral-red nectarine skin, orange-gold flesh, leaf-green accents, warm cream surfaces, pit-brown depth, and glossy orchard highlights. The result should feel like a polished commerce, product analytics, and operational dashboard system.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, command palette, sidebar navigation, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic orange UI, no peach fuzz, no unrelated saturated colors, no tiny unreadable text, no watermark, no misspelling of Morphous Nectarine."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-nectarine/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-nectarine/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Nectarine dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Nectarine that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Nectarine, Nectarine Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve coral primary actions, orange-gold focus, leaf-green success, pit-brown surfaces, glossy fruit highlights, and warm orchard contrast for product dashboards and commerce workflows.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Nectarine."
+  }
+]

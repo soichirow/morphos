@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-breadfruit",
+    "name": "Morphous Breadfruit",
+    "motifName": "Breadfruit Leaf and Fruit",
+    "motifCategory": "fruit",
+    "biome": "island grove",
+    "motif": "breadfruit leaf and fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Cream",
+      "hex": "#faf8f1",
+      "oklch": "oklch(0.979 0.009 93.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Deep",
+      "hex": "#1c1d18",
+      "oklch": "oklch(0.228 0.010 116.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Dark",
+      "hex": "#1f4a2e",
+      "oklch": "oklch(0.370 0.068 153.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Medium",
+      "hex": "#2e6b3e",
+      "oklch": "oklch(0.475 0.096 149.9)"
+    },
+    {
+      "role": "Tertiary",
+      "name": "Leaf Light",
+      "hex": "#5e8f50",
+      "oklch": "oklch(0.599 0.106 139.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rind Lime",
+      "hex": "#b7d34a",
+      "oklch": "oklch(0.820 0.163 120.0)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Vein Yellow",
+      "hex": "#e6d96a",
+      "oklch": "oklch(0.874 0.133 102.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Flesh",
+      "hex": "#f4f1e6",
+      "oklch": "oklch(0.957 0.015 94.2)"
+    },
+    {
+      "role": "Surface Alt",
+      "name": "Grove Shadow",
+      "hex": "#e8e4d6",
+      "oklch": "oklch(0.918 0.019 93.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Soft",
+      "hex": "#a8bc8f",
+      "oklch": "oklch(0.768 0.066 127.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Soil Deep",
+      "hex": "#4a4b41",
+      "oklch": "oklch(0.409 0.016 111.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Fermented Amber",
+      "hex": "#c7892e",
+      "oklch": "oklch(0.677 0.127 72.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.009 93.6)",
+    "foreground": "oklch(0.228 0.010 116.3)",
+    "card": "oklch(0.957 0.015 94.2)",
+    "card-foreground": "oklch(0.228 0.010 116.3)",
+    "popover": "oklch(0.957 0.015 94.2)",
+    "popover-foreground": "oklch(0.228 0.010 116.3)",
+    "primary": "oklch(0.370 0.068 153.0)",
+    "primary-foreground": "oklch(0.979 0.009 93.6)",
+    "secondary": "oklch(0.967 0.012 91.5)",
+    "secondary-foreground": "oklch(0.409 0.016 111.8)",
+    "muted": "oklch(0.964 0.014 93.0)",
+    "muted-foreground": "oklch(0.409 0.016 111.8)",
+    "accent": "oklch(0.820 0.163 120.0)",
+    "accent-foreground": "oklch(0.228 0.010 116.3)",
+    "destructive": "oklch(0.370 0.068 153.0)",
+    "border": "oklch(0.891 0.031 117.0)",
+    "input": "oklch(0.891 0.031 117.0)",
+    "ring": "oklch(0.475 0.096 149.9)",
+    "chart-1": "oklch(0.370 0.068 153.0)",
+    "chart-2": "oklch(0.475 0.096 149.9)",
+    "chart-3": "oklch(0.820 0.163 120.0)",
+    "chart-4": "oklch(0.820 0.163 120.0)",
+    "chart-5": "oklch(0.409 0.016 111.8)",
+    "sidebar": "oklch(0.964 0.012 91.5)",
+    "sidebar-foreground": "oklch(0.228 0.010 116.3)",
+    "sidebar-primary": "oklch(0.370 0.068 153.0)",
+    "sidebar-primary-foreground": "oklch(0.979 0.009 93.6)",
+    "sidebar-accent": "oklch(0.892 0.018 117.3)",
+    "sidebar-accent-foreground": "oklch(0.370 0.068 153.0)",
+    "sidebar-border": "oklch(0.891 0.031 117.0)",
+    "sidebar-ring": "oklch(0.475 0.096 149.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.228 0.010 116.3)",
+    "foreground": "oklch(0.979 0.009 93.6)",
+    "card": "oklch(0.349 0.014 112.9)",
+    "card-foreground": "oklch(0.979 0.009 93.6)",
+    "popover": "oklch(0.349 0.014 112.9)",
+    "popover-foreground": "oklch(0.979 0.009 93.6)",
+    "primary": "oklch(0.475 0.096 149.9)",
+    "primary-foreground": "oklch(0.228 0.010 116.3)",
+    "secondary": "oklch(0.493 0.028 120.1)",
+    "secondary-foreground": "oklch(0.979 0.009 93.6)",
+    "muted": "oklch(0.493 0.028 120.1)",
+    "muted-foreground": "oklch(0.885 0.033 122.1)",
+    "accent": "oklch(0.820 0.163 120.0)",
+    "accent-foreground": "oklch(0.228 0.010 116.3)",
+    "destructive": "oklch(0.370 0.068 153.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.475 0.096 149.9)",
+    "chart-1": "oklch(0.475 0.096 149.9)",
+    "chart-2": "oklch(0.370 0.068 153.0)",
+    "chart-3": "oklch(0.820 0.163 120.0)",
+    "chart-4": "oklch(0.820 0.163 120.0)",
+    "chart-5": "oklch(0.768 0.066 127.4)",
+    "sidebar": "oklch(0.314 0.012 113.7)",
+    "sidebar-foreground": "oklch(0.979 0.009 93.6)",
+    "sidebar-primary": "oklch(0.475 0.096 149.9)",
+    "sidebar-primary-foreground": "oklch(0.228 0.010 116.3)",
+    "sidebar-accent": "oklch(0.493 0.028 120.1)",
+    "sidebar-accent-foreground": "oklch(0.979 0.009 93.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.475 0.096 149.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm readable English product UI with Noto Sans JP / BIZ UDPGothic guidance for Japanese headings, body text, labels, numerals, dense inventory tables, and compact provisioning forms.",
+  "layout": "Precise 8px operational grids, leaf-vein dividers, rind-dot texture accents, restrained dashboard density, structured navigation, compact tables, and 8px cards for repeatable shadcn components.",
+  "tags": [
+    "breadfruit",
+    "fruit",
+    "island-grove",
+    "lime-green",
+    "dark-leaf",
+    "cream",
+    "community-provisioning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-breadfruit/motif.png",
+    "board": "/systems/morphous-breadfruit/design-system-light.png",
+    "darkBoard": "/systems/morphous-breadfruit/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-breadfruit/theme.css",
+    "themeJson": "/systems/morphous-breadfruit/theme.json",
+    "promptsJson": "/systems/morphous-breadfruit/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Breadfruit motif",
+      "asset": "/systems/morphous-breadfruit/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a breadfruit leaf and fruit motif, isolated full subject, no environment, no props, no text.\nSubject: one large deeply lobed glossy breadfruit leaf in dark island-grove green, paired with one whole breadfruit and one partial cream-lime cut face showing subtle bumpy rind texture and pale starchy interior; botanical accuracy, natural texture, crisp silhouette.\nComposition/framing: centered complete cutout with generous padding; elegant diagonal arrangement, leaf behind fruit, do not crop the subject.\nLighting/mood: clean studio light that preserves lime green, dark leaf, and cream material detail; no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second motif, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-breadfruit/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Breadfruit light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Morphous Breadfruit\", derived from a breadfruit leaf and fruit motif. This board is a source reference for implementing a shadcn/tweakcn-compatible community provisioning system.\nReference motif: glossy dark breadfruit leaf, lime green bumpy rind, pale cream cut fruit, yellow-green veins, island grove context, shared food stewardship, pantry inventory, harvest allocation, and community kitchen scheduling.\nCanvas: wide 16:9 high-resolution board, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Breadfruit, Breadfruit Leaf and Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nPalette direction: cream paper, dark leaf, leaf medium, moss soft, lime rind, yellow vein, grove shadow, soil deep, fermented amber, ink deep, and restrained near-neutrals derived from the motif.\nTypography: English product UI guidance with Japanese typography guidance; use a calm readable Latin sans such as Noto Sans / Inter style and Noto Sans JP / BIZ UDPGothic guidance for Japanese headings, body, labels, numerals, dense tables, and compact forms. Include short Japanese labels such as 収穫, 在庫, 分かち合う, 検索, 承認, 配布.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, dashboard metric cards, donut chart, line chart, allocation chart, inventory table, harvest table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple harvest/provisioning icons.\nData/form/table/search coverage: harvest intake form, pantry item form, member allocation form, status filters, quantity/unit fields, location select, date picker, editable notes, inventory rows, pantry locations, command shortcuts, search suggestions, recent actions, and compact operational metadata.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, foreground/background, card/popover, destructive, muted/accent, spacing scale, 8px radius family, shadow scale, focus states, hover states, disabled states, status colors, texture swatches, and implementation notes for density.\nTexture: subtle breadfruit rind dot pattern, leaf vein dividers, cream fruit fiber grain, soft grove surface noise, and provision label stamps; restrained and implementation-friendly.\nStyle: premium shadcn/tweakcn-style product design system, light cream surfaces, deep leaf primary controls, lime rind accents, yellow vein focus rings, moss soft muted states, 8px cards, quiet operational density.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Breadfruit\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-breadfruit/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Breadfruit dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for \"Morphous Breadfruit\". It must feel like the same community provisioning system translated to dark mode, not a new theme, and it must remain derived from the breadfruit leaf and fruit motif.\nReference motif: glossy dark breadfruit leaf, lime green bumpy rind, pale cream cut fruit, yellow-green veins, island grove context, shared food stewardship, pantry inventory, harvest allocation, and community kitchen scheduling.\nReference light-board system details to preserve: cream surfaces adapted into dark elevated panels, deep leaf primary controls, lime rind accents, yellow vein focus rings, moss soft muted states, breadfruit rind dot texture, leaf vein dividers, cream fiber texture, precise data/forms/table/search/status/token coverage, English and Japanese typography guidance.\nCanvas: wide 16:9 high-resolution board, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Breadfruit, Dark Mode, Breadfruit Leaf and Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: English product UI guidance with Japanese typography guidance; use a calm readable Latin sans such as Noto Sans / Inter style and Noto Sans JP / BIZ UDPGothic guidance for Japanese headings, body, labels, numerals, dense tables, and compact forms. Include short Japanese labels such as 収穫, 在庫, 分かち合う, 検索, 承認, 配布.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, dashboard metric cards, donut chart, line chart, allocation chart, inventory table, harvest table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple harvest/provisioning icons.\nData/form/table/search coverage: harvest intake form, pantry item form, member allocation form, status filters, quantity/unit fields, location select, date picker, editable notes, inventory rows, pantry locations, command shortcuts, search suggestions, recent actions, and compact operational metadata.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, foreground/background, card/popover, destructive, muted/accent, spacing scale, 8px radius family, shadow scale, focus states, hover states, disabled states, status colors, texture swatches, and implementation notes for density.\nVisual details: dark background derived from deepest breadfruit leaf greens and grove ink; elevated panels in grove shadow; cream foreground from fruit flesh; primary controls in deep leaf green; accent in lime rind and yellow vein; restrained contrast; subtle breadfruit rind dots and leaf vein rules.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Breadfruit\", no tiny illegible paragraphs."
+    }
+  ]
+}

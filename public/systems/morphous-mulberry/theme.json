@@ -1,0 +1,187 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mulberry",
+    "name": "Morphous Mulberry",
+    "motifName": "Mulberry Branch",
+    "motifCategory": "fruit",
+    "biome": "Riverside Grove",
+    "motif": "mulberry branch"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Editorial Paper",
+      "hex": "#f5f2ed",
+      "oklch": "oklch(0.962 0.007 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Fruit Ink",
+      "hex": "#1a1620",
+      "oklch": "oklch(0.210 0.020 302.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mulberry Ink",
+      "hex": "#281833",
+      "oklch": "oklch(0.244 0.054 310.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mulberry Deep",
+      "hex": "#3f2448",
+      "oklch": "oklch(0.311 0.071 317.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mulberry Soft",
+      "hex": "#785b86",
+      "oklch": "oklch(0.517 0.074 314.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#4e7a3a",
+      "oklch": "oklch(0.532 0.105 136.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Deep",
+      "hex": "#355827",
+      "oklch": "oklch(0.421 0.086 137.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Vein Green",
+      "hex": "#dce6cf",
+      "oklch": "oklch(0.911 0.033 126.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Bark Tan",
+      "hex": "#c6a47a",
+      "oklch": "oklch(0.739 0.069 72.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Brown",
+      "hex": "#6b4a32",
+      "oklch": "oklch(0.439 0.058 56.6)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Berry Red",
+      "hex": "#b73a3a",
+      "oklch": "oklch(0.531 0.161 24.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.007 80.7)",
+    "foreground": "oklch(0.210 0.020 302.9)",
+    "card": "oklch(0.911 0.033 126.3)",
+    "card-foreground": "oklch(0.210 0.020 302.9)",
+    "popover": "oklch(0.911 0.033 126.3)",
+    "popover-foreground": "oklch(0.210 0.020 302.9)",
+    "primary": "oklch(0.244 0.054 310.2)",
+    "primary-foreground": "oklch(0.962 0.007 80.7)",
+    "secondary": "oklch(0.933 0.020 118.9)",
+    "secondary-foreground": "oklch(0.439 0.058 56.6)",
+    "muted": "oklch(0.925 0.025 121.9)",
+    "muted-foreground": "oklch(0.439 0.058 56.6)",
+    "accent": "oklch(0.532 0.105 136.7)",
+    "accent-foreground": "oklch(0.210 0.020 302.9)",
+    "destructive": "oklch(0.244 0.054 310.2)",
+    "border": "oklch(0.773 0.005 0.0)",
+    "input": "oklch(0.773 0.005 0.0)",
+    "ring": "oklch(0.311 0.071 317.3)",
+    "chart-1": "oklch(0.244 0.054 310.2)",
+    "chart-2": "oklch(0.311 0.071 317.3)",
+    "chart-3": "oklch(0.532 0.105 136.7)",
+    "chart-4": "oklch(0.739 0.069 72.3)",
+    "chart-5": "oklch(0.439 0.058 56.6)",
+    "sidebar": "oklch(0.929 0.023 120.2)",
+    "sidebar-foreground": "oklch(0.210 0.020 302.9)",
+    "sidebar-primary": "oklch(0.244 0.054 310.2)",
+    "sidebar-primary-foreground": "oklch(0.962 0.007 80.7)",
+    "sidebar-accent": "oklch(0.838 0.024 125.3)",
+    "sidebar-accent-foreground": "oklch(0.244 0.054 310.2)",
+    "sidebar-border": "oklch(0.773 0.005 0.0)",
+    "sidebar-ring": "oklch(0.311 0.071 317.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.020 302.9)",
+    "foreground": "oklch(0.962 0.007 80.7)",
+    "card": "oklch(0.363 0.039 48.6)",
+    "card-foreground": "oklch(0.962 0.007 80.7)",
+    "popover": "oklch(0.363 0.039 48.6)",
+    "popover-foreground": "oklch(0.962 0.007 80.7)",
+    "primary": "oklch(0.311 0.071 317.3)",
+    "primary-foreground": "oklch(0.210 0.020 302.9)",
+    "secondary": "oklch(0.456 0.047 38.1)",
+    "secondary-foreground": "oklch(0.962 0.007 80.7)",
+    "muted": "oklch(0.456 0.047 38.1)",
+    "muted-foreground": "oklch(0.769 0.029 322.2)",
+    "accent": "oklch(0.532 0.105 136.7)",
+    "accent-foreground": "oklch(0.210 0.020 302.9)",
+    "destructive": "oklch(0.244 0.054 310.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.311 0.071 317.3)",
+    "chart-1": "oklch(0.311 0.071 317.3)",
+    "chart-2": "oklch(0.244 0.054 310.2)",
+    "chart-3": "oklch(0.532 0.105 136.7)",
+    "chart-4": "oklch(0.739 0.069 72.3)",
+    "chart-5": "oklch(0.517 0.074 314.4)",
+    "sidebar": "oklch(0.319 0.027 40.3)",
+    "sidebar-foreground": "oklch(0.962 0.007 80.7)",
+    "sidebar-primary": "oklch(0.311 0.071 317.3)",
+    "sidebar-primary-foreground": "oklch(0.210 0.020 302.9)",
+    "sidebar-accent": "oklch(0.456 0.047 38.1)",
+    "sidebar-accent-foreground": "oklch(0.962 0.007 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.311 0.071 317.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Editorial serif display paired with crisp English product UI, compact labels, confident numbers, and Japanese UI guidance for bilingual publishing dashboards.",
+  "layout": "Precise 8px grids, branch-line navigation, dense publishing dashboards, article tables, command search, and subtle mulberry drupelet texture accents.",
+  "tags": [
+    "mulberry",
+    "fruit",
+    "riverside",
+    "grove",
+    "publishing",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mulberry/motif.png",
+    "board": "/systems/morphous-mulberry/design-system-light.png",
+    "darkBoard": "/systems/morphous-mulberry/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mulberry/theme.css",
+    "themeJson": "/systems/morphous-mulberry/theme.json",
+    "promptsJson": "/systems/morphous-mulberry/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent mulberry branch motif",
+      "asset": "/systems/morphous-mulberry/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Mulberry transparent motif chroma-key source\nPrimary request: Create only a mulberry branch motif for a design-system catalog, isolated as one complete botanical subject on a removable chroma-key background.\nSubject: A natural riverside grove mulberry branch with clusters of ripe black-violet mulberries, elongated bumpy aggregate fruit texture, a few red-purple underripe berries, leaf-green heart-shaped serrated mulberry leaves, bark-tan woody branch structure, small stems, and subtle natural highlights. Botanical accuracy, crisp cutout edges, rich fruit texture, no props.\nComposition/framing: centered complete cutout with generous padding; include berries, leaves, stems, and branch without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no grapes, no raspberries, no blackberries, no bowl, no hand, no basket, no landscape, no text, no watermark, no loose fruit pile, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-mulberry/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Mulberry light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Mulberry\", derived from a transparent mulberry branch cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible rich publishing system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation with large readable labels and generous grid spacing.\nRequired visible sections: Morphous Mulberry, Mulberry Branch, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from ripe black-violet mulberries, glossy fruit highlights, leaf-green serrated leaves, pale leaf veins, bark-tan branch structure, riverside grove freshness, and warm editorial paper neutrals. The board must read as mulberry, not grape, raspberry, blackberry-only, or generic purple.\nTypography: rich publishing system with English editorial/product UI examples and Japanese UI typography guidance; include labels such as Serif Display, Geist Sans, Body, Caption, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short and legible.\nUI coverage: primary, secondary, ghost, and destructive buttons; inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, top navigation, sidebar navigation, article index, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius samples, border, shadow, token snippets, and simple icons.\nStyle: rich publishing system, editorial but product-ready, precise shadcn/tweakcn grid, 8px card radius, warm paper-like light surfaces, black-violet primary actions, leaf-green focus and success states, bark-tan separators and borders, deep fruit-ink text, subtle mulberry drupelet dot texture, branch-line dividers, restrained shadows.\nTexture/tokens: show motif-derived mulberry skin, leaf vein, bark, and paper texture swatches; include CSS variable examples for background, foreground, primary, secondary, accent, border, ring, radius, chart colors, and sidebar colors.\nConstraints: no wine imagery, no grape clusters, no raspberry cane, no blackberry-only identity, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Mulberry\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-mulberry/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Mulberry dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Mulberry\" / \"Mulberry Branch\". Use the transparent mulberry motif and the light-mode design-system board as references. Translate the light board into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation with large readable labels and generous grid spacing.\nRequired visible sections: Morphous Mulberry, Mulberry Branch, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same mulberry publishing system language: black-violet mulberry ink backgrounds, deep fruit purple primary actions, leaf-green focus and success states, bark-tan surface structure and borders, warm paper foreground text, pale leaf-vein dividers, glossy drupelet texture, branch-line navigation, and an 8px shadcn/tweakcn grid. Must read as mulberry, not grape, raspberry, blackberry-only, or generic purple.\nTypography: English editorial/product UI examples with Japanese typography guidance; labels such as Serif Display, Geist Sans, Body, Caption, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値. Keep text short and legible.\nUI coverage: primary, secondary, tertiary, ghost, destructive, hover, pressed, disabled, and loading button states; checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, command/search palette, article index, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, and token code snippets.\nVisual details: dark pressed-mulberry backgrounds, bark-brown cards, paper-cream foreground, black-violet active states, muted violet chart fills, leaf-green status, subtle mulberry drupelet dot texture, restrained contrast, crisp cards and controls.\nTexture/tokens: show dark-mode CSS variable examples for background, foreground, card, popover, primary, secondary, muted, accent, border, input, ring, chart colors, sidebar colors, radius, spacing, and shadow.\nConstraints: no wine bottles, no grape clusters, no raspberry cane, no blackberry-only identity, no neon violet, no generic purple/blue gradients, no pure-black flat background, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Mulberry\", no illegible tiny paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-kumquat",
+    "name": "Morphous Kumquat",
+    "motifName": "Kumquat",
+    "motifCategory": "fruit",
+    "biome": "container orchard",
+    "motif": "kumquat branch"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Orchard Cream",
+      "hex": "#fff7e6",
+      "oklch": "oklch(0.978 0.024 85.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#1f2a1f",
+      "oklch": "oklch(0.271 0.025 144.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Kumquat Peel",
+      "hex": "#ff7a00",
+      "oklch": "oklch(0.723 0.190 50.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Peel Gold",
+      "hex": "#ffb233",
+      "oklch": "oklch(0.818 0.158 74.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Gloss",
+      "hex": "#2e7d32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Deep",
+      "hex": "#0f4d22",
+      "oklch": "oklch(0.371 0.094 149.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blossom White",
+      "hex": "#fffdf7",
+      "oklch": "oklch(0.994 0.008 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Mist",
+      "hex": "#d9e8c7",
+      "oklch": "oklch(0.911 0.047 127.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Branch Tan",
+      "hex": "#9a6a36",
+      "oklch": "oklch(0.564 0.092 66.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Branch Bark",
+      "hex": "#5a351d",
+      "oklch": "oklch(0.369 0.065 52.4)"
+    },
+    {
+      "role": "Warning",
+      "name": "Peel Amber",
+      "hex": "#f5a623",
+      "oklch": "oklch(0.784 0.159 73.0)"
+    },
+    {
+      "role": "Danger",
+      "name": "Orange Red",
+      "hex": "#e85d2a",
+      "oklch": "oklch(0.651 0.184 39.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.024 85.8)",
+    "foreground": "oklch(0.271 0.025 144.8)",
+    "card": "oklch(0.994 0.008 91.5)",
+    "card-foreground": "oklch(0.271 0.025 144.8)",
+    "popover": "oklch(0.994 0.008 91.5)",
+    "popover-foreground": "oklch(0.271 0.025 144.8)",
+    "primary": "oklch(0.723 0.190 50.5)",
+    "primary-foreground": "oklch(0.978 0.024 85.8)",
+    "secondary": "oklch(0.986 0.014 84.6)",
+    "secondary-foreground": "oklch(0.369 0.065 52.4)",
+    "muted": "oklch(0.989 0.013 86.8)",
+    "muted-foreground": "oklch(0.369 0.065 52.4)",
+    "accent": "oklch(0.523 0.135 144.2)",
+    "accent-foreground": "oklch(0.271 0.025 144.8)",
+    "destructive": "oklch(0.723 0.190 50.5)",
+    "border": "oklch(0.963 0.020 118.9)",
+    "input": "oklch(0.963 0.020 118.9)",
+    "ring": "oklch(0.818 0.158 74.4)",
+    "chart-1": "oklch(0.723 0.190 50.5)",
+    "chart-2": "oklch(0.818 0.158 74.4)",
+    "chart-3": "oklch(0.523 0.135 144.2)",
+    "chart-4": "oklch(0.371 0.094 149.1)",
+    "chart-5": "oklch(0.369 0.065 52.4)",
+    "sidebar": "oklch(0.988 0.014 88.7)",
+    "sidebar-foreground": "oklch(0.271 0.025 144.8)",
+    "sidebar-primary": "oklch(0.723 0.190 50.5)",
+    "sidebar-primary-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-accent": "oklch(0.955 0.033 70.3)",
+    "sidebar-accent-foreground": "oklch(0.723 0.190 50.5)",
+    "sidebar-border": "oklch(0.963 0.020 118.9)",
+    "sidebar-ring": "oklch(0.818 0.158 74.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.271 0.025 144.8)",
+    "foreground": "oklch(0.978 0.024 85.8)",
+    "card": "oklch(0.333 0.043 62.6)",
+    "card-foreground": "oklch(0.978 0.024 85.8)",
+    "popover": "oklch(0.333 0.043 62.6)",
+    "popover-foreground": "oklch(0.978 0.024 85.8)",
+    "primary": "oklch(0.818 0.158 74.4)",
+    "primary-foreground": "oklch(0.271 0.025 144.8)",
+    "secondary": "oklch(0.494 0.052 66.2)",
+    "secondary-foreground": "oklch(0.978 0.024 85.8)",
+    "muted": "oklch(0.494 0.052 66.2)",
+    "muted-foreground": "oklch(0.947 0.032 110.9)",
+    "accent": "oklch(0.523 0.135 144.2)",
+    "accent-foreground": "oklch(0.271 0.025 144.8)",
+    "destructive": "oklch(0.723 0.190 50.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.818 0.158 74.4)",
+    "chart-1": "oklch(0.818 0.158 74.4)",
+    "chart-2": "oklch(0.723 0.190 50.5)",
+    "chart-3": "oklch(0.523 0.135 144.2)",
+    "chart-4": "oklch(0.371 0.094 149.1)",
+    "chart-5": "oklch(0.911 0.047 127.3)",
+    "sidebar": "oklch(0.312 0.032 78.0)",
+    "sidebar-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-primary": "oklch(0.818 0.158 74.4)",
+    "sidebar-primary-foreground": "oklch(0.271 0.025 144.8)",
+    "sidebar-accent": "oklch(0.494 0.052 66.2)",
+    "sidebar-accent-foreground": "oklch(0.978 0.024 85.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.818 0.158 74.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English retail UI with stable tabular numbers, short product labels, and Noto Sans JP guidance for Japanese inventory, checkout, and order management screens.",
+  "layout": "Dense 8px retail grids, dark leaf navigation rails, product tiles, checkout summaries, inventory tables, branch-line separators, citrus-peel texture samples, and restrained 8px cards.",
+  "tags": [
+    "kumquat",
+    "fruit",
+    "container-orchard",
+    "compact-retail",
+    "glossy-orange",
+    "leaf-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-kumquat/motif.png",
+    "board": "/systems/morphous-kumquat/design-system-light.png",
+    "darkBoard": "/systems/morphous-kumquat/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-kumquat/theme.css",
+    "themeJson": "/systems/morphous-kumquat/theme.json",
+    "promptsJson": "/systems/morphous-kumquat/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent kumquat branch motif",
+      "asset": "/systems/morphous-kumquat/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Kumquat transparent motif chroma-key source\nPrimary request: Create only a kumquat branch motif for a design-system catalog, isolated as a single complete botanical fruit subject on a removable chroma-key background.\nSubject: A compact container-orchard kumquat branch with several small oval glossy orange kumquat fruits, bright peel pores and specular highlights, waxy deep green elliptical leaves with visible veins, a slender warm brown woody twig, a few tiny white citrus blossoms or buds if they fit naturally, and realistic botanical structure. The identity must read as kumquat branch, not oranges, lemons, loquats, olives, or generic berries.\nComposition/framing: centered complete cutout with generous padding; include the full branch arc, fruits, leaves, twig, and a compact retail-friendly silhouette without cropping. Clean studio lighting that preserves glossy fruit and leaf detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no basket, no pot, no grove landscape, no hand, no plate, no props, no text, no watermark, no loose fruit pile, no sliced fruit, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-kumquat/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Kumquat light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Kumquat\", derived from the visible kumquat branch motif. This board is a source reference for implementing a shadcn/tweakcn-compatible compact retail UI system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, compact retail system mood. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Kumquat, Kumquat Branch, Palette, Typography, Japanese Typography, Components, Navigation, Retail Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from glossy oval orange kumquat fruit, bright peel pores, waxy deep leaf green, lighter leaf underside, warm woody branch, tiny white citrus blossoms, container-orchard freshness, and compact fruit-cluster geometry. The board must read as kumquat branch, not generic orange, lemon, loquat, olive, or citrus slice.\nTypography: English compact retail UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use compact bilingual product, inventory, order, and checkout labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product tiles, inventory count cards, checkout summary, table rows, order list, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: compact retail system, precise 8px grid and 8px card radius, warm cream checkout surfaces, glossy kumquat-orange primary actions, leaf-green navigation and success states, peel-gold badges, blossom-white highlights, woody branch dividers, subtle citrus-peel pore texture and leaf-vein texture overlays, dense but scannable dashboards, polished shadcn/tweakcn component language.\nConstraints: no generic purple or blue gradients, no neon colors, no beige-only palette, no lemon-only identity, no sliced citrus identity, no fruit basket, no grocery-photo collage, no random brand names, no watermark, no misspelling of \"Morphous Kumquat\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-kumquat/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Kumquat dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Kumquat\" / \"Kumquat Branch\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional shadcn/tweakcn design-system presentation, compact retail system mood. Keep labels large and legible.\nRequired visible sections: Morphous Kumquat, Kumquat Branch, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Retail Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve glossy kumquat-orange actions, peel-gold highlights, waxy leaf-green navigation and success states, blossom-cream foreground text, warm branch-brown borders, citrus-peel pore texture, leaf-vein texture, compact product tiles, inventory/order tables, checkout summary, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as kumquat branch, not generic orange, lemon, loquat, or sliced citrus.\nTypography: English compact retail UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use compact bilingual product, inventory, order, and checkout labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, product cards, inventory metrics, checkout summary, order table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep glossy leaf charcoal background, warm branch-dark panels, kumquat-orange active states, peel-gold chart highlights, blossom-cream text and surfaces, leaf-green focus rings and success chips, subtle orange-peel texture overlays, thin branch-line separators, restrained contrast, crisp controls and dashboards.\nConstraints: no neon orange, no generic black-and-orange gaming UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no lemon-only identity, no sliced citrus identity, no random brand names, no watermark, no misspelling of \"Morphous Kumquat\", no tiny unreadable paragraphs."
+    }
+  ]
+}

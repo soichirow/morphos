@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent jujube fruit motif",
+    "asset": "/systems/morphous-jujube/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jujube transparent motif chroma-key source\nPrimary request: Create a complete jujube fruit motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A dry-orchard jujube fruit cluster with oval mahogany-red fruits, subtle wrinkled glossy skin, olive-green leaves, short twig stems, and warm cream highlights. Botanical accuracy, crisp subject edges, natural orchard lighting, no cast shadow.\nComposition/framing: centered complete cutout with generous padding, fruit and leaves fully visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no dates, no cherries, no apples, no bowl, no hand, no props, no landscape, no loose pile."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-jujube/design-system-light.png",
+    "sourceAsset": "/systems/morphous-jujube/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Jujube light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Jujube, derived from the visible jujube fruit cutout.\nCanvas: wide 16:9 high-resolution board, polished product-system presentation.\nRequired visible sections: Morphous Jujube, Jujube Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Build the UI language from mahogany-red jujube skins, olive leaves, cream fruit highlights, twig brown dividers, dry orchard tan, and drought-umber depth. It should feel like a resilient planning system for schedules, task queues, and operations.\nTypography: readable English hierarchy with Japanese typography guidance for Noto Sans JP, Mincho-style headings, Gothic body copy, compact labels, and tabular numerals.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, data tables, command palette, sidebar navigation, metrics, charts, calendar, empty/loading/error/success states, token swatches, texture samples, spacing scale, radius scale, and shadow scale.\nConstraints: no generic red dashboard, no unrelated saturated colors, no purple-blue gradients, no tiny unreadable text, no watermark, no misspelling of Morphous Jujube."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-jujube/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-jujube/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Jujube dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Jujube that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Jujube, Jujube Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve mahogany primary actions, olive success states, cream foregrounds, twig-brown borders, dry orchard textures, and drought-umber backgrounds. Keep the system suitable for planning dashboards, calendars, queues, and compact data workflows.\nTypography: English product UI plus Japanese guidance for Mincho headings, Gothic body text, compact labels, and numeric schedule tables.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, search command palette, navigation, metrics, charts, calendar, status states, spacing, radius, border, shadow, texture, and tokens.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no purple-blue gradients, no watermark, no misspelling of Morphous Jujube."
+  }
+]

@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-yuzu",
+    "name": "Morphous Yuzu",
+    "motifName": "柚子 / Yuzu Fruit",
+    "motifCategory": "fruit",
+    "biome": "Japanese Orchard",
+    "motif": "yuzu fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Washi White",
+      "hex": "#FAFAF2",
+      "oklch": "oklch(0.983 0.011 106.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pith Cream",
+      "hex": "#FFF6E1",
+      "oklch": "oklch(0.975 0.029 87.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Yuzu Rind",
+      "hex": "#FFD23F",
+      "oklch": "oklch(0.879 0.162 90.9)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Yuzu Gold",
+      "hex": "#F6B800",
+      "oklch": "oklch(0.817 0.168 84.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Yuzu Green",
+      "hex": "#78A62E",
+      "oklch": "oklch(0.669 0.155 128.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#2E7D32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Citrus Lime",
+      "hex": "#C9E17A",
+      "oklch": "oklch(0.870 0.132 120.0)"
+    },
+    {
+      "role": "Texture",
+      "name": "Pore Dot",
+      "hex": "#E9E2C6",
+      "oklch": "oklch(0.911 0.038 95.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Orchard Mist",
+      "hex": "#F1F5F2",
+      "oklch": "oklch(0.966 0.006 153.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Border Soft",
+      "hex": "#E3E8E2",
+      "oklch": "oklch(0.925 0.010 140.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Stem Brown",
+      "hex": "#5B4631",
+      "oklch": "oklch(0.411 0.044 66.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#121A14",
+      "oklch": "oklch(0.207 0.017 152.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Error Persimmon",
+      "hex": "#D93A2E",
+      "oklch": "oklch(0.588 0.198 28.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.011 106.6)",
+    "foreground": "oklch(0.207 0.017 152.4)",
+    "card": "oklch(0.975 0.029 87.5)",
+    "card-foreground": "oklch(0.207 0.017 152.4)",
+    "popover": "oklch(0.975 0.029 87.5)",
+    "popover-foreground": "oklch(0.207 0.017 152.4)",
+    "primary": "oklch(0.879 0.162 90.9)",
+    "primary-foreground": "oklch(0.983 0.011 106.6)",
+    "secondary": "oklch(0.979 0.022 92.5)",
+    "secondary-foreground": "oklch(0.411 0.044 66.1)",
+    "muted": "oklch(0.977 0.024 88.2)",
+    "muted-foreground": "oklch(0.411 0.044 66.1)",
+    "accent": "oklch(0.523 0.135 144.2)",
+    "accent-foreground": "oklch(0.207 0.017 152.4)",
+    "destructive": "oklch(0.879 0.162 90.9)",
+    "border": "oklch(0.972 0.020 94.5)",
+    "input": "oklch(0.972 0.020 94.5)",
+    "ring": "oklch(0.669 0.155 128.4)",
+    "chart-1": "oklch(0.879 0.162 90.9)",
+    "chart-2": "oklch(0.669 0.155 128.4)",
+    "chart-3": "oklch(0.523 0.135 144.2)",
+    "chart-4": "oklch(0.870 0.132 120.0)",
+    "chart-5": "oklch(0.411 0.044 66.1)",
+    "sidebar": "oklch(0.976 0.022 89.8)",
+    "sidebar-foreground": "oklch(0.207 0.017 152.4)",
+    "sidebar-primary": "oklch(0.879 0.162 90.9)",
+    "sidebar-primary-foreground": "oklch(0.983 0.011 106.6)",
+    "sidebar-accent": "oklch(0.962 0.049 90.5)",
+    "sidebar-accent-foreground": "oklch(0.879 0.162 90.9)",
+    "sidebar-border": "oklch(0.972 0.020 94.5)",
+    "sidebar-ring": "oklch(0.669 0.155 128.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.207 0.017 152.4)",
+    "foreground": "oklch(0.983 0.011 106.6)",
+    "card": "oklch(0.344 0.030 76.8)",
+    "card-foreground": "oklch(0.983 0.011 106.6)",
+    "popover": "oklch(0.344 0.030 76.8)",
+    "popover-foreground": "oklch(0.983 0.011 106.6)",
+    "primary": "oklch(0.669 0.155 128.4)",
+    "primary-foreground": "oklch(0.207 0.017 152.4)",
+    "secondary": "oklch(0.544 0.033 72.1)",
+    "secondary-foreground": "oklch(0.983 0.011 106.6)",
+    "muted": "oklch(0.544 0.033 72.1)",
+    "muted-foreground": "oklch(0.976 0.008 121.6)",
+    "accent": "oklch(0.523 0.135 144.2)",
+    "accent-foreground": "oklch(0.207 0.017 152.4)",
+    "destructive": "oklch(0.879 0.162 90.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.669 0.155 128.4)",
+    "chart-1": "oklch(0.669 0.155 128.4)",
+    "chart-2": "oklch(0.879 0.162 90.9)",
+    "chart-3": "oklch(0.523 0.135 144.2)",
+    "chart-4": "oklch(0.870 0.132 120.0)",
+    "chart-5": "oklch(0.966 0.006 153.8)",
+    "sidebar": "oklch(0.304 0.024 86.1)",
+    "sidebar-foreground": "oklch(0.983 0.011 106.6)",
+    "sidebar-primary": "oklch(0.669 0.155 128.4)",
+    "sidebar-primary-foreground": "oklch(0.207 0.017 152.4)",
+    "sidebar-accent": "oklch(0.544 0.033 72.1)",
+    "sidebar-accent-foreground": "oklch(0.983 0.011 106.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.669 0.155 128.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clean English product UI, tabular hospitality metrics, and Noto Sans JP guidance for Japanese headings, body copy, labels, and numeric rhythm.",
+  "layout": "Precise 8px product grids, calm hospitality density, rind-pore texture samples, leaf-vein separators, orchard-stem dividers, compact tables, and restrained 8px cards for repeatable shadcn components.",
+  "tags": [
+    "yuzu",
+    "fruit",
+    "japanese-orchard",
+    "yellow",
+    "leaf-green",
+    "hospitality",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-yuzu/motif.png",
+    "board": "/systems/morphous-yuzu/design-system-light.png",
+    "darkBoard": "/systems/morphous-yuzu/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-yuzu/theme.css",
+    "themeJson": "/systems/morphous-yuzu/theme.json",
+    "promptsJson": "/systems/morphous-yuzu/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent yuzu motif",
+      "asset": "/systems/morphous-yuzu/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Yuzu transparent motif chroma-key source\nPrimary request: Create only a yuzu fruit botanical motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: a Japanese orchard yuzu branch with two to three bright yellow yuzu citrus fruits, bumpy aromatic rind texture, one fruit partly green-yellow, glossy deep leaf-green leaves, small woody stems, and natural citrus botanical structure. Botanical accuracy, crisp cutout edges, visible pebbled rind pores, fresh leaf veins, clean hospitality identity.\nComposition/framing: centered complete cutout with generous padding; include fruits, leaves, stems, and branch tips without cropping. Clean studio lighting that preserves bright yellow fruit, leaf green, rind texture, and warm citrus highlights. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no lemon slices, no orange slices, no peeled fruit, no bowl, no hand, no props, no orchard landscape, no text, no watermark, no second plant species, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-yuzu/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Yuzu light-mode design-system board\nInput images: visible yuzu transparent motif cutout is the visual reference.\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Yuzu\", derived from the visible yuzu fruit cutout. This board is a reusable source reference for implementing a shadcn/tweakcn-compatible clean hospitality system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels and organized sections.\nRequired visible sections: Morphous Yuzu, Yuzu Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract palette, contrast, texture rhythm, and interaction language from bright yellow yuzu rind, green-yellow citrus highlights, glossy deep leaf-green leaves, pale leaf veins, woody orchard stems, bumpy aromatic rind texture, and Japanese orchard hospitality. The board must read as yuzu specifically, not lemon, orange, grapefruit, generic citrus, or juice branding.\nTypography: English product UI examples with Japanese typography guidance; include labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Clean bilingual hospitality/reservation dashboard hierarchy; keep text short and legible.\nUI coverage: primary, secondary, ghost, destructive buttons with hover, pressed, disabled, and loading states; inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, reservation/data widgets, empty/loading/error states, progress, stepper, spacing scale, radius samples, border samples, shadow samples, texture samples, token code snippets, subtle icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, warm white hospitality surfaces, yuzu yellow primary actions, leaf green focus and success states, rind-pore dotted texture, leaf-vein separators, orchard stem dividers, restrained shadows, calm hotel/restaurant/ryokan operations feel.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: warm washi white, rind yellow, yuzu gold, leaf green, pale citrus pith, stem brown, soft orchard mist, deep leaf ink.\nConstraints: no generic purple or blue gradients, no unrelated saturated colors, no beige-only palette, no lemon slice hero, no orange juice packaging, no random brand names, no watermark, no misspelling of \"Morphous Yuzu\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-yuzu/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Yuzu dark-mode design-system board\nInput images: visible yuzu transparent motif cutout and visible Morphous Yuzu light-mode board are references.\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Yuzu\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible yuzu fruit cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class feel with large readable labels and organized sections.\nRequired visible sections: Morphous Yuzu, Yuzu Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same clean hospitality system language as the visible light board: yuzu yellow primary actions, yuzu gold charts, leaf green focus/success states, warm pith foregrounds, deep leaf-ink backgrounds, orchard stem borders, rind-pore dotted texture, leaf-vein separators, precise shadcn/tweakcn component grid, 8px radius. Must read as yuzu and Japanese orchard hospitality, not lemon, orange, grapefruit, generic citrus, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Keep text short and legible.\nUI coverage: primary, secondary, tertiary, ghost, destructive buttons with hover, pressed, disabled, and loading states; checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, donut chart, table rows, sidebar navigation, top navigation, command search palette, reservation/data widgets, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets, subtle icons.\nVisual details: deep leaf ink and charcoal-green dark background, bright yuzu yellow active states, yuzu gold chart accents, leaf green muted controls and success states, pale pith foreground text, orchard mist borders, stem brown structure, restrained contrast, crisp cards and controls, subtle rind-pore and leaf-vein texture overlays.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background, no citrus juice branding, no lemon slice hero, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Yuzu\"."
+    }
+  ]
+}

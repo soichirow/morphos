@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jujube",
+    "name": "Morphous Jujube",
+    "motifName": "Jujube",
+    "motifCategory": "fruit",
+    "biome": "dry orchard",
+    "motif": "jujube fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dry Cream",
+      "hex": "#F7E8CF",
+      "oklch": "oklch(0.936 0.037 80.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Orchard Ink",
+      "hex": "#241A12",
+      "oklch": "oklch(0.228 0.022 60.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Jujube Mahogany",
+      "hex": "#8E2F22",
+      "oklch": "oklch(0.444 0.131 30.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dried Fruit Red",
+      "hex": "#B45A36",
+      "oklch": "oklch(0.570 0.127 41.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Olive Leaf",
+      "hex": "#6E7A3A",
+      "oklch": "oklch(0.555 0.089 118.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sunlit Olive",
+      "hex": "#9FA85E",
+      "oklch": "oklch(0.707 0.098 114.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Flesh",
+      "hex": "#FFF4DE",
+      "oklch": "oklch(0.970 0.031 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Tan",
+      "hex": "#B7845B",
+      "oklch": "oklch(0.654 0.084 59.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Drought Umber",
+      "hex": "#3B2A1E",
+      "oklch": "oklch(0.301 0.033 56.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Twig Brown",
+      "hex": "#7B5336",
+      "oklch": "oklch(0.479 0.068 56.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Orchard Gold",
+      "hex": "#D6A044",
+      "oklch": "oklch(0.740 0.125 77.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.936 0.037 80.6)",
+    "foreground": "oklch(0.228 0.022 60.1)",
+    "card": "oklch(0.970 0.031 84.6)",
+    "card-foreground": "oklch(0.228 0.022 60.1)",
+    "popover": "oklch(0.970 0.031 84.6)",
+    "popover-foreground": "oklch(0.228 0.022 60.1)",
+    "primary": "oklch(0.444 0.131 30.7)",
+    "primary-foreground": "oklch(0.936 0.037 80.6)",
+    "secondary": "oklch(0.956 0.033 82.0)",
+    "secondary-foreground": "oklch(0.301 0.033 56.3)",
+    "muted": "oklch(0.962 0.033 83.7)",
+    "muted-foreground": "oklch(0.301 0.033 56.3)",
+    "accent": "oklch(0.555 0.089 118.2)",
+    "accent-foreground": "oklch(0.228 0.022 60.1)",
+    "destructive": "oklch(0.444 0.131 30.7)",
+    "border": "oklch(0.859 0.048 71.3)",
+    "input": "oklch(0.859 0.048 71.3)",
+    "ring": "oklch(0.570 0.127 41.6)",
+    "chart-1": "oklch(0.444 0.131 30.7)",
+    "chart-2": "oklch(0.570 0.127 41.6)",
+    "chart-3": "oklch(0.555 0.089 118.2)",
+    "chart-4": "oklch(0.707 0.098 114.6)",
+    "chart-5": "oklch(0.301 0.033 56.3)",
+    "sidebar": "oklch(0.959 0.033 83.7)",
+    "sidebar-foreground": "oklch(0.228 0.022 60.1)",
+    "sidebar-primary": "oklch(0.444 0.131 30.7)",
+    "sidebar-primary-foreground": "oklch(0.936 0.037 80.6)",
+    "sidebar-accent": "oklch(0.906 0.036 67.3)",
+    "sidebar-accent-foreground": "oklch(0.444 0.131 30.7)",
+    "sidebar-border": "oklch(0.859 0.048 71.3)",
+    "sidebar-ring": "oklch(0.570 0.127 41.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.228 0.022 60.1)",
+    "foreground": "oklch(0.936 0.037 80.6)",
+    "card": "oklch(0.278 0.029 59.4)",
+    "card-foreground": "oklch(0.936 0.037 80.6)",
+    "popover": "oklch(0.278 0.029 59.4)",
+    "popover-foreground": "oklch(0.936 0.037 80.6)",
+    "primary": "oklch(0.570 0.127 41.6)",
+    "primary-foreground": "oklch(0.228 0.022 60.1)",
+    "secondary": "oklch(0.385 0.045 59.3)",
+    "secondary-foreground": "oklch(0.936 0.037 80.6)",
+    "muted": "oklch(0.385 0.045 59.3)",
+    "muted-foreground": "oklch(0.811 0.056 67.8)",
+    "accent": "oklch(0.555 0.089 118.2)",
+    "accent-foreground": "oklch(0.228 0.022 60.1)",
+    "destructive": "oklch(0.444 0.131 30.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.570 0.127 41.6)",
+    "chart-1": "oklch(0.570 0.127 41.6)",
+    "chart-2": "oklch(0.444 0.131 30.7)",
+    "chart-3": "oklch(0.555 0.089 118.2)",
+    "chart-4": "oklch(0.707 0.098 114.6)",
+    "chart-5": "oklch(0.654 0.084 59.4)",
+    "sidebar": "oklch(0.262 0.027 53.9)",
+    "sidebar-foreground": "oklch(0.936 0.037 80.6)",
+    "sidebar-primary": "oklch(0.570 0.127 41.6)",
+    "sidebar-primary-foreground": "oklch(0.228 0.022 60.1)",
+    "sidebar-accent": "oklch(0.385 0.045 59.3)",
+    "sidebar-accent-foreground": "oklch(0.936 0.037 80.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.570 0.127 41.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm humanist English UI with tabular planning numerals and Japanese typography guidance using Mincho-inspired headings, Gothic body text, compact labels, and readable schedule tables.",
+  "layout": "Structured planning grids, 8px cards, orchard-row navigation, dry-fruit texture panels, olive status accents, warm cream work surfaces, and compact timeline/table density.",
+  "tags": [
+    "jujube",
+    "fruit",
+    "dry-orchard",
+    "mahogany",
+    "olive",
+    "planning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jujube/motif.png",
+    "board": "/systems/morphous-jujube/design-system-light.png",
+    "darkBoard": "/systems/morphous-jujube/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jujube/theme.css",
+    "themeJson": "/systems/morphous-jujube/theme.json",
+    "promptsJson": "/systems/morphous-jujube/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent jujube fruit motif",
+      "asset": "/systems/morphous-jujube/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jujube transparent motif chroma-key source\nPrimary request: Create a complete jujube fruit motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A dry-orchard jujube fruit cluster with oval mahogany-red fruits, subtle wrinkled glossy skin, olive-green leaves, short twig stems, and warm cream highlights. Botanical accuracy, crisp subject edges, natural orchard lighting, no cast shadow.\nComposition/framing: centered complete cutout with generous padding, fruit and leaves fully visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no dates, no cherries, no apples, no bowl, no hand, no props, no landscape, no loose pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-jujube/design-system-light.png",
+      "sourceAsset": "/systems/morphous-jujube/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jujube light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Jujube, derived from the visible jujube fruit cutout.\nCanvas: wide 16:9 high-resolution board, polished product-system presentation.\nRequired visible sections: Morphous Jujube, Jujube Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Build the UI language from mahogany-red jujube skins, olive leaves, cream fruit highlights, twig brown dividers, dry orchard tan, and drought-umber depth. It should feel like a resilient planning system for schedules, task queues, and operations.\nTypography: readable English hierarchy with Japanese typography guidance for Noto Sans JP, Mincho-style headings, Gothic body copy, compact labels, and tabular numerals.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, data tables, command palette, sidebar navigation, metrics, charts, calendar, empty/loading/error/success states, token swatches, texture samples, spacing scale, radius scale, and shadow scale.\nConstraints: no generic red dashboard, no unrelated saturated colors, no purple-blue gradients, no tiny unreadable text, no watermark, no misspelling of Morphous Jujube."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-jujube/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-jujube/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jujube dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Jujube that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Jujube, Jujube Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve mahogany primary actions, olive success states, cream foregrounds, twig-brown borders, dry orchard textures, and drought-umber backgrounds. Keep the system suitable for planning dashboards, calendars, queues, and compact data workflows.\nTypography: English product UI plus Japanese guidance for Mincho headings, Gothic body text, compact labels, and numeric schedule tables.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, search command palette, navigation, metrics, charts, calendar, status states, spacing, radius, border, shadow, texture, and tokens.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no purple-blue gradients, no watermark, no misspelling of Morphous Jujube."
+    }
+  ]
+}

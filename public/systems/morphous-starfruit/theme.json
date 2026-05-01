@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-starfruit",
+    "name": "Morphous Starfruit",
+    "motifName": "Starfruit Slice",
+    "motifCategory": "fruit",
+    "biome": "Tropical Grove",
+    "motif": "starfruit slice"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Translucent Flesh",
+      "hex": "#fff8c9",
+      "oklch": "oklch(0.973 0.061 100.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#172414",
+      "oklch": "oklch(0.243 0.035 139.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Starfruit Gold",
+      "hex": "#f4c92f",
+      "oklch": "oklch(0.850 0.163 91.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pith Glow",
+      "hex": "#f8e978",
+      "oklch": "oklch(0.924 0.135 101.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lime Edge",
+      "hex": "#b7d93d",
+      "oklch": "oklch(0.833 0.179 121.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#4f8a32",
+      "oklch": "oklch(0.573 0.136 136.8)"
+    },
+    {
+      "role": "Success",
+      "name": "Grove Leaf",
+      "hex": "#2f6f2d",
+      "oklch": "oklch(0.484 0.119 142.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Cell",
+      "hex": "#ece7aa",
+      "oklch": "oklch(0.917 0.079 103.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Glass Pulp",
+      "hex": "#fffde8",
+      "oklch": "oklch(0.990 0.028 102.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Olive Shadow",
+      "hex": "#59621f",
+      "oklch": "oklch(0.474 0.090 116.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.061 100.4)",
+    "foreground": "oklch(0.243 0.035 139.8)",
+    "card": "oklch(0.990 0.028 102.5)",
+    "card-foreground": "oklch(0.243 0.035 139.8)",
+    "popover": "oklch(0.990 0.028 102.5)",
+    "popover-foreground": "oklch(0.243 0.035 139.8)",
+    "primary": "oklch(0.850 0.163 91.9)",
+    "primary-foreground": "oklch(0.973 0.061 100.4)",
+    "secondary": "oklch(0.983 0.042 101.3)",
+    "secondary-foreground": "oklch(0.474 0.090 116.5)",
+    "muted": "oklch(0.986 0.038 102.2)",
+    "muted-foreground": "oklch(0.474 0.090 116.5)",
+    "accent": "oklch(0.833 0.179 121.3)",
+    "accent-foreground": "oklch(0.243 0.035 139.8)",
+    "destructive": "oklch(0.850 0.163 91.9)",
+    "border": "oklch(0.964 0.046 103.2)",
+    "input": "oklch(0.964 0.046 103.2)",
+    "ring": "oklch(0.924 0.135 101.8)",
+    "chart-1": "oklch(0.850 0.163 91.9)",
+    "chart-2": "oklch(0.924 0.135 101.8)",
+    "chart-3": "oklch(0.833 0.179 121.3)",
+    "chart-4": "oklch(0.573 0.136 136.8)",
+    "chart-5": "oklch(0.474 0.090 116.5)",
+    "sidebar": "oklch(0.983 0.039 100.9)",
+    "sidebar-foreground": "oklch(0.243 0.035 139.8)",
+    "sidebar-primary": "oklch(0.850 0.163 91.9)",
+    "sidebar-primary-foreground": "oklch(0.973 0.061 100.4)",
+    "sidebar-accent": "oklch(0.972 0.049 98.4)",
+    "sidebar-accent-foreground": "oklch(0.850 0.163 91.9)",
+    "sidebar-border": "oklch(0.964 0.046 103.2)",
+    "sidebar-ring": "oklch(0.924 0.135 101.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.243 0.035 139.8)",
+    "foreground": "oklch(0.973 0.061 100.4)",
+    "card": "oklch(0.399 0.073 119.4)",
+    "card-foreground": "oklch(0.973 0.061 100.4)",
+    "popover": "oklch(0.399 0.073 119.4)",
+    "popover-foreground": "oklch(0.973 0.061 100.4)",
+    "primary": "oklch(0.924 0.135 101.8)",
+    "primary-foreground": "oklch(0.243 0.035 139.8)",
+    "secondary": "oklch(0.576 0.089 113.5)",
+    "secondary-foreground": "oklch(0.973 0.061 100.4)",
+    "muted": "oklch(0.576 0.089 113.5)",
+    "muted-foreground": "oklch(0.947 0.069 102.2)",
+    "accent": "oklch(0.833 0.179 121.3)",
+    "accent-foreground": "oklch(0.243 0.035 139.8)",
+    "destructive": "oklch(0.850 0.163 91.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.924 0.135 101.8)",
+    "chart-1": "oklch(0.924 0.135 101.8)",
+    "chart-2": "oklch(0.850 0.163 91.9)",
+    "chart-3": "oklch(0.833 0.179 121.3)",
+    "chart-4": "oklch(0.573 0.136 136.8)",
+    "chart-5": "oklch(0.917 0.079 103.9)",
+    "sidebar": "oklch(0.354 0.063 123.5)",
+    "sidebar-foreground": "oklch(0.973 0.061 100.4)",
+    "sidebar-primary": "oklch(0.924 0.135 101.8)",
+    "sidebar-primary-foreground": "oklch(0.243 0.035 139.8)",
+    "sidebar-accent": "oklch(0.576 0.089 113.5)",
+    "sidebar-accent-foreground": "oklch(0.973 0.061 100.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.924 0.135 101.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English onboarding UI, tabular activation metrics, short step labels, and Noto Sans JP guidance for compact Japanese setup and product dashboards.",
+  "layout": "Precise 8px onboarding grids, sharp stepper and checklist flows, translucent fruit-cell panels, lime-edge focus affordances, leaf-green status rails, and restrained star-point accents.",
+  "tags": [
+    "starfruit",
+    "fruit",
+    "tropical-grove",
+    "onboarding",
+    "sharp",
+    "yellow-lime",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-starfruit/motif.png",
+    "board": "/systems/morphous-starfruit/design-system-light.png",
+    "darkBoard": "/systems/morphous-starfruit/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-starfruit/theme.css",
+    "themeJson": "/systems/morphous-starfruit/theme.json",
+    "promptsJson": "/systems/morphous-starfruit/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent starfruit motif",
+      "asset": "/systems/morphous-starfruit/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Starfruit transparent motif chroma-key source\nPrimary request: Create only a starfruit slice botanical/product motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: one crisp cross-section starfruit slice shaped like a precise five-point star, translucent golden yellow flesh, sharp lime-green rind edges, faint pale radial cells, glossy tropical freshness, a tiny attached leaf-green accent leaf and short natural stem only if it stays compact. Botanical accuracy for Averrhoa carambola, clean opaque cutout edges, luminous fruit texture, sharp onboarding-system identity.\nComposition/framing: centered complete cutout with generous padding; include the full star-shaped slice without cropping. Clean studio lighting that preserves translucent yellow flesh and lime edge color, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no whole fruit pile, no plate, no knife, no hand, no drink, no tropical scene, no flowers, no extra fruit species, no text, no watermark, no floor plane, no shadow, no green or magenta background spill on the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-starfruit/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Starfruit light-mode design-system board\nPrimary request: Generate one comprehensive LIGHT MODE design-system board for a Morphous theme named exactly \"Morphous Starfruit\", derived from a translucent starfruit slice cutout. This is a high-resolution source board for a shadcn/tweakcn-compatible sharp onboarding system.\nCanvas and resolution: true wide 16:9 source board, 3840 x 2160 style composition, high-resolution, crisp UI labels, large readable text. Do not create a small screenshot; make a full design-system board with generous section spacing.\nRequired visible sections with readable headings: Morphous Starfruit, Starfruit Slice, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract palette and interaction language from a five-point starfruit slice: translucent yellow flesh, lime-green sharp rind edges, leaf-green tropical grove accents, pale citrus pith lines, glossy fruit highlights, and crisp star geometry. The board must read as starfruit and tropical grove, not lemon, lime, pineapple, generic citrus, or generic yellow SaaS.\nTypography: English onboarding/product UI examples with Japanese typography guidance; include short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Keep every label short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons with hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search palette, sidebar navigation, top navigation, onboarding checklist, setup wizard stepper, dashboard metric cards, line chart, bar chart, activation funnel widgets, empty/loading/error states, progress, spacing scale, radius samples, border, shadow samples, texture samples, token code snippets, simple icons.\nStyle: premium shadcn/tweakcn product design system, precise grid, sharp onboarding-system mood, 8px card radius with selective star-point accents, translucent pale-yellow surfaces, starfruit-gold primary actions, lime-edge focus rings, leaf-green success states, deep seed/leaf ink, clean tropical grove density, subtle star-cell microtexture and crisp diagonal dividers.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no candy branding, no lemon wedge identity, no pineapple texture, no random brand names, no watermark, no misspelling of \"Morphous Starfruit\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-starfruit/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Starfruit dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named exactly \"Morphous Starfruit\" / \"Starfruit Slice\". It must feel like the same sharp onboarding system translated to dark mode, not a new unrelated theme.\nCanvas and resolution: true wide 16:9 source board, 3840 x 2160 style composition, high-resolution, crisp UI labels, large readable text. Do not create a small screenshot; make a full design-system board with generous section spacing.\nRequired visible sections with readable headings: Morphous Starfruit, Starfruit Slice, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the same starfruit-derived component language as the light board: translucent yellow highlights, lime-green sharp rind edges, leaf-green tropical grove accents, pale fruit-cell texture, crisp star geometry, precise onboarding checklist and setup wizard patterns, 8px grid, shadcn/tweakcn controls. Must read as starfruit and tropical grove, not lemon, lime, pineapple, generic citrus, or generic dark SaaS.\nTypography: English onboarding/product UI examples with Japanese typography guidance; include short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 数値, Noto Sans JP. Keep every label short and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons with hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, dashboard metric cards, line chart, bar chart, activation funnel widgets, table rows, sidebar navigation, command search palette, top navigation, onboarding checklist, setup wizard stepper, empty/loading/error states, progress, spacing scale, radius samples, shadow samples, texture samples, token code snippets, simple icons.\nVisual details: deep leaf-ink and tropical-night background, starfruit-gold active states, translucent yellow text highlights, lime-edge focus rings, leaf-green success and navigation states, olive shadow cards, restrained contrast, crisp compact controls, subtle star-cell and rind-edge microtexture overlays, sharp diagonal dividers.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no candy branding, no lemon wedge identity, no pineapple texture, no random brand names, no watermark, no misspelling of \"Morphous Starfruit\", no illegible tiny paragraphs."
+    }
+  ]
+}

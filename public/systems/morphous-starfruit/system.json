@@ -1,0 +1,86 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-starfruit",
+  "name": "Morphous Starfruit",
+  "motifName": "Starfruit Slice",
+  "motifCategory": "fruit",
+  "biome": "Tropical Grove",
+  "motif": "starfruit slice",
+  "description": "A shadcn/tweakcn-compatible sharp onboarding system derived from a translucent starfruit slice: luminous yellow surfaces, lime-edge focus rings, leaf-green success states, pale fruit-cell texture, and crisp star geometry for guided setup flows.",
+  "typography": "Geist for precise English onboarding UI, tabular activation metrics, short step labels, and Noto Sans JP guidance for compact Japanese setup and product dashboards.",
+  "layout": "Precise 8px onboarding grids, sharp stepper and checklist flows, translucent fruit-cell panels, lime-edge focus affordances, leaf-green status rails, and restrained star-point accents.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "starfruit",
+    "fruit",
+    "tropical-grove",
+    "onboarding",
+    "sharp",
+    "yellow-lime",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Translucent Flesh",
+      "hex": "#fff8c9"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#172414"
+    },
+    {
+      "role": "Primary",
+      "name": "Starfruit Gold",
+      "hex": "#f4c92f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pith Glow",
+      "hex": "#f8e978"
+    },
+    {
+      "role": "Accent",
+      "name": "Lime Edge",
+      "hex": "#b7d93d"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#4f8a32"
+    },
+    {
+      "role": "Success",
+      "name": "Grove Leaf",
+      "hex": "#2f6f2d"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Cell",
+      "hex": "#ece7aa"
+    },
+    {
+      "role": "Surface",
+      "name": "Glass Pulp",
+      "hex": "#fffde8"
+    },
+    {
+      "role": "Depth",
+      "name": "Olive Shadow",
+      "hex": "#59621f"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

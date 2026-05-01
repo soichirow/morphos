@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-nectarine",
+    "name": "Morphous Nectarine",
+    "motifName": "Nectarine",
+    "motifCategory": "fruit",
+    "biome": "warm orchard",
+    "motif": "nectarine fruit"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Orchard Cream",
+      "hex": "#FFF3DF",
+      "oklch": "oklch(0.968 0.029 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stone Pit",
+      "hex": "#2A1D18",
+      "oklch": "oklch(0.245 0.023 42.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Nectarine Coral",
+      "hex": "#E86E4E",
+      "oklch": "oklch(0.678 0.159 35.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sunlit Gold",
+      "hex": "#F4B84A",
+      "oklch": "oklch(0.819 0.141 79.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#6F8A3C",
+      "oklch": "oklch(0.595 0.110 125.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Skin Red",
+      "hex": "#C9463D",
+      "oklch": "oklch(0.575 0.168 27.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Flesh White",
+      "hex": "#FFF8EC",
+      "oklch": "oklch(0.981 0.018 81.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Fuzz Taupe",
+      "hex": "#CBAE92",
+      "oklch": "oklch(0.769 0.051 65.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Pit Brown",
+      "hex": "#513326",
+      "oklch": "oklch(0.354 0.049 44.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Branch Tan",
+      "hex": "#A9784A",
+      "oklch": "oklch(0.612 0.087 63.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Grove Green",
+      "hex": "#7BA85A",
+      "oklch": "oklch(0.681 0.118 133.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.968 0.029 80.7)",
+    "foreground": "oklch(0.245 0.023 42.0)",
+    "card": "oklch(0.981 0.018 81.3)",
+    "card-foreground": "oklch(0.245 0.023 42.0)",
+    "popover": "oklch(0.981 0.018 81.3)",
+    "popover-foreground": "oklch(0.245 0.023 42.0)",
+    "primary": "oklch(0.678 0.159 35.7)",
+    "primary-foreground": "oklch(0.968 0.029 80.7)",
+    "secondary": "oklch(0.976 0.022 80.7)",
+    "secondary-foreground": "oklch(0.354 0.049 44.2)",
+    "muted": "oklch(0.978 0.022 83.3)",
+    "muted-foreground": "oklch(0.354 0.049 44.2)",
+    "accent": "oklch(0.595 0.110 125.5)",
+    "accent-foreground": "oklch(0.245 0.023 42.0)",
+    "destructive": "oklch(0.678 0.159 35.7)",
+    "border": "oklch(0.905 0.028 70.9)",
+    "input": "oklch(0.905 0.028 70.9)",
+    "ring": "oklch(0.819 0.141 79.4)",
+    "chart-1": "oklch(0.678 0.159 35.7)",
+    "chart-2": "oklch(0.819 0.141 79.4)",
+    "chart-3": "oklch(0.595 0.110 125.5)",
+    "chart-4": "oklch(0.575 0.168 27.5)",
+    "chart-5": "oklch(0.354 0.049 44.2)",
+    "sidebar": "oklch(0.976 0.021 79.1)",
+    "sidebar-foreground": "oklch(0.245 0.023 42.0)",
+    "sidebar-primary": "oklch(0.678 0.159 35.7)",
+    "sidebar-primary-foreground": "oklch(0.968 0.029 80.7)",
+    "sidebar-accent": "oklch(0.941 0.030 56.0)",
+    "sidebar-accent-foreground": "oklch(0.678 0.159 35.7)",
+    "sidebar-border": "oklch(0.905 0.028 70.9)",
+    "sidebar-ring": "oklch(0.819 0.141 79.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.245 0.023 42.0)",
+    "foreground": "oklch(0.968 0.029 80.7)",
+    "card": "oklch(0.319 0.040 45.5)",
+    "card-foreground": "oklch(0.968 0.029 80.7)",
+    "popover": "oklch(0.319 0.040 45.5)",
+    "popover-foreground": "oklch(0.968 0.029 80.7)",
+    "primary": "oklch(0.819 0.141 79.4)",
+    "primary-foreground": "oklch(0.245 0.023 42.0)",
+    "secondary": "oklch(0.452 0.048 49.2)",
+    "secondary-foreground": "oklch(0.968 0.029 80.7)",
+    "muted": "oklch(0.452 0.048 49.2)",
+    "muted-foreground": "oklch(0.880 0.039 72.3)",
+    "accent": "oklch(0.595 0.110 125.5)",
+    "accent-foreground": "oklch(0.245 0.023 42.0)",
+    "destructive": "oklch(0.678 0.159 35.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.819 0.141 79.4)",
+    "chart-1": "oklch(0.819 0.141 79.4)",
+    "chart-2": "oklch(0.678 0.159 35.7)",
+    "chart-3": "oklch(0.595 0.110 125.5)",
+    "chart-4": "oklch(0.575 0.168 27.5)",
+    "chart-5": "oklch(0.769 0.051 65.9)",
+    "sidebar": "oklch(0.296 0.036 44.1)",
+    "sidebar-foreground": "oklch(0.968 0.029 80.7)",
+    "sidebar-primary": "oklch(0.819 0.141 79.4)",
+    "sidebar-primary-foreground": "oklch(0.245 0.023 42.0)",
+    "sidebar-accent": "oklch(0.452 0.048 49.2)",
+    "sidebar-accent-foreground": "oklch(0.968 0.029 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.819 0.141 79.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Polished product English UI with precise numeric hierarchy and Japanese typography guidance for Gothic body text, Mincho accent headings, compact labels, and scan-friendly tables.",
+  "layout": "Warm product dashboards, orchard commerce grids, 8px radii, glossy fruit-skin highlights, leaf-green state accents, gold focus rings, and pit-brown dividers.",
+  "tags": [
+    "nectarine",
+    "fruit",
+    "warm-orchard",
+    "coral",
+    "orange-gold",
+    "polished-product",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-nectarine/motif.png",
+    "board": "/systems/morphous-nectarine/design-system-light.png",
+    "darkBoard": "/systems/morphous-nectarine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-nectarine/theme.css",
+    "themeJson": "/systems/morphous-nectarine/theme.json",
+    "promptsJson": "/systems/morphous-nectarine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent nectarine motif",
+      "asset": "/systems/morphous-nectarine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Nectarine transparent motif chroma-key source\nPrimary request: Create a complete nectarine fruit motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A ripe warm-orchard nectarine with smooth coral-red and orange-gold skin, subtle glossy highlights, natural speckling, a small brown stem, and fresh green leaves. Crisp botanical edges, no cast shadow.\nComposition/framing: centered complete fruit cutout with generous padding, no cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no peach fuzz, no apple, no apricot, no bowl, no hand, no props, no sliced fruit, no landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-nectarine/design-system-light.png",
+      "sourceAsset": "/systems/morphous-nectarine/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Nectarine light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Nectarine, derived from the visible nectarine cutout.\nCanvas: wide 16:9 high-resolution board, polished product-system presentation.\nRequired visible sections: Morphous Nectarine, Nectarine Fruit, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Build the UI from coral-red nectarine skin, orange-gold flesh, leaf-green accents, warm cream surfaces, pit-brown depth, and glossy orchard highlights. The result should feel like a polished commerce, product analytics, and operational dashboard system.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, command palette, sidebar navigation, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic orange UI, no peach fuzz, no unrelated saturated colors, no tiny unreadable text, no watermark, no misspelling of Morphous Nectarine."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-nectarine/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-nectarine/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Nectarine dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Nectarine that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Nectarine, Nectarine Fruit, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve coral primary actions, orange-gold focus, leaf-green success, pit-brown surfaces, glossy fruit highlights, and warm orchard contrast for product dashboards and commerce workflows.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Nectarine."
+    }
+  ]
+}

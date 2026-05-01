@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blood-orange",
+    "name": "Morphous Blood Orange",
+    "motifName": "Blood Orange",
+    "motifCategory": "fruit",
+    "biome": "citrus grove",
+    "motif": "blood orange slice"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pith Cream",
+      "hex": "#FFF7EC",
+      "oklch": "oklch(0.979 0.017 76.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bitter Ink",
+      "hex": "#2A1A17",
+      "oklch": "oklch(0.238 0.026 30.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ruby Flesh",
+      "hex": "#B8112E",
+      "oklch": "oklch(0.500 0.193 21.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blood Crimson",
+      "hex": "#8D0E1D",
+      "oklch": "oklch(0.412 0.158 23.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Vesicle Red",
+      "hex": "#E63B2E",
+      "oklch": "oklch(0.611 0.209 29.1)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Peel Orange",
+      "hex": "#FF8A00",
+      "oklch": "oklch(0.747 0.180 57.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Grove Green",
+      "hex": "#2E7D32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Membrane Blush",
+      "hex": "#FFE7DB",
+      "oklch": "oklch(0.944 0.031 48.4)"
+    },
+    {
+      "role": "Chart",
+      "name": "Rind Gold",
+      "hex": "#FFB620",
+      "oklch": "oklch(0.824 0.165 78.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Seed Brown",
+      "hex": "#6B3A2E",
+      "oklch": "oklch(0.407 0.073 34.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.017 76.1)",
+    "foreground": "oklch(0.238 0.026 30.9)",
+    "card": "oklch(0.944 0.031 48.4)",
+    "card-foreground": "oklch(0.238 0.026 30.9)",
+    "popover": "oklch(0.944 0.031 48.4)",
+    "popover-foreground": "oklch(0.238 0.026 30.9)",
+    "primary": "oklch(0.500 0.193 21.2)",
+    "primary-foreground": "oklch(0.979 0.017 76.1)",
+    "secondary": "oklch(0.959 0.024 57.7)",
+    "secondary-foreground": "oklch(0.407 0.073 34.7)",
+    "muted": "oklch(0.953 0.026 50.9)",
+    "muted-foreground": "oklch(0.407 0.073 34.7)",
+    "accent": "oklch(0.611 0.209 29.1)",
+    "accent-foreground": "oklch(0.238 0.026 30.9)",
+    "destructive": "oklch(0.500 0.193 21.2)",
+    "border": "oklch(0.741 0.074 21.1)",
+    "input": "oklch(0.741 0.074 21.1)",
+    "ring": "oklch(0.412 0.158 23.2)",
+    "chart-1": "oklch(0.500 0.193 21.2)",
+    "chart-2": "oklch(0.412 0.158 23.2)",
+    "chart-3": "oklch(0.611 0.209 29.1)",
+    "chart-4": "oklch(0.523 0.135 144.2)",
+    "chart-5": "oklch(0.407 0.073 34.7)",
+    "sidebar": "oklch(0.955 0.025 52.2)",
+    "sidebar-foreground": "oklch(0.238 0.026 30.9)",
+    "sidebar-primary": "oklch(0.500 0.193 21.2)",
+    "sidebar-primary-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-accent": "oklch(0.882 0.048 29.4)",
+    "sidebar-accent-foreground": "oklch(0.500 0.193 21.2)",
+    "sidebar-border": "oklch(0.741 0.074 21.1)",
+    "sidebar-ring": "oklch(0.412 0.158 23.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.238 0.026 30.9)",
+    "foreground": "oklch(0.979 0.017 76.1)",
+    "card": "oklch(0.351 0.058 34.2)",
+    "card-foreground": "oklch(0.979 0.017 76.1)",
+    "popover": "oklch(0.351 0.058 34.2)",
+    "popover-foreground": "oklch(0.979 0.017 76.1)",
+    "primary": "oklch(0.412 0.158 23.2)",
+    "primary-foreground": "oklch(0.238 0.026 30.9)",
+    "secondary": "oklch(0.399 0.095 27.4)",
+    "secondary-foreground": "oklch(0.979 0.017 76.1)",
+    "muted": "oklch(0.399 0.095 27.4)",
+    "muted-foreground": "oklch(0.708 0.076 18.1)",
+    "accent": "oklch(0.611 0.209 29.1)",
+    "accent-foreground": "oklch(0.238 0.026 30.9)",
+    "destructive": "oklch(0.500 0.193 21.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.412 0.158 23.2)",
+    "chart-1": "oklch(0.412 0.158 23.2)",
+    "chart-2": "oklch(0.500 0.193 21.2)",
+    "chart-3": "oklch(0.611 0.209 29.1)",
+    "chart-4": "oklch(0.523 0.135 144.2)",
+    "chart-5": "oklch(0.412 0.158 23.2)",
+    "sidebar": "oklch(0.319 0.048 33.5)",
+    "sidebar-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-primary": "oklch(0.412 0.158 23.2)",
+    "sidebar-primary-foreground": "oklch(0.238 0.026 30.9)",
+    "sidebar-accent": "oklch(0.399 0.095 27.4)",
+    "sidebar-accent-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.412 0.158 23.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Bold culinary English UI with clear product hierarchy, tabular metrics, and Japanese typography guidance for dense inventory, recipe, and ordering screens.",
+  "layout": "Citrus-radial dashboards, pith-cream panels, peel-pore texture, 8px radii, crisp table density, and high-contrast culinary status states.",
+  "tags": [
+    "blood-orange",
+    "fruit",
+    "citrus",
+    "culinary",
+    "ruby",
+    "orange",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blood-orange/motif.png",
+    "board": "/systems/morphous-blood-orange/design-system-light.png",
+    "darkBoard": "/systems/morphous-blood-orange/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blood-orange/theme.css",
+    "themeJson": "/systems/morphous-blood-orange/theme.json",
+    "promptsJson": "/systems/morphous-blood-orange/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent blood orange slice motif",
+      "asset": "/systems/morphous-blood-orange/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Blood Orange transparent motif chroma-key source\nPrimary request: Create only a blood orange slice motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One circular cross-section blood orange slice with translucent ruby-red flesh segments, deep crimson juice vesicles, a thin bright orange peel rim, pale pith cream ring, tiny citrus pores, and natural radial segment membranes. Botanical accuracy, crisp subject edges, juicy citrus texture, unmistakably blood orange slice.\nComposition/framing: centered complete cutout with generous padding; include the full round slice, peel, pith, radial segments, and slight natural irregularity without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no grapefruit, no tomato, no whole orange, no lemon, no plate, no knife, no hand, no props, no grove landscape, no text, no watermark, no second fruit species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-blood-orange/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blood Orange light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Blood Orange\", derived from the visible transparent blood orange slice cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible bold culinary product system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, precise grid, no decorative frame.\nRequired visible sections: Morphous Blood Orange, Blood Orange Slice, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from ruby-red citrus flesh, crimson juice vesicles, bright orange peel, pith cream, radial membranes, tiny peel pores, and citrus grove warmth. The board must read as blood orange, not grapefruit, tomato, strawberry, or generic orange UI.\nTypography: include English and Japanese product UI examples; use labels such as Geist, Noto Sans JP, Display, Body, Label, Metrics, 日本語 UI, 見出し, 本文, ラベル, 数値. Japanese guidance should favor clear sans-serif UI rhythm, balanced kana/kanji proportions, tabular numbers, and enough line height for dense culinary operations screens.\nUI coverage: include shadcn/tweakcn-style primary, secondary, ghost, destructive, loading, hover, pressed, and disabled buttons; icon buttons; inputs; select; textarea; checkbox; radio; switch; segmented tabs; badges; alerts; cards; popover; dropdown/menu; toast; dialog sample; sidebar navigation; top navigation; breadcrumb; command/search palette; filters; date field; dashboard metric cards; line chart; bar chart; radial citrus chart; table with status rows; form validation; empty, loading, error, success, and warning states; spacing scale; radius scale; border tokens; shadow tokens; focus rings; chart tokens; sidebar tokens; and texture swatches.\nStyle: premium bold culinary system, precise shadcn/tweakcn component grid, 8px card radius, pith-cream app surfaces, ruby-red primary actions, orange-peel accents, citrus-membrane dividers, crimson active states, warm grove-green success/status accents, subtle juice-vesicle texture and peel-pore micro-patterns.\nColor palette: use only motif-derived colors plus restrained near-neutrals from the motif: pith cream, ruby flesh, blood crimson, orange peel, vesicle red, grove leaf green, rind gold, membrane blush, bitter-seed ink.\nText: use short readable UI labels; avoid long paragraphs and tiny token tables.\nConstraints: no grapefruit identity, no tomato, no generic citrus stock imagery, no unrelated saturated blue or purple gradients, no beige-only palette, no neon, no watermark, no random brand names, no misspelling of \"Morphous Blood Orange\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-blood-orange/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blood Orange dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Blood Orange\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible blood orange slice cutout.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, precise grid, no decorative frame.\nRequired visible sections: Morphous Blood Orange, Blood Orange Slice, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nReference use: Use the transparent blood orange motif and light-mode board as references. Preserve the blood-orange system language: bitter-seed ink dark backgrounds, pith-cream text, ruby flesh primary controls, blood-crimson active states, orange-peel accents, membrane blush dividers, grove-green success/status, citrus-vesicle texture, peel-pore patterns, 8px radius, and precise shadcn/tweakcn grid. Must read as blood orange, not grapefruit, tomato, strawberry, or generic orange UI.\nTypography: include English and Japanese product UI examples; use labels such as Geist, Noto Sans JP, Display, Body, Label, Metrics, 日本語 UI, 見出し, 本文, ラベル, 数値. Japanese guidance should favor clear sans-serif UI rhythm, balanced kana/kanji proportions, tabular numbers, and comfortable line height for dense culinary operations screens.\nUI coverage: include shadcn/tweakcn-style primary, secondary, ghost, destructive, loading, hover, pressed, and disabled buttons; icon buttons; inputs; select; textarea; checkbox; radio; switch; segmented tabs; badges; alerts; cards; popover; dropdown/menu; toast; dialog sample; sidebar navigation; top navigation; breadcrumb; command/search palette; filters; date field; dashboard metric cards; line chart; bar chart; radial citrus chart; table with status rows; form validation; empty, loading, error, success, and warning states; spacing scale; radius scale; border tokens; shadow tokens; focus rings; chart tokens; sidebar tokens; and texture swatches.\nVisual details: deep bitter-ink and burnt-crimson surfaces, pith-cream foreground, ruby-red active controls, orange-peel focus rings, vesicle-red charts, grove-green status chips, membrane-blush outlines, restrained contrast, subtle juicy segment texture overlays, crisp cards and controls.\nColor palette: use only motif-derived colors plus restrained dark neutrals from the motif: bitter-seed ink, charred rind, ruby flesh, blood crimson, orange peel, vesicle red, grove leaf green, pith cream, membrane blush.\nText: use short readable UI labels; avoid long paragraphs and tiny token tables.\nConstraints: no grapefruit identity, no tomato, no neon colors, no unrelated saturated blue or purple gradients, no pure-black-only flat background, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Blood Orange\", no illegible microtext."
+    }
+  ]
+}

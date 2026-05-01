@@ -1,0 +1,96 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-kumquat",
+  "name": "Morphous Kumquat",
+  "motifName": "Kumquat",
+  "motifCategory": "fruit",
+  "biome": "container orchard",
+  "motif": "kumquat branch",
+  "description": "A shadcn/tweakcn-compatible compact retail system derived from a container-orchard kumquat branch: glossy orange fruit actions, waxy leaf-green navigation, blossom-cream surfaces, peel-gold highlights, and branch-brown structure for inventory, checkout, and order workflows.",
+  "typography": "Compact English retail UI with stable tabular numbers, short product labels, and Noto Sans JP guidance for Japanese inventory, checkout, and order management screens.",
+  "layout": "Dense 8px retail grids, dark leaf navigation rails, product tiles, checkout summaries, inventory tables, branch-line separators, citrus-peel texture samples, and restrained 8px cards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "kumquat",
+    "fruit",
+    "container-orchard",
+    "compact-retail",
+    "glossy-orange",
+    "leaf-green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Orchard Cream",
+      "hex": "#fff7e6"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#1f2a1f"
+    },
+    {
+      "role": "Primary",
+      "name": "Kumquat Peel",
+      "hex": "#ff7a00"
+    },
+    {
+      "role": "Secondary",
+      "name": "Peel Gold",
+      "hex": "#ffb233"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Gloss",
+      "hex": "#2e7d32"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Deep",
+      "hex": "#0f4d22"
+    },
+    {
+      "role": "Surface",
+      "name": "Blossom White",
+      "hex": "#fffdf7"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Mist",
+      "hex": "#d9e8c7"
+    },
+    {
+      "role": "Border",
+      "name": "Branch Tan",
+      "hex": "#9a6a36"
+    },
+    {
+      "role": "Depth",
+      "name": "Branch Bark",
+      "hex": "#5a351d"
+    },
+    {
+      "role": "Warning",
+      "name": "Peel Amber",
+      "hex": "#f5a623"
+    },
+    {
+      "role": "Danger",
+      "name": "Orange Red",
+      "hex": "#e85d2a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

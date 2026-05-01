@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent apricot branch motif",
+    "asset": "/systems/morphous-apricot/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Apricot transparent motif chroma-key source\nPrimary request: Create a complete apricot branch motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A dry hillside orchard apricot branch with matte apricot-orange fruit, subtle blush red, sage-green leaves, warm brown twig structure, and natural fruit texture. Crisp botanical edges, no cast shadow.\nComposition/framing: centered complete branch cutout with fruit, leaves, and twig visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no peach fuzz, no nectarine gloss, no apple, no bowl, no hand, no props, no landscape."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-apricot/design-system-light.png",
+    "sourceAsset": "/systems/morphous-apricot/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Apricot light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Apricot, derived from the visible apricot branch cutout.\nCanvas: wide 16:9 high-resolution board, polished warm creator-system presentation.\nRequired visible sections: Morphous Apricot, Apricot Branch, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract apricot-orange actions, sage-leaf accents, dry hillside gold, bark-brown dividers, kernel-cream surfaces, and matte orchard texture for writing, publishing, creator, and analytics interfaces.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, editorial content cards, tables, search command, sidebar, metrics, charts, forms, status states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic beige UI, no unrelated neon colors, no peach confusion, no tiny unreadable text, no watermark, no misspelling of Morphous Apricot."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-apricot/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-apricot/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Apricot dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Apricot that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Apricot, Apricot Branch, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve apricot-orange primary controls, sage success states, dry gold focus rings, bark-brown surfaces, and kernel-cream foregrounds for creator tools and publishing dashboards.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Apricot."
+  }
+]

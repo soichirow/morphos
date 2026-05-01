@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-apricot",
+    "name": "Morphous Apricot",
+    "motifName": "Apricot",
+    "motifCategory": "fruit",
+    "biome": "dry hillside orchard",
+    "motif": "apricot branch"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Apricot Wash",
+      "hex": "#FFF1D4",
+      "oklch": "oklch(0.962 0.041 85.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Kernel Ink",
+      "hex": "#2A2118",
+      "oklch": "oklch(0.255 0.021 66.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Apricot Orange",
+      "hex": "#E8923A",
+      "oklch": "oklch(0.734 0.144 62.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dry Hillside Gold",
+      "hex": "#D6A74A",
+      "oklch": "oklch(0.754 0.123 81.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sage Leaf",
+      "hex": "#7D8B5A",
+      "oklch": "oklch(0.613 0.071 121.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Blush Red",
+      "hex": "#C75D45",
+      "oklch": "oklch(0.604 0.141 34.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Kernel Cream",
+      "hex": "#FFF8E9",
+      "oklch": "oklch(0.981 0.021 85.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Tan",
+      "hex": "#B88B62",
+      "oklch": "oklch(0.670 0.078 63.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Orchard Bark",
+      "hex": "#4C3527",
+      "oklch": "oklch(0.352 0.040 52.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Beige",
+      "hex": "#C7A77D",
+      "oklch": "oklch(0.747 0.068 74.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Sage",
+      "hex": "#8AA568",
+      "oklch": "oklch(0.686 0.090 128.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.041 85.3)",
+    "foreground": "oklch(0.255 0.021 66.6)",
+    "card": "oklch(0.981 0.021 85.9)",
+    "card-foreground": "oklch(0.255 0.021 66.6)",
+    "popover": "oklch(0.981 0.021 85.9)",
+    "popover-foreground": "oklch(0.255 0.021 66.6)",
+    "primary": "oklch(0.734 0.144 62.3)",
+    "primary-foreground": "oklch(0.962 0.041 85.3)",
+    "secondary": "oklch(0.972 0.030 85.6)",
+    "secondary-foreground": "oklch(0.352 0.040 52.3)",
+    "muted": "oklch(0.975 0.027 85.7)",
+    "muted-foreground": "oklch(0.352 0.040 52.3)",
+    "accent": "oklch(0.613 0.071 121.5)",
+    "accent-foreground": "oklch(0.255 0.021 66.6)",
+    "destructive": "oklch(0.734 0.144 62.3)",
+    "border": "oklch(0.871 0.040 73.4)",
+    "input": "oklch(0.871 0.040 73.4)",
+    "ring": "oklch(0.754 0.123 81.9)",
+    "chart-1": "oklch(0.734 0.144 62.3)",
+    "chart-2": "oklch(0.754 0.123 81.9)",
+    "chart-3": "oklch(0.613 0.071 121.5)",
+    "chart-4": "oklch(0.604 0.141 34.1)",
+    "chart-5": "oklch(0.352 0.040 52.3)",
+    "sidebar": "oklch(0.975 0.028 86.6)",
+    "sidebar-foreground": "oklch(0.255 0.021 66.6)",
+    "sidebar-primary": "oklch(0.734 0.144 62.3)",
+    "sidebar-primary-foreground": "oklch(0.962 0.041 85.3)",
+    "sidebar-accent": "oklch(0.950 0.036 78.1)",
+    "sidebar-accent-foreground": "oklch(0.734 0.144 62.3)",
+    "sidebar-border": "oklch(0.871 0.040 73.4)",
+    "sidebar-ring": "oklch(0.754 0.123 81.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.255 0.021 66.6)",
+    "foreground": "oklch(0.962 0.041 85.3)",
+    "card": "oklch(0.319 0.033 54.9)",
+    "card-foreground": "oklch(0.962 0.041 85.3)",
+    "popover": "oklch(0.319 0.033 54.9)",
+    "popover-foreground": "oklch(0.962 0.041 85.3)",
+    "primary": "oklch(0.754 0.123 81.9)",
+    "primary-foreground": "oklch(0.255 0.021 66.6)",
+    "secondary": "oklch(0.427 0.049 56.5)",
+    "secondary-foreground": "oklch(0.962 0.041 85.3)",
+    "muted": "oklch(0.427 0.049 56.5)",
+    "muted-foreground": "oklch(0.832 0.056 72.3)",
+    "accent": "oklch(0.613 0.071 121.5)",
+    "accent-foreground": "oklch(0.255 0.021 66.6)",
+    "destructive": "oklch(0.734 0.144 62.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.754 0.123 81.9)",
+    "chart-1": "oklch(0.754 0.123 81.9)",
+    "chart-2": "oklch(0.734 0.144 62.3)",
+    "chart-3": "oklch(0.613 0.071 121.5)",
+    "chart-4": "oklch(0.604 0.141 34.1)",
+    "chart-5": "oklch(0.670 0.078 63.2)",
+    "sidebar": "oklch(0.300 0.030 55.8)",
+    "sidebar-foreground": "oklch(0.962 0.041 85.3)",
+    "sidebar-primary": "oklch(0.754 0.123 81.9)",
+    "sidebar-primary-foreground": "oklch(0.255 0.021 66.6)",
+    "sidebar-accent": "oklch(0.427 0.049 56.5)",
+    "sidebar-accent-foreground": "oklch(0.962 0.041 85.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.754 0.123 81.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Warm creator English UI with Japanese typography guidance for Mincho display headings, Gothic body copy, compact labels, readable editorial cards, and creator analytics tables.",
+  "layout": "Creator workspaces, publishing dashboards, 8px radii, dry-orchard paper texture, apricot-orange actions, sage filters, bark-brown rules, and soft gold focus states.",
+  "tags": [
+    "apricot",
+    "fruit",
+    "dry-hillside-orchard",
+    "sage",
+    "warm-creator",
+    "orange",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-apricot/motif.png",
+    "board": "/systems/morphous-apricot/design-system-light.png",
+    "darkBoard": "/systems/morphous-apricot/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-apricot/theme.css",
+    "themeJson": "/systems/morphous-apricot/theme.json",
+    "promptsJson": "/systems/morphous-apricot/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent apricot branch motif",
+      "asset": "/systems/morphous-apricot/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Apricot transparent motif chroma-key source\nPrimary request: Create a complete apricot branch motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A dry hillside orchard apricot branch with matte apricot-orange fruit, subtle blush red, sage-green leaves, warm brown twig structure, and natural fruit texture. Crisp botanical edges, no cast shadow.\nComposition/framing: centered complete branch cutout with fruit, leaves, and twig visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no peach fuzz, no nectarine gloss, no apple, no bowl, no hand, no props, no landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-apricot/design-system-light.png",
+      "sourceAsset": "/systems/morphous-apricot/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Apricot light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Apricot, derived from the visible apricot branch cutout.\nCanvas: wide 16:9 high-resolution board, polished warm creator-system presentation.\nRequired visible sections: Morphous Apricot, Apricot Branch, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract apricot-orange actions, sage-leaf accents, dry hillside gold, bark-brown dividers, kernel-cream surfaces, and matte orchard texture for writing, publishing, creator, and analytics interfaces.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, editorial content cards, tables, search command, sidebar, metrics, charts, forms, status states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic beige UI, no unrelated neon colors, no peach confusion, no tiny unreadable text, no watermark, no misspelling of Morphous Apricot."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-apricot/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-apricot/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Apricot dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Apricot that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Apricot, Apricot Branch, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve apricot-orange primary controls, sage success states, dry gold focus rings, bark-brown surfaces, and kernel-cream foregrounds for creator tools and publishing dashboards.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Apricot."
+    }
+  ]
+}

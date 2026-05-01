@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-coconut",
+    "name": "Morphous Coconut",
+    "motifName": "Coconut",
+    "motifCategory": "fruit",
+    "biome": "tropical shore",
+    "motif": "coconut husk"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Coconut White",
+      "hex": "#f8f1e6",
+      "oklch": "oklch(0.961 0.016 79.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Shell Ink",
+      "hex": "#241811",
+      "oklch": "oklch(0.222 0.023 51.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Husk Brown",
+      "hex": "#8a5733",
+      "oklch": "oklch(0.506 0.085 54.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coir Tan",
+      "hex": "#c79a68",
+      "oklch": "oklch(0.717 0.085 68.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Palm Green",
+      "hex": "#4f7d45",
+      "oklch": "oklch(0.542 0.098 140.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Meat Cream",
+      "hex": "#fffaf0",
+      "oklch": "oklch(0.986 0.014 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Fiber Sand",
+      "hex": "#d8c4a6",
+      "oklch": "oklch(0.829 0.046 78.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Coir",
+      "hex": "#3b2a1e",
+      "oklch": "oklch(0.301 0.033 56.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fresh Frond",
+      "hex": "#78a85a",
+      "oklch": "oklch(0.679 0.119 134.5)"
+    },
+    {
+      "role": "Warning",
+      "name": "Toasted Husk",
+      "hex": "#b87837",
+      "oklch": "oklch(0.628 0.113 63.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.016 79.4)",
+    "foreground": "oklch(0.222 0.023 51.4)",
+    "card": "oklch(0.986 0.014 84.6)",
+    "card-foreground": "oklch(0.222 0.023 51.4)",
+    "popover": "oklch(0.986 0.014 84.6)",
+    "popover-foreground": "oklch(0.222 0.023 51.4)",
+    "primary": "oklch(0.506 0.085 54.7)",
+    "primary-foreground": "oklch(0.961 0.016 79.4)",
+    "secondary": "oklch(0.975 0.015 80.7)",
+    "secondary-foreground": "oklch(0.301 0.033 56.3)",
+    "muted": "oklch(0.978 0.015 80.7)",
+    "muted-foreground": "oklch(0.301 0.033 56.3)",
+    "accent": "oklch(0.542 0.098 140.1)",
+    "accent-foreground": "oklch(0.222 0.023 51.4)",
+    "destructive": "oklch(0.506 0.085 54.7)",
+    "border": "oklch(0.931 0.026 82.4)",
+    "input": "oklch(0.931 0.026 82.4)",
+    "ring": "oklch(0.717 0.085 68.7)",
+    "chart-1": "oklch(0.506 0.085 54.7)",
+    "chart-2": "oklch(0.717 0.085 68.7)",
+    "chart-3": "oklch(0.542 0.098 140.1)",
+    "chart-4": "oklch(0.679 0.119 134.5)",
+    "chart-5": "oklch(0.301 0.033 56.3)",
+    "sidebar": "oklch(0.978 0.015 80.7)",
+    "sidebar-foreground": "oklch(0.222 0.023 51.4)",
+    "sidebar-primary": "oklch(0.506 0.085 54.7)",
+    "sidebar-primary-foreground": "oklch(0.961 0.016 79.4)",
+    "sidebar-accent": "oklch(0.930 0.021 72.1)",
+    "sidebar-accent-foreground": "oklch(0.506 0.085 54.7)",
+    "sidebar-border": "oklch(0.931 0.026 82.4)",
+    "sidebar-ring": "oklch(0.717 0.085 68.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.023 51.4)",
+    "foreground": "oklch(0.961 0.016 79.4)",
+    "card": "oklch(0.275 0.029 54.9)",
+    "card-foreground": "oklch(0.961 0.016 79.4)",
+    "popover": "oklch(0.275 0.029 54.9)",
+    "popover-foreground": "oklch(0.961 0.016 79.4)",
+    "primary": "oklch(0.717 0.085 68.7)",
+    "primary-foreground": "oklch(0.222 0.023 51.4)",
+    "secondary": "oklch(0.430 0.035 63.3)",
+    "secondary-foreground": "oklch(0.961 0.016 79.4)",
+    "muted": "oklch(0.430 0.035 63.3)",
+    "muted-foreground": "oklch(0.903 0.030 78.8)",
+    "accent": "oklch(0.542 0.098 140.1)",
+    "accent-foreground": "oklch(0.222 0.023 51.4)",
+    "destructive": "oklch(0.506 0.085 54.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.717 0.085 68.7)",
+    "chart-1": "oklch(0.717 0.085 68.7)",
+    "chart-2": "oklch(0.506 0.085 54.7)",
+    "chart-3": "oklch(0.542 0.098 140.1)",
+    "chart-4": "oklch(0.679 0.119 134.5)",
+    "chart-5": "oklch(0.829 0.046 78.0)",
+    "sidebar": "oklch(0.259 0.028 52.0)",
+    "sidebar-foreground": "oklch(0.961 0.016 79.4)",
+    "sidebar-primary": "oklch(0.717 0.085 68.7)",
+    "sidebar-primary-foreground": "oklch(0.222 0.023 51.4)",
+    "sidebar-accent": "oklch(0.430 0.035 63.3)",
+    "sidebar-accent-foreground": "oklch(0.961 0.016 79.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.717 0.085 68.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Coastal utility UI with clear English labels, sturdy numerals, and Japanese typography guidance for readable product workflows.",
+  "layout": "Fiber-line dividers, coconut shell depth, compact navigation, practical dashboard density, 8px radii, restrained shadows, and motif-derived texture tokens.",
+  "tags": [
+    "coconut",
+    "fruit",
+    "husk",
+    "tropical-shore",
+    "coastal",
+    "utility",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-coconut/motif.png",
+    "board": "/systems/morphous-coconut/design-system-light.png",
+    "darkBoard": "/systems/morphous-coconut/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-coconut/theme.css",
+    "themeJson": "/systems/morphous-coconut/theme.json",
+    "promptsJson": "/systems/morphous-coconut/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent coconut husk motif",
+      "asset": "/systems/morphous-coconut/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Coconut transparent motif chroma-key source\nPrimary request: Create only a coconut husk motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A coastal tropical coconut husk arrangement: one whole fibrous brown coconut with rough husk texture, one cracked half revealing clean white coconut flesh and dark shell, a small segment of palm green frond tucked behind the husk. Natural coconut fiber strands, warm brown shell, creamy white interior, subtle palm green accent, unmistakably coconut husk.\nComposition/framing: centered complete cutout with generous padding; include whole husk, cracked half, visible white flesh, and small palm frond without cropping. Clean studio lighting, crisp edges, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no beach scene, no ocean, no palm tree trunk, no plate, no drink, no straw, no hand, no props, no landscape, no text, no watermark, no second fruit species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-coconut/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Coconut light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Coconut\", derived from a coconut husk motif: fibrous warm brown coconut husk, dark shell, clean coconut white flesh, and palm green coastal accents. This board is a source reference for implementing a shadcn/tweakcn-compatible coastal utility UI theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, precise grid, large readable labels.\nRequired visible sections: Morphous Coconut, Coconut Husk, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nReference use: Extract the palette and interaction language from warm brown coconut fiber, dark shell, coconut white flesh, fresh palm green, sandy shell neutrals, and tropical shore utility materials. The board must read as coconut husk and coastal utility, not generic beach resort.\nTypography: English product UI examples with Japanese typography guidance; show short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 読みやすい本文, 操作用ラベル. Use restrained utility typography with friendly rounded terminals and clear numerals.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, empty/loading/error/success states, form validation, filters, status chips, pagination, texture samples, simple utility icons.\nToken coverage: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius, spacing, border width, shadow, focus state.\nStyle: premium shadcn/tweakcn-style product design system, coastal utility system, 8px radii, coconut-white surfaces, husk-brown primary actions, shell-brown foreground, palm-green success/focus states, fiber-line dividers, coconut meat highlights, subtle woven husk texture, practical dashboard density.\nConstraints: no cocktail, no resort marketing page, no ocean photo, no palm tree scenery, no unrelated saturated colors, no generic purple/blue gradients, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Coconut\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-coconut/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Coconut dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Coconut\". It must feel like the light-mode coconut husk system translated to dark mode, not a new theme, and remain derived from warm brown coconut husk, dark shell, coconut white flesh, and palm green coastal accents.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, precise grid, large readable labels.\nRequired visible sections: Morphous Coconut, Coconut Husk, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nReference use: Preserve coconut system language: husk-brown primary states, coconut-white foreground highlights, palm-green success and focus states, shell-brown depth, coir fiber dividers, woven husk texture, 8px radius, practical shadcn/tweakcn component grid. Must read as coconut husk and coastal utility, not generic tropical nightlife.\nTypography: English product UI examples with Japanese typography guidance; show short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 暗色UI, 操作用ラベル. Keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, empty/loading/error/success states, form validation, filters, status chips, pagination, texture samples, simple utility icons.\nToken coverage: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius, spacing, border width, shadow, focus state.\nVisual details: deep shell-brown background, charcoal coir surfaces, coconut-white text, husk-brown active states, palm-green focus and success controls, muted sand-gray borders, warm amber warning, red clay destructive state, subtle fiber texture overlays, crisp cards and controls.\nConstraints: no cocktail, no resort marketing page, no ocean photo, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Coconut\"."
+    }
+  ]
+}
