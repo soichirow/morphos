@@ -1,0 +1,193 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-snapdragon",
+    "name": "Morphous Snapdragon",
+    "motifName": "Snapdragon Spike",
+    "motifCategory": "flower",
+    "biome": "cottage border",
+    "motif": "snapdragon spike vertical timeline"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Cream",
+      "hex": "#fff8ee",
+      "oklch": "oklch(0.982 0.015 77.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stem Shadow",
+      "hex": "#2a2019",
+      "oklch": "oklch(0.253 0.020 56.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Snapdragon Magenta",
+      "hex": "#c2185b",
+      "oklch": "oklch(0.531 0.202 5.6)"
+    },
+    {
+      "role": "Primary Dark",
+      "name": "Deep Petal",
+      "hex": "#9c1456",
+      "oklch": "oklch(0.458 0.174 358.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blush Cream",
+      "hex": "#ffe2e9",
+      "oklch": "oklch(0.938 0.033 1.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cream Throat",
+      "hex": "#fff6e8",
+      "oklch": "oklch(0.976 0.021 79.1)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Green",
+      "hex": "#4f8e47",
+      "oklch": "oklch(0.587 0.122 141.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Green",
+      "hex": "#2e6e3a",
+      "oklch": "oklch(0.483 0.105 147.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Cream",
+      "hex": "#faf6f1",
+      "oklch": "oklch(0.975 0.008 73.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Sepal",
+      "hex": "#d8c7b8",
+      "oklch": "oklch(0.840 0.028 63.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Petal Shadow",
+      "hex": "#5a3f35",
+      "oklch": "oklch(0.395 0.042 41.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.015 77.1)",
+    "foreground": "oklch(0.253 0.020 56.6)",
+    "card": "oklch(0.975 0.008 73.7)",
+    "card-foreground": "oklch(0.253 0.020 56.6)",
+    "popover": "oklch(0.975 0.008 73.7)",
+    "popover-foreground": "oklch(0.253 0.020 56.6)",
+    "primary": "oklch(0.531 0.202 5.6)",
+    "primary-foreground": "oklch(0.982 0.015 77.1)",
+    "secondary": "oklch(0.978 0.011 76.6)",
+    "secondary-foreground": "oklch(0.395 0.042 41.2)",
+    "muted": "oklch(0.977 0.010 81.8)",
+    "muted-foreground": "oklch(0.395 0.042 41.2)",
+    "accent": "oklch(0.976 0.021 79.1)",
+    "accent-foreground": "oklch(0.253 0.020 56.6)",
+    "destructive": "oklch(0.531 0.202 5.6)",
+    "border": "oklch(0.927 0.016 67.6)",
+    "input": "oklch(0.927 0.016 67.6)",
+    "ring": "oklch(0.938 0.033 1.4)",
+    "chart-1": "oklch(0.531 0.202 5.6)",
+    "chart-2": "oklch(0.938 0.033 1.4)",
+    "chart-3": "oklch(0.976 0.021 79.1)",
+    "chart-4": "oklch(0.483 0.105 147.6)",
+    "chart-5": "oklch(0.395 0.042 41.2)",
+    "sidebar": "oklch(0.978 0.011 76.6)",
+    "sidebar-foreground": "oklch(0.253 0.020 56.6)",
+    "sidebar-primary": "oklch(0.531 0.202 5.6)",
+    "sidebar-primary-foreground": "oklch(0.982 0.015 77.1)",
+    "sidebar-accent": "oklch(0.912 0.027 6.2)",
+    "sidebar-accent-foreground": "oklch(0.531 0.202 5.6)",
+    "sidebar-border": "oklch(0.927 0.016 67.6)",
+    "sidebar-ring": "oklch(0.938 0.033 1.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.253 0.020 56.6)",
+    "foreground": "oklch(0.982 0.015 77.1)",
+    "card": "oklch(0.348 0.036 43.2)",
+    "card-foreground": "oklch(0.982 0.015 77.1)",
+    "popover": "oklch(0.348 0.036 43.2)",
+    "popover-foreground": "oklch(0.982 0.015 77.1)",
+    "primary": "oklch(0.938 0.033 1.4)",
+    "primary-foreground": "oklch(0.253 0.020 56.6)",
+    "secondary": "oklch(0.500 0.037 45.0)",
+    "secondary-foreground": "oklch(0.982 0.015 77.1)",
+    "muted": "oklch(0.500 0.037 45.0)",
+    "muted-foreground": "oklch(0.918 0.020 70.0)",
+    "accent": "oklch(0.976 0.021 79.1)",
+    "accent-foreground": "oklch(0.253 0.020 56.6)",
+    "destructive": "oklch(0.531 0.202 5.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.938 0.033 1.4)",
+    "chart-1": "oklch(0.938 0.033 1.4)",
+    "chart-2": "oklch(0.531 0.202 5.6)",
+    "chart-3": "oklch(0.976 0.021 79.1)",
+    "chart-4": "oklch(0.483 0.105 147.6)",
+    "chart-5": "oklch(0.840 0.028 63.9)",
+    "sidebar": "oklch(0.320 0.030 45.1)",
+    "sidebar-foreground": "oklch(0.982 0.015 77.1)",
+    "sidebar-primary": "oklch(0.938 0.033 1.4)",
+    "sidebar-primary-foreground": "oklch(0.253 0.020 56.6)",
+    "sidebar-accent": "oklch(0.500 0.037 45.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.015 77.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.938 0.033 1.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for structured English workflow UI with Noto Sans JP guidance for Japanese headings, labels, tables, command search, and tabular numerals.",
+  "layout": "Vertical timeline layouts with stem-like rails, stacked blossom-node states, narrow navigation, 8px component radii, cream panels, magenta primary actions, leaf-green support controls, and disciplined workflow dashboards.",
+  "tags": [
+    "snapdragon",
+    "flower",
+    "cottage-border",
+    "magenta",
+    "cream",
+    "leaf-green",
+    "vertical-timeline",
+    "workflow",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-snapdragon/motif.png",
+    "board": "/systems/morphous-snapdragon/design-system-light.png",
+    "darkBoard": "/systems/morphous-snapdragon/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-snapdragon/theme.css",
+    "themeJson": "/systems/morphous-snapdragon/theme.json",
+    "promptsJson": "/systems/morphous-snapdragon/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent snapdragon spike motif",
+      "asset": "/systems/morphous-snapdragon/motif.png",
+      "workflow": "Built-in image generation on a flat #00ffff chroma-key background, then local background removal with remove_chroma_key.py.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Snapdragon transparent motif chroma-key source\nPrimary request: Create only a snapdragon flower spike botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A vertical snapdragon spike with stacked tubular blossoms in rich magenta, blush cream throats, subtle petal veining, leaf-green lanceolate leaves, a slender upright green stem, and soft stem shadows inside the plant form. Botanical accuracy, crisp subject edges, recognizable Antirrhinum snapdragon flower form, no bouquet, no garden scene.\nComposition/framing: centered complete vertical cutout with generous padding; include full spike from top florets to lower leaves and stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ffff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no foxglove, no delphinium, no lupine, no rose, no vase, no hand, no text, no watermark, no props, no landscape, no second flower spike."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-snapdragon/design-system-light.png",
+      "sourceAsset": "/systems/morphous-snapdragon/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Snapdragon light-mode design-system board, strict landscape\nPrimary request: Generate one horizontal 16:9 light-mode design-system board for a Morphous theme named \"Morphous Snapdragon\", derived from the visible snapdragon spike motif. It is a shadcn/tweakcn-compatible vertical timeline workflow UI system.\nCanvas: strict landscape 16:9 only, target 3840x2160, at least 2400px wide. Do not create a square board or portrait board. Use one clean professional design-system board filling the wide canvas.\nRequired visible sections: Morphous Snapdragon, Snapdragon Spike, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract palette and interaction language from rich magenta petals, blush cream flower throats, leaf-green leaves, upright green stem, soft stem-shadow depth, cottage border botanical freshness, and stacked flower-node rhythm. Must read as snapdragon, not foxglove, delphinium, lupine, rose, or generic magenta UI kit.\nDesign mood: vertical timeline system; central stem-like rail, blossom-node status markers, stacked workflow steps, narrow side navigation, timeline cards, ordered progress states, upright hierarchy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, workflow navigation, timeline dashboard metric cards, vertical progress chart, operations table, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, cream paper surfaces, magenta primary actions, leaf-green secondary controls, stem-shadow borders, cream throat highlights, botanical petal-grain texture, readable token chips.\nConstraints: no foxglove, no delphinium, no lupine, no rose, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Snapdragon\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-snapdragon/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-snapdragon/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Snapdragon dark-mode design-system board, strict landscape\nPrimary request: Generate one horizontal 16:9 dark-mode design-system board for the Morphous theme named \"Morphous Snapdragon\". Translate the visible light-mode Snapdragon board into dark mode while preserving the snapdragon spike motif and shadcn/tweakcn vertical timeline workflow system.\nCanvas: strict landscape 16:9 only, target 3840x2160, at least 2400px wide. Do not create a square board or portrait board. Use one clean professional design-system board filling the wide canvas.\nRequired visible sections: Morphous Snapdragon, Snapdragon Spike, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the snapdragon language: rich magenta primary actions, blush cream flower-throat highlights, leaf-green support states, upright green stem accents, deep stem-shadow dark surfaces, cottage border botanical texture, and stacked blossom-node vertical timeline rhythm. Must read as snapdragon, not foxglove, delphinium, lupine, rose, or generic magenta UI kit.\nDesign mood: vertical timeline system; dark central stem-like rail, glowing blossom-node status markers, stacked workflow steps, narrow side navigation, timeline cards, ordered progress states, upright hierarchy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, workflow navigation, timeline dashboard metric cards, vertical progress chart, operations table, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep green-brown stem-shadow background, petal-cream foreground text, magenta controls, leaf-green status, cream throat highlights, subtle petal-grain and leaf-vein texture overlays, restrained contrast, crisp cards and controls, readable token chips.\nConstraints: no foxglove, no delphinium, no lupine, no rose, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no unrelated saturated colors, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Snapdragon\"."
+    }
+  ]
+}

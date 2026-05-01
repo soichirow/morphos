@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-honeysuckle",
+    "name": "Morphous Honeysuckle",
+    "motifName": "Honeysuckle",
+    "motifCategory": "flower",
+    "biome": "woodland vine",
+    "motif": "honeysuckle flowers"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Honey Cream",
+      "hex": "#FFF7DF",
+      "oklch": "oklch(0.976 0.033 91.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Woodland Ink",
+      "hex": "#262018",
+      "oklch": "oklch(0.248 0.017 74.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Honeysuckle Gold",
+      "hex": "#E6B84A",
+      "oklch": "oklch(0.804 0.136 85.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stem Green",
+      "hex": "#5F8A4B",
+      "oklch": "oklch(0.586 0.103 136.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Coral Throat",
+      "hex": "#E56F5A",
+      "oklch": "oklch(0.677 0.151 31.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Yellow",
+      "hex": "#F7D76B",
+      "oklch": "oklch(0.885 0.132 93.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Cream",
+      "hex": "#FFFDF1",
+      "oklch": "oklch(0.992 0.016 99.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Vine Tan",
+      "hex": "#C0A678",
+      "oklch": "oklch(0.737 0.069 81.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Woodland Vine",
+      "hex": "#33402B",
+      "oklch": "oklch(0.353 0.039 133.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Stem Brown",
+      "hex": "#8B6A43",
+      "oklch": "oklch(0.548 0.069 70.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Fresh Stem",
+      "hex": "#78A85F",
+      "oklch": "oklch(0.680 0.114 135.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.033 91.7)",
+    "foreground": "oklch(0.248 0.017 74.8)",
+    "card": "oklch(0.992 0.016 99.0)",
+    "card-foreground": "oklch(0.248 0.017 74.8)",
+    "popover": "oklch(0.992 0.016 99.0)",
+    "popover-foreground": "oklch(0.248 0.017 74.8)",
+    "primary": "oklch(0.804 0.136 85.8)",
+    "primary-foreground": "oklch(0.976 0.033 91.7)",
+    "secondary": "oklch(0.984 0.023 93.3)",
+    "secondary-foreground": "oklch(0.353 0.039 133.9)",
+    "muted": "oklch(0.987 0.020 94.5)",
+    "muted-foreground": "oklch(0.353 0.039 133.9)",
+    "accent": "oklch(0.677 0.151 31.7)",
+    "accent-foreground": "oklch(0.248 0.017 74.8)",
+    "destructive": "oklch(0.804 0.136 85.8)",
+    "border": "oklch(0.902 0.035 88.8)",
+    "input": "oklch(0.902 0.035 88.8)",
+    "ring": "oklch(0.586 0.103 136.4)",
+    "chart-1": "oklch(0.804 0.136 85.8)",
+    "chart-2": "oklch(0.586 0.103 136.4)",
+    "chart-3": "oklch(0.677 0.151 31.7)",
+    "chart-4": "oklch(0.885 0.132 93.0)",
+    "chart-5": "oklch(0.353 0.039 133.9)",
+    "sidebar": "oklch(0.987 0.021 95.3)",
+    "sidebar-foreground": "oklch(0.248 0.017 74.8)",
+    "sidebar-primary": "oklch(0.804 0.136 85.8)",
+    "sidebar-primary-foreground": "oklch(0.976 0.033 91.7)",
+    "sidebar-accent": "oklch(0.969 0.032 93.5)",
+    "sidebar-accent-foreground": "oklch(0.804 0.136 85.8)",
+    "sidebar-border": "oklch(0.902 0.035 88.8)",
+    "sidebar-ring": "oklch(0.586 0.103 136.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.248 0.017 74.8)",
+    "foreground": "oklch(0.976 0.033 91.7)",
+    "card": "oklch(0.318 0.029 124.7)",
+    "card-foreground": "oklch(0.976 0.033 91.7)",
+    "popover": "oklch(0.318 0.029 124.7)",
+    "popover-foreground": "oklch(0.976 0.033 91.7)",
+    "primary": "oklch(0.586 0.103 136.4)",
+    "primary-foreground": "oklch(0.248 0.017 74.8)",
+    "secondary": "oklch(0.442 0.041 115.2)",
+    "secondary-foreground": "oklch(0.976 0.033 91.7)",
+    "muted": "oklch(0.442 0.041 115.2)",
+    "muted-foreground": "oklch(0.871 0.049 85.8)",
+    "accent": "oklch(0.677 0.151 31.7)",
+    "accent-foreground": "oklch(0.248 0.017 74.8)",
+    "destructive": "oklch(0.804 0.136 85.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.586 0.103 136.4)",
+    "chart-1": "oklch(0.586 0.103 136.4)",
+    "chart-2": "oklch(0.804 0.136 85.8)",
+    "chart-3": "oklch(0.677 0.151 31.7)",
+    "chart-4": "oklch(0.885 0.132 93.0)",
+    "chart-5": "oklch(0.737 0.069 81.5)",
+    "sidebar": "oklch(0.298 0.025 117.7)",
+    "sidebar-foreground": "oklch(0.976 0.033 91.7)",
+    "sidebar-primary": "oklch(0.586 0.103 136.4)",
+    "sidebar-primary-foreground": "oklch(0.248 0.017 74.8)",
+    "sidebar-accent": "oklch(0.442 0.041 115.2)",
+    "sidebar-accent-foreground": "oklch(0.976 0.033 91.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.586 0.103 136.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Friendly collaboration English UI with Japanese typography guidance for threads, comments, project labels, status text, tables, and readable shared workspaces.",
+  "layout": "Collaboration dashboards, activity feeds, 8px radii, honeyed card surfaces, coral mention chips, stem-green success states, woodland-vine sidebars, and warm group workflow panels.",
+  "tags": [
+    "honeysuckle",
+    "flower",
+    "woodland-vine",
+    "cream-yellow",
+    "coral",
+    "stem-green",
+    "collaboration",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-honeysuckle/motif.png",
+    "board": "/systems/morphous-honeysuckle/design-system-light.png",
+    "darkBoard": "/systems/morphous-honeysuckle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-honeysuckle/theme.css",
+    "themeJson": "/systems/morphous-honeysuckle/theme.json",
+    "promptsJson": "/systems/morphous-honeysuckle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent honeysuckle flowers motif",
+      "asset": "/systems/morphous-honeysuckle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Honeysuckle transparent motif chroma-key source\nPrimary request: Create a complete honeysuckle flower motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A woodland vine honeysuckle cluster with cream-yellow tubular flowers, coral throat transitions, slender green stems, fresh leaves, and warm natural botanical texture. Crisp edges, no cast shadow.\nComposition/framing: centered complete flower cluster cutout with blossoms, leaves, and stems visible without cropping.\nChroma-key background: perfectly flat solid #0000ff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no jasmine, no gardenia, no orchid, no vase, no hand, no props, no landscape, no insects."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-honeysuckle/design-system-light.png",
+      "sourceAsset": "/systems/morphous-honeysuckle/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Honeysuckle light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Honeysuckle, derived from the visible honeysuckle flower cutout.\nCanvas: wide 16:9 high-resolution board, polished sweet collaboration-system presentation.\nRequired visible sections: Morphous Honeysuckle, Honeysuckle Flowers, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract cream-yellow petals, coral flower throats, honey-gold highlights, stem-green accents, vine-tan muted surfaces, and woodland depth for collaborative workspaces, activity feeds, comments, and shared project dashboards.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, collaboration cards, activity feeds, tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic yellow UI, no unrelated neon colors, no beige-only flat palette, no tiny unreadable text, no watermark, no misspelling of Morphous Honeysuckle."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-honeysuckle/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-honeysuckle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Honeysuckle dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Honeysuckle that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Honeysuckle, Honeysuckle Flowers, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve honey-gold actions, cream foregrounds, coral collaboration chips, stem-green success states, woodland-vine dark surfaces, and warm activity-feed structure for collaborative product interfaces.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Honeysuckle."
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-gardenia",
+    "name": "Morphous Gardenia",
+    "motifName": "Gardenia",
+    "motifCategory": "flower",
+    "biome": "southern garden",
+    "motif": "gardenia bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Ivory",
+      "hex": "#FAF9F5",
+      "oklch": "oklch(0.982 0.005 95.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Leaf Ink",
+      "hex": "#0E2E1A",
+      "oklch": "oklch(0.271 0.053 153.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Gloss Leaf",
+      "hex": "#1F5A2E",
+      "oklch": "oklch(0.417 0.094 149.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Waxy Cream",
+      "hex": "#F6F2E8",
+      "oklch": "oklch(0.962 0.014 88.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Soft Champagne",
+      "hex": "#F1EAD7",
+      "oklch": "oklch(0.937 0.026 90.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Porcelain Surface",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Gardenia Shadow",
+      "hex": "#E9E6D9",
+      "oklch": "oklch(0.924 0.018 96.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Vein Olive",
+      "hex": "#7A8F5C",
+      "oklch": "oklch(0.620 0.077 126.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Leaf Shadow",
+      "hex": "#141F15",
+      "oklch": "oklch(0.225 0.025 147.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Petal Edge",
+      "hex": "#D8D1BF",
+      "oklch": "oklch(0.861 0.026 89.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Garden Stem",
+      "hex": "#356D3A",
+      "oklch": "oklch(0.483 0.100 145.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.005 95.1)",
+    "foreground": "oklch(0.271 0.053 153.4)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.271 0.053 153.4)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.271 0.053 153.4)",
+    "primary": "oklch(0.417 0.094 149.0)",
+    "primary-foreground": "oklch(0.982 0.005 95.1)",
+    "secondary": "oklch(0.992 0.002 67.8)",
+    "secondary-foreground": "oklch(0.225 0.025 147.0)",
+    "muted": "oklch(0.995 0.002 67.8)",
+    "muted-foreground": "oklch(0.225 0.025 147.0)",
+    "accent": "oklch(0.937 0.026 90.1)",
+    "accent-foreground": "oklch(0.271 0.053 153.4)",
+    "destructive": "oklch(0.417 0.094 149.0)",
+    "border": "oklch(0.973 0.007 97.4)",
+    "input": "oklch(0.973 0.007 97.4)",
+    "ring": "oklch(0.962 0.014 88.7)",
+    "chart-1": "oklch(0.417 0.094 149.0)",
+    "chart-2": "oklch(0.962 0.014 88.7)",
+    "chart-3": "oklch(0.937 0.026 90.1)",
+    "chart-4": "oklch(0.620 0.077 126.7)",
+    "chart-5": "oklch(0.225 0.025 147.0)",
+    "sidebar": "oklch(0.994 0.001 106.4)",
+    "sidebar-foreground": "oklch(0.271 0.053 153.4)",
+    "sidebar-primary": "oklch(0.417 0.094 149.0)",
+    "sidebar-primary-foreground": "oklch(0.982 0.005 95.1)",
+    "sidebar-accent": "oklch(0.933 0.010 155.1)",
+    "sidebar-accent-foreground": "oklch(0.417 0.094 149.0)",
+    "sidebar-border": "oklch(0.973 0.007 97.4)",
+    "sidebar-ring": "oklch(0.962 0.014 88.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.271 0.053 153.4)",
+    "foreground": "oklch(0.982 0.005 95.1)",
+    "card": "oklch(0.240 0.035 151.9)",
+    "card-foreground": "oklch(0.982 0.005 95.1)",
+    "popover": "oklch(0.240 0.035 151.9)",
+    "popover-foreground": "oklch(0.982 0.005 95.1)",
+    "primary": "oklch(0.962 0.014 88.7)",
+    "primary-foreground": "oklch(0.271 0.053 153.4)",
+    "secondary": "oklch(0.402 0.021 137.1)",
+    "secondary-foreground": "oklch(0.982 0.005 95.1)",
+    "muted": "oklch(0.402 0.021 137.1)",
+    "muted-foreground": "oklch(0.954 0.011 95.2)",
+    "accent": "oklch(0.937 0.026 90.1)",
+    "accent-foreground": "oklch(0.271 0.053 153.4)",
+    "destructive": "oklch(0.417 0.094 149.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.962 0.014 88.7)",
+    "chart-1": "oklch(0.962 0.014 88.7)",
+    "chart-2": "oklch(0.417 0.094 149.0)",
+    "chart-3": "oklch(0.937 0.026 90.1)",
+    "chart-4": "oklch(0.620 0.077 126.7)",
+    "chart-5": "oklch(0.924 0.018 96.1)",
+    "sidebar": "oklch(0.249 0.040 152.8)",
+    "sidebar-foreground": "oklch(0.982 0.005 95.1)",
+    "sidebar-primary": "oklch(0.962 0.014 88.7)",
+    "sidebar-primary-foreground": "oklch(0.271 0.053 153.4)",
+    "sidebar-accent": "oklch(0.402 0.021 137.1)",
+    "sidebar-accent-foreground": "oklch(0.982 0.005 95.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.962 0.014 88.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Refined English product UI with luxury editorial display guidance and Japanese typography guidance for Noto Sans JP or Yu Gothic interface text, Mincho-style display headings, compact data labels, and readable table rows.",
+  "layout": "Polished product dashboards, 8px radii, ivory petal surfaces, glossy leaf navigation, soft champagne focus rings, restrained shadows, precise spacing, and quiet data-dense luxury workflows.",
+  "tags": [
+    "gardenia",
+    "flower",
+    "southern-garden",
+    "ivory",
+    "glossy-green",
+    "luxury",
+    "product-ui",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-gardenia/motif.png",
+    "board": "/systems/morphous-gardenia/design-system-light.png",
+    "darkBoard": "/systems/morphous-gardenia/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-gardenia/theme.css",
+    "themeJson": "/systems/morphous-gardenia/theme.json",
+    "promptsJson": "/systems/morphous-gardenia/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent gardenia bloom motif",
+      "asset": "/systems/morphous-gardenia/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Gardenia transparent motif chroma-key source\nPrimary request: Create only a complete gardenia bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A southern garden gardenia bloom with layered ivory-white waxy petals, subtle cream petal shadows, a few glossy deep green leaves, crisp botanical detail, polished luxurious natural texture, and clean studio lighting. The bloom should be recognizable as gardenia, not rose or magnolia.\nComposition/framing: centered complete bloom cutout with leaves visible, generous padding on every side, no cropping.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no hand, no props, no landscape, no second flower, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-gardenia/design-system-light.png",
+      "sourceAsset": "/systems/morphous-gardenia/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Gardenia light-mode design-system board, regenerated for larger source resolution\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Gardenia\", clearly derived from the provided gardenia bloom motif cutout.\nReference use: Use the visible gardenia bloom as the source of truth. Extract ivory waxy petal surfaces, cream petal shadows, glossy deep green leaves, soft southern garden shadow, and polished luxury-product UI rhythm. The board must visibly respect these colors and materials.\nCanvas: strict 16:9 landscape design board, target 3840x2160, wide 4K-class source asset. Do not create a square or portrait image.\nResolution and legibility: large readable section labels, a precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Gardenia, Gardenia Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, soft shadow tokens, and generated asset examples.\nTypography: refined English product UI with luxury editorial display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for display headings. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nColor palette: motif-derived near-neutrals and greens only, with named swatches: Petal Ivory, Waxy Cream, Gardenia Shadow, Gloss Leaf, Deep Leaf Ink, Vein Olive, Soft Champagne, Porcelain Surface.\nVisual style: polished luxury product system, quiet refined surfaces, glossy leaf accents, ivory cards, soft leaf-green focus rings, restrained premium shadows, crisp component edges, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Gardenia, no tiny illegible text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-gardenia/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-gardenia/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Gardenia dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible board for \"Morphous Gardenia\" that feels like the provided light board translated to dark mode, not a new theme.\nReference use: Use the visible gardenia motif and the visible light design-system board as references. Preserve the same palette roles, component language, texture rhythm, spacing, typography choices, and polished luxury-product UI mood.\nCanvas: strict 16:9 landscape board, target 3840x2160, wide 4K-class source asset, at least 2400px wide if possible.\nResolution and legibility: large readable labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Gardenia, Gardenia Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, shadow tokens, semantic tokens, and generated asset examples.\nTypography: refined English product UI with luxury editorial display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for display headings. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nDark palette: deepest glossy leaf ink and garden shadow backgrounds, ivory petal foregrounds, waxy cream cards, muted olive dividers, soft champagne highlights, leaf-green primary actions, restrained rose-warm destructive state only where needed.\nVisual style: polished luxury dark product system, quiet dark-green surfaces, subtle gardenia petal texture, glossy leaf accents, soft cream focus rings, crisp component edges, 8px card radius, premium restrained shadows.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon palette, no pure flat black unless used as a tiny ink token, no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Gardenia, no tiny illegible text."
+    }
+  ]
+}

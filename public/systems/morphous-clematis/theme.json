@@ -1,0 +1,196 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-clematis",
+    "name": "Morphous Clematis",
+    "motifName": "Clematis",
+    "motifCategory": "flower",
+    "biome": "climbing trellis",
+    "motif": "clematis bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Ivory",
+      "hex": "#FAF7F1",
+      "oklch": "oklch(0.977 0.009 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Inked Vine",
+      "hex": "#1F2A1F",
+      "oklch": "oklch(0.271 0.025 144.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clematis Violet",
+      "hex": "#8B46C1",
+      "oklch": "oklch(0.538 0.188 307.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Trellis Green",
+      "hex": "#5E7F5A",
+      "oklch": "oklch(0.561 0.067 141.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Petal Shadow",
+      "hex": "#4B2E83",
+      "oklch": "oklch(0.385 0.136 294.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Focus",
+      "hex": "#E5C84A",
+      "oklch": "oklch(0.835 0.145 96.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Filament",
+      "hex": "#FFF6E6",
+      "oklch": "oklch(0.976 0.023 82.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Vein",
+      "hex": "#A2B66F",
+      "oklch": "oklch(0.744 0.098 121.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Petal",
+      "hex": "#171B23",
+      "oklch": "oklch(0.222 0.017 264.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Olive Stem",
+      "hex": "#7C6F57",
+      "oklch": "oklch(0.547 0.039 82.7)"
+    },
+    {
+      "role": "Info",
+      "name": "Info Blue",
+      "hex": "#4C6EF5",
+      "oklch": "oklch(0.590 0.205 268.6)"
+    },
+    {
+      "role": "Danger",
+      "name": "Destructive Rose",
+      "hex": "#D6455D",
+      "oklch": "oklch(0.601 0.181 14.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.009 84.6)",
+    "foreground": "oklch(0.271 0.025 144.8)",
+    "card": "oklch(0.976 0.023 82.1)",
+    "card-foreground": "oklch(0.271 0.025 144.8)",
+    "popover": "oklch(0.976 0.023 82.1)",
+    "popover-foreground": "oklch(0.271 0.025 144.8)",
+    "primary": "oklch(0.538 0.188 307.0)",
+    "primary-foreground": "oklch(0.977 0.009 84.6)",
+    "secondary": "oklch(0.976 0.016 79.4)",
+    "secondary-foreground": "oklch(0.222 0.017 264.1)",
+    "muted": "oklch(0.976 0.019 80.1)",
+    "muted-foreground": "oklch(0.222 0.017 264.1)",
+    "accent": "oklch(0.385 0.136 294.9)",
+    "accent-foreground": "oklch(0.271 0.025 144.8)",
+    "destructive": "oklch(0.538 0.188 307.0)",
+    "border": "oklch(0.894 0.048 108.6)",
+    "input": "oklch(0.894 0.048 108.6)",
+    "ring": "oklch(0.561 0.067 141.9)",
+    "chart-1": "oklch(0.538 0.188 307.0)",
+    "chart-2": "oklch(0.561 0.067 141.9)",
+    "chart-3": "oklch(0.385 0.136 294.9)",
+    "chart-4": "oklch(0.835 0.145 96.0)",
+    "chart-5": "oklch(0.222 0.017 264.1)",
+    "sidebar": "oklch(0.975 0.018 81.3)",
+    "sidebar-foreground": "oklch(0.271 0.025 144.8)",
+    "sidebar-primary": "oklch(0.538 0.188 307.0)",
+    "sidebar-primary-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-accent": "oklch(0.923 0.018 13.1)",
+    "sidebar-accent-foreground": "oklch(0.538 0.188 307.0)",
+    "sidebar-border": "oklch(0.894 0.048 108.6)",
+    "sidebar-ring": "oklch(0.561 0.067 141.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.271 0.025 144.8)",
+    "foreground": "oklch(0.977 0.009 84.6)",
+    "card": "oklch(0.238 0.010 219.9)",
+    "card-foreground": "oklch(0.977 0.009 84.6)",
+    "popover": "oklch(0.238 0.010 219.9)",
+    "popover-foreground": "oklch(0.977 0.009 84.6)",
+    "primary": "oklch(0.561 0.067 141.9)",
+    "primary-foreground": "oklch(0.271 0.025 144.8)",
+    "secondary": "oklch(0.350 0.018 138.7)",
+    "secondary-foreground": "oklch(0.977 0.009 84.6)",
+    "muted": "oklch(0.350 0.018 138.7)",
+    "muted-foreground": "oklch(0.873 0.048 117.9)",
+    "accent": "oklch(0.385 0.136 294.9)",
+    "accent-foreground": "oklch(0.271 0.025 144.8)",
+    "destructive": "oklch(0.538 0.188 307.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.561 0.067 141.9)",
+    "chart-1": "oklch(0.561 0.067 141.9)",
+    "chart-2": "oklch(0.538 0.188 307.0)",
+    "chart-3": "oklch(0.385 0.136 294.9)",
+    "chart-4": "oklch(0.835 0.145 96.0)",
+    "chart-5": "oklch(0.744 0.098 121.6)",
+    "sidebar": "oklch(0.248 0.012 178.4)",
+    "sidebar-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-primary": "oklch(0.561 0.067 141.9)",
+    "sidebar-primary-foreground": "oklch(0.271 0.025 144.8)",
+    "sidebar-accent": "oklch(0.350 0.018 138.7)",
+    "sidebar-accent-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.561 0.067 141.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise English portfolio UI with Japanese typography guidance for project titles, metadata, table labels, command search, editorial body text, and readable portfolio navigation.",
+  "layout": "Portfolio dashboards, visual archives, project detail panels, 8px radii, trellis-aligned grids, cream filament dividers, violet primary actions, dark vine navigation, and restrained botanical texture.",
+  "tags": [
+    "clematis",
+    "flower",
+    "climbing-trellis",
+    "violet-petal",
+    "cream-filament",
+    "portfolio",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-clematis/motif.png",
+    "board": "/systems/morphous-clematis/design-system-light.png",
+    "darkBoard": "/systems/morphous-clematis/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-clematis/theme.css",
+    "themeJson": "/systems/morphous-clematis/theme.json",
+    "promptsJson": "/systems/morphous-clematis/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent clematis bloom motif",
+      "asset": "/systems/morphous-clematis/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Clematis transparent motif chroma-key source\nPrimary request: Create only a clematis bloom motif for a Morphous design-system catalog, isolated on a removable chroma-key background.\nSubject: A complete clematis bloom with six to eight precise violet petals, subtle petal veins, cream filament stamens, a small green botanical center, and a few restrained dark olive vine/leaf hints. Accurate clematis flower form, crisp natural edges, no cast shadow.\nComposition/framing: centered complete cutout with generous padding; do not crop the bloom, petals, stamens, or vine hints.\nLighting/mood: clean studio light that preserves violet petal texture, cream filaments, and natural botanical detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for local background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or edge vignette. Do not use #00ff00 anywhere in the flower, leaves, vines, or center.\nConstraints: no text, no watermark, no trellis, no pot, no hand, no vase, no landscape, no second bloom, no insects, no decorative frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-clematis/design-system-light.png",
+      "sourceAsset": "/systems/morphous-clematis/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Clematis light-mode design-system board, regenerated for larger 16:9 source quality\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Clematis\", derived from the clematis bloom motif shown earlier: violet petals, cream filament stamens, olive-green vine leaves, and climbing trellis structure.\nCanvas: STRICT wide 16:9 landscape board, target 3840x2160. Do not make a portrait or square image. Fill the full horizontal canvas with a precise design-system layout.\nResolution and legibility: high-resolution source board, at least 2400px wide if available, large readable labels, restrained density, crisp portfolio-system grid, no tiny token tables.\nDesign mood: precise portfolio system for curators, case studies, asset libraries, client work, visual archives, and editorial project dashboards.\nRequired visible sections: Morphous Clematis title, Clematis Bloom motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, portfolio cards, project detail panel, sidebar navigation, top navigation, metrics, small charts, data table, command palette/search overlay, form states, empty/loading/error/success states, texture samples, spacing/radius/border/shadow tokens, generated asset thumbnails.\nTheme language: shadcn/tweakcn CSS-variable roles: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius.\nPalette roles: petal ivory background, inked vine foreground, clematis violet primary, petal shadow purple accent, cream filament surfaces, pollen focus ring, trellis green secondary, leaf vein muted, warm stem border, precise neutral chart colors from the motif.\nTypography: English portfolio UI guidance plus Japanese typography examples for project titles, labels, metadata, tables, navigation, and body text. Include readable Japanese sample labels.\nVisual details: angular petal geometry, subtle vein texture, trellis-like alignment guides, cream filament dividers, crisp 8px radii, light airy surfaces, exact portfolio spacing.\nText constraints: short readable labels only.\nConstraints: no unrelated bright colors, no generic purple-blue gradients, no stock UI kit, no misspelling of Morphous Clematis, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-clematis/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-clematis/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Clematis dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible design-system board named \"Morphous Clematis\" that feels like the light board shown earlier translated to dark mode, not a new unrelated theme.\nReference use: Preserve the same clematis motif language: violet petals, cream filament stamens, olive-green vine leaves, climbing trellis alignment, subtle petal vein texture, precise portfolio-system components.\nCanvas: exact 16:9 landscape board, target 3840x2160, high-resolution source asset, no device frame.\nResolution and legibility: large readable section labels, restrained density, crisp grid, no tiny token tables. Use polished product-design-system board presentation, not marketing art.\nDesign mood: precise portfolio system for curators, case studies, asset libraries, client work, visual archives, and editorial project dashboards.\nRequired visible sections: Morphous Clematis title, Dark Mode, Clematis Bloom motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, portfolio cards, project detail panel, sidebar navigation, top navigation, metrics, small charts, data table, command palette/search overlay, form states, empty/loading/error/success states, texture samples, spacing/radius/border/shadow tokens, generated asset thumbnails.\nTheme language: shadcn/tweakcn CSS-variable roles including background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, and radius.\nDark palette roles: deep vine ink background, night petal surface, luminous cream filament foreground, clematis violet primary, lavender focus ring, trellis green secondary, leaf vein muted, warm stem border, restrained chart accents derived from motif colors.\nTypography: English portfolio UI guidance plus Japanese typography examples for dark-mode project titles, labels, metadata, tables, navigation, and body text. Include readable Japanese sample labels.\nVisual details: dark botanical paper surfaces, fine petal-vein texture, trellis-like alignment guides, cream filament dividers, crisp 8px radii, accessible contrast, exact portfolio spacing, subtle glows only for focus rings.\nText constraints: use short readable interface labels only; avoid long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated bright colors, no generic purple-blue gradient, no stock UI kit, no misspelling of Morphous Clematis, no watermark, no illegible microtext."
+    }
+  ]
+}

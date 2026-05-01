@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-delphinium",
+    "name": "Delphinium",
+    "motifName": "Delphinium Spike",
+    "motifCategory": "flower",
+    "biome": "cool garden",
+    "motif": "delphinium spike"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cool Porcelain",
+      "hex": "#f8fafc",
+      "oklch": "oklch(0.984 0.003 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Botanical Ink",
+      "hex": "#0f172a",
+      "oklch": "oklch(0.208 0.040 265.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cobalt Bloom",
+      "hex": "#1e40af",
+      "oklch": "oklch(0.424 0.181 265.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Delphinium Blue",
+      "hex": "#2563eb",
+      "oklch": "oklch(0.546 0.215 262.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Violet",
+      "hex": "#4f46e5",
+      "oklch": "oklch(0.511 0.230 277.0)"
+    },
+    {
+      "role": "Focus",
+      "name": "Violet Shadow",
+      "hex": "#7c3aed",
+      "oklch": "oklch(0.541 0.247 293.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Green",
+      "hex": "#16a34a",
+      "oklch": "oklch(0.627 0.170 149.2)"
+    },
+    {
+      "role": "Support",
+      "name": "Stem Green",
+      "hex": "#15803d",
+      "oklch": "oklch(0.527 0.137 150.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cool Grey",
+      "hex": "#64748b",
+      "oklch": "oklch(0.554 0.041 257.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Garden Mist",
+      "hex": "#cbd5e1",
+      "oklch": "oklch(0.869 0.020 252.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Floret",
+      "hex": "#080b1a",
+      "oklch": "oklch(0.156 0.032 273.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.003 247.9)",
+    "foreground": "oklch(0.208 0.040 265.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.208 0.040 265.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.208 0.040 265.8)",
+    "primary": "oklch(0.424 0.181 265.6)",
+    "primary-foreground": "oklch(0.984 0.003 247.9)",
+    "secondary": "oklch(0.994 0.002 247.8)",
+    "secondary-foreground": "oklch(0.156 0.032 273.2)",
+    "muted": "oklch(0.996 0.001 197.1)",
+    "muted-foreground": "oklch(0.156 0.032 273.2)",
+    "accent": "oklch(0.511 0.230 277.0)",
+    "accent-foreground": "oklch(0.208 0.040 265.8)",
+    "destructive": "oklch(0.424 0.181 265.6)",
+    "border": "oklch(0.846 0.013 255.5)",
+    "input": "oklch(0.846 0.013 255.5)",
+    "ring": "oklch(0.546 0.215 262.9)",
+    "chart-1": "oklch(0.424 0.181 265.6)",
+    "chart-2": "oklch(0.546 0.215 262.9)",
+    "chart-3": "oklch(0.511 0.230 277.0)",
+    "chart-4": "oklch(0.541 0.247 293.0)",
+    "chart-5": "oklch(0.156 0.032 273.2)",
+    "sidebar": "oklch(0.994 0.001 286.4)",
+    "sidebar-foreground": "oklch(0.208 0.040 265.8)",
+    "sidebar-primary": "oklch(0.424 0.181 265.6)",
+    "sidebar-primary-foreground": "oklch(0.984 0.003 247.9)",
+    "sidebar-accent": "oklch(0.932 0.018 272.3)",
+    "sidebar-accent-foreground": "oklch(0.424 0.181 265.6)",
+    "sidebar-border": "oklch(0.846 0.013 255.5)",
+    "sidebar-ring": "oklch(0.546 0.215 262.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.208 0.040 265.8)",
+    "foreground": "oklch(0.984 0.003 247.9)",
+    "card": "oklch(0.173 0.034 269.5)",
+    "card-foreground": "oklch(0.984 0.003 247.9)",
+    "popover": "oklch(0.173 0.034 269.5)",
+    "popover-foreground": "oklch(0.984 0.003 247.9)",
+    "primary": "oklch(0.546 0.215 262.9)",
+    "primary-foreground": "oklch(0.208 0.040 265.8)",
+    "secondary": "oklch(0.254 0.033 269.0)",
+    "secondary-foreground": "oklch(0.984 0.003 247.9)",
+    "muted": "oklch(0.254 0.033 269.0)",
+    "muted-foreground": "oklch(0.798 0.018 253.4)",
+    "accent": "oklch(0.511 0.230 277.0)",
+    "accent-foreground": "oklch(0.208 0.040 265.8)",
+    "destructive": "oklch(0.424 0.181 265.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.546 0.215 262.9)",
+    "chart-1": "oklch(0.546 0.215 262.9)",
+    "chart-2": "oklch(0.424 0.181 265.6)",
+    "chart-3": "oklch(0.511 0.230 277.0)",
+    "chart-4": "oklch(0.541 0.247 293.0)",
+    "chart-5": "oklch(0.554 0.041 257.4)",
+    "sidebar": "oklch(0.183 0.038 270.6)",
+    "sidebar-foreground": "oklch(0.984 0.003 247.9)",
+    "sidebar-primary": "oklch(0.546 0.215 262.9)",
+    "sidebar-primary-foreground": "oklch(0.208 0.040 265.8)",
+    "sidebar-accent": "oklch(0.254 0.033 269.0)",
+    "sidebar-accent-foreground": "oklch(0.984 0.003 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.546 0.215 262.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for structured English knowledge UI with Noto Sans JP guidance for Japanese headings, body, labels, tabular values, and dense research interfaces.",
+  "layout": "Crisp 8px knowledge grids, vertical spike rhythm, cool-grey dividers, cobalt command states, restrained violet rings, and leaf-accented status surfaces for documentation, research, and data dashboards.",
+  "tags": [
+    "delphinium",
+    "flower",
+    "cool-garden",
+    "cobalt-blue",
+    "blue-violet",
+    "leaf-green",
+    "knowledge-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-delphinium/motif.png",
+    "board": "/systems/morphous-delphinium/design-system-light.png",
+    "darkBoard": "/systems/morphous-delphinium/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-delphinium/theme.css",
+    "themeJson": "/systems/morphous-delphinium/theme.json",
+    "promptsJson": "/systems/morphous-delphinium/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent delphinium motif source",
+      "asset": "/systems/morphous-delphinium/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only a delphinium flower spike, isolated full subject, no environment, no props, no text.\nSubject: A single tall delphinium spike from a cool garden, with layered cobalt blue and blue-violet florets, violet shadow creases, a few natural leaf-green leaves near the stem, accurate botanical structure, crisp petal edges, and refined natural texture.\nComposition/framing: centered complete vertical cutout with generous padding; do not crop the top florets, lower leaves, or stem. The subject should read clearly as one elegant delphinium spike, not a bouquet.\nLighting/mood: clean studio light that preserves cobalt petals, violet shadows, leaf veins, and a crisp knowledge-system precision.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet wrapper, no garden scene, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-delphinium/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, high-resolution 16:9 source asset\nPrimary request: Regenerate a WIDE 16:9 landscape design-system board for \"Morphous Delphinium\" from the visible delphinium spike cutout. Make it a true 4K-class source board, visually equivalent to 3840 x 2160, at least 2400 px wide, not square and not portrait.\nReference image role: the visible delphinium spike cutout is the source motif; derive palette and texture from cobalt blue petals, blue-violet florets, violet shadow creases, leaf green foliage, stem green, crisp white petal centers, cool porcelain highlights, and deep botanical ink.\nLayout requirement: large readable panels on a precise 16:9 canvas, generous margins, fewer larger token rows, clean grid, no tiny dense text.\nMood: crisp knowledge system for a cool garden, precise, structured, readable, shadcn/tweakcn-compatible.\nRequired visible sections with large labels: Morphous Delphinium, Delphinium Spike, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, dashboard metric cards, charts, filters, empty/loading/error states, radius/spacing/border/shadow samples.\nVisual style: premium light-mode UI board, cool porcelain background, crisp cobalt primary actions, violet focus rings, leaf-green success accents, cool grey dividers, delicate vertical spike rhythm, subtle petal-vein texture, restrained shadows, documentation and research dashboard language, 8px card radius.\nTheme language: show shadcn/tweakcn-compatible tokens: background, foreground, card, popover, primary, secondary, muted, accent, border, input, ring, chart-1, chart-2, chart-3, chart-4, chart-5, sidebar.\nTypography: include short examples for Geist and Noto Sans JP; show English headings, body, label, numeric, and Japanese examples like 見出し, 本文, ラベル, 数値.\nText: short readable labels only; keep section headings and token names large enough for preview downscaling.\nConstraints: no dark mode, no unrelated colors, no generic purple/blue gradients, no watermark, no random brands, no misspelling of \"Morphous Delphinium\", no tiny unreadable tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-delphinium/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, high-resolution 16:9 source asset\nPrimary request: Regenerate a WIDE 16:9 landscape dark-mode design-system board for \"Morphous Delphinium\" from the visible delphinium motif and visible light board. Make it a true 4K-class source board, visually equivalent to 3840 x 2160, at least 2400 px wide, not square and not portrait. It must feel like the exact same system translated to dark mode, not a new theme.\nReference image roles: the visible delphinium spike cutout is the motif source; the visible light-mode board is the layout and component-language source. Preserve the palette roles, component coverage, crisp knowledge-system structure, vertical spike rhythm, Japanese typography guidance, shadcn/tweakcn token language, and asset examples.\nLayout requirement: large readable panels on a precise 16:9 canvas, generous margins, fewer larger token rows, clean grid, no tiny dense text.\nRequired visible sections with large labels: Morphous Delphinium, Delphinium Spike, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nVisual details: deep botanical ink background derived from the motif's dark centers and violet shadows, light text from cool porcelain and white petal centers, primary accents from cobalt blue, secondary accents from blue-violet, leaf-green status accents, cool slate borders, violet focus rings, subtle petal-vein and leaf-surface texture overlays, crisp shadcn-style cards and controls, restrained elevation, 8px card radius.\nTypography: include short examples for Geist and Noto Sans JP; show English headings, body, label, numeric, and Japanese examples like 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, dashboard metric cards, charts, filters, empty/loading/error states, radius/spacing/border/shadow samples.\nTheme language: show shadcn/tweakcn-compatible tokens: background, foreground, card, popover, primary, secondary, muted, accent, border, input, ring, chart-1, chart-2, chart-3, chart-4, chart-5, sidebar.\nText: short readable labels only; make section headings and token names large enough for preview downscaling.\nConstraints: no light-mode board, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Delphinium\", no tiny unreadable tables."
+    }
+  ]
+}

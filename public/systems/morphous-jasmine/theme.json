@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jasmine",
+    "name": "Morphous Jasmine",
+    "motifName": "Jasmine",
+    "motifCategory": "flower",
+    "biome": "night garden",
+    "motif": "jasmine blossom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Moon Mist",
+      "hex": "#F6F8FA",
+      "oklch": "oklch(0.978 0.003 247.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bud Cream",
+      "hex": "#FFF7E5",
+      "oklch": "oklch(0.978 0.025 86.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Wax Green",
+      "hex": "#2E7D5A",
+      "oklch": "oklch(0.531 0.095 161.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Gloss",
+      "hex": "#1F5F3B",
+      "oklch": "oklch(0.434 0.088 155.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Blue",
+      "hex": "#0F1E2E",
+      "oklch": "oklch(0.230 0.037 251.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stem Olive",
+      "hex": "#6A7F4A",
+      "oklch": "oklch(0.566 0.080 126.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Gold",
+      "hex": "#E6C35A",
+      "oklch": "oklch(0.827 0.129 90.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Message Slate",
+      "hex": "#334155",
+      "oklch": "oklch(0.372 0.039 257.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Mist Gray",
+      "hex": "#E6EBF0",
+      "oklch": "oklch(0.938 0.009 247.9)"
+    },
+    {
+      "role": "Input",
+      "name": "Petal Input",
+      "hex": "#F2F5F8",
+      "oklch": "oklch(0.969 0.005 247.9)"
+    },
+    {
+      "role": "Chart",
+      "name": "Cool Petal Blue",
+      "hex": "#7FB3C8",
+      "oklch": "oklch(0.738 0.062 225.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(1.000 0.000 89.9)",
+    "foreground": "oklch(0.372 0.039 257.3)",
+    "card": "oklch(0.978 0.003 247.9)",
+    "card-foreground": "oklch(0.372 0.039 257.3)",
+    "popover": "oklch(0.978 0.003 247.9)",
+    "popover-foreground": "oklch(0.372 0.039 257.3)",
+    "primary": "oklch(0.531 0.095 161.2)",
+    "primary-foreground": "oklch(1.000 0.000 89.9)",
+    "secondary": "oklch(0.988 0.002 247.8)",
+    "secondary-foreground": "oklch(0.230 0.037 251.2)",
+    "muted": "oklch(0.985 0.002 247.8)",
+    "muted-foreground": "oklch(0.230 0.037 251.2)",
+    "accent": "oklch(0.434 0.088 155.1)",
+    "accent-foreground": "oklch(0.372 0.039 257.3)",
+    "destructive": "oklch(0.531 0.095 161.2)",
+    "border": "oklch(0.834 0.025 127.6)",
+    "input": "oklch(0.834 0.025 127.6)",
+    "ring": "oklch(0.978 0.025 86.9)",
+    "chart-1": "oklch(0.531 0.095 161.2)",
+    "chart-2": "oklch(0.978 0.025 86.9)",
+    "chart-3": "oklch(0.434 0.088 155.1)",
+    "chart-4": "oklch(0.827 0.129 90.9)",
+    "chart-5": "oklch(0.230 0.037 251.2)",
+    "sidebar": "oklch(0.985 0.003 264.5)",
+    "sidebar-foreground": "oklch(0.372 0.039 257.3)",
+    "sidebar-primary": "oklch(0.531 0.095 161.2)",
+    "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-accent": "oklch(0.925 0.012 184.1)",
+    "sidebar-accent-foreground": "oklch(0.531 0.095 161.2)",
+    "sidebar-border": "oklch(0.834 0.025 127.6)",
+    "sidebar-ring": "oklch(0.978 0.025 86.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.372 0.039 257.3)",
+    "foreground": "oklch(1.000 0.000 89.9)",
+    "card": "oklch(0.280 0.038 252.2)",
+    "card-foreground": "oklch(1.000 0.000 89.9)",
+    "popover": "oklch(0.280 0.038 252.2)",
+    "popover-foreground": "oklch(1.000 0.000 89.9)",
+    "primary": "oklch(0.978 0.025 86.9)",
+    "primary-foreground": "oklch(0.372 0.039 257.3)",
+    "secondary": "oklch(0.307 0.021 201.0)",
+    "secondary-foreground": "oklch(1.000 0.000 89.9)",
+    "muted": "oklch(0.307 0.021 201.0)",
+    "muted-foreground": "oklch(0.810 0.033 124.6)",
+    "accent": "oklch(0.434 0.088 155.1)",
+    "accent-foreground": "oklch(0.372 0.039 257.3)",
+    "destructive": "oklch(0.531 0.095 161.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.978 0.025 86.9)",
+    "chart-1": "oklch(0.978 0.025 86.9)",
+    "chart-2": "oklch(0.531 0.095 161.2)",
+    "chart-3": "oklch(0.434 0.088 155.1)",
+    "chart-4": "oklch(0.827 0.129 90.9)",
+    "chart-5": "oklch(0.566 0.080 126.4)",
+    "sidebar": "oklch(0.308 0.038 253.5)",
+    "sidebar-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-primary": "oklch(0.978 0.025 86.9)",
+    "sidebar-primary-foreground": "oklch(0.372 0.039 257.3)",
+    "sidebar-accent": "oklch(0.307 0.021 201.0)",
+    "sidebar-accent-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.978 0.025 86.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm product UI with Noto Sans JP guidance for Japanese headings, body text, labels, tabular numerals, and compact messaging controls.",
+  "layout": "Messaging, inbox, and dashboard layouts with 8px radii, petal-white surfaces, wax-green actions, night-blue focus states, moon-mist muted panels, soft borders, and restrained shadows.",
+  "tags": [
+    "jasmine",
+    "flower",
+    "night-garden",
+    "white-petal",
+    "wax-green",
+    "night-blue",
+    "messaging",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jasmine/motif.png",
+    "board": "/systems/morphous-jasmine/design-system-light.png",
+    "darkBoard": "/systems/morphous-jasmine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jasmine/theme.css",
+    "themeJson": "/systems/morphous-jasmine/theme.json",
+    "promptsJson": "/systems/morphous-jasmine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent jasmine blossom motif",
+      "asset": "/systems/morphous-jasmine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jasmine transparent motif chroma-key source\nPrimary request: Create only a jasmine blossom botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A small night-garden jasmine sprig with star-shaped white jasmine blossoms, creamy wax-petal highlights, pale unopened buds, glossy waxy deep-green leaves, slender natural stems, subtle cool night-blue reflected shadow within the white petals only, crisp botanical texture and crisp subject edges. It must read clearly as jasmine blossom, not cherry blossom, plum blossom, lily, gardenia, or generic white flower.\nComposition/framing: centered complete cutout with generous padding; include several blossoms, buds, leaves, and stems without cropping. Clean studio light that preserves white petals and green leaves; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff or any magenta in the subject.\nConstraints: no vase, no hand, no props, no garden scene, no night sky background, no dew droplets, no insects, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-jasmine/design-system-light.png",
+      "sourceAsset": "/systems/morphous-jasmine/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jasmine light-mode design-system board, regeneration for higher resolution\nInput image: Use the visible transparent jasmine blossom motif as the source reference.\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Jasmine\", derived from the visible jasmine blossom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible calm messaging system.\nCanvas: exact 16:9 landscape board at 3840x2160 or the highest available 4K-class resolution. It must be a wide board, not square, not portrait.\nResolution and legibility: large readable labels, clean spacing, no dense tiny text, big swatches and component examples that survive gallery preview downscaling.\nRequired visible sections: Morphous Jasmine, Jasmine Blossom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from white waxy jasmine petals, creamy buds, glossy wax-green leaves, slender stems, soft night-blue depth, and quiet moonlit garden contrast. The board must read as jasmine and calm messaging UI, not generic floral, not cherry blossom, not wedding stationery.\nPalette and token language: shadcn/tweakcn-compatible semantic roles including background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 through chart-5, sidebar background, sidebar foreground, sidebar primary, sidebar accent, sidebar border, and radius. Show named swatches such as Petal White, Wax Green, Night Blue, Bud Cream, Leaf Gloss, Stem Olive, Moon Mist, Pollen Gold, Message Slate.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, chat thread cards, message composer, inbox navigation, notification states, table rows, command palette, search, sidebar navigation, dashboard metric cards, message volume chart, response-time chart, empty/loading/error/success states, texture samples, spacing scale, 8px radius, border, shadow, and token swatches.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, white-petal surfaces, wax-green primary actions, night-blue focus rings, moon-mist muted panels, leaf-gloss hover states, gentle message bubbles, subtle jasmine petal texture, calm shadows and restrained contrast.\nText: short readable UI labels only; avoid paragraphs and tiny type.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no beige-only palette, no neon, no random brand names, no watermark, no misspelling of \"Morphous Jasmine\", no illegible token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-jasmine/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-jasmine/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jasmine dark-mode design-system board\nInput images: Use the visible transparent jasmine blossom motif and the visible light-mode Morphous Jasmine board as source references.\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Jasmine\". It must feel like the visible light board translated to dark mode, not a new theme, and it must remain derived from the visible jasmine blossom motif. The product language is a calm messaging system.\nCanvas: exact 16:9 landscape board, target 3840x2160 4K-class source, clean professional UI design-system presentation.\nResolution and legibility: large readable labels, clean spacing, no dense tiny text, big swatches and component examples that survive gallery preview downscaling.\nRequired visible sections: Morphous Jasmine, Jasmine Blossom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the Jasmine system language from the light board: white petal foregrounds, creamy bud highlights, wax-green primary actions, glossy leaf accents, deep night-blue surfaces, moon-mist muted panels, message slate text, soft 8px shadcn/tweakcn component grid, and calm messaging workflows. It must read as jasmine, not generic dark chat UI.\nPalette and token language: shadcn/tweakcn-compatible semantic roles including background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 through chart-5, sidebar background, sidebar foreground, sidebar primary, sidebar accent, sidebar border, and radius. Show named swatches such as Night Blue, Petal White, Wax Green, Leaf Gloss, Bud Cream, Stem Olive, Moon Mist, Message Slate, Pollen Gold.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, chat thread cards, message composer, inbox navigation, notification states, table rows, command palette, search, sidebar navigation, dashboard metric cards, message volume chart, response-time chart, empty/loading/error/success states, texture samples, spacing scale, 8px radius, border, shadow, and token swatches.\nVisual details: deep night-blue background, petal-white text, wax-green controls, leaf-gloss hover states, moonlit jasmine texture overlays, restrained contrast, soft but crisp dark cards, subtle message bubbles, blue-green focus rings, calm shadows.\nText: short readable UI labels only; avoid paragraphs and tiny type.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple or blue gradients, no illegible token tables, no random brand names, no watermark, no misspelling of \"Morphous Jasmine\"."
+    }
+  ]
+}

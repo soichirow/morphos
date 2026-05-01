@@ -1,0 +1,198 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-marigold",
+    "name": "Morphous Marigold",
+    "motifName": "Marigold",
+    "motifCategory": "flower",
+    "biome": "kitchen garden",
+    "motif": "marigold bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Garden Cream",
+      "hex": "#FFF7E3",
+      "oklch": "oklch(0.977 0.028 88.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Ink",
+      "hex": "#1F1A16",
+      "oklch": "oklch(0.222 0.011 60.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Saffron Petal",
+      "hex": "#FF8A00",
+      "oklch": "oklch(0.747 0.180 57.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Row",
+      "hex": "#2E7D32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Marigold Gold",
+      "hex": "#FFC247",
+      "oklch": "oklch(0.849 0.151 81.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sprout Green",
+      "hex": "#7FBF78",
+      "oklch": "oklch(0.744 0.119 142.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Parchment Card",
+      "hex": "#FFF4E1",
+      "oklch": "oklch(0.971 0.028 81.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Garden Paper",
+      "hex": "#FAEED7",
+      "oklch": "oklch(0.953 0.033 83.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Seed Umber",
+      "hex": "#4A2E18",
+      "oklch": "oklch(0.330 0.054 57.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Bed Border",
+      "hex": "#D9C7A2",
+      "oklch": "oklch(0.835 0.053 85.1)"
+    },
+    {
+      "role": "Success",
+      "name": "Harvest Success",
+      "hex": "#4CAF50",
+      "oklch": "oklch(0.673 0.162 144.2)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Petal Shadow",
+      "hex": "#C75A00",
+      "oklch": "oklch(0.594 0.160 48.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.028 88.7)",
+    "foreground": "oklch(0.222 0.011 60.9)",
+    "card": "oklch(0.971 0.028 81.5)",
+    "card-foreground": "oklch(0.222 0.011 60.9)",
+    "popover": "oklch(0.971 0.028 81.5)",
+    "popover-foreground": "oklch(0.222 0.011 60.9)",
+    "primary": "oklch(0.747 0.180 57.4)",
+    "primary-foreground": "oklch(0.977 0.028 88.7)",
+    "secondary": "oklch(0.973 0.027 83.5)",
+    "secondary-foreground": "oklch(0.330 0.054 57.6)",
+    "muted": "oklch(0.973 0.027 83.5)",
+    "muted-foreground": "oklch(0.330 0.054 57.6)",
+    "accent": "oklch(0.849 0.151 81.3)",
+    "accent-foreground": "oklch(0.222 0.011 60.9)",
+    "destructive": "oklch(0.747 0.180 57.4)",
+    "border": "oklch(0.964 0.030 83.6)",
+    "input": "oklch(0.964 0.030 83.6)",
+    "ring": "oklch(0.523 0.135 144.2)",
+    "chart-1": "oklch(0.747 0.180 57.4)",
+    "chart-2": "oklch(0.523 0.135 144.2)",
+    "chart-3": "oklch(0.849 0.151 81.3)",
+    "chart-4": "oklch(0.744 0.119 142.0)",
+    "chart-5": "oklch(0.330 0.054 57.6)",
+    "sidebar": "oklch(0.973 0.027 83.5)",
+    "sidebar-foreground": "oklch(0.222 0.011 60.9)",
+    "sidebar-primary": "oklch(0.747 0.180 57.4)",
+    "sidebar-primary-foreground": "oklch(0.977 0.028 88.7)",
+    "sidebar-accent": "oklch(0.939 0.051 75.8)",
+    "sidebar-accent-foreground": "oklch(0.747 0.180 57.4)",
+    "sidebar-border": "oklch(0.964 0.030 83.6)",
+    "sidebar-ring": "oklch(0.523 0.135 144.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.011 60.9)",
+    "foreground": "oklch(0.977 0.028 88.7)",
+    "card": "oklch(0.293 0.040 59.0)",
+    "card-foreground": "oklch(0.977 0.028 88.7)",
+    "popover": "oklch(0.293 0.040 59.0)",
+    "popover-foreground": "oklch(0.977 0.028 88.7)",
+    "primary": "oklch(0.523 0.135 144.2)",
+    "primary-foreground": "oklch(0.222 0.011 60.9)",
+    "secondary": "oklch(0.480 0.047 62.7)",
+    "secondary-foreground": "oklch(0.977 0.028 88.7)",
+    "muted": "oklch(0.480 0.047 62.7)",
+    "muted-foreground": "oklch(0.966 0.030 85.6)",
+    "accent": "oklch(0.849 0.151 81.3)",
+    "accent-foreground": "oklch(0.222 0.011 60.9)",
+    "destructive": "oklch(0.747 0.180 57.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.523 0.135 144.2)",
+    "chart-1": "oklch(0.523 0.135 144.2)",
+    "chart-2": "oklch(0.747 0.180 57.4)",
+    "chart-3": "oklch(0.849 0.151 81.3)",
+    "chart-4": "oklch(0.744 0.119 142.0)",
+    "chart-5": "oklch(0.953 0.033 83.7)",
+    "sidebar": "oklch(0.272 0.032 57.8)",
+    "sidebar-foreground": "oklch(0.977 0.028 88.7)",
+    "sidebar-primary": "oklch(0.523 0.135 144.2)",
+    "sidebar-primary-foreground": "oklch(0.222 0.011 60.9)",
+    "sidebar-accent": "oklch(0.480 0.047 62.7)",
+    "sidebar-accent-foreground": "oklch(0.977 0.028 88.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.523 0.135 144.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Productive English product UI with sturdy display guidance and Japanese typography guidance for Noto Sans JP or Yu Gothic interface text, optional Mincho-style harvest notes, compact data labels, readable tables, and operational navigation.",
+  "layout": "Kitchen-garden operations dashboards, 8px radii, saffron primary actions, leaf-green sidebars, warm parchment cards, umber data contrast, measured spacing, and practical forms for planning, seeding, harvesting, inventory, and garden records.",
+  "tags": [
+    "marigold",
+    "flower",
+    "kitchen-garden",
+    "saffron-orange",
+    "leaf-green",
+    "umber",
+    "productive",
+    "garden-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-marigold/motif.png",
+    "board": "/systems/morphous-marigold/design-system-light.png",
+    "darkBoard": "/systems/morphous-marigold/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-marigold/theme.css",
+    "themeJson": "/systems/morphous-marigold/theme.json",
+    "promptsJson": "/systems/morphous-marigold/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent marigold bloom motif",
+      "asset": "/systems/morphous-marigold/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Marigold transparent motif chroma-key source\nPrimary request: Create only a complete marigold bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A kitchen garden marigold bloom with layered ruffled saffron-orange petals, deeper burnt-orange petal shadows, a compact warm umber center, a few small natural leaf-green marigold leaves, crisp botanical detail, natural petal texture, clean studio lighting. The bloom must be recognizable as marigold, not chrysanthemum, calendula, dahlia, or sunflower.\nComposition/framing: centered complete bloom cutout with leaves visible, generous padding on every side, no cropping.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no hand, no props, no landscape, no second flower, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-marigold/design-system-light.png",
+      "sourceAsset": "/systems/morphous-marigold/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Marigold light-mode design-system board, regeneration for larger source resolution\nInput image: Use the marigold bloom cutout as the source reference for palette, texture, and visual language.\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Marigold\", clearly derived from a kitchen garden marigold bloom.\nReference use: Extract saffron-orange ruffled petal actions, burnt-orange petal shadows, leaf-green navigation and success states, umber soil depth, soft garden-cream surfaces, and productive garden workflow rhythm. The board must visibly respect these colors and materials.\nCanvas: strict 16:9 landscape design board, target 3840x2160 4K source board. Make the board a wide desktop presentation, not a small preview.\nResolution and legibility: large readable section labels and component labels, precise grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Marigold, Marigold Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, soft shadow tokens, generated asset examples.\nTypography: productive English product UI with sturdy readable display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option only for harvest notes. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nColor palette: motif-derived colors only, with named swatches: Garden Cream, Soil Ink, Saffron Petal, Leaf Row, Marigold Gold, Petal Shadow, Seed Umber, Sprout Green, Parchment Card, Bed Border, Harvest Success.\nVisual style: productive garden system for planning, harvesting, seeding, inventory, and kitchen-garden operations; warm light surfaces, saffron primary buttons, leaf-green navigation, umber data contrast, subtle petal/soil texture, crisp component edges, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Marigold, no tiny illegible text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-marigold/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-marigold/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Marigold dark-mode design-system board, regeneration for larger source resolution\nInput images: Use the marigold bloom cutout and the light-mode Morphous Marigold board as references. Treat them as reference images, not edit targets.\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible board for \"Morphous Marigold\" that feels like the provided light board translated to dark mode, not a new theme.\nReference use: Preserve the same productive garden workflow language, component coverage, 8px radius, palette roles, texture rhythm, spacing system, typography guidance, and marigold-derived identity. Translate saffron petals into primary actions and focus highlights; use leaf green for navigation and success; use umber soil and deep compost browns for dark surfaces; use garden-cream highlights for foreground text.\nCanvas: strict 16:9 landscape board, target 3840x2160 4K source board. Make the board a wide desktop presentation, not a small preview.\nResolution and legibility: large readable labels and component labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Marigold, Marigold Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, shadow tokens, semantic tokens, generated asset examples.\nTypography: productive English product UI with sturdy readable display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option only for harvest notes. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nDark palette: deepest Soil Ink and Seed Umber backgrounds, compost-brown cards, garden-cream text, saffron-orange primary controls, leaf-green navigation and success states, muted bed-border dividers, restrained red-orange destructive state only where needed.\nVisual style: dark productive garden operations UI, warm earthy contrast, saffron and leaf highlights, subtle marigold petal texture, quiet shadows, crisp shadcn/tweakcn components, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon palette, no flat pure black background except tiny ink token swatches, no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Marigold, no tiny illegible text."
+    }
+  ]
+}

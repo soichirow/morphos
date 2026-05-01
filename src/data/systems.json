@@ -3718,6 +3718,194 @@
     }
   },
   {
+    "slug": "morphous-carnation",
+    "name": "Morphous Carnation",
+    "motifName": "Carnation",
+    "motifCategory": "flower",
+    "biome": "cut flower bed",
+    "motif": "carnation ruffle",
+    "description": "A shadcn/tweakcn-compatible layered social and product system derived from carnation ruffles: rose-pink petals, cream-highlighted edges, stem-green accents, soft blush surfaces, and a graceful people-centered interaction model.",
+    "typography": "Expressive product headings paired with durable sans-serif interface text, plus Japanese typography guidance for social dashboards, profile panels, command search, state labels, and scan-friendly tables.",
+    "layout": "Layered social surfaces, petal-like grouped panels, 8px component radii, soft cream backgrounds, rose-pink primary actions, stem-green status accents, and calm dashboard/data structure.",
+    "tags": [
+      "carnation",
+      "flower",
+      "cut-flower-bed",
+      "rose-pink",
+      "stem-green",
+      "cream",
+      "layered-social-system",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Petal Cream",
+        "hex": "#FFF7F3",
+        "oklch": "oklch(0.981 0.010 48.6)"
+      },
+      {
+        "role": "Ink",
+        "name": "Deep Petal Ink",
+        "hex": "#2A151B",
+        "oklch": "oklch(0.227 0.035 1.9)"
+      },
+      {
+        "role": "Primary",
+        "name": "Carnation Rose",
+        "hex": "#E91549",
+        "oklch": "oklch(0.598 0.232 17.5)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Blush Panel",
+        "hex": "#FFE1E7",
+        "oklch": "oklch(0.936 0.034 4.1)"
+      },
+      {
+        "role": "Accent",
+        "name": "Stem Green",
+        "hex": "#4CAF7A",
+        "oklch": "oklch(0.681 0.123 157.3)"
+      },
+      {
+        "role": "Signal",
+        "name": "Ruffle Coral",
+        "hex": "#FF6F93",
+        "oklch": "oklch(0.726 0.178 7.1)"
+      },
+      {
+        "role": "Surface",
+        "name": "Cream Highlight",
+        "hex": "#FFF0E0",
+        "oklch": "oklch(0.963 0.027 69.3)"
+      },
+      {
+        "role": "Muted",
+        "name": "Soft Petal Taupe",
+        "hex": "#D6BBB9",
+        "oklch": "oklch(0.815 0.031 22.9)"
+      },
+      {
+        "role": "Depth",
+        "name": "Petal Plum",
+        "hex": "#3A202B",
+        "oklch": "oklch(0.282 0.044 353.3)"
+      },
+      {
+        "role": "Border",
+        "name": "Ruffle Edge",
+        "hex": "#F3A0A7",
+        "oklch": "oklch(0.790 0.099 14.1)"
+      },
+      {
+        "role": "Success",
+        "name": "Calyx Green",
+        "hex": "#8FD3A6",
+        "oklch": "oklch(0.809 0.094 154.8)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.981 0.010 48.6)",
+      "foreground": "oklch(0.227 0.035 1.9)",
+      "card": "oklch(0.963 0.027 69.3)",
+      "card-foreground": "oklch(0.227 0.035 1.9)",
+      "popover": "oklch(0.963 0.027 69.3)",
+      "popover-foreground": "oklch(0.227 0.035 1.9)",
+      "primary": "oklch(0.598 0.232 17.5)",
+      "primary-foreground": "oklch(0.981 0.010 48.6)",
+      "secondary": "oklch(0.971 0.020 65.1)",
+      "secondary-foreground": "oklch(0.282 0.044 353.3)",
+      "muted": "oklch(0.968 0.022 67.6)",
+      "muted-foreground": "oklch(0.282 0.044 353.3)",
+      "accent": "oklch(0.681 0.123 157.3)",
+      "accent-foreground": "oklch(0.227 0.035 1.9)",
+      "destructive": "oklch(0.598 0.232 17.5)",
+      "border": "oklch(0.910 0.026 52.2)",
+      "input": "oklch(0.910 0.026 52.2)",
+      "ring": "oklch(0.936 0.034 4.1)",
+      "chart-1": "oklch(0.598 0.232 17.5)",
+      "chart-2": "oklch(0.936 0.034 4.1)",
+      "chart-3": "oklch(0.681 0.123 157.3)",
+      "chart-4": "oklch(0.726 0.178 7.1)",
+      "chart-5": "oklch(0.282 0.044 353.3)",
+      "sidebar": "oklch(0.968 0.021 65.3)",
+      "sidebar-foreground": "oklch(0.227 0.035 1.9)",
+      "sidebar-primary": "oklch(0.598 0.232 17.5)",
+      "sidebar-primary-foreground": "oklch(0.981 0.010 48.6)",
+      "sidebar-accent": "oklch(0.906 0.044 31.9)",
+      "sidebar-accent-foreground": "oklch(0.598 0.232 17.5)",
+      "sidebar-border": "oklch(0.910 0.026 52.2)",
+      "sidebar-ring": "oklch(0.936 0.034 4.1)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.227 0.035 1.9)",
+      "foreground": "oklch(0.981 0.010 48.6)",
+      "card": "oklch(0.264 0.042 354.9)",
+      "card-foreground": "oklch(0.981 0.010 48.6)",
+      "popover": "oklch(0.264 0.042 354.9)",
+      "popover-foreground": "oklch(0.981 0.010 48.6)",
+      "primary": "oklch(0.936 0.034 4.1)",
+      "primary-foreground": "oklch(0.227 0.035 1.9)",
+      "secondary": "oklch(0.410 0.038 358.7)",
+      "secondary-foreground": "oklch(0.981 0.010 48.6)",
+      "muted": "oklch(0.410 0.038 358.7)",
+      "muted-foreground": "oklch(0.907 0.019 29.6)",
+      "accent": "oklch(0.681 0.123 157.3)",
+      "accent-foreground": "oklch(0.227 0.035 1.9)",
+      "destructive": "oklch(0.598 0.232 17.5)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.936 0.034 4.1)",
+      "chart-1": "oklch(0.936 0.034 4.1)",
+      "chart-2": "oklch(0.598 0.232 17.5)",
+      "chart-3": "oklch(0.681 0.123 157.3)",
+      "chart-4": "oklch(0.726 0.178 7.1)",
+      "chart-5": "oklch(0.815 0.031 22.9)",
+      "sidebar": "oklch(0.252 0.039 357.9)",
+      "sidebar-foreground": "oklch(0.981 0.010 48.6)",
+      "sidebar-primary": "oklch(0.936 0.034 4.1)",
+      "sidebar-primary-foreground": "oklch(0.227 0.035 1.9)",
+      "sidebar-accent": "oklch(0.410 0.038 358.7)",
+      "sidebar-accent-foreground": "oklch(0.981 0.010 48.6)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.936 0.034 4.1)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent carnation motif",
+        "asset": "/systems/morphous-carnation/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Carnation transparent motif chroma-key source\nPrimary request: Create only a complete carnation ruffle motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A single lush carnation bloom with many layered rose-pink ruffled petals, soft blush gradients, warm cream-highlighted petal edges, subtle natural veining, a stem-green calyx, and a short green stem. All petals must remain within rose pink, blush pink, warm coral pink, and cream tones. Botanical accuracy, crisp petal contours, tactile velvety texture, clean studio lighting.\nComposition/framing: centered complete cutout with generous padding on all sides; no cropping, no environment, no props.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet, no hand, no soil, no landscape, no decorative background, no cast shadow, no contact shadow, no reflection, no second flower, no black petals, no gray petals, no purple petals, no blue petals, no high-contrast dark interiors."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-carnation/design-system-light.png",
+        "sourceAsset": "/systems/morphous-carnation/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Carnation light-mode design-system board, regenerated for higher source resolution\nInput images: Use the visible transparent carnation motif and the visible first light board as references. Preserve the same system identity, but render a cleaner, larger, less crowded 16:9 board.\nPrimary request: Regenerate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named Morphous Carnation, derived from rose-pink carnation ruffles, warm cream petal highlights, stem-green accents, and a layered social/product UI mood.\nCanvas and resolution: strict 16:9 landscape composition, target 3840 x 2160 pixels, 4K-class source image. Keep all labels large and readable at gallery preview scale; reduce density instead of using tiny text.\nRequired visible sections: title \"Morphous Carnation\", motif story \"Carnation Ruffle\", Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, social activity feed, layered profile panels, sidebar navigation, top navigation, metrics, relationship chart, moderation/data dashboard, forms, table rows, command palette, search field, empty/loading/error/success states, spacing scale, radius samples, border samples, shadow samples, semantic token swatches.\nTheme language: show shadcn/tweakcn CSS-variable roles as readable token chips: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 through chart-5, sidebar tokens, radius. Surfaces should feel like layered carnation petals: soft cream base, blush-pink cards, rose primary actions, coral focus, stem-green success/accent, deep petal-ink text.\nTypography: English product UI guidance plus Japanese typography examples using short readable labels: 見出し, 本文, 状態, 検索.\nStyle: premium practical product UI, precise grid, 8px-radius card language, layered but not decorative, social system with feeds, people, groups, activity, and data tools. Motif-derived rose-pink, stem-green, and cream palette must dominate without becoming one-note.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no stock landing-page hero, no random brand names, no unreadable microtext, no watermark, no misspelling of Morphous Carnation."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-carnation/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-carnation/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Carnation dark-mode design-system board\nInput images: Use the visible transparent carnation motif and the visible Morphous Carnation light board as references. Preserve the same system identity, layout language, palette roles, components, and social/product UI coverage, but translate it into dark mode.\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible design-system board named Morphous Carnation. It must feel like the light board translated to dark mode, not a separate theme.\nCanvas and resolution: strict 16:9 landscape composition, target 3840 x 2160 pixels, 4K-class source image. Keep labels large and readable at gallery preview scale; avoid dense tiny text.\nRequired visible sections: title \"Morphous Carnation\", \"Dark Mode\", motif story \"Carnation Ruffle\", Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, social activity feed, layered profile panels, sidebar navigation, top navigation, metrics, relationship chart, moderation/data dashboard, forms, table rows, command palette, search field, empty/loading/error/success states, spacing scale, radius samples, border samples, shadow samples, semantic token swatches.\nTheme language: show shadcn/tweakcn CSS-variable roles as readable token chips: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 through chart-5, sidebar tokens, radius. Use deep petal-plum and green-black backgrounds, cream foreground text, rose-pink primary actions, coral focus/ring, soft blush surfaces, and stem-green success accents. Surfaces should still feel layered like carnation petals.\nTypography: English product UI guidance plus Japanese typography examples using short readable labels: 見出し, 本文, 状態, 検索.\nStyle: premium practical product UI, precise grid, restrained 8px-radius card language, layered social system with feeds, people, groups, activity, and data tools. Dark mode should be readable and calm, with motif-derived rose pink, stem green, cream, and dark petal ink.\nConstraints: no neon colors, no generic pure-black dashboard, no generic purple/blue gradients, no unrelated saturated colors, no stock landing-page hero, no random brand names, no unreadable microtext, no watermark, no misspelling of Morphous Carnation."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-carnation/motif.png",
+      "board": "/systems/morphous-carnation/design-system-light.png",
+      "darkBoard": "/systems/morphous-carnation/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-carnation/theme.css",
+      "themeJson": "/systems/morphous-carnation/theme.json",
+      "promptsJson": "/systems/morphous-carnation/prompts.json"
+    }
+  },
+  {
     "slug": "morphous-chameleon",
     "name": "Morphous Chameleon",
     "motifName": "Chameleon",
@@ -4576,6 +4764,199 @@
       "themeCss": "/systems/morphous-citrus/theme.css",
       "themeJson": "/systems/morphous-citrus/theme.json",
       "promptsJson": "/systems/morphous-citrus/prompts.json"
+    }
+  },
+  {
+    "slug": "morphous-clematis",
+    "name": "Morphous Clematis",
+    "motifName": "Clematis",
+    "motifCategory": "flower",
+    "biome": "climbing trellis",
+    "motif": "clematis bloom",
+    "description": "A shadcn/tweakcn-compatible precise portfolio system derived from a clematis bloom: violet petal actions, cream filament surfaces, trellis-green structure, leaf-vein muted states, and disciplined portfolio grids for curatorial and case-study interfaces.",
+    "typography": "Precise English portfolio UI with Japanese typography guidance for project titles, metadata, table labels, command search, editorial body text, and readable portfolio navigation.",
+    "layout": "Portfolio dashboards, visual archives, project detail panels, 8px radii, trellis-aligned grids, cream filament dividers, violet primary actions, dark vine navigation, and restrained botanical texture.",
+    "tags": [
+      "clematis",
+      "flower",
+      "climbing-trellis",
+      "violet-petal",
+      "cream-filament",
+      "portfolio",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Petal Ivory",
+        "hex": "#FAF7F1",
+        "oklch": "oklch(0.977 0.009 84.6)"
+      },
+      {
+        "role": "Ink",
+        "name": "Inked Vine",
+        "hex": "#1F2A1F",
+        "oklch": "oklch(0.271 0.025 144.8)"
+      },
+      {
+        "role": "Primary",
+        "name": "Clematis Violet",
+        "hex": "#8B46C1",
+        "oklch": "oklch(0.538 0.188 307.0)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Trellis Green",
+        "hex": "#5E7F5A",
+        "oklch": "oklch(0.561 0.067 141.9)"
+      },
+      {
+        "role": "Accent",
+        "name": "Petal Shadow",
+        "hex": "#4B2E83",
+        "oklch": "oklch(0.385 0.136 294.9)"
+      },
+      {
+        "role": "Signal",
+        "name": "Pollen Focus",
+        "hex": "#E5C84A",
+        "oklch": "oklch(0.835 0.145 96.0)"
+      },
+      {
+        "role": "Surface",
+        "name": "Cream Filament",
+        "hex": "#FFF6E6",
+        "oklch": "oklch(0.976 0.023 82.1)"
+      },
+      {
+        "role": "Muted",
+        "name": "Leaf Vein",
+        "hex": "#A2B66F",
+        "oklch": "oklch(0.744 0.098 121.6)"
+      },
+      {
+        "role": "Depth",
+        "name": "Night Petal",
+        "hex": "#171B23",
+        "oklch": "oklch(0.222 0.017 264.1)"
+      },
+      {
+        "role": "Border",
+        "name": "Olive Stem",
+        "hex": "#7C6F57",
+        "oklch": "oklch(0.547 0.039 82.7)"
+      },
+      {
+        "role": "Info",
+        "name": "Info Blue",
+        "hex": "#4C6EF5",
+        "oklch": "oklch(0.590 0.205 268.6)"
+      },
+      {
+        "role": "Danger",
+        "name": "Destructive Rose",
+        "hex": "#D6455D",
+        "oklch": "oklch(0.601 0.181 14.9)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.977 0.009 84.6)",
+      "foreground": "oklch(0.271 0.025 144.8)",
+      "card": "oklch(0.976 0.023 82.1)",
+      "card-foreground": "oklch(0.271 0.025 144.8)",
+      "popover": "oklch(0.976 0.023 82.1)",
+      "popover-foreground": "oklch(0.271 0.025 144.8)",
+      "primary": "oklch(0.538 0.188 307.0)",
+      "primary-foreground": "oklch(0.977 0.009 84.6)",
+      "secondary": "oklch(0.976 0.016 79.4)",
+      "secondary-foreground": "oklch(0.222 0.017 264.1)",
+      "muted": "oklch(0.976 0.019 80.1)",
+      "muted-foreground": "oklch(0.222 0.017 264.1)",
+      "accent": "oklch(0.385 0.136 294.9)",
+      "accent-foreground": "oklch(0.271 0.025 144.8)",
+      "destructive": "oklch(0.538 0.188 307.0)",
+      "border": "oklch(0.894 0.048 108.6)",
+      "input": "oklch(0.894 0.048 108.6)",
+      "ring": "oklch(0.561 0.067 141.9)",
+      "chart-1": "oklch(0.538 0.188 307.0)",
+      "chart-2": "oklch(0.561 0.067 141.9)",
+      "chart-3": "oklch(0.385 0.136 294.9)",
+      "chart-4": "oklch(0.835 0.145 96.0)",
+      "chart-5": "oklch(0.222 0.017 264.1)",
+      "sidebar": "oklch(0.975 0.018 81.3)",
+      "sidebar-foreground": "oklch(0.271 0.025 144.8)",
+      "sidebar-primary": "oklch(0.538 0.188 307.0)",
+      "sidebar-primary-foreground": "oklch(0.977 0.009 84.6)",
+      "sidebar-accent": "oklch(0.923 0.018 13.1)",
+      "sidebar-accent-foreground": "oklch(0.538 0.188 307.0)",
+      "sidebar-border": "oklch(0.894 0.048 108.6)",
+      "sidebar-ring": "oklch(0.561 0.067 141.9)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.271 0.025 144.8)",
+      "foreground": "oklch(0.977 0.009 84.6)",
+      "card": "oklch(0.238 0.010 219.9)",
+      "card-foreground": "oklch(0.977 0.009 84.6)",
+      "popover": "oklch(0.238 0.010 219.9)",
+      "popover-foreground": "oklch(0.977 0.009 84.6)",
+      "primary": "oklch(0.561 0.067 141.9)",
+      "primary-foreground": "oklch(0.271 0.025 144.8)",
+      "secondary": "oklch(0.350 0.018 138.7)",
+      "secondary-foreground": "oklch(0.977 0.009 84.6)",
+      "muted": "oklch(0.350 0.018 138.7)",
+      "muted-foreground": "oklch(0.873 0.048 117.9)",
+      "accent": "oklch(0.385 0.136 294.9)",
+      "accent-foreground": "oklch(0.271 0.025 144.8)",
+      "destructive": "oklch(0.538 0.188 307.0)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.561 0.067 141.9)",
+      "chart-1": "oklch(0.561 0.067 141.9)",
+      "chart-2": "oklch(0.538 0.188 307.0)",
+      "chart-3": "oklch(0.385 0.136 294.9)",
+      "chart-4": "oklch(0.835 0.145 96.0)",
+      "chart-5": "oklch(0.744 0.098 121.6)",
+      "sidebar": "oklch(0.248 0.012 178.4)",
+      "sidebar-foreground": "oklch(0.977 0.009 84.6)",
+      "sidebar-primary": "oklch(0.561 0.067 141.9)",
+      "sidebar-primary-foreground": "oklch(0.271 0.025 144.8)",
+      "sidebar-accent": "oklch(0.350 0.018 138.7)",
+      "sidebar-accent-foreground": "oklch(0.977 0.009 84.6)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.561 0.067 141.9)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent clematis bloom motif",
+        "asset": "/systems/morphous-clematis/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Clematis transparent motif chroma-key source\nPrimary request: Create only a clematis bloom motif for a Morphous design-system catalog, isolated on a removable chroma-key background.\nSubject: A complete clematis bloom with six to eight precise violet petals, subtle petal veins, cream filament stamens, a small green botanical center, and a few restrained dark olive vine/leaf hints. Accurate clematis flower form, crisp natural edges, no cast shadow.\nComposition/framing: centered complete cutout with generous padding; do not crop the bloom, petals, stamens, or vine hints.\nLighting/mood: clean studio light that preserves violet petal texture, cream filaments, and natural botanical detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for local background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or edge vignette. Do not use #00ff00 anywhere in the flower, leaves, vines, or center.\nConstraints: no text, no watermark, no trellis, no pot, no hand, no vase, no landscape, no second bloom, no insects, no decorative frame."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-clematis/design-system-light.png",
+        "sourceAsset": "/systems/morphous-clematis/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Clematis light-mode design-system board, regenerated for larger 16:9 source quality\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Clematis\", derived from the clematis bloom motif shown earlier: violet petals, cream filament stamens, olive-green vine leaves, and climbing trellis structure.\nCanvas: STRICT wide 16:9 landscape board, target 3840x2160. Do not make a portrait or square image. Fill the full horizontal canvas with a precise design-system layout.\nResolution and legibility: high-resolution source board, at least 2400px wide if available, large readable labels, restrained density, crisp portfolio-system grid, no tiny token tables.\nDesign mood: precise portfolio system for curators, case studies, asset libraries, client work, visual archives, and editorial project dashboards.\nRequired visible sections: Morphous Clematis title, Clematis Bloom motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, portfolio cards, project detail panel, sidebar navigation, top navigation, metrics, small charts, data table, command palette/search overlay, form states, empty/loading/error/success states, texture samples, spacing/radius/border/shadow tokens, generated asset thumbnails.\nTheme language: shadcn/tweakcn CSS-variable roles: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, radius.\nPalette roles: petal ivory background, inked vine foreground, clematis violet primary, petal shadow purple accent, cream filament surfaces, pollen focus ring, trellis green secondary, leaf vein muted, warm stem border, precise neutral chart colors from the motif.\nTypography: English portfolio UI guidance plus Japanese typography examples for project titles, labels, metadata, tables, navigation, and body text. Include readable Japanese sample labels.\nVisual details: angular petal geometry, subtle vein texture, trellis-like alignment guides, cream filament dividers, crisp 8px radii, light airy surfaces, exact portfolio spacing.\nText constraints: short readable labels only.\nConstraints: no unrelated bright colors, no generic purple-blue gradients, no stock UI kit, no misspelling of Morphous Clematis, no watermark, no illegible microtext."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-clematis/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-clematis/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Clematis dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible design-system board named \"Morphous Clematis\" that feels like the light board shown earlier translated to dark mode, not a new unrelated theme.\nReference use: Preserve the same clematis motif language: violet petals, cream filament stamens, olive-green vine leaves, climbing trellis alignment, subtle petal vein texture, precise portfolio-system components.\nCanvas: exact 16:9 landscape board, target 3840x2160, high-resolution source asset, no device frame.\nResolution and legibility: large readable section labels, restrained density, crisp grid, no tiny token tables. Use polished product-design-system board presentation, not marketing art.\nDesign mood: precise portfolio system for curators, case studies, asset libraries, client work, visual archives, and editorial project dashboards.\nRequired visible sections: Morphous Clematis title, Dark Mode, Clematis Bloom motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, portfolio cards, project detail panel, sidebar navigation, top navigation, metrics, small charts, data table, command palette/search overlay, form states, empty/loading/error/success states, texture samples, spacing/radius/border/shadow tokens, generated asset thumbnails.\nTheme language: shadcn/tweakcn CSS-variable roles including background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart colors, sidebar colors, and radius.\nDark palette roles: deep vine ink background, night petal surface, luminous cream filament foreground, clematis violet primary, lavender focus ring, trellis green secondary, leaf vein muted, warm stem border, restrained chart accents derived from motif colors.\nTypography: English portfolio UI guidance plus Japanese typography examples for dark-mode project titles, labels, metadata, tables, navigation, and body text. Include readable Japanese sample labels.\nVisual details: dark botanical paper surfaces, fine petal-vein texture, trellis-like alignment guides, cream filament dividers, crisp 8px radii, accessible contrast, exact portfolio spacing, subtle glows only for focus rings.\nText constraints: use short readable interface labels only; avoid long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated bright colors, no generic purple-blue gradient, no stock UI kit, no misspelling of Morphous Clematis, no watermark, no illegible microtext."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-clematis/motif.png",
+      "board": "/systems/morphous-clematis/design-system-light.png",
+      "darkBoard": "/systems/morphous-clematis/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-clematis/theme.css",
+      "themeJson": "/systems/morphous-clematis/theme.json",
+      "promptsJson": "/systems/morphous-clematis/prompts.json"
     }
   },
   {
@@ -6716,6 +7097,198 @@
     }
   },
   {
+    "slug": "morphous-delphinium",
+    "name": "Delphinium",
+    "motifName": "Delphinium Spike",
+    "motifCategory": "flower",
+    "biome": "cool garden",
+    "motif": "delphinium spike",
+    "description": "A shadcn/tweakcn-compatible system derived from a cobalt delphinium spike: precise cobalt actions, blue-violet focus states, leaf-green success accents, cool porcelain surfaces, and botanical ink contrast for a crisp knowledge system.",
+    "typography": "Geist for structured English knowledge UI with Noto Sans JP guidance for Japanese headings, body, labels, tabular values, and dense research interfaces.",
+    "layout": "Crisp 8px knowledge grids, vertical spike rhythm, cool-grey dividers, cobalt command states, restrained violet rings, and leaf-accented status surfaces for documentation, research, and data dashboards.",
+    "tags": [
+      "delphinium",
+      "flower",
+      "cool-garden",
+      "cobalt-blue",
+      "blue-violet",
+      "leaf-green",
+      "knowledge-system",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Cool Porcelain",
+        "hex": "#f8fafc",
+        "oklch": "oklch(0.984 0.003 247.9)"
+      },
+      {
+        "role": "Ink",
+        "name": "Botanical Ink",
+        "hex": "#0f172a",
+        "oklch": "oklch(0.208 0.040 265.8)"
+      },
+      {
+        "role": "Primary",
+        "name": "Cobalt Bloom",
+        "hex": "#1e40af",
+        "oklch": "oklch(0.424 0.181 265.6)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Delphinium Blue",
+        "hex": "#2563eb",
+        "oklch": "oklch(0.546 0.215 262.9)"
+      },
+      {
+        "role": "Accent",
+        "name": "Blue Violet",
+        "hex": "#4f46e5",
+        "oklch": "oklch(0.511 0.230 277.0)"
+      },
+      {
+        "role": "Focus",
+        "name": "Violet Shadow",
+        "hex": "#7c3aed",
+        "oklch": "oklch(0.541 0.247 293.0)"
+      },
+      {
+        "role": "Success",
+        "name": "Leaf Green",
+        "hex": "#16a34a",
+        "oklch": "oklch(0.627 0.170 149.2)"
+      },
+      {
+        "role": "Support",
+        "name": "Stem Green",
+        "hex": "#15803d",
+        "oklch": "oklch(0.527 0.137 150.1)"
+      },
+      {
+        "role": "Muted",
+        "name": "Cool Grey",
+        "hex": "#64748b",
+        "oklch": "oklch(0.554 0.041 257.4)"
+      },
+      {
+        "role": "Border",
+        "name": "Garden Mist",
+        "hex": "#cbd5e1",
+        "oklch": "oklch(0.869 0.020 252.9)"
+      },
+      {
+        "role": "Surface",
+        "name": "Petal White",
+        "hex": "#ffffff",
+        "oklch": "oklch(1.000 0.000 89.9)"
+      },
+      {
+        "role": "Depth",
+        "name": "Night Floret",
+        "hex": "#080b1a",
+        "oklch": "oklch(0.156 0.032 273.2)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.984 0.003 247.9)",
+      "foreground": "oklch(0.208 0.040 265.8)",
+      "card": "oklch(1.000 0.000 89.9)",
+      "card-foreground": "oklch(0.208 0.040 265.8)",
+      "popover": "oklch(1.000 0.000 89.9)",
+      "popover-foreground": "oklch(0.208 0.040 265.8)",
+      "primary": "oklch(0.424 0.181 265.6)",
+      "primary-foreground": "oklch(0.984 0.003 247.9)",
+      "secondary": "oklch(0.994 0.002 247.8)",
+      "secondary-foreground": "oklch(0.156 0.032 273.2)",
+      "muted": "oklch(0.996 0.001 197.1)",
+      "muted-foreground": "oklch(0.156 0.032 273.2)",
+      "accent": "oklch(0.511 0.230 277.0)",
+      "accent-foreground": "oklch(0.208 0.040 265.8)",
+      "destructive": "oklch(0.424 0.181 265.6)",
+      "border": "oklch(0.846 0.013 255.5)",
+      "input": "oklch(0.846 0.013 255.5)",
+      "ring": "oklch(0.546 0.215 262.9)",
+      "chart-1": "oklch(0.424 0.181 265.6)",
+      "chart-2": "oklch(0.546 0.215 262.9)",
+      "chart-3": "oklch(0.511 0.230 277.0)",
+      "chart-4": "oklch(0.541 0.247 293.0)",
+      "chart-5": "oklch(0.156 0.032 273.2)",
+      "sidebar": "oklch(0.994 0.001 286.4)",
+      "sidebar-foreground": "oklch(0.208 0.040 265.8)",
+      "sidebar-primary": "oklch(0.424 0.181 265.6)",
+      "sidebar-primary-foreground": "oklch(0.984 0.003 247.9)",
+      "sidebar-accent": "oklch(0.932 0.018 272.3)",
+      "sidebar-accent-foreground": "oklch(0.424 0.181 265.6)",
+      "sidebar-border": "oklch(0.846 0.013 255.5)",
+      "sidebar-ring": "oklch(0.546 0.215 262.9)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.208 0.040 265.8)",
+      "foreground": "oklch(0.984 0.003 247.9)",
+      "card": "oklch(0.173 0.034 269.5)",
+      "card-foreground": "oklch(0.984 0.003 247.9)",
+      "popover": "oklch(0.173 0.034 269.5)",
+      "popover-foreground": "oklch(0.984 0.003 247.9)",
+      "primary": "oklch(0.546 0.215 262.9)",
+      "primary-foreground": "oklch(0.208 0.040 265.8)",
+      "secondary": "oklch(0.254 0.033 269.0)",
+      "secondary-foreground": "oklch(0.984 0.003 247.9)",
+      "muted": "oklch(0.254 0.033 269.0)",
+      "muted-foreground": "oklch(0.798 0.018 253.4)",
+      "accent": "oklch(0.511 0.230 277.0)",
+      "accent-foreground": "oklch(0.208 0.040 265.8)",
+      "destructive": "oklch(0.424 0.181 265.6)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.546 0.215 262.9)",
+      "chart-1": "oklch(0.546 0.215 262.9)",
+      "chart-2": "oklch(0.424 0.181 265.6)",
+      "chart-3": "oklch(0.511 0.230 277.0)",
+      "chart-4": "oklch(0.541 0.247 293.0)",
+      "chart-5": "oklch(0.554 0.041 257.4)",
+      "sidebar": "oklch(0.183 0.038 270.6)",
+      "sidebar-foreground": "oklch(0.984 0.003 247.9)",
+      "sidebar-primary": "oklch(0.546 0.215 262.9)",
+      "sidebar-primary-foreground": "oklch(0.208 0.040 265.8)",
+      "sidebar-accent": "oklch(0.254 0.033 269.0)",
+      "sidebar-accent-foreground": "oklch(0.984 0.003 247.9)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.546 0.215 262.9)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent delphinium motif source",
+        "asset": "/systems/morphous-delphinium/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only a delphinium flower spike, isolated full subject, no environment, no props, no text.\nSubject: A single tall delphinium spike from a cool garden, with layered cobalt blue and blue-violet florets, violet shadow creases, a few natural leaf-green leaves near the stem, accurate botanical structure, crisp petal edges, and refined natural texture.\nComposition/framing: centered complete vertical cutout with generous padding; do not crop the top florets, lower leaves, or stem. The subject should read clearly as one elegant delphinium spike, not a bouquet.\nLighting/mood: clean studio light that preserves cobalt petals, violet shadows, leaf veins, and a crisp knowledge-system precision.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet wrapper, no garden scene, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-delphinium/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, high-resolution 16:9 source asset\nPrimary request: Regenerate a WIDE 16:9 landscape design-system board for \"Morphous Delphinium\" from the visible delphinium spike cutout. Make it a true 4K-class source board, visually equivalent to 3840 x 2160, at least 2400 px wide, not square and not portrait.\nReference image role: the visible delphinium spike cutout is the source motif; derive palette and texture from cobalt blue petals, blue-violet florets, violet shadow creases, leaf green foliage, stem green, crisp white petal centers, cool porcelain highlights, and deep botanical ink.\nLayout requirement: large readable panels on a precise 16:9 canvas, generous margins, fewer larger token rows, clean grid, no tiny dense text.\nMood: crisp knowledge system for a cool garden, precise, structured, readable, shadcn/tweakcn-compatible.\nRequired visible sections with large labels: Morphous Delphinium, Delphinium Spike, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, dashboard metric cards, charts, filters, empty/loading/error states, radius/spacing/border/shadow samples.\nVisual style: premium light-mode UI board, cool porcelain background, crisp cobalt primary actions, violet focus rings, leaf-green success accents, cool grey dividers, delicate vertical spike rhythm, subtle petal-vein texture, restrained shadows, documentation and research dashboard language, 8px card radius.\nTheme language: show shadcn/tweakcn-compatible tokens: background, foreground, card, popover, primary, secondary, muted, accent, border, input, ring, chart-1, chart-2, chart-3, chart-4, chart-5, sidebar.\nTypography: include short examples for Geist and Noto Sans JP; show English headings, body, label, numeric, and Japanese examples like 見出し, 本文, ラベル, 数値.\nText: short readable labels only; keep section headings and token names large enough for preview downscaling.\nConstraints: no dark mode, no unrelated colors, no generic purple/blue gradients, no watermark, no random brands, no misspelling of \"Morphous Delphinium\", no tiny unreadable tables."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-delphinium/design-system-dark.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, high-resolution 16:9 source asset\nPrimary request: Regenerate a WIDE 16:9 landscape dark-mode design-system board for \"Morphous Delphinium\" from the visible delphinium motif and visible light board. Make it a true 4K-class source board, visually equivalent to 3840 x 2160, at least 2400 px wide, not square and not portrait. It must feel like the exact same system translated to dark mode, not a new theme.\nReference image roles: the visible delphinium spike cutout is the motif source; the visible light-mode board is the layout and component-language source. Preserve the palette roles, component coverage, crisp knowledge-system structure, vertical spike rhythm, Japanese typography guidance, shadcn/tweakcn token language, and asset examples.\nLayout requirement: large readable panels on a precise 16:9 canvas, generous margins, fewer larger token rows, clean grid, no tiny dense text.\nRequired visible sections with large labels: Morphous Delphinium, Delphinium Spike, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nVisual details: deep botanical ink background derived from the motif's dark centers and violet shadows, light text from cool porcelain and white petal centers, primary accents from cobalt blue, secondary accents from blue-violet, leaf-green status accents, cool slate borders, violet focus rings, subtle petal-vein and leaf-surface texture overlays, crisp shadcn-style cards and controls, restrained elevation, 8px card radius.\nTypography: include short examples for Geist and Noto Sans JP; show English headings, body, label, numeric, and Japanese examples like 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, dashboard metric cards, charts, filters, empty/loading/error states, radius/spacing/border/shadow samples.\nTheme language: show shadcn/tweakcn-compatible tokens: background, foreground, card, popover, primary, secondary, muted, accent, border, input, ring, chart-1, chart-2, chart-3, chart-4, chart-5, sidebar.\nText: short readable labels only; make section headings and token names large enough for preview downscaling.\nConstraints: no light-mode board, no neon colors, no unrelated saturated colors, no generic purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Delphinium\", no tiny unreadable tables."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-delphinium/motif.png",
+      "board": "/systems/morphous-delphinium/design-system-light.png",
+      "darkBoard": "/systems/morphous-delphinium/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-delphinium/theme.css",
+      "themeJson": "/systems/morphous-delphinium/theme.json",
+      "promptsJson": "/systems/morphous-delphinium/prompts.json"
+    }
+  },
+  {
     "slug": "morphous-dew",
     "name": "Morphous Dew",
     "motifName": "Dew",
@@ -8795,6 +9368,193 @@
     }
   },
   {
+    "slug": "morphous-foxglove",
+    "name": "Morphous Foxglove",
+    "motifName": "Foxglove",
+    "motifCategory": "flower",
+    "biome": "woodland edge",
+    "motif": "foxglove spire",
+    "description": "A shadcn/tweakcn-compatible careful clinical system derived from a foxglove spire: rose-purple bell actions, cream speckled throats, burgundy focus marks, woodland-green controls, and precise clinical surfaces.",
+    "typography": "Geist Sans for clinical product UI, Source Serif Display for restrained botanical headings, and Noto Sans JP guidance for Japanese records, forms, tables, and navigation labels.",
+    "layout": "Exact 8px grids, vertical spire navigation markers, 8px radius clinical cards, speckled focus rings, quiet table density, form-first workflows, and restrained rose-purple status hierarchy.",
+    "tags": [
+      "foxglove",
+      "flower",
+      "woodland-edge",
+      "rose-purple",
+      "speckled-cream",
+      "clinical",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Clinical Cream",
+        "hex": "#FAF7F2",
+        "oklch": "oklch(0.977 0.007 80.7)"
+      },
+      {
+        "role": "Ink",
+        "name": "Woodland Ink",
+        "hex": "#161C18",
+        "oklch": "oklch(0.219 0.012 156.1)"
+      },
+      {
+        "role": "Primary",
+        "name": "Foxglove Rose",
+        "hex": "#B14D8F",
+        "oklch": "oklch(0.570 0.151 342.6)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Leaf Green",
+        "hex": "#2E7D58",
+        "oklch": "oklch(0.531 0.097 159.8)"
+      },
+      {
+        "role": "Accent",
+        "name": "Speckle Burgundy",
+        "hex": "#6E1D3D",
+        "oklch": "oklch(0.372 0.117 0.5)"
+      },
+      {
+        "role": "Signal",
+        "name": "Throat Cream",
+        "hex": "#FFF6E6",
+        "oklch": "oklch(0.976 0.023 82.1)"
+      },
+      {
+        "role": "Surface",
+        "name": "Petal Surface",
+        "hex": "#F3E6F2",
+        "oklch": "oklch(0.939 0.021 328.1)"
+      },
+      {
+        "role": "Muted",
+        "name": "Stem Muted",
+        "hex": "#6A7F63",
+        "oklch": "oklch(0.572 0.049 137.9)"
+      },
+      {
+        "role": "Depth",
+        "name": "Night Stalk",
+        "hex": "#0F1512",
+        "oklch": "oklch(0.188 0.011 163.5)"
+      },
+      {
+        "role": "Border",
+        "name": "Leaf Vein",
+        "hex": "#A8B49A",
+        "oklch": "oklch(0.753 0.039 127.6)"
+      },
+      {
+        "role": "Success",
+        "name": "Woodland Check",
+        "hex": "#4F8A58",
+        "oklch": "oklch(0.579 0.098 147.8)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.977 0.007 80.7)",
+      "foreground": "oklch(0.219 0.012 156.1)",
+      "card": "oklch(0.939 0.021 328.1)",
+      "card-foreground": "oklch(0.219 0.012 156.1)",
+      "popover": "oklch(0.939 0.021 328.1)",
+      "popover-foreground": "oklch(0.219 0.012 156.1)",
+      "primary": "oklch(0.570 0.151 342.6)",
+      "primary-foreground": "oklch(0.977 0.007 80.7)",
+      "secondary": "oklch(0.955 0.012 342.6)",
+      "secondary-foreground": "oklch(0.188 0.011 163.5)",
+      "muted": "oklch(0.950 0.014 336.1)",
+      "muted-foreground": "oklch(0.188 0.011 163.5)",
+      "accent": "oklch(0.372 0.117 0.5)",
+      "accent-foreground": "oklch(0.219 0.012 156.1)",
+      "destructive": "oklch(0.570 0.151 342.6)",
+      "border": "oklch(0.811 0.003 84.6)",
+      "input": "oklch(0.811 0.003 84.6)",
+      "ring": "oklch(0.531 0.097 159.8)",
+      "chart-1": "oklch(0.570 0.151 342.6)",
+      "chart-2": "oklch(0.531 0.097 159.8)",
+      "chart-3": "oklch(0.372 0.117 0.5)",
+      "chart-4": "oklch(0.976 0.023 82.1)",
+      "chart-5": "oklch(0.188 0.011 163.5)",
+      "sidebar": "oklch(0.952 0.012 337.5)",
+      "sidebar-foreground": "oklch(0.219 0.012 156.1)",
+      "sidebar-primary": "oklch(0.570 0.151 342.6)",
+      "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+      "sidebar-accent": "oklch(0.894 0.035 333.2)",
+      "sidebar-accent-foreground": "oklch(0.570 0.151 342.6)",
+      "sidebar-border": "oklch(0.811 0.003 84.6)",
+      "sidebar-ring": "oklch(0.531 0.097 159.8)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.219 0.012 156.1)",
+      "foreground": "oklch(0.977 0.007 80.7)",
+      "card": "oklch(0.197 0.011 163.6)",
+      "card-foreground": "oklch(0.977 0.007 80.7)",
+      "popover": "oklch(0.197 0.011 163.6)",
+      "popover-foreground": "oklch(0.977 0.007 80.7)",
+      "primary": "oklch(0.531 0.097 159.8)",
+      "primary-foreground": "oklch(0.219 0.012 156.1)",
+      "secondary": "oklch(0.282 0.019 148.1)",
+      "secondary-foreground": "oklch(0.977 0.007 80.7)",
+      "muted": "oklch(0.282 0.019 148.1)",
+      "muted-foreground": "oklch(0.800 0.023 130.1)",
+      "accent": "oklch(0.372 0.117 0.5)",
+      "accent-foreground": "oklch(0.219 0.012 156.1)",
+      "destructive": "oklch(0.570 0.151 342.6)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.531 0.097 159.8)",
+      "chart-1": "oklch(0.531 0.097 159.8)",
+      "chart-2": "oklch(0.570 0.151 342.6)",
+      "chart-3": "oklch(0.372 0.117 0.5)",
+      "chart-4": "oklch(0.976 0.023 82.1)",
+      "chart-5": "oklch(0.572 0.049 137.9)",
+      "sidebar": "oklch(0.206 0.012 156.0)",
+      "sidebar-foreground": "oklch(0.977 0.007 80.7)",
+      "sidebar-primary": "oklch(0.531 0.097 159.8)",
+      "sidebar-primary-foreground": "oklch(0.219 0.012 156.1)",
+      "sidebar-accent": "oklch(0.282 0.019 148.1)",
+      "sidebar-accent-foreground": "oklch(0.977 0.007 80.7)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.531 0.097 159.8)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent foxglove spire motif",
+        "asset": "/systems/morphous-foxglove/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Foxglove transparent motif chroma-key source\nPrimary request: Create only an isolated foxglove spire motif for a design-system catalog, no environment, no props, no text.\nSubject: A single complete foxglove spire (Digitalis purpurea) with accurate woodland-edge botanical form: tall green stem, alternating lanceolate leaves, cascading rose-purple tubular bell flowers, cream throats visible inside several bells, fine burgundy speckles, crisp petal edges, natural veins, and careful clinical botanical detail.\nComposition/framing: centered complete vertical spire cutout with generous padding on all sides; show the full stem, flower bells, several leaves, and the tapered top without cropping.\nLighting/mood: clean studio light, even exposure, no cast shadow, no contact shadow, no reflection; preserve rose purple, speckled cream throats, and woodland green.\nChroma-key background: place the subject on a perfectly flat solid #00ffff chroma-key background for background removal. The background must be one uniform cyan color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no vase, no hand, no insects, no extra flowers, no landscape, no labels, no watermark, no text, no medical warning icons, no decorative border."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-foxglove/design-system-light.png",
+        "sourceAsset": "/systems/morphous-foxglove/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Foxglove light-mode design-system board, 4K source board\nPrimary request: Generate a single comprehensive light-mode design-system board for \"Morphous Foxglove\" in a true wide 16:9 layout, intended as a high-resolution gallery source asset. Make the composition crisp and legible at 3840x2160.\nReference use: Use the foxglove spire motif as the visual source: rose-purple bell flowers, cream throats, burgundy speckles, woodland green stems/leaves, vertical spire rhythm, careful clinical botanical precision.\nCanvas and resolution: 16:9 landscape, 3840x2160 style, large readable section headings, fewer larger token rows, no tiny text.\nRequired visible sections: Morphous Foxglove title, Foxglove Spire motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, asset examples.\nUI components to depict: button set, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, sidebar, top nav, command palette, search, data table, charts, metrics, clinical form panel, empty/loading/error/success states, token swatches, radius scale, spacing scale, shadow ladder, speckled texture samples.\nDesign language: shadcn/tweakcn-compatible clinical product system, exact grid, 8px radii, white and throat-cream surfaces, rose-purple primary actions, burgundy-speckle focus rings and selected states, woodland-green secondary controls, petal-surface cards, stem-muted borders, restrained shadows, vertical spire section markers.\nTypography labels: Geist Sans, Source Serif Display accent, Noto Sans JP, Japanese Typography, Clinical Forms, Data Table, Command Search, Status, Tokens.\nPalette labels: Clinical Cream, Woodland Ink, Foxglove Rose, Leaf Green, Speckle Burgundy, Throat Cream, Petal Surface, Stem Muted, Night Stalk.\nConstraints: no generic purple/blue gradient, no unrelated saturated colors, no neon, no tiny unreadable labels, no stock logos, no poisonous-warning icons, no watermark, spell \"Morphous Foxglove\" correctly."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-foxglove/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-foxglove/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Foxglove dark-mode design-system board, 4K source board\nPrimary request: Generate a single comprehensive dark-mode design-system board for \"Morphous Foxglove\" in a true wide 16:9 layout, intended as a high-resolution gallery source asset. Make the composition crisp and legible at 3840x2160.\nReference use: Use the foxglove motif and the light board style already shown. Preserve the same component layout and translate it into dark mode: rose-purple bells, cream speckled throats, burgundy spots, woodland green leaves, vertical spire markers, careful clinical system mood.\nCanvas and resolution: 16:9 landscape, 3840x2160 style, large readable section headings, fewer larger token rows, no tiny text.\nRequired visible sections: Morphous Foxglove title, Dark Mode, Foxglove Spire motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, asset examples.\nUI components to depict: button set, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, sidebar, top nav, command palette, search, data table, charts, metrics, clinical form panel, empty/loading/error/success states, token swatches, radius scale, spacing scale, shadow ladder, speckled texture samples.\nDark design language: shadcn/tweakcn-compatible clinical workspace, exact grid, 8px radii, deep woodland ink background, night-stalk panels, throat-cream foreground, rose-purple primary controls, burgundy-speckle focus rings, leaf-green secondary controls, stem-muted borders, restrained shadow and glow, subtle petal speckle textures, vertical spire navigation rail.\nTypography labels: Geist Sans, Source Serif Display accent, Noto Sans JP, Japanese Typography, Clinical Forms, Data Table, Command Search, Status, Tokens.\nPalette labels: Night Stalk, Woodland Ink, Throat Cream, Foxglove Rose, Leaf Green, Speckle Burgundy, Petal Surface, Stem Muted, Clinical Cream.\nConstraints: no neon palette, no pure black empty void, no generic purple/blue gradient, no unrelated saturated colors, no tiny unreadable labels, no stock logos, no poisonous-warning icons, no watermark, spell \"Morphous Foxglove\" correctly."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-foxglove/motif.png",
+      "board": "/systems/morphous-foxglove/design-system-light.png",
+      "darkBoard": "/systems/morphous-foxglove/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-foxglove/theme.css",
+      "themeJson": "/systems/morphous-foxglove/theme.json",
+      "promptsJson": "/systems/morphous-foxglove/prompts.json"
+    }
+  },
+  {
     "slug": "morphous-frog",
     "name": "Morphous Frog",
     "motifName": "Tree Frog",
@@ -8971,6 +9731,194 @@
       "themeCss": "/systems/morphous-frog/theme.css",
       "themeJson": "/systems/morphous-frog/theme.json",
       "promptsJson": "/systems/morphous-frog/prompts.json"
+    }
+  },
+  {
+    "slug": "morphous-gardenia",
+    "name": "Morphous Gardenia",
+    "motifName": "Gardenia",
+    "motifCategory": "flower",
+    "biome": "southern garden",
+    "motif": "gardenia bloom",
+    "description": "A shadcn/tweakcn-compatible polished luxury system derived from a gardenia bloom: ivory waxy petals, glossy green leaves, soft cream shadows, porcelain surfaces, and refined southern garden contrast.",
+    "typography": "Refined English product UI with luxury editorial display guidance and Japanese typography guidance for Noto Sans JP or Yu Gothic interface text, Mincho-style display headings, compact data labels, and readable table rows.",
+    "layout": "Polished product dashboards, 8px radii, ivory petal surfaces, glossy leaf navigation, soft champagne focus rings, restrained shadows, precise spacing, and quiet data-dense luxury workflows.",
+    "tags": [
+      "gardenia",
+      "flower",
+      "southern-garden",
+      "ivory",
+      "glossy-green",
+      "luxury",
+      "product-ui",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Petal Ivory",
+        "hex": "#FAF9F5",
+        "oklch": "oklch(0.982 0.005 95.1)"
+      },
+      {
+        "role": "Ink",
+        "name": "Deep Leaf Ink",
+        "hex": "#0E2E1A",
+        "oklch": "oklch(0.271 0.053 153.4)"
+      },
+      {
+        "role": "Primary",
+        "name": "Gloss Leaf",
+        "hex": "#1F5A2E",
+        "oklch": "oklch(0.417 0.094 149.0)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Waxy Cream",
+        "hex": "#F6F2E8",
+        "oklch": "oklch(0.962 0.014 88.7)"
+      },
+      {
+        "role": "Accent",
+        "name": "Soft Champagne",
+        "hex": "#F1EAD7",
+        "oklch": "oklch(0.937 0.026 90.1)"
+      },
+      {
+        "role": "Surface",
+        "name": "Porcelain Surface",
+        "hex": "#FFFFFF",
+        "oklch": "oklch(1.000 0.000 89.9)"
+      },
+      {
+        "role": "Muted",
+        "name": "Gardenia Shadow",
+        "hex": "#E9E6D9",
+        "oklch": "oklch(0.924 0.018 96.1)"
+      },
+      {
+        "role": "Signal",
+        "name": "Vein Olive",
+        "hex": "#7A8F5C",
+        "oklch": "oklch(0.620 0.077 126.7)"
+      },
+      {
+        "role": "Depth",
+        "name": "Leaf Shadow",
+        "hex": "#141F15",
+        "oklch": "oklch(0.225 0.025 147.0)"
+      },
+      {
+        "role": "Border",
+        "name": "Petal Edge",
+        "hex": "#D8D1BF",
+        "oklch": "oklch(0.861 0.026 89.2)"
+      },
+      {
+        "role": "Success",
+        "name": "Garden Stem",
+        "hex": "#356D3A",
+        "oklch": "oklch(0.483 0.100 145.7)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.982 0.005 95.1)",
+      "foreground": "oklch(0.271 0.053 153.4)",
+      "card": "oklch(1.000 0.000 89.9)",
+      "card-foreground": "oklch(0.271 0.053 153.4)",
+      "popover": "oklch(1.000 0.000 89.9)",
+      "popover-foreground": "oklch(0.271 0.053 153.4)",
+      "primary": "oklch(0.417 0.094 149.0)",
+      "primary-foreground": "oklch(0.982 0.005 95.1)",
+      "secondary": "oklch(0.992 0.002 67.8)",
+      "secondary-foreground": "oklch(0.225 0.025 147.0)",
+      "muted": "oklch(0.995 0.002 67.8)",
+      "muted-foreground": "oklch(0.225 0.025 147.0)",
+      "accent": "oklch(0.937 0.026 90.1)",
+      "accent-foreground": "oklch(0.271 0.053 153.4)",
+      "destructive": "oklch(0.417 0.094 149.0)",
+      "border": "oklch(0.973 0.007 97.4)",
+      "input": "oklch(0.973 0.007 97.4)",
+      "ring": "oklch(0.962 0.014 88.7)",
+      "chart-1": "oklch(0.417 0.094 149.0)",
+      "chart-2": "oklch(0.962 0.014 88.7)",
+      "chart-3": "oklch(0.937 0.026 90.1)",
+      "chart-4": "oklch(0.620 0.077 126.7)",
+      "chart-5": "oklch(0.225 0.025 147.0)",
+      "sidebar": "oklch(0.994 0.001 106.4)",
+      "sidebar-foreground": "oklch(0.271 0.053 153.4)",
+      "sidebar-primary": "oklch(0.417 0.094 149.0)",
+      "sidebar-primary-foreground": "oklch(0.982 0.005 95.1)",
+      "sidebar-accent": "oklch(0.933 0.010 155.1)",
+      "sidebar-accent-foreground": "oklch(0.417 0.094 149.0)",
+      "sidebar-border": "oklch(0.973 0.007 97.4)",
+      "sidebar-ring": "oklch(0.962 0.014 88.7)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.271 0.053 153.4)",
+      "foreground": "oklch(0.982 0.005 95.1)",
+      "card": "oklch(0.240 0.035 151.9)",
+      "card-foreground": "oklch(0.982 0.005 95.1)",
+      "popover": "oklch(0.240 0.035 151.9)",
+      "popover-foreground": "oklch(0.982 0.005 95.1)",
+      "primary": "oklch(0.962 0.014 88.7)",
+      "primary-foreground": "oklch(0.271 0.053 153.4)",
+      "secondary": "oklch(0.402 0.021 137.1)",
+      "secondary-foreground": "oklch(0.982 0.005 95.1)",
+      "muted": "oklch(0.402 0.021 137.1)",
+      "muted-foreground": "oklch(0.954 0.011 95.2)",
+      "accent": "oklch(0.937 0.026 90.1)",
+      "accent-foreground": "oklch(0.271 0.053 153.4)",
+      "destructive": "oklch(0.417 0.094 149.0)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.962 0.014 88.7)",
+      "chart-1": "oklch(0.962 0.014 88.7)",
+      "chart-2": "oklch(0.417 0.094 149.0)",
+      "chart-3": "oklch(0.937 0.026 90.1)",
+      "chart-4": "oklch(0.620 0.077 126.7)",
+      "chart-5": "oklch(0.924 0.018 96.1)",
+      "sidebar": "oklch(0.249 0.040 152.8)",
+      "sidebar-foreground": "oklch(0.982 0.005 95.1)",
+      "sidebar-primary": "oklch(0.962 0.014 88.7)",
+      "sidebar-primary-foreground": "oklch(0.271 0.053 153.4)",
+      "sidebar-accent": "oklch(0.402 0.021 137.1)",
+      "sidebar-accent-foreground": "oklch(0.982 0.005 95.1)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.962 0.014 88.7)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent gardenia bloom motif",
+        "asset": "/systems/morphous-gardenia/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Gardenia transparent motif chroma-key source\nPrimary request: Create only a complete gardenia bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A southern garden gardenia bloom with layered ivory-white waxy petals, subtle cream petal shadows, a few glossy deep green leaves, crisp botanical detail, polished luxurious natural texture, and clean studio lighting. The bloom should be recognizable as gardenia, not rose or magnolia.\nComposition/framing: centered complete bloom cutout with leaves visible, generous padding on every side, no cropping.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no hand, no props, no landscape, no second flower, no cast shadow, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-gardenia/design-system-light.png",
+        "sourceAsset": "/systems/morphous-gardenia/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Gardenia light-mode design-system board, regenerated for larger source resolution\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Gardenia\", clearly derived from the provided gardenia bloom motif cutout.\nReference use: Use the visible gardenia bloom as the source of truth. Extract ivory waxy petal surfaces, cream petal shadows, glossy deep green leaves, soft southern garden shadow, and polished luxury-product UI rhythm. The board must visibly respect these colors and materials.\nCanvas: strict 16:9 landscape design board, target 3840x2160, wide 4K-class source asset. Do not create a square or portrait image.\nResolution and legibility: large readable section labels, a precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Gardenia, Gardenia Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, soft shadow tokens, and generated asset examples.\nTypography: refined English product UI with luxury editorial display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for display headings. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nColor palette: motif-derived near-neutrals and greens only, with named swatches: Petal Ivory, Waxy Cream, Gardenia Shadow, Gloss Leaf, Deep Leaf Ink, Vein Olive, Soft Champagne, Porcelain Surface.\nVisual style: polished luxury product system, quiet refined surfaces, glossy leaf accents, ivory cards, soft leaf-green focus rings, restrained premium shadows, crisp component edges, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Gardenia, no tiny illegible text."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-gardenia/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-gardenia/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Gardenia dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible board for \"Morphous Gardenia\" that feels like the provided light board translated to dark mode, not a new theme.\nReference use: Use the visible gardenia motif and the visible light design-system board as references. Preserve the same palette roles, component language, texture rhythm, spacing, typography choices, and polished luxury-product UI mood.\nCanvas: strict 16:9 landscape board, target 3840x2160, wide 4K-class source asset, at least 2400px wide if possible.\nResolution and legibility: large readable labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Gardenia, Gardenia Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, shadow tokens, semantic tokens, and generated asset examples.\nTypography: refined English product UI with luxury editorial display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for display headings. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nDark palette: deepest glossy leaf ink and garden shadow backgrounds, ivory petal foregrounds, waxy cream cards, muted olive dividers, soft champagne highlights, leaf-green primary actions, restrained rose-warm destructive state only where needed.\nVisual style: polished luxury dark product system, quiet dark-green surfaces, subtle gardenia petal texture, glossy leaf accents, soft cream focus rings, crisp component edges, 8px card radius, premium restrained shadows.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon palette, no pure flat black unless used as a tiny ink token, no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Gardenia, no tiny illegible text."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-gardenia/motif.png",
+      "board": "/systems/morphous-gardenia/design-system-light.png",
+      "darkBoard": "/systems/morphous-gardenia/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-gardenia/theme.css",
+      "themeJson": "/systems/morphous-gardenia/theme.json",
+      "promptsJson": "/systems/morphous-gardenia/prompts.json"
     }
   },
   {
@@ -10196,6 +11144,194 @@
       "themeCss": "/systems/morphous-honeybee/theme.css",
       "themeJson": "/systems/morphous-honeybee/theme.json",
       "promptsJson": "/systems/morphous-honeybee/prompts.json"
+    }
+  },
+  {
+    "slug": "morphous-honeysuckle",
+    "name": "Morphous Honeysuckle",
+    "motifName": "Honeysuckle",
+    "motifCategory": "flower",
+    "biome": "woodland vine",
+    "motif": "honeysuckle flowers",
+    "description": "A shadcn/tweakcn-compatible sweet collaboration system derived from honeysuckle flowers: cream-yellow petals, coral throats, stem-green structure, honey-gold focus, woodland depth, and warm shared-workflow components.",
+    "typography": "Friendly collaboration English UI with Japanese typography guidance for threads, comments, project labels, status text, tables, and readable shared workspaces.",
+    "layout": "Collaboration dashboards, activity feeds, 8px radii, honeyed card surfaces, coral mention chips, stem-green success states, woodland-vine sidebars, and warm group workflow panels.",
+    "tags": [
+      "honeysuckle",
+      "flower",
+      "woodland-vine",
+      "cream-yellow",
+      "coral",
+      "stem-green",
+      "collaboration",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Honey Cream",
+        "hex": "#FFF7DF",
+        "oklch": "oklch(0.976 0.033 91.7)"
+      },
+      {
+        "role": "Ink",
+        "name": "Woodland Ink",
+        "hex": "#262018",
+        "oklch": "oklch(0.248 0.017 74.8)"
+      },
+      {
+        "role": "Primary",
+        "name": "Honeysuckle Gold",
+        "hex": "#E6B84A",
+        "oklch": "oklch(0.804 0.136 85.8)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Stem Green",
+        "hex": "#5F8A4B",
+        "oklch": "oklch(0.586 0.103 136.4)"
+      },
+      {
+        "role": "Accent",
+        "name": "Coral Throat",
+        "hex": "#E56F5A",
+        "oklch": "oklch(0.677 0.151 31.7)"
+      },
+      {
+        "role": "Signal",
+        "name": "Pollen Yellow",
+        "hex": "#F7D76B",
+        "oklch": "oklch(0.885 0.132 93.0)"
+      },
+      {
+        "role": "Surface",
+        "name": "Petal Cream",
+        "hex": "#FFFDF1",
+        "oklch": "oklch(0.992 0.016 99.0)"
+      },
+      {
+        "role": "Muted",
+        "name": "Vine Tan",
+        "hex": "#C0A678",
+        "oklch": "oklch(0.737 0.069 81.5)"
+      },
+      {
+        "role": "Depth",
+        "name": "Woodland Vine",
+        "hex": "#33402B",
+        "oklch": "oklch(0.353 0.039 133.9)"
+      },
+      {
+        "role": "Border",
+        "name": "Stem Brown",
+        "hex": "#8B6A43",
+        "oklch": "oklch(0.548 0.069 70.2)"
+      },
+      {
+        "role": "Success",
+        "name": "Fresh Stem",
+        "hex": "#78A85F",
+        "oklch": "oklch(0.680 0.114 135.6)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.976 0.033 91.7)",
+      "foreground": "oklch(0.248 0.017 74.8)",
+      "card": "oklch(0.992 0.016 99.0)",
+      "card-foreground": "oklch(0.248 0.017 74.8)",
+      "popover": "oklch(0.992 0.016 99.0)",
+      "popover-foreground": "oklch(0.248 0.017 74.8)",
+      "primary": "oklch(0.804 0.136 85.8)",
+      "primary-foreground": "oklch(0.976 0.033 91.7)",
+      "secondary": "oklch(0.984 0.023 93.3)",
+      "secondary-foreground": "oklch(0.353 0.039 133.9)",
+      "muted": "oklch(0.987 0.020 94.5)",
+      "muted-foreground": "oklch(0.353 0.039 133.9)",
+      "accent": "oklch(0.677 0.151 31.7)",
+      "accent-foreground": "oklch(0.248 0.017 74.8)",
+      "destructive": "oklch(0.804 0.136 85.8)",
+      "border": "oklch(0.902 0.035 88.8)",
+      "input": "oklch(0.902 0.035 88.8)",
+      "ring": "oklch(0.586 0.103 136.4)",
+      "chart-1": "oklch(0.804 0.136 85.8)",
+      "chart-2": "oklch(0.586 0.103 136.4)",
+      "chart-3": "oklch(0.677 0.151 31.7)",
+      "chart-4": "oklch(0.885 0.132 93.0)",
+      "chart-5": "oklch(0.353 0.039 133.9)",
+      "sidebar": "oklch(0.987 0.021 95.3)",
+      "sidebar-foreground": "oklch(0.248 0.017 74.8)",
+      "sidebar-primary": "oklch(0.804 0.136 85.8)",
+      "sidebar-primary-foreground": "oklch(0.976 0.033 91.7)",
+      "sidebar-accent": "oklch(0.969 0.032 93.5)",
+      "sidebar-accent-foreground": "oklch(0.804 0.136 85.8)",
+      "sidebar-border": "oklch(0.902 0.035 88.8)",
+      "sidebar-ring": "oklch(0.586 0.103 136.4)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.248 0.017 74.8)",
+      "foreground": "oklch(0.976 0.033 91.7)",
+      "card": "oklch(0.318 0.029 124.7)",
+      "card-foreground": "oklch(0.976 0.033 91.7)",
+      "popover": "oklch(0.318 0.029 124.7)",
+      "popover-foreground": "oklch(0.976 0.033 91.7)",
+      "primary": "oklch(0.586 0.103 136.4)",
+      "primary-foreground": "oklch(0.248 0.017 74.8)",
+      "secondary": "oklch(0.442 0.041 115.2)",
+      "secondary-foreground": "oklch(0.976 0.033 91.7)",
+      "muted": "oklch(0.442 0.041 115.2)",
+      "muted-foreground": "oklch(0.871 0.049 85.8)",
+      "accent": "oklch(0.677 0.151 31.7)",
+      "accent-foreground": "oklch(0.248 0.017 74.8)",
+      "destructive": "oklch(0.804 0.136 85.8)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.586 0.103 136.4)",
+      "chart-1": "oklch(0.586 0.103 136.4)",
+      "chart-2": "oklch(0.804 0.136 85.8)",
+      "chart-3": "oklch(0.677 0.151 31.7)",
+      "chart-4": "oklch(0.885 0.132 93.0)",
+      "chart-5": "oklch(0.737 0.069 81.5)",
+      "sidebar": "oklch(0.298 0.025 117.7)",
+      "sidebar-foreground": "oklch(0.976 0.033 91.7)",
+      "sidebar-primary": "oklch(0.586 0.103 136.4)",
+      "sidebar-primary-foreground": "oklch(0.248 0.017 74.8)",
+      "sidebar-accent": "oklch(0.442 0.041 115.2)",
+      "sidebar-accent-foreground": "oklch(0.976 0.033 91.7)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.586 0.103 136.4)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent honeysuckle flowers motif",
+        "asset": "/systems/morphous-honeysuckle/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Honeysuckle transparent motif chroma-key source\nPrimary request: Create a complete honeysuckle flower motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A woodland vine honeysuckle cluster with cream-yellow tubular flowers, coral throat transitions, slender green stems, fresh leaves, and warm natural botanical texture. Crisp edges, no cast shadow.\nComposition/framing: centered complete flower cluster cutout with blossoms, leaves, and stems visible without cropping.\nChroma-key background: perfectly flat solid #0000ff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no jasmine, no gardenia, no orchid, no vase, no hand, no props, no landscape, no insects."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-honeysuckle/design-system-light.png",
+        "sourceAsset": "/systems/morphous-honeysuckle/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Honeysuckle light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Honeysuckle, derived from the visible honeysuckle flower cutout.\nCanvas: wide 16:9 high-resolution board, polished sweet collaboration-system presentation.\nRequired visible sections: Morphous Honeysuckle, Honeysuckle Flowers, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract cream-yellow petals, coral flower throats, honey-gold highlights, stem-green accents, vine-tan muted surfaces, and woodland depth for collaborative workspaces, activity feeds, comments, and shared project dashboards.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, collaboration cards, activity feeds, tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic yellow UI, no unrelated neon colors, no beige-only flat palette, no tiny unreadable text, no watermark, no misspelling of Morphous Honeysuckle."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-honeysuckle/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-honeysuckle/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Honeysuckle dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Honeysuckle that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Honeysuckle, Honeysuckle Flowers, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve honey-gold actions, cream foregrounds, coral collaboration chips, stem-green success states, woodland-vine dark surfaces, and warm activity-feed structure for collaborative product interfaces.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Honeysuckle."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-honeysuckle/motif.png",
+      "board": "/systems/morphous-honeysuckle/design-system-light.png",
+      "darkBoard": "/systems/morphous-honeysuckle/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-honeysuckle/theme.css",
+      "themeJson": "/systems/morphous-honeysuckle/theme.json",
+      "promptsJson": "/systems/morphous-honeysuckle/prompts.json"
     }
   },
   {
@@ -11429,6 +12565,200 @@
       "themeCss": "/systems/morphous-jaguar/theme.css",
       "themeJson": "/systems/morphous-jaguar/theme.json",
       "promptsJson": "/systems/morphous-jaguar/prompts.json"
+    }
+  },
+  {
+    "slug": "morphous-jasmine",
+    "name": "Morphous Jasmine",
+    "motifName": "Jasmine",
+    "motifCategory": "flower",
+    "biome": "night garden",
+    "motif": "jasmine blossom",
+    "description": "A shadcn/tweakcn-compatible calm messaging system derived from jasmine blossom: waxy white petals, glossy green leaves, creamy buds, deep night-blue depth, and quiet moonlit contrast.",
+    "typography": "Geist for calm product UI with Noto Sans JP guidance for Japanese headings, body text, labels, tabular numerals, and compact messaging controls.",
+    "layout": "Messaging, inbox, and dashboard layouts with 8px radii, petal-white surfaces, wax-green actions, night-blue focus states, moon-mist muted panels, soft borders, and restrained shadows.",
+    "tags": [
+      "jasmine",
+      "flower",
+      "night-garden",
+      "white-petal",
+      "wax-green",
+      "night-blue",
+      "messaging",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Petal White",
+        "hex": "#FFFFFF",
+        "oklch": "oklch(1.000 0.000 89.9)"
+      },
+      {
+        "role": "Surface",
+        "name": "Moon Mist",
+        "hex": "#F6F8FA",
+        "oklch": "oklch(0.978 0.003 247.9)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Bud Cream",
+        "hex": "#FFF7E5",
+        "oklch": "oklch(0.978 0.025 86.9)"
+      },
+      {
+        "role": "Primary",
+        "name": "Wax Green",
+        "hex": "#2E7D5A",
+        "oklch": "oklch(0.531 0.095 161.2)"
+      },
+      {
+        "role": "Accent",
+        "name": "Leaf Gloss",
+        "hex": "#1F5F3B",
+        "oklch": "oklch(0.434 0.088 155.1)"
+      },
+      {
+        "role": "Depth",
+        "name": "Night Blue",
+        "hex": "#0F1E2E",
+        "oklch": "oklch(0.230 0.037 251.2)"
+      },
+      {
+        "role": "Muted",
+        "name": "Stem Olive",
+        "hex": "#6A7F4A",
+        "oklch": "oklch(0.566 0.080 126.4)"
+      },
+      {
+        "role": "Signal",
+        "name": "Pollen Gold",
+        "hex": "#E6C35A",
+        "oklch": "oklch(0.827 0.129 90.9)"
+      },
+      {
+        "role": "Ink",
+        "name": "Message Slate",
+        "hex": "#334155",
+        "oklch": "oklch(0.372 0.039 257.3)"
+      },
+      {
+        "role": "Border",
+        "name": "Mist Gray",
+        "hex": "#E6EBF0",
+        "oklch": "oklch(0.938 0.009 247.9)"
+      },
+      {
+        "role": "Input",
+        "name": "Petal Input",
+        "hex": "#F2F5F8",
+        "oklch": "oklch(0.969 0.005 247.9)"
+      },
+      {
+        "role": "Chart",
+        "name": "Cool Petal Blue",
+        "hex": "#7FB3C8",
+        "oklch": "oklch(0.738 0.062 225.0)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(1.000 0.000 89.9)",
+      "foreground": "oklch(0.372 0.039 257.3)",
+      "card": "oklch(0.978 0.003 247.9)",
+      "card-foreground": "oklch(0.372 0.039 257.3)",
+      "popover": "oklch(0.978 0.003 247.9)",
+      "popover-foreground": "oklch(0.372 0.039 257.3)",
+      "primary": "oklch(0.531 0.095 161.2)",
+      "primary-foreground": "oklch(1.000 0.000 89.9)",
+      "secondary": "oklch(0.988 0.002 247.8)",
+      "secondary-foreground": "oklch(0.230 0.037 251.2)",
+      "muted": "oklch(0.985 0.002 247.8)",
+      "muted-foreground": "oklch(0.230 0.037 251.2)",
+      "accent": "oklch(0.434 0.088 155.1)",
+      "accent-foreground": "oklch(0.372 0.039 257.3)",
+      "destructive": "oklch(0.531 0.095 161.2)",
+      "border": "oklch(0.834 0.025 127.6)",
+      "input": "oklch(0.834 0.025 127.6)",
+      "ring": "oklch(0.978 0.025 86.9)",
+      "chart-1": "oklch(0.531 0.095 161.2)",
+      "chart-2": "oklch(0.978 0.025 86.9)",
+      "chart-3": "oklch(0.434 0.088 155.1)",
+      "chart-4": "oklch(0.827 0.129 90.9)",
+      "chart-5": "oklch(0.230 0.037 251.2)",
+      "sidebar": "oklch(0.985 0.003 264.5)",
+      "sidebar-foreground": "oklch(0.372 0.039 257.3)",
+      "sidebar-primary": "oklch(0.531 0.095 161.2)",
+      "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+      "sidebar-accent": "oklch(0.925 0.012 184.1)",
+      "sidebar-accent-foreground": "oklch(0.531 0.095 161.2)",
+      "sidebar-border": "oklch(0.834 0.025 127.6)",
+      "sidebar-ring": "oklch(0.978 0.025 86.9)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.372 0.039 257.3)",
+      "foreground": "oklch(1.000 0.000 89.9)",
+      "card": "oklch(0.280 0.038 252.2)",
+      "card-foreground": "oklch(1.000 0.000 89.9)",
+      "popover": "oklch(0.280 0.038 252.2)",
+      "popover-foreground": "oklch(1.000 0.000 89.9)",
+      "primary": "oklch(0.978 0.025 86.9)",
+      "primary-foreground": "oklch(0.372 0.039 257.3)",
+      "secondary": "oklch(0.307 0.021 201.0)",
+      "secondary-foreground": "oklch(1.000 0.000 89.9)",
+      "muted": "oklch(0.307 0.021 201.0)",
+      "muted-foreground": "oklch(0.810 0.033 124.6)",
+      "accent": "oklch(0.434 0.088 155.1)",
+      "accent-foreground": "oklch(0.372 0.039 257.3)",
+      "destructive": "oklch(0.531 0.095 161.2)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.978 0.025 86.9)",
+      "chart-1": "oklch(0.978 0.025 86.9)",
+      "chart-2": "oklch(0.531 0.095 161.2)",
+      "chart-3": "oklch(0.434 0.088 155.1)",
+      "chart-4": "oklch(0.827 0.129 90.9)",
+      "chart-5": "oklch(0.566 0.080 126.4)",
+      "sidebar": "oklch(0.308 0.038 253.5)",
+      "sidebar-foreground": "oklch(1.000 0.000 89.9)",
+      "sidebar-primary": "oklch(0.978 0.025 86.9)",
+      "sidebar-primary-foreground": "oklch(0.372 0.039 257.3)",
+      "sidebar-accent": "oklch(0.307 0.021 201.0)",
+      "sidebar-accent-foreground": "oklch(1.000 0.000 89.9)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.978 0.025 86.9)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent jasmine blossom motif",
+        "asset": "/systems/morphous-jasmine/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jasmine transparent motif chroma-key source\nPrimary request: Create only a jasmine blossom botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A small night-garden jasmine sprig with star-shaped white jasmine blossoms, creamy wax-petal highlights, pale unopened buds, glossy waxy deep-green leaves, slender natural stems, subtle cool night-blue reflected shadow within the white petals only, crisp botanical texture and crisp subject edges. It must read clearly as jasmine blossom, not cherry blossom, plum blossom, lily, gardenia, or generic white flower.\nComposition/framing: centered complete cutout with generous padding; include several blossoms, buds, leaves, and stems without cropping. Clean studio light that preserves white petals and green leaves; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff or any magenta in the subject.\nConstraints: no vase, no hand, no props, no garden scene, no night sky background, no dew droplets, no insects, no text, no watermark."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-jasmine/design-system-light.png",
+        "sourceAsset": "/systems/morphous-jasmine/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Jasmine light-mode design-system board, regeneration for higher resolution\nInput image: Use the visible transparent jasmine blossom motif as the source reference.\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Jasmine\", derived from the visible jasmine blossom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible calm messaging system.\nCanvas: exact 16:9 landscape board at 3840x2160 or the highest available 4K-class resolution. It must be a wide board, not square, not portrait.\nResolution and legibility: large readable labels, clean spacing, no dense tiny text, big swatches and component examples that survive gallery preview downscaling.\nRequired visible sections: Morphous Jasmine, Jasmine Blossom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from white waxy jasmine petals, creamy buds, glossy wax-green leaves, slender stems, soft night-blue depth, and quiet moonlit garden contrast. The board must read as jasmine and calm messaging UI, not generic floral, not cherry blossom, not wedding stationery.\nPalette and token language: shadcn/tweakcn-compatible semantic roles including background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 through chart-5, sidebar background, sidebar foreground, sidebar primary, sidebar accent, sidebar border, and radius. Show named swatches such as Petal White, Wax Green, Night Blue, Bud Cream, Leaf Gloss, Stem Olive, Moon Mist, Pollen Gold, Message Slate.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, chat thread cards, message composer, inbox navigation, notification states, table rows, command palette, search, sidebar navigation, dashboard metric cards, message volume chart, response-time chart, empty/loading/error/success states, texture samples, spacing scale, 8px radius, border, shadow, and token swatches.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, white-petal surfaces, wax-green primary actions, night-blue focus rings, moon-mist muted panels, leaf-gloss hover states, gentle message bubbles, subtle jasmine petal texture, calm shadows and restrained contrast.\nText: short readable UI labels only; avoid paragraphs and tiny type.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no beige-only palette, no neon, no random brand names, no watermark, no misspelling of \"Morphous Jasmine\", no illegible token tables."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-jasmine/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-jasmine/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Jasmine dark-mode design-system board\nInput images: Use the visible transparent jasmine blossom motif and the visible light-mode Morphous Jasmine board as source references.\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Jasmine\". It must feel like the visible light board translated to dark mode, not a new theme, and it must remain derived from the visible jasmine blossom motif. The product language is a calm messaging system.\nCanvas: exact 16:9 landscape board, target 3840x2160 4K-class source, clean professional UI design-system presentation.\nResolution and legibility: large readable labels, clean spacing, no dense tiny text, big swatches and component examples that survive gallery preview downscaling.\nRequired visible sections: Morphous Jasmine, Jasmine Blossom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the Jasmine system language from the light board: white petal foregrounds, creamy bud highlights, wax-green primary actions, glossy leaf accents, deep night-blue surfaces, moon-mist muted panels, message slate text, soft 8px shadcn/tweakcn component grid, and calm messaging workflows. It must read as jasmine, not generic dark chat UI.\nPalette and token language: shadcn/tweakcn-compatible semantic roles including background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 through chart-5, sidebar background, sidebar foreground, sidebar primary, sidebar accent, sidebar border, and radius. Show named swatches such as Night Blue, Petal White, Wax Green, Leaf Gloss, Bud Cream, Stem Olive, Moon Mist, Message Slate, Pollen Gold.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, chat thread cards, message composer, inbox navigation, notification states, table rows, command palette, search, sidebar navigation, dashboard metric cards, message volume chart, response-time chart, empty/loading/error/success states, texture samples, spacing scale, 8px radius, border, shadow, and token swatches.\nVisual details: deep night-blue background, petal-white text, wax-green controls, leaf-gloss hover states, moonlit jasmine texture overlays, restrained contrast, soft but crisp dark cards, subtle message bubbles, blue-green focus rings, calm shadows.\nText: short readable UI labels only; avoid paragraphs and tiny type.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple or blue gradients, no illegible token tables, no random brand names, no watermark, no misspelling of \"Morphous Jasmine\"."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-jasmine/motif.png",
+      "board": "/systems/morphous-jasmine/design-system-light.png",
+      "darkBoard": "/systems/morphous-jasmine/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-jasmine/theme.css",
+      "themeJson": "/systems/morphous-jasmine/theme.json",
+      "promptsJson": "/systems/morphous-jasmine/prompts.json"
     }
   },
   {
@@ -15134,6 +16464,201 @@
     }
   },
   {
+    "slug": "morphous-marigold",
+    "name": "Morphous Marigold",
+    "motifName": "Marigold",
+    "motifCategory": "flower",
+    "biome": "kitchen garden",
+    "motif": "marigold bloom",
+    "description": "A shadcn/tweakcn-compatible productive garden system derived from a marigold bloom: saffron-orange ruffled petals, leaf-green navigation and success states, umber soil depth, garden-cream surfaces, and harvest-focused workflow contrast.",
+    "typography": "Productive English product UI with sturdy display guidance and Japanese typography guidance for Noto Sans JP or Yu Gothic interface text, optional Mincho-style harvest notes, compact data labels, readable tables, and operational navigation.",
+    "layout": "Kitchen-garden operations dashboards, 8px radii, saffron primary actions, leaf-green sidebars, warm parchment cards, umber data contrast, measured spacing, and practical forms for planning, seeding, harvesting, inventory, and garden records.",
+    "tags": [
+      "marigold",
+      "flower",
+      "kitchen-garden",
+      "saffron-orange",
+      "leaf-green",
+      "umber",
+      "productive",
+      "garden-system",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Garden Cream",
+        "hex": "#FFF7E3",
+        "oklch": "oklch(0.977 0.028 88.7)"
+      },
+      {
+        "role": "Ink",
+        "name": "Soil Ink",
+        "hex": "#1F1A16",
+        "oklch": "oklch(0.222 0.011 60.9)"
+      },
+      {
+        "role": "Primary",
+        "name": "Saffron Petal",
+        "hex": "#FF8A00",
+        "oklch": "oklch(0.747 0.180 57.4)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Leaf Row",
+        "hex": "#2E7D32",
+        "oklch": "oklch(0.523 0.135 144.2)"
+      },
+      {
+        "role": "Accent",
+        "name": "Marigold Gold",
+        "hex": "#FFC247",
+        "oklch": "oklch(0.849 0.151 81.3)"
+      },
+      {
+        "role": "Signal",
+        "name": "Sprout Green",
+        "hex": "#7FBF78",
+        "oklch": "oklch(0.744 0.119 142.0)"
+      },
+      {
+        "role": "Surface",
+        "name": "Parchment Card",
+        "hex": "#FFF4E1",
+        "oklch": "oklch(0.971 0.028 81.5)"
+      },
+      {
+        "role": "Muted",
+        "name": "Garden Paper",
+        "hex": "#FAEED7",
+        "oklch": "oklch(0.953 0.033 83.7)"
+      },
+      {
+        "role": "Depth",
+        "name": "Seed Umber",
+        "hex": "#4A2E18",
+        "oklch": "oklch(0.330 0.054 57.6)"
+      },
+      {
+        "role": "Border",
+        "name": "Bed Border",
+        "hex": "#D9C7A2",
+        "oklch": "oklch(0.835 0.053 85.1)"
+      },
+      {
+        "role": "Success",
+        "name": "Harvest Success",
+        "hex": "#4CAF50",
+        "oklch": "oklch(0.673 0.162 144.2)"
+      },
+      {
+        "role": "Shadow",
+        "name": "Petal Shadow",
+        "hex": "#C75A00",
+        "oklch": "oklch(0.594 0.160 48.8)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.977 0.028 88.7)",
+      "foreground": "oklch(0.222 0.011 60.9)",
+      "card": "oklch(0.971 0.028 81.5)",
+      "card-foreground": "oklch(0.222 0.011 60.9)",
+      "popover": "oklch(0.971 0.028 81.5)",
+      "popover-foreground": "oklch(0.222 0.011 60.9)",
+      "primary": "oklch(0.747 0.180 57.4)",
+      "primary-foreground": "oklch(0.977 0.028 88.7)",
+      "secondary": "oklch(0.973 0.027 83.5)",
+      "secondary-foreground": "oklch(0.330 0.054 57.6)",
+      "muted": "oklch(0.973 0.027 83.5)",
+      "muted-foreground": "oklch(0.330 0.054 57.6)",
+      "accent": "oklch(0.849 0.151 81.3)",
+      "accent-foreground": "oklch(0.222 0.011 60.9)",
+      "destructive": "oklch(0.747 0.180 57.4)",
+      "border": "oklch(0.964 0.030 83.6)",
+      "input": "oklch(0.964 0.030 83.6)",
+      "ring": "oklch(0.523 0.135 144.2)",
+      "chart-1": "oklch(0.747 0.180 57.4)",
+      "chart-2": "oklch(0.523 0.135 144.2)",
+      "chart-3": "oklch(0.849 0.151 81.3)",
+      "chart-4": "oklch(0.744 0.119 142.0)",
+      "chart-5": "oklch(0.330 0.054 57.6)",
+      "sidebar": "oklch(0.973 0.027 83.5)",
+      "sidebar-foreground": "oklch(0.222 0.011 60.9)",
+      "sidebar-primary": "oklch(0.747 0.180 57.4)",
+      "sidebar-primary-foreground": "oklch(0.977 0.028 88.7)",
+      "sidebar-accent": "oklch(0.939 0.051 75.8)",
+      "sidebar-accent-foreground": "oklch(0.747 0.180 57.4)",
+      "sidebar-border": "oklch(0.964 0.030 83.6)",
+      "sidebar-ring": "oklch(0.523 0.135 144.2)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.222 0.011 60.9)",
+      "foreground": "oklch(0.977 0.028 88.7)",
+      "card": "oklch(0.293 0.040 59.0)",
+      "card-foreground": "oklch(0.977 0.028 88.7)",
+      "popover": "oklch(0.293 0.040 59.0)",
+      "popover-foreground": "oklch(0.977 0.028 88.7)",
+      "primary": "oklch(0.523 0.135 144.2)",
+      "primary-foreground": "oklch(0.222 0.011 60.9)",
+      "secondary": "oklch(0.480 0.047 62.7)",
+      "secondary-foreground": "oklch(0.977 0.028 88.7)",
+      "muted": "oklch(0.480 0.047 62.7)",
+      "muted-foreground": "oklch(0.966 0.030 85.6)",
+      "accent": "oklch(0.849 0.151 81.3)",
+      "accent-foreground": "oklch(0.222 0.011 60.9)",
+      "destructive": "oklch(0.747 0.180 57.4)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.523 0.135 144.2)",
+      "chart-1": "oklch(0.523 0.135 144.2)",
+      "chart-2": "oklch(0.747 0.180 57.4)",
+      "chart-3": "oklch(0.849 0.151 81.3)",
+      "chart-4": "oklch(0.744 0.119 142.0)",
+      "chart-5": "oklch(0.953 0.033 83.7)",
+      "sidebar": "oklch(0.272 0.032 57.8)",
+      "sidebar-foreground": "oklch(0.977 0.028 88.7)",
+      "sidebar-primary": "oklch(0.523 0.135 144.2)",
+      "sidebar-primary-foreground": "oklch(0.222 0.011 60.9)",
+      "sidebar-accent": "oklch(0.480 0.047 62.7)",
+      "sidebar-accent-foreground": "oklch(0.977 0.028 88.7)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.523 0.135 144.2)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent marigold bloom motif",
+        "asset": "/systems/morphous-marigold/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Marigold transparent motif chroma-key source\nPrimary request: Create only a complete marigold bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A kitchen garden marigold bloom with layered ruffled saffron-orange petals, deeper burnt-orange petal shadows, a compact warm umber center, a few small natural leaf-green marigold leaves, crisp botanical detail, natural petal texture, clean studio lighting. The bloom must be recognizable as marigold, not chrysanthemum, calendula, dahlia, or sunflower.\nComposition/framing: centered complete bloom cutout with leaves visible, generous padding on every side, no cropping.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no hand, no props, no landscape, no second flower, no cast shadow, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-marigold/design-system-light.png",
+        "sourceAsset": "/systems/morphous-marigold/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Marigold light-mode design-system board, regeneration for larger source resolution\nInput image: Use the marigold bloom cutout as the source reference for palette, texture, and visual language.\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Marigold\", clearly derived from a kitchen garden marigold bloom.\nReference use: Extract saffron-orange ruffled petal actions, burnt-orange petal shadows, leaf-green navigation and success states, umber soil depth, soft garden-cream surfaces, and productive garden workflow rhythm. The board must visibly respect these colors and materials.\nCanvas: strict 16:9 landscape design board, target 3840x2160 4K source board. Make the board a wide desktop presentation, not a small preview.\nResolution and legibility: large readable section labels and component labels, precise grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Marigold, Marigold Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, soft shadow tokens, generated asset examples.\nTypography: productive English product UI with sturdy readable display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option only for harvest notes. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nColor palette: motif-derived colors only, with named swatches: Garden Cream, Soil Ink, Saffron Petal, Leaf Row, Marigold Gold, Petal Shadow, Seed Umber, Sprout Green, Parchment Card, Bed Border, Harvest Success.\nVisual style: productive garden system for planning, harvesting, seeding, inventory, and kitchen-garden operations; warm light surfaces, saffron primary buttons, leaf-green navigation, umber data contrast, subtle petal/soil texture, crisp component edges, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Marigold, no tiny illegible text."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-marigold/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-marigold/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Marigold dark-mode design-system board, regeneration for larger source resolution\nInput images: Use the marigold bloom cutout and the light-mode Morphous Marigold board as references. Treat them as reference images, not edit targets.\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible board for \"Morphous Marigold\" that feels like the provided light board translated to dark mode, not a new theme.\nReference use: Preserve the same productive garden workflow language, component coverage, 8px radius, palette roles, texture rhythm, spacing system, typography guidance, and marigold-derived identity. Translate saffron petals into primary actions and focus highlights; use leaf green for navigation and success; use umber soil and deep compost browns for dark surfaces; use garden-cream highlights for foreground text.\nCanvas: strict 16:9 landscape board, target 3840x2160 4K source board. Make the board a wide desktop presentation, not a small preview.\nResolution and legibility: large readable labels and component labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Marigold, Marigold Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, shadow tokens, semantic tokens, generated asset examples.\nTypography: productive English product UI with sturdy readable display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option only for harvest notes. Include short readable Japanese samples.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nDark palette: deepest Soil Ink and Seed Umber backgrounds, compost-brown cards, garden-cream text, saffron-orange primary controls, leaf-green navigation and success states, muted bed-border dividers, restrained red-orange destructive state only where needed.\nVisual style: dark productive garden operations UI, warm earthy contrast, saffron and leaf highlights, subtle marigold petal texture, quiet shadows, crisp shadcn/tweakcn components, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon palette, no flat pure black background except tiny ink token swatches, no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Marigold, no tiny illegible text."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-marigold/motif.png",
+      "board": "/systems/morphous-marigold/design-system-light.png",
+      "darkBoard": "/systems/morphous-marigold/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-marigold/theme.css",
+      "themeJson": "/systems/morphous-marigold/theme.json",
+      "promptsJson": "/systems/morphous-marigold/prompts.json"
+    }
+  },
+  {
     "slug": "morphous-medlar",
     "name": "Morphous Medlar",
     "motifName": "Medlar Fruit",
@@ -16599,6 +18124,194 @@
       "themeCss": "/systems/morphous-mushroom/theme.css",
       "themeJson": "/systems/morphous-mushroom/theme.json",
       "promptsJson": "/systems/morphous-mushroom/prompts.json"
+    }
+  },
+  {
+    "slug": "morphous-nasturtium",
+    "name": "Morphous Nasturtium",
+    "motifName": "Nasturtium",
+    "motifCategory": "flower",
+    "biome": "edible garden",
+    "motif": "nasturtium blossom",
+    "description": "A shadcn/tweakcn-compatible playful recipe system derived from nasturtium blossom: tangerine-red petals, round leaf-green shapes, edible garden warmth, peppery coral states, and friendly cooking workflow components.",
+    "typography": "Playful recipe English UI with Japanese typography guidance for recipe titles, ingredient tables, preparation steps, status chips, and readable kitchen dashboards.",
+    "layout": "Recipe cards, pantry dashboards, 8px radii, circular leaf-inspired controls, tangerine primary actions, pepper-red accents, round leaf success states, and warm edible-garden surfaces.",
+    "tags": [
+      "nasturtium",
+      "flower",
+      "edible-garden",
+      "tangerine",
+      "round-leaf",
+      "recipe-system",
+      "playful",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Recipe Cream",
+        "hex": "#FFF4E2",
+        "oklch": "oklch(0.971 0.026 80.3)"
+      },
+      {
+        "role": "Ink",
+        "name": "Pepper Ink",
+        "hex": "#2C1C18",
+        "oklch": "oklch(0.246 0.027 34.6)"
+      },
+      {
+        "role": "Primary",
+        "name": "Tangerine Bloom",
+        "hex": "#F26B2A",
+        "oklch": "oklch(0.684 0.182 43.0)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Round Leaf",
+        "hex": "#4F8F48",
+        "oklch": "oklch(0.590 0.123 141.8)"
+      },
+      {
+        "role": "Accent",
+        "name": "Pepper Red",
+        "hex": "#C83A2D",
+        "oklch": "oklch(0.558 0.181 29.3)"
+      },
+      {
+        "role": "Signal",
+        "name": "Petal Gold",
+        "hex": "#F2B844",
+        "oklch": "oklch(0.816 0.144 81.1)"
+      },
+      {
+        "role": "Surface",
+        "name": "Kitchen White",
+        "hex": "#FFF9EF",
+        "oklch": "oklch(0.984 0.015 80.7)"
+      },
+      {
+        "role": "Muted",
+        "name": "Leaf Vein",
+        "hex": "#A8B879",
+        "oklch": "oklch(0.755 0.087 120.1)"
+      },
+      {
+        "role": "Depth",
+        "name": "Garden Soil",
+        "hex": "#453026",
+        "oklch": "oklch(0.331 0.035 46.5)"
+      },
+      {
+        "role": "Border",
+        "name": "Stem Tan",
+        "hex": "#B08355",
+        "oklch": "oklch(0.644 0.083 66.0)"
+      },
+      {
+        "role": "Success",
+        "name": "Edible Leaf",
+        "hex": "#76A85A",
+        "oklch": "oklch(0.677 0.120 135.2)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.971 0.026 80.3)",
+      "foreground": "oklch(0.246 0.027 34.6)",
+      "card": "oklch(0.984 0.015 80.7)",
+      "card-foreground": "oklch(0.246 0.027 34.6)",
+      "popover": "oklch(0.984 0.015 80.7)",
+      "popover-foreground": "oklch(0.246 0.027 34.6)",
+      "primary": "oklch(0.684 0.182 43.0)",
+      "primary-foreground": "oklch(0.971 0.026 80.3)",
+      "secondary": "oklch(0.979 0.019 80.1)",
+      "secondary-foreground": "oklch(0.331 0.035 46.5)",
+      "muted": "oklch(0.981 0.019 83.1)",
+      "muted-foreground": "oklch(0.331 0.035 46.5)",
+      "accent": "oklch(0.558 0.181 29.3)",
+      "accent-foreground": "oklch(0.246 0.027 34.6)",
+      "destructive": "oklch(0.684 0.182 43.0)",
+      "border": "oklch(0.904 0.039 110.4)",
+      "input": "oklch(0.904 0.039 110.4)",
+      "ring": "oklch(0.590 0.123 141.8)",
+      "chart-1": "oklch(0.684 0.182 43.0)",
+      "chart-2": "oklch(0.590 0.123 141.8)",
+      "chart-3": "oklch(0.558 0.181 29.3)",
+      "chart-4": "oklch(0.816 0.144 81.1)",
+      "chart-5": "oklch(0.331 0.035 46.5)",
+      "sidebar": "oklch(0.979 0.018 78.2)",
+      "sidebar-foreground": "oklch(0.246 0.027 34.6)",
+      "sidebar-primary": "oklch(0.684 0.182 43.0)",
+      "sidebar-primary-foreground": "oklch(0.971 0.026 80.3)",
+      "sidebar-accent": "oklch(0.943 0.032 61.4)",
+      "sidebar-accent-foreground": "oklch(0.684 0.182 43.0)",
+      "sidebar-border": "oklch(0.904 0.039 110.4)",
+      "sidebar-ring": "oklch(0.590 0.123 141.8)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.246 0.027 34.6)",
+      "foreground": "oklch(0.971 0.026 80.3)",
+      "card": "oklch(0.303 0.033 42.7)",
+      "card-foreground": "oklch(0.971 0.026 80.3)",
+      "popover": "oklch(0.303 0.033 42.7)",
+      "popover-foreground": "oklch(0.971 0.026 80.3)",
+      "primary": "oklch(0.590 0.123 141.8)",
+      "primary-foreground": "oklch(0.246 0.027 34.6)",
+      "secondary": "oklch(0.431 0.038 80.5)",
+      "secondary-foreground": "oklch(0.971 0.026 80.3)",
+      "muted": "oklch(0.431 0.038 80.5)",
+      "muted-foreground": "oklch(0.875 0.051 108.6)",
+      "accent": "oklch(0.558 0.181 29.3)",
+      "accent-foreground": "oklch(0.246 0.027 34.6)",
+      "destructive": "oklch(0.684 0.182 43.0)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.590 0.123 141.8)",
+      "chart-1": "oklch(0.590 0.123 141.8)",
+      "chart-2": "oklch(0.684 0.182 43.0)",
+      "chart-3": "oklch(0.558 0.181 29.3)",
+      "chart-4": "oklch(0.816 0.144 81.1)",
+      "chart-5": "oklch(0.755 0.087 120.1)",
+      "sidebar": "oklch(0.286 0.032 41.1)",
+      "sidebar-foreground": "oklch(0.971 0.026 80.3)",
+      "sidebar-primary": "oklch(0.590 0.123 141.8)",
+      "sidebar-primary-foreground": "oklch(0.246 0.027 34.6)",
+      "sidebar-accent": "oklch(0.431 0.038 80.5)",
+      "sidebar-accent-foreground": "oklch(0.971 0.026 80.3)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.590 0.123 141.8)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent nasturtium blossom motif",
+        "asset": "/systems/morphous-nasturtium/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Nasturtium transparent motif chroma-key source\nPrimary request: Create a complete nasturtium blossom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: An edible garden nasturtium blossom with tangerine-orange and pepper-red petals, round green leaves, slender stems, warm botanical texture, and crisp natural edges. It should read clearly as nasturtium.\nComposition/framing: centered complete blossom and round leaves with generous padding, no cropping.\nChroma-key background: perfectly flat solid #0000ff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no marigold, no poppy, no hibiscus, no plate, no kitchen props, no hand, no landscape."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-nasturtium/design-system-light.png",
+        "sourceAsset": "/systems/morphous-nasturtium/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Nasturtium light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Nasturtium, derived from the visible nasturtium blossom cutout.\nCanvas: wide 16:9 high-resolution board, polished playful recipe-system presentation.\nRequired visible sections: Morphous Nasturtium, Nasturtium Blossom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract tangerine blossoms, pepper-red accents, round leaf-green controls, edible garden warmth, kitchen-cream surfaces, and circular leaf geometry for recipes, meal planning, pantry dashboards, and food-content workflows.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, recipe cards, ingredient tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic orange UI, no unrelated neon colors, no marigold confusion, no tiny unreadable text, no watermark, no misspelling of Morphous Nasturtium."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-nasturtium/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-nasturtium/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Nasturtium dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Nasturtium that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Nasturtium, Nasturtium Blossom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve tangerine actions, pepper-red emphasis, round leaf-green success, warm recipe-cream foregrounds, garden-soil dark surfaces, and playful recipe workflow structure.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Nasturtium."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-nasturtium/motif.png",
+      "board": "/systems/morphous-nasturtium/design-system-light.png",
+      "darkBoard": "/systems/morphous-nasturtium/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-nasturtium/theme.css",
+      "themeJson": "/systems/morphous-nasturtium/theme.json",
+      "promptsJson": "/systems/morphous-nasturtium/prompts.json"
     }
   },
   {
@@ -23586,6 +25299,196 @@
     }
   },
   {
+    "slug": "morphous-snapdragon",
+    "name": "Morphous Snapdragon",
+    "motifName": "Snapdragon Spike",
+    "motifCategory": "flower",
+    "biome": "cottage border",
+    "motif": "snapdragon spike vertical timeline",
+    "description": "A shadcn/tweakcn-compatible vertical timeline system derived from snapdragon spikes: magenta blossom nodes, cream flower-throat surfaces, leaf-green support states, upright stem rails, and stem-shadow depth for workflow-heavy product UI.",
+    "typography": "Geist for structured English workflow UI with Noto Sans JP guidance for Japanese headings, labels, tables, command search, and tabular numerals.",
+    "layout": "Vertical timeline layouts with stem-like rails, stacked blossom-node states, narrow navigation, 8px component radii, cream panels, magenta primary actions, leaf-green support controls, and disciplined workflow dashboards.",
+    "tags": [
+      "snapdragon",
+      "flower",
+      "cottage-border",
+      "magenta",
+      "cream",
+      "leaf-green",
+      "vertical-timeline",
+      "workflow",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Paper Cream",
+        "hex": "#fff8ee",
+        "oklch": "oklch(0.982 0.015 77.1)"
+      },
+      {
+        "role": "Ink",
+        "name": "Stem Shadow",
+        "hex": "#2a2019",
+        "oklch": "oklch(0.253 0.020 56.6)"
+      },
+      {
+        "role": "Primary",
+        "name": "Snapdragon Magenta",
+        "hex": "#c2185b",
+        "oklch": "oklch(0.531 0.202 5.6)"
+      },
+      {
+        "role": "Primary Dark",
+        "name": "Deep Petal",
+        "hex": "#9c1456",
+        "oklch": "oklch(0.458 0.174 358.6)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Blush Cream",
+        "hex": "#ffe2e9",
+        "oklch": "oklch(0.938 0.033 1.4)"
+      },
+      {
+        "role": "Accent",
+        "name": "Cream Throat",
+        "hex": "#fff6e8",
+        "oklch": "oklch(0.976 0.021 79.1)"
+      },
+      {
+        "role": "Success",
+        "name": "Leaf Green",
+        "hex": "#4f8e47",
+        "oklch": "oklch(0.587 0.122 141.5)"
+      },
+      {
+        "role": "Signal",
+        "name": "Stem Green",
+        "hex": "#2e6e3a",
+        "oklch": "oklch(0.483 0.105 147.6)"
+      },
+      {
+        "role": "Surface",
+        "name": "Petal Cream",
+        "hex": "#faf6f1",
+        "oklch": "oklch(0.975 0.008 73.7)"
+      },
+      {
+        "role": "Muted",
+        "name": "Soft Sepal",
+        "hex": "#d8c7b8",
+        "oklch": "oklch(0.840 0.028 63.9)"
+      },
+      {
+        "role": "Depth",
+        "name": "Petal Shadow",
+        "hex": "#5a3f35",
+        "oklch": "oklch(0.395 0.042 41.2)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.982 0.015 77.1)",
+      "foreground": "oklch(0.253 0.020 56.6)",
+      "card": "oklch(0.975 0.008 73.7)",
+      "card-foreground": "oklch(0.253 0.020 56.6)",
+      "popover": "oklch(0.975 0.008 73.7)",
+      "popover-foreground": "oklch(0.253 0.020 56.6)",
+      "primary": "oklch(0.531 0.202 5.6)",
+      "primary-foreground": "oklch(0.982 0.015 77.1)",
+      "secondary": "oklch(0.978 0.011 76.6)",
+      "secondary-foreground": "oklch(0.395 0.042 41.2)",
+      "muted": "oklch(0.977 0.010 81.8)",
+      "muted-foreground": "oklch(0.395 0.042 41.2)",
+      "accent": "oklch(0.976 0.021 79.1)",
+      "accent-foreground": "oklch(0.253 0.020 56.6)",
+      "destructive": "oklch(0.531 0.202 5.6)",
+      "border": "oklch(0.927 0.016 67.6)",
+      "input": "oklch(0.927 0.016 67.6)",
+      "ring": "oklch(0.938 0.033 1.4)",
+      "chart-1": "oklch(0.531 0.202 5.6)",
+      "chart-2": "oklch(0.938 0.033 1.4)",
+      "chart-3": "oklch(0.976 0.021 79.1)",
+      "chart-4": "oklch(0.483 0.105 147.6)",
+      "chart-5": "oklch(0.395 0.042 41.2)",
+      "sidebar": "oklch(0.978 0.011 76.6)",
+      "sidebar-foreground": "oklch(0.253 0.020 56.6)",
+      "sidebar-primary": "oklch(0.531 0.202 5.6)",
+      "sidebar-primary-foreground": "oklch(0.982 0.015 77.1)",
+      "sidebar-accent": "oklch(0.912 0.027 6.2)",
+      "sidebar-accent-foreground": "oklch(0.531 0.202 5.6)",
+      "sidebar-border": "oklch(0.927 0.016 67.6)",
+      "sidebar-ring": "oklch(0.938 0.033 1.4)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.253 0.020 56.6)",
+      "foreground": "oklch(0.982 0.015 77.1)",
+      "card": "oklch(0.348 0.036 43.2)",
+      "card-foreground": "oklch(0.982 0.015 77.1)",
+      "popover": "oklch(0.348 0.036 43.2)",
+      "popover-foreground": "oklch(0.982 0.015 77.1)",
+      "primary": "oklch(0.938 0.033 1.4)",
+      "primary-foreground": "oklch(0.253 0.020 56.6)",
+      "secondary": "oklch(0.500 0.037 45.0)",
+      "secondary-foreground": "oklch(0.982 0.015 77.1)",
+      "muted": "oklch(0.500 0.037 45.0)",
+      "muted-foreground": "oklch(0.918 0.020 70.0)",
+      "accent": "oklch(0.976 0.021 79.1)",
+      "accent-foreground": "oklch(0.253 0.020 56.6)",
+      "destructive": "oklch(0.531 0.202 5.6)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.938 0.033 1.4)",
+      "chart-1": "oklch(0.938 0.033 1.4)",
+      "chart-2": "oklch(0.531 0.202 5.6)",
+      "chart-3": "oklch(0.976 0.021 79.1)",
+      "chart-4": "oklch(0.483 0.105 147.6)",
+      "chart-5": "oklch(0.840 0.028 63.9)",
+      "sidebar": "oklch(0.320 0.030 45.1)",
+      "sidebar-foreground": "oklch(0.982 0.015 77.1)",
+      "sidebar-primary": "oklch(0.938 0.033 1.4)",
+      "sidebar-primary-foreground": "oklch(0.253 0.020 56.6)",
+      "sidebar-accent": "oklch(0.500 0.037 45.0)",
+      "sidebar-accent-foreground": "oklch(0.982 0.015 77.1)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.938 0.033 1.4)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent snapdragon spike motif",
+        "asset": "/systems/morphous-snapdragon/motif.png",
+        "workflow": "Built-in image generation on a flat #00ffff chroma-key background, then local background removal with remove_chroma_key.py.",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Snapdragon transparent motif chroma-key source\nPrimary request: Create only a snapdragon flower spike botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A vertical snapdragon spike with stacked tubular blossoms in rich magenta, blush cream throats, subtle petal veining, leaf-green lanceolate leaves, a slender upright green stem, and soft stem shadows inside the plant form. Botanical accuracy, crisp subject edges, recognizable Antirrhinum snapdragon flower form, no bouquet, no garden scene.\nComposition/framing: centered complete vertical cutout with generous padding; include full spike from top florets to lower leaves and stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ffff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no foxglove, no delphinium, no lupine, no rose, no vase, no hand, no text, no watermark, no props, no landscape, no second flower spike."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-snapdragon/design-system-light.png",
+        "sourceAsset": "/systems/morphous-snapdragon/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Snapdragon light-mode design-system board, strict landscape\nPrimary request: Generate one horizontal 16:9 light-mode design-system board for a Morphous theme named \"Morphous Snapdragon\", derived from the visible snapdragon spike motif. It is a shadcn/tweakcn-compatible vertical timeline workflow UI system.\nCanvas: strict landscape 16:9 only, target 3840x2160, at least 2400px wide. Do not create a square board or portrait board. Use one clean professional design-system board filling the wide canvas.\nRequired visible sections: Morphous Snapdragon, Snapdragon Spike, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract palette and interaction language from rich magenta petals, blush cream flower throats, leaf-green leaves, upright green stem, soft stem-shadow depth, cottage border botanical freshness, and stacked flower-node rhythm. Must read as snapdragon, not foxglove, delphinium, lupine, rose, or generic magenta UI kit.\nDesign mood: vertical timeline system; central stem-like rail, blossom-node status markers, stacked workflow steps, narrow side navigation, timeline cards, ordered progress states, upright hierarchy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, workflow navigation, timeline dashboard metric cards, vertical progress chart, operations table, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, cream paper surfaces, magenta primary actions, leaf-green secondary controls, stem-shadow borders, cream throat highlights, botanical petal-grain texture, readable token chips.\nConstraints: no foxglove, no delphinium, no lupine, no rose, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Snapdragon\", no tiny unreadable paragraphs."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-snapdragon/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-snapdragon/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Snapdragon dark-mode design-system board, strict landscape\nPrimary request: Generate one horizontal 16:9 dark-mode design-system board for the Morphous theme named \"Morphous Snapdragon\". Translate the visible light-mode Snapdragon board into dark mode while preserving the snapdragon spike motif and shadcn/tweakcn vertical timeline workflow system.\nCanvas: strict landscape 16:9 only, target 3840x2160, at least 2400px wide. Do not create a square board or portrait board. Use one clean professional design-system board filling the wide canvas.\nRequired visible sections: Morphous Snapdragon, Snapdragon Spike, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the snapdragon language: rich magenta primary actions, blush cream flower-throat highlights, leaf-green support states, upright green stem accents, deep stem-shadow dark surfaces, cottage border botanical texture, and stacked blossom-node vertical timeline rhythm. Must read as snapdragon, not foxglove, delphinium, lupine, rose, or generic magenta UI kit.\nDesign mood: vertical timeline system; dark central stem-like rail, glowing blossom-node status markers, stacked workflow steps, narrow side navigation, timeline cards, ordered progress states, upright hierarchy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, workflow navigation, timeline dashboard metric cards, vertical progress chart, operations table, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep green-brown stem-shadow background, petal-cream foreground text, magenta controls, leaf-green status, cream throat highlights, subtle petal-grain and leaf-vein texture overlays, restrained contrast, crisp cards and controls, readable token chips.\nConstraints: no foxglove, no delphinium, no lupine, no rose, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no unrelated saturated colors, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Snapdragon\"."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-snapdragon/motif.png",
+      "board": "/systems/morphous-snapdragon/design-system-light.png",
+      "darkBoard": "/systems/morphous-snapdragon/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-snapdragon/theme.css",
+      "themeJson": "/systems/morphous-snapdragon/theme.json",
+      "promptsJson": "/systems/morphous-snapdragon/prompts.json"
+    }
+  },
+  {
     "slug": "morphous-snow-leopard",
     "name": "Morphous Snow Leopard",
     "motifName": "Snow Leopard",
@@ -26222,6 +28125,194 @@
     }
   },
   {
+    "slug": "morphous-wisteria",
+    "name": "Morphous Wisteria",
+    "motifName": "Wisteria",
+    "motifCategory": "flower",
+    "biome": "pergola garden",
+    "motif": "wisteria raceme",
+    "description": "A shadcn/tweakcn-compatible flowing navigation system derived from wisteria racemes: lilac-purple cascades, vine-brown structure, leaf-green accents, airy pergola surfaces, and gentle layered movement for navigation-heavy product interfaces.",
+    "typography": "Flowing product English UI with Japanese typography guidance for navigation labels, section headings, tabular data, command search, and calm content panels.",
+    "layout": "Navigation systems, multi-panel dashboards, 8px radii, cascading menu groups, lilac primary actions, vine-brown dividers, leaf-green success states, and soft pergola garden texture.",
+    "tags": [
+      "wisteria",
+      "flower",
+      "pergola-garden",
+      "lilac-purple",
+      "vine-brown",
+      "leaf-green",
+      "flowing-navigation",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Pergola Mist",
+        "hex": "#F7F2FB",
+        "oklch": "oklch(0.968 0.013 310.5)"
+      },
+      {
+        "role": "Ink",
+        "name": "Vine Ink",
+        "hex": "#251D28",
+        "oklch": "oklch(0.245 0.024 316.7)"
+      },
+      {
+        "role": "Primary",
+        "name": "Wisteria Lilac",
+        "hex": "#9C6ACB",
+        "oklch": "oklch(0.617 0.149 306.3)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Leaf Green",
+        "hex": "#6F8F58",
+        "oklch": "oklch(0.612 0.087 133.0)"
+      },
+      {
+        "role": "Accent",
+        "name": "Raceme Violet",
+        "hex": "#6F4BA4",
+        "oklch": "oklch(0.495 0.139 300.0)"
+      },
+      {
+        "role": "Signal",
+        "name": "Bloom Lavender",
+        "hex": "#C5A7E4",
+        "oklch": "oklch(0.776 0.091 306.8)"
+      },
+      {
+        "role": "Surface",
+        "name": "Petal Air",
+        "hex": "#FFF9FF",
+        "oklch": "oklch(0.988 0.010 325.7)"
+      },
+      {
+        "role": "Muted",
+        "name": "Pergola Taupe",
+        "hex": "#B49AA7",
+        "oklch": "oklch(0.713 0.036 346.4)"
+      },
+      {
+        "role": "Depth",
+        "name": "Vine Brown",
+        "hex": "#4E362F",
+        "oklch": "oklch(0.358 0.037 36.9)"
+      },
+      {
+        "role": "Border",
+        "name": "Trellis Bark",
+        "hex": "#8A6655",
+        "oklch": "oklch(0.542 0.053 46.4)"
+      },
+      {
+        "role": "Success",
+        "name": "New Leaf",
+        "hex": "#7EA65D",
+        "oklch": "oklch(0.678 0.110 132.2)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.968 0.013 310.5)",
+      "foreground": "oklch(0.245 0.024 316.7)",
+      "card": "oklch(0.988 0.010 325.7)",
+      "card-foreground": "oklch(0.245 0.024 316.7)",
+      "popover": "oklch(0.988 0.010 325.7)",
+      "popover-foreground": "oklch(0.245 0.024 316.7)",
+      "primary": "oklch(0.617 0.149 306.3)",
+      "primary-foreground": "oklch(0.968 0.013 310.5)",
+      "secondary": "oklch(0.980 0.011 321.3)",
+      "secondary-foreground": "oklch(0.358 0.037 36.9)",
+      "muted": "oklch(0.983 0.011 321.3)",
+      "muted-foreground": "oklch(0.358 0.037 36.9)",
+      "accent": "oklch(0.495 0.139 300.0)",
+      "accent-foreground": "oklch(0.245 0.024 316.7)",
+      "destructive": "oklch(0.617 0.149 306.3)",
+      "border": "oklch(0.892 0.018 340.0)",
+      "input": "oklch(0.892 0.018 340.0)",
+      "ring": "oklch(0.612 0.087 133.0)",
+      "chart-1": "oklch(0.617 0.149 306.3)",
+      "chart-2": "oklch(0.612 0.087 133.0)",
+      "chart-3": "oklch(0.495 0.139 300.0)",
+      "chart-4": "oklch(0.776 0.091 306.8)",
+      "chart-5": "oklch(0.358 0.037 36.9)",
+      "sidebar": "oklch(0.982 0.011 316.5)",
+      "sidebar-foreground": "oklch(0.245 0.024 316.7)",
+      "sidebar-primary": "oklch(0.617 0.149 306.3)",
+      "sidebar-primary-foreground": "oklch(0.968 0.013 310.5)",
+      "sidebar-accent": "oklch(0.945 0.025 314.0)",
+      "sidebar-accent-foreground": "oklch(0.617 0.149 306.3)",
+      "sidebar-border": "oklch(0.892 0.018 340.0)",
+      "sidebar-ring": "oklch(0.612 0.087 133.0)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.245 0.024 316.7)",
+      "foreground": "oklch(0.968 0.013 310.5)",
+      "card": "oklch(0.322 0.027 22.3)",
+      "card-foreground": "oklch(0.968 0.013 310.5)",
+      "popover": "oklch(0.322 0.027 22.3)",
+      "popover-foreground": "oklch(0.968 0.013 310.5)",
+      "primary": "oklch(0.612 0.087 133.0)",
+      "primary-foreground": "oklch(0.245 0.024 316.7)",
+      "secondary": "oklch(0.441 0.033 26.7)",
+      "secondary-foreground": "oklch(0.968 0.013 310.5)",
+      "muted": "oklch(0.441 0.033 26.7)",
+      "muted-foreground": "oklch(0.854 0.022 335.0)",
+      "accent": "oklch(0.495 0.139 300.0)",
+      "accent-foreground": "oklch(0.245 0.024 316.7)",
+      "destructive": "oklch(0.617 0.149 306.3)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.612 0.087 133.0)",
+      "chart-1": "oklch(0.612 0.087 133.0)",
+      "chart-2": "oklch(0.617 0.149 306.3)",
+      "chart-3": "oklch(0.495 0.139 300.0)",
+      "chart-4": "oklch(0.776 0.091 306.8)",
+      "chart-5": "oklch(0.713 0.036 346.4)",
+      "sidebar": "oklch(0.299 0.023 9.6)",
+      "sidebar-foreground": "oklch(0.968 0.013 310.5)",
+      "sidebar-primary": "oklch(0.612 0.087 133.0)",
+      "sidebar-primary-foreground": "oklch(0.245 0.024 316.7)",
+      "sidebar-accent": "oklch(0.441 0.033 26.7)",
+      "sidebar-accent-foreground": "oklch(0.968 0.013 310.5)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.612 0.087 133.0)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent wisteria raceme motif",
+        "asset": "/systems/morphous-wisteria/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Wisteria transparent motif chroma-key source\nPrimary request: Create a complete wisteria raceme motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A pergola garden wisteria raceme with cascading lilac-purple blossoms, subtle violet shadows, vine-brown stems, and fresh leaf-green foliage. Crisp botanical edges, layered hanging flower structure, no cast shadow.\nComposition/framing: centered complete hanging raceme cutout with generous padding, blossoms, leaves, and vine structure visible without cropping.\nChroma-key background: perfectly flat solid #00ffff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no grapes, no lilac shrub, no lavender sprig, no trellis background, no vase, no hand, no props, no landscape."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-wisteria/design-system-light.png",
+        "sourceAsset": "/systems/morphous-wisteria/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Wisteria light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Wisteria, derived from the visible wisteria raceme cutout.\nCanvas: wide 16:9 high-resolution board, polished flowing navigation-system presentation.\nRequired visible sections: Morphous Wisteria, Wisteria Raceme, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract lilac-purple cascading blooms, vine-brown structure, leaf-green accents, pergola mist surfaces, and soft lavender depth for navigation-heavy dashboards, menus, documentation, and multi-panel workspaces.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, navigation groups, sidebar, command palette, tables, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, borders, shadows, and token swatches.\nConstraints: no generic purple gradient UI, no unrelated neon colors, no grapes, no tiny unreadable text, no watermark, no misspelling of Morphous Wisteria."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-wisteria/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-wisteria/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Wisteria dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Wisteria that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Wisteria, Wisteria Raceme, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve lilac navigation states, lavender focus rings, vine-brown dark surfaces, leaf-green success states, petal-air foregrounds, and flowing menu structure for navigation-heavy product interfaces.\nConstraints: no neon palette, no generic black UI, no unrelated colors, no grapes, no tiny text, no watermark, no misspelling of Morphous Wisteria."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-wisteria/motif.png",
+      "board": "/systems/morphous-wisteria/design-system-light.png",
+      "darkBoard": "/systems/morphous-wisteria/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-wisteria/theme.css",
+      "themeJson": "/systems/morphous-wisteria/theme.json",
+      "promptsJson": "/systems/morphous-wisteria/prompts.json"
+    }
+  },
+  {
     "slug": "morphous-yuzu",
     "name": "Morphous Yuzu",
     "motifName": "柚子 / Yuzu Fruit",
@@ -26417,6 +28508,194 @@
       "themeCss": "/systems/morphous-yuzu/theme.css",
       "themeJson": "/systems/morphous-yuzu/theme.json",
       "promptsJson": "/systems/morphous-yuzu/prompts.json"
+    }
+  },
+  {
+    "slug": "morphous-zinnia",
+    "name": "Morphous Zinnia",
+    "motifName": "Zinnia",
+    "motifCategory": "flower",
+    "biome": "pollinator garden",
+    "motif": "zinnia bloom",
+    "description": "A shadcn/tweakcn-compatible bright campaign system derived from a zinnia bloom: coral-orange petals, magenta depth, pollen-gold focus, leaf-green status accents, and high-energy launch planning components.",
+    "typography": "Bright campaign English UI with Japanese typography guidance for launch headings, campaign tables, status labels, creative briefs, and readable dashboard metrics.",
+    "layout": "Campaign dashboards, launch boards, 8px radii, petal-grid cards, coral primary actions, magenta active states, leaf-green success controls, and pollen-gold focus rings.",
+    "tags": [
+      "zinnia",
+      "flower",
+      "pollinator-garden",
+      "coral-orange",
+      "magenta",
+      "leaf-green",
+      "campaign-system",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Petal Cream",
+        "hex": "#FFF3E8",
+        "oklch": "oklch(0.971 0.020 65.1)"
+      },
+      {
+        "role": "Ink",
+        "name": "Garden Ink",
+        "hex": "#2A191C",
+        "oklch": "oklch(0.237 0.028 7.8)"
+      },
+      {
+        "role": "Primary",
+        "name": "Zinnia Coral",
+        "hex": "#F26A3D",
+        "oklch": "oklch(0.685 0.178 38.4)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Leaf Green",
+        "hex": "#4F8E45",
+        "oklch": "oklch(0.586 0.124 141.0)"
+      },
+      {
+        "role": "Accent",
+        "name": "Magenta Petal",
+        "hex": "#D72E77",
+        "oklch": "oklch(0.589 0.209 0.4)"
+      },
+      {
+        "role": "Signal",
+        "name": "Pollen Gold",
+        "hex": "#F3BD3F",
+        "oklch": "oklch(0.826 0.149 84.4)"
+      },
+      {
+        "role": "Surface",
+        "name": "Campaign White",
+        "hex": "#FFF9F4",
+        "oklch": "oklch(0.985 0.009 62.6)"
+      },
+      {
+        "role": "Muted",
+        "name": "Petal Peach",
+        "hex": "#EAB39E",
+        "oklch": "oklch(0.812 0.071 41.9)"
+      },
+      {
+        "role": "Depth",
+        "name": "Garden Plum",
+        "hex": "#4B2532",
+        "oklch": "oklch(0.320 0.060 359.2)"
+      },
+      {
+        "role": "Border",
+        "name": "Stem Brown",
+        "hex": "#8A5C3E",
+        "oklch": "oklch(0.518 0.075 53.5)"
+      },
+      {
+        "role": "Success",
+        "name": "Pollinator Leaf",
+        "hex": "#75A84F",
+        "oklch": "oklch(0.675 0.132 133.5)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.971 0.020 65.1)",
+      "foreground": "oklch(0.237 0.028 7.8)",
+      "card": "oklch(0.985 0.009 62.6)",
+      "card-foreground": "oklch(0.237 0.028 7.8)",
+      "popover": "oklch(0.985 0.009 62.6)",
+      "popover-foreground": "oklch(0.237 0.028 7.8)",
+      "primary": "oklch(0.685 0.178 38.4)",
+      "primary-foreground": "oklch(0.971 0.020 65.1)",
+      "secondary": "oklch(0.978 0.013 60.6)",
+      "secondary-foreground": "oklch(0.320 0.060 359.2)",
+      "muted": "oklch(0.981 0.012 59.6)",
+      "muted-foreground": "oklch(0.320 0.060 359.2)",
+      "accent": "oklch(0.589 0.209 0.4)",
+      "accent-foreground": "oklch(0.237 0.028 7.8)",
+      "destructive": "oklch(0.685 0.178 38.4)",
+      "border": "oklch(0.922 0.029 47.3)",
+      "input": "oklch(0.922 0.029 47.3)",
+      "ring": "oklch(0.586 0.124 141.0)",
+      "chart-1": "oklch(0.685 0.178 38.4)",
+      "chart-2": "oklch(0.586 0.124 141.0)",
+      "chart-3": "oklch(0.589 0.209 0.4)",
+      "chart-4": "oklch(0.826 0.149 84.4)",
+      "chart-5": "oklch(0.320 0.060 359.2)",
+      "sidebar": "oklch(0.980 0.013 63.9)",
+      "sidebar-foreground": "oklch(0.237 0.028 7.8)",
+      "sidebar-primary": "oklch(0.685 0.178 38.4)",
+      "sidebar-primary-foreground": "oklch(0.971 0.020 65.1)",
+      "sidebar-accent": "oklch(0.945 0.027 47.2)",
+      "sidebar-accent-foreground": "oklch(0.685 0.178 38.4)",
+      "sidebar-border": "oklch(0.922 0.029 47.3)",
+      "sidebar-ring": "oklch(0.586 0.124 141.0)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.237 0.028 7.8)",
+      "foreground": "oklch(0.971 0.020 65.1)",
+      "card": "oklch(0.293 0.050 359.9)",
+      "card-foreground": "oklch(0.971 0.020 65.1)",
+      "popover": "oklch(0.293 0.050 359.9)",
+      "popover-foreground": "oklch(0.971 0.020 65.1)",
+      "primary": "oklch(0.586 0.124 141.0)",
+      "primary-foreground": "oklch(0.237 0.028 7.8)",
+      "secondary": "oklch(0.437 0.059 10.5)",
+      "secondary-foreground": "oklch(0.971 0.020 65.1)",
+      "muted": "oklch(0.437 0.059 10.5)",
+      "muted-foreground": "oklch(0.899 0.041 46.7)",
+      "accent": "oklch(0.589 0.209 0.4)",
+      "accent-foreground": "oklch(0.237 0.028 7.8)",
+      "destructive": "oklch(0.685 0.178 38.4)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.586 0.124 141.0)",
+      "chart-1": "oklch(0.586 0.124 141.0)",
+      "chart-2": "oklch(0.685 0.178 38.4)",
+      "chart-3": "oklch(0.589 0.209 0.4)",
+      "chart-4": "oklch(0.826 0.149 84.4)",
+      "chart-5": "oklch(0.812 0.071 41.9)",
+      "sidebar": "oklch(0.276 0.042 2.8)",
+      "sidebar-foreground": "oklch(0.971 0.020 65.1)",
+      "sidebar-primary": "oklch(0.586 0.124 141.0)",
+      "sidebar-primary-foreground": "oklch(0.237 0.028 7.8)",
+      "sidebar-accent": "oklch(0.437 0.059 10.5)",
+      "sidebar-accent-foreground": "oklch(0.971 0.020 65.1)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.586 0.124 141.0)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent zinnia bloom motif",
+        "asset": "/systems/morphous-zinnia/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Zinnia transparent motif chroma-key source\nPrimary request: Create a complete zinnia bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A pollinator garden zinnia bloom with layered coral-orange petals, magenta petal depth, pollen-gold center detail, a few leaf-green accents, crisp botanical geometry, and natural petal texture. Crisp edges, no cast shadow.\nComposition/framing: centered complete bloom cutout with generous padding, no cropping.\nChroma-key background: perfectly flat solid #00ffff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no dahlia, no marigold, no sunflower, no bouquet, no hand, no props, no landscape."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-zinnia/design-system-light.png",
+        "sourceAsset": "/systems/morphous-zinnia/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Zinnia light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Zinnia, derived from the visible zinnia bloom cutout.\nCanvas: wide 16:9 high-resolution board, polished bright campaign-system presentation.\nRequired visible sections: Morphous Zinnia, Zinnia Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract coral-orange petals, magenta depth, pollen-gold focus, leaf-green success accents, pollinator-garden freshness, and radial petal geometry for marketing launches, campaign dashboards, creative briefs, and reporting tools.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, campaign cards, creative brief panels, tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic orange UI, no unrelated neon colors, no purple-blue gradients, no tiny unreadable text, no watermark, no misspelling of Morphous Zinnia."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-zinnia/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-zinnia/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Zinnia dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Zinnia that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Zinnia, Zinnia Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve coral campaign actions, magenta active states, pollen-gold focus rings, leaf-green success indicators, garden-plum dark surfaces, and radial zinnia energy for launch planning and campaign analytics.\nConstraints: no neon overload, no generic black UI, no unrelated colors, no tiny text, no watermark, no misspelling of Morphous Zinnia."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-zinnia/motif.png",
+      "board": "/systems/morphous-zinnia/design-system-light.png",
+      "darkBoard": "/systems/morphous-zinnia/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-zinnia/theme.css",
+      "themeJson": "/systems/morphous-zinnia/theme.json",
+      "promptsJson": "/systems/morphous-zinnia/prompts.json"
     }
   }
 ]

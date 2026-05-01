@@ -1,0 +1,91 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-foxglove",
+  "name": "Morphous Foxglove",
+  "motifName": "Foxglove",
+  "motifCategory": "flower",
+  "biome": "woodland edge",
+  "motif": "foxglove spire",
+  "description": "A shadcn/tweakcn-compatible careful clinical system derived from a foxglove spire: rose-purple bell actions, cream speckled throats, burgundy focus marks, woodland-green controls, and precise clinical surfaces.",
+  "typography": "Geist Sans for clinical product UI, Source Serif Display for restrained botanical headings, and Noto Sans JP guidance for Japanese records, forms, tables, and navigation labels.",
+  "layout": "Exact 8px grids, vertical spire navigation markers, 8px radius clinical cards, speckled focus rings, quiet table density, form-first workflows, and restrained rose-purple status hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "foxglove",
+    "flower",
+    "woodland-edge",
+    "rose-purple",
+    "speckled-cream",
+    "clinical",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clinical Cream",
+      "hex": "#FAF7F2"
+    },
+    {
+      "role": "Ink",
+      "name": "Woodland Ink",
+      "hex": "#161C18"
+    },
+    {
+      "role": "Primary",
+      "name": "Foxglove Rose",
+      "hex": "#B14D8F"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2E7D58"
+    },
+    {
+      "role": "Accent",
+      "name": "Speckle Burgundy",
+      "hex": "#6E1D3D"
+    },
+    {
+      "role": "Signal",
+      "name": "Throat Cream",
+      "hex": "#FFF6E6"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Surface",
+      "hex": "#F3E6F2"
+    },
+    {
+      "role": "Muted",
+      "name": "Stem Muted",
+      "hex": "#6A7F63"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Stalk",
+      "hex": "#0F1512"
+    },
+    {
+      "role": "Border",
+      "name": "Leaf Vein",
+      "hex": "#A8B49A"
+    },
+    {
+      "role": "Success",
+      "name": "Woodland Check",
+      "hex": "#4F8A58"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

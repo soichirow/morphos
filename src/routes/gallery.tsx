@@ -292,7 +292,7 @@ function CatalogRoute() {
             </nav>
           </aside>
 
-          <div className="order-1 space-y-5 lg:order-2">
+          <div className="order-1 min-w-0 space-y-5 lg:order-2">
             <ActionBar system={activeSystem} mode={mode} font={fontId} jaFont={jaFontId} />
             <Hero system={activeSystem} />
 
@@ -305,7 +305,7 @@ function CatalogRoute() {
             <ComponentPreview />
 
             <section className="grid gap-4 lg:grid-cols-[0.95fr_1.05fr]">
-              <div className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
+              <div className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
                     <Palette className="size-4 text-primary" />
@@ -338,7 +338,7 @@ function CatalogRoute() {
                 </div>
               </div>
 
-              <div className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
+              <div className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
                 <div className="flex items-center justify-between gap-2">
                   <div className="flex items-center gap-2">
                     <ImageIcon className="size-4 text-primary" />
@@ -365,7 +365,7 @@ function CatalogRoute() {
 
             <TokensPanel system={activeSystem} />
 
-            <section className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
+            <section className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <div>
                   <h2 className="text-lg font-semibold">Generation Prompts</h2>
@@ -679,14 +679,14 @@ function ComponentPreview() {
 
   return (
     <section className="rounded-xl border border-border bg-card/85 backdrop-blur">
-      <div className="flex flex-col gap-3 border-b border-border p-5 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-3 border-b border-border p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
         <div>
           <h2 className="text-lg font-semibold">shadcn Component Preview</h2>
           <p className="mt-1 text-sm text-muted-foreground">
             All components use the active theme tokens — switch the system and watch them retune.
           </p>
         </div>
-        <div className="flex rounded-lg border-2 border-border bg-background p-1 shadow-sm">
+        <div className="flex shrink-0 self-start rounded-lg border-2 border-border bg-background p-1 shadow-sm">
           {(
             [
               ["components", "Components"],
@@ -699,7 +699,7 @@ function ComponentPreview() {
               type="button"
               onClick={() => setTab(id)}
               aria-pressed={tab === id}
-              className={`h-9 cursor-pointer rounded-md px-4 text-sm font-medium transition active:scale-[0.98] ${
+              className={`h-9 cursor-pointer rounded-md px-2.5 text-sm font-medium transition active:scale-[0.98] sm:px-4 ${
                 tab === id
                   ? "bg-primary text-primary-foreground shadow"
                   : "text-foreground/70 hover:bg-muted hover:text-foreground"
@@ -744,7 +744,7 @@ function ComponentPreview() {
           </div>
         </nav>
 
-        <div className="space-y-4 p-5">
+        <div className="min-w-0 space-y-4 p-4 sm:p-5">
           {tab === "components" ? (
             <ComponentsMatrix />
           ) : tab === "dashboard" ? (
@@ -776,9 +776,9 @@ function ComponentPreview() {
 
               <div className="grid gap-3 lg:grid-cols-[1.4fr_1fr]">
                 <div className="rounded-lg border border-border bg-background p-3">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-sm font-semibold">Weekly throughput</h3>
-                    <div className="flex gap-1.5 text-[11px] text-muted-foreground">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="truncate text-sm font-semibold">Weekly throughput</h3>
+                    <div className="hidden gap-1.5 text-[11px] text-muted-foreground sm:flex">
                       {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => (
                         <span key={d} className="w-7 text-center">
                           {d}
@@ -820,8 +820,8 @@ function ComponentPreview() {
                 </div>
               </div>
 
-              <div className="rounded-lg border border-border bg-background">
-                <table className="w-full text-sm">
+              <div className="overflow-x-auto rounded-lg border border-border bg-background">
+                <table className="w-full min-w-[28rem] text-sm">
                   <thead>
                     <tr className="border-b border-border bg-muted/40 text-left text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
                       <th className="px-3 py-2">System</th>
@@ -1366,7 +1366,7 @@ function TokensPanel({ system }: { system: MorphousSystem }) {
   }
 
   return (
-    <section className="rounded-xl border border-border bg-card/85 p-5 backdrop-blur">
+    <section className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold">shadcn Tokens</h2>
