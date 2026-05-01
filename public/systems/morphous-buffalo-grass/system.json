@@ -1,0 +1,122 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 244,
+  "slug": "morphous-buffalo-grass",
+  "name": "Morphous Buffalo Grass",
+  "motifName": "Buffalo Grass",
+  "motifCategory": "plant",
+  "biome": "shortgrass prairie",
+  "motif": "buffalo grass mat",
+  "description": "A shadcn/tweakcn-compatible low-profile app system derived from a buffalo grass mat: soft green primary controls, gray-green runners, straw-tan surfaces, soil-brown structure, pale prairie-paper backgrounds, deep olive-brown dark mode, and matted shortgrass texture for compact field dashboards and quiet operational tools.",
+  "typography": "Inter-style English product UI paired with Noto Sans JP guidance for shortgrass prairie dashboards, compact Japanese labels, tabular numeric readings, and calm multilingual app surfaces.",
+  "layout": "Ground-hugging 8px app grids, shallow panels, runner-like dividers, compact dashboard density, 8px radii, low shadows, and subtle buffalo grass blade, thatch, soil, and prairie-paper textures.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "buffalo-grass",
+    "grass",
+    "plant",
+    "shortgrass-prairie",
+    "low-profile",
+    "app-system",
+    "soft-green",
+    "straw-tan",
+    "soil-brown",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Prairie Paper",
+      "hex": "#F6F3EC"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Olive",
+      "hex": "#1F2119"
+    },
+    {
+      "role": "Surface",
+      "name": "Field Card",
+      "hex": "#FCFAF4"
+    },
+    {
+      "role": "Primary",
+      "name": "Mat Olive",
+      "hex": "#5C684E"
+    },
+    {
+      "role": "Primary Soft",
+      "name": "Soft Green",
+      "hex": "#9CAF8A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gray Green",
+      "hex": "#A6B199"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage Runner",
+      "hex": "#7F9171"
+    },
+    {
+      "role": "Accent",
+      "name": "Straw Wash",
+      "hex": "#E5D7B3"
+    },
+    {
+      "role": "Signal",
+      "name": "Seed Tan",
+      "hex": "#D2BE8C"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Thatch",
+      "hex": "#C9B387"
+    },
+    {
+      "role": "Soil",
+      "name": "Soil Brown",
+      "hex": "#7A5D44"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Root Shadow",
+      "hex": "#282E24"
+    },
+    {
+      "role": "Depth",
+      "name": "Black Olive",
+      "hex": "#1F2119"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

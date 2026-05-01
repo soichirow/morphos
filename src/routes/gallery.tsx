@@ -19,21 +19,17 @@ import type { MorphousSystem } from "@/data/systems"
 import { Button } from "@/components/ui/button"
 import { OfficeDownload } from "@/components/office-download"
 import { TypographyPicker } from "@/components/typography-picker"
-import { allTags, biomes, motifCategories, systems } from "@/data/systems"
+import { motifCategories, systems } from "@/data/systems"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
-import { previewAssetPath } from "@/lib/asset-preview"
+import { PreviewImage } from "@/components/preview-image"
 import { colorDistance } from "@/lib/color-distance"
 import { useFont } from "@/lib/use-font"
 import { usePaletteOverrides } from "@/lib/use-palette-overrides"
 
-type Bias = "light" | "dark"
 type GallerySearch = {
   system?: string
   q?: string
-  biome?: string
   category?: string
-  bias?: Bias
-  tags?: string
   sort?: SortKey
 }
 
@@ -108,36 +104,20 @@ export const Route = createFileRoute("/gallery")({
     const sort = (sortOptions as Array<string>).includes(sortRaw ?? "")
       ? (sortRaw as SortKey)
       : undefined
-    const biasRaw = asString(search.bias)
-    const bias: Bias | undefined = biasRaw === "light" || biasRaw === "dark" ? biasRaw : undefined
     return {
       system: asString(search.system),
       q: asString(search.q),
-      biome: asString(search.biome),
       category: asString(search.category),
-      bias,
-      tags: asString(search.tags),
       sort,
     }
   },
 })
 
-type SortKey = "name" | "biome" | "motifName" | "color"
+type SortKey = "name" | "motifName" | "color"
 type ColorRoleKey = "Primary" | "Accent" | "Background"
 
-const sortOptions: Array<SortKey> = ["name", "biome", "motifName", "color"]
+const sortOptions: Array<SortKey> = ["name", "motifName", "color"]
 const colorRoleOptions: Array<ColorRoleKey> = ["Primary", "Accent", "Background"]
-
-const tagFrequency = (() => {
-  const counts = new Map<string, number>()
-  for (const system of systems) {
-    for (const tag of system.tags) counts.set(tag, (counts.get(tag) ?? 0) + 1)
-  }
-  return counts
-})()
-const popularTags = [...allTags]
-  .sort((a, b) => (tagFrequency.get(b) ?? 0) - (tagFrequency.get(a) ?? 0) || a.localeCompare(b))
-  .slice(0, 24)
 
 function CatalogRoute() {
   const search = Route.useSearch()
@@ -146,14 +126,8 @@ function CatalogRoute() {
   const initialSlug =
     (paramSlug && systems.find((s) => s.slug === paramSlug)?.slug) || systems[0]?.slug || ""
   const query = search.q ?? ""
-  const biome = search.biome ?? "all"
   const category = search.category ?? "all"
   const sort: SortKey = search.sort ?? "name"
-  const bias = search.bias
-  const selectedTags = useMemo(
-    () => (search.tags ? search.tags.split(",").filter(Boolean) : []),
-    [search.tags]
-  )
   const updateSearch = useCallback(
     (patch: Partial<GallerySearch>) => {
       navigate({
@@ -171,31 +145,15 @@ function CatalogRoute() {
     [navigate]
   )
   const setQuery = useCallback((value: string) => updateSearch({ q: value || undefined }), [updateSearch])
-  const setBiome = useCallback((value: string) => updateSearch({ biome: value }), [updateSearch])
   const setCategory = useCallback((value: string) => updateSearch({ category: value }), [updateSearch])
   const setSort = useCallback((value: SortKey) => updateSearch({ sort: value === "name" ? undefined : value }), [updateSearch])
-  const setBias = useCallback((value: Bias | undefined) => updateSearch({ bias: value }), [updateSearch])
-  const toggleTag = useCallback(
-    (tag: string) => {
-      const next = selectedTags.includes(tag)
-        ? selectedTags.filter((t) => t !== tag)
-        : [...selectedTags, tag]
-      updateSearch({ tags: next.length > 0 ? next.join(",") : undefined })
-    },
-    [selectedTags, updateSearch]
-  )
   const clearAll = useCallback(() => {
     navigate({
       search: (prev) => ({ system: prev.system }),
       replace: true,
     })
   }, [navigate])
-  const hasActiveFilters =
-    Boolean(query) ||
-    biome !== "all" ||
-    category !== "all" ||
-    Boolean(bias) ||
-    selectedTags.length > 0
+  const hasActiveFilters = Boolean(query) || category !== "all"
   const [mode, setMode] = useState<ThemeMode>("light")
   const [activeSlug, setActiveSlug] = useState(initialSlug)
 
@@ -230,11 +188,7 @@ function CatalogRoute() {
         .join(" ")
         .toLowerCase()
       if (tokens.length > 0 && !tokens.every((token) => searchText.includes(token))) return false
-      if (biome !== "all" && system.biome !== biome) return false
       if (category !== "all" && system.motifCategory !== category) return false
-      if (bias === "light" && system.bgLightness <= 0.7) return false
-      if (bias === "dark" && system.bgLightness >= 0.3) return false
-      if (selectedTags.length > 0 && !selectedTags.every((tag) => system.tags.includes(tag))) return false
       return true
     })
     if (sort === "color" && searchColor) {
@@ -253,7 +207,7 @@ function CatalogRoute() {
           b[key]
         )
       )
-  }, [bias, biome, category, colorRole, query, searchColor, selectedTags, sort])
+  }, [category, colorRole, query, searchColor, sort])
 
   return (
     <LightboxContext.Provider value={openLightbox}>
@@ -330,7 +284,7 @@ function CatalogRoute() {
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search motif, biome, category, prompt"
+                placeholder="Search motif, category, prompt"
                 className="h-10 w-full rounded-lg border border-input bg-card pl-9 pr-9 text-sm outline-none transition focus:border-ring focus:ring-3 focus:ring-ring/20"
               />
               {query ? (
@@ -354,7 +308,6 @@ function CatalogRoute() {
                 }}
                 onRole={setColorRole}
               />
-              <LabelSelect label="Biome" value={biome} onChange={setBiome} options={["all", ...biomes]} />
               <LabelSelect label="Motif" value={category} onChange={setCategory} options={["all", ...motifCategories]} />
               <LabelSelect
                 label="Sort"
@@ -362,55 +315,12 @@ function CatalogRoute() {
                 onChange={(v) => setSort(v as SortKey)}
                 options={sortOptions}
               />
-              <div className="flex rounded-lg border border-border bg-card p-1 text-xs">
-                <button
-                  type="button"
-                  onClick={() => setBias(undefined)}
-                  className={`rounded px-2 py-1 transition ${bias === undefined ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-                >
-                  Any
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setBias("light")}
-                  className={`rounded px-2 py-1 transition ${bias === "light" ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-                >
-                  Light bg
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setBias("dark")}
-                  className={`rounded px-2 py-1 transition ${bias === "dark" ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground"}`}
-                >
-                  Dark bg
-                </button>
-              </div>
               {hasActiveFilters ? (
                 <Button variant="ghost" size="sm" onClick={clearAll}>
                   <X data-icon="inline-start" />
                   Clear
                 </Button>
               ) : null}
-            </div>
-            <div className="flex flex-wrap gap-1.5">
-              {popularTags.map((tag) => {
-                const active = selectedTags.includes(tag)
-                return (
-                  <button
-                    key={tag}
-                    type="button"
-                    onClick={() => toggleTag(tag)}
-                    aria-pressed={active}
-                    className={`rounded-full border px-2.5 py-0.5 text-[11px] transition ${
-                      active
-                        ? "border-primary bg-primary/10 text-primary"
-                        : "border-border bg-card text-muted-foreground hover:border-ring hover:text-foreground"
-                    }`}
-                  >
-                    {tag}
-                  </button>
-                )
-              })}
             </div>
           </div>
         </header>
@@ -712,12 +622,14 @@ function Hero({ system }: { system: MorphousSystem }) {
             aria-label={`View full-resolution ${system.motifName} motif`}
             className="cursor-zoom-in"
           >
-            <img
-              src={previewAssetPath(system.assets.motif)}
+            <PreviewImage
+              src={system.assets.motif}
               alt={`${system.motifName} motif`}
+              kind="motif"
               className="max-h-[28rem] w-auto object-contain drop-shadow-xl transition hover:scale-[1.02]"
-              decoding="async"
+              loading="eager"
               fetchPriority="high"
+              sizes="(max-width: 768px) 90vw, 640px"
             />
           </button>
         </div>
@@ -746,12 +658,13 @@ function SystemCard({
       }`}
     >
       <div className="grid grid-cols-[3.25rem_1fr] gap-3">
-        <img
-          src={previewAssetPath(system.assets.motif)}
+        <PreviewImage
+          src={system.assets.motif}
           alt={`${system.motifName} motif`}
+          kind="motif"
           className="aspect-square rounded-md border border-border bg-background object-cover"
           loading="lazy"
-          decoding="async"
+          sizes="52px"
         />
         <div className="min-w-0">
           <span className="block truncate text-sm font-semibold">{system.name}</span>
@@ -816,12 +729,13 @@ function BoardSwitcher({
         className="block w-full cursor-zoom-in"
         aria-label="View full-resolution board"
       >
-        <img
-          src={previewAssetPath(fullSrc)}
+        <PreviewImage
+          src={fullSrc}
           alt={`${tab} system board`}
+          kind="board"
           className="w-full object-cover"
           loading="lazy"
-          decoding="async"
+          sizes="(max-width: 1024px) 100vw, 720px"
         />
       </button>
     </section>
@@ -1946,12 +1860,12 @@ function AssetThumb({ label, href }: { label: string; href: string }) {
             backgroundImage: `linear-gradient(135deg, color-mix(in oklch, var(--palette-surface), transparent 50%), color-mix(in oklch, var(--palette-depth), transparent 70%))`,
           }}
         >
-          <img
-            src={previewAssetPath(href)}
+          <PreviewImage
+            src={href}
             alt={label}
             className="absolute inset-0 size-full object-cover"
             loading="lazy"
-            decoding="async"
+            sizes="(max-width: 768px) 50vw, 240px"
           />
         </span>
         <span className="block truncate px-2.5 py-1.5 text-xs font-medium">{label}</span>

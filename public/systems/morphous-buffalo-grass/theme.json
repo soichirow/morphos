@@ -1,0 +1,225 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-buffalo-grass",
+    "name": "Morphous Buffalo Grass",
+    "motifName": "Buffalo Grass",
+    "motifCategory": "plant",
+    "biome": "shortgrass prairie",
+    "motif": "buffalo grass mat"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Prairie Paper",
+      "hex": "#F6F3EC",
+      "oklch": "oklch(0.965 0.010 87.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Olive",
+      "hex": "#1F2119",
+      "oklch": "oklch(0.243 0.015 118.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Field Card",
+      "hex": "#FCFAF4",
+      "oklch": "oklch(0.985 0.008 91.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mat Olive",
+      "hex": "#5C684E",
+      "oklch": "oklch(0.499 0.043 128.0)"
+    },
+    {
+      "role": "Primary Soft",
+      "name": "Soft Green",
+      "hex": "#9CAF8A",
+      "oklch": "oklch(0.729 0.056 129.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gray Green",
+      "hex": "#A6B199",
+      "oklch": "oklch(0.745 0.036 127.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage Runner",
+      "hex": "#7F9171",
+      "oklch": "oklch(0.633 0.051 131.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Straw Wash",
+      "hex": "#E5D7B3",
+      "oklch": "oklch(0.881 0.050 89.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Seed Tan",
+      "hex": "#D2BE8C",
+      "oklch": "oklch(0.806 0.070 88.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Thatch",
+      "hex": "#C9B387",
+      "oklch": "oklch(0.775 0.064 84.4)"
+    },
+    {
+      "role": "Soil",
+      "name": "Soil Brown",
+      "hex": "#7A5D44",
+      "oklch": "oklch(0.502 0.053 61.9)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Root Shadow",
+      "hex": "#282E24",
+      "oklch": "oklch(0.292 0.020 132.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Black Olive",
+      "hex": "#1F2119",
+      "oklch": "oklch(0.243 0.015 118.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.010 87.5)",
+    "foreground": "oklch(0.243 0.015 118.9)",
+    "card": "oklch(0.985 0.008 91.5)",
+    "card-foreground": "oklch(0.243 0.015 118.9)",
+    "popover": "oklch(0.985 0.008 91.5)",
+    "popover-foreground": "oklch(0.243 0.015 118.9)",
+    "primary": "oklch(0.499 0.043 128.0)",
+    "primary-foreground": "oklch(0.965 0.010 87.5)",
+    "secondary": "oklch(0.881 0.050 89.3)",
+    "secondary-foreground": "oklch(0.243 0.015 118.9)",
+    "muted": "oklch(0.917 0.019 100.1)",
+    "muted-foreground": "oklch(0.292 0.020 132.9)",
+    "accent": "oklch(0.806 0.070 88.7)",
+    "accent-foreground": "oklch(0.243 0.015 118.9)",
+    "destructive": "oklch(0.502 0.053 61.9)",
+    "border": "oklch(0.775 0.064 84.4)",
+    "input": "oklch(0.775 0.064 84.4)",
+    "ring": "oklch(0.806 0.070 88.7)",
+    "chart-1": "oklch(0.499 0.043 128.0)",
+    "chart-2": "oklch(0.729 0.056 129.9)",
+    "chart-3": "oklch(0.806 0.070 88.7)",
+    "chart-4": "oklch(0.502 0.053 61.9)",
+    "chart-5": "oklch(0.292 0.020 132.9)",
+    "sidebar": "oklch(0.917 0.019 100.1)",
+    "sidebar-foreground": "oklch(0.243 0.015 118.9)",
+    "sidebar-primary": "oklch(0.499 0.043 128.0)",
+    "sidebar-primary-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-accent": "oklch(0.881 0.050 89.3)",
+    "sidebar-accent-foreground": "oklch(0.499 0.043 128.0)",
+    "sidebar-border": "oklch(0.775 0.064 84.4)",
+    "sidebar-ring": "oklch(0.806 0.070 88.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.243 0.015 118.9)",
+    "foreground": "oklch(0.965 0.010 87.5)",
+    "card": "oklch(0.292 0.020 132.9)",
+    "card-foreground": "oklch(0.965 0.010 87.5)",
+    "popover": "oklch(0.292 0.020 132.9)",
+    "popover-foreground": "oklch(0.965 0.010 87.5)",
+    "primary": "oklch(0.729 0.056 129.9)",
+    "primary-foreground": "oklch(0.243 0.015 118.9)",
+    "secondary": "oklch(0.446 0.047 133.0)",
+    "secondary-foreground": "oklch(0.965 0.010 87.5)",
+    "muted": "oklch(0.446 0.047 133.0)",
+    "muted-foreground": "oklch(0.917 0.019 100.1)",
+    "accent": "oklch(0.715 0.065 83.3)",
+    "accent-foreground": "oklch(0.243 0.015 118.9)",
+    "destructive": "oklch(0.461 0.056 65.7)",
+    "border": "oklch(0.917 0.019 100.1 / 18%)",
+    "input": "oklch(0.917 0.019 100.1 / 22%)",
+    "ring": "oklch(0.715 0.065 83.3)",
+    "chart-1": "oklch(0.729 0.056 129.9)",
+    "chart-2": "oklch(0.715 0.065 83.3)",
+    "chart-3": "oklch(0.502 0.053 61.9)",
+    "chart-4": "oklch(0.881 0.050 89.3)",
+    "chart-5": "oklch(0.446 0.047 133.0)",
+    "sidebar": "oklch(0.243 0.015 118.9)",
+    "sidebar-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-primary": "oklch(0.729 0.056 129.9)",
+    "sidebar-primary-foreground": "oklch(0.243 0.015 118.9)",
+    "sidebar-accent": "oklch(0.446 0.047 133.0)",
+    "sidebar-accent-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-border": "oklch(0.917 0.019 100.1 / 18%)",
+    "sidebar-ring": "oklch(0.715 0.065 83.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI paired with Noto Sans JP guidance for shortgrass prairie dashboards, compact Japanese labels, tabular numeric readings, and calm multilingual app surfaces.",
+  "layout": "Ground-hugging 8px app grids, shallow panels, runner-like dividers, compact dashboard density, 8px radii, low shadows, and subtle buffalo grass blade, thatch, soil, and prairie-paper textures.",
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "buffalo-grass",
+    "grass",
+    "plant",
+    "shortgrass-prairie",
+    "low-profile",
+    "app-system",
+    "soft-green",
+    "straw-tan",
+    "soil-brown",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-buffalo-grass/motif.png",
+    "board": "/systems/morphous-buffalo-grass/design-system-light.png",
+    "darkBoard": "/systems/morphous-buffalo-grass/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-buffalo-grass/theme.css",
+    "themeJson": "/systems/morphous-buffalo-grass/theme.json",
+    "promptsJson": "/systems/morphous-buffalo-grass/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Buffalo Grass motif",
+      "asset": "/systems/morphous-buffalo-grass/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a buffalo grass mat botanical motif for a design-system catalog, isolated as one complete low horizontal subject on a removable chroma-key background.\nSubject: A low creeping mat of buffalo grass (Bouteloua dactyloides): fine curly soft green blades, gray-green runners and stolons, straw-tan dry thatch, tiny tan seed burrs tucked in the turf, small soil-brown root and earth details visible along the underside, accurate shortgrass prairie texture, crisp subject edges.\nComposition/framing: centered complete cutout with generous padding; horizontal low-profile patch, include the full turf mat edge without cropping. Clean studio lighting, no cast shadow, no contact shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nColor palette: motif-derived colors only: soft green blades, straw tan thatch and seed tips, soil brown roots and underside, deep olive shadows.\nConstraints: no bluegrass lawn roll, no wheat stalks, no flowers, no cactus, no big bluestem seed heads, no landscape, no pot, no hand, no tools, no props, no second subject, no text, no watermark, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-buffalo-grass/design-system-light.png",
+      "sourceAsset": "/systems/morphous-buffalo-grass/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Buffalo Grass light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named exactly \"Morphous Buffalo Grass\" / \"Buffalo Grass\". The board must be a wide 4K-class design-system reference derived from the visible transparent buffalo grass mat cutout: fine curly soft-green blades, gray-green runners, straw-tan thatch and seed burrs, pale prairie paper, soil-brown roots, and deep olive-brown shadows.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear modular grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text. Use short UI copy only.\nRequired visible section labels, spelled clearly: Morphous Buffalo Grass, Buffalo Grass, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the buffalo grass mat: low creeping turf, soft green short blades, straw tan dry thatch, exposed soil-brown roots, tiny seed burrs, shallow matted profile, shortgrass prairie spacing, and calm ground-hugging structure. The board must read as buffalo grass mat, not bluegrass lawn, wheat, big bluestem, bamboo, moss, or generic enterprise UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 草原, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, compact sidebar navigation, low top navigation, dashboard metric cards, small line chart, bar chart, shortgrass field data table, filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, buffalo grass blade texture swatches.\nStyle/medium: premium low-profile app design system, realistic product UI mockup, precise 8px grid, 8px card radius, shallow panels, quiet utility, pale prairie-paper surfaces, soft green primary controls, straw-tan secondary surfaces, soil-brown text and borders, deep olive-brown ink, thin runner-like dividers, subtle matted grass-fiber texture, restrained dashboard density.\nColor palette: motif-derived colors only: soft green, gray green, straw tan, pale prairie paper, soil brown, deep olive-brown shadow. Avoid unrelated colors.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no bluegrass lawn roll, no wheat heads, no big bluestem, no bamboo, no moss carpet, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Buffalo Grass\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-buffalo-grass/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-buffalo-grass/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Buffalo Grass dark-mode design-system board\nPrimary request: Generate a comprehensive DARK MODE source board for a Morphous theme named exactly \"Morphous Buffalo Grass\" / \"Buffalo Grass\". It must feel like the same low-profile app system translated to dark mode, derived from the visible buffalo grass mat and the visible light-mode board.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear modular grid and large readable section labels.\nRequired visible section labels, spelled clearly: Morphous Buffalo Grass, Buffalo Grass, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nLayout instruction: preserve the light-board coverage and low-profile product rhythm: left identity/motif column, palette and typography row, shadcn/tweakcn components and navigation, compact dashboard/data, forms, tables, command/search, status states, bottom token/texture/radius/spacing/shadows panels.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 草原, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: dark shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, compact sidebar navigation, low top navigation, dashboard metric cards, small line chart, bar chart, shortgrass field data table, filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, 8px radius family, 8px spacing scale, low shadow scale, buffalo grass blade and thatch texture swatches.\nVisual details: dark background from deep olive-brown soil shadow, raised cards in muted olive-brown, pale prairie-paper foreground text, soft-green primary controls, gray-green secondary surfaces, straw-tan focus rings and charts, soil-brown accents, thin runner-like dividers, subtle matted grass-fiber overlays, crisp 8px cards and controls, restrained contrast for data-heavy field work.\nColor palette: motif-derived colors only: soft green, gray green, straw tan, pale prairie paper, soil brown, deep olive-brown shadow. Avoid unrelated colors.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure black, no bluegrass lawn roll, no wheat heads, no big bluestem, no bamboo, no moss carpet, no random brand names, no watermark, no misspelling of \"Morphous Buffalo Grass\", no illegible microtext."
+    }
+  ]
+}

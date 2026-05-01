@@ -12,12 +12,28 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 SYSTEMS_JSON = ROOT / "src" / "data" / "systems.json"
 
-BOARD_SIZE = (1280, 720)
-MOTIF_SIZE = (640, 640)
-HERO_SIZE = (960, 540)
-TEXTURE_SIZE = (512, 512)
-EXAMPLE_SIZE = (960, 540)
 SOURCE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp"}
+
+PRIMARY_SIZES: dict[str, tuple[int, int]] = {
+    "motif": (640, 640),
+    "board": (1280, 720),
+    "hero": (960, 540),
+    "texture": (512, 512),
+    "example": (960, 540),
+}
+
+# Width-only secondary tier; height scales by aspect via Image.thumbnail.
+SMALL_WIDTHS: dict[str, int] = {
+    "motif": 360,
+    "board": 720,
+}
+
+FORMATS: tuple[str, ...] = ("webp", "avif")
+
+WEBP_OPTIONS = {"quality": 72, "method": 6}
+AVIF_OPTIONS = {"quality": 55, "speed": 4}
+
+PIL_FORMAT_NAMES = {"webp": "WEBP", "avif": "AVIF"}
 
 
 @dataclass(frozen=True)
@@ -25,33 +41,67 @@ class PreviewJob:
     source: Path
     target: Path
     size: tuple[int, int]
+    format: str  # "webp" | "avif"
 
 
-def preview_size(asset_path: str, asset_kind: str) -> tuple[int, int]:
+def normalize_kind(asset_path: str, asset_kind: str) -> str:
     name = Path(asset_path).name
     if asset_kind == "motif" or name in {"motif.png", "animal.png"}:
-        return MOTIF_SIZE
+        return "motif"
     if asset_kind in {"board", "darkBoard"} or "design-system" in name:
-        return BOARD_SIZE
+        return "board"
     if asset_kind == "texture":
-        return TEXTURE_SIZE
+        return "texture"
     if asset_kind == "hero":
-        return HERO_SIZE
-    return EXAMPLE_SIZE
+        return "hero"
+    return "example"
 
 
-def preview_job_for(asset_path: str, asset_kind: str) -> PreviewJob | None:
-    if not asset_path.startswith("/systems/"):
+def small_size_for(kind: str, primary: tuple[int, int]) -> tuple[int, int] | None:
+    width = SMALL_WIDTHS.get(kind)
+    if width is None or width >= primary[0]:
         return None
+    height = max(1, round(primary[1] * width / primary[0]))
+    return (width, height)
+
+
+def jobs_for(asset_path: str, asset_kind: str) -> list[PreviewJob]:
+    if not asset_path.startswith("/systems/"):
+        return []
     source = PUBLIC / asset_path.lstrip("/")
     if (
         not source.exists()
         or source.parent.name == "previews"
         or source.suffix.lower() not in SOURCE_SUFFIXES
     ):
-        return None
-    target = source.parent / "previews" / f"{source.stem}.webp"
-    return PreviewJob(source=source, target=target, size=preview_size(asset_path, asset_kind))
+        return []
+
+    kind = normalize_kind(asset_path, asset_kind)
+    primary = PRIMARY_SIZES[kind]
+    small = small_size_for(kind, primary)
+    previews_dir = source.parent / "previews"
+    stem = source.stem
+
+    jobs: list[PreviewJob] = []
+    for fmt in FORMATS:
+        jobs.append(
+            PreviewJob(
+                source=source,
+                target=previews_dir / f"{stem}.{fmt}",
+                size=primary,
+                format=fmt,
+            )
+        )
+        if small is not None:
+            jobs.append(
+                PreviewJob(
+                    source=source,
+                    target=previews_dir / f"{stem}-{small[0]}.{fmt}",
+                    size=small,
+                    format=fmt,
+                )
+            )
+    return jobs
 
 
 def preview_is_current(job: PreviewJob) -> bool:
@@ -63,6 +113,7 @@ def preview_is_current(job: PreviewJob) -> bool:
     if target_stat.st_size == 0 or target_stat.st_mtime < source_stat.st_mtime:
         return False
 
+    expected_format = PIL_FORMAT_NAMES[job.format]
     try:
         with Image.open(job.target) as image:
             image.load()
@@ -72,7 +123,7 @@ def preview_is_current(job: PreviewJob) -> bool:
         return False
 
     return (
-        image_format == "WEBP"
+        image_format == expected_format
         and 0 < width <= job.size[0]
         and 0 < height <= job.size[1]
     )
@@ -92,7 +143,13 @@ def save_preview(job: PreviewJob, *, dry_run: bool, force: bool) -> str:
         image.thumbnail(job.size, Image.Resampling.LANCZOS)
         if image.mode not in {"RGB", "RGBA"}:
             image = image.convert("RGBA" if "A" in image.getbands() else "RGB")
-        image.save(job.target, "WEBP", quality=72, method=6)
+        if job.format == "webp":
+            image.save(job.target, "WEBP", **WEBP_OPTIONS)
+        elif job.format == "avif":
+            # libavif requires RGB/RGBA; alpha is preserved when present.
+            image.save(job.target, "AVIF", **AVIF_OPTIONS)
+        else:
+            raise ValueError(f"Unsupported format: {job.format}")
     return "generated"
 
 
@@ -104,20 +161,16 @@ def iter_preview_jobs() -> list[PreviewJob]:
         for key in ("motif", "board", "darkBoard", "hero", "texture"):
             asset_path = assets.get(key)
             if asset_path:
-                job = preview_job_for(asset_path, key)
-                if job is not None:
-                    jobs.append(job)
+                jobs.extend(jobs_for(asset_path, key))
         for example in assets.get("examples", []):
             asset_path = example.get("image")
             if asset_path:
-                job = preview_job_for(asset_path, "example")
-                if job is not None:
-                    jobs.append(job)
+                jobs.extend(jobs_for(asset_path, "example"))
     return jobs
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate webp previews for system assets.")
+    parser = argparse.ArgumentParser(description="Generate webp + avif previews for system assets.")
     parser.add_argument(
         "--dry-run",
         action="store_true",

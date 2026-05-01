@@ -12,7 +12,7 @@ import {
 
 import { Button } from "@/components/ui/button"
 import { systems } from "@/data/systems"
-import { previewAssetPath } from "@/lib/asset-preview"
+import { PreviewImage } from "@/components/preview-image"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 
 export const Route = createFileRoute("/")({ component: LandingRoute })
@@ -140,13 +140,15 @@ function LandingRoute() {
               background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 60%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 20%)`,
             }}
           >
-            <img
+            <PreviewImage
               key={heroSystem.slug}
-              src={previewAssetPath(heroSystem.assets.motif)}
+              src={heroSystem.assets.motif}
               alt={`${heroSystem.motifName} motif`}
+              kind="motif"
               className="absolute inset-0 size-full object-contain p-8 transition-all duration-500 group-hover:scale-[1.03]"
-              decoding="async"
+              loading="eager"
               fetchPriority="high"
+              sizes="(max-width: 768px) 90vw, 480px"
             />
             <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
               <span className="truncate font-medium">{heroSystem.name}</span>
@@ -332,12 +334,13 @@ function FeatureCard({
           }`,
         }}
       >
-        <img
-          src={previewAssetPath(system.assets.motif)}
+        <PreviewImage
+          src={system.assets.motif}
           alt={`${system.motifName} motif`}
+          kind="motif"
           className="absolute inset-0 size-full object-contain p-6 transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
-          decoding="async"
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 280px"
         />
       </span>
       <div className="border-t border-border p-3">

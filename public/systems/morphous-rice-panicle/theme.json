@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rice-panicle",
+    "name": "Morphous Rice Panicle",
+    "motifName": "Rice Panicle",
+    "motifCategory": "plant",
+    "biome": "paddy field",
+    "motif": "rice panicle"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Rice Paper",
+      "hex": "#fffaf0",
+      "oklch": "oklch(0.986 0.014 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Shadow Ink",
+      "hex": "#2e3a2f",
+      "oklch": "oklch(0.334 0.025 147.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pale Grain Gold",
+      "hex": "#d7b66b",
+      "oklch": "oklch(0.789 0.102 86.3)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Harvest Straw",
+      "hex": "#e8c983",
+      "oklch": "oklch(0.847 0.095 86.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rice Green",
+      "hex": "#a8c46f",
+      "oklch": "oklch(0.780 0.115 124.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Sky",
+      "hex": "#b8d8f2",
+      "oklch": "oklch(0.867 0.050 242.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Husk Beige",
+      "hex": "#f8f3e6",
+      "oklch": "oklch(0.965 0.018 89.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Paddy Silt",
+      "hex": "#e6e1d3",
+      "oklch": "oklch(0.910 0.020 90.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Straw Divider",
+      "hex": "#ded2ad",
+      "oklch": "oklch(0.864 0.051 92.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Deep Leaf",
+      "hex": "#5e8f4a",
+      "oklch": "oklch(0.598 0.112 137.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Pale Gold",
+      "hex": "#f6e6b7",
+      "oklch": "oklch(0.926 0.063 91.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Paddy Mud",
+      "hex": "#6b5a3e",
+      "oklch": "oklch(0.477 0.047 79.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.986 0.014 84.6)",
+    "foreground": "oklch(0.334 0.025 147.2)",
+    "card": "oklch(0.965 0.018 89.4)",
+    "card-foreground": "oklch(0.334 0.025 147.2)",
+    "popover": "oklch(0.965 0.018 89.4)",
+    "popover-foreground": "oklch(0.334 0.025 147.2)",
+    "primary": "oklch(0.789 0.102 86.3)",
+    "primary-foreground": "oklch(0.301 0.037 143.2)",
+    "secondary": "oklch(0.943 0.026 92.4)",
+    "secondary-foreground": "oklch(0.334 0.025 147.2)",
+    "muted": "oklch(0.943 0.026 92.4)",
+    "muted-foreground": "oklch(0.477 0.047 79.7)",
+    "accent": "oklch(0.867 0.050 242.8)",
+    "accent-foreground": "oklch(0.301 0.037 143.2)",
+    "destructive": "oklch(0.477 0.047 79.7)",
+    "border": "oklch(0.864 0.051 92.2)",
+    "input": "oklch(0.864 0.051 92.2)",
+    "ring": "oklch(0.867 0.050 242.8)",
+    "chart-1": "oklch(0.789 0.102 86.3)",
+    "chart-2": "oklch(0.780 0.115 124.0)",
+    "chart-3": "oklch(0.867 0.050 242.8)",
+    "chart-4": "oklch(0.598 0.112 137.2)",
+    "chart-5": "oklch(0.477 0.047 79.7)",
+    "sidebar": "oklch(0.943 0.026 92.4)",
+    "sidebar-foreground": "oklch(0.334 0.025 147.2)",
+    "sidebar-primary": "oklch(0.789 0.102 86.3)",
+    "sidebar-primary-foreground": "oklch(0.301 0.037 143.2)",
+    "sidebar-accent": "oklch(0.910 0.020 90.6)",
+    "sidebar-accent-foreground": "oklch(0.334 0.025 147.2)",
+    "sidebar-border": "oklch(0.864 0.051 92.2)",
+    "sidebar-ring": "oklch(0.867 0.050 242.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.194 0.013 135.2)",
+    "foreground": "oklch(0.890 0.053 94.1)",
+    "card": "oklch(0.223 0.018 127.3)",
+    "card-foreground": "oklch(0.890 0.053 94.1)",
+    "popover": "oklch(0.223 0.018 127.3)",
+    "popover-foreground": "oklch(0.890 0.053 94.1)",
+    "primary": "oklch(0.805 0.091 81.9)",
+    "primary-foreground": "oklch(0.236 0.011 114.9)",
+    "secondary": "oklch(0.280 0.025 121.0)",
+    "secondary-foreground": "oklch(0.890 0.053 94.1)",
+    "muted": "oklch(0.280 0.025 121.0)",
+    "muted-foreground": "oklch(0.748 0.080 91.2)",
+    "accent": "oklch(0.699 0.076 235.3)",
+    "accent-foreground": "oklch(0.194 0.013 135.2)",
+    "destructive": "oklch(0.749 0.090 83.5)",
+    "border": "oklch(0.890 0.053 94.1 / 16%)",
+    "input": "oklch(0.890 0.053 94.1 / 20%)",
+    "ring": "oklch(0.698 0.125 132.8)",
+    "chart-1": "oklch(0.805 0.091 81.9)",
+    "chart-2": "oklch(0.698 0.125 132.8)",
+    "chart-3": "oklch(0.699 0.076 235.3)",
+    "chart-4": "oklch(0.749 0.090 83.5)",
+    "chart-5": "oklch(0.890 0.053 94.1)",
+    "sidebar": "oklch(0.223 0.018 127.3)",
+    "sidebar-foreground": "oklch(0.890 0.053 94.1)",
+    "sidebar-primary": "oklch(0.805 0.091 81.9)",
+    "sidebar-primary-foreground": "oklch(0.236 0.011 114.9)",
+    "sidebar-accent": "oklch(0.280 0.025 121.0)",
+    "sidebar-accent-foreground": "oklch(0.890 0.053 94.1)",
+    "sidebar-border": "oklch(0.890 0.053 94.1 / 16%)",
+    "sidebar-ring": "oklch(0.698 0.125 132.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for harvest operations, compact Japanese labels, numeric moisture and yield tables, and status-heavy paddy-field workflows.",
+  "layout": "Structured 8px harvest grids, straw-like dividers, compact dashboard and table density, low shadows, 8px radii, and rice-husk texture accents.",
+  "tags": [
+    "rice",
+    "panicle",
+    "plant",
+    "paddy-field",
+    "harvest",
+    "pale-gold",
+    "rice-green",
+    "water-sky",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rice-panicle/motif.png",
+    "board": "/systems/morphous-rice-panicle/design-system-light.png",
+    "darkBoard": "/systems/morphous-rice-panicle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rice-panicle/theme.css",
+    "themeJson": "/systems/morphous-rice-panicle/theme.json",
+    "promptsJson": "/systems/morphous-rice-panicle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rice panicle motif",
+      "asset": "/systems/morphous-rice-panicle/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a rice panicle botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One mature rice panicle with graceful arching stems, pale gold grains clustered along fine branching panicles, rice-green leaves, slim green-gold stalk, subtle watery sky-blue reflected highlights on a few leaf edges. Botanical accuracy for Oryza sativa, crisp subject edges, harvest-ready paddy-field silhouette, natural husk texture on grains.\nComposition/framing: centered complete cutout with generous padding; include full panicle head, stem, and several narrow rice leaves without cropping. Clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no wheat, no barley, no cattail, no reed plume, no bamboo, no lotus, no paddy landscape, no water body, no vase, no hand, no props, no second subject, no text, no watermark, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rice-panicle/design-system-light.png",
+      "sourceAsset": "/systems/morphous-rice-panicle/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rice Panicle light-mode design-system board\nInput image: use the rice panicle transparent motif already visible in this conversation as the motif reference.\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Rice Panicle\" / \"Rice Panicle\". The board must be a wide 4K-class design-system reference, derived from the rice panicle motif: pale-gold rice grains, rice-green leaves and stalks, soft water reflections, and clean paddy-field sky notes.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Rice Panicle, Rice Panicle, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from rice husks, pale-gold grains, rice-green blades, water-sky reflection, paddy mud neutrals, harvest straw, and seed-head branching. The board must read as rice panicle and harvest operations, not wheat, barley, bamboo, generic SaaS, or a floral theme.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 収穫, 水田, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, harvest operations dashboard metric cards, moisture/yield line chart, paddy block bar chart, lot data table, inspection filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, rice husk texture swatches.\nStyle/medium: premium harvest operations product design system, realistic shadcn/tweakcn UI mockup, precise 8px grid, 8px card radius, pale rice-paper surfaces, gold-grain primary controls, rice-green active states, water-sky blue focus rings, straw dividers, clean operations data density, subtle rice-husk texture.\nColor palette: motif-derived colors only: pale gold rice grain, harvest straw, rice green, deep leaf green, water sky blue, paddy silt neutral, husk beige, ink from rice-leaf shadow, deep paddy mud.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Rice Panicle\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rice-panicle/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-rice-panicle/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rice Panicle dark-mode design-system board\nInput images: use the rice panicle transparent motif and the LIGHT MODE board titled \"Morphous Rice Panicle\" already visible in this conversation as the exact system references.\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Rice Panicle\" / \"Rice Panicle\". It must feel like the same harvest operations system translated to dark mode, not a new theme, and it must remain derived from the rice panicle motif and the light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Rice Panicle, Rice Panicle, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the rice panicle system language: pale-gold grain controls, harvest straw surfaces, rice-green active states, water-sky blue focus/accent rings, straw dividers, paddy-silt borders, husk beige text highlights, deep leaf and paddy-mud backgrounds, subtle rice-husk texture, 8px shadcn/tweakcn grid. It must read as rice panicle and harvest operations, not wheat, barley, bamboo, floral, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 収穫, 水田, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, harvest operations dashboard metric cards, moisture/yield line chart, paddy block bar chart, lot data table, inspection filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, rice husk texture swatches.\nVisual details: dark background derived from deep leaf shadow and paddy mud, raised cards in dark olive-silt, husk-beige foreground text, pale-gold and harvest-straw primary controls, rice-green success/active states, water-sky focus rings and charts, straw separators, subtle rice-husk overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: pale gold rice grain, harvest straw, rice green, deep leaf green, water sky blue, paddy silt neutral, husk beige, ink from rice-leaf shadow, deep paddy mud.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Rice Panicle\", no illegible microtext."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 247,
+  "slug": "morphous-barley-awn",
+  "name": "Morphous Barley Awn",
+  "motifName": "Barley Awn",
+  "motifCategory": "plant",
+  "biome": "grain field",
+  "motif": "barley awns",
+  "description": "A shadcn/tweakcn-compatible precise agriculture system derived from barley awns: straw-gold primary controls, pale-green active states, sky-blue focus and data accents, husk-ivory surfaces, chaff-tan borders, seed-brown foregrounds, soil-umber depth, and fine awn-line texture for field operations, crop scouting, yield, and moisture dashboards.",
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for agricultural operations, compact Japanese labels, numeric yield tables, and status-heavy field monitoring screens.",
+  "layout": "Precise 8px agriculture grids, fine awn-line dividers, compact dashboard and table density, low shadows, 8px radii, and subtle barley fiber texture accents.",
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "barley",
+    "awn",
+    "plant",
+    "grain-field",
+    "agriculture",
+    "straw-gold",
+    "pale-green",
+    "sky-blue",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#f6f0df"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Umber",
+      "hex": "#3e2e1f"
+    },
+    {
+      "role": "Primary",
+      "name": "Straw Gold",
+      "hex": "#d4af37"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Sunlit Awn",
+      "hex": "#e6c15e"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Green",
+      "hex": "#b7c98a"
+    },
+    {
+      "role": "Accent",
+      "name": "Field Blue",
+      "hex": "#8fd0f3"
+    },
+    {
+      "role": "Surface",
+      "name": "Husk Ivory",
+      "hex": "#faf7ee"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Husk",
+      "hex": "#f0e0d2"
+    },
+    {
+      "role": "Border",
+      "name": "Chaff Tan",
+      "hex": "#dccba0"
+    },
+    {
+      "role": "Success",
+      "name": "Stem Olive",
+      "hex": "#7d913f"
+    },
+    {
+      "role": "Warning",
+      "name": "Grain Shadow",
+      "hex": "#9a8462"
+    },
+    {
+      "role": "Destructive",
+      "name": "Awn Rust",
+      "hex": "#9b4b2b"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Soil",
+      "hex": "#2e2117"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

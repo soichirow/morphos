@@ -1,0 +1,185 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 248,
+  "slug": "morphous-oat-panicle",
+  "name": "Morphous Oat Panicle",
+  "motifName": "Oat Panicle",
+  "motifCategory": "plant",
+  "biome": "cool field",
+  "motif": "oat panicle",
+  "paletteMood": "cream grain green stem soft grey",
+  "designMood": "light scheduling system",
+  "description": "A shadcn/tweakcn-compatible light scheduling system derived from an oat panicle: cream grain surfaces, green-stem actions, pale straw separators, soft grey bloom focus states, husk-tan borders, cool-soil text, and delicate panicle-line texture for schedules, field tasks, status boards, command search, and operational tables.",
+  "typography": "Quiet English product typography with Noto Sans JP guidance for schedule labels, field-task names, table numerals, command search, status messaging, and compact Japanese scheduling UI.",
+  "layout": "Airy 8px scheduling grids, slim panicle-line dividers, compact calendar and task density, low shadows, 8px cards and controls, oat-husk texture accents, and restrained light/dark surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "designSystemSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "oat-panicle",
+    "plant",
+    "cool-field",
+    "cream-grain",
+    "green-stem",
+    "soft-grey",
+    "light-scheduling",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#FBF6F0"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Ink",
+      "hex": "#2B2F33"
+    },
+    {
+      "role": "Primary",
+      "name": "Stem Green",
+      "hex": "#5E7A55"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Deep Stem",
+      "hex": "#526F4B"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#8FAE86"
+    },
+    {
+      "role": "Accent",
+      "name": "Soft Grey Bloom",
+      "hex": "#D9DEE2"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Straw",
+      "hex": "#F0E4BF"
+    },
+    {
+      "role": "Surface",
+      "name": "Grain Cream",
+      "hex": "#F7F4EA"
+    },
+    {
+      "role": "Muted",
+      "name": "Husk Tan",
+      "hex": "#EADFC6"
+    },
+    {
+      "role": "Border",
+      "name": "Oat Line",
+      "hex": "#D7C9AA"
+    },
+    {
+      "role": "Depth",
+      "name": "Cool Husk Ink",
+      "hex": "#171A1E"
+    },
+    {
+      "role": "Destructive",
+      "name": "Awn Umber",
+      "hex": "#A75A42"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.975 0.010 72.7)",
+    "foreground": "oklch(0.303 0.009 248.1)",
+    "card": "oklch(0.967 0.014 93.0)",
+    "card-foreground": "oklch(0.303 0.009 248.1)",
+    "popover": "oklch(0.967 0.014 93.0)",
+    "popover-foreground": "oklch(0.303 0.009 248.1)",
+    "primary": "oklch(0.547 0.065 138.2)",
+    "primary-foreground": "oklch(0.975 0.010 72.7)",
+    "secondary": "oklch(0.957 0.015 94.2)",
+    "secondary-foreground": "oklch(0.216 0.009 255.6)",
+    "muted": "oklch(0.926 0.023 87.2)",
+    "muted-foreground": "oklch(0.303 0.009 248.1)",
+    "accent": "oklch(0.898 0.008 241.7)",
+    "accent-foreground": "oklch(0.303 0.009 248.1)",
+    "destructive": "oklch(0.553 0.107 38.1)",
+    "border": "oklch(0.839 0.044 86.6)",
+    "input": "oklch(0.839 0.044 86.6)",
+    "ring": "oklch(0.799 0.042 129.1)",
+    "chart-1": "oklch(0.547 0.065 138.2)",
+    "chart-2": "oklch(0.717 0.066 138.7)",
+    "chart-3": "oklch(0.799 0.042 129.1)",
+    "chart-4": "oklch(0.919 0.050 92.2)",
+    "chart-5": "oklch(0.790 0.048 86.4)",
+    "sidebar": "oklch(0.967 0.014 93.0)",
+    "sidebar-foreground": "oklch(0.303 0.009 248.1)",
+    "sidebar-primary": "oklch(0.547 0.065 138.2)",
+    "sidebar-primary-foreground": "oklch(0.975 0.010 72.7)",
+    "sidebar-accent": "oklch(0.919 0.050 92.2)",
+    "sidebar-accent-foreground": "oklch(0.303 0.009 248.1)",
+    "sidebar-border": "oklch(0.839 0.044 86.6)",
+    "sidebar-ring": "oklch(0.799 0.042 129.1)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.216 0.009 255.6)",
+    "foreground": "oklch(0.967 0.014 93.0)",
+    "card": "oklch(0.264 0.010 260.7)",
+    "card-foreground": "oklch(0.967 0.014 93.0)",
+    "popover": "oklch(0.264 0.010 260.7)",
+    "popover-foreground": "oklch(0.967 0.014 93.0)",
+    "primary": "oklch(0.717 0.066 138.7)",
+    "primary-foreground": "oklch(0.216 0.009 255.6)",
+    "secondary": "oklch(0.378 0.014 149.5)",
+    "secondary-foreground": "oklch(0.967 0.014 93.0)",
+    "muted": "oklch(0.378 0.014 149.5)",
+    "muted-foreground": "oklch(0.898 0.008 241.7)",
+    "accent": "oklch(0.898 0.008 241.7)",
+    "accent-foreground": "oklch(0.216 0.009 255.6)",
+    "destructive": "oklch(0.553 0.107 38.1)",
+    "border": "oklch(0.378 0.014 149.5)",
+    "input": "oklch(0.378 0.014 149.5)",
+    "ring": "oklch(0.799 0.042 129.1)",
+    "chart-1": "oklch(0.717 0.066 138.7)",
+    "chart-2": "oklch(0.547 0.065 138.2)",
+    "chart-3": "oklch(0.898 0.008 241.7)",
+    "chart-4": "oklch(0.919 0.050 92.2)",
+    "chart-5": "oklch(0.790 0.048 86.4)",
+    "sidebar": "oklch(0.264 0.010 260.7)",
+    "sidebar-foreground": "oklch(0.967 0.014 93.0)",
+    "sidebar-primary": "oklch(0.717 0.066 138.7)",
+    "sidebar-primary-foreground": "oklch(0.216 0.009 255.6)",
+    "sidebar-accent": "oklch(0.378 0.014 149.5)",
+    "sidebar-accent-foreground": "oklch(0.967 0.014 93.0)",
+    "sidebar-border": "oklch(0.378 0.014 149.5)",
+    "sidebar-ring": "oklch(0.799 0.042 129.1)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-barley-awn",
+    "name": "Morphous Barley Awn",
+    "motifName": "Barley Awn",
+    "motifCategory": "plant",
+    "biome": "grain field",
+    "motif": "barley awns"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#f6f0df",
+      "oklch": "oklch(0.955 0.023 90.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Umber",
+      "hex": "#3e2e1f",
+      "oklch": "oklch(0.315 0.034 64.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Straw Gold",
+      "hex": "#d4af37",
+      "oklch": "oklch(0.767 0.139 91.1)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Sunlit Awn",
+      "hex": "#e6c15e",
+      "oklch": "oklch(0.824 0.125 88.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Green",
+      "hex": "#b7c98a",
+      "oklch": "oklch(0.807 0.086 121.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Field Blue",
+      "hex": "#8fd0f3",
+      "oklch": "oklch(0.826 0.082 232.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Husk Ivory",
+      "hex": "#faf7ee",
+      "oklch": "oklch(0.976 0.012 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Husk",
+      "hex": "#f0e0d2",
+      "oklch": "oklch(0.916 0.026 63.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Chaff Tan",
+      "hex": "#dccba0",
+      "oklch": "oklch(0.845 0.060 89.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Stem Olive",
+      "hex": "#7d913f",
+      "oklch": "oklch(0.623 0.111 121.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Grain Shadow",
+      "hex": "#9a8462",
+      "oklch": "oklch(0.625 0.055 78.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Awn Rust",
+      "hex": "#9b4b2b",
+      "oklch": "oklch(0.507 0.116 41.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Soil",
+      "hex": "#2e2117",
+      "oklch": "oklch(0.260 0.027 58.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.023 90.8)",
+    "foreground": "oklch(0.315 0.034 64.2)",
+    "card": "oklch(0.976 0.012 91.5)",
+    "card-foreground": "oklch(0.315 0.034 64.2)",
+    "popover": "oklch(0.976 0.012 91.5)",
+    "popover-foreground": "oklch(0.315 0.034 64.2)",
+    "primary": "oklch(0.767 0.139 91.1)",
+    "primary-foreground": "oklch(0.260 0.027 58.8)",
+    "secondary": "oklch(0.916 0.026 63.7)",
+    "secondary-foreground": "oklch(0.469 0.057 70.6)",
+    "muted": "oklch(0.916 0.026 63.7)",
+    "muted-foreground": "oklch(0.469 0.057 70.6)",
+    "accent": "oklch(0.807 0.086 121.3)",
+    "accent-foreground": "oklch(0.250 0.027 127.1)",
+    "destructive": "oklch(0.507 0.116 41.5)",
+    "border": "oklch(0.845 0.060 89.0)",
+    "input": "oklch(0.916 0.026 63.7)",
+    "ring": "oklch(0.826 0.082 232.6)",
+    "chart-1": "oklch(0.767 0.139 91.1)",
+    "chart-2": "oklch(0.807 0.086 121.3)",
+    "chart-3": "oklch(0.826 0.082 232.6)",
+    "chart-4": "oklch(0.625 0.055 78.3)",
+    "chart-5": "oklch(0.507 0.116 41.5)",
+    "sidebar": "oklch(0.976 0.012 91.5)",
+    "sidebar-foreground": "oklch(0.315 0.034 64.2)",
+    "sidebar-primary": "oklch(0.767 0.139 91.1)",
+    "sidebar-primary-foreground": "oklch(0.260 0.027 58.8)",
+    "sidebar-accent": "oklch(0.916 0.026 63.7)",
+    "sidebar-accent-foreground": "oklch(0.469 0.057 70.6)",
+    "sidebar-border": "oklch(0.845 0.060 89.0)",
+    "sidebar-ring": "oklch(0.826 0.082 232.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.260 0.027 58.8)",
+    "foreground": "oklch(0.976 0.012 91.5)",
+    "card": "oklch(0.340 0.037 72.6)",
+    "card-foreground": "oklch(0.976 0.012 91.5)",
+    "popover": "oklch(0.340 0.037 72.6)",
+    "popover-foreground": "oklch(0.976 0.012 91.5)",
+    "primary": "oklch(0.824 0.125 88.9)",
+    "primary-foreground": "oklch(0.260 0.027 58.8)",
+    "secondary": "oklch(0.469 0.057 70.6)",
+    "secondary-foreground": "oklch(0.976 0.012 91.5)",
+    "muted": "oklch(0.315 0.034 64.2)",
+    "muted-foreground": "oklch(0.845 0.060 89.0)",
+    "accent": "oklch(0.807 0.086 121.3)",
+    "accent-foreground": "oklch(0.250 0.027 127.1)",
+    "destructive": "oklch(0.507 0.116 41.5)",
+    "border": "oklch(0.845 0.060 89.0 / 18%)",
+    "input": "oklch(0.845 0.060 89.0 / 22%)",
+    "ring": "oklch(0.826 0.082 232.6)",
+    "chart-1": "oklch(0.824 0.125 88.9)",
+    "chart-2": "oklch(0.807 0.086 121.3)",
+    "chart-3": "oklch(0.826 0.082 232.6)",
+    "chart-4": "oklch(0.845 0.060 89.0)",
+    "chart-5": "oklch(0.625 0.055 78.3)",
+    "sidebar": "oklch(0.250 0.027 127.1)",
+    "sidebar-foreground": "oklch(0.976 0.012 91.5)",
+    "sidebar-primary": "oklch(0.824 0.125 88.9)",
+    "sidebar-primary-foreground": "oklch(0.260 0.027 58.8)",
+    "sidebar-accent": "oklch(0.315 0.034 64.2)",
+    "sidebar-accent-foreground": "oklch(0.976 0.012 91.5)",
+    "sidebar-border": "oklch(0.845 0.060 89.0 / 18%)",
+    "sidebar-ring": "oklch(0.826 0.082 232.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for agricultural operations, compact Japanese labels, numeric yield tables, and status-heavy field monitoring screens.",
+  "layout": "Precise 8px agriculture grids, fine awn-line dividers, compact dashboard and table density, low shadows, 8px radii, and subtle barley fiber texture accents.",
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tokens": {
+    "radius": {
+      "default": "0.5rem",
+      "intent": "8px radii for cards, controls, menus, and status surfaces"
+    },
+    "spacing": {
+      "scale": [
+        "0.5rem",
+        "1rem",
+        "1.5rem",
+        "2rem",
+        "2.5rem",
+        "3rem"
+      ],
+      "intent": "8px-based rhythm inspired by parallel barley awns and agricultural row spacing"
+    },
+    "shadows": {
+      "low": "0 1px 2px oklch(0.260 0.027 58.8 / 0.10)",
+      "medium": "0 2px 6px oklch(0.260 0.027 58.8 / 0.12)",
+      "high": "0 4px 12px oklch(0.260 0.027 58.8 / 0.16)"
+    },
+    "texture": "Fine awn-line dividers, husk-fiber swatches, chaff-paper panels, and low-contrast grain-field data bands."
+  },
+  "tags": [
+    "barley",
+    "awn",
+    "plant",
+    "grain-field",
+    "agriculture",
+    "straw-gold",
+    "pale-green",
+    "sky-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-barley-awn/motif.png",
+    "board": "/systems/morphous-barley-awn/design-system-light.png",
+    "darkBoard": "/systems/morphous-barley-awn/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-barley-awn/theme.css",
+    "themeJson": "/systems/morphous-barley-awn/theme.json",
+    "promptsJson": "/systems/morphous-barley-awn/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent barley awn motif",
+      "asset": "/systems/morphous-barley-awn/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only barley awns for a design-system catalog, isolated as one complete botanical subject on a removable chroma-key background.\nSubject: A compact bundle of ripe barley awns still attached to several slender grain heads, with long precise bristles radiating upward and outward, straw-gold awns, pale green young stems, faint sky-blue glints along a few fine edges, and natural dry grain texture. Botanical accuracy for barley, crisp bristle edges, precise agricultural silhouette, no environment.\nComposition/framing: centered complete cutout with generous padding; include the full awn tips, grain heads, and stems without cropping. Clean studio lighting that preserves natural straw and pale green color. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no wheat, no oats, no rice, no meadow, no field background, no vase, no hand, no props, no second subject, no text, no watermark, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-barley-awn/design-system-light.png",
+      "sourceAsset": "/systems/morphous-barley-awn/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Barley Awn light-mode design-system board\nInput image: Use the visible transparent barley awn motif cutout as the primary visual and palette reference.\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Barley Awn\" / \"Barley Awn\". The board must be a wide 4K-class design-system reference derived from barley awns in a grain field: long precise straw-gold bristles, pale green stems, dry husk texture, small sky-blue field-light glints, and the exacting rhythm of agricultural rows.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Barley Awn, Barley Awn, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from barley awns only: straw gold awns, pale green stems, sky blue field light, dry husk ivory, warm grain shadow, fine awn-line texture, and soil-dark depth from the grain head shadows. The board must read as barley awn, not wheat, rice, oats, bamboo, cattail, or generic enterprise UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 圃場, 穂先, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, grain-field dashboard metric cards, line chart, bar chart, yield and moisture data table, field filter controls, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, awn-line texture swatches.\nStyle/medium: premium precise agriculture operations design system, realistic product UI mockup, exact 8px grid, all cards and controls with 8px radii, pale husk paper surfaces, straw-gold primary controls, pale green active states, sky-blue focus rings, fine awn dividers, compact field-data density, subtle barley fiber texture.\nColor palette: motif-derived colors only: straw gold, pale green stem, sky blue field light, husk ivory, grain shadow, muted chaff tan, dark seed-brown, deep soil umber.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Barley Awn\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-barley-awn/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-barley-awn/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Barley Awn dark-mode design-system board\nInput images: Use the visible transparent barley awn motif and the visible light-mode board as references for palette roles, structure, component coverage, and texture language.\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Barley Awn\" / \"Barley Awn\". It must feel like the same precise agriculture system translated to dark mode, not a new theme, and it must remain derived from barley awns in a grain field.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Barley Awn, Barley Awn, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the barley awn system language: straw-gold primary controls, pale-green active states, sky-blue focus/accent rings, fine awn-line dividers, muted chaff tan borders, husk-ivory foreground text, dark seed-brown cards, soil-umber backgrounds, subtle barley fiber texture, and an 8px shadcn/tweakcn grid. It must read as barley awn, not wheat, rice, oats, bamboo, cattail, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 圃場, 穂先, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, grain-field dashboard metric cards, line chart, bar chart, yield and moisture data table, field filter controls, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, awn-line texture swatches.\nVisual details: dark background derived from soil umber and seed brown, raised cards in dark husk-brown, husk-ivory foreground text, straw-gold and chaff tan primary controls, pale-green success/active states, sky-blue focus rings and charts, fine tan separators, subtle barley awn fiber overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: straw gold, pale green stem, sky blue field light, husk ivory, grain shadow, muted chaff tan, dark seed-brown, deep soil umber.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Barley Awn\", no illegible microtext."
+    }
+  ]
+}
