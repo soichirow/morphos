@@ -1,0 +1,207 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-yew",
+    "name": "Morphous Yew",
+    "motifName": "Yew Branch",
+    "motifCategory": "plant",
+    "biome": "ancient woodland",
+    "motif": "yew branch"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lichen Ledger",
+      "hex": "#F4F2ED",
+      "oklch": "oklch(0.961 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Evergreen",
+      "hex": "#0F1A14",
+      "oklch": "oklch(0.205 0.020 160.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Deep Needle",
+      "hex": "#0E2A1F",
+      "oklch": "oklch(0.259 0.040 165.1)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Pine Shadow",
+      "hex": "#163E2C",
+      "oklch": "oklch(0.329 0.056 161.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Aril Red",
+      "hex": "#C63228",
+      "oklch": "oklch(0.547 0.186 28.7)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Aril Strong",
+      "hex": "#E53935",
+      "oklch": "oklch(0.608 0.209 27.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "White Lichen",
+      "hex": "#FBFCF8",
+      "oklch": "oklch(0.989 0.005 117.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Woodland Paper",
+      "hex": "#E6E4DC",
+      "oklch": "oklch(0.918 0.011 95.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Forest Mist",
+      "hex": "#DDE1D8",
+      "oklch": "oklch(0.904 0.013 126.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bark Brown",
+      "hex": "#5A4634",
+      "oklch": "oklch(0.410 0.039 63.4)"
+    },
+    {
+      "role": "Secondary Hover",
+      "name": "Bark Light",
+      "hex": "#7A5E47",
+      "oklch": "oklch(0.504 0.050 60.7)"
+    },
+    {
+      "role": "Data",
+      "name": "Needle Mid",
+      "hex": "#2E5E47",
+      "oklch": "oklch(0.441 0.065 161.2)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Stone Grey",
+      "hex": "#C9CEC7",
+      "oklch": "oklch(0.846 0.011 136.6)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Root Lock",
+      "hex": "#0A1410",
+      "oklch": "oklch(0.180 0.017 167.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.007 88.6)",
+    "foreground": "oklch(0.205 0.020 160.1)",
+    "card": "oklch(0.989 0.005 117.9)",
+    "card-foreground": "oklch(0.205 0.020 160.1)",
+    "popover": "oklch(0.989 0.005 117.9)",
+    "popover-foreground": "oklch(0.205 0.020 160.1)",
+    "primary": "oklch(0.259 0.040 165.1)",
+    "primary-foreground": "oklch(0.961 0.007 88.6)",
+    "secondary": "oklch(0.978 0.007 106.5)",
+    "secondary-foreground": "oklch(0.205 0.020 160.1)",
+    "muted": "oklch(0.981 0.005 106.5)",
+    "muted-foreground": "oklch(0.205 0.020 160.1)",
+    "accent": "oklch(0.547 0.186 28.7)",
+    "accent-foreground": "oklch(0.205 0.020 160.1)",
+    "destructive": "oklch(0.259 0.040 165.1)",
+    "border": "oklch(0.963 0.007 106.5)",
+    "input": "oklch(0.963 0.007 106.5)",
+    "ring": "oklch(0.410 0.039 63.4)",
+    "chart-1": "oklch(0.259 0.040 165.1)",
+    "chart-2": "oklch(0.410 0.039 63.4)",
+    "chart-3": "oklch(0.547 0.186 28.7)",
+    "chart-4": "oklch(0.608 0.209 27.0)",
+    "chart-5": "oklch(0.205 0.020 160.1)",
+    "sidebar": "oklch(0.981 0.007 106.5)",
+    "sidebar-foreground": "oklch(0.205 0.020 160.1)",
+    "sidebar-primary": "oklch(0.259 0.040 165.1)",
+    "sidebar-primary-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-accent": "oklch(0.911 0.008 139.4)",
+    "sidebar-accent-foreground": "oklch(0.259 0.040 165.1)",
+    "sidebar-border": "oklch(0.963 0.007 106.5)",
+    "sidebar-ring": "oklch(0.410 0.039 63.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.020 160.1)",
+    "foreground": "oklch(0.961 0.007 88.6)",
+    "card": "oklch(0.205 0.020 160.1)",
+    "card-foreground": "oklch(0.961 0.007 88.6)",
+    "popover": "oklch(0.205 0.020 160.1)",
+    "popover-foreground": "oklch(0.961 0.007 88.6)",
+    "primary": "oklch(0.410 0.039 63.4)",
+    "primary-foreground": "oklch(0.205 0.020 160.1)",
+    "secondary": "oklch(0.385 0.015 153.2)",
+    "secondary-foreground": "oklch(0.961 0.007 88.6)",
+    "muted": "oklch(0.385 0.015 153.2)",
+    "muted-foreground": "oklch(0.943 0.010 93.6)",
+    "accent": "oklch(0.547 0.186 28.7)",
+    "accent-foreground": "oklch(0.205 0.020 160.1)",
+    "destructive": "oklch(0.259 0.040 165.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.410 0.039 63.4)",
+    "chart-1": "oklch(0.410 0.039 63.4)",
+    "chart-2": "oklch(0.259 0.040 165.1)",
+    "chart-3": "oklch(0.547 0.186 28.7)",
+    "chart-4": "oklch(0.608 0.209 27.0)",
+    "chart-5": "oklch(0.918 0.011 95.2)",
+    "sidebar": "oklch(0.205 0.020 160.1)",
+    "sidebar-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-primary": "oklch(0.410 0.039 63.4)",
+    "sidebar-primary-foreground": "oklch(0.205 0.020 160.1)",
+    "sidebar-accent": "oklch(0.385 0.015 153.2)",
+    "sidebar-accent-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.410 0.039 63.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Formal English security UI with Japanese typography guidance for access logs, audit trails, command search, role tables, approval states, and compact system-status panels.",
+  "layout": "Precise 8px security-console grids, dense dashboard/data sections, formal navigation rails, needle-rhythm texture strips, bark-brown dividers, restrained shadows, and 8px cards and controls.",
+  "tags": [
+    "yew",
+    "plant",
+    "ancient-woodland",
+    "dark-green",
+    "red-aril",
+    "bark-brown",
+    "security-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-yew/motif.png",
+    "board": "/systems/morphous-yew/design-system-light.png",
+    "darkBoard": "/systems/morphous-yew/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-yew/theme.css",
+    "themeJson": "/systems/morphous-yew/theme.json",
+    "promptsJson": "/systems/morphous-yew/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent yew branch motif",
+      "asset": "/systems/morphous-yew/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a yew branch, isolated full subject, no environment, no props, no text.\nSubject: One mature yew branch cutting with several woody bark-brown twigs, dense dark green flat needles arranged in two ranks, and a small cluster of vivid red yew arils. Accurate botanical Taxus-style structure, natural uneven branch silhouette, crisp needle detail, matte bark texture, no flowers, no cones, no extra plants.\nComposition/framing: centered complete branch cutout with generous padding on all sides; do not crop the needles, twig tips, or red arils. Diagonal branch orientation is acceptable, but the whole subject must remain fully inside the frame.\nLighting/mood: clean studio light that preserves deep yew-green needles, red aril highlights, bark-brown twigs, and ancient woodland natural texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no woodland landscape, no decorative background, no second branch, no animals, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-yew/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Yew light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Yew\", derived from the visible isolated yew branch cutout with dark green needles, red arils, and bark-brown twigs. This board is a source reference for implementing a shadcn/tweakcn-compatible formal security system.\nReference use: Use the visible yew branch motif as the source of truth. Extract deep yew needle greens, red aril security alert accents, bark brown structure, ancient woodland neutrals, evergreen shadow, and precise needle rhythm. The board must visibly respect these motif colors and textures.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Yew, Yew Branch, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: dark green yew needle primary, red aril alert/accent, bark brown supporting surfaces, ancient woodland grey-green neutrals, evergreen ink, pale lichen background, and restrained near-neutrals derived only from the motif.\nTypography: formal security product UI guidance with English and Japanese type. Use a precise serif/sans pairing for security headings and a Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, access logs, table numerals, audit trails, and approval workflows. Include short Japanese labels such as 認証, 検索, 監査, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, access-control dashboard metric cards, risk chart, audit trend line, authorization table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple security icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, yew needle texture swatches, bark grain swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet formal security console, pale lichen and woodland paper surfaces, deep yew-green primary actions, red aril risk badges and alerts, bark-brown structural borders, subtle needle-rhythm texture, high trust hierarchy, compact dashboard density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Yew\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-yew/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Yew dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Yew\". It must feel like the same formal security system translated to dark mode, not a new theme, and it must remain derived from the visible yew branch motif and the visible light-mode board.\nReference use: Use the visible yew branch and light-mode board as references. Preserve deep yew-green primary controls, red aril risk badges and alerts, bark-brown structure, ancient woodland neutral surfaces, needle-rhythm texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Yew, Dark Mode, Yew Branch, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest evergreen yew-needle background, charcoal green panels, red aril alert/accent, bark brown borders, moss-lavender-free woodland neutrals, pale lichen foreground text, and restrained near-neutrals derived only from the motif.\nTypography: formal security product UI guidance with English and Japanese type. Use a precise serif/sans pairing for security headings and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, access logs, table numerals, audit trails, and approval workflows. Include short Japanese labels such as 認証, 検索, 監査, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, access-control dashboard metric cards, risk chart, audit trend line, authorization table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple security icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, yew needle texture swatches, bark grain swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the branch's deepest evergreen shadows, elevated panels in charcoal yew green, pale lichen foreground text, deep yew-green primary actions, red aril destructive/risk accents, bark-brown structural borders, subtle needle texture overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Yew\", no tiny illegible paragraphs."
+    }
+  ]
+}

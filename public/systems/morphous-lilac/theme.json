@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lilac",
+    "name": "Lilac",
+    "motifName": "Lilac Panicle",
+    "motifCategory": "flower",
+    "biome": "temperate garden",
+    "motif": "lilac panicle"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Archive Paper",
+      "hex": "#f6f2ea",
+      "oklch": "oklch(0.962 0.011 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Plum",
+      "hex": "#4b2e4f",
+      "oklch": "oklch(0.350 0.067 322.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lilac Purple",
+      "hex": "#a77bc5",
+      "oklch": "oklch(0.654 0.117 310.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#6e8f5a",
+      "oklch": "oklch(0.611 0.085 134.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mauve Bud",
+      "hex": "#c084b6",
+      "oklch": "oklch(0.690 0.099 332.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Petal",
+      "hex": "#e7d9f3",
+      "oklch": "oklch(0.904 0.038 309.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Spring Grey",
+      "hex": "#d6d3dc",
+      "oklch": "oklch(0.872 0.013 301.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pressed Shadow",
+      "hex": "#b9b5c1",
+      "oklch": "oklch(0.780 0.017 301.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Archive Charcoal",
+      "hex": "#19131f",
+      "oklch": "oklch(0.200 0.025 307.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Stem Umber",
+      "hex": "#7a5a3a",
+      "oklch": "oklch(0.493 0.063 65.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.011 84.6)",
+    "foreground": "oklch(0.350 0.067 322.5)",
+    "card": "oklch(0.872 0.013 301.3)",
+    "card-foreground": "oklch(0.350 0.067 322.5)",
+    "popover": "oklch(0.872 0.013 301.3)",
+    "popover-foreground": "oklch(0.350 0.067 322.5)",
+    "primary": "oklch(0.654 0.117 310.7)",
+    "primary-foreground": "oklch(0.962 0.011 84.6)",
+    "secondary": "oklch(0.910 0.004 337.4)",
+    "secondary-foreground": "oklch(0.200 0.025 307.1)",
+    "muted": "oklch(0.898 0.006 317.8)",
+    "muted-foreground": "oklch(0.200 0.025 307.1)",
+    "accent": "oklch(0.690 0.099 332.6)",
+    "accent-foreground": "oklch(0.350 0.067 322.5)",
+    "destructive": "oklch(0.654 0.117 310.7)",
+    "border": "oklch(0.839 0.014 304.1)",
+    "input": "oklch(0.839 0.014 304.1)",
+    "ring": "oklch(0.611 0.085 134.3)",
+    "chart-1": "oklch(0.654 0.117 310.7)",
+    "chart-2": "oklch(0.611 0.085 134.3)",
+    "chart-3": "oklch(0.690 0.099 332.6)",
+    "chart-4": "oklch(0.904 0.038 309.6)",
+    "chart-5": "oklch(0.200 0.025 307.1)",
+    "sidebar": "oklch(0.904 0.005 325.6)",
+    "sidebar-foreground": "oklch(0.350 0.067 322.5)",
+    "sidebar-primary": "oklch(0.654 0.117 310.7)",
+    "sidebar-primary-foreground": "oklch(0.962 0.011 84.6)",
+    "sidebar-accent": "oklch(0.844 0.025 306.9)",
+    "sidebar-accent-foreground": "oklch(0.654 0.117 310.7)",
+    "sidebar-border": "oklch(0.839 0.014 304.1)",
+    "sidebar-ring": "oklch(0.611 0.085 134.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.350 0.067 322.5)",
+    "foreground": "oklch(0.962 0.011 84.6)",
+    "card": "oklch(0.253 0.040 316.9)",
+    "card-foreground": "oklch(0.962 0.011 84.6)",
+    "popover": "oklch(0.253 0.040 316.9)",
+    "popover-foreground": "oklch(0.962 0.011 84.6)",
+    "primary": "oklch(0.611 0.085 134.3)",
+    "primary-foreground": "oklch(0.350 0.067 322.5)",
+    "secondary": "oklch(0.347 0.022 304.2)",
+    "secondary-foreground": "oklch(0.962 0.011 84.6)",
+    "muted": "oklch(0.347 0.022 304.2)",
+    "muted-foreground": "oklch(0.883 0.005 0.0)",
+    "accent": "oklch(0.690 0.099 332.6)",
+    "accent-foreground": "oklch(0.350 0.067 322.5)",
+    "destructive": "oklch(0.654 0.117 310.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.611 0.085 134.3)",
+    "chart-1": "oklch(0.611 0.085 134.3)",
+    "chart-2": "oklch(0.654 0.117 310.7)",
+    "chart-3": "oklch(0.690 0.099 332.6)",
+    "chart-4": "oklch(0.904 0.038 309.6)",
+    "chart-5": "oklch(0.780 0.017 301.1)",
+    "sidebar": "oklch(0.284 0.048 318.8)",
+    "sidebar-foreground": "oklch(0.962 0.011 84.6)",
+    "sidebar-primary": "oklch(0.611 0.085 134.3)",
+    "sidebar-primary-foreground": "oklch(0.350 0.067 322.5)",
+    "sidebar-accent": "oklch(0.347 0.022 304.2)",
+    "sidebar-accent-foreground": "oklch(0.962 0.011 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.611 0.085 134.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English archive product UI with Noto Sans JP guidance for Japanese labels, accession tables, specimen notes, numeric rhythm, and calm catalogue scanning.",
+  "layout": "Precise 8px grids, 8px cards, botanical archive rule lines, lilac panicle texture, paper specimen panels, leaf-green support states, and restrained shadows for data-heavy catalogue workflows.",
+  "tags": [
+    "lilac",
+    "flower",
+    "temperate-garden",
+    "lilac-purple",
+    "leaf-green",
+    "spring-grey",
+    "nostalgic-archive",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lilac/motif.png",
+    "board": "/systems/morphous-lilac/design-system-light.png",
+    "darkBoard": "/systems/morphous-lilac/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lilac/theme.css",
+    "themeJson": "/systems/morphous-lilac/theme.json",
+    "promptsJson": "/systems/morphous-lilac/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lilac panicle motif",
+      "asset": "/systems/morphous-lilac/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lilac transparent motif chroma-key source\nPrimary request: Create only an isolated lilac panicle botanical motif for a design-system catalog, no environment, no props, no text.\nSubject: A real Syringa vulgaris lilac panicle with unmistakable lilac-purple color: one full conical cluster of many tiny four-petaled blossoms in soft lilac, mauve, and pale violet-purple hues (#a77bc5, #c5a4dc, #d8c4ea), a few darker violet unopened buds, one slender woody-green stem, and two matte heart-shaped leaf-green leaves near the base. It must clearly read as lilac, not lavender spikes, not wisteria, not grayscale flowers, not generic purple flowers.\nComposition/framing: centered complete cutout with generous padding on all sides; show the full panicle tip, stem, and leaves without cropping; elegant nostalgic botanical archive silhouette.\nLighting/mood: clean even studio light preserving visible lilac-purple blossoms, leaf-green foliage, spring-grey petal shadows, and natural botanical detail.\nChroma-key workflow: create the subject on a perfectly flat solid #00ffff cyan chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff, cyan, teal, or blue-green anywhere in the subject. Remove the key locally with remove_chroma_key.py using auto-key border, soft matte, and despill. The final motif.png is RGBA transparent with transparent corners.\nConstraints: no text, no watermark, no vase, no ribbon, no garden background, no bouquet wrap, no field, no second flower species, no shadow, no contact shadow, no reflection, no monochrome flowers."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lilac/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive high-resolution 16:9 light-mode design-system board for a Morphous theme named \"Lilac\", derived from the provided transparent lilac panicle motif: conical lilac-purple blossoms, mauve buds, heart-shaped leaf-green leaves, woody stem, spring-grey petal shadows, and nostalgic botanical archive mood.\nReference use: Treat the lilac panicle motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from lilac-purple petals, mauve buds, leaf green, woody stem, soft spring grey, aged paper neutrals, archive label borders, and garden specimen catalogues.\nCanvas: wide 16:9 board, 3840x2160 target, at least 2400px wide if constrained.\nResolution and legibility: high-resolution 4K-class source board; large readable section labels; avoid dense tiny token tables.\nRequired visible sections: header \"Lilac Design System\" and \"Nostalgic archive system\"; Palette; Typography; Japanese Typography; Components; Navigation; Dashboard/Data; Forms; Table; Command/Search; Status States; Texture; Radius; Spacing; Shadow; Tokens; Asset Examples.\nPalette swatches: Lilac Purple, Pale Petal, Mauve Bud, Leaf Green, Spring Grey, Archive Paper, Stem Umber, Ink Plum, Pressed Shadow. Show short readable hex-style labels.\nTypography guidance: English and Japanese examples, with labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, Archive Note, 日本語.\nComponents: shadcn/tweakcn style with 8px card radius, lilac primary buttons, leaf-green secondary/support, spring-grey muted surfaces, paper cards, visible focus rings, badges, alerts, tabs, checkbox, radio, switch, selects, textarea, inputs.\nNavigation and dashboard/data: archive sidebar, top nav, breadcrumb, command palette, search input, botanical accession table, metric cards, line/bar charts, progress, pagination.\nStatus states: success, warning, destructive, empty state, error state, loading skeleton using motif-derived colors.\nTexture and tokens: subtle lilac-petal grain, pressed botanical paper, faint panicle dot pattern, archive rule lines, spacing scale, radius scale, shadow scale, semantic token chips.\nAsset examples: small motif cutout preview, texture tile, app panel preview, token chips.\nText: short readable UI labels only; include English and Japanese typography samples. Ensure \"Lilac\", \"Nostalgic archive\", \"Typography\", \"日本語\", \"Palette\", \"Command\", \"Table\", and \"Tokens\" are legible.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no stock UI kit, no watermark, no random brand names, no misspelling of Lilac, no lavender spikes, no wisteria racemes, no dark-mode board in this image."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lilac/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one separate high-resolution 16:9 dark-mode design-system board for the same Morphous theme named \"Lilac\". It must feel like the light Lilac design-system board translated to dark mode, not a new theme.\nReference use: Use the provided transparent lilac panicle motif and the light Lilac design-system board as references. Preserve motif-derived palette roles, nostalgic archive component language, component coverage, spacing, typography, archive label borders, lilac panicle texture, and botanical specimen catalog mood.\nCanvas: wide 16:9 board, 3840x2160 target, at least 2400px wide if constrained.\nResolution and legibility: high-resolution 4K-class source board; large readable section labels; avoid dense tiny token tables.\nRequired visible sections: header \"Lilac Dark Mode\" and \"Nostalgic archive system\"; Palette; Typography; Japanese Typography; Components; Navigation; Dashboard/Data; Forms; Table; Command/Search; Status States; Texture; Radius; Spacing; Shadow; Tokens; Asset Examples.\nDark palette: deep ink plum and archive charcoal surfaces, lilac-purple highlights, pale petal text, mauve bud accents, leaf-green success/support, spring-grey muted borders, stem umber dividers, pressed shadow depth, archive paper only as small highlight chips. Keep colors faithful to lilac, not neon purple.\nTypography guidance: readable English and Japanese examples, with labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, Archive Note, 日本語.\nComponents: shadcn/tweakcn style with 8px card radius, dark cards and popovers, lilac primary buttons, leaf-green secondary/support, spring-grey muted controls, visible focus rings, badges, alerts, tabs, checkbox, radio, switch, selects, textarea, inputs.\nNavigation and dashboard/data: dark archive sidebar, top nav, breadcrumb, command palette, search input, botanical accession table, metric cards, line/bar charts, progress, pagination.\nStatus states: success, warning, destructive, empty state, error state, loading skeleton using motif-derived colors.\nTexture and tokens: subtle lilac-petal grain, pressed botanical paper texture translated to dark surfaces, faint panicle dot pattern, archive rule lines, spacing scale, radius scale, shadow scale, semantic token chips.\nAsset examples: small motif cutout preview, dark texture tile, app panel preview, token chips.\nText: short readable UI labels only; include English and Japanese typography samples. Ensure \"Lilac\", \"Dark Mode\", \"Nostalgic archive\", \"Typography\", \"日本語\", \"Palette\", \"Command\", \"Table\", and \"Tokens\" are legible.\nConstraints: no neon colors, no generic purple/blue gradients, no flat pure-black-only background, no unrelated saturated colors, no illegible text, no watermark, no random brand names, no misspelling of Lilac, no lavender spikes, no wisteria racemes, no light-mode board in this image."
+    }
+  ]
+}

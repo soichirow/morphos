@@ -1,0 +1,99 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 201,
+  "slug": "morphous-cattail",
+  "name": "Morphous Cattail",
+  "motifName": "Cattail Reed",
+  "motifCategory": "plant",
+  "biome": "marsh",
+  "motif": "cattail reed",
+  "description": "A shadcn/tweakcn-compatible structured wetland system derived from a cattail reed: cocoa-brown primary controls, reed-green active states, water-blue focus and chart accents, olive stem dividers, marsh-paper surfaces, dry reed borders, peat ink, deep mud depth, and subtle cattail fiber texture for observation, sensor, and field-data dashboards.",
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for wetland observation workflows, compact Japanese labels, numeric sensor tables, and status-heavy operational screens.",
+  "layout": "Structured 8px wetland grids, vertical stem dividers, compact dashboard and table density, low shadows, 8px radii, and cattail-fiber texture accents.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cattail",
+    "reed",
+    "plant",
+    "marsh",
+    "wetland",
+    "cocoa-brown",
+    "reed-green",
+    "water-blue",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Marsh Paper",
+      "hex": "#f4f1e6"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2e2b1f"
+    },
+    {
+      "role": "Primary",
+      "name": "Cattail Brown",
+      "hex": "#854c1f"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Seed Umber",
+      "hex": "#9e6736"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reed Green",
+      "hex": "#6c7a32"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Blue",
+      "hex": "#8fc0c3"
+    },
+    {
+      "role": "Surface",
+      "name": "Silt Surface",
+      "hex": "#fbf8f0"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Reed",
+      "hex": "#d1b088"
+    },
+    {
+      "role": "Border",
+      "name": "Reed Tan",
+      "hex": "#b19963"
+    },
+    {
+      "role": "Success",
+      "name": "Stem Olive",
+      "hex": "#4e6326"
+    },
+    {
+      "role": "Warning",
+      "name": "Pale Reed",
+      "hex": "#ead1b1"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Mud",
+      "hex": "#3c2210"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

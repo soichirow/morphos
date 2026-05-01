@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-seagrass",
+    "name": "Seagrass",
+    "motifName": "Seagrass Blades",
+    "motifCategory": "plant",
+    "biome": "Shallow Lagoon",
+    "motif": "fluid maps system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Cream",
+      "hex": "#F3EFE4",
+      "oklch": "oklch(0.952 0.015 90.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Eelgrass Ink",
+      "hex": "#23433D",
+      "oklch": "oklch(0.356 0.040 180.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sea Green",
+      "hex": "#3AA37A",
+      "oklch": "oklch(0.644 0.115 163.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lagoon Teal",
+      "hex": "#4CC1B3",
+      "oklch": "oklch(0.741 0.107 184.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Aqua Water",
+      "hex": "#6FD6E4",
+      "oklch": "oklch(0.819 0.098 207.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Blade Highlight",
+      "hex": "#A7D8C2",
+      "oklch": "oklch(0.842 0.060 165.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Shell",
+      "hex": "#E6E9E3",
+      "oklch": "oklch(0.930 0.009 128.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Submerged Shadow",
+      "hex": "#5F6A36",
+      "oklch": "oklch(0.502 0.076 119.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Lagoon",
+      "hex": "#1A2A28",
+      "oklch": "oklch(0.270 0.022 186.2)"
+    },
+    {
+      "role": "Map Contour",
+      "name": "Fluid Map Aqua",
+      "hex": "#BEE7E1",
+      "oklch": "oklch(0.897 0.043 185.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.952 0.015 90.2)",
+    "foreground": "oklch(0.356 0.040 180.5)",
+    "card": "oklch(0.930 0.009 128.6)",
+    "card-foreground": "oklch(0.356 0.040 180.5)",
+    "popover": "oklch(0.930 0.009 128.6)",
+    "popover-foreground": "oklch(0.356 0.040 180.5)",
+    "primary": "oklch(0.644 0.115 163.7)",
+    "primary-foreground": "oklch(0.952 0.015 90.2)",
+    "secondary": "oklch(0.940 0.012 111.8)",
+    "secondary-foreground": "oklch(0.270 0.022 186.2)",
+    "muted": "oklch(0.937 0.011 112.4)",
+    "muted-foreground": "oklch(0.270 0.022 186.2)",
+    "accent": "oklch(0.819 0.098 207.1)",
+    "accent-foreground": "oklch(0.356 0.040 180.5)",
+    "destructive": "oklch(0.644 0.115 163.7)",
+    "border": "oklch(0.781 0.031 119.5)",
+    "input": "oklch(0.781 0.031 119.5)",
+    "ring": "oklch(0.741 0.107 184.3)",
+    "chart-1": "oklch(0.644 0.115 163.7)",
+    "chart-2": "oklch(0.741 0.107 184.3)",
+    "chart-3": "oklch(0.819 0.098 207.1)",
+    "chart-4": "oklch(0.842 0.060 165.7)",
+    "chart-5": "oklch(0.270 0.022 186.2)",
+    "sidebar": "oklch(0.937 0.011 112.4)",
+    "sidebar-foreground": "oklch(0.356 0.040 180.5)",
+    "sidebar-primary": "oklch(0.644 0.115 163.7)",
+    "sidebar-primary-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-accent": "oklch(0.895 0.023 155.9)",
+    "sidebar-accent-foreground": "oklch(0.644 0.115 163.7)",
+    "sidebar-border": "oklch(0.781 0.031 119.5)",
+    "sidebar-ring": "oklch(0.741 0.107 184.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.356 0.040 180.5)",
+    "foreground": "oklch(0.952 0.015 90.2)",
+    "card": "oklch(0.301 0.029 181.5)",
+    "card-foreground": "oklch(0.952 0.015 90.2)",
+    "popover": "oklch(0.301 0.029 181.5)",
+    "popover-foreground": "oklch(0.952 0.015 90.2)",
+    "primary": "oklch(0.741 0.107 184.3)",
+    "primary-foreground": "oklch(0.356 0.040 180.5)",
+    "secondary": "oklch(0.323 0.030 148.4)",
+    "secondary-foreground": "oklch(0.952 0.015 90.2)",
+    "muted": "oklch(0.323 0.030 148.4)",
+    "muted-foreground": "oklch(0.756 0.040 112.2)",
+    "accent": "oklch(0.819 0.098 207.1)",
+    "accent-foreground": "oklch(0.356 0.040 180.5)",
+    "destructive": "oklch(0.644 0.115 163.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.741 0.107 184.3)",
+    "chart-1": "oklch(0.741 0.107 184.3)",
+    "chart-2": "oklch(0.644 0.115 163.7)",
+    "chart-3": "oklch(0.819 0.098 207.1)",
+    "chart-4": "oklch(0.842 0.060 165.7)",
+    "chart-5": "oklch(0.502 0.076 119.0)",
+    "sidebar": "oklch(0.319 0.032 180.0)",
+    "sidebar-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-primary": "oklch(0.741 0.107 184.3)",
+    "sidebar-primary-foreground": "oklch(0.356 0.040 180.5)",
+    "sidebar-accent": "oklch(0.323 0.030 148.4)",
+    "sidebar-accent-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.741 0.107 184.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for analytical Latin UI with Noto Sans JP guidance for Japanese labels, dense dashboard data, and calm shallow-lagoon product surfaces.",
+  "layout": "Fluid map panels on an 8px grid, compact shadcn controls, readable dashboard density, restrained card shadows, blade-vein texture, and 8px radii throughout.",
+  "tags": [
+    "seagrass",
+    "plant",
+    "shallow-lagoon",
+    "aqua",
+    "fluid-maps",
+    "japanese-typography",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-seagrass/motif.png",
+    "board": "/systems/morphous-seagrass/design-system-light.png",
+    "darkBoard": "/systems/morphous-seagrass/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-seagrass/theme.css",
+    "themeJson": "/systems/morphous-seagrass/theme.json",
+    "promptsJson": "/systems/morphous-seagrass/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent seagrass motif source",
+      "asset": "/systems/morphous-seagrass/motif.png",
+      "workflow": "Built-in image generation on #ff00ff chroma-key, then local chroma-key removal to transparent RGBA.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only seagrass blades, isolated complete subject, no environment, no props, no text.\nSubject: A compact cluster of shallow-lagoon seagrass blades with long ribbon-like sea green leaves, aqua water highlights, sand cream translucent edges, subtle vein lines, flexible overlapping blades, and a crisp organic silhouette.\nComposition/framing: centered full cutout, subject scaled smaller than the canvas with at least 22% empty margin on all sides; all blade tips fully visible, no cropping, no touching the image border. Vertical cluster with several blades fanning and bending like fluid underwater maps.\nLighting/mood: clean studio light that preserves natural plant texture, lagoon color variation, and fine blade edges.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nColor palette: sea green blades, aqua water highlights, sand cream pale edges, shallow lagoon neutrals only.\nConstraints: no text, no watermark, no underwater background, no fish, no shells, no rocks, no beach scene, no extra plants, no root ball, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-seagrass/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Seagrass\" derived from the visible transparent seagrass blades cutout.\nReference use: Use the visible seagrass motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from sea green blades, aqua wet highlights, sand cream translucent blade edges, shallow lagoon neutrals, and fluid map-like blade curves.\nCanvas: wide 16:9 board, 3840x2160 style, high-resolution source board, at least 2400px wide when available.\nResolution and legibility: large readable labels, generous grid, no dense tiny token tables. Make the design look like a polished shadcn/tweakcn-compatible product design system reference.\nRequired visible sections: title \"Morphous Seagrass\", motif story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese UI examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 日本語, 見出し, 本文. Make Japanese typography guidance visible and readable.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar navigation, top navigation, dashboard metric cards, line charts, area maps, bar charts, loading/empty/error/success states, spacing/radius/border/shadow/token samples.\nStyle/medium: premium analytical UI board, precise grid, fluid map system, 8px card radius, clean light surfaces, sand cream canvases, aqua water panels, sea green primary actions, shallow-lagoon dividers, subtle blade-vein texture, map contour accent lines.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: sea green blades, deep eelgrass ink, aqua water, lagoon teal, sand cream, pale shell neutral, submerged shadow, blade highlight, and fluid-map accent.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Seagrass\", no pure black, no orange/brown dominant palette."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-seagrass/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible \"Morphous Seagrass\" design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent seagrass blades cutout and the visible light-mode Morphous Seagrass board as references. Preserve the sea green blade palette, aqua water highlights, sand cream accents, fluid map contours, Japanese typography guidance, 8px radius, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board, 3840x2160 style, high-resolution source board, at least 2400px wide when available.\nResolution and legibility: large readable labels, generous grid, no dense tiny token tables. The board should be polished enough to code a real theme from it.\nRequired visible sections: title \"Morphous Seagrass\", Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: dark lagoon background derived from deep eelgrass ink and submerged shadow; readable foreground from sand cream and pale shell; primary actions from sea green; navigation and charts from lagoon teal and aqua water; subtle seagrass blade-vein texture; fluid map contour lines; crisp dark cards and controls; restrained contrast.\nTypography: include English and Japanese UI examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 日本語, 見出し, 本文. Keep Japanese typography guidance visible and readable.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar navigation, top navigation, dashboard metric cards, line charts, area maps, bar charts, loading/empty/error/success states, spacing/radius/border/shadow/token samples.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: deep eelgrass ink, submerged shadow, sea green blades, lagoon teal, aqua water, sand cream, pale shell, blade highlight, and fluid-map accent.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Seagrass\", no orange/brown dominant palette."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-frangipani",
+    "name": "Morphous Frangipani",
+    "motifName": "Frangipani",
+    "motifCategory": "flower",
+    "biome": "island garden",
+    "motif": "frangipani blossom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Cream",
+      "hex": "#FFF7EC",
+      "oklch": "oklch(0.979 0.017 76.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Garden Ink",
+      "hex": "#2B2F2A",
+      "oklch": "oklch(0.299 0.010 139.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Butter Throat",
+      "hex": "#FFD65A",
+      "oklch": "oklch(0.889 0.147 90.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wax Leaf",
+      "hex": "#2F7D46",
+      "oklch": "oklch(0.527 0.115 150.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Shell Pink",
+      "hex": "#FFD1DC",
+      "oklch": "oklch(0.903 0.053 2.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Blush Edge",
+      "hex": "#FFA7C1",
+      "oklch": "oklch(0.822 0.108 0.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Porcelain",
+      "hex": "#FFFDFC",
+      "oklch": "oklch(0.995 0.003 48.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Island Mist",
+      "hex": "#EAF4EF",
+      "oklch": "oklch(0.958 0.012 164.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Jungle",
+      "hex": "#0B1A14",
+      "oklch": "oklch(0.202 0.024 166.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Soft Sand Border",
+      "hex": "#E9E2D2",
+      "oklch": "oklch(0.914 0.023 87.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Vein",
+      "hex": "#6EA468",
+      "oklch": "oklch(0.665 0.104 142.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.017 76.1)",
+    "foreground": "oklch(0.299 0.010 139.4)",
+    "card": "oklch(0.995 0.003 48.7)",
+    "card-foreground": "oklch(0.299 0.010 139.4)",
+    "popover": "oklch(0.995 0.003 48.7)",
+    "popover-foreground": "oklch(0.299 0.010 139.4)",
+    "primary": "oklch(0.889 0.147 90.7)",
+    "primary-foreground": "oklch(0.979 0.017 76.1)",
+    "secondary": "oklch(0.988 0.009 67.7)",
+    "secondary-foreground": "oklch(0.202 0.024 166.5)",
+    "muted": "oklch(0.990 0.006 59.7)",
+    "muted-foreground": "oklch(0.202 0.024 166.5)",
+    "accent": "oklch(0.903 0.053 2.2)",
+    "accent-foreground": "oklch(0.299 0.010 139.4)",
+    "destructive": "oklch(0.889 0.147 90.7)",
+    "border": "oklch(0.982 0.005 145.5)",
+    "input": "oklch(0.982 0.005 145.5)",
+    "ring": "oklch(0.527 0.115 150.3)",
+    "chart-1": "oklch(0.889 0.147 90.7)",
+    "chart-2": "oklch(0.527 0.115 150.3)",
+    "chart-3": "oklch(0.903 0.053 2.2)",
+    "chart-4": "oklch(0.822 0.108 0.6)",
+    "chart-5": "oklch(0.202 0.024 166.5)",
+    "sidebar": "oklch(0.990 0.007 67.7)",
+    "sidebar-foreground": "oklch(0.299 0.010 139.4)",
+    "sidebar-primary": "oklch(0.889 0.147 90.7)",
+    "sidebar-primary-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-accent": "oklch(0.981 0.021 85.9)",
+    "sidebar-accent-foreground": "oklch(0.889 0.147 90.7)",
+    "sidebar-border": "oklch(0.982 0.005 145.5)",
+    "sidebar-ring": "oklch(0.527 0.115 150.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.299 0.010 139.4)",
+    "foreground": "oklch(0.979 0.017 76.1)",
+    "card": "oklch(0.235 0.019 160.6)",
+    "card-foreground": "oklch(0.979 0.017 76.1)",
+    "popover": "oklch(0.235 0.019 160.6)",
+    "popover-foreground": "oklch(0.979 0.017 76.1)",
+    "primary": "oklch(0.527 0.115 150.3)",
+    "primary-foreground": "oklch(0.299 0.010 139.4)",
+    "secondary": "oklch(0.395 0.021 167.4)",
+    "secondary-foreground": "oklch(0.979 0.017 76.1)",
+    "muted": "oklch(0.395 0.021 167.4)",
+    "muted-foreground": "oklch(0.971 0.012 106.6)",
+    "accent": "oklch(0.903 0.053 2.2)",
+    "accent-foreground": "oklch(0.299 0.010 139.4)",
+    "destructive": "oklch(0.889 0.147 90.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.527 0.115 150.3)",
+    "chart-1": "oklch(0.527 0.115 150.3)",
+    "chart-2": "oklch(0.889 0.147 90.7)",
+    "chart-3": "oklch(0.903 0.053 2.2)",
+    "chart-4": "oklch(0.822 0.108 0.6)",
+    "chart-5": "oklch(0.958 0.012 164.8)",
+    "sidebar": "oklch(0.254 0.016 160.7)",
+    "sidebar-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-primary": "oklch(0.527 0.115 150.3)",
+    "sidebar-primary-foreground": "oklch(0.299 0.010 139.4)",
+    "sidebar-accent": "oklch(0.395 0.021 167.4)",
+    "sidebar-accent-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.527 0.115 150.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Serene English hospitality UI with elegant display guidance and Japanese typography guidance for Noto Sans JP or Yu Gothic interface text, Mincho-style guest-facing headings, compact status labels, and readable reservation tables.",
+  "layout": "Hospitality dashboards, reservation workflows, 8px radii, cream petal surfaces, yellow center highlights, wax-green navigation, blush accent states, airy spacing, soft island-light shadows, and calm data-dense service screens.",
+  "tags": [
+    "frangipani",
+    "flower",
+    "island-garden",
+    "cream",
+    "yellow",
+    "pink-blush",
+    "wax-green",
+    "hospitality",
+    "product-ui",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-frangipani/motif.png",
+    "board": "/systems/morphous-frangipani/design-system-light.png",
+    "darkBoard": "/systems/morphous-frangipani/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-frangipani/theme.css",
+    "themeJson": "/systems/morphous-frangipani/theme.json",
+    "promptsJson": "/systems/morphous-frangipani/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent frangipani blossom motif",
+      "asset": "/systems/morphous-frangipani/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Frangipani transparent motif chroma-key source\nPrimary request: Create only one complete frangipani blossom motif for a Morphous design-system catalog, isolated on a removable chroma-key background.\nSubject: a tropical island-garden frangipani blossom with five broad waxy cream petals, warm butter-yellow throat, subtle shell-pink blush near petal edges, a few glossy wax-green leaves, accurate plumeria/frangipani form, clean botanical detail, serene hospitality mood, natural polished texture.\nComposition/framing: centered complete blossom cutout with leaves visible and generous padding on every side; do not crop petals or leaves.\nLighting/mood: clean even studio light that preserves waxy petal texture, yellow center gradients, pink blush, and glossy green leaf surfaces.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no hand, no props, no landscape, no branch cluster, no second blossom, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-frangipani/design-system-light.png",
+      "sourceAsset": "/systems/morphous-frangipani/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Frangipani light-mode design-system board\nInput image reference: use the visible transparent frangipani motif cutout in this conversation as the source of truth.\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Frangipani\", clearly derived from the frangipani blossom motif.\nReference use: Extract palette, surface texture, contrast, spacing rhythm, and interaction language from the cream waxy petals, butter-yellow flower center, shell-pink blush, glossy wax-green leaves, and calm island-garden hospitality mood. The board must visibly respect these motif colors and materials.\nCanvas: strict 16:9 landscape design board, target 3840x2160, wide 4K-class source asset. Do not create a square or portrait image.\nResolution and legibility: large readable section labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Frangipani, Frangipani Blossom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, soft shadow tokens, and generated asset examples using the frangipani motif.\nTypography: serene English hospitality product UI with elegant display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for calm guest-facing headings. Include short readable Japanese samples such as 予約, 客室, 状態.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart, sidebar, radius.\nColor palette: motif-derived near-neutrals, creams, yellows, pinks, and wax greens only, with named swatches: Petal Cream, Butter Throat, Shell Pink, Blush Edge, Wax Leaf, Leaf Vein, Island Mist, Warm Porcelain, Garden Ink, Soft Sand Border.\nVisual style: serene hospitality system for resorts and island garden service tools, warm cream surfaces, yellow-centered accents, pink blush highlights, wax-green navigation, airy spacing, tactile petal texture, calm data-dense operations screens, crisp component edges, mostly 8px card radius.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Frangipani, no tiny illegible text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-frangipani/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-frangipani/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Frangipani dark-mode design-system board\nInput image references: use the visible transparent frangipani motif cutout and the visible light-mode Morphous Frangipani board in this conversation as references.\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible board for \"Morphous Frangipani\" that feels like the same serene hospitality system translated to dark mode, not a new theme.\nReference use: Preserve the same motif-derived palette roles, component language, petal and leaf texture rhythm, spacing, Japanese typography, navigation patterns, dashboard/data modules, and shadcn/tweakcn component coverage from the light board.\nCanvas: strict 16:9 landscape design board, target 3840x2160, wide 4K-class source asset. Do not create a square or portrait image.\nResolution and legibility: large readable section labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Frangipani, Frangipani Blossom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, dark shadow tokens, semantic tokens, and generated asset examples using the frangipani motif.\nTypography: serene English hospitality product UI with elegant display guidance; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for calm guest-facing headings. Include short readable Japanese samples such as 予約, 客室, 状態.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart, sidebar, radius.\nDark palette: deepest wax leaf ink and garden night backgrounds, cream petal foregrounds, warm porcelain-on-dark cards, butter-yellow primary highlights, shell-pink accent states, muted wax-green navigation and success states, island-mist dividers, restrained rose destructive state only where needed.\nVisual style: serene luxury dark hospitality system for island garden resorts, calm dark-green surfaces, subtle frangipani petal texture overlays, wax leaf sidebars, cream text, yellow center glow accents, pink blush highlights, crisp component edges, mostly 8px card radius, restrained premium shadows.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no neon palette, no pure flat black-only background, no generic purple or blue gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Frangipani, no tiny illegible text."
+    }
+  ]
+}

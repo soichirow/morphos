@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-snowdrop",
+    "name": "Morphous Snowdrop",
+    "motifName": "Snowdrop",
+    "motifCategory": "flower",
+    "biome": "winter woodland",
+    "motif": "snowdrop bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow White",
+      "hex": "#F8FAF4",
+      "oklch": "oklch(0.982 0.008 121.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Woodland",
+      "hex": "#1F2A22",
+      "oklch": "oklch(0.272 0.021 153.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Green Tip",
+      "hex": "#5C8A3A",
+      "oklch": "oklch(0.582 0.122 133.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2F6B45",
+      "oklch": "oklch(0.477 0.088 153.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Thaw Brown",
+      "hex": "#8A6A48",
+      "oklch": "oklch(0.548 0.063 67.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "New Shoot",
+      "hex": "#6E9B43",
+      "oklch": "oklch(0.637 0.128 131.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Vein",
+      "hex": "#E6ECE2",
+      "oklch": "oklch(0.936 0.015 132.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Winter Neutral",
+      "hex": "#B9C3BA",
+      "oklch": "oklch(0.807 0.017 148.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Woodland Shadow",
+      "hex": "#16231C",
+      "oklch": "oklch(0.241 0.023 160.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Frost Shadow",
+      "hex": "#D3D9D1",
+      "oklch": "oklch(0.878 0.013 137.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.008 121.6)",
+    "foreground": "oklch(0.272 0.021 153.3)",
+    "card": "oklch(0.936 0.015 132.5)",
+    "card-foreground": "oklch(0.272 0.021 153.3)",
+    "popover": "oklch(0.936 0.015 132.5)",
+    "popover-foreground": "oklch(0.272 0.021 153.3)",
+    "primary": "oklch(0.582 0.122 133.8)",
+    "primary-foreground": "oklch(0.982 0.008 121.6)",
+    "secondary": "oklch(0.956 0.011 128.6)",
+    "secondary-foreground": "oklch(0.241 0.023 160.6)",
+    "muted": "oklch(0.949 0.013 130.8)",
+    "muted-foreground": "oklch(0.241 0.023 160.6)",
+    "accent": "oklch(0.548 0.063 67.6)",
+    "accent-foreground": "oklch(0.982 0.008 121.6)",
+    "destructive": "oklch(0.548 0.063 67.6)",
+    "border": "oklch(0.890 0.014 138.7)",
+    "input": "oklch(0.890 0.014 138.7)",
+    "ring": "oklch(0.477 0.088 153.6)",
+    "chart-1": "oklch(0.582 0.122 133.8)",
+    "chart-2": "oklch(0.477 0.088 153.6)",
+    "chart-3": "oklch(0.548 0.063 67.6)",
+    "chart-4": "oklch(0.637 0.128 131.7)",
+    "chart-5": "oklch(0.241 0.023 160.6)",
+    "sidebar": "oklch(0.952 0.013 130.8)",
+    "sidebar-foreground": "oklch(0.272 0.021 153.3)",
+    "sidebar-primary": "oklch(0.582 0.122 133.8)",
+    "sidebar-primary-foreground": "oklch(0.982 0.008 121.6)",
+    "sidebar-accent": "oklch(0.893 0.027 133.0)",
+    "sidebar-accent-foreground": "oklch(0.582 0.122 133.8)",
+    "sidebar-border": "oklch(0.890 0.014 138.7)",
+    "sidebar-ring": "oklch(0.477 0.088 153.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.272 0.021 153.3)",
+    "foreground": "oklch(0.982 0.008 121.6)",
+    "card": "oklch(0.251 0.021 158.8)",
+    "card-foreground": "oklch(0.982 0.008 121.6)",
+    "popover": "oklch(0.251 0.021 158.8)",
+    "popover-foreground": "oklch(0.982 0.008 121.6)",
+    "primary": "oklch(0.637 0.128 131.7)",
+    "primary-foreground": "oklch(0.272 0.021 153.3)",
+    "secondary": "oklch(0.381 0.020 159.7)",
+    "secondary-foreground": "oklch(0.982 0.008 121.6)",
+    "muted": "oklch(0.381 0.020 159.7)",
+    "muted-foreground": "oklch(0.904 0.011 136.6)",
+    "accent": "oklch(0.548 0.063 67.6)",
+    "accent-foreground": "oklch(0.982 0.008 121.6)",
+    "destructive": "oklch(0.548 0.063 67.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.637 0.128 131.7)",
+    "chart-1": "oklch(0.637 0.128 131.7)",
+    "chart-2": "oklch(0.582 0.122 133.8)",
+    "chart-3": "oklch(0.548 0.063 67.6)",
+    "chart-4": "oklch(0.477 0.088 153.6)",
+    "chart-5": "oklch(0.807 0.017 148.4)",
+    "sidebar": "oklch(0.259 0.022 155.4)",
+    "sidebar-foreground": "oklch(0.982 0.008 121.6)",
+    "sidebar-primary": "oklch(0.637 0.128 131.7)",
+    "sidebar-primary-foreground": "oklch(0.272 0.021 153.3)",
+    "sidebar-accent": "oklch(0.381 0.020 159.7)",
+    "sidebar-accent-foreground": "oklch(0.982 0.008 121.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.637 0.128 131.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist-like English product UI with Noto Sans JP guidance for Japanese headings, body text, labels, and tabular numerals.",
+  "layout": "Minimal transition UI with exact 8px radii, cool neutral surfaces, thin thaw-brown rules, green focus rings, petal-rib textures, compact dashboard/data views, and restrained winter-thaw spacing.",
+  "tags": [
+    "snowdrop",
+    "flower",
+    "winter-woodland",
+    "minimal",
+    "transition",
+    "green-tip",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-snowdrop/motif.png",
+    "board": "/systems/morphous-snowdrop/design-system-light.png",
+    "darkBoard": "/systems/morphous-snowdrop/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-snowdrop/theme.css",
+    "themeJson": "/systems/morphous-snowdrop/theme.json",
+    "promptsJson": "/systems/morphous-snowdrop/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Snowdrop motif",
+      "asset": "/systems/morphous-snowdrop/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Snowdrop transparent motif chroma-key source\nPrimary request: Create only a snowdrop bloom botanical cutout, isolated full subject, no environment, no props, no text.\nSubject: A single snowdrop bloom (Galanthus) with one white downward bell-shaped flower, three white outer petals, small green petal-tip markings, a slender green stem, two narrow blue-green leaves, and a tiny thaw-brown papery sheath at the base. Accurate winter woodland flower form, crisp botanical detail, opaque natural surfaces.\nComposition/framing: centered complete cutout with generous padding; do not crop the bloom, stem, leaves, or base.\nLighting/mood: clean soft studio light, quiet winter woodland transition mood, minimal and exact.\nColor palette: snow white petals, green tips, cool blue-green leaves, thaw-brown base; no saturated colors outside these.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no bouquet, no vase, no hand, no landscape, no snow pile, no cast shadow, no contact shadow, no reflection, no watermark, no text, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-snowdrop/design-system-light.png",
+      "sourceAsset": "/systems/morphous-snowdrop/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Snowdrop light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Snowdrop\", derived from the visible transparent snowdrop bloom motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the snowdrop image: snow-white petals, precise green petal tips, cool winter blue-green leaves, thaw-brown woodland base, and cool winter neutrals. The board must visibly respect these motif-derived colors only.\nCanvas: 3840x2160 wide 16:9 board, high-resolution source asset.\nResolution and legibility: use large readable labels and avoid dense tiny text; make token rows and UI labels clear in gallery previews.\nRequired visible sections: Morphous Snowdrop, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated assets.\nTypography: include English UI guidance with Geist-like product type and Japanese guidance with Noto Sans JP-like examples: 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, metric tiles, table rows, command palette/search, sidebar navigation, top navigation, dashboard charts, empty/loading/error states, spacing scale, 8px radius tokens, borders, subtle shadows, texture swatches, icon buttons.\nStyle/medium: premium shadcn/tweakcn-style product design system, minimal transition system, precise grid, quiet utilitarian product UI, 8px card radius, thin thaw-brown rules, snow-white surfaces, green focus states, cool neutral panels, restrained texture from petal ribs and woodland thaw.\nColor palette: use only motif-derived colors: Snow White #F8FAF4, Petal Vein #E6ECE2, Green Tip #5C8A3A, Leaf Green #2F6B45, Thaw Brown #8A6A48, Winter Neutral #B9C3BA, Deep Woodland #1F2A22, Frost Shadow #D3D9D1.\nText: short readable labels only; no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no beige-only theme, no oversized landing page hero, no watermark, no random brand names, no misspelling of \"Morphous Snowdrop\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-snowdrop/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-snowdrop/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Snowdrop dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Snowdrop light-mode design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent snowdrop bloom motif and the visible light-mode board as references. Preserve the motif-derived palette roles, component language, minimal transition mood, petal-rib texture, thaw-brown dividers, green focus states, spacing, Japanese typography, and shadcn/tweakcn component coverage.\nCanvas: 3840x2160 wide 16:9 board, high-resolution source asset.\nResolution and legibility: use large readable labels and avoid dense tiny text; make token rows and UI labels clear in gallery previews.\nRequired visible sections: Morphous Snowdrop, Dark Mode, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated assets.\nTypography: include English UI guidance with Geist-like product type and Japanese guidance with Noto Sans JP-like examples: 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, metric tiles, table rows, command palette/search, sidebar navigation, top navigation, dashboard charts, empty/loading/error states, spacing scale, 8px radius tokens, borders, subtle shadows, texture swatches, icon buttons.\nVisual details: deep woodland green-black background from the snowdrop base, snow-white foreground text, green-tip primary controls, cool leaf-green success states, thaw-brown borders and separators, frosted neutral panels, subtle petal-rib texture, minimal winter-thaw transition accents, crisp shadcn-style controls.\nColor palette: use only motif-derived colors: Deep Woodland #1F2A22, Snow White #F8FAF4, Frost Shadow #D3D9D1, Green Tip #6E9B43, Leaf Green #2F6B45, Thaw Brown #8A6A48, Winter Neutral #B9C3BA, Petal Vein #E6ECE2.\nText: short readable labels only; no long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black flat background, no orange/brown-dominant theme, no watermark, no random brand names, no misspelling of \"Morphous Snowdrop\", no illegible tiny text."
+    }
+  ]
+}

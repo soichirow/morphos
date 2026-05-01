@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lithops",
+    "name": "Morphous Lithops",
+    "motifName": "Lithops",
+    "motifCategory": "plant",
+    "biome": "Namib Gravel",
+    "motif": "living stone plant"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Chalk Stone",
+      "hex": "#F6F3EA",
+      "oklch": "oklch(0.964 0.012 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Mineral Ink",
+      "hex": "#2B2E2B",
+      "oklch": "oklch(0.297 0.007 145.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fissure Green",
+      "hex": "#7E9A6A",
+      "oklch": "oklch(0.652 0.076 132.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sand Tan",
+      "hex": "#D2C2AA",
+      "oklch": "oklch(0.821 0.037 78.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Warm Tan",
+      "hex": "#B79F86",
+      "oklch": "oklch(0.717 0.045 68.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Olive Shadow",
+      "hex": "#5E6A4F",
+      "oklch": "oklch(0.506 0.044 127.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pebble Grey",
+      "hex": "#D5D7D2",
+      "oklch": "oklch(0.876 0.007 124.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Grey",
+      "hex": "#8B8B87",
+      "oklch": "oklch(0.636 0.006 106.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Gravel",
+      "hex": "#181D1B",
+      "oklch": "oklch(0.225 0.008 169.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.964 0.012 91.5)",
+    "foreground": "oklch(0.297 0.007 145.4)",
+    "card": "oklch(0.876 0.007 124.5)",
+    "card-foreground": "oklch(0.297 0.007 145.4)",
+    "popover": "oklch(0.876 0.007 124.5)",
+    "popover-foreground": "oklch(0.297 0.007 145.4)",
+    "primary": "oklch(0.652 0.076 132.8)",
+    "primary-foreground": "oklch(0.964 0.012 91.5)",
+    "secondary": "oklch(0.914 0.009 106.6)",
+    "secondary-foreground": "oklch(0.225 0.008 169.5)",
+    "muted": "oklch(0.901 0.008 114.2)",
+    "muted-foreground": "oklch(0.225 0.008 169.5)",
+    "accent": "oklch(0.717 0.045 68.2)",
+    "accent-foreground": "oklch(0.297 0.007 145.4)",
+    "destructive": "oklch(0.652 0.076 132.8)",
+    "border": "oklch(0.792 0.007 124.5)",
+    "input": "oklch(0.792 0.007 124.5)",
+    "ring": "oklch(0.821 0.037 78.1)",
+    "chart-1": "oklch(0.652 0.076 132.8)",
+    "chart-2": "oklch(0.821 0.037 78.1)",
+    "chart-3": "oklch(0.717 0.045 68.2)",
+    "chart-4": "oklch(0.506 0.044 127.4)",
+    "chart-5": "oklch(0.225 0.008 169.5)",
+    "sidebar": "oklch(0.907 0.009 113.2)",
+    "sidebar-foreground": "oklch(0.297 0.007 145.4)",
+    "sidebar-primary": "oklch(0.652 0.076 132.8)",
+    "sidebar-primary-foreground": "oklch(0.964 0.012 91.5)",
+    "sidebar-accent": "oklch(0.851 0.015 128.7)",
+    "sidebar-accent-foreground": "oklch(0.652 0.076 132.8)",
+    "sidebar-border": "oklch(0.792 0.007 124.5)",
+    "sidebar-ring": "oklch(0.821 0.037 78.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.297 0.007 145.4)",
+    "foreground": "oklch(0.964 0.012 91.5)",
+    "card": "oklch(0.250 0.009 159.4)",
+    "card-foreground": "oklch(0.964 0.012 91.5)",
+    "popover": "oklch(0.250 0.009 159.4)",
+    "popover-foreground": "oklch(0.964 0.012 91.5)",
+    "primary": "oklch(0.821 0.037 78.1)",
+    "primary-foreground": "oklch(0.297 0.007 145.4)",
+    "secondary": "oklch(0.324 0.007 164.6)",
+    "secondary-foreground": "oklch(0.964 0.012 91.5)",
+    "muted": "oklch(0.324 0.007 164.6)",
+    "muted-foreground": "oklch(0.820 0.010 93.6)",
+    "accent": "oklch(0.717 0.045 68.2)",
+    "accent-foreground": "oklch(0.297 0.007 145.4)",
+    "destructive": "oklch(0.652 0.076 132.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.821 0.037 78.1)",
+    "chart-1": "oklch(0.821 0.037 78.1)",
+    "chart-2": "oklch(0.652 0.076 132.8)",
+    "chart-3": "oklch(0.717 0.045 68.2)",
+    "chart-4": "oklch(0.506 0.044 127.4)",
+    "chart-5": "oklch(0.636 0.006 106.6)",
+    "sidebar": "oklch(0.264 0.007 164.4)",
+    "sidebar-foreground": "oklch(0.964 0.012 91.5)",
+    "sidebar-primary": "oklch(0.821 0.037 78.1)",
+    "sidebar-primary-foreground": "oklch(0.297 0.007 145.4)",
+    "sidebar-accent": "oklch(0.324 0.007 164.6)",
+    "sidebar-accent-foreground": "oklch(0.964 0.012 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.821 0.037 78.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for quiet product UI with Noto Sans JP guidance for headings, body, labels, compact numerals, and table density.",
+  "layout": "Low-contrast mineral panels, precise shadcn/tweakcn component states, 8px radii, compact dashboard grids, tactile gravel texture, and restrained object-like controls.",
+  "tags": [
+    "lithops",
+    "plant",
+    "living-stone",
+    "namib-gravel",
+    "minimal",
+    "object-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lithops/motif.png",
+    "board": "/systems/morphous-lithops/design-system-light.png",
+    "darkBoard": "/systems/morphous-lithops/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lithops/theme.css",
+    "themeJson": "/systems/morphous-lithops/theme.json",
+    "promptsJson": "/systems/morphous-lithops/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Lithops motif source",
+      "asset": "/systems/morphous-lithops/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a living stone plant (Lithops) motif for a Morphous design system, isolated full subject, no environment, no props, no text.\nSubject: A single Lithops living stone plant pair with rounded split pebble-like leaves, natural stone-grey and warm tan mottling, a narrow green fissure, subtle translucent plant skin, and Namib gravel mineral character. Accurate botanical form, compact succulent body, tactile matte surface.\nComposition/framing: centered complete cutout with generous padding; do not crop the plant. The subject should occupy most of the canvas while leaving clean margins.\nLighting/mood: clean studio light that preserves natural stone texture, muted desert neutrals, minimal object-system mood.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no soil pot, no landscape, no gravel field, no flower, no extra plants, no text, no watermark, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lithops/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lithops\" derived from the visible transparent Lithops living stone plant motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible motif image: stone grey pebble skin, warm tan mottling, muted green fissure, pale succulent translucency, and Namib gravel neutrals. Use only motif-derived colors plus near-neutrals from the motif. This board is the primary reference for coding a minimal object system.\nCanvas: exact wide 16:9 source board, 3840 x 2160 px, crisp high-resolution UI mockup.\nResolution and legibility: large readable labels, no tiny dense token text; sections should remain legible in gallery previews.\nRequired visible sections: Morphous Lithops title, motif story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; short readable snippets only.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search overlay, sidebar navigation, top navigation, metric cards, compact charts, empty/loading/error states, token chips, texture samples, spacing scale, radius scale, border and shadow samples.\nStyle/medium: premium shadcn/tweakcn-like product design system, precise minimal object grid, calm utilitarian dashboard surface, 8px radii, fine gravel borders, subtle speckled lithops texture, tactile stone controls, restrained green fissure focus states.\nColor palette: stone grey, chalk grey, warm tan, Namib gravel beige, fissure green, olive shadow, charcoal mineral ink; no unrelated saturated colors.\nText: use short readable labels and exact section names; avoid long paragraphs.\nConstraints: no generic purple/blue gradients, no bright marketing palette, no random brand names, no watermark, no illegible microtext, no rounded pills larger than 8px radius, no landscape scene."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lithops/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible \"Morphous Lithops\" design-system board. It must feel like the same minimal object system translated to dark mode, not a new theme.\nReference use: Use the visible transparent Lithops motif and the visible light-mode board as references. Preserve the lithops-derived palette roles, component language, texture, 8px radius system, Japanese typography guidance, and shadcn/tweakcn UI coverage.\nCanvas: exact wide 16:9 source board, 3840 x 2160 px, crisp high-resolution UI mockup.\nResolution and legibility: large readable labels, no tiny dense token text; sections should remain legible in gallery previews.\nRequired visible sections: Morphous Lithops title, Dark Mode, motif story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: deep mineral charcoal background, dark warm gravel surfaces, pale stone-grey text, chalk-grey cards, muted tan dividers, restrained fissure-green primary controls and focus rings, olive shadow accents, subtle speckled lithops texture overlays, crisp fine borders.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search overlay, sidebar navigation, top navigation, metric cards, compact charts, empty/loading/error states, token chips, texture samples, spacing scale, radius scale, border and shadow samples.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; short readable snippets only.\nStyle/medium: premium shadcn/tweakcn-like product design system, precise minimal object grid, calm utilitarian dashboard surface, 8px radii, tactile stone controls.\nText: use short readable labels and exact section names; avoid long paragraphs.\nConstraints: no neon colors, no generic purple/blue gradients, no flat pure-black-only background, no unrelated saturated colors, no random brand names, no watermark, no illegible microtext, no rounded pills larger than 8px radius, no landscape scene."
+    }
+  ]
+}

@@ -86,7 +86,7 @@ Husky installs a local pre-commit hook through `bun install` via the `prepare` s
 bun run precommit
 ```
 
-That currently maps to `bun run check`, so commits are gated by lint and typecheck without running the full production build locally.
+That runs `bun run generate:previews` first, then `bun run check`, so commits are gated by generated previews, lint, and typecheck without running the full production build locally. Current previews are skipped by timestamp; if generation updates preview files, stage those generated files and retry the commit.
 
 ## GitHub Pages
 

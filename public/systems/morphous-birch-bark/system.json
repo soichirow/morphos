@@ -1,0 +1,113 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 224,
+  "slug": "morphous-birch-bark",
+  "name": "Birch Bark",
+  "motifName": "Birch Bark",
+  "motifCategory": "plant",
+  "biome": "boreal forest",
+  "motif": "birch bark",
+  "subject": "birch bark",
+  "paletteMood": "white bark black scar leaf green",
+  "designMood": "clean editorial system",
+  "description": "A shadcn/tweakcn-compatible clean editorial system derived from boreal birch bark: white papery bark surfaces, charcoal lenticel scars, leaf green focus states, inner-bark beige warmth, lichen grey-green restraint, and spruce neutrals for dense product workflows.",
+  "typography": "Editorial product English UI with high-contrast display accents, compact sans body text, crisp tabular numerals, and Japanese typography guidance for quiet labels, forms, tables, and status text.",
+  "layout": "8px radii, precise 8pt spacing, horizontal scar-line dividers, torn-bark texture rails, leaf-vein focus marks, restrained shadows, clean navigation, compact dashboards, and data-first shadcn component coverage.",
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "birch-bark",
+    "plant",
+    "boreal-forest",
+    "white-bark",
+    "black-scars",
+    "leaf-green",
+    "clean-editorial",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bark White",
+      "hex": "#F7F7F5"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Scar",
+      "hex": "#1A1A1A"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#6B8E2E"
+    },
+    {
+      "role": "Primary Bright",
+      "name": "Young Leaf",
+      "hex": "#8AA13A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Paper Grey",
+      "hex": "#E9E7E4"
+    },
+    {
+      "role": "Accent",
+      "name": "Inner Bark",
+      "hex": "#EBDCC6"
+    },
+    {
+      "role": "Surface",
+      "name": "Frost White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Grey",
+      "hex": "#B7C1B1"
+    },
+    {
+      "role": "Depth",
+      "name": "Spruce Shadow",
+      "hex": "#283A2F"
+    },
+    {
+      "role": "Border",
+      "name": "Birch Line",
+      "hex": "#7A7774"
+    },
+    {
+      "role": "Warning",
+      "name": "Bark Umber",
+      "hex": "#4F3A2B"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-aspen-leaf",
+    "name": "Morphous Aspen Leaf",
+    "motifName": "Aspen Leaf",
+    "motifCategory": "plant",
+    "biome": "Mountain Grove",
+    "motif": "golden aspen leaves and white bark"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Aspen Paper",
+      "hex": "#fff8e4",
+      "oklch": "oklch(0.979 0.027 90.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Grove Ink",
+      "hex": "#263238",
+      "oklch": "oklch(0.309 0.019 229.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Golden Leaf",
+      "hex": "#e6b422",
+      "oklch": "oklch(0.794 0.155 87.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Edge",
+      "hex": "#7ec3f2",
+      "oklch": "oklch(0.789 0.097 239.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sun Vein",
+      "hex": "#f3c94a",
+      "oklch": "oklch(0.850 0.148 90.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "White Bark",
+      "hex": "#f7f4ec",
+      "oklch": "oklch(0.967 0.011 89.7)"
+    },
+    {
+      "role": "Surface Warm",
+      "name": "Leaf Back Cream",
+      "hex": "#f8eac4",
+      "oklch": "oklch(0.939 0.052 90.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Grain",
+      "hex": "#d8d2c5",
+      "oklch": "oklch(0.865 0.019 86.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mountain Slate",
+      "hex": "#5a6470",
+      "oklch": "oklch(0.499 0.023 253.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Grove",
+      "hex": "#101617",
+      "oklch": "oklch(0.194 0.009 208.8)"
+    },
+    {
+      "role": "Status",
+      "name": "Grove Sage",
+      "hex": "#6f8f76",
+      "oklch": "oklch(0.618 0.052 151.3)"
+    },
+    {
+      "role": "Warning",
+      "name": "Bark Umber",
+      "hex": "#9c6a3a",
+      "oklch": "oklch(0.567 0.091 63.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.027 90.9)",
+    "foreground": "oklch(0.309 0.019 229.8)",
+    "card": "oklch(0.967 0.011 89.7)",
+    "card-foreground": "oklch(0.309 0.019 229.8)",
+    "popover": "oklch(0.967 0.011 89.7)",
+    "popover-foreground": "oklch(0.309 0.019 229.8)",
+    "primary": "oklch(0.794 0.155 87.3)",
+    "primary-foreground": "oklch(0.979 0.027 90.9)",
+    "secondary": "oklch(0.973 0.018 92.7)",
+    "secondary-foreground": "oklch(0.194 0.009 208.8)",
+    "muted": "oklch(0.970 0.015 90.2)",
+    "muted-foreground": "oklch(0.194 0.009 208.8)",
+    "accent": "oklch(0.789 0.097 239.4)",
+    "accent-foreground": "oklch(0.309 0.019 229.8)",
+    "destructive": "oklch(0.794 0.155 87.3)",
+    "border": "oklch(0.806 0.003 165.1)",
+    "input": "oklch(0.806 0.003 165.1)",
+    "ring": "oklch(0.789 0.097 239.4)",
+    "chart-1": "oklch(0.794 0.155 87.3)",
+    "chart-2": "oklch(0.789 0.097 239.4)",
+    "chart-3": "oklch(0.789 0.097 239.4)",
+    "chart-4": "oklch(0.850 0.148 90.2)",
+    "chart-5": "oklch(0.194 0.009 208.8)",
+    "sidebar": "oklch(0.971 0.017 88.0)",
+    "sidebar-foreground": "oklch(0.309 0.019 229.8)",
+    "sidebar-primary": "oklch(0.794 0.155 87.3)",
+    "sidebar-primary-foreground": "oklch(0.979 0.027 90.9)",
+    "sidebar-accent": "oklch(0.944 0.033 89.9)",
+    "sidebar-accent-foreground": "oklch(0.794 0.155 87.3)",
+    "sidebar-border": "oklch(0.806 0.003 165.1)",
+    "sidebar-ring": "oklch(0.789 0.097 239.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.309 0.019 229.8)",
+    "foreground": "oklch(0.979 0.027 90.9)",
+    "card": "oklch(0.236 0.013 212.8)",
+    "card-foreground": "oklch(0.979 0.027 90.9)",
+    "popover": "oklch(0.236 0.013 212.8)",
+    "popover-foreground": "oklch(0.979 0.027 90.9)",
+    "primary": "oklch(0.789 0.097 239.4)",
+    "primary-foreground": "oklch(0.309 0.019 229.8)",
+    "secondary": "oklch(0.268 0.012 233.0)",
+    "secondary-foreground": "oklch(0.979 0.027 90.9)",
+    "muted": "oklch(0.268 0.012 233.0)",
+    "muted-foreground": "oklch(0.772 0.007 106.6)",
+    "accent": "oklch(0.789 0.097 239.4)",
+    "accent-foreground": "oklch(0.309 0.019 229.8)",
+    "destructive": "oklch(0.794 0.155 87.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.789 0.097 239.4)",
+    "chart-1": "oklch(0.789 0.097 239.4)",
+    "chart-2": "oklch(0.794 0.155 87.3)",
+    "chart-3": "oklch(0.789 0.097 239.4)",
+    "chart-4": "oklch(0.850 0.148 90.2)",
+    "chart-5": "oklch(0.499 0.023 253.0)",
+    "sidebar": "oklch(0.258 0.015 226.7)",
+    "sidebar-foreground": "oklch(0.979 0.027 90.9)",
+    "sidebar-primary": "oklch(0.789 0.097 239.4)",
+    "sidebar-primary-foreground": "oklch(0.309 0.019 229.8)",
+    "sidebar-accent": "oklch(0.268 0.012 233.0)",
+    "sidebar-accent-foreground": "oklch(0.979 0.027 90.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.789 0.097 239.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for dense collaboration UI with Noto Sans JP guidance for Japanese labels, calm headings, readable tables, and precise dashboard numerals.",
+  "layout": "8px radius components, bark-paper panels, leaf-vein separators, sky-blue focus rings, golden action states, compact navigation, and collaboration dashboards arranged on an 8px grid.",
+  "tags": [
+    "aspen",
+    "leaf",
+    "plant",
+    "mountain-grove",
+    "collaboration",
+    "light-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-aspen-leaf/motif.png",
+    "board": "/systems/morphous-aspen-leaf/design-system-light.png",
+    "darkBoard": "/systems/morphous-aspen-leaf/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-aspen-leaf/theme.css",
+    "themeJson": "/systems/morphous-aspen-leaf/theme.json",
+    "promptsJson": "/systems/morphous-aspen-leaf/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Aspen Leaf motif",
+      "asset": "/systems/morphous-aspen-leaf/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Aspen Leaf transparent motif chroma-key source\nPrimary request: Create only an isolated aspen leaf motif for a design-system catalog, no environment, no props, no text.\nSubject: A compact cluster of quaking aspen leaves on a slender white aspen bark twig, golden yellow leaf faces with subtle amber veins, pale cream leaf backs, crisp serrated rounded leaf edges, small dark bark lenticels, and very slight sky-blue reflected highlights along a few cool edges. Accurate botanical form and natural leaf texture.\nComposition/framing: centered complete cutout with generous padding; show several overlapping leaves and the short twig without cropping; clean silhouette suitable for background removal.\nLighting/mood: clean studio light that preserves golden yellow leaves, white bark, sky-blue highlights, and fine vein texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second plant species, no maple leaves, no oak leaves, no flowers, no green-screen color in the subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-aspen-leaf/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Aspen Leaf\" / \"Aspen Leaf\", derived from the visible transparent aspen leaf motif: golden yellow rounded aspen leaves, white aspen bark with dark lenticels, pale cream leaf backs, sky-blue edge highlights, and mountain grove neutrals.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the aspen motif. The board must visibly respect only motif-derived colors: golden yellow leaves, warm amber veins, white bark, pale cream leaf backs, sky blue highlights, slate-gray mountain shadows, soft grove neutrals, and restrained light collaboration accents.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide. Use a precise product UI grid with large readable labels.\nRequired visible sections: title \"Morphous Aspen Leaf\", motif story, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI language: premium shadcn/tweakcn-style collaboration system. Use 8px card radius, crisp thin borders, leaf-vein dividers, bark-paper surfaces, sky-blue focus rings, golden primary actions, cream panels, mountain grove gray text, small collaborative avatars and presence dots derived from yellow/blue/bark colors.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, search command palette, data table, kanban/task row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"共同編集\", \"検索\", \"状態\", \"見出し\" with clean multilingual product UI guidance.\nTexture: subtle aspen leaf vein pattern and white bark lenticel grain, low contrast and tactile.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple gradients, no dark mode, no neon, no random brand names, no misspellings, no watermark, no animals, no maple leaves, no oak leaves, no flowers."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-aspen-leaf/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Aspen Leaf\" / \"Aspen Leaf\", translated from the visible light board and the same transparent aspen motif. It must feel like the same light collaboration system adapted for dark mode, not a new theme.\nReference use: Preserve motif-derived palette roles, component language, texture, spacing, typography, 8px radius, leaf-vein dividers, white-bark surfaces, golden leaf primary actions, sky-blue focus rings, and mountain grove neutrals from the Aspen Leaf motif and light board.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Aspen Leaf\", Dark Mode, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nDark visual system: deep mountain grove charcoal background derived from bark shadows, warm cream text from pale leaf backs, dark bark cards, muted slate-gray borders, golden yellow active states, amber chart data, sky-blue focus and information states, pale bark highlights, leaf-vein separators, subtle aspen leaf vein texture and white bark grain.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, search command palette, data table, kanban/task row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"共同編集\", \"検索\", \"状態\", \"見出し\" with clean multilingual product UI guidance.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple gradients, no random brand names, no misspellings, no watermark, no animals, no maple leaves, no oak leaves, no flowers."
+    }
+  ]
+}

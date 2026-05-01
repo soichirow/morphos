@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent yarrow cluster motif",
+    "asset": "/systems/morphous-yarrow/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Yarrow transparent motif chroma-key source\nPrimary request: Create a complete yarrow flower cluster isolated on a removable chroma-key background.\nSubject: Cream-white yarrow flower cluster with sage-green foliage, prairie ochre hints, crisp botanical texture, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal, no shadows, gradients, texture, watermark, or text.\nConstraints: no Queen Anne's lace confusion, no vase, no hand, no landscape."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-yarrow/design-system-light.png",
+    "sourceAsset": "/systems/morphous-yarrow/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Yarrow light-mode design-system board\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn board named Morphous Yarrow, derived from cream yarrow clusters, sage green foliage, and prairie ochre.\nRequired visible sections: palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples.\nStyle: medicinal operations system with records, intake forms, tables, calm cards, sage controls, and 8px radii."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-yarrow/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-yarrow/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Yarrow dark-mode design-system board\nPrimary request: Generate a dark-mode translation with herb-shadow surfaces, cream foregrounds, sage controls, ochre focus, and medicinal operations coverage.\nRequired visible sections: dark mode palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples."
+  }
+]

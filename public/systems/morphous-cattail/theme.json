@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cattail",
+    "name": "Morphous Cattail",
+    "motifName": "Cattail Reed",
+    "motifCategory": "plant",
+    "biome": "marsh",
+    "motif": "cattail reed"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Marsh Paper",
+      "hex": "#f4f1e6",
+      "oklch": "oklch(0.957 0.015 94.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2e2b1f",
+      "oklch": "oklch(0.288 0.021 95.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cattail Brown",
+      "hex": "#854c1f",
+      "oklch": "oklch(0.476 0.097 55.6)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Seed Umber",
+      "hex": "#9e6736",
+      "oklch": "oklch(0.563 0.096 60.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reed Green",
+      "hex": "#6c7a32",
+      "oklch": "oklch(0.552 0.098 119.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Blue",
+      "hex": "#8fc0c3",
+      "oklch": "oklch(0.774 0.052 200.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Silt Surface",
+      "hex": "#fbf8f0",
+      "oklch": "oklch(0.979 0.011 89.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Reed",
+      "hex": "#d1b088",
+      "oklch": "oklch(0.776 0.066 72.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Reed Tan",
+      "hex": "#b19963",
+      "oklch": "oklch(0.692 0.077 86.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Stem Olive",
+      "hex": "#4e6326",
+      "oklch": "oklch(0.468 0.090 125.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Pale Reed",
+      "hex": "#ead1b1",
+      "oklch": "oklch(0.873 0.051 73.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Mud",
+      "hex": "#3c2210",
+      "oklch": "oklch(0.282 0.049 54.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.957 0.015 94.2)",
+    "foreground": "oklch(0.288 0.021 95.7)",
+    "card": "oklch(0.979 0.011 89.7)",
+    "card-foreground": "oklch(0.288 0.021 95.7)",
+    "popover": "oklch(0.979 0.011 89.7)",
+    "popover-foreground": "oklch(0.288 0.021 95.7)",
+    "primary": "oklch(0.476 0.097 55.6)",
+    "primary-foreground": "oklch(0.957 0.015 94.2)",
+    "secondary": "oklch(0.970 0.012 91.5)",
+    "secondary-foreground": "oklch(0.282 0.049 54.0)",
+    "muted": "oklch(0.973 0.012 91.5)",
+    "muted-foreground": "oklch(0.282 0.049 54.0)",
+    "accent": "oklch(0.774 0.052 200.9)",
+    "accent-foreground": "oklch(0.288 0.021 95.7)",
+    "destructive": "oklch(0.476 0.097 55.6)",
+    "border": "oklch(0.907 0.030 75.7)",
+    "input": "oklch(0.907 0.030 75.7)",
+    "ring": "oklch(0.552 0.098 119.0)",
+    "chart-1": "oklch(0.476 0.097 55.6)",
+    "chart-2": "oklch(0.552 0.098 119.0)",
+    "chart-3": "oklch(0.774 0.052 200.9)",
+    "chart-4": "oklch(0.774 0.052 200.9)",
+    "chart-5": "oklch(0.282 0.049 54.0)",
+    "sidebar": "oklch(0.973 0.012 91.5)",
+    "sidebar-foreground": "oklch(0.288 0.021 95.7)",
+    "sidebar-primary": "oklch(0.476 0.097 55.6)",
+    "sidebar-primary-foreground": "oklch(0.957 0.015 94.2)",
+    "sidebar-accent": "oklch(0.920 0.019 72.6)",
+    "sidebar-accent-foreground": "oklch(0.476 0.097 55.6)",
+    "sidebar-border": "oklch(0.907 0.030 75.7)",
+    "sidebar-ring": "oklch(0.552 0.098 119.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.288 0.021 95.7)",
+    "foreground": "oklch(0.957 0.015 94.2)",
+    "card": "oklch(0.282 0.038 61.9)",
+    "card-foreground": "oklch(0.957 0.015 94.2)",
+    "popover": "oklch(0.282 0.038 61.9)",
+    "popover-foreground": "oklch(0.957 0.015 94.2)",
+    "primary": "oklch(0.552 0.098 119.0)",
+    "primary-foreground": "oklch(0.288 0.021 95.7)",
+    "secondary": "oklch(0.401 0.053 59.9)",
+    "secondary-foreground": "oklch(0.957 0.015 94.2)",
+    "muted": "oklch(0.401 0.053 59.9)",
+    "muted-foreground": "oklch(0.877 0.037 78.1)",
+    "accent": "oklch(0.774 0.052 200.9)",
+    "accent-foreground": "oklch(0.288 0.021 95.7)",
+    "destructive": "oklch(0.476 0.097 55.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.552 0.098 119.0)",
+    "chart-1": "oklch(0.552 0.098 119.0)",
+    "chart-2": "oklch(0.476 0.097 55.6)",
+    "chart-3": "oklch(0.774 0.052 200.9)",
+    "chart-4": "oklch(0.774 0.052 200.9)",
+    "chart-5": "oklch(0.776 0.066 72.0)",
+    "sidebar": "oklch(0.284 0.032 70.0)",
+    "sidebar-foreground": "oklch(0.957 0.015 94.2)",
+    "sidebar-primary": "oklch(0.552 0.098 119.0)",
+    "sidebar-primary-foreground": "oklch(0.288 0.021 95.7)",
+    "sidebar-accent": "oklch(0.401 0.053 59.9)",
+    "sidebar-accent-foreground": "oklch(0.957 0.015 94.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.552 0.098 119.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for wetland observation workflows, compact Japanese labels, numeric sensor tables, and status-heavy operational screens.",
+  "layout": "Structured 8px wetland grids, vertical stem dividers, compact dashboard and table density, low shadows, 8px radii, and cattail-fiber texture accents.",
+  "tags": [
+    "cattail",
+    "reed",
+    "plant",
+    "marsh",
+    "wetland",
+    "cocoa-brown",
+    "reed-green",
+    "water-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cattail/motif.png",
+    "board": "/systems/morphous-cattail/design-system-light.png",
+    "darkBoard": "/systems/morphous-cattail/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cattail/theme.css",
+    "themeJson": "/systems/morphous-cattail/theme.json",
+    "promptsJson": "/systems/morphous-cattail/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cattail reed motif",
+      "asset": "/systems/morphous-cattail/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a cattail reed botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One mature cattail reed with an upright cocoa-brown cylindrical seed head, narrow reed-green leaves, straight olive-green stem, pale marsh-neutral dry leaf edges, and subtle cool water-blue reflected highlights along the leaves and stem. Botanical accuracy, crisp subject edges, vertical wetland silhouette, natural fibrous texture on the seed head.\nComposition/framing: centered complete cutout with generous padding; include full seed head, stem, and several long leaves without cropping. Clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no reed plume, no wheat, no pampas grass, no bamboo, no lotus, no marsh landscape, no water body, no vase, no hand, no props, no second subject, no text, no watermark, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cattail/design-system-light.png",
+      "sourceAsset": "/systems/morphous-cattail/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cattail light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Cattail\" / \"Cattail Reed\". The board must be a wide 4K-class design-system reference, derived from the cattail motif: cocoa-brown cylindrical seed head, reed-green leaves, olive stem, marsh-neutral dry leaf edges, and water-blue reflected highlights.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Cattail, Cattail Reed, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from cattail fiber, cocoa-brown seed head, reed-green leaves, water-blue marsh reflections, olive stems, dry reed tan, marsh paper, silt neutral, peat ink, and deep mud. The board must read as cattail, not reed plume, wheat, bamboo, lotus, or generic enterprise UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 湿地, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, wetland dashboard metric cards, line chart, bar chart, sensor data table, observation filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, cattail fiber texture swatches.\nStyle/medium: premium structured wetland operations design system, realistic product UI mockup, precise 8px grid, 8px card radius, marsh-paper surfaces, cocoa-brown primary controls, reed-green active states, water-blue focus rings, olive vertical dividers, silt-neutral table density, subtle cattail fiber texture.\nColor palette: motif-derived colors only: cocoa brown reed, green reed leaves, water blue, olive stem, marsh paper, silt neutral, dry reed tan, peat ink, deep mud.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Cattail\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cattail/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-cattail/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cattail dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Cattail\" / \"Cattail Reed\". It must feel like the same structured wetland system translated to dark mode, not a new theme, and it must remain derived from the cattail motif and the light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Cattail, Cattail Reed, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the cattail system language: cocoa-brown seed-head controls, reed-green active states, water-blue focus/accent rings, olive stem dividers, dry reed tan borders, marsh-paper text, silt-neutral muted states, peat-ink and deep-mud backgrounds, subtle cattail fiber texture, 8px shadcn/tweakcn grid. It must read as cattail, not reed plume, wheat, bamboo, lotus, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 湿地, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, wetland dashboard metric cards, line chart, bar chart, sensor data table, observation filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, cattail fiber texture swatches.\nVisual details: dark background derived from peat ink and deep mud, raised cards in dark silt and olive-brown, marsh-paper foreground text, cocoa-brown and tan primary controls, reed-green success/active states, water-blue focus rings and charts, dry reed tan separators, subtle cattail fiber overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: cocoa brown reed, green reed leaves, water blue, olive stem, marsh paper, silt neutral, dry reed tan, peat ink, deep mud.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Cattail\", no illegible microtext."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-philodendron",
+    "name": "Morphous Philodendron",
+    "motifName": "Philodendron",
+    "motifCategory": "plant",
+    "biome": "rainforest floor",
+    "motif": "philodendron leaf"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Green",
+      "hex": "#F3FAF2",
+      "oklch": "oklch(0.978 0.013 141.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Rainforest Ink",
+      "hex": "#0E2F19",
+      "oklch": "oklch(0.274 0.056 151.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Gloss Leaf",
+      "hex": "#2E7D32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Mid",
+      "hex": "#4FA64A",
+      "oklch": "oklch(0.650 0.154 142.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lime Vein",
+      "hex": "#C6F15A",
+      "oklch": "oklch(0.899 0.182 123.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Vein Glow",
+      "hex": "#E3FF72",
+      "oklch": "oklch(0.952 0.169 119.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Waxy Highlight",
+      "hex": "#FBFFF6",
+      "oklch": "oklch(0.995 0.013 126.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist Surface",
+      "hex": "#E7F2E6",
+      "oklch": "oklch(0.950 0.020 143.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Canopy Shadow",
+      "hex": "#07120A",
+      "oklch": "oklch(0.168 0.024 152.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Vein Line",
+      "hex": "#A7D079",
+      "oklch": "oklch(0.808 0.123 129.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Shadow Warning",
+      "hex": "#7B8F2E",
+      "oklch": "oklch(0.615 0.124 120.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.013 141.8)",
+    "foreground": "oklch(0.274 0.056 151.8)",
+    "card": "oklch(0.995 0.013 126.4)",
+    "card-foreground": "oklch(0.274 0.056 151.8)",
+    "popover": "oklch(0.995 0.013 126.4)",
+    "popover-foreground": "oklch(0.274 0.056 151.8)",
+    "primary": "oklch(0.523 0.135 144.2)",
+    "primary-foreground": "oklch(0.978 0.013 141.8)",
+    "secondary": "oklch(0.988 0.013 130.8)",
+    "secondary-foreground": "oklch(0.168 0.024 152.6)",
+    "muted": "oklch(0.991 0.013 130.8)",
+    "muted-foreground": "oklch(0.168 0.024 152.6)",
+    "accent": "oklch(0.899 0.182 123.6)",
+    "accent-foreground": "oklch(0.274 0.056 151.8)",
+    "destructive": "oklch(0.523 0.135 144.2)",
+    "border": "oklch(0.978 0.015 132.5)",
+    "input": "oklch(0.978 0.015 132.5)",
+    "ring": "oklch(0.650 0.154 142.6)",
+    "chart-1": "oklch(0.523 0.135 144.2)",
+    "chart-2": "oklch(0.650 0.154 142.6)",
+    "chart-3": "oklch(0.899 0.182 123.6)",
+    "chart-4": "oklch(0.952 0.169 119.1)",
+    "chart-5": "oklch(0.168 0.024 152.6)",
+    "sidebar": "oklch(0.988 0.012 133.4)",
+    "sidebar-foreground": "oklch(0.274 0.056 151.8)",
+    "sidebar-primary": "oklch(0.523 0.135 144.2)",
+    "sidebar-primary-foreground": "oklch(0.978 0.013 141.8)",
+    "sidebar-accent": "oklch(0.938 0.026 138.3)",
+    "sidebar-accent-foreground": "oklch(0.523 0.135 144.2)",
+    "sidebar-border": "oklch(0.978 0.015 132.5)",
+    "sidebar-ring": "oklch(0.650 0.154 142.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.274 0.056 151.8)",
+    "foreground": "oklch(0.978 0.013 141.8)",
+    "card": "oklch(0.206 0.036 152.3)",
+    "card-foreground": "oklch(0.978 0.013 141.8)",
+    "popover": "oklch(0.206 0.036 152.3)",
+    "popover-foreground": "oklch(0.978 0.013 141.8)",
+    "primary": "oklch(0.650 0.154 142.6)",
+    "primary-foreground": "oklch(0.274 0.056 151.8)",
+    "secondary": "oklch(0.370 0.021 150.5)",
+    "secondary-foreground": "oklch(0.978 0.013 141.8)",
+    "muted": "oklch(0.370 0.021 150.5)",
+    "muted-foreground": "oklch(0.965 0.015 142.2)",
+    "accent": "oklch(0.899 0.182 123.6)",
+    "accent-foreground": "oklch(0.274 0.056 151.8)",
+    "destructive": "oklch(0.523 0.135 144.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.650 0.154 142.6)",
+    "chart-1": "oklch(0.650 0.154 142.6)",
+    "chart-2": "oklch(0.523 0.135 144.2)",
+    "chart-3": "oklch(0.899 0.182 123.6)",
+    "chart-4": "oklch(0.952 0.169 119.1)",
+    "chart-5": "oklch(0.950 0.020 143.0)",
+    "sidebar": "oklch(0.228 0.043 151.6)",
+    "sidebar-foreground": "oklch(0.978 0.013 141.8)",
+    "sidebar-primary": "oklch(0.650 0.154 142.6)",
+    "sidebar-primary-foreground": "oklch(0.274 0.056 151.8)",
+    "sidebar-accent": "oklch(0.370 0.021 150.5)",
+    "sidebar-accent-foreground": "oklch(0.978 0.013 141.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.650 0.154 142.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise English product UI with Japanese typography guidance for workspace dashboards, command search, data tables, forms, and calm operational status labels.",
+  "layout": "Dense but breathable workspace boards, compact navigation, 8px radii, lime-vein focus states, glossy green actions, rainforest-shadow panels, and waxy leaf-surface neutrals.",
+  "tags": [
+    "philodendron",
+    "plant",
+    "rainforest-floor",
+    "gloss-green",
+    "lime-vein",
+    "polished-workspace-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-philodendron/motif.png",
+    "board": "/systems/morphous-philodendron/design-system-light.png",
+    "darkBoard": "/systems/morphous-philodendron/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-philodendron/theme.css",
+    "themeJson": "/systems/morphous-philodendron/theme.json",
+    "promptsJson": "/systems/morphous-philodendron/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Philodendron motif",
+      "asset": "/systems/morphous-philodendron/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a single philodendron leaf, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: one glossy heart-shaped philodendron leaf, accurate rainforest-floor plant form, rich gloss green surface, pronounced lime green veins radiating from the stem notch, subtle darker rainforest shadow along folds and underside, short clean petiole visible, opaque botanical cutout edges.\nStyle/medium: high-detail botanical cutout, polished photographic-realistic finish, crisp edge definition, natural leaf texture and waxy highlights.\nComposition/framing: centered complete leaf with generous padding on all sides; show the entire leaf and short petiole; do not crop the subject; no floor plane.\nLighting/mood: clean studio light that preserves glossy green color, lime vein detail, and dark rainforest shadow depth; no cast shadow, no contact shadow, no reflection.\nColor palette: gloss green philodendron leaf, lime veins, rainforest shadow only; do not use magenta anywhere in the subject.\nTransparent workflow: the background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding.\nConstraints: no text, no watermark, no props, no landscape, no second leaf, no flower, no pot, no hand, no droplets, no decorative background, no extra colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-philodendron/design-system-light.png",
+      "sourceAsset": "/systems/morphous-philodendron/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nInput images: the visible transparent philodendron motif.png is the source reference for colors, shape, texture, gloss, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Philodendron\" derived from the glossy heart-shaped philodendron leaf.\nCanvas: exact 3840 x 2160, 16:9, polished high-resolution source board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: polished workspace system for calm operational tools, precise grid, clean productivity UI, dense but breathable, 8px radii throughout.\nColor palette: use only motif-derived colors from the leaf: glossy deep philodendron green, medium leaf green, lime vein highlights, pale waxy green reflections, rainforest shadow green-black, misty leaf-neutral surfaces. Avoid unrelated saturated colors, generic purple or blue gradients, beige-dominant styling, and stock UI-kit colors.\nLayout: premium design board with left palette/token rail, central component examples, right navigation dashboard/table/search/status modules, and a bottom row for texture, 8px radius, spacing, shadow samples. Include a small motif cutout preview.\nTypography: clear English UI type plus Japanese typography guidance with headings, body, captions, numerals, and short examples: \"フィロデンドロン\", \"作業状態\", \"検索\", \"完了\".\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, chart lines/bars, loading/empty/error/success states.\nDashboard/data: workspace metrics, task status, activity timeline, small bar chart, line chart, compact data table, status chips, and summary cards using the motif palette only.\nForms/tables/search: polished product controls with visible focus rings, lime-vein accent states, rainforest-shadow text, readable labels, consistent spacing.\nTexture/materials: subtle glossy leaf vein lines, waxy highlight bands, rainforest-floor shadow separators, polished workspace surfaces, quiet tactile grain.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional product design board; no marketing hero, no abstract gradients, no extra colors beyond motif-derived palette, no watermark, no random brand names."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-philodendron/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-philodendron/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nInput images: the visible philodendron motif.png and the visible Morphous Philodendron light board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Philodendron\" with the same polished workspace system identity, coverage, and layout logic as the light board.\nCanvas: exact 3840 x 2160, 16:9, polished high-resolution source board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: polished workspace system for calm operational tools in dark mode, rainforest-floor depth, precise grid, dense but breathable, 8px radii throughout.\nColor palette: use only motif-derived colors from the leaf: rainforest shadow green-black backgrounds, deep glossy leaf panels, medium leaf green controls, lime vein focus and chart accents, pale waxy green text highlights, muted misty green borders. Avoid unrelated saturated colors, neon, generic purple or blue gradients, flat pure black, and stock UI-kit colors.\nLayout: premium dark design board with left palette/token rail, central component examples, right navigation dashboard/table/search/status modules, and a bottom row for texture, 8px radius, spacing, shadow samples. Include a small motif cutout preview.\nTypography: clear English UI type plus Japanese typography guidance with headings, body, captions, numerals, and short examples: \"フィロデンドロン\", \"作業状態\", \"検索\", \"完了\".\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, chart lines/bars, loading/empty/error/success states.\nDashboard/data: workspace metrics, task status, activity timeline, small bar chart, line chart, compact data table, status chips, and summary cards using the motif palette only.\nForms/tables/search: polished dark product controls with visible lime focus rings, rainforest-shadow surfaces, readable labels, consistent spacing.\nTexture/materials: subtle glossy leaf vein lines, waxy highlight bands, rainforest-floor shadow separators, polished workspace surfaces, quiet tactile grain.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional product design board; no marketing hero, no abstract gradients, no extra colors beyond motif-derived palette, no watermark, no random brand names."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-peony",
+    "name": "Peony",
+    "motifName": "Peony Bloom",
+    "motifCategory": "flower",
+    "biome": "formal garden",
+    "motif": "peony bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Cream",
+      "hex": "#FFF9F3",
+      "oklch": "oklch(0.985 0.010 67.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Garden Ink",
+      "hex": "#1A1E1B",
+      "oklch": "oklch(0.230 0.008 153.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Crimson Fold",
+      "hex": "#D81A48",
+      "oklch": "oklch(0.568 0.216 16.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2E6B3F",
+      "oklch": "oklch(0.475 0.095 150.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Peony Blush",
+      "hex": "#FAD3DC",
+      "oklch": "oklch(0.902 0.045 2.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Gold",
+      "hex": "#E6B23C",
+      "oklch": "oklch(0.791 0.142 83.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Porcelain Petal",
+      "hex": "#FFF2F4",
+      "oklch": "oklch(0.972 0.014 6.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Muted Rose Gray",
+      "hex": "#C8A6A6",
+      "oklch": "oklch(0.755 0.040 18.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Peony Wine",
+      "hex": "#6E0024",
+      "oklch": "oklch(0.343 0.137 12.7)"
+    },
+    {
+      "role": "Support",
+      "name": "Vein Olive",
+      "hex": "#3F5E2F",
+      "oklch": "oklch(0.445 0.081 135.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.010 67.7)",
+    "foreground": "oklch(0.230 0.008 153.3)",
+    "card": "oklch(0.972 0.014 6.7)",
+    "card-foreground": "oklch(0.230 0.008 153.3)",
+    "popover": "oklch(0.972 0.014 6.7)",
+    "popover-foreground": "oklch(0.230 0.008 153.3)",
+    "primary": "oklch(0.568 0.216 16.4)",
+    "primary-foreground": "oklch(0.985 0.010 67.7)",
+    "secondary": "oklch(0.978 0.011 24.3)",
+    "secondary-foreground": "oklch(0.343 0.137 12.7)",
+    "muted": "oklch(0.976 0.012 17.4)",
+    "muted-foreground": "oklch(0.343 0.137 12.7)",
+    "accent": "oklch(0.902 0.045 2.5)",
+    "accent-foreground": "oklch(0.230 0.008 153.3)",
+    "destructive": "oklch(0.568 0.216 16.4)",
+    "border": "oklch(0.896 0.022 14.1)",
+    "input": "oklch(0.896 0.022 14.1)",
+    "ring": "oklch(0.475 0.095 150.4)",
+    "chart-1": "oklch(0.568 0.216 16.4)",
+    "chart-2": "oklch(0.475 0.095 150.4)",
+    "chart-3": "oklch(0.902 0.045 2.5)",
+    "chart-4": "oklch(0.791 0.142 83.8)",
+    "chart-5": "oklch(0.343 0.137 12.7)",
+    "sidebar": "oklch(0.976 0.012 17.4)",
+    "sidebar-foreground": "oklch(0.230 0.008 153.3)",
+    "sidebar-primary": "oklch(0.568 0.216 16.4)",
+    "sidebar-primary-foreground": "oklch(0.985 0.010 67.7)",
+    "sidebar-accent": "oklch(0.913 0.039 3.9)",
+    "sidebar-accent-foreground": "oklch(0.568 0.216 16.4)",
+    "sidebar-border": "oklch(0.896 0.022 14.1)",
+    "sidebar-ring": "oklch(0.475 0.095 150.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.230 0.008 153.3)",
+    "foreground": "oklch(0.985 0.010 67.7)",
+    "card": "oklch(0.288 0.102 8.0)",
+    "card-foreground": "oklch(0.985 0.010 67.7)",
+    "popover": "oklch(0.288 0.102 8.0)",
+    "popover-foreground": "oklch(0.985 0.010 67.7)",
+    "primary": "oklch(0.475 0.095 150.4)",
+    "primary-foreground": "oklch(0.230 0.008 153.3)",
+    "secondary": "oklch(0.418 0.128 6.5)",
+    "secondary-foreground": "oklch(0.985 0.010 67.7)",
+    "muted": "oklch(0.418 0.128 6.5)",
+    "muted-foreground": "oklch(0.883 0.021 32.5)",
+    "accent": "oklch(0.902 0.045 2.5)",
+    "accent-foreground": "oklch(0.230 0.008 153.3)",
+    "destructive": "oklch(0.568 0.216 16.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.475 0.095 150.4)",
+    "chart-1": "oklch(0.475 0.095 150.4)",
+    "chart-2": "oklch(0.568 0.216 16.4)",
+    "chart-3": "oklch(0.902 0.045 2.5)",
+    "chart-4": "oklch(0.791 0.142 83.8)",
+    "chart-5": "oklch(0.755 0.040 18.1)",
+    "sidebar": "oklch(0.262 0.077 5.5)",
+    "sidebar-foreground": "oklch(0.985 0.010 67.7)",
+    "sidebar-primary": "oklch(0.475 0.095 150.4)",
+    "sidebar-primary-foreground": "oklch(0.230 0.008 153.3)",
+    "sidebar-accent": "oklch(0.418 0.128 6.5)",
+    "sidebar-accent-foreground": "oklch(0.985 0.010 67.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.475 0.095 150.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Romantic editorial display headings paired with restrained product sans body text, with Mincho-inspired Japanese display guidance and Gothic UI guidance for readable multilingual labels, forms, tables, and dashboards.",
+  "layout": "Formal-garden product grids with 8px radii, petal-layer cards, quiet cream surfaces, crimson focus paths, leaf-green status anchors, soft shadows, and practical dashboard density.",
+  "tags": [
+    "peony",
+    "flower",
+    "formal-garden",
+    "blush-pink",
+    "crimson",
+    "leaf-green",
+    "romantic",
+    "product-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-peony/motif.png",
+    "board": "/systems/morphous-peony/design-system-light.png",
+    "darkBoard": "/systems/morphous-peony/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-peony/theme.css",
+    "themeJson": "/systems/morphous-peony/theme.json",
+    "promptsJson": "/systems/morphous-peony/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent peony bloom motif",
+      "asset": "/systems/morphous-peony/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only one full peony bloom motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: a lush formal-garden peony bloom, full open flower with layered ruffled blush-pink petals, deep crimson inner petal folds and shadows, a small cluster of natural leaf-green leaves visible behind the bloom, accurate botanical form, tactile satin petal texture, crisp opaque edges.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop any petal or leaf. Square source image, clean catalog asset composition.\nLighting/mood: clean studio light that preserves blush pink, crimson depth, and leaf green detail; no cast shadow, no contact shadow, no reflection.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff cyan chroma-key background for removal. The background must be one uniform #00ffff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff or cyan anywhere in the subject.\nConstraints: no text, no watermark, no vase, no bouquet, no garden scene, no props, no second flower, no insects, no transparent petals, no loose floating petals."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-peony/design-system-light.png",
+      "sourceAsset": "/systems/morphous-peony/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Peony light-mode design-system board, 4K-class source board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named \"Peony\", clearly derived from the visible peony bloom cutout: blush pink layered petals, deep crimson inner folds, leaf green foliage, tiny warm pollen accents, and formal-garden romance translated into a practical product UI system.\nReference use: Use the peony motif image visible in context as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, interaction language, and asset examples from the layered peony bloom. The board must visibly respect blush pink, crimson depth, leaf green, warm cream, petal shadow, and garden ink.\nCanvas: exact 16:9 landscape board, target 3840x2160 if available, at least 2400px wide. Spacious grid, fewer larger modules, no tiny dense token tables.\nResolution and legibility: high-resolution crisp UI mockup; large readable labels suitable for gallery previews; short labels only.\nRequired visible sections: title \"Peony\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, asset examples.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, top navigation, metric cards, line/bar charts, data table, command palette/search, empty state, error state, loading state, success state, texture swatches, spacing scale, radius scale, border/shadow samples, semantic CSS token swatches, motif cutout/card examples.\nTypography: romantic editorial display headings paired with restrained product sans body; include English and Japanese examples, using Japanese typography guidance for refined Mincho display and readable Gothic UI labels.\nStyle/medium: premium romantic product system, shadcn/tweakcn-compatible, precise grid, 8px card radius with soft petal layering, polished SaaS dashboard components, formal garden balance, tactile petal texture used sparingly.\nColor palette: motif-derived colors only: soft peony blush, porcelain petal, crimson fold, deep peony wine, leaf green, vein olive, pollen gold, garden ink, warm cream, muted rose gray.\nText: use short readable interface labels; avoid paragraphs, random brands, or misspelling \"Peony\".\nConstraints: no unrelated blue/purple gradients, no neon colors, no one-note pink-only board, no stock UI kit feel, no watermark, no illegible micro text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-peony/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-peony/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Peony dark-mode design-system board, 4K-class source board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board named \"Peony\". It must feel like the same Peony romantic product system translated to dark mode, not a new theme.\nReference use: Use the visible peony motif and the visible light-mode Peony board as references. Preserve the same structure, component language, typography guidance, palette roles, soft petal layering, formal-garden rhythm, and practical SaaS coverage while adapting surfaces to dark mode.\nCanvas: exact 16:9 landscape board, target 3840x2160 if available, at least 2400px wide. Spacious grid, fewer larger modules, no tiny dense token tables.\nResolution and legibility: high-resolution crisp UI mockup; large readable labels suitable for gallery previews; short labels only.\nRequired visible sections: title \"Peony\", label \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, asset examples.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, top navigation, metric cards, line/bar charts, data table, command palette/search, empty state, error state, loading state, success state, texture swatches, spacing scale, radius scale, border/shadow samples, semantic CSS token swatches, motif cutout/card examples.\nVisual details: dark background derived from deep peony wine and garden ink, cards in petal-charcoal and crimson-tinted surfaces, foreground text from porcelain petal and warm cream, primary actions in crimson fold, accents in leaf green and pollen gold, muted borders from rose gray and vein olive, subtle petal-grain texture overlays, crisp shadcn-style controls.\nTypography: romantic editorial display headings paired with restrained product sans body; include English and Japanese examples, with refined Mincho display and readable Gothic UI labels.\nColor palette: motif-derived colors only: deep peony wine, garden ink, crimson fold, soft peony blush, porcelain petal, leaf green, vein olive, pollen gold, muted rose gray.\nText: use short readable interface labels; avoid paragraphs, random brands, or misspelling \"Peony\".\nConstraints: no neon palette, no pure flat black, no unrelated blue/purple gradients, no generic dark UI kit, no one-note red-only board, no watermark, no illegible micro text."
+    }
+  ]
+}

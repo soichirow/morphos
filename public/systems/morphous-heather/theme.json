@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-heather",
+    "name": "Morphous Heather",
+    "motifName": "Heather",
+    "motifCategory": "flower",
+    "biome": "moorland",
+    "motif": "heather sprig"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moor Mist",
+      "hex": "#F3EEF4",
+      "oklch": "oklch(0.955 0.010 320.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2D2622",
+      "oklch": "oklch(0.275 0.013 51.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Heather Purple",
+      "hex": "#7B5BA6",
+      "oklch": "oklch(0.536 0.118 302.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#A078BE",
+      "oklch": "oklch(0.638 0.111 309.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bloom Mauve",
+      "hex": "#C48ABD",
+      "oklch": "oklch(0.707 0.098 330.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lichen Silver",
+      "hex": "#B7B8A8",
+      "oklch": "oklch(0.777 0.022 109.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Moor White",
+      "hex": "#FBF8FA",
+      "oklch": "oklch(0.982 0.004 337.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Heather Haze",
+      "hex": "#A6B49A",
+      "oklch": "oklch(0.752 0.040 130.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Peat Brown",
+      "hex": "#3B2B27",
+      "oklch": "oklch(0.306 0.025 34.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Stem",
+      "hex": "#8A6B52",
+      "oklch": "oklch(0.552 0.054 60.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Fresh",
+      "hex": "#6F8F5A",
+      "oklch": "oklch(0.612 0.085 133.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.010 320.5)",
+    "foreground": "oklch(0.275 0.013 51.6)",
+    "card": "oklch(0.982 0.004 337.4)",
+    "card-foreground": "oklch(0.275 0.013 51.6)",
+    "popover": "oklch(0.982 0.004 337.4)",
+    "popover-foreground": "oklch(0.275 0.013 51.6)",
+    "primary": "oklch(0.536 0.118 302.3)",
+    "primary-foreground": "oklch(0.955 0.010 320.5)",
+    "secondary": "oklch(0.971 0.006 334.0)",
+    "secondary-foreground": "oklch(0.306 0.025 34.4)",
+    "muted": "oklch(0.974 0.006 334.0)",
+    "muted-foreground": "oklch(0.306 0.025 34.4)",
+    "accent": "oklch(0.707 0.098 330.8)",
+    "accent-foreground": "oklch(0.275 0.013 51.6)",
+    "destructive": "oklch(0.536 0.118 302.3)",
+    "border": "oklch(0.901 0.013 126.4)",
+    "input": "oklch(0.901 0.013 126.4)",
+    "ring": "oklch(0.638 0.111 309.7)",
+    "chart-1": "oklch(0.536 0.118 302.3)",
+    "chart-2": "oklch(0.638 0.111 309.7)",
+    "chart-3": "oklch(0.707 0.098 330.8)",
+    "chart-4": "oklch(0.777 0.022 109.8)",
+    "chart-5": "oklch(0.306 0.025 34.4)",
+    "sidebar": "oklch(0.973 0.005 325.6)",
+    "sidebar-foreground": "oklch(0.275 0.013 51.6)",
+    "sidebar-primary": "oklch(0.536 0.118 302.3)",
+    "sidebar-primary-foreground": "oklch(0.955 0.010 320.5)",
+    "sidebar-accent": "oklch(0.931 0.016 313.6)",
+    "sidebar-accent-foreground": "oklch(0.536 0.118 302.3)",
+    "sidebar-border": "oklch(0.901 0.013 126.4)",
+    "sidebar-ring": "oklch(0.638 0.111 309.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.275 0.013 51.6)",
+    "foreground": "oklch(0.955 0.010 320.5)",
+    "card": "oklch(0.295 0.021 37.8)",
+    "card-foreground": "oklch(0.955 0.010 320.5)",
+    "popover": "oklch(0.295 0.021 37.8)",
+    "popover-foreground": "oklch(0.955 0.010 320.5)",
+    "primary": "oklch(0.638 0.111 309.7)",
+    "primary-foreground": "oklch(0.275 0.013 51.6)",
+    "secondary": "oklch(0.413 0.020 64.2)",
+    "secondary-foreground": "oklch(0.955 0.010 320.5)",
+    "muted": "oklch(0.413 0.020 64.2)",
+    "muted-foreground": "oklch(0.865 0.012 128.6)",
+    "accent": "oklch(0.707 0.098 330.8)",
+    "accent-foreground": "oklch(0.275 0.013 51.6)",
+    "destructive": "oklch(0.536 0.118 302.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.638 0.111 309.7)",
+    "chart-1": "oklch(0.638 0.111 309.7)",
+    "chart-2": "oklch(0.536 0.118 302.3)",
+    "chart-3": "oklch(0.707 0.098 330.8)",
+    "chart-4": "oklch(0.777 0.022 109.8)",
+    "chart-5": "oklch(0.752 0.040 130.5)",
+    "sidebar": "oklch(0.288 0.018 41.0)",
+    "sidebar-foreground": "oklch(0.955 0.010 320.5)",
+    "sidebar-primary": "oklch(0.638 0.111 309.7)",
+    "sidebar-primary-foreground": "oklch(0.275 0.013 51.6)",
+    "sidebar-accent": "oklch(0.413 0.020 64.2)",
+    "sidebar-accent-foreground": "oklch(0.955 0.010 320.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.638 0.111 309.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Soft landscape English UI with Japanese typography guidance for content cards, map panels, tables, status labels, and calm headings.",
+  "layout": "Landscape dashboards, content grids, 8px radii, heather-purple actions, moss-green status, peat-brown dark surfaces, and soft moorland texture.",
+  "tags": [
+    "heather",
+    "flower",
+    "moorland",
+    "heather-purple",
+    "moss-green",
+    "peat-brown",
+    "soft-landscape",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-heather/motif.png",
+    "board": "/systems/morphous-heather/design-system-light.png",
+    "darkBoard": "/systems/morphous-heather/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-heather/theme.css",
+    "themeJson": "/systems/morphous-heather/theme.json",
+    "promptsJson": "/systems/morphous-heather/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent heather sprig motif",
+      "asset": "/systems/morphous-heather/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Heather transparent motif chroma-key source\nPrimary request: Create a complete heather sprig isolated on a removable chroma-key background.\nSubject: Heather-purple blossoms, moss-green leaves, peat-brown stems, moorland softness, crisp botanical edges, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal, no shadows, gradients, texture, watermark, or text.\nConstraints: no lavender confusion, no vase, no hand, no landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-heather/design-system-light.png",
+      "sourceAsset": "/systems/morphous-heather/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Heather light-mode design-system board\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn board named Morphous Heather, derived from heather purple blossoms, moss green, peat brown, and moorland haze.\nRequired visible sections: palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples.\nStyle: soft landscape system with content cards, map/data panels, calm controls, and 8px radii."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-heather/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-heather/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Heather dark-mode design-system board\nPrimary request: Generate a dark-mode translation with peat-brown surfaces, heather-purple actions, moss-green states, moor-white foregrounds, and soft landscape coverage.\nRequired visible sections: dark mode palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples."
+    }
+  ]
+}

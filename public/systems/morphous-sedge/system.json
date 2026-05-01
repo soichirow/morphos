@@ -1,0 +1,116 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 203,
+  "slug": "morphous-sedge",
+  "name": "Morphous Sedge",
+  "motifName": "Sedge Tuft",
+  "motifCategory": "plant",
+  "biome": "fen",
+  "motif": "sedge tuft",
+  "description": "A shadcn/tweakcn-compatible quiet field system derived from a fen sedge tuft: olive-green primary controls, straw-tan secondary states, peat-brown emphasis, fen-paper surfaces, silt borders, moss active states, dark fen depth, and subtle sedge-blade texture for observation, sensor, and field-data dashboards.",
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for fen observation workflows, compact Japanese labels, numeric sensor tables, and calm status-heavy operational screens.",
+  "layout": "Quiet 8px field grids, slim blade-like dividers, compact dashboard and table density, low shadows, 8px radii, and sedge-fiber texture accents.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "sedge",
+    "tuft",
+    "plant",
+    "fen",
+    "field-system",
+    "olive-green",
+    "straw-tan",
+    "peat-brown",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#f4f1e6"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2a261b"
+    },
+    {
+      "role": "Primary",
+      "name": "Sedge Olive",
+      "hex": "#667a3e"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Blade Olive",
+      "hex": "#7b8b4c"
+    },
+    {
+      "role": "Secondary",
+      "name": "Straw Tan",
+      "hex": "#cfb286"
+    },
+    {
+      "role": "Surface",
+      "name": "Silt Surface",
+      "hex": "#fbf8ef"
+    },
+    {
+      "role": "Muted",
+      "name": "Fen Mist",
+      "hex": "#e7e1d2"
+    },
+    {
+      "role": "Border",
+      "name": "Fen Silt",
+      "hex": "#c5baa2"
+    },
+    {
+      "role": "Accent",
+      "name": "Dry Straw",
+      "hex": "#dcc69a"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Active",
+      "hex": "#536a35"
+    },
+    {
+      "role": "Warning",
+      "name": "Root Peat",
+      "hex": "#5b432f"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Fen",
+      "hex": "#181e17"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

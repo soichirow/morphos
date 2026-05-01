@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-teasel",
+    "name": "Morphous Teasel",
+    "motifName": "Teasel Seed Head",
+    "motifCategory": "plant",
+    "biome": "wet meadow",
+    "motif": "teasel seed head with purple ring and green stem"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wet Meadow Paper",
+      "hex": "#F4F1E8",
+      "oklch": "oklch(0.958 0.012 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Head Ink",
+      "hex": "#25211C",
+      "oklch": "oklch(0.250 0.011 73.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Teasel Taupe",
+      "hex": "#9B836B",
+      "oklch": "oklch(0.626 0.045 66.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stem Green",
+      "hex": "#6D7F54",
+      "oklch": "oklch(0.570 0.066 126.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Purple Ring",
+      "hex": "#8A5E9F",
+      "oklch": "oklch(0.554 0.109 314.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Meadow Reed",
+      "hex": "#B79C67",
+      "oklch": "oklch(0.705 0.077 83.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Catalog Pith",
+      "hex": "#FFFDF4",
+      "oklch": "oklch(0.993 0.012 96.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Damp Seed Grey",
+      "hex": "#A99D90",
+      "oklch": "oklch(0.703 0.023 69.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Marsh Shadow",
+      "hex": "#332B24",
+      "oklch": "oklch(0.296 0.017 63.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Bristle Line",
+      "hex": "#CBBBA5",
+      "oklch": "oklch(0.800 0.035 75.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dry Thorn Ochre",
+      "hex": "#C7A24E",
+      "oklch": "oklch(0.729 0.111 85.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.958 0.012 91.5)",
+    "foreground": "oklch(0.250 0.011 73.4)",
+    "card": "oklch(0.993 0.012 96.4)",
+    "card-foreground": "oklch(0.250 0.011 73.4)",
+    "popover": "oklch(0.993 0.012 96.4)",
+    "popover-foreground": "oklch(0.250 0.011 73.4)",
+    "primary": "oklch(0.626 0.045 66.8)",
+    "primary-foreground": "oklch(0.958 0.012 91.5)",
+    "secondary": "oklch(0.978 0.012 96.4)",
+    "secondary-foreground": "oklch(0.296 0.017 63.3)",
+    "muted": "oklch(0.984 0.012 96.4)",
+    "muted-foreground": "oklch(0.296 0.017 63.3)",
+    "accent": "oklch(0.554 0.109 314.2)",
+    "accent-foreground": "oklch(0.250 0.011 73.4)",
+    "destructive": "oklch(0.626 0.045 66.8)",
+    "border": "oklch(0.890 0.015 80.7)",
+    "input": "oklch(0.890 0.015 80.7)",
+    "ring": "oklch(0.570 0.066 126.8)",
+    "chart-1": "oklch(0.626 0.045 66.8)",
+    "chart-2": "oklch(0.570 0.066 126.8)",
+    "chart-3": "oklch(0.554 0.109 314.2)",
+    "chart-4": "oklch(0.705 0.077 83.6)",
+    "chart-5": "oklch(0.296 0.017 63.3)",
+    "sidebar": "oklch(0.981 0.012 96.4)",
+    "sidebar-foreground": "oklch(0.250 0.011 73.4)",
+    "sidebar-primary": "oklch(0.626 0.045 66.8)",
+    "sidebar-primary-foreground": "oklch(0.958 0.012 91.5)",
+    "sidebar-accent": "oklch(0.950 0.014 84.6)",
+    "sidebar-accent-foreground": "oklch(0.626 0.045 66.8)",
+    "sidebar-border": "oklch(0.890 0.015 80.7)",
+    "sidebar-ring": "oklch(0.570 0.066 126.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.250 0.011 73.4)",
+    "foreground": "oklch(0.958 0.012 91.5)",
+    "card": "oklch(0.281 0.015 71.4)",
+    "card-foreground": "oklch(0.958 0.012 91.5)",
+    "popover": "oklch(0.281 0.015 71.4)",
+    "popover-foreground": "oklch(0.958 0.012 91.5)",
+    "primary": "oklch(0.570 0.066 126.8)",
+    "primary-foreground": "oklch(0.250 0.011 73.4)",
+    "secondary": "oklch(0.393 0.018 63.9)",
+    "secondary-foreground": "oklch(0.958 0.012 91.5)",
+    "muted": "oklch(0.393 0.018 63.9)",
+    "muted-foreground": "oklch(0.845 0.017 79.3)",
+    "accent": "oklch(0.554 0.109 314.2)",
+    "accent-foreground": "oklch(0.250 0.011 73.4)",
+    "destructive": "oklch(0.626 0.045 66.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.570 0.066 126.8)",
+    "chart-1": "oklch(0.570 0.066 126.8)",
+    "chart-2": "oklch(0.626 0.045 66.8)",
+    "chart-3": "oklch(0.554 0.109 314.2)",
+    "chart-4": "oklch(0.705 0.077 83.6)",
+    "chart-5": "oklch(0.703 0.023 69.7)",
+    "sidebar": "oklch(0.272 0.013 72.3)",
+    "sidebar-foreground": "oklch(0.958 0.012 91.5)",
+    "sidebar-primary": "oklch(0.570 0.066 126.8)",
+    "sidebar-primary-foreground": "oklch(0.250 0.011 73.4)",
+    "sidebar-accent": "oklch(0.393 0.018 63.9)",
+    "sidebar-accent-foreground": "oklch(0.958 0.012 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.570 0.066 126.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Structured catalog English UI with crisp sans headings, compact metadata labels, measured numeric tables, and Japanese typography guidance for browsable indexes, filters, and collection detail pages.",
+  "layout": "Precise 8px grids, 8px radii, seed-head tile rhythm, bristle-like dividers, purple-ring focus states, damp meadow surfaces, and tactile shadows for dense catalog navigation.",
+  "tags": [
+    "teasel",
+    "plant",
+    "wet-meadow",
+    "taupe-seed",
+    "purple-ring",
+    "stem-green",
+    "catalog",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-teasel/motif.png",
+    "board": "/systems/morphous-teasel/design-system-light.png",
+    "darkBoard": "/systems/morphous-teasel/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-teasel/theme.css",
+    "themeJson": "/systems/morphous-teasel/theme.json",
+    "promptsJson": "/systems/morphous-teasel/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent teasel seed head motif",
+      "asset": "/systems/morphous-teasel/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Teasel transparent motif chroma-key source\nPrimary request: Create only an isolated teasel seed head botanical cutout for a Morphous design-system catalog, with no full meadow scene, props, text, or secondary subjects.\nSubject: A single accurate teasel seed head on a green stem: oval taupe-brown bristled cone, fine geometric seed sockets, a subtle purple flowering ring around the head, slender green bracts, damp wet-meadow natural texture, crisp silhouette, and tactile botanical detail.\nComposition/framing: centered complete cutout with generous padding; include seed head, bracts, upper stem, and enough structure to show the plant form; do not crop the bristles or stem.\nLighting/mood: clean studio light preserving taupe seed texture, purple ring detail, and green stem structure without cast shadows.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape, no vase, no insects, no hand, no seed packet, no text, no watermark, no floor plane, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-teasel/design-system-light.png",
+      "sourceAsset": "/systems/morphous-teasel/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Teasel light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Teasel\", derived from the visible teasel seed head cutout. This board is a source reference for a shadcn/tweakcn-compatible textural catalog system.\nCanvas: exact wide 16:9 high-resolution 4K-class board, target 3840 x 2160 pixels. Use large readable labels and a clean professional design-system layout.\nRequired visible sections: Morphous Teasel, Teasel Seed Head, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture, spacing, and interaction language from the taupe bristled seed head, purple flowering ring, green stem and bracts, wet meadow neutrals, damp soil depth, and tactile seed geometry. The board must read as teasel, not pinecone, thistle, cactus, generic meadow UI, or beige-only catalog.\nTypography: English product UI examples plus Japanese typography guidance; show display, body, label, metadata, numbers, table, and filter examples with short legible labels.\nUI coverage: shadcn/tweakcn-style buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, sidebar navigation, top nav, catalog tiles, filter panels, dashboard metric cards, charts, status chips, empty/loading/error states, token swatches, spacing scale, 8px radius sample, borders, shadows, and texture swatches.\nStyle: textural catalog system, precise 8px grid, 8px card radius, pale wet-meadow background, taupe primary controls, purple-ring active states, stem-green success and filters, seed-head tile rhythm, bristle-like dividers, subtle seed-socket texture, tactile but restrained product UI.\nColor palette: use only motif-derived colors: taupe seed, purple ring, green stem, damp seed grey, wet meadow paper, catalog pith, dry thorn ochre, marsh shadow ink.\nConstraints: no unrelated saturated colors, no neon, no generic purple gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Teasel\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-teasel/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-teasel/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Teasel dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Teasel\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the teasel seed head cutout.\nCanvas: exact wide 16:9 high-resolution 4K-class board, target 3840 x 2160 pixels. Use large readable labels and a clean professional design-system layout.\nRequired visible sections: Morphous Teasel, Teasel Seed Head, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the teasel catalog language: marsh-shadow backgrounds, taupe seed panels, purple-ring active states, stem-green filters and success states, damp meadow neutrals, bristle-like borders, seed-socket texture, and exact 8px shadcn/tweakcn component structure. The board must read as teasel, not pinecone, thistle, cactus, or generic dark catalog UI.\nTypography: English product UI examples plus Japanese typography guidance; show display, body, label, metadata, numbers, table, and filter examples with short legible labels.\nUI coverage: shadcn/tweakcn-style buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, sidebar navigation, top nav, catalog tiles, filter panels, dashboard metric cards, charts, status chips, empty/loading/error states, token swatches, spacing scale, 8px radius sample, borders, shadows, and texture swatches.\nVisual details: deep marsh ink background, darker taupe cards, purple-ring focus marks, stem-green status chips, pale pith text, dry-thorn ochre warnings, bristle dividers, subtle seed-socket texture, restrained contrast, and crisp catalog navigation.\nColor palette: use only motif-derived colors: taupe seed, purple ring, green stem, damp seed grey, wet meadow paper, catalog pith, dry thorn ochre, marsh shadow ink.\nConstraints: no neon colors, no pure-black flat background, no unrelated saturated colors, no generic purple gradients, no random brand names, no watermark, no misspelling of \"Morphous Teasel\", no tiny unreadable paragraphs."
+    }
+  ]
+}

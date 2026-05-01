@@ -1,0 +1,181 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 206,
+  "slug": "morphous-kelp-forest",
+  "name": "Morphous Kelp Forest",
+  "motifName": "Kelp Forest",
+  "motifCategory": "plant",
+  "biome": "cold ocean",
+  "motif": "kelp canopy",
+  "description": "A shadcn/tweakcn-compatible system coded from the Kelp Forest light and dark design-system boards: olive canopy actions, amber kelp signal, water-blue analytics, cold-ocean neutrals, ribbed frond texture, and immersive data-system hierarchy.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body text, labels, and numeric dashboard rhythm.",
+  "layout": "Dense 8px product grids, ribbed kelp line dividers, cold-ocean panels, amber signal states, and water-blue data surfaces for immersive operational dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "kelp",
+    "plant",
+    "cold-ocean",
+    "canopy",
+    "immersive-data",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Kelp Mist",
+      "hex": "#F2F6F4"
+    },
+    {
+      "role": "Ink",
+      "name": "Trench Ink",
+      "hex": "#0D1821"
+    },
+    {
+      "role": "Primary",
+      "name": "Canopy Olive",
+      "hex": "#5F6F2F"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Canopy Olive Hover",
+      "hex": "#7A8636"
+    },
+    {
+      "role": "Secondary",
+      "name": "Water Blue",
+      "hex": "#2F6D8A"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Kelp",
+      "hex": "#D78A1A"
+    },
+    {
+      "role": "Signal",
+      "name": "Sea Green",
+      "hex": "#4C7F6C"
+    },
+    {
+      "role": "Warning",
+      "name": "Amber Signal",
+      "hex": "#E3A12A"
+    },
+    {
+      "role": "Destructive",
+      "name": "Kelp Rust",
+      "hex": "#9A4F2D"
+    },
+    {
+      "role": "Surface",
+      "name": "Cold Foam",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist Gray",
+      "hex": "#D0E6E1"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Current",
+      "hex": "#1E4A5E"
+    },
+    {
+      "role": "Border",
+      "name": "Kelp Line",
+      "hex": "#C6D0C7"
+    },
+    {
+      "role": "Neutral",
+      "name": "Sediment Gray",
+      "hex": "#B8C0B7"
+    },
+    {
+      "role": "Highlight",
+      "name": "Pale Gold",
+      "hex": "#F2C661"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.970 0.005 165.0)",
+    "foreground": "oklch(0.203 0.024 244.0)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.203 0.024 244.0)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.203 0.024 244.0)",
+    "primary": "oklch(0.514 0.091 121.4)",
+    "primary-foreground": "oklch(0.970 0.005 165.0)",
+    "secondary": "oklch(0.928 0.008 157.1)",
+    "secondary-foreground": "oklch(0.388 0.059 230.6)",
+    "muted": "oklch(0.907 0.024 180.6)",
+    "muted-foreground": "oklch(0.388 0.059 230.6)",
+    "accent": "oklch(0.697 0.146 68.7)",
+    "accent-foreground": "oklch(0.203 0.024 244.0)",
+    "destructive": "oklch(0.513 0.111 43.9)",
+    "border": "oklch(0.847 0.016 148.4)",
+    "input": "oklch(0.847 0.016 148.4)",
+    "ring": "oklch(0.507 0.078 231.4)",
+    "chart-1": "oklch(0.514 0.091 121.4)",
+    "chart-2": "oklch(0.507 0.078 231.4)",
+    "chart-3": "oklch(0.697 0.146 68.7)",
+    "chart-4": "oklch(0.555 0.063 168.3)",
+    "chart-5": "oklch(0.388 0.059 230.6)",
+    "sidebar": "oklch(0.957 0.007 160.1)",
+    "sidebar-foreground": "oklch(0.203 0.024 244.0)",
+    "sidebar-primary": "oklch(0.514 0.091 121.4)",
+    "sidebar-primary-foreground": "oklch(0.970 0.005 165.0)",
+    "sidebar-accent": "oklch(0.931 0.026 118.9)",
+    "sidebar-accent-foreground": "oklch(0.514 0.091 121.4)",
+    "sidebar-border": "oklch(0.847 0.016 148.4)",
+    "sidebar-ring": "oklch(0.507 0.078 231.4)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.203 0.024 244.0)",
+    "foreground": "oklch(0.970 0.005 165.0)",
+    "card": "oklch(0.256 0.027 224.8)",
+    "card-foreground": "oklch(0.970 0.005 165.0)",
+    "popover": "oklch(0.256 0.027 224.8)",
+    "popover-foreground": "oklch(0.970 0.005 165.0)",
+    "primary": "oklch(0.593 0.106 116.9)",
+    "primary-foreground": "oklch(0.970 0.005 165.0)",
+    "secondary": "oklch(0.336 0.038 226.2)",
+    "secondary-foreground": "oklch(0.970 0.005 165.0)",
+    "muted": "oklch(0.336 0.038 226.2)",
+    "muted-foreground": "oklch(0.907 0.024 180.6)",
+    "accent": "oklch(0.754 0.146 76.6)",
+    "accent-foreground": "oklch(0.203 0.024 244.0)",
+    "destructive": "oklch(0.513 0.111 43.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.507 0.078 231.4)",
+    "chart-1": "oklch(0.507 0.078 231.4)",
+    "chart-2": "oklch(0.593 0.106 116.9)",
+    "chart-3": "oklch(0.754 0.146 76.6)",
+    "chart-4": "oklch(0.555 0.063 168.3)",
+    "chart-5": "oklch(0.907 0.024 180.6)",
+    "sidebar": "oklch(0.230 0.026 232.8)",
+    "sidebar-foreground": "oklch(0.970 0.005 165.0)",
+    "sidebar-primary": "oklch(0.593 0.106 116.9)",
+    "sidebar-primary-foreground": "oklch(0.970 0.005 165.0)",
+    "sidebar-accent": "oklch(0.388 0.059 230.6)",
+    "sidebar-accent-foreground": "oklch(0.970 0.005 165.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.507 0.078 231.4)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

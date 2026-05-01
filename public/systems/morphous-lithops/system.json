@@ -1,0 +1,50 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-lithops",
+  "name": "Morphous Lithops",
+  "status": "ready",
+  "queueRow": 219,
+  "motifName": "Lithops",
+  "motifCategory": "plant",
+  "biome": "Namib Gravel",
+  "motif": "living stone plant",
+  "subject": "living stone plant",
+  "paletteMood": "stone grey tan green fissure",
+  "designMood": "minimal object system",
+  "description": "A minimal object design system derived from Lithops living stone plants: chalky pebble surfaces, warm Namib tan mottling, mineral charcoal ink, and a restrained green fissure accent for focus and primary actions.",
+  "typography": "Geist for quiet product UI with Noto Sans JP guidance for headings, body, labels, compact numerals, and table density.",
+  "layout": "Low-contrast mineral panels, precise shadcn/tweakcn component states, 8px radii, compact dashboard grids, tactile gravel texture, and restrained object-like controls.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "lithops",
+    "plant",
+    "living-stone",
+    "namib-gravel",
+    "minimal",
+    "object-system",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Chalk Stone", "hex": "#F6F3EA" },
+    { "role": "Ink", "name": "Mineral Ink", "hex": "#2B2E2B" },
+    { "role": "Primary", "name": "Fissure Green", "hex": "#7E9A6A" },
+    { "role": "Secondary", "name": "Sand Tan", "hex": "#D2C2AA" },
+    { "role": "Accent", "name": "Warm Tan", "hex": "#B79F86" },
+    { "role": "Signal", "name": "Olive Shadow", "hex": "#5E6A4F" },
+    { "role": "Surface", "name": "Pebble Grey", "hex": "#D5D7D2" },
+    { "role": "Muted", "name": "Stone Grey", "hex": "#8B8B87" },
+    { "role": "Depth", "name": "Charcoal Gravel", "hex": "#181D1B" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

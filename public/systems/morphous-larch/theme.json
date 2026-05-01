@@ -1,0 +1,212 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-larch",
+    "name": "Morphous Larch",
+    "motifName": "Larch",
+    "motifCategory": "plant",
+    "biome": "Alpine Forest",
+    "motif": "larch needles on bark-grey twig with moss-green lichen"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Alpine Fog",
+      "hex": "#f6f7f4",
+      "oklch": "oklch(0.975 0.004 121.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Charcoal",
+      "hex": "#2f2f2b",
+      "oklch": "oklch(0.304 0.007 106.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Larch Gold",
+      "hex": "#d9a11c",
+      "oklch": "oklch(0.743 0.147 82.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Golden Needle",
+      "hex": "#f4c15a",
+      "oklch": "oklch(0.837 0.133 82.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#6b7f3f",
+      "oklch": "oklch(0.565 0.092 123.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Seasonal Amber",
+      "hex": "#e0a33a",
+      "oklch": "oklch(0.756 0.137 77.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Needle Paper",
+      "hex": "#ecede8",
+      "oklch": "oklch(0.944 0.007 115.7)"
+    },
+    {
+      "role": "Surface Warm",
+      "name": "Honey Ochre",
+      "hex": "#e8b24a",
+      "oklch": "oklch(0.794 0.134 80.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Grey",
+      "hex": "#b8bab3",
+      "oklch": "oklch(0.785 0.010 119.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Grey",
+      "hex": "#8e918a",
+      "oklch": "oklch(0.652 0.011 125.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Alpine Night",
+      "hex": "#0e1012",
+      "oklch": "oklch(0.172 0.005 248.1)"
+    },
+    {
+      "role": "Status",
+      "name": "Lichen Green",
+      "hex": "#a8b98a",
+      "oklch": "oklch(0.760 0.067 124.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Alert Rust",
+      "hex": "#c26a1a",
+      "oklch": "oklch(0.613 0.140 56.1)"
+    },
+    {
+      "role": "Forest",
+      "name": "Forest Deep",
+      "hex": "#45593a",
+      "oklch": "oklch(0.438 0.055 134.9)"
+    },
+    {
+      "role": "Ochre",
+      "name": "Ochre Amber",
+      "hex": "#c77d17",
+      "oklch": "oklch(0.653 0.138 67.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.004 121.6)",
+    "foreground": "oklch(0.304 0.007 106.8)",
+    "card": "oklch(0.944 0.007 115.7)",
+    "card-foreground": "oklch(0.304 0.007 106.8)",
+    "popover": "oklch(0.944 0.007 115.7)",
+    "popover-foreground": "oklch(0.304 0.007 106.8)",
+    "primary": "oklch(0.743 0.147 82.3)",
+    "primary-foreground": "oklch(0.975 0.004 121.6)",
+    "secondary": "oklch(0.956 0.005 117.9)",
+    "secondary-foreground": "oklch(0.172 0.005 248.1)",
+    "muted": "oklch(0.953 0.007 115.7)",
+    "muted-foreground": "oklch(0.172 0.005 248.1)",
+    "accent": "oklch(0.565 0.092 123.6)",
+    "accent-foreground": "oklch(0.304 0.007 106.8)",
+    "destructive": "oklch(0.743 0.147 82.3)",
+    "border": "oklch(0.842 0.008 121.7)",
+    "input": "oklch(0.842 0.008 121.7)",
+    "ring": "oklch(0.837 0.133 82.6)",
+    "chart-1": "oklch(0.743 0.147 82.3)",
+    "chart-2": "oklch(0.837 0.133 82.6)",
+    "chart-3": "oklch(0.565 0.092 123.6)",
+    "chart-4": "oklch(0.756 0.137 77.0)",
+    "chart-5": "oklch(0.172 0.005 248.1)",
+    "sidebar": "oklch(0.953 0.005 117.9)",
+    "sidebar-foreground": "oklch(0.304 0.007 106.8)",
+    "sidebar-primary": "oklch(0.743 0.147 82.3)",
+    "sidebar-primary-foreground": "oklch(0.975 0.004 121.6)",
+    "sidebar-accent": "oklch(0.918 0.027 93.1)",
+    "sidebar-accent-foreground": "oklch(0.743 0.147 82.3)",
+    "sidebar-border": "oklch(0.842 0.008 121.7)",
+    "sidebar-ring": "oklch(0.837 0.133 82.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.304 0.007 106.8)",
+    "foreground": "oklch(0.975 0.004 121.6)",
+    "card": "oklch(0.220 0.003 196.9)",
+    "card-foreground": "oklch(0.975 0.004 121.6)",
+    "popover": "oklch(0.220 0.003 196.9)",
+    "popover-foreground": "oklch(0.975 0.004 121.6)",
+    "primary": "oklch(0.837 0.133 82.6)",
+    "primary-foreground": "oklch(0.304 0.007 106.8)",
+    "secondary": "oklch(0.291 0.003 197.0)",
+    "secondary-foreground": "oklch(0.975 0.004 121.6)",
+    "muted": "oklch(0.291 0.003 197.0)",
+    "muted-foreground": "oklch(0.833 0.007 124.5)",
+    "accent": "oklch(0.565 0.092 123.6)",
+    "accent-foreground": "oklch(0.304 0.007 106.8)",
+    "destructive": "oklch(0.743 0.147 82.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.837 0.133 82.6)",
+    "chart-1": "oklch(0.837 0.133 82.6)",
+    "chart-2": "oklch(0.743 0.147 82.3)",
+    "chart-3": "oklch(0.565 0.092 123.6)",
+    "chart-4": "oklch(0.756 0.137 77.0)",
+    "chart-5": "oklch(0.652 0.011 125.8)",
+    "sidebar": "oklch(0.246 0.002 145.5)",
+    "sidebar-foreground": "oklch(0.975 0.004 121.6)",
+    "sidebar-primary": "oklch(0.837 0.133 82.6)",
+    "sidebar-primary-foreground": "oklch(0.304 0.007 106.8)",
+    "sidebar-accent": "oklch(0.291 0.003 197.0)",
+    "sidebar-accent-foreground": "oklch(0.975 0.004 121.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.837 0.133 82.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for compact monitoring dashboards with Noto Sans JP guidance for Japanese labels, clear sensor tables, seasonal status text, and precise metric numerals.",
+  "layout": "8px radius components, needle-fine dividers, bark-grey borders, alpine-fog panels, gold action states, moss health signals, amber warnings, dense navigation, and monitoring dashboards arranged on an 8px grid.",
+  "tags": [
+    "larch",
+    "needles",
+    "plant",
+    "alpine-forest",
+    "seasonal-monitoring",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-larch/motif.png",
+    "board": "/systems/morphous-larch/design-system-light.png",
+    "darkBoard": "/systems/morphous-larch/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-larch/theme.css",
+    "themeJson": "/systems/morphous-larch/theme.json",
+    "promptsJson": "/systems/morphous-larch/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Larch motif",
+      "asset": "/systems/morphous-larch/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Larch transparent motif chroma-key source\nPrimary request: Create only an isolated larch needles motif for a design-system catalog, no environment, no props, no text.\nSubject: A compact botanical cluster of soft golden autumn larch needles arranged in radial tufts on a short bark-grey twig, with a few tiny moss-green lichen patches on the bark and muted alpine forest neutral shadows. Accurate larch needle form: many fine flexible needles, warm gold and ochre tips, subtle darker amber bases, rough grey-brown bark texture, natural botanical detail.\nComposition/framing: centered complete cutout with generous padding; show the whole needle cluster and short twig without cropping; clean readable silhouette suitable for background removal.\nLighting/mood: clean studio light that preserves gold larch needles, bark grey, moss green lichen, and fine needle texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no pine cones, no flowers, no second plant species except tiny moss/lichen on the same twig, no green-screen color in the subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-larch/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Larch\" / \"Larch\", derived from the transparent larch needle motif currently visible: golden autumn larch needle tufts, bark-grey twig texture, moss-green lichen patches, and alpine forest neutrals.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the larch motif. The board must visibly respect only motif-derived colors: gold larch needles, ochre amber needle bases, bark grey, deep bark charcoal, moss green lichen, pale alpine fog neutrals, and restrained seasonal monitoring accents.\nCanvas: exact 16:9 landscape board, 3840 x 2160 high-resolution source asset. Use a precise product UI grid with large readable labels.\nRequired visible sections: title \"Morphous Larch\", motif story, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI language: premium shadcn/tweakcn-style seasonal monitoring system for alpine forest operations. Use 8px card radius, crisp thin bark-grey borders, larch-needle divider rules, alpine-fog surfaces, gold primary actions, moss-green healthy status, amber seasonal warnings, bark-charcoal text, and compact operational navigation.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, search command palette, monitoring data table, sensor row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"季節監視\", \"検索\", \"状態\", \"針葉\", \"見出し\" with clean multilingual product UI guidance.\nTexture: subtle fine larch-needle striation pattern, bark crackle grain, and moss speckle texture, low contrast and tactile.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no dark mode, no neon, no random brand names, no misspellings, no watermark, no animals, no flowers, no cones as the main motif."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-larch/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Larch\" / \"Larch\", translated from the visible light board and the same transparent larch needle motif. It must feel like the same seasonal monitoring system adapted for dark mode, not a new theme.\nReference use: Preserve motif-derived palette roles, component language, texture, spacing, typography, 8px radius, larch-needle dividers, bark-grey surfaces, gold needle primary actions, moss-green healthy status, amber seasonal warnings, and alpine forest neutrals from the Larch motif and light board.\nCanvas: exact 16:9 landscape board, 3840 x 2160 high-resolution source asset. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Larch\", Dark Mode, motif story, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nDark visual system: deep bark charcoal and alpine-night background derived from the twig shadows, warm fog text from alpine neutrals, dark bark cards, muted bark-grey borders, gold larch needle active states, ochre and honey chart data, moss-green success states, lichen green secondary states, rusty amber alert states, subtle larch needle striation texture and bark crackle grain.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, search command palette, monitoring data table, sensor row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"季節監視\", \"検索\", \"状態\", \"針葉\", \"見出し\" with clean multilingual product UI guidance.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no misspellings, no watermark, no animals, no flowers, no cones as the main motif."
+    }
+  ]
+}

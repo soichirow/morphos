@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-queen-annes-lace",
+    "name": "Morphous Queen Anne's Lace",
+    "motifName": "Queen Anne's Lace",
+    "motifCategory": "flower",
+    "biome": "roadside meadow",
+    "motif": "lace flower umbel"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lace White",
+      "hex": "#FAFAF4",
+      "oklch": "oklch(0.983 0.008 106.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Ink",
+      "hex": "#263124",
+      "oklch": "oklch(0.299 0.027 140.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fern Green",
+      "hex": "#647D35",
+      "oklch": "oklch(0.553 0.103 125.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dry Grass",
+      "hex": "#C6AA72",
+      "oklch": "oklch(0.750 0.080 84.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lace Shadow",
+      "hex": "#C8AE72",
+      "oklch": "oklch(0.760 0.084 87.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Meadow Ochre",
+      "hex": "#B28A47",
+      "oklch": "oklch(0.658 0.098 78.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Umbel White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Roadside Haze",
+      "hex": "#B8AD98",
+      "oklch": "oklch(0.751 0.032 83.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Meadow Dusk",
+      "hex": "#2E382E",
+      "oklch": "oklch(0.328 0.022 145.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Grass Stem",
+      "hex": "#D9DDCF",
+      "oklch": "oklch(0.891 0.019 119.8)"
+    },
+    {
+      "role": "Success",
+      "name": "Fern Fresh",
+      "hex": "#78A86A",
+      "oklch": "oklch(0.681 0.102 138.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.008 106.5)",
+    "foreground": "oklch(0.299 0.027 140.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.299 0.027 140.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.299 0.027 140.8)",
+    "primary": "oklch(0.553 0.103 125.6)",
+    "primary-foreground": "oklch(0.983 0.008 106.5)",
+    "secondary": "oklch(0.993 0.004 106.5)",
+    "secondary-foreground": "oklch(0.328 0.022 145.1)",
+    "muted": "oklch(0.996 0.003 106.4)",
+    "muted-foreground": "oklch(0.328 0.022 145.1)",
+    "accent": "oklch(0.760 0.084 87.0)",
+    "accent-foreground": "oklch(0.299 0.027 140.8)",
+    "destructive": "oklch(0.553 0.103 125.6)",
+    "border": "oklch(0.911 0.010 81.8)",
+    "input": "oklch(0.911 0.010 81.8)",
+    "ring": "oklch(0.750 0.080 84.0)",
+    "chart-1": "oklch(0.553 0.103 125.6)",
+    "chart-2": "oklch(0.750 0.080 84.0)",
+    "chart-3": "oklch(0.760 0.084 87.0)",
+    "chart-4": "oklch(0.658 0.098 78.6)",
+    "chart-5": "oklch(0.328 0.022 145.1)",
+    "sidebar": "oklch(0.993 0.003 106.4)",
+    "sidebar-foreground": "oklch(0.299 0.027 140.8)",
+    "sidebar-primary": "oklch(0.553 0.103 125.6)",
+    "sidebar-primary-foreground": "oklch(0.983 0.008 106.5)",
+    "sidebar-accent": "oklch(0.948 0.011 123.5)",
+    "sidebar-accent-foreground": "oklch(0.553 0.103 125.6)",
+    "sidebar-border": "oklch(0.911 0.010 81.8)",
+    "sidebar-ring": "oklch(0.750 0.080 84.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.299 0.027 140.8)",
+    "foreground": "oklch(0.983 0.008 106.5)",
+    "card": "oklch(0.319 0.024 145.0)",
+    "card-foreground": "oklch(0.983 0.008 106.5)",
+    "popover": "oklch(0.319 0.024 145.0)",
+    "popover-foreground": "oklch(0.983 0.008 106.5)",
+    "primary": "oklch(0.750 0.080 84.0)",
+    "primary-foreground": "oklch(0.299 0.027 140.8)",
+    "secondary": "oklch(0.429 0.022 127.6)",
+    "secondary-foreground": "oklch(0.983 0.008 106.5)",
+    "muted": "oklch(0.429 0.022 127.6)",
+    "muted-foreground": "oklch(0.880 0.017 88.0)",
+    "accent": "oklch(0.760 0.084 87.0)",
+    "accent-foreground": "oklch(0.299 0.027 140.8)",
+    "destructive": "oklch(0.553 0.103 125.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.750 0.080 84.0)",
+    "chart-1": "oklch(0.750 0.080 84.0)",
+    "chart-2": "oklch(0.553 0.103 125.6)",
+    "chart-3": "oklch(0.760 0.084 87.0)",
+    "chart-4": "oklch(0.658 0.098 78.6)",
+    "chart-5": "oklch(0.751 0.032 83.6)",
+    "sidebar": "oklch(0.312 0.024 142.6)",
+    "sidebar-foreground": "oklch(0.983 0.008 106.5)",
+    "sidebar-primary": "oklch(0.750 0.080 84.0)",
+    "sidebar-primary-foreground": "oklch(0.299 0.027 140.8)",
+    "sidebar-accent": "oklch(0.429 0.022 127.6)",
+    "sidebar-accent-foreground": "oklch(0.983 0.008 106.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.750 0.080 84.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Airy dashboard English UI with Japanese typography guidance for open data panels, filter labels, table text, and calm headings.",
+  "layout": "Airy dashboards, spacious tables, 8px radii, lace-like dividers, fern-green filters, dry-grass muted states, and high-clarity whitespace.",
+  "tags": [
+    "queen-annes-lace",
+    "flower",
+    "roadside-meadow",
+    "white-lace",
+    "fern-green",
+    "airy-dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-queen-annes-lace/motif.png",
+    "board": "/systems/morphous-queen-annes-lace/design-system-light.png",
+    "darkBoard": "/systems/morphous-queen-annes-lace/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-queen-annes-lace/theme.css",
+    "themeJson": "/systems/morphous-queen-annes-lace/theme.json",
+    "promptsJson": "/systems/morphous-queen-annes-lace/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Queen Anne's lace motif",
+      "asset": "/systems/morphous-queen-annes-lace/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Queen Anne's Lace transparent motif chroma-key source\nPrimary request: Create a complete Queen Anne's lace umbel isolated on a removable chroma-key background.\nSubject: White lace flower umbel, fern-green leaves, dry grass meadow hints, crisp fine botanical detail, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal, no shadows, gradients, texture, watermark, or text.\nConstraints: no bouquet, no vase, no hand, no landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-queen-annes-lace/design-system-light.png",
+      "sourceAsset": "/systems/morphous-queen-annes-lace/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Queen Anne's Lace light-mode design-system board\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn board named Morphous Queen Anne's Lace, derived from white lace umbels, fern green, and dry grass neutrals.\nRequired visible sections: palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples.\nStyle: airy dashboard system with spacious tables, lace-like dividers, fern filters, dry-grass muted panels, and readable labels."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-queen-annes-lace/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-queen-annes-lace/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Queen Anne's Lace dark-mode design-system board\nPrimary request: Generate a dark-mode translation with meadow-dusk surfaces, lace-white foregrounds, fern-green controls, dry-grass accents, and airy dashboard coverage.\nRequired visible sections: dark mode palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples."
+    }
+  ]
+}

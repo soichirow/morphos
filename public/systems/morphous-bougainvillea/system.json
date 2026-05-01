@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-bougainvillea",
+  "name": "Morphous Bougainvillea",
+  "motifName": "Bougainvillea",
+  "motifCategory": "flower",
+  "biome": "dry coastal wall",
+  "motif": "bougainvillea bracts",
+  "description": "A shadcn/tweakcn-compatible system derived from bougainvillea bracts on a dry coastal wall: fuchsia-magenta paper bracts, leaf-green foliage, stucco-white surfaces, vine-line dividers, and sunlit travel workflow cues.",
+  "typography": "Vibrant travel product UI with elegant English display, clean operational labels, tabular numbers, and Japanese typography guidance for itinerary and booking screens.",
+  "layout": "Precise 8px grids, stucco-white card surfaces, fuchsia action hierarchy, leaf-green status accents, vine-line navigation, papery bract texture, dense travel dashboards, and light/dark mode token structure.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "bougainvillea",
+    "flower",
+    "dry-coastal-wall",
+    "fuchsia",
+    "travel",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stucco White",
+      "hex": "#fdfcf9"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Bougainvillea Ink",
+      "hex": "#3a0a2a"
+    },
+    {
+      "role": "Primary",
+      "name": "Bract Fuchsia",
+      "hex": "#e6008a"
+    },
+    {
+      "role": "Accent",
+      "name": "Coastal Magenta",
+      "hex": "#ff4fa3"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2e7d32"
+    },
+    {
+      "role": "Muted",
+      "name": "Vine Olive",
+      "hex": "#567a48"
+    },
+    {
+      "role": "Signal",
+      "name": "Lime Bud",
+      "hex": "#A8E063"
+    },
+    {
+      "role": "Surface",
+      "name": "Sunlit Plaster",
+      "hex": "#fff3e2"
+    },
+    {
+      "role": "Border",
+      "name": "Warm Wall Shadow",
+      "hex": "#e9e2d6"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

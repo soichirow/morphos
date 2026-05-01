@@ -92,6 +92,37 @@ function assert(condition, message) {
   if (!condition) throw new Error(message)
 }
 
+function relativeLuminance(hex) {
+  const [r, g, b] = hexToRgb(hex).map(srgbToLinear)
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b
+}
+
+const SEARCH_STOPWORDS = new Set([
+  "the","a","an","and","or","of","to","in","on","for","with","by","from","at","as","is","are","be",
+  "this","that","these","those","it","its","into","via","use","case","asset","type","prompt",
+  "morphous","transparent","cutout","source","mode","board","light","dark","ui","mockup",
+  "natural","photorealistic","design","system","reference","references",
+])
+
+function buildSearchBlob(prompts) {
+  const seen = new Set()
+  const tokens = []
+  const text = prompts
+    .map((entry) => `${entry.label ?? ""} ${entry.prompt ?? ""}`)
+    .join(" ")
+    .toLowerCase()
+  for (const raw of text.split(/[^a-z0-9]+/)) {
+    if (raw.length < 3 || raw.length > 24) continue
+    if (SEARCH_STOPWORDS.has(raw)) continue
+    if (seen.has(raw)) continue
+    seen.add(raw)
+    tokens.push(raw)
+  }
+  let blob = tokens.join(" ")
+  if (blob.length > 2048) blob = blob.slice(0, 2048).replace(/\s\S*$/, "")
+  return blob
+}
+
 function asPublicPath(slug, value) {
   if (!value) return value
   return value.startsWith("/") ? value : `/systems/${slug}/${value}`
@@ -329,6 +360,9 @@ async function buildSystem(manifestPath) {
   const palette = makePalette(manifest.palette)
   const tokenSet = normalizeTokens(manifest, palette)
   const assets = normalizeAssets(slug, manifest.assets)
+  const background = role(palette, "Background", 0)
+  const bgLightness = Number(relativeLuminance(background.hex).toFixed(3))
+  const searchBlob = buildSearchBlob(prompts)
 
   return {
     slug,
@@ -346,6 +380,8 @@ async function buildSystem(manifestPath) {
     darkTokens: tokenSet.dark,
     prompts,
     assets,
+    bgLightness,
+    searchBlob,
   }
 }
 
@@ -394,6 +430,7 @@ async function main() {
   asset: string
   prompt: string
   sourceAsset?: string
+  referenceAssets?: Array<string>
   workflow?: string
 }
 export type MorphousAssetExample = { id: string; label: string; image: string }
@@ -424,6 +461,8 @@ export type MorphousSystem = {
     themeJson: string
     promptsJson: string
   }
+  bgLightness: number
+  searchBlob: string
 }
 
 export const systems = ${JSON.stringify(systems, null, 2)} satisfies Array<MorphousSystem>

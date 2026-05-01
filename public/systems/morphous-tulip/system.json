@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 184,
+  "slug": "morphous-tulip",
+  "name": "Morphous Tulip",
+  "motifName": "Tulip Cup",
+  "motifCategory": "flower",
+  "biome": "Spring Field",
+  "motif": "red coral tulip cup with black center and leaf-green structure",
+  "description": "A shadcn/tweakcn-compatible gallery system derived from a red-coral tulip cup: coral primary actions, black-center contrast, leaf-green support, ivory petal highlights, and warm spring-field paper surfaces.",
+  "typography": "Playfair Display for bold gallery headings with Inter for product UI and Noto Sans JP guidance for Japanese labels, metrics, and readable dashboard copy.",
+  "layout": "Bold gallery composition on an 8px grid, 8px radii, petal-vein separators, black-center focus rings, compact forms, readable tables, command search, and dashboard/data surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "tulip",
+    "flower",
+    "spring-field",
+    "red-coral",
+    "leaf-green",
+    "bold-gallery",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Warm",
+      "hex": "#F0EFE9"
+    },
+    {
+      "role": "Ink",
+      "name": "Gallery Ink",
+      "hex": "#111111"
+    },
+    {
+      "role": "Primary",
+      "name": "Tulip Coral 600",
+      "hex": "#E24A3A"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Tulip Coral 500",
+      "hex": "#F16451"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green 600",
+      "hex": "#3F6F3A"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Green 400",
+      "hex": "#6FAE64"
+    },
+    {
+      "role": "Highlight",
+      "name": "Ivory Petal",
+      "hex": "#FFF7F1"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Blush",
+      "hex": "#FFD9B8"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage Neutral",
+      "hex": "#6C6F60"
+    },
+    {
+      "role": "Depth",
+      "name": "Clay Shadow",
+      "hex": "#4A433A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

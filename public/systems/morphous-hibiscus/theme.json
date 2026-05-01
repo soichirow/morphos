@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hibiscus",
+    "name": "Morphous Hibiscus",
+    "motifName": "Hibiscus",
+    "motifCategory": "flower",
+    "biome": "tropical garden",
+    "motif": "hibiscus flower"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tropical Sand",
+      "hex": "#FFF1E6",
+      "oklch": "oklch(0.966 0.021 60.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Palm Ink",
+      "hex": "#0A1A12",
+      "oklch": "oklch(0.201 0.027 160.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Hibiscus Scarlet",
+      "hex": "#E11D2E",
+      "oklch": "oklch(0.582 0.223 24.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dark Leaf",
+      "hex": "#0F3D22",
+      "oklch": "oklch(0.321 0.069 153.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Stamen Yellow",
+      "hex": "#FFC904",
+      "oklch": "oklch(0.859 0.175 88.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Petal Coral",
+      "hex": "#FF6B4D",
+      "oklch": "oklch(0.707 0.187 33.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Resort Ivory",
+      "hex": "#FFF7F2",
+      "oklch": "oklch(0.981 0.011 54.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Palm Shade",
+      "hex": "#7D9A72",
+      "oklch": "oklch(0.653 0.066 137.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tropical Night",
+      "hex": "#0A1A12",
+      "oklch": "oklch(0.201 0.027 160.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Tan",
+      "hex": "#A9784A",
+      "oklch": "oklch(0.612 0.087 63.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Fresh Palm",
+      "hex": "#26593A",
+      "oklch": "oklch(0.420 0.076 154.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.966 0.021 60.8)",
+    "foreground": "oklch(0.201 0.027 160.8)",
+    "card": "oklch(0.981 0.011 54.5)",
+    "card-foreground": "oklch(0.201 0.027 160.8)",
+    "popover": "oklch(0.981 0.011 54.5)",
+    "popover-foreground": "oklch(0.201 0.027 160.8)",
+    "primary": "oklch(0.582 0.223 24.7)",
+    "primary-foreground": "oklch(0.966 0.021 60.8)",
+    "secondary": "oklch(0.974 0.015 54.9)",
+    "secondary-foreground": "oklch(0.201 0.027 160.8)",
+    "muted": "oklch(0.976 0.013 53.4)",
+    "muted-foreground": "oklch(0.201 0.027 160.8)",
+    "accent": "oklch(0.859 0.175 88.9)",
+    "accent-foreground": "oklch(0.201 0.027 160.8)",
+    "destructive": "oklch(0.582 0.223 24.7)",
+    "border": "oklch(0.866 0.025 122.0)",
+    "input": "oklch(0.866 0.025 122.0)",
+    "ring": "oklch(0.321 0.069 153.7)",
+    "chart-1": "oklch(0.582 0.223 24.7)",
+    "chart-2": "oklch(0.321 0.069 153.7)",
+    "chart-3": "oklch(0.859 0.175 88.9)",
+    "chart-4": "oklch(0.707 0.187 33.2)",
+    "chart-5": "oklch(0.201 0.027 160.8)",
+    "sidebar": "oklch(0.976 0.014 57.6)",
+    "sidebar-foreground": "oklch(0.201 0.027 160.8)",
+    "sidebar-primary": "oklch(0.582 0.223 24.7)",
+    "sidebar-primary-foreground": "oklch(0.966 0.021 60.8)",
+    "sidebar-accent": "oklch(0.921 0.034 24.6)",
+    "sidebar-accent-foreground": "oklch(0.582 0.223 24.7)",
+    "sidebar-border": "oklch(0.866 0.025 122.0)",
+    "sidebar-ring": "oklch(0.321 0.069 153.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.201 0.027 160.8)",
+    "foreground": "oklch(0.966 0.021 60.8)",
+    "card": "oklch(0.201 0.027 160.8)",
+    "card-foreground": "oklch(0.966 0.021 60.8)",
+    "popover": "oklch(0.201 0.027 160.8)",
+    "popover-foreground": "oklch(0.966 0.021 60.8)",
+    "primary": "oklch(0.321 0.069 153.7)",
+    "primary-foreground": "oklch(0.201 0.027 160.8)",
+    "secondary": "oklch(0.311 0.036 150.4)",
+    "secondary-foreground": "oklch(0.966 0.021 60.8)",
+    "muted": "oklch(0.311 0.036 150.4)",
+    "muted-foreground": "oklch(0.829 0.033 116.7)",
+    "accent": "oklch(0.859 0.175 88.9)",
+    "accent-foreground": "oklch(0.201 0.027 160.8)",
+    "destructive": "oklch(0.582 0.223 24.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.321 0.069 153.7)",
+    "chart-1": "oklch(0.321 0.069 153.7)",
+    "chart-2": "oklch(0.582 0.223 24.7)",
+    "chart-3": "oklch(0.859 0.175 88.9)",
+    "chart-4": "oklch(0.707 0.187 33.2)",
+    "chart-5": "oklch(0.653 0.066 137.2)",
+    "sidebar": "oklch(0.201 0.027 160.8)",
+    "sidebar-foreground": "oklch(0.966 0.021 60.8)",
+    "sidebar-primary": "oklch(0.321 0.069 153.7)",
+    "sidebar-primary-foreground": "oklch(0.201 0.027 160.8)",
+    "sidebar-accent": "oklch(0.311 0.036 150.4)",
+    "sidebar-accent-foreground": "oklch(0.966 0.021 60.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.321 0.069 153.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Bold resort English UI with Japanese typography guidance for venue headings, booking forms, guest tables, status labels, and readable hospitality dashboards.",
+  "layout": "Resort product screens, booking dashboards, 8px radii, scarlet primary actions, dark-green navigation, yellow focus states, sand-toned cards, and tropical texture accents.",
+  "tags": [
+    "hibiscus",
+    "flower",
+    "tropical-garden",
+    "scarlet",
+    "yellow-stamen",
+    "dark-green",
+    "resort-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hibiscus/motif.png",
+    "board": "/systems/morphous-hibiscus/design-system-light.png",
+    "darkBoard": "/systems/morphous-hibiscus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hibiscus/theme.css",
+    "themeJson": "/systems/morphous-hibiscus/theme.json",
+    "promptsJson": "/systems/morphous-hibiscus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hibiscus flower motif",
+      "asset": "/systems/morphous-hibiscus/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Hibiscus transparent motif chroma-key source\nPrimary request: Create a complete hibiscus flower motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A tropical garden hibiscus flower with scarlet red petals, a yellow stamen, dark green leaves, subtle coral petal transitions, and crisp botanical detail. No cast shadow.\nComposition/framing: centered complete flower cutout with petals, stamen, and leaves visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no rose, no camellia, no vase, no hand, no props, no beach landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hibiscus/design-system-light.png",
+      "sourceAsset": "/systems/morphous-hibiscus/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hibiscus light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Hibiscus, derived from the visible hibiscus flower cutout.\nCanvas: wide 16:9 high-resolution board, polished bold resort-system presentation.\nRequired visible sections: Morphous Hibiscus, Hibiscus Flower, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract scarlet petals, yellow stamen focus, dark-green leaf navigation, tropical sand surfaces, coral activity states, and resort hospitality contrast for bookings, guest operations, venue dashboards, and bold product screens.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, booking cards, guest tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic red UI, no unrelated neon colors, no beach stock art, no tiny unreadable text, no watermark, no misspelling of Morphous Hibiscus."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hibiscus/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-hibiscus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hibiscus dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Hibiscus that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Hibiscus, Hibiscus Flower, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve scarlet actions, yellow focus rings, dark tropical green surfaces, resort-ivory foregrounds, coral states, and bold hospitality workflow coverage.\nConstraints: no neon overload, no generic black UI, no unrelated colors, no beach stock art, no tiny text, no watermark, no misspelling of Morphous Hibiscus."
+    }
+  ]
+}

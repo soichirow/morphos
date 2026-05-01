@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent hibiscus flower motif",
+    "asset": "/systems/morphous-hibiscus/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Hibiscus transparent motif chroma-key source\nPrimary request: Create a complete hibiscus flower motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A tropical garden hibiscus flower with scarlet red petals, a yellow stamen, dark green leaves, subtle coral petal transitions, and crisp botanical detail. No cast shadow.\nComposition/framing: centered complete flower cutout with petals, stamen, and leaves visible without cropping.\nChroma-key background: perfectly flat solid #00ff00 background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: no rose, no camellia, no vase, no hand, no props, no beach landscape."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-hibiscus/design-system-light.png",
+    "sourceAsset": "/systems/morphous-hibiscus/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Hibiscus light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Hibiscus, derived from the visible hibiscus flower cutout.\nCanvas: wide 16:9 high-resolution board, polished bold resort-system presentation.\nRequired visible sections: Morphous Hibiscus, Hibiscus Flower, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract scarlet petals, yellow stamen focus, dark-green leaf navigation, tropical sand surfaces, coral activity states, and resort hospitality contrast for bookings, guest operations, venue dashboards, and bold product screens.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, booking cards, guest tables, command palette, sidebar, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, border, shadow, and token swatches.\nConstraints: no generic red UI, no unrelated neon colors, no beach stock art, no tiny unreadable text, no watermark, no misspelling of Morphous Hibiscus."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-hibiscus/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-hibiscus/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Hibiscus dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Hibiscus that feels like the light board translated to dark mode.\nCanvas: wide 16:9 high-resolution board, polished professional design-system presentation.\nRequired visible sections: Morphous Hibiscus, Hibiscus Flower, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve scarlet actions, yellow focus rings, dark tropical green surfaces, resort-ivory foregrounds, coral states, and bold hospitality workflow coverage.\nConstraints: no neon overload, no generic black UI, no unrelated colors, no beach stock art, no tiny text, no watermark, no misspelling of Morphous Hibiscus."
+  }
+]

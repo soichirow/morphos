@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sargassum",
+    "name": "Morphous Sargassum",
+    "motifName": "Sargassum",
+    "motifCategory": "plant",
+    "biome": "open ocean",
+    "motif": "sargassum weed"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bubble Cream",
+      "hex": "#FAF8F4",
+      "oklch": "oklch(0.980 0.006 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Ocean Ink",
+      "hex": "#0E1F2C",
+      "oklch": "oklch(0.231 0.034 243.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sargassum Gold",
+      "hex": "#B07A28",
+      "oklch": "oklch(0.620 0.116 73.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Amber Ochre",
+      "hex": "#D49A3A",
+      "oklch": "oklch(0.725 0.129 76.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Olive Gold",
+      "hex": "#A08B2E",
+      "oklch": "oklch(0.639 0.113 96.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sea Blue",
+      "hex": "#2E668E",
+      "oklch": "oklch(0.491 0.087 242.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam Surface",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sea Foam",
+      "hex": "#EEF3F6",
+      "oklch": "oklch(0.961 0.007 233.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Mist Border",
+      "hex": "#D0E7EC",
+      "oklch": "oklch(0.913 0.025 212.2)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Open Ocean Slate",
+      "hex": "#667F8E",
+      "oklch": "oklch(0.582 0.037 234.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Stem Brown",
+      "hex": "#6A4E28",
+      "oklch": "oklch(0.445 0.066 73.1)"
+    },
+    {
+      "role": "Danger",
+      "name": "Rust Current",
+      "hex": "#B85F2A",
+      "oklch": "oklch(0.582 0.132 48.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.006 84.6)",
+    "foreground": "oklch(0.231 0.034 243.1)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.231 0.034 243.1)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.231 0.034 243.1)",
+    "primary": "oklch(0.620 0.116 73.2)",
+    "primary-foreground": "oklch(0.980 0.006 84.6)",
+    "secondary": "oklch(0.961 0.007 233.6)",
+    "secondary-foreground": "oklch(0.445 0.066 73.1)",
+    "muted": "oklch(0.961 0.007 233.6)",
+    "muted-foreground": "oklch(0.445 0.066 73.1)",
+    "accent": "oklch(0.639 0.113 96.2)",
+    "accent-foreground": "oklch(0.231 0.034 243.1)",
+    "destructive": "oklch(0.582 0.132 48.4)",
+    "border": "oklch(0.913 0.025 212.2)",
+    "input": "oklch(0.913 0.025 212.2)",
+    "ring": "oklch(0.491 0.087 242.5)",
+    "chart-1": "oklch(0.620 0.116 73.2)",
+    "chart-2": "oklch(0.725 0.129 76.3)",
+    "chart-3": "oklch(0.639 0.113 96.2)",
+    "chart-4": "oklch(0.491 0.087 242.5)",
+    "chart-5": "oklch(0.445 0.066 73.1)",
+    "sidebar": "oklch(0.961 0.007 233.6)",
+    "sidebar-foreground": "oklch(0.231 0.034 243.1)",
+    "sidebar-primary": "oklch(0.491 0.087 242.5)",
+    "sidebar-primary-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-accent": "oklch(0.913 0.025 212.2)",
+    "sidebar-accent-foreground": "oklch(0.231 0.034 243.1)",
+    "sidebar-border": "oklch(0.913 0.025 212.2)",
+    "sidebar-ring": "oklch(0.491 0.087 242.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.231 0.034 243.1)",
+    "foreground": "oklch(0.980 0.006 84.6)",
+    "card": "oklch(0.265 0.034 232.9)",
+    "card-foreground": "oklch(0.980 0.006 84.6)",
+    "popover": "oklch(0.265 0.034 232.9)",
+    "popover-foreground": "oklch(0.980 0.006 84.6)",
+    "primary": "oklch(0.725 0.129 76.3)",
+    "primary-foreground": "oklch(0.231 0.034 243.1)",
+    "secondary": "oklch(0.333 0.034 223.8)",
+    "secondary-foreground": "oklch(0.980 0.006 84.6)",
+    "muted": "oklch(0.333 0.034 223.8)",
+    "muted-foreground": "oklch(0.913 0.025 212.2)",
+    "accent": "oklch(0.639 0.113 96.2)",
+    "accent-foreground": "oklch(0.231 0.034 243.1)",
+    "destructive": "oklch(0.582 0.132 48.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.491 0.087 242.5)",
+    "chart-1": "oklch(0.725 0.129 76.3)",
+    "chart-2": "oklch(0.620 0.116 73.2)",
+    "chart-3": "oklch(0.639 0.113 96.2)",
+    "chart-4": "oklch(0.491 0.087 242.5)",
+    "chart-5": "oklch(0.913 0.025 212.2)",
+    "sidebar": "oklch(0.216 0.022 240.7)",
+    "sidebar-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-primary": "oklch(0.725 0.129 76.3)",
+    "sidebar-primary-foreground": "oklch(0.231 0.034 243.1)",
+    "sidebar-accent": "oklch(0.339 0.025 234.8)",
+    "sidebar-accent-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.491 0.087 242.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist-style English product UI with Noto Sans JP guidance for drifting knowledge workflows, compact Japanese source labels, tabular data, search states, and current-aware dashboards.",
+  "layout": "Structured 8px knowledge grids, drifting cluster cards, branching data paths, compact source tables, command/search surfaces, soft oceanic shadows, 8px radii, bubble texture swatches, and frond-line dividers.",
+  "tags": [
+    "sargassum",
+    "plant",
+    "open-ocean",
+    "seaweed",
+    "drifting-knowledge",
+    "golden-brown",
+    "sea-blue",
+    "bubble-cream",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sargassum/motif.png",
+    "board": "/systems/morphous-sargassum/design-system-light.png",
+    "darkBoard": "/systems/morphous-sargassum/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sargassum/theme.css",
+    "themeJson": "/systems/morphous-sargassum/theme.json",
+    "promptsJson": "/systems/morphous-sargassum/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sargassum weed motif",
+      "asset": "/systems/morphous-sargassum/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Sargassum transparent motif chroma-key source\nPrimary request: Create only a sargassum weed motif for a design-system catalog, isolated as a single complete open-ocean seaweed subject on a removable chroma-key background.\nSubject: A floating cluster of sargassum seaweed with branching golden-brown fronds, small serrated leaf-like blades, round olive-gold air bladders, fine tangled stems, subtle wet sheen, sea-blue reflected highlights, and bubble-cream bead highlights. Botanical marine accuracy; it must read as sargassum weed, not kelp, coral, roots, dried straw, or generic algae.\nComposition/framing: centered complete cutout with generous padding; include the full drifting tangled cluster silhouette without cropping. Clean studio lighting that preserves golden brown fronds, air bladder texture, and fine branch details. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no ocean background, no fish, no beach, no shells, no coral, no rocks, no sand, no hand, no jar, no props, no second species, no text, no watermark, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sargassum/design-system-light.png",
+      "sourceAsset": "/systems/morphous-sargassum/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sargassum light-mode design-system board\nPrimary request: Generate one comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Sargassum\" / \"Sargassum Weed\". The board must be a wide 4K-class design-system reference, derived from the sargassum motif: golden-brown branching seaweed fronds, round olive-gold air bladders, fine tangled stems, sea-blue open-ocean reflections, and bubble-cream highlights.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Sargassum, Sargassum Weed, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from golden brown sargassum fronds, olive-gold air bladders, sea-blue open ocean, bubble cream highlights, pale foam neutrals, deep pelagic blue ink, and drifting tangled branch geometry. The board must read as sargassum, not kelp, coral, straw, roots, or generic ocean SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 海流, 知識, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, drifting knowledge dashboard metric cards, line chart, bar chart, network graph, source table, filter chips, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, soft shadow scale, bladder-bubble texture swatches, branching-frond line texture.\nStyle/medium: premium drifting knowledge system, realistic product UI mockup, precise 8px grid, 8px card radius, bubble-cream surfaces, golden-brown primary controls, sea-blue navigation and focus states, olive-gold badges, deep pelagic ink dividers, subtle floating bladder texture and branching frond line overlays, dense but scannable dashboard and data surfaces.\nColor palette: motif-derived colors only: golden brown sargassum, amber ochre, olive gold, sea blue, deep ocean ink, bubble cream, foam neutral, open-ocean slate, wet stem brown.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no coral reef identity, no kelp forest identity, no stock hero layout, no random brand names, no watermark, no misspelling of \"Morphous Sargassum\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sargassum/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-sargassum/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-sargassum/motif.png"
+      ],
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sargassum dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Sargassum\" / \"Sargassum Weed\". It must feel like the same drifting knowledge system translated to dark mode, not a new theme, and it must remain derived from the sargassum motif and the light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Sargassum, Sargassum Weed, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the Sargassum system language: golden-brown seaweed controls, olive-gold active and status states, sea-blue navigation and focus rings, bubble-cream foreground text, deep pelagic blue backgrounds, wet stem-brown dividers, open-ocean slate panels, subtle air-bladder bubble texture, branching frond line overlays, 8px shadcn/tweakcn grid. It must read as sargassum, not kelp, coral, straw, roots, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 海流, 知識, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, drifting knowledge dashboard metric cards, line chart, bar chart, network graph, source table, filter chips, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, soft shadow scale, bladder-bubble texture swatches, branching-frond line texture.\nVisual details: dark background derived from deep pelagic blue and wet stem brown, raised cards in open-ocean slate, bubble-cream foreground text, golden brown and amber primary controls, olive-gold success and active states, sea-blue focus rings and charts, wet-stem separators, subtle air bladder bubbles and frond-line overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: golden brown sargassum, amber ochre, olive gold, sea blue, deep ocean ink, bubble cream, foam neutral, open-ocean slate, wet stem brown.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no coral reef identity, no kelp forest identity, no stock hero layout, no random brand names, no watermark, no misspelling of \"Morphous Sargassum\", no illegible microtext."
+    }
+  ]
+}

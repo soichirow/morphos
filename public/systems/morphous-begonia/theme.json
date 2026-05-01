@@ -1,0 +1,198 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-begonia",
+    "name": "Morphous Begonia",
+    "motifName": "Begonia",
+    "motifCategory": "flower",
+    "biome": "humid understory",
+    "motif": "begonia leaf and bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Understory Cream",
+      "hex": "#F7F3EC",
+      "oklch": "oklch(0.965 0.010 81.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#23261D",
+      "oklch": "oklch(0.262 0.017 122.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Bloom",
+      "hex": "#F47A86",
+      "oklch": "oklch(0.722 0.150 15.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Olive Leaf",
+      "hex": "#6A6F3B",
+      "oklch": "oklch(0.525 0.074 113.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Silver Highlight",
+      "hex": "#D8DDD5",
+      "oklch": "oklch(0.891 0.012 133.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Red",
+      "hex": "#BF5A5A",
+      "oklch": "oklch(0.592 0.130 21.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Porcelain Petal",
+      "hex": "#FFFDF8",
+      "oklch": "oklch(0.994 0.007 88.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Mist",
+      "hex": "#A7AC90",
+      "oklch": "oklch(0.733 0.039 115.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Understory Moss",
+      "hex": "#3A3D2A",
+      "oklch": "oklch(0.351 0.032 115.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Shadow Taupe",
+      "hex": "#DDD7C8",
+      "oklch": "oklch(0.880 0.021 88.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Green",
+      "hex": "#818A54",
+      "oklch": "oklch(0.613 0.076 116.4)"
+    },
+    {
+      "role": "Soft",
+      "name": "Petal Blush",
+      "hex": "#FCD0D6",
+      "oklch": "oklch(0.897 0.050 8.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.010 81.8)",
+    "foreground": "oklch(0.262 0.017 122.5)",
+    "card": "oklch(0.994 0.007 88.6)",
+    "card-foreground": "oklch(0.262 0.017 122.5)",
+    "popover": "oklch(0.994 0.007 88.6)",
+    "popover-foreground": "oklch(0.262 0.017 122.5)",
+    "primary": "oklch(0.722 0.150 15.4)",
+    "primary-foreground": "oklch(0.262 0.017 122.5)",
+    "secondary": "oklch(0.927 0.012 116.8)",
+    "secondary-foreground": "oklch(0.351 0.032 115.3)",
+    "muted": "oklch(0.891 0.012 133.4)",
+    "muted-foreground": "oklch(0.351 0.032 115.3)",
+    "accent": "oklch(0.891 0.012 133.4)",
+    "accent-foreground": "oklch(0.262 0.017 122.5)",
+    "destructive": "oklch(0.592 0.130 21.8)",
+    "border": "oklch(0.880 0.021 88.7)",
+    "input": "oklch(0.880 0.021 88.7)",
+    "ring": "oklch(0.722 0.150 15.4)",
+    "chart-1": "oklch(0.722 0.150 15.4)",
+    "chart-2": "oklch(0.525 0.074 113.5)",
+    "chart-3": "oklch(0.592 0.130 21.8)",
+    "chart-4": "oklch(0.613 0.076 116.4)",
+    "chart-5": "oklch(0.733 0.039 115.6)",
+    "sidebar": "oklch(0.934 0.011 89.7)",
+    "sidebar-foreground": "oklch(0.262 0.017 122.5)",
+    "sidebar-primary": "oklch(0.525 0.074 113.5)",
+    "sidebar-primary-foreground": "oklch(0.994 0.007 88.6)",
+    "sidebar-accent": "oklch(0.927 0.012 116.8)",
+    "sidebar-accent-foreground": "oklch(0.525 0.074 113.5)",
+    "sidebar-border": "oklch(0.880 0.021 88.7)",
+    "sidebar-ring": "oklch(0.722 0.150 15.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.015 136.8)",
+    "foreground": "oklch(0.965 0.010 81.8)",
+    "card": "oklch(0.268 0.019 129.3)",
+    "card-foreground": "oklch(0.965 0.010 81.8)",
+    "popover": "oklch(0.268 0.019 129.3)",
+    "popover-foreground": "oklch(0.965 0.010 81.8)",
+    "primary": "oklch(0.722 0.150 15.4)",
+    "primary-foreground": "oklch(0.210 0.015 136.8)",
+    "secondary": "oklch(0.425 0.061 118.4)",
+    "secondary-foreground": "oklch(0.965 0.010 81.8)",
+    "muted": "oklch(0.340 0.017 135.1)",
+    "muted-foreground": "oklch(0.891 0.012 133.4)",
+    "accent": "oklch(0.891 0.012 133.4)",
+    "accent-foreground": "oklch(0.210 0.015 136.8)",
+    "destructive": "oklch(0.592 0.130 21.8)",
+    "border": "oklch(0.891 0.012 133.4 / 16%)",
+    "input": "oklch(0.891 0.012 133.4 / 20%)",
+    "ring": "oklch(0.722 0.150 15.4)",
+    "chart-1": "oklch(0.722 0.150 15.4)",
+    "chart-2": "oklch(0.613 0.076 116.4)",
+    "chart-3": "oklch(0.592 0.130 21.8)",
+    "chart-4": "oklch(0.897 0.050 8.9)",
+    "chart-5": "oklch(0.891 0.012 133.4)",
+    "sidebar": "oklch(0.189 0.013 135.2)",
+    "sidebar-foreground": "oklch(0.965 0.010 81.8)",
+    "sidebar-primary": "oklch(0.722 0.150 15.4)",
+    "sidebar-primary-foreground": "oklch(0.210 0.015 136.8)",
+    "sidebar-accent": "oklch(0.351 0.032 115.3)",
+    "sidebar-accent-foreground": "oklch(0.965 0.010 81.8)",
+    "sidebar-border": "oklch(0.891 0.012 133.4 / 16%)",
+    "sidebar-ring": "oklch(0.722 0.150 15.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for decorative admin hierarchy with Noto Sans JP guidance for Japanese headings, dense table labels, command search, and dashboard metrics.",
+  "layout": "8px radii, 8pt spacing, coral active controls, olive side navigation, silver highlight dividers, leaf-vein texture, compact tables, command-first workflows, and humid understory surfaces.",
+  "tags": [
+    "begonia",
+    "flower",
+    "humid-understory",
+    "coral-pink",
+    "olive-leaf",
+    "silver-highlight",
+    "decorative-admin",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-begonia/motif.png",
+    "board": "/systems/morphous-begonia/design-system-light.png",
+    "darkBoard": "/systems/morphous-begonia/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-begonia/theme.css",
+    "themeJson": "/systems/morphous-begonia/theme.json",
+    "promptsJson": "/systems/morphous-begonia/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Begonia motif",
+      "asset": "/systems/morphous-begonia/motif.png",
+      "workflow": "Built-in image generation on a flat #00ffff chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Begonia transparent motif chroma-key source\nPrimary request: Create only a begonia leaf and bloom, isolated full botanical subject, no environment, no props, no text.\nSubject: A decorative begonia cutting with one large asymmetrical olive-green leaf, silver leaf highlights and veining, subtle humid understory texture, and coral-pink begonia blooms with natural petals and small stems. Crisp botanical detail, realistic leaf surface, accurate begonia shape.\nComposition/framing: centered complete cutout with generous padding; do not crop the leaf, bloom, or stems. Keep the silhouette readable for a web design-system motif.\nLighting/mood: clean studio light that preserves coral petals, olive leaf body, silver highlights, and soft botanical texture.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff or cyan anywhere in the subject.\nConstraints: no text, no watermark, no pot, no vase, no bouquet, no hand, no landscape, no decorative background, no second subject, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-begonia/design-system-light.png",
+      "sourceAsset": "/systems/morphous-begonia/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Begonia light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Begonia\", derived from the visible begonia leaf and bloom cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, decorative edges, and interaction language from the visible begonia motif: coral-pink bloom, olive leaf, silver leaf highlights, reddish stems, humid understory neutrals, and botanical veins. The board must visibly respect these motif-derived colors only.\nCanvas: wide 16:9 board, 4K-class source, prefer 3840 x 2160, at least 2400px wide when available.\nResolution and legibility: large readable labels, clean grid, no dense tiny token tables.\nRequired visible sections: Morphous Begonia, Begonia, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual admin UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar navigation, top nav, dashboard metric cards, compact data charts, empty/loading/error states, token rows, spacing scale, border/radius/shadow examples.\nStyle/medium: premium shadcn/tweakcn-style decorative admin system, precise product UI board, 8px card radius, restrained botanical ornaments, leaf-vein dividers, silver highlight borders, coral active controls, olive admin navigation, humid understory neutral surfaces.\nColor palette: use only motif-derived colors and near-neutrals from the motif: coral pink, olive leaf, silver leaf highlights, warm petal blush, deep leaf ink, humid moss, underside red stem, understory cream, soft shadow taupe.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic blue or purple gradients, no neon, no watermark, no random brand names, no misspelling of \"Morphous Begonia\", no rounded pills beyond 8px radius."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-begonia/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-begonia/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Begonia dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Begonia design-system board. It must feel like the same decorative admin system translated to dark mode, not a new theme.\nReference use: Use the visible transparent begonia cutout and visible light-mode Morphous Begonia board as references. Preserve the coral bloom, olive leaf, silver leaf highlights, reddish stem accents, humid understory neutrals, decorative botanical edge language, Japanese typography guidance, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board, 4K-class source, prefer 3840 x 2160, at least 2400px wide when available.\nResolution and legibility: large readable labels, clean grid, no dense tiny token tables.\nRequired visible sections: Morphous Begonia, Begonia, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: dark background derived from deep leaf ink and humid understory shadow, card surfaces from dark olive moss, light text from silver leaf highlights and understory cream, primary controls from coral pink, secondary controls from olive leaf, borders from muted silver leaf, data accents from stem red and petal blush. Use subtle leaf-vein textures, coral active states, and silver highlight dividers.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command search, sidebar navigation, top nav, dashboard metric cards, compact charts, empty/loading/error states, token rows, spacing scale, border/radius/shadow examples.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nStyle/medium: premium shadcn/tweakcn-style product design-system board, decorative admin system, precise grid, 8px card radius, restrained botanical ornament, readable dark UI.\nColor palette: use only motif-derived colors and near-neutrals from the motif: coral pink, olive leaf, silver leaf highlights, petal blush, stem red, deep leaf ink, humid moss, dark understory, cream text, taupe border.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon overload, no unrelated saturated colors, no generic blue or purple gradients, no flat pure-black-only background, no watermark, no random brand names, no misspelling of \"Morphous Begonia\", no rounded pills beyond 8px radius."
+    }
+  ]
+}

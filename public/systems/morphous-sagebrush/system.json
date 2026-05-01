@@ -1,0 +1,96 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 237,
+  "slug": "morphous-sagebrush",
+  "name": "Morphous Sagebrush",
+  "motifName": "Sagebrush",
+  "motifCategory": "plant",
+  "biome": "high desert",
+  "motif": "sagebrush sprig",
+  "paletteMood": "silver sage sand tan dusk blue",
+  "designMood": "dryland map system",
+  "description": "A shadcn/tweakcn-compatible dryland map system derived from high desert sagebrush: silver-sage foliage, sand-tan woody stems, dusk-blue shadows, dusty neutrals, contour-line textures, and sparse field-data surfaces.",
+  "typography": "Geist for dryland operations UI with Noto Sans JP guidance for Japanese map labels, form fields, compact status, station IDs, and dense data tables.",
+  "layout": "Dryland map dashboards, 8px card radii, contour-line grids, compact route navigation, sand-wash panels, silver-sage controls, dusk-blue focus states, and low desert-map shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sagebrush",
+    "plant",
+    "high-desert",
+    "silver-sage",
+    "sand-tan",
+    "dusk-blue",
+    "dryland-map-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Wash",
+      "hex": "#F6F2EE"
+    },
+    {
+      "role": "Ink",
+      "name": "Route Charcoal",
+      "hex": "#3E3A33"
+    },
+    {
+      "role": "Primary",
+      "name": "Silver Sage",
+      "hex": "#A5AEA0"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sage Dust",
+      "hex": "#C4C0B0"
+    },
+    {
+      "role": "Accent",
+      "name": "Sand Tan",
+      "hex": "#C8AA7A"
+    },
+    {
+      "role": "Signal",
+      "name": "Dusk Blue",
+      "hex": "#556B66"
+    },
+    {
+      "role": "Surface",
+      "name": "Desert Sand",
+      "hex": "#E9E1CF"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Wash",
+      "hex": "#B9B3A5"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Dusk",
+      "hex": "#202A2C"
+    },
+    {
+      "role": "Border",
+      "name": "Route Ink",
+      "hex": "#6E5E4B"
+    },
+    {
+      "role": "Destructive",
+      "name": "Clay Warning",
+      "hex": "#B46A5E"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

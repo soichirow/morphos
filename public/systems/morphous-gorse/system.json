@@ -1,0 +1,82 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 178,
+  "slug": "morphous-gorse",
+  "name": "Morphous Gorse",
+  "motifName": "Gorse Flowers",
+  "motifCategory": "flower",
+  "biome": "coastal heath",
+  "motif": "gorse flowers",
+  "description": "A shadcn/tweakcn-compatible resilient alert system drafted from coastal-heath gorse: golden pea flowers, thorn-green stems, sea-grey weathering, heath neutrals, and rugged operational status cues.",
+  "typography": "Geist for direct English incident UI with Noto Sans JP guidance for Japanese operations labels, alert states, sensor tables, and compact dashboard metrics.",
+  "layout": "Alert-ready 8px grids, thorn-line separators, clear status hierarchy, steady coastal spacing, restrained shadows, and dense operational data surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "gorse",
+    "flower",
+    "coastal-heath",
+    "golden-yellow",
+    "alert-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Coastal Fog",
+      "hex": "#F5F6F8"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#1C1E1B"
+    },
+    {
+      "role": "Primary",
+      "name": "Gorse Gold",
+      "hex": "#F2C230"
+    },
+    {
+      "role": "Secondary",
+      "name": "Thorn Green",
+      "hex": "#2F4D2E"
+    },
+    {
+      "role": "Accent",
+      "name": "Blossom Amber",
+      "hex": "#FFB000"
+    },
+    {
+      "role": "Muted",
+      "name": "Sea Grey",
+      "hex": "#687780"
+    },
+    {
+      "role": "Surface",
+      "name": "Heath Sand",
+      "hex": "#E6DED0"
+    },
+    {
+      "role": "Success",
+      "name": "Needle Olive",
+      "hex": "#5A6F38"
+    },
+    {
+      "role": "Depth",
+      "name": "Bud Brown",
+      "hex": "#8A6E4A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "motifSource": "motif-chroma-source.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

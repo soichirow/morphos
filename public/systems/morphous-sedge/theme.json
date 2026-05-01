@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sedge",
+    "name": "Morphous Sedge",
+    "motifName": "Sedge Tuft",
+    "motifCategory": "plant",
+    "biome": "fen",
+    "motif": "sedge tuft"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#f4f1e6",
+      "oklch": "oklch(0.957 0.015 94.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2a261b",
+      "oklch": "oklch(0.269 0.020 90.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sedge Olive",
+      "hex": "#667a3e",
+      "oklch": "oklch(0.549 0.088 124.4)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Blade Olive",
+      "hex": "#7b8b4c",
+      "oklch": "oklch(0.609 0.089 120.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Straw Tan",
+      "hex": "#cfb286",
+      "oklch": "oklch(0.778 0.068 77.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Silt Surface",
+      "hex": "#fbf8ef",
+      "oklch": "oklch(0.979 0.012 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Fen Mist",
+      "hex": "#e7e1d2",
+      "oklch": "oklch(0.910 0.021 88.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Fen Silt",
+      "hex": "#c5baa2",
+      "oklch": "oklch(0.792 0.035 86.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Dry Straw",
+      "hex": "#dcc69a",
+      "oklch": "oklch(0.834 0.063 84.4)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Active",
+      "hex": "#536a35",
+      "oklch": "oklch(0.492 0.082 128.4)"
+    },
+    {
+      "role": "Warning",
+      "name": "Root Peat",
+      "hex": "#5b432f",
+      "oklch": "oklch(0.404 0.046 60.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Fen",
+      "hex": "#181e17",
+      "oklch": "oklch(0.226 0.016 141.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.957 0.015 94.2)",
+    "foreground": "oklch(0.269 0.020 90.4)",
+    "card": "oklch(0.979 0.012 91.5)",
+    "card-foreground": "oklch(0.269 0.020 90.4)",
+    "popover": "oklch(0.979 0.012 91.5)",
+    "popover-foreground": "oklch(0.269 0.020 90.4)",
+    "primary": "oklch(0.549 0.088 124.4)",
+    "primary-foreground": "oklch(0.957 0.015 94.2)",
+    "secondary": "oklch(0.970 0.014 93.0)",
+    "secondary-foreground": "oklch(0.226 0.016 141.1)",
+    "muted": "oklch(0.973 0.014 93.0)",
+    "muted-foreground": "oklch(0.226 0.016 141.1)",
+    "accent": "oklch(0.834 0.063 84.4)",
+    "accent-foreground": "oklch(0.269 0.020 90.4)",
+    "destructive": "oklch(0.549 0.088 124.4)",
+    "border": "oklch(0.955 0.015 90.2)",
+    "input": "oklch(0.955 0.015 90.2)",
+    "ring": "oklch(0.778 0.068 77.9)",
+    "chart-1": "oklch(0.549 0.088 124.4)",
+    "chart-2": "oklch(0.778 0.068 77.9)",
+    "chart-3": "oklch(0.834 0.063 84.4)",
+    "chart-4": "oklch(0.979 0.012 91.5)",
+    "chart-5": "oklch(0.226 0.016 141.1)",
+    "sidebar": "oklch(0.973 0.014 93.0)",
+    "sidebar-foreground": "oklch(0.269 0.020 90.4)",
+    "sidebar-primary": "oklch(0.549 0.088 124.4)",
+    "sidebar-primary-foreground": "oklch(0.957 0.015 94.2)",
+    "sidebar-accent": "oklch(0.930 0.020 106.8)",
+    "sidebar-accent-foreground": "oklch(0.549 0.088 124.4)",
+    "sidebar-border": "oklch(0.955 0.015 90.2)",
+    "sidebar-ring": "oklch(0.778 0.068 77.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.269 0.020 90.4)",
+    "foreground": "oklch(0.957 0.015 94.2)",
+    "card": "oklch(0.241 0.017 122.7)",
+    "card-foreground": "oklch(0.957 0.015 94.2)",
+    "popover": "oklch(0.241 0.017 122.7)",
+    "popover-foreground": "oklch(0.957 0.015 94.2)",
+    "primary": "oklch(0.778 0.068 77.9)",
+    "primary-foreground": "oklch(0.269 0.020 90.4)",
+    "secondary": "oklch(0.400 0.015 122.1)",
+    "secondary-foreground": "oklch(0.957 0.015 94.2)",
+    "muted": "oklch(0.400 0.015 122.1)",
+    "muted-foreground": "oklch(0.937 0.018 92.7)",
+    "accent": "oklch(0.834 0.063 84.4)",
+    "accent-foreground": "oklch(0.269 0.020 90.4)",
+    "destructive": "oklch(0.549 0.088 124.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.778 0.068 77.9)",
+    "chart-1": "oklch(0.778 0.068 77.9)",
+    "chart-2": "oklch(0.549 0.088 124.4)",
+    "chart-3": "oklch(0.834 0.063 84.4)",
+    "chart-4": "oklch(0.979 0.012 91.5)",
+    "chart-5": "oklch(0.910 0.021 88.7)",
+    "sidebar": "oklch(0.249 0.016 107.5)",
+    "sidebar-foreground": "oklch(0.957 0.015 94.2)",
+    "sidebar-primary": "oklch(0.778 0.068 77.9)",
+    "sidebar-primary-foreground": "oklch(0.269 0.020 90.4)",
+    "sidebar-accent": "oklch(0.400 0.015 122.1)",
+    "sidebar-accent-foreground": "oklch(0.957 0.015 94.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.778 0.068 77.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for fen observation workflows, compact Japanese labels, numeric sensor tables, and calm status-heavy operational screens.",
+  "layout": "Quiet 8px field grids, slim blade-like dividers, compact dashboard and table density, low shadows, 8px radii, and sedge-fiber texture accents.",
+  "tags": [
+    "sedge",
+    "tuft",
+    "plant",
+    "fen",
+    "field-system",
+    "olive-green",
+    "straw-tan",
+    "peat-brown",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sedge/motif.png",
+    "board": "/systems/morphous-sedge/design-system-light.png",
+    "darkBoard": "/systems/morphous-sedge/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sedge/theme.css",
+    "themeJson": "/systems/morphous-sedge/theme.json",
+    "promptsJson": "/systems/morphous-sedge/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sedge tuft motif",
+      "asset": "/systems/morphous-sedge/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a sedge tuft botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One dense fen sedge tuft with many fine triangular olive-green blades, straw-tan dried blade tips, narrow arching leaves, subtle peat-brown basal sheaths and root-crown texture, quiet field-system botanical accuracy, natural fibrous detail, crisp subject edges.\nComposition/framing: centered complete cutout with generous padding; include the full tuft from basal crown to leaf tips without cropping. Upright tuft silhouette, clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nColor palette: motif-derived colors only: olive green tuft, straw tan dried blades, peat brown base, fen neutrals.\nConstraints: no cattail, no reed plume, no wheat, no pampas grass, no bamboo, no flowers, no seed heads as a dominant feature, no marsh landscape, no water body, no pot, no hand, no props, no second subject, no text, no watermark, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sedge/design-system-light.png",
+      "sourceAsset": "/systems/morphous-sedge/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sedge light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Sedge\" / \"Sedge Tuft\". The board must be a wide 4K-class design-system reference derived from a fen sedge tuft motif: fine olive-green blades, straw-tan dried tips, peat-brown root crown, damp fen neutrals, and quiet field-system order.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Sedge, Sedge Tuft, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from sedge blades, olive tuft mass, straw dry edges, peat root crown, fen mist neutrals, field notebook paper, silt borders, and low wetland shadows. The board must read as sedge tuft, not cattail, reed plume, wheat, bamboo, or generic enterprise UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 湿地, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, fen observation dashboard metric cards, line chart, bar chart, sensor data table, observation filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, sedge blade texture swatches.\nStyle/medium: premium quiet field operations design system, realistic product UI mockup, precise 8px grid, 8px card radius, field-paper surfaces, olive-green primary controls, straw-tan secondary states, peat-brown emphasis, fen-neutral tables, slim blade-like dividers, subtle sedge fiber texture, calm utilitarian density.\nColor palette: motif-derived colors only: olive green tuft, straw tan, peat brown, fen neutrals, quiet field accents.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Sedge\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sedge/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-sedge/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sedge dark-mode design-system board\nPrimary request: Generate a comprehensive DARK MODE source board for a Morphous theme named exactly \"Morphous Sedge\" / \"Sedge Tuft\". Use the fen sedge tuft motif only: olive-green fine grass blades, straw-tan dry blade tips, peat-brown root crown, dark fen silt, and quiet field-system neutrals.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear modular grid and large readable labels.\nRequired visible section labels, all spelled exactly: Morphous Sedge, Sedge Tuft, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nLayout instruction: make the bottom row separate clearly titled panels for Tokens, Texture, Radius, Spacing, and Shadows. The Texture panel must show sedge-blade fiber, straw edge, peat root, and fen mist swatches.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 湿地, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, fen observation dashboard metric cards, line chart, bar chart, sensor data table, observation filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, 8px radius family, 8px spacing scale, low shadow scale.\nVisual details: dark peat and fen-silt background, raised cards in dark olive-brown, pale field-paper foreground text, olive and straw controls, peat-brown emphasis, restrained contrast, crisp 8px cards and controls, slim blade-like dividers, subtle sedge fiber overlays.\nColor palette: motif-derived colors only: olive green tuft, straw tan, peat brown, fen neutrals, quiet field accents.\nConstraints: no seagrass, no sargassum, no rush, no cattail, no reed plume, no wheat, no bamboo, no ocean, no coral, no blue gradients, no purple gradients, no neon, no unrelated saturated colors, no random brand names, no watermark, no misspelling of \"Morphous Sedge\", no illegible microtext."
+    }
+  ]
+}

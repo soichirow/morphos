@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-milkweed",
+    "name": "Morphous Milkweed",
+    "motifName": "Milkweed Pod",
+    "motifCategory": "plant",
+    "biome": "Prairie Edge",
+    "motif": "milkweed pod"
+  },
+  "palette": [
+    {
+      "role": "Primary",
+      "name": "Sage Pod",
+      "hex": "#A6B68F",
+      "oklch": "oklch(0.753 0.057 125.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Soft Moss",
+      "hex": "#7F9568",
+      "oklch": "oklch(0.641 0.069 129.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Prairie Straw",
+      "hex": "#F2EBD6",
+      "oklch": "oklch(0.940 0.029 91.6)"
+    },
+    {
+      "role": "Background",
+      "name": "Silk White",
+      "hex": "#FBF9F4",
+      "oklch": "oklch(0.982 0.007 88.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Seed Brown",
+      "hex": "#7A4A2E",
+      "oklch": "oklch(0.458 0.077 50.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Warm Bark",
+      "hex": "#A9876C",
+      "oklch": "oklch(0.649 0.057 60.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Moss Shadow",
+      "hex": "#4B5A40",
+      "oklch": "oklch(0.447 0.045 132.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Prairie Soil",
+      "hex": "#2E291F",
+      "oklch": "oklch(0.283 0.019 84.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Migration Ochre",
+      "hex": "#C8A662",
+      "oklch": "oklch(0.741 0.096 83.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.007 88.6)",
+    "foreground": "oklch(0.283 0.019 84.5)",
+    "card": "oklch(0.940 0.029 91.6)",
+    "card-foreground": "oklch(0.283 0.019 84.5)",
+    "popover": "oklch(0.940 0.029 91.6)",
+    "popover-foreground": "oklch(0.283 0.019 84.5)",
+    "primary": "oklch(0.753 0.057 125.9)",
+    "primary-foreground": "oklch(0.982 0.007 88.6)",
+    "secondary": "oklch(0.958 0.019 90.5)",
+    "secondary-foreground": "oklch(0.447 0.045 132.4)",
+    "muted": "oklch(0.952 0.023 90.8)",
+    "muted-foreground": "oklch(0.447 0.045 132.4)",
+    "accent": "oklch(0.458 0.077 50.1)",
+    "accent-foreground": "oklch(0.283 0.019 84.5)",
+    "destructive": "oklch(0.753 0.057 125.9)",
+    "border": "oklch(0.838 0.037 75.5)",
+    "input": "oklch(0.838 0.037 75.5)",
+    "ring": "oklch(0.641 0.069 129.4)",
+    "chart-1": "oklch(0.753 0.057 125.9)",
+    "chart-2": "oklch(0.641 0.069 129.4)",
+    "chart-3": "oklch(0.458 0.077 50.1)",
+    "chart-4": "oklch(0.741 0.096 83.6)",
+    "chart-5": "oklch(0.447 0.045 132.4)",
+    "sidebar": "oklch(0.955 0.022 92.5)",
+    "sidebar-foreground": "oklch(0.283 0.019 84.5)",
+    "sidebar-primary": "oklch(0.753 0.057 125.9)",
+    "sidebar-primary-foreground": "oklch(0.982 0.007 88.6)",
+    "sidebar-accent": "oklch(0.919 0.032 99.2)",
+    "sidebar-accent-foreground": "oklch(0.753 0.057 125.9)",
+    "sidebar-border": "oklch(0.838 0.037 75.5)",
+    "sidebar-ring": "oklch(0.641 0.069 129.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.283 0.019 84.5)",
+    "foreground": "oklch(0.982 0.007 88.6)",
+    "card": "oklch(0.392 0.034 125.6)",
+    "card-foreground": "oklch(0.982 0.007 88.6)",
+    "popover": "oklch(0.392 0.034 125.6)",
+    "popover-foreground": "oklch(0.982 0.007 88.6)",
+    "primary": "oklch(0.641 0.069 129.4)",
+    "primary-foreground": "oklch(0.283 0.019 84.5)",
+    "secondary": "oklch(0.492 0.040 115.0)",
+    "secondary-foreground": "oklch(0.982 0.007 88.6)",
+    "muted": "oklch(0.492 0.040 115.0)",
+    "muted-foreground": "oklch(0.836 0.027 65.6)",
+    "accent": "oklch(0.458 0.077 50.1)",
+    "accent-foreground": "oklch(0.283 0.019 84.5)",
+    "destructive": "oklch(0.753 0.057 125.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.641 0.069 129.4)",
+    "chart-1": "oklch(0.641 0.069 129.4)",
+    "chart-2": "oklch(0.753 0.057 125.9)",
+    "chart-3": "oklch(0.458 0.077 50.1)",
+    "chart-4": "oklch(0.741 0.096 83.6)",
+    "chart-5": "oklch(0.649 0.057 60.0)",
+    "sidebar": "oklch(0.361 0.030 120.5)",
+    "sidebar-foreground": "oklch(0.982 0.007 88.6)",
+    "sidebar-primary": "oklch(0.641 0.069 129.4)",
+    "sidebar-primary-foreground": "oklch(0.283 0.019 84.5)",
+    "sidebar-accent": "oklch(0.492 0.040 115.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.641 0.069 129.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm operational product UI with Noto Sans JP guidance for Japanese labels, airy headings, and readable dashboard numerics.",
+  "layout": "Precise 8px grids, 8px radii, pod-rib dividers, silk-thread texture, seed-path indicators, compact dashboards, and soft prairie-edge surfaces.",
+  "tags": [
+    "milkweed",
+    "pod",
+    "plant",
+    "prairie-edge",
+    "sage",
+    "soft-migration",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-milkweed/motif.png",
+    "board": "/systems/morphous-milkweed/design-system-light.png",
+    "darkBoard": "/systems/morphous-milkweed/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-milkweed/theme.css",
+    "themeJson": "/systems/morphous-milkweed/theme.json",
+    "promptsJson": "/systems/morphous-milkweed/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Milkweed motif",
+      "asset": "/systems/morphous-milkweed/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Milkweed transparent motif chroma-key source\nPrimary request: Create only an isolated mature milkweed pod split open with silk and seeds for a design-system catalog; no environment, no props, no text.\nSubject: One milkweed pod with sage green matte pod skin, faint ridges and seams, a split opening with silk-white floss strands emerging, attached seed-brown teardrop seeds, natural botanical detail, crisp silhouette edges, and no extra plants.\nComposition/framing: centered complete cutout with generous padding; show the full pod, split lip, silk tuft, and visible seeds without cropping.\nLighting/mood: clean studio light that preserves sage green pod texture, silk white highlights, seed brown detail, and soft migration mood.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no monarch butterfly, no flowers, no leaves as the main subject, no landscape, no jar, no hand, no label, no text, no watermark, no decorative background, no second pod."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-milkweed/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Milkweed\" / \"Milkweed Pod\", derived from the visible transparent milkweed pod motif cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the milkweed pod image. The board must visibly respect only motif-derived colors: sage green pod, silk white, seed brown, prairie-edge straw neutrals, soft moss, warm cream, and restrained migration accents.\nCanvas: wide 16:9 board, 3840 x 2160 feel, high-resolution source board.\nResolution and legibility: use large readable labels, clear section headings, and avoid dense tiny text.\nRequired visible sections: title, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nTypography: include English and Japanese examples; calm product UI guidance using Geist-like Latin and Noto Sans JP-like Japanese.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px radius cards and controls, quiet operational interface, soft migration system, botanical texture accents.\nVisual language: pod-rib dividers, silk-thread hairline texture, seed-brown selected states, sage primary actions, silk-white surfaces, prairie neutral panels, subtle drifting seed path indicators.\nText: use short readable UI labels only, including labels like Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Tokens, Texture, Radius 8px, Spacing, Shadows.\nConstraints: no purple or blue gradients, no neon colors, no unrelated saturated colors, no monarch butterfly, no flowers as main subject, no random brand names, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-milkweed/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Milkweed\" / \"Milkweed Pod\", translated from the visible light board and the same transparent milkweed pod motif. It must feel like the same system in dark mode, not a new theme.\nReference use: Use the transparent milkweed motif and the light design-system board as references. Preserve motif-derived palette roles, component language, silk-thread texture, pod-rib dividers, seed path indicators, spacing, and typography.\nCanvas: wide 16:9 board, 3840 x 2160 feel, high-resolution source board.\nResolution and legibility: use large readable labels, clear section headings, and avoid dense tiny text.\nRequired visible sections: title, Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nVisual details: dark background derived from prairie soil and moss shadow, foreground from silk white and prairie straw, sage green primary actions, seed brown accents, warm bark muted surfaces, subtle silk texture overlays, 8px radius shadcn-style cards and controls.\nTypography: include English and Japanese examples; calm product UI guidance using Geist-like Latin and Noto Sans JP-like Japanese.\nText: use short readable UI labels only, including Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Tokens, Texture, Radius 8px, Spacing, Shadows.\nConstraints: no neon colors, no pure black background, no purple or blue gradients, no unrelated saturated colors, no monarch butterfly, no flowers as main subject, no random brand names, no watermark, no illegible microtext."
+    }
+  ]
+}

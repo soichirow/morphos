@@ -1,0 +1,207 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-palm-frond",
+    "name": "Morphous Palm Frond",
+    "motifName": "Palm Frond",
+    "motifCategory": "plant",
+    "biome": "tropical shore",
+    "motif": "palm frond"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Cream",
+      "hex": "#F3EFE4",
+      "oklch": "oklch(0.952 0.015 90.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Coconut",
+      "hex": "#3D2D1D",
+      "oklch": "oklch(0.311 0.035 65.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Palm Green",
+      "hex": "#1D5B34",
+      "oklch": "oklch(0.421 0.091 152.5)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Frond Green",
+      "hex": "#2E7D42",
+      "oklch": "oklch(0.526 0.119 148.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Seafoam",
+      "hex": "#D9EFE7",
+      "oklch": "oklch(0.934 0.026 171.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rib Green",
+      "hex": "#A6C747",
+      "oklch": "oklch(0.781 0.158 122.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#FAF9F6",
+      "oklch": "oklch(0.982 0.004 91.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shore Mist",
+      "hex": "#E6ECE8",
+      "oklch": "oklch(0.937 0.008 157.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Palm Shadow",
+      "hex": "#0F2419",
+      "oklch": "oklch(0.239 0.035 159.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Driftwood Taupe",
+      "hex": "#B0AE9C",
+      "oklch": "oklch(0.747 0.025 101.8)"
+    },
+    {
+      "role": "Structure",
+      "name": "Coconut Brown",
+      "hex": "#8B5E34",
+      "oklch": "oklch(0.521 0.082 62.4)"
+    },
+    {
+      "role": "Texture",
+      "name": "Palm Fiber",
+      "hex": "#A67C52",
+      "oklch": "oklch(0.618 0.078 65.5)"
+    },
+    {
+      "role": "Info",
+      "name": "Tide Green",
+      "hex": "#A8D5C4",
+      "oklch": "oklch(0.836 0.053 169.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Fiber Clay",
+      "hex": "#B75A45",
+      "oklch": "oklch(0.576 0.125 34.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.952 0.015 90.2)",
+    "foreground": "oklch(0.311 0.035 65.9)",
+    "card": "oklch(0.982 0.004 91.4)",
+    "card-foreground": "oklch(0.311 0.035 65.9)",
+    "popover": "oklch(0.982 0.004 91.4)",
+    "popover-foreground": "oklch(0.311 0.035 65.9)",
+    "primary": "oklch(0.421 0.091 152.5)",
+    "primary-foreground": "oklch(0.952 0.015 90.2)",
+    "secondary": "oklch(0.970 0.010 93.6)",
+    "secondary-foreground": "oklch(0.239 0.035 159.3)",
+    "muted": "oklch(0.973 0.007 88.6)",
+    "muted-foreground": "oklch(0.239 0.035 159.3)",
+    "accent": "oklch(0.781 0.158 122.5)",
+    "accent-foreground": "oklch(0.311 0.035 65.9)",
+    "destructive": "oklch(0.421 0.091 152.5)",
+    "border": "oklch(0.966 0.004 121.6)",
+    "input": "oklch(0.966 0.004 121.6)",
+    "ring": "oklch(0.934 0.026 171.9)",
+    "chart-1": "oklch(0.421 0.091 152.5)",
+    "chart-2": "oklch(0.934 0.026 171.9)",
+    "chart-3": "oklch(0.781 0.158 122.5)",
+    "chart-4": "oklch(0.781 0.158 122.5)",
+    "chart-5": "oklch(0.239 0.035 159.3)",
+    "sidebar": "oklch(0.973 0.008 91.5)",
+    "sidebar-foreground": "oklch(0.311 0.035 65.9)",
+    "sidebar-primary": "oklch(0.421 0.091 152.5)",
+    "sidebar-primary-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-accent": "oklch(0.918 0.012 145.5)",
+    "sidebar-accent-foreground": "oklch(0.421 0.091 152.5)",
+    "sidebar-border": "oklch(0.966 0.004 121.6)",
+    "sidebar-ring": "oklch(0.934 0.026 171.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.311 0.035 65.9)",
+    "foreground": "oklch(0.952 0.015 90.2)",
+    "card": "oklch(0.261 0.026 133.7)",
+    "card-foreground": "oklch(0.952 0.015 90.2)",
+    "popover": "oklch(0.261 0.026 133.7)",
+    "popover-foreground": "oklch(0.952 0.015 90.2)",
+    "primary": "oklch(0.934 0.026 171.9)",
+    "primary-foreground": "oklch(0.311 0.035 65.9)",
+    "secondary": "oklch(0.413 0.027 163.3)",
+    "secondary-foreground": "oklch(0.952 0.015 90.2)",
+    "muted": "oklch(0.413 0.027 163.3)",
+    "muted-foreground": "oklch(0.946 0.011 112.4)",
+    "accent": "oklch(0.781 0.158 122.5)",
+    "accent-foreground": "oklch(0.311 0.035 65.9)",
+    "destructive": "oklch(0.421 0.091 152.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.934 0.026 171.9)",
+    "chart-1": "oklch(0.934 0.026 171.9)",
+    "chart-2": "oklch(0.421 0.091 152.5)",
+    "chart-3": "oklch(0.781 0.158 122.5)",
+    "chart-4": "oklch(0.781 0.158 122.5)",
+    "chart-5": "oklch(0.937 0.008 157.1)",
+    "sidebar": "oklch(0.275 0.024 111.3)",
+    "sidebar-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-primary": "oklch(0.934 0.026 171.9)",
+    "sidebar-primary-foreground": "oklch(0.311 0.035 65.9)",
+    "sidebar-accent": "oklch(0.413 0.027 163.3)",
+    "sidebar-accent-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.934 0.026 171.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Relaxed humanist English travel UI with Noto Sans JP / Japanese Gothic guidance for headings, body text, labels, itinerary data, booking tables, and compact Japanese workflows.",
+  "layout": "Precise 8px travel grids, palm leaflet texture accents, calm itinerary dashboards, compact reservation tables, structured navigation, 8px cards, and shore-neutral product density.",
+  "tags": [
+    "palm-frond",
+    "plant",
+    "tropical-shore",
+    "travel-system",
+    "palm-green",
+    "coconut-brown",
+    "sand-cream",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-palm-frond/motif.png",
+    "board": "/systems/morphous-palm-frond/design-system-light.png",
+    "darkBoard": "/systems/morphous-palm-frond/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-palm-frond/theme.css",
+    "themeJson": "/systems/morphous-palm-frond/theme.json",
+    "promptsJson": "/systems/morphous-palm-frond/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent palm frond motif",
+      "asset": "/systems/morphous-palm-frond/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a palm frond, isolated full subject, no environment, no props, no text.\nSubject: One complete tropical palm frond with accurate long feathered leaflets, arcing central rib, natural palm-green color variation, slight coconut-brown fibrous base at the stem, crisp botanical detail, relaxed tropical shore character.\nComposition/framing: centered complete cutout with generous padding; do not crop any leaflet tips; diagonal gentle arc is acceptable as long as the entire frond fits.\nLighting/mood: clean studio light that preserves natural palm frond color, rib texture, and leaflet detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no coconuts, no beach, no sky, no landscape, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-palm-frond/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Palm Frond light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Palm Frond\", derived from the visible tropical palm frond motif. This board is a source reference for implementing a shadcn/tweakcn-compatible relaxed travel system.\nReference motif: arcing palm frond with feathered palm-green leaflets, yellow-green central rib, coconut-brown fibrous stem base, tropical shore context, sand cream neutrals, relaxed travel mood.\nCanvas: exact 16:9 wide 4K-class design board, 3840 x 2160 composition, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Palm Frond, Palm Frond, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: use only motif-derived colors: deep palm green, fresh frond green, yellow-green rib highlight, coconut brown, palm fiber brown, sand cream, shell white, driftwood taupe, tropical shore neutrals, and restrained teal-green travel accents from leaf shadow.\nTypography: relaxed travel product UI guidance with Japanese typography; use a warm humanist Latin sans and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, itinerary data, booking tables, and compact Japanese workflows. Include short Japanese labels such as 旅程, 予約, 検索, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, travel dashboard metric cards, itinerary line chart, booking bar chart, reservation table, destination table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple travel icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, palm leaflet texture swatches, focus states, hover states, disabled states, and component density notes.\nStyle: relaxed but precise travel operations design system, sand-cream surfaces, palm-green primary actions, coconut-brown text and structure, yellow-green focus rings, tropical shore neutral panels, subtle palm leaflet vein texture, restrained shadows, all cards and controls use 8px radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Palm Frond\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-palm-frond/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Palm Frond dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Palm Frond\". It must feel like the same relaxed travel system translated to dark mode, not a new theme, and it must remain derived from the visible palm frond motif and the previous light board.\nReference motif: arcing palm frond with feathered palm-green leaflets, yellow-green central rib, coconut-brown fibrous stem base, tropical shore context, sand cream neutrals, relaxed travel mood.\nReference light-board system details to preserve: palm-green primary controls, sand-cream neutral hierarchy, coconut-brown structure, yellow-green focus rings, leaf-shadow accents, travel dashboard/data/forms/tables/search/status/token coverage, English and Japanese typography guidance, 8px radius.\nCanvas: exact 16:9 wide 4K-class design board, 3840 x 2160 composition, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Palm Frond, Dark Mode, Palm Frond, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: use only motif-derived colors: deep palm shadow, dark palm green, fresh frond green, yellow-green rib highlight, coconut brown, palm fiber brown, sand cream text, shell white highlights, driftwood taupe, muted tropical shore neutrals, and restrained teal-green travel accents from leaf shadow.\nTypography: relaxed travel product UI guidance with Japanese typography; use a warm humanist Latin sans and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, itinerary data, booking tables, and compact Japanese workflows. Include short Japanese labels such as 旅程, 予約, 検索, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, travel dashboard metric cards, itinerary line chart, booking bar chart, reservation table, destination table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple travel icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, palm leaflet texture swatches, focus states, hover states, disabled states, and component density notes.\nVisual details: dark background derived from palm shadow and coconut brown, elevated panels in deep frond green and warm charcoal-brown, sand-cream foreground text, muted shell labels, frond-green primary actions, yellow-green focus rings, coconut-brown structural borders, subtle palm leaflet vein texture overlays, crisp shadcn-style cards and controls.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Palm Frond\", no tiny illegible paragraphs."
+    }
+  ]
+}

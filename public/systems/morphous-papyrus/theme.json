@@ -1,0 +1,208 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-papyrus",
+    "name": "Morphous Papyrus",
+    "motifName": "Papyrus Crown",
+    "motifCategory": "plant",
+    "biome": "river delta",
+    "motif": "papyrus crown"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Papyrus Paper",
+      "hex": "#f5f0df",
+      "oklch": "oklch(0.954 0.023 93.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Archive Ink",
+      "hex": "#202621",
+      "oklch": "oklch(0.261 0.013 150.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Green Stem",
+      "hex": "#3f741d",
+      "oklch": "oklch(0.503 0.131 135.8)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Fresh Stem",
+      "hex": "#6f942f",
+      "oklch": "oklch(0.618 0.135 127.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Straw Plume",
+      "hex": "#c89b32",
+      "oklch": "oklch(0.714 0.129 84.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Teal",
+      "hex": "#3b9a96",
+      "oklch": "oklch(0.630 0.088 191.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Parchment Surface",
+      "hex": "#fbf8ee",
+      "oklch": "oklch(0.979 0.014 93.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Fiber",
+      "hex": "#d7c89d",
+      "oklch": "oklch(0.834 0.059 91.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Silt Border",
+      "hex": "#b9aa80",
+      "oklch": "oklch(0.740 0.060 90.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Delta Success",
+      "hex": "#5b8427",
+      "oklch": "oklch(0.564 0.130 130.3)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dry Papyrus",
+      "hex": "#e4c16a",
+      "oklch": "oklch(0.823 0.114 87.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Oxide Seal",
+      "hex": "#a64b32",
+      "oklch": "oklch(0.525 0.127 36.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Delta Ink",
+      "hex": "#121815",
+      "oklch": "oklch(0.202 0.011 163.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.954 0.023 93.3)",
+    "foreground": "oklch(0.261 0.013 150.1)",
+    "card": "oklch(0.979 0.014 93.0)",
+    "card-foreground": "oklch(0.261 0.013 150.1)",
+    "popover": "oklch(0.979 0.014 93.0)",
+    "popover-foreground": "oklch(0.261 0.013 150.1)",
+    "primary": "oklch(0.503 0.131 135.8)",
+    "primary-foreground": "oklch(0.954 0.023 93.3)",
+    "secondary": "oklch(0.969 0.017 96.1)",
+    "secondary-foreground": "oklch(0.202 0.011 163.6)",
+    "muted": "oklch(0.972 0.016 95.2)",
+    "muted-foreground": "oklch(0.202 0.011 163.6)",
+    "accent": "oklch(0.630 0.088 191.3)",
+    "accent-foreground": "oklch(0.261 0.013 150.1)",
+    "destructive": "oklch(0.503 0.131 135.8)",
+    "border": "oklch(0.928 0.030 92.3)",
+    "input": "oklch(0.928 0.030 92.3)",
+    "ring": "oklch(0.714 0.129 84.4)",
+    "chart-1": "oklch(0.503 0.131 135.8)",
+    "chart-2": "oklch(0.714 0.129 84.4)",
+    "chart-3": "oklch(0.630 0.088 191.3)",
+    "chart-4": "oklch(0.630 0.088 191.3)",
+    "chart-5": "oklch(0.202 0.011 163.6)",
+    "sidebar": "oklch(0.970 0.016 91.6)",
+    "sidebar-foreground": "oklch(0.261 0.013 150.1)",
+    "sidebar-primary": "oklch(0.503 0.131 135.8)",
+    "sidebar-primary-foreground": "oklch(0.954 0.023 93.3)",
+    "sidebar-accent": "oklch(0.923 0.026 116.6)",
+    "sidebar-accent-foreground": "oklch(0.503 0.131 135.8)",
+    "sidebar-border": "oklch(0.928 0.030 92.3)",
+    "sidebar-ring": "oklch(0.714 0.129 84.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.261 0.013 150.1)",
+    "foreground": "oklch(0.954 0.023 93.3)",
+    "card": "oklch(0.223 0.012 156.1)",
+    "card-foreground": "oklch(0.954 0.023 93.3)",
+    "popover": "oklch(0.223 0.012 156.1)",
+    "popover-foreground": "oklch(0.954 0.023 93.3)",
+    "primary": "oklch(0.714 0.129 84.4)",
+    "primary-foreground": "oklch(0.261 0.013 150.1)",
+    "secondary": "oklch(0.362 0.020 115.1)",
+    "secondary-foreground": "oklch(0.954 0.023 93.3)",
+    "muted": "oklch(0.362 0.020 115.1)",
+    "muted-foreground": "oklch(0.901 0.040 91.2)",
+    "accent": "oklch(0.630 0.088 191.3)",
+    "accent-foreground": "oklch(0.261 0.013 150.1)",
+    "destructive": "oklch(0.503 0.131 135.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.714 0.129 84.4)",
+    "chart-1": "oklch(0.714 0.129 84.4)",
+    "chart-2": "oklch(0.503 0.131 135.8)",
+    "chart-3": "oklch(0.630 0.088 191.3)",
+    "chart-4": "oklch(0.630 0.088 191.3)",
+    "chart-5": "oklch(0.834 0.059 91.1)",
+    "sidebar": "oklch(0.236 0.013 150.0)",
+    "sidebar-foreground": "oklch(0.954 0.023 93.3)",
+    "sidebar-primary": "oklch(0.714 0.129 84.4)",
+    "sidebar-primary-foreground": "oklch(0.261 0.013 150.1)",
+    "sidebar-accent": "oklch(0.362 0.020 115.1)",
+    "sidebar-accent-foreground": "oklch(0.954 0.023 93.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.714 0.129 84.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for archival record workflows, compact Japanese labels, manuscript tables, and status-heavy search screens.",
+  "layout": "Structured 8px archival grids, radial crown dividers, compact dashboard and table density, low shadows, 8px radii, and papyrus-fiber texture accents.",
+  "tags": [
+    "papyrus",
+    "crown",
+    "plant",
+    "river-delta",
+    "archive",
+    "writing",
+    "green-stem",
+    "straw-plume",
+    "water-teal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-papyrus/motif.png",
+    "board": "/systems/morphous-papyrus/design-system-light.png",
+    "darkBoard": "/systems/morphous-papyrus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-papyrus/theme.css",
+    "themeJson": "/systems/morphous-papyrus/theme.json",
+    "promptsJson": "/systems/morphous-papyrus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent papyrus crown motif",
+      "asset": "/systems/morphous-papyrus/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a papyrus crown botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One full papyrus crown plant top: a long triangular green stem rising into an umbrella-like crown of fine radial green stems with straw-gold papyrus plume tips and seed clusters, subtle water-teal reflected highlights, river-delta neutral dry fiber details. Botanical accuracy, crisp subject edges, elegant vertical delta silhouette, natural fibrous texture.\nComposition/framing: centered complete cutout with generous padding; include the crown, upper stem, and radial plume tips without cropping. Clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no marsh landscape, no water body, no vase, no hand, no props, no second subject, no paper scroll, no text, no watermark, no contact shadow, no reflection, no lotus, no palm frond, no wheat bundle."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-papyrus/design-system-light.png",
+      "sourceAsset": "/systems/morphous-papyrus/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Papyrus light-mode design-system board\nInput image: the visible transparent papyrus crown cutout is the source reference for palette, texture, silhouette, and interaction language.\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Papyrus\" / \"Papyrus Crown\". The board must be a wide 4K-class design-system reference derived from papyrus crown anatomy: vivid green triangular stems, straw-gold plume tips, water-teal delta reflections, river-silt neutrals, archival papyrus fiber, and dark ink accents.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Papyrus, Papyrus Crown, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from green papyrus stems, straw plume fibers, water teal, river delta silt, archival writing surfaces, dark ink, reed shadows, and fibrous paper grain. The board must read as papyrus and archival writing system, not cattail, bamboo, wheat, lotus, or generic enterprise UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 紙草, 記録, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, archive dashboard metric cards, line chart, bar chart, manuscript data table, record filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, papyrus fiber texture swatches.\nStyle/medium: premium archival writing operations design system, realistic product UI mockup, precise 8px grid, 8px card radius, papyrus-paper surfaces, green-stem primary controls, straw plume secondary states, water-teal focus rings, dark ink typography, silt-neutral table density, subtle fiber texture and radial crown dividers.\nColor palette: motif-derived colors only: green stems, straw plume, water teal, river-delta neutrals, archival writing accents, dark ink.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Papyrus\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-papyrus/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-papyrus/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Papyrus dark-mode design-system board\nInput images: the visible transparent papyrus crown cutout and the visible light-mode board are source references for style, palette roles, texture, component coverage, and layout density.\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Papyrus\" / \"Papyrus Crown\". It must feel like the same archival writing system translated to dark mode, not a new theme, and it must remain derived from the papyrus crown motif and light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Papyrus, Papyrus Crown, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the papyrus system language: green-stem primary controls, straw-plume secondary states, water-teal focus/accent rings, dark ink surfaces, river-silt borders, papyrus-paper foreground text, archival fiber texture, radial crown dividers, compact 8px shadcn/tweakcn grid. It must read as papyrus and archival writing system, not cattail, bamboo, wheat, lotus, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 紙草, 記録, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, archive dashboard metric cards, line chart, bar chart, manuscript data table, record filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, papyrus fiber texture swatches.\nVisual details: dark background derived from archival ink and deep delta water, raised cards in dark silt and reed shadow, papyrus-paper foreground text, green-stem primary controls, straw-gold accents, water-teal focus rings and charts, silt separators, subtle papyrus fiber overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: green stems, straw plume, water teal, river-delta neutrals, archival writing accents, dark ink.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Papyrus\", no illegible microtext."
+    }
+  ]
+}

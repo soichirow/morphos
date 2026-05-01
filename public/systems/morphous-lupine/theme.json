@@ -1,0 +1,198 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lupine",
+    "name": "Lupine",
+    "motifName": "Lupine",
+    "motifCategory": "flower",
+    "biome": "alpine meadow",
+    "motif": "lupine flower spike"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Alpine Snow",
+      "hex": "#FAFAFC",
+      "oklch": "oklch(0.986 0.003 286.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Lupine Ink",
+      "hex": "#0F172A",
+      "oklch": "oklch(0.208 0.040 265.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lupine Blue Violet",
+      "hex": "#4338CA",
+      "oklch": "oklch(0.457 0.215 277.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#16A34A",
+      "oklch": "oklch(0.627 0.170 149.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Petal Indigo",
+      "hex": "#6366F1",
+      "oklch": "oklch(0.585 0.204 277.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Violet Grey",
+      "hex": "#6B7280",
+      "oklch": "oklch(0.551 0.023 264.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Meadow White",
+      "hex": "#F5F7F2",
+      "oklch": "oklch(0.973 0.007 124.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Lavender Mist",
+      "hex": "#F3F0FF",
+      "oklch": "oklch(0.962 0.020 295.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Alpine Navy",
+      "hex": "#081220",
+      "oklch": "oklch(0.181 0.033 256.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Silver Light",
+      "hex": "#D1D5DB",
+      "oklch": "oklch(0.872 0.009 258.3)"
+    },
+    {
+      "role": "Success",
+      "name": "Fresh Leaf",
+      "hex": "#4ADE80",
+      "oklch": "oklch(0.800 0.182 151.7)"
+    },
+    {
+      "role": "Info",
+      "name": "Alpine Sky",
+      "hex": "#8EA6C1",
+      "oklch": "oklch(0.716 0.048 251.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.986 0.003 286.4)",
+    "foreground": "oklch(0.208 0.040 265.8)",
+    "card": "oklch(0.973 0.007 124.4)",
+    "card-foreground": "oklch(0.208 0.040 265.8)",
+    "popover": "oklch(0.973 0.007 124.4)",
+    "popover-foreground": "oklch(0.208 0.040 265.8)",
+    "primary": "oklch(0.457 0.215 277.0)",
+    "primary-foreground": "oklch(0.986 0.003 286.4)",
+    "secondary": "oklch(0.978 0.003 128.5)",
+    "secondary-foreground": "oklch(0.181 0.033 256.7)",
+    "muted": "oklch(0.977 0.004 134.8)",
+    "muted-foreground": "oklch(0.181 0.033 256.7)",
+    "accent": "oklch(0.585 0.204 277.1)",
+    "accent-foreground": "oklch(0.208 0.040 265.8)",
+    "destructive": "oklch(0.457 0.215 277.0)",
+    "border": "oklch(0.968 0.004 286.3)",
+    "input": "oklch(0.968 0.004 286.3)",
+    "ring": "oklch(0.627 0.170 149.2)",
+    "chart-1": "oklch(0.457 0.215 277.0)",
+    "chart-2": "oklch(0.627 0.170 149.2)",
+    "chart-3": "oklch(0.585 0.204 277.1)",
+    "chart-4": "oklch(0.551 0.023 264.4)",
+    "chart-5": "oklch(0.181 0.033 256.7)",
+    "sidebar": "oklch(0.978 0.004 121.6)",
+    "sidebar-foreground": "oklch(0.208 0.040 265.8)",
+    "sidebar-primary": "oklch(0.457 0.215 277.0)",
+    "sidebar-primary-foreground": "oklch(0.986 0.003 286.4)",
+    "sidebar-accent": "oklch(0.911 0.018 286.0)",
+    "sidebar-accent-foreground": "oklch(0.457 0.215 277.0)",
+    "sidebar-border": "oklch(0.968 0.004 286.3)",
+    "sidebar-ring": "oklch(0.627 0.170 149.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.208 0.040 265.8)",
+    "foreground": "oklch(0.986 0.003 286.4)",
+    "card": "oklch(0.190 0.034 258.3)",
+    "card-foreground": "oklch(0.986 0.003 286.4)",
+    "popover": "oklch(0.190 0.034 258.3)",
+    "popover-foreground": "oklch(0.986 0.003 286.4)",
+    "primary": "oklch(0.627 0.170 149.2)",
+    "primary-foreground": "oklch(0.208 0.040 265.8)",
+    "secondary": "oklch(0.382 0.026 264.2)",
+    "secondary-foreground": "oklch(0.986 0.003 286.4)",
+    "muted": "oklch(0.382 0.026 264.2)",
+    "muted-foreground": "oklch(0.976 0.009 292.8)",
+    "accent": "oklch(0.585 0.204 277.1)",
+    "accent-foreground": "oklch(0.208 0.040 265.8)",
+    "destructive": "oklch(0.457 0.215 277.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.627 0.170 149.2)",
+    "chart-1": "oklch(0.627 0.170 149.2)",
+    "chart-2": "oklch(0.457 0.215 277.0)",
+    "chart-3": "oklch(0.585 0.204 277.1)",
+    "chart-4": "oklch(0.551 0.023 264.4)",
+    "chart-5": "oklch(0.962 0.020 295.2)",
+    "sidebar": "oklch(0.196 0.035 261.3)",
+    "sidebar-foreground": "oklch(0.986 0.003 286.4)",
+    "sidebar-primary": "oklch(0.627 0.170 149.2)",
+    "sidebar-primary-foreground": "oklch(0.208 0.040 265.8)",
+    "sidebar-accent": "oklch(0.382 0.026 264.2)",
+    "sidebar-accent-foreground": "oklch(0.986 0.003 286.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.627 0.170 149.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or Inter for structured English education UI with Noto Sans JP guidance for Japanese course labels, assessment tables, progress numerals, and compact classroom operations.",
+  "layout": "Precise 8px modular grids, 8px cards, vertical lesson-path navigation, petal-module cards, silver focus rings, leaf-green completion states, and restrained shadows for course dashboards and assessment workflows.",
+  "tags": [
+    "lupine",
+    "flower",
+    "alpine-meadow",
+    "blue-violet",
+    "leaf-green",
+    "silver",
+    "education",
+    "modular",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lupine/motif.png",
+    "board": "/systems/morphous-lupine/design-system-light.png",
+    "darkBoard": "/systems/morphous-lupine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lupine/theme.css",
+    "themeJson": "/systems/morphous-lupine/theme.json",
+    "promptsJson": "/systems/morphous-lupine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lupine flower spike motif",
+      "asset": "/systems/morphous-lupine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lupine transparent motif chroma-key source\nPrimary request: Create only a complete lupine flower spike motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A single alpine meadow lupine flower spike with accurate botanical structure: vertical raceme of layered blue-violet pea-shaped blossoms, small unopened buds near the tip, palmate leaf green foliage at the base, slender silver-green stem, natural petal veins and alpine daylight detail. Crisp opaque edges, no cast shadow.\nComposition/framing: centered complete cutout with generous padding; full flower spike visible from leaves to tip; do not crop the subject.\nLighting/mood: clean studio light with silver alpine clarity that preserves blue-violet petals, leaf green foliage, and subtle silver stem highlights.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nText: no text.\nConstraints: no vase, no hand, no meadow landscape, no butterflies, no props, no second flower spike, no watermark, no transparent checkerboard."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lupine/design-system-light.png",
+      "sourceAsset": "/systems/morphous-lupine/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lupine light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Lupine, derived from the visible lupine flower spike cutout.\nReference use: Use the lupine image in context as the source of truth. Extract the vertical modular rhythm of the flower spike, blue-violet petal actions, leaf-green success states, silver alpine light, pale meadow surfaces, and botanical vein texture. The system mood is modular education UI: course dashboards, learning paths, lesson cards, assessment tables, and classroom admin tools.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160 if available, at least 2400px wide. Use a clean grid with large readable labels.\nRequired visible sections: title \"Morphous Lupine\", motif story \"Lupine Flower Spike\", Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, lesson cards, course cards, navigation sidebar, top nav, breadcrumbs, command palette, search field, dashboard metrics, progress charts, assessment table, empty state, loading state, error state, success state, token swatches, texture samples, spacing scale, 8px radius examples, border and shadow examples.\nTypography: English product UI plus Japanese guidance using readable Gothic UI examples; include short Japanese labels such as 学習, 課題, 進捗, 成績.\nStyle/medium: polished premium product design-system presentation, precise modular grid, shadcn-compatible controls, tactile paper and petal texture accents, calm alpine education interface.\nColor palette: motif-derived blue violet, leaf green, silver, alpine white, slate ink, muted lavender, and soft meadow neutrals. Avoid unrelated saturated colors.\nText: short readable UI labels only.\nConstraints: no generic purple gradient kit, no one-note blue/purple palette, no tiny illegible token tables, no random brand names, no misspelling of Morphous Lupine, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lupine/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-lupine/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lupine dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board for Morphous Lupine. It must feel like the completed light board translated to dark mode, not a new theme.\nReference use: Use the visible lupine motif and the light Morphous Lupine board in context as references. Preserve the vertical modular spike rhythm, blue-violet petal primary actions, leaf-green success states, silver alpine highlights, lavender muted controls, and modular education UI language.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160 if available, at least 2400px wide. Use a precise grid with large readable labels.\nRequired visible sections: title \"Morphous Lupine\", \"Dark Mode\", motif story \"Lupine Flower Spike\", Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, lesson cards, course cards, navigation sidebar, top nav, breadcrumbs, command palette, search field, dashboard metrics, progress charts, assessment table, empty state, loading state, error state, success state, token swatches, texture samples, spacing scale, 8px radius examples, border and shadow examples.\nTypography: English product UI plus Japanese guidance using readable Gothic UI examples; include short Japanese labels such as 学習, 課題, 進捗, 成績.\nVisual details: deep lupine ink background, slate-violet panels, blue-violet active states, leaf-green positive feedback, silver alpine dividers and focus rings, subtle petal vein textures, restrained contrast suitable for education dashboards.\nText: short readable UI labels only.\nConstraints: no neon overload, no generic black UI, no unrelated saturated colors, no tiny illegible text, no random brand names, no misspelling of Morphous Lupine, no watermark."
+    }
+  ]
+}

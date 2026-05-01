@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tuberose",
+    "name": "Tuberose",
+    "motifName": "Tuberose Spike",
+    "motifCategory": "flower",
+    "biome": "night garden",
+    "motif": "tuberose spike"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bloom Ivory",
+      "hex": "#FFFDF6",
+      "oklch": "oklch(0.994 0.009 93.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Night Garden Ink",
+      "hex": "#081220",
+      "oklch": "oklch(0.181 0.033 256.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Stem Green",
+      "hex": "#6FAF7A",
+      "oklch": "oklch(0.697 0.102 148.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Waxy Cream",
+      "hex": "#FEF7E8",
+      "oklch": "oklch(0.978 0.021 85.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Dusk Blue",
+      "hex": "#2C3E5C",
+      "oklch": "oklch(0.363 0.057 260.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Calm Gold",
+      "hex": "#D4B36A",
+      "oklch": "oklch(0.780 0.100 85.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Surface",
+      "hex": "#FFFDF6",
+      "oklch": "oklch(0.994 0.009 93.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Petal Edge",
+      "hex": "#F4F6FA",
+      "oklch": "oklch(0.973 0.006 264.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dusk Garden",
+      "hex": "#0B2230",
+      "oklch": "oklch(0.241 0.039 238.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Moon Mist",
+      "hex": "#E6EEF3",
+      "oklch": "oklch(0.945 0.011 234.8)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Vein",
+      "hex": "#3D7859",
+      "oklch": "oklch(0.523 0.080 159.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bud Blush",
+      "hex": "#F7E6EA",
+      "oklch": "oklch(0.940 0.019 1.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.994 0.009 93.6)",
+    "foreground": "oklch(0.181 0.033 256.7)",
+    "card": "oklch(0.994 0.009 93.6)",
+    "card-foreground": "oklch(0.181 0.033 256.7)",
+    "popover": "oklch(0.994 0.009 93.6)",
+    "popover-foreground": "oklch(0.181 0.033 256.7)",
+    "primary": "oklch(0.697 0.102 148.7)",
+    "primary-foreground": "oklch(0.994 0.009 93.6)",
+    "secondary": "oklch(0.994 0.009 93.6)",
+    "secondary-foreground": "oklch(0.241 0.039 238.2)",
+    "muted": "oklch(0.994 0.009 93.6)",
+    "muted-foreground": "oklch(0.241 0.039 238.2)",
+    "accent": "oklch(0.363 0.057 260.3)",
+    "accent-foreground": "oklch(0.181 0.033 256.7)",
+    "destructive": "oklch(0.697 0.102 148.7)",
+    "border": "oklch(0.985 0.004 91.4)",
+    "input": "oklch(0.985 0.004 91.4)",
+    "ring": "oklch(0.978 0.021 85.9)",
+    "chart-1": "oklch(0.697 0.102 148.7)",
+    "chart-2": "oklch(0.978 0.021 85.9)",
+    "chart-3": "oklch(0.363 0.057 260.3)",
+    "chart-4": "oklch(0.780 0.100 85.8)",
+    "chart-5": "oklch(0.241 0.039 238.2)",
+    "sidebar": "oklch(0.994 0.009 93.6)",
+    "sidebar-foreground": "oklch(0.181 0.033 256.7)",
+    "sidebar-primary": "oklch(0.697 0.102 148.7)",
+    "sidebar-primary-foreground": "oklch(0.994 0.009 93.6)",
+    "sidebar-accent": "oklch(0.959 0.018 127.1)",
+    "sidebar-accent-foreground": "oklch(0.697 0.102 148.7)",
+    "sidebar-border": "oklch(0.985 0.004 91.4)",
+    "sidebar-ring": "oklch(0.978 0.021 85.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.181 0.033 256.7)",
+    "foreground": "oklch(0.994 0.009 93.6)",
+    "card": "oklch(0.222 0.037 242.8)",
+    "card-foreground": "oklch(0.994 0.009 93.6)",
+    "popover": "oklch(0.222 0.037 242.8)",
+    "popover-foreground": "oklch(0.994 0.009 93.6)",
+    "primary": "oklch(0.978 0.021 85.9)",
+    "primary-foreground": "oklch(0.181 0.033 256.7)",
+    "secondary": "oklch(0.423 0.030 233.8)",
+    "secondary-foreground": "oklch(0.994 0.009 93.6)",
+    "muted": "oklch(0.423 0.030 233.8)",
+    "muted-foreground": "oklch(0.985 0.003 106.4)",
+    "accent": "oklch(0.363 0.057 260.3)",
+    "accent-foreground": "oklch(0.181 0.033 256.7)",
+    "destructive": "oklch(0.697 0.102 148.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.978 0.021 85.9)",
+    "chart-1": "oklch(0.978 0.021 85.9)",
+    "chart-2": "oklch(0.697 0.102 148.7)",
+    "chart-3": "oklch(0.363 0.057 260.3)",
+    "chart-4": "oklch(0.780 0.100 85.8)",
+    "chart-5": "oklch(0.973 0.006 264.5)",
+    "sidebar": "oklch(0.207 0.036 246.9)",
+    "sidebar-foreground": "oklch(0.994 0.009 93.6)",
+    "sidebar-primary": "oklch(0.978 0.021 85.9)",
+    "sidebar-primary-foreground": "oklch(0.181 0.033 256.7)",
+    "sidebar-accent": "oklch(0.423 0.030 233.8)",
+    "sidebar-accent-foreground": "oklch(0.994 0.009 93.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.978 0.021 85.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Elegant English wellness UI with readable sans product text, calm display guidance, and Japanese typography guidance for Noto Sans JP or Yu Gothic interface text plus Mincho-style headings for quiet editorial moments.",
+  "layout": "Refined wellness dashboards, care planning, appointment workflows, and serene data views with 8px radii, ivory petal surfaces, stem-green actions, dusk-blue navigation, soft borders, and calm restrained shadows.",
+  "tags": [
+    "tuberose",
+    "flower",
+    "night-garden",
+    "ivory-bloom",
+    "green-stem",
+    "dusk-blue",
+    "refined-wellness",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tuberose/motif.png",
+    "board": "/systems/morphous-tuberose/design-system-light.png",
+    "darkBoard": "/systems/morphous-tuberose/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tuberose/theme.css",
+    "themeJson": "/systems/morphous-tuberose/theme.json",
+    "promptsJson": "/systems/morphous-tuberose/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent tuberose spike motif",
+      "asset": "/systems/morphous-tuberose/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tuberose transparent motif chroma-key source\nPrimary request: Create only a complete tuberose spike motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A single tuberose flower spike with ivory-white waxy tubular blossoms, a few unopened buds, slender green stem, subtle pale cream petal shadows, crisp botanical form, refined wellness aesthetic, and clean studio lighting. The spike should be recognizable as tuberose, not jasmine, gardenia, lily, orchid, or hyacinth.\nComposition/framing: centered complete vertical spike cutout with blossoms, buds, and stem visible; generous padding on every side; no cropping.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nLighting/mood: soft clean studio light that preserves ivory bloom structure, green stem detail, and gentle dusk-garden refinement.\nConstraints: no text, no watermark, no vase, no hand, no props, no landscape, no second flower spike, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-tuberose/design-system-light.png",
+      "sourceAsset": "/systems/morphous-tuberose/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tuberose light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn-compatible design-system board named \"Morphous Tuberose\", clearly derived from the visible tuberose spike cutout.\nReference use: Use the visible tuberose spike as the source of truth. Extract ivory waxy tubular blooms, pale cream petal shadows, faint blush bud tips, green stems, and dusk-blue night-garden depth. The board must visibly respect these motif colors and materials.\nCanvas: strict 16:9 landscape design board, target 3840x2160, wide 4K-class source asset. Do not create a square or portrait image.\nResolution and legibility: large readable section labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Tuberose, Tuberose Spike, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, soft shadow tokens, and generated asset examples.\nTypography: refined wellness product UI; elegant display guidance paired with highly readable sans UI; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for calm headings. Include short readable Japanese samples such as 予約, 施術, 静かな記録, and 健やか.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nColor palette: motif-derived near-neutrals, greens, dusk blue, and tiny pale blush only, with named swatches: Bloom Ivory, Waxy Cream, Stem Green, Leaf Vein, Dusk Blue, Night Garden Ink, Bud Blush, Moon Mist, Petal Edge, Calm Gold.\nVisual style: refined wellness system for spa, clinic, care planning, and serene product dashboards; ivory surfaces, green stem actions, dusk-blue focus and navigation, gentle petal texture, thin borders, calm shadows, crisp component edges, 8px card radius.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple gradients, no unrelated saturated colors, no beige-only flat palette, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Tuberose, no tiny illegible text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-tuberose/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-tuberose/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tuberose dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn-compatible board for \"Morphous Tuberose\" that feels like the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible tuberose motif and the visible light design-system board as references. Preserve motif-derived palette roles, component language, texture rhythm, spacing, typography choices, refined wellness mood, and asset examples.\nCanvas: strict 16:9 landscape board, target 3840x2160, wide 4K-class source asset, at least 2400px wide if possible.\nResolution and legibility: large readable labels, precise editorial grid, generous section spacing, fewer larger token rows, no dense tiny tables.\nRequired visible sections: Morphous Tuberose, Tuberose Spike, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, modal, popover, command palette/search, top navigation, sidebar navigation, metrics, charts, data table, empty state, loading state, error state, success state, texture samples, spacing scale, 8px radius guidance, border tokens, shadow tokens, semantic tokens, and generated asset examples.\nTypography: refined wellness product UI; elegant display guidance paired with readable sans UI; Japanese typography guidance using Noto Sans JP or Yu Gothic for interface text and a Mincho-style option for calm headings. Include short readable Japanese samples such as 予約, 施術, 静かな記録, and 健やか.\nTheme language: shadcn/tweakcn token language with semantic variables: background, foreground, card, primary, secondary, muted, accent, border, input, ring, chart, sidebar, radius.\nDark palette: night-garden ink and dusk-blue backgrounds, ivory bloom foregrounds, waxy cream raised cards, stem-green primary actions, leaf-vein success states, muted moon-mist borders, faint bud-blush destructive/accent state, calm-gold chart highlight.\nVisual style: refined wellness dark product system, quiet dusk-blue navigation, deep botanical surfaces, subtle tuberose petal texture, green stem focus rings, soft ivory text, crisp shadcn-style cards and controls, 8px card radius, premium restrained shadows.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon palette, no generic pure-black UI, no generic purple gradients, no unrelated saturated colors, no stock UI kit look, no random brand names, no watermark, no misspelling of Morphous Tuberose, no tiny illegible text."
+    }
+  ]
+}

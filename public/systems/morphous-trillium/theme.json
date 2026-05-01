@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-trillium",
+    "name": "Trillium",
+    "motifName": "Trillium Bloom",
+    "motifCategory": "flower",
+    "biome": "deciduous woodland",
+    "motif": "trillium bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Cream",
+      "hex": "#F7F4EE",
+      "oklch": "oklch(0.968 0.009 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Woodland Charcoal",
+      "hex": "#282A26",
+      "oklch": "oklch(0.282 0.008 128.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Trillium Leaf",
+      "hex": "#2E6B3E",
+      "oklch": "oklch(0.475 0.096 149.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Young Leaf",
+      "hex": "#6FAE5A",
+      "oklch": "oklch(0.688 0.133 138.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Burgundy Center",
+      "hex": "#5B1E2D",
+      "oklch": "oklch(0.334 0.090 8.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Signal",
+      "hex": "#A8BF76",
+      "oklch": "oklch(0.770 0.100 123.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal White",
+      "hex": "#FDFDFC",
+      "oklch": "oklch(0.994 0.001 106.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Stone",
+      "hex": "#8A8F76",
+      "oklch": "oklch(0.639 0.037 116.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Floor Ink",
+      "hex": "#1C1A18",
+      "oklch": "oklch(0.219 0.005 67.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Woodland Umber",
+      "hex": "#684E3D",
+      "oklch": "oklch(0.447 0.044 54.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Fresh Leaf",
+      "hex": "#6FAE5A",
+      "oklch": "oklch(0.688 0.133 138.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.968 0.009 84.6)",
+    "foreground": "oklch(0.282 0.008 128.8)",
+    "card": "oklch(0.994 0.001 106.4)",
+    "card-foreground": "oklch(0.282 0.008 128.8)",
+    "popover": "oklch(0.994 0.001 106.4)",
+    "popover-foreground": "oklch(0.282 0.008 128.8)",
+    "primary": "oklch(0.475 0.096 149.9)",
+    "primary-foreground": "oklch(0.968 0.009 84.6)",
+    "secondary": "oklch(0.982 0.004 91.4)",
+    "secondary-foreground": "oklch(0.219 0.005 67.6)",
+    "muted": "oklch(0.985 0.003 84.6)",
+    "muted-foreground": "oklch(0.219 0.005 67.6)",
+    "accent": "oklch(0.334 0.090 8.4)",
+    "accent-foreground": "oklch(0.968 0.009 84.6)",
+    "destructive": "oklch(0.334 0.090 8.4)",
+    "border": "oklch(0.870 0.012 111.8)",
+    "input": "oklch(0.870 0.012 111.8)",
+    "ring": "oklch(0.688 0.133 138.3)",
+    "chart-1": "oklch(0.475 0.096 149.9)",
+    "chart-2": "oklch(0.688 0.133 138.3)",
+    "chart-3": "oklch(0.334 0.090 8.4)",
+    "chart-4": "oklch(0.770 0.100 123.0)",
+    "chart-5": "oklch(0.219 0.005 67.6)",
+    "sidebar": "oklch(0.985 0.004 91.4)",
+    "sidebar-foreground": "oklch(0.282 0.008 128.8)",
+    "sidebar-primary": "oklch(0.475 0.096 149.9)",
+    "sidebar-primary-foreground": "oklch(0.968 0.009 84.6)",
+    "sidebar-accent": "oklch(0.933 0.011 149.9)",
+    "sidebar-accent-foreground": "oklch(0.475 0.096 149.9)",
+    "sidebar-border": "oklch(0.870 0.012 111.8)",
+    "sidebar-ring": "oklch(0.688 0.133 138.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.282 0.008 128.8)",
+    "foreground": "oklch(0.968 0.009 84.6)",
+    "card": "oklch(0.240 0.004 84.6)",
+    "card-foreground": "oklch(0.968 0.009 84.6)",
+    "popover": "oklch(0.240 0.004 84.6)",
+    "popover-foreground": "oklch(0.968 0.009 84.6)",
+    "primary": "oklch(0.688 0.133 138.3)",
+    "primary-foreground": "oklch(0.282 0.008 128.8)",
+    "secondary": "oklch(0.323 0.012 107.1)",
+    "secondary-foreground": "oklch(0.968 0.009 84.6)",
+    "muted": "oklch(0.323 0.012 107.1)",
+    "muted-foreground": "oklch(0.825 0.021 109.9)",
+    "accent": "oklch(0.334 0.090 8.4)",
+    "accent-foreground": "oklch(0.968 0.009 84.6)",
+    "destructive": "oklch(0.334 0.090 8.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.688 0.133 138.3)",
+    "chart-1": "oklch(0.688 0.133 138.3)",
+    "chart-2": "oklch(0.475 0.096 149.9)",
+    "chart-3": "oklch(0.334 0.090 8.4)",
+    "chart-4": "oklch(0.770 0.100 123.0)",
+    "chart-5": "oklch(0.639 0.037 116.6)",
+    "sidebar": "oklch(0.254 0.006 121.9)",
+    "sidebar-foreground": "oklch(0.968 0.009 84.6)",
+    "sidebar-primary": "oklch(0.688 0.133 138.3)",
+    "sidebar-primary-foreground": "oklch(0.282 0.008 128.8)",
+    "sidebar-accent": "oklch(0.323 0.012 107.1)",
+    "sidebar-accent-foreground": "oklch(0.968 0.009 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.688 0.133 138.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Balanced product English UI with botanical display headings, readable sans body text, calm numeric hierarchy, and Japanese typography guidance for specimen labels, compact tables, command search, and observation notes.",
+  "layout": "Precise 8px grids, 8px radii, three-leaf triangular alignment, petal-vein separators, burgundy focus marks, woodland paper texture, compact data panels, and research navigation tuned for scanning and comparison.",
+  "tags": [
+    "trillium",
+    "flower",
+    "deciduous-woodland",
+    "white-petal",
+    "leaf-green",
+    "burgundy-center",
+    "woodland-neutral",
+    "balanced-research",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-trillium/motif.png",
+    "board": "/systems/morphous-trillium/design-system-light.png",
+    "darkBoard": "/systems/morphous-trillium/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-trillium/theme.css",
+    "themeJson": "/systems/morphous-trillium/theme.json",
+    "promptsJson": "/systems/morphous-trillium/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Trillium motif",
+      "asset": "/systems/morphous-trillium/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only an isolated trillium bloom for a design-system catalog: one complete woodland trillium flower with three white petals, three broad green leaves, and a burgundy central ovary/stamens. No surrounding landscape, no props, no text.\nSubject: Accurate botanical trillium bloom, viewed from a slightly elevated three-quarter angle, crisp full silhouette, white petals with subtle cream shadows and faint veins, deep leaf green broad whorled leaves with natural texture, small burgundy center, tiny woodland-floor neutral details at the stem base only if they remain attached to the cutout. Keep the subject opaque enough for clean background removal.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop petals, leaves, or stem; single primary bloom only.\nLighting/mood: clean studio light that preserves white petal detail, leaf green texture, burgundy center, and restrained woodland research-system mood.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no insects, no animals, no full landscape, no sky, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-trillium/design-system-light.png",
+      "sourceAsset": "/systems/morphous-trillium/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Trillium\" / \"Trillium Bloom\", derived from the previously generated isolated trillium motif: three white petals, three broad green leaves, burgundy center, and woodland floor neutrals.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the trillium motif. The board must visibly respect white petal surfaces, deep leaf green structure, burgundy center accents, tan-brown woodland floor neutrals, fine petal veins, and balanced research-system calm.\nCanvas: wide 16:9 design board, exact 3840x2160 if possible, high-resolution 4K-class source image.\nResolution and legibility: at least 2400px wide; use large readable labels; avoid dense tiny text and tiny token tables.\nRequired visible sections: title \"Morphous Trillium\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, and generated asset examples.\nTypography: include English and Japanese examples; use balanced product typography, research dashboard headings, readable sans UI, quiet serif or botanical display accent only for headings, and Japanese guidance for specimen labels, compact tables, and observation notes.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, compact dashboard metrics, line/bar charts, observation timeline, empty/loading/error/success states, and token swatches.\nStyle/medium: premium shadcn/tweakcn-like product design system, realistic UI mockup, precise grid, balanced research dashboard, 8px radius cards and controls, calm operational catalog interface rather than marketing page.\nColor palette: motif-derived colors only: petal white and warm cream surfaces, deep leaf green primary structure, young leaf green accent, burgundy center signal, woodland umber/taupe borders, stone-moss neutrals, charcoal-brown ink. No unrelated saturated colors.\nVisual details: petal-vein hairline dividers, three-leaf triangular layout rhythm, burgundy focus rings and status dots, subtle woodland paper texture, pressed-specimen table rows, compact research controls, 8px radius labels.\nText: short readable labels only; section labels should include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadows, Tokens. Use only neutral sample labels such as Specimen, Plot, Survey, Active, Saved, Review.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no random brand names, no stock hero layout, no watermark, no illegible microtext, no rounded blob decoration."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-trillium/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-trillium/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode version of the \"Morphous Trillium\" / \"Trillium Bloom\" design-system board, translated from the previously generated trillium motif and light design-system board. It must feel like the same system in dark mode, not a new theme.\nReference use: Use the isolated trillium motif and the light board style as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, balanced research dashboard mood, and the 8px radius shadcn/tweakcn-like component system.\nCanvas: wide 16:9 design board, exact 3840x2160 if possible, high-resolution 4K-class source image.\nResolution and legibility: at least 2400px wide; use large readable labels; avoid dense tiny text and tiny token tables.\nRequired visible sections: title \"Morphous Trillium\", \"Dark Mode\", palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, and generated asset examples.\nTypography: include English and Japanese examples; keep balanced product typography, research dashboard headings, readable sans UI, botanical display accent for headings, and Japanese guidance for specimen labels, compact tables, and observation notes.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, compact dashboard metrics, line/bar charts, observation timeline, empty/loading/error/success states, and token swatches.\nVisual details: dark background derived from charcoal-brown woodland ink and deepest leaf shadow, pale petal text and surfaces, leaf green primary actions, burgundy center signal, woodland taupe borders, stone-moss muted states, subtle petal-vein and forest-floor texture overlays, three-leaf triangular rhythm, crisp 8px radius controls.\nStyle/medium: premium shadcn/tweakcn-like product design system, realistic UI mockup, precise grid, calm operational research dashboard, dark mode implementation reference rather than marketing page.\nColor palette: motif-derived colors only: petal white highlights, deep leaf green and young leaf green, burgundy center accents, woodland umber/taupe, stone-moss neutrals, charcoal-brown ink. Avoid neon and unrelated colors.\nText: short readable labels only; section labels should include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadows, Tokens. Use neutral sample labels such as Specimen, Plot, Survey, Active, Saved, Review.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no illegible microtext, no rounded blob decoration."
+    }
+  ]
+}

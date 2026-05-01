@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent heather sprig motif",
+    "asset": "/systems/morphous-heather/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Heather transparent motif chroma-key source\nPrimary request: Create a complete heather sprig isolated on a removable chroma-key background.\nSubject: Heather-purple blossoms, moss-green leaves, peat-brown stems, moorland softness, crisp botanical edges, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal, no shadows, gradients, texture, watermark, or text.\nConstraints: no lavender confusion, no vase, no hand, no landscape."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-heather/design-system-light.png",
+    "sourceAsset": "/systems/morphous-heather/motif.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Heather light-mode design-system board\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn board named Morphous Heather, derived from heather purple blossoms, moss green, peat brown, and moorland haze.\nRequired visible sections: palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples.\nStyle: soft landscape system with content cards, map/data panels, calm controls, and 8px radii."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-heather/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-heather/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Heather dark-mode design-system board\nPrimary request: Generate a dark-mode translation with peat-brown surfaces, heather-purple actions, moss-green states, moor-white foregrounds, and soft landscape coverage.\nRequired visible sections: dark mode palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples."
+  }
+]

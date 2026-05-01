@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cornflower",
+    "name": "Cornflower",
+    "motifName": "Cornflower Bloom",
+    "motifCategory": "flower",
+    "biome": "wheat field",
+    "motif": "cornflower bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#F7F6F0",
+      "oklch": "oklch(0.972 0.008 98.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Center Ink",
+      "hex": "#151727",
+      "oklch": "oklch(0.211 0.032 277.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cornflower Blue",
+      "hex": "#3F6FEA",
+      "oklch": "oklch(0.578 0.193 264.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Petal Vein Blue",
+      "hex": "#91A8F6",
+      "oklch": "oklch(0.745 0.116 270.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Wheat Tan",
+      "hex": "#D1A05F",
+      "oklch": "oklch(0.738 0.101 73.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#5F8A3E",
+      "oklch": "oklch(0.584 0.116 133.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal White",
+      "hex": "#FCFBF7",
+      "oklch": "oklch(0.988 0.005 95.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Straw Grey",
+      "hex": "#AFA899",
+      "oklch": "oklch(0.733 0.023 86.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Twilight Field",
+      "hex": "#102033",
+      "oklch": "oklch(0.240 0.043 253.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Straw Line",
+      "hex": "#D8C7AD",
+      "oklch": "oklch(0.837 0.040 78.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Fresh Leaf",
+      "hex": "#78A65D",
+      "oklch": "oklch(0.674 0.113 134.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.008 98.9)",
+    "foreground": "oklch(0.211 0.032 277.8)",
+    "card": "oklch(0.988 0.005 95.1)",
+    "card-foreground": "oklch(0.211 0.032 277.8)",
+    "popover": "oklch(0.988 0.005 95.1)",
+    "popover-foreground": "oklch(0.211 0.032 277.8)",
+    "primary": "oklch(0.578 0.193 264.9)",
+    "primary-foreground": "oklch(0.972 0.008 98.9)",
+    "secondary": "oklch(0.982 0.007 97.4)",
+    "secondary-foreground": "oklch(0.240 0.043 253.7)",
+    "muted": "oklch(0.984 0.007 97.3)",
+    "muted-foreground": "oklch(0.240 0.043 253.7)",
+    "accent": "oklch(0.738 0.101 73.0)",
+    "accent-foreground": "oklch(0.211 0.032 277.8)",
+    "destructive": "oklch(0.578 0.193 264.9)",
+    "border": "oklch(0.898 0.011 89.7)",
+    "input": "oklch(0.898 0.011 89.7)",
+    "ring": "oklch(0.745 0.116 270.8)",
+    "chart-1": "oklch(0.578 0.193 264.9)",
+    "chart-2": "oklch(0.745 0.116 270.8)",
+    "chart-3": "oklch(0.738 0.101 73.0)",
+    "chart-4": "oklch(0.584 0.116 133.3)",
+    "chart-5": "oklch(0.240 0.043 253.7)",
+    "sidebar": "oklch(0.982 0.005 95.1)",
+    "sidebar-foreground": "oklch(0.211 0.032 277.8)",
+    "sidebar-primary": "oklch(0.578 0.193 264.9)",
+    "sidebar-primary-foreground": "oklch(0.972 0.008 98.9)",
+    "sidebar-accent": "oklch(0.936 0.016 266.3)",
+    "sidebar-accent-foreground": "oklch(0.578 0.193 264.9)",
+    "sidebar-border": "oklch(0.898 0.011 89.7)",
+    "sidebar-ring": "oklch(0.745 0.116 270.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.211 0.032 277.8)",
+    "foreground": "oklch(0.972 0.008 98.9)",
+    "card": "oklch(0.230 0.039 259.9)",
+    "card-foreground": "oklch(0.972 0.008 98.9)",
+    "popover": "oklch(0.230 0.039 259.9)",
+    "popover-foreground": "oklch(0.972 0.008 98.9)",
+    "primary": "oklch(0.745 0.116 270.8)",
+    "primary-foreground": "oklch(0.211 0.032 277.8)",
+    "secondary": "oklch(0.358 0.024 248.5)",
+    "secondary-foreground": "oklch(0.972 0.008 98.9)",
+    "muted": "oklch(0.358 0.024 248.5)",
+    "muted-foreground": "oklch(0.867 0.014 88.7)",
+    "accent": "oklch(0.738 0.101 73.0)",
+    "accent-foreground": "oklch(0.211 0.032 277.8)",
+    "destructive": "oklch(0.578 0.193 264.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.745 0.116 270.8)",
+    "chart-1": "oklch(0.745 0.116 270.8)",
+    "chart-2": "oklch(0.578 0.193 264.9)",
+    "chart-3": "oklch(0.738 0.101 73.0)",
+    "chart-4": "oklch(0.584 0.116 133.3)",
+    "chart-5": "oklch(0.733 0.023 86.0)",
+    "sidebar": "oklch(0.224 0.037 265.3)",
+    "sidebar-foreground": "oklch(0.972 0.008 98.9)",
+    "sidebar-primary": "oklch(0.745 0.116 270.8)",
+    "sidebar-primary-foreground": "oklch(0.211 0.032 277.8)",
+    "sidebar-accent": "oklch(0.358 0.024 248.5)",
+    "sidebar-accent-foreground": "oklch(0.972 0.008 98.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.745 0.116 270.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear documentation English UI with crisp headings, readable sans body text, compact code and table labels, calm numeric hierarchy, and Japanese typography guidance for structured notes, navigation, and status-heavy product screens.",
+  "layout": "Precise 8px grids, 8px radii, petal-fringe focus rings, slender-stem dividers, wheat-row spacing rhythm, subtle paper-fiber and petal-vein texture, scan-friendly documentation navigation, and compact dashboard/data surfaces.",
+  "tags": [
+    "cornflower",
+    "flower",
+    "wheat-field",
+    "cornflower-blue",
+    "wheat-tan",
+    "leaf-green",
+    "documentation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cornflower/motif.png",
+    "board": "/systems/morphous-cornflower/design-system-light.png",
+    "darkBoard": "/systems/morphous-cornflower/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cornflower/theme.css",
+    "themeJson": "/systems/morphous-cornflower/theme.json",
+    "promptsJson": "/systems/morphous-cornflower/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Cornflower motif",
+      "asset": "/systems/morphous-cornflower/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cornflower transparent motif chroma-key source\nPrimary request: Create only an isolated cornflower bloom cutout for a Morphous design-system catalog, no surrounding wheat field scene, no props, no text.\nSubject: A single accurate cornflower bloom (Centaurea cyanus) with vivid clear-blue fringed ray florets, a deeper blue-violet center, green scaly bracts, slender leaf-green stem, and a few narrow lance-shaped leaves. Include subtle wheat-tan natural dry bract/pollen undertones only where botanically plausible; keep the flower itself blue and the foliage leaf green. Crisp botanical silhouette, natural petal texture, opaque petals suitable for clean cutout.\nComposition/framing: centered complete cutout with generous padding; bloom angled slightly upward in a clean three-quarter view; include enough stem and leaves to show form; do not crop petals, stem, or leaves.\nLighting/mood: clean studio light that preserves clear cornflower blue, wheat tan undertones, and leaf green detail without cast shadows.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no insects, no animals, no full landscape, no sky, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cornflower/design-system-light.png",
+      "sourceAsset": "/systems/morphous-cornflower/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Cornflower\" / \"Cornflower Bloom\", derived from the cornflower cutout already provided in context.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the cornflower motif image. The board must visibly respect clear blue fringed petals, deep blue-violet center, leaf-green stem and bracts, wheat-field tan context, and crisp documentation-system clarity.\nCanvas: wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if the tool cannot output 3840; use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Cornflower\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and generated asset examples.\nTypography: include English and Japanese examples; use clear documentation UI typography, readable sans UI, crisp headings, compact code/documentation labels, and calm numeric hierarchy.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, documentation tree navigation, compact dashboard metrics, line/bar charts, empty/loading/error/success states, and token swatches.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, calm documentation dashboard, 8px radius cards and controls, field-clarity system rather than marketing page.\nColor palette: cornflower blue primary from petals, deeper blue-violet ink from flower center, wheat tan surfaces and highlights, leaf green support, pale field-sky off-white background, straw beige borders, dark seed-center ink. Use only motif-derived colors plus near-neutrals from the motif and wheat-field biome.\nVisual details: fringed petal edge motifs for focus rings, slender stem dividers, wheat-row grid rhythm, subtle paper-fiber and petal-vein texture, leaf-green success states, blue documentation links and active states.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no beige-only palette, no random brand names, no stock hero layout, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cornflower/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-cornflower/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode version of the \"Morphous Cornflower\" / \"Cornflower Bloom\" design-system board, translated from the cornflower motif cutout and the light board already provided in context. It must feel like the same system in dark mode, not a new theme.\nReference use: Use the transparent cornflower bloom motif and the light design-system board as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, and the clear documentation-system UI mood.\nCanvas: wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if the tool cannot output 3840; use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Cornflower\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and generated asset examples.\nTypography: include English and Japanese examples; keep the same clear documentation UI typography, readable sans UI, crisp headings, compact code/documentation labels, and calm numeric hierarchy from the light board.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, documentation tree navigation, compact dashboard metrics, line/bar charts, empty/loading/error/success states, and token swatches.\nVisual details: dark background derived from deep seed-center ink and twilight field blue, cornflower blue primary from petals, muted wheat tan surfaces and highlights, leaf green support and success states, straw-brown borders, pale petal-blue focus rings, subtle paper-fiber and petal-vein texture overlays, fringed petal edge focus marks, slender stem dividers, wheat-row grid rhythm.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, calm documentation dashboard, 8px radius cards and controls, field-clarity system rather than marketing page.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens.\nConstraints: no neon colors, no flat pure-black background, no unrelated saturated colors, no generic purple/blue gradients, no beige-only palette, no random brand names, no stock hero layout, no watermark, no illegible microtext."
+    }
+  ]
+}

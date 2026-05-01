@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-spruce-needle",
+    "name": "Morphous Spruce Needle",
+    "motifName": "Spruce Needle",
+    "motifCategory": "plant",
+    "biome": "boreal forest",
+    "motif": "spruce needles"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Boreal Mist",
+      "hex": "#F3F7F4",
+      "oklch": "oklch(0.972 0.006 153.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Blue Spruce Ink",
+      "hex": "#091F1A",
+      "oklch": "oklch(0.219 0.030 176.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Needle Deep",
+      "hex": "#123D30",
+      "oklch": "oklch(0.326 0.053 169.7)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Needle Midline",
+      "hex": "#184B32",
+      "oklch": "oklch(0.371 0.070 158.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Shadow",
+      "hex": "#1A2F40",
+      "oklch": "oklch(0.296 0.041 244.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cone Brown",
+      "hex": "#7A3A1E",
+      "oklch": "oklch(0.427 0.098 42.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Cone Amber",
+      "hex": "#BA5A19",
+      "oklch": "oklch(0.576 0.143 49.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Spruce Signal",
+      "hex": "#2E7F5F",
+      "oklch": "oklch(0.538 0.094 163.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Needle Frost",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Boreal Veil",
+      "hex": "#E3EDE6",
+      "oklch": "oklch(0.937 0.014 155.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Lichen Edge",
+      "hex": "#AEB8B2",
+      "oklch": "oklch(0.773 0.014 159.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Needle Shadow",
+      "hex": "#081320",
+      "oklch": "oklch(0.184 0.031 253.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bark Error",
+      "hex": "#B3261E",
+      "oklch": "oklch(0.501 0.178 28.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.006 153.8)",
+    "foreground": "oklch(0.219 0.030 176.4)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.219 0.030 176.4)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.219 0.030 176.4)",
+    "primary": "oklch(0.326 0.053 169.7)",
+    "primary-foreground": "oklch(0.972 0.006 153.8)",
+    "secondary": "oklch(0.989 0.003 145.5)",
+    "secondary-foreground": "oklch(0.184 0.031 253.2)",
+    "muted": "oklch(0.993 0.002 145.6)",
+    "muted-foreground": "oklch(0.184 0.031 253.2)",
+    "accent": "oklch(0.296 0.041 244.3)",
+    "accent-foreground": "oklch(0.219 0.030 176.4)",
+    "destructive": "oklch(0.326 0.053 169.7)",
+    "border": "oklch(0.978 0.006 153.8)",
+    "input": "oklch(0.978 0.006 153.8)",
+    "ring": "oklch(0.427 0.098 42.9)",
+    "chart-1": "oklch(0.326 0.053 169.7)",
+    "chart-2": "oklch(0.427 0.098 42.9)",
+    "chart-3": "oklch(0.296 0.041 244.3)",
+    "chart-4": "oklch(0.427 0.098 42.9)",
+    "chart-5": "oklch(0.184 0.031 253.2)",
+    "sidebar": "oklch(0.990 0.002 145.6)",
+    "sidebar-foreground": "oklch(0.219 0.030 176.4)",
+    "sidebar-primary": "oklch(0.326 0.053 169.7)",
+    "sidebar-primary-foreground": "oklch(0.972 0.006 153.8)",
+    "sidebar-accent": "oklch(0.927 0.006 170.4)",
+    "sidebar-accent-foreground": "oklch(0.326 0.053 169.7)",
+    "sidebar-border": "oklch(0.978 0.006 153.8)",
+    "sidebar-ring": "oklch(0.427 0.098 42.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.219 0.030 176.4)",
+    "foreground": "oklch(0.972 0.006 153.8)",
+    "card": "oklch(0.195 0.025 229.8)",
+    "card-foreground": "oklch(0.972 0.006 153.8)",
+    "popover": "oklch(0.195 0.025 229.8)",
+    "popover-foreground": "oklch(0.972 0.006 153.8)",
+    "primary": "oklch(0.427 0.098 42.9)",
+    "primary-foreground": "oklch(0.219 0.030 176.4)",
+    "secondary": "oklch(0.377 0.021 243.0)",
+    "secondary-foreground": "oklch(0.972 0.006 153.8)",
+    "muted": "oklch(0.377 0.021 243.0)",
+    "muted-foreground": "oklch(0.957 0.010 155.1)",
+    "accent": "oklch(0.296 0.041 244.3)",
+    "accent-foreground": "oklch(0.219 0.030 176.4)",
+    "destructive": "oklch(0.326 0.053 169.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.427 0.098 42.9)",
+    "chart-1": "oklch(0.427 0.098 42.9)",
+    "chart-2": "oklch(0.326 0.053 169.7)",
+    "chart-3": "oklch(0.296 0.041 244.3)",
+    "chart-4": "oklch(0.427 0.098 42.9)",
+    "chart-5": "oklch(0.937 0.014 155.6)",
+    "sidebar": "oklch(0.201 0.023 215.8)",
+    "sidebar-foreground": "oklch(0.972 0.006 153.8)",
+    "sidebar-primary": "oklch(0.427 0.098 42.9)",
+    "sidebar-primary-foreground": "oklch(0.219 0.030 176.4)",
+    "sidebar-accent": "oklch(0.377 0.021 243.0)",
+    "sidebar-accent-foreground": "oklch(0.972 0.006 153.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.427 0.098 42.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise operations UI typography with English and Japanese guidance for dashboards, incident queues, filters, status labels, command palettes, dense tables, and approval workflows.",
+  "layout": "Crisp 8px product grids, needle-line separators, compact dashboard modules, structured navigation, restrained shadows, 8px cards and controls, and boreal texture swatches for focused operational work.",
+  "tags": [
+    "spruce-needle",
+    "plant",
+    "boreal-forest",
+    "dark-green",
+    "blue-shadow",
+    "cone-brown",
+    "operations-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-spruce-needle/motif.png",
+    "board": "/systems/morphous-spruce-needle/design-system-light.png",
+    "darkBoard": "/systems/morphous-spruce-needle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-spruce-needle/theme.css",
+    "themeJson": "/systems/morphous-spruce-needle/theme.json",
+    "promptsJson": "/systems/morphous-spruce-needle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent spruce needle motif",
+      "asset": "/systems/morphous-spruce-needle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only spruce needles as an isolated complete cutout source for a design-system motif, no environment, no props, no text.\nSubject: One natural boreal spruce twig with dense radial dark green spruce needles, cool blue shadow between needles, a few cone-brown woody stem details and tiny mature cone scales tucked near the base. Accurate spruce needle form: short stiff individual needles, crisp pointed tips, slightly waxy surface, varied deep green tones, subtle boreal neutral highlights. No full tree, no forest scene, no snow, no extra plants.\nComposition/framing: centered complete cutout with generous padding on all sides; show the whole twig and needle cluster without cropping; elegant diagonal branch gesture suitable for a motif asset.\nLighting/mood: clean studio light that preserves dark green needles, blue-shadow depth, cone-brown woody texture, and crisp operational clarity.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no decorative background, no cast shadow, no contact shadow, no reflection, no second separate subject, no animals, no flowers, no bright unrelated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-spruce-needle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Spruce Needle light-mode design-system board\nInput image: Use the visible transparent spruce needle motif as the source reference.\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Spruce Needle\", derived from the spruce needle cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible crisp operations system.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the spruce needles. The board must visibly respect dark spruce green needles, cool blue shadow between needles, cone-brown woody stems, boreal neutral highlights, pointed needle geometry, and crisp operational clarity.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, at least 2400px wide, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Spruce Needle, Spruce Needle, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: dark spruce green primary, blue shadow ink, cone brown operational secondary, boreal mist background, needle frost surfaces, spruce tip highlights, muted bark neutrals, controlled amber warning from cone brown, no unrelated colors.\nTypography: crisp operations product UI guidance with English and Japanese type. Use a precise grotesk/sans pairing for dashboards and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, data tables, filters, and incident workflow text. Include short Japanese labels such as 運用, 検索, 状態, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, operations chart, line chart, bar chart, event table, queue table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple crisp icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet operations dashboard, boreal mist paper surfaces, dark spruce primary actions, blue-shadow active navigation and focus, cone-brown secondary controls, needle-line dividers, subtle spruce-needle texture, compact data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Spruce Needle\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-spruce-needle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Spruce Needle dark-mode design-system board\nInput images: Use the visible transparent spruce needle motif and the visible light-mode design-system board as references.\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Spruce Needle\". It must feel like the same crisp operations system translated to dark mode, not a new theme, and it must remain derived from the spruce needle motif and light-mode board.\nReference use: Preserve the same palette roles, component language, layout density, 8px radius system, needle-line texture, dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance from the light board. Keep dark spruce green, blue shadow, cone brown, boreal neutrals, and crisp operations accents as the only color source.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, at least 2400px wide, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Spruce Needle, Dark Mode, Spruce Needle, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest blue-shadow spruce background, dark green elevated panels, mist text, spruce tip highlights, cone-brown secondary controls, boreal neutral borders, controlled amber warning from cone brown, deep needle green success, no unrelated colors.\nTypography: crisp operations product UI guidance with English and Japanese type. Use a precise grotesk/sans pairing for dashboards and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, data tables, filters, and incident workflow text. Include short Japanese labels such as 運用, 検索, 状態, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, operations chart, line chart, bar chart, event table, queue table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple crisp icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the needle cluster's deepest blue shadows, elevated panels in dark spruce green, boreal mist foreground text, spruce-green primary actions, blue-shadow focus rings, cone-brown secondary and warning accents, subtle needle-striation overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Spruce Needle\", no tiny illegible paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-redwood",
+    "name": "Morphous Redwood",
+    "motifName": "Redwood Trunk",
+    "motifCategory": "plant",
+    "biome": "coastal forest",
+    "motif": "redwood trunk"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fog Archive",
+      "hex": "#F4F2ED",
+      "oklch": "oklch(0.961 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Furrow Ink",
+      "hex": "#1E1B18",
+      "oklch": "oklch(0.224 0.007 67.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Redwood Rust",
+      "hex": "#8A3E2A",
+      "oklch": "oklch(0.460 0.109 35.8)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Cambium Copper",
+      "hex": "#BA6A3E",
+      "oklch": "oklch(0.606 0.118 48.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bark Deep",
+      "hex": "#5D271C",
+      "oklch": "oklch(0.347 0.082 33.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#2F4D37",
+      "oklch": "oklch(0.390 0.052 151.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Lichen Sage",
+      "hex": "#6F8B6B",
+      "oklch": "oklch(0.606 0.057 141.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Driftwood Page",
+      "hex": "#F7F5F0",
+      "oklch": "oklch(0.970 0.007 88.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Coastal Stone",
+      "hex": "#B6B2A8",
+      "oklch": "oklch(0.764 0.015 88.7)"
+    },
+    {
+      "role": "Fog",
+      "name": "Fog Grey",
+      "hex": "#D9DCDD",
+      "oklch": "oklch(0.892 0.004 219.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Root Shadow",
+      "hex": "#0F0E0C",
+      "oklch": "oklch(0.164 0.004 84.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Edge",
+      "hex": "#8D8578",
+      "oklch": "oklch(0.620 0.021 80.1)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Redwood Ember",
+      "hex": "#A6412C",
+      "oklch": "oklch(0.510 0.138 33.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.007 88.6)",
+    "foreground": "oklch(0.224 0.007 67.4)",
+    "card": "oklch(0.970 0.007 88.6)",
+    "card-foreground": "oklch(0.224 0.007 67.4)",
+    "popover": "oklch(0.970 0.007 88.6)",
+    "popover-foreground": "oklch(0.224 0.007 67.4)",
+    "primary": "oklch(0.460 0.109 35.8)",
+    "primary-foreground": "oklch(0.961 0.007 88.6)",
+    "secondary": "oklch(0.967 0.007 88.6)",
+    "secondary-foreground": "oklch(0.164 0.004 84.6)",
+    "muted": "oklch(0.967 0.007 88.6)",
+    "muted-foreground": "oklch(0.164 0.004 84.6)",
+    "accent": "oklch(0.390 0.052 151.9)",
+    "accent-foreground": "oklch(0.224 0.007 67.4)",
+    "destructive": "oklch(0.460 0.109 35.8)",
+    "border": "oklch(0.898 0.010 87.5)",
+    "input": "oklch(0.898 0.010 87.5)",
+    "ring": "oklch(0.347 0.082 33.1)",
+    "chart-1": "oklch(0.460 0.109 35.8)",
+    "chart-2": "oklch(0.347 0.082 33.1)",
+    "chart-3": "oklch(0.390 0.052 151.9)",
+    "chart-4": "oklch(0.390 0.052 151.9)",
+    "chart-5": "oklch(0.164 0.004 84.6)",
+    "sidebar": "oklch(0.967 0.007 88.6)",
+    "sidebar-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-primary": "oklch(0.460 0.109 35.8)",
+    "sidebar-primary-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-accent": "oklch(0.910 0.015 54.9)",
+    "sidebar-accent-foreground": "oklch(0.460 0.109 35.8)",
+    "sidebar-border": "oklch(0.898 0.010 87.5)",
+    "sidebar-ring": "oklch(0.347 0.082 33.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.007 67.4)",
+    "foreground": "oklch(0.961 0.007 88.6)",
+    "card": "oklch(0.184 0.005 67.5)",
+    "card-foreground": "oklch(0.961 0.007 88.6)",
+    "popover": "oklch(0.184 0.005 67.5)",
+    "popover-foreground": "oklch(0.961 0.007 88.6)",
+    "primary": "oklch(0.347 0.082 33.1)",
+    "primary-foreground": "oklch(0.224 0.007 67.4)",
+    "secondary": "oklch(0.318 0.008 84.6)",
+    "secondary-foreground": "oklch(0.961 0.007 88.6)",
+    "muted": "oklch(0.318 0.008 84.6)",
+    "muted-foreground": "oklch(0.873 0.010 87.5)",
+    "accent": "oklch(0.390 0.052 151.9)",
+    "accent-foreground": "oklch(0.224 0.007 67.4)",
+    "destructive": "oklch(0.460 0.109 35.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.347 0.082 33.1)",
+    "chart-1": "oklch(0.347 0.082 33.1)",
+    "chart-2": "oklch(0.460 0.109 35.8)",
+    "chart-3": "oklch(0.390 0.052 151.9)",
+    "chart-4": "oklch(0.390 0.052 151.9)",
+    "chart-5": "oklch(0.764 0.015 88.7)",
+    "sidebar": "oklch(0.197 0.007 78.2)",
+    "sidebar-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-primary": "oklch(0.347 0.082 33.1)",
+    "sidebar-primary-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-accent": "oklch(0.318 0.008 84.6)",
+    "sidebar-accent-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.347 0.082 33.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Sturdy editorial English UI with Japanese typography guidance for archive headings, search, citations, table numerals, command palettes, dense research notes, and calm approval states.",
+  "layout": "Monumental 8px product grids, vertical bark-grain texture bands, compact knowledge dashboards, citation tables, structured navigation, restrained shadows, and 8px cards and controls.",
+  "tags": [
+    "redwood",
+    "plant",
+    "coastal-forest",
+    "rust-bark",
+    "deep-green",
+    "fog-grey",
+    "knowledge-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-redwood/motif.png",
+    "board": "/systems/morphous-redwood/design-system-light.png",
+    "darkBoard": "/systems/morphous-redwood/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-redwood/theme.css",
+    "themeJson": "/systems/morphous-redwood/theme.json",
+    "promptsJson": "/systems/morphous-redwood/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent redwood trunk motif",
+      "asset": "/systems/morphous-redwood/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a redwood trunk, isolated full subject, no environment, no props, no text.\nSubject: One monumental coastal redwood trunk segment, vertical complete cutout with rugged fibrous rust-red bark, deep furrows, charred umber creases, subtle fog-grey weathering, a few small deep-green moss accents tucked into bark cracks, accurate Sequoia sempervirens trunk texture and scale cues, no branches or foliage canopy.\nComposition/framing: centered complete trunk cutout with generous padding on all sides; do not crop the trunk; show the full vertical object with a natural uneven base and top edge.\nLighting/mood: clean studio light that preserves rust bark color, bark relief, weathered fog-grey highlights, and deep forest-green moss detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no forest landscape, no decorative background, no second trunk, no animals, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-redwood/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Redwood light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Redwood\", derived from the visible isolated coastal redwood trunk cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible monumental knowledge system.\nReference use: Use the visible redwood trunk motif as the source of truth. Extract rust-red fibrous bark, dark furrow shadows, deep forest moss green, fog-grey weathering, coastal forest neutrals, vertical monumental rhythm, and rugged bark texture. The board must visibly respect these motif colors and textures.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Redwood, Redwood Trunk, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: rust bark primary, deep green forest accents, fog grey surfaces, coastal forest neutrals, charcoal bark-furrow ink, cambium copper highlights, lichen sage status color, and restrained near-neutrals derived only from the motif.\nTypography: monumental knowledge product UI guidance with English and Japanese type. Use a sturdy humanist serif/sans pairing for archive headings and a Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, citations, table numerals, and dense research workflows. Include short Japanese labels such as 資料, 検索, 記録, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, knowledge graph, line chart, bar chart, archive table, citation table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet monumental archive dashboard, fog-grey paper surfaces, rust-bark primary actions, deep-green active navigation and status accents, bark-furrow borders, subtle vertical bark-grain texture, confident hierarchy, compact data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Redwood\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-redwood/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Redwood dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Redwood\". It must feel like the same monumental knowledge system translated to dark mode, not a new theme, and it must remain derived from the visible coastal redwood trunk motif and the visible light-mode board.\nReference use: Use the visible redwood trunk and light-mode board as references. Preserve rust-bark primary controls, deep forest-green navigation and status accents, fog-grey typography guidance, coastal neutral surfaces, bark-furrow borders, vertical bark texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Redwood, Dark Mode, Redwood Trunk, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest bark furrow background, warm charcoal panels, rust bark primary, cambium copper highlights, deep forest moss green accents, lichen sage status, fog-grey text, coastal stone borders, and restrained near-neutrals derived only from the motif.\nTypography: monumental knowledge product UI guidance with English and Japanese type. Use a sturdy humanist serif/sans pairing for archive headings and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, citations, table numerals, and dense research workflows. Include short Japanese labels such as 資料, 検索, 記録, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, knowledge graph, line chart, bar chart, archive table, citation table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the trunk's deepest furrows, elevated panels in bark charcoal, fog-grey foreground text, rust-bark primary actions, copper focus rings, deep-green active navigation and success/status accents, subtle vertical bark-grain overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Redwood\", no tiny illegible paragraphs."
+    }
+  ]
+}

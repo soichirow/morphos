@@ -1,0 +1,108 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 208,
+  "slug": "morphous-duckweed",
+  "name": "Morphous Duckweed",
+  "motifName": "Duckweed",
+  "motifCategory": "plant",
+  "biome": "still pond",
+  "motif": "duckweed mat",
+  "description": "A shadcn/tweakcn-compatible lightweight status system derived from a duckweed mat: lime-green primary controls, chartreuse status highlights, olive frond secondary states, deep pond-teal command surfaces, mist-water backgrounds, pond-silt borders, and tiny clustered-leaf texture for monitoring, uptime, sensor, and operational dashboards.",
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for still-pond monitoring workflows, compact Japanese labels, tabular numbers, and status-dense operational screens.",
+  "layout": "Lightweight 8px status grids, compact metric rows, calm sidebar navigation, low shadows, 8px radii, still-water dividers, and subtle duckweed texture accents.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "duckweed",
+    "plant",
+    "still-pond",
+    "lime-green",
+    "chartreuse",
+    "dark-teal",
+    "status-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Mist",
+      "hex": "#f3f7f4"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pond Ink",
+      "hex": "#001f1f"
+    },
+    {
+      "role": "Primary",
+      "name": "Lime Frond",
+      "hex": "#7cc120"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Fresh Frond",
+      "hex": "#97d829"
+    },
+    {
+      "role": "Secondary",
+      "name": "Olive Frond",
+      "hex": "#6fa31a"
+    },
+    {
+      "role": "Accent",
+      "name": "Pond Teal",
+      "hex": "#1e5e5f"
+    },
+    {
+      "role": "Surface",
+      "name": "Water Film",
+      "hex": "#eaf1ee"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Pond Neutral",
+      "hex": "#dce5df"
+    },
+    {
+      "role": "Border",
+      "name": "Pond Silt",
+      "hex": "#bcc2b8"
+    },
+    {
+      "role": "Success",
+      "name": "Duckweed Status",
+      "hex": "#7cc120"
+    },
+    {
+      "role": "Warning",
+      "name": "Sprout Signal",
+      "hex": "#d6f249"
+    },
+    {
+      "role": "Info",
+      "name": "Still Water",
+      "hex": "#8fd2c6"
+    },
+    {
+      "role": "Error",
+      "name": "Leaf Stress",
+      "hex": "#b5463a"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Pond",
+      "hex": "#0f3d3e"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

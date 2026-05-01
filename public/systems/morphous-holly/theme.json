@@ -1,0 +1,218 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-holly",
+    "name": "Morphous Holly",
+    "motifName": "Holly Leaves",
+    "motifCategory": "plant",
+    "biome": "Winter Hedgerow",
+    "motif": "glossy holly leaves with red berries and snow-white frost"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Shadow",
+      "hex": "#1f241f",
+      "oklch": "oklch(0.253 0.012 145.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Gloss Holly Green",
+      "hex": "#0f5b2e",
+      "oklch": "oklch(0.416 0.102 151.7)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Holly Green Hover",
+      "hex": "#117039",
+      "oklch": "oklch(0.480 0.120 151.7)"
+    },
+    {
+      "role": "Primary Depth",
+      "name": "Deep Holly Leaf",
+      "hex": "#0d3e21",
+      "oklch": "oklch(0.323 0.073 153.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Berry Red",
+      "hex": "#c10d2a",
+      "oklch": "oklch(0.516 0.203 22.8)"
+    },
+    {
+      "role": "Accent Bright",
+      "name": "Berry Hover",
+      "hex": "#e0202e",
+      "oklch": "oklch(0.582 0.221 25.0)"
+    },
+    {
+      "role": "Accent Depth",
+      "name": "Berry Deep",
+      "hex": "#9f1520",
+      "oklch": "oklch(0.452 0.170 24.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Frost White",
+      "hex": "#f7f9f8",
+      "oklch": "oklch(0.980 0.002 165.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ice Grey",
+      "hex": "#eef2f0",
+      "oklch": "oklch(0.958 0.005 165.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Hedge Grey",
+      "hex": "#d7d8d7",
+      "oklch": "oklch(0.881 0.002 145.6)"
+    },
+    {
+      "role": "Structure",
+      "name": "Bark Grey",
+      "hex": "#a2a7a2",
+      "oklch": "oklch(0.723 0.009 145.5)"
+    },
+    {
+      "role": "Twig",
+      "name": "Winter Twig",
+      "hex": "#6a4b32",
+      "oklch": "oklch(0.440 0.057 59.5)"
+    },
+    {
+      "role": "Status",
+      "name": "Frosted Leaf",
+      "hex": "#e6f4ea",
+      "oklch": "oklch(0.954 0.020 154.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dried Hedge Gold",
+      "hex": "#a66a19",
+      "oklch": "oklch(0.576 0.117 68.0)"
+    },
+    {
+      "role": "Info",
+      "name": "Cold Hedge Teal",
+      "hex": "#2e6f68",
+      "oklch": "oklch(0.498 0.067 185.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(1.000 0.000 89.9)",
+    "foreground": "oklch(0.253 0.012 145.2)",
+    "card": "oklch(0.980 0.002 165.1)",
+    "card-foreground": "oklch(0.253 0.012 145.2)",
+    "popover": "oklch(0.980 0.002 165.1)",
+    "popover-foreground": "oklch(0.253 0.012 145.2)",
+    "primary": "oklch(0.416 0.102 151.7)",
+    "primary-foreground": "oklch(1.000 0.000 89.9)",
+    "secondary": "oklch(0.989 0.002 165.1)",
+    "secondary-foreground": "oklch(0.253 0.012 145.2)",
+    "muted": "oklch(0.986 0.002 165.1)",
+    "muted-foreground": "oklch(0.253 0.012 145.2)",
+    "accent": "oklch(0.516 0.203 22.8)",
+    "accent-foreground": "oklch(0.253 0.012 145.2)",
+    "destructive": "oklch(0.416 0.102 151.7)",
+    "border": "oklch(0.971 0.002 165.1)",
+    "input": "oklch(0.971 0.002 165.1)",
+    "ring": "oklch(0.480 0.120 151.7)",
+    "chart-1": "oklch(0.416 0.102 151.7)",
+    "chart-2": "oklch(0.480 0.120 151.7)",
+    "chart-3": "oklch(0.516 0.203 22.8)",
+    "chart-4": "oklch(0.516 0.203 22.8)",
+    "chart-5": "oklch(0.253 0.012 145.2)",
+    "sidebar": "oklch(0.987 0.002 145.6)",
+    "sidebar-foreground": "oklch(0.253 0.012 145.2)",
+    "sidebar-primary": "oklch(0.416 0.102 151.7)",
+    "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-accent": "oklch(0.915 0.014 162.5)",
+    "sidebar-accent-foreground": "oklch(0.416 0.102 151.7)",
+    "sidebar-border": "oklch(0.971 0.002 165.1)",
+    "sidebar-ring": "oklch(0.480 0.120 151.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.253 0.012 145.2)",
+    "foreground": "oklch(1.000 0.000 89.9)",
+    "card": "oklch(0.253 0.012 145.2)",
+    "card-foreground": "oklch(1.000 0.000 89.9)",
+    "popover": "oklch(0.253 0.012 145.2)",
+    "popover-foreground": "oklch(1.000 0.000 89.9)",
+    "primary": "oklch(0.480 0.120 151.7)",
+    "primary-foreground": "oklch(0.253 0.012 145.2)",
+    "secondary": "oklch(0.430 0.008 145.4)",
+    "secondary-foreground": "oklch(1.000 0.000 89.9)",
+    "muted": "oklch(0.430 0.008 145.4)",
+    "muted-foreground": "oklch(0.980 0.002 165.1)",
+    "accent": "oklch(0.516 0.203 22.8)",
+    "accent-foreground": "oklch(0.253 0.012 145.2)",
+    "destructive": "oklch(0.416 0.102 151.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.480 0.120 151.7)",
+    "chart-1": "oklch(0.480 0.120 151.7)",
+    "chart-2": "oklch(0.416 0.102 151.7)",
+    "chart-3": "oklch(0.516 0.203 22.8)",
+    "chart-4": "oklch(0.516 0.203 22.8)",
+    "chart-5": "oklch(0.958 0.005 165.0)",
+    "sidebar": "oklch(0.253 0.012 145.2)",
+    "sidebar-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-primary": "oklch(0.480 0.120 151.7)",
+    "sidebar-primary-foreground": "oklch(0.253 0.012 145.2)",
+    "sidebar-accent": "oklch(0.430 0.008 145.4)",
+    "sidebar-accent-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.480 0.120 151.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp commerce UI with display-serif accents for seasonal merchandising, tabular price numerals, compact product labels, and Noto Sans JP guidance for Japanese storefront operations.",
+  "layout": "8px radius components, snow-white commerce surfaces, glossy holly-green actions, berry-red promotion markers, frosted cards, spiked-leaf dividers, and merchant dashboard/data views arranged on an 8px grid.",
+  "tags": [
+    "holly",
+    "plant",
+    "winter-hedgerow",
+    "gloss-green",
+    "red-berry",
+    "festive-commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-holly/motif.png",
+    "board": "/systems/morphous-holly/design-system-light.png",
+    "darkBoard": "/systems/morphous-holly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-holly/theme.css",
+    "themeJson": "/systems/morphous-holly/theme.json",
+    "promptsJson": "/systems/morphous-holly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent holly leaves motif",
+      "asset": "/systems/morphous-holly/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Holly transparent motif chroma-key source\nPrimary request: Create only holly leaves with red berries for a design-system catalog, isolated as one complete botanical subject on a removable chroma-key background.\nSubject: A compact winter hedgerow sprig of glossy deep green holly leaves, sharp scalloped edges, waxy highlights, a few curled leaves showing darker undersides, clusters of vivid red holly berries, tiny snow-white frost crystals and a few clean snow flecks resting on the leaves and berries. The identity must read as holly leaves, not ivy, laurel, mistletoe, or generic evergreen.\nComposition/framing: centered complete cutout with generous padding; include the full sprig, leaves, stems, berries, and frost without cropping. Clean studio lighting that preserves glossy leaf detail and berry shine. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no wreath, no ribbon, no pine branch, no candles, no ornaments, no wrapped gifts, no hand, no vase, no garden scene, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-holly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Holly light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Holly\", derived from the visible holly leaves motif: glossy deep green spiked leaves, vivid red berries, snow-white frost, and winter hedgerow neutrals. This board is a source reference for a shadcn/tweakcn-compatible festive commerce UI theme.\nCanvas: exact wide 16:9 composition, high-resolution 4K-class source board, target 3840 x 2160. Clean professional product design-system presentation, not a landing page.\nRequired visible sections: Morphous Holly, Holly Leaves, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from glossy holly leaf greens, near-black winter leaf undersides, waxy highlights, red berry clusters, snow-white frost, pale stem edges, cool hedgerow bark neutrals, and crisp serrated leaf geometry. The board must read as festive commerce system, not generic Christmas decoration.\nTypography: English commerce UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 価格. Keep text short, large, and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product cards, cart summary, promo strip, table rows, order list view, search command palette, sidebar navigation, dashboard metric cards, revenue chart, inventory chart, empty/loading/error states, progress, spacing scale, radius samples, border, shadow, texture samples, simple icons.\nStyle: premium festive commerce system, 8px radius, snow-white and cool pearl surfaces, glossy holly green primary actions, berry red cart and promotion accents, frosted neutral panels, fine spiked-leaf divider rhythm, tiny berry-dot status markers, waxy leaf highlight texture, dense but organized merchant dashboard.\nColor palette: use only motif-derived glossy holly green, dark leaf shadow, red berry, snow white, pale frost, twig brown, winter hedgerow grey, and subdued festive commerce accents derived from those colors.\nConstraints: no wreath, no ribbon, no ornaments, no candles, no wrapped gifts, no generic holiday illustration, no unrelated bright colors, no purple/blue gradients, no beige/brown dominance, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Holly\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-holly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Holly dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Holly\" / \"Holly Leaves\". Translate the visible light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: exact wide 16:9 composition, high-resolution 4K-class source board, target 3840 x 2160. Clean professional shadcn/tweakcn design-system presentation, festive commerce system mood.\nRequired visible sections: Morphous Holly, Holly Leaves, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve glossy holly green primary actions, vivid red berry cart and promotion accents, snow-white frost highlights, cool hedgerow grey neutrals, bark-brown support neutrals, thin spiked-leaf dividers, berry-dot status markers, merchant dashboard structure, product cards, cart summary, and 8px shadcn/tweakcn grid.\nTypography: English commerce UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, ラベル, 価格. Keep text short, large, and legible.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, product cards, cart summary, merchant metric cards, revenue line chart, inventory bar chart, donut chart, table rows, sidebar navigation, command search palette, empty/loading/error states, progress, stepper, texture samples, radius samples, spacing scale, shadow samples, token code snippets.\nVisual details: deep winter leaf backgrounds, near-black green panels, pale snow foreground, frosted glass surfaces, glossy green active states, berry red destructive and sale states, muted hedgerow borders, subtle waxy leaf texture overlays, restrained festive glow, crisp cards and controls.\nColor palette: use only motif-derived glossy holly greens, deepest leaf shadow, berry reds, snow white, pale frost, twig brown, winter hedgerow grey. Avoid unrelated saturated colors.\nConstraints: no wreath, no ribbon, no ornaments, no candles, no wrapped gifts, no generic holiday illustration, no neon green, no generic red/black gaming UI, no pure-black flat background, no unrelated purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Holly\", no tiny unreadable paragraphs."
+    }
+  ]
+}

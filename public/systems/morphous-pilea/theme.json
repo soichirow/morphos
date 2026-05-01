@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pilea",
+    "name": "Morphous Pilea",
+    "motifName": "Pilea",
+    "motifCategory": "plant",
+    "biome": "houseplant shelf",
+    "motif": "pilea leaf"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shelf Porcelain",
+      "hex": "#F8F6EF",
+      "oklch": "oklch(0.973 0.010 93.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Ledger Ink",
+      "hex": "#1E1A12",
+      "oklch": "oklch(0.220 0.016 84.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pilea Leaf",
+      "hex": "#2F8A36",
+      "oklch": "oklch(0.560 0.148 144.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stem Green",
+      "hex": "#7FB865",
+      "oklch": "oklch(0.723 0.128 136.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Glint",
+      "hex": "#DFF5C4",
+      "oklch": "oklch(0.942 0.068 127.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Soil Gold",
+      "hex": "#B88A32",
+      "oklch": "oklch(0.662 0.117 80.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Leaf Vein Paper",
+      "hex": "#FCFBF3",
+      "oklch": "oklch(0.987 0.011 100.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Soil",
+      "hex": "#E6D9C1",
+      "oklch": "oklch(0.889 0.035 82.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shelf Charcoal",
+      "hex": "#102018",
+      "oklch": "oklch(0.226 0.027 161.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Shelf Edge",
+      "hex": "#BCA98D",
+      "oklch": "oklch(0.744 0.045 77.5)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Ledger Rust",
+      "hex": "#A4493D",
+      "oklch": "oklch(0.521 0.123 29.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.010 93.6)",
+    "foreground": "oklch(0.220 0.016 84.4)",
+    "card": "oklch(0.987 0.011 100.8)",
+    "card-foreground": "oklch(0.220 0.016 84.4)",
+    "popover": "oklch(0.987 0.011 100.8)",
+    "popover-foreground": "oklch(0.220 0.016 84.4)",
+    "primary": "oklch(0.560 0.148 144.5)",
+    "primary-foreground": "oklch(0.973 0.010 93.6)",
+    "secondary": "oklch(0.981 0.011 100.8)",
+    "secondary-foreground": "oklch(0.226 0.027 161.5)",
+    "muted": "oklch(0.984 0.011 100.8)",
+    "muted-foreground": "oklch(0.226 0.027 161.5)",
+    "accent": "oklch(0.942 0.068 127.4)",
+    "accent-foreground": "oklch(0.220 0.016 84.4)",
+    "destructive": "oklch(0.560 0.148 144.5)",
+    "border": "oklch(0.952 0.019 90.5)",
+    "input": "oklch(0.952 0.019 90.5)",
+    "ring": "oklch(0.723 0.128 136.5)",
+    "chart-1": "oklch(0.560 0.148 144.5)",
+    "chart-2": "oklch(0.723 0.128 136.5)",
+    "chart-3": "oklch(0.942 0.068 127.4)",
+    "chart-4": "oklch(0.662 0.117 80.1)",
+    "chart-5": "oklch(0.226 0.027 161.5)",
+    "sidebar": "oklch(0.982 0.009 93.6)",
+    "sidebar-foreground": "oklch(0.220 0.016 84.4)",
+    "sidebar-primary": "oklch(0.560 0.148 144.5)",
+    "sidebar-primary-foreground": "oklch(0.973 0.010 93.6)",
+    "sidebar-accent": "oklch(0.934 0.025 132.1)",
+    "sidebar-accent-foreground": "oklch(0.560 0.148 144.5)",
+    "sidebar-border": "oklch(0.952 0.019 90.5)",
+    "sidebar-ring": "oklch(0.723 0.128 136.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.220 0.016 84.4)",
+    "foreground": "oklch(0.973 0.010 93.6)",
+    "card": "oklch(0.223 0.020 147.8)",
+    "card-foreground": "oklch(0.973 0.010 93.6)",
+    "popover": "oklch(0.223 0.020 147.8)",
+    "popover-foreground": "oklch(0.973 0.010 93.6)",
+    "primary": "oklch(0.723 0.128 136.5)",
+    "primary-foreground": "oklch(0.220 0.016 84.4)",
+    "secondary": "oklch(0.392 0.024 140.4)",
+    "secondary-foreground": "oklch(0.973 0.010 93.6)",
+    "muted": "oklch(0.392 0.024 140.4)",
+    "muted-foreground": "oklch(0.935 0.021 85.9)",
+    "accent": "oklch(0.942 0.068 127.4)",
+    "accent-foreground": "oklch(0.220 0.016 84.4)",
+    "destructive": "oklch(0.560 0.148 144.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.723 0.128 136.5)",
+    "chart-1": "oklch(0.723 0.128 136.5)",
+    "chart-2": "oklch(0.560 0.148 144.5)",
+    "chart-3": "oklch(0.942 0.068 127.4)",
+    "chart-4": "oklch(0.662 0.117 80.1)",
+    "chart-5": "oklch(0.889 0.035 82.9)",
+    "sidebar": "oklch(0.223 0.017 133.8)",
+    "sidebar-foreground": "oklch(0.973 0.010 93.6)",
+    "sidebar-primary": "oklch(0.723 0.128 136.5)",
+    "sidebar-primary-foreground": "oklch(0.220 0.016 84.4)",
+    "sidebar-accent": "oklch(0.392 0.024 140.4)",
+    "sidebar-accent-foreground": "oklch(0.973 0.010 93.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.723 0.128 136.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English finance UI with Japanese typography guidance for asset balances, ledger rows, table numerals, command search, and calm status messaging.",
+  "layout": "Dense finance dashboards, compact navigation, 8px radii, leaf-green actions, pale-soil surfaces, coin-leaf chart marks, and restrained shelf-neutral borders.",
+  "tags": [
+    "pilea",
+    "plant",
+    "houseplant-shelf",
+    "round-leaf",
+    "green-stem",
+    "pale-soil",
+    "compact-finance-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pilea/motif.png",
+    "board": "/systems/morphous-pilea/design-system-light.png",
+    "darkBoard": "/systems/morphous-pilea/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pilea/theme.css",
+    "themeJson": "/systems/morphous-pilea/theme.json",
+    "promptsJson": "/systems/morphous-pilea/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Pilea motif",
+      "asset": "/systems/morphous-pilea/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Pilea transparent motif chroma-key source\nPrimary request: Create only a compact pilea peperomioides leaf cluster, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: round coin-shaped pilea leaves in varied fresh greens, thin green stems radiating from a compact base, visible circular leaf veins and slight glossy botanical texture, a tiny mound of pale potting soil at the stem base only, houseplant shelf neutral feeling without showing a pot or shelf.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp opaque edges, natural soft studio light.\nComposition/framing: centered complete cutout with generous padding on all sides; no cropping; no floor plane.\nLighting/mood: clean compact finance-system mood, bright but restrained, no cast shadow and no contact shadow.\nColor palette: round green pilea leaves, deeper green stems, pale soil beige, houseplant shelf neutrals only; do not use magenta in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no props, no pot, no shelf, no second plant, no decorative background, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-pilea/design-system-light.png",
+      "sourceAsset": "/systems/morphous-pilea/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Pilea motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Pilea\".\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: compact finance system for cashflow, portfolio, ledger, and budget operations; dense, calm, precise, operational, 8px radii throughout.\nColor palette: derive only from the reference motif: round fresh green pilea leaves, deeper green stems, pale soil beige, leaf highlight yellow-green, houseplant shelf warm off-white, soft clay-beige neutrals, charcoal soil text. Include restrained compact finance accents only by using motif greens and soil neutrals, not generic blue or purple.\nLayout: polished product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small pilea motif cutout preview.\nTypography: compact English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"ピレア\", \"資産推移\", \"残高\", \"取引\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, account balance cards, ledger table, cashflow chart, portfolio bars, loading/empty/error/success states.\nTexture/materials: subtle circular leaf-vein texture, round coin-leaf chart marks, fine pale soil speckles as dividers, houseplant shelf edge borders, compact 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no purple/blue finance default colors, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-pilea/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-pilea/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible Pilea motif and the visible Morphous Pilea light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Pilea\" with the same compact finance-system coverage and layout logic as the light board.\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: compact finance system for cashflow, portfolio, ledger, and budget operations; night-mode accounting dashboard, dense, calm, precise, 8px radii throughout.\nColor palette: derive only from the reference motif: deep soil-charcoal backgrounds, dark leaf green panels, fresh pilea green primary controls, leaf highlight yellow-green chart accents, pale soil text highlights, warm shelf-neutral borders. Avoid generic blue/purple finance colors and neon colors.\nLayout: polished dark product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small pilea motif cutout preview.\nTypography: compact English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"ピレア\", \"資産推移\", \"残高\", \"取引\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, account balance cards, ledger table, cashflow chart, portfolio bars, loading/empty/error/success states.\nTexture/materials: subtle dark circular leaf-vein texture, round coin-leaf chart marks, pale soil speckle panels, houseplant shelf edge borders, compact 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no pure black flat background, no blue/purple gradients, no watermark."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ginkgo",
+    "name": "Morphous Ginkgo",
+    "motifName": "Ginkgo",
+    "motifCategory": "plant",
+    "biome": "Urban Grove",
+    "motif": "ginkgo fan leaf"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ginkgo Paper",
+      "hex": "#F7F5EF",
+      "oklch": "oklch(0.970 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Grove Ink",
+      "hex": "#2D302A",
+      "oklch": "oklch(0.304 0.011 128.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ginkgo Gold",
+      "hex": "#E1B400",
+      "oklch": "oklch(0.788 0.161 90.5)"
+    },
+    {
+      "role": "Primary Soft",
+      "name": "Golden Leaf",
+      "hex": "#F4CF3A",
+      "oklch": "oklch(0.862 0.161 94.3)"
+    },
+    {
+      "role": "Surface Warm",
+      "name": "Warm Yellow",
+      "hex": "#F7E08A",
+      "oklch": "oklch(0.907 0.109 94.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Yellow Green",
+      "hex": "#B7C64A",
+      "oklch": "oklch(0.791 0.148 115.7)"
+    },
+    {
+      "role": "Status",
+      "name": "Leaf Green",
+      "hex": "#7FAA3A",
+      "oklch": "oklch(0.684 0.148 127.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Branch Grey",
+      "hex": "#6F6A64",
+      "oklch": "oklch(0.527 0.011 72.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#B5B1AB",
+      "oklch": "oklch(0.762 0.010 78.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Paving Grey",
+      "hex": "#DAD6CC",
+      "oklch": "oklch(0.876 0.014 88.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Grove",
+      "hex": "#111817",
+      "oklch": "oklch(0.201 0.011 185.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Civic Clay",
+      "hex": "#A76E3A",
+      "oklch": "oklch(0.588 0.099 61.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.008 91.5)",
+    "foreground": "oklch(0.304 0.011 128.9)",
+    "card": "oklch(0.876 0.014 88.7)",
+    "card-foreground": "oklch(0.304 0.011 128.9)",
+    "popover": "oklch(0.876 0.014 88.7)",
+    "popover-foreground": "oklch(0.304 0.011 128.9)",
+    "primary": "oklch(0.788 0.161 90.5)",
+    "primary-foreground": "oklch(0.970 0.008 91.5)",
+    "secondary": "oklch(0.916 0.011 89.7)",
+    "secondary-foreground": "oklch(0.201 0.011 185.7)",
+    "muted": "oklch(0.904 0.013 91.5)",
+    "muted-foreground": "oklch(0.201 0.011 185.7)",
+    "accent": "oklch(0.791 0.148 115.7)",
+    "accent-foreground": "oklch(0.304 0.011 128.9)",
+    "destructive": "oklch(0.788 0.161 90.5)",
+    "border": "oklch(0.755 0.012 84.6)",
+    "input": "oklch(0.755 0.012 84.6)",
+    "ring": "oklch(0.862 0.161 94.3)",
+    "chart-1": "oklch(0.788 0.161 90.5)",
+    "chart-2": "oklch(0.862 0.161 94.3)",
+    "chart-3": "oklch(0.791 0.148 115.7)",
+    "chart-4": "oklch(0.791 0.148 115.7)",
+    "chart-5": "oklch(0.201 0.011 185.7)",
+    "sidebar": "oklch(0.910 0.013 91.5)",
+    "sidebar-foreground": "oklch(0.304 0.011 128.9)",
+    "sidebar-primary": "oklch(0.788 0.161 90.5)",
+    "sidebar-primary-foreground": "oklch(0.970 0.008 91.5)",
+    "sidebar-accent": "oklch(0.863 0.041 93.2)",
+    "sidebar-accent-foreground": "oklch(0.788 0.161 90.5)",
+    "sidebar-border": "oklch(0.755 0.012 84.6)",
+    "sidebar-ring": "oklch(0.862 0.161 94.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.304 0.011 128.9)",
+    "foreground": "oklch(0.970 0.008 91.5)",
+    "card": "oklch(0.237 0.009 159.3)",
+    "card-foreground": "oklch(0.970 0.008 91.5)",
+    "popover": "oklch(0.237 0.009 159.3)",
+    "popover-foreground": "oklch(0.970 0.008 91.5)",
+    "primary": "oklch(0.862 0.161 94.3)",
+    "primary-foreground": "oklch(0.304 0.011 128.9)",
+    "secondary": "oklch(0.280 0.007 164.5)",
+    "secondary-foreground": "oklch(0.970 0.008 91.5)",
+    "muted": "oklch(0.280 0.007 164.5)",
+    "muted-foreground": "oklch(0.778 0.010 78.3)",
+    "accent": "oklch(0.791 0.148 115.7)",
+    "accent-foreground": "oklch(0.304 0.011 128.9)",
+    "destructive": "oklch(0.788 0.161 90.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.862 0.161 94.3)",
+    "chart-1": "oklch(0.862 0.161 94.3)",
+    "chart-2": "oklch(0.788 0.161 90.5)",
+    "chart-3": "oklch(0.791 0.148 115.7)",
+    "chart-4": "oklch(0.791 0.148 115.7)",
+    "chart-5": "oklch(0.527 0.011 72.6)",
+    "sidebar": "oklch(0.258 0.010 151.4)",
+    "sidebar-foreground": "oklch(0.970 0.008 91.5)",
+    "sidebar-primary": "oklch(0.862 0.161 94.3)",
+    "sidebar-primary-foreground": "oklch(0.304 0.011 128.9)",
+    "sidebar-accent": "oklch(0.280 0.007 164.5)",
+    "sidebar-accent-foreground": "oklch(0.970 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.862 0.161 94.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for clear civic product UI with Noto Sans JP guidance for Japanese service labels, calm headings, readable forms, precise tables, and steady dashboard numerals.",
+  "layout": "8px radius components, fan-leaf radial dividers, grey branch hairline rules, stone-paper surfaces, golden primary actions, yellow-green focus rings, compact civic navigation, and dashboard/data sections arranged on an 8px grid.",
+  "tags": [
+    "ginkgo",
+    "fan-leaf",
+    "plant",
+    "urban-grove",
+    "civic",
+    "balanced-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ginkgo/motif.png",
+    "board": "/systems/morphous-ginkgo/design-system-light.png",
+    "darkBoard": "/systems/morphous-ginkgo/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ginkgo/theme.css",
+    "themeJson": "/systems/morphous-ginkgo/theme.json",
+    "promptsJson": "/systems/morphous-ginkgo/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Ginkgo motif",
+      "asset": "/systems/morphous-ginkgo/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Ginkgo transparent motif chroma-key source\nPrimary request: Create only an isolated ginkgo fan leaf motif for a design-system catalog, no environment, no props, no text.\nSubject: A precise botanical ginkgo fan leaf cutout, three overlapping fan-shaped ginkgo leaves attached to a short cool grey-brown urban branch twig. Leaves are golden yellow with subtle fresh green undertones near the petioles, fine radiating vein striations, slightly scalloped upper edges, natural matte leaf texture, and a few grey branch nodes. Accurate ginkgo biloba form, elegant balanced civic feel.\nComposition/framing: centered complete cutout with generous padding; show full fan leaf silhouettes and the short branch without cropping; clean silhouette suitable for background removal.\nLighting/mood: clean studio light that preserves golden yellow, yellow-green undertones, grey branch detail, and fine vein texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second plant species, no maple leaves, no aspen leaves, no flowers, no green-screen color in the subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-ginkgo/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Ginkgo\" / \"Ginkgo\", derived from the visible transparent ginkgo fan leaf motif: golden yellow fan leaves, subtle yellow-green undertones near petioles, fine radiating veins, cool grey-brown branch, and urban grove neutrals.\nReference use: Use the visible ginkgo motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif. The board must visibly respect only motif-derived colors: golden yellow ginkgo leaf, green undertone, grey branch, warm urban stone neutrals, soft civic paper, and restrained balanced civic accents.\nCanvas: exact wide 16:9 board, 3840 x 2160 high-resolution source. Use a precise product UI grid with large readable labels.\nRequired visible sections: title \"Morphous Ginkgo\", motif story, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI language: premium shadcn/tweakcn-style civic product system. Use 8px card radius, crisp thin borders, fan-leaf radial dividers, stone-paper surfaces, grey branch hairline rules, golden primary actions, yellow-green focus rings, quiet urban grove navigation, balanced dashboard metrics, institutional clarity without corporate blue.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, search command palette, data table, metric dashboard, civic service queue row, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"市民窓口\", \"検索\", \"状態\", \"見出し\" with clean multilingual product UI guidance.\nTexture: subtle ginkgo fan-vein pattern, grey branch grain, and urban paving microtexture, low contrast and tactile.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple gradients, no dark mode, no neon, no random brand names, no misspellings, no watermark, no animals, no maple leaves, no aspen leaves, no flowers."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-ginkgo/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Ginkgo\" / \"Ginkgo\", translated from the visible light board and the same visible transparent ginkgo motif. It must feel like the same balanced civic system adapted for dark mode, not a new theme.\nReference use: Preserve motif-derived palette roles, component language, texture, spacing, typography, 8px radius, fan-leaf radial dividers, grey branch hairline rules, golden primary actions, yellow-green focus rings, and urban grove neutrals from the Ginkgo motif and light board.\nCanvas: exact wide 16:9 board, 3840 x 2160 high-resolution source. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Ginkgo\", Dark Mode, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nDark visual system: deep urban grove charcoal background derived from branch shadow and city stone, warm clay-white text from pale civic paper, dark grey branch cards, muted stone borders, golden yellow active states, yellow-green chart data and focus states, warm paving neutrals, subtle ginkgo fan-vein texture and branch grain.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, search command palette, data table, civic service queue row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"市民窓口\", \"検索\", \"状態\", \"見出し\" with clean multilingual product UI guidance.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple gradients, no random brand names, no misspellings, no watermark, no animals, no maple leaves, no aspen leaves, no flowers."
+    }
+  ]
+}

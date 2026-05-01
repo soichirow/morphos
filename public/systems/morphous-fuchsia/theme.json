@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fuchsia",
+    "name": "Morphous Fuchsia",
+    "motifName": "Fuchsia",
+    "motifCategory": "flower",
+    "biome": "shade basket",
+    "motif": "fuchsia flower"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fuchsia Mist",
+      "hex": "#FDF7FC",
+      "oklch": "oklch(0.982 0.009 330.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Basket Plum",
+      "hex": "#1C1324",
+      "oklch": "oklch(0.207 0.035 307.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fuchsia Magenta",
+      "hex": "#E91E8C",
+      "oklch": "oklch(0.618 0.241 355.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fuchsia Purple",
+      "hex": "#7B1FA2",
+      "oklch": "oklch(0.453 0.199 313.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fuchsia Pink",
+      "hex": "#FF4FA3",
+      "oklch": "oklch(0.695 0.223 355.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#4CAF50",
+      "oklch": "oklch(0.673 0.162 144.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Surface",
+      "hex": "#FAF8FA",
+      "oklch": "oklch(0.981 0.003 325.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Mauve",
+      "hex": "#F3E5F5",
+      "oklch": "oklch(0.938 0.026 321.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Purple",
+      "hex": "#4A148C",
+      "oklch": "oklch(0.360 0.176 296.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Basket Light",
+      "hex": "#D7CEC6",
+      "oklch": "oklch(0.856 0.015 64.3)"
+    },
+    {
+      "role": "Success",
+      "name": "Stem Green",
+      "hex": "#7CB342",
+      "oklch": "oklch(0.705 0.155 131.4)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Basket Mid",
+      "hex": "#6B6159",
+      "oklch": "oklch(0.500 0.018 61.1)"
+    },
+    {
+      "role": "Alert",
+      "name": "Pressed Bloom",
+      "hex": "#C8287C",
+      "oklch": "oklch(0.561 0.205 354.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.009 330.9)",
+    "foreground": "oklch(0.207 0.035 307.9)",
+    "card": "oklch(0.981 0.003 325.6)",
+    "card-foreground": "oklch(0.207 0.035 307.9)",
+    "popover": "oklch(0.981 0.003 325.6)",
+    "popover-foreground": "oklch(0.207 0.035 307.9)",
+    "primary": "oklch(0.618 0.241 355.3)",
+    "primary-foreground": "oklch(0.982 0.009 330.9)",
+    "secondary": "oklch(0.938 0.026 321.9)",
+    "secondary-foreground": "oklch(0.360 0.176 296.3)",
+    "muted": "oklch(0.938 0.026 321.9)",
+    "muted-foreground": "oklch(0.500 0.018 61.1)",
+    "accent": "oklch(0.695 0.223 355.3)",
+    "accent-foreground": "oklch(0.207 0.035 307.9)",
+    "destructive": "oklch(0.561 0.205 354.5)",
+    "border": "oklch(0.856 0.015 64.3)",
+    "input": "oklch(0.856 0.015 64.3)",
+    "ring": "oklch(0.705 0.155 131.4)",
+    "chart-1": "oklch(0.618 0.241 355.3)",
+    "chart-2": "oklch(0.453 0.199 313.0)",
+    "chart-3": "oklch(0.673 0.162 144.2)",
+    "chart-4": "oklch(0.705 0.155 131.4)",
+    "chart-5": "oklch(0.500 0.018 61.1)",
+    "sidebar": "oklch(0.981 0.003 325.6)",
+    "sidebar-foreground": "oklch(0.207 0.035 307.9)",
+    "sidebar-primary": "oklch(0.618 0.241 355.3)",
+    "sidebar-primary-foreground": "oklch(0.982 0.009 330.9)",
+    "sidebar-accent": "oklch(0.938 0.026 321.9)",
+    "sidebar-accent-foreground": "oklch(0.618 0.241 355.3)",
+    "sidebar-border": "oklch(0.856 0.015 64.3)",
+    "sidebar-ring": "oklch(0.705 0.155 131.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.016 290.4)",
+    "foreground": "oklch(0.951 0.016 310.1)",
+    "card": "oklch(0.224 0.016 296.6)",
+    "card-foreground": "oklch(0.951 0.016 310.1)",
+    "popover": "oklch(0.224 0.016 296.6)",
+    "popover-foreground": "oklch(0.951 0.016 310.1)",
+    "primary": "oklch(0.695 0.223 355.3)",
+    "primary-foreground": "oklch(0.178 0.016 290.4)",
+    "secondary": "oklch(0.488 0.172 310.6)",
+    "secondary-foreground": "oklch(0.951 0.016 310.1)",
+    "muted": "oklch(0.279 0.024 298.9)",
+    "muted-foreground": "oklch(0.856 0.015 64.3)",
+    "accent": "oklch(0.673 0.162 144.2)",
+    "accent-foreground": "oklch(0.178 0.016 290.4)",
+    "destructive": "oklch(0.561 0.205 354.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.705 0.155 131.4)",
+    "chart-1": "oklch(0.695 0.223 355.3)",
+    "chart-2": "oklch(0.453 0.199 313.0)",
+    "chart-3": "oklch(0.673 0.162 144.2)",
+    "chart-4": "oklch(0.581 0.159 303.6)",
+    "chart-5": "oklch(0.500 0.018 61.1)",
+    "sidebar": "oklch(0.224 0.016 296.6)",
+    "sidebar-foreground": "oklch(0.951 0.016 310.1)",
+    "sidebar-primary": "oklch(0.695 0.223 355.3)",
+    "sidebar-primary-foreground": "oklch(0.178 0.016 290.4)",
+    "sidebar-accent": "oklch(0.279 0.024 298.9)",
+    "sidebar-accent-foreground": "oklch(0.951 0.016 310.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.705 0.155 131.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Energetic product UI typography with bold English hierarchy, compact numeric dashboards, and Japanese typography guidance for clean Gothic headings, labels, tables, and forms.",
+  "layout": "Pop interaction dashboards, command surfaces, dense data cards, hanging-basket navigation rhythm, 8px radii, magenta actions, purple secondary controls, green stem success states, and soft mauve borders.",
+  "tags": [
+    "fuchsia",
+    "flower",
+    "shade-basket",
+    "magenta",
+    "purple",
+    "green-stem",
+    "pop-interaction",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fuchsia/motif.png",
+    "board": "/systems/morphous-fuchsia/design-system-light.png",
+    "darkBoard": "/systems/morphous-fuchsia/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fuchsia/theme.css",
+    "themeJson": "/systems/morphous-fuchsia/theme.json",
+    "promptsJson": "/systems/morphous-fuchsia/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fuchsia flower motif",
+      "asset": "/systems/morphous-fuchsia/motif.png",
+      "workflow": "Built-in image generation on a flat cyan chroma-key background, followed by local chroma-key removal to RGBA.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fuchsia transparent motif chroma-key source\nPrimary request: Create a complete fuchsia flower motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A dangling shade-basket fuchsia flower cluster with elegant pendant blossoms, vivid magenta outer sepals, rich purple inner corollas, slender green stems, small green leaves, subtle shaded basket botanical character, crisp natural petal texture, no cast shadow.\nComposition/framing: centered complete botanical cutout with several blossoms and stems visible, generous padding, no cropping, no vase, no pot, no basket hardware, no environment.\nChroma-key background: perfectly flat solid #00ffff cyan background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff or cyan anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second subject, no generic rose or orchid look."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fuchsia/design-system-light.png",
+      "sourceAsset": "/systems/morphous-fuchsia/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fuchsia light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Fuchsia, derived from the visible fuchsia flower cutout.\nReference use: Extract the palette and interaction mood from the fuchsia motif: vivid magenta petals, saturated purple corollas, green stems and leaves, shaded hanging-basket neutrals, pale petal highlights, and pop interaction accents. The board must visibly respect only these motif-derived colors.\nCanvas: wide 16:9 board, 3840x2160 high-resolution source composition, polished product design-system presentation.\nRequired visible sections: Morphous Fuchsia, Fuchsia Flower, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadows, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, top navigation, dashboard KPI tiles, line and bar charts, data table, command palette search, status chips, form validation, empty/loading/error/success states, token swatches, texture samples, spacing scale, 8px radius samples, border and shadow samples.\nTypography: include English UI hierarchy and Japanese typography samples for clear product UI; use large readable labels, not tiny paragraphs.\nStyle/medium: premium shadcn/tweakcn-like UI board, precise grid, crisp components, 8px radii, quiet surfaces with energetic pop interactions.\nColor palette: magenta, purple, green stem, shaded basket neutrals, petal white and soft mauve only. Avoid unrelated blue/orange/yellow palettes and generic gradients.\nText: use short readable labels; ensure the title reads exactly \"Morphous Fuchsia\".\nConstraints: no watermark, no random brand logos, no illegible microtext, no unrelated saturated colors, no misspelling of Morphous Fuchsia."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fuchsia/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-fuchsia/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fuchsia dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board for Morphous Fuchsia that feels like the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible fuchsia motif and visible light design-system board as references. Preserve palette roles, typography scale, 8px radius system, component language, dashboard structure, forms, tables, command/search, status states, tokens, and texture samples.\nCanvas: wide 16:9 board, 3840x2160 high-resolution source composition, polished professional design-system presentation. The top-left area must contain only the title text and motif content, with no decorative mark, no corner logo, no stamp, no signature, no watermark, no initials, and no small standalone icon.\nRequired visible sections: Morphous Fuchsia, Fuchsia Flower, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadows, Tokens, Asset Examples.\nVisual details: deep purple and shaded basket charcoal backgrounds, smoky plum elevated panels, pale petal foreground text, magenta primary actions, purple secondary controls, green stem success states, soft mauve borders, crisp shadcn-style components.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, top navigation, KPI tiles, line and bar charts, table, command palette, status chips, form validation, empty/loading/error/success states, token swatches, texture samples, spacing, 8px radius, border and shadow samples.\nTypography: English UI hierarchy and Japanese typography samples with large readable labels.\nText: use short readable labels; ensure the title reads exactly \"Morphous Fuchsia\" and include \"Dark Mode\".\nConstraints: no watermark, no random brand logos, no corner glyphs, no unrelated blue/orange/yellow palette, no neon overload, no flat pure black, no illegible microtext, no misspelling of Morphous Fuchsia."
+    }
+  ]
+}

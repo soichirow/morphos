@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bird-of-paradise",
+    "name": "Morphous Bird of Paradise",
+    "motifName": "Bird of Paradise",
+    "motifCategory": "flower",
+    "biome": "tropical garden",
+    "motif": "bird of paradise bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Petal",
+      "hex": "#fff7e8",
+      "oklch": "oklch(0.978 0.022 83.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Palm Ink",
+      "hex": "#0f1817",
+      "oklch": "oklch(0.200 0.013 187.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sunrise Orange",
+      "hex": "#ffba00",
+      "oklch": "oklch(0.831 0.171 81.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tropical Orange",
+      "hex": "#ff5a00",
+      "oklch": "oklch(0.681 0.214 40.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Strelitzia Blue",
+      "hex": "#1e63e9",
+      "oklch": "oklch(0.543 0.214 261.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Spear Leaf",
+      "hex": "#2e7d32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone Petal",
+      "hex": "#f2f3f5",
+      "oklch": "oklch(0.964 0.003 264.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Tropical Green",
+      "hex": "#4caf50",
+      "oklch": "oklch(0.673 0.162 144.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Jungle",
+      "hex": "#185e20",
+      "oklch": "oklch(0.425 0.117 144.8)"
+    },
+    {
+      "role": "Danger",
+      "name": "Bract Red",
+      "hex": "#e53935",
+      "oklch": "oklch(0.608 0.209 27.0)"
+    },
+    {
+      "role": "Focus",
+      "name": "Cobalt Blue",
+      "hex": "#0a3f85",
+      "oklch": "oklch(0.380 0.129 257.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.022 83.3)",
+    "foreground": "oklch(0.200 0.013 187.6)",
+    "card": "oklch(0.964 0.003 264.5)",
+    "card-foreground": "oklch(0.200 0.013 187.6)",
+    "popover": "oklch(0.964 0.003 264.5)",
+    "popover-foreground": "oklch(0.200 0.013 187.6)",
+    "primary": "oklch(0.831 0.171 81.5)",
+    "primary-foreground": "oklch(0.978 0.022 83.3)",
+    "secondary": "oklch(0.970 0.007 88.6)",
+    "secondary-foreground": "oklch(0.425 0.117 144.8)",
+    "muted": "oklch(0.968 0.005 78.3)",
+    "muted-foreground": "oklch(0.425 0.117 144.8)",
+    "accent": "oklch(0.543 0.214 261.9)",
+    "accent-foreground": "oklch(0.200 0.013 187.6)",
+    "destructive": "oklch(0.831 0.171 81.5)",
+    "border": "oklch(0.856 0.060 148.0)",
+    "input": "oklch(0.856 0.060 148.0)",
+    "ring": "oklch(0.681 0.214 40.1)",
+    "chart-1": "oklch(0.831 0.171 81.5)",
+    "chart-2": "oklch(0.681 0.214 40.1)",
+    "chart-3": "oklch(0.543 0.214 261.9)",
+    "chart-4": "oklch(0.523 0.135 144.2)",
+    "chart-5": "oklch(0.425 0.117 144.8)",
+    "sidebar": "oklch(0.968 0.005 78.3)",
+    "sidebar-foreground": "oklch(0.200 0.013 187.6)",
+    "sidebar-primary": "oklch(0.831 0.171 81.5)",
+    "sidebar-primary-foreground": "oklch(0.978 0.022 83.3)",
+    "sidebar-accent": "oklch(0.944 0.028 88.8)",
+    "sidebar-accent-foreground": "oklch(0.831 0.171 81.5)",
+    "sidebar-border": "oklch(0.856 0.060 148.0)",
+    "sidebar-ring": "oklch(0.681 0.214 40.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.200 0.013 187.6)",
+    "foreground": "oklch(0.978 0.022 83.3)",
+    "card": "oklch(0.350 0.086 146.4)",
+    "card-foreground": "oklch(0.978 0.022 83.3)",
+    "popover": "oklch(0.350 0.086 146.4)",
+    "popover-foreground": "oklch(0.978 0.022 83.3)",
+    "primary": "oklch(0.681 0.214 40.1)",
+    "primary-foreground": "oklch(0.200 0.013 187.6)",
+    "secondary": "oklch(0.482 0.128 144.9)",
+    "secondary-foreground": "oklch(0.978 0.022 83.3)",
+    "muted": "oklch(0.482 0.128 144.9)",
+    "muted-foreground": "oklch(0.837 0.082 139.6)",
+    "accent": "oklch(0.543 0.214 261.9)",
+    "accent-foreground": "oklch(0.200 0.013 187.6)",
+    "destructive": "oklch(0.831 0.171 81.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.681 0.214 40.1)",
+    "chart-1": "oklch(0.681 0.214 40.1)",
+    "chart-2": "oklch(0.831 0.171 81.5)",
+    "chart-3": "oklch(0.543 0.214 261.9)",
+    "chart-4": "oklch(0.523 0.135 144.2)",
+    "chart-5": "oklch(0.673 0.162 144.2)",
+    "sidebar": "oklch(0.305 0.067 148.3)",
+    "sidebar-foreground": "oklch(0.978 0.022 83.3)",
+    "sidebar-primary": "oklch(0.681 0.214 40.1)",
+    "sidebar-primary-foreground": "oklch(0.200 0.013 187.6)",
+    "sidebar-accent": "oklch(0.482 0.128 144.9)",
+    "sidebar-accent-foreground": "oklch(0.978 0.022 83.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.681 0.214 40.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Dramatic product UI with confident display hierarchy, compact interface labels, tabular numerals, and Japanese typography guidance.",
+  "layout": "Angled spear-petal composition, tropical leaf navigation, botanical rib texture, 8px radii, presentation-ready dashboard surfaces, and clear semantic token structure.",
+  "tags": [
+    "bird-of-paradise",
+    "flower",
+    "tropical",
+    "garden",
+    "dramatic",
+    "presentation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bird-of-paradise/motif.png",
+    "board": "/systems/morphous-bird-of-paradise/design-system-light.png",
+    "darkBoard": "/systems/morphous-bird-of-paradise/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bird-of-paradise/theme.css",
+    "themeJson": "/systems/morphous-bird-of-paradise/theme.json",
+    "promptsJson": "/systems/morphous-bird-of-paradise/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bird of paradise bloom motif",
+      "asset": "/systems/morphous-bird-of-paradise/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Bird of Paradise transparent motif chroma-key source\nPrimary request: Create only a bird of paradise bloom motif for a design-system catalog, isolated as one complete botanical cutout on a removable chroma-key background.\nSubject: A single Strelitzia bird of paradise bloom with dramatic orange sepals, vivid cobalt-blue arrow petals, green bracts, and a few spear-shaped tropical leaves. Botanical accuracy, crisp petal and leaf edges, sculptural flower form, rich natural texture, unmistakably bird of paradise flower.\nComposition/framing: centered complete cutout with generous padding; include the full bloom, green bract, short stem, and spear leaves without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no bird, no feathers, no orchid, no banana flower, no vase, no hand, no props, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-bird-of-paradise/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bird of Paradise light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Bird of Paradise\", derived from the visible transparent bird of paradise bloom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible dramatic presentation UI theme.\nCanvas: wide 16:9 high-resolution board, target 3840x2160, at least 2400px wide. Clean professional UI design-system presentation with large readable labels.\nRequired visible sections: Morphous Bird of Paradise, Bird of Paradise Bloom, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from orange spear-like sepals, cobalt-blue arrow petals, deep tropical green spear leaves, red-green bract gradients, botanical ribbing, and dramatic tropical garden contrast. The board must read as bird-of-paradise flower, not bird feathers, orchid, banana flower, or generic tropical UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Use crisp product-interface typography with compact presentation hierarchy. Keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, empty/loading/error/success states, spacing scale, 8px radius, border, shadow, texture samples, token chips, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, dramatic presentation system, white warm-petal background, orange primary actions, cobalt-blue accent commands, spear-leaf green secondary states, dark bract ink text, botanical rib texture, angled spear shapes, crisp 8px cards, refined shadows.\nColor constraints: use only motif-derived colors plus near-neutrals from the flower and leaves; avoid unrelated purple gradients, beach imagery, rainbow palettes, beige-only palette, neon colors, and random brand names.\nText constraints: no watermark, no long paragraphs, no tiny unreadable token walls, no misspelling of \"Morphous Bird of Paradise\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-bird-of-paradise/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bird of Paradise dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Bird of Paradise\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the bird of paradise bloom cutout.\nCanvas: wide 16:9 high-resolution board, target 3840x2160, at least 2400px wide. Clean professional UI design-system presentation with large readable labels.\nRequired visible sections: Morphous Bird of Paradise, Bird of Paradise Bloom, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the light board system language: orange spear-sepal primary actions, cobalt-blue command/accent states, spear-leaf green navigation and success states, dark palm/bract ink surfaces, red-green bract gradients, botanical rib texture, angled spear shapes, crisp 8px cards, refined shadows. Must read as bird-of-paradise flower, not a bird, feathers, orchid, or generic tropical dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, empty/loading/error/success states, spacing scale, 8px radius, border, shadow, texture samples, token chips, simple icons.\nVisual details: dark background derived from deepest palm leaf and bract colors, warm petal-neutral foreground, orange active states, cobalt-blue focus rings and command highlights, tropical green sidebars and success states, subtle leaf rib and petal fiber overlays, dramatic presentation UI with controlled contrast.\nColor constraints: no neon colors, no unrelated purple gradients, no beach imagery, no rainbow palettes, no pure-black-only flat background, no unrelated saturated colors.\nText constraints: no watermark, no long paragraphs, no tiny unreadable token walls, no random brand names, no misspelling of \"Morphous Bird of Paradise\"."
+    }
+  ]
+}

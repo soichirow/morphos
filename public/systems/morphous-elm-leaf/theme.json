@@ -1,0 +1,206 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-elm-leaf",
+    "name": "Morphous Elm Leaf",
+    "motifName": "Elm Leaf",
+    "motifCategory": "plant",
+    "biome": "Riverside Forest",
+    "motif": "serrated green elm leaf with pale veins and bark-grey petiole"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Riverside Paper",
+      "hex": "#f7f6ed",
+      "oklch": "oklch(0.971 0.012 101.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Elm Ink",
+      "hex": "#17231d",
+      "oklch": "oklch(0.243 0.020 162.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Serrated Green",
+      "hex": "#4e7650",
+      "oklch": "oklch(0.525 0.074 145.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pale Vein",
+      "hex": "#d8d9a4",
+      "oklch": "oklch(0.872 0.070 108.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "New Leaf",
+      "hex": "#8ba95e",
+      "oklch": "oklch(0.694 0.107 126.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Paper",
+      "hex": "#f2f3e6",
+      "oklch": "oklch(0.960 0.017 110.3)"
+    },
+    {
+      "role": "Border",
+      "name": "River Stone",
+      "hex": "#d4d4cb",
+      "oklch": "oklch(0.867 0.012 106.7)"
+    },
+    {
+      "role": "Structure",
+      "name": "Bark Grey",
+      "hex": "#8a918f",
+      "oklch": "oklch(0.650 0.009 177.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Riverside Moss",
+      "hex": "#6c805c",
+      "oklch": "oklch(0.574 0.058 131.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shaded Canopy",
+      "hex": "#0f1c18",
+      "oklch": "oklch(0.213 0.020 173.0)"
+    },
+    {
+      "role": "Status",
+      "name": "Fresh Growth",
+      "hex": "#6f9f62",
+      "oklch": "oklch(0.653 0.102 139.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dried Vein Gold",
+      "hex": "#c9a35a",
+      "oklch": "oklch(0.735 0.102 82.3)"
+    },
+    {
+      "role": "Info",
+      "name": "River Mist",
+      "hex": "#7fa7c7",
+      "oklch": "oklch(0.711 0.064 242.9)"
+    },
+    {
+      "role": "Danger",
+      "name": "Bark Umber",
+      "hex": "#9a5b3a",
+      "oklch": "oklch(0.536 0.095 47.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.012 101.5)",
+    "foreground": "oklch(0.243 0.020 162.7)",
+    "card": "oklch(0.960 0.017 110.3)",
+    "card-foreground": "oklch(0.243 0.020 162.7)",
+    "popover": "oklch(0.960 0.017 110.3)",
+    "popover-foreground": "oklch(0.243 0.020 162.7)",
+    "primary": "oklch(0.525 0.074 145.6)",
+    "primary-foreground": "oklch(0.971 0.012 101.5)",
+    "secondary": "oklch(0.964 0.015 106.7)",
+    "secondary-foreground": "oklch(0.213 0.020 173.0)",
+    "muted": "oklch(0.963 0.016 110.6)",
+    "muted-foreground": "oklch(0.213 0.020 173.0)",
+    "accent": "oklch(0.872 0.070 108.7)",
+    "accent-foreground": "oklch(0.243 0.020 162.7)",
+    "destructive": "oklch(0.525 0.074 145.6)",
+    "border": "oklch(0.827 0.031 123.4)",
+    "input": "oklch(0.827 0.031 123.4)",
+    "ring": "oklch(0.872 0.070 108.7)",
+    "chart-1": "oklch(0.525 0.074 145.6)",
+    "chart-2": "oklch(0.872 0.070 108.7)",
+    "chart-3": "oklch(0.872 0.070 108.7)",
+    "chart-4": "oklch(0.694 0.107 126.8)",
+    "chart-5": "oklch(0.213 0.020 173.0)",
+    "sidebar": "oklch(0.964 0.016 106.7)",
+    "sidebar-foreground": "oklch(0.243 0.020 162.7)",
+    "sidebar-primary": "oklch(0.525 0.074 145.6)",
+    "sidebar-primary-foreground": "oklch(0.971 0.012 101.5)",
+    "sidebar-accent": "oklch(0.910 0.022 123.7)",
+    "sidebar-accent-foreground": "oklch(0.525 0.074 145.6)",
+    "sidebar-border": "oklch(0.827 0.031 123.4)",
+    "sidebar-ring": "oklch(0.872 0.070 108.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.243 0.020 162.7)",
+    "foreground": "oklch(0.971 0.012 101.5)",
+    "card": "oklch(0.222 0.019 171.8)",
+    "card-foreground": "oklch(0.971 0.012 101.5)",
+    "popover": "oklch(0.222 0.019 171.8)",
+    "popover-foreground": "oklch(0.971 0.012 101.5)",
+    "primary": "oklch(0.872 0.070 108.7)",
+    "primary-foreground": "oklch(0.243 0.020 162.7)",
+    "secondary": "oklch(0.300 0.028 152.7)",
+    "secondary-foreground": "oklch(0.971 0.012 101.5)",
+    "muted": "oklch(0.300 0.028 152.7)",
+    "muted-foreground": "oklch(0.798 0.031 126.1)",
+    "accent": "oklch(0.872 0.070 108.7)",
+    "accent-foreground": "oklch(0.243 0.020 162.7)",
+    "destructive": "oklch(0.525 0.074 145.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.872 0.070 108.7)",
+    "chart-1": "oklch(0.872 0.070 108.7)",
+    "chart-2": "oklch(0.525 0.074 145.6)",
+    "chart-3": "oklch(0.872 0.070 108.7)",
+    "chart-4": "oklch(0.694 0.107 126.8)",
+    "chart-5": "oklch(0.574 0.058 131.7)",
+    "sidebar": "oklch(0.230 0.021 168.6)",
+    "sidebar-foreground": "oklch(0.971 0.012 101.5)",
+    "sidebar-primary": "oklch(0.872 0.070 108.7)",
+    "sidebar-primary-foreground": "oklch(0.243 0.020 162.7)",
+    "sidebar-accent": "oklch(0.300 0.028 152.7)",
+    "sidebar-accent-foreground": "oklch(0.971 0.012 101.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.872 0.070 108.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for dense publishing UI with Noto Sans JP guidance for Japanese editorial labels, readable article tables, compact navigation, and precise dashboard numerals.",
+  "layout": "8px radius components, off-white editorial surfaces, pale-vein separators, bark-grey rails, leaf-green actions, compact publishing navigation, and dashboard/data views arranged on an 8px grid.",
+  "tags": [
+    "elm",
+    "leaf",
+    "plant",
+    "riverside-forest",
+    "publishing",
+    "practical-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-elm-leaf/motif.png",
+    "board": "/systems/morphous-elm-leaf/design-system-light.png",
+    "darkBoard": "/systems/morphous-elm-leaf/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-elm-leaf/theme.css",
+    "themeJson": "/systems/morphous-elm-leaf/theme.json",
+    "promptsJson": "/systems/morphous-elm-leaf/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Elm Leaf motif",
+      "asset": "/systems/morphous-elm-leaf/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Elm Leaf transparent motif chroma-key source\nPrimary request: Create only an isolated elm leaf motif for a design-system catalog, no environment, no props, no text.\nSubject: A single mature elm leaf with accurate ovate asymmetrical base, sharply serrated edges, tapered point, serrated green surface, pale branching veins and midrib, slight curl and natural leaf texture, plus a short bark-grey petiole/stem. Colors must be only natural elm greens, pale vein yellow-green, bark grey, and quiet riverside forest neutrals.\nComposition/framing: centered complete cutout with generous padding; show the full leaf and short petiole without cropping; clean silhouette suitable for background removal.\nLighting/mood: clean studio light that preserves the serrated edge detail, pale vein structure, matte leaf surface, and bark-grey petiole.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second plant species, no maple leaf, no oak leaf, no flowers, no fruit, no insect, no green-screen color in the subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-elm-leaf/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Elm Leaf\" / \"Elm Leaf\", derived from the visible transparent elm leaf motif: serrated green elm leaf, pale branching veins and midrib, bark-grey petiole, and riverside forest neutrals.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the elm leaf motif. The board must visibly respect only motif-derived colors: serrated leaf greens, deep shaded greens, pale vein yellow-green, bark grey, cool riverside mist neutrals, off-white paper, and restrained practical publishing accents.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, 3840 x 2160 preferred and at least 2400px wide. Use a precise product UI grid with large readable labels.\nRequired visible sections: title \"Morphous Elm Leaf\", motif story, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI language: practical publishing system, premium shadcn/tweakcn-style editorial workflow UI. Use 8px card radius, crisp thin borders, pale vein dividers, bark-grey sidebar rails, off-white article surfaces, leaf-green primary actions, moss-green secondary actions, pale vein focus rings, muted riverside grey text, compact navigation, issue-status badges, publishing queue cards, editorial analytics dashboard, search command palette, and data tables.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, command search, article table, content calendar row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"公開\", \"検索\", \"状態\", \"見出し\", \"編集\" with clean multilingual publishing UI guidance.\nTexture: subtle elm leaf vein pattern and bark-grey fiber grain, low contrast and tactile.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple gradients, no dark mode, no neon, no random brand names, no misspellings, no watermark, no animals, no maple leaves, no oak leaves, no flowers."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-elm-leaf/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Elm Leaf\" / \"Elm Leaf\", translated from the visible light board and the same transparent elm leaf motif. It must feel like the same practical publishing system adapted for dark mode, not a new theme.\nReference use: Preserve motif-derived palette roles, component language, editorial workflow, texture, spacing, typography, 8px radius, pale vein dividers, bark-grey surfaces, leaf-green primary actions, moss secondary actions, and riverside forest neutrals from the Elm Leaf motif and light board.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, 3840 x 2160 preferred and at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Elm Leaf\", Dark Mode, palette swatches, type scale, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nDark visual system: deep riverside forest charcoal background derived from shaded elm greens and bark shadows, warm pale vein text, dark bark-grey cards, muted stone-grey borders, leaf-green active states, pale vein focus rings, moss and olive charts, restrained warning gold from dried vein highlights, subtle elm leaf vein texture and bark fiber grain.\nSpecific components: buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, breadcrumb/sidebar/top nav, command search, article table, content calendar row, metric dashboard, line/bar charts, empty/loading/error/success states, token chips.\nTypography: include English labels and Japanese examples such as \"公開\", \"検索\", \"状態\", \"見出し\", \"編集\" with clean multilingual publishing UI guidance.\nText constraints: short readable UI labels only, no long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple gradients, no random brand names, no misspellings, no watermark, no animals, no maple leaves, no oak leaves, no flowers."
+    }
+  ]
+}

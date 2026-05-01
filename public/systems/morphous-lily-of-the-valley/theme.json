@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lily-of-the-valley",
+    "name": "Lily of the Valley",
+    "motifName": "Lily of the Valley Bells",
+    "motifCategory": "flower",
+    "biome": "shade garden",
+    "motif": "lily of the valley bells"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bell Mist",
+      "hex": "#F7F8F4",
+      "oklch": "oklch(0.977 0.005 117.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Shade Ink",
+      "hex": "#2B2F2D",
+      "oklch": "oklch(0.300 0.007 164.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bell White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Leaf Vein",
+      "hex": "#E6F1E6",
+      "oklch": "oklch(0.947 0.019 145.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Stem Green",
+      "hex": "#4F7B4A",
+      "oklch": "oklch(0.538 0.089 141.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fresh Leaf",
+      "hex": "#7BAE6B",
+      "oklch": "oklch(0.698 0.109 138.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Gray",
+      "hex": "#D7DED6",
+      "oklch": "oklch(0.893 0.013 141.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Leaf Gray",
+      "hex": "#8FA391",
+      "oklch": "oklch(0.695 0.034 148.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Moss",
+      "hex": "#386339",
+      "oklch": "oklch(0.457 0.082 144.6)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Garden Shadow",
+      "hex": "#F0F3EF",
+      "oklch": "oklch(0.961 0.006 137.8)"
+    },
+    {
+      "role": "Caution",
+      "name": "Soft Stem Shadow",
+      "hex": "#6E564E",
+      "oklch": "oklch(0.475 0.034 39.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.005 117.9)",
+    "foreground": "oklch(0.300 0.007 164.6)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.300 0.007 164.6)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.300 0.007 164.6)",
+    "primary": "oklch(0.538 0.089 141.9)",
+    "primary-foreground": "oklch(0.977 0.005 117.9)",
+    "secondary": "oklch(0.991 0.003 106.4)",
+    "secondary-foreground": "oklch(0.457 0.082 144.6)",
+    "muted": "oklch(0.994 0.001 106.4)",
+    "muted-foreground": "oklch(0.457 0.082 144.6)",
+    "accent": "oklch(0.698 0.109 138.4)",
+    "accent-foreground": "oklch(0.300 0.007 164.6)",
+    "destructive": "oklch(0.538 0.089 141.9)",
+    "border": "oklch(0.962 0.004 134.8)",
+    "input": "oklch(0.962 0.004 134.8)",
+    "ring": "oklch(0.947 0.019 145.4)",
+    "chart-1": "oklch(0.538 0.089 141.9)",
+    "chart-2": "oklch(0.947 0.019 145.4)",
+    "chart-3": "oklch(0.698 0.109 138.4)",
+    "chart-4": "oklch(0.698 0.109 138.4)",
+    "chart-5": "oklch(0.457 0.082 144.6)",
+    "sidebar": "oklch(0.993 0.003 128.5)",
+    "sidebar-foreground": "oklch(0.300 0.007 164.6)",
+    "sidebar-primary": "oklch(0.538 0.089 141.9)",
+    "sidebar-primary-foreground": "oklch(0.977 0.005 117.9)",
+    "sidebar-accent": "oklch(0.947 0.010 140.5)",
+    "sidebar-accent-foreground": "oklch(0.538 0.089 141.9)",
+    "sidebar-border": "oklch(0.962 0.004 134.8)",
+    "sidebar-ring": "oklch(0.947 0.019 145.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.300 0.007 164.6)",
+    "foreground": "oklch(0.977 0.005 117.9)",
+    "card": "oklch(0.403 0.058 145.2)",
+    "card-foreground": "oklch(0.977 0.005 117.9)",
+    "popover": "oklch(0.403 0.058 145.2)",
+    "popover-foreground": "oklch(0.977 0.005 117.9)",
+    "primary": "oklch(0.947 0.019 145.4)",
+    "primary-foreground": "oklch(0.300 0.007 164.6)",
+    "secondary": "oklch(0.557 0.065 145.3)",
+    "secondary-foreground": "oklch(0.977 0.005 117.9)",
+    "muted": "oklch(0.557 0.065 145.3)",
+    "muted-foreground": "oklch(0.939 0.007 132.4)",
+    "accent": "oklch(0.698 0.109 138.4)",
+    "accent-foreground": "oklch(0.300 0.007 164.6)",
+    "destructive": "oklch(0.538 0.089 141.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.947 0.019 145.4)",
+    "chart-1": "oklch(0.947 0.019 145.4)",
+    "chart-2": "oklch(0.538 0.089 141.9)",
+    "chart-3": "oklch(0.698 0.109 138.4)",
+    "chart-4": "oklch(0.698 0.109 138.4)",
+    "chart-5": "oklch(0.893 0.013 141.8)",
+    "sidebar": "oklch(0.373 0.044 146.9)",
+    "sidebar-foreground": "oklch(0.977 0.005 117.9)",
+    "sidebar-primary": "oklch(0.947 0.019 145.4)",
+    "sidebar-primary-foreground": "oklch(0.300 0.007 164.6)",
+    "sidebar-accent": "oklch(0.557 0.065 145.3)",
+    "sidebar-accent-foreground": "oklch(0.977 0.005 117.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.947 0.019 145.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Quiet English product UI with delicate display headings, readable sans body text, compact task numerals, and Japanese typography guidance for calm labels, work notes, dense tables, and command surfaces.",
+  "layout": "Precise 8px grids, 8px radii, bell-scallop focus marks, slender stem dividers, leaf-vein texture accents, compact dashboards, calm task navigation, and soft shade-garden shadows.",
+  "tags": [
+    "lily-of-the-valley",
+    "flower",
+    "shade-garden",
+    "bell-white",
+    "leaf-green",
+    "soft-shadow",
+    "delicate-task-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lily-of-the-valley/motif.png",
+    "board": "/systems/morphous-lily-of-the-valley/design-system-light.png",
+    "darkBoard": "/systems/morphous-lily-of-the-valley/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lily-of-the-valley/theme.css",
+    "themeJson": "/systems/morphous-lily-of-the-valley/theme.json",
+    "promptsJson": "/systems/morphous-lily-of-the-valley/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Lily of the Valley motif",
+      "asset": "/systems/morphous-lily-of-the-valley/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lily of the Valley transparent motif chroma-key source\nPrimary request: Create only an isolated lily of the valley bells motif for a design-system catalog, no surrounding garden scene, no props, no text.\nSubject: A compact natural sprig cluster of lily of the valley bells: several arching leaf-green stems with small downward white bell flowers, two broad lance-shaped leaves, tiny pale green flower pedicels, accurate botanical form, crisp silhouette edges, delicate petal rims, soft shaded-white flower detail, natural leaf veins, opaque enough for clean cutout.\nComposition/framing: centered complete cutout with generous padding; show the full sprig cluster from a slightly elevated three-quarter view; do not crop any leaves, stems, or bells.\nLighting/mood: clean studio light that preserves white bell flowers, leaf green stems, cool shaded neutrals, soft garden shadow tones within the subject, and delicate task-system quietness.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no insects, no animals, no full landscape, no sky, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lily-of-the-valley/design-system-light.png",
+      "sourceAsset": "/systems/morphous-lily-of-the-valley/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Lily of the Valley\" / \"Lily of the Valley Bells\", derived from the provided transparent lily of the valley motif cutout in context.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif image. The board must visibly respect white bell flowers, leaf green blades and stems, pale green pedicels, soft garden shadow, and cool shaded neutrals for a delicate task system.\nCanvas: exact wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if exact 3840 is unavailable; use large readable section labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Lily of the Valley\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadows, tokens, and generated asset examples.\nTypography: include English and Japanese examples; use quiet task-product typography, readable sans UI, delicate display headings, compact data rhythm, and Japanese guidance for calm labels and work notes.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, compact dashboard metrics, line/bar charts, empty/loading/error/success states, and token swatches.\nStyle/medium: premium shadcn/tweakcn-style product design system board, realistic UI mockup, precise grid, calm task-management dashboard, 8px radius cards and controls, delicate and utilitarian rather than marketing page.\nColor palette: use only motif-derived colors and near-neutrals: bell white, petal ivory, pale leaf vein, fresh leaf green, shaded stem green, moss-gray border, cool shade ink, soft garden shadow, muted green-gray. No unrelated saturated accents.\nVisual details: tiny bell-scallop focus marks, slender stem separators, leaf-vein texture strips, soft shadow dividers, compact task check markers, gentle hover and selected states.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no neon, no random brand names, no stock hero layout, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lily-of-the-valley/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-lily-of-the-valley/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode version of the \"Morphous Lily of the Valley\" / \"Lily of the Valley Bells\" design-system board, translated from the provided lily of the valley motif cutout and the light board already shown in context. It must feel like the same system in dark mode, not a new theme.\nCanvas and resolution: create a true 16:9 4K source board at 3840x2160 pixels. The final image must be at least 2400 pixels wide, landscape 16:9, with large readable labels.\nReference use: Preserve motif-derived palette roles, component language, texture, spacing, typography, and the delicate task-system mood from the light board.\nRequired visible sections: title \"Morphous Lily of the Valley\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadows, tokens, and generated asset examples.\nTypography: include English and Japanese examples; keep quiet task-product typography, readable sans UI, delicate display headings, compact data rhythm, and calm Japanese labels.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, compact dashboard metrics, line/bar charts, empty/loading/error/success states, token swatches.\nVisual details: dark background derived from cool shade ink and deepest leaf shadow, bell-white text and surfaces, fresh leaf green primary controls, muted moss-gray borders, pale vein focus rings, soft garden shadow panels, tiny bell-scallop focus marks, slender stem separators, leaf-vein texture overlays.\nStyle/medium: premium shadcn/tweakcn-style product design system board, realistic UI mockup, precise grid, calm task-management dashboard, 8px radius cards and controls, delicate and utilitarian rather than marketing page.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple/blue gradients, no random brand names, no stock hero layout, no watermark, no illegible microtext."
+    }
+  ]
+}

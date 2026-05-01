@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react"
-import { Link, createFileRoute } from "@tanstack/react-router"
+import { Link, createFileRoute, useNavigate } from "@tanstack/react-router"
 import {
   Check,
   Copy,
@@ -19,14 +19,23 @@ import type { MorphousSystem } from "@/data/systems"
 import { Button } from "@/components/ui/button"
 import { OfficeDownload } from "@/components/office-download"
 import { TypographyPicker } from "@/components/typography-picker"
-import { biomes, motifCategories, systems } from "@/data/systems"
+import { allTags, biomes, motifCategories, systems } from "@/data/systems"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 import { previewAssetPath } from "@/lib/asset-preview"
 import { colorDistance } from "@/lib/color-distance"
 import { useFont } from "@/lib/use-font"
 import { usePaletteOverrides } from "@/lib/use-palette-overrides"
 
-type GallerySearch = { system?: string }
+type Bias = "light" | "dark"
+type GallerySearch = {
+  system?: string
+  q?: string
+  biome?: string
+  category?: string
+  bias?: Bias
+  tags?: string
+  sort?: SortKey
+}
 
 type LightboxItem = { src: string; alt: string; downloadName?: string }
 const LightboxContext = createContext<((item: LightboxItem) => void) | null>(null)
@@ -88,11 +97,29 @@ function Lightbox({ item, onClose }: { item: LightboxItem; onClose: () => void }
   )
 }
 
+function asString(value: unknown): string | undefined {
+  return typeof value === "string" && value.length > 0 ? value : undefined
+}
+
 export const Route = createFileRoute("/gallery")({
   component: CatalogRoute,
-  validateSearch: (search: Record<string, unknown>): GallerySearch => ({
-    system: typeof search.system === "string" ? search.system : undefined,
-  }),
+  validateSearch: (search: Record<string, unknown>): GallerySearch => {
+    const sortRaw = asString(search.sort)
+    const sort = (sortOptions as Array<string>).includes(sortRaw ?? "")
+      ? (sortRaw as SortKey)
+      : undefined
+    const biasRaw = asString(search.bias)
+    const bias: Bias | undefined = biasRaw === "light" || biasRaw === "dark" ? biasRaw : undefined
+    return {
+      system: asString(search.system),
+      q: asString(search.q),
+      biome: asString(search.biome),
+      category: asString(search.category),
+      bias,
+      tags: asString(search.tags),
+      sort,
+    }
+  },
 })
 
 type SortKey = "name" | "biome" | "motifName" | "color"
@@ -101,14 +128,74 @@ type ColorRoleKey = "Primary" | "Accent" | "Background"
 const sortOptions: Array<SortKey> = ["name", "biome", "motifName", "color"]
 const colorRoleOptions: Array<ColorRoleKey> = ["Primary", "Accent", "Background"]
 
+const tagFrequency = (() => {
+  const counts = new Map<string, number>()
+  for (const system of systems) {
+    for (const tag of system.tags) counts.set(tag, (counts.get(tag) ?? 0) + 1)
+  }
+  return counts
+})()
+const popularTags = [...allTags]
+  .sort((a, b) => (tagFrequency.get(b) ?? 0) - (tagFrequency.get(a) ?? 0) || a.localeCompare(b))
+  .slice(0, 24)
+
 function CatalogRoute() {
-  const { system: paramSlug } = Route.useSearch()
+  const search = Route.useSearch()
+  const navigate = useNavigate({ from: Route.fullPath })
+  const paramSlug = search.system
   const initialSlug =
     (paramSlug && systems.find((s) => s.slug === paramSlug)?.slug) || systems[0]?.slug || ""
-  const [query, setQuery] = useState("")
-  const [biome, setBiome] = useState("all")
-  const [category, setCategory] = useState("all")
-  const [sort, setSort] = useState<SortKey>("name")
+  const query = search.q ?? ""
+  const biome = search.biome ?? "all"
+  const category = search.category ?? "all"
+  const sort: SortKey = search.sort ?? "name"
+  const bias = search.bias
+  const selectedTags = useMemo(
+    () => (search.tags ? search.tags.split(",").filter(Boolean) : []),
+    [search.tags]
+  )
+  const updateSearch = useCallback(
+    (patch: Partial<GallerySearch>) => {
+      navigate({
+        search: (prev) => {
+          const next: GallerySearch = { ...prev, ...patch }
+          for (const key of Object.keys(next) as Array<keyof GallerySearch>) {
+            const value = next[key]
+            if (value === undefined || value === "" || value === "all") delete next[key]
+          }
+          return next
+        },
+        replace: true,
+      })
+    },
+    [navigate]
+  )
+  const setQuery = useCallback((value: string) => updateSearch({ q: value || undefined }), [updateSearch])
+  const setBiome = useCallback((value: string) => updateSearch({ biome: value }), [updateSearch])
+  const setCategory = useCallback((value: string) => updateSearch({ category: value }), [updateSearch])
+  const setSort = useCallback((value: SortKey) => updateSearch({ sort: value === "name" ? undefined : value }), [updateSearch])
+  const setBias = useCallback((value: Bias | undefined) => updateSearch({ bias: value }), [updateSearch])
+  const toggleTag = useCallback(
+    (tag: string) => {
+      const next = selectedTags.includes(tag)
+        ? selectedTags.filter((t) => t !== tag)
+        : [...selectedTags, tag]
+      updateSearch({ tags: next.length > 0 ? next.join(",") : undefined })
+    },
+    [selectedTags, updateSearch]
+  )
+  const clearAll = useCallback(() => {
+    navigate({
+      search: (prev) => ({ system: prev.system }),
+      replace: true,
+    })
+  }, [navigate])
+  const hasActiveFilters =
+    Boolean(query) ||
+    biome !== "all" ||
+    category !== "all" ||
+    Boolean(bias) ||
+    selectedTags.length > 0
   const [mode, setMode] = useState<ThemeMode>("light")
   const [activeSlug, setActiveSlug] = useState(initialSlug)
 
@@ -128,7 +215,7 @@ function CatalogRoute() {
     usePaletteOverrides(baseSystem)
 
   const filteredSystems = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
+    const tokens = query.trim().toLowerCase().split(/\s+/).filter(Boolean)
     const list = systems.filter((system) => {
       const searchText = [
         system.name,
@@ -138,14 +225,17 @@ function CatalogRoute() {
         system.motif,
         system.description,
         system.tags.join(" "),
+        system.searchBlob,
       ]
         .join(" ")
         .toLowerCase()
-      return (
-        (!normalized || searchText.includes(normalized)) &&
-        (biome === "all" || system.biome === biome) &&
-        (category === "all" || system.motifCategory === category)
-      )
+      if (tokens.length > 0 && !tokens.every((token) => searchText.includes(token))) return false
+      if (biome !== "all" && system.biome !== biome) return false
+      if (category !== "all" && system.motifCategory !== category) return false
+      if (bias === "light" && system.bgLightness <= 0.7) return false
+      if (bias === "dark" && system.bgLightness >= 0.3) return false
+      if (selectedTags.length > 0 && !selectedTags.every((tag) => system.tags.includes(tag))) return false
+      return true
     })
     if (sort === "color" && searchColor) {
       return list.slice().sort((a, b) => {
@@ -163,7 +253,7 @@ function CatalogRoute() {
           b[key]
         )
       )
-  }, [biome, category, colorRole, query, searchColor, sort])
+  }, [bias, biome, category, colorRole, query, searchColor, selectedTags, sort])
 
   return (
     <LightboxContext.Provider value={openLightbox}>
@@ -241,8 +331,18 @@ function CatalogRoute() {
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="Search motif, biome, category, prompt"
-                className="h-10 w-full rounded-lg border border-input bg-card pl-9 pr-3 text-sm outline-none transition focus:border-ring focus:ring-3 focus:ring-ring/20"
+                className="h-10 w-full rounded-lg border border-input bg-card pl-9 pr-9 text-sm outline-none transition focus:border-ring focus:ring-3 focus:ring-ring/20"
               />
+              {query ? (
+                <button
+                  type="button"
+                  onClick={() => setQuery("")}
+                  aria-label="Clear search"
+                  className="absolute right-2 top-1/2 grid size-6 -translate-y-1/2 place-items-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
+                >
+                  <X className="size-3.5" />
+                </button>
+              ) : null}
             </label>
             <div className="-mx-4 flex items-center gap-2 overflow-x-auto px-4 pb-1 sm:-mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
               <ColorSearch
@@ -262,6 +362,55 @@ function CatalogRoute() {
                 onChange={(v) => setSort(v as SortKey)}
                 options={sortOptions}
               />
+              <div className="flex rounded-lg border border-border bg-card p-1 text-xs">
+                <button
+                  type="button"
+                  onClick={() => setBias(undefined)}
+                  className={`rounded px-2 py-1 transition ${bias === undefined ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                >
+                  Any
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setBias("light")}
+                  className={`rounded px-2 py-1 transition ${bias === "light" ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                >
+                  Light bg
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setBias("dark")}
+                  className={`rounded px-2 py-1 transition ${bias === "dark" ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                >
+                  Dark bg
+                </button>
+              </div>
+              {hasActiveFilters ? (
+                <Button variant="ghost" size="sm" onClick={clearAll}>
+                  <X data-icon="inline-start" />
+                  Clear
+                </Button>
+              ) : null}
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {popularTags.map((tag) => {
+                const active = selectedTags.includes(tag)
+                return (
+                  <button
+                    key={tag}
+                    type="button"
+                    onClick={() => toggleTag(tag)}
+                    aria-pressed={active}
+                    className={`rounded-full border px-2.5 py-0.5 text-[11px] transition ${
+                      active
+                        ? "border-primary bg-primary/10 text-primary"
+                        : "border-border bg-card text-muted-foreground hover:border-ring hover:text-foreground"
+                    }`}
+                  >
+                    {tag}
+                  </button>
+                )
+              })}
             </div>
           </div>
         </header>
@@ -275,6 +424,14 @@ function CatalogRoute() {
             <p className="px-1 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
               {filteredSystems.length} system{filteredSystems.length === 1 ? "" : "s"}
             </p>
+            {filteredSystems.length === 0 ? (
+              <div className="rounded-lg border border-dashed border-border/70 p-4 text-sm text-muted-foreground">
+                <p>No systems match these filters.</p>
+                <Button variant="ghost" size="sm" onClick={clearAll} className="mt-2 -ml-2">
+                  Clear filters
+                </Button>
+              </div>
+            ) : null}
             {filteredSystems.map((system) => (
               <SystemCard
                 key={system.slug}

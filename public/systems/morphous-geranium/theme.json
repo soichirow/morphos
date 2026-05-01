@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-geranium",
+    "name": "Morphous Geranium",
+    "motifName": "Geranium",
+    "motifCategory": "flower",
+    "biome": "window box",
+    "motif": "geranium bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Sill",
+      "hex": "#FFF8EF",
+      "oklch": "oklch(0.982 0.014 74.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Ink",
+      "hex": "#1B1712",
+      "oklch": "oklch(0.208 0.011 73.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Geranium Scarlet",
+      "hex": "#D6181F",
+      "oklch": "oklch(0.558 0.217 27.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Round Leaf",
+      "hex": "#5F8D4E",
+      "oklch": "oklch(0.594 0.104 137.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Vein",
+      "hex": "#A9B94B",
+      "oklch": "oklch(0.751 0.136 116.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Petal Glow",
+      "hex": "#F05A55",
+      "oklch": "oklch(0.664 0.186 25.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Porcelain Surface",
+      "hex": "#FFFDF8",
+      "oklch": "oklch(0.994 0.007 88.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wood Wash",
+      "hex": "#D8C4AC",
+      "oklch": "oklch(0.831 0.040 72.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Potting Soil",
+      "hex": "#2A1A0F",
+      "oklch": "oklch(0.235 0.032 55.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Windowbox Wood",
+      "hex": "#8B694B",
+      "oklch": "oklch(0.548 0.062 62.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Petal Deep",
+      "hex": "#8F070C",
+      "oklch": "oklch(0.412 0.164 27.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.014 74.4)",
+    "foreground": "oklch(0.208 0.011 73.3)",
+    "card": "oklch(0.994 0.007 88.6)",
+    "card-foreground": "oklch(0.208 0.011 73.3)",
+    "popover": "oklch(0.994 0.007 88.6)",
+    "popover-foreground": "oklch(0.208 0.011 73.3)",
+    "primary": "oklch(0.558 0.217 27.0)",
+    "primary-foreground": "oklch(0.982 0.014 74.4)",
+    "secondary": "oklch(0.989 0.010 81.8)",
+    "secondary-foreground": "oklch(0.235 0.032 55.0)",
+    "muted": "oklch(0.991 0.010 87.5)",
+    "muted-foreground": "oklch(0.235 0.032 55.0)",
+    "accent": "oklch(0.751 0.136 116.7)",
+    "accent-foreground": "oklch(0.208 0.011 73.3)",
+    "destructive": "oklch(0.558 0.217 27.0)",
+    "border": "oklch(0.935 0.018 73.1)",
+    "input": "oklch(0.935 0.018 73.1)",
+    "ring": "oklch(0.594 0.104 137.7)",
+    "chart-1": "oklch(0.558 0.217 27.0)",
+    "chart-2": "oklch(0.594 0.104 137.7)",
+    "chart-3": "oklch(0.751 0.136 116.7)",
+    "chart-4": "oklch(0.664 0.186 25.4)",
+    "chart-5": "oklch(0.235 0.032 55.0)",
+    "sidebar": "oklch(0.990 0.009 78.3)",
+    "sidebar-foreground": "oklch(0.208 0.011 73.3)",
+    "sidebar-primary": "oklch(0.558 0.217 27.0)",
+    "sidebar-primary-foreground": "oklch(0.982 0.014 74.4)",
+    "sidebar-accent": "oklch(0.931 0.027 29.0)",
+    "sidebar-accent-foreground": "oklch(0.558 0.217 27.0)",
+    "sidebar-border": "oklch(0.935 0.018 73.1)",
+    "sidebar-ring": "oklch(0.594 0.104 137.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.208 0.011 73.3)",
+    "foreground": "oklch(0.982 0.014 74.4)",
+    "card": "oklch(0.226 0.025 57.9)",
+    "card-foreground": "oklch(0.982 0.014 74.4)",
+    "popover": "oklch(0.226 0.025 57.9)",
+    "popover-foreground": "oklch(0.982 0.014 74.4)",
+    "primary": "oklch(0.594 0.104 137.7)",
+    "primary-foreground": "oklch(0.208 0.011 73.3)",
+    "secondary": "oklch(0.382 0.032 59.0)",
+    "secondary-foreground": "oklch(0.982 0.014 74.4)",
+    "muted": "oklch(0.382 0.032 59.0)",
+    "muted-foreground": "oklch(0.915 0.025 75.3)",
+    "accent": "oklch(0.751 0.136 116.7)",
+    "accent-foreground": "oklch(0.208 0.011 73.3)",
+    "destructive": "oklch(0.558 0.217 27.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.594 0.104 137.7)",
+    "chart-1": "oklch(0.594 0.104 137.7)",
+    "chart-2": "oklch(0.558 0.217 27.0)",
+    "chart-3": "oklch(0.751 0.136 116.7)",
+    "chart-4": "oklch(0.664 0.186 25.4)",
+    "chart-5": "oklch(0.831 0.040 72.3)",
+    "sidebar": "oklch(0.219 0.021 56.4)",
+    "sidebar-foreground": "oklch(0.982 0.014 74.4)",
+    "sidebar-primary": "oklch(0.594 0.104 137.7)",
+    "sidebar-primary-foreground": "oklch(0.208 0.011 73.3)",
+    "sidebar-accent": "oklch(0.382 0.032 59.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.014 74.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.594 0.104 137.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English UI with Japanese typography guidance for planter dashboards, home task labels, table text, search commands, and calm status copy.",
+  "layout": "Dense home-scale dashboards, compact navigation, 8px radii, petal-red actions, round-leaf success states, soil-speckle separators, and warm window-box surfaces.",
+  "tags": [
+    "geranium",
+    "flower",
+    "window-box",
+    "scarlet-petal",
+    "round-leaf",
+    "compact-home-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-geranium/motif.png",
+    "board": "/systems/morphous-geranium/design-system-light.png",
+    "darkBoard": "/systems/morphous-geranium/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-geranium/theme.css",
+    "themeJson": "/systems/morphous-geranium/theme.json",
+    "promptsJson": "/systems/morphous-geranium/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Geranium motif",
+      "asset": "/systems/morphous-geranium/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Geranium transparent motif chroma-key source\nPrimary request: Create a single compact geranium bloom cluster with round scalloped green leaves, isolated for a transparent cutout.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: scarlet red geranium flower heads with rounded five-petal florets, a few buds, short stems, round medium-green leaves with subtle veining and scalloped edges, small hint of window-box soil/wood neutral at the stem base only.\nStyle/medium: high-detail botanical cutout, natural light, realistic painted-photographic finish, crisp opaque edges.\nComposition/framing: centered full subject, generous padding on all sides, no cropping, no floor plane.\nLighting/mood: clean compact home-system mood, bright but soft, no cast shadow and no contact shadow.\nColor palette: scarlet petals, round green leaves, warm soil brown and window-box wood neutrals only; do not use magenta in the subject.\nConstraints: background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, or lighting variation. Keep subject fully separated from background with crisp edges.\nAvoid: vase, hand, bouquet wrap, insects, landscape, text, watermark, extra decorative colors, shadows, reflections."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-geranium/design-system-light.png",
+      "sourceAsset": "/systems/morphous-geranium/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: visible geranium motif.png is the source reference for colors, texture, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Geranium\".\nCanvas: 3840 x 2160, 16:9, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: compact home system for window-box workflows, dense but calm, home-scale operational UI, 8px radii throughout.\nColor palette: derive only from the reference motif: scarlet geranium petals, deeper petal red, round leaf green, leaf vein yellow-green, window-box soil brown, weathered wood neutrals, warm off-white surface. Avoid unrelated saturated colors, generic purple or blue gradients, beige-dominant styling, and stock UI-kit colors.\nLayout: polished design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small motif cutout preview.\nTypography: clear English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"ゼラニウム\", \"窓辺の記録\", \"状態\".\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, chart lines/bars, loading/empty/error/success states.\nTexture/materials: subtle petal-vein red texture, round leaf scallop pattern, soil speckle dividers, weathered window-box wood borders.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional product design board; no marketing hero, no abstract gradients, no extra colors beyond motif-derived palette, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-geranium/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-geranium/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: visible geranium motif.png and the visible Morphous Geranium light board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Geranium\" with the same compact home-system coverage and layout logic as the light board.\nCanvas: 3840 x 2160, 16:9, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: compact home system for window-box workflows, night-mode planter dashboard, dense but calm, 8px radii throughout.\nColor palette: derive only from the reference motif: deep soil/wood dark backgrounds, scarlet geranium petal primary controls, muted petal red alerts, round leaf green success/accent, leaf-vein yellow-green chart accents, warm wood and soil borders. Avoid unrelated saturated colors, generic purple or blue gradients, and stock UI-kit colors.\nLayout: polished dark design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small motif cutout preview.\nTypography: clear English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"ゼラニウム\", \"窓辺の記録\", \"状態\".\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, chart lines/bars, loading/empty/error/success states.\nTexture/materials: subtle dark petal-vein texture, round leaf scallop pattern, soil speckle panels, weathered window-box wood borders.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional product design board; no marketing hero, no abstract gradients, no extra colors beyond motif-derived palette, no watermark."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-banyan-root",
+    "name": "Morphous Banyan Root",
+    "motifName": "Banyan Root",
+    "motifCategory": "plant",
+    "biome": "tropical grove",
+    "motif": "banyan aerial roots"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Root Paper",
+      "hex": "#F7F5F1",
+      "oklch": "oklch(0.971 0.006 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#2A2018",
+      "oklch": "oklch(0.253 0.021 60.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bark Anchor",
+      "hex": "#7A5638",
+      "oklch": "oklch(0.484 0.065 60.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Root Copper",
+      "hex": "#9B6843",
+      "oklch": "oklch(0.563 0.084 56.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Lichen",
+      "hex": "#A6B168",
+      "oklch": "oklch(0.735 0.097 115.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Canopy",
+      "hex": "#2E6A3A",
+      "oklch": "oklch(0.471 0.099 148.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Root Ivory",
+      "hex": "#FFFCF7",
+      "oklch": "oklch(0.992 0.007 80.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Warm Root Grey",
+      "hex": "#C1B9AE",
+      "oklch": "oklch(0.789 0.018 76.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Canopy Bark",
+      "hex": "#1F1C18",
+      "oklch": "oklch(0.228 0.009 75.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Root Ridge",
+      "hex": "#A08E7D",
+      "oklch": "oklch(0.658 0.033 65.6)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bark Alert",
+      "hex": "#8E3328",
+      "oklch": "oklch(0.450 0.126 29.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.006 84.6)",
+    "foreground": "oklch(0.253 0.021 60.3)",
+    "card": "oklch(0.992 0.007 80.7)",
+    "card-foreground": "oklch(0.253 0.021 60.3)",
+    "popover": "oklch(0.992 0.007 80.7)",
+    "popover-foreground": "oklch(0.253 0.021 60.3)",
+    "primary": "oklch(0.484 0.065 60.2)",
+    "primary-foreground": "oklch(0.971 0.006 84.6)",
+    "secondary": "oklch(0.983 0.007 80.7)",
+    "secondary-foreground": "oklch(0.228 0.009 75.2)",
+    "muted": "oklch(0.986 0.007 80.7)",
+    "muted-foreground": "oklch(0.228 0.009 75.2)",
+    "accent": "oklch(0.735 0.097 115.9)",
+    "accent-foreground": "oklch(0.253 0.021 60.3)",
+    "destructive": "oklch(0.450 0.126 29.7)",
+    "border": "oklch(0.921 0.011 76.6)",
+    "input": "oklch(0.921 0.011 76.6)",
+    "ring": "oklch(0.563 0.084 56.1)",
+    "chart-1": "oklch(0.484 0.065 60.2)",
+    "chart-2": "oklch(0.563 0.084 56.1)",
+    "chart-3": "oklch(0.735 0.097 115.9)",
+    "chart-4": "oklch(0.471 0.099 148.1)",
+    "chart-5": "oklch(0.228 0.009 75.2)",
+    "sidebar": "oklch(0.985 0.007 88.6)",
+    "sidebar-foreground": "oklch(0.253 0.021 60.3)",
+    "sidebar-primary": "oklch(0.484 0.065 60.2)",
+    "sidebar-primary-foreground": "oklch(0.971 0.006 84.6)",
+    "sidebar-accent": "oklch(0.934 0.013 71.3)",
+    "sidebar-accent-foreground": "oklch(0.484 0.065 60.2)",
+    "sidebar-border": "oklch(0.921 0.011 76.6)",
+    "sidebar-ring": "oklch(0.563 0.084 56.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.253 0.021 60.3)",
+    "foreground": "oklch(0.971 0.006 84.6)",
+    "card": "oklch(0.236 0.013 61.9)",
+    "card-foreground": "oklch(0.971 0.006 84.6)",
+    "popover": "oklch(0.236 0.013 61.9)",
+    "popover-foreground": "oklch(0.971 0.006 84.6)",
+    "primary": "oklch(0.563 0.084 56.1)",
+    "primary-foreground": "oklch(0.253 0.021 60.3)",
+    "secondary": "oklch(0.370 0.011 78.2)",
+    "secondary-foreground": "oklch(0.971 0.006 84.6)",
+    "muted": "oklch(0.370 0.011 78.2)",
+    "muted-foreground": "oklch(0.890 0.011 76.6)",
+    "accent": "oklch(0.735 0.097 115.9)",
+    "accent-foreground": "oklch(0.253 0.021 60.3)",
+    "destructive": "oklch(0.450 0.126 29.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.563 0.084 56.1)",
+    "chart-1": "oklch(0.563 0.084 56.1)",
+    "chart-2": "oklch(0.484 0.065 60.2)",
+    "chart-3": "oklch(0.735 0.097 115.9)",
+    "chart-4": "oklch(0.471 0.099 148.1)",
+    "chart-5": "oklch(0.789 0.018 76.1)",
+    "sidebar": "oklch(0.241 0.016 62.6)",
+    "sidebar-foreground": "oklch(0.971 0.006 84.6)",
+    "sidebar-primary": "oklch(0.563 0.084 56.1)",
+    "sidebar-primary-foreground": "oklch(0.253 0.021 60.3)",
+    "sidebar-accent": "oklch(0.370 0.011 78.2)",
+    "sidebar-accent-foreground": "oklch(0.971 0.006 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.563 0.084 56.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Enterprise English product UI with stable tabular numbers and Noto Sans JP guidance for Japanese workflow, approval, dashboard, search, table, form, and status interfaces.",
+  "layout": "Dense but calm enterprise boards, 8px radii, bark-brown navigation rails, root-line separators, warm grey data panels, braided aerial-root texture, leaf-green focus states, and scannable operational dashboards.",
+  "tags": [
+    "banyan-root",
+    "plant",
+    "tropical-grove",
+    "aerial-roots",
+    "bark-brown",
+    "leaf-green",
+    "warm-grey",
+    "rooted-enterprise-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-banyan-root/motif.png",
+    "board": "/systems/morphous-banyan-root/design-system-light.png",
+    "darkBoard": "/systems/morphous-banyan-root/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-banyan-root/theme.css",
+    "themeJson": "/systems/morphous-banyan-root/theme.json",
+    "promptsJson": "/systems/morphous-banyan-root/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent banyan aerial-root motif",
+      "asset": "/systems/morphous-banyan-root/motif.png",
+      "sourceAsset": "/systems/morphous-banyan-root/motif-chroma-source.png",
+      "workflow": "Generated with the built-in image tool on a flat #ff00ff chroma-key background, then converted to RGBA with local chroma-key removal.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Banyan Root transparent motif chroma-key source\nPrimary request: Create only a banyan aerial-root motif for a design-system catalog, isolated as a single complete botanical root subject on a removable chroma-key background.\nSubject: A compact but intricate cluster of banyan aerial roots descending from a short hidden branch node, many rope-like woody root strands merging and twisting into thicker buttress-like root forms, realistic bark-brown and warm grey ridged texture, fine root hairs, subtle mossy tropical grove patina, and a few small glossy leaf-green banyan leaves attached near the top for botanical identity. The identity must read as banyan aerial roots, not mangrove roots, vines, driftwood, bonsai, or generic tree trunk.\nComposition/framing: centered complete cutout with generous padding; include the full descending root silhouette from hanging strands to grounded buttress tips, no cropping. Clean studio lighting that preserves bark ridges, aerial-root fiber texture, leaf sheen, and warm neutral shadows. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape, no soil mound, no pot, no jungle scene, no human hand, no props, no text, no watermark, no second plant species, no dramatic floor shadow, no neon colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-banyan-root/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-banyan-root/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Banyan Root light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Banyan Root\", derived from a transparent banyan aerial-root motif: bark-brown rope roots, warm grey root ridges, deep leaf green, tropical grove neutrals, and rooted enterprise-system structure. This board is a source reference for implementing a shadcn/tweakcn-compatible enterprise UI system.\nCanvas: exact wide 16:9 high-resolution 4K-class board, 3840 x 2160 composition. Clean professional UI design-system presentation. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Banyan Root, Banyan Aerial Roots, Palette, Typography, Japanese Typography, Components, Navigation, Enterprise Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadows, Tokens.\nReference use: Extract all color and interaction language from banyan aerial roots: bark brown primary anchors, warm grey root-ridge surfaces, deep leaf-green success and focus states, moss-tinted accents, tropical grove cream neutrals, aerial-root linework, buttress-root structure, braided root texture, and canopy-shadow depth. The board must read as banyan aerial roots, not generic forest, vines, mangrove, bonsai, bamboo, or driftwood.\nTypography: Enterprise English product UI with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use bilingual enterprise labels for teams, assets, workflows, approvals, risk, capacity, and uptime with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, approval panels, workflow queue, data table rows, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, borders, shadows, texture samples, simple icons, theme token swatches.\nStyle: rooted enterprise system, calm operational density, precise 8px grid and 8px card radius, warm grey root-paper surfaces, bark-brown primary actions and rails, leaf-green focus rings and healthy status chips, moss accent markers, tropical neutral cards, braided root divider lines, subtle bark-ridge and aerial-root texture overlays, polished shadcn/tweakcn component language.\nConstraints: use only motif-derived colors; no generic purple or blue gradients; no neon colors; no beige-only palette; no random saturated accents; no jungle photo collage; no luxury spa aesthetic; no random brand names; no watermark; no misspelling of \"Morphous Banyan Root\"; no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-banyan-root/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-banyan-root/motif.png",
+        "/systems/morphous-banyan-root/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Banyan Root dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Banyan Root\" / \"Banyan Aerial Roots\". Translate the same light board language into dark mode; do not invent a new unrelated theme.\nCanvas: exact wide 16:9 high-resolution 4K-class board, 3840 x 2160 composition. Clean professional shadcn/tweakcn design-system presentation for a rooted enterprise system. Keep labels large and legible.\nRequired visible sections: Morphous Banyan Root, Banyan Aerial Roots, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Enterprise Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadows, Tokens.\nReference use: Preserve motif-derived palette roles and UI language from banyan aerial roots: deep bark-brown and canopy-shadow backgrounds, warm grey root-ridge panels, bark-tan borders, leaf-green focus rings and healthy status chips, moss-tinted accents, tropical grove neutrals for foreground text, aerial-root braided dividers, buttress-root structural motifs, and bark-ridge texture. The board must read as banyan aerial roots, not generic forest, vines, mangrove, bonsai, bamboo, or driftwood.\nTypography: Enterprise English product UI with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use bilingual enterprise labels for teams, assets, workflows, approvals, risk, capacity, and uptime with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, approval cards, workflow metrics, data table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep bark-charcoal background, warm root-brown panels, root-paper text, leaf-green focus and success states, moss accents, amber bark warning states, muted warm-grey form fields, thin braided-root separators, subtle bark-ridge and aerial-root texture overlays, restrained contrast, crisp controls and dashboards, 8px grid and 8px card radius.\nConstraints: use only motif-derived colors; no neon green; no pure-black flat background; no generic black-and-orange gaming UI; no unrelated saturated colors; no purple or blue gradient dominance; no beige-only palette; no random brand names; no watermark; no misspelling of \"Morphous Banyan Root\"; no tiny unreadable paragraphs."
+    }
+  ]
+}

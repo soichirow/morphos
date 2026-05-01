@@ -1,0 +1,198 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sweet-pea",
+    "name": "Sweet Pea",
+    "motifName": "Sweet Pea Blossoms",
+    "motifCategory": "flower",
+    "biome": "cottage trellis",
+    "motif": "sweet pea blossoms"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Petal Cream",
+      "hex": "#FFF7ED",
+      "oklch": "oklch(0.980 0.016 73.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#2F3E2F",
+      "oklch": "oklch(0.346 0.032 144.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Blush Pink",
+      "hex": "#F786C9",
+      "oklch": "oklch(0.764 0.157 345.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lavender",
+      "hex": "#D7C6F2",
+      "oklch": "oklch(0.855 0.063 302.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Vine Green",
+      "hex": "#78A66A",
+      "oklch": "oklch(0.677 0.099 138.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Petal Pink",
+      "hex": "#E77A91",
+      "oklch": "oklch(0.708 0.136 7.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Paper",
+      "hex": "#FAF0E6",
+      "oklch": "oklch(0.960 0.017 67.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mauve Mist",
+      "hex": "#CBA4E6",
+      "oklch": "oklch(0.776 0.101 311.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Leaf",
+      "hex": "#111A14",
+      "oklch": "oklch(0.207 0.018 155.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Trellis Beige",
+      "hex": "#E0DFCF",
+      "oklch": "oklch(0.900 0.021 103.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Green",
+      "hex": "#6FAF77",
+      "oklch": "oklch(0.696 0.105 147.4)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warm Cream",
+      "hex": "#E6C47A",
+      "oklch": "oklch(0.834 0.101 85.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.016 73.7)",
+    "foreground": "oklch(0.346 0.032 144.8)",
+    "card": "oklch(0.960 0.017 67.6)",
+    "card-foreground": "oklch(0.346 0.032 144.8)",
+    "popover": "oklch(0.960 0.017 67.6)",
+    "popover-foreground": "oklch(0.346 0.032 144.8)",
+    "primary": "oklch(0.764 0.157 345.0)",
+    "primary-foreground": "oklch(0.980 0.016 73.7)",
+    "secondary": "oklch(0.968 0.016 70.5)",
+    "secondary-foreground": "oklch(0.207 0.018 155.4)",
+    "muted": "oklch(0.965 0.016 70.5)",
+    "muted-foreground": "oklch(0.207 0.018 155.4)",
+    "accent": "oklch(0.677 0.099 138.6)",
+    "accent-foreground": "oklch(0.346 0.032 144.8)",
+    "destructive": "oklch(0.764 0.157 345.0)",
+    "border": "oklch(0.894 0.032 330.7)",
+    "input": "oklch(0.894 0.032 330.7)",
+    "ring": "oklch(0.855 0.063 302.7)",
+    "chart-1": "oklch(0.764 0.157 345.0)",
+    "chart-2": "oklch(0.855 0.063 302.7)",
+    "chart-3": "oklch(0.677 0.099 138.6)",
+    "chart-4": "oklch(0.708 0.136 7.8)",
+    "chart-5": "oklch(0.207 0.018 155.4)",
+    "sidebar": "oklch(0.966 0.017 67.6)",
+    "sidebar-foreground": "oklch(0.346 0.032 144.8)",
+    "sidebar-primary": "oklch(0.764 0.157 345.0)",
+    "sidebar-primary-foreground": "oklch(0.980 0.016 73.7)",
+    "sidebar-accent": "oklch(0.934 0.025 17.6)",
+    "sidebar-accent-foreground": "oklch(0.764 0.157 345.0)",
+    "sidebar-border": "oklch(0.894 0.032 330.7)",
+    "sidebar-ring": "oklch(0.855 0.063 302.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.346 0.032 144.8)",
+    "foreground": "oklch(0.980 0.016 73.7)",
+    "card": "oklch(0.255 0.023 150.0)",
+    "card-foreground": "oklch(0.980 0.016 73.7)",
+    "popover": "oklch(0.255 0.023 150.0)",
+    "popover-foreground": "oklch(0.980 0.016 73.7)",
+    "primary": "oklch(0.855 0.063 302.7)",
+    "primary-foreground": "oklch(0.346 0.032 144.8)",
+    "secondary": "oklch(0.347 0.017 294.6)",
+    "secondary-foreground": "oklch(0.980 0.016 73.7)",
+    "muted": "oklch(0.347 0.017 294.6)",
+    "muted-foreground": "oklch(0.889 0.040 323.3)",
+    "accent": "oklch(0.677 0.099 138.6)",
+    "accent-foreground": "oklch(0.346 0.032 144.8)",
+    "destructive": "oklch(0.764 0.157 345.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.855 0.063 302.7)",
+    "chart-1": "oklch(0.855 0.063 302.7)",
+    "chart-2": "oklch(0.764 0.157 345.0)",
+    "chart-3": "oklch(0.677 0.099 138.6)",
+    "chart-4": "oklch(0.708 0.136 7.8)",
+    "chart-5": "oklch(0.776 0.101 311.0)",
+    "sidebar": "oklch(0.282 0.025 149.6)",
+    "sidebar-foreground": "oklch(0.980 0.016 73.7)",
+    "sidebar-primary": "oklch(0.855 0.063 302.7)",
+    "sidebar-primary-foreground": "oklch(0.346 0.032 144.8)",
+    "sidebar-accent": "oklch(0.347 0.017 294.6)",
+    "sidebar-accent-foreground": "oklch(0.980 0.016 73.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.855 0.063 302.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Gentle product English UI with soft editorial headings, readable sans body text, compact message labels, tabular dashboard numerals, and Japanese typography guidance for invitations, replies, contact lists, and calm status text.",
+  "layout": "Precise 8px grids, 8px cards and controls, ruffled-petal tabs, slim vine dividers, trellis rhythm, curling tendril focus rings, cream paper panels, and restrained shadows for communication dashboards.",
+  "tags": [
+    "sweet-pea",
+    "flower",
+    "cottage-trellis",
+    "pink",
+    "lavender",
+    "vine-green",
+    "cream",
+    "gentle-communication",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sweet-pea/motif.png",
+    "board": "/systems/morphous-sweet-pea/design-system-light.png",
+    "darkBoard": "/systems/morphous-sweet-pea/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sweet-pea/theme.css",
+    "themeJson": "/systems/morphous-sweet-pea/theme.json",
+    "promptsJson": "/systems/morphous-sweet-pea/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Sweet Pea motif",
+      "asset": "/systems/morphous-sweet-pea/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Sweet Pea transparent motif chroma-key source\nPrimary request: Create only isolated sweet pea blossoms for a design-system catalog, with clearly pastel pink, lavender, mauve, blush, and cream petals. No surrounding garden scene, no props, no text.\nSubject: A compact natural cluster of sweet pea blossoms on delicate climbing vines: ruffled butterfly-like petals in visible pink and lavender gradients, cream petal throats and highlights, mauve petal shadows, small unopened buds, slender curling tendrils, oval vine-green leaves, accurate botanical form, tactile petal veining, crisp silhouette edges, and natural color variation kept opaque enough for clean cutout. Petals must not be grayscale, black, charcoal, or monochrome.\nComposition/framing: centered complete cutout with generous padding; show a graceful cottage-trellis diagonal vine cluster from a slightly elevated three-quarter view; do not crop any blossom, tendril, leaf, or bud.\nLighting/mood: clean bright studio light that preserves blush pink petals, lavender petals, vine green leaves, cream highlights, and a gentle communication-system mood.\nChroma-key background: place the subject on a perfectly flat solid #00ffff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no insects, no animals, no full landscape, no trellis object, no sky, no second subject, no cast shadow, no contact shadow, no reflection, no grayscale flowers, no black flowers."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sweet-pea/design-system-light.png",
+      "sourceAsset": "/systems/morphous-sweet-pea/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Sweet Pea\" / \"Sweet Pea Blossoms\", derived from the sweet pea blossom cutout already provided in context.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the sweet pea motif image. The board must visibly respect ruffled pink blossoms, lavender petals, vine-green stems and leaves, cream petal highlights, curling tendrils, and cottage trellis structure. The design mood is a gentle communication system.\nCanvas: wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if the tool cannot output 3840; use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Sweet Pea\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and generated asset examples.\nTypography: include English and Japanese examples; use gentle product typography, readable sans UI, soft editorial headings, compact message and contact labels, and restrained numeric rhythm.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, compact dashboard metrics, line/bar charts, empty/loading/error/success states, conversation/message cards, and token swatches.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, calm operational dashboard, gentle communication app surface, 8px radius cards and controls, not a marketing landing page.\nColor palette: blush pink primary from sweet pea petals, lavender secondary, vine green support, cream surfaces and petal highlights, deep leaf ink, pale pink-lavender muted areas, soft trellis beige borders, and restrained rose signal colors. Use only motif-derived colors plus near-neutrals from the motif.\nVisual details: ruffled-petal tab shapes, curling tendril focus rings, slim vine dividers, trellis grid rhythm, delicate petal-vein texture, cream paper surfaces, clear chat/status affordances, and accessible contrast.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens, Messages.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no neon, no random brand names, no stock hero layout, no watermark, no illegible microtext, no all-purple theme."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sweet-pea/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-sweet-pea/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode version of the \"Morphous Sweet Pea\" / \"Sweet Pea Blossoms\" design-system board, translated from the sweet pea motif cutout and the light board already provided in context. It must feel like the same system in dark mode, not a new theme.\nReference use: Use the transparent sweet pea blossom motif and the light design-system board as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, trellis rhythm, and the gentle communication UI mood.\nCanvas: wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if the tool cannot output 3840; use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Sweet Pea\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and generated asset examples.\nTypography: include English and Japanese examples; keep the same gentle product typography, readable sans UI, soft headings, compact message and contact labels, and restrained numeric rhythm from the light board.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, compact dashboard metrics, line/bar charts, empty/loading/error/success states, conversation/message cards, and token swatches.\nVisual details: dark background derived from deep leaf ink and twilight vine green, blush pink primary actions from petals, lavender secondary surfaces, cream highlight text and cards, muted trellis beige borders, rose focus rings, subtle petal-vein textures, curling tendril focus marks, slim vine dividers, and accessible dark contrast.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, calm operational dashboard, gentle communication app surface, 8px radius cards and controls, not a marketing landing page.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens, Messages.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple/blue gradients, no random brand names, no stock hero layout, no watermark, no illegible microtext, no all-purple theme."
+    }
+  ]
+}

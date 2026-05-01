@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mistletoe",
+    "name": "Morphous Mistletoe",
+    "motifName": "Mistletoe",
+    "motifCategory": "plant",
+    "biome": "winter branch",
+    "motif": "mistletoe cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Winter Berry White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#263024",
+      "oklch": "oklch(0.296 0.025 140.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mistletoe Leaf",
+      "hex": "#8AAC6B",
+      "oklch": "oklch(0.703 0.097 131.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Mist",
+      "hex": "#C9DDBB",
+      "oklch": "oklch(0.874 0.051 132.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Berry Glow",
+      "hex": "#F2F0EA",
+      "oklch": "oklch(0.955 0.008 91.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Connection Stem",
+      "hex": "#9BA78A",
+      "oklch": "oklch(0.711 0.043 125.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Branch Paper",
+      "hex": "#E7EFE4",
+      "oklch": "oklch(0.943 0.017 137.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Grey",
+      "hex": "#8B8E86",
+      "oklch": "oklch(0.642 0.012 123.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Winter Bark",
+      "hex": "#121812",
+      "oklch": "oklch(0.200 0.015 145.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Branch Light",
+      "hex": "#DAD7CF",
+      "oklch": "oklch(0.879 0.011 89.7)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Berry Stem Umber",
+      "hex": "#9A6B4F",
+      "oklch": "oklch(0.570 0.073 51.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.003 106.4)",
+    "foreground": "oklch(0.296 0.025 140.4)",
+    "card": "oklch(0.943 0.017 137.0)",
+    "card-foreground": "oklch(0.296 0.025 140.4)",
+    "popover": "oklch(0.943 0.017 137.0)",
+    "popover-foreground": "oklch(0.296 0.025 140.4)",
+    "primary": "oklch(0.703 0.097 131.0)",
+    "primary-foreground": "oklch(0.985 0.003 106.4)",
+    "secondary": "oklch(0.961 0.012 133.4)",
+    "secondary-foreground": "oklch(0.200 0.015 145.0)",
+    "muted": "oklch(0.954 0.012 137.8)",
+    "muted-foreground": "oklch(0.200 0.015 145.0)",
+    "accent": "oklch(0.955 0.008 91.5)",
+    "accent-foreground": "oklch(0.296 0.025 140.4)",
+    "destructive": "oklch(0.703 0.097 131.0)",
+    "border": "oklch(0.838 0.015 132.5)",
+    "input": "oklch(0.838 0.015 132.5)",
+    "ring": "oklch(0.874 0.051 132.4)",
+    "chart-1": "oklch(0.703 0.097 131.0)",
+    "chart-2": "oklch(0.874 0.051 132.4)",
+    "chart-3": "oklch(0.955 0.008 91.5)",
+    "chart-4": "oklch(0.711 0.043 125.8)",
+    "chart-5": "oklch(0.200 0.015 145.0)",
+    "sidebar": "oklch(0.957 0.012 137.8)",
+    "sidebar-foreground": "oklch(0.296 0.025 140.4)",
+    "sidebar-primary": "oklch(0.703 0.097 131.0)",
+    "sidebar-primary-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-accent": "oklch(0.915 0.027 133.0)",
+    "sidebar-accent-foreground": "oklch(0.703 0.097 131.0)",
+    "sidebar-border": "oklch(0.838 0.015 132.5)",
+    "sidebar-ring": "oklch(0.874 0.051 132.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.296 0.025 140.4)",
+    "foreground": "oklch(0.985 0.003 106.4)",
+    "card": "oklch(0.234 0.018 141.6)",
+    "card-foreground": "oklch(0.985 0.003 106.4)",
+    "popover": "oklch(0.234 0.018 141.6)",
+    "popover-foreground": "oklch(0.985 0.003 106.4)",
+    "primary": "oklch(0.874 0.051 132.4)",
+    "primary-foreground": "oklch(0.296 0.025 140.4)",
+    "secondary": "oklch(0.310 0.013 140.5)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.310 0.013 140.5)",
+    "muted-foreground": "oklch(0.834 0.006 117.9)",
+    "accent": "oklch(0.955 0.008 91.5)",
+    "accent-foreground": "oklch(0.296 0.025 140.4)",
+    "destructive": "oklch(0.703 0.097 131.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.874 0.051 132.4)",
+    "chart-1": "oklch(0.874 0.051 132.4)",
+    "chart-2": "oklch(0.703 0.097 131.0)",
+    "chart-3": "oklch(0.955 0.008 91.5)",
+    "chart-4": "oklch(0.711 0.043 125.8)",
+    "chart-5": "oklch(0.642 0.012 123.6)",
+    "sidebar": "oklch(0.253 0.020 142.0)",
+    "sidebar-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-primary": "oklch(0.874 0.051 132.4)",
+    "sidebar-primary-foreground": "oklch(0.296 0.025 140.4)",
+    "sidebar-accent": "oklch(0.310 0.013 140.5)",
+    "sidebar-accent-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.874 0.051 132.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm English product UI with Japanese typography guidance for short headings, table labels, command search, form copy, and restrained status messages.",
+  "layout": "Soft connection dashboards, compact navigation, 8px radii, pale mistletoe actions, berry-white surfaces, bark-grey borders, and subtle leaf-vein texture tokens.",
+  "tags": [
+    "mistletoe",
+    "plant",
+    "winter-branch",
+    "pale-green",
+    "white-berry",
+    "bark-grey",
+    "soft-connection-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mistletoe/motif.png",
+    "board": "/systems/morphous-mistletoe/design-system-light.png",
+    "darkBoard": "/systems/morphous-mistletoe/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mistletoe/theme.css",
+    "themeJson": "/systems/morphous-mistletoe/theme.json",
+    "promptsJson": "/systems/morphous-mistletoe/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent mistletoe motif source",
+      "asset": "/systems/morphous-mistletoe/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a mistletoe cluster motif for a Morphous design system, isolated full subject, no environment, no text.\nSubject: A natural winter mistletoe cluster with pale green oval leaves, soft branching stems, round white berries, and a small bark-grey winter branch segment; botanical accuracy, tactile leaf veins, waxy berries, quiet soft-connection mood.\nComposition/framing: centered complete cutout with generous padding; do not crop leaves, stems, berries, or branch. Keep one cohesive cluster, not a pattern.\nLighting/mood: clean studio light that preserves pale green leaves, white berries, bark grey neutrals, and soft winter branch detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape, no vase, no ribbon, no holiday ornaments, no props beyond the small bark-grey branch segment, no decorative background, no text, no watermark, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-mistletoe/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Mistletoe\", derived from the visible transparent mistletoe cluster cutout with pale green oval leaves, white berries, bark grey winter branch neutrals, and soft connection system mood.\nReference use: Extract the palette, texture rhythm, line quality, radius, spacing mood, and interaction language from the visible mistletoe motif. Use only motif-derived colors: pale green mistletoe, white berry, bark grey, winter branch neutrals, lichen-like soft green, and restrained connection accents.\nCanvas: exact 16:9 wide board, 3840 x 2160 composition, high-resolution 4K-class source image.\nRequired visible sections with readable headers: Morphous Mistletoe, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: include English UI type guidance and Japanese typography examples; use short readable labels such as Geist, Noto Sans JP, 見出し, 本文, ラベル.\nUI coverage: shadcn/tweakcn-like buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, breadcrumbs, dashboard metric cards, line/bar charts, data table, empty/loading/error/success states, token chips, texture swatches, 8px radius samples, spacing scale, shadow samples.\nVisual details: light winter-white canvas, pale green primary controls, white berry highlights, bark grey borders, soft node-and-stem connection lines, subtle leaf-vein texture, calm product UI grid, crisp component edges, 8px card radii.\nText: keep labels short, large, and readable; avoid dense tiny token tables.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no holiday ornaments, no red ribbon, no random brand names, no watermark, no illegible microtext, no misspelling of \"Morphous Mistletoe\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-mistletoe/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Mistletoe\". It must feel like the same system as the visible light-mode Morphous Mistletoe board translated to dark mode, not a new theme.\nReference use: Use the visible mistletoe transparent motif and the visible light-mode design-system board as references. Preserve motif-derived palette roles, soft node-and-stem connection language, 8px card radius, component coverage, Japanese typography guidance, spacing, texture, and shadcn/tweakcn product UI structure.\nCanvas: exact 16:9 wide board, 3840 x 2160 composition, high-resolution 4K-class source image.\nRequired visible sections with readable headers: Morphous Mistletoe, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: include English UI type guidance and Japanese typography examples; use short readable labels such as Geist, Noto Sans JP, 見出し, 本文, ラベル.\nVisual details: deep winter bark background, soft dark moss surfaces, pale green primary controls, white berry highlights, bark grey borders, muted lichen panels, subtle leaf-vein texture, calm product UI grid, crisp component edges, 8px card radii.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, breadcrumbs, dashboard metric cards, line/bar charts, data table, empty/loading/error/success states, token chips, texture swatches, 8px radius samples, spacing scale, shadow samples.\nText: keep labels short, large, and readable; avoid dense tiny token tables.\nConstraints: no neon colors, no generic purple or blue gradients, no flat pure-black-only background, no holiday ornaments, no red ribbon, no random brand names, no watermark, no illegible microtext, no misspelling of \"Morphous Mistletoe\"."
+    }
+  ]
+}

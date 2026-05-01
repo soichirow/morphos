@@ -1,0 +1,91 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-bachelor-button",
+  "name": "Morphous Bachelor Button",
+  "motifName": "Bachelor Button",
+  "motifCategory": "flower",
+  "biome": "meadow",
+  "motif": "bachelor button flower",
+  "description": "A shadcn/tweakcn-compatible compact notes system derived from a bachelor button flower: indigo-blue petals, silver highlights, green stems, straw meadow neutrals, and compact writing surfaces.",
+  "typography": "Compact notes English UI with Japanese typography guidance for note titles, metadata, command search, inline labels, and dense but readable tables.",
+  "layout": "Note-taking dashboards, compact cards, 8px radii, indigo primary actions, silver dividers, straw surfaces, green status accents, and meadow-paper texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "bachelor-button",
+    "flower",
+    "meadow",
+    "indigo-blue",
+    "silver",
+    "compact-notes",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Paper",
+      "hex": "#F5F3EA"
+    },
+    {
+      "role": "Ink",
+      "name": "Indigo Ink",
+      "hex": "#151A2C"
+    },
+    {
+      "role": "Primary",
+      "name": "Button Indigo",
+      "hex": "#2A308F"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silver Blue",
+      "hex": "#93A8C8"
+    },
+    {
+      "role": "Accent",
+      "name": "Meadow Green",
+      "hex": "#E6DAA6"
+    },
+    {
+      "role": "Signal",
+      "name": "Straw Gold",
+      "hex": "#C9A85E"
+    },
+    {
+      "role": "Surface",
+      "name": "Note White",
+      "hex": "#FCFAF3"
+    },
+    {
+      "role": "Muted",
+      "name": "Silver Straw",
+      "hex": "#B9B5A7"
+    },
+    {
+      "role": "Depth",
+      "name": "Meadow Night",
+      "hex": "#1F2A33"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Stem",
+      "hex": "#9A7A4F"
+    },
+    {
+      "role": "Success",
+      "name": "Stem Green",
+      "hex": "#6E8F71"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

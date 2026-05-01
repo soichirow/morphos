@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-echeveria",
+    "name": "Morphous Echeveria",
+    "motifName": "Echeveria",
+    "motifCategory": "plant",
+    "biome": "desert greenhouse",
+    "motif": "echeveria rosette"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Farina Surface",
+      "hex": "#F8F9FB",
+      "oklch": "oklch(0.982 0.003 264.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Stem Ink",
+      "hex": "#2B3440",
+      "oklch": "oklch(0.322 0.025 255.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Powder Blue Rosette",
+      "hex": "#B9CBDD",
+      "oklch": "oklch(0.834 0.032 248.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Aqua Bloom",
+      "hex": "#D6E6EE",
+      "oklch": "oklch(0.915 0.020 229.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lilac Edge",
+      "hex": "#E6C3D7",
+      "oklch": "oklch(0.853 0.047 342.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Greenhouse Mist",
+      "hex": "#F2F4F6",
+      "oklch": "oklch(0.966 0.003 247.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Vein",
+      "hex": "#E9DFCF",
+      "oklch": "oklch(0.907 0.024 79.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Dune Border",
+      "hex": "#D9D2C4",
+      "oklch": "oklch(0.866 0.020 84.6)"
+    },
+    {
+      "role": "Focus",
+      "name": "Bloom Accent",
+      "hex": "#EEF3FA",
+      "oklch": "oklch(0.962 0.011 256.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Greenhouse Sage",
+      "hex": "#A8C9B4",
+      "oklch": "oklch(0.806 0.046 157.3)"
+    },
+    {
+      "role": "Warning",
+      "name": "Sand Blush",
+      "hex": "#E9CFCF",
+      "oklch": "oklch(0.876 0.029 17.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.003 264.5)",
+    "foreground": "oklch(0.322 0.025 255.7)",
+    "card": "oklch(0.966 0.003 247.9)",
+    "card-foreground": "oklch(0.322 0.025 255.7)",
+    "popover": "oklch(0.966 0.003 247.9)",
+    "popover-foreground": "oklch(0.322 0.025 255.7)",
+    "primary": "oklch(0.834 0.032 248.2)",
+    "primary-foreground": "oklch(0.982 0.003 264.5)",
+    "secondary": "oklch(0.973 0.003 264.5)",
+    "secondary-foreground": "oklch(0.322 0.025 255.7)",
+    "muted": "oklch(0.970 0.003 264.5)",
+    "muted-foreground": "oklch(0.322 0.025 255.7)",
+    "accent": "oklch(0.853 0.047 342.9)",
+    "accent-foreground": "oklch(0.322 0.025 255.7)",
+    "destructive": "oklch(0.834 0.032 248.2)",
+    "border": "oklch(0.944 0.006 75.4)",
+    "input": "oklch(0.944 0.006 75.4)",
+    "ring": "oklch(0.915 0.020 229.1)",
+    "chart-1": "oklch(0.834 0.032 248.2)",
+    "chart-2": "oklch(0.915 0.020 229.1)",
+    "chart-3": "oklch(0.853 0.047 342.9)",
+    "chart-4": "oklch(0.966 0.003 247.9)",
+    "chart-5": "oklch(0.322 0.025 255.7)",
+    "sidebar": "oklch(0.972 0.003 247.9)",
+    "sidebar-foreground": "oklch(0.322 0.025 255.7)",
+    "sidebar-primary": "oklch(0.834 0.032 248.2)",
+    "sidebar-primary-foreground": "oklch(0.982 0.003 264.5)",
+    "sidebar-accent": "oklch(0.950 0.007 247.9)",
+    "sidebar-accent-foreground": "oklch(0.834 0.032 248.2)",
+    "sidebar-border": "oklch(0.944 0.006 75.4)",
+    "sidebar-ring": "oklch(0.915 0.020 229.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.322 0.025 255.7)",
+    "foreground": "oklch(0.982 0.003 264.5)",
+    "card": "oklch(0.322 0.025 255.7)",
+    "card-foreground": "oklch(0.982 0.003 264.5)",
+    "popover": "oklch(0.322 0.025 255.7)",
+    "popover-foreground": "oklch(0.982 0.003 264.5)",
+    "primary": "oklch(0.915 0.020 229.1)",
+    "primary-foreground": "oklch(0.322 0.025 255.7)",
+    "secondary": "oklch(0.465 0.010 248.0)",
+    "secondary-foreground": "oklch(0.982 0.003 264.5)",
+    "muted": "oklch(0.465 0.010 248.0)",
+    "muted-foreground": "oklch(0.948 0.009 78.3)",
+    "accent": "oklch(0.853 0.047 342.9)",
+    "accent-foreground": "oklch(0.322 0.025 255.7)",
+    "destructive": "oklch(0.834 0.032 248.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.915 0.020 229.1)",
+    "chart-1": "oklch(0.915 0.020 229.1)",
+    "chart-2": "oklch(0.834 0.032 248.2)",
+    "chart-3": "oklch(0.853 0.047 342.9)",
+    "chart-4": "oklch(0.966 0.003 247.9)",
+    "chart-5": "oklch(0.907 0.024 79.7)",
+    "sidebar": "oklch(0.322 0.025 255.7)",
+    "sidebar-foreground": "oklch(0.982 0.003 264.5)",
+    "sidebar-primary": "oklch(0.915 0.020 229.1)",
+    "sidebar-primary-foreground": "oklch(0.322 0.025 255.7)",
+    "sidebar-accent": "oklch(0.465 0.010 248.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.003 264.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.915 0.020 229.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Soft product English UI with calm hierarchy, large readable labels, and Japanese typography guidance for Gothic body text, restrained Mincho accents, compact status labels, and scan-friendly data surfaces.",
+  "layout": "Greenhouse dashboard grids, 8px radii, powdery succulent texture, sand-neutral borders, lilac focus states, soft data cards, compact tables, command/search surfaces, and restrained shadows.",
+  "tags": [
+    "echeveria",
+    "plant",
+    "desert-greenhouse",
+    "powder-blue",
+    "lilac-edge",
+    "sand",
+    "soft-design-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-echeveria/motif.png",
+    "board": "/systems/morphous-echeveria/design-system-light.png",
+    "darkBoard": "/systems/morphous-echeveria/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-echeveria/theme.css",
+    "themeJson": "/systems/morphous-echeveria/theme.json",
+    "promptsJson": "/systems/morphous-echeveria/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent echeveria motif",
+      "asset": "/systems/morphous-echeveria/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Echeveria transparent motif chroma-key source\nPrimary request: Create only an echeveria rosette succulent motif for a design-system catalog, isolated full plant with no pot, no soil, no environment, no props, and no text.\nSubject: A single top-view echeveria rosette with accurate succulent geometry: layered spoon-shaped waxy leaves spiraling from the center, powder blue-gray bloom, pale aqua highlights, soft lilac-pink leaf edges, faint sandy beige underside shadows, crisp botanical edges, natural matte farina texture.\nStyle/medium: polished botanical product cutout, realistic but clean enough for UI palette sampling.\nComposition/framing: centered complete rosette cutout with generous padding; do not crop any leaf tips.\nLighting/mood: clean even studio light that preserves powder blue, lilac edge, and sand-neutral detail; no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no pot, no gravel, no greenhouse structure, no hand, no second plant, no flower stalk, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-echeveria/design-system-light.png",
+      "sourceAsset": "/systems/morphous-echeveria/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Echeveria light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named exactly \"Morphous Echeveria\", derived from the previously shown transparent echeveria rosette motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the echeveria cutout: powder blue waxy rosette leaves, pale aqua bloom, lilac-pink leaf edges, sand-beige underside shadows, and desert greenhouse neutrals. Use only these motif-derived colors and near-neutrals.\nCanvas: exact 16:9 landscape board, 3840 x 2160 feel, polished high-resolution source asset, crisp UI details.\nResolution and legibility: use large readable labels, generous grid spacing, and avoid dense tiny token tables. All section headings must be legible at gallery preview size.\nRequired visible sections: Morphous Echeveria, Echeveria Rosette, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: English product UI hierarchy plus Japanese samples using short phrases such as 日本語, 見出し, 本文, 状態, 検索. Keep Japanese and English text clean and readable.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, top navigation, metric tiles, soft charts, data table, command palette/search field, empty/loading/error/success states, token swatches, texture sample, radius sample, spacing scale, border and shadow samples.\nStyle/medium: premium realistic UI mockup, precise grid, restrained shadcn/tweakcn component language, soft design system, 8px radii, powdery succulent texture, subtle greenhouse glass neutrals, no nested decorative cards.\nColor palette: Powder Blue Rosette, Lilac Edge, Sand Vein, Greenhouse Mist, Farina Surface, Deep Stem Ink, Dune Border, Bloom Accent.\nText (verbatim where prominent): \"Morphous Echeveria\", \"Light Mode\", \"Palette\", \"Type\", \"Japanese Typography\", \"Components\", \"Navigation\", \"Dashboard/Data\", \"Forms\", \"Tables\", \"Command/Search\", \"Status\", \"Tokens\", \"Texture\", \"Radius 8px\", \"Spacing\", \"Shadows\".\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no neon colors, no watermark, no random brand names, no illegible microtext, no misspelling of Morphous Echeveria."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-echeveria/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-echeveria/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Echeveria dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board named exactly \"Morphous Echeveria\" that feels like the same system as the previously shown light board translated to dark mode.\nReference use: Use the previously shown transparent echeveria rosette and light-mode board as references. Preserve motif-derived palette roles, component language, typography, texture, spacing, and 8px radius. Use only powder blue rosette, lilac edge, sand-beige vein, desert greenhouse neutrals, pale farina highlights, and deep stem-blue ink.\nCanvas: exact 16:9 landscape board, 3840 x 2160 feel, polished high-resolution source asset, crisp UI details.\nResolution and legibility: use large readable labels, generous grid spacing, and avoid dense tiny token tables. All section headings must be legible at gallery preview size.\nRequired visible sections: Morphous Echeveria, Echeveria Rosette, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nVisual details: dark background derived from the motif's deepest blue-green stem shadows, elevated cards in muted greenhouse slate, foreground from farina surface, primary powder blue actions, lilac focus and destructive accents, sand-neutral dividers, soft succulent texture overlays, restrained contrast.\nTypography: English product UI hierarchy plus Japanese samples using short phrases such as 日本語, 見出し, 本文, 状態, 検索. Keep Japanese and English text clean and readable.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, top navigation, metric tiles, soft charts, data table, command palette/search field, empty/loading/error/success states, token swatches, texture sample, radius sample, spacing scale, border and shadow samples.\nStyle/medium: premium realistic UI mockup, precise grid, restrained shadcn/tweakcn component language, soft design system, 8px radii, no nested decorative cards.\nText (verbatim where prominent): \"Morphous Echeveria\", \"Dark Mode\", \"Palette\", \"Type\", \"Japanese Typography\", \"Components\", \"Navigation\", \"Dashboard/Data\", \"Forms\", \"Tables\", \"Command/Search\", \"Status\", \"Tokens\", \"Texture\", \"Radius 8px\", \"Spacing\", \"Shadows\".\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple/blue gradients, no watermark, no random brand names, no illegible microtext, no misspelling of Morphous Echeveria."
+    }
+  ]
+}

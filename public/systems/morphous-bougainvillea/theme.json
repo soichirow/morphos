@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bougainvillea",
+    "name": "Morphous Bougainvillea",
+    "motifName": "Bougainvillea",
+    "motifCategory": "flower",
+    "biome": "dry coastal wall",
+    "motif": "bougainvillea bracts"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stucco White",
+      "hex": "#fdfcf9",
+      "oklch": "oklch(0.991 0.004 91.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Bougainvillea Ink",
+      "hex": "#3a0a2a",
+      "oklch": "oklch(0.245 0.084 344.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bract Fuchsia",
+      "hex": "#e6008a",
+      "oklch": "oklch(0.604 0.248 354.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Coastal Magenta",
+      "hex": "#ff4fa3",
+      "oklch": "oklch(0.695 0.223 355.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2e7d32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Vine Olive",
+      "hex": "#567a48",
+      "oklch": "oklch(0.539 0.085 137.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lime Bud",
+      "hex": "#A8E063",
+      "oklch": "oklch(0.842 0.166 129.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sunlit Plaster",
+      "hex": "#fff3e2",
+      "oklch": "oklch(0.969 0.026 76.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Warm Wall Shadow",
+      "hex": "#e9e2d6",
+      "oklch": "oklch(0.915 0.018 81.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.991 0.004 91.4)",
+    "foreground": "oklch(0.245 0.084 344.3)",
+    "card": "oklch(0.969 0.026 76.8)",
+    "card-foreground": "oklch(0.245 0.084 344.3)",
+    "popover": "oklch(0.969 0.026 76.8)",
+    "popover-foreground": "oklch(0.245 0.084 344.3)",
+    "primary": "oklch(0.604 0.248 354.6)",
+    "primary-foreground": "oklch(0.991 0.004 91.4)",
+    "secondary": "oklch(0.979 0.016 79.4)",
+    "secondary-foreground": "oklch(0.245 0.084 344.3)",
+    "muted": "oklch(0.976 0.020 81.8)",
+    "muted-foreground": "oklch(0.245 0.084 344.3)",
+    "accent": "oklch(0.695 0.223 355.3)",
+    "accent-foreground": "oklch(0.245 0.084 344.3)",
+    "destructive": "oklch(0.604 0.248 354.6)",
+    "border": "oklch(0.818 0.039 115.5)",
+    "input": "oklch(0.818 0.039 115.5)",
+    "ring": "oklch(0.523 0.135 144.2)",
+    "chart-1": "oklch(0.604 0.248 354.6)",
+    "chart-2": "oklch(0.523 0.135 144.2)",
+    "chart-3": "oklch(0.695 0.223 355.3)",
+    "chart-4": "oklch(0.842 0.166 129.5)",
+    "chart-5": "oklch(0.245 0.084 344.3)",
+    "sidebar": "oklch(0.976 0.018 78.2)",
+    "sidebar-foreground": "oklch(0.245 0.084 344.3)",
+    "sidebar-primary": "oklch(0.604 0.248 354.6)",
+    "sidebar-primary-foreground": "oklch(0.991 0.004 91.4)",
+    "sidebar-accent": "oklch(0.908 0.043 16.2)",
+    "sidebar-accent-foreground": "oklch(0.604 0.248 354.6)",
+    "sidebar-border": "oklch(0.818 0.039 115.5)",
+    "sidebar-ring": "oklch(0.523 0.135 144.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.245 0.084 344.3)",
+    "foreground": "oklch(0.991 0.004 91.4)",
+    "card": "oklch(0.245 0.084 344.3)",
+    "card-foreground": "oklch(0.991 0.004 91.4)",
+    "popover": "oklch(0.245 0.084 344.3)",
+    "popover-foreground": "oklch(0.991 0.004 91.4)",
+    "primary": "oklch(0.523 0.135 144.2)",
+    "primary-foreground": "oklch(0.245 0.084 344.3)",
+    "secondary": "oklch(0.299 0.049 350.1)",
+    "secondary-foreground": "oklch(0.991 0.004 91.4)",
+    "muted": "oklch(0.299 0.049 350.1)",
+    "muted-foreground": "oklch(0.795 0.039 134.2)",
+    "accent": "oklch(0.695 0.223 355.3)",
+    "accent-foreground": "oklch(0.245 0.084 344.3)",
+    "destructive": "oklch(0.604 0.248 354.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.523 0.135 144.2)",
+    "chart-1": "oklch(0.523 0.135 144.2)",
+    "chart-2": "oklch(0.604 0.248 354.6)",
+    "chart-3": "oklch(0.695 0.223 355.3)",
+    "chart-4": "oklch(0.842 0.166 129.5)",
+    "chart-5": "oklch(0.539 0.085 137.3)",
+    "sidebar": "oklch(0.245 0.084 344.3)",
+    "sidebar-foreground": "oklch(0.991 0.004 91.4)",
+    "sidebar-primary": "oklch(0.523 0.135 144.2)",
+    "sidebar-primary-foreground": "oklch(0.245 0.084 344.3)",
+    "sidebar-accent": "oklch(0.299 0.049 350.1)",
+    "sidebar-accent-foreground": "oklch(0.991 0.004 91.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.523 0.135 144.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Vibrant travel product UI with elegant English display, clean operational labels, tabular numbers, and Japanese typography guidance for itinerary and booking screens.",
+  "layout": "Precise 8px grids, stucco-white card surfaces, fuchsia action hierarchy, leaf-green status accents, vine-line navigation, papery bract texture, dense travel dashboards, and light/dark mode token structure.",
+  "tags": [
+    "bougainvillea",
+    "flower",
+    "dry-coastal-wall",
+    "fuchsia",
+    "travel",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bougainvillea/motif.png",
+    "board": "/systems/morphous-bougainvillea/design-system-light.png",
+    "darkBoard": "/systems/morphous-bougainvillea/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bougainvillea/theme.css",
+    "themeJson": "/systems/morphous-bougainvillea/theme.json",
+    "promptsJson": "/systems/morphous-bougainvillea/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bougainvillea bracts motif",
+      "asset": "/systems/morphous-bougainvillea/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Bougainvillea transparent motif chroma-key source\nPrimary request: Create only a bougainvillea bracts botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A dry coastal wall bougainvillea branch with vivid fuchsia and magenta papery bracts, tiny cream-white true flowers at the bract centers, matte leaf-green leaves, slender woody vine stems, sunlit Mediterranean/coastal botanical character, crisp subject edges, natural paperlike bract texture, unmistakably bougainvillea.\nComposition/framing: centered complete cutout with generous padding; include cascading bract clusters, leaf clusters, and vine stem without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ffff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no rose, no hibiscus, no orchid, no generic pink flower bouquet, no vase, no hand, no props, no landscape, no wall texture in the motif, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-bougainvillea/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bougainvillea light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Bougainvillea\", derived from the visible transparent bougainvillea bracts cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible vibrant travel system.\nCanvas: wide 16:9 high-resolution board, target 3840x2160, clean professional UI design-system presentation with large readable labels.\nRequired visible sections: Morphous Bougainvillea, Bougainvillea Bracts, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from fuchsia-magenta papery bougainvillea bracts, tiny stucco-white flowers, matte leaf-green foliage, woody vine lines, dry coastal wall sunlight, and white stucco architecture. The board must read as bougainvillea on a dry coastal wall, not hibiscus, rose, orchid, or generic pink brand kit.\nTypography: English product UI examples with Japanese typography guidance; use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: primary/secondary/ghost buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, top navigation, sidebar travel navigation, dashboard metric cards, route map card, occupancy chart, booking table, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, stucco-white and warm plaster surfaces, fuchsia primary actions, magenta bract accents, leaf-green success and focus states, sunlit coastal neutrals, vine-line dividers, papery bract texture, vibrant travel UI rather than marketing landing page.\nColor palette labels: Stucco White, Bract Fuchsia, Coastal Magenta, Leaf Green, Vine Olive, Sunlit Plaster, Deep Bougainvillea Ink, Lime Bud, Warm Wall Shadow.\nConstraints: no hibiscus, no rose, no orchid, no generic purple/blue gradients, no beige-only palette, no unrelated saturated colors, no beach photo, no random brand names, no watermark, no misspelling of \"Morphous Bougainvillea\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-bougainvillea/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bougainvillea dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Bougainvillea\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible bougainvillea bracts motif.\nCanvas: wide 16:9 high-resolution board, target 3840x2160, clean professional UI design-system presentation with large readable labels.\nRequired visible sections: Morphous Bougainvillea, Bougainvillea Bracts, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the system language from fuchsia-magenta papery bougainvillea bracts, stucco-white tiny flowers, matte leaf-green foliage, woody vine dividers, dry coastal wall sunlight, and white stucco architecture. Keep the same vibrant travel UI coverage from the light board, but translate surfaces into deep bougainvillea ink and warm night-plaster neutrals.\nTypography: English product UI examples with Japanese typography guidance; use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: primary/secondary/ghost buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, top navigation, sidebar travel navigation, dashboard metric cards, route map card, occupancy chart, booking table, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep bougainvillea ink background, warm stucco text and card foregrounds, fuchsia primary actions, coastal magenta hover states, leaf-green focus and success states, lime bud chart accents, muted vine olive borders, subtle papery bract texture overlays, restrained dark contrast, crisp shadcn/tweakcn cards, 8px card radius.\nColor palette labels: Deep Bougainvillea Ink, Night Stucco, Bract Fuchsia, Coastal Magenta, Leaf Green, Vine Olive, Lime Bud, Warm Wall Shadow, Stucco White.\nConstraints: no hibiscus, no rose, no orchid, no generic purple/blue gradients, no neon cyberpunk colors, no pure-black-only flat background, no unrelated saturated colors, no beach photo, no random brand names, no watermark, no misspelling of \"Morphous Bougainvillea\", no tiny unreadable paragraphs."
+    }
+  ]
+}

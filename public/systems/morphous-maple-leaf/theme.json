@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-maple-leaf",
+    "name": "Morphous Maple Leaf",
+    "motifName": "Maple Leaf",
+    "motifCategory": "plant",
+    "biome": "autumn forest",
+    "motif": "red-orange maple leaf with gold veins and a brown stem"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment",
+      "hex": "#F7F1E6",
+      "oklch": "oklch(0.960 0.016 82.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Brown",
+      "hex": "#3A2A1F",
+      "oklch": "oklch(0.300 0.030 55.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Maple Red",
+      "hex": "#D6382D",
+      "oklch": "oklch(0.581 0.196 28.7)"
+    },
+    {
+      "role": "Primary Lift",
+      "name": "Ember Red",
+      "hex": "#E4553F",
+      "oklch": "oklch(0.637 0.182 31.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Burnt Orange",
+      "hex": "#F07A2A",
+      "oklch": "oklch(0.703 0.169 49.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Gold Vein",
+      "hex": "#F2C94C",
+      "oklch": "oklch(0.850 0.146 90.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Russet Edge",
+      "hex": "#B4532A",
+      "oklch": "oklch(0.557 0.137 41.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Maple Mist",
+      "hex": "#FBF7F0",
+      "oklch": "oklch(0.977 0.010 81.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Leaf Edge",
+      "hex": "#E7D9C2",
+      "oklch": "oklch(0.891 0.034 80.3)"
+    },
+    {
+      "role": "Stem",
+      "name": "Stem Brown",
+      "hex": "#6B4A2F",
+      "oklch": "oklch(0.439 0.060 59.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Bark",
+      "hex": "#1E140D",
+      "oklch": "oklch(0.202 0.021 56.2)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Dark Leaf",
+      "hex": "#2B1810",
+      "oklch": "oklch(0.232 0.034 43.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.016 82.8)",
+    "foreground": "oklch(0.300 0.030 55.8)",
+    "card": "oklch(0.977 0.010 81.8)",
+    "card-foreground": "oklch(0.300 0.030 55.8)",
+    "popover": "oklch(0.977 0.010 81.8)",
+    "popover-foreground": "oklch(0.300 0.030 55.8)",
+    "primary": "oklch(0.581 0.196 28.7)",
+    "primary-foreground": "oklch(0.960 0.016 82.8)",
+    "secondary": "oklch(0.969 0.012 79.8)",
+    "secondary-foreground": "oklch(0.202 0.021 56.2)",
+    "muted": "oklch(0.972 0.012 79.8)",
+    "muted-foreground": "oklch(0.202 0.021 56.2)",
+    "accent": "oklch(0.850 0.146 90.5)",
+    "accent-foreground": "oklch(0.300 0.030 55.8)",
+    "destructive": "oklch(0.581 0.196 28.7)",
+    "border": "oklch(0.843 0.065 33.9)",
+    "input": "oklch(0.843 0.065 33.9)",
+    "ring": "oklch(0.703 0.169 49.8)",
+    "chart-1": "oklch(0.581 0.196 28.7)",
+    "chart-2": "oklch(0.703 0.169 49.8)",
+    "chart-3": "oklch(0.850 0.146 90.5)",
+    "chart-4": "oklch(0.557 0.137 41.9)",
+    "chart-5": "oklch(0.202 0.021 56.2)",
+    "sidebar": "oklch(0.972 0.012 79.8)",
+    "sidebar-foreground": "oklch(0.300 0.030 55.8)",
+    "sidebar-primary": "oklch(0.581 0.196 28.7)",
+    "sidebar-primary-foreground": "oklch(0.960 0.016 82.8)",
+    "sidebar-accent": "oklch(0.923 0.027 37.6)",
+    "sidebar-accent-foreground": "oklch(0.581 0.196 28.7)",
+    "sidebar-border": "oklch(0.843 0.065 33.9)",
+    "sidebar-ring": "oklch(0.703 0.169 49.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.300 0.030 55.8)",
+    "foreground": "oklch(0.960 0.016 82.8)",
+    "card": "oklch(0.236 0.025 52.7)",
+    "card-foreground": "oklch(0.960 0.016 82.8)",
+    "popover": "oklch(0.236 0.025 52.7)",
+    "popover-foreground": "oklch(0.960 0.016 82.8)",
+    "primary": "oklch(0.703 0.169 49.8)",
+    "primary-foreground": "oklch(0.300 0.030 55.8)",
+    "secondary": "oklch(0.306 0.064 35.1)",
+    "secondary-foreground": "oklch(0.960 0.016 82.8)",
+    "muted": "oklch(0.306 0.064 35.1)",
+    "muted-foreground": "oklch(0.800 0.083 33.9)",
+    "accent": "oklch(0.850 0.146 90.5)",
+    "accent-foreground": "oklch(0.300 0.030 55.8)",
+    "destructive": "oklch(0.581 0.196 28.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.703 0.169 49.8)",
+    "chart-1": "oklch(0.703 0.169 49.8)",
+    "chart-2": "oklch(0.581 0.196 28.7)",
+    "chart-3": "oklch(0.850 0.146 90.5)",
+    "chart-4": "oklch(0.557 0.137 41.9)",
+    "chart-5": "oklch(0.637 0.182 31.3)",
+    "sidebar": "oklch(0.257 0.026 56.0)",
+    "sidebar-foreground": "oklch(0.960 0.016 82.8)",
+    "sidebar-primary": "oklch(0.703 0.169 49.8)",
+    "sidebar-primary-foreground": "oklch(0.300 0.030 55.8)",
+    "sidebar-accent": "oklch(0.306 0.064 35.1)",
+    "sidebar-accent-foreground": "oklch(0.960 0.016 82.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.703 0.169 49.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "High-contrast seasonal analytics typography with serif display cues, Inter-like product UI structure, tabular figures, and Noto Sans JP guidance for Japanese dashboard labels, dates, and status rows.",
+  "layout": "Crisp 8px dashboard grids, maple-vein dividers, compact navigation, seasonal data cards, warm leaf-edge borders, restrained shadows, and pressed-leaf texture panels.",
+  "tags": [
+    "maple leaf",
+    "plant",
+    "autumn forest",
+    "red orange",
+    "gold vein",
+    "seasonal dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-maple-leaf/motif.png",
+    "board": "/systems/morphous-maple-leaf/design-system-light.png",
+    "darkBoard": "/systems/morphous-maple-leaf/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-maple-leaf/theme.css",
+    "themeJson": "/systems/morphous-maple-leaf/theme.json",
+    "promptsJson": "/systems/morphous-maple-leaf/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent maple leaf motif",
+      "asset": "/systems/morphous-maple-leaf/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only one complete Japanese maple leaf for a design-system catalog, isolated as a single botanical subject on a removable chroma-key background.\nSubject: a single five-to-seven lobed maple leaf in peak autumn color, red-orange body with gold vein network, subtle amber edge variation, warm brown stem, natural matte leaf texture, slight curling at the tips, accurate maple leaf silhouette. The identity must read clearly as a maple leaf.\nComposition/framing: centered complete cutout with generous padding; include the full leaf blade and full stem without cropping. Clean studio light that preserves red, orange, gold, and brown detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no branch, no second leaf, no forest scene, no dew, no props, no text, no watermark, no decorative background, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-maple-leaf/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Maple Leaf light-mode design-system board\nInput image: use the visible transparent maple leaf motif in this conversation as the source reference.\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Maple Leaf\", derived from a red-orange autumn maple leaf with gold veins and a brown stem. This board is a source reference for a shadcn/tweakcn-compatible seasonal dashboard UI system.\nCanvas: wide 16:9 board, 3840x2160 preferred, high-resolution 4K-class source image. Clean professional product design-system presentation, not a marketing landing page.\nResolution and legibility: large readable labels, strong grid, avoid dense tiny text. Use short labels only.\nRequired visible sections: Morphous Maple Leaf, Maple Leaf, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nPalette guidance: use only motif-derived colors: ember red, red-orange maple leaf, burnt orange, gold vein yellow, russet edges, warm brown stem, bark brown ink, parchment cream, pale autumn mist, dried leaf border neutrals. No unrelated bright colors.\nTypography: English product UI examples plus Japanese typography guidance; labels such as Display, Body, Label, Numbers, 日本語, 見出し, 本文, ラベル, 数値. Keep every label large and legible.\nUI coverage: primary, secondary, ghost, destructive buttons; icon buttons; input, select, textarea, checkbox, radio, switch, slider; tabs; badges; alerts; cards; seasonal dashboard metric cards; line chart; bar chart; donut chart; calendar heatmap; table rows; sidebar navigation; top nav; command palette search; empty, loading, warning, success, error states; token code snippets; texture swatches; spacing scale; 8px radius samples; border and shadow samples.\nStyle: precise shadcn/tweakcn-style dashboard system, quiet work-focused UI, 8px radii, crisp parchment surfaces, maple-vein dividers, warm leaf-edge borders, gold focus rings, red-orange primary actions, russet warning states, brown ink text, subtle pressed-leaf texture panels, organized seasonal analytics dashboard mood.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no neon, no pure stock UI kit, no random brand names, no watermark, no long paragraphs, no tiny unreadable token table, no misspelling of \"Morphous Maple Leaf\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-maple-leaf/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Maple Leaf dark-mode design-system board\nInput images: use the visible transparent maple leaf motif and the accepted light-mode Morphous Maple Leaf board in this conversation as source references.\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Maple Leaf\" / \"Maple Leaf\". Translate the light board into dark mode; it must feel like the same seasonal dashboard system, not a new theme.\nCanvas: wide 16:9 board, 3840x2160 preferred, high-resolution 4K-class source image. Clean professional shadcn/tweakcn design-system presentation, not a marketing landing page.\nResolution and legibility: large readable labels, strong grid, avoid dense tiny text. Use short labels only.\nRequired visible sections: Morphous Maple Leaf, Maple Leaf, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nPalette guidance: use only motif-derived colors: dark bark brown background, deep russet panels, ember red primary actions, burnt orange charts, gold vein focus rings and highlights, warm parchment foreground text, maple mist muted text, brown stem borders, autumn forest neutrals. No unrelated bright colors.\nTypography: English product UI examples plus Japanese typography guidance; labels such as Display, Body, Label, Numbers, 日本語, 見出し, 本文, ラベル, 数値. Keep every label large and legible.\nUI coverage: primary, secondary, ghost, destructive buttons; icon buttons; input, select, textarea, checkbox, radio, switch, slider; tabs; badges; alerts; cards; seasonal dashboard metric cards; line chart; bar chart; donut chart; calendar heatmap; table rows; sidebar navigation; top nav; command palette search; empty, loading, warning, success, error states; token code snippets; texture swatches; spacing scale; 8px radius samples; border and shadow samples.\nVisual details: dark bark background derived from the maple stem, deep leaf-red surfaces, amber leaf-vein dividers, gold focus states, parchment labels, red-orange active navigation, subtle pressed-maple texture overlays, restrained dashboard contrast, crisp 8px cards and controls.\nConstraints: no neon, no generic red/black gaming UI, no flat pure-black background, no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark, no long paragraphs, no tiny unreadable token table, no misspelling of \"Morphous Maple Leaf\"."
+    }
+  ]
+}

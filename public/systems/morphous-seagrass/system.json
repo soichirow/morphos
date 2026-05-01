@@ -1,0 +1,166 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 205,
+  "slug": "morphous-seagrass",
+  "name": "Seagrass",
+  "motifName": "Seagrass Blades",
+  "motifCategory": "plant",
+  "biome": "Shallow Lagoon",
+  "motif": "fluid maps system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Seagrass light and dark design-system boards: sea green blade structure, aqua lagoon maps, sand cream surfaces, pale shell neutrals, and contour-like fluid data accents.",
+  "typography": "Geist for analytical Latin UI with Noto Sans JP guidance for Japanese labels, dense dashboard data, and calm shallow-lagoon product surfaces.",
+  "layout": "Fluid map panels on an 8px grid, compact shadcn controls, readable dashboard density, restrained card shadows, blade-vein texture, and 8px radii throughout.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "seagrass",
+    "plant",
+    "shallow-lagoon",
+    "aqua",
+    "fluid-maps",
+    "japanese-typography",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Cream",
+      "hex": "#F3EFE4",
+      "oklch": "oklch(0.952 0.015 90.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Eelgrass Ink",
+      "hex": "#23433D",
+      "oklch": "oklch(0.356 0.040 180.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sea Green",
+      "hex": "#3AA37A",
+      "oklch": "oklch(0.644 0.115 163.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lagoon Teal",
+      "hex": "#4CC1B3",
+      "oklch": "oklch(0.741 0.107 184.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Aqua Water",
+      "hex": "#6FD6E4",
+      "oklch": "oklch(0.819 0.098 207.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Blade Highlight",
+      "hex": "#A7D8C2",
+      "oklch": "oklch(0.842 0.060 165.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Shell",
+      "hex": "#E6E9E3",
+      "oklch": "oklch(0.930 0.009 128.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Submerged Shadow",
+      "hex": "#5F6A36",
+      "oklch": "oklch(0.502 0.076 119.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Lagoon",
+      "hex": "#1A2A28",
+      "oklch": "oklch(0.270 0.022 186.2)"
+    },
+    {
+      "role": "Map Contour",
+      "name": "Fluid Map Aqua",
+      "hex": "#BEE7E1",
+      "oklch": "oklch(0.897 0.043 185.6)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.952 0.015 90.2)",
+    "foreground": "oklch(0.356 0.040 180.5)",
+    "card": "oklch(0.930 0.009 128.6)",
+    "card-foreground": "oklch(0.356 0.040 180.5)",
+    "popover": "oklch(0.930 0.009 128.6)",
+    "popover-foreground": "oklch(0.356 0.040 180.5)",
+    "primary": "oklch(0.644 0.115 163.7)",
+    "primary-foreground": "oklch(0.952 0.015 90.2)",
+    "secondary": "oklch(0.940 0.012 111.8)",
+    "secondary-foreground": "oklch(0.270 0.022 186.2)",
+    "muted": "oklch(0.937 0.011 112.4)",
+    "muted-foreground": "oklch(0.270 0.022 186.2)",
+    "accent": "oklch(0.819 0.098 207.1)",
+    "accent-foreground": "oklch(0.356 0.040 180.5)",
+    "destructive": "oklch(0.644 0.115 163.7)",
+    "border": "oklch(0.781 0.031 119.5)",
+    "input": "oklch(0.781 0.031 119.5)",
+    "ring": "oklch(0.741 0.107 184.3)",
+    "chart-1": "oklch(0.644 0.115 163.7)",
+    "chart-2": "oklch(0.741 0.107 184.3)",
+    "chart-3": "oklch(0.819 0.098 207.1)",
+    "chart-4": "oklch(0.842 0.060 165.7)",
+    "chart-5": "oklch(0.270 0.022 186.2)",
+    "sidebar": "oklch(0.937 0.011 112.4)",
+    "sidebar-foreground": "oklch(0.356 0.040 180.5)",
+    "sidebar-primary": "oklch(0.644 0.115 163.7)",
+    "sidebar-primary-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-accent": "oklch(0.895 0.023 155.9)",
+    "sidebar-accent-foreground": "oklch(0.644 0.115 163.7)",
+    "sidebar-border": "oklch(0.781 0.031 119.5)",
+    "sidebar-ring": "oklch(0.741 0.107 184.3)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.356 0.040 180.5)",
+    "foreground": "oklch(0.952 0.015 90.2)",
+    "card": "oklch(0.301 0.029 181.5)",
+    "card-foreground": "oklch(0.952 0.015 90.2)",
+    "popover": "oklch(0.301 0.029 181.5)",
+    "popover-foreground": "oklch(0.952 0.015 90.2)",
+    "primary": "oklch(0.741 0.107 184.3)",
+    "primary-foreground": "oklch(0.356 0.040 180.5)",
+    "secondary": "oklch(0.323 0.030 148.4)",
+    "secondary-foreground": "oklch(0.952 0.015 90.2)",
+    "muted": "oklch(0.323 0.030 148.4)",
+    "muted-foreground": "oklch(0.756 0.040 112.2)",
+    "accent": "oklch(0.819 0.098 207.1)",
+    "accent-foreground": "oklch(0.356 0.040 180.5)",
+    "destructive": "oklch(0.644 0.115 163.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.741 0.107 184.3)",
+    "chart-1": "oklch(0.741 0.107 184.3)",
+    "chart-2": "oklch(0.644 0.115 163.7)",
+    "chart-3": "oklch(0.819 0.098 207.1)",
+    "chart-4": "oklch(0.842 0.060 165.7)",
+    "chart-5": "oklch(0.502 0.076 119.0)",
+    "sidebar": "oklch(0.319 0.032 180.0)",
+    "sidebar-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-primary": "oklch(0.741 0.107 184.3)",
+    "sidebar-primary-foreground": "oklch(0.356 0.040 180.5)",
+    "sidebar-accent": "oklch(0.323 0.030 148.4)",
+    "sidebar-accent-foreground": "oklch(0.952 0.015 90.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.741 0.107 184.3)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

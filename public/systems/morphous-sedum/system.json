@@ -1,0 +1,103 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 217,
+  "slug": "morphous-sedum",
+  "name": "Morphous Sedum",
+  "motifName": "Sedum",
+  "motifCategory": "plant",
+  "biome": "rock garden",
+  "motif": "sedum cluster",
+  "description": "A shadcn/tweakcn-compatible compact tile system derived from rock-garden sedum clusters: chartreuse bead leaves, coral-pink tips, stone-grey crevices, pumice neutrals, and low succulent modularity for dense dashboards and data tools.",
+  "typography": "Geist for compact English product UI with Noto Sans JP guidance for Japanese garden, inventory, and status labels using clear tabular numbers.",
+  "layout": "Compact 8px tile grids, low succulent cluster grouping, stone-grey separators, shallow shadows, 8px radii, and coral-tip state accents for dense product surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sedum",
+    "plant",
+    "rock-garden",
+    "chartreuse",
+    "coral-tip",
+    "stone-grey",
+    "compact-tiles",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Rock Garden Paper",
+      "hex": "#f4f1e8"
+    },
+    {
+      "role": "Ink",
+      "name": "Basalt Green Ink",
+      "hex": "#202922"
+    },
+    {
+      "role": "Primary",
+      "name": "Sedum Chartreuse",
+      "hex": "#9fbd34"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Fresh Leaf Lime",
+      "hex": "#c1d84a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Olive Leaf Shadow",
+      "hex": "#738b3f"
+    },
+    {
+      "role": "Accent",
+      "name": "Coral Tip",
+      "hex": "#d97465"
+    },
+    {
+      "role": "Signal",
+      "name": "Rooted Chartreuse",
+      "hex": "#7f9f47"
+    },
+    {
+      "role": "Surface",
+      "name": "Pumice Tile",
+      "hex": "#e5e0d4"
+    },
+    {
+      "role": "Muted",
+      "name": "Gravel Mist",
+      "hex": "#c9cbbf"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#a8aaa0"
+    },
+    {
+      "role": "Warning",
+      "name": "New Growth Glow",
+      "hex": "#d9c85f"
+    },
+    {
+      "role": "Error",
+      "name": "Coral Stress",
+      "hex": "#b9564f"
+    },
+    {
+      "role": "Depth",
+      "name": "Rock Crevice",
+      "hex": "#4b5248"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

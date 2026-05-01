@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tulip",
+    "name": "Morphous Tulip",
+    "motifName": "Tulip Cup",
+    "motifCategory": "flower",
+    "biome": "Spring Field",
+    "motif": "red coral tulip cup with black center and leaf-green structure"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Warm",
+      "hex": "#F0EFE9",
+      "oklch": "oklch(0.951 0.008 98.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Gallery Ink",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Tulip Coral 600",
+      "hex": "#E24A3A",
+      "oklch": "oklch(0.620 0.191 29.5)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Tulip Coral 500",
+      "hex": "#F16451",
+      "oklch": "oklch(0.678 0.178 30.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green 600",
+      "hex": "#3F6F3A",
+      "oklch": "oklch(0.493 0.097 142.0)"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Green 400",
+      "hex": "#6FAE64",
+      "oklch": "oklch(0.690 0.123 140.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Ivory Petal",
+      "hex": "#FFF7F1",
+      "oklch": "oklch(0.981 0.012 59.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Blush",
+      "hex": "#FFD9B8",
+      "oklch": "oklch(0.909 0.061 62.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage Neutral",
+      "hex": "#6C6F60",
+      "oklch": "oklch(0.535 0.023 116.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Clay Shadow",
+      "hex": "#4A433A",
+      "oklch": "oklch(0.387 0.018 74.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.951 0.008 98.9)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.981 0.012 59.6)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.981 0.012 59.6)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.620 0.191 29.5)",
+    "primary-foreground": "oklch(0.951 0.008 98.9)",
+    "secondary": "oklch(0.969 0.010 72.7)",
+    "secondary-foreground": "oklch(0.387 0.018 74.1)",
+    "muted": "oklch(0.973 0.010 67.7)",
+    "muted-foreground": "oklch(0.387 0.018 74.1)",
+    "accent": "oklch(0.493 0.097 142.0)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.620 0.191 29.5)",
+    "border": "oklch(0.827 0.013 86.8)",
+    "input": "oklch(0.827 0.013 86.8)",
+    "ring": "oklch(0.678 0.178 30.1)",
+    "chart-1": "oklch(0.620 0.191 29.5)",
+    "chart-2": "oklch(0.678 0.178 30.1)",
+    "chart-3": "oklch(0.493 0.097 142.0)",
+    "chart-4": "oklch(0.909 0.061 62.9)",
+    "chart-5": "oklch(0.387 0.018 74.1)",
+    "sidebar": "oklch(0.970 0.010 67.7)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.620 0.191 29.5)",
+    "sidebar-primary-foreground": "oklch(0.951 0.008 98.9)",
+    "sidebar-accent": "oklch(0.932 0.030 35.5)",
+    "sidebar-accent-foreground": "oklch(0.620 0.191 29.5)",
+    "sidebar-border": "oklch(0.827 0.013 86.8)",
+    "sidebar-ring": "oklch(0.678 0.178 30.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.000 89.9)",
+    "foreground": "oklch(0.951 0.008 98.9)",
+    "card": "oklch(0.320 0.013 72.4)",
+    "card-foreground": "oklch(0.951 0.008 98.9)",
+    "popover": "oklch(0.320 0.013 72.4)",
+    "popover-foreground": "oklch(0.951 0.008 98.9)",
+    "primary": "oklch(0.678 0.178 30.1)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.421 0.018 90.4)",
+    "secondary-foreground": "oklch(0.951 0.008 98.9)",
+    "muted": "oklch(0.421 0.018 90.4)",
+    "muted-foreground": "oklch(0.770 0.014 106.7)",
+    "accent": "oklch(0.493 0.097 142.0)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.620 0.191 29.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.678 0.178 30.1)",
+    "chart-1": "oklch(0.678 0.178 30.1)",
+    "chart-2": "oklch(0.620 0.191 29.5)",
+    "chart-3": "oklch(0.493 0.097 142.0)",
+    "chart-4": "oklch(0.909 0.061 62.9)",
+    "chart-5": "oklch(0.535 0.023 116.4)",
+    "sidebar": "oklch(0.279 0.008 75.2)",
+    "sidebar-foreground": "oklch(0.951 0.008 98.9)",
+    "sidebar-primary": "oklch(0.678 0.178 30.1)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.421 0.018 90.4)",
+    "sidebar-accent-foreground": "oklch(0.951 0.008 98.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.678 0.178 30.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Playfair Display for bold gallery headings with Inter for product UI and Noto Sans JP guidance for Japanese labels, metrics, and readable dashboard copy.",
+  "layout": "Bold gallery composition on an 8px grid, 8px radii, petal-vein separators, black-center focus rings, compact forms, readable tables, command search, and dashboard/data surfaces.",
+  "tags": [
+    "tulip",
+    "flower",
+    "spring-field",
+    "red-coral",
+    "leaf-green",
+    "bold-gallery",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tulip/motif.png",
+    "board": "/systems/morphous-tulip/design-system-light.png",
+    "darkBoard": "/systems/morphous-tulip/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tulip/theme.css",
+    "themeJson": "/systems/morphous-tulip/theme.json",
+    "promptsJson": "/systems/morphous-tulip/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Tulip motif",
+      "asset": "/systems/morphous-tulip/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tulip transparent motif chroma-key source\nPrimary request: Create only an isolated tulip cup motif for a design-system catalog, no environment, no props, no text.\nSubject: A single red-coral tulip cup with a visible deep black center, subtle petal veins, crisp petal edges, a small leaf-green stem and two leaf-green leaves, natural spring-field botanical texture, accurate tulip form, bold gallery-system presence.\nComposition/framing: centered complete cutout with generous padding; show the whole tulip cup, black center, short stem, and leaves without cropping.\nLighting/mood: clean studio light that preserves coral-red petal gradients, black center depth, green leaf structure, and natural flower surface detail.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no vase, no bouquet, no landscape, no decorative background, no second flower, no insects, no fruit."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-tulip/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tulip light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board derived from the visible tulip cup motif in this conversation, for a ready Morphous catalog system named \"Morphous Tulip\".\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the tulip: red coral tulip cup, deep black flower center, leaf green stem and leaves, warm spring-field neutrals, crisp botanical veins, bold gallery-system contrast.\nCanvas: exact wide 16:9 board, 3840 x 2160 source-art composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and fewer, larger rows; avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Tulip\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar/nav, dashboard chart, metric cards, empty state, error state, loading state, focus rings.\nTypography: include English product UI guidance and Japanese examples, with clear labels such as \"Type\", \"Japanese\", \"見出し\", \"本文\".\nStyle/medium: premium product design-system board, precise 8px grid, 8px radii, bold gallery layout, coral action bars, black-center focus rings, leaf-green support chips, petal-vein dividers, spring-field paper surfaces, restrained botanical texture.\nColor palette: use only motif-derived colors: red coral tulip cup, leaf green, black center, ivory petal highlight, pollen blush, warm spring-field paper, sage neutral, clay shadow, gallery ink.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no neon, no vase, no bouquet, no insects, no fruit, no random brand names, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-tulip/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tulip dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for \"Morphous Tulip\" that feels like the same system as the visible light board and tulip motif translated to dark mode.\nReference use: Preserve the tulip-derived palette roles, component language, texture, spacing, and typography from the visible light board: red coral tulip cup for primary actions, deep black center for background and focus depth, leaf green for support/status, ivory petal highlights for foreground, warm spring-field neutrals for panels, subtle petal-vein texture, bold gallery-system accents.\nCanvas: exact wide 16:9 board, 3840 x 2160 source-art composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and fewer, larger rows; avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Tulip\", \"Dark Mode\", palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar/nav, dashboard chart, metric cards, empty state, error state, loading state, focus rings.\nTypography: include English product UI guidance and Japanese examples, with clear labels such as \"Type\", \"Japanese\", \"見出し\", \"本文\".\nVisual details: dark gallery-ink background from the tulip black center, soft charcoal cards, coral active states, petal-ivory text, leaf-green success/support, pollen-blush warning accents, black-center rings and separators, subtle botanical vein texture overlays, precise 8px grid and 8px radii.\nColor palette: use only motif-derived colors: red coral tulip cup, leaf green, black center, ivory petal highlight, pollen blush, warm spring-field paper adapted darker, sage neutral, clay shadow, gallery ink.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no generic purple/blue gradients, no unrelated saturated colors, no flat pure black void, no vase, no bouquet, no insects, no fruit, no random brand names, no watermark, no illegible microtext."
+    }
+  ]
+}

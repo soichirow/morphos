@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fireweed",
+    "name": "Morphous Fireweed",
+    "motifName": "Fireweed",
+    "motifCategory": "flower",
+    "biome": "postfire meadow",
+    "motif": "fireweed stalk"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Regrowth Cream",
+      "hex": "#FAF8F2",
+      "oklch": "oklch(0.979 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charred Neutral",
+      "hex": "#1C1A1E",
+      "oklch": "oklch(0.222 0.008 308.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fireweed Magenta",
+      "hex": "#D0108A",
+      "oklch": "oklch(0.569 0.231 349.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#3C8D3A",
+      "oklch": "oklch(0.574 0.143 143.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Petal Blush",
+      "hex": "#F49AC2",
+      "oklch": "oklch(0.789 0.117 351.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Meadow Highlight",
+      "hex": "#E6F3D5",
+      "oklch": "oklch(0.947 0.042 126.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ash Paper",
+      "hex": "#F4F5F6",
+      "oklch": "oklch(0.970 0.002 247.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Grey",
+      "hex": "#858A91",
+      "oklch": "oklch(0.632 0.012 256.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charred Bark",
+      "hex": "#121114",
+      "oklch": "oklch(0.180 0.006 300.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Ash Line",
+      "hex": "#C8CDD1",
+      "oklch": "oklch(0.846 0.008 241.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Stem Umber",
+      "hex": "#7A5A3A",
+      "oklch": "oklch(0.493 0.063 65.5)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Burnt Berry",
+      "hex": "#B91445",
+      "oklch": "oklch(0.507 0.193 12.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.008 91.5)",
+    "foreground": "oklch(0.222 0.008 308.0)",
+    "card": "oklch(0.970 0.002 247.8)",
+    "card-foreground": "oklch(0.222 0.008 308.0)",
+    "popover": "oklch(0.970 0.002 247.8)",
+    "popover-foreground": "oklch(0.222 0.008 308.0)",
+    "primary": "oklch(0.569 0.231 349.9)",
+    "primary-foreground": "oklch(0.979 0.008 91.5)",
+    "secondary": "oklch(0.973 0.003 84.6)",
+    "secondary-foreground": "oklch(0.180 0.006 300.9)",
+    "muted": "oklch(0.973 0.001 106.4)",
+    "muted-foreground": "oklch(0.180 0.006 300.9)",
+    "accent": "oklch(0.789 0.117 351.9)",
+    "accent-foreground": "oklch(0.222 0.008 308.0)",
+    "destructive": "oklch(0.569 0.231 349.9)",
+    "border": "oklch(0.851 0.006 264.5)",
+    "input": "oklch(0.851 0.006 264.5)",
+    "ring": "oklch(0.574 0.143 143.0)",
+    "chart-1": "oklch(0.569 0.231 349.9)",
+    "chart-2": "oklch(0.574 0.143 143.0)",
+    "chart-3": "oklch(0.789 0.117 351.9)",
+    "chart-4": "oklch(0.947 0.042 126.3)",
+    "chart-5": "oklch(0.180 0.006 300.9)",
+    "sidebar": "oklch(0.973 0.001 106.4)",
+    "sidebar-foreground": "oklch(0.222 0.008 308.0)",
+    "sidebar-primary": "oklch(0.569 0.231 349.9)",
+    "sidebar-primary-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-accent": "oklch(0.911 0.031 337.3)",
+    "sidebar-accent-foreground": "oklch(0.569 0.231 349.9)",
+    "sidebar-border": "oklch(0.851 0.006 264.5)",
+    "sidebar-ring": "oklch(0.574 0.143 143.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.008 308.0)",
+    "foreground": "oklch(0.979 0.008 91.5)",
+    "card": "oklch(0.194 0.006 301.0)",
+    "card-foreground": "oklch(0.979 0.008 91.5)",
+    "popover": "oklch(0.194 0.006 301.0)",
+    "popover-foreground": "oklch(0.979 0.008 91.5)",
+    "primary": "oklch(0.574 0.143 143.0)",
+    "primary-foreground": "oklch(0.222 0.008 308.0)",
+    "secondary": "oklch(0.294 0.007 274.7)",
+    "secondary-foreground": "oklch(0.979 0.008 91.5)",
+    "muted": "oklch(0.294 0.007 274.7)",
+    "muted-foreground": "oklch(0.828 0.003 165.1)",
+    "accent": "oklch(0.789 0.117 351.9)",
+    "accent-foreground": "oklch(0.222 0.008 308.0)",
+    "destructive": "oklch(0.569 0.231 349.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.574 0.143 143.0)",
+    "chart-1": "oklch(0.574 0.143 143.0)",
+    "chart-2": "oklch(0.569 0.231 349.9)",
+    "chart-3": "oklch(0.789 0.117 351.9)",
+    "chart-4": "oklch(0.947 0.042 126.3)",
+    "chart-5": "oklch(0.632 0.012 256.7)",
+    "sidebar": "oklch(0.203 0.006 301.0)",
+    "sidebar-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-primary": "oklch(0.574 0.143 143.0)",
+    "sidebar-primary-foreground": "oklch(0.222 0.008 308.0)",
+    "sidebar-accent": "oklch(0.294 0.007 274.7)",
+    "sidebar-accent-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.574 0.143 143.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Operational English UI with Japanese typography guidance for restoration plans, monitoring tables, status labels, and calm dashboard headings.",
+  "layout": "Postfire meadow planning dashboards, 8px radii, ash-line dividers, charred navigation, magenta active states, leaf-green progress signals, and quiet regrowth spacing.",
+  "tags": [
+    "fireweed",
+    "flower",
+    "postfire-meadow",
+    "magenta",
+    "ash-grey",
+    "leaf-green",
+    "regrowth-planning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fireweed/motif.png",
+    "board": "/systems/morphous-fireweed/design-system-light.png",
+    "darkBoard": "/systems/morphous-fireweed/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fireweed/theme.css",
+    "themeJson": "/systems/morphous-fireweed/theme.json",
+    "promptsJson": "/systems/morphous-fireweed/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Fireweed motif",
+      "asset": "/systems/morphous-fireweed/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fireweed transparent motif chroma-key source\nPrimary request: Create only a single complete fireweed stalk for a design-system catalog, isolated full subject, no environment, no props, no text.\nSubject: fireweed stalk with slender vertical stem, alternating lance-shaped leaf green leaves, tiers of vivid magenta-pink four-petal flowers and a few buds at the top, subtle ash-grey dust and charred neutral undertones on the lower stem, accurate botanical form, crisp silhouette edges, natural petal and leaf texture.\nComposition/framing: centered complete cutout with generous padding; portrait orientation; show the full stalk, leaves, flower tiers, and buds without cropping.\nLighting/mood: clean studio light that preserves fireweed magenta petals, ash-grey stem shadows, leaf green, and regrowth-meadow highlights.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff chroma-key background for removal. The background must be one uniform cyan color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no vase, no bouquet, no hand, no landscape, no soil clump, no fire flames, no text, no watermark, no second plant."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fireweed/design-system-light.png",
+      "sourceAsset": "/systems/morphous-fireweed/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fireweed light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board named \"Morphous Fireweed\", derived from the fireweed stalk motif shown in context: magenta-pink flowers, ash-grey lower stem, leaf green leaves, charred neutral depth, and meadow regrowth highlights.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the fireweed motif image. The board must visibly respect only motif-derived colors: fireweed magenta, ash grey, leaf green, charred neutral depth, soft meadow highlight, petal blush, stem umber, regrowth cream.\nCanvas: exact wide 16:9 design board, 3840x2160 pixels, crisp high-resolution source asset.\nRequired visible sections: title, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nTypography: include English UI examples and Japanese typography guidance with short readable labels such as \"日本語 UI\", \"見出し\", \"本文\", \"状態\".\nStyle/medium: premium shadcn/tweakcn-compatible product design system, regrowth planning system for postfire meadow restoration, precise grid, calm operational dashboard, 8px card radius, ash-line dividers, leaf-green planning states, magenta active controls, charred-neutral sidebars, meadow highlight focus rings.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, charts, table rows, command palette, search field, navigation rail, dashboard metrics, empty/error/loading/success states, spacing scale, radius token, border token, shadow token, CSS variable token chips.\nText: use short readable UI labels only; include \"Morphous Fireweed\", \"Palette\", \"Type\", \"日本語\", \"Components\", \"Navigation\", \"Dashboard\", \"Forms\", \"Tables\", \"Command\", \"Status\", \"Tokens\", \"Texture\", \"Radius 8px\", \"Spacing\", \"Shadows\".\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no flames as decoration, no random brand names, no watermark, no illegible tiny token tables, no pure stock UI kit look."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fireweed/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-fireweed/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fireweed dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode version of the \"Morphous Fireweed\" design-system board. It must feel like the same regrowth planning system translated to dark mode, not a new theme.\nReference use: Use the transparent fireweed motif and the light-mode Morphous Fireweed board shown in context as references. Preserve the motif-derived palette roles, component language, 8px radii, ash-line dividers, magenta active states, leaf-green planning states, charred-neutral navigation, meadow-highlight focus rings, and Japanese typography guidance.\nCanvas: exact wide 16:9 design board, 3840x2160 pixels, crisp high-resolution source asset.\nRequired visible sections: title, Dark Mode, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nColor palette: use only motif-derived colors translated for dark mode: charred black-brown background, ash grey surfaces and borders, fireweed magenta controls, petal blush hover states, leaf green success/planning signals, stem umber warning/caution, regrowth cream foreground, meadow highlight focus.\nTypography: include English UI examples and Japanese typography guidance with short readable labels such as \"日本語 UI\", \"見出し\", \"本文\", \"状態\".\nStyle/medium: premium shadcn/tweakcn-compatible product design system, calm operational dark dashboard for postfire meadow restoration planning, precise grid, 8px card radius, restrained contrast, subtle charred bark texture, ash-grey cards, readable labels.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, charts, table rows, command palette, search field, navigation rail, dashboard metrics, empty/error/loading/success states, spacing scale, radius token, border token, shadow token, CSS variable token chips.\nText: use short readable UI labels only; include \"Morphous Fireweed\", \"Dark Mode\", \"Palette\", \"Type\", \"日本語\", \"Components\", \"Navigation\", \"Dashboard\", \"Forms\", \"Tables\", \"Command\", \"Status\", \"Tokens\", \"Texture\", \"Radius 8px\", \"Spacing\", \"Shadows\".\nConstraints: no neon colors, no flat pure-black background, no unrelated saturated colors, no generic purple or blue gradients, no flames as decoration, no random brand names, no watermark, no illegible tiny token tables."
+    }
+  ]
+}

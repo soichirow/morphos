@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-crocus",
+    "name": "Morphous Crocus",
+    "motifName": "Crocus",
+    "motifCategory": "flower",
+    "biome": "early spring lawn",
+    "motif": "crocus bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spring Paper",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Crocus Ink",
+      "hex": "#2A2340",
+      "oklch": "oklch(0.279 0.053 293.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Saffron Center",
+      "hex": "#F59E0B",
+      "oklch": "oklch(0.769 0.165 70.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Petal Violet",
+      "hex": "#6B4ACD",
+      "oklch": "oklch(0.519 0.192 289.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lawn Green",
+      "hex": "#6AAB4F",
+      "oklch": "oklch(0.676 0.142 137.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Vein Lavender",
+      "hex": "#B899E6",
+      "oklch": "oklch(0.739 0.113 302.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Crocus Bloom",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bulb Tint",
+      "hex": "#E7E2EE",
+      "oklch": "oklch(0.920 0.017 304.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bulb Shadow",
+      "hex": "#1E1830",
+      "oklch": "oklch(0.229 0.046 294.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Petal Vein",
+      "hex": "#D8CBEF",
+      "oklch": "oklch(0.864 0.051 301.8)"
+    },
+    {
+      "role": "Success",
+      "name": "New Shoot",
+      "hex": "#64A84F",
+      "oklch": "oklch(0.666 0.141 138.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.003 106.4)",
+    "foreground": "oklch(0.279 0.053 293.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.279 0.053 293.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.279 0.053 293.8)",
+    "primary": "oklch(0.769 0.165 70.1)",
+    "primary-foreground": "oklch(0.279 0.053 293.8)",
+    "secondary": "oklch(0.519 0.192 289.5)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.920 0.017 304.8)",
+    "muted-foreground": "oklch(0.279 0.053 293.8)",
+    "accent": "oklch(0.676 0.142 137.4)",
+    "accent-foreground": "oklch(0.279 0.053 293.8)",
+    "destructive": "oklch(0.769 0.165 70.1)",
+    "border": "oklch(0.864 0.051 301.8)",
+    "input": "oklch(0.864 0.051 301.8)",
+    "ring": "oklch(0.739 0.113 302.2)",
+    "chart-1": "oklch(0.769 0.165 70.1)",
+    "chart-2": "oklch(0.519 0.192 289.5)",
+    "chart-3": "oklch(0.676 0.142 137.4)",
+    "chart-4": "oklch(0.739 0.113 302.2)",
+    "chart-5": "oklch(0.229 0.046 294.0)",
+    "sidebar": "oklch(0.985 0.003 106.4)",
+    "sidebar-foreground": "oklch(0.279 0.053 293.8)",
+    "sidebar-primary": "oklch(0.769 0.165 70.1)",
+    "sidebar-primary-foreground": "oklch(0.279 0.053 293.8)",
+    "sidebar-accent": "oklch(0.964 0.014 304.1)",
+    "sidebar-accent-foreground": "oklch(0.519 0.192 289.5)",
+    "sidebar-border": "oklch(0.864 0.051 301.8)",
+    "sidebar-ring": "oklch(0.739 0.113 302.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.279 0.053 293.8)",
+    "foreground": "oklch(0.985 0.003 106.4)",
+    "card": "oklch(0.229 0.046 294.0)",
+    "card-foreground": "oklch(0.985 0.003 106.4)",
+    "popover": "oklch(0.229 0.046 294.0)",
+    "popover-foreground": "oklch(0.985 0.003 106.4)",
+    "primary": "oklch(0.781 0.171 66.7)",
+    "primary-foreground": "oklch(0.279 0.053 293.8)",
+    "secondary": "oklch(0.576 0.172 290.2)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.413 0.033 294.1)",
+    "muted-foreground": "oklch(0.920 0.017 304.8)",
+    "accent": "oklch(0.666 0.141 138.8)",
+    "accent-foreground": "oklch(0.279 0.053 293.8)",
+    "destructive": "oklch(0.781 0.171 66.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.750 0.127 297.4)",
+    "chart-1": "oklch(0.576 0.172 290.2)",
+    "chart-2": "oklch(0.781 0.171 66.7)",
+    "chart-3": "oklch(0.666 0.141 138.8)",
+    "chart-4": "oklch(0.750 0.127 297.4)",
+    "chart-5": "oklch(0.963 0.005 258.3)",
+    "sidebar": "oklch(0.247 0.047 293.7)",
+    "sidebar-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-primary": "oklch(0.781 0.171 66.7)",
+    "sidebar-primary-foreground": "oklch(0.279 0.053 293.8)",
+    "sidebar-accent": "oklch(0.413 0.033 294.1)",
+    "sidebar-accent-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.750 0.127 297.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Friendly onboarding English UI with Japanese typography guidance for compact setup steps, reassurance copy, metric labels, command search, and table-heavy product surfaces.",
+  "layout": "Seasonal onboarding screens, 8px radii, petal-vein dividers, saffron primary actions, violet progress and selected states, grass-green success cues, and quiet early-spring surfaces.",
+  "tags": [
+    "crocus",
+    "flower",
+    "early-spring-lawn",
+    "violet-petal",
+    "saffron-center",
+    "grass-green",
+    "seasonal-onboarding",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-crocus/motif.png",
+    "board": "/systems/morphous-crocus/design-system-light.png",
+    "darkBoard": "/systems/morphous-crocus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-crocus/theme.css",
+    "themeJson": "/systems/morphous-crocus/theme.json",
+    "promptsJson": "/systems/morphous-crocus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Crocus motif",
+      "asset": "/systems/morphous-crocus/motif.png",
+      "workflow": "Built-in image generation on a cyan chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only one early-spring crocus bloom isolated for a Morphous design-system catalog; no environment, no props, no text.\nSubject: A complete crocus bloom with clearly violet and lavender-purple petals, darker violet petal veins, a vivid saffron-orange center with stamens, a short fresh grass-green stem, and a few narrow early-spring lawn leaves. Natural botanical form, crisp petal edges, believable texture, seasonal freshness.\nComposition/framing: centered complete cutout with generous padding; show the whole bloom, center, stem, and leaves without cropping.\nLighting/mood: clean soft studio light that preserves violet petals, saffron orange center, grass green leaves, and delicate translucent petal detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff chroma-key background for removal. The background must be one uniform cyan color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff or cyan anywhere in the subject.\nConstraints: no white or gray petals, no vase, no pot, no bouquet, no hand, no insects, no landscape, no soil clumps, no dew drops, no cast shadow, no contact shadow, no reflection, no text, no watermark, no second bloom."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-crocus/design-system-light.png",
+      "sourceAsset": "/systems/morphous-crocus/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Crocus light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board named \"Morphous Crocus\" derived from the provided crocus cutout reference: violet petals, lavender petal veining, saffron-orange center, grass-green leaves, and early spring lawn neutrals. This is a seasonal onboarding system for a shadcn/tweakcn-compatible product UI.\nReference use: Treat the crocus motif image visible in context as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif only.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. No browser chrome.\nResolution and legibility: high-resolution source board with large readable labels; avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Crocus\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, onboarding stepper, progress ring, sidebar navigation, top navigation, dashboard metrics, small chart, table rows, command palette/search overlay, empty/error/loading/success states.\nVisual system: premium quiet product design board, precise grid, 8px radii, petal-shaped but still rectangular panels, subtle petal vein texture as dividers, saffron-orange primary action and focus, violet selected states, grass-green success/accent, early spring lawn off-white and mist neutrals.\nTypography: English UI and Japanese UI examples; use short readable labels and a compact multilingual guidance block.\nPalette labels: Petal Violet, Vein Lavender, Saffron Center, Lawn Green, Thaw Mist, Spring Paper, Bulb Shadow, Crocus Ink.\nConstraints: use only motif-derived colors and lawn neutrals; no unrelated bright colors, no generic blue/purple gradients, no neon, no random brand names, no watermark, no misspellings, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-crocus/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-crocus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Crocus dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board named \"Morphous Crocus\" translated from the provided Crocus motif and the light-mode board visible in context. It must feel like the same seasonal onboarding system in dark mode, not a new theme.\nReference use: Use the transparent crocus motif and light board as references. Preserve violet petals, lavender petal veining, saffron-orange center, grass-green leaves, early spring lawn neutrals, 8px radius language, onboarding controls, and shadcn/tweakcn-style UI sections.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. No browser chrome.\nResolution and legibility: high-resolution source board with large readable labels; avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Crocus\", Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, onboarding stepper, progress ring, sidebar navigation, top navigation, dashboard metrics, small chart, table rows, command palette/search overlay, empty/error/loading/success states.\nVisual system: dark background derived from Crocus Ink and Bulb Shadow, luminous violet selected states, saffron-orange primary action and focus, grass-green success/support, thaw-mist text, spring-paper highlights, subtle petal vein texture overlays, crisp rectangular cards with 8px radii.\nTypography: English UI and Japanese UI examples; use short readable labels and a compact multilingual guidance block.\nPalette labels: Crocus Ink, Bulb Shadow, Petal Violet, Vein Lavender, Saffron Center, Lawn Green, Thaw Mist, Spring Paper.\nConstraints: use only motif-derived colors and lawn neutrals; no neon, no pure black slab background, no unrelated bright colors, no generic blue/purple gradients, no random brand names, no watermark, no misspellings, no illegible microtext."
+    }
+  ]
+}

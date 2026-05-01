@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-evening-primrose",
+    "name": "Morphous Evening Primrose",
+    "motifName": "Evening Primrose",
+    "motifCategory": "flower",
+    "biome": "dusk meadow",
+    "motif": "evening primrose bloom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dusk Cream",
+      "hex": "#FFF7D9",
+      "oklch": "oklch(0.975 0.040 94.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Twilight Ink",
+      "hex": "#172235",
+      "oklch": "oklch(0.252 0.040 260.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Primrose Yellow",
+      "hex": "#7BA358",
+      "oklch": "oklch(0.668 0.112 131.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#628F55",
+      "oklch": "oklch(0.602 0.098 138.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Twilight Blue",
+      "hex": "#4C6797",
+      "oklch": "oklch(0.514 0.083 261.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Evening Gold",
+      "hex": "#F2C94C",
+      "oklch": "oklch(0.850 0.146 90.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Light",
+      "hex": "#FFFBE8",
+      "oklch": "oklch(0.986 0.025 97.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Meadow Haze",
+      "hex": "#A9B89A",
+      "oklch": "oklch(0.763 0.045 129.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dusk Blue",
+      "hex": "#26344D",
+      "oklch": "oklch(0.325 0.049 261.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Grass",
+      "hex": "#B99A61",
+      "oklch": "oklch(0.701 0.084 81.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Night Leaf",
+      "hex": "#7EA65D",
+      "oklch": "oklch(0.678 0.110 132.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.040 94.7)",
+    "foreground": "oklch(0.252 0.040 260.9)",
+    "card": "oklch(0.986 0.025 97.1)",
+    "card-foreground": "oklch(0.252 0.040 260.9)",
+    "popover": "oklch(0.986 0.025 97.1)",
+    "popover-foreground": "oklch(0.252 0.040 260.9)",
+    "primary": "oklch(0.668 0.112 131.8)",
+    "primary-foreground": "oklch(0.975 0.040 94.7)",
+    "secondary": "oklch(0.981 0.031 94.9)",
+    "secondary-foreground": "oklch(0.325 0.049 261.6)",
+    "muted": "oklch(0.983 0.029 96.4)",
+    "muted-foreground": "oklch(0.325 0.049 261.6)",
+    "accent": "oklch(0.514 0.083 261.4)",
+    "accent-foreground": "oklch(0.252 0.040 260.9)",
+    "destructive": "oklch(0.668 0.112 131.8)",
+    "border": "oklch(0.907 0.031 113.0)",
+    "input": "oklch(0.907 0.031 113.0)",
+    "ring": "oklch(0.602 0.098 138.9)",
+    "chart-1": "oklch(0.668 0.112 131.8)",
+    "chart-2": "oklch(0.602 0.098 138.9)",
+    "chart-3": "oklch(0.514 0.083 261.4)",
+    "chart-4": "oklch(0.850 0.146 90.5)",
+    "chart-5": "oklch(0.325 0.049 261.6)",
+    "sidebar": "oklch(0.983 0.031 96.9)",
+    "sidebar-foreground": "oklch(0.252 0.040 260.9)",
+    "sidebar-primary": "oklch(0.668 0.112 131.8)",
+    "sidebar-primary-foreground": "oklch(0.975 0.040 94.7)",
+    "sidebar-accent": "oklch(0.948 0.033 108.9)",
+    "sidebar-accent-foreground": "oklch(0.668 0.112 131.8)",
+    "sidebar-border": "oklch(0.907 0.031 113.0)",
+    "sidebar-ring": "oklch(0.602 0.098 138.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.252 0.040 260.9)",
+    "foreground": "oklch(0.975 0.040 94.7)",
+    "card": "oklch(0.301 0.046 261.4)",
+    "card-foreground": "oklch(0.975 0.040 94.7)",
+    "popover": "oklch(0.301 0.046 261.4)",
+    "popover-foreground": "oklch(0.975 0.040 94.7)",
+    "primary": "oklch(0.602 0.098 138.9)",
+    "primary-foreground": "oklch(0.252 0.040 260.9)",
+    "secondary": "oklch(0.428 0.028 246.5)",
+    "secondary-foreground": "oklch(0.975 0.040 94.7)",
+    "muted": "oklch(0.428 0.028 246.5)",
+    "muted-foreground": "oklch(0.881 0.040 111.9)",
+    "accent": "oklch(0.514 0.083 261.4)",
+    "accent-foreground": "oklch(0.252 0.040 260.9)",
+    "destructive": "oklch(0.668 0.112 131.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.602 0.098 138.9)",
+    "chart-1": "oklch(0.602 0.098 138.9)",
+    "chart-2": "oklch(0.668 0.112 131.8)",
+    "chart-3": "oklch(0.514 0.083 261.4)",
+    "chart-4": "oklch(0.850 0.146 90.5)",
+    "chart-5": "oklch(0.763 0.045 129.1)",
+    "sidebar": "oklch(0.285 0.044 262.0)",
+    "sidebar-foreground": "oklch(0.975 0.040 94.7)",
+    "sidebar-primary": "oklch(0.602 0.098 138.9)",
+    "sidebar-primary-foreground": "oklch(0.252 0.040 260.9)",
+    "sidebar-accent": "oklch(0.428 0.028 246.5)",
+    "sidebar-accent-foreground": "oklch(0.975 0.040 94.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.602 0.098 138.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm evening English UI with Japanese typography guidance for gentle headings, body text, status chips, forms, and dashboard labels.",
+  "layout": "Evening app dashboards, calm cards, 8px radii, pale-yellow focus, twilight-blue navigation, leaf-green success states, and soft dusk texture.",
+  "tags": [
+    "evening-primrose",
+    "flower",
+    "dusk-meadow",
+    "pale-yellow",
+    "twilight-blue",
+    "calm-evening",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-evening-primrose/motif.png",
+    "board": "/systems/morphous-evening-primrose/design-system-light.png",
+    "darkBoard": "/systems/morphous-evening-primrose/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-evening-primrose/theme.css",
+    "themeJson": "/systems/morphous-evening-primrose/theme.json",
+    "promptsJson": "/systems/morphous-evening-primrose/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent evening primrose motif",
+      "asset": "/systems/morphous-evening-primrose/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Evening Primrose transparent motif chroma-key source\nPrimary request: Create a complete evening primrose bloom isolated on a removable chroma-key background.\nSubject: Pale-yellow evening primrose petals, leaf-green stems, dusk meadow calm, crisp botanical edges, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal, no shadows, gradients, texture, watermark, or text.\nConstraints: no generic yellow flower, no vase, no hand, no landscape."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-evening-primrose/design-system-light.png",
+      "sourceAsset": "/systems/morphous-evening-primrose/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Evening Primrose light-mode design-system board\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn board named Morphous Evening Primrose, derived from pale-yellow petals, leaf green, and twilight blue.\nRequired visible sections: palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples.\nStyle: calm evening app system with gentle cards, dusk surfaces, readable labels, 8px radii, and quiet status states."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-evening-primrose/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-evening-primrose/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Evening Primrose dark-mode design-system board\nPrimary request: Generate a dark-mode translation of Morphous Evening Primrose with twilight-blue surfaces, pale-yellow actions, leaf-green status states, and calm evening app coverage.\nRequired visible sections: dark mode palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and asset examples."
+    }
+  ]
+}
