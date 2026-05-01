@@ -1,0 +1,181 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 241,
+  "slug": "morphous-sea-oats",
+  "name": "Sea Oats",
+  "motifName": "Sea Oats Seed Heads",
+  "motifCategory": "plant",
+  "biome": "Beach Dune",
+  "motif": "relaxed editorial system",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Sea Oats light and dark design-system boards: straw-gold seed heads, dune-sand editorial surfaces, shell ivory highlights, cool sea-blue husk shadows, and relaxed beach-dune rhythm.",
+  "typography": "Geist for calm editorial product UI with Noto Sans JP guidance for Japanese labels, light data density, and natural beach-dune reading rhythm.",
+  "layout": "Airy editorial panels on an 8px grid, compact shadcn controls, wind-ripple texture, restrained shadows, seed-husk dividers, and 8px radii throughout.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sea-oats",
+    "plant",
+    "beach-dune",
+    "straw-gold",
+    "dune-sand",
+    "sea-blue",
+    "japanese-typography",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Ivory",
+      "hex": "#F6F3EC",
+      "oklch": "oklch(0.965 0.010 87.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stem Ink",
+      "hex": "#2E2A25",
+      "oklch": "oklch(0.288 0.011 73.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Straw Gold",
+      "hex": "#D6B56C",
+      "oklch": "oklch(0.786 0.100 85.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Blue",
+      "hex": "#6F8FA6",
+      "oklch": "oklch(0.634 0.050 239.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dune Sand",
+      "hex": "#E7D6B7",
+      "oklch": "oklch(0.882 0.045 82.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Oat Beige",
+      "hex": "#CDBA93",
+      "oklch": "oklch(0.795 0.057 85.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dry Grass Brown",
+      "hex": "#8C724E",
+      "oklch": "oklch(0.568 0.061 75.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wind Shadow Taupe",
+      "hex": "#B8AA92",
+      "oklch": "oklch(0.743 0.037 81.2)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Pale Husk",
+      "hex": "#FFF9EF",
+      "oklch": "oklch(0.984 0.015 80.7)"
+    },
+    {
+      "role": "Mist",
+      "name": "Sea Mist",
+      "hex": "#EAF1F3",
+      "oklch": "oklch(0.953 0.008 216.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dune Night",
+      "hex": "#141210",
+      "oklch": "oklch(0.184 0.005 67.5)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Sea Blue Deep",
+      "hex": "#3E546B",
+      "oklch": "oklch(0.437 0.047 250.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.965 0.010 87.5)",
+    "foreground": "oklch(0.288 0.011 73.5)",
+    "card": "oklch(0.984 0.015 80.7)",
+    "card-foreground": "oklch(0.288 0.011 73.5)",
+    "popover": "oklch(0.984 0.015 80.7)",
+    "popover-foreground": "oklch(0.288 0.011 73.5)",
+    "primary": "oklch(0.786 0.100 85.8)",
+    "primary-foreground": "oklch(0.288 0.011 73.5)",
+    "secondary": "oklch(0.882 0.045 82.6)",
+    "secondary-foreground": "oklch(0.288 0.011 73.5)",
+    "muted": "oklch(0.953 0.008 216.6)",
+    "muted-foreground": "oklch(0.568 0.061 75.1)",
+    "accent": "oklch(0.634 0.050 239.8)",
+    "accent-foreground": "oklch(0.984 0.015 80.7)",
+    "destructive": "oklch(0.568 0.061 75.1)",
+    "destructive-foreground": "oklch(0.984 0.015 80.7)",
+    "border": "oklch(0.743 0.037 81.2)",
+    "input": "oklch(0.743 0.037 81.2)",
+    "ring": "oklch(0.634 0.050 239.8)",
+    "chart-1": "oklch(0.786 0.100 85.8)",
+    "chart-2": "oklch(0.634 0.050 239.8)",
+    "chart-3": "oklch(0.795 0.057 85.0)",
+    "chart-4": "oklch(0.568 0.061 75.1)",
+    "chart-5": "oklch(0.743 0.037 81.2)",
+    "sidebar": "oklch(0.882 0.045 82.6)",
+    "sidebar-foreground": "oklch(0.288 0.011 73.5)",
+    "sidebar-primary": "oklch(0.786 0.100 85.8)",
+    "sidebar-primary-foreground": "oklch(0.288 0.011 73.5)",
+    "sidebar-accent": "oklch(0.795 0.057 85.0)",
+    "sidebar-accent-foreground": "oklch(0.288 0.011 73.5)",
+    "sidebar-border": "oklch(0.743 0.037 81.2)",
+    "sidebar-ring": "oklch(0.634 0.050 239.8)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.184 0.005 67.5)",
+    "foreground": "oklch(0.934 0.023 82.1)",
+    "card": "oklch(0.221 0.009 59.2)",
+    "card-foreground": "oklch(0.934 0.023 82.1)",
+    "popover": "oklch(0.221 0.009 59.2)",
+    "popover-foreground": "oklch(0.934 0.023 82.1)",
+    "primary": "oklch(0.786 0.100 85.8)",
+    "primary-foreground": "oklch(0.184 0.005 67.5)",
+    "secondary": "oklch(0.437 0.047 250.0)",
+    "secondary-foreground": "oklch(0.934 0.023 82.1)",
+    "muted": "oklch(0.375 0.025 69.4)",
+    "muted-foreground": "oklch(0.754 0.044 87.4)",
+    "accent": "oklch(0.712 0.034 236.6)",
+    "accent-foreground": "oklch(0.184 0.005 67.5)",
+    "destructive": "oklch(0.568 0.061 75.1)",
+    "destructive-foreground": "oklch(0.934 0.023 82.1)",
+    "border": "oklch(0.332 0.027 75.9)",
+    "input": "oklch(0.332 0.027 75.9)",
+    "ring": "oklch(0.786 0.100 85.8)",
+    "chart-1": "oklch(0.786 0.100 85.8)",
+    "chart-2": "oklch(0.712 0.034 236.6)",
+    "chart-3": "oklch(0.754 0.044 87.4)",
+    "chart-4": "oklch(0.568 0.061 75.1)",
+    "chart-5": "oklch(0.499 0.025 83.2)",
+    "sidebar": "oklch(0.221 0.009 59.2)",
+    "sidebar-foreground": "oklch(0.934 0.023 82.1)",
+    "sidebar-primary": "oklch(0.786 0.100 85.8)",
+    "sidebar-primary-foreground": "oklch(0.184 0.005 67.5)",
+    "sidebar-accent": "oklch(0.332 0.027 75.9)",
+    "sidebar-accent-foreground": "oklch(0.934 0.023 82.1)",
+    "sidebar-border": "oklch(0.332 0.027 75.9)",
+    "sidebar-ring": "oklch(0.786 0.100 85.8)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

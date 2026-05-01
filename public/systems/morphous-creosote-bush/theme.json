@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-creosote-bush",
+    "name": "Morphous Creosote Bush",
+    "motifName": "Creosote Bush",
+    "motifCategory": "plant",
+    "biome": "sonoran desert",
+    "motif": "creosote leaves"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#F6F1E6",
+      "oklch": "oklch(0.959 0.016 86.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Creosote Ink",
+      "hex": "#1E2216",
+      "oklch": "oklch(0.244 0.023 123.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Waxy Olive",
+      "hex": "#55663C",
+      "oklch": "oklch(0.485 0.066 126.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Wash",
+      "hex": "#7A8A5A",
+      "oklch": "oklch(0.608 0.071 123.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Creosote Bloom",
+      "hex": "#E6C24A",
+      "oklch": "oklch(0.824 0.141 92.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Pollen",
+      "hex": "#F1D27A",
+      "oklch": "oklch(0.872 0.113 90.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sun Notebook",
+      "hex": "#FBF8F0",
+      "oklch": "oklch(0.979 0.011 89.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Gravel Tan",
+      "hex": "#D7C6A6",
+      "oklch": "oklch(0.832 0.047 83.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Resin Bark",
+      "hex": "#2E3A1F",
+      "oklch": "oklch(0.330 0.047 128.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Pebble Edge",
+      "hex": "#B6A47E",
+      "oklch": "oklch(0.725 0.056 85.5)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Heat Bark",
+      "hex": "#8F6E3E",
+      "oklch": "oklch(0.560 0.077 75.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.016 86.4)",
+    "foreground": "oklch(0.244 0.023 123.0)",
+    "card": "oklch(0.979 0.011 89.7)",
+    "card-foreground": "oklch(0.244 0.023 123.0)",
+    "popover": "oklch(0.979 0.011 89.7)",
+    "popover-foreground": "oklch(0.244 0.023 123.0)",
+    "primary": "oklch(0.485 0.066 126.7)",
+    "primary-foreground": "oklch(0.959 0.016 86.4)",
+    "secondary": "oklch(0.971 0.013 86.8)",
+    "secondary-foreground": "oklch(0.330 0.047 128.3)",
+    "muted": "oklch(0.974 0.013 86.8)",
+    "muted-foreground": "oklch(0.330 0.047 128.3)",
+    "accent": "oklch(0.824 0.141 92.1)",
+    "accent-foreground": "oklch(0.244 0.023 123.0)",
+    "destructive": "oklch(0.485 0.066 126.7)",
+    "border": "oklch(0.927 0.024 85.8)",
+    "input": "oklch(0.927 0.024 85.8)",
+    "ring": "oklch(0.608 0.071 123.5)",
+    "chart-1": "oklch(0.485 0.066 126.7)",
+    "chart-2": "oklch(0.608 0.071 123.5)",
+    "chart-3": "oklch(0.824 0.141 92.1)",
+    "chart-4": "oklch(0.872 0.113 90.6)",
+    "chart-5": "oklch(0.330 0.047 128.3)",
+    "sidebar": "oklch(0.973 0.012 91.5)",
+    "sidebar-foreground": "oklch(0.244 0.023 123.0)",
+    "sidebar-primary": "oklch(0.485 0.066 126.7)",
+    "sidebar-primary-foreground": "oklch(0.959 0.016 86.4)",
+    "sidebar-accent": "oklch(0.922 0.016 102.8)",
+    "sidebar-accent-foreground": "oklch(0.485 0.066 126.7)",
+    "sidebar-border": "oklch(0.927 0.024 85.8)",
+    "sidebar-ring": "oklch(0.608 0.071 123.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.244 0.023 123.0)",
+    "foreground": "oklch(0.959 0.016 86.4)",
+    "card": "oklch(0.302 0.039 126.7)",
+    "card-foreground": "oklch(0.959 0.016 86.4)",
+    "popover": "oklch(0.302 0.039 126.7)",
+    "popover-foreground": "oklch(0.959 0.016 86.4)",
+    "primary": "oklch(0.608 0.071 123.5)",
+    "primary-foreground": "oklch(0.244 0.023 123.0)",
+    "secondary": "oklch(0.451 0.044 118.0)",
+    "secondary-foreground": "oklch(0.959 0.016 86.4)",
+    "muted": "oklch(0.451 0.044 118.0)",
+    "muted-foreground": "oklch(0.903 0.030 85.6)",
+    "accent": "oklch(0.824 0.141 92.1)",
+    "accent-foreground": "oklch(0.244 0.023 123.0)",
+    "destructive": "oklch(0.485 0.066 126.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.608 0.071 123.5)",
+    "chart-1": "oklch(0.608 0.071 123.5)",
+    "chart-2": "oklch(0.485 0.066 126.7)",
+    "chart-3": "oklch(0.824 0.141 92.1)",
+    "chart-4": "oklch(0.872 0.113 90.6)",
+    "chart-5": "oklch(0.832 0.047 83.3)",
+    "sidebar": "oklch(0.284 0.035 127.1)",
+    "sidebar-foreground": "oklch(0.959 0.016 86.4)",
+    "sidebar-primary": "oklch(0.608 0.071 123.5)",
+    "sidebar-primary-foreground": "oklch(0.244 0.023 123.0)",
+    "sidebar-accent": "oklch(0.451 0.044 118.0)",
+    "sidebar-accent-foreground": "oklch(0.959 0.016 86.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.608 0.071 123.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Resilient English field-operations UI with Noto Sans JP guidance for Japanese site labels, sensor readings, water-index numerals, status modules, command search, forms, and dense sample tables.",
+  "layout": "Desert monitoring dashboards, compact navigation, 8px radii, paired-leaf texture, gravel-tan dividers, olive actions, yellow bloom status accents, sun-worn surfaces, and low field-notebook shadows.",
+  "tags": [
+    "creosote-bush",
+    "plant",
+    "sonoran-desert",
+    "olive-green",
+    "yellow-flower",
+    "gravel-tan",
+    "resilient-field-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-creosote-bush/motif.png",
+    "board": "/systems/morphous-creosote-bush/design-system-light.png",
+    "darkBoard": "/systems/morphous-creosote-bush/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-creosote-bush/theme.css",
+    "themeJson": "/systems/morphous-creosote-bush/theme.json",
+    "promptsJson": "/systems/morphous-creosote-bush/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Creosote Bush motif",
+      "asset": "/systems/morphous-creosote-bush/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Creosote Bush transparent motif chroma-key source\nPrimary request: Create only creosote bush leaves and tiny yellow creosote flowers, isolated full botanical sprig cluster, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: Larrea tridentata creosote bush foliage from the Sonoran Desert, paired small waxy olive-green leaflets on slender branching tan-green stems, resinous sheen, a few accurate five-petal yellow flowers, tiny muted tan gravel fragments caught near the base of the sprig only, no pot and no landscape.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp opaque edges, natural soft studio light.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the subject; no floor plane.\nLighting/mood: resilient field system mood, sun-adapted but clean studio lighting, no cast shadow and no contact shadow.\nColor palette: olive green creosote leaves, golden yellow flowers, gravel tan stems and tiny base texture only; do not use magenta in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no props, no desert background, no soil bed, no second plant, no decorative background, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-creosote-bush/design-system-light.png",
+      "sourceAsset": "/systems/morphous-creosote-bush/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Creosote Bush motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Creosote Bush\".\nCanvas: exact wide 16:9 board, target 3840 x 2160, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: resilient field system for desert monitoring, route planning, field sampling, equipment status, water windows, and sensor data; operational, durable, precise, sun-tested, 8px radii throughout.\nColor palette: derive only from the reference motif: waxy olive-green creosote leaves, darker resin leaf shadow, yellow five-petal flowers, gravel tan stems and stones, sun-bleached desert paper, warm sand borders, deep creosote bark ink. No unrelated blue, purple, red, or neon colors.\nLayout: polished product design board, left palette/token rail, central component and form examples, right navigation, dashboard/data, table, command/search, and status modules, bottom row for texture, radius, spacing, shadow samples. Include a small creosote sprig motif preview.\nTypography: resilient English field-operations UI plus Japanese typography section with headings, body, captions, numerals, and examples such as \"クレオソート\", \"調査地点\", \"水分指数\", \"機器状態\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, transect cards, sensor cards, route summary cards, desert condition charts, sample log table, loading/empty/error/success states.\nTexture/materials: subtle paired-leaf texture, fine resin speckles, gravel-tan separators, sun-worn field notebook surfaces, thin olive outlines, crisp 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no saturated blue/purple defaults, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-creosote-bush/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-creosote-bush/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible Creosote Bush motif and visible Morphous Creosote Bush light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Creosote Bush\" with the same resilient field-system coverage and layout logic as the light board.\nCanvas: exact wide 16:9 board, target 3840 x 2160, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: resilient field system for desert monitoring, night field operations, route planning, field sampling, equipment status, water windows, and sensor data; operational, durable, precise, 8px radii throughout.\nColor palette: derive only from the reference motif: deep creosote bark and resin-shadow backgrounds, dark olive-green panels, waxy olive primary controls, yellow creosote flower highlights, gravel tan text and borders, sun-bleached sand muted surfaces. No unrelated blue, purple, red, neon, or pure black flat background.\nLayout: polished dark product design board, left dark palette/token rail, central component and form examples, right navigation, dashboard/data, table, command/search, and status modules, bottom row for texture, radius, spacing, shadow samples. Include a small creosote sprig motif preview.\nTypography: resilient English field-operations UI plus Japanese typography section with headings, body, captions, numerals, and examples such as \"クレオソート\", \"調査地点\", \"水分指数\", \"機器状態\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, transect cards, sensor cards, route summary cards, desert condition charts, sample log table, loading/empty/error/success states.\nTexture/materials: subtle dark paired-leaf texture, fine resin speckles, gravel-tan separators, night field notebook panels, thin olive outlines, crisp 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no saturated blue/purple defaults, no neon colors, no watermark."
+    }
+  ]
+}

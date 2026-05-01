@@ -4820,6 +4820,213 @@ export const systems = [
     "searchBlob": "blueberry cluster motif chroma key primary request create only catalog isolated one complete subject removable background compact boreal indigo blue berries dusty powder bloom small five point calyx crowns sage green leaves thin shrub brown twigs cream highlight flecks cool berry shadows botanical accuracy crisp edges nutrition identity composition framing centered generous padding include twig without cropping clean studio lighting cast shadow perfectly flat solid ff00ff removal must uniform color gradients texture reflections floor plane variation not anywhere constraints grapes blackberries bowl spoon hand forest landscape text watermark loose pile dominating generate comprehensive theme named derived already shown context shadcn tweakcn compatible canvas exact wide 2560 1440 aspect ratio much wider than tall full width horizontal square portrait poster vertical sheet keep all readable gallery preview size large labels short copy required visible sections palette typography japanese components navigation dashboard data forms table command search status radius spacing tokens extract colors interaction language skins highlights read grape blackberry generic saas english product examples guidance such geist display body label numbers coverage secondary ghost destructive buttons hover pressed disabled loading states inputs select textarea checkbox radio switch tabs badges alerts cards rows sidebar metric line chart bar empty error border samples simple icons style 8px pale surfaces actions muted panels leaf success filters borders ink subtle dot drupelets gradient medical sterile unrelated neon random brand names misspelling tiny unreadable paragraphs translate invent new preserve active accents rhythm grid input donut progress stepper scale token code snippets visual details backgrounds foreground charts chips overlays controls restrained contrast wine branding pure black saturated illegible"
   },
   {
+    "slug": "morphous-bluestem",
+    "name": "Morphous Bluestem",
+    "motifName": "Bluestem Grass",
+    "motifCategory": "plant",
+    "biome": "prairie",
+    "motif": "big bluestem stalk",
+    "description": "A shadcn/tweakcn-compatible open analytics system derived from a big bluestem prairie grass stalk: blue-green primary controls, rust-bronze emphasis, seed-gold focus states, prairie-straw surfaces, pale field-paper panels, deep stem-shadow dark mode, and fine grass-fiber texture for observation dashboards, ecological telemetry, and data-heavy field workflows.",
+    "typography": "Inter-style English product UI paired with Noto Sans JP guidance for prairie analytics, compact Japanese labels, tabular numeric readings, and calm multilingual dashboard surfaces.",
+    "layout": "Open 8px analytics grids, tall blade-like dividers, breathable chart and table density, low elevation shadows, 8px radii, and subtle bluestem stem, leaf, seed, and straw textures.",
+    "tags": [
+      "bluestem",
+      "big-bluestem",
+      "grass",
+      "plant",
+      "prairie",
+      "open-analytics",
+      "blue-green",
+      "rust",
+      "seed-gold",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Prairie Paper",
+        "hex": "#F6F3EC",
+        "oklch": "oklch(0.965 0.010 87.5)"
+      },
+      {
+        "role": "Ink",
+        "name": "Stem Ink",
+        "hex": "#1E2A25",
+        "oklch": "oklch(0.272 0.019 167.5)"
+      },
+      {
+        "role": "Surface",
+        "name": "Field Card",
+        "hex": "#FCFAF4",
+        "oklch": "oklch(0.985 0.008 91.5)"
+      },
+      {
+        "role": "Primary",
+        "name": "Bluestem Green",
+        "hex": "#307A6A",
+        "oklch": "oklch(0.528 0.078 176.5)"
+      },
+      {
+        "role": "Primary Hover",
+        "name": "Leaf Blue Green",
+        "hex": "#5B7F73",
+        "oklch": "oklch(0.566 0.045 172.0)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Seed Gold",
+        "hex": "#C7A25A",
+        "oklch": "oklch(0.731 0.101 82.7)"
+      },
+      {
+        "role": "Accent",
+        "name": "Seed Rust",
+        "hex": "#A4513A",
+        "oklch": "oklch(0.532 0.116 36.4)"
+      },
+      {
+        "role": "Muted",
+        "name": "Straw Wash",
+        "hex": "#EDE6D6",
+        "oklch": "oklch(0.926 0.023 87.2)"
+      },
+      {
+        "role": "Border",
+        "name": "Prairie Straw",
+        "hex": "#DCCFBA",
+        "oklch": "oklch(0.859 0.032 79.9)"
+      },
+      {
+        "role": "Input",
+        "name": "Leaf Mist",
+        "hex": "#B6C9C0",
+        "oklch": "oklch(0.819 0.024 165.7)"
+      },
+      {
+        "role": "Ring",
+        "name": "Awn Gold",
+        "hex": "#D4B066",
+        "oklch": "oklch(0.773 0.102 84.1)"
+      },
+      {
+        "role": "Success",
+        "name": "Fresh Blade",
+        "hex": "#3D7A6A",
+        "oklch": "oklch(0.534 0.069 174.4)"
+      },
+      {
+        "role": "Depth",
+        "name": "Deep Stem",
+        "hex": "#0E181A",
+        "oklch": "oklch(0.200 0.015 211.4)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.965 0.010 87.5)",
+      "foreground": "oklch(0.272 0.019 167.5)",
+      "card": "oklch(0.985 0.008 91.5)",
+      "card-foreground": "oklch(0.272 0.019 167.5)",
+      "popover": "oklch(0.985 0.008 91.5)",
+      "popover-foreground": "oklch(0.272 0.019 167.5)",
+      "primary": "oklch(0.528 0.078 176.5)",
+      "primary-foreground": "oklch(0.965 0.010 87.5)",
+      "secondary": "oklch(0.976 0.008 91.5)",
+      "secondary-foreground": "oklch(0.200 0.015 211.4)",
+      "muted": "oklch(0.979 0.008 91.5)",
+      "muted-foreground": "oklch(0.200 0.015 211.4)",
+      "accent": "oklch(0.532 0.116 36.4)",
+      "accent-foreground": "oklch(0.272 0.019 167.5)",
+      "destructive": "oklch(0.528 0.078 176.5)",
+      "border": "oklch(0.965 0.014 88.7)",
+      "input": "oklch(0.965 0.014 88.7)",
+      "ring": "oklch(0.731 0.101 82.7)",
+      "chart-1": "oklch(0.528 0.078 176.5)",
+      "chart-2": "oklch(0.731 0.101 82.7)",
+      "chart-3": "oklch(0.532 0.116 36.4)",
+      "chart-4": "oklch(0.731 0.101 82.7)",
+      "chart-5": "oklch(0.200 0.015 211.4)",
+      "sidebar": "oklch(0.979 0.009 93.6)",
+      "sidebar-foreground": "oklch(0.272 0.019 167.5)",
+      "sidebar-primary": "oklch(0.528 0.078 176.5)",
+      "sidebar-primary-foreground": "oklch(0.965 0.010 87.5)",
+      "sidebar-accent": "oklch(0.933 0.013 141.8)",
+      "sidebar-accent-foreground": "oklch(0.528 0.078 176.5)",
+      "sidebar-border": "oklch(0.965 0.014 88.7)",
+      "sidebar-ring": "oklch(0.731 0.101 82.7)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.272 0.019 167.5)",
+      "foreground": "oklch(0.965 0.010 87.5)",
+      "card": "oklch(0.225 0.016 196.1)",
+      "card-foreground": "oklch(0.965 0.010 87.5)",
+      "popover": "oklch(0.225 0.016 196.1)",
+      "popover-foreground": "oklch(0.965 0.010 87.5)",
+      "primary": "oklch(0.731 0.101 82.7)",
+      "primary-foreground": "oklch(0.272 0.019 167.5)",
+      "secondary": "oklch(0.384 0.009 173.9)",
+      "secondary-foreground": "oklch(0.965 0.010 87.5)",
+      "muted": "oklch(0.384 0.009 173.9)",
+      "muted-foreground": "oklch(0.947 0.016 86.4)",
+      "accent": "oklch(0.532 0.116 36.4)",
+      "accent-foreground": "oklch(0.272 0.019 167.5)",
+      "destructive": "oklch(0.528 0.078 176.5)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.731 0.101 82.7)",
+      "chart-1": "oklch(0.731 0.101 82.7)",
+      "chart-2": "oklch(0.528 0.078 176.5)",
+      "chart-3": "oklch(0.532 0.116 36.4)",
+      "chart-4": "oklch(0.731 0.101 82.7)",
+      "chart-5": "oklch(0.926 0.023 87.2)",
+      "sidebar": "oklch(0.241 0.016 182.5)",
+      "sidebar-foreground": "oklch(0.965 0.010 87.5)",
+      "sidebar-primary": "oklch(0.731 0.101 82.7)",
+      "sidebar-primary-foreground": "oklch(0.272 0.019 167.5)",
+      "sidebar-accent": "oklch(0.384 0.009 173.9)",
+      "sidebar-accent-foreground": "oklch(0.965 0.010 87.5)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.731 0.101 82.7)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent Bluestem Grass motif",
+        "asset": "/systems/morphous-bluestem/motif.png",
+        "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a big bluestem stalk botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One tall big bluestem prairie grass stalk with a blue-green waxy stem, narrow blue-green leaves, rust-bronze turkey-foot seed heads, seed-gold awns and nodes, subtle prairie dry-grass texture, accurate big bluestem form, crisp subject edges.\nComposition/framing: centered complete cutout with generous padding; include the full stalk from basal stem to seed heads without cropping. Upright open silhouette, clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nColor palette: motif-derived colors only: blue-green stalk and leaves, rust seed head, seed-gold awns, prairie straw neutrals, deep stem shadows.\nConstraints: no cattail, no wheat, no corn, no bamboo, no flower petals, no landscape, no water, no pot, no hand, no props, no second subject, no text, no watermark, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-bluestem/design-system-light.png",
+        "sourceAsset": "/systems/morphous-bluestem/motif.png",
+        "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Bluestem Grass light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named exactly \"Morphous Bluestem\" / \"Bluestem Grass\". The board must be a wide 4K-class design-system reference derived from one big bluestem prairie grass stalk: blue-green waxy stem and leaves, rust-bronze turkey-foot seed heads, seed-gold nodes and awns, dry prairie straw, pale field paper, and deep stem shadow.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear modular grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text. Use short UI copy only.\nRequired visible section labels, spelled clearly: Morphous Bluestem, Bluestem Grass, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the big bluestem stalk: blue-green linear blades, vertical prairie stem, rust seed panicles, seed-gold nodes, airy open prairie spacing, dry straw fibers, and clear analytics grid order. The board must read as big bluestem grass, not cattail, wheat, bamboo, corn, reed, or generic enterprise UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 草原, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, open analytics dashboard metric cards, time-series line chart, bar chart, prairie sensor data table, observation filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, bluestem blade texture swatches.\nStyle/medium: premium open analytics design system, realistic product UI mockup, precise 8px grid, 8px card radius, airy dashboard density, pale prairie-paper surfaces, blue-green primary controls, rust-bronze emphasis, seed-gold accents, straw neutral panels, slim vertical blade dividers, subtle grass-fiber texture, calm utilitarian data-product polish.\nColor palette: motif-derived colors only: blue green, rust seed bronze, seed gold, prairie straw, pale field paper, deep stem shadow. Avoid unrelated colors.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Bluestem\", no illegible microtext."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-bluestem/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-bluestem/design-system-light.png",
+        "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Bluestem Grass dark-mode design-system board\nPrimary request: Generate a comprehensive DARK MODE source board for a Morphous theme named exactly \"Morphous Bluestem\" / \"Bluestem Grass\". It must feel like the same open analytics system translated to dark mode, derived from one big bluestem prairie grass stalk: blue-green waxy stem and leaves, rust-bronze turkey-foot seed heads, seed-gold nodes and awns, dry prairie straw, and deep stem shadow.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear modular grid and large readable section labels.\nRequired visible section labels, spelled clearly: Morphous Bluestem, Bluestem Grass, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nLayout instruction: preserve the light-board coverage and product analytics rhythm: left identity/motif column, palette and typography row, shadcn/tweakcn components and navigation, open analytics dashboard/data, forms, tables, command/search, status states, bottom token/texture/radius/spacing/shadows panels.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 草原, 観測, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, open analytics dashboard metric cards, time-series line chart, bar chart, prairie sensor data table, observation filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, 8px radius family, 8px spacing scale, low shadow scale, bluestem blade texture swatches.\nVisual details: dark background from the motif's deepest blue-green stem shadow, raised cards in dark prairie-green, pale straw foreground text, seed-gold focus rings, rust-bronze accents, muted blue-green controls, subtle grass-fiber overlays, slim vertical blade dividers, crisp 8px cards and controls, restrained contrast for analytics work.\nColor palette: motif-derived colors only: blue green, rust seed bronze, seed gold, prairie straw, pale field paper, deep stem shadow. Avoid unrelated colors.\nConstraints: no cattail, no wheat, no corn, no bamboo, no reed, no seagrass, no ocean, no generic purple gradients, no neon, no flat pure black, no unrelated saturated colors, no random brand names, no watermark, no misspelling of \"Morphous Bluestem\", no illegible microtext."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-bluestem/motif.png",
+      "board": "/systems/morphous-bluestem/design-system-light.png",
+      "darkBoard": "/systems/morphous-bluestem/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-bluestem/theme.css",
+      "themeJson": "/systems/morphous-bluestem/theme.json",
+      "promptsJson": "/systems/morphous-bluestem/prompts.json"
+    },
+    "bgLightness": 0.898,
+    "searchBlob": "bluestem grass motif primary request create only big stalk botanical catalog isolated single complete subject removable chroma key background one tall prairie blue green waxy stem narrow leaves rust bronze turkey foot seed heads gold awns nodes subtle dry texture accurate form crisp edges composition framing centered generous padding include full basal without cropping upright open silhouette clean studio lighting cast shadow workflow place perfectly flat solid ff00ff removal must uniform color shadows gradients reflections floor plane variation not anywhere palette derived colors head straw neutrals deep constraints cattail wheat corn bamboo flower petals landscape water pot hand props second text watermark contact reflection generate comprehensive theme named exactly wide class pale field paper critical canvas requirement true 3840 2160 style square portrait fill horizontal clear modular grid large readable section labels resolution legibility fewer larger rows dense tiny token tables microscopic short copy required visible spelled clearly japanese typography components navigation dashboard data forms command search status tokens radius spacing extract rhythm contrast mood interaction language linear blades vertical panicles airy fibers analytics order read reed generic enterprise english product examples guidance such inter noto sans display body label numbers keep legible coverage shadcn tweakcn like buttons icon inputs select textarea checkbox radio switch tabs badges alerts cards table sidebar top metric time series line chart bar sensor observation filters empty loading error success warning states toast pagination focus rings semantic roles foreground card popover secondary muted accent destructive border input ring scale 8px family low blade swatches medium premium realistic precise density surfaces controls emphasis accents neutral panels slim dividers fiber calm utilitarian polish avoid unrelated bright purple neon beige random brand names stock hero layout misspelling illegible microtext feel same"
+  },
+  {
     "slug": "morphous-bougainvillea",
     "name": "Morphous Bougainvillea",
     "motifName": "Bougainvillea",
@@ -9771,6 +9978,199 @@ export const systems = [
     },
     "bgLightness": 1,
     "searchBlob": "crane motif primary request create only red crowned isolated full subject environment props text poised profile white feathers ink black neck wing accents vivid crown subtle marsh grey shadows accurate anatomy crisp edges composition framing centered complete generous padding not crop beak legs silhouette lighting mood clean studio preserves feather detail ceremonial contrast workflow place perfectly flat solid 00ff00 chroma key background removal must one uniform color gradients texture reflections floor plane variation anywhere constraints watermark landscape decorative second generate comprehensive theme named derived visible conversation boards coding any future extract palette rhythm spacing interaction language markings neutrals canvas exact wide horizontal class large readable labels fewer larger panels instead many tiny tables required sections typography japanese components navigation enterprise dashboard forms table command search status radius shadow tokens generated assets include english examples like geist noto sans coverage buttons inputs select textarea checkbox radio switch tabs badges alerts cards rows sidebar executive metric charts empty loading error states border samples style medium premium shadcn tweakcn precise grid 8px card line dividers quiet restraint reed fold tones short avoid long paragraphs unrelated bright colors generic purple blue random brand names misspelling version feel same translated new preserve roles component visual details secondary support mist overlays controls neon saturated pure illegible"
+  },
+  {
+    "slug": "morphous-creosote-bush",
+    "name": "Morphous Creosote Bush",
+    "motifName": "Creosote Bush",
+    "motifCategory": "plant",
+    "biome": "sonoran desert",
+    "motif": "creosote leaves",
+    "description": "A shadcn/tweakcn-compatible resilient field system derived from Sonoran Desert creosote leaves: waxy olive foliage, yellow flower signals, gravel-tan stems and stones, sun-bleached field-paper surfaces, resin-shadow depth, and durable field-data rhythm.",
+    "typography": "Resilient English field-operations UI with Noto Sans JP guidance for Japanese site labels, sensor readings, water-index numerals, status modules, command search, forms, and dense sample tables.",
+    "layout": "Desert monitoring dashboards, compact navigation, 8px radii, paired-leaf texture, gravel-tan dividers, olive actions, yellow bloom status accents, sun-worn surfaces, and low field-notebook shadows.",
+    "tags": [
+      "creosote-bush",
+      "plant",
+      "sonoran-desert",
+      "olive-green",
+      "yellow-flower",
+      "gravel-tan",
+      "resilient-field-system",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Field Paper",
+        "hex": "#F6F1E6",
+        "oklch": "oklch(0.959 0.016 86.4)"
+      },
+      {
+        "role": "Ink",
+        "name": "Creosote Ink",
+        "hex": "#1E2216",
+        "oklch": "oklch(0.244 0.023 123.0)"
+      },
+      {
+        "role": "Primary",
+        "name": "Waxy Olive",
+        "hex": "#55663C",
+        "oklch": "oklch(0.485 0.066 126.7)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Leaf Wash",
+        "hex": "#7A8A5A",
+        "oklch": "oklch(0.608 0.071 123.5)"
+      },
+      {
+        "role": "Accent",
+        "name": "Creosote Bloom",
+        "hex": "#E6C24A",
+        "oklch": "oklch(0.824 0.141 92.1)"
+      },
+      {
+        "role": "Signal",
+        "name": "Warm Pollen",
+        "hex": "#F1D27A",
+        "oklch": "oklch(0.872 0.113 90.6)"
+      },
+      {
+        "role": "Surface",
+        "name": "Sun Notebook",
+        "hex": "#FBF8F0",
+        "oklch": "oklch(0.979 0.011 89.7)"
+      },
+      {
+        "role": "Muted",
+        "name": "Gravel Tan",
+        "hex": "#D7C6A6",
+        "oklch": "oklch(0.832 0.047 83.3)"
+      },
+      {
+        "role": "Depth",
+        "name": "Resin Bark",
+        "hex": "#2E3A1F",
+        "oklch": "oklch(0.330 0.047 128.3)"
+      },
+      {
+        "role": "Border",
+        "name": "Pebble Edge",
+        "hex": "#B6A47E",
+        "oklch": "oklch(0.725 0.056 85.5)"
+      },
+      {
+        "role": "Destructive",
+        "name": "Heat Bark",
+        "hex": "#8F6E3E",
+        "oklch": "oklch(0.560 0.077 75.4)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.959 0.016 86.4)",
+      "foreground": "oklch(0.244 0.023 123.0)",
+      "card": "oklch(0.979 0.011 89.7)",
+      "card-foreground": "oklch(0.244 0.023 123.0)",
+      "popover": "oklch(0.979 0.011 89.7)",
+      "popover-foreground": "oklch(0.244 0.023 123.0)",
+      "primary": "oklch(0.485 0.066 126.7)",
+      "primary-foreground": "oklch(0.959 0.016 86.4)",
+      "secondary": "oklch(0.971 0.013 86.8)",
+      "secondary-foreground": "oklch(0.330 0.047 128.3)",
+      "muted": "oklch(0.974 0.013 86.8)",
+      "muted-foreground": "oklch(0.330 0.047 128.3)",
+      "accent": "oklch(0.824 0.141 92.1)",
+      "accent-foreground": "oklch(0.244 0.023 123.0)",
+      "destructive": "oklch(0.485 0.066 126.7)",
+      "border": "oklch(0.927 0.024 85.8)",
+      "input": "oklch(0.927 0.024 85.8)",
+      "ring": "oklch(0.608 0.071 123.5)",
+      "chart-1": "oklch(0.485 0.066 126.7)",
+      "chart-2": "oklch(0.608 0.071 123.5)",
+      "chart-3": "oklch(0.824 0.141 92.1)",
+      "chart-4": "oklch(0.872 0.113 90.6)",
+      "chart-5": "oklch(0.330 0.047 128.3)",
+      "sidebar": "oklch(0.973 0.012 91.5)",
+      "sidebar-foreground": "oklch(0.244 0.023 123.0)",
+      "sidebar-primary": "oklch(0.485 0.066 126.7)",
+      "sidebar-primary-foreground": "oklch(0.959 0.016 86.4)",
+      "sidebar-accent": "oklch(0.922 0.016 102.8)",
+      "sidebar-accent-foreground": "oklch(0.485 0.066 126.7)",
+      "sidebar-border": "oklch(0.927 0.024 85.8)",
+      "sidebar-ring": "oklch(0.608 0.071 123.5)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.244 0.023 123.0)",
+      "foreground": "oklch(0.959 0.016 86.4)",
+      "card": "oklch(0.302 0.039 126.7)",
+      "card-foreground": "oklch(0.959 0.016 86.4)",
+      "popover": "oklch(0.302 0.039 126.7)",
+      "popover-foreground": "oklch(0.959 0.016 86.4)",
+      "primary": "oklch(0.608 0.071 123.5)",
+      "primary-foreground": "oklch(0.244 0.023 123.0)",
+      "secondary": "oklch(0.451 0.044 118.0)",
+      "secondary-foreground": "oklch(0.959 0.016 86.4)",
+      "muted": "oklch(0.451 0.044 118.0)",
+      "muted-foreground": "oklch(0.903 0.030 85.6)",
+      "accent": "oklch(0.824 0.141 92.1)",
+      "accent-foreground": "oklch(0.244 0.023 123.0)",
+      "destructive": "oklch(0.485 0.066 126.7)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.608 0.071 123.5)",
+      "chart-1": "oklch(0.608 0.071 123.5)",
+      "chart-2": "oklch(0.485 0.066 126.7)",
+      "chart-3": "oklch(0.824 0.141 92.1)",
+      "chart-4": "oklch(0.872 0.113 90.6)",
+      "chart-5": "oklch(0.832 0.047 83.3)",
+      "sidebar": "oklch(0.284 0.035 127.1)",
+      "sidebar-foreground": "oklch(0.959 0.016 86.4)",
+      "sidebar-primary": "oklch(0.608 0.071 123.5)",
+      "sidebar-primary-foreground": "oklch(0.244 0.023 123.0)",
+      "sidebar-accent": "oklch(0.451 0.044 118.0)",
+      "sidebar-accent-foreground": "oklch(0.959 0.016 86.4)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.608 0.071 123.5)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent Creosote Bush motif",
+        "asset": "/systems/morphous-creosote-bush/motif.png",
+        "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Creosote Bush transparent motif chroma-key source\nPrimary request: Create only creosote bush leaves and tiny yellow creosote flowers, isolated full botanical sprig cluster, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: Larrea tridentata creosote bush foliage from the Sonoran Desert, paired small waxy olive-green leaflets on slender branching tan-green stems, resinous sheen, a few accurate five-petal yellow flowers, tiny muted tan gravel fragments caught near the base of the sprig only, no pot and no landscape.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp opaque edges, natural soft studio light.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the subject; no floor plane.\nLighting/mood: resilient field system mood, sun-adapted but clean studio lighting, no cast shadow and no contact shadow.\nColor palette: olive green creosote leaves, golden yellow flowers, gravel tan stems and tiny base texture only; do not use magenta in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no props, no desert background, no soil bed, no second plant, no decorative background, no extra saturated colors."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-creosote-bush/design-system-light.png",
+        "sourceAsset": "/systems/morphous-creosote-bush/motif.png",
+        "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Creosote Bush motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Creosote Bush\".\nCanvas: exact wide 16:9 board, target 3840 x 2160, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: resilient field system for desert monitoring, route planning, field sampling, equipment status, water windows, and sensor data; operational, durable, precise, sun-tested, 8px radii throughout.\nColor palette: derive only from the reference motif: waxy olive-green creosote leaves, darker resin leaf shadow, yellow five-petal flowers, gravel tan stems and stones, sun-bleached desert paper, warm sand borders, deep creosote bark ink. No unrelated blue, purple, red, or neon colors.\nLayout: polished product design board, left palette/token rail, central component and form examples, right navigation, dashboard/data, table, command/search, and status modules, bottom row for texture, radius, spacing, shadow samples. Include a small creosote sprig motif preview.\nTypography: resilient English field-operations UI plus Japanese typography section with headings, body, captions, numerals, and examples such as \"クレオソート\", \"調査地点\", \"水分指数\", \"機器状態\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, transect cards, sensor cards, route summary cards, desert condition charts, sample log table, loading/empty/error/success states.\nTexture/materials: subtle paired-leaf texture, fine resin speckles, gravel-tan separators, sun-worn field notebook surfaces, thin olive outlines, crisp 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no saturated blue/purple defaults, no watermark."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-creosote-bush/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-creosote-bush/design-system-light.png",
+        "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible Creosote Bush motif and visible Morphous Creosote Bush light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Creosote Bush\" with the same resilient field-system coverage and layout logic as the light board.\nCanvas: exact wide 16:9 board, target 3840 x 2160, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: resilient field system for desert monitoring, night field operations, route planning, field sampling, equipment status, water windows, and sensor data; operational, durable, precise, 8px radii throughout.\nColor palette: derive only from the reference motif: deep creosote bark and resin-shadow backgrounds, dark olive-green panels, waxy olive primary controls, yellow creosote flower highlights, gravel tan text and borders, sun-bleached sand muted surfaces. No unrelated blue, purple, red, neon, or pure black flat background.\nLayout: polished dark product design board, left dark palette/token rail, central component and form examples, right navigation, dashboard/data, table, command/search, and status modules, bottom row for texture, radius, spacing, shadow samples. Include a small creosote sprig motif preview.\nTypography: resilient English field-operations UI plus Japanese typography section with headings, body, captions, numerals, and examples such as \"クレオソート\", \"調査地点\", \"水分指数\", \"機器状態\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, metric cards, transect cards, sensor cards, route summary cards, desert condition charts, sample log table, loading/empty/error/success states.\nTexture/materials: subtle dark paired-leaf texture, fine resin speckles, gravel-tan separators, night field notebook panels, thin olive outlines, crisp 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no saturated blue/purple defaults, no neon colors, no watermark."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-creosote-bush/motif.png",
+      "board": "/systems/morphous-creosote-bush/design-system-light.png",
+      "darkBoard": "/systems/morphous-creosote-bush/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-creosote-bush/theme.css",
+      "themeJson": "/systems/morphous-creosote-bush/theme.json",
+      "promptsJson": "/systems/morphous-creosote-bush/prompts.json"
+    },
+    "bgLightness": 0.882,
+    "searchBlob": "creosote bush motif chroma key primary request create only leaves tiny yellow flowers isolated full botanical sprig cluster environment props text scene backdrop perfectly flat solid ff00ff background removal subject larrea tridentata foliage sonoran desert paired small waxy olive green leaflets slender branching tan stems resinous sheen few accurate five petal muted gravel fragments caught near base pot landscape style medium high detail realistic painted photographic finish crisp opaque edges soft studio composition framing centered complete generous padding all sides not crop floor plane lighting mood resilient field sun adapted but clean cast shadow contact color palette golden texture magenta workflow place must one uniform shadows gradients reflections variation constraints keep fully separated watermark soil bed second plant decorative extra saturated colors resolution catalog input images visible shape language identity generate comprehensive shadcn tweakcn like titled canvas exact wide target 3840 2160 readable labels token names required sections japanese typography components navigation dashboard data forms tables command search status tokens radius spacing monitoring route planning sampling equipment water windows sensor operational durable precise tested 8px radii throughout derive darker resin leaf stones bleached paper warm sand borders deep bark ink unrelated blue purple red neon layout polished product left rail central component form examples right table modules bottom row samples include preview english operations plus section headings body captions numerals such secondary buttons icon inputs select textarea checkbox radio switch tabs badges alert card rows compact sidebar metric cards transect summary condition charts sample log loading empty error success states materials subtle fine speckles separators worn notebook surfaces thin outlines rhythm every element uses less fit inside containers professional marketing hero abstract defaults separate translation same coverage logic night"
   },
   {
     "slug": "morphous-crocus",
@@ -25217,6 +25617,206 @@ export const systems = [
     "searchBlob": "marigold bloom motif chroma key primary request create only complete catalog isolated removable background subject kitchen garden layered ruffled saffron orange petals deeper burnt petal shadows compact warm umber center few small leaf green leaves crisp botanical detail texture clean studio lighting must recognizable not chrysanthemum calendula dahlia sunflower composition framing centered visible generous padding every side cropping workflow place perfectly flat solid ff00ff removal one uniform color gradients reflections floor plane variation anywhere constraints text watermark vase hand props landscape second flower cast shadow contact reflection regeneration larger resolution input image palette visual language generate comprehensive shadcn tweakcn compatible named clearly derived extract actions navigation success states soil depth soft cream surfaces productive rhythm visibly respect colors materials canvas strict target 3840x2160 make wide desktop presentation preview legibility large readable section labels component precise grid spacing fewer token rows dense tiny tables required sections typography japanese components dashboard data forms table command search status radius tokens examples coverage buttons icon inputs selects textarea checkboxes radios switches tabs badges alerts cards modal popover top sidebar metrics charts empty state loading error samples scale 8px guidance border generated english product sturdy display using noto sans gothic interface mincho style option harvest notes include short theme semantic variables foreground card secondary muted accent ring chart swatches ink row gold seed sprout parchment bed planning harvesting seeding inventory operations contrast subtle edges long paragraphs generic purple blue unrelated saturated stock kit look random brand names misspelling illegible images treat them edit targets feels like provided translated new preserve same roles identity translate focus highlights deep compost browns editorial deepest backgrounds brown controls dividers"
   },
   {
+    "slug": "morphous-marram-grass",
+    "name": "Morphous Marram Grass",
+    "motifName": "Marram Grass",
+    "motifCategory": "plant",
+    "biome": "coastal dunes",
+    "motif": "marram grass tuft",
+    "description": "A shadcn/tweakcn-compatible coastal planning system derived from a marram grass tuft: sand-gold primary controls, blade-green active states, sea-grey focus and chart accents, dune-cream surfaces, straw-tan muted states, olive-shadow dividers, root-umber depth, and woven blade texture for dune restoration, shoreline planning, habitat monitoring, erosion-risk dashboards, and field observation workflows.",
+    "typography": "Inter-style English product UI with Noto Sans JP guidance for coastal planning workflows, compact Japanese labels, geospatial dashboard data, permit-review tables, and status-heavy operations screens.",
+    "layout": "Structured 8px coastal grids, blade-thin dividers, compact dashboard and table density, low shadows, 8px radii, and subtle woven marram texture accents.",
+    "tags": [
+      "marram-grass",
+      "plant",
+      "coastal-dunes",
+      "dune-restoration",
+      "coastal-planning",
+      "sand-gold",
+      "blade-green",
+      "sea-grey",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Dune Cream",
+        "hex": "#f6f3ea",
+        "oklch": "oklch(0.964 0.012 91.5)"
+      },
+      {
+        "role": "Ink",
+        "name": "Root Umber",
+        "hex": "#3e3426",
+        "oklch": "oklch(0.332 0.027 75.9)"
+      },
+      {
+        "role": "Primary",
+        "name": "Sand Gold",
+        "hex": "#d9c46a",
+        "oklch": "oklch(0.819 0.113 96.5)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Blade Green",
+        "hex": "#6f7f58",
+        "oklch": "oklch(0.573 0.060 126.3)"
+      },
+      {
+        "role": "Accent",
+        "name": "Sea Grey",
+        "hex": "#9caaa3",
+        "oklch": "oklch(0.725 0.019 164.5)"
+      },
+      {
+        "role": "Signal",
+        "name": "Erosion Clay",
+        "hex": "#9b5f4a",
+        "oklch": "oklch(0.547 0.085 40.0)"
+      },
+      {
+        "role": "Surface",
+        "name": "Root Ivory",
+        "hex": "#f0eee2",
+        "oklch": "oklch(0.947 0.016 99.0)"
+      },
+      {
+        "role": "Muted",
+        "name": "Straw Tan",
+        "hex": "#e7d6ae",
+        "oklch": "oklch(0.880 0.056 87.7)"
+      },
+      {
+        "role": "Border",
+        "name": "Dune Reed",
+        "hex": "#caba95",
+        "oklch": "oklch(0.793 0.053 87.4)"
+      },
+      {
+        "role": "Success",
+        "name": "Marram Blade",
+        "hex": "#6f7f58",
+        "oklch": "oklch(0.573 0.060 126.3)"
+      },
+      {
+        "role": "Warning",
+        "name": "Dry Straw",
+        "hex": "#e7d6ae",
+        "oklch": "oklch(0.880 0.056 87.7)"
+      },
+      {
+        "role": "Depth",
+        "name": "Deep Root",
+        "hex": "#2a271b",
+        "oklch": "oklch(0.272 0.021 95.7)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.964 0.012 91.5)",
+      "foreground": "oklch(0.332 0.027 75.9)",
+      "card": "oklch(0.947 0.016 99.0)",
+      "card-foreground": "oklch(0.332 0.027 75.9)",
+      "popover": "oklch(0.947 0.016 99.0)",
+      "popover-foreground": "oklch(0.332 0.027 75.9)",
+      "primary": "oklch(0.819 0.113 96.5)",
+      "primary-foreground": "oklch(0.332 0.027 75.9)",
+      "secondary": "oklch(0.954 0.015 94.2)",
+      "secondary-foreground": "oklch(0.272 0.021 95.7)",
+      "muted": "oklch(0.951 0.015 94.2)",
+      "muted-foreground": "oklch(0.272 0.021 95.7)",
+      "accent": "oklch(0.725 0.019 164.5)",
+      "accent-foreground": "oklch(0.332 0.027 75.9)",
+      "destructive": "oklch(0.547 0.085 40.0)",
+      "border": "oklch(0.922 0.030 90.3)",
+      "input": "oklch(0.922 0.030 90.3)",
+      "ring": "oklch(0.573 0.060 126.3)",
+      "chart-1": "oklch(0.819 0.113 96.5)",
+      "chart-2": "oklch(0.573 0.060 126.3)",
+      "chart-3": "oklch(0.725 0.019 164.5)",
+      "chart-4": "oklch(0.547 0.085 40.0)",
+      "chart-5": "oklch(0.272 0.021 95.7)",
+      "sidebar": "oklch(0.954 0.015 98.3)",
+      "sidebar-foreground": "oklch(0.332 0.027 75.9)",
+      "sidebar-primary": "oklch(0.819 0.113 96.5)",
+      "sidebar-primary-foreground": "oklch(0.332 0.027 75.9)",
+      "sidebar-accent": "oklch(0.932 0.028 98.1)",
+      "sidebar-accent-foreground": "oklch(0.332 0.027 75.9)",
+      "sidebar-border": "oklch(0.922 0.030 90.3)",
+      "sidebar-ring": "oklch(0.573 0.060 126.3)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.332 0.027 75.9)",
+      "foreground": "oklch(0.964 0.012 91.5)",
+      "card": "oklch(0.292 0.022 84.4)",
+      "card-foreground": "oklch(0.964 0.012 91.5)",
+      "popover": "oklch(0.292 0.022 84.4)",
+      "popover-foreground": "oklch(0.964 0.012 91.5)",
+      "primary": "oklch(0.573 0.060 126.3)",
+      "primary-foreground": "oklch(0.332 0.027 75.9)",
+      "secondary": "oklch(0.424 0.031 92.6)",
+      "secondary-foreground": "oklch(0.964 0.012 91.5)",
+      "muted": "oklch(0.424 0.031 92.6)",
+      "muted-foreground": "oklch(0.926 0.032 89.1)",
+      "accent": "oklch(0.725 0.019 164.5)",
+      "accent-foreground": "oklch(0.332 0.027 75.9)",
+      "destructive": "oklch(0.547 0.085 40.0)",
+      "border": "oklch(0.964 0.012 91.5 / 12%)",
+      "input": "oklch(0.964 0.012 91.5 / 16%)",
+      "ring": "oklch(0.573 0.060 126.3)",
+      "chart-1": "oklch(0.573 0.060 126.3)",
+      "chart-2": "oklch(0.819 0.113 96.5)",
+      "chart-3": "oklch(0.725 0.019 164.5)",
+      "chart-4": "oklch(0.547 0.085 40.0)",
+      "chart-5": "oklch(0.880 0.056 87.7)",
+      "sidebar": "oklch(0.305 0.024 82.8)",
+      "sidebar-foreground": "oklch(0.964 0.012 91.5)",
+      "sidebar-primary": "oklch(0.573 0.060 126.3)",
+      "sidebar-primary-foreground": "oklch(0.332 0.027 75.9)",
+      "sidebar-accent": "oklch(0.424 0.031 92.6)",
+      "sidebar-accent-foreground": "oklch(0.964 0.012 91.5)",
+      "sidebar-border": "oklch(0.964 0.012 91.5 / 12%)",
+      "sidebar-ring": "oklch(0.573 0.060 126.3)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent marram grass motif",
+        "asset": "/systems/morphous-marram-grass/motif.png",
+        "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a marram grass tuft botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: One dense marram grass tuft from coastal dunes, with upright and arcing blade-green leaves, rolled narrow leaves, sandy-gold dry straw blades, pale dune-tan stems at the base, subtle sea-grey waxy highlights on the blades, and a compact rooted clump shape. Botanical accuracy for marram grass (Ammophila arenaria), crisp blade edges, natural fibrous texture, no seed plumes.\nComposition/framing: centered complete cutout with generous padding; include the full tuft from base to blade tips without cropping. Clean studio lighting that preserves natural color, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no wheat, no pampas grass, no reeds, no flowers, no dune landscape, no sand mound, no water, no vase, no hand, no props, no second subject, no text, no watermark, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-marram-grass/design-system-light.png",
+        "sourceAsset": "/systems/morphous-marram-grass/motif.png",
+        "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Marram Grass light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Marram Grass\" / \"Marram Grass\". The board must be a wide 4K-class design-system reference derived from a marram grass tuft from coastal dunes: sandy-gold dry blades, blade-green rolled leaves, sea-grey waxy highlights, dune-cream roots, olive shadow lines, and soft coastal fog neutrals.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Marram Grass, Marram Grass, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from marram grass blades, coastal dune sand, straw-gold dry leaf edges, blade green, olive stems, sea-grey waxy highlights, pale dune roots, dune-cream surfaces, and deep root shadow. The board must read as marram grass and coastal dunes, not wheat, reeds, bamboo, or generic beige enterprise UI.\nDesign mood: coastal planning system for dune restoration, shoreline planning, habitat monitoring, permit review, erosion-risk dashboards, and field observation workflows.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 海岸, 砂丘, 計画, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, coastal planning dashboard metric cards, erosion trend line chart, dune coverage bar chart, observation data table, map filter chips, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, marram blade texture swatches.\nStyle/medium: premium structured coastal operations design system, realistic product UI mockup, precise 8px grid, 8px card radius, dune-cream surfaces, sand-gold primary controls, blade-green active states, sea-grey focus rings, olive vertical dividers, compact table density, subtle woven blade texture.\nColor palette: motif-derived colors only: sand gold, blade green, sea grey, dune cream, dry straw tan, olive shadow, pale root ivory, deep root umber. No colors outside this motif family.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Marram Grass\", no illegible microtext."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-marram-grass/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-marram-grass/design-system-light.png",
+        "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Marram Grass dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Marram Grass\" / \"Marram Grass\". It must feel like the same coastal planning system translated to dark mode, not a new theme, and it must remain derived from the marram grass tuft and light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Marram Grass, Marram Grass, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the marram grass system language: sand-gold primary controls, blade-green active states, sea-grey focus/accent rings, olive shadow dividers, dry straw tan borders, dune-cream foreground text, root-umber and deep dune backgrounds, subtle woven blade texture, 8px shadcn/tweakcn grid. It must read as marram grass and coastal dunes, not wheat, reeds, bamboo, or generic dark SaaS.\nDesign mood: coastal planning system for dune restoration, shoreline planning, habitat monitoring, permit review, erosion-risk dashboards, and field observation workflows.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 海岸, 砂丘, 計画, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, coastal planning dashboard metric cards, erosion trend line chart, dune coverage bar chart, observation data table, map filter chips, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, marram blade texture swatches.\nVisual details: dark background derived from root umber and deep olive, raised cards in dark dune silt, dune-cream foreground text, sand-gold and straw-tan primary controls, blade-green success/active states, sea-grey focus rings and charts, olive separators, subtle woven grass blade overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: sand gold, blade green, sea grey, dune cream, dry straw tan, olive shadow, pale root ivory, deep root umber. No neon colors and no colors outside this motif family.\nConstraints: no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Marram Grass\", no illegible microtext."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-marram-grass/motif.png",
+      "board": "/systems/morphous-marram-grass/design-system-light.png",
+      "darkBoard": "/systems/morphous-marram-grass/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-marram-grass/theme.css",
+      "themeJson": "/systems/morphous-marram-grass/theme.json",
+      "promptsJson": "/systems/morphous-marram-grass/prompts.json"
+    },
+    "bgLightness": 0.896,
+    "searchBlob": "marram grass motif primary request create only tuft botanical catalog isolated single complete subject removable chroma key background one dense coastal dunes upright arcing blade green leaves rolled narrow sandy gold dry straw blades pale dune tan stems base subtle sea grey waxy highlights compact rooted clump shape accuracy ammophila arenaria crisp edges fibrous texture seed plumes composition framing centered generous padding include full tips without cropping clean studio lighting preserves color cast shadow workflow place perfectly flat solid ff00ff removal must uniform shadows gradients reflections floor plane variation not anywhere constraints wheat pampas reeds flowers landscape sand mound water vase hand props second text watermark contact reflection generate comprehensive theme named wide class derived cream roots olive lines soft fog neutrals critical canvas requirement true 3840 2160 style square portrait fill horizontal clear grid large readable section labels resolution legibility fewer larger rows tiny token tables microscopic required visible palette japanese typography components navigation dashboard data forms command search status tokens radius spacing extract rhythm contrast mood interaction language leaf surfaces deep root read bamboo generic beige enterprise planning restoration shoreline habitat monitoring permit review erosion risk dashboards field observation workflows english product examples guidance such inter noto sans display body label numbers keep short legible coverage shadcn tweakcn like buttons icon inputs select textarea checkbox radio switch tabs badges alerts cards table sidebar top metric trend line chart bar map filter chips empty loading error success warning states toast pagination focus rings semantic roles foreground card popover secondary muted accent destructive border input ring scale 8px family low swatches medium premium structured operations realistic precise controls active vertical dividers density woven colors ivory umber outside unrelated bright purple blue"
+  },
+  {
     "slug": "morphous-medlar",
     "name": "Morphous Medlar",
     "motifName": "Medlar Fruit",
@@ -36544,6 +37144,203 @@ export const systems = [
     "searchBlob": "sea buckthorn motif chroma key primary request create only berries botanical catalog isolated one complete subject removable background coastal scrub berry branch hippophae rhamnoides dense clusters small bright orange oval matte silver green narrow lanceolate leaves pale undersides thorny gray brown stems wind hardy structure accuracy crisp edges rich texture silvery leaf sheen sandy resilience identity composition framing centered generous padding include tips without cropping clean studio lighting preserves color cast shadow perfectly flat solid ff00ff removal must uniform shadows gradients reflections floor plane variation not anywhere constraints citrus slices rowan rose hips bowl hand props landscape text watermark second plant species generate comprehensive theme named derived visible context reusable implementing shadcn tweakcn compatible canvas wide high resolution professional presentation class feel large readable labels required sections palette typography japanese components navigation dashboard data forms table command search status radius spacing tokens extract interaction language vivid shaped dune neutrals nutrient clarity read hip generic english product examples guidance such geist display body label numbers noto sans bilingual operations hierarchy keep short legible coverage secondary ghost destructive buttons hover pressed disabled loading states inputs select textarea checkbox radio switch tabs badges alerts cards rows sidebar top metric line chart bar donut inventory widgets empty error progress stepper scale samples border token code snippets subtle icons style premium precise 8px grid card sand surfaces actions muted controls sage focus rings thorn stem borders mist panels cluster dot brushed restrained purple blue unrelated saturated colors beige branding juice packaging random brand names misspelling tiny unreadable paragraphs like translated new remain preserve same success deep foreground component saas tertiary input nav visual details charcoal night active cream contrast gloss"
   },
   {
+    "slug": "morphous-sea-oats",
+    "name": "Sea Oats",
+    "motifName": "Sea Oats Seed Heads",
+    "motifCategory": "plant",
+    "biome": "Beach Dune",
+    "motif": "relaxed editorial system",
+    "description": "A shadcn/tweakcn-compatible system to be coded from the Sea Oats light and dark design-system boards: straw-gold seed heads, dune-sand editorial surfaces, shell ivory highlights, cool sea-blue husk shadows, and relaxed beach-dune rhythm.",
+    "typography": "Geist for calm editorial product UI with Noto Sans JP guidance for Japanese labels, light data density, and natural beach-dune reading rhythm.",
+    "layout": "Airy editorial panels on an 8px grid, compact shadcn controls, wind-ripple texture, restrained shadows, seed-husk dividers, and 8px radii throughout.",
+    "tags": [
+      "sea-oats",
+      "plant",
+      "beach-dune",
+      "straw-gold",
+      "dune-sand",
+      "sea-blue",
+      "japanese-typography",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Shell Ivory",
+        "hex": "#F6F3EC",
+        "oklch": "oklch(0.965 0.010 87.5)"
+      },
+      {
+        "role": "Ink",
+        "name": "Stem Ink",
+        "hex": "#2E2A25",
+        "oklch": "oklch(0.288 0.011 73.5)"
+      },
+      {
+        "role": "Primary",
+        "name": "Straw Gold",
+        "hex": "#D6B56C",
+        "oklch": "oklch(0.786 0.100 85.8)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Sea Blue",
+        "hex": "#6F8FA6",
+        "oklch": "oklch(0.634 0.050 239.8)"
+      },
+      {
+        "role": "Surface",
+        "name": "Dune Sand",
+        "hex": "#E7D6B7",
+        "oklch": "oklch(0.882 0.045 82.6)"
+      },
+      {
+        "role": "Accent",
+        "name": "Oat Beige",
+        "hex": "#CDBA93",
+        "oklch": "oklch(0.795 0.057 85.0)"
+      },
+      {
+        "role": "Signal",
+        "name": "Dry Grass Brown",
+        "hex": "#8C724E",
+        "oklch": "oklch(0.568 0.061 75.1)"
+      },
+      {
+        "role": "Muted",
+        "name": "Wind Shadow Taupe",
+        "hex": "#B8AA92",
+        "oklch": "oklch(0.743 0.037 81.2)"
+      },
+      {
+        "role": "Highlight",
+        "name": "Pale Husk",
+        "hex": "#FFF9EF",
+        "oklch": "oklch(0.984 0.015 80.7)"
+      },
+      {
+        "role": "Mist",
+        "name": "Sea Mist",
+        "hex": "#EAF1F3",
+        "oklch": "oklch(0.953 0.008 216.6)"
+      },
+      {
+        "role": "Depth",
+        "name": "Dune Night",
+        "hex": "#141210",
+        "oklch": "oklch(0.184 0.005 67.5)"
+      },
+      {
+        "role": "Dark Surface",
+        "name": "Sea Blue Deep",
+        "hex": "#3E546B",
+        "oklch": "oklch(0.437 0.047 250.0)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.965 0.010 87.5)",
+      "foreground": "oklch(0.288 0.011 73.5)",
+      "card": "oklch(0.984 0.015 80.7)",
+      "card-foreground": "oklch(0.288 0.011 73.5)",
+      "popover": "oklch(0.984 0.015 80.7)",
+      "popover-foreground": "oklch(0.288 0.011 73.5)",
+      "primary": "oklch(0.786 0.100 85.8)",
+      "primary-foreground": "oklch(0.288 0.011 73.5)",
+      "secondary": "oklch(0.882 0.045 82.6)",
+      "secondary-foreground": "oklch(0.288 0.011 73.5)",
+      "muted": "oklch(0.953 0.008 216.6)",
+      "muted-foreground": "oklch(0.568 0.061 75.1)",
+      "accent": "oklch(0.634 0.050 239.8)",
+      "accent-foreground": "oklch(0.984 0.015 80.7)",
+      "destructive": "oklch(0.568 0.061 75.1)",
+      "border": "oklch(0.743 0.037 81.2)",
+      "input": "oklch(0.743 0.037 81.2)",
+      "ring": "oklch(0.634 0.050 239.8)",
+      "chart-1": "oklch(0.786 0.100 85.8)",
+      "chart-2": "oklch(0.634 0.050 239.8)",
+      "chart-3": "oklch(0.795 0.057 85.0)",
+      "chart-4": "oklch(0.568 0.061 75.1)",
+      "chart-5": "oklch(0.743 0.037 81.2)",
+      "sidebar": "oklch(0.882 0.045 82.6)",
+      "sidebar-foreground": "oklch(0.288 0.011 73.5)",
+      "sidebar-primary": "oklch(0.786 0.100 85.8)",
+      "sidebar-primary-foreground": "oklch(0.288 0.011 73.5)",
+      "sidebar-accent": "oklch(0.795 0.057 85.0)",
+      "sidebar-accent-foreground": "oklch(0.288 0.011 73.5)",
+      "sidebar-border": "oklch(0.743 0.037 81.2)",
+      "sidebar-ring": "oklch(0.634 0.050 239.8)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.184 0.005 67.5)",
+      "foreground": "oklch(0.934 0.023 82.1)",
+      "card": "oklch(0.221 0.009 59.2)",
+      "card-foreground": "oklch(0.934 0.023 82.1)",
+      "popover": "oklch(0.221 0.009 59.2)",
+      "popover-foreground": "oklch(0.934 0.023 82.1)",
+      "primary": "oklch(0.786 0.100 85.8)",
+      "primary-foreground": "oklch(0.184 0.005 67.5)",
+      "secondary": "oklch(0.437 0.047 250.0)",
+      "secondary-foreground": "oklch(0.934 0.023 82.1)",
+      "muted": "oklch(0.375 0.025 69.4)",
+      "muted-foreground": "oklch(0.754 0.044 87.4)",
+      "accent": "oklch(0.712 0.034 236.6)",
+      "accent-foreground": "oklch(0.184 0.005 67.5)",
+      "destructive": "oklch(0.568 0.061 75.1)",
+      "border": "oklch(0.332 0.027 75.9)",
+      "input": "oklch(0.332 0.027 75.9)",
+      "ring": "oklch(0.786 0.100 85.8)",
+      "chart-1": "oklch(0.786 0.100 85.8)",
+      "chart-2": "oklch(0.712 0.034 236.6)",
+      "chart-3": "oklch(0.754 0.044 87.4)",
+      "chart-4": "oklch(0.568 0.061 75.1)",
+      "chart-5": "oklch(0.499 0.025 83.2)",
+      "sidebar": "oklch(0.221 0.009 59.2)",
+      "sidebar-foreground": "oklch(0.934 0.023 82.1)",
+      "sidebar-primary": "oklch(0.786 0.100 85.8)",
+      "sidebar-primary-foreground": "oklch(0.184 0.005 67.5)",
+      "sidebar-accent": "oklch(0.332 0.027 75.9)",
+      "sidebar-accent-foreground": "oklch(0.934 0.023 82.1)",
+      "sidebar-border": "oklch(0.332 0.027 75.9)",
+      "sidebar-ring": "oklch(0.786 0.100 85.8)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent sea oats motif source",
+        "asset": "/systems/morphous-sea-oats/motif.png",
+        "workflow": "Built-in image generation on #ff00ff chroma-key, then local chroma-key removal to transparent RGBA.",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only sea oats seed heads, isolated complete subject, no environment, no props, no text.\nSubject: A graceful cluster of coastal sea oats seed heads with arcing straw-gold panicles, dune-sand beige stems, oat-like flattened seed clusters, subtle sea-blue cool shadows on the husks, dry papery texture, fine stem joints, and a relaxed beach-dune silhouette.\nComposition/framing: centered full cutout, subject scaled smaller than the canvas with at least 22% empty margin on all sides; all stems and seed tips fully visible, no cropping, no touching the image border. Tall airy cluster with several stems crossing gently and seed heads leaning like dune grass in a breeze.\nLighting/mood: clean studio light that preserves natural straw fiber, seed husk detail, dune-sand highlights, and fine edges.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nColor palette: straw gold, dune sand, pale oat beige, sea-blue cool shadows, dry grass brown, shell ivory neutrals only.\nConstraints: no text, no watermark, no beach landscape, no ocean horizon, no sand foreground, no shells, no birds, no extra plants, no vase, no roots, no cast shadow, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-sea-oats/design-system-light.png",
+        "workflow": "Built-in image generation using the transparent motif as reference, then saved as a 3840x2160 project asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sea Oats\" derived from the visible transparent sea oats seed heads cutout.\nReference use: Use the visible sea oats motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from straw-gold seed heads, dune-sand beige stems, shell ivory highlights, cool sea-blue husk shadows, dry grass brown linework, and airy beach-dune movement.\nCanvas: wide 16:9 board, 3840x2160 style, high-resolution source board, at least 2400px wide when available.\nResolution and legibility: large readable labels, generous grid, no dense tiny token tables. Make the design look like a polished shadcn/tweakcn-compatible product design system reference.\nRequired visible sections: title \"Morphous Sea Oats\", motif story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese UI examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 日本語, 見出し, 本文. Make Japanese typography guidance visible and readable.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar navigation, top navigation, dashboard metric cards, line charts, stacked bars, small heatmap, loading/empty/error/success states, spacing/radius/border/shadow/token samples.\nStyle/medium: relaxed editorial product UI board, precise grid, airy dune-system rhythm, 8px card radius, quiet light surfaces, shell ivory canvas, dune sand cards, straw gold primary actions, sea-blue secondary accents, dry-grass divider lines, subtle seed-husk and wind-ripple texture.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: straw gold, dune sand, shell ivory, oat beige, cool sea blue, dry grass brown, deep stem ink, pale husk highlight, wind-shadow taupe.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Sea Oats\", no pure black, no orange-dominant palette, no extra botanical motifs beyond sea oats."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-sea-oats/design-system-dark.png",
+        "workflow": "Built-in image generation using the transparent motif and light board as references, then saved as a 3840x2160 project asset.",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible \"Morphous Sea Oats\" design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent sea oats seed heads cutout and the visible light-mode Morphous Sea Oats board as references. Preserve the straw-gold seed palette, dune sand neutrals, shell ivory highlights, cool sea-blue accents, wind-ripple texture, Japanese typography guidance, 8px radius, and shadcn/tweakcn component coverage.\nCanvas: wide 16:9 board, 3840x2160 style, high-resolution source board, at least 2400px wide when available.\nResolution and legibility: large readable labels, generous grid, no dense tiny token tables. The board should be polished enough to code a real theme from it.\nRequired visible sections: title \"Morphous Sea Oats\", Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: deep dune-night background derived from the motif's darkest stem ink and sea-blue husk shadow; readable foreground from shell ivory and pale husk; primary actions from straw gold; navigation and charts from cool sea blue, oat beige, and wind-shadow taupe; subtle sea-oats seed-husk texture; faint dune ripple lines; crisp dark cards and controls; restrained editorial contrast.\nTypography: include English and Japanese UI examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 日本語, 見出し, 本文. Keep Japanese typography guidance visible and readable.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar navigation, top navigation, dashboard metric cards, line charts, stacked bars, small heatmap, loading/empty/error/success states, spacing/radius/border/shadow/token samples.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: deep stem ink, dune-night blue, sea-blue shadow, straw gold, oat beige, dune sand, shell ivory, dry grass brown, wind-shadow taupe.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Sea Oats\", no orange-dominant palette, no extra botanical motifs beyond sea oats."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-sea-oats/motif.png",
+      "board": "/systems/morphous-sea-oats/design-system-light.png",
+      "darkBoard": "/systems/morphous-sea-oats/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-sea-oats/theme.css",
+      "themeJson": "/systems/morphous-sea-oats/theme.json",
+      "promptsJson": "/systems/morphous-sea-oats/prompts.json"
+    },
+    "bgLightness": 0.898,
+    "searchBlob": "sea oats motif primary request create only seed heads isolated complete subject environment props text graceful cluster coastal arcing straw gold panicles dune sand beige stems oat like flattened clusters subtle blue cool shadows husks dry papery texture fine stem joints relaxed beach silhouette composition framing centered full scaled smaller than canvas least empty margin all sides tips fully visible cropping touching image border tall airy several crossing gently leaning grass breeze lighting mood clean studio preserves fiber husk detail highlights edges workflow place perfectly flat solid ff00ff chroma key background removal must one uniform color gradients reflections floor plane variation not anywhere palette pale brown shell ivory neutrals constraints watermark landscape ocean horizon foreground shells birds extra plants vase roots cast shadow contact reflection generate comprehensive theme named derived truth extract rhythm contrast spacing interaction language linework movement wide 3840x2160 style high resolution 2400px when available legibility large readable labels generous grid dense tiny token tables make look polished shadcn tweakcn compatible product required sections title story japanese typography components navigation dashboard data forms command search status tokens radius generated assets include english examples geist noto sans heading body label numeric guidance coverage buttons icon inputs select textarea checkbox radio switch tabs badges alerts cards table rows sidebar top metric line charts stacked bars small heatmap loading error success states samples medium editorial precise 8px card quiet surfaces actions secondary accents divider lines wind ripple colors plus near deep ink highlight taupe short long paragraphs unrelated bright generic purple stock kit random brand names misspelling pure black orange dominant botanical motifs beyond version feel same translated new preserve component should enough code real visual details night darkest faint crisp controls restrained keep neon"
+  },
+  {
     "slug": "morphous-sea-turtle",
     "name": "Morphous Sea Turtle",
     "motifName": "Sea Turtle",
@@ -40828,6 +41625,206 @@ export const systems = [
     "searchBlob": "sweet pea motif chroma key primary request create only isolated blossoms catalog clearly pastel pink lavender mauve blush cream petals surrounding garden scene props text subject compact cluster delicate climbing vines ruffled butterfly like visible gradients petal throats highlights shadows small unopened buds slender curling tendrils oval vine green leaves accurate botanical form tactile veining crisp silhouette edges color variation kept opaque enough clean must not grayscale black charcoal monochrome composition framing centered complete generous padding show graceful cottage trellis diagonal slightly elevated three quarter view crop any blossom tendril leaf bud lighting mood bright studio preserves gentle communication background place perfectly flat solid 00ffff removal one uniform texture reflections floor plane anywhere constraints watermark vase insects animals full landscape object sky second cast shadow contact reflection flowers generate comprehensive derived already provided context extract palette rhythm contrast spacing interaction language image visibly respect stems structure canvas wide target 3840x2160 class resolution legibility high least 2400px tool cannot output 3840 large readable labels avoid dense tiny required sections title story typography japanese components navigation dashboard data forms tables command search status states radius tokens generated examples include english product sans soft editorial headings message restrained numeric coverage buttons icon inputs selects textarea checkboxes radio switch tabs badges alerts cards table rows sidebar top metrics line bar charts empty loading error success conversation token swatches style medium premium shadcn tweakcn realistic precise grid calm operational app surface 8px controls marketing landing page secondary support surfaces deep ink pale muted areas beige borders rose signal colors plus near neutrals visual details tab shapes focus rings slim dividers vein paper clear chat affordances accessible short exact section may messages"
   },
   {
+    "slug": "morphous-switchgrass",
+    "name": "Morphous Switchgrass",
+    "motifName": "Switchgrass Plume",
+    "motifCategory": "plant",
+    "biome": "tallgrass prairie",
+    "motif": "switchgrass plume",
+    "description": "A shadcn/tweakcn-compatible renewable metrics system derived from a switchgrass plume: copper panicle actions, grass-green charts, olive navigation, seed-tan focus states, straw-paper surfaces, reed borders, and fine vertical plume texture for energy dashboards, reporting workflows, capacity tables, and operational search.",
+    "typography": "Clean humanist dashboard typography with Japanese Gothic guidance for renewable metrics, labels, table numerals, search, facility names, approvals, and compact operational reporting.",
+    "layout": "Airy 8px product grids, vertical grass-line texture bands, compact renewable metric cards, energy mix charts, facility tables, command search, restrained shadows, and 8px cards and controls.",
+    "tags": [
+      "switchgrass",
+      "plant",
+      "tallgrass-prairie",
+      "copper",
+      "grass-green",
+      "seed-tan",
+      "renewable-metrics",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Prairie Paper",
+        "hex": "#FAF8F2",
+        "oklch": "oklch(0.979 0.008 91.5)"
+      },
+      {
+        "role": "Ink",
+        "name": "Seed Shadow",
+        "hex": "#282A26",
+        "oklch": "oklch(0.282 0.008 128.8)"
+      },
+      {
+        "role": "Primary",
+        "name": "Panicle Copper",
+        "hex": "#B36A44",
+        "oklch": "oklch(0.597 0.107 47.4)"
+      },
+      {
+        "role": "Primary Hover",
+        "name": "Bronze Hover",
+        "hex": "#C88358",
+        "oklch": "oklch(0.672 0.103 52.1)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Grass Green",
+        "hex": "#6FAF63",
+        "oklch": "oklch(0.692 0.126 140.5)"
+      },
+      {
+        "role": "Accent",
+        "name": "Seed Tan",
+        "hex": "#D7B88A",
+        "oklch": "oklch(0.798 0.071 77.3)"
+      },
+      {
+        "role": "Signal",
+        "name": "Olive Blade",
+        "hex": "#5C7F44",
+        "oklch": "oklch(0.555 0.094 133.7)"
+      },
+      {
+        "role": "Surface",
+        "name": "Straw Surface",
+        "hex": "#F3EFE6",
+        "oklch": "oklch(0.953 0.013 86.8)"
+      },
+      {
+        "role": "Muted",
+        "name": "Reed Border",
+        "hex": "#D9D2C2",
+        "oklch": "oklch(0.865 0.023 87.2)"
+      },
+      {
+        "role": "Divider",
+        "name": "Chaff Line",
+        "hex": "#E7E1D6",
+        "oklch": "oklch(0.911 0.016 82.8)"
+      },
+      {
+        "role": "Depth",
+        "name": "Culm Ink",
+        "hex": "#1E1B16",
+        "oklch": "oklch(0.224 0.010 80.6)"
+      },
+      {
+        "role": "Destructive",
+        "name": "Dry Copper",
+        "hex": "#A95038",
+        "oklch": "oklch(0.538 0.123 36.1)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.979 0.008 91.5)",
+      "foreground": "oklch(0.282 0.008 128.8)",
+      "card": "oklch(0.953 0.013 86.8)",
+      "card-foreground": "oklch(0.282 0.008 128.8)",
+      "popover": "oklch(0.953 0.013 86.8)",
+      "popover-foreground": "oklch(0.282 0.008 128.8)",
+      "primary": "oklch(0.597 0.107 47.4)",
+      "primary-foreground": "oklch(0.979 0.008 91.5)",
+      "secondary": "oklch(0.964 0.011 89.7)",
+      "secondary-foreground": "oklch(0.224 0.010 80.6)",
+      "muted": "oklch(0.961 0.012 91.5)",
+      "muted-foreground": "oklch(0.224 0.010 80.6)",
+      "accent": "oklch(0.798 0.071 77.3)",
+      "accent-foreground": "oklch(0.282 0.008 128.8)",
+      "destructive": "oklch(0.538 0.123 36.1)",
+      "border": "oklch(0.923 0.017 88.0)",
+      "input": "oklch(0.923 0.017 88.0)",
+      "ring": "oklch(0.692 0.126 140.5)",
+      "chart-1": "oklch(0.597 0.107 47.4)",
+      "chart-2": "oklch(0.692 0.126 140.5)",
+      "chart-3": "oklch(0.798 0.071 77.3)",
+      "chart-4": "oklch(0.555 0.094 133.7)",
+      "chart-5": "oklch(0.224 0.010 80.6)",
+      "sidebar": "oklch(0.961 0.011 89.7)",
+      "sidebar-foreground": "oklch(0.282 0.008 128.8)",
+      "sidebar-primary": "oklch(0.555 0.094 133.7)",
+      "sidebar-primary-foreground": "oklch(0.979 0.008 91.5)",
+      "sidebar-accent": "oklch(0.910 0.021 67.6)",
+      "sidebar-accent-foreground": "oklch(0.597 0.107 47.4)",
+      "sidebar-border": "oklch(0.923 0.017 88.0)",
+      "sidebar-ring": "oklch(0.692 0.126 140.5)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.224 0.010 80.6)",
+      "foreground": "oklch(0.943 0.021 81.8)",
+      "card": "oklch(0.243 0.009 97.7)",
+      "card-foreground": "oklch(0.943 0.021 81.8)",
+      "popover": "oklch(0.243 0.009 97.7)",
+      "popover-foreground": "oklch(0.943 0.021 81.8)",
+      "primary": "oklch(0.597 0.107 47.4)",
+      "primary-foreground": "oklch(0.979 0.008 91.5)",
+      "secondary": "oklch(0.385 0.013 81.8)",
+      "secondary-foreground": "oklch(0.943 0.021 81.8)",
+      "muted": "oklch(0.385 0.013 81.8)",
+      "muted-foreground": "oklch(0.925 0.015 90.2)",
+      "accent": "oklch(0.798 0.071 77.3)",
+      "accent-foreground": "oklch(0.224 0.010 80.6)",
+      "destructive": "oklch(0.538 0.123 36.1)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.692 0.126 140.5)",
+      "chart-1": "oklch(0.597 0.107 47.4)",
+      "chart-2": "oklch(0.692 0.126 140.5)",
+      "chart-3": "oklch(0.798 0.071 77.3)",
+      "chart-4": "oklch(0.555 0.094 133.7)",
+      "chart-5": "oklch(0.865 0.023 87.2)",
+      "sidebar": "oklch(0.251 0.009 97.7)",
+      "sidebar-foreground": "oklch(0.943 0.021 81.8)",
+      "sidebar-primary": "oklch(0.555 0.094 133.7)",
+      "sidebar-primary-foreground": "oklch(0.979 0.008 91.5)",
+      "sidebar-accent": "oklch(0.385 0.013 81.8)",
+      "sidebar-accent-foreground": "oklch(0.943 0.021 81.8)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.692 0.126 140.5)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent switchgrass plume motif",
+        "asset": "/systems/morphous-switchgrass/motif.png",
+        "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a switchgrass plume, isolated full subject, no environment, no props, no text.\nSubject: One complete Panicum virgatum switchgrass plume with slender upright green grass blades, airy branching copper seed panicles, seed-tan grains, warm straw nodes, olive-green stems, natural tallgrass prairie botanical texture, realistic plant form, crisp silhouette edges, and no pot or soil.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the plume or leaves; vertical botanical specimen presentation.\nLighting/mood: clean studio light that preserves copper panicle highlights, seed-tan grains, olive grass greens, dry straw texture, and fine botanical details.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second plant, no flowers, no pot, no soil, no cast shadow, no contact shadow, no reflection."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-switchgrass/design-system-light.png",
+        "sourceAsset": "/systems/morphous-switchgrass/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Switchgrass light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Switchgrass\", derived from the visible isolated switchgrass plume cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible renewable metrics system.\nReference use: Use the visible switchgrass plume motif as the source of truth. Extract copper seed panicles, seed-tan grains, olive grass blades, fresh grass green stems, straw nodes, prairie dry neutrals, airy branching rhythm, and fine plume texture. The board must visibly respect these motif colors and textures only.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, at least 2400 px wide, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Switchgrass, Switchgrass Plume, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: prairie paper background, culm ink text, copper panicle primary, bronze hover, grass green secondary, olive blade navigation, seed tan accent, straw surface cards, muted reed borders, chaff line dividers, and dark seed-shadow depth, all derived from the motif.\nTypography: renewable metrics product UI guidance with English and Japanese type. Use clean humanist sans for dashboards and Noto Sans JP / Japanese Gothic guidance for metrics, forms, labels, search, table numerals, facility names, and energy reporting. Include short Japanese labels such as 指標, 検索, 発電量, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, renewable output line chart, energy mix bars, prairie capacity table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet renewable metrics dashboard, prairie-paper surfaces, copper primary actions, olive and grass-green active navigation, seed-tan focus rings, fine vertical grass-line texture, airy plume data rhythm, compact data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Switchgrass\", no tiny illegible paragraphs."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-switchgrass/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-switchgrass/motif.png",
+        "referenceAssets": [
+          "/systems/morphous-switchgrass/design-system-light.png"
+        ],
+        "prompt": "Use case: ui-mockup\nAsset type: Morphous Switchgrass dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Switchgrass\". It must feel like the same renewable metrics system translated to dark mode, not a new theme, and it must remain derived from the visible switchgrass plume motif and the visible light-mode board.\nReference use: Use the visible switchgrass plume and light-mode board as references. Preserve copper panicle primary controls, grass green and olive navigation/status accents, seed-tan focus rings, straw-neutral typography guidance, chaff borders, fine vertical grass-line texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, at least 2400 px wide, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Switchgrass, Dark Mode, Switchgrass Plume, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest seed-shadow background, warm culm-ink panels, copper panicle primary, bronze hover, grass-green metrics, olive blade navigation, seed-tan focus, straw text highlights, muted reed borders, and restrained near-neutrals derived only from the motif.\nTypography: renewable metrics product UI guidance with English and Japanese type. Use clean humanist sans for dashboards and Noto Sans JP / Japanese Gothic guidance for metrics, forms, labels, search, table numerals, facility names, and energy reporting. Include short Japanese labels such as 指標, 検索, 発電量, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, renewable output line chart, energy mix bars, prairie capacity table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the plume's deepest seed shadows, elevated panels in warm culm ink, straw foreground text, copper primary actions, seed-tan focus rings, grass-green charts and success states, olive active navigation, subtle vertical grass-line overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Switchgrass\", no tiny illegible paragraphs."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-switchgrass/motif.png",
+      "board": "/systems/morphous-switchgrass/design-system-light.png",
+      "darkBoard": "/systems/morphous-switchgrass/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-switchgrass/theme.css",
+      "themeJson": "/systems/morphous-switchgrass/theme.json",
+      "promptsJson": "/systems/morphous-switchgrass/prompts.json"
+    },
+    "bgLightness": 0.939,
+    "searchBlob": "switchgrass plume motif primary request create only isolated full subject environment props text one complete panicum virgatum slender upright green grass blades airy branching copper seed panicles tan grains warm straw nodes olive stems tallgrass prairie botanical texture realistic plant form crisp silhouette edges pot soil composition framing centered generous padding all sides not crop leaves vertical specimen presentation lighting mood clean studio preserves panicle highlights greens dry fine details workflow place perfectly flat solid ff00ff chroma key background removal must uniform color shadows gradients reflections floor plane variation anywhere constraints watermark landscape second flowers cast shadow contact reflection generate comprehensive theme named derived visible implementing shadcn tweakcn compatible renewable metrics truth extract fresh neutrals rhythm visibly respect colors textures canvas exact wide 3840 2160 preferred least 2400 readable labels precise product grid required sections palette japanese typography components navigation dashboard data forms tables command search status tokens radius spacing generated assets direction paper culm ink bronze hover secondary blade accent surface cards muted reed borders chaff line dividers depth guidance english humanist sans dashboards noto gothic table numerals facility names energy reporting include short such coverage buttons icon inputs selects textarea checkboxes radios switches tabs badges alerts top sidebar breadcrumb metric output chart mix bars capacity global filters empty state loading error success warning toast pagination simple restrained icons token semantic roles border input ring scale 8px family swatches focus states disabled density notes chips style premium quiet surfaces actions active rings compact controls radii avoid long paragraphs unrelated bright generic purple blue beige random brand misspelling tiny illegible feel like same translated new remain preserve accents neutral language plus deepest panels near visual elevated"
+  },
+  {
     "slug": "morphous-tamarind",
     "name": "Morphous Tamarind",
     "motifName": "Tamarind Pod",
@@ -42318,6 +43315,196 @@ export const systems = [
     },
     "bgLightness": 0.861,
     "searchBlob": "tulip motif chroma key primary request create only isolated cup catalog environment props text subject single red coral visible deep black center subtle petal veins crisp edges small leaf green stem two leaves spring field botanical texture accurate form bold gallery presence composition framing centered complete generous padding show whole short without cropping lighting mood clean studio preserves gradients depth structure flower surface detail background place perfectly flat solid ff00ff transparency removal must one uniform color shadows reflections floor plane variation not anywhere constraints watermark vase bouquet landscape decorative second insects fruit generate comprehensive derived conversation ready named extract palette rhythm contrast spacing interaction language warm neutrals canvas exact wide 3840 2160 art resolution legibility high class large readable labels fewer larger rows avoid dense tiny token tables required sections title story japanese typography components navigation dashboard data forms command search status states tokens radius generated examples coverage shadcn tweakcn like buttons icon inputs select textarea checkbox radio switch tabs badges alerts cards table sidebar nav chart metric empty state error loading focus rings include english product guidance clear such style medium premium precise 8px grid radii layout action bars support chips vein dividers paper surfaces restrained colors ivory highlight pollen blush sage neutral clay shadow ink long paragraphs unrelated bright generic purple blue neon random brand names illegible microtext feels same translated preserve roles component actions highlights foreground panels accents visual details soft charcoal active success warning separators overlays adapted darker saturated pure void"
+  },
+  {
+    "slug": "morphous-tumbleweed",
+    "name": "Tumbleweed",
+    "motifName": "Tumbleweed",
+    "motifCategory": "plant",
+    "biome": "dry steppe",
+    "motif": "tumbleweed form",
+    "description": "A shadcn/tweakcn-compatible spacious queue system derived from a dry steppe tumbleweed: straw-tan tangled branches, dust-brown seed husks, pale sky washes, sand surfaces, charcoal twig ink, and windworn borders for calm operational queues.",
+    "typography": "Spacious English queue UI with Japanese typography guidance for waiting lines, dispatch states, status chips, data tables, command search, and calm operational messaging.",
+    "layout": "Airy queue dashboards, 8px radii, 8pt spacing, twig-line dividers, dry seed speckle texture, pale sky wash panels, restrained dry-steppe shadows, spacious navigation, forms, tables, command/search, status, tokens, radius, spacing, and shadow sections.",
+    "tags": [
+      "tumbleweed",
+      "plant",
+      "dry-steppe",
+      "straw-tan",
+      "dust-brown",
+      "sky-pale",
+      "spacious-queue-system",
+      "dark-ready"
+    ],
+    "palette": [
+      {
+        "role": "Background",
+        "name": "Sky Pale Steppe",
+        "hex": "#F7F1E6",
+        "oklch": "oklch(0.960 0.016 82.8)"
+      },
+      {
+        "role": "Ink",
+        "name": "Charcoal Twig",
+        "hex": "#211914",
+        "oklch": "oklch(0.221 0.016 53.7)"
+      },
+      {
+        "role": "Primary",
+        "name": "Straw Branch",
+        "hex": "#C8944E",
+        "oklch": "oklch(0.702 0.107 72.6)"
+      },
+      {
+        "role": "Secondary",
+        "name": "Dust Brown",
+        "hex": "#8E6A43",
+        "oklch": "oklch(0.552 0.071 67.7)"
+      },
+      {
+        "role": "Accent",
+        "name": "Pale Sky Wash",
+        "hex": "#D9E1D9",
+        "oklch": "oklch(0.901 0.014 145.5)"
+      },
+      {
+        "role": "Signal",
+        "name": "Seed Umber",
+        "hex": "#92704A",
+        "oklch": "oklch(0.570 0.068 68.8)"
+      },
+      {
+        "role": "Surface",
+        "name": "Dry Off White",
+        "hex": "#FFFCF5",
+        "oklch": "oklch(0.991 0.010 87.5)"
+      },
+      {
+        "role": "Muted",
+        "name": "Sand Veil",
+        "hex": "#E8D6B6",
+        "oklch": "oklch(0.883 0.047 82.0)"
+      },
+      {
+        "role": "Depth",
+        "name": "Night Tangle",
+        "hex": "#120F0C",
+        "oklch": "oklch(0.171 0.008 67.3)"
+      },
+      {
+        "role": "Border",
+        "name": "Windworn Stem",
+        "hex": "#B79B72",
+        "oklch": "oklch(0.705 0.065 76.9)"
+      },
+      {
+        "role": "Destructive",
+        "name": "Clay Seed",
+        "hex": "#A9573C",
+        "oklch": "oklch(0.550 0.115 38.8)"
+      }
+    ],
+    "tokens": {
+      "background": "oklch(0.960 0.016 82.8)",
+      "foreground": "oklch(0.221 0.016 53.7)",
+      "card": "oklch(0.991 0.010 87.5)",
+      "card-foreground": "oklch(0.221 0.016 53.7)",
+      "popover": "oklch(0.991 0.010 87.5)",
+      "popover-foreground": "oklch(0.221 0.016 53.7)",
+      "primary": "oklch(0.702 0.107 72.6)",
+      "primary-foreground": "oklch(0.960 0.016 82.8)",
+      "secondary": "oklch(0.978 0.012 79.8)",
+      "secondary-foreground": "oklch(0.171 0.008 67.3)",
+      "muted": "oklch(0.983 0.011 84.6)",
+      "muted-foreground": "oklch(0.171 0.008 67.3)",
+      "accent": "oklch(0.901 0.014 145.5)",
+      "accent-foreground": "oklch(0.221 0.016 53.7)",
+      "destructive": "oklch(0.702 0.107 72.6)",
+      "border": "oklch(0.952 0.023 82.1)",
+      "input": "oklch(0.952 0.023 82.1)",
+      "ring": "oklch(0.552 0.071 67.7)",
+      "chart-1": "oklch(0.702 0.107 72.6)",
+      "chart-2": "oklch(0.552 0.071 67.7)",
+      "chart-3": "oklch(0.901 0.014 145.5)",
+      "chart-4": "oklch(0.570 0.068 68.8)",
+      "chart-5": "oklch(0.171 0.008 67.3)",
+      "sidebar": "oklch(0.980 0.011 84.6)",
+      "sidebar-foreground": "oklch(0.221 0.016 53.7)",
+      "sidebar-primary": "oklch(0.702 0.107 72.6)",
+      "sidebar-primary-foreground": "oklch(0.960 0.016 82.8)",
+      "sidebar-accent": "oklch(0.957 0.022 83.3)",
+      "sidebar-accent-foreground": "oklch(0.702 0.107 72.6)",
+      "sidebar-border": "oklch(0.952 0.023 82.1)",
+      "sidebar-ring": "oklch(0.552 0.071 67.7)",
+      "radius": "0.5rem"
+    },
+    "darkTokens": {
+      "background": "oklch(0.221 0.016 53.7)",
+      "foreground": "oklch(0.960 0.016 82.8)",
+      "card": "oklch(0.187 0.010 52.8)",
+      "card-foreground": "oklch(0.960 0.016 82.8)",
+      "popover": "oklch(0.187 0.010 52.8)",
+      "popover-foreground": "oklch(0.960 0.016 82.8)",
+      "primary": "oklch(0.552 0.071 67.7)",
+      "primary-foreground": "oklch(0.221 0.016 53.7)",
+      "secondary": "oklch(0.355 0.019 80.5)",
+      "secondary-foreground": "oklch(0.960 0.016 82.8)",
+      "muted": "oklch(0.355 0.019 80.5)",
+      "muted-foreground": "oklch(0.925 0.030 83.6)",
+      "accent": "oklch(0.901 0.014 145.5)",
+      "accent-foreground": "oklch(0.221 0.016 53.7)",
+      "destructive": "oklch(0.702 0.107 72.6)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.552 0.071 67.7)",
+      "chart-1": "oklch(0.552 0.071 67.7)",
+      "chart-2": "oklch(0.702 0.107 72.6)",
+      "chart-3": "oklch(0.901 0.014 145.5)",
+      "chart-4": "oklch(0.570 0.068 68.8)",
+      "chart-5": "oklch(0.883 0.047 82.0)",
+      "sidebar": "oklch(0.197 0.013 55.5)",
+      "sidebar-foreground": "oklch(0.960 0.016 82.8)",
+      "sidebar-primary": "oklch(0.552 0.071 67.7)",
+      "sidebar-primary-foreground": "oklch(0.221 0.016 53.7)",
+      "sidebar-accent": "oklch(0.355 0.019 80.5)",
+      "sidebar-accent-foreground": "oklch(0.960 0.016 82.8)",
+      "sidebar-border": "oklch(1 0 0 / 12%)",
+      "sidebar-ring": "oklch(0.552 0.071 67.7)",
+      "radius": "0.5rem"
+    },
+    "prompts": [
+      {
+        "id": "transparent-motif",
+        "label": "Transparent Tumbleweed motif",
+        "asset": "/systems/morphous-tumbleweed/motif.png",
+        "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tumbleweed transparent motif chroma-key source\nPrimary request: Create only a mature dry tumbleweed form, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #00ff00 chroma-key background for background removal.\nSubject: spherical wind-rolled tumbleweed with tangled branching stems, straw tan twigs, dust-brown seed husks, pale dry tips, open airy structure, dry steppe botanical form, crisp opaque edges.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, natural dry plant texture, no stylized cartooning.\nComposition/framing: centered complete cutout with generous padding on all sides; no cropping; no floor plane.\nLighting/mood: spacious queue-system mood, bright clear studio light, no cast shadow and no contact shadow.\nColor palette: straw tan, dust brown, sky-pale dry highlights, muted steppe neutrals only; do not use green anywhere in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no soil mound, no desert scenery, no second plant, no decorative background, no extra saturated colors."
+      },
+      {
+        "id": "light-design-system",
+        "label": "Light-mode design-system board",
+        "asset": "/systems/morphous-tumbleweed/design-system-light.png",
+        "sourceAsset": "/systems/morphous-tumbleweed/motif.png",
+        "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Tumbleweed motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Tumbleweed\".\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: spacious queue system for task intake, dispatch, capacity, waiting lines, ticket handoff, and dry-steppe operations; airy, ordered, calm, operational, with 8px radii throughout.\nColor palette: derive only from the reference motif and dry steppe context: straw tan branches, dust brown seed husks, pale sky highlights, dry steppe off-white, warm sand surfaces, charcoal brown ink, muted twig borders. Use no unrelated saturated colors, no purple/blue gradients, no generic SaaS palette.\nLayout: polished product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small tumbleweed motif cutout preview.\nTypography: spacious English queue UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"タンブルウィード\", \"待機列\", \"処理中\", \"完了\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, sidebar navigation, queue metric cards, capacity cards, waiting-line chart, dispatch table, status chips, loading/empty/error/success states.\nTexture/materials: subtle tangled twig-line texture, dry seed speckles as dividers, pale sky wash panels, wind-swept spacing rhythm, dry-steppe shadows, 8px card and control rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no purple/blue default colors, no watermark."
+      },
+      {
+        "id": "dark-design-system",
+        "label": "Dark-mode design-system board",
+        "asset": "/systems/morphous-tumbleweed/design-system-dark.png",
+        "sourceAsset": "/systems/morphous-tumbleweed/design-system-light.png",
+        "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible Tumbleweed motif and the visible Morphous Tumbleweed light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Tumbleweed\" with the same spacious queue-system coverage and layout logic as the light board.\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: spacious queue system for task intake, dispatch, capacity, waiting lines, ticket handoff, and dry-steppe operations; night-mode operations console, airy, ordered, calm, 8px radii throughout.\nColor palette: derive only from the reference motif and dry steppe context: deep dust-brown backgrounds, charcoal twig panels, straw tan primary controls, sand secondary surfaces, pale sky text highlights, muted dry-steppe borders. Use no unrelated saturated colors, no generic blue/purple gradients, no neon colors.\nLayout: polished dark product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small tumbleweed motif cutout preview.\nTypography: spacious English queue UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"タンブルウィード\", \"待機列\", \"処理中\", \"完了\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, sidebar navigation, queue metric cards, capacity cards, waiting-line chart, dispatch table, status chips, loading/empty/error/success states.\nTexture/materials: subtle dark tangled twig-line texture, dry seed speckles as dividers, pale sky highlight strokes, wind-swept spacing rhythm, dry-steppe shadows, 8px card and control rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no pure black flat background, no blue/purple gradients, no watermark."
+      }
+    ],
+    "assets": {
+      "motif": "/systems/morphous-tumbleweed/motif.png",
+      "board": "/systems/morphous-tumbleweed/design-system-light.png",
+      "darkBoard": "/systems/morphous-tumbleweed/design-system-dark.png",
+      "examples": [],
+      "themeCss": "/systems/morphous-tumbleweed/theme.css",
+      "themeJson": "/systems/morphous-tumbleweed/theme.json",
+      "promptsJson": "/systems/morphous-tumbleweed/prompts.json"
+    },
+    "bgLightness": 0.884,
+    "searchBlob": "tumbleweed motif chroma key primary request create only mature dry form isolated full subject environment props text scene backdrop perfectly flat solid 00ff00 background removal spherical wind rolled tangled branching stems straw tan twigs dust brown seed husks pale tips open airy structure steppe botanical crisp opaque edges style medium high detail realistic painted photographic finish plant texture stylized cartooning composition framing centered complete generous padding all sides cropping floor plane lighting mood spacious queue bright clear studio cast shadow contact color palette sky highlights muted neutrals not green anywhere workflow place must one uniform shadows gradients reflections variation constraints keep fully separated watermark soil mound desert scenery second decorative extra saturated colors resolution catalog input images visible shape language identity generate comprehensive shadcn tweakcn like titled canvas 3840 2160 wide readable labels token names tiny required sections japanese typography components navigation dashboard data forms tables command search status tokens radius spacing task intake dispatch capacity waiting lines ticket handoff operations ordered calm operational 8px radii throughout derive context branches off white warm sand surfaces charcoal ink twig borders unrelated purple blue generic saas layout polished product left rail central component examples right table modules bottom row samples include small preview english plus section headings body captions numerals such secondary buttons icon inputs select textarea checkbox radio switch tabs badges alert card rows sidebar metric cards line chart chips loading empty error success states materials subtle speckles dividers wash panels swept rhythm control every element uses less fit inside containers professional marketing hero abstract default separate translation same coverage logic night console deep backgrounds controls neon highlight strokes pure black"
   },
   {
     "slug": "morphous-volcano",

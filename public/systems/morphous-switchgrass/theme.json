@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-switchgrass",
+    "name": "Morphous Switchgrass",
+    "motifName": "Switchgrass Plume",
+    "motifCategory": "plant",
+    "biome": "tallgrass prairie",
+    "motif": "switchgrass plume"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Prairie Paper",
+      "hex": "#FAF8F2",
+      "oklch": "oklch(0.979 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Shadow",
+      "hex": "#282A26",
+      "oklch": "oklch(0.282 0.008 128.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Panicle Copper",
+      "hex": "#B36A44",
+      "oklch": "oklch(0.597 0.107 47.4)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Bronze Hover",
+      "hex": "#C88358",
+      "oklch": "oklch(0.672 0.103 52.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Grass Green",
+      "hex": "#6FAF63",
+      "oklch": "oklch(0.692 0.126 140.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Seed Tan",
+      "hex": "#D7B88A",
+      "oklch": "oklch(0.798 0.071 77.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Olive Blade",
+      "hex": "#5C7F44",
+      "oklch": "oklch(0.555 0.094 133.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Straw Surface",
+      "hex": "#F3EFE6",
+      "oklch": "oklch(0.953 0.013 86.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Border",
+      "hex": "#D9D2C2",
+      "oklch": "oklch(0.865 0.023 87.2)"
+    },
+    {
+      "role": "Divider",
+      "name": "Chaff Line",
+      "hex": "#E7E1D6",
+      "oklch": "oklch(0.911 0.016 82.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Culm Ink",
+      "hex": "#1E1B16",
+      "oklch": "oklch(0.224 0.010 80.6)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Copper",
+      "hex": "#A95038",
+      "oklch": "oklch(0.538 0.123 36.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.008 91.5)",
+    "foreground": "oklch(0.282 0.008 128.8)",
+    "card": "oklch(0.953 0.013 86.8)",
+    "card-foreground": "oklch(0.282 0.008 128.8)",
+    "popover": "oklch(0.953 0.013 86.8)",
+    "popover-foreground": "oklch(0.282 0.008 128.8)",
+    "primary": "oklch(0.597 0.107 47.4)",
+    "primary-foreground": "oklch(0.979 0.008 91.5)",
+    "secondary": "oklch(0.964 0.011 89.7)",
+    "secondary-foreground": "oklch(0.224 0.010 80.6)",
+    "muted": "oklch(0.961 0.012 91.5)",
+    "muted-foreground": "oklch(0.224 0.010 80.6)",
+    "accent": "oklch(0.798 0.071 77.3)",
+    "accent-foreground": "oklch(0.282 0.008 128.8)",
+    "destructive": "oklch(0.538 0.123 36.1)",
+    "border": "oklch(0.923 0.017 88.0)",
+    "input": "oklch(0.923 0.017 88.0)",
+    "ring": "oklch(0.692 0.126 140.5)",
+    "chart-1": "oklch(0.597 0.107 47.4)",
+    "chart-2": "oklch(0.692 0.126 140.5)",
+    "chart-3": "oklch(0.798 0.071 77.3)",
+    "chart-4": "oklch(0.555 0.094 133.7)",
+    "chart-5": "oklch(0.224 0.010 80.6)",
+    "sidebar": "oklch(0.961 0.011 89.7)",
+    "sidebar-foreground": "oklch(0.282 0.008 128.8)",
+    "sidebar-primary": "oklch(0.555 0.094 133.7)",
+    "sidebar-primary-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-accent": "oklch(0.910 0.021 67.6)",
+    "sidebar-accent-foreground": "oklch(0.597 0.107 47.4)",
+    "sidebar-border": "oklch(0.923 0.017 88.0)",
+    "sidebar-ring": "oklch(0.692 0.126 140.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.010 80.6)",
+    "foreground": "oklch(0.943 0.021 81.8)",
+    "card": "oklch(0.243 0.009 97.7)",
+    "card-foreground": "oklch(0.943 0.021 81.8)",
+    "popover": "oklch(0.243 0.009 97.7)",
+    "popover-foreground": "oklch(0.943 0.021 81.8)",
+    "primary": "oklch(0.597 0.107 47.4)",
+    "primary-foreground": "oklch(0.979 0.008 91.5)",
+    "secondary": "oklch(0.385 0.013 81.8)",
+    "secondary-foreground": "oklch(0.943 0.021 81.8)",
+    "muted": "oklch(0.385 0.013 81.8)",
+    "muted-foreground": "oklch(0.925 0.015 90.2)",
+    "accent": "oklch(0.798 0.071 77.3)",
+    "accent-foreground": "oklch(0.224 0.010 80.6)",
+    "destructive": "oklch(0.538 0.123 36.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.692 0.126 140.5)",
+    "chart-1": "oklch(0.597 0.107 47.4)",
+    "chart-2": "oklch(0.692 0.126 140.5)",
+    "chart-3": "oklch(0.798 0.071 77.3)",
+    "chart-4": "oklch(0.555 0.094 133.7)",
+    "chart-5": "oklch(0.865 0.023 87.2)",
+    "sidebar": "oklch(0.251 0.009 97.7)",
+    "sidebar-foreground": "oklch(0.943 0.021 81.8)",
+    "sidebar-primary": "oklch(0.555 0.094 133.7)",
+    "sidebar-primary-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-accent": "oklch(0.385 0.013 81.8)",
+    "sidebar-accent-foreground": "oklch(0.943 0.021 81.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.692 0.126 140.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean humanist dashboard typography with Japanese Gothic guidance for renewable metrics, labels, table numerals, search, facility names, approvals, and compact operational reporting.",
+  "layout": "Airy 8px product grids, vertical grass-line texture bands, compact renewable metric cards, energy mix charts, facility tables, command search, restrained shadows, and 8px cards and controls.",
+  "tags": [
+    "switchgrass",
+    "plant",
+    "tallgrass-prairie",
+    "copper",
+    "grass-green",
+    "seed-tan",
+    "renewable-metrics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-switchgrass/motif.png",
+    "board": "/systems/morphous-switchgrass/design-system-light.png",
+    "darkBoard": "/systems/morphous-switchgrass/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-switchgrass/theme.css",
+    "themeJson": "/systems/morphous-switchgrass/theme.json",
+    "promptsJson": "/systems/morphous-switchgrass/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent switchgrass plume motif",
+      "asset": "/systems/morphous-switchgrass/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a switchgrass plume, isolated full subject, no environment, no props, no text.\nSubject: One complete Panicum virgatum switchgrass plume with slender upright green grass blades, airy branching copper seed panicles, seed-tan grains, warm straw nodes, olive-green stems, natural tallgrass prairie botanical texture, realistic plant form, crisp silhouette edges, and no pot or soil.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the plume or leaves; vertical botanical specimen presentation.\nLighting/mood: clean studio light that preserves copper panicle highlights, seed-tan grains, olive grass greens, dry straw texture, and fine botanical details.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second plant, no flowers, no pot, no soil, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-switchgrass/design-system-light.png",
+      "sourceAsset": "/systems/morphous-switchgrass/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Switchgrass light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Switchgrass\", derived from the visible isolated switchgrass plume cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible renewable metrics system.\nReference use: Use the visible switchgrass plume motif as the source of truth. Extract copper seed panicles, seed-tan grains, olive grass blades, fresh grass green stems, straw nodes, prairie dry neutrals, airy branching rhythm, and fine plume texture. The board must visibly respect these motif colors and textures only.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, at least 2400 px wide, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Switchgrass, Switchgrass Plume, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: prairie paper background, culm ink text, copper panicle primary, bronze hover, grass green secondary, olive blade navigation, seed tan accent, straw surface cards, muted reed borders, chaff line dividers, and dark seed-shadow depth, all derived from the motif.\nTypography: renewable metrics product UI guidance with English and Japanese type. Use clean humanist sans for dashboards and Noto Sans JP / Japanese Gothic guidance for metrics, forms, labels, search, table numerals, facility names, and energy reporting. Include short Japanese labels such as 指標, 検索, 発電量, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, renewable output line chart, energy mix bars, prairie capacity table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet renewable metrics dashboard, prairie-paper surfaces, copper primary actions, olive and grass-green active navigation, seed-tan focus rings, fine vertical grass-line texture, airy plume data rhythm, compact data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Switchgrass\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-switchgrass/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-switchgrass/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-switchgrass/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Switchgrass dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Switchgrass\". It must feel like the same renewable metrics system translated to dark mode, not a new theme, and it must remain derived from the visible switchgrass plume motif and the visible light-mode board.\nReference use: Use the visible switchgrass plume and light-mode board as references. Preserve copper panicle primary controls, grass green and olive navigation/status accents, seed-tan focus rings, straw-neutral typography guidance, chaff borders, fine vertical grass-line texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, at least 2400 px wide, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Switchgrass, Dark Mode, Switchgrass Plume, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest seed-shadow background, warm culm-ink panels, copper panicle primary, bronze hover, grass-green metrics, olive blade navigation, seed-tan focus, straw text highlights, muted reed borders, and restrained near-neutrals derived only from the motif.\nTypography: renewable metrics product UI guidance with English and Japanese type. Use clean humanist sans for dashboards and Noto Sans JP / Japanese Gothic guidance for metrics, forms, labels, search, table numerals, facility names, and energy reporting. Include short Japanese labels such as 指標, 検索, 発電量, 承認.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, renewable output line chart, energy mix bars, prairie capacity table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the plume's deepest seed shadows, elevated panels in warm culm ink, straw foreground text, copper primary actions, seed-tan focus rings, grass-green charts and success states, olive active navigation, subtle vertical grass-line overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Switchgrass\", no tiny illegible paragraphs."
+    }
+  ]
+}
