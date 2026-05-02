@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-gila-monster",
+    "name": "Gila Monster",
+    "motifName": "Gila Monster Pattern",
+    "motifCategory": "reptile",
+    "biome": "Sonoran desert",
+    "motif": "gila monster pattern"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sunbaked Sand",
+      "hex": "#f7efe2",
+      "oklch": "oklch(0.955 0.019 80.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Obsidian Scale",
+      "hex": "#111214",
+      "oklch": "oklch(0.182 0.004 264.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Hazard Orange",
+      "hex": "#ff6a00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Desert Clay",
+      "hex": "#c6622e",
+      "oklch": "oklch(0.607 0.143 45.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Scale Orange",
+      "hex": "#ff8a3d",
+      "oklch": "oklch(0.750 0.167 50.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Bone Highlight",
+      "hex": "#fff1dc",
+      "oklch": "oklch(0.964 0.032 78.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wash Sand",
+      "hex": "#ead7b8",
+      "oklch": "oklch(0.887 0.046 80.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Desert Shadow",
+      "hex": "#8a7864",
+      "oklch": "oklch(0.584 0.037 70.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Scale Black",
+      "hex": "#1f1f22",
+      "oklch": "oklch(0.241 0.006 286.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.019 80.1)",
+    "foreground": "oklch(0.182 0.004 264.5)",
+    "card": "oklch(0.887 0.046 80.0)",
+    "card-foreground": "oklch(0.182 0.004 264.5)",
+    "popover": "oklch(0.887 0.046 80.0)",
+    "popover-foreground": "oklch(0.182 0.004 264.5)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.955 0.019 80.1)",
+    "secondary": "oklch(0.915 0.034 80.3)",
+    "secondary-foreground": "oklch(0.241 0.006 286.0)",
+    "muted": "oklch(0.907 0.039 80.0)",
+    "muted-foreground": "oklch(0.241 0.006 286.0)",
+    "accent": "oklch(0.750 0.167 50.5)",
+    "accent-foreground": "oklch(0.182 0.004 264.5)",
+    "destructive": "oklch(0.701 0.201 44.8)",
+    "border": "oklch(0.781 0.042 78.0)",
+    "input": "oklch(0.781 0.042 78.0)",
+    "ring": "oklch(0.607 0.143 45.6)",
+    "chart-1": "oklch(0.701 0.201 44.8)",
+    "chart-2": "oklch(0.607 0.143 45.6)",
+    "chart-3": "oklch(0.750 0.167 50.5)",
+    "chart-4": "oklch(0.964 0.032 78.2)",
+    "chart-5": "oklch(0.241 0.006 286.0)",
+    "sidebar": "oklch(0.909 0.037 80.6)",
+    "sidebar-foreground": "oklch(0.182 0.004 264.5)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.955 0.019 80.1)",
+    "sidebar-accent": "oklch(0.859 0.066 70.5)",
+    "sidebar-accent-foreground": "oklch(0.701 0.201 44.8)",
+    "sidebar-border": "oklch(0.781 0.042 78.0)",
+    "sidebar-ring": "oklch(0.607 0.143 45.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.182 0.004 264.5)",
+    "foreground": "oklch(0.955 0.019 80.1)",
+    "card": "oklch(0.222 0.004 264.5)",
+    "card-foreground": "oklch(0.955 0.019 80.1)",
+    "popover": "oklch(0.222 0.004 264.5)",
+    "popover-foreground": "oklch(0.955 0.019 80.1)",
+    "primary": "oklch(0.607 0.143 45.6)",
+    "primary-foreground": "oklch(0.182 0.004 264.5)",
+    "secondary": "oklch(0.325 0.007 48.5)",
+    "secondary-foreground": "oklch(0.955 0.019 80.1)",
+    "muted": "oklch(0.325 0.007 48.5)",
+    "muted-foreground": "oklch(0.792 0.027 73.1)",
+    "accent": "oklch(0.750 0.167 50.5)",
+    "accent-foreground": "oklch(0.182 0.004 264.5)",
+    "destructive": "oklch(0.701 0.201 44.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.607 0.143 45.6)",
+    "chart-1": "oklch(0.607 0.143 45.6)",
+    "chart-2": "oklch(0.701 0.201 44.8)",
+    "chart-3": "oklch(0.750 0.167 50.5)",
+    "chart-4": "oklch(0.964 0.032 78.2)",
+    "chart-5": "oklch(0.584 0.037 70.0)",
+    "sidebar": "oklch(0.209 0.004 264.5)",
+    "sidebar-foreground": "oklch(0.955 0.019 80.1)",
+    "sidebar-primary": "oklch(0.607 0.143 45.6)",
+    "sidebar-primary-foreground": "oklch(0.182 0.004 264.5)",
+    "sidebar-accent": "oklch(0.325 0.007 48.5)",
+    "sidebar-accent-foreground": "oklch(0.955 0.019 80.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.607 0.143 45.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact operational UI with Noto Sans guidance for Japanese labels, sharp numeric dashboards, and bold warning hierarchy.",
+  "layout": "Dense 8px-grid dashboard layouts with scale-bead texture strips, strong status rails, alert panels, data tables, compact forms, and crisp 8px-radius component surfaces.",
+  "tags": [
+    "gila-monster",
+    "reptile",
+    "sonoran-desert",
+    "bead-scale",
+    "warning-system",
+    "black-orange",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-gila-monster/motif.png",
+    "board": "/systems/morphous-gila-monster/design-system-light.png",
+    "darkBoard": "/systems/morphous-gila-monster/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-gila-monster/theme.css",
+    "themeJson": "/systems/morphous-gila-monster/theme.json",
+    "promptsJson": "/systems/morphous-gila-monster/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Gila Monster motif",
+      "asset": "/systems/morphous-gila-monster/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a Gila monster, isolated full subject, no environment, no props, no text.\nSubject: Accurate Gila monster lizard anatomy with heavy bead-like scales, black body markings and vivid orange warning pattern, thick tail, low desert reptile posture, tactile pebbled skin.\nComposition/framing: centered complete cutout with generous padding; do not crop any feet, tail, snout, or body.\nLighting/mood: clean studio light that preserves natural black, orange, and sandy scale detail; bold warning-system presence.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-gila-monster/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, 3840x2160 16:9\nPrimary request: Generate a comprehensive light-mode design-system board for \"Gila Monster\", derived from the provided Gila monster cutout: black and orange bead scales, sandy Sonoran desert neutrals, desert shadow, bold warning-system UI.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible Gila monster motif image. The board must visibly respect the motif colors: obsidian black scales, hazard orange scales, sunbaked sand, clay, bone highlights, desert shadow.\nCanvas: exact 3840 x 2160 wide 16:9 board.\nResolution and legibility: high-resolution source board with large readable labels; use fewer larger token rows, no tiny dense copy.\nRequired visible sections: title \"Gila Monster\", motif story, palette, typography, Japanese typography, buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, navigation/sidebar, dashboard charts, data table, command/search, form panel, status states, empty/error/loading states, texture swatches, radius, spacing, shadow, semantic tokens, generated asset examples.\nUI style: premium shadcn/tweakcn-compatible product design system, precise grid, practical dashboard/product UI, 8px card radius, bead-scale texture accents, warning-alert affordances, strong alert states that remain readable.\nLayout: organized board with multiple labeled sections, top navigation strip, left token column, central component gallery, right dashboard/table/form stack, bottom texture and token strips.\nTypography: include English and Japanese examples; multilingual product UI font guidance; labels should be short and readable.\nColor discipline: light sand background, black text, orange primary/warning, dark desert shadow borders, cream cards, clay secondary, chart colors from orange/black/sand/clay only.\nText: short readable UI labels only, no paragraphs, no random brand names.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no logo, no lorem ipsum, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-gila-monster/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, 3840x2160 16:9\nPrimary request: Generate a dark-mode version of the \"Gila Monster\" design-system board. It must feel like the same Gila Monster system translated to dark mode, not a new theme.\nReference use: Use the visible transparent Gila monster motif and the light design-system board as references. Preserve motif-derived palette roles, bead-scale texture, practical product UI layout, warning states, spacing, components, charts, navigation, forms, and typography.\nCanvas: exact 3840 x 2160 wide 16:9 board.\nResolution and legibility: high-resolution source board with large readable labels; no tiny dense text.\nRequired visible sections: title \"Gila Monster\", label \"Dark Mode\", palette, typography, Japanese typography, buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, navigation/sidebar, dashboard charts, data table, command/search, form panel, status states, empty/error/loading states, texture swatches, radius, spacing, shadow, semantic tokens, generated asset examples.\nVisual details: deep obsidian and scale-black background, light sand/bone foreground text, hazard orange primary and warning states, clay and desert shadow secondary surfaces, subtle black/orange bead-scale texture overlays, crisp shadcn-style cards and controls, strong readable alert states.\nLayout: organized 16:9 board with top identity band, left palette/token rail, central component gallery, right dashboard/data/table/form area, bottom texture and token strips.\nTypography: include English and Japanese examples; multilingual product UI font guidance; short labels.\nColor discipline: no neon colors, no pure flat black unless balanced with desert shadow surfaces, no unrelated purple or blue gradients, chart colors only from orange, sand, clay, bone, black, and muted desert neutrals.\nText: short readable UI labels only, no paragraphs, no random brand names.\nConstraints: no watermark, no logo, no lorem ipsum, no unrelated colors, no illegible microtext."
+    }
+  ]
+}

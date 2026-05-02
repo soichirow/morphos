@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-flying-fish",
+    "name": "Morphous Flying Fish",
+    "motifName": "Flying Fish",
+    "motifCategory": "fish",
+    "biome": "open ocean",
+    "motif": "flying fish fins"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Foam",
+      "hex": "#F6FAFC",
+      "oklch": "oklch(0.983 0.005 228.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Open Ocean Navy",
+      "hex": "#0A1324",
+      "oklch": "oklch(0.188 0.037 262.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fin Blue",
+      "hex": "#2D73C7",
+      "oklch": "oklch(0.555 0.148 255.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silver Blue",
+      "hex": "#BCC9E6",
+      "oklch": "oklch(0.835 0.043 266.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Glass",
+      "hex": "#3EC7C6",
+      "oklch": "oklch(0.758 0.114 194.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Mist Cyan",
+      "hex": "#66D7E3",
+      "oklch": "oklch(0.818 0.104 204.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl White",
+      "hex": "#E6F0FA",
+      "oklch": "oklch(0.951 0.017 248.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Drift Blue",
+      "hex": "#D7E4F0",
+      "oklch": "oklch(0.913 0.022 245.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Scale Blue",
+      "hex": "#789CC0",
+      "oklch": "oklch(0.679 0.067 248.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite Ray",
+      "hex": "#223937",
+      "oklch": "oklch(0.325 0.029 188.9)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Fin Lavender",
+      "hex": "#9090D8",
+      "oklch": "oklch(0.682 0.105 283.2)"
+    },
+    {
+      "role": "Danger",
+      "name": "Gill Signal",
+      "hex": "#A44B55",
+      "oklch": "oklch(0.529 0.118 15.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.005 228.8)",
+    "foreground": "oklch(0.188 0.037 262.2)",
+    "card": "oklch(0.951 0.017 248.0)",
+    "card-foreground": "oklch(0.188 0.037 262.2)",
+    "popover": "oklch(0.951 0.017 248.0)",
+    "popover-foreground": "oklch(0.188 0.037 262.2)",
+    "primary": "oklch(0.555 0.148 255.1)",
+    "primary-foreground": "oklch(0.983 0.005 228.8)",
+    "secondary": "oklch(0.835 0.043 266.3)",
+    "secondary-foreground": "oklch(0.188 0.037 262.2)",
+    "muted": "oklch(0.913 0.022 245.9)",
+    "muted-foreground": "oklch(0.325 0.029 188.9)",
+    "accent": "oklch(0.758 0.114 194.3)",
+    "accent-foreground": "oklch(0.188 0.037 262.2)",
+    "destructive": "oklch(0.529 0.118 15.1)",
+    "border": "oklch(0.872 0.027 246.4)",
+    "input": "oklch(0.872 0.027 246.4)",
+    "ring": "oklch(0.818 0.104 204.7)",
+    "chart-1": "oklch(0.555 0.148 255.1)",
+    "chart-2": "oklch(0.835 0.043 266.3)",
+    "chart-3": "oklch(0.758 0.114 194.3)",
+    "chart-4": "oklch(0.818 0.104 204.7)",
+    "chart-5": "oklch(0.325 0.029 188.9)",
+    "sidebar": "oklch(0.973 0.008 236.6)",
+    "sidebar-foreground": "oklch(0.188 0.037 262.2)",
+    "sidebar-primary": "oklch(0.555 0.148 255.1)",
+    "sidebar-primary-foreground": "oklch(0.983 0.005 228.8)",
+    "sidebar-accent": "oklch(0.933 0.022 211.0)",
+    "sidebar-accent-foreground": "oklch(0.188 0.037 262.2)",
+    "sidebar-border": "oklch(0.872 0.027 246.4)",
+    "sidebar-ring": "oklch(0.818 0.104 204.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.188 0.037 262.2)",
+    "foreground": "oklch(0.983 0.005 228.8)",
+    "card": "oklch(0.217 0.044 257.4)",
+    "card-foreground": "oklch(0.983 0.005 228.8)",
+    "popover": "oklch(0.217 0.044 257.4)",
+    "popover-foreground": "oklch(0.983 0.005 228.8)",
+    "primary": "oklch(0.818 0.104 204.7)",
+    "primary-foreground": "oklch(0.188 0.037 262.2)",
+    "secondary": "oklch(0.347 0.073 257.4)",
+    "secondary-foreground": "oklch(0.983 0.005 228.8)",
+    "muted": "oklch(0.428 0.056 258.3)",
+    "muted-foreground": "oklch(0.835 0.043 266.3)",
+    "accent": "oklch(0.758 0.114 194.3)",
+    "accent-foreground": "oklch(0.188 0.037 262.2)",
+    "destructive": "oklch(0.529 0.118 15.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.818 0.104 204.7)",
+    "chart-1": "oklch(0.818 0.104 204.7)",
+    "chart-2": "oklch(0.555 0.148 255.1)",
+    "chart-3": "oklch(0.758 0.114 194.3)",
+    "chart-4": "oklch(0.682 0.105 283.2)",
+    "chart-5": "oklch(0.835 0.043 266.3)",
+    "sidebar": "oklch(0.225 0.038 257.2)",
+    "sidebar-foreground": "oklch(0.983 0.005 228.8)",
+    "sidebar-primary": "oklch(0.818 0.104 204.7)",
+    "sidebar-primary-foreground": "oklch(0.188 0.037 262.2)",
+    "sidebar-accent": "oklch(0.347 0.073 257.4)",
+    "sidebar-accent-foreground": "oklch(0.983 0.005 228.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.818 0.104 204.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear English travel UI with tabular route metrics and Noto Sans JP guidance for Japanese operations labels, forms, tables, dashboards, and route status screens.",
+  "layout": "Aerodynamic 8px product grids, fast horizontal scanning, route navigation rails, compact dashboard cards, fin-ray dividers, translucent overlays, command search, travel tables, chart panels, texture samples, and restrained shadow/radius tokens.",
+  "tags": [
+    "flying-fish",
+    "fish",
+    "open-ocean",
+    "swift-travel",
+    "silver-blue",
+    "translucent-fin",
+    "sea-glass",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-flying-fish/motif.png",
+    "board": "/systems/morphous-flying-fish/design-system-light.png",
+    "darkBoard": "/systems/morphous-flying-fish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-flying-fish/theme.css",
+    "themeJson": "/systems/morphous-flying-fish/theme.json",
+    "promptsJson": "/systems/morphous-flying-fish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent flying fish fins motif",
+      "asset": "/systems/morphous-flying-fish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Flying Fish transparent motif chroma-key source\nPrimary request: Create only a flying fish for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: an accurate oceanic flying fish in graceful gliding profile, full body visible, long pectoral fins spread like wings, streamlined silver-blue body, pearlescent belly, translucent blue-silver wing fins with fine ray structure, small dark eye, forked tail, subtle open-ocean sheen. The identity must read as flying fish, not generic sardine, mackerel, blue tang, or butterflyfish.\nComposition/framing: centered complete cutout with generous padding; include the entire fish, both wing fins, nose, tail, and silhouette without cropping. Face points right. Clean studio light preserving silver, blue, translucent fin detail, and oceanic highlights. No cast shadow.\nTransparent workflow: place the fish on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the fish.\nConstraints: no ocean scene, no waves, no water splash, no bubbles, no props, no second fish, no text, no watermark, no logo, no frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-flying-fish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Flying Fish light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Flying Fish\", derived from the visible flying fish motif: silver-blue streamlined body, translucent wing-like pectoral fins, fine fin rays, pearlescent belly, swift open-ocean travel mood. This board is a source reference for implementing a shadcn/tweakcn-compatible swift travel system.\nCanvas: exact wide 16:9 design-system presentation, intended final asset 3840 x 2160. Make it feel like a polished 4K product design board with large readable labels, precise grid, and no tiny text.\nRequired visible sections: Morphous Flying Fish, Flying Fish Fins, Palette, Typography, Japanese Typography, Components, Navigation, Travel Dashboard / Data, Forms, Table, Command / Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Asset Examples.\nReference use: Extract colors and interaction language from a flying fish: silver-blue body, translucent fin blue, pearl white belly, deep open-ocean navy, mist cyan edge highlights, graphite fin rays, sea-glass aqua, pale foam surfaces. The board must read as flying fish fins and swift open-ocean travel, not a generic blue UI kit.\nTypography: English travel and operations UI examples with Japanese typography guidance; use short readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use tabular numbers for route times and dashboard metrics.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, icon buttons, inputs, select, textarea, checkbox, radio, switch, segmented control, tabs, badges, alerts, cards, metric cards, travel navigation sidebar, top nav, breadcrumb, table rows, data filters, command search palette, date picker, pagination, empty/loading/error/success states, progress, stepper, tooltip, dropdown menu, line chart, bar chart, donut chart, area chart, spacing scale, radius samples, border tokens, shadow tokens, texture samples, small travel icon set, token swatches.\nCharts: include visible line, bar, donut, and area charts using silver blue, translucent fin blue, sea-glass aqua, pearl white, and deep ocean navy.\nStyle: crisp shadcn/tweakcn product UI, restrained 8px card radius, aerodynamic horizontal layouts, fin-ray dividers, translucent glassy overlays, clean route-planning panels, fast scanning dashboards, pale foam background, pearl surface cards, open-ocean navy text, silver-blue primary actions, cyan focus rings, graphite separators, subtle wave-shear and fin-ray texture samples.\nColor palette: silver blue, translucent fin blue, sea-glass aqua, mist cyan, pearl white, open-ocean navy, graphite, pale foam. Avoid unrelated colors.\nConstraints: no generic purple or blue gradient dominance, no neon nightclub look, no dark-only board, no stock ocean photo collage, no extra animals, no random brand names, no watermark, no misspelling of \"Morphous Flying Fish\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-flying-fish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Flying Fish dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Flying Fish\" / \"Flying Fish Fins\". Translate the same visible flying fish motif and light design-system board into dark mode; do not invent a new unrelated theme. It remains a swift open-ocean travel system optimized for dark-mode route, fleet, and operations dashboards.\nCanvas: exact wide 16:9 design-system presentation, intended final asset 3840 x 2160. Make it feel like a polished 4K product design board with large readable labels, precise grid, and no tiny text.\nRequired visible sections: Morphous Flying Fish, Flying Fish Fins, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Travel Dashboard / Data, Forms, Table, Command / Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Asset Examples.\nReference use: Preserve the same motif-derived language: silver-blue body, translucent fin blue, pearl white belly, deep open-ocean navy, mist cyan edge highlights, graphite fin rays, sea-glass aqua, fin-ray dividers, wave-shear texture, and crisp shadcn/tweakcn component language. The board must read as flying fish fins and swift open-ocean travel, not generic dark blue UI.\nTypography: English travel and operations UI examples with Japanese typography guidance; use short readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use tabular numbers for route times and dashboard metrics.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, icon buttons, inputs, select, textarea, checkbox, radio, switch, segmented control, tabs, badges, alerts, cards, metric cards, travel navigation sidebar, top nav, breadcrumb, table rows, data filters, command search palette, date picker, pagination, empty/loading/error/success states, progress, stepper, tooltip, dropdown menu, line chart, bar chart, donut chart, area chart, spacing scale, radius samples, border tokens, shadow tokens, texture samples, small travel icon set, token swatches.\nCharts: include visible line, bar, donut, and area charts using fin blue, sea-glass aqua, mist cyan, pearl white, graphite, and deep ocean navy.\nVisual details: deep ocean navy background, blue-black panels, translucent fin-blue active states, mist-cyan focus rings, pearl text, graphite separators, silver-blue chart strokes, sea-glass success chips, coral-red destructive states kept minimal, subtle fin-ray and wave-shear texture overlays, clean route-planning cards, 8px radius, crisp controls and dashboards.\nColor palette: deep ocean navy, blue-black, silver blue, translucent fin blue, sea-glass aqua, mist cyan, pearl white, graphite. Avoid unrelated colors.\nConstraints: no neon nightclub look, no pure black flat background, no generic purple or blue gradient dominance, no gaming UI, no stock ocean photo collage, no extra animals, no random brand names, no watermark, no misspelling of \"Morphous Flying Fish\", no tiny unreadable paragraphs."
+    }
+  ]
+}

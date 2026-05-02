@@ -1,0 +1,178 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fennec-fox",
+    "name": "Morphous Fennec Fox",
+    "motifName": "Fennec Fox",
+    "motifCategory": "mammal",
+    "biome": "Sahara Desert",
+    "motif": "fennec fox ears"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dune Cream",
+      "hex": "#fbf0dc",
+      "oklch": "oklch(0.958 0.029 82.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Desert Night Ink",
+      "hex": "#211a14",
+      "oklch": "oklch(0.224 0.016 62.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Dusk Amber",
+      "hex": "#c9742f",
+      "oklch": "oklch(0.641 0.134 55.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Date Palm Olive",
+      "hex": "#6f7650",
+      "oklch": "oklch(0.550 0.056 116.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Eye Gold",
+      "hex": "#e3ab42",
+      "oklch": "oklch(0.775 0.135 79.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Oasis Teal",
+      "hex": "#4d8f91",
+      "oklch": "oklch(0.607 0.067 198.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ivory Ear",
+      "hex": "#f6dfbf",
+      "oklch": "oklch(0.914 0.049 76.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wind Sand",
+      "hex": "#c7a982",
+      "oklch": "oklch(0.752 0.063 73.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Fox Nose Umber",
+      "hex": "#5a3929",
+      "oklch": "oklch(0.379 0.054 46.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.958 0.029 82.6)",
+    "foreground": "oklch(0.224 0.016 62.5)",
+    "card": "oklch(0.914 0.049 76.1)",
+    "card-foreground": "oklch(0.224 0.016 62.5)",
+    "popover": "oklch(0.914 0.049 76.1)",
+    "popover-foreground": "oklch(0.224 0.016 62.5)",
+    "primary": "oklch(0.641 0.134 55.8)",
+    "primary-foreground": "oklch(0.958 0.029 82.6)",
+    "secondary": "oklch(0.932 0.041 78.1)",
+    "secondary-foreground": "oklch(0.379 0.054 46.5)",
+    "muted": "oklch(0.927 0.044 78.5)",
+    "muted-foreground": "oklch(0.379 0.054 46.5)",
+    "accent": "oklch(0.775 0.135 79.8)",
+    "accent-foreground": "oklch(0.224 0.016 62.5)",
+    "destructive": "oklch(0.641 0.134 55.8)",
+    "border": "oklch(0.857 0.054 76.2)",
+    "input": "oklch(0.857 0.054 76.2)",
+    "ring": "oklch(0.550 0.056 116.8)",
+    "chart-1": "oklch(0.641 0.134 55.8)",
+    "chart-2": "oklch(0.550 0.056 116.8)",
+    "chart-3": "oklch(0.775 0.135 79.8)",
+    "chart-4": "oklch(0.607 0.067 198.1)",
+    "chart-5": "oklch(0.379 0.054 46.5)",
+    "sidebar": "oklch(0.930 0.042 77.6)",
+    "sidebar-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-primary": "oklch(0.641 0.134 55.8)",
+    "sidebar-primary-foreground": "oklch(0.958 0.029 82.6)",
+    "sidebar-accent": "oklch(0.881 0.059 71.1)",
+    "sidebar-accent-foreground": "oklch(0.641 0.134 55.8)",
+    "sidebar-border": "oklch(0.857 0.054 76.2)",
+    "sidebar-ring": "oklch(0.550 0.056 116.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.016 62.5)",
+    "foreground": "oklch(0.958 0.029 82.6)",
+    "card": "oklch(0.328 0.042 46.4)",
+    "card-foreground": "oklch(0.958 0.029 82.6)",
+    "popover": "oklch(0.328 0.042 46.4)",
+    "popover-foreground": "oklch(0.958 0.029 82.6)",
+    "primary": "oklch(0.550 0.056 116.8)",
+    "primary-foreground": "oklch(0.224 0.016 62.5)",
+    "secondary": "oklch(0.467 0.054 54.3)",
+    "secondary-foreground": "oklch(0.958 0.029 82.6)",
+    "muted": "oklch(0.467 0.054 54.3)",
+    "muted-foreground": "oklch(0.867 0.044 76.3)",
+    "accent": "oklch(0.775 0.135 79.8)",
+    "accent-foreground": "oklch(0.224 0.016 62.5)",
+    "destructive": "oklch(0.641 0.134 55.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.550 0.056 116.8)",
+    "chart-1": "oklch(0.550 0.056 116.8)",
+    "chart-2": "oklch(0.641 0.134 55.8)",
+    "chart-3": "oklch(0.775 0.135 79.8)",
+    "chart-4": "oklch(0.607 0.067 198.1)",
+    "chart-5": "oklch(0.752 0.063 73.9)",
+    "sidebar": "oklch(0.297 0.034 48.8)",
+    "sidebar-foreground": "oklch(0.958 0.029 82.6)",
+    "sidebar-primary": "oklch(0.550 0.056 116.8)",
+    "sidebar-primary-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-accent": "oklch(0.467 0.054 54.3)",
+    "sidebar-accent-foreground": "oklch(0.958 0.029 82.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.550 0.056 116.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact product UI with Noto Sans JP guidance for Japanese labels, calm hierarchy, and precise dashboard numerals.",
+  "layout": "Ear-arc panels, 8px desert-field grids, amber focus rings, compact forms, soft sand texture, restrained radius, and dashboard-first density.",
+  "tags": [
+    "fennec-fox",
+    "mammal",
+    "sahara-desert",
+    "ears",
+    "sand-cream",
+    "amber-eye",
+    "dusk",
+    "light-desert-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fennec-fox/motif.png",
+    "board": "/systems/morphous-fennec-fox/design-system-light.png",
+    "darkBoard": "/systems/morphous-fennec-fox/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fennec-fox/theme.css",
+    "themeJson": "/systems/morphous-fennec-fox/theme.json",
+    "promptsJson": "/systems/morphous-fennec-fox/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Fennec Fox motif",
+      "asset": "/systems/morphous-fennec-fox/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fennec Fox transparent motif chroma-key source\nPrimary request: Create only an isolated fennec fox motif for a design-system catalog, no environment, no props, no text.\nSubject: A fennec fox with oversized triangular ears, delicate desert-adapted face, sand-cream fur, warm amber eyes, pale ivory ear interiors, tiny dark nose, subtle dusk amber rim tones, accurate anatomy, crisp silhouette edges, and natural short-fur texture.\nComposition/framing: centered complete cutout with generous padding; show head, ears, upper body, tail curve hint if natural, and full ear shapes without cropping.\nLighting/mood: clean studio light that preserves sand cream fur, amber eye accents, ivory ear interior, and soft desert dusk warmth.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 removable chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no landscape, no cactus, no extra animals, no human, no collar, no props, no cast shadow, no contact shadow, no reflection, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-fennec-fox/design-system-light.png",
+      "prompt": "Create one high-resolution wide 16:9 comprehensive light-mode design-system board for \"Morphous Fennec Fox\" / \"Fennec Fox\", source reference for a shadcn/tweakcn theme.\n\nMotif source: fennec fox ears, sand-cream fur, amber eyes, Sahara desert dusk light, light desert system.\n\nCanvas and layout: 3840x2160 target, crisp UI-design presentation, one complete board with clear sections and readable labels. Use a refined product-design-system board, not a marketing landing page. Keep all text large enough to read in gallery preview.\n\nPalette: dune cream, warm sand, ivory ear interior, dusk amber, amber eye gold, date-palm olive, cool oasis teal, fox-nose umber, desert-night ink. Keep a balanced desert palette, not a one-note beige sheet.\n\nInclude: palette swatches with names and hex-like labels, typography with English and Japanese guidance (Geist / Noto Sans JP style notes), component states, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, sidebar navigation, top navigation, dashboard metrics, data charts, calendar/list widgets, forms, empty/error/loading states, texture samples, icon buttons, spacing scale, radius tokens, border tokens, shadow tokens, and sample usage screens.\n\nVisual language: ear-arc panels, compact desert field controls, amber focus rings, sand-grain texture, fine fur edge dividers, subtle triangular ear geometry, ivory surfaces, warm amber actions, olive/teal secondary signals, restrained professional SaaS dashboard density.\n\nConstraints: no purple/blue gradients, no unrelated saturated colors, no stock-photo scene, no random brands, no unreadably tiny token tables, no misspellings, no extra animals, no cartoon mascot."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-fennec-fox/design-system-dark.png",
+      "prompt": "Create one high-resolution wide 16:9 comprehensive dark-mode design-system board for \"Morphous Fennec Fox\" / \"Fennec Fox\", translated from the same motif and light desert system.\n\nMotif source: fennec fox ears, sand-cream fur, amber eyes, Sahara desert dusk light, light desert system adapted into dark desert-night mode.\n\nCanvas and layout: 3840x2160 target, crisp UI-design presentation, one complete board with clear sections and readable labels. Use a refined product-design-system board, not a marketing landing page. Keep all text large enough to read in gallery preview.\n\nDark palette: desert-night ink, warm umber panels, moonlit sand foreground, ivory ear interior, dusk amber primary, amber eye gold, date-palm olive, cool oasis teal, muted dune borders. Keep it warm, legible, and connected to the light system.\n\nInclude: palette swatches with names and hex-like labels, typography with English and Japanese guidance (Geist / Noto Sans JP style notes), component states, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, sidebar navigation, top navigation, dashboard metrics, data charts, calendar/list widgets, forms, empty/error/loading states, texture samples, icon buttons, spacing scale, radius tokens, border tokens, shadow tokens, and sample usage screens.\n\nVisual language: ear-arc panels, compact desert field controls, amber focus rings, sand-grain texture, fine fur edge dividers, subtle triangular ear geometry, warm umber surfaces, amber actions, olive/teal secondary signals, restrained professional SaaS dashboard density.\n\nConstraints: no neon palette, no purple gradients, no unrelated saturated colors, no stock-photo scene, no random brands, no unreadably tiny token tables, no misspellings, no extra animals, no cartoon mascot."
+    }
+  ]
+}

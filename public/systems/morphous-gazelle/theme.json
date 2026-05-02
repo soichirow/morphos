@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-gazelle",
+    "name": "Morphous Gazelle",
+    "motifName": "Gazelle Profile",
+    "motifCategory": "mammal",
+    "biome": "savanna",
+    "motif": "gazelle profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm White",
+      "hex": "#fbf7ef",
+      "oklch": "oklch(0.977 0.011 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Stripe",
+      "hex": "#1a1713",
+      "oklch": "oklch(0.207 0.009 75.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fawn Tan",
+      "hex": "#d9a777",
+      "oklch": "oklch(0.764 0.087 64.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sand Surface",
+      "hex": "#f3e8d7",
+      "oklch": "oklch(0.935 0.026 78.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Acacia Green",
+      "hex": "#2e7d55",
+      "oklch": "oklch(0.530 0.100 158.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Savanna Gold",
+      "hex": "#e6b35c",
+      "oklch": "oklch(0.796 0.120 78.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "White Marking",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Horn Graphite",
+      "hex": "#4b4b4b",
+      "oklch": "oklch(0.413 0.000 89.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Earth",
+      "hex": "#c0b69a",
+      "oklch": "oklch(0.777 0.040 90.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.011 84.6)",
+    "foreground": "oklch(0.207 0.009 75.1)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.207 0.009 75.1)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.207 0.009 75.1)",
+    "primary": "oklch(0.764 0.087 64.8)",
+    "primary-foreground": "oklch(0.977 0.011 84.6)",
+    "secondary": "oklch(0.991 0.005 95.1)",
+    "secondary-foreground": "oklch(0.413 0.000 89.9)",
+    "muted": "oklch(0.994 0.003 84.6)",
+    "muted-foreground": "oklch(0.413 0.000 89.9)",
+    "accent": "oklch(0.530 0.100 158.0)",
+    "accent-foreground": "oklch(0.207 0.009 75.1)",
+    "destructive": "oklch(0.764 0.087 64.8)",
+    "border": "oklch(0.978 0.009 78.3)",
+    "input": "oklch(0.978 0.009 78.3)",
+    "ring": "oklch(0.935 0.026 78.9)",
+    "chart-1": "oklch(0.764 0.087 64.8)",
+    "chart-2": "oklch(0.935 0.026 78.9)",
+    "chart-3": "oklch(0.530 0.100 158.0)",
+    "chart-4": "oklch(0.796 0.120 78.9)",
+    "chart-5": "oklch(0.413 0.000 89.9)",
+    "sidebar": "oklch(0.992 0.003 67.8)",
+    "sidebar-foreground": "oklch(0.207 0.009 75.1)",
+    "sidebar-primary": "oklch(0.764 0.087 64.8)",
+    "sidebar-primary-foreground": "oklch(0.977 0.011 84.6)",
+    "sidebar-accent": "oklch(0.970 0.009 62.6)",
+    "sidebar-accent-foreground": "oklch(0.764 0.087 64.8)",
+    "sidebar-border": "oklch(0.978 0.009 78.3)",
+    "sidebar-ring": "oklch(0.935 0.026 78.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.207 0.009 75.1)",
+    "foreground": "oklch(0.977 0.011 84.6)",
+    "card": "oklch(0.345 0.002 67.8)",
+    "card-foreground": "oklch(0.977 0.011 84.6)",
+    "popover": "oklch(0.345 0.002 67.8)",
+    "popover-foreground": "oklch(0.977 0.011 84.6)",
+    "primary": "oklch(0.935 0.026 78.9)",
+    "primary-foreground": "oklch(0.207 0.009 75.1)",
+    "secondary": "oklch(0.539 0.007 84.6)",
+    "secondary-foreground": "oklch(0.977 0.011 84.6)",
+    "muted": "oklch(0.539 0.007 84.6)",
+    "muted-foreground": "oklch(0.957 0.018 81.3)",
+    "accent": "oklch(0.530 0.100 158.0)",
+    "accent-foreground": "oklch(0.207 0.009 75.1)",
+    "destructive": "oklch(0.764 0.087 64.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.935 0.026 78.9)",
+    "chart-1": "oklch(0.935 0.026 78.9)",
+    "chart-2": "oklch(0.764 0.087 64.8)",
+    "chart-3": "oklch(0.530 0.100 158.0)",
+    "chart-4": "oklch(0.796 0.120 78.9)",
+    "chart-5": "oklch(0.935 0.026 78.9)",
+    "sidebar": "oklch(0.307 0.005 67.7)",
+    "sidebar-foreground": "oklch(0.977 0.011 84.6)",
+    "sidebar-primary": "oklch(0.935 0.026 78.9)",
+    "sidebar-primary-foreground": "oklch(0.207 0.009 75.1)",
+    "sidebar-accent": "oklch(0.539 0.007 84.6)",
+    "sidebar-accent-foreground": "oklch(0.977 0.011 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.935 0.026 78.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English metrics UI with Noto Sans JP guidance for Japanese dashboards, status labels, and numeric product surfaces.",
+  "layout": "Graceful 8px metrics grids, long-leg spacing rhythm, black-stripe separators, horn-ring texture, measured shadows, and balanced dashboard density.",
+  "tags": [
+    "gazelle",
+    "mammal",
+    "savanna",
+    "fawn-tan",
+    "acacia",
+    "metrics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-gazelle/motif.png",
+    "board": "/systems/morphous-gazelle/design-system-light.png",
+    "darkBoard": "/systems/morphous-gazelle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-gazelle/theme.css",
+    "themeJson": "/systems/morphous-gazelle/theme.json",
+    "promptsJson": "/systems/morphous-gazelle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent gazelle profile motif",
+      "asset": "/systems/morphous-gazelle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Gazelle transparent motif chroma-key source\nPrimary request: Create only a graceful gazelle profile mammal motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A slender gazelle in elegant side profile, fawn tan coat, white belly and facial markings, crisp black eye stripe, black tail tip, fine ringed horns, long legs, alert ears, subtle acacia-savanna warm reflected tones. Anatomical accuracy, crisp subject edges, graceful metric-system identity, no antelope herd, no deer, no impala confusion.\nComposition/framing: centered complete cutout with generous padding; include full gazelle body, head, horns, legs, hooves, and tail without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no landscape, no grass, no acacia tree props, no second animal, no text, no watermark, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-gazelle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Gazelle light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Gazelle\", derived from the visible gazelle profile cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible graceful metrics system.\nCanvas: wide 16:9 high-resolution 4K-class board, target 3840 x 2160. Clean professional UI design-system presentation.\nRequired visible sections: Morphous Gazelle, Gazelle Profile, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract the palette and interaction language from fawn tan coat, white belly and facial markings, black eye stripe and tail tip, horn graphite, acacia-savanna dry greens, warm sand surfaces, and crisp high-contrast profile markings. The board must read as gazelle and graceful metrics, not deer, horse, generic tan UI, or safari poster.\nTypography: English product UI examples with Japanese guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Metrics, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, data table rows, search command palette, left navigation, dashboard metric cards, line/bar/donut charts, KPI deltas, queue table, empty/loading/error states, spacing scale, radius scale, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, warm white background, fawn primary actions, white-marking surfaces, black-stripe text and borders, acacia green focus/success accents, horn graphite neutral depth, subtle short-fur and horn-ring texture. Use large readable labels, avoid dense tiny token tables.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no beige-only palette, no cartoon animal, no landscape photo, no watermark, no random brand names, no misspelling of \"Morphous Gazelle\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-gazelle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Gazelle dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Gazelle\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible gazelle profile cutout.\nCanvas: wide 16:9 high-resolution 4K-class board, target 3840 x 2160. Clean professional UI design-system presentation.\nRequired visible sections: Morphous Gazelle, Gazelle Profile, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the gazelle system language: fawn tan primary actions, white marking foreground text, black stripe dark surfaces and borders, horn graphite neutral panels, acacia green success/focus, savanna gold warnings, dry earth dividers, subtle short-fur and horn-ring texture, precise 8px shadcn/tweakcn grid. Must read as gazelle and graceful metrics, not deer, horse, generic tan UI, or safari poster.\nTypography: English product UI examples with Japanese guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Metrics, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, data table rows, search command palette, left navigation, dashboard metric cards, line/bar/donut charts, KPI deltas, queue table, empty/loading/error states, spacing scale, radius scale, border, shadow, texture samples, simple icons.\nVisual details: deep black-stripe and horn-graphite backgrounds, warm white foreground, fawn tan active controls, acacia green status and focus rings, savanna gold warning accents, dry-earth separators, restrained contrast, crisp cards and controls, subtle motif texture overlays. Use large readable labels, avoid dense tiny token tables.\nConstraints: no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no unrelated saturated colors, no cartoon animal, no landscape photo, no watermark, no random brand names, no misspelling of \"Morphous Gazelle\", no illegible tiny paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-glass-frog",
+    "name": "Morphous Glass Frog",
+    "motifName": "Glass Frog",
+    "motifCategory": "amphibian",
+    "biome": "Cloud Forest Stream",
+    "motif": "glass frog body"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Mist",
+      "hex": "#E7ECE9",
+      "oklch": "oklch(0.938 0.007 160.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Moss Ink",
+      "hex": "#223022",
+      "oklch": "oklch(0.292 0.031 144.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lime Glass",
+      "hex": "#c6f26a",
+      "oklch": "oklch(0.903 0.170 124.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#9fd66a",
+      "oklch": "oklch(0.814 0.150 131.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Chartreuse Signal",
+      "hex": "#d9f08a",
+      "oklch": "oklch(0.916 0.130 119.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Glass Belly",
+      "hex": "#f7fbef",
+      "oklch": "oklch(0.982 0.016 121.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stream Slate",
+      "hex": "#5b6866",
+      "oklch": "oklch(0.506 0.016 185.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Golden Eye",
+      "hex": "#c8d36a",
+      "oklch": "oklch(0.837 0.130 114.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Moss",
+      "hex": "#0d1a12",
+      "oklch": "oklch(0.203 0.024 156.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.938 0.007 160.1)",
+    "foreground": "oklch(0.292 0.031 144.7)",
+    "card": "oklch(0.982 0.016 121.8)",
+    "card-foreground": "oklch(0.292 0.031 144.7)",
+    "popover": "oklch(0.982 0.016 121.8)",
+    "popover-foreground": "oklch(0.292 0.031 144.7)",
+    "primary": "oklch(0.903 0.170 124.7)",
+    "primary-foreground": "oklch(0.938 0.007 160.1)",
+    "secondary": "oklch(0.964 0.013 130.8)",
+    "secondary-foreground": "oklch(0.203 0.024 156.4)",
+    "muted": "oklch(0.970 0.014 124.6)",
+    "muted-foreground": "oklch(0.203 0.024 156.4)",
+    "accent": "oklch(0.916 0.130 119.4)",
+    "accent-foreground": "oklch(0.292 0.031 144.7)",
+    "destructive": "oklch(0.903 0.170 124.7)",
+    "border": "oklch(0.819 0.013 141.8)",
+    "input": "oklch(0.819 0.013 141.8)",
+    "ring": "oklch(0.814 0.150 131.3)",
+    "chart-1": "oklch(0.903 0.170 124.7)",
+    "chart-2": "oklch(0.814 0.150 131.3)",
+    "chart-3": "oklch(0.916 0.130 119.4)",
+    "chart-4": "oklch(0.837 0.130 114.2)",
+    "chart-5": "oklch(0.203 0.024 156.4)",
+    "sidebar": "oklch(0.968 0.013 126.4)",
+    "sidebar-foreground": "oklch(0.292 0.031 144.7)",
+    "sidebar-primary": "oklch(0.903 0.170 124.7)",
+    "sidebar-primary-foreground": "oklch(0.938 0.007 160.1)",
+    "sidebar-accent": "oklch(0.971 0.037 122.1)",
+    "sidebar-accent-foreground": "oklch(0.903 0.170 124.7)",
+    "sidebar-border": "oklch(0.819 0.013 141.8)",
+    "sidebar-ring": "oklch(0.814 0.150 131.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.292 0.031 144.7)",
+    "foreground": "oklch(0.938 0.007 160.1)",
+    "card": "oklch(0.232 0.026 151.1)",
+    "card-foreground": "oklch(0.938 0.007 160.1)",
+    "popover": "oklch(0.232 0.026 151.1)",
+    "popover-foreground": "oklch(0.938 0.007 160.1)",
+    "primary": "oklch(0.814 0.150 131.3)",
+    "primary-foreground": "oklch(0.292 0.031 144.7)",
+    "secondary": "oklch(0.275 0.022 161.0)",
+    "secondary-foreground": "oklch(0.938 0.007 160.1)",
+    "muted": "oklch(0.275 0.022 161.0)",
+    "muted-foreground": "oklch(0.752 0.011 174.2)",
+    "accent": "oklch(0.916 0.130 119.4)",
+    "accent-foreground": "oklch(0.292 0.031 144.7)",
+    "destructive": "oklch(0.903 0.170 124.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.814 0.150 131.3)",
+    "chart-1": "oklch(0.814 0.150 131.3)",
+    "chart-2": "oklch(0.903 0.170 124.7)",
+    "chart-3": "oklch(0.916 0.130 119.4)",
+    "chart-4": "oklch(0.837 0.130 114.2)",
+    "chart-5": "oklch(0.506 0.016 185.5)",
+    "sidebar": "oklch(0.252 0.028 150.6)",
+    "sidebar-foreground": "oklch(0.938 0.007 160.1)",
+    "sidebar-primary": "oklch(0.814 0.150 131.3)",
+    "sidebar-primary-foreground": "oklch(0.292 0.031 144.7)",
+    "sidebar-accent": "oklch(0.275 0.022 161.0)",
+    "sidebar-accent-foreground": "oklch(0.938 0.007 160.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.814 0.150 131.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Dense transparent analytics grids, 8px component radius, glass-panel cards, leaf-vein dividers, stream-neutral spacing, and crisp cloud-forest dashboard hierarchy.",
+  "tags": [
+    "glass-frog",
+    "amphibian",
+    "cloud-forest-stream",
+    "translucent",
+    "analytics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-glass-frog/motif.png",
+    "board": "/systems/morphous-glass-frog/design-system-light.png",
+    "darkBoard": "/systems/morphous-glass-frog/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-glass-frog/theme.css",
+    "themeJson": "/systems/morphous-glass-frog/theme.json",
+    "promptsJson": "/systems/morphous-glass-frog/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent glass frog motif source",
+      "asset": "/systems/morphous-glass-frog/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create a single glass frog body as an isolated natural-history cutout, no environment, no props, no text.\nSubject: one complete glass frog, dorsal/three-quarter view, translucent lime leaf-green skin, visible pale internal silhouette through the belly and limbs, delicate gold-green eyes, thin dark toe pads, subtle cloud-forest stream moisture highlights, accurate amphibian anatomy.\nComposition/framing: centered full body with generous padding; all toes visible; no cropping.\nLighting/mood: clean studio light that preserves translucent skin, glassy membrane edges, and fine natural detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no leaf, no branch, no stream background, no second frog, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-glass-frog/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Create a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Glass Frog\".\nReference use: Use the visible glass frog cutout as the motif reference. Extract palette, translucency, contrast, spacing mood, texture rhythm, and interaction language from the glass frog body in a cloud forest stream.\nCanvas: exact wide 16:9 composition, high-resolution design board intended for 3840x2160 delivery.\nCore theme: transparent analytics system derived from a glass frog body. Use translucent lime leaf green, soft chartreuse, glassy pale belly, gold eye detail, wet membrane highlights, stream mist neutrals, moss ink, and slate-river lines. The system must have enough contrast for readable product UI.\nRequired visible sections with readable labels: Morphous Glass Frog, Glass Frog, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: left sidebar navigation, top command/search, dashboard metric cards, line chart, bar chart, donut/status chart, data table rows, filters, form fields, select, textarea, checkbox, radio, switch, tabs, badges, alerts, buttons, cards, loading, empty, error, token swatches, spacing/radius/shadow samples.\nTypography: include English and Japanese examples with labels Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nStyle: premium shadcn/tweakcn-style product design board, precise grid, 8px radius, translucent frosted surfaces, glass-panel overlays, leaf-vein dividers, stream-neutral background, crisp readable text, realistic UI mockup.\nText constraints: use short readable UI labels only; no paragraphs; no random brand names; no watermark. Spell exactly \"Morphous Glass Frog\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-glass-frog/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Create a comprehensive dark-mode design-system board for the same Morphous theme named \"Morphous Glass Frog\". It must feel like the same transparent analytics system translated to dark mode, not a new theme.\nReference use: Use the visible glass frog cutout and visible light-mode Morphous Glass Frog board as references. Preserve the translucent lime, leaf green, chartreuse, glass belly, stream slate, Japanese typography, and shadcn/tweakcn component coverage.\nCanvas: exact wide 16:9 composition, high-resolution design board intended for 3840x2160 delivery.\nCore theme: dark cloud forest stream analytics UI derived from a glass frog body. Use moss ink and deep forest glass backgrounds, readable river-mist text, translucent lime leaf-green primary, chartreuse signal, pale glass-belly surfaces, muted stream slate, and wet membrane highlights. Keep contrast strong and labels readable.\nRequired visible sections with readable labels: Morphous Glass Frog, Glass Frog, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: left sidebar navigation, top command/search, dashboard metric cards, line chart, bar chart, donut/status chart, data table rows, filters, form fields, select, textarea, checkbox, radio, switch, tabs, badges, alerts, buttons, cards, loading, empty, error, token swatches, spacing/radius/shadow samples.\nTypography: include English and Japanese examples with labels Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nStyle: premium shadcn/tweakcn-style product design board, precise grid, 8px radius, translucent frosted dark surfaces, glass-panel overlays, leaf-vein dividers, subtle stream reflections, crisp readable text, realistic UI mockup.\nText constraints: use short readable UI labels only; no paragraphs; no random brand names; no watermark. Spell exactly \"Morphous Glass Frog\"."
+    }
+  ]
+}

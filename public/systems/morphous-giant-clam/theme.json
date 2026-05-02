@@ -1,0 +1,207 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-giant-clam",
+    "name": "Morphous Giant Clam",
+    "motifName": "Giant Clam",
+    "motifCategory": "marine",
+    "biome": "tropical reef",
+    "motif": "giant clam mantle"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Cream",
+      "hex": "#FFF8F0",
+      "oklch": "oklch(0.982 0.013 71.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Sea Ink",
+      "hex": "#0A2333",
+      "oklch": "oklch(0.245 0.043 240.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clam Teal",
+      "hex": "#0083A6",
+      "oklch": "oklch(0.567 0.108 225.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Aqua Glow",
+      "hex": "#00D4E3",
+      "oklch": "oklch(0.793 0.135 203.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Turquoise Mantle",
+      "hex": "#26DCC2",
+      "oklch": "oklch(0.804 0.140 179.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Reef Teal",
+      "hex": "#007A7A",
+      "oklch": "oklch(0.525 0.090 194.8)"
+    },
+    {
+      "role": "Violet",
+      "name": "Mantle Violet",
+      "hex": "#8B4CFF",
+      "oklch": "oklch(0.592 0.248 293.4)"
+    },
+    {
+      "role": "Indigo",
+      "name": "Speckle Indigo",
+      "hex": "#4C63D2",
+      "oklch": "oklch(0.543 0.172 270.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Foam",
+      "hex": "#F5F2F8",
+      "oklch": "oklch(0.965 0.009 308.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Lavender Gray",
+      "hex": "#E9E4F1",
+      "oklch": "oklch(0.927 0.018 303.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Lavender",
+      "hex": "#C7B6FF",
+      "oklch": "oklch(0.816 0.103 294.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Shell Gold",
+      "hex": "#F4B84E",
+      "oklch": "oklch(0.819 0.139 78.7)"
+    },
+    {
+      "role": "Danger",
+      "name": "Coral Signal",
+      "hex": "#E65B6A",
+      "oklch": "oklch(0.654 0.172 16.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Ocean",
+      "hex": "#071A26",
+      "oklch": "oklch(0.208 0.035 238.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.013 71.3)",
+    "foreground": "oklch(0.245 0.043 240.0)",
+    "card": "oklch(0.965 0.009 308.4)",
+    "card-foreground": "oklch(0.245 0.043 240.0)",
+    "popover": "oklch(0.965 0.009 308.4)",
+    "popover-foreground": "oklch(0.245 0.043 240.0)",
+    "primary": "oklch(0.567 0.108 225.0)",
+    "primary-foreground": "oklch(0.982 0.013 71.3)",
+    "secondary": "oklch(0.973 0.004 17.2)",
+    "secondary-foreground": "oklch(0.208 0.035 238.8)",
+    "muted": "oklch(0.971 0.005 345.3)",
+    "muted-foreground": "oklch(0.208 0.035 238.8)",
+    "accent": "oklch(0.804 0.140 179.8)",
+    "accent-foreground": "oklch(0.245 0.043 240.0)",
+    "destructive": "oklch(0.567 0.108 225.0)",
+    "border": "oklch(0.951 0.011 308.3)",
+    "input": "oklch(0.951 0.011 308.3)",
+    "ring": "oklch(0.793 0.135 203.9)",
+    "chart-1": "oklch(0.567 0.108 225.0)",
+    "chart-2": "oklch(0.793 0.135 203.9)",
+    "chart-3": "oklch(0.804 0.140 179.8)",
+    "chart-4": "oklch(0.525 0.090 194.8)",
+    "chart-5": "oklch(0.208 0.035 238.8)",
+    "sidebar": "oklch(0.971 0.004 360.0)",
+    "sidebar-foreground": "oklch(0.245 0.043 240.0)",
+    "sidebar-primary": "oklch(0.567 0.108 225.0)",
+    "sidebar-primary-foreground": "oklch(0.982 0.013 71.3)",
+    "sidebar-accent": "oklch(0.915 0.019 237.8)",
+    "sidebar-accent-foreground": "oklch(0.567 0.108 225.0)",
+    "sidebar-border": "oklch(0.951 0.011 308.3)",
+    "sidebar-ring": "oklch(0.793 0.135 203.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.245 0.043 240.0)",
+    "foreground": "oklch(0.982 0.013 71.3)",
+    "card": "oklch(0.221 0.037 238.6)",
+    "card-foreground": "oklch(0.982 0.013 71.3)",
+    "popover": "oklch(0.221 0.037 238.6)",
+    "popover-foreground": "oklch(0.982 0.013 71.3)",
+    "primary": "oklch(0.793 0.135 203.9)",
+    "primary-foreground": "oklch(0.245 0.043 240.0)",
+    "secondary": "oklch(0.388 0.028 248.5)",
+    "secondary-foreground": "oklch(0.982 0.013 71.3)",
+    "muted": "oklch(0.388 0.028 248.5)",
+    "muted-foreground": "oklch(0.957 0.007 5.6)",
+    "accent": "oklch(0.804 0.140 179.8)",
+    "accent-foreground": "oklch(0.245 0.043 240.0)",
+    "destructive": "oklch(0.567 0.108 225.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.793 0.135 203.9)",
+    "chart-1": "oklch(0.793 0.135 203.9)",
+    "chart-2": "oklch(0.567 0.108 225.0)",
+    "chart-3": "oklch(0.804 0.140 179.8)",
+    "chart-4": "oklch(0.525 0.090 194.8)",
+    "chart-5": "oklch(0.927 0.018 303.4)",
+    "sidebar": "oklch(0.229 0.039 239.5)",
+    "sidebar-foreground": "oklch(0.982 0.013 71.3)",
+    "sidebar-primary": "oklch(0.793 0.135 203.9)",
+    "sidebar-primary-foreground": "oklch(0.245 0.043 240.0)",
+    "sidebar-accent": "oklch(0.388 0.028 248.5)",
+    "sidebar-accent-foreground": "oklch(0.982 0.013 71.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.793 0.135 203.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English marketplace UI with stable tabular numbers, compact product and vendor labels, and Noto Sans JP guidance for Japanese marketplace, inventory, order, and checkout screens.",
+  "layout": "Dense but airy 8px marketplace grids, deep ocean side navigation, shell-cream product cards, vendor dashboards, product tables, cart and offer panels, mantle-speckle texture samples, shell-ridge dividers, and restrained 8px cards.",
+  "tags": [
+    "giant-clam",
+    "marine",
+    "tropical-reef",
+    "marketplace",
+    "turquoise-mantle",
+    "violet-speckles",
+    "shell-cream",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-giant-clam/motif.png",
+    "board": "/systems/morphous-giant-clam/design-system-light.png",
+    "darkBoard": "/systems/morphous-giant-clam/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-giant-clam/theme.css",
+    "themeJson": "/systems/morphous-giant-clam/theme.json",
+    "promptsJson": "/systems/morphous-giant-clam/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent giant clam mantle motif",
+      "asset": "/systems/morphous-giant-clam/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Giant Clam transparent motif chroma-key source\nPrimary request: Create only an open giant clam motif for a design-system catalog, isolated as a single complete marine subject on a removable chroma-key background.\nSubject: A tropical reef giant clam with an open ridged cream shell and a vivid exposed mantle. The mantle has luminous turquoise, aqua, teal, and cyan folds with violet and indigo speckling, soft scalloped edges, subtle iridescence, and realistic organic texture. The shell is sculptural cream with pale violet shadows and ribbed fluted ridges. The identity must read clearly as a giant clam mantle, not an oyster, scallop, coral, jellyfish, or generic seashell.\nComposition/framing: centered complete cutout with generous padding; include the full shell silhouette and mantle without cropping. Clean studio lighting that preserves natural mantle color, shell ribbing, and edge detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or pattern. Do not use #00ff00 or lime green anywhere in the subject.\nConstraints: no reef environment, no sand, no water surface, no fish, no coral, no props, no text, no watermark, no second animal, no floating particles."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-giant-clam/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Giant Clam light-mode design-system board\nInput images: Use the visible giant clam transparent motif reference in this conversation as the source of truth for color, texture, geometry, and embedded motif preview.\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Giant Clam\", derived from the giant clam mantle motif. This board is a reusable source reference for implementing a shadcn/tweakcn-compatible vivid marketplace UI system.\nCanvas: exact 16:9 wide board, target 3840 x 2160, high-resolution 4K-class source image. Use a precise grid, large readable labels, and roomy sections; do not overpack tiny token tables.\nRequired visible sections: Morphous Giant Clam, Giant Clam Mantle, Palette, Typography, Japanese Typography, Components, Navigation, Marketplace Dashboard / Data, Forms, Product Table, Command / Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract colors and interaction language from luminous turquoise mantle folds, aqua and teal channels, violet and indigo mantle speckles, cream ribbed shell, pale lavender shell shadows, tropical reef clarity, scalloped shell waves, and organic mantle-dot rhythm. The board must read as giant clam mantle, not generic seashell, oyster, coral reef, or jellyfish.\nTypography: Include English product-marketplace UI examples and Japanese typography guidance; readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, 見出し, 本文, ラベル, 数値. Use bilingual marketplace labels for vendors, inventory, orders, offers, checkout, and analytics with stable tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product tiles, vendor cards, cart summary, offer panel, inventory count cards, order list, product table rows, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border samples, shadow samples, mantle texture samples, shell-ridge separators, simple icons, theme token swatches.\nStyle: vivid marketplace system, polished shadcn/tweakcn component language, 8px card radius, cream shell surfaces, turquoise primary actions, deep teal navigation, violet accents, aqua focus rings, shell-cream cards, pale lavender borders, subtle mantle speckle texture and shell-ridge rhythm, dense but scannable commerce dashboards.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple-blue gradient dominance, no unrelated saturated colors, no blacklight neon look, no beige-only palette, no stock reef photo collage, no random brand names, no watermark, no misspelling of \"Morphous Giant Clam\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-giant-clam/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Giant Clam dark-mode design-system board\nInput images: Use the visible giant clam motif and the visible light-mode Morphous Giant Clam board in this conversation as references. Preserve the same system identity, component language, palette roles, marketplace coverage, typography guidance, texture vocabulary, and embedded motif preview.\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Giant Clam\" / \"Giant Clam Mantle\". Translate the light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: exact 16:9 wide board, target 3840 x 2160, high-resolution 4K-class source image. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Giant Clam, Giant Clam Mantle, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Marketplace Dashboard / Data, Forms, Product Table, Command / Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve turquoise and aqua primary actions, deep teal navigation, violet and indigo accents, cream shell foreground text, pale lavender borders, mantle speckle texture, shell-ridge separators, scalloped geometry, product cards, vendor cards, inventory/order tables, checkout summary, command search, charts, and an 8px shadcn/tweakcn grid. The board must read as giant clam mantle, not generic seashell, oyster, coral reef, or jellyfish.\nTypography: Include English marketplace UI examples and Japanese typography guidance; readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, 見出し, 本文, ラベル, 数値. Use bilingual marketplace labels for vendors, inventory, orders, offers, checkout, and analytics with stable tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, product cards, vendor profile, inventory metrics, cart summary, offer panel, order table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, simple icons.\nVisual details: deep ocean-teal background, inky reef panels, glowing turquoise active states, aqua focus rings, violet chart highlights, shell-cream foregrounds, lavender dividers, subtle iridescent mantle speckle overlays, shell-ridge dividers, restrained contrast, crisp controls and commerce dashboards.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon cyberpunk look, no generic black-and-purple gaming UI, no pure-black flat background, no unrelated saturated colors, no generic purple-blue gradient dominance, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Giant Clam\", no tiny unreadable paragraphs."
+    }
+  ]
+}

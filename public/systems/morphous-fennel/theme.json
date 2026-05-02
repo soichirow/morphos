@@ -1,0 +1,210 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fennel",
+    "name": "Morphous Fennel",
+    "motifName": "Fennel",
+    "motifCategory": "plant",
+    "biome": "coastal field",
+    "motif": "fennel frond"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#FAF7EF",
+      "oklch": "oklch(0.976 0.011 89.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Anise Ink",
+      "hex": "#2E3C2C",
+      "oklch": "oklch(0.338 0.033 141.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fennel Leaf",
+      "hex": "#5E7F3E",
+      "oklch": "oklch(0.555 0.100 131.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dry Straw",
+      "hex": "#D7C38E",
+      "oklch": "oklch(0.821 0.073 89.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Umbel Yellow",
+      "hex": "#E3C44E",
+      "oklch": "oklch(0.825 0.139 94.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Yellow",
+      "hex": "#F5D978",
+      "oklch": "oklch(0.889 0.121 93.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Shell",
+      "hex": "#FFFDF7",
+      "oklch": "oklch(0.994 0.008 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Coastal Mist",
+      "hex": "#E6EBDF",
+      "oklch": "oklch(0.933 0.017 125.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Frond",
+      "hex": "#1F251C",
+      "oklch": "oklch(0.255 0.019 135.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Stem Green",
+      "hex": "#C6D3A6",
+      "oklch": "oklch(0.845 0.062 120.8)"
+    },
+    {
+      "role": "Success",
+      "name": "Frond Green",
+      "hex": "#8AA86B",
+      "oklch": "oklch(0.694 0.091 129.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dune Sand",
+      "hex": "#EADCC2",
+      "oklch": "oklch(0.899 0.038 83.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Field Shadow",
+      "hex": "#B89F6B",
+      "oklch": "oklch(0.712 0.075 84.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.011 89.7)",
+    "foreground": "oklch(0.338 0.033 141.5)",
+    "card": "oklch(0.994 0.008 91.5)",
+    "card-foreground": "oklch(0.338 0.033 141.5)",
+    "popover": "oklch(0.994 0.008 91.5)",
+    "popover-foreground": "oklch(0.338 0.033 141.5)",
+    "primary": "oklch(0.555 0.100 131.1)",
+    "primary-foreground": "oklch(0.976 0.011 89.7)",
+    "secondary": "oklch(0.899 0.038 83.0)",
+    "secondary-foreground": "oklch(0.338 0.033 141.5)",
+    "muted": "oklch(0.933 0.017 125.3)",
+    "muted-foreground": "oklch(0.555 0.100 131.1)",
+    "accent": "oklch(0.825 0.139 94.3)",
+    "accent-foreground": "oklch(0.338 0.033 141.5)",
+    "destructive": "oklch(0.712 0.075 84.9)",
+    "border": "oklch(0.821 0.073 89.8)",
+    "input": "oklch(0.821 0.073 89.8)",
+    "ring": "oklch(0.694 0.091 129.8)",
+    "chart-1": "oklch(0.555 0.100 131.1)",
+    "chart-2": "oklch(0.825 0.139 94.3)",
+    "chart-3": "oklch(0.694 0.091 129.8)",
+    "chart-4": "oklch(0.821 0.073 89.8)",
+    "chart-5": "oklch(0.338 0.033 141.5)",
+    "sidebar": "oklch(0.933 0.017 125.3)",
+    "sidebar-foreground": "oklch(0.338 0.033 141.5)",
+    "sidebar-primary": "oklch(0.555 0.100 131.1)",
+    "sidebar-primary-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-accent": "oklch(0.845 0.062 120.8)",
+    "sidebar-accent-foreground": "oklch(0.338 0.033 141.5)",
+    "sidebar-border": "oklch(0.821 0.073 89.8)",
+    "sidebar-ring": "oklch(0.694 0.091 129.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.255 0.019 135.2)",
+    "foreground": "oklch(0.976 0.011 89.7)",
+    "card": "oklch(0.309 0.029 141.1)",
+    "card-foreground": "oklch(0.976 0.011 89.7)",
+    "popover": "oklch(0.309 0.029 141.1)",
+    "popover-foreground": "oklch(0.976 0.011 89.7)",
+    "primary": "oklch(0.751 0.093 128.3)",
+    "primary-foreground": "oklch(0.255 0.019 135.2)",
+    "secondary": "oklch(0.353 0.043 131.4)",
+    "secondary-foreground": "oklch(0.958 0.010 93.6)",
+    "muted": "oklch(0.353 0.043 131.4)",
+    "muted-foreground": "oklch(0.850 0.022 130.0)",
+    "accent": "oklch(0.747 0.147 87.6)",
+    "accent-foreground": "oklch(0.255 0.019 135.2)",
+    "destructive": "oklch(0.712 0.075 84.9)",
+    "border": "oklch(0.359 0.038 130.6)",
+    "input": "oklch(0.309 0.029 141.1)",
+    "ring": "oklch(0.862 0.149 93.8)",
+    "chart-1": "oklch(0.862 0.149 93.8)",
+    "chart-2": "oklch(0.751 0.093 128.3)",
+    "chart-3": "oklch(0.835 0.052 85.7)",
+    "chart-4": "oklch(0.747 0.147 87.6)",
+    "chart-5": "oklch(0.850 0.022 130.0)",
+    "sidebar": "oklch(0.309 0.029 141.1)",
+    "sidebar-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-primary": "oklch(0.751 0.093 128.3)",
+    "sidebar-primary-foreground": "oklch(0.255 0.019 135.2)",
+    "sidebar-accent": "oklch(0.353 0.043 131.4)",
+    "sidebar-accent-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-border": "oklch(0.359 0.038 130.6)",
+    "sidebar-ring": "oklch(0.862 0.149 93.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "A culinary product UI pairing a quiet serif display voice with clean interface sans text, plus Japanese typography guidance for headings, body text, inputs, tables, and status labels.",
+  "layout": "Precise 8px-radius dashboards, herb-inventory tables, restrained coastal shadows, frond-textured surfaces, green navigation states, and yellow umbel accents for filters and data highlights.",
+  "tags": [
+    "fennel",
+    "plant",
+    "coastal-field",
+    "fennel-frond",
+    "anise-green",
+    "yellow-umbel",
+    "sand",
+    "culinary",
+    "light-culinary-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fennel/motif.png",
+    "board": "/systems/morphous-fennel/design-system-light.png",
+    "darkBoard": "/systems/morphous-fennel/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fennel/theme.css",
+    "themeJson": "/systems/morphous-fennel/theme.json",
+    "promptsJson": "/systems/morphous-fennel/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fennel motif",
+      "asset": "/systems/morphous-fennel/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only a complete fennel frond and yellow umbel seed head motif, isolated full botanical subject, no environment, no props, no text.\nSubject: airy fennel frond with fine threadlike anise-green leaves, pale green stems, small yellow umbel flowers/seed clusters, subtle sand-dusted coastal-field character, accurate botanical form, natural culinary herb texture.\nComposition/framing: centered complete cutout with generous padding; do not crop leaves, stems, or umbel.\nLighting/mood: clean studio light that preserves natural anise green, yellow umbel, and sand-tan botanical detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no bowl, no plate, no hand, no bouquet wrapper, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fennel/design-system-light.png",
+      "sourceAsset": "/systems/morphous-fennel/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board named \"Morphous Fennel\", derived from the previously generated fennel motif: fine anise-green fennel fronds, pale stems, yellow umbel flowers, and coastal sand neutrals.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the fennel motif image. The board must visibly respect only motif-derived colors: anise greens, fennel stem green, yellow umbel, dune sand, dry straw, warm off-white, deep olive ink, and soft coastal shadow.\nCanvas: exact wide 16:9 landscape board, target 3840x2160, high-resolution source asset.\nResolution and legibility: use large readable labels, clear token chips, and avoid dense tiny text.\nRequired visible sections with readable headings: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn-style buttons, inputs, select, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, sidebar navigation, top nav, dashboard metrics, chart, empty/loading/error/success states.\nTypography: include English UI examples and Japanese typography examples with short labels such as 見出し, 本文, 入力, 状態; multilingual product UI guidance.\nStyle/medium: premium product design system board, precise grid, quiet culinary dashboard mood, refined coastal-field texture, 8px radii, crisp cards and controls, restrained shadows, no nested cards.\nColor constraints: use only fennel motif colors and near-neutrals from the motif; no unrelated bright colors, no purple/blue gradients, no stock UI kit colors.\nText constraints: short readable UI labels only, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fennel/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-fennel/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-fennel/motif.png",
+        "/systems/morphous-fennel/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the \"Morphous Fennel\" design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the previously generated fennel motif and the light Morphous Fennel board as references. Preserve motif-derived palette roles, 8px radius language, culinary dashboard components, texture, spacing, and typography.\nCanvas: exact wide 16:9 landscape board, target 3840x2160, high-resolution source asset.\nResolution and legibility: use large readable section headings and short readable UI labels; avoid dense tiny token tables.\nRequired visible sections with readable headings: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nVisual details: dark background derived from the motif's deepest olive and anise ink colors, light text from shell-white and sand highlights, yellow umbel accents, fennel green controls, subtle frond texture overlays, crisp shadcn/tweakcn cards, restrained shadows, 8px radii.\nUI coverage: buttons, icon buttons, badges, inputs, select, textarea, checkboxes, radio, switch, tabs, alerts, cards, data table, command palette, search bar, sidebar, top nav, dashboard metrics, charts, empty/loading/error/success states.\nJapanese typography: include short examples such as 見出し, 本文, 入力, 状態 with Noto Sans JP guidance.\nColor constraints: use only motif-derived colors: deep olive, anise green, fennel leaf, stem green, yellow umbel, pollen yellow, dune sand, dry straw, shell white, coastal mist. No neon colors, no unrelated red, no unrelated blue, no purple gradients, no pure black background.\nText constraints: short readable UI labels only, no random brand names, no watermark."
+    }
+  ]
+}

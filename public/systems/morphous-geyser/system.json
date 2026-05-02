@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-geyser",
+  "name": "Morphous Geyser",
+  "status": "ready",
+  "motifName": "Geyser",
+  "motifCategory": "landscape",
+  "biome": "Geothermal Basin",
+  "motif": "geyser plume",
+  "description": "A burst-alert component system derived from a geyser plume: steam-white surfaces, blue geothermal pool focus states, mineral tan structure, and fast eruption-state signals.",
+  "typography": "Geist for operational product UI with Noto Sans JP guidance for headings, body, labels, alerts, and numeric telemetry.",
+  "layout": "Vertical plume rhythm, compact alert bands, mineral-rim borders, steam-soft panels, blue-pool focus rings, and restrained 8px component radius.",
+  "themeReference": [
+    "/systems/morphous-geyser/design-system-light.png",
+    "/systems/morphous-geyser/design-system-dark.png"
+  ],
+  "tags": [
+    "geyser",
+    "landscape",
+    "geothermal",
+    "steam",
+    "alert",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Steam White", "hex": "#fbfaf5" },
+    { "role": "Ink", "name": "Basin Ink", "hex": "#1e2c2f" },
+    { "role": "Primary", "name": "Pool Blue", "hex": "#167fa3" },
+    { "role": "Secondary", "name": "Mineral Tan", "hex": "#d4b889" },
+    { "role": "Accent", "name": "Silica Cyan", "hex": "#78d0df" },
+    { "role": "Signal", "name": "Eruption Amber", "hex": "#c66b2b" },
+    { "role": "Surface", "name": "Silica Shelf", "hex": "#f0eadc" },
+    { "role": "Muted", "name": "Steam Gray", "hex": "#c8c8c0" },
+    { "role": "Depth", "name": "Wet Stone", "hex": "#152224" }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-geyser/motif.png",
+    "board": "/systems/morphous-geyser/design-system-light.png",
+    "darkBoard": "/systems/morphous-geyser/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-geyser/theme.css",
+    "themeJson": "/systems/morphous-geyser/theme.json",
+    "promptsJson": "/systems/morphous-geyser/prompts.json"
+  }
+}

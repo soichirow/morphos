@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-glass-squid",
+    "name": "Morphous Glass Squid",
+    "motifName": "Glass Squid",
+    "motifCategory": "marine",
+    "biome": "deep ocean",
+    "motif": "glass squid body"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lab Glass",
+      "hex": "#F8FAFC",
+      "oklch": "oklch(0.984 0.003 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Ink",
+      "hex": "#0B1020",
+      "oklch": "oklch(0.177 0.034 269.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Glass Blue",
+      "hex": "#2563FF",
+      "oklch": "oklch(0.563 0.240 263.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Violet Mantle",
+      "hex": "#7C4DFF",
+      "oklch": "oklch(0.579 0.247 288.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Biolume Aqua",
+      "hex": "#00C0D6",
+      "oklch": "oklch(0.740 0.128 209.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Silver Edge",
+      "hex": "#C7CFD9",
+      "oklch": "oklch(0.851 0.016 253.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Neutral 600",
+      "hex": "#475569",
+      "oklch": "oklch(0.446 0.037 257.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Chromatophore Violet",
+      "hex": "#9b7cff",
+      "oklch": "oklch(0.676 0.187 291.5)"
+    },
+    {
+      "role": "Warning",
+      "name": "Research Coral",
+      "hex": "#e86f73",
+      "oklch": "oklch(0.686 0.150 19.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Abyss Navy",
+      "hex": "#0F172A",
+      "oklch": "oklch(0.208 0.040 265.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.003 247.9)",
+    "foreground": "oklch(0.177 0.034 269.6)",
+    "card": "oklch(0.851 0.016 253.9)",
+    "card-foreground": "oklch(0.177 0.034 269.6)",
+    "popover": "oklch(0.851 0.016 253.9)",
+    "popover-foreground": "oklch(0.177 0.034 269.6)",
+    "primary": "oklch(0.563 0.240 263.8)",
+    "primary-foreground": "oklch(0.984 0.003 247.9)",
+    "secondary": "oklch(0.908 0.011 256.7)",
+    "secondary-foreground": "oklch(0.208 0.040 265.8)",
+    "muted": "oklch(0.889 0.013 255.5)",
+    "muted-foreground": "oklch(0.208 0.040 265.8)",
+    "accent": "oklch(0.740 0.128 209.3)",
+    "accent-foreground": "oklch(0.177 0.034 269.6)",
+    "destructive": "oklch(0.563 0.240 263.8)",
+    "border": "oklch(0.712 0.023 256.8)",
+    "input": "oklch(0.712 0.023 256.8)",
+    "ring": "oklch(0.579 0.247 288.2)",
+    "chart-1": "oklch(0.563 0.240 263.8)",
+    "chart-2": "oklch(0.579 0.247 288.2)",
+    "chart-3": "oklch(0.740 0.128 209.3)",
+    "chart-4": "oklch(0.676 0.187 291.5)",
+    "chart-5": "oklch(0.208 0.040 265.8)",
+    "sidebar": "oklch(0.898 0.012 252.1)",
+    "sidebar-foreground": "oklch(0.177 0.034 269.6)",
+    "sidebar-primary": "oklch(0.563 0.240 263.8)",
+    "sidebar-primary-foreground": "oklch(0.984 0.003 247.9)",
+    "sidebar-accent": "oklch(0.812 0.042 264.3)",
+    "sidebar-accent-foreground": "oklch(0.563 0.240 263.8)",
+    "sidebar-border": "oklch(0.712 0.023 256.8)",
+    "sidebar-ring": "oklch(0.579 0.247 288.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.177 0.034 269.6)",
+    "foreground": "oklch(0.984 0.003 247.9)",
+    "card": "oklch(0.199 0.038 266.9)",
+    "card-foreground": "oklch(0.984 0.003 247.9)",
+    "popover": "oklch(0.199 0.038 266.9)",
+    "popover-foreground": "oklch(0.984 0.003 247.9)",
+    "primary": "oklch(0.579 0.247 288.2)",
+    "primary-foreground": "oklch(0.177 0.034 269.6)",
+    "secondary": "oklch(0.265 0.039 262.7)",
+    "secondary-foreground": "oklch(0.984 0.003 247.9)",
+    "muted": "oklch(0.265 0.039 262.7)",
+    "muted-foreground": "oklch(0.754 0.017 253.9)",
+    "accent": "oklch(0.740 0.128 209.3)",
+    "accent-foreground": "oklch(0.177 0.034 269.6)",
+    "destructive": "oklch(0.563 0.240 263.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.579 0.247 288.2)",
+    "chart-1": "oklch(0.579 0.247 288.2)",
+    "chart-2": "oklch(0.563 0.240 263.8)",
+    "chart-3": "oklch(0.740 0.128 209.3)",
+    "chart-4": "oklch(0.676 0.187 291.5)",
+    "chart-5": "oklch(0.446 0.037 257.3)",
+    "sidebar": "oklch(0.191 0.038 268.7)",
+    "sidebar-foreground": "oklch(0.984 0.003 247.9)",
+    "sidebar-primary": "oklch(0.579 0.247 288.2)",
+    "sidebar-primary-foreground": "oklch(0.177 0.034 269.6)",
+    "sidebar-accent": "oklch(0.265 0.039 262.7)",
+    "sidebar-accent-foreground": "oklch(0.984 0.003 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.579 0.247 288.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense research interfaces with Noto Sans JP guidance for headings, body, labels, tabular numerals, and compact status metadata.",
+  "layout": "Glass-specimen panels, abyssal navigation rails, compact data grids, high-contrast research forms, and translucent component states with 8px radius discipline.",
+  "tags": [
+    "glass-squid",
+    "marine",
+    "deep-ocean",
+    "research",
+    "transparent",
+    "blue-violet",
+    "silver",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-glass-squid/motif.png",
+    "board": "/systems/morphous-glass-squid/design-system-light.png",
+    "darkBoard": "/systems/morphous-glass-squid/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-glass-squid/theme.css",
+    "themeJson": "/systems/morphous-glass-squid/theme.json",
+    "promptsJson": "/systems/morphous-glass-squid/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent glass squid motif source",
+      "asset": "/systems/morphous-glass-squid/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a glass squid body motif, isolated full subject, no text.\nSubject: A single deep-ocean glass squid body with translucent blue-violet mantle, subtle silver organ silhouettes, delicate fin edges, small luminous chromatophore dots, and scientific specimen clarity. The animal should read as a glass squid body, elegant and semi-transparent, with no scenery.\nComposition/framing: centered complete cutout with generous padding; do not crop mantle, fins, arms, or tentacle tips; three-quarter view, floating specimen posture.\nLighting/mood: deep research system, cool laboratory bioluminescent rim light, transparent blue violet silver, precise and refined.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no ocean background, no bubbles, no cast shadow, no contact shadow, no reflection, no label text, no watermark, no cartoon style, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-glass-squid/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Glass Squid\" derived from a glass squid body motif.\nMotif reference description: translucent deep-ocean glass squid body, transparent blue-violet mantle, silver organ silhouettes, delicate fin edges, small luminous chromatophore dots, research specimen clarity.\nCanvas: wide 16:9 high-resolution board, crisp readable labels, target 4K-class composition.\nRequired visible title: Morphous Glass Squid.\nRequired visible sections: Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: sidebar navigation for a deep research console, top command/search, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, metric cards, line chart, bar chart, donut chart, sample data table rows, specimen intake form, loading/empty/error states, status pills, token swatches, border/radius/shadow examples.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; labels must be readable and not garbled.\nVisual style: premium shadcn/tweakcn-style research product system, light opalescent background, transparent blue violet primary controls, silver borders, subtle glass translucency, high neutral contrast, exact 8px card radius, precise grid, scientific but elegant.\nPalette direction: off-white lab glass background, deep ink text, transparent cyan, violet mantle, silver edge, abyss navy, bioluminescent aqua, warning coral used sparingly.\nConstraints: no watermark, no random brand names, no illegible microtext, no ocean photo background, no unrelated saturated colors, no generic purple gradient-only design, no misspelling of \"Morphous Glass Squid\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-glass-squid/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Morphous Glass Squid design-system board. It must feel like the same system translated to dark mode, not a new theme.\nMotif reference description: translucent deep-ocean glass squid body, transparent blue-violet mantle, silver organ silhouettes, delicate fin edges, small luminous chromatophore dots, research specimen clarity.\nCanvas: wide 16:9 high-resolution board, crisp readable labels, target 4K-class composition.\nRequired visible title: Morphous Glass Squid Dark Mode.\nRequired visible sections: Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: left sidebar navigation for abyssal research operations, top command/search, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, metric cards, line chart, bar chart, donut chart, specimen table rows, sensor calibration form, loading/empty/error states, status pills, token swatches, border/radius/shadow examples.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; labels must be readable and not garbled.\nVisual style: premium shadcn/tweakcn-style dark research console, abyss navy background, glassy blue-violet panels, silver hairline borders, bioluminescent aqua focus rings, high neutral contrast, exact 8px card radius, precise grid, scientific but elegant.\nPalette direction: abyss ink background, pearl text, transparent cyan, violet mantle, silver edge, deep navy, bioluminescent aqua, warning coral used sparingly.\nConstraints: no watermark, no random brand names, no illegible microtext, no ocean photo background, no neon overload, no flat pure-black-only background, no unrelated saturated colors, no misspelling of \"Morphous Glass Squid\"."
+    }
+  ]
+}

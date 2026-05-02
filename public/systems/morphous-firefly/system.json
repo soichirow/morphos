@@ -1,0 +1,86 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-firefly",
+  "name": "Morphous Firefly",
+  "motifName": "Firefly Glow",
+  "motifCategory": "insect",
+  "biome": "Summer Meadow",
+  "motif": "lime bioluminescent abdomen",
+  "description": "A shadcn/tweakcn-compatible ambient messaging system inspired by firefly glow: lime lantern actions, night-blue structure, grass-green support states, smoky amber dividers, and dew-soft surfaces.",
+  "typography": "Geist for quiet product UI with Noto Sans JP guidance for Japanese messaging, compact labels, readable threads, and tabular dashboard numerals.",
+  "layout": "Precise 8px grids, compact cards and controls, translucent wing-panel surfaces, glow-ring focus states, messaging-first navigation, and calm dashboard rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "firefly",
+    "insect",
+    "summer-meadow",
+    "lime-glow",
+    "ambient",
+    "messaging",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dew Surface",
+      "hex": "#F6F8FA"
+    },
+    {
+      "role": "Ink",
+      "name": "Night Meadow Blue",
+      "hex": "#0B1320"
+    },
+    {
+      "role": "Body",
+      "name": "Beetle Graphite",
+      "hex": "#1A1F26"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Blue",
+      "hex": "#D0E6F2"
+    },
+    {
+      "role": "Primary",
+      "name": "Lantern Lime",
+      "hex": "#B2FF4D"
+    },
+    {
+      "role": "Accent",
+      "name": "Glow Core",
+      "hex": "#D9FF66"
+    },
+    {
+      "role": "Secondary",
+      "name": "Grass Green",
+      "hex": "#68D168"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Moss",
+      "hex": "#A7C37A"
+    },
+    {
+      "role": "Signal",
+      "name": "Smoky Wing Amber",
+      "hex": "#E7D98A"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Grass Shadow",
+      "hex": "#1E3A2B"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

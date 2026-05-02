@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-flying-squirrel",
+    "name": "Morphous Flying Squirrel",
+    "motifName": "Flying Squirrel",
+    "motifCategory": "mammal",
+    "biome": "night forest",
+    "motif": "flying squirrel glide"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moon Cream",
+      "hex": "#f4efe4",
+      "oklch": "oklch(0.953 0.016 86.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Eye Ink",
+      "hex": "#151719",
+      "oklch": "oklch(0.203 0.005 248.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Night Canopy",
+      "hex": "#19352d",
+      "oklch": "oklch(0.304 0.037 173.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Glider Grey",
+      "hex": "#9c978d",
+      "oklch": "oklch(0.678 0.016 84.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Signal",
+      "hex": "#5f7664",
+      "oklch": "oklch(0.542 0.039 151.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Fur Taupe",
+      "hex": "#b9aa96",
+      "oklch": "oklch(0.745 0.033 75.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Paw Blush",
+      "hex": "#d7a195",
+      "oklch": "oklch(0.756 0.067 32.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Mist Border",
+      "hex": "#d6d0c3",
+      "oklch": "oklch(0.859 0.019 86.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Canopy Night",
+      "hex": "#0f1f1b",
+      "oklch": "oklch(0.223 0.023 176.4)"
+    },
+    {
+      "role": "Ground",
+      "name": "Bark Umber",
+      "hex": "#3f3328",
+      "oklch": "oklch(0.331 0.025 64.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.016 86.4)",
+    "foreground": "oklch(0.203 0.005 248.1)",
+    "card": "oklch(0.745 0.033 75.1)",
+    "card-foreground": "oklch(0.203 0.005 248.1)",
+    "popover": "oklch(0.745 0.033 75.1)",
+    "popover-foreground": "oklch(0.203 0.005 248.1)",
+    "primary": "oklch(0.304 0.037 173.1)",
+    "primary-foreground": "oklch(0.953 0.016 86.4)",
+    "secondary": "oklch(0.834 0.025 77.4)",
+    "secondary-foreground": "oklch(0.223 0.023 176.4)",
+    "muted": "oklch(0.804 0.028 74.7)",
+    "muted-foreground": "oklch(0.223 0.023 176.4)",
+    "accent": "oklch(0.542 0.039 151.5)",
+    "accent-foreground": "oklch(0.203 0.005 248.1)",
+    "destructive": "oklch(0.304 0.037 173.1)",
+    "border": "oklch(0.721 0.027 75.2)",
+    "input": "oklch(0.721 0.027 75.2)",
+    "ring": "oklch(0.678 0.016 84.6)",
+    "chart-1": "oklch(0.304 0.037 173.1)",
+    "chart-2": "oklch(0.678 0.016 84.6)",
+    "chart-3": "oklch(0.542 0.039 151.5)",
+    "chart-4": "oklch(0.756 0.067 32.8)",
+    "chart-5": "oklch(0.223 0.023 176.4)",
+    "sidebar": "oklch(0.816 0.026 75.2)",
+    "sidebar-foreground": "oklch(0.203 0.005 248.1)",
+    "sidebar-primary": "oklch(0.304 0.037 173.1)",
+    "sidebar-primary-foreground": "oklch(0.953 0.016 86.4)",
+    "sidebar-accent": "oklch(0.696 0.029 83.5)",
+    "sidebar-accent-foreground": "oklch(0.304 0.037 173.1)",
+    "sidebar-border": "oklch(0.721 0.027 75.2)",
+    "sidebar-ring": "oklch(0.678 0.016 84.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.203 0.005 248.1)",
+    "foreground": "oklch(0.953 0.016 86.4)",
+    "card": "oklch(0.215 0.016 182.2)",
+    "card-foreground": "oklch(0.953 0.016 86.4)",
+    "popover": "oklch(0.215 0.016 182.2)",
+    "popover-foreground": "oklch(0.953 0.016 86.4)",
+    "primary": "oklch(0.678 0.016 84.6)",
+    "primary-foreground": "oklch(0.203 0.005 248.1)",
+    "secondary": "oklch(0.333 0.017 166.1)",
+    "secondary-foreground": "oklch(0.953 0.016 86.4)",
+    "muted": "oklch(0.333 0.017 166.1)",
+    "muted-foreground": "oklch(0.831 0.015 84.6)",
+    "accent": "oklch(0.542 0.039 151.5)",
+    "accent-foreground": "oklch(0.203 0.005 248.1)",
+    "destructive": "oklch(0.304 0.037 173.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.678 0.016 84.6)",
+    "chart-1": "oklch(0.678 0.016 84.6)",
+    "chart-2": "oklch(0.304 0.037 173.1)",
+    "chart-3": "oklch(0.542 0.039 151.5)",
+    "chart-4": "oklch(0.756 0.067 32.8)",
+    "chart-5": "oklch(0.678 0.016 84.6)",
+    "sidebar": "oklch(0.213 0.013 187.8)",
+    "sidebar-foreground": "oklch(0.953 0.016 86.4)",
+    "sidebar-primary": "oklch(0.678 0.016 84.6)",
+    "sidebar-primary-foreground": "oklch(0.203 0.005 248.1)",
+    "sidebar-accent": "oklch(0.333 0.017 166.1)",
+    "sidebar-accent-foreground": "oklch(0.953 0.016 86.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.678 0.016 84.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm English product UI with Noto Sans JP guidance for compact Japanese labels, nocturnal status states, and multilingual mobility dashboards.",
+  "layout": "Precise 8px grids, smooth glide-arc dividers, 8px component radius, quiet night-green navigation, low-friction forms, restrained shadows, and soft fur-grain texture.",
+  "tags": [
+    "flying-squirrel",
+    "mammal",
+    "night-forest",
+    "glide",
+    "soft-grey",
+    "moon-cream",
+    "quiet-mobility",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-flying-squirrel/motif.png",
+    "board": "/systems/morphous-flying-squirrel/design-system-light.png",
+    "darkBoard": "/systems/morphous-flying-squirrel/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-flying-squirrel/theme.css",
+    "themeJson": "/systems/morphous-flying-squirrel/theme.json",
+    "promptsJson": "/systems/morphous-flying-squirrel/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent flying squirrel motif",
+      "asset": "/systems/morphous-flying-squirrel/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Flying Squirrel transparent motif chroma-key source\nPrimary request: Create only a flying squirrel motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A northern flying squirrel gliding with membrane fully extended, accurate anatomy, soft grey-brown upper fur, creamy white belly, rounded ears, large dark eyes, delicate paws, broad patagium wing shape, fluffy tail trailing slightly behind. Natural soft fur texture, crisp subject edges, distinctive gliding silhouette, no extra animals.\nComposition/framing: centered complete cutout with generous padding; full body visible from nose to tail and all four limbs, not cropped. Clean studio lighting that preserves soft grey, cream, and muted night-green reflected undertones. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no forest scene, no branch, no leaves, no moon, no props, no text, no watermark, no second subject, no stylized cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-flying-squirrel/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Flying Squirrel light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Flying Squirrel\", derived from the visible flying squirrel motif: soft grey-brown fur, creamy belly membrane, large dark eyes, pink paws, gliding wing silhouette, and quiet night forest context. This board is a source reference for implementing a shadcn/tweakcn-compatible quiet mobility system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Flying Squirrel, Flying Squirrel, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from the soft grey fur, cream patagium membrane, dark glossy eyes, dusk green forest canopy, bark shadows, and smooth gliding geometry. The board must read as nocturnal flying squirrel glide and quiet mobility, not generic forest, owl, bat, or winter theme.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, top navigation, side navigation, dashboard metric cards, line chart, glide path chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, warm moon-cream surfaces, soft grey cards, deep night-green navigation, gliding arc dividers, quiet low-friction controls, restrained shadows, subtle fur grain and membrane texture, dense but organized operations dashboard UI.\nColor palette: moon cream #f4efe4, glider grey #9c978d, warm fur taupe #b9aa96, night canopy #19352d, moss signal #5f7664, eye ink #151719, bark umber #3f3328, paw blush #d7a195, mist border #d6d0c3.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no neon colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Flying Squirrel\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-flying-squirrel/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Flying Squirrel dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Flying Squirrel\". It must feel like the same light-mode flying squirrel quiet mobility system translated to dark mode, not a new theme, and it must remain derived from the visible motif and light board: soft grey fur, cream gliding membrane, glossy eye ink, dusk green canopy, bark shadows, and smooth glide arcs.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Flying Squirrel, Flying Squirrel, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the light system language: quiet navigation, gliding arc dividers, moon-cream foreground text, soft grey cards, deep night-green sidebars, moss signals, bark borders, subtle fur grain and patagium membrane texture. Must read as nocturnal flying squirrel glide and night forest mobility, not generic forest, owl, bat, sci-fi, or winter theme.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, top navigation, side navigation, dashboard metric cards, line chart, glide path chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep canopy backgrounds, midnight green cards, moon-cream text, glider-grey surfaces, moss focus rings, paw-blush warnings, restrained contrast, crisp shadcn/tweakcn components, precise 8px grid, 8px card radius, quiet low-friction controls.\nColor palette: canopy night #0f1f1b, eye ink #151719, moon cream #f4efe4, glider grey #9c978d, warm fur taupe #b9aa96, moss signal #5f7664, night canopy #19352d, bark umber #3f3328, paw blush #d7a195.\nConstraints: no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no unrelated saturated colors, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Flying Squirrel\"."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fluorite",
+    "name": "Morphous Fluorite",
+    "motifName": "Fluorite",
+    "motifCategory": "mineral",
+    "biome": "Crystal Mine",
+    "motif": "fluorite cube"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Crystal Clear",
+      "hex": "#f7fbfa",
+      "oklch": "oklch(0.985 0.004 179.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Mine Ink",
+      "hex": "#182126",
+      "oklch": "oklch(0.241 0.016 232.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Violet Cube",
+      "hex": "#7b4fb3",
+      "oklch": "oklch(0.524 0.154 301.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fluorite Green",
+      "hex": "#64b98f",
+      "oklch": "oklch(0.720 0.104 160.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ice Facet",
+      "hex": "#edf7f2",
+      "oklch": "oklch(0.967 0.012 164.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Matrix Graphite",
+      "hex": "#55616a",
+      "oklch": "oklch(0.486 0.021 240.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Mint",
+      "hex": "#b7e5d0",
+      "oklch": "oklch(0.884 0.056 165.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Lavender Veil",
+      "hex": "#c6b7e8",
+      "oklch": "oklch(0.808 0.070 298.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Clear Edge",
+      "hex": "#c8d9d8",
+      "oklch": "oklch(0.872 0.018 192.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.004 179.7)",
+    "foreground": "oklch(0.241 0.016 232.6)",
+    "card": "oklch(0.967 0.012 164.8)",
+    "card-foreground": "oklch(0.241 0.016 232.6)",
+    "popover": "oklch(0.967 0.012 164.8)",
+    "popover-foreground": "oklch(0.241 0.016 232.6)",
+    "primary": "oklch(0.524 0.154 301.6)",
+    "primary-foreground": "oklch(0.985 0.004 179.7)",
+    "secondary": "oklch(0.975 0.010 164.9)",
+    "secondary-foreground": "oklch(0.486 0.021 240.4)",
+    "muted": "oklch(0.972 0.010 164.9)",
+    "muted-foreground": "oklch(0.486 0.021 240.4)",
+    "accent": "oklch(0.720 0.104 160.7)",
+    "accent-foreground": "oklch(0.241 0.016 232.6)",
+    "destructive": "oklch(0.524 0.154 301.6)",
+    "border": "oklch(0.910 0.019 282.7)",
+    "input": "oklch(0.910 0.019 282.7)",
+    "ring": "oklch(0.884 0.056 165.6)",
+    "chart-1": "oklch(0.524 0.154 301.6)",
+    "chart-2": "oklch(0.884 0.056 165.6)",
+    "chart-3": "oklch(0.720 0.104 160.7)",
+    "chart-4": "oklch(0.486 0.021 240.4)",
+    "chart-5": "oklch(0.486 0.021 240.4)",
+    "sidebar": "oklch(0.972 0.009 171.8)",
+    "sidebar-foreground": "oklch(0.241 0.016 232.6)",
+    "sidebar-primary": "oklch(0.524 0.154 301.6)",
+    "sidebar-primary-foreground": "oklch(0.985 0.004 179.7)",
+    "sidebar-accent": "oklch(0.915 0.010 261.8)",
+    "sidebar-accent-foreground": "oklch(0.524 0.154 301.6)",
+    "sidebar-border": "oklch(0.910 0.019 282.7)",
+    "sidebar-ring": "oklch(0.884 0.056 165.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.241 0.016 232.6)",
+    "foreground": "oklch(0.985 0.004 179.7)",
+    "card": "oklch(0.406 0.020 239.6)",
+    "card-foreground": "oklch(0.985 0.004 179.7)",
+    "popover": "oklch(0.406 0.020 239.6)",
+    "popover-foreground": "oklch(0.985 0.004 179.7)",
+    "primary": "oklch(0.884 0.056 165.6)",
+    "primary-foreground": "oklch(0.241 0.016 232.6)",
+    "secondary": "oklch(0.560 0.029 270.9)",
+    "secondary-foreground": "oklch(0.985 0.004 179.7)",
+    "muted": "oklch(0.560 0.029 270.9)",
+    "muted-foreground": "oklch(0.905 0.030 296.2)",
+    "accent": "oklch(0.720 0.104 160.7)",
+    "accent-foreground": "oklch(0.241 0.016 232.6)",
+    "destructive": "oklch(0.524 0.154 301.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.884 0.056 165.6)",
+    "chart-1": "oklch(0.884 0.056 165.6)",
+    "chart-2": "oklch(0.524 0.154 301.6)",
+    "chart-3": "oklch(0.720 0.104 160.7)",
+    "chart-4": "oklch(0.486 0.021 240.4)",
+    "chart-5": "oklch(0.808 0.070 298.8)",
+    "sidebar": "oklch(0.358 0.018 238.6)",
+    "sidebar-foreground": "oklch(0.985 0.004 179.7)",
+    "sidebar-primary": "oklch(0.884 0.056 165.6)",
+    "sidebar-primary-foreground": "oklch(0.241 0.016 232.6)",
+    "sidebar-accent": "oklch(0.560 0.029 270.9)",
+    "sidebar-accent-foreground": "oklch(0.985 0.004 179.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.884 0.056 165.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise product UI typography with tabular numerals and Japanese guidance tuned for workflow, queue, and dashboard-heavy interfaces.",
+  "layout": "Crisp 8px grids, cubic facet panels, structured workflow columns, clear borders, and subtle transparent crystal texture.",
+  "tags": [
+    "fluorite",
+    "mineral",
+    "crystal-mine",
+    "purple-green",
+    "workflow",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fluorite/motif.png",
+    "board": "/systems/morphous-fluorite/design-system-light.png",
+    "darkBoard": "/systems/morphous-fluorite/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fluorite/theme.css",
+    "themeJson": "/systems/morphous-fluorite/theme.json",
+    "promptsJson": "/systems/morphous-fluorite/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fluorite cube motif",
+      "asset": "/systems/morphous-fluorite/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fluorite transparent motif chroma-key source\nPrimary request: Create only a fluorite cube mineral motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural fluorite cube cluster from a crystal mine, with intergrown cubic crystals, transparent clear edges, purple violet bands, sea-glass green zones, internal zoning, crisp stepped cube faces, tiny fractures, and subtle mineral inclusions. Geological accuracy, structured workflow identity, no jewelry or fantasy artifact.\nComposition/framing: centered complete cutout with generous padding; include full cube cluster without cropping. Clean studio lighting that preserves transparent crystal refraction; no cast shadow.\nChroma-key background: perfectly flat solid #ff7f00 background for removal. The background must be one uniform orange color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff7f00 anywhere in the subject.\nConstraints: no jewelry setting, no carved object, no hand, no landscape, no text, no watermark, no loose faceted gems, no other minerals dominating, no fantasy glow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fluorite/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fluorite light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Fluorite\", derived from a fluorite cube motif. This board is a source reference for a shadcn/tweakcn-compatible structured workflow UI theme.\nCanvas: 3840x2160 wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Fluorite, Fluorite, Palette, Typography, Japanese Typography, Components, Navigation, Workflow Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from transparent fluorite cubes, purple violet zoning, sea-glass green bands, clear crystal edges, mine matrix dust, internal fracture lines, and precise cubic geometry. The board must read as fluorite crystal cube, not generic gem jewelry or purple SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Workflow Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, kanban/workflow cards, dashboard metric cards, timeline, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: structured workflow system, shadcn/tweakcn-style product UI, crisp 8px radius with cubic facet geometry, clear off-white backgrounds, fluorite purple primary actions, mineral green accents, translucent glass panels, pale crystal borders, precise grid, subtle cube-face texture, calm accessible contrast.\nPalette names to show: Crystal Clear, Deep Mine Ink, Violet Cube, Fluorite Green, Ice Facet, Matrix Graphite, Pale Mint, Lavender Veil, Clear Edge.\nConstraints: no jewelry setting, no fantasy magic, no neon gradients, no unrelated saturated colors, no generic purple/blue gradient theme, no stock photography, no watermark, no random brand names, no misspelling of \"Morphous Fluorite\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fluorite/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fluorite dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Fluorite\". It must feel like the light-mode board translated to dark mode and remain derived from a fluorite cube motif.\nCanvas: 3840x2160 wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Fluorite, Fluorite, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Workflow Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve fluorite purple active states, mineral green progress states, clear crystal highlights, graphite mine dark surfaces, translucent cube-face texture, structured workflow spacing, and 8px shadcn/tweakcn grid. Must read as fluorite cube crystal, not jewelry, fantasy magic, or generic dark purple SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Workflow Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, kanban/workflow cards, dashboard metric cards, timeline, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep mine ink and smoky graphite backgrounds, violet cube cards, clear edge foreground text, fluorite green secondary actions, ice-facet outlines, lavender veils, crystalline glass highlights, precise workflow panels, accessible contrast.\nPalette names to show: Crystal Clear, Deep Mine Ink, Violet Cube, Fluorite Green, Ice Facet, Matrix Graphite, Pale Mint, Lavender Veil, Clear Edge.\nConstraints: no jewelry setting, no fantasy magic, no neon gradients, no pure-black-only flat background, no unrelated saturated colors, no generic purple/blue gradient theme, no illegible tiny paragraphs, no stock photography, no watermark, no random brand names, no misspelling of \"Morphous Fluorite\"."
+    }
+  ]
+}

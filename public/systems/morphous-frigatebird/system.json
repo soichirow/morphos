@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-frigatebird",
+  "name": "Morphous Frigatebird",
+  "motifName": "Frigatebird",
+  "motifCategory": "bird",
+  "biome": "Tropical Sky",
+  "motif": "frigatebird pouch",
+  "description": "A shadcn/tweakcn-compatible dramatic alert system shaped by frigatebird black wings, a vivid red throat pouch, tropical sky tones, and sharp operational status states.",
+  "typography": "Geist for crisp alert dashboards with Noto Sans guidance for Japanese labels, compact numerals, and clear incident-table scanning.",
+  "layout": "8px grid, sharp wing-like dividers, pouch-red status chips, black header bars, sky-cyan focus rings, compact panels, and high-contrast dashboard workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "frigatebird",
+    "bird",
+    "tropical-sky",
+    "alert-system",
+    "black-wing",
+    "red-throat",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cloud White",
+      "hex": "#f6fbfc"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#0b0d10"
+    },
+    {
+      "role": "Primary",
+      "name": "Pouch Red",
+      "hex": "#e3312d"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sky Cyan",
+      "hex": "#5eb8d5"
+    },
+    {
+      "role": "Accent",
+      "name": "Lagoon Teal",
+      "hex": "#2d8f9b"
+    },
+    {
+      "role": "Warning",
+      "name": "Signal Amber",
+      "hex": "#f0a33a"
+    },
+    {
+      "role": "Surface",
+      "name": "Sky Glass",
+      "hex": "#dff3f8"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Border",
+      "hex": "#a9b4ba"
+    },
+    {
+      "role": "Panel",
+      "name": "Storm Charcoal",
+      "hex": "#252b31"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Night",
+      "hex": "#06080a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

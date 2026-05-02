@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-firefly",
+    "name": "Morphous Firefly",
+    "motifName": "Firefly Glow",
+    "motifCategory": "insect",
+    "biome": "Summer Meadow",
+    "motif": "lime bioluminescent abdomen"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dew Surface",
+      "hex": "#F6F8FA",
+      "oklch": "oklch(0.978 0.003 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Night Meadow Blue",
+      "hex": "#0B1320",
+      "oklch": "oklch(0.186 0.029 259.8)"
+    },
+    {
+      "role": "Body",
+      "name": "Beetle Graphite",
+      "hex": "#1A1F26",
+      "oklch": "oklch(0.237 0.015 256.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Blue",
+      "hex": "#D0E6F2",
+      "oklch": "oklch(0.912 0.029 231.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lantern Lime",
+      "hex": "#B2FF4D",
+      "oklch": "oklch(0.918 0.216 130.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Glow Core",
+      "hex": "#D9FF66",
+      "oklch": "oklch(0.944 0.182 121.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Grass Green",
+      "hex": "#68D168",
+      "oklch": "oklch(0.774 0.174 143.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Moss",
+      "hex": "#A7C37A",
+      "oklch": "oklch(0.779 0.102 125.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Smoky Wing Amber",
+      "hex": "#E7D98A",
+      "oklch": "oklch(0.879 0.101 99.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Grass Shadow",
+      "hex": "#1E3A2B",
+      "oklch": "oklch(0.321 0.044 159.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.003 247.9)",
+    "foreground": "oklch(0.186 0.029 259.8)",
+    "card": "oklch(0.912 0.029 231.5)",
+    "card-foreground": "oklch(0.186 0.029 259.8)",
+    "popover": "oklch(0.912 0.029 231.5)",
+    "popover-foreground": "oklch(0.186 0.029 259.8)",
+    "primary": "oklch(0.918 0.216 130.2)",
+    "primary-foreground": "oklch(0.978 0.003 247.9)",
+    "secondary": "oklch(0.941 0.018 229.0)",
+    "secondary-foreground": "oklch(0.321 0.044 159.2)",
+    "muted": "oklch(0.931 0.021 232.1)",
+    "muted-foreground": "oklch(0.321 0.044 159.2)",
+    "accent": "oklch(0.944 0.182 121.8)",
+    "accent-foreground": "oklch(0.186 0.029 259.8)",
+    "destructive": "oklch(0.918 0.216 130.2)",
+    "border": "oklch(0.862 0.036 153.2)",
+    "input": "oklch(0.862 0.036 153.2)",
+    "ring": "oklch(0.774 0.174 143.7)",
+    "chart-1": "oklch(0.918 0.216 130.2)",
+    "chart-2": "oklch(0.774 0.174 143.7)",
+    "chart-3": "oklch(0.944 0.182 121.8)",
+    "chart-4": "oklch(0.879 0.101 99.4)",
+    "chart-5": "oklch(0.321 0.044 159.2)",
+    "sidebar": "oklch(0.935 0.020 233.9)",
+    "sidebar-foreground": "oklch(0.186 0.029 259.8)",
+    "sidebar-primary": "oklch(0.918 0.216 130.2)",
+    "sidebar-primary-foreground": "oklch(0.978 0.003 247.9)",
+    "sidebar-accent": "oklch(0.910 0.034 170.7)",
+    "sidebar-accent-foreground": "oklch(0.918 0.216 130.2)",
+    "sidebar-border": "oklch(0.862 0.036 153.2)",
+    "sidebar-ring": "oklch(0.774 0.174 143.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.186 0.029 259.8)",
+    "foreground": "oklch(0.978 0.003 247.9)",
+    "card": "oklch(0.277 0.029 173.9)",
+    "card-foreground": "oklch(0.978 0.003 247.9)",
+    "popover": "oklch(0.277 0.029 173.9)",
+    "popover-foreground": "oklch(0.978 0.003 247.9)",
+    "primary": "oklch(0.774 0.174 143.7)",
+    "primary-foreground": "oklch(0.186 0.029 259.8)",
+    "secondary": "oklch(0.430 0.057 144.5)",
+    "secondary-foreground": "oklch(0.978 0.003 247.9)",
+    "muted": "oklch(0.430 0.057 144.5)",
+    "muted-foreground": "oklch(0.888 0.045 126.6)",
+    "accent": "oklch(0.944 0.182 121.8)",
+    "accent-foreground": "oklch(0.186 0.029 259.8)",
+    "destructive": "oklch(0.918 0.216 130.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.774 0.174 143.7)",
+    "chart-1": "oklch(0.774 0.174 143.7)",
+    "chart-2": "oklch(0.918 0.216 130.2)",
+    "chart-3": "oklch(0.944 0.182 121.8)",
+    "chart-4": "oklch(0.879 0.101 99.4)",
+    "chart-5": "oklch(0.779 0.102 125.8)",
+    "sidebar": "oklch(0.250 0.023 195.8)",
+    "sidebar-foreground": "oklch(0.978 0.003 247.9)",
+    "sidebar-primary": "oklch(0.774 0.174 143.7)",
+    "sidebar-primary-foreground": "oklch(0.186 0.029 259.8)",
+    "sidebar-accent": "oklch(0.430 0.057 144.5)",
+    "sidebar-accent-foreground": "oklch(0.978 0.003 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.774 0.174 143.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for quiet product UI with Noto Sans JP guidance for Japanese messaging, compact labels, readable threads, and tabular dashboard numerals.",
+  "layout": "Precise 8px grids, compact cards and controls, translucent wing-panel surfaces, glow-ring focus states, messaging-first navigation, and calm dashboard rhythm.",
+  "tags": [
+    "firefly",
+    "insect",
+    "summer-meadow",
+    "lime-glow",
+    "ambient",
+    "messaging",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-firefly/motif.png",
+    "board": "/systems/morphous-firefly/design-system-light.png",
+    "darkBoard": "/systems/morphous-firefly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-firefly/theme.css",
+    "themeJson": "/systems/morphous-firefly/theme.json",
+    "promptsJson": "/systems/morphous-firefly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Firefly motif",
+      "asset": "/systems/morphous-firefly/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Firefly transparent motif chroma-key source\nPrimary request: Create only an isolated firefly glow motif for a design-system catalog: one complete firefly beetle with a visibly luminous lime abdomen, no environment, no props, no text.\nSubject: A realistic firefly beetle with accurate insect anatomy, dark graphite-brown body, translucent smoky amber wings, fine legs and antennae, a lime bioluminescent abdomen with light contained inside the abdomen segments, subtle night-blue reflections, grass-green undertones, and crisp silhouette edges. The abdomen should look like it is glowing from within, but there must be no external aura or halo outside the body silhouette.\nComposition/framing: centered complete cutout with generous padding; show the full body, wings, legs, antennae, and glowing abdomen without cropping.\nLighting/mood: clean studio light that preserves natural beetle texture, wing translucency, lime internal glow, night-blue reflection, and grass-green undertones.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, environmental meadow, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no flowers, no grass, no meadow background, no jar, no second insect, no decorative frame, no cast shadow, no contact shadow, no reflection, no magenta in the subject, no pink rim, no aura outside the abdomen."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-firefly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate ONE comprehensive light-mode design-system board for a Morphous theme named \"Morphous Firefly\" derived from the isolated firefly glow motif.\nCanvas and aspect ratio: exact 16:9 WIDE LANDSCAPE board, panoramic 3840x2160 composition, much wider than tall. Do not make a square, portrait, or 3:2 poster. Arrange the board in horizontal columns across a wide dashboard canvas.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the firefly's lime bioluminescent abdomen, dark beetle body, translucent smoky amber wings, night-blue reflections, and summer meadow grass-green undertones. The board must visibly respect those firefly colors.\nRequired visible sections: Morphous Firefly, Firefly Glow, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Messaging, Status States, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese UI examples using labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字. Keep type clear and readable.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar navigation, top navigation, message thread preview, notification chips, dashboard metric cards, line and bar charts, empty/loading/error states, spacing scale, radius tokens, border tokens, shadow tokens, texture samples.\nStyle/medium: premium shadcn/tweakcn-compatible product design system board, precise grid, quiet ambient messaging-system interface, compact components with radius 8px or less, translucent wing-panel cards, lime glow focus rings, night-blue ink, grass-green secondary states, smoky amber dividers, subtle firefly abdomen dot texture.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: night meadow blue, beetle graphite, lime lantern, glow core, grass green, smoky wing amber, dew surface, mist blue, soft moss, deep grass shadow.\nText: use short readable UI labels; avoid long paragraphs. Include token labels like background, foreground, primary, accent, border, ring, radius 8.\nConstraints: exact 16:9 landscape only, no generic purple gradients, no unrelated bright colors, no orange/brown-dominated palette, no stock UI kit look, no large rounded pills over 8px, no random brand names, no watermark, no misspelling of \"Morphous Firefly\" or \"Firefly Glow\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-firefly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate ONE comprehensive dark-mode design-system board for a Morphous theme named \"Morphous Firefly\" / \"Firefly Glow\". Translate the visible light-mode Morphous Firefly board into dark mode; keep it recognizably the same system, not a new theme.\nCanvas and aspect ratio: exact 16:9 WIDE LANDSCAPE board, panoramic 3840x2160 composition, much wider than tall. Do not make a square, portrait, or 3:2 poster. Arrange the board in horizontal columns across a wide dashboard canvas.\nReference use: Use the firefly glow motif and the light-mode Morphous Firefly board as strict references for palette roles, texture rhythm, component coverage, typography hierarchy, messaging-system layout, and board organization.\nRequired visible sections: Morphous Firefly, Firefly Glow, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Messaging, Status States, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: dark background derived from night meadow blue and beetle graphite; readable text in dew surface and glow core; lime lantern as primary action, focus ring, notification, and chart color; grass green support color; smoky wing amber dividers; mist blue secondary information; translucent wing-panel cards; subtle firefly abdomen dot texture; compact shadcn/tweakcn controls with radius 8px or less.\nTypography: include English and Japanese guidance with short readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sidebar navigation, top navigation, dashboard metric cards, line and bar charts, table rows, command/search menu, messaging thread preview, notification chips, status chips, loading/empty/error states, texture samples, spacing/radius/shadow/tokens swatches.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: night meadow blue, beetle graphite, lime lantern, glow core, grass green, smoky wing amber, dew surface, mist blue, soft moss, deep grass shadow.\nText: use short readable UI labels; avoid long paragraphs. Include token labels like background, foreground, primary, accent, border, ring, radius 8.\nConstraints: exact 16:9 landscape only, no neon rainbow palette, no generic purple gradients, no unrelated bright colors, no pure black flat-only background, no orange/brown-dominated palette, no large rounded pills over 8px, no stock UI kit look, no random brand names, no watermark, no misspelling of \"Morphous Firefly\" or \"Firefly Glow\"."
+    }
+  ]
+}

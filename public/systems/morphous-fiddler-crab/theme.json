@@ -1,0 +1,221 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fiddler-crab",
+    "name": "Morphous Fiddler Crab",
+    "motifName": "Fiddler Crab",
+    "motifCategory": "crustacean",
+    "biome": "mangrove mudflat",
+    "motif": "fiddler crab claw"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silt Wash",
+      "hex": "#FBF7EF",
+      "oklch": "oklch(0.977 0.011 84.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sand Ivory",
+      "hex": "#F3E8D6",
+      "oklch": "oklch(0.935 0.027 80.2)"
+    },
+    {
+      "role": "Popover",
+      "name": "Ivory Shell",
+      "hex": "#FFF7EC",
+      "oklch": "oklch(0.979 0.017 76.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Claw Orange",
+      "hex": "#F26A1A",
+      "oklch": "oklch(0.682 0.186 44.9)"
+    },
+    {
+      "role": "Action",
+      "name": "Burnt Claw",
+      "hex": "#D35E12",
+      "oklch": "oklch(0.619 0.166 46.4)"
+    },
+    {
+      "role": "Warning",
+      "name": "Claw Umber",
+      "hex": "#9F4D26",
+      "oklch": "oklch(0.516 0.121 44.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Carapace Brown",
+      "hex": "#4A3D31",
+      "oklch": "oklch(0.370 0.027 64.6)"
+    },
+    {
+      "role": "Mud",
+      "name": "Mud Brown",
+      "hex": "#6B5A4A",
+      "oklch": "oklch(0.480 0.033 65.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Mangrove Taupe",
+      "hex": "#8C7F72",
+      "oklch": "oklch(0.604 0.025 67.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Stone",
+      "hex": "#B7ADA0",
+      "oklch": "oklch(0.752 0.022 74.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidal Teal",
+      "hex": "#4FA7A9",
+      "oklch": "oklch(0.675 0.084 197.3)"
+    },
+    {
+      "role": "Accent Deep",
+      "name": "Deep Tidal",
+      "hex": "#287F83",
+      "oklch": "oklch(0.548 0.080 199.5)"
+    },
+    {
+      "role": "Soft Accent",
+      "name": "Foam Glint",
+      "hex": "#D6EEEF",
+      "oklch": "oklch(0.932 0.025 199.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Mud",
+      "hex": "#181512",
+      "oklch": "oklch(0.198 0.008 67.4)"
+    },
+    {
+      "role": "Night",
+      "name": "Mangrove Night",
+      "hex": "#0E1717",
+      "oklch": "oklch(0.196 0.013 196.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.011 84.6)",
+    "foreground": "oklch(0.265 0.013 62.0)",
+    "card": "oklch(0.979 0.017 76.1)",
+    "card-foreground": "oklch(0.265 0.013 62.0)",
+    "popover": "oklch(0.979 0.017 76.1)",
+    "popover-foreground": "oklch(0.265 0.013 62.0)",
+    "primary": "oklch(0.682 0.186 44.9)",
+    "primary-foreground": "oklch(0.979 0.017 76.1)",
+    "secondary": "oklch(0.935 0.027 80.2)",
+    "secondary-foreground": "oklch(0.370 0.027 64.6)",
+    "muted": "oklch(0.935 0.027 80.2)",
+    "muted-foreground": "oklch(0.480 0.033 65.2)",
+    "accent": "oklch(0.675 0.084 197.3)",
+    "accent-foreground": "oklch(0.196 0.013 196.1)",
+    "destructive": "oklch(0.619 0.166 46.4)",
+    "border": "oklch(0.752 0.022 74.6)",
+    "input": "oklch(0.752 0.022 74.6)",
+    "ring": "oklch(0.675 0.084 197.3)",
+    "chart-1": "oklch(0.682 0.186 44.9)",
+    "chart-2": "oklch(0.675 0.084 197.3)",
+    "chart-3": "oklch(0.516 0.121 44.2)",
+    "chart-4": "oklch(0.932 0.025 199.8)",
+    "chart-5": "oklch(0.370 0.027 64.6)",
+    "sidebar": "oklch(0.935 0.027 80.2)",
+    "sidebar-foreground": "oklch(0.265 0.013 62.0)",
+    "sidebar-primary": "oklch(0.682 0.186 44.9)",
+    "sidebar-primary-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-accent": "oklch(0.932 0.025 199.8)",
+    "sidebar-accent-foreground": "oklch(0.196 0.013 196.1)",
+    "sidebar-border": "oklch(0.752 0.022 74.6)",
+    "sidebar-ring": "oklch(0.675 0.084 197.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.196 0.013 196.1)",
+    "foreground": "oklch(0.935 0.027 80.2)",
+    "card": "oklch(0.240 0.025 191.3)",
+    "card-foreground": "oklch(0.935 0.027 80.2)",
+    "popover": "oklch(0.212 0.014 51.4)",
+    "popover-foreground": "oklch(0.935 0.027 80.2)",
+    "primary": "oklch(0.702 0.199 43.0)",
+    "primary-foreground": "oklch(0.198 0.008 67.4)",
+    "secondary": "oklch(0.322 0.027 57.1)",
+    "secondary-foreground": "oklch(0.935 0.027 80.2)",
+    "muted": "oklch(0.265 0.013 62.0)",
+    "muted-foreground": "oklch(0.795 0.035 71.6)",
+    "accent": "oklch(0.715 0.101 191.8)",
+    "accent-foreground": "oklch(0.196 0.013 196.1)",
+    "destructive": "oklch(0.647 0.189 41.7)",
+    "border": "oklch(0.446 0.020 64.3 / 45%)",
+    "input": "oklch(0.446 0.020 64.3 / 55%)",
+    "ring": "oklch(0.715 0.101 191.8)",
+    "chart-1": "oklch(0.702 0.199 43.0)",
+    "chart-2": "oklch(0.715 0.101 191.8)",
+    "chart-3": "oklch(0.795 0.035 71.6)",
+    "chart-4": "oklch(0.773 0.086 191.7)",
+    "chart-5": "oklch(0.446 0.020 64.3)",
+    "sidebar": "oklch(0.240 0.025 191.3)",
+    "sidebar-foreground": "oklch(0.935 0.027 80.2)",
+    "sidebar-primary": "oklch(0.702 0.199 43.0)",
+    "sidebar-primary-foreground": "oklch(0.198 0.008 67.4)",
+    "sidebar-accent": "oklch(0.322 0.027 57.1)",
+    "sidebar-accent-foreground": "oklch(0.935 0.027 80.2)",
+    "sidebar-border": "oklch(0.446 0.020 64.3 / 45%)",
+    "sidebar-ring": "oklch(0.715 0.101 191.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for compact dashboard UI, Geist Mono for tabular burrow and tide data, and Noto Sans JP guidance for Japanese navigation, forms, search, table labels, and status text.",
+  "layout": "Asymmetric dashboard grids, offset navigation rails, denser data surfaces opposite large action panels, 8px radii, tidal divider lines, speckled shell texture, mud-brown borders, orange primary actions, and teal focus states.",
+  "tags": [
+    "fiddler-crab",
+    "crustacean",
+    "mangrove-mudflat",
+    "orange-claw",
+    "mud-brown",
+    "teal-water",
+    "asymmetric-dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fiddler-crab/motif.png",
+    "board": "/systems/morphous-fiddler-crab/design-system-light.png",
+    "darkBoard": "/systems/morphous-fiddler-crab/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fiddler-crab/theme.css",
+    "themeJson": "/systems/morphous-fiddler-crab/theme.json",
+    "promptsJson": "/systems/morphous-fiddler-crab/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fiddler crab motif",
+      "asset": "/systems/morphous-fiddler-crab/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, copied from this worker's generated-images snapshot, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous Fiddler Crab transparent motif chroma-key source. Primary request: Create only an isolated fiddler crab claw motif for a design-system catalog, no environment, no props, no text. Subject: A single accurate fiddler crab with strong natural asymmetry: one oversized raised orange male claw, one tiny opposite claw, compact mud-brown carapace, slender legs, eyestalks, subtle teal-water reflected highlights on the shell and leg joints, tiny natural mud speckles on the body, crisp shell texture, and realistic crustacean anatomy. The subject should feel like a mangrove mudflat animal translated into a precise catalog cutout. Composition/framing: centered complete cutout with generous padding; show the full crab, the entire large claw, the small claw, all legs, eyestalks, and body without cropping. Slight three-quarter view, large claw to one side to emphasize asymmetry. Lighting/mood: clean studio light that preserves orange claw, mud brown shell, teal reflected highlights, and fine shell detail. Transparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. Constraints: no beach scene, no mangrove roots, no water puddle, no sand floor, no second crab, no decorative background, no cast shadow, no contact shadow, no reflection, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fiddler-crab/design-system-light.png",
+      "sourceAsset": "/systems/morphous-fiddler-crab/motif.png",
+      "workflow": "Built-in image generation using the transparent motif as visual context, copied from this worker's generated-images snapshot, then saved as a 3840x2160 16:9 PNG.",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Fiddler Crab light-mode design-system board. Input image role: The visible transparent fiddler crab motif is the source reference for palette, texture, contrast, asymmetry, and visual language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Fiddler Crab\", derived from the visible transparent fiddler crab cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board with large readable labels, sparse enough to survive gallery preview downscaling; avoid dense tiny paragraphs. Required visible sections: Morphous Fiddler Crab, Fiddler Crab, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Extract palette and interaction language from the crab's oversized orange claw, mud-brown carapace and legs, wet shell highlights, ivory claw tips, teal water reflections, mangrove mudflat shadows, and tiny shell speckles. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, asymmetrical chart layout, empty/loading/error states, spacing, radius, border, shadow, texture samples, data cards, and simple product icons. Style: premium shadcn/tweakcn-style asymmetric dashboard system, precise product grid, 8px maximum radius, quiet mudflat light surfaces, orange claw primary actions, teal water accents, mud-brown borders, ivory highlights, tidal ripple dividers, speckled shell textures, offset navigation rail, and deliberate asymmetric component weighting inspired by the crab claw. Typography: show English UI type plus Japanese typography guidance, with short readable Japanese samples such as ナビゲーション, 検索, 状態, and データ. Color constraints: use only motif-derived colors and near-neutrals; avoid unrelated saturated colors, generic purple/blue gradients, and one-note orange/brown dominance. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Fiddler Crab\" or \"Fiddler Crab\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fiddler-crab/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-fiddler-crab/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-fiddler-crab/design-system-light.png"
+      ],
+      "workflow": "Built-in image generation using the transparent motif and light board as visual context, copied from this worker's generated-images snapshot, then saved as a 3840x2160 16:9 PNG.",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Fiddler Crab dark-mode design-system board. Input image roles: The visible transparent fiddler crab motif is the source motif reference, and the visible light-mode board is the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Fiddler Crab\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible fiddler crab cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board with large readable labels, sparse enough to survive gallery preview downscaling; avoid dense tiny paragraphs. Required visible sections: Morphous Fiddler Crab, Fiddler Crab, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Preserve the light board's asymmetric dashboard language, section coverage, navigation pattern, cards, forms, table, search palette, status states, token rows, texture samples, 8px radius, and spacing system. Visual details: dark background derived from mangrove mudflat night, wet dark mud, and deep carapace brown; foreground from ivory claw tips and foam highlights; primary actions from vivid orange claw; secondary states from muted teal water; surfaces from charcoal mud, dark umber, and wet shell brown; borders from shell speckles; subtle tidal ripple texture overlays and low, crisp shadows. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, asymmetric charts, empty/loading/error states, forms, tables, status, tokens, texture, radius, spacing, and shadows. Typography: show English UI type plus Japanese typography guidance, with short readable Japanese samples such as ナビゲーション, 検索, 状態, and データ. Color constraints: use only motif-derived colors and near-neutrals; no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background, no one-note orange/brown dominance. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Fiddler Crab\" or \"Fiddler Crab\", no tiny unreadable paragraphs."
+    }
+  ]
+}

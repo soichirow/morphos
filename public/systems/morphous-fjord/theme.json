@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fjord",
+    "name": "Morphous Fjord",
+    "motifName": "Fjord",
+    "motifCategory": "landscape",
+    "biome": "Nordic Coast",
+    "motif": "fjord cliffs"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snowfield",
+      "hex": "#f2f6fa",
+      "oklch": "oklch(0.971 0.007 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Fjord Ink",
+      "hex": "#081220",
+      "oklch": "oklch(0.181 0.033 256.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Deep Water",
+      "hex": "#0e3a5a",
+      "oklch": "oklch(0.337 0.073 244.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Granite",
+      "hex": "#6b7280",
+      "oklch": "oklch(0.551 0.023 264.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ice Mist",
+      "hex": "#e6ecf2",
+      "oklch": "oklch(0.940 0.010 247.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cliff Moss",
+      "hex": "#556b2f",
+      "oklch": "oklch(0.496 0.090 126.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Slate Tide",
+      "hex": "#334155",
+      "oklch": "oklch(0.372 0.039 257.3)"
+    },
+    {
+      "role": "Focus",
+      "name": "Glacial Blue",
+      "hex": "#4fa3d9",
+      "oklch": "oklch(0.686 0.114 239.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Sound",
+      "hex": "#0a1220",
+      "oklch": "oklch(0.182 0.031 261.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.007 247.9)",
+    "foreground": "oklch(0.181 0.033 256.7)",
+    "card": "oklch(0.372 0.039 257.3)",
+    "card-foreground": "oklch(0.181 0.033 256.7)",
+    "popover": "oklch(0.372 0.039 257.3)",
+    "popover-foreground": "oklch(0.181 0.033 256.7)",
+    "primary": "oklch(0.337 0.073 244.9)",
+    "primary-foreground": "oklch(0.971 0.007 247.9)",
+    "secondary": "oklch(0.640 0.023 255.0)",
+    "secondary-foreground": "oklch(0.182 0.031 261.1)",
+    "muted": "oklch(0.554 0.027 254.1)",
+    "muted-foreground": "oklch(0.182 0.031 261.1)",
+    "accent": "oklch(0.940 0.010 247.9)",
+    "accent-foreground": "oklch(0.181 0.033 256.7)",
+    "destructive": "oklch(0.337 0.073 244.9)",
+    "border": "oklch(0.439 0.032 257.1)",
+    "input": "oklch(0.439 0.032 257.1)",
+    "ring": "oklch(0.551 0.023 264.4)",
+    "chart-1": "oklch(0.337 0.073 244.9)",
+    "chart-2": "oklch(0.551 0.023 264.4)",
+    "chart-3": "oklch(0.940 0.010 247.9)",
+    "chart-4": "oklch(0.496 0.090 126.2)",
+    "chart-5": "oklch(0.182 0.031 261.1)",
+    "sidebar": "oklch(0.592 0.025 254.5)",
+    "sidebar-foreground": "oklch(0.181 0.033 256.7)",
+    "sidebar-primary": "oklch(0.337 0.073 244.9)",
+    "sidebar-primary-foreground": "oklch(0.971 0.007 247.9)",
+    "sidebar-accent": "oklch(0.367 0.044 255.1)",
+    "sidebar-accent-foreground": "oklch(0.337 0.073 244.9)",
+    "sidebar-border": "oklch(0.439 0.032 257.1)",
+    "sidebar-ring": "oklch(0.551 0.023 264.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.181 0.033 256.7)",
+    "foreground": "oklch(0.971 0.007 247.9)",
+    "card": "oklch(0.182 0.032 258.9)",
+    "card-foreground": "oklch(0.971 0.007 247.9)",
+    "popover": "oklch(0.182 0.032 258.9)",
+    "popover-foreground": "oklch(0.971 0.007 247.9)",
+    "primary": "oklch(0.551 0.023 264.4)",
+    "primary-foreground": "oklch(0.181 0.033 256.7)",
+    "secondary": "oklch(0.272 0.029 261.4)",
+    "secondary-foreground": "oklch(0.971 0.007 247.9)",
+    "muted": "oklch(0.272 0.029 261.4)",
+    "muted-foreground": "oklch(0.790 0.013 255.5)",
+    "accent": "oklch(0.940 0.010 247.9)",
+    "accent-foreground": "oklch(0.181 0.033 256.7)",
+    "destructive": "oklch(0.337 0.073 244.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.551 0.023 264.4)",
+    "chart-1": "oklch(0.551 0.023 264.4)",
+    "chart-2": "oklch(0.337 0.073 244.9)",
+    "chart-3": "oklch(0.940 0.010 247.9)",
+    "chart-4": "oklch(0.496 0.090 126.2)",
+    "chart-5": "oklch(0.551 0.023 264.4)",
+    "sidebar": "oklch(0.182 0.032 258.9)",
+    "sidebar-foreground": "oklch(0.971 0.007 247.9)",
+    "sidebar-primary": "oklch(0.551 0.023 264.4)",
+    "sidebar-primary-foreground": "oklch(0.181 0.033 256.7)",
+    "sidebar-accent": "oklch(0.272 0.029 261.4)",
+    "sidebar-accent-foreground": "oklch(0.971 0.007 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.551 0.023 264.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise product UI typography with steady numerals and Japanese guidance tuned for planning, timeline, and operations interfaces.",
+  "layout": "Disciplined 8px grids, restrained 8px radius cards, waterline dividers, granite borders, and subtle cliff-strata texture for calm planning workflows.",
+  "tags": [
+    "fjord",
+    "landscape",
+    "nordic-coast",
+    "planning",
+    "deep-blue-water",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fjord/motif.png",
+    "board": "/systems/morphous-fjord/design-system-light.png",
+    "darkBoard": "/systems/morphous-fjord/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fjord/theme.css",
+    "themeJson": "/systems/morphous-fjord/theme.json",
+    "promptsJson": "/systems/morphous-fjord/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent fjord motif",
+      "asset": "/systems/morphous-fjord/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fjord transparent motif chroma-key source\nPrimary request: Create only a fjord cliffs landscape motif for a design-system catalog, isolated as one complete emblematic subject on a removable chroma-key background.\nSubject: A compact Nordic coast fjord scene as a single cutout motif: deep blue still water inlet between steep granite cliffs, dark wet stone faces, pale snow caps and ledges, thin mist at the cliff bases, sparse cold-weather vegetation only as tiny accents. Calm, precise, planning-system mood; geological realism; the motif should read clearly as fjord cliffs and deep blue water.\nComposition/framing: centered complete cutout with generous padding; include water, left and right cliffs, and snow without cropping. Clean studio-style lighting adapted to a natural landscape miniature; no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no boats, no buildings, no people, no aurora, no fantasy glow, no text, no watermark, no generic mountain lake, no tropical colors, no saturated purple/blue gradients."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fjord/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fjord light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Fjord\", derived from a Nordic coast fjord cliffs motif. This board is a source reference for a shadcn/tweakcn-compatible calm planning system.\nCanvas: exact 16:9 board intended for 3840x2160 export, clean professional UI design-system presentation, large legible labels and no tiny paragraphs.\nRequired visible sections: Morphous Fjord, Fjord, Palette, Typography, Japanese Typography, Components, Navigation, Planning Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from deep blue still fjord water, cold granite cliffs, pale snow ledges, mist, and Nordic coast light. The board must read as fjord cliffs and calm planning, not generic blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Planning Notes. Keep text short and legible.\nUI coverage: buttons with icons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, timeline planning rows, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: calm planning system, shadcn/tweakcn-style product UI, 8px radius, snow-white backgrounds, deep fjord primary actions, granite borders, pale ice muted panels, precise grid, quiet charts, subtle cliff-strata texture and waterline dividers, accessible contrast.\nPalette names to show: Snowfield, Fjord Ink, Deep Water, Granite, Ice Mist, Cliff Moss, Slate Tide, Glacial Blue, Night Sound.\nConstraints: no boats, no buildings, no people, no aurora, no generic purple/blue gradients, no neon, no unrelated saturated colors, no stock landscape photo panels, no watermark, no random brand names, no misspelling of \"Morphous Fjord\", no tiny unreadable text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fjord/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Fjord dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Fjord\". It must feel like the light-mode board translated to dark mode and remain derived from a Nordic coast fjord cliffs motif.\nCanvas: exact 16:9 board intended for 3840x2160 export, clean professional UI design-system presentation, large legible labels and no tiny paragraphs.\nRequired visible sections: Morphous Fjord, Fjord, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Planning Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve deep blue water active states, cold granite surfaces, pale snow highlights, ice mist dividers, cliff-strata texture, and calm planning-system rhythm. Must read as fjord cliffs and deep Nordic coast water, not generic dark blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Planning Notes. Keep text short and legible.\nUI coverage: buttons with icons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, timeline planning rows, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: night-fjord ink backgrounds, slate tide cards, glacial blue focus rings, snowfield foreground text, granite borders, deep water buttons, muted ice mist panels, quiet moss success states, calm accessible contrast, 8px radius, precise shadcn/tweakcn grid.\nPalette names to show: Snowfield, Fjord Ink, Deep Water, Granite, Ice Mist, Cliff Moss, Slate Tide, Glacial Blue, Night Sound.\nConstraints: no boats, no buildings, no people, no aurora, no neon, no pure-black-only flat background, no generic purple/blue gradients, no unrelated saturated colors, no stock landscape photo panels, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Fjord\"."
+    }
+  ]
+}

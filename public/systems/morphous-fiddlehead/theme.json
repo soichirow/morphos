@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-fiddlehead",
+    "name": "Morphous Fiddlehead",
+    "motifName": "Fiddlehead Fern",
+    "motifCategory": "plant",
+    "biome": "spring forest",
+    "motif": "fiddlehead curl"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Mist",
+      "hex": "#FCF9EF",
+      "oklch": "oklch(0.982 0.014 93.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Curl Ink",
+      "hex": "#23180F",
+      "oklch": "oklch(0.220 0.024 60.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fern Curl",
+      "hex": "#6AA33D",
+      "oklch": "oklch(0.654 0.147 133.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Frond",
+      "hex": "#9CB85A",
+      "oklch": "oklch(0.741 0.125 123.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "New Growth",
+      "hex": "#E4ECA8",
+      "oklch": "oklch(0.921 0.088 113.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fuzz Umber",
+      "hex": "#8A5F2D",
+      "oklch": "oklch(0.521 0.087 67.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Spore Cream",
+      "hex": "#FFFDF7",
+      "oklch": "oklch(0.994 0.008 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Veil",
+      "hex": "#E6DEC6",
+      "oklch": "oklch(0.901 0.033 91.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Coil",
+      "hex": "#12100B",
+      "oklch": "oklch(0.174 0.010 88.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Fuzz Fiber",
+      "hex": "#B49A68",
+      "oklch": "oklch(0.698 0.074 83.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Spore",
+      "hex": "#9B4A33",
+      "oklch": "oklch(0.507 0.114 36.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.014 93.0)",
+    "foreground": "oklch(0.220 0.024 60.4)",
+    "card": "oklch(0.994 0.008 91.5)",
+    "card-foreground": "oklch(0.220 0.024 60.4)",
+    "popover": "oklch(0.994 0.008 91.5)",
+    "popover-foreground": "oklch(0.220 0.024 60.4)",
+    "primary": "oklch(0.654 0.147 133.6)",
+    "primary-foreground": "oklch(0.982 0.014 93.0)",
+    "secondary": "oklch(0.988 0.010 87.5)",
+    "secondary-foreground": "oklch(0.174 0.010 88.8)",
+    "muted": "oklch(0.991 0.009 93.6)",
+    "muted-foreground": "oklch(0.174 0.010 88.8)",
+    "accent": "oklch(0.921 0.088 113.6)",
+    "accent-foreground": "oklch(0.220 0.024 60.4)",
+    "destructive": "oklch(0.654 0.147 133.6)",
+    "border": "oklch(0.961 0.018 92.7)",
+    "input": "oklch(0.961 0.018 92.7)",
+    "ring": "oklch(0.741 0.125 123.2)",
+    "chart-1": "oklch(0.654 0.147 133.6)",
+    "chart-2": "oklch(0.741 0.125 123.2)",
+    "chart-3": "oklch(0.921 0.088 113.6)",
+    "chart-4": "oklch(0.521 0.087 67.9)",
+    "chart-5": "oklch(0.174 0.010 88.8)",
+    "sidebar": "oklch(0.990 0.011 95.2)",
+    "sidebar-foreground": "oklch(0.220 0.024 60.4)",
+    "sidebar-primary": "oklch(0.654 0.147 133.6)",
+    "sidebar-primary-foreground": "oklch(0.982 0.014 93.0)",
+    "sidebar-accent": "oklch(0.953 0.023 120.2)",
+    "sidebar-accent-foreground": "oklch(0.654 0.147 133.6)",
+    "sidebar-border": "oklch(0.961 0.018 92.7)",
+    "sidebar-ring": "oklch(0.741 0.125 123.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.220 0.024 60.4)",
+    "foreground": "oklch(0.982 0.014 93.0)",
+    "card": "oklch(0.190 0.016 75.9)",
+    "card-foreground": "oklch(0.982 0.014 93.0)",
+    "popover": "oklch(0.190 0.016 75.9)",
+    "popover-foreground": "oklch(0.982 0.014 93.0)",
+    "primary": "oklch(0.741 0.125 123.2)",
+    "primary-foreground": "oklch(0.220 0.024 60.4)",
+    "secondary": "oklch(0.361 0.016 86.9)",
+    "secondary-foreground": "oklch(0.982 0.014 93.0)",
+    "muted": "oklch(0.361 0.016 86.9)",
+    "muted-foreground": "oklch(0.946 0.022 92.5)",
+    "accent": "oklch(0.921 0.088 113.6)",
+    "accent-foreground": "oklch(0.220 0.024 60.4)",
+    "destructive": "oklch(0.654 0.147 133.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.741 0.125 123.2)",
+    "chart-1": "oklch(0.741 0.125 123.2)",
+    "chart-2": "oklch(0.654 0.147 133.6)",
+    "chart-3": "oklch(0.921 0.088 113.6)",
+    "chart-4": "oklch(0.521 0.087 67.9)",
+    "chart-5": "oklch(0.901 0.033 91.7)",
+    "sidebar": "oklch(0.198 0.018 66.5)",
+    "sidebar-foreground": "oklch(0.982 0.014 93.0)",
+    "sidebar-primary": "oklch(0.741 0.125 123.2)",
+    "sidebar-primary-foreground": "oklch(0.220 0.024 60.4)",
+    "sidebar-accent": "oklch(0.361 0.016 86.9)",
+    "sidebar-accent-foreground": "oklch(0.982 0.014 93.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.741 0.125 123.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear English product UI with Japanese typography guidance for onboarding steps, activation progress, team invitations, command search, status messages, and compact setup tables.",
+  "layout": "Organic onboarding dashboards, guided setup steppers, compact navigation, 8px radii, fern-green actions, spore-cream surfaces, moss progress marks, fuzz-fiber dividers, and restrained bark-neutral borders.",
+  "tags": [
+    "fiddlehead",
+    "fiddlehead-fern",
+    "plant",
+    "spring-forest",
+    "fern-green",
+    "brown-fuzz",
+    "moss",
+    "organic-onboarding-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-fiddlehead/motif.png",
+    "board": "/systems/morphous-fiddlehead/design-system-light.png",
+    "darkBoard": "/systems/morphous-fiddlehead/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-fiddlehead/theme.css",
+    "themeJson": "/systems/morphous-fiddlehead/theme.json",
+    "promptsJson": "/systems/morphous-fiddlehead/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Fiddlehead Fern motif",
+      "asset": "/systems/morphous-fiddlehead/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Fiddlehead transparent motif chroma-key source\nPrimary request: Create only a single young fiddlehead fern curl with a few tiny unfurling fronds, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: spiral fiddlehead curl, fern green stem, tightly coiled spring forest fronds, fine brown protective fuzz along the curl and stem, small moss-green highlights, subtle natural asymmetry, botanical detail, opaque subject with crisp silhouette.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp edges, natural soft studio light.\nComposition/framing: centered complete cutout with generous padding on all sides; vertical organic S-curve; no cropping; no floor plane.\nLighting/mood: spring forest onboarding-system mood, fresh, tactile, calm; no cast shadow and no contact shadow.\nColor palette: fern green, moss, brown fuzz, shadowed bark-brown, pale new-growth highlights only; do not use magenta anywhere in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no background plants, no soil patch, no decorative scene, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-fiddlehead/design-system-light.png",
+      "sourceAsset": "/systems/morphous-fiddlehead/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Fiddlehead Fern motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Fiddlehead\".\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: organic onboarding system for account setup, guided activation, progress tracking, team invitations, and spring forest learning flows; calm, tactile, fresh, operational, with 8px radii throughout.\nColor palette: derive only from the reference motif: fern green stem, moss green highlights, pale new-growth lime, brown protective fuzz, deep bark-brown shadow, damp forest floor brown, soft spore cream, misty off-white spring forest surfaces. Do not introduce unrelated blue, purple, orange, or generic SaaS gradient colors.\nLayout: polished product design board, left palette/token rail, central component and form examples, right onboarding dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small fiddlehead motif cutout preview.\nTypography: clear English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"フィドルヘッド\", \"開始手順\", \"進捗\", \"招待\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, onboarding stepper, progress cards, activation checklist, team invitation form, setup table, growth chart, loading/empty/error/success states.\nTexture/materials: subtle spiral fern curl texture, fine brown fuzz as hairline dividers, moss speckles, bark-edge borders, soft spore-cream panels, compact 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no blue/purple SaaS defaults, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-fiddlehead/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-fiddlehead/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible Fiddlehead Fern motif and the visible Morphous Fiddlehead light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Fiddlehead\" with the same organic onboarding-system coverage and layout logic as the light board.\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: organic onboarding system for account setup, guided activation, progress tracking, team invitations, and spring forest learning flows; night forest interface, calm, tactile, fresh, operational, with 8px radii throughout.\nColor palette: derive only from the reference motif: deep bark-brown and forest-floor backgrounds, dark moss panels, fresh fern green primary controls, pale new-growth lime chart accents, brown fuzz dividers, spore-cream text highlights, warm forest-neutral borders. Do not introduce unrelated blue, purple, orange, neon, or generic SaaS gradient colors.\nLayout: polished dark product design board, left palette/token rail, central component and form examples, right onboarding dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small fiddlehead motif cutout preview.\nTypography: clear English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"フィドルヘッド\", \"開始手順\", \"進捗\", \"招待\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, onboarding stepper, progress cards, activation checklist, team invitation form, setup table, growth chart, loading/empty/error/success states.\nTexture/materials: subtle spiral fern curl texture, dark fine brown fuzz as hairline dividers, moss speckles, bark-edge borders, low-contrast spore-cream panels, compact 8px card rhythm.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no pure black flat background, no blue/purple gradients, no watermark."
+    }
+  ]
+}

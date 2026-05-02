@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-glasswing",
+    "name": "Morphous Glasswing",
+    "motifName": "Glasswing Butterfly",
+    "motifCategory": "insect",
+    "biome": "Cloud Forest",
+    "motif": "transparent wing amber vein leaf green"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Glass White",
+      "hex": "#FDFEFD",
+      "oklch": "oklch(0.996 0.002 145.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Body Ink",
+      "hex": "#3A2B1A",
+      "oklch": "oklch(0.302 0.036 69.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Vein",
+      "hex": "#C4711C",
+      "oklch": "oklch(0.628 0.138 59.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#6FAF88",
+      "oklch": "oklch(0.700 0.088 156.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Soft Amber",
+      "hex": "#E8B15A",
+      "oklch": "oklch(0.794 0.122 76.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Glow",
+      "hex": "#F2C876",
+      "oklch": "oklch(0.852 0.111 83.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cloud Mist",
+      "hex": "#EEF2EF",
+      "oklch": "oklch(0.957 0.006 153.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss",
+      "hex": "#5E6F4A",
+      "oklch": "oklch(0.517 0.059 128.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Shadow",
+      "hex": "#2F3A31",
+      "oklch": "oklch(0.335 0.021 150.4)"
+    },
+    {
+      "role": "Membrane",
+      "name": "Translucent Membrane",
+      "hex": "#F5F7F5",
+      "oklch": "oklch(0.974 0.003 145.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.996 0.002 145.6)",
+    "foreground": "oklch(0.302 0.036 69.3)",
+    "card": "oklch(0.957 0.006 153.8)",
+    "card-foreground": "oklch(0.302 0.036 69.3)",
+    "popover": "oklch(0.957 0.006 153.8)",
+    "popover-foreground": "oklch(0.302 0.036 69.3)",
+    "primary": "oklch(0.628 0.138 59.6)",
+    "primary-foreground": "oklch(0.996 0.002 145.6)",
+    "secondary": "oklch(0.973 0.004 157.2)",
+    "secondary-foreground": "oklch(0.335 0.021 150.4)",
+    "muted": "oklch(0.967 0.004 157.2)",
+    "muted-foreground": "oklch(0.335 0.021 150.4)",
+    "accent": "oklch(0.794 0.122 76.9)",
+    "accent-foreground": "oklch(0.302 0.036 69.3)",
+    "destructive": "oklch(0.628 0.138 59.6)",
+    "border": "oklch(0.806 0.023 132.6)",
+    "input": "oklch(0.806 0.023 132.6)",
+    "ring": "oklch(0.700 0.088 156.5)",
+    "chart-1": "oklch(0.628 0.138 59.6)",
+    "chart-2": "oklch(0.700 0.088 156.5)",
+    "chart-3": "oklch(0.794 0.122 76.9)",
+    "chart-4": "oklch(0.852 0.111 83.0)",
+    "chart-5": "oklch(0.335 0.021 150.4)",
+    "sidebar": "oklch(0.970 0.004 157.2)",
+    "sidebar-foreground": "oklch(0.302 0.036 69.3)",
+    "sidebar-primary": "oklch(0.628 0.138 59.6)",
+    "sidebar-primary-foreground": "oklch(0.996 0.002 145.6)",
+    "sidebar-accent": "oklch(0.917 0.019 86.1)",
+    "sidebar-accent-foreground": "oklch(0.628 0.138 59.6)",
+    "sidebar-border": "oklch(0.806 0.023 132.6)",
+    "sidebar-ring": "oklch(0.700 0.088 156.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.302 0.036 69.3)",
+    "foreground": "oklch(0.996 0.002 145.6)",
+    "card": "oklch(0.323 0.021 115.3)",
+    "card-foreground": "oklch(0.996 0.002 145.6)",
+    "popover": "oklch(0.323 0.021 115.3)",
+    "popover-foreground": "oklch(0.996 0.002 145.6)",
+    "primary": "oklch(0.628 0.138 59.6)",
+    "primary-foreground": "oklch(0.996 0.002 145.6)",
+    "secondary": "oklch(0.378 0.030 141.4)",
+    "secondary-foreground": "oklch(0.996 0.002 145.6)",
+    "muted": "oklch(0.378 0.030 141.4)",
+    "muted-foreground": "oklch(0.789 0.027 128.8)",
+    "accent": "oklch(0.794 0.122 76.9)",
+    "accent-foreground": "oklch(0.302 0.036 69.3)",
+    "destructive": "oklch(0.628 0.138 59.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.700 0.088 156.5)",
+    "chart-1": "oklch(0.628 0.138 59.6)",
+    "chart-2": "oklch(0.700 0.088 156.5)",
+    "chart-3": "oklch(0.794 0.122 76.9)",
+    "chart-4": "oklch(0.852 0.111 83.0)",
+    "chart-5": "oklch(0.517 0.059 128.4)",
+    "sidebar": "oklch(0.316 0.022 96.6)",
+    "sidebar-foreground": "oklch(0.996 0.002 145.6)",
+    "sidebar-primary": "oklch(0.628 0.138 59.6)",
+    "sidebar-primary-foreground": "oklch(0.996 0.002 145.6)",
+    "sidebar-accent": "oklch(0.378 0.030 141.4)",
+    "sidebar-accent-foreground": "oklch(0.996 0.002 145.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.700 0.088 156.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clear product UI with Noto Sans JP guidance for Japanese labels, compact data tables, numeric rhythm, and calm multilingual controls.",
+  "layout": "Strict 8px radii, amber vein dividers, translucent membrane cards, cloud-mist surfaces, compact navigation, dashboard/data density, and leaf-green focus affordances.",
+  "tags": [
+    "glasswing",
+    "butterfly",
+    "insect",
+    "cloud-forest",
+    "transparent-wing",
+    "amber-vein",
+    "leaf-green",
+    "light-interface",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-glasswing/motif.png",
+    "board": "/systems/morphous-glasswing/design-system-light.png",
+    "darkBoard": "/systems/morphous-glasswing/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-glasswing/theme.css",
+    "themeJson": "/systems/morphous-glasswing/theme.json",
+    "promptsJson": "/systems/morphous-glasswing/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Motif",
+      "asset": "/systems/morphous-glasswing/motif.png",
+      "workflow": "Built-in image_gen chroma-key source on #ff00ff, then local remove_chroma_key alpha extraction.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a glasswing butterfly, isolated full subject, no environment, no props, no text.\nSubject: A glasswing butterfly with accurate insect anatomy, transparent glass-like wing membranes, fine amber-brown veins, warm amber body, subtle leaf-green iridescent edge notes, delicate legs and antennae, crisp silhouette edges.\nComposition/framing: centered complete cutout with generous padding; show all four wings and the full body without cropping.\nLighting/mood: clean studio light that preserves transparent wing detail, amber veins, leaf-green reflections, and fine anatomical structure.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no flowers, no forest background, no leaf perch, no second insect, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light Design System",
+      "asset": "/systems/morphous-glasswing/design-system-light.png",
+      "sourceAsset": "/systems/morphous-glasswing/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Glasswing\", derived from the glasswing butterfly motif with transparent wing membranes, amber veins, leaf-green notes, and cloud-forest mist.\nReference use: Use the glasswing butterfly motif generated above as the visual source. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the transparent wings, amber veins, leaf green, warm body neutrals, and cloud-forest mist.\nCanvas: wide 16:9 landscape board, high-resolution 4K-class source image, designed to be readable when scaled down.\nRequired visible sections: Morphous Glasswing, Glasswing Butterfly, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese examples; labels should include Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sidebar navigation, top navigation, dashboard metric cards, line and bar charts, table rows, command/search menu, status chips, loading/empty/error states, token swatches, texture samples, spacing/radius/shadow samples.\nStyle/medium: premium shadcn/tweakcn-style product design system board, precise grid, 8px radius cards and controls, airy light interface system, translucent wing panels, amber vein dividers, leaf-green focus states, cloud-forest mist surfaces.\nColor palette: use only motif-derived colors and near-neutrals from the motif: wing glass white, cloud mist, amber vein, warm thorax ink, leaf green, moss shadow, translucent membrane, soft amber signal.\nText: use short readable UI labels only; avoid paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no neon rainbow palette, no stock UI kit look, no random brand names, no watermark, no misspelling of \"Morphous Glasswing\" or \"Glasswing Butterfly\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark Design System",
+      "asset": "/systems/morphous-glasswing/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-glasswing/motif.png",
+        "/systems/morphous-glasswing/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for a Morphous theme named \"Morphous Glasswing\" / \"Glasswing Butterfly\". Translate the light-mode Morphous Glasswing board into dark mode; keep it recognizably the same system, not a new theme.\nReference use: Use the glasswing butterfly motif and the light-mode Morphous Glasswing board generated above as strict references for palette roles, texture rhythm, component coverage, typography hierarchy, board organization, amber vein dividers, cloud-forest surfaces, and 8px radii.\nCanvas: wide 16:9 landscape board, high-resolution 4K-class source image, readable when scaled down.\nRequired visible sections: Morphous Glasswing, Glasswing Butterfly, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: dark background derived from warm thorax ink and deep forest shadow; readable text in wing glass white and cloud mist; amber veins as primary action and chart color; leaf green support color; soft amber signal accents; translucent wing membrane panels; fine amber vein grids; cloud-forest haze; precise analytical hierarchy; shadcn/tweakcn-style controls; compact 8px radius cards and controls.\nTypography: include English and Japanese guidance with short readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sidebar navigation, dashboard metric cards, line and bar charts, table rows, command/search menu, status chips, loading/empty/error states, token swatches, texture samples, spacing/radius/shadow samples.\nColor palette: use only motif-derived colors and near-neutrals from the motif: body ink, forest shadow, moss, leaf green, amber vein, soft amber, wing glass white, cloud mist, membrane gray.\nText: use short readable UI labels only; avoid paragraphs.\nConstraints: no unrelated insects, no unrelated bright colors, no generic purple gradients, no neon rainbow palette, no pure black flat-only background, no stock UI kit look, no random brand names, no watermark, no misspelling of \"Morphous Glasswing\" or \"Glasswing Butterfly\"."
+    }
+  ]
+}

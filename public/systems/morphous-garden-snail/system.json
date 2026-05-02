@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 427,
+  "slug": "morphous-garden-snail",
+  "name": "Morphous Garden Snail",
+  "motifName": "Garden Snail",
+  "motifCategory": "mollusk",
+  "biome": "garden wall",
+  "motif": "garden snail shell",
+  "description": "A shadcn/tweakcn-compatible slow task system derived from a garden snail's spiral brown shell, moist taupe body, moss greens, lichen sage, and aged garden-wall stone: warm shell actions, mossy support states, parchment surfaces, and deliberate queue-progress patterns.",
+  "typography": "Inter or Geist for English product UI with Noto Sans JP guidance for Japanese labels, tabular numbers, calm headings, and patient queue workflows.",
+  "layout": "8px grid, mostly 8px radii, spiral-shell progress indicators, shell-growth-line dividers, mossy wall texture panels, compact navigation, and measured shadows for slow task tracking.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows",
+    "sample usage"
+  ],
+  "tags": [
+    "garden snail",
+    "mollusk",
+    "garden wall",
+    "spiral shell",
+    "moss green",
+    "slow task system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment",
+      "hex": "#F6F1E6",
+      "oklch": "oklch(0.959 0.016 86.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Walnut Ink",
+      "hex": "#3A2A1F",
+      "oklch": "oklch(0.300 0.030 55.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Umber",
+      "hex": "#865A28",
+      "oklch": "oklch(0.505 0.087 66.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Amber Band",
+      "hex": "#C47A2C",
+      "oklch": "oklch(0.627 0.139 60.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#6B7F4A",
+      "oklch": "oklch(0.567 0.080 125.7)"
+    },
+    {
+      "role": "Support",
+      "name": "Lichen Sage",
+      "hex": "#A6B58A",
+      "oklch": "oklch(0.735 0.061 119.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wet Cream",
+      "hex": "#FFF8E8",
+      "oklch": "oklch(0.982 0.027 88.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Body Taupe",
+      "hex": "#B8AA97",
+      "oklch": "oklch(0.733 0.022 72.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Border",
+      "hex": "#D6CEC2",
+      "oklch": "oklch(0.843 0.015 72.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shell Crevice",
+      "hex": "#1E1712",
+      "oklch": "oklch(0.180 0.018 54.0)"
+    },
+    {
+      "role": "Chart",
+      "name": "Lichen Stone",
+      "hex": "#9C958B",
+      "oklch": "oklch(0.665 0.010 74.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Muted Brick",
+      "hex": "#A14D3B",
+      "oklch": "oklch(0.509 0.104 35.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.972 0.021 88.7)",
+    "foreground": "oklch(0.246 0.027 55.0)",
+    "card": "oklch(0.982 0.027 88.0)",
+    "card-foreground": "oklch(0.246 0.027 55.0)",
+    "popover": "oklch(0.982 0.027 88.0)",
+    "popover-foreground": "oklch(0.246 0.027 55.0)",
+    "primary": "oklch(0.489 0.094 63.3)",
+    "primary-foreground": "oklch(0.982 0.027 88.0)",
+    "secondary": "oklch(0.907 0.037 86.0)",
+    "secondary-foreground": "oklch(0.246 0.027 55.0)",
+    "muted": "oklch(0.910 0.018 77.0)",
+    "muted-foreground": "oklch(0.456 0.029 65.0)",
+    "accent": "oklch(0.735 0.061 119.6)",
+    "accent-foreground": "oklch(0.246 0.027 55.0)",
+    "destructive": "oklch(0.509 0.104 35.0)",
+    "border": "oklch(0.843 0.015 72.8)",
+    "input": "oklch(0.843 0.015 72.8)",
+    "ring": "oklch(0.559 0.074 125.3)",
+    "chart-1": "oklch(0.489 0.094 63.3)",
+    "chart-2": "oklch(0.627 0.139 60.2)",
+    "chart-3": "oklch(0.559 0.074 125.3)",
+    "chart-4": "oklch(0.735 0.061 119.6)",
+    "chart-5": "oklch(0.665 0.010 74.0)",
+    "sidebar": "oklch(0.950 0.025 87.0)",
+    "sidebar-foreground": "oklch(0.246 0.027 55.0)",
+    "sidebar-primary": "oklch(0.489 0.094 63.3)",
+    "sidebar-primary-foreground": "oklch(0.982 0.027 88.0)",
+    "sidebar-accent": "oklch(0.907 0.037 86.0)",
+    "sidebar-accent-foreground": "oklch(0.246 0.027 55.0)",
+    "sidebar-border": "oklch(0.843 0.015 72.8)",
+    "sidebar-ring": "oklch(0.559 0.074 125.3)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.180 0.018 54.0)",
+    "foreground": "oklch(0.982 0.027 88.0)",
+    "card": "oklch(0.246 0.027 55.0)",
+    "card-foreground": "oklch(0.982 0.027 88.0)",
+    "popover": "oklch(0.246 0.027 55.0)",
+    "popover-foreground": "oklch(0.982 0.027 88.0)",
+    "primary": "oklch(0.718 0.116 67.0)",
+    "primary-foreground": "oklch(0.180 0.018 54.0)",
+    "secondary": "oklch(0.318 0.039 63.0)",
+    "secondary-foreground": "oklch(0.982 0.027 88.0)",
+    "muted": "oklch(0.324 0.019 68.0)",
+    "muted-foreground": "oklch(0.783 0.019 74.0)",
+    "accent": "oklch(0.665 0.070 124.0)",
+    "accent-foreground": "oklch(0.982 0.027 88.0)",
+    "destructive": "oklch(0.628 0.123 36.0)",
+    "border": "oklch(0.982 0.027 88.0 / 14%)",
+    "input": "oklch(0.982 0.027 88.0 / 18%)",
+    "ring": "oklch(0.718 0.116 67.0)",
+    "chart-1": "oklch(0.718 0.116 67.0)",
+    "chart-2": "oklch(0.755 0.129 72.0)",
+    "chart-3": "oklch(0.665 0.070 124.0)",
+    "chart-4": "oklch(0.735 0.061 119.6)",
+    "chart-5": "oklch(0.733 0.022 72.0)",
+    "sidebar": "oklch(0.225 0.023 55.0)",
+    "sidebar-foreground": "oklch(0.982 0.027 88.0)",
+    "sidebar-primary": "oklch(0.718 0.116 67.0)",
+    "sidebar-primary-foreground": "oklch(0.180 0.018 54.0)",
+    "sidebar-accent": "oklch(0.318 0.039 63.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.027 88.0)",
+    "sidebar-border": "oklch(0.982 0.027 88.0 / 14%)",
+    "sidebar-ring": "oklch(0.718 0.116 67.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

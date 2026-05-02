@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-garden-snail",
+    "name": "Morphous Garden Snail",
+    "motifName": "Garden Snail",
+    "motifCategory": "mollusk",
+    "biome": "garden wall",
+    "motif": "garden snail shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment",
+      "hex": "#F6F1E6",
+      "oklch": "oklch(0.959 0.016 86.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Walnut Ink",
+      "hex": "#3A2A1F",
+      "oklch": "oklch(0.300 0.030 55.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Umber",
+      "hex": "#865A28",
+      "oklch": "oklch(0.505 0.087 66.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Amber Band",
+      "hex": "#C47A2C",
+      "oklch": "oklch(0.627 0.139 60.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#6B7F4A",
+      "oklch": "oklch(0.567 0.080 125.7)"
+    },
+    {
+      "role": "Support",
+      "name": "Lichen Sage",
+      "hex": "#A6B58A",
+      "oklch": "oklch(0.735 0.061 119.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wet Cream",
+      "hex": "#FFF8E8",
+      "oklch": "oklch(0.982 0.027 88.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Body Taupe",
+      "hex": "#B8AA97",
+      "oklch": "oklch(0.733 0.022 72.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Border",
+      "hex": "#D6CEC2",
+      "oklch": "oklch(0.843 0.015 72.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shell Crevice",
+      "hex": "#1E1712",
+      "oklch": "oklch(0.180 0.018 54.0)"
+    },
+    {
+      "role": "Chart",
+      "name": "Lichen Stone",
+      "hex": "#9C958B",
+      "oklch": "oklch(0.665 0.010 74.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Muted Brick",
+      "hex": "#A14D3B",
+      "oklch": "oklch(0.509 0.104 35.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.021 88.7)",
+    "foreground": "oklch(0.246 0.027 55.0)",
+    "card": "oklch(0.982 0.027 88.0)",
+    "card-foreground": "oklch(0.246 0.027 55.0)",
+    "popover": "oklch(0.982 0.027 88.0)",
+    "popover-foreground": "oklch(0.246 0.027 55.0)",
+    "primary": "oklch(0.489 0.094 63.3)",
+    "primary-foreground": "oklch(0.982 0.027 88.0)",
+    "secondary": "oklch(0.907 0.037 86.0)",
+    "secondary-foreground": "oklch(0.246 0.027 55.0)",
+    "muted": "oklch(0.910 0.018 77.0)",
+    "muted-foreground": "oklch(0.456 0.029 65.0)",
+    "accent": "oklch(0.735 0.061 119.6)",
+    "accent-foreground": "oklch(0.246 0.027 55.0)",
+    "destructive": "oklch(0.509 0.104 35.0)",
+    "border": "oklch(0.843 0.015 72.8)",
+    "input": "oklch(0.843 0.015 72.8)",
+    "ring": "oklch(0.559 0.074 125.3)",
+    "chart-1": "oklch(0.489 0.094 63.3)",
+    "chart-2": "oklch(0.627 0.139 60.2)",
+    "chart-3": "oklch(0.559 0.074 125.3)",
+    "chart-4": "oklch(0.735 0.061 119.6)",
+    "chart-5": "oklch(0.665 0.010 74.0)",
+    "sidebar": "oklch(0.950 0.025 87.0)",
+    "sidebar-foreground": "oklch(0.246 0.027 55.0)",
+    "sidebar-primary": "oklch(0.489 0.094 63.3)",
+    "sidebar-primary-foreground": "oklch(0.982 0.027 88.0)",
+    "sidebar-accent": "oklch(0.907 0.037 86.0)",
+    "sidebar-accent-foreground": "oklch(0.246 0.027 55.0)",
+    "sidebar-border": "oklch(0.843 0.015 72.8)",
+    "sidebar-ring": "oklch(0.559 0.074 125.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.180 0.018 54.0)",
+    "foreground": "oklch(0.982 0.027 88.0)",
+    "card": "oklch(0.246 0.027 55.0)",
+    "card-foreground": "oklch(0.982 0.027 88.0)",
+    "popover": "oklch(0.246 0.027 55.0)",
+    "popover-foreground": "oklch(0.982 0.027 88.0)",
+    "primary": "oklch(0.718 0.116 67.0)",
+    "primary-foreground": "oklch(0.180 0.018 54.0)",
+    "secondary": "oklch(0.318 0.039 63.0)",
+    "secondary-foreground": "oklch(0.982 0.027 88.0)",
+    "muted": "oklch(0.324 0.019 68.0)",
+    "muted-foreground": "oklch(0.783 0.019 74.0)",
+    "accent": "oklch(0.665 0.070 124.0)",
+    "accent-foreground": "oklch(0.982 0.027 88.0)",
+    "destructive": "oklch(0.628 0.123 36.0)",
+    "border": "oklch(0.982 0.027 88.0 / 14%)",
+    "input": "oklch(0.982 0.027 88.0 / 18%)",
+    "ring": "oklch(0.718 0.116 67.0)",
+    "chart-1": "oklch(0.718 0.116 67.0)",
+    "chart-2": "oklch(0.755 0.129 72.0)",
+    "chart-3": "oklch(0.665 0.070 124.0)",
+    "chart-4": "oklch(0.735 0.061 119.6)",
+    "chart-5": "oklch(0.733 0.022 72.0)",
+    "sidebar": "oklch(0.225 0.023 55.0)",
+    "sidebar-foreground": "oklch(0.982 0.027 88.0)",
+    "sidebar-primary": "oklch(0.718 0.116 67.0)",
+    "sidebar-primary-foreground": "oklch(0.180 0.018 54.0)",
+    "sidebar-accent": "oklch(0.318 0.039 63.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.027 88.0)",
+    "sidebar-border": "oklch(0.982 0.027 88.0 / 14%)",
+    "sidebar-ring": "oklch(0.718 0.116 67.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for English product UI with Noto Sans JP guidance for Japanese labels, tabular numbers, calm headings, and patient queue workflows.",
+  "layout": "8px grid, mostly 8px radii, spiral-shell progress indicators, shell-growth-line dividers, mossy wall texture panels, compact navigation, and measured shadows for slow task tracking.",
+  "tags": [
+    "garden snail",
+    "mollusk",
+    "garden wall",
+    "spiral shell",
+    "moss green",
+    "slow task system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-garden-snail/motif.png",
+    "board": "/systems/morphous-garden-snail/design-system-light.png",
+    "darkBoard": "/systems/morphous-garden-snail/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-garden-snail/theme.css",
+    "themeJson": "/systems/morphous-garden-snail/theme.json",
+    "promptsJson": "/systems/morphous-garden-snail/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Garden Snail motif",
+      "asset": "/systems/morphous-garden-snail/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated garden snail for a design-system catalog, no environment, no props, no text.\nSubject: Garden snail with accurate mollusk anatomy: spiral brown shell with amber, umber, and cream bands; moist taupe-gray body; extended head and eyestalks; subtle moss-green tint in natural highlights; fine shell growth rings and soft skin texture; crisp opaque silhouette edges. The snail should feel calm, deliberate, and suitable for a slow task system.\nComposition/framing: centered complete cutout with generous padding; side three-quarter view showing full spiral shell and body; do not crop shell, eyestalks, foot, or tail.\nLighting/mood: clean studio light that preserves spiral shell detail, moss-garden undertones, and natural moist texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no garden scene, no wall, no leaves, no soil, no second snail, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-garden-snail/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-garden-snail/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Garden Snail\" / \"Garden Snail\" derived from the provided garden snail motif cutout.\nReference use: Use the snail image in this conversation as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the spiral brown shell, amber shell bands, moist taupe body, subtle cream highlights, and moss-green garden-wall context. Use only motif-derived colors plus near-neutrals visible in shell, body, moss, and aged garden wall.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Garden Snail\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, tables, command/search, status states, texture, radius, spacing, shadows, tokens, sample usage.\nTypography: English UI guidance and Japanese UI guidance with short examples; modern sans product typography; tabular numbers; relaxed but readable hierarchy for a slow task system.\nStyle/medium: premium shadcn/tweakcn-compatible product operations design system, precise grid, crisp UI mockup, calm slow-task workflow language, mostly 8px radii, shell-spiral progress cues, fine shell-growth-line texture, mossy garden-wall separators.\nColor palette: warm shell umber primary, deep walnut ink, moss green support, lichen sage accent, parchment shell surfaces, taupe body muted fields, wet highlight cream, aged stone borders. No unrelated colors.\nUI coverage details: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, kanban/queue navigation, dashboard chart cards, KPI cards, queue progress states, loading/empty/error states, spacing/radius/shadow token swatches.\nText: short readable UI labels only; no paragraphs. Include both English and Japanese labels such as Queue, Slow Tasks, 進行中, 完了, 保留.\nConstraints: no generic purple gradients, no bright blue UI, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-garden-snail/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-garden-snail/motif.png",
+        "/systems/morphous-garden-snail/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Garden Snail\" / \"Garden Snail\". It must feel like the same system translated from the light board visible in this conversation, not a new theme.\nReference use: Use the garden snail motif and the light-mode design-system board visible in this conversation as references. Preserve motif-derived palette roles, shell-spiral progress language, fine shell-growth-line textures, mossy garden-wall context, mostly 8px radii, product operations layout, component language, spacing, and typography guidance.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Garden Snail\", Dark Mode, palette, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, tables, command/search, status states, texture, radius, spacing, shadows, tokens, sample usage.\nVisual details: dark background derived from deep walnut shell shadows and damp garden-wall crevices; text from wet cream shell highlights; warm shell umber primary, amber band chart color, moss green support, lichen sage accent, taupe muted fields, stone borders, restrained destructive state from muted brick only. Use subtle spiral-shell contour texture and moss wall pattern crops inside token swatches.\nUI coverage details: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, kanban/queue navigation, dashboard chart cards, KPI cards, queue progress states, loading/empty/error states, spacing/radius/shadow token swatches.\nTypography: English UI guidance and Japanese UI guidance with short examples; modern sans product typography; tabular numbers; calm hierarchy for slow task workflows.\nText: short readable UI labels only; no paragraphs. Include both English and Japanese labels such as Queue, Slow Tasks, 進行中, 完了, 保留.\nStyle/medium: premium shadcn/tweakcn-compatible dark product operations design system, precise grid, crisp dark UI mockup, calm and grounded, mostly 8px radii.\nConstraints: no neon colors, no pure black flat background, no generic purple gradients, no bright blue UI, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout."
+    }
+  ]
+}

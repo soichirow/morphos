@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-giraffe",
+    "name": "Morphous Giraffe",
+    "motifName": "Giraffe",
+    "motifCategory": "mammal",
+    "biome": "Acacia savanna",
+    "motif": "giraffe patches"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Savanna Paper",
+      "hex": "#f6ead6",
+      "oklch": "oklch(0.941 0.030 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Shade",
+      "hex": "#1f1712",
+      "oklch": "oklch(0.213 0.016 53.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Giraffe Ochre",
+      "hex": "#c98832",
+      "oklch": "oklch(0.678 0.127 69.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chestnut Patch",
+      "hex": "#7a3f16",
+      "oklch": "oklch(0.435 0.097 51.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Blue",
+      "hex": "#8fc6df",
+      "oklch": "oklch(0.797 0.067 227.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Acacia Green",
+      "hex": "#6f8a42",
+      "oklch": "oklch(0.596 0.104 126.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Highlight",
+      "hex": "#fff4dc",
+      "oklch": "oklch(0.969 0.034 86.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Tan",
+      "hex": "#d7b47a",
+      "oklch": "oklch(0.788 0.085 79.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hoof Umber",
+      "hex": "#2c1d15",
+      "oklch": "oklch(0.247 0.028 49.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.941 0.030 80.7)",
+    "foreground": "oklch(0.213 0.016 53.6)",
+    "card": "oklch(0.969 0.034 86.3)",
+    "card-foreground": "oklch(0.213 0.016 53.6)",
+    "popover": "oklch(0.969 0.034 86.3)",
+    "popover-foreground": "oklch(0.213 0.016 53.6)",
+    "primary": "oklch(0.678 0.127 69.7)",
+    "primary-foreground": "oklch(0.941 0.030 80.7)",
+    "secondary": "oklch(0.958 0.032 85.5)",
+    "secondary-foreground": "oklch(0.247 0.028 49.1)",
+    "muted": "oklch(0.961 0.032 85.5)",
+    "muted-foreground": "oklch(0.247 0.028 49.1)",
+    "accent": "oklch(0.797 0.067 227.9)",
+    "accent-foreground": "oklch(0.213 0.016 53.6)",
+    "destructive": "oklch(0.678 0.127 69.7)",
+    "border": "oklch(0.905 0.052 82.3)",
+    "input": "oklch(0.905 0.052 82.3)",
+    "ring": "oklch(0.435 0.097 51.5)",
+    "chart-1": "oklch(0.678 0.127 69.7)",
+    "chart-2": "oklch(0.435 0.097 51.5)",
+    "chart-3": "oklch(0.797 0.067 227.9)",
+    "chart-4": "oklch(0.596 0.104 126.3)",
+    "chart-5": "oklch(0.247 0.028 49.1)",
+    "sidebar": "oklch(0.961 0.032 85.5)",
+    "sidebar-foreground": "oklch(0.213 0.016 53.6)",
+    "sidebar-primary": "oklch(0.678 0.127 69.7)",
+    "sidebar-primary-foreground": "oklch(0.941 0.030 80.7)",
+    "sidebar-accent": "oklch(0.934 0.045 81.3)",
+    "sidebar-accent-foreground": "oklch(0.678 0.127 69.7)",
+    "sidebar-border": "oklch(0.905 0.052 82.3)",
+    "sidebar-ring": "oklch(0.435 0.097 51.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.213 0.016 53.6)",
+    "foreground": "oklch(0.941 0.030 80.7)",
+    "card": "oklch(0.236 0.024 49.4)",
+    "card-foreground": "oklch(0.941 0.030 80.7)",
+    "popover": "oklch(0.236 0.024 49.4)",
+    "popover-foreground": "oklch(0.941 0.030 80.7)",
+    "primary": "oklch(0.435 0.097 51.5)",
+    "primary-foreground": "oklch(0.213 0.016 53.6)",
+    "secondary": "oklch(0.380 0.041 64.6)",
+    "secondary-foreground": "oklch(0.941 0.030 80.7)",
+    "muted": "oklch(0.380 0.041 64.6)",
+    "muted-foreground": "oklch(0.873 0.055 80.7)",
+    "accent": "oklch(0.797 0.067 227.9)",
+    "accent-foreground": "oklch(0.213 0.016 53.6)",
+    "destructive": "oklch(0.678 0.127 69.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.435 0.097 51.5)",
+    "chart-1": "oklch(0.435 0.097 51.5)",
+    "chart-2": "oklch(0.678 0.127 69.7)",
+    "chart-3": "oklch(0.797 0.067 227.9)",
+    "chart-4": "oklch(0.596 0.104 126.3)",
+    "chart-5": "oklch(0.788 0.085 79.6)",
+    "sidebar": "oklch(0.229 0.022 53.8)",
+    "sidebar-foreground": "oklch(0.941 0.030 80.7)",
+    "sidebar-primary": "oklch(0.435 0.097 51.5)",
+    "sidebar-primary-foreground": "oklch(0.213 0.016 53.6)",
+    "sidebar-accent": "oklch(0.380 0.041 64.6)",
+    "sidebar-accent-foreground": "oklch(0.941 0.030 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.435 0.097 51.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist Sans for tall, confident English product UI with Noto Sans JP guidance for Japanese labels, readable data, and calm operational hierarchy.",
+  "layout": "Tall vertical navigation, elongated dashboard cards, 8px radius controls, patch-map dividers, measured spacing, and high-overview data surfaces.",
+  "tags": [
+    "giraffe",
+    "mammal",
+    "acacia-savanna",
+    "giraffe-patches",
+    "ochre",
+    "tall-overview",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-giraffe/motif.png",
+    "board": "/systems/morphous-giraffe/design-system-light.png",
+    "darkBoard": "/systems/morphous-giraffe/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-giraffe/theme.css",
+    "themeJson": "/systems/morphous-giraffe/theme.json",
+    "promptsJson": "/systems/morphous-giraffe/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Giraffe motif",
+      "asset": "/systems/morphous-giraffe/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated full-body giraffe motif for a design-system catalog, no environment, no props, no text.\nSubject: A single adult giraffe with accurate anatomy, long elegant neck, ossicones, warm ochre-tan coat, irregular chestnut giraffe patches, subtle cream highlights, natural hide texture, calm upright tall overview silhouette.\nComposition/framing: centered complete cutout with generous padding; show the entire giraffe from hooves to ossicones without cropping; vertical subject centered within a square image.\nLighting/mood: clean studio light that preserves ochre tan, chestnut patches, cream muzzle highlights, and crisp silhouette edges.\nTransparent workflow: place the giraffe on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, horizon line, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no landscape, no acacia tree, no grass, no second animal, no saddle, no props, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-giraffe/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode 16:9 design-system board for \"Morphous Giraffe\" / \"Giraffe\", derived from the provided transparent giraffe motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, vertical proportion, and interaction language from the giraffe image. The board must visibly respect ochre tan fur, chestnut giraffe patches, sky blue savanna air, acacia leaf green, cream highlights, and deep umber hooves/markings.\nCanvas: exact wide 16:9 board, 4K-class composition intended for 3840x2160 output.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Giraffe\", motif story, palette, typography, Japanese typography guidance, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, semantic tokens, and generated asset examples.\nTypography: include English and Japanese examples; recommend a tall confident product UI pairing such as Geist Sans with Noto Sans JP guidance; keep labels short and readable.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, tall overview system, calm acacia savanna product interface.\nComponent language: long vertical navigation rail, tall metric cards, giraffe-patch segmentation, ochre primary buttons, chestnut active states, sky-blue focus rings, acacia-green success states, cream surfaces, subtle hide texture and patch-map dividers.\nColor palette visible on board: Savanna Paper #f6ead6, Giraffe Ochre #c98832, Chestnut Patch #7a3f16, Sky Blue #8fc6df, Acacia Green #6f8a42, Cream Highlight #fff4dc, Hoof Umber #2c1d15, Dust Tan #d7b47a, Deep Shade #1f1712.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no zebra stripes, no leopard spots, no random brand names, no watermark, no misspellings."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-giraffe/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode 16:9 design-system board for \"Morphous Giraffe\" / \"Giraffe\", translated from the provided light board and transparent giraffe motif. It must feel like the same system in dark mode, not a new theme.\nReference use: Preserve the giraffe-patch component language, tall overview layout, typography guidance, section coverage, ochre/chestnut/acacia/sky palette roles, texture rhythm, spacing, and shadcn/tweakcn product UI style.\nCanvas: exact wide 16:9 board, 4K-class composition intended for 3840x2160 output.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Giraffe\", \"Dark Mode\", motif story, palette, typography, Japanese typography guidance, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, semantic tokens, and generated asset examples.\nVisual details: deep umber and night-savanna background, cream foreground text, ochre primary actions, chestnut active surfaces, acacia-green success states, sky-blue info/focus rings, dust-tan muted text, subtle giraffe-patch texture overlays, crisp shadcn-style cards and controls.\nComponent language: long vertical navigation rail, tall metric cards, segmented patch panels, elevated dark cards, restrained contrast, 8px radius, calm operational dashboard for savanna conservation or observation workflows.\nColor palette visible on board: Night Umber #1f1712, Hoof Black #120d0a, Cream Highlight #fff4dc, Giraffe Ochre #c98832, Chestnut Patch #7a3f16, Sky Blue #8fc6df, Acacia Green #6f8a42, Dust Tan #d7b47a, Savanna Paper #f6ead6.\nTypography: include English and Japanese examples; recommend Geist Sans with Noto Sans JP guidance; keep labels short and readable.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no zebra stripes, no leopard spots, no generic purple gradients, no unrelated saturated colors, no random brand names, no watermark, no misspellings."
+    }
+  ]
+}

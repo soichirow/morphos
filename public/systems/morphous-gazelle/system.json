@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-gazelle",
+  "name": "Morphous Gazelle",
+  "motifName": "Gazelle Profile",
+  "motifCategory": "mammal",
+  "biome": "savanna",
+  "motif": "gazelle profile",
+  "description": "A shadcn/tweakcn-compatible system drafted from savanna gazelle profiles: fawn tan, white markings, black stripe contrast, horn graphite, acacia green, and graceful metrics structure.",
+  "typography": "Geist for crisp English metrics UI with Noto Sans JP guidance for Japanese dashboards, status labels, and numeric product surfaces.",
+  "layout": "Graceful 8px metrics grids, long-leg spacing rhythm, black-stripe separators, horn-ring texture, measured shadows, and balanced dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "gazelle",
+    "mammal",
+    "savanna",
+    "fawn-tan",
+    "acacia",
+    "metrics",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm White",
+      "hex": "#fbf7ef"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Stripe",
+      "hex": "#1a1713"
+    },
+    {
+      "role": "Primary",
+      "name": "Fawn Tan",
+      "hex": "#d9a777"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sand Surface",
+      "hex": "#f3e8d7"
+    },
+    {
+      "role": "Accent",
+      "name": "Acacia Green",
+      "hex": "#2e7d55"
+    },
+    {
+      "role": "Signal",
+      "name": "Savanna Gold",
+      "hex": "#e6b35c"
+    },
+    {
+      "role": "Surface",
+      "name": "White Marking",
+      "hex": "#ffffff"
+    },
+    {
+      "role": "Depth",
+      "name": "Horn Graphite",
+      "hex": "#4b4b4b"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Earth",
+      "hex": "#c0b69a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

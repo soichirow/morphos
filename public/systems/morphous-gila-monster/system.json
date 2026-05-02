@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-gila-monster",
+  "name": "Gila Monster",
+  "motifName": "Gila Monster Pattern",
+  "motifCategory": "reptile",
+  "biome": "Sonoran desert",
+  "motif": "gila monster pattern",
+  "description": "A shadcn/tweakcn-compatible warning-system theme derived from Gila monster bead scales: obsidian structure, hazard-orange action states, sunbaked sand surfaces, desert-shadow borders, and readable alert-heavy product UI.",
+  "typography": "Geist for compact operational UI with Noto Sans guidance for Japanese labels, sharp numeric dashboards, and bold warning hierarchy.",
+  "layout": "Dense 8px-grid dashboard layouts with scale-bead texture strips, strong status rails, alert panels, data tables, compact forms, and crisp 8px-radius component surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "gila-monster",
+    "reptile",
+    "sonoran-desert",
+    "bead-scale",
+    "warning-system",
+    "black-orange",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sunbaked Sand",
+      "hex": "#f7efe2"
+    },
+    {
+      "role": "Ink",
+      "name": "Obsidian Scale",
+      "hex": "#111214"
+    },
+    {
+      "role": "Primary",
+      "name": "Hazard Orange",
+      "hex": "#ff6a00"
+    },
+    {
+      "role": "Secondary",
+      "name": "Desert Clay",
+      "hex": "#c6622e"
+    },
+    {
+      "role": "Accent",
+      "name": "Scale Orange",
+      "hex": "#ff8a3d"
+    },
+    {
+      "role": "Signal",
+      "name": "Bone Highlight",
+      "hex": "#fff1dc"
+    },
+    {
+      "role": "Surface",
+      "name": "Wash Sand",
+      "hex": "#ead7b8"
+    },
+    {
+      "role": "Muted",
+      "name": "Desert Shadow",
+      "hex": "#8a7864"
+    },
+    {
+      "role": "Depth",
+      "name": "Scale Black",
+      "hex": "#1f1f22"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
