@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-magpie",
+  "name": "Magpie",
+  "motifName": "Magpie Iridescence",
+  "motifCategory": "bird",
+  "biome": "Field Edge",
+  "motif": "magpie iridescence",
+  "description": "A shadcn/tweakcn-compatible high contrast app system shaped by magpie black and white geometry, electric blue-green iridescent flashes, graphite branch lines, and pale field-edge mist.",
+  "typography": "Inter Variable for crisp app UI, strong grotesque display headings for high contrast hierarchy, and Noto Sans JP guidance for Japanese labels.",
+  "layout": "Dense 8px grids, black-white contrast, feather-barb dividers, compact dashboards, iridescent focus states, and restrained 8px radii for operational product surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "magpie",
+    "bird",
+    "field-edge",
+    "iridescence",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow",
+      "hex": "#ffffff"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist",
+      "hex": "#e9ecef"
+    },
+    {
+      "role": "Primary",
+      "name": "Iridescent Teal",
+      "hex": "#00d1b2"
+    },
+    {
+      "role": "Secondary",
+      "name": "Peacock Blue",
+      "hex": "#0077ff"
+    },
+    {
+      "role": "Accent",
+      "name": "Iridescent Green",
+      "hex": "#10c76a"
+    },
+    {
+      "role": "Border",
+      "name": "Graphite",
+      "hex": "#1f2530"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage",
+      "hex": "#77a08a"
+    },
+    {
+      "role": "Depth",
+      "name": "Slate",
+      "hex": "#3e434a"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#080c0c"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

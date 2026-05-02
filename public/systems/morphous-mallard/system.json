@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-mallard",
+  "name": "Morphous Mallard",
+  "motifName": "Mallard Head",
+  "motifCategory": "bird",
+  "biome": "City pond",
+  "motif": "mallard head",
+  "description": "A shadcn/tweakcn-compatible operations system drawn from a mallard head: emerald primary controls, yellow bill focus states, grey body-feather surfaces, white neck-ring separators, and city pond neutrals.",
+  "typography": "Geist for compact operations UI with Noto Sans guidance for Japanese labels, tabular figures, and clear status text.",
+  "layout": "Dense 8px operational grids, left navigation, dashboard panels, feather-bar dividers, pond-ripple chart textures, compact tables, and 0.5rem component radius.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "mallard",
+    "duck",
+    "bird",
+    "city-pond",
+    "operations",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Concrete Mist",
+      "hex": "#E8ECE7"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink",
+      "hex": "#111827"
+    },
+    {
+      "role": "Primary",
+      "name": "Mallard Emerald",
+      "hex": "#087A6B"
+    },
+    {
+      "role": "Secondary",
+      "name": "Body Feather Grey",
+      "hex": "#D7DBD6"
+    },
+    {
+      "role": "Accent",
+      "name": "Bill Yellow",
+      "hex": "#F2C94C"
+    },
+    {
+      "role": "Signal",
+      "name": "Neck Ring",
+      "hex": "#fbf8ed"
+    },
+    {
+      "role": "Surface",
+      "name": "Concrete Mist",
+      "hex": "#E8ECE7"
+    },
+    {
+      "role": "Muted",
+      "name": "Pond Stone",
+      "hex": "#A8B0A0"
+    },
+    {
+      "role": "Depth",
+      "name": "Asphalt Charcoal",
+      "hex": "#1F2326"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

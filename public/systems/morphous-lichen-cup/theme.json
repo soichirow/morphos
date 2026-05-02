@@ -1,0 +1,203 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lichen-cup",
+    "name": "Morphous Lichen Cup",
+    "motifName": "Lichen Cup",
+    "motifCategory": "fungi",
+    "biome": "Alpine Stone",
+    "motif": "cup lichen"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Chalk Veil",
+      "hex": "#F4F5F2",
+      "oklch": "oklch(0.969 0.004 121.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Basalt Ink",
+      "hex": "#2C2F2B",
+      "oklch": "oklch(0.301 0.008 137.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lichen Cup",
+      "hex": "#C9D886",
+      "oklch": "oklch(0.852 0.107 117.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Lichen",
+      "hex": "#E3E9D6",
+      "oklch": "oklch(0.924 0.026 121.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Celadon Rim",
+      "hex": "#AEBE9B",
+      "oklch": "oklch(0.780 0.051 127.6)"
+    },
+    {
+      "role": "Support",
+      "name": "Moss Grey",
+      "hex": "#8E9A87",
+      "oklch": "oklch(0.671 0.031 133.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone Surface",
+      "hex": "#D6D7D2",
+      "oklch": "oklch(0.877 0.007 115.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mineral Dust",
+      "hex": "#B7B9B3",
+      "oklch": "oklch(0.782 0.009 121.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Stone",
+      "hex": "#4A4D49",
+      "oklch": "oklch(0.416 0.008 137.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Rust Fleck",
+      "hex": "#C56A3A",
+      "oklch": "oklch(0.620 0.131 46.8)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Deep Basalt",
+      "hex": "#0F1110",
+      "oklch": "oklch(0.175 0.004 164.6)"
+    },
+    {
+      "role": "Dark Card",
+      "name": "Cup Shadow",
+      "hex": "#1A1D1B",
+      "oklch": "oklch(0.227 0.006 156.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.969 0.004 121.6)",
+    "foreground": "oklch(0.301 0.008 137.8)",
+    "card": "oklch(0.969 0.004 121.6)",
+    "card-foreground": "oklch(0.301 0.008 137.8)",
+    "popover": "oklch(0.969 0.004 121.6)",
+    "popover-foreground": "oklch(0.301 0.008 137.8)",
+    "primary": "oklch(0.852 0.107 117.2)",
+    "primary-foreground": "oklch(0.301 0.008 137.8)",
+    "secondary": "oklch(0.924 0.026 121.2)",
+    "secondary-foreground": "oklch(0.301 0.008 137.8)",
+    "muted": "oklch(0.877 0.007 115.7)",
+    "muted-foreground": "oklch(0.416 0.008 137.8)",
+    "accent": "oklch(0.780 0.051 127.6)",
+    "accent-foreground": "oklch(0.301 0.008 137.8)",
+    "destructive": "oklch(0.620 0.131 46.8)",
+    "border": "oklch(0.782 0.009 121.7)",
+    "input": "oklch(0.782 0.009 121.7)",
+    "ring": "oklch(0.852 0.107 117.2)",
+    "chart-1": "oklch(0.852 0.107 117.2)",
+    "chart-2": "oklch(0.620 0.131 46.8)",
+    "chart-3": "oklch(0.780 0.051 127.6)",
+    "chart-4": "oklch(0.671 0.031 133.8)",
+    "chart-5": "oklch(0.416 0.008 137.8)",
+    "sidebar": "oklch(0.924 0.026 121.2)",
+    "sidebar-foreground": "oklch(0.301 0.008 137.8)",
+    "sidebar-primary": "oklch(0.852 0.107 117.2)",
+    "sidebar-primary-foreground": "oklch(0.301 0.008 137.8)",
+    "sidebar-accent": "oklch(0.780 0.051 127.6)",
+    "sidebar-accent-foreground": "oklch(0.301 0.008 137.8)",
+    "sidebar-border": "oklch(0.782 0.009 121.7)",
+    "sidebar-ring": "oklch(0.852 0.107 117.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.175 0.004 164.6)",
+    "foreground": "oklch(0.969 0.004 121.6)",
+    "card": "oklch(0.227 0.006 156.7)",
+    "card-foreground": "oklch(0.969 0.004 121.6)",
+    "popover": "oklch(0.227 0.006 156.7)",
+    "popover-foreground": "oklch(0.969 0.004 121.6)",
+    "primary": "oklch(0.852 0.107 117.2)",
+    "primary-foreground": "oklch(0.175 0.004 164.6)",
+    "secondary": "oklch(0.268 0.008 153.4)",
+    "secondary-foreground": "oklch(0.924 0.026 121.2)",
+    "muted": "oklch(0.335 0.009 145.4)",
+    "muted-foreground": "oklch(0.780 0.051 127.6)",
+    "accent": "oklch(0.780 0.051 127.6)",
+    "accent-foreground": "oklch(0.175 0.004 164.6)",
+    "destructive": "oklch(0.620 0.131 46.8)",
+    "border": "oklch(0.335 0.009 145.4)",
+    "input": "oklch(0.335 0.009 145.4)",
+    "ring": "oklch(0.852 0.107 117.2)",
+    "chart-1": "oklch(0.852 0.107 117.2)",
+    "chart-2": "oklch(0.620 0.131 46.8)",
+    "chart-3": "oklch(0.780 0.051 127.6)",
+    "chart-4": "oklch(0.671 0.031 133.8)",
+    "chart-5": "oklch(0.782 0.009 121.7)",
+    "sidebar": "oklch(0.227 0.006 156.7)",
+    "sidebar-foreground": "oklch(0.969 0.004 121.6)",
+    "sidebar-primary": "oklch(0.852 0.107 117.2)",
+    "sidebar-primary-foreground": "oklch(0.175 0.004 164.6)",
+    "sidebar-accent": "oklch(0.268 0.008 153.4)",
+    "sidebar-accent-foreground": "oklch(0.924 0.026 121.2)",
+    "sidebar-border": "oklch(0.335 0.009 145.4)",
+    "sidebar-ring": "oklch(0.852 0.107 117.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for documentation-heavy product UI with Noto Sans JP guidance for Japanese labels, tabular numbers, calm headings, and compact operational records.",
+  "layout": "Precise 8px grid, fixed 8px radii, lichen-cup circular rhythm, powder-rim texture, stone-grain dividers, compact navigation, record dashboards, and restrained shadows for a weathered documentation system.",
+  "tags": [
+    "lichen cup",
+    "fungi",
+    "alpine stone",
+    "pale green",
+    "grey stone",
+    "rust fleck",
+    "documentation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lichen-cup/motif.png",
+    "board": "/systems/morphous-lichen-cup/design-system-light.png",
+    "darkBoard": "/systems/morphous-lichen-cup/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lichen-cup/theme.css",
+    "themeJson": "/systems/morphous-lichen-cup/theme.json",
+    "promptsJson": "/systems/morphous-lichen-cup/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Lichen Cup motif",
+      "asset": "/systems/morphous-lichen-cup/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated cup lichen colony on a small natural alpine stone fragment for a design-system catalog, no surrounding environment, no text.\nSubject: Cup lichen fungus (Cladonia-style) with accurate tiny branching podetia and flared cup forms: pale sage-green to celadon lichen cups, powdery matte lichen texture, small scalloped cup rims, fine branching stalks, and a compact weathered grey alpine stone substrate with a few muted rust-orange mineral/lichen flecks. The stone is part of the motif and palette source, not a landscape.\nComposition/framing: centered complete cutout with generous padding; do not crop any cup, stalk, or stone edge. Show the lichen cups clearly from a slightly elevated three-quarter view.\nLighting/mood: clean studio documentation light that preserves pale green cups, cool grey stone, rust flecks, and weathered natural detail. Crisp silhouette edges.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props beyond the small stone substrate, no landscape, no soil field, no moss carpet, no second species, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-lichen-cup/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-lichen-cup/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for Morphous Lichen Cup / Lichen Cup, derived from the provided transparent cup lichen motif cutout on alpine stone.\nReference use: Use the cup lichen motif image visible in this conversation as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the pale green cup lichen forms, powdery lichen rims, cool grey alpine stone, chalky white mineral marks, charcoal cracks, and muted rust-orange flecks. Use only motif-derived colors plus near-neutrals visible in the motif.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title Morphous Lichen Cup, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nTypography: English UI guidance and Japanese UI guidance with short examples; use a documentation-friendly modern sans for product UI, tabular numbers, calm headings, and readable Japanese labels.\nStyle/medium: premium shadcn/tweakcn-compatible documentation and operations design system, precise grid, crisp UI mockup, weathered documentation system, 8px radii everywhere, subtle lichen-cup circular rhythm, powdery rim texture, stone-grain separators, rust-fleck status accents.\nColor palette: pale lichen green primary, soft celadon accent, warm rust marker, cool stone grey surfaces, chalk white cards, deep basalt/charcoal ink, muted mineral taupe borders. No unrelated colors.\nUI coverage details: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, documentation dashboard cards, data table with filters, KPI cards, loading/empty/error/status states, spacing/radius/shadow/token swatches, texture samples.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout, no card radius above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-lichen-cup/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-lichen-cup/motif.png",
+        "/systems/morphous-lichen-cup/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for Morphous Lichen Cup / Lichen Cup. It must feel like the same system translated from the light board visible in this conversation, not a new theme.\nReference use: Use the cup lichen motif and the light-mode design-system board visible in this conversation as references. Preserve motif-derived palette roles, powdery lichen texture, cup-rim circular rhythm, stone-grain separators, rust-fleck status accents, 8px radii, documentation/dashboard layout, component language, spacing, and typography guidance.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title Morphous Lichen Cup, Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nVisual details: dark background derived from basalt and charcoal stone cracks; text from chalk white and pale lichen highlights; pale lichen green primary, celadon focus/accent, moss-grey secondary, mineral taupe borders, muted rust-orange warning/destructive markers. Use subtle lichen powder texture and stone grain inside swatches and panels, restrained contrast, crisp shadcn-style cards and controls.\nUI coverage details: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, documentation dashboard cards, data table with filters, KPI cards, loading/empty/error/status states, spacing/radius/shadow/token swatches, texture samples.\nTypography: English UI guidance and Japanese UI guidance with short examples; documentation-friendly modern sans, tabular numbers, readable Japanese labels.\nStyle/medium: premium shadcn/tweakcn-compatible product documentation and operations design system, precise grid, crisp dark UI mockup, weathered documentation system, 8px radii everywhere.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no generic purple/blue gradients, no pure black flat background, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout, no card radius above 8px."
+    }
+  ]
+}

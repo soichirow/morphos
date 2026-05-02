@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mallard",
+    "name": "Morphous Mallard",
+    "motifName": "Mallard Head",
+    "motifCategory": "bird",
+    "biome": "City pond",
+    "motif": "mallard head"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Concrete Mist",
+      "hex": "#E8ECE7",
+      "oklch": "oklch(0.939 0.008 139.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink",
+      "hex": "#111827",
+      "oklch": "oklch(0.210 0.032 264.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mallard Emerald",
+      "hex": "#087A6B",
+      "oklch": "oklch(0.520 0.093 180.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Body Feather Grey",
+      "hex": "#D7DBD6",
+      "oklch": "oklch(0.887 0.008 139.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bill Yellow",
+      "hex": "#F2C94C",
+      "oklch": "oklch(0.850 0.146 90.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Neck Ring",
+      "hex": "#fbf8ed",
+      "oklch": "oklch(0.978 0.015 94.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Concrete Mist",
+      "hex": "#E8ECE7",
+      "oklch": "oklch(0.939 0.008 139.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pond Stone",
+      "hex": "#A8B0A0",
+      "oklch": "oklch(0.746 0.024 128.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Asphalt Charcoal",
+      "hex": "#1F2326",
+      "oklch": "oklch(0.253 0.008 240.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.939 0.008 139.4)",
+    "foreground": "oklch(0.210 0.032 264.7)",
+    "card": "oklch(0.939 0.008 139.4)",
+    "card-foreground": "oklch(0.210 0.032 264.7)",
+    "popover": "oklch(0.939 0.008 139.4)",
+    "popover-foreground": "oklch(0.210 0.032 264.7)",
+    "primary": "oklch(0.520 0.093 180.1)",
+    "primary-foreground": "oklch(0.939 0.008 139.4)",
+    "secondary": "oklch(0.939 0.008 139.4)",
+    "secondary-foreground": "oklch(0.253 0.008 240.2)",
+    "muted": "oklch(0.939 0.008 139.4)",
+    "muted-foreground": "oklch(0.253 0.008 240.2)",
+    "accent": "oklch(0.850 0.146 90.5)",
+    "accent-foreground": "oklch(0.210 0.032 264.7)",
+    "destructive": "oklch(0.520 0.093 180.1)",
+    "border": "oklch(0.870 0.013 130.8)",
+    "input": "oklch(0.870 0.013 130.8)",
+    "ring": "oklch(0.887 0.008 139.4)",
+    "chart-1": "oklch(0.520 0.093 180.1)",
+    "chart-2": "oklch(0.887 0.008 139.4)",
+    "chart-3": "oklch(0.850 0.146 90.5)",
+    "chart-4": "oklch(0.978 0.015 94.2)",
+    "chart-5": "oklch(0.253 0.008 240.2)",
+    "sidebar": "oklch(0.939 0.008 139.4)",
+    "sidebar-foreground": "oklch(0.210 0.032 264.7)",
+    "sidebar-primary": "oklch(0.520 0.093 180.1)",
+    "sidebar-primary-foreground": "oklch(0.939 0.008 139.4)",
+    "sidebar-accent": "oklch(0.886 0.020 172.7)",
+    "sidebar-accent-foreground": "oklch(0.520 0.093 180.1)",
+    "sidebar-border": "oklch(0.870 0.013 130.8)",
+    "sidebar-ring": "oklch(0.887 0.008 139.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.032 264.7)",
+    "foreground": "oklch(0.939 0.008 139.4)",
+    "card": "oklch(0.237 0.015 256.8)",
+    "card-foreground": "oklch(0.939 0.008 139.4)",
+    "popover": "oklch(0.237 0.015 256.8)",
+    "popover-foreground": "oklch(0.939 0.008 139.4)",
+    "primary": "oklch(0.887 0.008 139.4)",
+    "primary-foreground": "oklch(0.210 0.032 264.7)",
+    "secondary": "oklch(0.374 0.007 182.7)",
+    "secondary-foreground": "oklch(0.939 0.008 139.4)",
+    "muted": "oklch(0.374 0.007 182.7)",
+    "muted-foreground": "oklch(0.853 0.015 132.5)",
+    "accent": "oklch(0.850 0.146 90.5)",
+    "accent-foreground": "oklch(0.210 0.032 264.7)",
+    "destructive": "oklch(0.520 0.093 180.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.887 0.008 139.4)",
+    "chart-1": "oklch(0.887 0.008 139.4)",
+    "chart-2": "oklch(0.520 0.093 180.1)",
+    "chart-3": "oklch(0.850 0.146 90.5)",
+    "chart-4": "oklch(0.978 0.015 94.2)",
+    "chart-5": "oklch(0.746 0.024 128.8)",
+    "sidebar": "oklch(0.229 0.021 260.5)",
+    "sidebar-foreground": "oklch(0.939 0.008 139.4)",
+    "sidebar-primary": "oklch(0.887 0.008 139.4)",
+    "sidebar-primary-foreground": "oklch(0.210 0.032 264.7)",
+    "sidebar-accent": "oklch(0.374 0.007 182.7)",
+    "sidebar-accent-foreground": "oklch(0.939 0.008 139.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.887 0.008 139.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact operations UI with Noto Sans guidance for Japanese labels, tabular figures, and clear status text.",
+  "layout": "Dense 8px operational grids, left navigation, dashboard panels, feather-bar dividers, pond-ripple chart textures, compact tables, and 0.5rem component radius.",
+  "tags": [
+    "mallard",
+    "duck",
+    "bird",
+    "city-pond",
+    "operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mallard/motif.png",
+    "board": "/systems/morphous-mallard/design-system-light.png",
+    "darkBoard": "/systems/morphous-mallard/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mallard/theme.css",
+    "themeJson": "/systems/morphous-mallard/theme.json",
+    "promptsJson": "/systems/morphous-mallard/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Mallard motif",
+      "asset": "/systems/morphous-mallard/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Mallard transparent motif chroma-key source\nPrimary request: Create only an isolated mallard duck head motif for a design-system catalog, no environment, no props, no text.\nSubject: A mature male mallard head and upper neck with glossy emerald green head feathers, subtle teal highlights, clean white neck ring, warm yellow bill with small dark nail, dark alert eye, a hint of grey-brown body feather transition at the base, accurate bird anatomy, crisp silhouette edges, and natural fine feather texture.\nComposition/framing: centered complete head-and-neck cutout in three-quarter profile with generous padding; bill fully visible, no cropping.\nLighting/mood: clean studio light that preserves emerald head iridescence, yellow bill, white ring, grey body neutral, and realistic feather texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full pond scene, no water, no plants, no second duck, no text, no watermark, no props, no landscape, no cartoon style, no random brand marks."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-mallard/design-system-light.png",
+      "prompt": "Use case: productivity-visual\nAsset type: 3840x2160 Morphous design-system board\nPrimary request: Create one wide 16:9 comprehensive LIGHT-MODE design-system board for \"Morphous Mallard\" / \"Mallard Head\", source reference for a shadcn/tweakcn theme.\nVisual identity: familiar operations system for a city pond: glossy emerald mallard head, yellow bill, white neck ring, grey body feathers, pond stone neutrals, soft waterline green, asphalt charcoal, concrete mist.\nRequired sections with large readable labels: Palette, Typography, English/Japanese type guidance, Navigation, Dashboard charts, Operations table, Form controls, Status badges, Search command, Cards, Alerts, Buttons, Inputs, Selects, Textarea, Checkboxes, Radio, Switch, Tabs, Tokens, Radius, Spacing, Shadows, Texture.\nUI composition: pragmatic operations dashboard for facility/pond service scheduling, with left navigation rail, top filter bar, KPI cards, line chart, bar chart, donut chart, dense data table, editable form panel, status timeline, and component token strip.\nStyle: clean light grey and warm off-white surfaces, emerald primary actions, yellow focus and highlights, grey body-feather panels, subtle pond ripples and feather-bar dividers, 8px radius, restrained shadows, readable text, no marketing hero.\nText constraints: use only generic UI labels such as Overview, Routes, Work Orders, Inventory, Status, Active, Delayed, Scheduled, Complete, Search, Submit, Notes, Priority, Capacity, Throughput, Alerts, Typography, 日本語. No random brand names, no watermark, no lorem ipsum.\nOutput quality: high-resolution crisp 16:9 board, balanced margins, readable labels at gallery preview size, professional UI kit layout.\nAvoid: no unrelated saturated colors, no purple/blue gradients, no cartoon duck mascot, no illegible microtext, no misspellings, no watermark, no fake company logo."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-mallard/design-system-dark.png",
+      "prompt": "Use case: productivity-visual\nAsset type: 3840x2160 Morphous design-system board\nPrimary request: Create one wide 16:9 comprehensive DARK-MODE design-system board for \"Morphous Mallard\" / \"Mallard Head\", translated from the light board and the same mallard motif.\nVisual identity: familiar operations system for a city pond at dusk: deep emerald mallard head, yellow bill highlights, white neck-ring separators, graphite grey body feathers, charcoal pond stone, dark water neutrals, muted concrete, soft reed green.\nRequired sections with large readable labels: Palette, Typography, English/Japanese type guidance, Navigation, Dashboard charts, Operations table, Form controls, Status badges, Search command, Cards, Alerts, Buttons, Inputs, Selects, Textarea, Checkboxes, Radio, Switch, Tabs, Tokens, Radius, Spacing, Shadows, Texture.\nUI composition: pragmatic dark operations dashboard for facility/pond service scheduling, with left navigation rail, top filter bar, KPI cards, line chart, bar chart, donut chart, dense data table, editable form panel, status timeline, and component token strip.\nStyle: dark graphite and pond-black surfaces, emerald primary actions, yellow focus rings and bill-like highlight chips, grey feather panels, subtle water-ripple lines and feather-bar dividers, 8px radius, high contrast readable text, restrained shadows, no marketing hero.\nText constraints: use only generic UI labels such as Overview, Routes, Work Orders, Inventory, Status, Active, Delayed, Scheduled, Complete, Search, Submit, Notes, Priority, Capacity, Throughput, Alerts, Typography, 日本語. No random brand names, no watermark, no lorem ipsum.\nOutput quality: high-resolution crisp 16:9 board, balanced margins, readable labels at gallery preview size, professional UI kit layout.\nAvoid: no neon palette, no unrelated saturated colors, no purple/blue gradients, no cartoon duck mascot, no illegible microtext, no misspellings, no watermark, no fake company logo."
+    }
+  ]
+}

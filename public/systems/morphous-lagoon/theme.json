@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lagoon",
+    "name": "Lagoon",
+    "motifName": "Lagoon Shallows",
+    "motifCategory": "landscape",
+    "biome": "tropical coast",
+    "motif": "lagoon shallows"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "White Sand",
+      "hex": "#FBF9F6",
+      "oklch": "oklch(0.983 0.005 78.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Channel",
+      "hex": "#0E4F59",
+      "oklch": "oklch(0.394 0.063 210.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Turquoise Water",
+      "hex": "#13C8C8",
+      "oklch": "oklch(0.755 0.127 194.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Glass",
+      "hex": "#9EDBD6",
+      "oklch": "oklch(0.849 0.062 189.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Palm",
+      "hex": "#2E7D4F",
+      "oklch": "oklch(0.529 0.106 154.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Coral Shell",
+      "hex": "#F3E6D6",
+      "oklch": "oklch(0.931 0.026 73.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam Surface",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Tide Grey",
+      "hex": "#64748B",
+      "oklch": "oklch(0.554 0.041 257.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Water",
+      "hex": "#125F68",
+      "oklch": "oklch(0.446 0.071 207.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Pale Tide",
+      "hex": "#BFE9E5",
+      "oklch": "oklch(0.903 0.044 189.3)"
+    },
+    {
+      "role": "Success",
+      "name": "Palm Fresh",
+      "hex": "#22C55E",
+      "oklch": "oklch(0.723 0.192 149.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.005 78.3)",
+    "foreground": "oklch(0.394 0.063 210.6)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.394 0.063 210.6)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.394 0.063 210.6)",
+    "primary": "oklch(0.755 0.127 194.8)",
+    "primary-foreground": "oklch(0.983 0.005 78.3)",
+    "secondary": "oklch(0.992 0.002 67.8)",
+    "secondary-foreground": "oklch(0.446 0.071 207.0)",
+    "muted": "oklch(0.995 0.002 67.8)",
+    "muted-foreground": "oklch(0.446 0.071 207.0)",
+    "accent": "oklch(0.529 0.106 154.6)",
+    "accent-foreground": "oklch(0.394 0.063 210.6)",
+    "destructive": "oklch(0.755 0.127 194.8)",
+    "border": "oklch(0.846 0.013 255.5)",
+    "input": "oklch(0.846 0.013 255.5)",
+    "ring": "oklch(0.849 0.062 189.7)",
+    "chart-1": "oklch(0.755 0.127 194.8)",
+    "chart-2": "oklch(0.849 0.062 189.7)",
+    "chart-3": "oklch(0.529 0.106 154.6)",
+    "chart-4": "oklch(0.931 0.026 73.2)",
+    "chart-5": "oklch(0.446 0.071 207.0)",
+    "sidebar": "oklch(0.995 0.002 67.8)",
+    "sidebar-foreground": "oklch(0.394 0.063 210.6)",
+    "sidebar-primary": "oklch(0.755 0.127 194.8)",
+    "sidebar-primary-foreground": "oklch(0.983 0.005 78.3)",
+    "sidebar-accent": "oklch(0.964 0.022 196.8)",
+    "sidebar-accent-foreground": "oklch(0.755 0.127 194.8)",
+    "sidebar-border": "oklch(0.846 0.013 255.5)",
+    "sidebar-ring": "oklch(0.849 0.062 189.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.394 0.063 210.6)",
+    "foreground": "oklch(0.983 0.005 78.3)",
+    "card": "oklch(0.430 0.068 207.6)",
+    "card-foreground": "oklch(0.983 0.005 78.3)",
+    "popover": "oklch(0.430 0.068 207.6)",
+    "popover-foreground": "oklch(0.983 0.005 78.3)",
+    "primary": "oklch(0.849 0.062 189.7)",
+    "primary-foreground": "oklch(0.394 0.063 210.6)",
+    "secondary": "oklch(0.468 0.067 212.2)",
+    "secondary-foreground": "oklch(0.983 0.005 78.3)",
+    "muted": "oklch(0.468 0.067 212.2)",
+    "muted-foreground": "oklch(0.796 0.014 258.4)",
+    "accent": "oklch(0.529 0.106 154.6)",
+    "accent-foreground": "oklch(0.394 0.063 210.6)",
+    "destructive": "oklch(0.755 0.127 194.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.849 0.062 189.7)",
+    "chart-1": "oklch(0.849 0.062 189.7)",
+    "chart-2": "oklch(0.755 0.127 194.8)",
+    "chart-3": "oklch(0.529 0.106 154.6)",
+    "chart-4": "oklch(0.931 0.026 73.2)",
+    "chart-5": "oklch(0.554 0.041 257.4)",
+    "sidebar": "oklch(0.417 0.067 209.5)",
+    "sidebar-foreground": "oklch(0.983 0.005 78.3)",
+    "sidebar-primary": "oklch(0.849 0.062 189.7)",
+    "sidebar-primary-foreground": "oklch(0.394 0.063 210.6)",
+    "sidebar-accent": "oklch(0.468 0.067 212.2)",
+    "sidebar-accent-foreground": "oklch(0.983 0.005 78.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.849 0.062 189.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Relaxed commerce English UI with elegant coastal headings, clear sans body text, legible price and inventory figures, and Japanese typography guidance for concise checkout labels, product data, and support states.",
+  "layout": "Precise 8px grids, 8px radii, water-ripple dividers, palm-shadow texture bands, sea-glass focus rings, soft coastal shadows, product cards, checkout summaries, search commands, compact dashboards, and low-pressure navigation.",
+  "tags": [
+    "lagoon",
+    "landscape",
+    "tropical-coast",
+    "turquoise-water",
+    "white-sand",
+    "palm",
+    "relaxed-commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lagoon/motif.png",
+    "board": "/systems/morphous-lagoon/design-system-light.png",
+    "darkBoard": "/systems/morphous-lagoon/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lagoon/theme.css",
+    "themeJson": "/systems/morphous-lagoon/theme.json",
+    "promptsJson": "/systems/morphous-lagoon/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Lagoon motif",
+      "asset": "/systems/morphous-lagoon/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create a compact isolated tropical lagoon shallows motif on a perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: a self-contained lagoon shallows vignette: clear turquoise shallow water with gentle ripples over white sand, a soft sandbar edge, a few small palm frond silhouettes and palm leaf shadows as part of the cutout, subtle coral-sand texture, no horizon and no full landscape background.\nComposition/framing: centered complete cutout with generous padding; organic rounded island-like shape; do not crop the subject; no cast shadow outside the motif.\nLighting/mood: clean bright coastal daylight, relaxed tropical commerce system feel, natural material detail, crisp edges for cutout extraction.\nTransparent workflow: place only the lagoon motif on a perfectly flat solid #ff00ff chroma-key background. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no people, no boats, no buildings, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lagoon/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for Lagoon, derived from tropical lagoon shallows: turquoise clear water, white sand, palm shade, relaxed commerce system.\nCanvas: wide 16:9 design board, 4K-class source, crisp UI mockup, large readable labels.\nSystem identity: Lagoon; category landscape; context tropical coast; motif lagoon shallows; feel relaxed commerce system for browsing, product cards, checkout, dashboards, bookings, and inventory.\nVisual language: airy white-sand surfaces, translucent turquoise panels, sea-glass accents, palm-shadow texture, shallow-water ripple dividers, calm commerce controls, precise grid, 8px component radius, soft coastal shadows.\nRequired visible sections: title \"Lagoon\", motif story, palette swatches named Turquoise Water, White Sand, Palm, Sea Glass, Coral Shell, Deep Channel; typography for English and Japanese UI; buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alert, product card, price tag, cart summary, search command, navigation, dashboard metrics, table, chart, empty/error/loading states, spacing, radius, border, shadow, texture, token examples, generated asset examples.\nTypography: readable multilingual product UI guidance with English and Japanese examples, short labels only.\nColor constraints: use motif-derived turquoise water, white sand, palm green, shell neutrals, and deeper lagoon teal for contrast; avoid unrelated purple/blue gradients and saturated accent clutter.\nComposition: premium shadcn/tweakcn-style product design system board, organized into clear full-width grid zones, not a landing page, no tiny dense token tables.\nText constraints: short readable UI labels, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lagoon/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for Lagoon. It must feel like the same relaxed tropical-commerce system translated to dark mode, derived from lagoon shallows: turquoise water, white sand highlights, palm shade, and deep channel teal.\nCanvas: wide 16:9 design board, 4K-class source, crisp UI mockup, large readable labels.\nSystem identity: Lagoon; category landscape; context tropical coast; motif lagoon shallows; feel relaxed commerce system for browsing, product cards, checkout, dashboards, bookings, and inventory.\nVisual language: deep channel teal background, moonlit turquoise accents, warm shell-white text, muted palm green surfaces, subtle water-ripple and palm-shadow textures, calm commerce controls, precise grid, 8px component radius, soft low-contrast coastal shadows.\nRequired visible sections: title \"Lagoon\", label \"Dark Mode\", palette swatches named Deep Channel, Night Water, Sea Glass, Moon Sand, Palm Shade, Coral Shell; typography for English and Japanese UI; buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alert, product card, price tag, cart summary, search command, navigation, dashboard metrics, table, chart, empty/error/loading states, spacing, radius, border, shadow, texture, token examples, generated asset examples.\nTypography: readable multilingual product UI guidance with English and Japanese examples, short labels only.\nColor constraints: preserve motif-derived turquoise, white sand, palm green, shell neutrals, and deep lagoon teal; no neon colors, no pure black slab background, no unrelated purple gradients.\nComposition: premium shadcn/tweakcn-style product design system board, organized into clear full-width grid zones, not a landing page, no tiny dense token tables.\nText constraints: short readable UI labels, no random brand names, no watermark."
+    }
+  ]
+}

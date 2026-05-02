@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mammatus-cloud",
+    "name": "Morphous Mammatus Cloud",
+    "motifName": "Mammatus Cloud",
+    "motifCategory": "weather",
+    "biome": "Storm Sunset",
+    "motif": "mammatus cloud"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Vapor",
+      "hex": "#f4f1f1",
+      "oklch": "oklch(0.960 0.003 17.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Anvil",
+      "hex": "#151922",
+      "oklch": "oklch(0.214 0.019 266.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Slate Purple",
+      "hex": "#5f5a7d",
+      "oklch": "oklch(0.486 0.056 290.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Muted Lavender",
+      "hex": "#8a829e",
+      "oklch": "oklch(0.623 0.043 298.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Peach Sunset",
+      "hex": "#f5a980",
+      "oklch": "oklch(0.799 0.105 49.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warm Peach",
+      "hex": "#ff8068",
+      "oklch": "oklch(0.740 0.160 32.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Storm Grey",
+      "hex": "#7d838f",
+      "oklch": "oklch(0.609 0.019 264.4)"
+    },
+    {
+      "role": "Info",
+      "name": "Rain Blue Grey",
+      "hex": "#4e6074",
+      "oklch": "oklch(0.482 0.039 251.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Anvil Charcoal",
+      "hex": "#222632",
+      "oklch": "oklch(0.270 0.023 270.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.003 17.2)",
+    "foreground": "oklch(0.214 0.019 266.1)",
+    "card": "oklch(0.609 0.019 264.4)",
+    "card-foreground": "oklch(0.214 0.019 266.1)",
+    "popover": "oklch(0.609 0.019 264.4)",
+    "popover-foreground": "oklch(0.214 0.019 266.1)",
+    "primary": "oklch(0.486 0.056 290.7)",
+    "primary-foreground": "oklch(0.960 0.003 17.2)",
+    "secondary": "oklch(0.761 0.010 273.3)",
+    "secondary-foreground": "oklch(0.270 0.023 270.4)",
+    "muted": "oklch(0.711 0.012 264.5)",
+    "muted-foreground": "oklch(0.270 0.023 270.4)",
+    "accent": "oklch(0.799 0.105 49.1)",
+    "accent-foreground": "oklch(0.214 0.019 266.1)",
+    "destructive": "oklch(0.486 0.056 290.7)",
+    "border": "oklch(0.615 0.026 282.9)",
+    "input": "oklch(0.615 0.026 282.9)",
+    "ring": "oklch(0.623 0.043 298.2)",
+    "chart-1": "oklch(0.486 0.056 290.7)",
+    "chart-2": "oklch(0.623 0.043 298.2)",
+    "chart-3": "oklch(0.799 0.105 49.1)",
+    "chart-4": "oklch(0.740 0.160 32.1)",
+    "chart-5": "oklch(0.270 0.023 270.4)",
+    "sidebar": "oklch(0.732 0.012 269.5)",
+    "sidebar-foreground": "oklch(0.214 0.019 266.1)",
+    "sidebar-primary": "oklch(0.486 0.056 290.7)",
+    "sidebar-primary-foreground": "oklch(0.960 0.003 17.2)",
+    "sidebar-accent": "oklch(0.594 0.024 271.0)",
+    "sidebar-accent-foreground": "oklch(0.486 0.056 290.7)",
+    "sidebar-border": "oklch(0.615 0.026 282.9)",
+    "sidebar-ring": "oklch(0.623 0.043 298.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.214 0.019 266.1)",
+    "foreground": "oklch(0.960 0.003 17.2)",
+    "card": "oklch(0.253 0.022 269.2)",
+    "card-foreground": "oklch(0.960 0.003 17.2)",
+    "popover": "oklch(0.253 0.022 269.2)",
+    "popover-foreground": "oklch(0.960 0.003 17.2)",
+    "primary": "oklch(0.623 0.043 298.2)",
+    "primary-foreground": "oklch(0.214 0.019 266.1)",
+    "secondary": "oklch(0.354 0.028 282.1)",
+    "secondary-foreground": "oklch(0.960 0.003 17.2)",
+    "muted": "oklch(0.354 0.028 282.1)",
+    "muted-foreground": "oklch(0.813 0.019 303.4)",
+    "accent": "oklch(0.799 0.105 49.1)",
+    "accent-foreground": "oklch(0.214 0.019 266.1)",
+    "destructive": "oklch(0.486 0.056 290.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.623 0.043 298.2)",
+    "chart-1": "oklch(0.623 0.043 298.2)",
+    "chart-2": "oklch(0.486 0.056 290.7)",
+    "chart-3": "oklch(0.799 0.105 49.1)",
+    "chart-4": "oklch(0.740 0.160 32.1)",
+    "chart-5": "oklch(0.623 0.043 298.2)",
+    "sidebar": "oklch(0.240 0.020 267.8)",
+    "sidebar-foreground": "oklch(0.960 0.003 17.2)",
+    "sidebar-primary": "oklch(0.623 0.043 298.2)",
+    "sidebar-primary-foreground": "oklch(0.214 0.019 266.1)",
+    "sidebar-accent": "oklch(0.354 0.028 282.1)",
+    "sidebar-accent-foreground": "oklch(0.960 0.003 17.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.623 0.043 298.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for dense dashboard UI with Noto Sans JP guidance for Japanese labels, large numeric rhythm, and restrained operational hierarchy.",
+  "layout": "16:9 dashboard grids, rounded pouch panels, suspended soft shadows, storm-front dividers, 8px spacing, compact tables, and cloud-lobe data cards.",
+  "tags": [
+    "mammatus",
+    "cloud",
+    "weather",
+    "storm-sunset",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mammatus-cloud/motif.png",
+    "board": "/systems/morphous-mammatus-cloud/design-system-light.png",
+    "darkBoard": "/systems/morphous-mammatus-cloud/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mammatus-cloud/theme.css",
+    "themeJson": "/systems/morphous-mammatus-cloud/theme.json",
+    "promptsJson": "/systems/morphous-mammatus-cloud/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent mammatus cloud motif",
+      "asset": "/systems/morphous-mammatus-cloud/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Mammatus Cloud transparent motif chroma-key source\nPrimary request: Create only an isolated mammatus cloud formation motif for a design-system catalog, no landscape, no horizon, no rain, no lightning, no text.\nSubject: A sculptural cluster of mammatus cloud pouches hanging beneath a storm anvil, rounded pouch lobes with dramatic underlighting, slate purple shadows, peach sunset rim light, storm grey body tones, soft vapor texture, crisp readable silhouette edges.\nComposition/framing: centered complete cloud cutout with generous padding on all sides; a compact horizontal cluster that can work as a motif asset; no cropping.\nLighting/mood: storm sunset drama with peach glow along pouch edges, slate-purple depth, and grey storm volume while preserving clean separable edges.\nChroma-key background: create the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the cloud.\nConstraints: no tornado, no funnel cloud, no lightning bolt, no ground, no mountains, no buildings, no aircraft, no birds, no person, no labels, no watermark, no UI, no frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-mammatus-cloud/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 comprehensive light-mode design-system board for a Morphous catalog bundle\nInput image: use the mammatus cloud cutout as the motif reference for color, texture, silhouette, and component language.\nPrimary request: Create one wide high-resolution 16:9 light-mode design-system board for \"Morphous Mammatus Cloud\" / \"Mammatus Cloud\", a shadcn/tweakcn-compatible dramatic dashboard system.\nVisual identity: storm sunset mammatus cloud. Palette: slate purple, peach sunset rim light, storm grey, pale vapor, deep anvil charcoal, muted lavender, warm warning peach, cool rain blue-grey. Keep the system dramatic but usable for dense operational dashboards.\nBoard content: include readable sections for palette, typography, English and Japanese type guidance, component tokens, navigation, dashboard/data visualization, cards, tables, forms, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, command/search, empty/error/loading states, spacing, radius, border, shadow, cloud-grain texture, icon treatment, and sample app usage.\nUI language: rounded mammatus pouch panels, suspended soft-shadow cards, storm-front dividers, peach focus rings and active states, slate-purple primary actions, storm-grey surfaces, restrained peach alerts, cloud-lobe data cards, high-contrast dashboard charts.\nComposition: premium dense design board with large legible labels, no tiny unreadable token tables, organized grid, enough whitespace, no nested cards, professional product-system presentation.\nText requirements: title should read \"Morphous Mammatus Cloud\" and include short labels only; include Japanese typography guidance labels without overpacking.\nConstraints: no generic purple-blue gradient dominance, no unrelated saturated colors, no beach/sand palette, no lightning as main motif, no tornado, no landscape photo, no random brand logos, no watermarks, no misspelled title, no fake small paragraph text blocks."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-mammatus-cloud/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 comprehensive dark-mode design-system board for a Morphous catalog bundle\nInput images: use the mammatus cloud cutout and the light-mode board as reference for motif language, palette, component coverage, and layout density.\nPrimary request: Create one wide high-resolution 16:9 dark-mode design-system board for \"Morphous Mammatus Cloud\" / \"Mammatus Cloud\", translated from the light board into a shadcn/tweakcn-compatible dramatic dashboard system.\nVisual identity: storm sunset mammatus cloud in dark mode. Palette: deep anvil charcoal and black-violet backgrounds, slate purple panels, storm grey borders, pale vapor text, peach sunset glow for focus and warnings, muted lavender secondary states, rain blue-grey information states. Keep it dramatic, operational, and readable for dense dashboards.\nBoard content: include readable sections for palette, typography, English and Japanese type guidance, component tokens, navigation, dashboard/data visualization, cards, tables, forms, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, command/search, empty/error/loading states, spacing, radius, border, shadow, cloud-grain texture, icon treatment, and sample app usage.\nUI language: rounded mammatus pouch panels, suspended soft-shadow cards, storm-front dividers, peach focus rings and active states, slate-purple primary actions, dark storm-grey surfaces, restrained peach alerts, cloud-lobe data cards, high-contrast dashboard charts.\nComposition: premium dense design board with large legible labels, no tiny unreadable token tables, organized grid, enough whitespace, no nested cards, professional product-system presentation.\nText requirements: title should read \"Morphous Mammatus Cloud\" and include short labels only; include Japanese typography guidance labels without overpacking.\nConstraints: no generic purple-blue gradient dominance, no unrelated saturated neon colors, no beach/sand palette, no lightning as main motif, no tornado, no landscape photo, no random brand logos, no watermarks, no misspelled title, no fake small paragraph text blocks."
+    }
+  ]
+}

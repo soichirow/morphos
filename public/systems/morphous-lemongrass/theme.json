@@ -1,0 +1,221 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lemongrass",
+    "name": "Morphous Lemongrass",
+    "motifName": "Lemongrass",
+    "motifCategory": "plant",
+    "biome": "tropical herb garden",
+    "motif": "lemongrass stalk"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Herb Mist",
+      "hex": "#F8FAF2",
+      "oklch": "oklch(0.981 0.011 118.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Root Shadow",
+      "hex": "#203623",
+      "oklch": "oklch(0.308 0.044 147.8)"
+    },
+    {
+      "role": "Text",
+      "name": "Sage Shadow",
+      "hex": "#4A5E4C",
+      "oklch": "oklch(0.460 0.038 147.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pith Cream",
+      "hex": "#FAF7EE",
+      "oklch": "oklch(0.976 0.012 91.5)"
+    },
+    {
+      "role": "Subtle Surface",
+      "name": "Soft Leaf",
+      "hex": "#F2F7ED",
+      "oklch": "oklch(0.970 0.014 128.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Stalk Green",
+      "hex": "#8FAF5D",
+      "oklch": "oklch(0.711 0.115 126.6)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Blade Green",
+      "hex": "#77984E",
+      "oklch": "oklch(0.637 0.108 128.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Stalk",
+      "hex": "#BFD892",
+      "oklch": "oklch(0.847 0.096 124.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Straw Yellow",
+      "hex": "#F3D56A",
+      "oklch": "oklch(0.877 0.131 93.9)"
+    },
+    {
+      "role": "Focus",
+      "name": "Lemongrass Yellow",
+      "hex": "#F7E08A",
+      "oklch": "oklch(0.907 0.109 94.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage Wash",
+      "hex": "#DDE8D6",
+      "oklch": "oklch(0.918 0.027 133.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Rib Green",
+      "hex": "#C7D8BF",
+      "oklch": "oklch(0.863 0.039 135.5)"
+    },
+    {
+      "role": "Texture",
+      "name": "Fiber Green",
+      "hex": "#9FB980",
+      "oklch": "oklch(0.752 0.083 128.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Fresh Shoot",
+      "hex": "#A8C87A",
+      "oklch": "oklch(0.791 0.109 126.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Sheath Umber",
+      "hex": "#9B7B35",
+      "oklch": "oklch(0.600 0.096 84.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Root",
+      "hex": "#0C1510",
+      "oklch": "oklch(0.185 0.017 159.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.011 118.0)",
+    "foreground": "oklch(0.308 0.044 147.8)",
+    "card": "oklch(0.976 0.012 91.5)",
+    "card-foreground": "oklch(0.308 0.044 147.8)",
+    "popover": "oklch(0.976 0.012 91.5)",
+    "popover-foreground": "oklch(0.308 0.044 147.8)",
+    "primary": "oklch(0.711 0.115 126.6)",
+    "primary-foreground": "oklch(0.981 0.011 118.0)",
+    "secondary": "oklch(0.978 0.011 100.8)",
+    "secondary-foreground": "oklch(0.185 0.017 159.9)",
+    "muted": "oklch(0.977 0.012 101.5)",
+    "muted-foreground": "oklch(0.185 0.017 159.9)",
+    "accent": "oklch(0.877 0.131 93.9)",
+    "accent-foreground": "oklch(0.308 0.044 147.8)",
+    "destructive": "oklch(0.711 0.115 126.6)",
+    "border": "oklch(0.956 0.017 113.8)",
+    "input": "oklch(0.956 0.017 113.8)",
+    "ring": "oklch(0.847 0.096 124.4)",
+    "chart-1": "oklch(0.711 0.115 126.6)",
+    "chart-2": "oklch(0.847 0.096 124.4)",
+    "chart-3": "oklch(0.877 0.131 93.9)",
+    "chart-4": "oklch(0.711 0.115 126.6)",
+    "chart-5": "oklch(0.185 0.017 159.9)",
+    "sidebar": "oklch(0.977 0.012 101.5)",
+    "sidebar-foreground": "oklch(0.308 0.044 147.8)",
+    "sidebar-primary": "oklch(0.711 0.115 126.6)",
+    "sidebar-primary-foreground": "oklch(0.981 0.011 118.0)",
+    "sidebar-accent": "oklch(0.944 0.023 109.6)",
+    "sidebar-accent-foreground": "oklch(0.711 0.115 126.6)",
+    "sidebar-border": "oklch(0.956 0.017 113.8)",
+    "sidebar-ring": "oklch(0.847 0.096 124.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.308 0.044 147.8)",
+    "foreground": "oklch(0.981 0.011 118.0)",
+    "card": "oklch(0.228 0.027 151.1)",
+    "card-foreground": "oklch(0.981 0.011 118.0)",
+    "popover": "oklch(0.228 0.027 151.1)",
+    "popover-foreground": "oklch(0.981 0.011 118.0)",
+    "primary": "oklch(0.847 0.096 124.4)",
+    "primary-foreground": "oklch(0.308 0.044 147.8)",
+    "secondary": "oklch(0.372 0.017 152.1)",
+    "secondary-foreground": "oklch(0.981 0.011 118.0)",
+    "muted": "oklch(0.372 0.017 152.1)",
+    "muted-foreground": "oklch(0.953 0.018 127.1)",
+    "accent": "oklch(0.877 0.131 93.9)",
+    "accent-foreground": "oklch(0.308 0.044 147.8)",
+    "destructive": "oklch(0.711 0.115 126.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.847 0.096 124.4)",
+    "chart-1": "oklch(0.847 0.096 124.4)",
+    "chart-2": "oklch(0.711 0.115 126.6)",
+    "chart-3": "oklch(0.877 0.131 93.9)",
+    "chart-4": "oklch(0.711 0.115 126.6)",
+    "chart-5": "oklch(0.918 0.027 133.0)",
+    "sidebar": "oklch(0.254 0.033 149.5)",
+    "sidebar-foreground": "oklch(0.981 0.011 118.0)",
+    "sidebar-primary": "oklch(0.847 0.096 124.4)",
+    "sidebar-primary-foreground": "oklch(0.308 0.044 147.8)",
+    "sidebar-accent": "oklch(0.372 0.017 152.1)",
+    "sidebar-accent-foreground": "oklch(0.981 0.011 118.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.847 0.096 124.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean product UI typography with Inter-style English hierarchy and Noto Sans JP guidance for service labels, appointment data, tables, command search, compact status text, and dashboard metrics.",
+  "layout": "Precise 8px service grids, 8px radii, vertical lemongrass-rib dividers, pale green action states, straw-yellow focus rings, pith-cream cards, restrained shadows, compact navigation, and scan-friendly data density.",
+  "tags": [
+    "lemongrass",
+    "plant",
+    "tropical-herb-garden",
+    "pale-green",
+    "straw-yellow",
+    "clean-service-system",
+    "operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lemongrass/motif.png",
+    "board": "/systems/morphous-lemongrass/design-system-light.png",
+    "darkBoard": "/systems/morphous-lemongrass/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lemongrass/theme.css",
+    "themeJson": "/systems/morphous-lemongrass/theme.json",
+    "promptsJson": "/systems/morphous-lemongrass/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Lemongrass motif",
+      "asset": "/systems/morphous-lemongrass/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lemongrass transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated lemongrass stalk motif, no environment, no props, no text.\nSubject: A compact bundle of fresh lemongrass stalks with pale green cylindrical bases, straw-yellow dried outer sheaths, fine vertical ribbing, pointed grass blades, slight natural fan shape, crisp botanical silhouette, realistic waxy plant texture, and subtle cool green shadow tones from a tropical herb garden.\nComposition/framing: centered complete cutout with generous padding; show full stalk bases and upper blade tips without cropping. Keep the bundle upright with a gentle diagonal fan, suitable as a reusable UI motif.\nLighting/mood: clean studio light that preserves pale green, straw yellow, muted sage shadow, and natural fibrous lemongrass detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no pot, no soil, no garden scene, no decorative background, no second plant species, no cast shadow, no contact shadow, no reflection, no chopped slices, no citrus fruit."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lemongrass/design-system-light.png",
+      "sourceAsset": "/systems/morphous-lemongrass/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lemongrass light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named \"Morphous Lemongrass\", derived from the visible isolated lemongrass stalk cutout reference.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from fresh lemongrass stalks in a tropical herb garden: pale stalk green, straw-yellow dried sheaths, pith cream highlights, muted sage blade shadows, ribbed vertical fiber texture, deep root shadow green, and clean herbal service-system clarity. Use only motif-derived colors plus near-neutrals from the stalk and shadow.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source image, target 3840 x 2160, at least 2400px wide. Keep all labels large, sharp, and readable.\nRequired visible sections: Morphous Lemongrass, Lemongrass, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Asset Examples.\nUI coverage: shadcn/tweakcn-compatible buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, table rows, command palette, search field, sidebar navigation, top navigation, metric cards, charts, data widgets, empty/loading/error/success states, token swatches, texture samples, spacing scale, 8px radius examples, border and shadow tokens.\nVisual style: clean service system for operations dashboards and appointment/data tools, precise 8px grid, 8px card radius, vertical lemongrass-rib dividers, pale green primary actions, straw-yellow focus rings, pith-cream surfaces, sage shadow text, restrained clean shadows, compact service navigation, scan-friendly data density.\nTypography: include English UI examples and Japanese typography examples using short readable Japanese labels; guidance for Noto Sans JP, compact service labels, tables, command search, and status messages.\nText constraints: use short readable section labels and short UI labels only. Avoid long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no stock UI kit look, no beige-heavy palette, no neon, no watermark, no random brand names, no misspelling of Morphous Lemongrass."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lemongrass/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-lemongrass/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lemongrass dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for \"Morphous Lemongrass\" that feels like the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible lemongrass cutout and the visible light-mode board as references. Preserve the same component language, 8px radius system, clean service-system density, vertical lemongrass-rib dividers, pale green primary actions, straw-yellow focus rings, pith-cream foregrounds, muted sage secondary states, and tropical herb garden texture.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source image, target 3840 x 2160, at least 2400px wide. Keep all labels large, sharp, and readable.\nRequired visible sections: Morphous Lemongrass, Lemongrass, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Asset Examples.\nUI coverage: dark shadcn/tweakcn-compatible buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, table rows, command palette, search field, sidebar navigation, top navigation, metric cards, charts, data widgets, empty/loading/error/success states, token swatches, texture samples, spacing scale, 8px radius examples, border and shadow tokens.\nVisual details: deepest root-shadow green background, readable pith-cream text, card surfaces in dark sage green, fresh stalk-green highlights, straw-yellow focus and warning accents, muted blade-rib borders, subtle vertical lemongrass fiber texture overlays, crisp professional operations dashboard layout.\nTypography: include English UI examples and Japanese typography examples using short readable Japanese labels; compact labels and data tables should remain scan-friendly in dark mode.\nText constraints: use short readable section labels and short UI labels only. Avoid long paragraphs.\nConstraints: no neon palette, no pure black flat background, no unrelated saturated colors, no generic blue or purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of Morphous Lemongrass."
+    }
+  ]
+}

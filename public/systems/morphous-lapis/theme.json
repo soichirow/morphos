@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lapis",
+    "name": "Morphous Lapis Lazuli",
+    "motifName": "Lapis Lazuli",
+    "motifCategory": "mineral",
+    "biome": "Mountain Mine",
+    "motif": "lapis stone"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Calcite White",
+      "hex": "#F7F7F9",
+      "oklch": "oklch(0.977 0.003 286.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Lapis",
+      "hex": "#0B1A3A",
+      "oklch": "oklch(0.226 0.065 263.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ultramarine Core",
+      "hex": "#1E40AF",
+      "oklch": "oklch(0.424 0.181 265.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Royal Vein",
+      "hex": "#385CC4",
+      "oklch": "oklch(0.508 0.168 266.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pyrite Gold",
+      "hex": "#D4AF37",
+      "oklch": "oklch(0.767 0.139 91.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mine Shadow",
+      "hex": "#28313B",
+      "oklch": "oklch(0.309 0.022 251.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Scholar Parchment",
+      "hex": "#F3EFE6",
+      "oklch": "oklch(0.953 0.013 86.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dusty Calcite",
+      "hex": "#E6E8EC",
+      "oklch": "oklch(0.931 0.006 264.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Facet Border",
+      "hex": "#C9CDD6",
+      "oklch": "oklch(0.848 0.013 266.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.003 286.4)",
+    "foreground": "oklch(0.226 0.065 263.3)",
+    "card": "oklch(0.953 0.013 86.8)",
+    "card-foreground": "oklch(0.226 0.065 263.3)",
+    "popover": "oklch(0.953 0.013 86.8)",
+    "popover-foreground": "oklch(0.226 0.065 263.3)",
+    "primary": "oklch(0.424 0.181 265.6)",
+    "primary-foreground": "oklch(0.977 0.003 286.4)",
+    "secondary": "oklch(0.962 0.006 75.4)",
+    "secondary-foreground": "oklch(0.309 0.022 251.2)",
+    "muted": "oklch(0.959 0.009 84.6)",
+    "muted-foreground": "oklch(0.309 0.022 251.2)",
+    "accent": "oklch(0.767 0.139 91.1)",
+    "accent-foreground": "oklch(0.226 0.065 263.3)",
+    "destructive": "oklch(0.424 0.181 265.6)",
+    "border": "oklch(0.944 0.006 84.6)",
+    "input": "oklch(0.944 0.006 84.6)",
+    "ring": "oklch(0.508 0.168 266.1)",
+    "chart-1": "oklch(0.424 0.181 265.6)",
+    "chart-2": "oklch(0.508 0.168 266.1)",
+    "chart-3": "oklch(0.767 0.139 91.1)",
+    "chart-4": "oklch(0.309 0.022 251.2)",
+    "chart-5": "oklch(0.309 0.022 251.2)",
+    "sidebar": "oklch(0.961 0.008 91.5)",
+    "sidebar-foreground": "oklch(0.226 0.065 263.3)",
+    "sidebar-primary": "oklch(0.424 0.181 265.6)",
+    "sidebar-primary-foreground": "oklch(0.977 0.003 286.4)",
+    "sidebar-accent": "oklch(0.889 0.007 277.2)",
+    "sidebar-accent-foreground": "oklch(0.424 0.181 265.6)",
+    "sidebar-border": "oklch(0.944 0.006 84.6)",
+    "sidebar-ring": "oklch(0.508 0.168 266.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.226 0.065 263.3)",
+    "foreground": "oklch(0.977 0.003 286.4)",
+    "card": "oklch(0.279 0.037 260.0)",
+    "card-foreground": "oklch(0.977 0.003 286.4)",
+    "popover": "oklch(0.279 0.037 260.0)",
+    "popover-foreground": "oklch(0.977 0.003 286.4)",
+    "primary": "oklch(0.508 0.168 266.1)",
+    "primary-foreground": "oklch(0.226 0.065 263.3)",
+    "secondary": "oklch(0.461 0.017 254.7)",
+    "secondary-foreground": "oklch(0.977 0.003 286.4)",
+    "muted": "oklch(0.461 0.017 254.7)",
+    "muted-foreground": "oklch(0.955 0.004 271.4)",
+    "accent": "oklch(0.767 0.139 91.1)",
+    "accent-foreground": "oklch(0.226 0.065 263.3)",
+    "destructive": "oklch(0.424 0.181 265.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.508 0.168 266.1)",
+    "chart-1": "oklch(0.508 0.168 266.1)",
+    "chart-2": "oklch(0.424 0.181 265.6)",
+    "chart-3": "oklch(0.767 0.139 91.1)",
+    "chart-4": "oklch(0.309 0.022 251.2)",
+    "chart-5": "oklch(0.931 0.006 264.5)",
+    "sidebar": "oklch(0.264 0.044 259.7)",
+    "sidebar-foreground": "oklch(0.977 0.003 286.4)",
+    "sidebar-primary": "oklch(0.508 0.168 266.1)",
+    "sidebar-primary-foreground": "oklch(0.226 0.065 263.3)",
+    "sidebar-accent": "oklch(0.461 0.017 254.7)",
+    "sidebar-accent-foreground": "oklch(0.977 0.003 286.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.508 0.168 266.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Scholarly product UI typography with clear numerals and Japanese guidance tuned for archives, research dashboards, libraries, and knowledge work.",
+  "layout": "Precise 8px grids, cut-stone panel edges, dense but calm dashboard rhythm, pyrite focus rings, and subtle lapis mineral grain.",
+  "tags": [
+    "lapis-lazuli",
+    "mineral",
+    "mountain-mine",
+    "ultramarine",
+    "pyrite-gold",
+    "knowledge",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lapis/motif.png",
+    "board": "/systems/morphous-lapis/design-system-light.png",
+    "darkBoard": "/systems/morphous-lapis/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lapis/theme.css",
+    "themeJson": "/systems/morphous-lapis/theme.json",
+    "promptsJson": "/systems/morphous-lapis/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lapis lazuli motif",
+      "asset": "/systems/morphous-lapis/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lapis Lazuli transparent motif chroma-key source\nPrimary request: Create only a lapis lazuli stone motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural rough lapis lazuli stone from a mountain mine, one substantial mineral specimen with vivid ultramarine blue body, irregular gold pyrite flecks and veins, small white calcite streaks, rugged broken facets, granular crystalline surface, and geological realism. Royal knowledge system identity, refined scholarly tone, no jewelry and no carved object.\nComposition/framing: centered complete cutout with generous padding; include full mineral mass without cropping. Clean studio lighting that preserves stone facets and pyrite sparkle; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no jewelry setting, no polished sphere, no necklace, no fantasy glow, no hand, no landscape, no text, no watermark, no loose gemstones, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lapis/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lapis Lazuli light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lapis Lazuli\", derived from a rough lapis lazuli stone motif. This board is a source reference for a shadcn/tweakcn-compatible royal knowledge UI theme.\nCanvas: wide 16:9 high-resolution board, target 3840 x 2160 pixels, clean professional UI design-system presentation.\nRequired visible sections: Morphous Lapis Lazuli, Lapis Lazuli, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from ultramarine blue lapis stone, gold pyrite flecks, white calcite streaks, rugged mountain mine facets, dark mineral veins, and scholarly royal artifacts. The board must read as lapis lazuli stone, not generic blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Knowledge Index. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: royal knowledge system, shadcn/tweakcn-style product UI, 8px radius with cut mineral facets, warm white parchment backgrounds, ultramarine primary actions, deep lapis text, pale calcite panels, gold pyrite accents for focus and charts, precise academic grid, subtle stone grain texture, accessible contrast.\nPalette names to show: Calcite White, Ink Lapis, Ultramarine Core, Royal Vein, Pyrite Gold, Mine Shadow, Scholar Parchment, Dusty Calcite, Facet Border.\nConstraints: no jewelry imagery, no gemstone ring, no fantasy magic, no neon cyan, no generic purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Lapis Lazuli\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lapis/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lapis Lazuli dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Lapis Lazuli\". It must feel like the light-mode board translated to dark mode and remain derived from a rough lapis lazuli stone motif.\nCanvas: wide 16:9 high-resolution board, target 3840 x 2160 pixels, clean professional UI design-system presentation.\nRequired visible sections: Morphous Lapis Lazuli, Lapis Lazuli, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve ultramarine active states, gold pyrite focus details, white calcite text and dividers, rugged mountain mine stone texture, scholarly royal spacing, and 8px shadcn/tweakcn grid. Must read as lapis lazuli stone, not generic dark blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Knowledge Index. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep mine-shadow and ink-lapis backgrounds, royal blue elevated cards, calcite-white foreground text, ultramarine buttons, pyrite-gold rings and charts, cool stone borders, subtle mineral grain, restrained academic interface, accessible contrast.\nPalette names to show: Calcite White, Ink Lapis, Ultramarine Core, Royal Vein, Pyrite Gold, Mine Shadow, Scholar Parchment, Dusty Calcite, Facet Border.\nConstraints: no jewelry imagery, no gemstone ring, no fantasy magic, no neon cyan, no pure-black-only flat background, no generic purple/blue gradients, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Lapis Lazuli\"."
+    }
+  ]
+}

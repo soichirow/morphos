@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-lenticular-cloud",
+  "name": "Morphous Lenticular Cloud",
+  "status": "ready",
+  "motifName": "Lenticular Cloud",
+  "motifCategory": "weather",
+  "biome": "mountain wave",
+  "motif": "lenticular cloud",
+  "mood": "layered interface system",
+  "description": "A layered interface-system UI derived from mountain-wave lenticular clouds: pearl-white vapor surfaces, cool blue-shadow depth, sunset peach rims, alpine glow focus light, and quiet stratus-line borders for shadcn/tweakcn interfaces.",
+  "typography": "Geist or Inter for calm product UI with Noto Sans JP guidance for Japanese headings, body, labels, and dashboard data.",
+  "layout": "Precise shadcn/tweakcn grids, 8px radii, stacked cloud-layer panels, translucent dividers, mountain-wave contour cues, restrained vapor-grain texture, and airy operational dashboard surfaces.",
+  "themeReference": [
+    "/systems/morphous-lenticular-cloud/design-system-light.png",
+    "/systems/morphous-lenticular-cloud/design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "lenticular-cloud",
+    "weather",
+    "mountain-wave",
+    "cloud",
+    "layered",
+    "sunset",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wave Mist",
+      "hex": "#EEF7FA",
+      "oklch": "oklch(0.974 0.006 235)"
+    },
+    {
+      "role": "Ink",
+      "name": "Vapor Ink",
+      "hex": "#0C111A",
+      "oklch": "oklch(0.154 0.038 253)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sunset Peach",
+      "hex": "#FF9A6A",
+      "oklch": "oklch(0.702 0.138 38)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blue Shadow",
+      "hex": "#687FA3",
+      "oklch": "oklch(0.729 0.041 247)"
+    },
+    {
+      "role": "Accent",
+      "name": "Apricot Rim",
+      "hex": "#FFC38E",
+      "oklch": "oklch(0.817 0.079 58)"
+    },
+    {
+      "role": "Focus",
+      "name": "Alpine Glow",
+      "hex": "#88DDFF",
+      "oklch": "oklch(0.756 0.071 235)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl White",
+      "hex": "#F3F6FA",
+      "oklch": "oklch(0.991 0.003 235)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cloud Slate",
+      "hex": "#2A3442",
+      "oklch": "oklch(0.516 0.031 248)"
+    },
+    {
+      "role": "Line",
+      "name": "Stratus Line",
+      "hex": "#D7E1EB",
+      "oklch": "oklch(0.869 0.021 238)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dusk Signal",
+      "hex": "#FFB062",
+      "oklch": "oklch(0.786 0.112 54)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.974 0.006 235)",
+    "foreground": "oklch(0.226 0.043 252)",
+    "card": "oklch(0.991 0.003 235)",
+    "card-foreground": "oklch(0.226 0.043 252)",
+    "popover": "oklch(0.991 0.003 235)",
+    "popover-foreground": "oklch(0.226 0.043 252)",
+    "primary": "oklch(0.702 0.138 38)",
+    "primary-foreground": "oklch(0.991 0.003 235)",
+    "secondary": "oklch(0.729 0.041 247)",
+    "secondary-foreground": "oklch(0.226 0.043 252)",
+    "muted": "oklch(0.934 0.016 235)",
+    "muted-foreground": "oklch(0.516 0.031 248)",
+    "accent": "oklch(0.817 0.079 58)",
+    "accent-foreground": "oklch(0.226 0.043 252)",
+    "destructive": "oklch(0.582 0.191 27)",
+    "border": "oklch(0.869 0.021 238)",
+    "input": "oklch(0.869 0.021 238)",
+    "ring": "oklch(0.756 0.071 235)",
+    "chart-1": "oklch(0.702 0.138 38)",
+    "chart-2": "oklch(0.729 0.041 247)",
+    "chart-3": "oklch(0.817 0.079 58)",
+    "chart-4": "oklch(0.756 0.071 235)",
+    "chart-5": "oklch(0.516 0.031 248)",
+    "sidebar": "oklch(0.991 0.003 235)",
+    "sidebar-foreground": "oklch(0.226 0.043 252)",
+    "sidebar-primary": "oklch(0.702 0.138 38)",
+    "sidebar-primary-foreground": "oklch(0.991 0.003 235)",
+    "sidebar-accent": "oklch(0.934 0.016 235)",
+    "sidebar-accent-foreground": "oklch(0.226 0.043 252)",
+    "sidebar-border": "oklch(0.869 0.021 238)",
+    "sidebar-ring": "oklch(0.756 0.071 235)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.154 0.038 253)",
+    "foreground": "oklch(0.974 0.006 235)",
+    "card": "oklch(0.225 0.042 251)",
+    "card-foreground": "oklch(0.974 0.006 235)",
+    "popover": "oklch(0.225 0.042 251)",
+    "popover-foreground": "oklch(0.974 0.006 235)",
+    "primary": "oklch(0.742 0.131 39)",
+    "primary-foreground": "oklch(0.154 0.038 253)",
+    "secondary": "oklch(0.381 0.052 249)",
+    "secondary-foreground": "oklch(0.974 0.006 235)",
+    "muted": "oklch(0.225 0.042 251)",
+    "muted-foreground": "oklch(0.729 0.041 247)",
+    "accent": "oklch(0.817 0.079 58)",
+    "accent-foreground": "oklch(0.154 0.038 253)",
+    "destructive": "oklch(0.615 0.203 27)",
+    "border": "oklch(0.869 0.021 238 / 18%)",
+    "input": "oklch(0.869 0.021 238 / 22%)",
+    "ring": "oklch(0.756 0.071 235)",
+    "chart-1": "oklch(0.742 0.131 39)",
+    "chart-2": "oklch(0.756 0.071 235)",
+    "chart-3": "oklch(0.817 0.079 58)",
+    "chart-4": "oklch(0.729 0.041 247)",
+    "chart-5": "oklch(0.934 0.016 235)",
+    "sidebar": "oklch(0.154 0.038 253)",
+    "sidebar-foreground": "oklch(0.974 0.006 235)",
+    "sidebar-primary": "oklch(0.742 0.131 39)",
+    "sidebar-primary-foreground": "oklch(0.154 0.038 253)",
+    "sidebar-accent": "oklch(0.225 0.042 251)",
+    "sidebar-accent-foreground": "oklch(0.974 0.006 235)",
+    "sidebar-border": "oklch(0.869 0.021 238 / 18%)",
+    "sidebar-ring": "oklch(0.756 0.071 235)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "/systems/morphous-lenticular-cloud/motif.png",
+    "board": "/systems/morphous-lenticular-cloud/design-system-light.png",
+    "darkBoard": "/systems/morphous-lenticular-cloud/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lenticular-cloud/theme.css",
+    "themeJson": "/systems/morphous-lenticular-cloud/theme.json",
+    "promptsJson": "/systems/morphous-lenticular-cloud/prompts.json"
+  }
+}

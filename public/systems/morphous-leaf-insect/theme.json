@@ -1,0 +1,214 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-leaf-insect",
+    "name": "Morphous Leaf Insect",
+    "motifName": "Leaf Insect",
+    "motifCategory": "insect",
+    "biome": "rainforest canopy",
+    "motif": "leaf insect"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Leaf Underside",
+      "hex": "#FAFAF6",
+      "oklch": "oklch(0.984 0.005 106.5)"
+    },
+    {
+      "role": "Foreground",
+      "name": "Ink Stem",
+      "hex": "#2B2C25",
+      "oklch": "oklch(0.290 0.012 113.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Vein Paper",
+      "hex": "#F3F1E6",
+      "oklch": "oklch(0.957 0.015 98.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Vein",
+      "hex": "#DCE8C2",
+      "oklch": "oklch(0.912 0.052 121.7)"
+    },
+    {
+      "role": "Soft",
+      "name": "Mist Chlorophyll",
+      "hex": "#F1F7EC",
+      "oklch": "oklch(0.969 0.016 130.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Young Leaf",
+      "hex": "#CBE2AD",
+      "oklch": "oklch(0.882 0.075 126.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fresh Leaf",
+      "hex": "#48BF2A",
+      "oklch": "oklch(0.710 0.210 140.3)"
+    },
+    {
+      "role": "Action",
+      "name": "Deep Leaf",
+      "hex": "#35661D",
+      "oklch": "oklch(0.459 0.117 137.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Olive Wing",
+      "hex": "#A7B27A",
+      "oklch": "oklch(0.741 0.077 117.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Shadow",
+      "hex": "#6E7F5E",
+      "oklch": "oklch(0.573 0.053 130.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dry Edge",
+      "hex": "#B37A3A",
+      "oklch": "oklch(0.626 0.107 66.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Bark Brown",
+      "hex": "#8E5E2E",
+      "oklch": "oklch(0.524 0.089 63.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Branch Bark",
+      "hex": "#5A4226",
+      "oklch": "oklch(0.398 0.054 69.6)"
+    },
+    {
+      "role": "Night",
+      "name": "Canopy Night",
+      "hex": "#0F1310",
+      "oklch": "oklch(0.181 0.009 153.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.005 106.5)",
+    "foreground": "oklch(0.290 0.012 113.8)",
+    "card": "oklch(0.957 0.015 98.3)",
+    "card-foreground": "oklch(0.290 0.012 113.8)",
+    "popover": "oklch(0.984 0.005 106.5)",
+    "popover-foreground": "oklch(0.290 0.012 113.8)",
+    "primary": "oklch(0.459 0.117 137.1)",
+    "primary-foreground": "oklch(0.984 0.005 106.5)",
+    "secondary": "oklch(0.912 0.052 121.7)",
+    "secondary-foreground": "oklch(0.290 0.012 113.8)",
+    "muted": "oklch(0.969 0.016 130.4)",
+    "muted-foreground": "oklch(0.573 0.053 130.1)",
+    "accent": "oklch(0.882 0.075 126.9)",
+    "accent-foreground": "oklch(0.290 0.012 113.8)",
+    "destructive": "oklch(0.524 0.089 63.6)",
+    "border": "oklch(0.912 0.052 121.7)",
+    "input": "oklch(0.912 0.052 121.7)",
+    "ring": "oklch(0.710 0.210 140.3)",
+    "chart-1": "oklch(0.459 0.117 137.1)",
+    "chart-2": "oklch(0.710 0.210 140.3)",
+    "chart-3": "oklch(0.741 0.077 117.4)",
+    "chart-4": "oklch(0.626 0.107 66.6)",
+    "chart-5": "oklch(0.398 0.054 69.6)",
+    "sidebar": "oklch(0.957 0.015 98.3)",
+    "sidebar-foreground": "oklch(0.290 0.012 113.8)",
+    "sidebar-primary": "oklch(0.459 0.117 137.1)",
+    "sidebar-primary-foreground": "oklch(0.984 0.005 106.5)",
+    "sidebar-accent": "oklch(0.912 0.052 121.7)",
+    "sidebar-accent-foreground": "oklch(0.290 0.012 113.8)",
+    "sidebar-border": "oklch(0.912 0.052 121.7)",
+    "sidebar-ring": "oklch(0.710 0.210 140.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.181 0.009 153.0)",
+    "foreground": "oklch(0.947 0.028 133.7)",
+    "card": "oklch(0.209 0.016 141.1)",
+    "card-foreground": "oklch(0.947 0.028 133.7)",
+    "popover": "oklch(0.242 0.020 138.8)",
+    "popover-foreground": "oklch(0.947 0.028 133.7)",
+    "primary": "oklch(0.748 0.164 131.8)",
+    "primary-foreground": "oklch(0.181 0.009 153.0)",
+    "secondary": "oklch(0.302 0.045 140.0)",
+    "secondary-foreground": "oklch(0.947 0.028 133.7)",
+    "muted": "oklch(0.242 0.020 138.8)",
+    "muted-foreground": "oklch(0.841 0.103 128.2)",
+    "accent": "oklch(0.683 0.163 134.0)",
+    "accent-foreground": "oklch(0.181 0.009 153.0)",
+    "destructive": "oklch(0.626 0.107 66.6)",
+    "border": "oklch(0.329 0.019 151.1 / 35%)",
+    "input": "oklch(0.329 0.019 151.1 / 55%)",
+    "ring": "oklch(0.748 0.164 131.8)",
+    "chart-1": "oklch(0.748 0.164 131.8)",
+    "chart-2": "oklch(0.683 0.163 134.0)",
+    "chart-3": "oklch(0.841 0.103 128.2)",
+    "chart-4": "oklch(0.626 0.107 66.6)",
+    "chart-5": "oklch(0.475 0.075 57.2)",
+    "sidebar": "oklch(0.209 0.016 141.1)",
+    "sidebar-foreground": "oklch(0.947 0.028 133.7)",
+    "sidebar-primary": "oklch(0.748 0.164 131.8)",
+    "sidebar-primary-foreground": "oklch(0.181 0.009 153.0)",
+    "sidebar-accent": "oklch(0.302 0.045 140.0)",
+    "sidebar-accent-foreground": "oklch(0.947 0.028 133.7)",
+    "sidebar-border": "oklch(0.329 0.019 151.1 / 35%)",
+    "sidebar-ring": "oklch(0.748 0.164 131.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for precise product UI, Geist Mono for tabular data, and Noto Sans JP guidance for Japanese navigation, forms, labels, and status text.",
+  "layout": "Adaptive product grids, compact navigation, calm dashboard density, precise forms and tables, command search, 8px radii, vein-line dividers, pale leaf texture, and restrained canopy shadows.",
+  "tags": [
+    "leaf-insect",
+    "phylliidae",
+    "insect",
+    "rainforest-canopy",
+    "green-leaf",
+    "leaf-vein",
+    "brown-edge",
+    "adaptive-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-leaf-insect/motif.png",
+    "board": "/systems/morphous-leaf-insect/design-system-light.png",
+    "darkBoard": "/systems/morphous-leaf-insect/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-leaf-insect/theme.css",
+    "themeJson": "/systems/morphous-leaf-insect/theme.json",
+    "promptsJson": "/systems/morphous-leaf-insect/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent leaf insect motif",
+      "asset": "/systems/morphous-leaf-insect/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous transparent motif cutout source. Primary request: Create only a leaf insect, isolated full subject, no environment, no props, no text. Subject: a realistic rainforest canopy leaf insect with accurate insect anatomy, leaflike flattened body, folded veined wings, small legs and antennae, natural green leaf-vein coloration, subtle brown dried-leaf edges, adaptive camouflage markings, organic texture and crisp silhouette. Composition/framing: centered complete cutout with generous padding; do not crop any legs, antennae, or wing edges. Lighting/mood: clean studio light that preserves natural color and vein detail, soft but with no cast shadow. Transparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for local background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. Constraints: no text, no watermark, no props, no landscape, no branch, no second subject, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-leaf-insect/design-system-light.png",
+      "sourceAsset": "/systems/morphous-leaf-insect/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous light-mode design-system board. Primary request: Generate a comprehensive light-mode design-system board for \"Leaf Insect / Morphous Leaf Insect\", derived from the provided transparent leaf insect cutout visible in context. Reference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the leaf insect motif: bright young-leaf greens, pale vein highlights, olive shadows, warm dry brown edges, rainforest canopy adaptive camouflage. The board must visibly respect the motif colors and show the motif cutout as a reference asset. Canvas: wide 16:9 landscape board, high-resolution 4K-class source asset, at least 2400px wide if available. Layout: precise grid with large readable labels, generous spacing, not overpacked. Use clean shadcn/tweakcn-compatible product UI mockup styling with component radius 8px or less. Required visible sections: title \"Leaf Insect\", motif story, palette swatches, type scale, Japanese typography sample, buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, navigation sidebar, top navigation, dashboard/data charts, forms, table, command/search palette, status states, token chips, texture sample, radius 4/6/8, spacing scale, subtle shadows, generated asset examples. Typography: include English UI labels and Japanese examples such as リーフインセクト, 適応, 状態, 検索. Use short readable labels only. Visual language: adaptive design system, light background like leaf underside, cards in warm off-white and pale chlorophyll, primary actions in fresh leaf green, accents from brown leaf edges, vein-line separators, fine organic texture without reducing legibility. Constraints: no unrelated bright colors, no generic purple/blue gradients, no one-note monochrome palette, no watermark, no random brand names, no tiny unreadable paragraphs, no component radius over 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-leaf-insect/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-leaf-insect/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-leaf-insect/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous dark-mode design-system board. Primary request: Generate a comprehensive dark-mode version of the \"Leaf Insect / Morphous Leaf Insect\" design-system board. It must feel like the same system translated to dark mode, not a new theme. Reference use: Use the transparent leaf insect motif and the light design-system board visible in context as references. Preserve motif-derived palette roles, component language, texture rhythm, spacing, 8px-or-less radius, and English/Japanese typography guidance. Canvas: wide 16:9 landscape board, high-resolution 4K-class source asset, at least 2400px wide if available. Layout: precise grid with large readable labels, comprehensive but not overpacked. Include the motif cutout and leaf vein texture as references. Required visible sections: title \"Leaf Insect\", label \"Dark Mode\", palette swatches, type scale, Japanese typography sample, buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, sidebar navigation, top navigation, dashboard/data charts, forms, table, command/search palette, status states, token chips, texture sample, radius 4/6/8, spacing scale, restrained shadows, generated asset examples. Typography: include English UI labels and Japanese examples such as リーフインセクト, 適応, 状態, 検索. Use short readable labels only. Visual language: dark rainforest canopy interface derived from the motif's deepest leaf shadow and bark colors, foreground text from pale leaf veins, primary actions in fresh chlorophyll green, accents from dry brown leaf edges, subtle vein-line borders and low-contrast organic texture. Cards remain crisp shadcn/tweakcn-style product surfaces with radius 8px or less. Constraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple/blue gradients, no one-note monochrome palette, no watermark, no random brand names, no tiny unreadable paragraphs, no component radius over 8px."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lyrebird",
+    "name": "Morphous Lyrebird",
+    "motifName": "Lyrebird",
+    "motifCategory": "bird",
+    "biome": "Temperate Rainforest",
+    "motif": "lyrebird tail"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Rainforest Parchment",
+      "hex": "#f5f1e8",
+      "oklch": "oklch(0.959 0.013 86.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#2c2119",
+      "oklch": "oklch(0.258 0.022 57.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Feather Umber",
+      "hex": "#7a4a27",
+      "oklch": "oklch(0.457 0.082 55.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tail Silver",
+      "hex": "#c8c8bd",
+      "oklch": "oklch(0.830 0.015 106.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Velvet",
+      "hex": "#657a3f",
+      "oklch": "oklch(0.548 0.087 125.3)"
+    },
+    {
+      "role": "Focus",
+      "name": "Fern Focus",
+      "hex": "#8ca45f",
+      "oklch": "oklch(0.684 0.098 124.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Canopy Mist",
+      "hex": "#d9ddcf",
+      "oklch": "oklch(0.891 0.019 119.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Warm Taupe",
+      "hex": "#a98663",
+      "oklch": "oklch(0.645 0.065 66.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Loam",
+      "hex": "#1d1712",
+      "oklch": "oklch(0.210 0.014 61.8)"
+    },
+    {
+      "role": "Line",
+      "name": "Pearl Line",
+      "hex": "#e6e1d4",
+      "oklch": "oklch(0.910 0.018 89.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.013 86.8)",
+    "foreground": "oklch(0.258 0.022 57.6)",
+    "card": "oklch(0.891 0.019 119.8)",
+    "card-foreground": "oklch(0.258 0.022 57.6)",
+    "popover": "oklch(0.891 0.019 119.8)",
+    "popover-foreground": "oklch(0.258 0.022 57.6)",
+    "primary": "oklch(0.457 0.082 55.1)",
+    "primary-foreground": "oklch(0.959 0.013 86.8)",
+    "secondary": "oklch(0.919 0.015 106.7)",
+    "secondary-foreground": "oklch(0.210 0.014 61.8)",
+    "muted": "oklch(0.911 0.018 113.8)",
+    "muted-foreground": "oklch(0.210 0.014 61.8)",
+    "accent": "oklch(0.548 0.087 125.3)",
+    "accent-foreground": "oklch(0.258 0.022 57.6)",
+    "destructive": "oklch(0.457 0.082 55.1)",
+    "border": "oklch(0.804 0.032 86.5)",
+    "input": "oklch(0.804 0.032 86.5)",
+    "ring": "oklch(0.830 0.015 106.7)",
+    "chart-1": "oklch(0.457 0.082 55.1)",
+    "chart-2": "oklch(0.830 0.015 106.7)",
+    "chart-3": "oklch(0.548 0.087 125.3)",
+    "chart-4": "oklch(0.684 0.098 124.6)",
+    "chart-5": "oklch(0.210 0.014 61.8)",
+    "sidebar": "oklch(0.915 0.016 110.6)",
+    "sidebar-foreground": "oklch(0.258 0.022 57.6)",
+    "sidebar-primary": "oklch(0.457 0.082 55.1)",
+    "sidebar-primary-foreground": "oklch(0.959 0.013 86.8)",
+    "sidebar-accent": "oklch(0.840 0.022 98.2)",
+    "sidebar-accent-foreground": "oklch(0.457 0.082 55.1)",
+    "sidebar-border": "oklch(0.804 0.032 86.5)",
+    "sidebar-ring": "oklch(0.830 0.015 106.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.258 0.022 57.6)",
+    "foreground": "oklch(0.959 0.013 86.8)",
+    "card": "oklch(0.225 0.017 58.6)",
+    "card-foreground": "oklch(0.959 0.013 86.8)",
+    "popover": "oklch(0.225 0.017 58.6)",
+    "popover-foreground": "oklch(0.959 0.013 86.8)",
+    "primary": "oklch(0.830 0.015 106.7)",
+    "primary-foreground": "oklch(0.258 0.022 57.6)",
+    "secondary": "oklch(0.316 0.027 61.9)",
+    "secondary-foreground": "oklch(0.959 0.013 86.8)",
+    "muted": "oklch(0.316 0.027 61.9)",
+    "muted-foreground": "oklch(0.820 0.035 71.6)",
+    "accent": "oklch(0.548 0.087 125.3)",
+    "accent-foreground": "oklch(0.258 0.022 57.6)",
+    "destructive": "oklch(0.457 0.082 55.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.830 0.015 106.7)",
+    "chart-1": "oklch(0.830 0.015 106.7)",
+    "chart-2": "oklch(0.457 0.082 55.1)",
+    "chart-3": "oklch(0.548 0.087 125.3)",
+    "chart-4": "oklch(0.684 0.098 124.6)",
+    "chart-5": "oklch(0.645 0.065 66.2)",
+    "sidebar": "oklch(0.235 0.018 55.3)",
+    "sidebar-foreground": "oklch(0.959 0.013 86.8)",
+    "sidebar-primary": "oklch(0.830 0.015 106.7)",
+    "sidebar-primary-foreground": "oklch(0.258 0.022 57.6)",
+    "sidebar-accent": "oklch(0.316 0.027 61.9)",
+    "sidebar-accent-foreground": "oklch(0.959 0.013 86.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.830 0.015 106.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Editorial serif display for media moments, Geist-style sans for product UI, and Noto Sans guidance for Japanese labels and dense dashboard text.",
+  "layout": "8px grid, compact media panels, feather-rule dividers, silver lyre-tail arc accents, restrained radius, moss focus states, and refined publishing workflows.",
+  "tags": [
+    "lyrebird",
+    "bird",
+    "temperate-rainforest",
+    "brown-feather",
+    "silver-tail",
+    "moss",
+    "media-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lyrebird/motif.png",
+    "board": "/systems/morphous-lyrebird/design-system-light.png",
+    "darkBoard": "/systems/morphous-lyrebird/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lyrebird/theme.css",
+    "themeJson": "/systems/morphous-lyrebird/theme.json",
+    "promptsJson": "/systems/morphous-lyrebird/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lyrebird tail motif",
+      "asset": "/systems/morphous-lyrebird/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lyrebird transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated lyrebird tail motif on a perfectly flat solid #00ff00 chroma-key background for transparency removal.\nSubject: A refined lyrebird tail motif: elegant fan of brown feather filaments and two silver lyre-shaped tail plumes, subtle moss-green rainforest undertones, precise feather barbs, warm umber base feathers, cool silver highlights, crisp silhouette edges, premium elegant media-system feel.\nComposition/framing: centered complete cutout with generous padding; show the full lyrebird tail silhouette without cropping; no bird body, no environment, no props, no text.\nLighting/mood: clean studio light preserving brown feather texture, silver tail arcs, moss accents, and fine plume detail.\nChroma-key background: perfectly flat solid #00ff00 only. One uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #00ff00 anywhere in the subject; no cast shadow, no contact shadow, no rainforest scene, no other birds, no flowers, no watermark, no text, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-lyrebird/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive light-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 light-mode product design-system board for \"Morphous Lyrebird\" / \"Lyrebird\" using the motif of a lyrebird tail in a temperate rainforest.\nVisual identity: elegant media system, warm brown feather editorial surfaces, silver lyre-tail arcs as fine linework, moss-green rainforest accents, pearl-silver dividers, bark-umber text, misty off-white backgrounds, quiet high-end publishing and media-dashboard polish.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, media cards, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, elegant feather-rule dividers, lyre-tail arc highlights, compact media cards, moss active states, silver focus rings, rainforest-neutral borders, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic product UI terms such as Overview, Media Queue, Signal, Status, Form, Table, Reach, Conversion, Active, Draft.\nPalette names visible: Rainforest Parchment #f5f1e8, Feather Umber #7a4a27, Tail Silver #c8c8bd, Moss Velvet #657a3f, Bark Ink #2c2119, Canopy Mist #d9ddcf, Warm Taupe #a98663, Fern Focus #8ca45f, Deep Loam #1d1712, Pearl Line #e6e1d4.\nConstraints: no bird photo background, no full animal body, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-lyrebird/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive dark-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 dark-mode product design-system board for \"Morphous Lyrebird\" / \"Lyrebird\", translated from the same lyrebird tail motif in a temperate rainforest.\nVisual identity: elegant media system, deep loam and bark-ink backgrounds, warm brown feather panels, silver lyre-tail arcs as luminous linework, moss-green active states, pearl-silver dividers, canopy-mist typography, refined media-dashboard polish.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, media cards, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, elegant feather-rule dividers, lyre-tail arc highlights, compact media cards, moss active states, silver focus rings, rainforest-neutral borders, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic product UI terms such as Overview, Media Queue, Signal, Status, Form, Table, Reach, Conversion, Active, Draft.\nPalette names visible: Deep Loam #1d1712, Canopy Mist #d9ddcf, Feather Umber #7a4a27, Tail Silver #c8c8bd, Moss Velvet #657a3f, Bark Ink #2c2119, Warm Taupe #a98663, Fern Focus #8ca45f, Rainforest Parchment #f5f1e8, Pearl Line #e6e1d4.\nConstraints: no bird photo background, no full animal body, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    }
+  ]
+}

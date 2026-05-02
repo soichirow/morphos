@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "complete",
+  "slug": "morphous-mahi-mahi",
+  "name": "Morphous Mahi Mahi",
+  "motifName": "Mahi Mahi",
+  "motifCategory": "fish",
+  "biome": "tropical ocean",
+  "motif": "mahi mahi colors",
+  "description": "A high energy travel product system derived from mahi mahi colors: electric turquoise primary controls, golden route highlights, lime success signals, cobalt focus rings, teal speckle data surfaces, wake-foam light mode, and deep pelagic dark mode.",
+  "typography": "Inter Variable for fast English travel operations UI with Noto Sans JP guidance for Japanese itinerary dashboards, marine activity records, compact metric tables, and confident navigation labels.",
+  "layout": "Precise 8px product grids, 8px cards, dorsal-fin dividers, speckled mahi texture bands, current-map chart panels, compact travel task surfaces, strong focus rings, and energetic status chips.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "mahi-mahi",
+    "fish",
+    "tropical-ocean",
+    "marine",
+    "travel",
+    "turquoise",
+    "yellow",
+    "green",
+    "blue",
+    "high-energy",
+    "dark-ready"
+  ],
+  "identity": {
+    "row": 373,
+    "displayName": "Mahi Mahi",
+    "descriptor": "turquoise yellow green blue",
+    "mood": "high energy travel system"
+  },
+  "motifMetadata": {
+    "subject": "mahi mahi",
+    "sourceColors": [
+      "electric turquoise-blue back",
+      "yellow-gold belly",
+      "lime green transition",
+      "cobalt blue fin edges",
+      "teal iridescent speckles",
+      "wake-foam highlights",
+      "deep pelagic navy"
+    ],
+    "transparentWorkflow": {
+      "method": "flat chroma-key source generated with #ff00ff, then converted to alpha with remove_chroma_key.py",
+      "keyColor": "#ff00ff",
+      "final": "motif.png"
+    }
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wake Foam",
+      "hex": "#F7F8FD",
+      "oklch": "oklch(0.980 0.007 277.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pelagic",
+      "hex": "#0A1F33",
+      "oklch": "oklch(0.234 0.047 249.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mahi Turquoise",
+      "hex": "#00A9B4",
+      "oklch": "oklch(0.669 0.114 203.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Golden Belly",
+      "hex": "#FFD23C",
+      "oklch": "oklch(0.879 0.163 91.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lime Flash",
+      "hex": "#8CE22A",
+      "oklch": "oklch(0.827 0.219 132.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cobalt Fin",
+      "hex": "#0057FF",
+      "oklch": "oklch(0.537 0.257 262.5)"
+    },
+    {
+      "role": "Support",
+      "name": "Teal Speckle",
+      "hex": "#006B68",
+      "oklch": "oklch(0.477 0.082 191.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sunlit Spray",
+      "hex": "#FFF7A3",
+      "oklch": "oklch(0.964 0.105 103.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Shadow",
+      "hex": "#E6F1F7",
+      "oklch": "oklch(0.952 0.014 231.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Signal Coral",
+      "hex": "#FF5A5F",
+      "oklch": "oklch(0.689 0.200 22.4)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.980 0.007 277.2)",
+    "foreground": "oklch(0.234 0.047 249.6)",
+    "card": "oklch(0.994 0.004 157.2)",
+    "card-foreground": "oklch(0.234 0.047 249.6)",
+    "popover": "oklch(0.994 0.004 157.2)",
+    "popover-foreground": "oklch(0.234 0.047 249.6)",
+    "primary": "oklch(0.669 0.114 203.0)",
+    "primary-foreground": "oklch(0.234 0.047 249.6)",
+    "secondary": "oklch(0.879 0.163 91.2)",
+    "secondary-foreground": "oklch(0.234 0.047 249.6)",
+    "muted": "oklch(0.952 0.014 231.2)",
+    "muted-foreground": "oklch(0.477 0.082 191.4)",
+    "accent": "oklch(0.827 0.219 132.6)",
+    "accent-foreground": "oklch(0.234 0.047 249.6)",
+    "destructive": "oklch(0.689 0.200 22.4)",
+    "border": "oklch(0.934 0.024 209.8)",
+    "input": "oklch(0.934 0.024 209.8)",
+    "ring": "oklch(0.537 0.257 262.5)",
+    "chart-1": "oklch(0.669 0.114 203.0)",
+    "chart-2": "oklch(0.879 0.163 91.2)",
+    "chart-3": "oklch(0.827 0.219 132.6)",
+    "chart-4": "oklch(0.537 0.257 262.5)",
+    "chart-5": "oklch(0.477 0.082 191.4)",
+    "sidebar": "oklch(0.973 0.013 202.9)",
+    "sidebar-foreground": "oklch(0.234 0.047 249.6)",
+    "sidebar-primary": "oklch(0.669 0.114 203.0)",
+    "sidebar-primary-foreground": "oklch(0.234 0.047 249.6)",
+    "sidebar-accent": "oklch(0.952 0.014 231.2)",
+    "sidebar-accent-foreground": "oklch(0.234 0.047 249.6)",
+    "sidebar-border": "oklch(0.934 0.024 209.8)",
+    "sidebar-ring": "oklch(0.537 0.257 262.5)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.234 0.047 249.6)",
+    "foreground": "oklch(0.980 0.007 277.2)",
+    "card": "oklch(0.275 0.048 242.9)",
+    "card-foreground": "oklch(0.980 0.007 277.2)",
+    "popover": "oklch(0.275 0.048 242.9)",
+    "popover-foreground": "oklch(0.980 0.007 277.2)",
+    "primary": "oklch(0.669 0.114 203.0)",
+    "primary-foreground": "oklch(0.234 0.047 249.6)",
+    "secondary": "oklch(0.323 0.046 208.7)",
+    "secondary-foreground": "oklch(0.980 0.007 277.2)",
+    "muted": "oklch(0.323 0.046 208.7)",
+    "muted-foreground": "oklch(0.952 0.014 231.2)",
+    "accent": "oklch(0.879 0.163 91.2)",
+    "accent-foreground": "oklch(0.234 0.047 249.6)",
+    "destructive": "oklch(0.689 0.200 22.4)",
+    "border": "oklch(0.980 0.007 277.2 / 12%)",
+    "input": "oklch(0.980 0.007 277.2 / 16%)",
+    "ring": "oklch(0.537 0.257 262.5)",
+    "chart-1": "oklch(0.669 0.114 203.0)",
+    "chart-2": "oklch(0.879 0.163 91.2)",
+    "chart-3": "oklch(0.827 0.219 132.6)",
+    "chart-4": "oklch(0.537 0.257 262.5)",
+    "chart-5": "oklch(0.477 0.082 191.4)",
+    "sidebar": "oklch(0.203 0.038 247.1)",
+    "sidebar-foreground": "oklch(0.980 0.007 277.2)",
+    "sidebar-primary": "oklch(0.669 0.114 203.0)",
+    "sidebar-primary-foreground": "oklch(0.234 0.047 249.6)",
+    "sidebar-accent": "oklch(0.323 0.046 208.7)",
+    "sidebar-accent-foreground": "oklch(0.980 0.007 277.2)",
+    "sidebar-border": "oklch(0.980 0.007 277.2 / 12%)",
+    "sidebar-ring": "oklch(0.537 0.257 262.5)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

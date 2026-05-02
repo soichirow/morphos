@@ -1,0 +1,214 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-leafcutter-bee",
+    "name": "Morphous Leafcutter Bee",
+    "motifName": "Leafcutter Bee",
+    "motifCategory": "insect",
+    "biome": "garden rose",
+    "motif": "leafcutter bee"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cut Edge Cream",
+      "hex": "#FAF6EA",
+      "oklch": "oklch(0.973 0.016 91.5)"
+    },
+    {
+      "role": "Foreground",
+      "name": "Eye Black",
+      "hex": "#0B0C0D",
+      "oklch": "oklch(0.154 0.003 248.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Body",
+      "hex": "#B85A12",
+      "oklch": "oklch(0.573 0.143 50.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rose Leaf",
+      "hex": "#4B7A45",
+      "oklch": "oklch(0.532 0.095 141.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pollen Gold",
+      "hex": "#E4B66A",
+      "oklch": "oklch(0.802 0.108 78.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Cream",
+      "hex": "#FFF1C3",
+      "oklch": "oklch(0.958 0.061 93.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Garden Paper",
+      "hex": "#FFFDF7",
+      "oklch": "oklch(0.994 0.008 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wing Smoke",
+      "hex": "#9AA1A6",
+      "oklch": "oklch(0.705 0.011 238.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mandible Brown",
+      "hex": "#1F1A14",
+      "oklch": "oklch(0.222 0.014 72.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Constructive",
+      "hex": "#2E5A31",
+      "oklch": "oklch(0.424 0.083 145.4)"
+    },
+    {
+      "role": "Soft",
+      "name": "Leaf Mist",
+      "hex": "#E7EDD9",
+      "oklch": "oklch(0.936 0.027 120.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Honey Vein",
+      "hex": "#C8841F",
+      "oklch": "oklch(0.668 0.135 70.5)"
+    },
+    {
+      "role": "Info",
+      "name": "Fuzz Umber",
+      "hex": "#6B5A37",
+      "oklch": "oklch(0.476 0.055 84.5)"
+    },
+    {
+      "role": "Error",
+      "name": "Rose Thorn",
+      "hex": "#8A2E1D",
+      "oklch": "oklch(0.435 0.129 32.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.016 91.5)",
+    "foreground": "oklch(0.154 0.003 248.0)",
+    "card": "oklch(0.994 0.008 91.5)",
+    "card-foreground": "oklch(0.154 0.003 248.0)",
+    "popover": "oklch(0.994 0.008 91.5)",
+    "popover-foreground": "oklch(0.154 0.003 248.0)",
+    "primary": "oklch(0.573 0.143 50.7)",
+    "primary-foreground": "oklch(0.973 0.016 91.5)",
+    "secondary": "oklch(0.985 0.011 89.7)",
+    "secondary-foreground": "oklch(0.222 0.014 72.1)",
+    "muted": "oklch(0.988 0.011 89.7)",
+    "muted-foreground": "oklch(0.222 0.014 72.1)",
+    "accent": "oklch(0.802 0.108 78.8)",
+    "accent-foreground": "oklch(0.154 0.003 248.0)",
+    "destructive": "oklch(0.573 0.143 50.7)",
+    "border": "oklch(0.893 0.003 128.5)",
+    "input": "oklch(0.893 0.003 128.5)",
+    "ring": "oklch(0.532 0.095 141.6)",
+    "chart-1": "oklch(0.573 0.143 50.7)",
+    "chart-2": "oklch(0.532 0.095 141.6)",
+    "chart-3": "oklch(0.802 0.108 78.8)",
+    "chart-4": "oklch(0.958 0.061 93.1)",
+    "chart-5": "oklch(0.222 0.014 72.1)",
+    "sidebar": "oklch(0.987 0.011 95.2)",
+    "sidebar-foreground": "oklch(0.154 0.003 248.0)",
+    "sidebar-primary": "oklch(0.573 0.143 50.7)",
+    "sidebar-primary-foreground": "oklch(0.973 0.016 91.5)",
+    "sidebar-accent": "oklch(0.941 0.022 67.6)",
+    "sidebar-accent-foreground": "oklch(0.573 0.143 50.7)",
+    "sidebar-border": "oklch(0.893 0.003 128.5)",
+    "sidebar-ring": "oklch(0.532 0.095 141.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.154 0.003 248.0)",
+    "foreground": "oklch(0.973 0.016 91.5)",
+    "card": "oklch(0.198 0.008 67.4)",
+    "card-foreground": "oklch(0.973 0.016 91.5)",
+    "popover": "oklch(0.198 0.008 67.4)",
+    "popover-foreground": "oklch(0.973 0.016 91.5)",
+    "primary": "oklch(0.532 0.095 141.6)",
+    "primary-foreground": "oklch(0.154 0.003 248.0)",
+    "secondary": "oklch(0.341 0.007 84.6)",
+    "secondary-foreground": "oklch(0.973 0.016 91.5)",
+    "muted": "oklch(0.341 0.007 84.6)",
+    "muted-foreground": "oklch(0.855 0.007 115.7)",
+    "accent": "oklch(0.802 0.108 78.8)",
+    "accent-foreground": "oklch(0.154 0.003 248.0)",
+    "destructive": "oklch(0.573 0.143 50.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.532 0.095 141.6)",
+    "chart-1": "oklch(0.532 0.095 141.6)",
+    "chart-2": "oklch(0.573 0.143 50.7)",
+    "chart-3": "oklch(0.802 0.108 78.8)",
+    "chart-4": "oklch(0.958 0.061 93.1)",
+    "chart-5": "oklch(0.705 0.011 238.6)",
+    "sidebar": "oklch(0.184 0.005 67.5)",
+    "sidebar-foreground": "oklch(0.973 0.016 91.5)",
+    "sidebar-primary": "oklch(0.532 0.095 141.6)",
+    "sidebar-primary-foreground": "oklch(0.154 0.003 248.0)",
+    "sidebar-accent": "oklch(0.341 0.007 84.6)",
+    "sidebar-accent-foreground": "oklch(0.973 0.016 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.532 0.095 141.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Manrope for sturdy modular product UI, IBM Plex Mono for tabular data and token labels, and Noto Sans JP guidance for Japanese navigation, forms, labels, and status text.",
+  "layout": "Compact builder dashboards, cut-leaf circle modules, leaf-disc cards, segmented navigation, precise forms and tables, command search, 8px radii, cream focus rings, honey-vein dividers, and smoky wing shadows.",
+  "tags": [
+    "leafcutter-bee",
+    "bee",
+    "insect",
+    "garden-rose",
+    "amber",
+    "leaf-green",
+    "cream",
+    "modular-builder",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-leafcutter-bee/motif.png",
+    "board": "/systems/morphous-leafcutter-bee/design-system-light.png",
+    "darkBoard": "/systems/morphous-leafcutter-bee/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-leafcutter-bee/theme.css",
+    "themeJson": "/systems/morphous-leafcutter-bee/theme.json",
+    "promptsJson": "/systems/morphous-leafcutter-bee/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent leafcutter bee motif",
+      "asset": "/systems/morphous-leafcutter-bee/motif.png",
+      "workflow": "Built-in image generation on a flat #0000ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous Leafcutter Bee transparent motif chroma-key source. Primary request: Create only an isolated leafcutter bee motif for a design-system catalog, no environment, no rose blossom, no text. Subject: A single leafcutter bee with accurate anatomy: compact amber-brown body, cream pollen fuzz and pale abdominal bands, translucent smoky-gray wings with neutral gray membranes and amber veins, dark beadlike eyes, fine legs, visible mandibles holding one clean round cut piece of olive green rose leaf with a pale cream cut edge. Natural macro detail, crisp silhouette edges, refined modular-builder mood inspired by precise circular leaf cuts. Composition/framing: centered complete cutout with generous padding; show the full bee, wings, legs, antennae, mandibles, and one leaf cutout without cropping. Slight three-quarter side view, readable silhouette for a catalog motif. Lighting/mood: clean studio light that preserves amber body texture, cream fuzz, neutral smoky wings, olive leaf surface, and pale cut edge. Chroma-key background: perfectly flat solid #0000ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #0000ff or any blue/cyan tint anywhere in the subject, including the wings. Constraints: no honeybee hive, no flowers, no branch, no garden scene, no second insect, no cartoon style, no toy look, no text, no watermark, no cast shadow, no contact shadow, no reflection, no blue rim light, no colored key spill in the wings."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-leafcutter-bee/design-system-light.png",
+      "sourceAsset": "/systems/morphous-leafcutter-bee/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Leafcutter Bee light-mode design-system board. Input image role: The visible transparent leafcutter bee motif is the source reference for palette, texture, modular shape language, contrast, and interaction details. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Leafcutter Bee\", derived from the visible leafcutter bee cutout carrying a circular rose-leaf piece. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board, large readable labels, no dense tiny token tables. Required visible sections: Morphous Leafcutter Bee, Leafcutter Bee, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Extract palette and UI language from amber bee body, cream pollen fuzz and bands, olive green rose leaf, pale cream cut edge, smoky translucent wings, dark eye/mandible structure, honey-ochre veins, and garden-rose leaf texture. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, dashboard metric cards, charts, filters, empty/loading/error/success states, spacing, radius, border, shadow, texture samples, and simple product icons. Design mood: modular builder system. Use precise cut-leaf circle modules, segmented honeycomb-like but not literal honeybee hive panels, leaf-disc cards, amber action buttons, green constructive states, cream focus rings, smoky wing glass panels, dark mandible dividers, compact dashboard density, and 8px or smaller radii. Typography: include English product UI guidance and Japanese typography examples using readable labels such as \"\\u65e5\\u672c\\u8a9e\\u30bf\\u30a4\\u30dd\\u30b0\\u30e9\\u30d5\\u30a3\", \"\\u691c\\u7d22\", \"\\u72b6\\u614b\", \"\\u4fdd\\u5b58\". Pair a sturdy geometric sans for product UI with a readable Japanese sans and a crisp mono for data. Color constraints: use only motif-derived colors and near-neutrals; no generic purple/blue gradients, no unrelated bright colors, no one-note orange theme. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Leafcutter Bee\" or \"Leafcutter Bee\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-leafcutter-bee/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-leafcutter-bee/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-leafcutter-bee/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Leafcutter Bee dark-mode design-system board. Input image roles: The visible transparent leafcutter bee motif is the motif reference, and the visible light-mode board is the layout, section coverage, palette, and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Leafcutter Bee\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible bee-and-leaf motif. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board, large readable labels, no dense tiny token tables. Required visible sections: Morphous Leafcutter Bee, Leafcutter Bee, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Visual details: dark background derived from eye black and mandible brown; foreground from cream pollen and pale cut edge; primary actions from rich amber body; constructive states from olive rose leaf; secondary surfaces from smoky wing gray and dark leaf shadow; borders from honey-ochre wing veins; focus rings from cut-edge cream and warm pollen. Use subtle leaf-disc texture, modular circular cutouts, segmented builder panels, and smoky glass overlays. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search, navigation, dashboard/data charts, forms, tables, empty/loading/error/success states, tokens, texture, radius, spacing, and shadows. Design constraints: shadcn/tweakcn-style product UI, compact dashboard density, 8px or smaller radii, crisp dark surfaces, modular builder system, no nested UI cards. Typography: include English product UI guidance and Japanese examples such as \"\\u65e5\\u672c\\u8a9e\\u30bf\\u30a4\\u30dd\\u30b0\\u30e9\\u30d5\\u30a3\", \"\\u691c\\u7d22\", \"\\u72b6\\u614b\", \"\\u4fdd\\u5b58\" with a readable Japanese sans and mono data sample. Color constraints: use only motif-derived colors and near-neutrals; no neon colors, no pure black flat background, no unrelated bright colors, no generic purple/blue gradients, no one-note orange theme. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Leafcutter Bee\" or \"Leafcutter Bee\", no tiny unreadable paragraphs."
+    }
+  ]
+}

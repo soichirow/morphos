@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lionfish",
+    "name": "Morphous Lionfish",
+    "motifName": "Lionfish Fins",
+    "motifCategory": "fish",
+    "biome": "Coral Reef",
+    "motif": "lionfish fins"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Reef",
+      "hex": "#FFF7F5",
+      "oklch": "oklch(0.982 0.009 34.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Ink",
+      "hex": "#141C24",
+      "oklch": "oklch(0.222 0.020 248.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lionfish Red",
+      "hex": "#D62828",
+      "oklch": "oklch(0.568 0.208 27.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fin Blush",
+      "hex": "#FDE7E6",
+      "oklch": "oklch(0.945 0.024 20.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Spine",
+      "hex": "#F0A000",
+      "oklch": "oklch(0.766 0.163 73.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Reef Teal",
+      "hex": "#3AA6A6",
+      "oklch": "oklch(0.665 0.096 195.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Membrane",
+      "hex": "#F7E3DF",
+      "oklch": "oklch(0.931 0.023 31.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Sand",
+      "hex": "#F1ECE6",
+      "oklch": "oklch(0.945 0.010 72.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Blood",
+      "hex": "#4A1218",
+      "oklch": "oklch(0.280 0.084 18.5)"
+    },
+    {
+      "role": "Warning",
+      "name": "Coral Warning",
+      "hex": "#FF6844",
+      "oklch": "oklch(0.702 0.192 34.7)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Graphite Eye",
+      "hex": "#253239",
+      "oklch": "oklch(0.308 0.022 231.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.009 34.3)",
+    "foreground": "oklch(0.222 0.020 248.7)",
+    "card": "oklch(0.931 0.023 31.1)",
+    "card-foreground": "oklch(0.222 0.020 248.7)",
+    "popover": "oklch(0.931 0.023 31.1)",
+    "popover-foreground": "oklch(0.222 0.020 248.7)",
+    "primary": "oklch(0.568 0.208 27.1)",
+    "primary-foreground": "oklch(0.982 0.009 34.3)",
+    "secondary": "oklch(0.945 0.024 20.7)",
+    "secondary-foreground": "oklch(0.280 0.084 18.5)",
+    "muted": "oklch(0.945 0.010 72.7)",
+    "muted-foreground": "oklch(0.308 0.022 231.9)",
+    "accent": "oklch(0.665 0.096 195.1)",
+    "accent-foreground": "oklch(0.222 0.020 248.7)",
+    "destructive": "oklch(0.702 0.192 34.7)",
+    "border": "oklch(0.900 0.018 31.1)",
+    "input": "oklch(0.900 0.018 31.1)",
+    "ring": "oklch(0.766 0.163 73.4)",
+    "chart-1": "oklch(0.568 0.208 27.1)",
+    "chart-2": "oklch(0.766 0.163 73.4)",
+    "chart-3": "oklch(0.665 0.096 195.1)",
+    "chart-4": "oklch(0.702 0.192 34.7)",
+    "chart-5": "oklch(0.280 0.084 18.5)",
+    "sidebar": "oklch(0.970 0.012 32.5)",
+    "sidebar-foreground": "oklch(0.222 0.020 248.7)",
+    "sidebar-primary": "oklch(0.568 0.208 27.1)",
+    "sidebar-primary-foreground": "oklch(0.982 0.009 34.3)",
+    "sidebar-accent": "oklch(0.945 0.024 20.7)",
+    "sidebar-accent-foreground": "oklch(0.568 0.208 27.1)",
+    "sidebar-border": "oklch(0.900 0.018 31.1)",
+    "sidebar-ring": "oklch(0.766 0.163 73.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.184 0.015 336.7)",
+    "foreground": "oklch(0.982 0.009 34.3)",
+    "card": "oklch(0.206 0.050 14.5)",
+    "card-foreground": "oklch(0.982 0.009 34.3)",
+    "popover": "oklch(0.206 0.050 14.5)",
+    "popover-foreground": "oklch(0.982 0.009 34.3)",
+    "primary": "oklch(0.568 0.208 27.1)",
+    "primary-foreground": "oklch(0.982 0.009 34.3)",
+    "secondary": "oklch(0.280 0.084 18.5)",
+    "secondary-foreground": "oklch(0.982 0.009 34.3)",
+    "muted": "oklch(0.308 0.022 231.9)",
+    "muted-foreground": "oklch(0.931 0.023 31.1)",
+    "accent": "oklch(0.766 0.163 73.4)",
+    "accent-foreground": "oklch(0.184 0.015 336.7)",
+    "destructive": "oklch(0.702 0.192 34.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.766 0.163 73.4)",
+    "chart-1": "oklch(0.568 0.208 27.1)",
+    "chart-2": "oklch(0.766 0.163 73.4)",
+    "chart-3": "oklch(0.665 0.096 195.1)",
+    "chart-4": "oklch(0.702 0.192 34.7)",
+    "chart-5": "oklch(0.945 0.024 20.7)",
+    "sidebar": "oklch(0.206 0.050 14.5)",
+    "sidebar-foreground": "oklch(0.982 0.009 34.3)",
+    "sidebar-primary": "oklch(0.568 0.208 27.1)",
+    "sidebar-primary-foreground": "oklch(0.982 0.009 34.3)",
+    "sidebar-accent": "oklch(0.308 0.022 231.9)",
+    "sidebar-accent-foreground": "oklch(0.982 0.009 34.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.766 0.163 73.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English product UI with Noto Sans JP guidance for multilingual headings, compact security labels, tabular metrics, and readable incident workflows.",
+  "layout": "A dense 8px product grid with 8px card radius, radiating fin-ray dividers, stripe texture panels, shield-led navigation, incident dashboards, crisp command surfaces, and restrained reef-depth shadows.",
+  "tags": [
+    "lionfish",
+    "fish",
+    "coral-reef",
+    "security",
+    "ornate",
+    "red",
+    "amber",
+    "stripe",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lionfish/motif.png",
+    "board": "/systems/morphous-lionfish/design-system-light.png",
+    "darkBoard": "/systems/morphous-lionfish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lionfish/theme.css",
+    "themeJson": "/systems/morphous-lionfish/theme.json",
+    "promptsJson": "/systems/morphous-lionfish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lionfish motif source",
+      "asset": "/systems/morphous-lionfish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a lionfish fins motif for a design-system catalog, isolated as one complete lionfish subject on a removable chroma-key background.\nSubject: A dramatic red lionfish with accurate ornate fan fins, long amber venom spines, crisp red-and-white zebra striping, pearly white fin membranes rendered mostly opaque for clean cutout edges, dark reef-ink eye detail, and refined coral-reef fish anatomy. The pose should emphasize radiating protective fins and spines for an ornate security-system mood. It must read clearly as lionfish, not koi, betta, perch, or generic tropical fish.\nComposition/framing: centered complete cutout with generous padding; include head, body, pectoral fins, dorsal spines, pelvic fins, and tail without cropping. Slight three-quarter side view, elegant radial silhouette, clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no coral reef background, no water, no bubbles, no rocks, no sand, no other fish, no props, no frame, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lionfish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lionfish\", derived from the visible transparent lionfish cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible lionfish: red-and-white zebra striping, amber venom spines, pearl fin membranes, deep reef ink shadows, coral reef context, and radiating protective fin geometry. The board must visibly respect the motif colors and serve as a reference for coding an ornate security system.\nCanvas: exact 16:9 board, intended final output 3840x2160.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, precise grid, and avoid dense tiny text.\nRequired visible sections: Morphous Lionfish, Lionfish Fins, Light Mode, Motif Story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; labels such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, Japanese UI. Show multilingual product UI guidance with short readable labels.\nFull component coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, breadcrumb, dashboard metric cards, line chart, bar chart, donut chart, empty state, loading state, error state, spacing scale, radius scale, border tokens, shadow tokens, texture samples, small motif asset preview, shield and lock icons.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic crisp UI mockup, 8px card radius, light pearl reef surfaces, red stripe primary controls, amber spine active highlights, reef teal selection and chart accents, coral warning surfaces, dark reef-ink text, fin-ray dividers, stripe texture panels, precise 8px grid, ornate security-system mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: pearl reef white, fin membrane blush, lionfish red stripe, deep blood stripe, amber spine, reef teal, coral warning, graphite eye, deep reef ink.\nText: use short readable UI labels; no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no tropical rainbow palette, no aquarium neon, no watermark, no random brand names, no misspelling of \"Morphous Lionfish\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lionfish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Lionfish design-system board. It must feel like the same system translated to dark mode, not a new theme, and it must remain derived from the visible lionfish cutout.\nReference use: Use the visible transparent lionfish cutout and visible light-mode Morphous Lionfish board as references. Preserve the lionfish red stripe, deep blood stripe, amber spine, pearl reef white, fin blush, reef teal, coral warning, graphite eye, and deep reef ink palette roles; radiating fin-ray dividers; striped texture panels; Japanese typography; security-system icons; and shadcn/tweakcn component coverage.\nCanvas: exact 16:9 board, intended final output 3840x2160.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, precise grid, and avoid dense tiny text.\nRequired visible sections: Morphous Lionfish, Lionfish Fins, Dark Mode, Motif Story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nFull component coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, breadcrumb, dashboard metric cards, line chart, bar chart, donut chart, empty state, loading state, error state, spacing scale, radius scale, border tokens, shadow tokens, texture samples, small motif asset preview, shield and lock icons.\nVisual details: dark background derived from deep reef ink and graphite eye, cards like midnight coral reef panels, foreground from pearl reef white, primary red stripe controls, amber spine active highlights, reef-teal focus rings and charts, coral warning/destructive states, subtle fin membrane texture overlays, crisp 8px-radius product UI, ornate security-system mood.\nTypography: include English and Japanese examples; labels such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, Japanese UI. Keep text short and legible on dark reef surfaces.\nText: use short readable UI labels; no long paragraphs.\nConstraints: no neon aquarium colors, no tropical rainbow palette, no unrelated saturated colors, no generic purple/blue gradients, no flat pure-black-only background, no illegible microtext, no watermark, no random brand names, no misspelling of \"Morphous Lionfish\"."
+    }
+  ]
+}

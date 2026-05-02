@@ -1,0 +1,185 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 249,
+  "slug": "morphous-maize-husk",
+  "name": "Morphous Maize Husk",
+  "motifName": "Maize Husk",
+  "motifCategory": "plant",
+  "biome": "corn field",
+  "motif": "maize husk",
+  "paletteMood": "yellow kernel husk green silk brown",
+  "designMood": "modular marketplace system",
+  "description": "A shadcn/tweakcn-compatible modular marketplace system derived from maize husk parchment, golden kernel rows, fresh husk greens, brown silk fibers, toasted kernel shadows, and cornfield soil ink.",
+  "typography": "Practical English marketplace UI with Noto Sans JP guidance for listings, inventory counts, order queues, vendor status, command search, table numerals, and compact Japanese operations labels.",
+  "layout": "Modular marketplace grids, product cards, vendor dashboards, inventory tables, command search, 8px cards and controls, husk-fiber dividers, kernel-grid chart rhythm, and restrained maize-derived shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "designSystemSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "maize-husk",
+    "plant",
+    "corn-field",
+    "yellow-kernel",
+    "husk-green",
+    "maize-silk",
+    "modular-marketplace",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cornfield Off-White",
+      "hex": "#FFF7D6"
+    },
+    {
+      "role": "Ink",
+      "name": "Field Soil Ink",
+      "hex": "#25170B"
+    },
+    {
+      "role": "Surface",
+      "name": "Husk Parchment",
+      "hex": "#FAEBC0"
+    },
+    {
+      "role": "Primary",
+      "name": "Golden Maize",
+      "hex": "#F9C437"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Toasted Kernel",
+      "hex": "#D99A18"
+    },
+    {
+      "role": "Secondary",
+      "name": "Fresh Husk",
+      "hex": "#8FA93B"
+    },
+    {
+      "role": "Accent",
+      "name": "Husk Green",
+      "hex": "#5F7E2E"
+    },
+    {
+      "role": "Signal",
+      "name": "Maize Silk Brown",
+      "hex": "#8B4B1F"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Husk Tan",
+      "hex": "#E6C478"
+    },
+    {
+      "role": "Border",
+      "name": "Husk Border",
+      "hex": "#C89D4F"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Field Green",
+      "hex": "#1C2A13"
+    },
+    {
+      "role": "Destructive",
+      "name": "Silk Ember",
+      "hex": "#B85A2A"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.974 0.044 95.8)",
+    "foreground": "oklch(0.220 0.031 60.7)",
+    "card": "oklch(0.987 0.023 96.0)",
+    "card-foreground": "oklch(0.220 0.031 60.7)",
+    "popover": "oklch(0.987 0.023 96.0)",
+    "popover-foreground": "oklch(0.220 0.031 60.7)",
+    "primary": "oklch(0.729 0.147 78.2)",
+    "primary-foreground": "oklch(0.220 0.031 60.7)",
+    "secondary": "oklch(0.941 0.058 91.1)",
+    "secondary-foreground": "oklch(0.265 0.045 134.2)",
+    "muted": "oklch(0.925 0.062 93.1)",
+    "muted-foreground": "oklch(0.452 0.075 81.0)",
+    "accent": "oklch(0.693 0.139 121.5)",
+    "accent-foreground": "oklch(0.220 0.031 60.7)",
+    "destructive": "oklch(0.574 0.136 45.2)",
+    "border": "oklch(0.720 0.109 80.5)",
+    "input": "oklch(0.833 0.103 86.1)",
+    "ring": "oklch(0.693 0.139 121.5)",
+    "chart-1": "oklch(0.845 0.158 86.6)",
+    "chart-2": "oklch(0.693 0.139 121.5)",
+    "chart-3": "oklch(0.482 0.103 51.9)",
+    "chart-4": "oklch(0.833 0.103 86.1)",
+    "chart-5": "oklch(0.552 0.114 127.7)",
+    "sidebar": "oklch(0.957 0.056 94.0)",
+    "sidebar-foreground": "oklch(0.220 0.031 60.7)",
+    "sidebar-primary": "oklch(0.729 0.147 78.2)",
+    "sidebar-primary-foreground": "oklch(0.220 0.031 60.7)",
+    "sidebar-accent": "oklch(0.918 0.071 91.5)",
+    "sidebar-accent-foreground": "oklch(0.552 0.114 127.7)",
+    "sidebar-border": "oklch(0.720 0.109 80.5)",
+    "sidebar-ring": "oklch(0.693 0.139 121.5)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.265 0.045 134.2)",
+    "foreground": "oklch(0.941 0.058 91.1)",
+    "card": "oklch(0.291 0.041 131.8)",
+    "card-foreground": "oklch(0.941 0.058 91.1)",
+    "popover": "oklch(0.308 0.045 85.6)",
+    "popover-foreground": "oklch(0.941 0.058 91.1)",
+    "primary": "oklch(0.845 0.158 86.6)",
+    "primary-foreground": "oklch(0.220 0.031 60.7)",
+    "secondary": "oklch(0.452 0.075 81.0)",
+    "secondary-foreground": "oklch(0.941 0.058 91.1)",
+    "muted": "oklch(0.308 0.045 85.6)",
+    "muted-foreground": "oklch(0.833 0.103 86.1)",
+    "accent": "oklch(0.693 0.139 121.5)",
+    "accent-foreground": "oklch(0.220 0.031 60.7)",
+    "destructive": "oklch(0.574 0.136 45.2)",
+    "border": "oklch(0.720 0.109 80.5 / 32%)",
+    "input": "oklch(0.720 0.109 80.5 / 38%)",
+    "ring": "oklch(0.845 0.158 86.6)",
+    "chart-1": "oklch(0.845 0.158 86.6)",
+    "chart-2": "oklch(0.693 0.139 121.5)",
+    "chart-3": "oklch(0.833 0.103 86.1)",
+    "chart-4": "oklch(0.729 0.147 78.2)",
+    "chart-5": "oklch(0.482 0.103 51.9)",
+    "sidebar": "oklch(0.220 0.031 60.7)",
+    "sidebar-foreground": "oklch(0.941 0.058 91.1)",
+    "sidebar-primary": "oklch(0.845 0.158 86.6)",
+    "sidebar-primary-foreground": "oklch(0.220 0.031 60.7)",
+    "sidebar-accent": "oklch(0.308 0.045 85.6)",
+    "sidebar-accent-foreground": "oklch(0.941 0.058 91.1)",
+    "sidebar-border": "oklch(0.720 0.109 80.5 / 32%)",
+    "sidebar-ring": "oklch(0.845 0.158 86.6)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

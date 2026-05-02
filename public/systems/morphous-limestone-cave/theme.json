@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-limestone-cave",
+    "name": "Limestone Cave",
+    "motifName": "Limestone Cave",
+    "motifCategory": "landscape",
+    "biome": "Underground Cave",
+    "motif": "stalactite cave"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Calcite Cream",
+      "hex": "#f6f3ec",
+      "oklch": "oklch(0.965 0.010 87.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Chalk Ivory",
+      "hex": "#fbf9f3",
+      "oklch": "oklch(0.982 0.008 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Limestone Gray",
+      "hex": "#e6e1d6",
+      "oklch": "oklch(0.911 0.016 86.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Taupe",
+      "hex": "#cfc8b8",
+      "oklch": "oklch(0.834 0.023 87.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warm Gold",
+      "hex": "#b8862b",
+      "oklch": "oklch(0.654 0.120 78.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dark Stone",
+      "hex": "#1f1f1d",
+      "oklch": "oklch(0.239 0.004 106.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Cave",
+      "hex": "#2e2e2c",
+      "oklch": "oklch(0.300 0.004 106.6)"
+    },
+    {
+      "role": "Slate",
+      "name": "Cave Slate",
+      "hex": "#3d3d38",
+      "oklch": "oklch(0.358 0.008 106.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mineral Amber",
+      "hex": "#d4a23a",
+      "oklch": "oklch(0.741 0.131 82.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.010 87.5)",
+    "foreground": "oklch(0.239 0.004 106.7)",
+    "card": "oklch(0.982 0.008 91.5)",
+    "card-foreground": "oklch(0.239 0.004 106.7)",
+    "popover": "oklch(0.982 0.008 91.5)",
+    "popover-foreground": "oklch(0.239 0.004 106.7)",
+    "primary": "oklch(0.654 0.120 78.1)",
+    "primary-foreground": "oklch(0.965 0.010 87.5)",
+    "secondary": "oklch(0.974 0.009 84.6)",
+    "secondary-foreground": "oklch(0.300 0.004 106.6)",
+    "muted": "oklch(0.977 0.009 84.6)",
+    "muted-foreground": "oklch(0.300 0.004 106.6)",
+    "accent": "oklch(0.741 0.131 82.1)",
+    "accent-foreground": "oklch(0.239 0.004 106.7)",
+    "destructive": "oklch(0.654 0.120 78.1)",
+    "border": "oklch(0.956 0.010 87.5)",
+    "input": "oklch(0.956 0.010 87.5)",
+    "ring": "oklch(0.834 0.023 87.2)",
+    "chart-1": "oklch(0.654 0.120 78.1)",
+    "chart-2": "oklch(0.834 0.023 87.2)",
+    "chart-3": "oklch(0.741 0.131 82.1)",
+    "chart-4": "oklch(0.239 0.004 106.7)",
+    "chart-5": "oklch(0.300 0.004 106.6)",
+    "sidebar": "oklch(0.976 0.008 91.5)",
+    "sidebar-foreground": "oklch(0.239 0.004 106.7)",
+    "sidebar-primary": "oklch(0.654 0.120 78.1)",
+    "sidebar-primary-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-accent": "oklch(0.942 0.023 84.6)",
+    "sidebar-accent-foreground": "oklch(0.654 0.120 78.1)",
+    "sidebar-border": "oklch(0.956 0.010 87.5)",
+    "sidebar-ring": "oklch(0.834 0.023 87.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.239 0.004 106.7)",
+    "foreground": "oklch(0.965 0.010 87.5)",
+    "card": "oklch(0.280 0.004 106.6)",
+    "card-foreground": "oklch(0.965 0.010 87.5)",
+    "popover": "oklch(0.280 0.004 106.6)",
+    "popover-foreground": "oklch(0.965 0.010 87.5)",
+    "primary": "oklch(0.834 0.023 87.2)",
+    "primary-foreground": "oklch(0.239 0.004 106.7)",
+    "secondary": "oklch(0.449 0.007 95.2)",
+    "secondary-foreground": "oklch(0.965 0.010 87.5)",
+    "muted": "oklch(0.449 0.007 95.2)",
+    "muted-foreground": "oklch(0.941 0.013 86.8)",
+    "accent": "oklch(0.741 0.131 82.1)",
+    "accent-foreground": "oklch(0.239 0.004 106.7)",
+    "destructive": "oklch(0.654 0.120 78.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.834 0.023 87.2)",
+    "chart-1": "oklch(0.834 0.023 87.2)",
+    "chart-2": "oklch(0.654 0.120 78.1)",
+    "chart-3": "oklch(0.741 0.131 82.1)",
+    "chart-4": "oklch(0.239 0.004 106.7)",
+    "chart-5": "oklch(0.911 0.016 86.4)",
+    "sidebar": "oklch(0.268 0.004 106.6)",
+    "sidebar-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-primary": "oklch(0.834 0.023 87.2)",
+    "sidebar-primary-foreground": "oklch(0.239 0.004 106.7)",
+    "sidebar-accent": "oklch(0.449 0.007 95.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.834 0.023 87.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm multilingual product typography for cave archives, research dashboards, and knowledge-base interfaces, with sturdy English display type and readable Japanese UI guidance.",
+  "layout": "Precise 8px operational grids, dark-stone navigation, calcite content surfaces, fine mineral-vein dividers, quiet archive panels, and measured cave-map data density.",
+  "tags": [
+    "limestone-cave",
+    "landscape",
+    "underground",
+    "stalactite",
+    "calcite",
+    "knowledge-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-limestone-cave/motif.png",
+    "board": "/systems/morphous-limestone-cave/design-system-light.png",
+    "darkBoard": "/systems/morphous-limestone-cave/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-limestone-cave/theme.css",
+    "themeJson": "/systems/morphous-limestone-cave/theme.json",
+    "promptsJson": "/systems/morphous-limestone-cave/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent limestone cave motif",
+      "asset": "/systems/morphous-limestone-cave/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout\nPrimary request: Create only a sculptural limestone stalactite cave formation motif: clustered cream calcite stalactites and stalagmites forming a natural underground arch, isolated full subject, no surrounding cave room, no props, no text.\nSubject: accurate limestone cave mineral forms with cream calcite, dark stone inclusions, warm gold mineral veining, wet polished highlights, porous rock texture, layered dripstone ribs, natural asymmetrical silhouette.\nComposition/framing: centered complete cutout with generous padding; do not crop the subject. Make the silhouette useful as a design-system motif asset.\nLighting/mood: clean studio light that preserves stone detail, calcite translucency, dark recesses, and gold mineral warmth.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no full landscape, no decorative background, no extra objects, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-limestone-cave/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Limestone Cave\", a subterranean knowledge system derived from a stalactite limestone cave motif.\nReference use: Visually derive the entire system from cream calcite stalactites, dark underground stone, warm gold mineral seams, wet limestone texture, ribbed dripstone forms, and a quiet cave archive mood.\nCanvas: wide 16:9 design board, 3840x2160 style composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text; labels must remain legible in gallery previews.\nRequired visible sections: title \"Limestone Cave\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, semantic tokens, generated asset examples.\nTypography: include English and Japanese examples; choose calm multilingual product UI guidance with sturdy humanist sans headings and readable Japanese UI text.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, restrained 8px card radius, subterranean knowledge-base interface, cave-map data panels, archive search, quiet analytical controls.\nColor palette: cream calcite backgrounds, chalk ivory cards, dark stone ink text, limestone gray borders, muted gold primary accents, amber mineral charts, damp charcoal contrast, no unrelated bright colors.\nVisual details: subtle calcite grain, dripstone vertical rhythm, gold vein dividers, dark stone hairline borders, polished but utilitarian SaaS/workspace UI.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no generic purple or blue gradients, no neon, no random brand names, no watermark, no illegible microtext, no one-note beige-only palette."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-limestone-cave/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the \"Limestone Cave\" design-system board. It must feel like the same subterranean knowledge system translated to dark mode, not a new theme.\nReference use: Preserve the limestone cave palette roles: deepest dark stone backgrounds, cream calcite text and surfaces, warm gold mineral seams for primary actions, limestone gray borders, amber cave-map data accents, ribbed stalactite texture.\nCanvas: wide 16:9 design board, 3840x2160 style composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text; labels must remain legible in gallery previews.\nRequired visible sections: title \"Limestone Cave\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, semantic tokens, generated asset examples.\nTypography: include English and Japanese examples; calm multilingual product UI guidance for cave archive and research interfaces.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, compact operational SaaS interface, restrained 8px cards, underground archive dashboard, cave survey data and search workflows.\nVisual details: dark cave-stone shell, calcite cream readable text, muted gold focus rings and buttons, subtle wet limestone grain, fine gold vein dividers, charcoal cards, controlled contrast, no pure flat black unless used sparingly.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no neon colors, no generic purple or blue gradients, no unrelated saturated colors, no random brand names, no watermark, no illegible microtext, no one-note black-and-gold luxury styling."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 326,
+  "slug": "morphous-lanternfly",
+  "name": "Morphous Lanternfly",
+  "motifName": "Lanternfly Wings",
+  "motifCategory": "insect",
+  "biome": "tree bark",
+  "motif": "lanternfly wings",
+  "description": "A shadcn/tweakcn-compatible pattern alert system derived from spotted lanternfly wings on tree bark: signal-red hindwings, black-and-white spot rhythm, bark-grey surfaces, pale wing panels, compact monitoring layouts, and crisp warning-state components.",
+  "typography": "Inter or Geist for precise English product UI, Geist Mono for codes and tabular monitoring data, and Noto Sans JP guidance for Japanese navigation, alerts, forms, and status labels.",
+  "layout": "Compact 8px-grid interfaces, 8px maximum radii, spotted dot dividers, bark-grain separators, dense dashboards, alert-first status hierarchy, restrained shadows, and high-contrast command/search surfaces.",
+  "designMood": "pattern alert system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "lanternfly",
+    "wings",
+    "insect",
+    "tree-bark",
+    "red-black-white",
+    "spots",
+    "alert-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spot White",
+      "hex": "#f8f6ee",
+      "oklch": "oklch(0.972 0.011 95.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ash Surface",
+      "hex": "#efebe2",
+      "oklch": "oklch(0.941 0.013 86.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Wing",
+      "hex": "#d8d2c6",
+      "oklch": "oklch(0.865 0.018 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Grey",
+      "hex": "#6f6961",
+      "oklch": "oklch(0.524 0.014 75.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Signal Red",
+      "hex": "#d8232a",
+      "oklch": "oklch(0.568 0.213 26.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Wing Red",
+      "hex": "#b9141f",
+      "oklch": "oklch(0.502 0.194 25.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Warning Clay",
+      "hex": "#9f4938",
+      "oklch": "oklch(0.512 0.118 32.7)"
+    },
+    {
+      "role": "Support",
+      "name": "Bark Umber",
+      "hex": "#4c4037",
+      "oklch": "oklch(0.381 0.022 58.9)"
+    },
+    {
+      "role": "Panel",
+      "name": "Deep Bark",
+      "hex": "#3a3029",
+      "oklch": "oklch(0.318 0.019 57.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Tip",
+      "hex": "#2a2927",
+      "oklch": "oklch(0.281 0.004 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Spot Black",
+      "hex": "#151515",
+      "oklch": "oklch(0.196 0.000 89.9)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Bark",
+      "hex": "#171411",
+      "oklch": "oklch(0.194 0.008 67.3)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.972 0.011 95.2)",
+    "foreground": "oklch(0.196 0.000 89.9)",
+    "card": "oklch(0.941 0.013 86.8)",
+    "card-foreground": "oklch(0.196 0.000 89.9)",
+    "popover": "oklch(0.972 0.011 95.2)",
+    "popover-foreground": "oklch(0.196 0.000 89.9)",
+    "primary": "oklch(0.568 0.213 26.0)",
+    "primary-foreground": "oklch(0.972 0.011 95.2)",
+    "secondary": "oklch(0.865 0.018 84.6)",
+    "secondary-foreground": "oklch(0.281 0.004 84.6)",
+    "muted": "oklch(0.941 0.013 86.8)",
+    "muted-foreground": "oklch(0.524 0.014 75.3)",
+    "accent": "oklch(0.512 0.118 32.7)",
+    "accent-foreground": "oklch(0.972 0.011 95.2)",
+    "destructive": "oklch(0.502 0.194 25.8)",
+    "border": "oklch(0.524 0.014 75.3 / 55%)",
+    "input": "oklch(0.524 0.014 75.3 / 60%)",
+    "ring": "oklch(0.568 0.213 26.0)",
+    "chart-1": "oklch(0.568 0.213 26.0)",
+    "chart-2": "oklch(0.502 0.194 25.8)",
+    "chart-3": "oklch(0.512 0.118 32.7)",
+    "chart-4": "oklch(0.524 0.014 75.3)",
+    "chart-5": "oklch(0.281 0.004 84.6)",
+    "sidebar": "oklch(0.281 0.004 84.6)",
+    "sidebar-foreground": "oklch(0.972 0.011 95.2)",
+    "sidebar-primary": "oklch(0.568 0.213 26.0)",
+    "sidebar-primary-foreground": "oklch(0.972 0.011 95.2)",
+    "sidebar-accent": "oklch(0.381 0.022 58.9)",
+    "sidebar-accent-foreground": "oklch(0.972 0.011 95.2)",
+    "sidebar-border": "oklch(0.381 0.022 58.9)",
+    "sidebar-ring": "oklch(0.568 0.213 26.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.194 0.008 67.3)",
+    "foreground": "oklch(0.972 0.011 95.2)",
+    "card": "oklch(0.281 0.004 84.6)",
+    "card-foreground": "oklch(0.972 0.011 95.2)",
+    "popover": "oklch(0.318 0.019 57.0)",
+    "popover-foreground": "oklch(0.972 0.011 95.2)",
+    "primary": "oklch(0.568 0.213 26.0)",
+    "primary-foreground": "oklch(0.972 0.011 95.2)",
+    "secondary": "oklch(0.318 0.019 57.0)",
+    "secondary-foreground": "oklch(0.972 0.011 95.2)",
+    "muted": "oklch(0.381 0.022 58.9)",
+    "muted-foreground": "oklch(0.865 0.018 84.6)",
+    "accent": "oklch(0.512 0.118 32.7)",
+    "accent-foreground": "oklch(0.972 0.011 95.2)",
+    "destructive": "oklch(0.502 0.194 25.8)",
+    "border": "oklch(0.524 0.014 75.3 / 45%)",
+    "input": "oklch(0.524 0.014 75.3 / 55%)",
+    "ring": "oklch(0.568 0.213 26.0)",
+    "chart-1": "oklch(0.568 0.213 26.0)",
+    "chart-2": "oklch(0.502 0.194 25.8)",
+    "chart-3": "oklch(0.512 0.118 32.7)",
+    "chart-4": "oklch(0.865 0.018 84.6)",
+    "chart-5": "oklch(0.524 0.014 75.3)",
+    "sidebar": "oklch(0.196 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.972 0.011 95.2)",
+    "sidebar-primary": "oklch(0.568 0.213 26.0)",
+    "sidebar-primary-foreground": "oklch(0.972 0.011 95.2)",
+    "sidebar-accent": "oklch(0.318 0.019 57.0)",
+    "sidebar-accent-foreground": "oklch(0.972 0.011 95.2)",
+    "sidebar-border": "oklch(0.524 0.014 75.3 / 45%)",
+    "sidebar-ring": "oklch(0.568 0.213 26.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-mammatus-cloud",
+  "name": "Morphous Mammatus Cloud",
+  "motifName": "Mammatus Cloud",
+  "motifCategory": "weather",
+  "biome": "Storm Sunset",
+  "motif": "mammatus cloud",
+  "description": "A shadcn/tweakcn-compatible system shaped by storm-sunset mammatus clouds: slate-purple structure, peach rim-light actions, storm-grey surfaces, pale-vapor foregrounds, and dramatic dashboard composition.",
+  "typography": "Inter for dense dashboard UI with Noto Sans JP guidance for Japanese labels, large numeric rhythm, and restrained operational hierarchy.",
+  "layout": "16:9 dashboard grids, rounded pouch panels, suspended soft shadows, storm-front dividers, 8px spacing, compact tables, and cloud-lobe data cards.",
+  "themeReference": [
+    "/systems/morphous-mammatus-cloud/design-system-light.png",
+    "/systems/morphous-mammatus-cloud/design-system-dark.png"
+  ],
+  "tags": [
+    "mammatus",
+    "cloud",
+    "weather",
+    "storm-sunset",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Vapor",
+      "hex": "#f4f1f1"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Anvil",
+      "hex": "#151922"
+    },
+    {
+      "role": "Primary",
+      "name": "Slate Purple",
+      "hex": "#5f5a7d"
+    },
+    {
+      "role": "Secondary",
+      "name": "Muted Lavender",
+      "hex": "#8a829e"
+    },
+    {
+      "role": "Accent",
+      "name": "Peach Sunset",
+      "hex": "#f5a980"
+    },
+    {
+      "role": "Warning",
+      "name": "Warm Peach",
+      "hex": "#ff8068"
+    },
+    {
+      "role": "Surface",
+      "name": "Storm Grey",
+      "hex": "#7d838f"
+    },
+    {
+      "role": "Info",
+      "name": "Rain Blue Grey",
+      "hex": "#4e6074"
+    },
+    {
+      "role": "Depth",
+      "name": "Anvil Charcoal",
+      "hex": "#222632"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mammatus-cloud/motif.png",
+    "board": "/systems/morphous-mammatus-cloud/design-system-light.png",
+    "darkBoard": "/systems/morphous-mammatus-cloud/design-system-dark.png",
+    "themeCss": "/systems/morphous-mammatus-cloud/theme.css",
+    "themeJson": "/systems/morphous-mammatus-cloud/theme.json",
+    "promptsJson": "/systems/morphous-mammatus-cloud/prompts.json"
+  }
+}

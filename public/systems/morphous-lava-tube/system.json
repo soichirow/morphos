@@ -1,0 +1,96 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-lava-tube",
+  "name": "Morphous Lava Tube",
+  "motifName": "Lava Tube",
+  "motifCategory": "landscape",
+  "biome": "volcanic island",
+  "motif": "lava tube tunnel",
+  "description": "A shadcn/tweakcn-compatible incident response system derived from a volcanic-island lava tube tunnel: basalt-black navigation, cooled-grey operational surfaces, molten-orange action and severity states, ash-white text, pumice borders, and lava-crack focus treatments for command-center workflows.",
+  "typography": "Compact English incident-response UI with tabular metrics, severity labels, timeline entries, and Noto Sans JP guidance for Japanese command-center, alert, handoff, and containment screens.",
+  "layout": "Dense 8px incident grids, basalt navigation rails, severity cards, event timelines, service tables, containment checklists, command palettes, lava-crack separators, pumice texture samples, and restrained 8px cards.",
+  "themeReference": [
+    "/systems/morphous-lava-tube/design-system-light.png",
+    "/systems/morphous-lava-tube/design-system-dark.png"
+  ],
+  "tags": [
+    "lava-tube",
+    "landscape",
+    "volcanic-island",
+    "incident-response",
+    "black-basalt",
+    "orange-glow",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ash White",
+      "hex": "#F5F6F7"
+    },
+    {
+      "role": "Ink",
+      "name": "Basalt",
+      "hex": "#080C0E"
+    },
+    {
+      "role": "Primary",
+      "name": "Lava Orange",
+      "hex": "#FF6A00"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ember Orange",
+      "hex": "#FF8A1A"
+    },
+    {
+      "role": "Accent",
+      "name": "Molten Glow",
+      "hex": "#FFB347"
+    },
+    {
+      "role": "Signal",
+      "name": "Cooled Grey",
+      "hex": "#4A4F57"
+    },
+    {
+      "role": "Surface",
+      "name": "Pumice White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Muted",
+      "name": "Smoke Grey",
+      "hex": "#687078"
+    },
+    {
+      "role": "Border",
+      "name": "Pumice Silver",
+      "hex": "#D0D5D8"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt Deep",
+      "hex": "#11131A"
+    },
+    {
+      "role": "Warning",
+      "name": "Hot Crack",
+      "hex": "#FF9A2E"
+    },
+    {
+      "role": "Danger",
+      "name": "Magma Red",
+      "hex": "#E03131"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lava-tube/motif.png",
+    "board": "/systems/morphous-lava-tube/design-system-light.png",
+    "darkBoard": "/systems/morphous-lava-tube/design-system-dark.png",
+    "themeCss": "/systems/morphous-lava-tube/theme.css",
+    "themeJson": "/systems/morphous-lava-tube/theme.json",
+    "promptsJson": "/systems/morphous-lava-tube/prompts.json"
+  }
+}

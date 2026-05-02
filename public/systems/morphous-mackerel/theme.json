@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mackerel",
+    "name": "Morphous Mackerel",
+    "motifName": "Mackerel",
+    "motifCategory": "fish",
+    "biome": "Open sea",
+    "motif": "mackerel pattern"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver Current",
+      "hex": "#F3F8F7",
+      "oklch": "oklch(0.975 0.005 183.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Midnight Swim",
+      "hex": "#071924",
+      "oklch": "oklch(0.204 0.033 237.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bluegreen Stripe",
+      "hex": "#0D6F7C",
+      "oklch": "oklch(0.497 0.083 209.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pelagic Blue",
+      "hex": "#1E88A8",
+      "oklch": "oklch(0.584 0.102 223.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mackerel Green",
+      "hex": "#2FA37A",
+      "oklch": "oklch(0.641 0.120 164.9)"
+    },
+    {
+      "role": "Focus",
+      "name": "Wake Cyan",
+      "hex": "#00BBD3",
+      "oklch": "oklch(0.726 0.126 210.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "White Silver",
+      "hex": "#FBFCF8",
+      "oklch": "oklch(0.989 0.005 117.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Brine Mist",
+      "hex": "#E6EBEF",
+      "oklch": "oklch(0.937 0.008 241.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Open Sea Navy",
+      "hex": "#061421",
+      "oklch": "oklch(0.186 0.034 247.5)"
+    },
+    {
+      "role": "Stripe",
+      "name": "Stripe Ink",
+      "hex": "#111C24",
+      "oklch": "oklch(0.220 0.022 240.6)"
+    },
+    {
+      "role": "Metal",
+      "name": "Scale Flash",
+      "hex": "#D7E4E1",
+      "oklch": "oklch(0.908 0.014 180.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Gill Warning",
+      "hex": "#9B5A55",
+      "oklch": "oklch(0.541 0.087 25.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.005 183.0)",
+    "foreground": "oklch(0.204 0.033 237.7)",
+    "card": "oklch(0.989 0.005 117.9)",
+    "card-foreground": "oklch(0.204 0.033 237.7)",
+    "popover": "oklch(0.989 0.005 117.9)",
+    "popover-foreground": "oklch(0.204 0.033 237.7)",
+    "primary": "oklch(0.497 0.083 209.4)",
+    "primary-foreground": "oklch(0.989 0.005 117.9)",
+    "secondary": "oklch(0.937 0.008 241.7)",
+    "secondary-foreground": "oklch(0.220 0.022 240.6)",
+    "muted": "oklch(0.960 0.010 155.1)",
+    "muted-foreground": "oklch(0.371 0.030 244.9)",
+    "accent": "oklch(0.641 0.120 164.9)",
+    "accent-foreground": "oklch(0.204 0.033 237.7)",
+    "destructive": "oklch(0.541 0.087 25.0)",
+    "border": "oklch(0.908 0.014 180.7)",
+    "input": "oklch(0.908 0.014 180.7)",
+    "ring": "oklch(0.726 0.126 210.9)",
+    "chart-1": "oklch(0.497 0.083 209.4)",
+    "chart-2": "oklch(0.584 0.102 223.8)",
+    "chart-3": "oklch(0.641 0.120 164.9)",
+    "chart-4": "oklch(0.726 0.126 210.9)",
+    "chart-5": "oklch(0.371 0.030 244.9)",
+    "sidebar": "oklch(0.989 0.005 117.9)",
+    "sidebar-foreground": "oklch(0.204 0.033 237.7)",
+    "sidebar-primary": "oklch(0.497 0.083 209.4)",
+    "sidebar-primary-foreground": "oklch(0.989 0.005 117.9)",
+    "sidebar-accent": "oklch(0.937 0.008 241.7)",
+    "sidebar-accent-foreground": "oklch(0.497 0.083 209.4)",
+    "sidebar-border": "oklch(0.908 0.014 180.7)",
+    "sidebar-ring": "oklch(0.726 0.126 210.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.186 0.034 247.5)",
+    "foreground": "oklch(0.975 0.005 183.0)",
+    "card": "oklch(0.257 0.036 234.4)",
+    "card-foreground": "oklch(0.975 0.005 183.0)",
+    "popover": "oklch(0.257 0.036 234.4)",
+    "popover-foreground": "oklch(0.975 0.005 183.0)",
+    "primary": "oklch(0.726 0.126 210.9)",
+    "primary-foreground": "oklch(0.186 0.034 247.5)",
+    "secondary": "oklch(0.303 0.042 233.0)",
+    "secondary-foreground": "oklch(0.975 0.005 183.0)",
+    "muted": "oklch(0.229 0.035 237.3)",
+    "muted-foreground": "oklch(0.842 0.011 248.0)",
+    "accent": "oklch(0.641 0.120 164.9)",
+    "accent-foreground": "oklch(0.186 0.034 247.5)",
+    "destructive": "oklch(0.541 0.087 25.0)",
+    "border": "oklch(0.975 0.005 183.0 / 13%)",
+    "input": "oklch(0.975 0.005 183.0 / 17%)",
+    "ring": "oklch(0.726 0.126 210.9)",
+    "chart-1": "oklch(0.726 0.126 210.9)",
+    "chart-2": "oklch(0.497 0.083 209.4)",
+    "chart-3": "oklch(0.641 0.120 164.9)",
+    "chart-4": "oklch(0.908 0.014 180.7)",
+    "chart-5": "oklch(0.541 0.087 25.0)",
+    "sidebar": "oklch(0.204 0.033 237.7)",
+    "sidebar-foreground": "oklch(0.975 0.005 183.0)",
+    "sidebar-primary": "oklch(0.726 0.126 210.9)",
+    "sidebar-primary-foreground": "oklch(0.186 0.034 247.5)",
+    "sidebar-accent": "oklch(0.303 0.042 233.0)",
+    "sidebar-accent-foreground": "oklch(0.975 0.005 183.0)",
+    "sidebar-border": "oklch(0.975 0.005 183.0 / 13%)",
+    "sidebar-ring": "oklch(0.726 0.126 210.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp operational English UI with Noto Sans JP guidance for Japanese dispatch labels, monitoring states, queue names, compact metrics, and multilingual command/search surfaces.",
+  "layout": "Dense 8px operational grids, 8px-or-less radii, mackerel wave-stripe dividers, metallic scale texture, blue-green focus rails, compact data cards, and sharp low shadows for fast scanning under load.",
+  "tags": [
+    "mackerel",
+    "fish",
+    "open-sea",
+    "blue-green-stripe",
+    "silver",
+    "operations",
+    "dispatch",
+    "observability",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mackerel/motif.png",
+    "board": "/systems/morphous-mackerel/design-system-light.png",
+    "darkBoard": "/systems/morphous-mackerel/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mackerel/theme.css",
+    "themeJson": "/systems/morphous-mackerel/theme.json",
+    "promptsJson": "/systems/morphous-mackerel/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent mackerel motif source",
+      "asset": "/systems/morphous-mackerel/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for a catalog design system\nPrimary request: Create only an isolated Atlantic-style mackerel, full subject, no environment, no props, no text.\nSubject: A sleek open-sea mackerel in accurate side-view with slight three-quarter depth, streamlined fast-swimming body, forked tail, small fins, iridescent silver belly, blue-green dorsal back, dark wavy mackerel stripe pattern across the top and flanks, subtle scale texture, polished natural detail. The fish should read as a precise motif source for a fast operations design system.\nComposition/framing: centered complete cutout with generous padding; do not crop the nose, tail fork, fins, or dorsal stripe pattern. Keep the fish horizontal and dynamic, with the stripe rhythm clearly visible for palette extraction.\nLighting/mood: clean studio light that preserves metallic silver scales, blue-green stripe bands, open-sea sheen, and crisp silhouette without casting a floor shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no ocean scene, no waves, no bubbles, no fishing gear, no plate, no second fish, no cartoon mascot, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-mackerel/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nInput image: use the visible transparent mackerel motif as the source reference for palette, stripe rhythm, metallic scale texture, streamlined shape language, and interaction language.\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Mackerel\", derived from an open-sea mackerel pattern: blue-green dorsal stripes, dark wavy speed marks, silver scale flash, pelagic blue depth, green-teal shimmer, and fast operations system mood.\nCanvas: exact wide 16:9 board composition, designed as a 3840x2160 source image. Keep all text and UI labels large, crisp, and readable at gallery preview scale.\nRequired visible sections: Morphous Mackerel, Mackerel, Palette, Typography, Japanese Typography, Components, Navigation, Fast Operations Dashboard/Data, Forms, Tables, Command/Search, Status States, Charts, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nDesign mood: fast operations system for logistics control rooms, dispatch queues, incident response, observability, fleet tracking, production operations, on-call triage, real-time monitoring, and throughput dashboards. Quiet, precise, scan-friendly, operational, premium.\nPalette: derive colors only from the motif: silver current off-white, midnight swim ink, bluegreen stripe primary, pelagic blue secondary, mackerel green accent, scale flash silver, white-silver surfaces, brine mist muted, open sea navy, dorsal slate, quick silver highlight, wake cyan focus. Use teal-blue as primary action and focus, green as acceleration/accent, silver as surface/neutral, dark stripe marks for structure, and restrained contrast.\nTypography: show English product UI guidance and Japanese typography guidance. Include short examples such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, 運用, 監視, 配送, 検索, 状態.\nFull component coverage: icon buttons, primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, dialog/popover, tooltip, table rows, command palette/search field, sidebar navigation, top navigation, breadcrumbs, dashboard metric cards, event cards, timeline, progress, skeleton/loading, empty/error/success states.\nCharts and data: include line chart, bar chart, donut chart, compact status heatmap, sparklines, KPI cards, throughput bars, latency trend, queue depth, SLA status, and table data for operational analytics. Use chart colors from bluegreen stripe, pelagic blue, mackerel green, scale flash silver, dorsal slate, and wake cyan.\nTokens: show semantic token rows for background, foreground, primary, secondary, accent, destructive, muted, border, input, ring, chart colors, sidebar tokens. Include visible radius samples capped at 2px, 4px, 6px, 8px; spacing samples on an 8px grid; shadow samples that are low, sharp, and operational.\nTexture: include subtle mackerel wave-stripe dividers, metallic scale grain, dorsal tick marks, silver current panels, blue-green speed lines, and small wake-cyan focus highlights. Keep cards radius 8px or less.\nLayout style: premium shadcn/tweakcn-compatible board, precise grid, professional design-system documentation, dense but organized operational UI, no nested cards, no oversized marketing hero, realistic app components on a calm light silver background.\nText constraints: use short readable labels; no long paragraphs; no random brand names; spell \"Morphous Mackerel\" correctly.\nAvoid: generic purple gradients, neon overload, decorative blobs, stock ocean photos, cartoon mascot styling, unrelated saturated colors, cropped motif, illegible microtext, watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-mackerel/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nInput images: use the visible transparent mackerel motif and the visible light-mode Morphous Mackerel board as references.\nPrimary request: Generate a dark-mode version of the \"Morphous Mackerel\" design-system board. It must feel like the same open-sea fast operations system translated to dark mode, not a new theme.\nReference use: Preserve the motif-derived roles and light-board structure: blue-green dorsal stripes, dark wavy mackerel marks, silver scale flash, pelagic blue depth, green-teal shimmer, metallic scale texture, fast operations dashboard/data examples, navigation, components, forms, tables, command/search, status states, tokens, radius, spacing, shadows, charts, and generated assets.\nCanvas: exact wide 16:9 board composition, designed as a 3840x2160 source image. Keep all text and UI labels large, crisp, and readable at gallery preview scale.\nRequired visible sections: Morphous Mackerel, Mackerel, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Fast Operations Dashboard/Data, Forms, Tables, Command/Search, Status States, Charts, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nDesign mood: dark control-room system for logistics command, dispatch queues, incident response, observability, fleet tracking, production operations, on-call triage, real-time monitoring, and throughput dashboards. Quiet, precise, scan-friendly, operational, premium.\nDark palette: background from midnight swim ink and open sea navy; foreground from silver current and white-silver scale flash; primary from wake cyan and bluegreen stripe; secondary from pelagic blue and dorsal slate; accent from mackerel green; destructive from a muted gill warning only for errors; muted surfaces from dorsal slate and deep navy. Keep contrast accessible and restrained.\nTypography: show English product UI guidance and Japanese typography guidance. Include short examples such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, 運用, 監視, 配送, 検索, 状態.\nFull component coverage: icon buttons, primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, dialog/popover, tooltip, table rows, command palette/search field, sidebar navigation, top navigation, breadcrumbs, dashboard metric cards, event cards, timeline, progress, skeleton/loading, empty/error/success states.\nCharts and data: include line chart, bar chart, donut chart, compact status heatmap, sparklines, KPI cards, throughput bars, latency trend, queue depth, SLA status, and table data for operational analytics. Use chart colors from wake cyan, bluegreen stripe, pelagic blue, mackerel green, silver flash, and muted gill warning.\nTokens: show semantic token rows for background, foreground, primary, secondary, accent, destructive, muted, border, input, ring, chart colors, sidebar tokens. Include visible radius samples capped at 2px, 4px, 6px, 8px; spacing samples on an 8px grid; shadow samples that are low and deep open-sea polished.\nTexture: include subtle mackerel wave-stripe dividers, metallic scale grain, dorsal tick marks, silver rim highlights, blue-green speed lines, and restrained wake-cyan focus highlights. Keep cards radius 8px or less.\nLayout style: premium shadcn/tweakcn-compatible board, precise grid, professional design-system documentation, dense but organized operational UI, no nested cards, no oversized marketing hero, realistic app components on a dark open-sea operations surface.\nText constraints: use short readable labels; no long paragraphs; no random brand names; spell \"Morphous Mackerel\" correctly.\nAvoid: generic purple gradients, neon overload, pure black-only background, decorative blobs, stock ocean photos, cartoon mascot styling, unrelated saturated colors, cropped motif, illegible microtext, watermark."
+    }
+  ]
+}

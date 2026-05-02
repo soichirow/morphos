@@ -1,0 +1,218 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-leafcutter-ant",
+    "name": "Morphous Leafcutter Ant",
+    "motifName": "Leafcutter Ant",
+    "motifCategory": "insect",
+    "biome": "rainforest floor",
+    "motif": "leafcutter ant carrying leaf"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Fiber",
+      "hex": "#FAF7F2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone",
+      "hex": "#E7E2D7",
+      "oklch": "oklch(0.914 0.016 86.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Humid Cream",
+      "hex": "#EFE7D7",
+      "oklch": "oklch(0.930 0.023 84.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Trail Fiber",
+      "hex": "#CAB8A8",
+      "oklch": "oklch(0.793 0.030 64.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Shell",
+      "hex": "#AA391D",
+      "oklch": "oklch(0.504 0.154 34.8)"
+    },
+    {
+      "role": "Primary Deep",
+      "name": "Rust Deep",
+      "hex": "#7A2C14",
+      "oklch": "oklch(0.404 0.115 37.1)"
+    },
+    {
+      "role": "Primary Light",
+      "name": "Rust Light",
+      "hex": "#C65A2A",
+      "oklch": "oklch(0.595 0.151 42.4)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Bright",
+      "hex": "#6FBE44",
+      "oklch": "oklch(0.725 0.175 136.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Mid",
+      "hex": "#4E8E2F",
+      "oklch": "oklch(0.583 0.145 137.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Deep",
+      "hex": "#2E5E18",
+      "oklch": "oklch(0.432 0.113 137.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Amber",
+      "hex": "#E6A23C",
+      "oklch": "oklch(0.761 0.139 73.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Clay",
+      "hex": "#D97A43",
+      "oklch": "oklch(0.675 0.137 48.9)"
+    },
+    {
+      "role": "Trail",
+      "name": "Clay Trail",
+      "hex": "#B85A2A",
+      "oklch": "oklch(0.574 0.136 45.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Soil Dark",
+      "hex": "#1A120D",
+      "oklch": "oklch(0.191 0.017 53.5)"
+    },
+    {
+      "role": "Night",
+      "name": "Soil Mid",
+      "hex": "#3A2A20",
+      "oklch": "oklch(0.301 0.030 53.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.007 80.7)",
+    "foreground": "oklch(0.191 0.017 53.5)",
+    "card": "oklch(0.991 0.004 80.0)",
+    "card-foreground": "oklch(0.191 0.017 53.5)",
+    "popover": "oklch(0.991 0.004 80.0)",
+    "popover-foreground": "oklch(0.191 0.017 53.5)",
+    "primary": "oklch(0.504 0.154 34.8)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.930 0.023 84.6)",
+    "secondary-foreground": "oklch(0.404 0.115 37.1)",
+    "muted": "oklch(0.930 0.023 84.6)",
+    "muted-foreground": "oklch(0.301 0.030 53.3)",
+    "accent": "oklch(0.725 0.175 136.3)",
+    "accent-foreground": "oklch(0.191 0.017 53.5)",
+    "destructive": "oklch(0.574 0.136 45.2)",
+    "border": "oklch(0.793 0.030 64.0)",
+    "input": "oklch(0.793 0.030 64.0)",
+    "ring": "oklch(0.583 0.145 137.1)",
+    "chart-1": "oklch(0.504 0.154 34.8)",
+    "chart-2": "oklch(0.725 0.175 136.3)",
+    "chart-3": "oklch(0.761 0.139 73.3)",
+    "chart-4": "oklch(0.675 0.137 48.9)",
+    "chart-5": "oklch(0.301 0.030 53.3)",
+    "sidebar": "oklch(0.930 0.023 84.6)",
+    "sidebar-foreground": "oklch(0.191 0.017 53.5)",
+    "sidebar-primary": "oklch(0.504 0.154 34.8)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.914 0.016 86.4)",
+    "sidebar-accent-foreground": "oklch(0.404 0.115 37.1)",
+    "sidebar-border": "oklch(0.793 0.030 64.0)",
+    "sidebar-ring": "oklch(0.583 0.145 137.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.191 0.017 53.5)",
+    "foreground": "oklch(0.935 0.024 79.7)",
+    "card": "oklch(0.226 0.035 37.5)",
+    "card-foreground": "oklch(0.935 0.024 79.7)",
+    "popover": "oklch(0.226 0.035 37.5)",
+    "popover-foreground": "oklch(0.935 0.024 79.7)",
+    "primary": "oklch(0.595 0.151 42.4)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.344 0.040 50.5)",
+    "secondary-foreground": "oklch(0.935 0.024 79.7)",
+    "muted": "oklch(0.344 0.040 50.5)",
+    "muted-foreground": "oklch(0.793 0.030 64.0)",
+    "accent": "oklch(0.725 0.175 136.3)",
+    "accent-foreground": "oklch(0.191 0.017 53.5)",
+    "destructive": "oklch(0.675 0.137 48.9)",
+    "border": "oklch(0.475 0.068 51.2 / 55%)",
+    "input": "oklch(0.475 0.068 51.2 / 65%)",
+    "ring": "oklch(0.725 0.175 136.3)",
+    "chart-1": "oklch(0.595 0.151 42.4)",
+    "chart-2": "oklch(0.725 0.175 136.3)",
+    "chart-3": "oklch(0.761 0.139 73.3)",
+    "chart-4": "oklch(0.675 0.137 48.9)",
+    "chart-5": "oklch(0.935 0.024 79.7)",
+    "sidebar": "oklch(0.226 0.035 37.5)",
+    "sidebar-foreground": "oklch(0.935 0.024 79.7)",
+    "sidebar-primary": "oklch(0.595 0.151 42.4)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.344 0.040 50.5)",
+    "sidebar-accent-foreground": "oklch(0.935 0.024 79.7)",
+    "sidebar-border": "oklch(0.475 0.068 51.2 / 55%)",
+    "sidebar-ring": "oklch(0.725 0.175 136.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist Sans for collaborative product UI, IBM Plex Mono for queue and metric data, and Noto Sans JP guidance for Japanese navigation, task planning, status, command search, and form labels.",
+  "layout": "Dense but readable planning dashboards, ant-trail navigation, collaborative queue tables, compact forms, leaf-vein dividers, 8px radii, warm paper surfaces, soil-depth dark mode, and rust/green status contrast.",
+  "tags": [
+    "leafcutter-ant",
+    "ant",
+    "insect",
+    "rainforest-floor",
+    "rust-green",
+    "collaborative-planning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-leafcutter-ant/motif.png",
+    "board": "/systems/morphous-leafcutter-ant/design-system-light.png",
+    "darkBoard": "/systems/morphous-leafcutter-ant/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-leafcutter-ant/theme.css",
+    "themeJson": "/systems/morphous-leafcutter-ant/theme.json",
+    "promptsJson": "/systems/morphous-leafcutter-ant/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent leafcutter ant motif",
+      "asset": "/systems/morphous-leafcutter-ant/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous Leafcutter Ant transparent motif chroma-key source. Primary request: Create only an isolated leafcutter ant carrying a leaf for a design-system catalog, no environment, no props beyond the carried leaf, no text. Subject: A single realistic leafcutter ant with accurate anatomy, rust-red ant body, segmented head thorax and abdomen, fine legs and antennae, mandibles gripping a bright green leaf fragment held above the body. The ant should feel like a rainforest-floor worker ant: purposeful, collaborative, precise, and natural. Include subtle shell highlights, tiny texture on the exoskeleton, and crisp leaf veins in the carried leaf. Composition/framing: centered complete cutout with generous padding; show the full ant, all legs, antennae, mandibles, and the complete leaf without cropping. Three-quarter side view suitable for a catalog motif, strong readable silhouette. Lighting/mood: clean studio light that preserves natural rust ant color and bright leaf detail while keeping edges crisp. Transparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. Constraints: no colony, no second ant, no rainforest scene, no soil, no branch, no decorative background, no cast shadow, no contact shadow, no reflection, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-leafcutter-ant/design-system-light.png",
+      "sourceAsset": "/systems/morphous-leafcutter-ant/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Leafcutter Ant light-mode design-system board. Input image role: The visible transparent leafcutter ant carrying a bright green leaf is the source reference for palette, texture, contrast, and visual language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Leafcutter Ant\", derived from the visible transparent leafcutter ant cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. The board must be a separate complete source image, not a web page screenshot. Resolution and legibility: high-resolution design-system source board, at least 2400px wide if available. Use large readable labels and compact but legible token rows; no tiny paragraphs. Required visible sections: Morphous Leafcutter Ant, Leafcutter Ant, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Extract palette and interaction language from rust-red ant shell, dark umber ant joints, amber highlights, bright cut leaf green, leaf veins, rainforest floor shadow, humid cream light, clay trail, and dark soil depth. UI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, planning timeline, workload chart, collaborative queue table, empty/loading/error states, spacing, radius, border, shadow, texture samples, and simple product icons. Style: premium shadcn/tweakcn-style collaborative planning system, precise grid, functional dashboard density, 8px maximum radius, rust shell primary actions, bright green leaf accents, leaf-vein separators, ant-trail progress indicators, compact planning boards, crisp data tables, and warm cream surfaces. Typography: include English type guidance and Japanese typography examples using labels such as 日本語, タスク計画, 進捗, 状態, 検索. Suggest practical product UI pairing: Geist Sans, IBM Plex Mono, and Noto Sans JP. Color constraints: use only motif-derived colors and near-neutrals. Avoid unrelated saturated colors, generic purple or blue gradients, beige-only palettes, and decorative marketing composition. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Leafcutter Ant\" or \"Leafcutter Ant\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-leafcutter-ant/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-leafcutter-ant/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-leafcutter-ant/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Leafcutter Ant dark-mode design-system board. Input image roles: The visible transparent leafcutter ant motif is the source motif reference, and the visible light-mode board is the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named exactly \"Morphous Leafcutter Ant\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible leafcutter ant carrying a bright green leaf. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. The board must be a separate complete source image, not a web page screenshot. Resolution and legibility: high-resolution design-system source board, at least 2400px wide if available. Use large readable labels and compact but legible token rows; no tiny paragraphs. Required visible sections: Morphous Leafcutter Ant, Leafcutter Ant, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Visual details: dark background derived from rainforest soil depth and dark umber ant joints; foreground from warm paper fiber and humid cream; primary actions from rust-red ant shell; accents from bright cut leaf green and amber highlights; surfaces from deep soil, bark umber, and translucent charcoal; borders from leaf-vein separators; focus rings from leaf green and amber; subtle ant-shell texture and leaf-vein texture overlays. UI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard/data charts, forms, tables, collaborative queue, status states, tokens, texture, radius, spacing, and shadows. Style: premium shadcn/tweakcn-style collaborative planning system, precise grid, functional dashboard density, 8px maximum radius, compact planning boards, dark but readable data tables, rust active states, green progress states, amber warnings, and earthy rainforest-floor shadows. Typography: include English type guidance and Japanese typography examples using labels such as 日本語, タスク計画, 進捗, 状態, 検索. Suggest practical product UI pairing: Geist Sans, IBM Plex Mono, and Noto Sans JP. Color constraints: use only motif-derived colors and near-neutrals; no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Leafcutter Ant\" or \"Leafcutter Ant\", do not rename the system to Ant Trail or any other name, no tiny unreadable paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-lacewing",
+    "name": "Morphous Lacewing",
+    "motifName": "Lacewing",
+    "motifCategory": "insect",
+    "biome": "garden leaf",
+    "motif": "lacewing wings"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Porcelain",
+      "hex": "#F7FBEE",
+      "oklch": "oklch(0.982 0.018 120.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Moss Ink",
+      "hex": "#1A271E",
+      "oklch": "oklch(0.257 0.025 154.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Glass Green",
+      "hex": "#B9D96A",
+      "oklch": "oklch(0.839 0.143 122.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Membrane Mist",
+      "hex": "#E7EEE0",
+      "oklch": "oklch(0.940 0.020 128.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Gold Eye",
+      "hex": "#C79A2D",
+      "oklch": "oklch(0.710 0.131 84.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Vein",
+      "hex": "#6F9E3A",
+      "oklch": "oklch(0.644 0.140 130.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing White",
+      "hex": "#FEFFF8",
+      "oklch": "oklch(0.997 0.009 113.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Vein Gray",
+      "hex": "#A9B4A4",
+      "oklch": "oklch(0.757 0.026 135.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Glass Vein",
+      "hex": "#C7D3C0",
+      "oklch": "oklch(0.852 0.029 133.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Moss Shadow",
+      "hex": "#304232",
+      "oklch": "oklch(0.358 0.036 147.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Amber Focus",
+      "hex": "#D6A84A",
+      "oklch": "oklch(0.756 0.123 82.7)"
+    },
+    {
+      "role": "Danger",
+      "name": "Rose Vein",
+      "hex": "#B95A4F",
+      "oklch": "oklch(0.581 0.125 28.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.018 120.7)",
+    "foreground": "oklch(0.257 0.025 154.2)",
+    "card": "oklch(0.997 0.009 113.2)",
+    "card-foreground": "oklch(0.257 0.025 154.2)",
+    "popover": "oklch(0.997 0.009 113.2)",
+    "popover-foreground": "oklch(0.257 0.025 154.2)",
+    "primary": "oklch(0.839 0.143 122.8)",
+    "primary-foreground": "oklch(0.982 0.018 120.7)",
+    "secondary": "oklch(0.990 0.012 116.8)",
+    "secondary-foreground": "oklch(0.358 0.036 147.7)",
+    "muted": "oklch(0.993 0.012 116.8)",
+    "muted-foreground": "oklch(0.358 0.036 147.7)",
+    "accent": "oklch(0.710 0.131 84.8)",
+    "accent-foreground": "oklch(0.257 0.025 154.2)",
+    "destructive": "oklch(0.839 0.143 122.8)",
+    "border": "oklch(0.912 0.014 128.6)",
+    "input": "oklch(0.912 0.014 128.6)",
+    "ring": "oklch(0.940 0.020 128.7)",
+    "chart-1": "oklch(0.839 0.143 122.8)",
+    "chart-2": "oklch(0.940 0.020 128.7)",
+    "chart-3": "oklch(0.710 0.131 84.8)",
+    "chart-4": "oklch(0.644 0.140 130.8)",
+    "chart-5": "oklch(0.358 0.036 147.7)",
+    "sidebar": "oklch(0.993 0.012 116.8)",
+    "sidebar-foreground": "oklch(0.257 0.025 154.2)",
+    "sidebar-primary": "oklch(0.839 0.143 122.8)",
+    "sidebar-primary-foreground": "oklch(0.982 0.018 120.7)",
+    "sidebar-accent": "oklch(0.977 0.025 116.5)",
+    "sidebar-accent-foreground": "oklch(0.839 0.143 122.8)",
+    "sidebar-border": "oklch(0.912 0.014 128.6)",
+    "sidebar-ring": "oklch(0.940 0.020 128.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.025 154.2)",
+    "foreground": "oklch(0.982 0.018 120.7)",
+    "card": "oklch(0.326 0.032 148.1)",
+    "card-foreground": "oklch(0.982 0.018 120.7)",
+    "popover": "oklch(0.326 0.032 148.1)",
+    "popover-foreground": "oklch(0.982 0.018 120.7)",
+    "primary": "oklch(0.940 0.020 128.7)",
+    "primary-foreground": "oklch(0.257 0.025 154.2)",
+    "secondary": "oklch(0.453 0.032 145.0)",
+    "secondary-foreground": "oklch(0.982 0.018 120.7)",
+    "muted": "oklch(0.453 0.032 145.0)",
+    "muted-foreground": "oklch(0.882 0.020 128.7)",
+    "accent": "oklch(0.710 0.131 84.8)",
+    "accent-foreground": "oklch(0.257 0.025 154.2)",
+    "destructive": "oklch(0.839 0.143 122.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.940 0.020 128.7)",
+    "chart-1": "oklch(0.940 0.020 128.7)",
+    "chart-2": "oklch(0.839 0.143 122.8)",
+    "chart-3": "oklch(0.710 0.131 84.8)",
+    "chart-4": "oklch(0.644 0.140 130.8)",
+    "chart-5": "oklch(0.757 0.026 135.7)",
+    "sidebar": "oklch(0.304 0.029 150.4)",
+    "sidebar-foreground": "oklch(0.982 0.018 120.7)",
+    "sidebar-primary": "oklch(0.940 0.020 128.7)",
+    "sidebar-primary-foreground": "oklch(0.257 0.025 154.2)",
+    "sidebar-accent": "oklch(0.453 0.032 145.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.018 120.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.940 0.020 128.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Delicate support UI with clear English case labels, stable tabular metrics, and Noto Sans JP guidance for Japanese queues, diagnostics, status, and knowledge-base workflows.",
+  "layout": "Precise 8px support grids, glass-wing cards, fine vein separators, compact queue and SLA tables, restrained 8px components, translucent membrane texture, and gold-eye focus rings.",
+  "tags": [
+    "lacewing",
+    "insect",
+    "garden-leaf",
+    "support-system",
+    "pale-green",
+    "glass-wing",
+    "gold-eye",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-lacewing/motif.png",
+    "board": "/systems/morphous-lacewing/design-system-light.png",
+    "darkBoard": "/systems/morphous-lacewing/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-lacewing/theme.css",
+    "themeJson": "/systems/morphous-lacewing/theme.json",
+    "promptsJson": "/systems/morphous-lacewing/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lacewing wings motif",
+      "asset": "/systems/morphous-lacewing/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lacewing transparent motif chroma-key source\nPrimary request: Create only a single green lacewing insect motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A delicate adult lacewing viewed from slightly above, long slender pale leaf-green body, four elongated translucent glass-like wings with fine lace vein network, softly iridescent wing membranes, bright gold eyes, fine antennae, accurate insect anatomy. The identity must read as lacewing, not dragonfly, damselfly, mosquito, moth, or generic fly.\nComposition/framing: centered complete cutout with generous padding; include the full antennae, body, legs, and all wings without cropping. Elegant diagonal resting posture suitable for a motif asset. Clean studio lighting that preserves pale green body, glass wing texture, and gold eyes. No cast shadow.\nTransparent workflow: place the insect on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. Render wing membranes as pale glass with crisp visible edges and veins so chroma-key removal can preserve the silhouette.\nConstraints: no leaf, no flower, no branch, no garden scene, no second insect, no text, no watermark, no specimen pins, no blur, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-lacewing/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lacewing light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Lacewing\", derived from the generated transparent lacewing motif: pale green body, glassy lace wings with fine vein mesh, bright gold eyes, garden leaf context, delicate support-system mood. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI system.\nCanvas: exact wide 16:9 board, 3840 x 2160 target, clean professional UI design-system presentation. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Lacewing, Lacewing Wings, Palette, Typography, Japanese Typography, Components, Navigation, Support Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from pale leaf-green lacewing body, translucent glass wings, fine gold and gray wing veins, bright gold eyes, soft garden leaf highlights, and delicate insect structure. The board must read as lacewing wings, not dragonfly, butterfly, moth, or generic green UI.\nTypography: English support-system UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 状態. Use bilingual support, case, knowledge-base, queue, and diagnostics labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, support queue cards, SLA metric cards, knowledge base panel, table rows, case list, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: delicate support system, precise 8px grid and 8px card radius, warm wing-white surfaces, pale green primary actions, garden-leaf navigation and success states, gold-eye focus rings and badges, smoky glass-wing borders, fine lace-vein dividers, subtle translucent membrane texture, dense but calm support dashboards, polished shadcn/tweakcn component language.\nColor palette: keep colors faithful to lacewing: wing ivory, membrane mist, pale glass green, leaf vein green, gold eye, amber focus, gray vein, deep moss ink, soft garden shadow. Avoid unrelated saturated colors.\nConstraints: no generic purple or blue gradients, no neon colors, no beige-only palette, no butterfly identity, no dragonfly identity, no random brand names, no watermark, no misspelling of \"Morphous Lacewing\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-lacewing/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Lacewing dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Lacewing\" / \"Lacewing Wings\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme. Use the generated transparent lacewing motif and the generated light board as visual references in this conversation.\nCanvas: exact wide 16:9 board, 3840 x 2160 target, clean professional shadcn/tweakcn design-system presentation, delicate support-system mood. Keep labels large and legible.\nRequired visible sections: Morphous Lacewing, Lacewing Wings, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Support Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve pale leaf-green actions, translucent glass-wing surfaces, fine gray and gold wing-vein separators, bright gold-eye focus rings, moss navigation, support queue cards, case tables, command search, status chips, SLA metrics, and an 8px shadcn/tweakcn grid. The board must read as lacewing wings, not dragonfly, butterfly, moth, or generic dark dashboard.\nTypography: English support-system UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 状態. Use compact bilingual support, case, diagnostics, queue, and knowledge-base labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, support cards, SLA metrics, queue summary, case table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep moss-black background, smoky glass panels, pale green active states, gold-eye chart highlights, wing-ivory text, leaf-vein focus rings and success chips, fine lace-wing texture overlays, translucent membrane borders, thin vein-line separators, restrained contrast, crisp controls and dashboards.\nColor palette: dark tokens derived from lacewing: moss ink, glass charcoal, night leaf, wing ivory, pale green glow, gold eye, amber focus, smoke gray vein, mist highlight. Avoid unrelated saturated colors.\nConstraints: no neon green, no generic black-and-green hacker UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no butterfly identity, no dragonfly identity, no random brand names, no watermark, no misspelling of \"Morphous Lacewing\", no tiny unreadable paragraphs."
+    }
+  ]
+}

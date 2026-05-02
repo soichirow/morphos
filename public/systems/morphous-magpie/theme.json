@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-magpie",
+    "name": "Magpie",
+    "motifName": "Magpie Iridescence",
+    "motifCategory": "bird",
+    "biome": "Field Edge",
+    "motif": "magpie iridescence"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist",
+      "hex": "#e9ecef",
+      "oklch": "oklch(0.942 0.005 247.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Iridescent Teal",
+      "hex": "#00d1b2",
+      "oklch": "oklch(0.769 0.143 176.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Peacock Blue",
+      "hex": "#0077ff",
+      "oklch": "oklch(0.597 0.221 258.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Iridescent Green",
+      "hex": "#10c76a",
+      "oklch": "oklch(0.728 0.187 152.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Graphite",
+      "hex": "#1f2530",
+      "oklch": "oklch(0.264 0.022 262.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sage",
+      "hex": "#77a08a",
+      "oklch": "oklch(0.669 0.055 161.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Slate",
+      "hex": "#3e434a",
+      "oklch": "oklch(0.381 0.014 256.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#080c0c",
+      "oklch": "oklch(0.150 0.007 196.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(1.000 0.000 89.9)",
+    "foreground": "oklch(0.150 0.007 196.5)",
+    "card": "oklch(0.942 0.005 247.9)",
+    "card-foreground": "oklch(0.150 0.007 196.5)",
+    "popover": "oklch(0.942 0.005 247.9)",
+    "popover-foreground": "oklch(0.150 0.007 196.5)",
+    "primary": "oklch(0.769 0.143 176.8)",
+    "primary-foreground": "oklch(1.000 0.000 89.9)",
+    "secondary": "oklch(0.966 0.003 247.9)",
+    "secondary-foreground": "oklch(0.381 0.014 256.8)",
+    "muted": "oklch(0.957 0.003 247.9)",
+    "muted-foreground": "oklch(0.381 0.014 256.8)",
+    "accent": "oklch(0.728 0.187 152.5)",
+    "accent-foreground": "oklch(0.150 0.007 196.5)",
+    "destructive": "oklch(0.769 0.143 176.8)",
+    "border": "oklch(0.846 0.020 172.7)",
+    "input": "oklch(0.846 0.020 172.7)",
+    "ring": "oklch(0.597 0.221 258.0)",
+    "chart-1": "oklch(0.769 0.143 176.8)",
+    "chart-2": "oklch(0.597 0.221 258.0)",
+    "chart-3": "oklch(0.728 0.187 152.5)",
+    "chart-4": "oklch(0.264 0.022 262.5)",
+    "chart-5": "oklch(0.381 0.014 256.8)",
+    "sidebar": "oklch(0.960 0.003 247.9)",
+    "sidebar-foreground": "oklch(0.150 0.007 196.5)",
+    "sidebar-primary": "oklch(0.769 0.143 176.8)",
+    "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-accent": "oklch(0.913 0.029 194.0)",
+    "sidebar-accent-foreground": "oklch(0.769 0.143 176.8)",
+    "sidebar-border": "oklch(0.846 0.020 172.7)",
+    "sidebar-ring": "oklch(0.597 0.221 258.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.150 0.007 196.5)",
+    "foreground": "oklch(1.000 0.000 89.9)",
+    "card": "oklch(0.307 0.011 254.0)",
+    "card-foreground": "oklch(1.000 0.000 89.9)",
+    "popover": "oklch(0.307 0.011 254.0)",
+    "popover-foreground": "oklch(1.000 0.000 89.9)",
+    "primary": "oklch(0.597 0.221 258.0)",
+    "primary-foreground": "oklch(0.150 0.007 196.5)",
+    "secondary": "oklch(0.447 0.015 202.8)",
+    "secondary-foreground": "oklch(1.000 0.000 89.9)",
+    "muted": "oklch(0.447 0.015 202.8)",
+    "muted-foreground": "oklch(0.853 0.024 161.6)",
+    "accent": "oklch(0.728 0.187 152.5)",
+    "accent-foreground": "oklch(0.150 0.007 196.5)",
+    "destructive": "oklch(0.769 0.143 176.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.597 0.221 258.0)",
+    "chart-1": "oklch(0.597 0.221 258.0)",
+    "chart-2": "oklch(0.769 0.143 176.8)",
+    "chart-3": "oklch(0.728 0.187 152.5)",
+    "chart-4": "oklch(0.264 0.022 262.5)",
+    "chart-5": "oklch(0.669 0.055 161.0)",
+    "sidebar": "oklch(0.262 0.009 248.2)",
+    "sidebar-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-primary": "oklch(0.597 0.221 258.0)",
+    "sidebar-primary-foreground": "oklch(0.150 0.007 196.5)",
+    "sidebar-accent": "oklch(0.447 0.015 202.8)",
+    "sidebar-accent-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.597 0.221 258.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable for crisp app UI, strong grotesque display headings for high contrast hierarchy, and Noto Sans JP guidance for Japanese labels.",
+  "layout": "Dense 8px grids, black-white contrast, feather-barb dividers, compact dashboards, iridescent focus states, and restrained 8px radii for operational product surfaces.",
+  "tags": [
+    "magpie",
+    "bird",
+    "field-edge",
+    "iridescence",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-magpie/motif.png",
+    "board": "/systems/morphous-magpie/design-system-light.png",
+    "darkBoard": "/systems/morphous-magpie/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-magpie/theme.css",
+    "themeJson": "/systems/morphous-magpie/theme.json",
+    "promptsJson": "/systems/morphous-magpie/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Magpie motif",
+      "asset": "/systems/morphous-magpie/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Magpie transparent motif chroma-key source\nPrimary request: Create only an isolated magpie iridescence motif for a design-system catalog, no environment, no props, no text.\nSubject: an elegant magpie wing-and-tail feather cluster, glossy black and clean white markings with vivid blue green iridescent flash, accurate feather layering, crisp outer silhouette, a subtle field-edge twig-like perch fragment only if needed as a small anchoring counterform, high contrast app-system character.\nComposition/framing: centered complete cutout with generous padding; diagonal sweep of wing feathers and a long tail accent; do not crop the subject.\nLighting/mood: clean studio light that preserves glossy black, bright white, and blue-green iridescent structure without muddy shadows.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full bird body, no landscape, no sky, no nest, no text, no watermark, no second subject, no logo, no random brand marks."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-magpie/design-system-light.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive light-mode design-system board for \"Morphous Magpie\" / \"Magpie Iridescence\", source reference for a shadcn/tweakcn theme. Use a high contrast app system derived from a field-edge magpie: glossy black, clean white wing marks, electric blue green iridescent flash, dark branch graphite, pale field mist, cool grass-sage neutrals, and sharp feather geometry. Include large readable sections for title, motif story, palette, typography, Japanese typography, navigation, dashboard charts, data table, form controls, search/command, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture, radius, spacing, shadow, and CSS token samples. Use shadcn/tweakcn-compatible product UI, precise 8px grid, 8px radius cards, black-white contrast, iridescent teal primary actions, cobalt-blue focus rings, graphite hairline dividers, white surface panels, and subtle feather-barb texture strips. Keep text large enough for preview downscaling. Avoid fake brand names, watermark, lorem ipsum blocks, tiny illegible token tables, purple gradients, neon rainbow, unrelated saturated colors, and random logos."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-magpie/design-system-dark.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive dark-mode design-system board for \"Morphous Magpie\" / \"Magpie Iridescence\", translated from the same field-edge magpie light system. Use deep ink black and graphite backgrounds, feather-white foreground text, cool slate cards, iridescent teal primary actions, blue-green flash accents, cobalt focus rings, field-sage muted states, bright white wing-mark contrast, and subtle moonlit feather-barb texture. Include large readable sections for title, Dark Mode, motif story, palette, typography, Japanese typography, navigation, dashboard charts, data table, form controls, search/command, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture, radius, spacing, shadow, and CSS token samples. Preserve shadcn/tweakcn-compatible product UI, precise 8px grid, 8px radius cards, high contrast app-system feeling, crisp graphite dividers, and the magpie black-white-blue-green identity. Keep text large enough for preview downscaling. Avoid neon rainbow, purple gradients, unrelated saturated colors, pure flat black everywhere, fake brands, watermark, lorem ipsum blocks, tiny illegible token tables, and random logos."
+    }
+  ]
+}
