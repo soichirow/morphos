@@ -1,0 +1,82 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-zebra",
+  "name": "Morphous Zebra",
+  "motifName": "Zebra",
+  "motifCategory": "mammal",
+  "biome": "Grassland",
+  "motif": "zebra stripe",
+  "description": "A shadcn/tweakcn-compatible high-contrast dashboard system derived from zebra striping: black ink structure, ivory surfaces, dry grass neutrals, grass-gold focus states, and compact data-heavy operational layouts.",
+  "typography": "Geist for crisp dashboard hierarchy with Noto Sans JP guidance for Japanese labels, compact tables, and high-legibility numeric data.",
+  "layout": "Dense 8px-grid dashboard layouts, stripe dividers used as emphasis, compact navigation, strong table rhythm, 6px radius, tight shadows, and gold focus affordances.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "zebra",
+    "mammal",
+    "grassland",
+    "stripe",
+    "black-white",
+    "dashboard",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Dust",
+      "hex": "#F7F0E5"
+    },
+    {
+      "role": "Ink",
+      "name": "Stripe Black",
+      "hex": "#11100E"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm White",
+      "hex": "#FFFDF8"
+    },
+    {
+      "role": "Primary",
+      "name": "Grass Gold",
+      "hex": "#C49A32"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dry Grass",
+      "hex": "#B9A36B"
+    },
+    {
+      "role": "Muted",
+      "name": "Clay Taupe",
+      "hex": "#8B7A5D"
+    },
+    {
+      "role": "Depth",
+      "name": "Hoof Charcoal",
+      "hex": "#2B2924"
+    },
+    {
+      "role": "Soft Surface",
+      "name": "Soft Sand",
+      "hex": "#E6D7BD"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Rust",
+      "hex": "#B65A2A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

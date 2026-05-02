@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-zebra",
+    "name": "Morphous Zebra",
+    "motifName": "Zebra",
+    "motifCategory": "mammal",
+    "biome": "Grassland",
+    "motif": "zebra stripe"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Dust",
+      "hex": "#F7F0E5",
+      "oklch": "oklch(0.958 0.016 79.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stripe Black",
+      "hex": "#11100E",
+      "oklch": "oklch(0.173 0.004 84.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm White",
+      "hex": "#FFFDF8",
+      "oklch": "oklch(0.994 0.007 88.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Grass Gold",
+      "hex": "#C49A32",
+      "oklch": "oklch(0.707 0.127 85.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dry Grass",
+      "hex": "#B9A36B",
+      "oklch": "oklch(0.722 0.078 88.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Clay Taupe",
+      "hex": "#8B7A5D",
+      "oklch": "oklch(0.588 0.047 80.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hoof Charcoal",
+      "hex": "#2B2924",
+      "oklch": "oklch(0.281 0.009 88.8)"
+    },
+    {
+      "role": "Soft Surface",
+      "name": "Soft Sand",
+      "hex": "#E6D7BD",
+      "oklch": "oklch(0.885 0.038 81.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Rust",
+      "hex": "#B65A2A",
+      "oklch": "oklch(0.571 0.134 45.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.958 0.016 79.4)",
+    "foreground": "oklch(0.173 0.004 84.6)",
+    "card": "oklch(0.994 0.007 88.6)",
+    "card-foreground": "oklch(0.173 0.004 84.6)",
+    "popover": "oklch(0.994 0.007 88.6)",
+    "popover-foreground": "oklch(0.173 0.004 84.6)",
+    "primary": "oklch(0.707 0.127 85.8)",
+    "primary-foreground": "oklch(0.958 0.016 79.4)",
+    "secondary": "oklch(0.980 0.011 84.6)",
+    "secondary-foreground": "oklch(0.281 0.009 88.8)",
+    "muted": "oklch(0.984 0.009 78.3)",
+    "muted-foreground": "oklch(0.281 0.009 88.8)",
+    "accent": "oklch(0.722 0.078 88.9)",
+    "accent-foreground": "oklch(0.173 0.004 84.6)",
+    "destructive": "oklch(0.707 0.127 85.8)",
+    "border": "oklch(0.853 0.021 84.6)",
+    "input": "oklch(0.853 0.021 84.6)",
+    "ring": "oklch(0.722 0.078 88.9)",
+    "chart-1": "oklch(0.707 0.127 85.8)",
+    "chart-2": "oklch(0.722 0.078 88.9)",
+    "chart-3": "oklch(0.722 0.078 88.9)",
+    "chart-4": "oklch(0.571 0.134 45.7)",
+    "chart-5": "oklch(0.281 0.009 88.8)",
+    "sidebar": "oklch(0.982 0.010 87.5)",
+    "sidebar-foreground": "oklch(0.173 0.004 84.6)",
+    "sidebar-primary": "oklch(0.707 0.127 85.8)",
+    "sidebar-primary-foreground": "oklch(0.958 0.016 79.4)",
+    "sidebar-accent": "oklch(0.959 0.024 88.2)",
+    "sidebar-accent-foreground": "oklch(0.707 0.127 85.8)",
+    "sidebar-border": "oklch(0.853 0.021 84.6)",
+    "sidebar-ring": "oklch(0.722 0.078 88.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.173 0.004 84.6)",
+    "foreground": "oklch(0.958 0.016 79.4)",
+    "card": "oklch(0.247 0.008 95.4)",
+    "card-foreground": "oklch(0.958 0.016 79.4)",
+    "popover": "oklch(0.247 0.008 95.4)",
+    "popover-foreground": "oklch(0.958 0.016 79.4)",
+    "primary": "oklch(0.722 0.078 88.9)",
+    "primary-foreground": "oklch(0.173 0.004 84.6)",
+    "secondary": "oklch(0.354 0.018 84.6)",
+    "secondary-foreground": "oklch(0.958 0.016 79.4)",
+    "muted": "oklch(0.354 0.018 84.6)",
+    "muted-foreground": "oklch(0.796 0.029 81.4)",
+    "accent": "oklch(0.722 0.078 88.9)",
+    "accent-foreground": "oklch(0.173 0.004 84.6)",
+    "destructive": "oklch(0.707 0.127 85.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.722 0.078 88.9)",
+    "chart-1": "oklch(0.722 0.078 88.9)",
+    "chart-2": "oklch(0.707 0.127 85.8)",
+    "chart-3": "oklch(0.722 0.078 88.9)",
+    "chart-4": "oklch(0.571 0.134 45.7)",
+    "chart-5": "oklch(0.588 0.047 80.8)",
+    "sidebar": "oklch(0.226 0.008 95.4)",
+    "sidebar-foreground": "oklch(0.958 0.016 79.4)",
+    "sidebar-primary": "oklch(0.722 0.078 88.9)",
+    "sidebar-primary-foreground": "oklch(0.173 0.004 84.6)",
+    "sidebar-accent": "oklch(0.354 0.018 84.6)",
+    "sidebar-accent-foreground": "oklch(0.958 0.016 79.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.722 0.078 88.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp dashboard hierarchy with Noto Sans JP guidance for Japanese labels, compact tables, and high-legibility numeric data.",
+  "layout": "Dense 8px-grid dashboard layouts, stripe dividers used as emphasis, compact navigation, strong table rhythm, 6px radius, tight shadows, and gold focus affordances.",
+  "tags": [
+    "zebra",
+    "mammal",
+    "grassland",
+    "stripe",
+    "black-white",
+    "dashboard",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-zebra/motif.png",
+    "board": "/systems/morphous-zebra/design-system-light.png",
+    "darkBoard": "/systems/morphous-zebra/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-zebra/theme.css",
+    "themeJson": "/systems/morphous-zebra/theme.json",
+    "promptsJson": "/systems/morphous-zebra/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Zebra motif",
+      "asset": "/systems/morphous-zebra/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Zebra transparent motif chroma-key source\nPrimary request: Create only an isolated zebra motif for a design-system catalog, no environment, no props, no text.\nSubject: A single adult plains zebra in a refined naturalistic editorial cutout, full body side/front three-quarter view, crisp black and white stripe pattern, clean mane, alert ears, accurate anatomy, subtle warm grass-gold reflected highlights only on the white coat edges, high-contrast silhouette, detailed fur texture but not shaggy.\nComposition/framing: centered complete cutout with generous padding; include all legs, hooves, tail, mane, ears, and muzzle without cropping.\nLighting/mood: clean studio light that preserves black stripes, warm white coat, charcoal shadows, and fine coat texture.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no landscape, no grass, no tree, no second animal, no saddle, no harness, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-zebra/design-system-light.png",
+      "prompt": "Create one high-resolution wide 16:9 comprehensive light-mode design-system board for \"Morphous Zebra\" / \"Zebra Stripe\", derived from the isolated zebra motif. Target 3840x2160 composition; make all labels large and readable at gallery preview size. System mood: high contrast dashboard system for grassland analytics and operational SaaS. Visual language: crisp zebra-stripe rhythm, black ink structure, warm ivory surfaces, grass-gold accents, dry grass neutrals, restrained utilitarian dashboard density, sharp readable hierarchy. Include palette, typography with English and Japanese guidance, components, navigation, dashboard/data/charts, forms, validation states, texture, spacing/radius/shadow tokens, and sample usage. Use Ivory Dust #F7F0E5, Stripe Black #11100E, Warm White #FFFDF8, Grass Gold #C49A32, Dry Grass #B9A36B, Clay Taupe #8B7A5D, Hoof Charcoal #2B2924, Soft Sand #E6D7BD, and Signal Rust #B65A2A. Exclude generic purple gradients, neon colors, busy safari illustration, full landscape hero, low-contrast beige-only palette, decorative card collage, unreadable microtext, random logos, and watermarks."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-zebra/design-system-dark.png",
+      "prompt": "Create one high-resolution wide 16:9 comprehensive dark-mode design-system board for \"Morphous Zebra\" / \"Zebra Stripe\", derived from the zebra motif and matching the light-mode board. Target 3840x2160 composition; make all labels large and readable at gallery preview size. System mood: high contrast dark dashboard system for grassland analytics and operational SaaS. Visual language: charcoal-black surfaces, ivory text, crisp zebra-stripe rhythm, warm grass-gold active states, dry grass neutrals, utilitarian dashboard density, premium data-console feel. Include palette, typography with English and Japanese guidance, components, navigation, dashboard/data/charts, forms, validation states, texture, spacing/radius/shadow tokens, and sample usage. Use Night Stripe #11100E, Ivory Text #F7F0E5, Deep Charcoal #1E1C18, Card Umber #2B2924, Grass Gold #C49A32, Dry Grass #B9A36B, Clay Taupe #8B7A5D, Muted Sand #D8C9AC, and Signal Rust #B65A2A. Exclude generic purple gradients, neon colors, busy safari illustration, full landscape hero, low-contrast beige-only palette, decorative card collage, unreadable microtext, random logos, and watermarks."
+    }
+  ]
+}
