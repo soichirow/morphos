@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 310,
+  "slug": "morphous-grasshopper",
+  "name": "Morphous Grasshopper",
+  "motifName": "Grasshopper",
+  "motifCategory": "insect",
+  "biome": "prairie grass",
+  "motif": "grasshopper profile",
+  "description": "A shadcn/tweakcn-compatible field mobility system derived from a prairie grasshopper profile: olive exoskeleton controls, tan wing surfaces, straw-vein accents, dark olive structure, and compact operational dashboards for movement, sensing, and terrain data.",
+  "typography": "Geist for field product UI, Geist Mono for movement and telemetry values, and Noto Sans JP guidance for Japanese labels, tables, filters, and mission notes.",
+  "layout": "Precise 8px grid, 8px-or-less component radii, segmented exoskeleton dividers, wing-vein data lines, dry prairie navigation, dense dashboards, compact forms, and fast command/search workflows.",
+  "designMood": "field mobility system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "grasshopper",
+    "insect",
+    "prairie-grass",
+    "olive-green",
+    "tan-wing",
+    "straw",
+    "field-mobility",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Oat Field",
+      "hex": "#FAF7EF"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Olive Ink",
+      "hex": "#2E331E"
+    },
+    {
+      "role": "Primary",
+      "name": "Exoskeleton Olive",
+      "hex": "#6D7F3A"
+    },
+    {
+      "role": "Success",
+      "name": "Prairie Green",
+      "hex": "#8DA55A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tan Wing",
+      "hex": "#C6A27A"
+    },
+    {
+      "role": "Accent",
+      "name": "Wing Straw",
+      "hex": "#D8B46F"
+    },
+    {
+      "role": "Surface",
+      "name": "Oat Surface",
+      "hex": "#F6EEDC"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Grass",
+      "hex": "#DCC69A"
+    },
+    {
+      "role": "Border",
+      "name": "Light Straw",
+      "hex": "#E6D5AE"
+    },
+    {
+      "role": "Olive",
+      "name": "Wing Shadow Olive",
+      "hex": "#686F4B"
+    },
+    {
+      "role": "Warning",
+      "name": "Amber Leg",
+      "hex": "#B77A36"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Rust",
+      "hex": "#9A4B25"
+    },
+    {
+      "role": "Depth",
+      "name": "Prairie Night",
+      "hex": "#171A0D"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.976 0.011 89.7)",
+    "foreground": "oklch(0.310 0.036 119.4)",
+    "card": "oklch(0.951 0.025 86.9)",
+    "card-foreground": "oklch(0.310 0.036 119.4)",
+    "popover": "oklch(0.951 0.025 86.9)",
+    "popover-foreground": "oklch(0.310 0.036 119.4)",
+    "primary": "oklch(0.566 0.097 121.7)",
+    "primary-foreground": "oklch(0.976 0.011 89.7)",
+    "secondary": "oklch(0.735 0.069 69.4)",
+    "secondary-foreground": "oklch(0.310 0.036 119.4)",
+    "muted": "oklch(0.933 0.028 86.6)",
+    "muted-foreground": "oklch(0.526 0.054 117.2)",
+    "accent": "oklch(0.787 0.097 82.8)",
+    "accent-foreground": "oklch(0.310 0.036 119.4)",
+    "destructive": "oklch(0.505 0.117 44.4)",
+    "destructive-foreground": "oklch(0.976 0.011 89.7)",
+    "border": "oklch(0.877 0.055 87.2)",
+    "input": "oklch(0.877 0.055 87.2)",
+    "ring": "oklch(0.686 0.104 123.7)",
+    "chart-1": "oklch(0.566 0.097 121.7)",
+    "chart-2": "oklch(0.735 0.069 69.4)",
+    "chart-3": "oklch(0.686 0.104 123.7)",
+    "chart-4": "oklch(0.787 0.097 82.8)",
+    "chart-5": "oklch(0.526 0.054 117.2)",
+    "sidebar": "oklch(0.933 0.028 86.6)",
+    "sidebar-foreground": "oklch(0.310 0.036 119.4)",
+    "sidebar-primary": "oklch(0.566 0.097 121.7)",
+    "sidebar-primary-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-accent": "oklch(0.837 0.066 91.8)",
+    "sidebar-accent-foreground": "oklch(0.310 0.036 119.4)",
+    "sidebar-border": "oklch(0.877 0.055 87.2)",
+    "sidebar-ring": "oklch(0.686 0.104 123.7)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.210 0.024 119.1)",
+    "foreground": "oklch(0.951 0.025 86.9)",
+    "card": "oklch(0.260 0.027 120.5)",
+    "card-foreground": "oklch(0.951 0.025 86.9)",
+    "popover": "oklch(0.260 0.027 120.5)",
+    "popover-foreground": "oklch(0.951 0.025 86.9)",
+    "primary": "oklch(0.714 0.096 109.3)",
+    "primary-foreground": "oklch(0.210 0.024 119.1)",
+    "secondary": "oklch(0.389 0.059 123.9)",
+    "secondary-foreground": "oklch(0.951 0.025 86.9)",
+    "muted": "oklch(0.323 0.041 122.0)",
+    "muted-foreground": "oklch(0.837 0.066 91.8)",
+    "accent": "oklch(0.735 0.069 69.4)",
+    "accent-foreground": "oklch(0.210 0.024 119.1)",
+    "destructive": "oklch(0.626 0.136 45.8)",
+    "destructive-foreground": "oklch(0.951 0.025 86.9)",
+    "border": "oklch(0.526 0.054 117.2 / 35%)",
+    "input": "oklch(0.526 0.054 117.2 / 45%)",
+    "ring": "oklch(0.714 0.096 109.3)",
+    "chart-1": "oklch(0.714 0.096 109.3)",
+    "chart-2": "oklch(0.735 0.069 69.4)",
+    "chart-3": "oklch(0.787 0.097 82.8)",
+    "chart-4": "oklch(0.686 0.104 123.7)",
+    "chart-5": "oklch(0.837 0.066 91.8)",
+    "sidebar": "oklch(0.260 0.027 120.5)",
+    "sidebar-foreground": "oklch(0.951 0.025 86.9)",
+    "sidebar-primary": "oklch(0.714 0.096 109.3)",
+    "sidebar-primary-foreground": "oklch(0.210 0.024 119.1)",
+    "sidebar-accent": "oklch(0.389 0.059 123.9)",
+    "sidebar-accent-foreground": "oklch(0.951 0.025 86.9)",
+    "sidebar-border": "oklch(0.526 0.054 117.2 / 35%)",
+    "sidebar-ring": "oklch(0.714 0.096 109.3)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

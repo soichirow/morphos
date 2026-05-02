@@ -1,0 +1,212 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-green-algae",
+    "name": "Morphous Green Algae",
+    "motifName": "Green Algae",
+    "motifCategory": "plant",
+    "biome": "freshwater pond",
+    "motif": "algae filaments"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Glass",
+      "hex": "#f6f8f6",
+      "oklch": "oklch(0.977 0.003 145.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pond Ink",
+      "hex": "#0e2828",
+      "oklch": "oklch(0.257 0.032 195.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lime Filament",
+      "hex": "#aeea63",
+      "oklch": "oklch(0.869 0.176 129.6)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Chartreuse Cell",
+      "hex": "#c6f23d",
+      "oklch": "oklch(0.899 0.201 122.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Olive Filament",
+      "hex": "#687f38",
+      "oklch": "oklch(0.562 0.101 124.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Aqua Glint",
+      "hex": "#3db6b3",
+      "oklch": "oklch(0.710 0.105 192.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Water",
+      "hex": "#e7eee8",
+      "oklch": "oklch(0.942 0.011 149.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Silt Wash",
+      "hex": "#d7dfd1",
+      "oklch": "oklch(0.894 0.021 131.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Soft Silt",
+      "hex": "#c9d5c3",
+      "oklch": "oklch(0.859 0.028 135.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Algae Growth",
+      "hex": "#78c66a",
+      "oklch": "oklch(0.754 0.148 140.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Cell Signal",
+      "hex": "#d9e75a",
+      "oklch": "oklch(0.891 0.163 114.5)"
+    },
+    {
+      "role": "Info",
+      "name": "Water Glint",
+      "hex": "#87e7e1",
+      "oklch": "oklch(0.867 0.092 190.4)"
+    },
+    {
+      "role": "Error",
+      "name": "Stress Signal",
+      "hex": "#b64d3c",
+      "oklch": "oklch(0.554 0.140 31.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Green Black Pond",
+      "hex": "#173033",
+      "oklch": "oklch(0.290 0.031 205.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.003 145.5)",
+    "foreground": "oklch(0.257 0.032 195.4)",
+    "card": "oklch(0.942 0.011 149.9)",
+    "card-foreground": "oklch(0.257 0.032 195.4)",
+    "popover": "oklch(0.942 0.011 149.9)",
+    "popover-foreground": "oklch(0.257 0.032 195.4)",
+    "primary": "oklch(0.869 0.176 129.6)",
+    "primary-foreground": "oklch(0.977 0.003 145.5)",
+    "secondary": "oklch(0.956 0.007 151.9)",
+    "secondary-foreground": "oklch(0.290 0.031 205.6)",
+    "muted": "oklch(0.952 0.009 150.7)",
+    "muted-foreground": "oklch(0.290 0.031 205.6)",
+    "accent": "oklch(0.710 0.105 192.7)",
+    "accent-foreground": "oklch(0.257 0.032 195.4)",
+    "destructive": "oklch(0.869 0.176 129.6)",
+    "border": "oklch(0.925 0.015 142.2)",
+    "input": "oklch(0.925 0.015 142.2)",
+    "ring": "oklch(0.562 0.101 124.5)",
+    "chart-1": "oklch(0.869 0.176 129.6)",
+    "chart-2": "oklch(0.562 0.101 124.5)",
+    "chart-3": "oklch(0.710 0.105 192.7)",
+    "chart-4": "oklch(0.710 0.105 192.7)",
+    "chart-5": "oklch(0.290 0.031 205.6)",
+    "sidebar": "oklch(0.953 0.007 151.9)",
+    "sidebar-foreground": "oklch(0.257 0.032 195.4)",
+    "sidebar-primary": "oklch(0.869 0.176 129.6)",
+    "sidebar-primary-foreground": "oklch(0.977 0.003 145.5)",
+    "sidebar-accent": "oklch(0.933 0.033 133.9)",
+    "sidebar-accent-foreground": "oklch(0.869 0.176 129.6)",
+    "sidebar-border": "oklch(0.925 0.015 142.2)",
+    "sidebar-ring": "oklch(0.562 0.101 124.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.032 195.4)",
+    "foreground": "oklch(0.977 0.003 145.5)",
+    "card": "oklch(0.278 0.031 202.3)",
+    "card-foreground": "oklch(0.977 0.003 145.5)",
+    "popover": "oklch(0.278 0.031 202.3)",
+    "popover-foreground": "oklch(0.977 0.003 145.5)",
+    "primary": "oklch(0.562 0.101 124.5)",
+    "primary-foreground": "oklch(0.257 0.032 195.4)",
+    "secondary": "oklch(0.438 0.027 192.7)",
+    "secondary-foreground": "oklch(0.977 0.003 145.5)",
+    "muted": "oklch(0.438 0.027 192.7)",
+    "muted-foreground": "oklch(0.940 0.012 133.4)",
+    "accent": "oklch(0.710 0.105 192.7)",
+    "accent-foreground": "oklch(0.257 0.032 195.4)",
+    "destructive": "oklch(0.869 0.176 129.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.562 0.101 124.5)",
+    "chart-1": "oklch(0.562 0.101 124.5)",
+    "chart-2": "oklch(0.869 0.176 129.6)",
+    "chart-3": "oklch(0.710 0.105 192.7)",
+    "chart-4": "oklch(0.710 0.105 192.7)",
+    "chart-5": "oklch(0.894 0.021 131.5)",
+    "sidebar": "oklch(0.273 0.032 198.8)",
+    "sidebar-foreground": "oklch(0.977 0.003 145.5)",
+    "sidebar-primary": "oklch(0.562 0.101 124.5)",
+    "sidebar-primary-foreground": "oklch(0.257 0.032 195.4)",
+    "sidebar-accent": "oklch(0.438 0.027 192.7)",
+    "sidebar-accent-foreground": "oklch(0.977 0.003 145.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.562 0.101 124.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for network science dashboards, compact Japanese labels, tabular numbers, graph metrics, and status-dense monitoring screens.",
+  "layout": "Analytical 8px network grids, crisp graph panels, compact metric rows, calm sidebar navigation, low shadows, 8px radii, silt-water dividers, and subtle algae filament texture accents.",
+  "tags": [
+    "green-algae",
+    "plant",
+    "freshwater-pond",
+    "algae-filaments",
+    "lime-green",
+    "aqua",
+    "network-science",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-green-algae/motif.png",
+    "board": "/systems/morphous-green-algae/design-system-light.png",
+    "darkBoard": "/systems/morphous-green-algae/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-green-algae/theme.css",
+    "themeJson": "/systems/morphous-green-algae/theme.json",
+    "promptsJson": "/systems/morphous-green-algae/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent green algae filament motif",
+      "asset": "/systems/morphous-green-algae/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a green algae filament botanical motif for a design-system catalog, isolated as one complete organic network on a removable chroma-key background.\nSubject: A freshwater green algae filament cluster seen in clean macro/microscopy-inspired detail: lime green translucent strands, branching threadlike filaments, tiny bead-like cells, soft yellow-green highlights, olive shadow edges, and a few clear watery gaps inside the network. It should suggest network science through connected nodes and strands while remaining natural algae, not a diagram.\nComposition/framing: centered complete cutout with generous padding; include the full irregular filament network edge without cropping. Clean even studio lighting, no cast shadow, no contact shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no seaweed fronds, no moss, no grass, no flowers, no fish, no pond landscape outside the algae cluster, no container, no hand, no props, no second subject, no text, no watermark, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-green-algae/design-system-light.png",
+      "sourceAsset": "/systems/morphous-green-algae/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Green Algae light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Green Algae\" / \"Green Algae\". The board must be a wide 4K-class design-system reference derived from the visible green algae filament motif: connected lime-green translucent algae strands, bead-like cells, watery gaps, olive shadows, pale yellow-green highlights, and freshwater pond clarity. The design mood is a network science system for analysis, monitoring, and connected data workflows.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Green Algae, Green Algae, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from freshwater algae filaments: lime translucent water, chartreuse cell highlights, olive filament shadows, pale pond glass surfaces, deep algae-pond ink, cool mist neutrals, soft silt borders, and linked-node filament texture. The board must read as algae filaments and network science, not duckweed, moss, grass, seaweed, or generic green SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 藻類, ネットワーク, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, network analysis dashboard metric cards, node-link chart, compact bar chart, pond sensor data table, graph filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, filament texture swatches.\nStyle/medium: premium analytical design-system board, realistic product UI mockup, precise 8px grid, 8px card radius, pale pond-glass backgrounds, lime green primary controls, deep pond-teal command surfaces, olive secondary states, translucent network overlays, quiet water-neutral tables, subtle filament and cell texture.\nColor palette: motif-derived colors only: lime green algae, chartreuse cell highlight, olive filament shadow, pale translucent pond water, cool mist neutral, silt border, deep algae-pond teal ink, aqua water glint, muted yellow-green signal, natural red-brown stress state.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Green Algae\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-green-algae/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-green-algae/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Green Algae dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Green Algae\" / \"Green Algae\". It must feel like the same network science system translated to dark mode, not a new theme, and it must remain derived from the green algae filament motif and the visible light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Green Algae, Green Algae, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the green algae system language from the visible board: lime-green filament controls, chartreuse cell highlights, olive secondary states, dark algae-pond command and sidebar surfaces, pale pond-glass text, silt borders, deep teal ink backgrounds, connected filament/node texture, 8px shadcn/tweakcn grid. It must read as freshwater algae filaments and network science, not duckweed, moss, seaweed, grass, or generic dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI, 藻類, ネットワーク, 検索, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dark network analysis dashboard metric cards, node-link chart, compact bar chart, pond sensor data table, graph filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, low shadow scale, filament texture swatches.\nVisual details: dark background derived from deep algae-pond teal and green-black ink water, raised cards in muted teal-black, pond-glass foreground text, lime-green and chartreuse primary controls, olive active states, pale aqua focus rings, silt separators, subtle algae filament overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: lime green algae, chartreuse cell highlight, olive filament shadow, pale translucent pond water, cool mist neutral, silt border, deep algae-pond teal ink, aqua water glint, muted yellow-green signal, natural red-brown stress state.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no stock hero layout, no watermark, no misspelling of \"Morphous Green Algae\", no illegible microtext."
+    }
+  ]
+}

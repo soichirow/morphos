@@ -1,0 +1,172 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hercules-moth",
+    "name": "Morphous Hercules Moth",
+    "motifName": "Hercules Moth",
+    "motifCategory": "insect",
+    "biome": "Queensland Forest",
+    "motif": "hercules moth wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment",
+      "hex": "#FAF6EE",
+      "oklch": "oklch(0.974 0.011 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Umber",
+      "hex": "#2E241B",
+      "oklch": "oklch(0.269 0.022 63.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Wing",
+      "hex": "#8B4A28",
+      "oklch": "oklch(0.482 0.100 46.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cream Spot",
+      "hex": "#F2E8C9",
+      "oklch": "oklch(0.931 0.042 92.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Olive Moss",
+      "hex": "#6E7A44",
+      "oklch": "oklch(0.556 0.078 119.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Amber Scale",
+      "hex": "#D89A3A",
+      "oklch": "oklch(0.730 0.132 74.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Cream",
+      "hex": "#F7EDD6",
+      "oklch": "oklch(0.948 0.032 87.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Forest Leaf",
+      "hex": "#4C5C33",
+      "oklch": "oklch(0.450 0.065 126.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.974 0.011 84.6)",
+    "foreground": "oklch(0.269 0.022 63.7)",
+    "card": "oklch(0.948 0.032 87.3)",
+    "card-foreground": "oklch(0.269 0.022 63.7)",
+    "popover": "oklch(0.948 0.032 87.3)",
+    "popover-foreground": "oklch(0.269 0.022 63.7)",
+    "primary": "oklch(0.482 0.100 46.7)",
+    "primary-foreground": "oklch(0.974 0.011 84.6)",
+    "secondary": "oklch(0.959 0.024 88.2)",
+    "secondary-foreground": "oklch(0.269 0.022 63.7)",
+    "muted": "oklch(0.956 0.026 87.9)",
+    "muted-foreground": "oklch(0.269 0.022 63.7)",
+    "accent": "oklch(0.556 0.078 119.3)",
+    "accent-foreground": "oklch(0.269 0.022 63.7)",
+    "destructive": "oklch(0.482 0.100 46.7)",
+    "border": "oklch(0.778 0.041 107.3)",
+    "input": "oklch(0.778 0.041 107.3)",
+    "ring": "oklch(0.931 0.042 92.2)",
+    "chart-1": "oklch(0.482 0.100 46.7)",
+    "chart-2": "oklch(0.931 0.042 92.2)",
+    "chart-3": "oklch(0.556 0.078 119.3)",
+    "chart-4": "oklch(0.730 0.132 74.4)",
+    "chart-5": "oklch(0.269 0.022 63.7)",
+    "sidebar": "oklch(0.957 0.025 86.9)",
+    "sidebar-foreground": "oklch(0.269 0.022 63.7)",
+    "sidebar-primary": "oklch(0.482 0.100 46.7)",
+    "sidebar-primary-foreground": "oklch(0.974 0.011 84.6)",
+    "sidebar-accent": "oklch(0.893 0.037 76.6)",
+    "sidebar-accent-foreground": "oklch(0.482 0.100 46.7)",
+    "sidebar-border": "oklch(0.778 0.041 107.3)",
+    "sidebar-ring": "oklch(0.931 0.042 92.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.269 0.022 63.7)",
+    "foreground": "oklch(0.974 0.011 84.6)",
+    "card": "oklch(0.269 0.022 63.7)",
+    "card-foreground": "oklch(0.974 0.011 84.6)",
+    "popover": "oklch(0.269 0.022 63.7)",
+    "popover-foreground": "oklch(0.974 0.011 84.6)",
+    "primary": "oklch(0.931 0.042 92.2)",
+    "primary-foreground": "oklch(0.269 0.022 63.7)",
+    "secondary": "oklch(0.310 0.028 92.8)",
+    "secondary-foreground": "oklch(0.974 0.011 84.6)",
+    "muted": "oklch(0.310 0.028 92.8)",
+    "muted-foreground": "oklch(0.750 0.033 117.2)",
+    "accent": "oklch(0.556 0.078 119.3)",
+    "accent-foreground": "oklch(0.269 0.022 63.7)",
+    "destructive": "oklch(0.482 0.100 46.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.931 0.042 92.2)",
+    "chart-1": "oklch(0.931 0.042 92.2)",
+    "chart-2": "oklch(0.482 0.100 46.7)",
+    "chart-3": "oklch(0.556 0.078 119.3)",
+    "chart-4": "oklch(0.730 0.132 74.4)",
+    "chart-5": "oklch(0.450 0.065 126.3)",
+    "sidebar": "oklch(0.269 0.022 63.7)",
+    "sidebar-foreground": "oklch(0.974 0.011 84.6)",
+    "sidebar-primary": "oklch(0.931 0.042 92.2)",
+    "sidebar-primary-foreground": "oklch(0.269 0.022 63.7)",
+    "sidebar-accent": "oklch(0.310 0.028 92.8)",
+    "sidebar-accent-foreground": "oklch(0.974 0.011 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.931 0.042 92.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Editorial serif display paired with Geist and Noto Sans JP guidance for multilingual product UI, field-guide labels, archive tables, and stat-rich story pages.",
+  "layout": "Precise 8px-grid editorial boards with wing-band sectioning, cream spot cards, rust action rails, olive navigation, dense comparison tables, and restrained radius and shadow tokens.",
+  "tags": [
+    "hercules-moth",
+    "moth",
+    "insect",
+    "queensland-forest",
+    "rust",
+    "cream",
+    "olive",
+    "editorial-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hercules-moth/motif.png",
+    "board": "/systems/morphous-hercules-moth/design-system-light.png",
+    "darkBoard": "/systems/morphous-hercules-moth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hercules-moth/theme.css",
+    "themeJson": "/systems/morphous-hercules-moth/theme.json",
+    "promptsJson": "/systems/morphous-hercules-moth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "motif-cutout",
+      "label": "Transparent Hercules Moth Motif",
+      "asset": "/systems/morphous-hercules-moth/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an isolated Hercules moth, full body and wings visible, no environment, no props, no text.\nSubject: Hercules moth (Coscinocera hercules) with accurate broad wing anatomy, rust brown and cream wing fields, translucent cream spots, muted olive-green forest undertones, fine scales, natural antennae and body texture.\nComposition/framing: centered complete cutout with generous padding; wings fully open and not cropped; symmetrical editorial specimen pose with organic natural detail.\nLighting/mood: clean soft studio light that preserves natural wing color, scale texture, and subtle translucency.\nTransparent workflow: place the moth on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-board",
+      "label": "Light Design-System Board",
+      "asset": "/systems/morphous-hercules-moth/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Hercules Moth\", a grand editorial shadcn/tweakcn-compatible design system derived from the provided Hercules moth cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the moth image: rust brown wings, cream translucent spots, olive-green forest edges, amber scale dust, dark umber linework. The board must visibly respect these motif colors.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160.\nResolution and legibility: use large readable labels, strong grid, avoid dense tiny text.\nRequired visible sections: title \"Hercules Moth\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius tokens, spacing tokens, shadow tokens, generated asset examples.\nTypography: include English guidance and Japanese guidance with short examples; editorial serif display paired with precise multilingual UI sans guidance.\nStyle/medium: grand editorial product design system, refined Queensland forest field-guide mood, shadcn-style product UI mockup, precise grid, restrained 8px radius cards and controls.\nColor palette: use only motif-derived rust brown, cream spot, olive forest green, amber, dark umber, parchment near-neutrals.\nText: short readable UI labels only; include English and Japanese section labels.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no random brand names, no illegible microtext."
+    },
+    {
+      "id": "dark-board",
+      "label": "Dark Design-System Board",
+      "asset": "/systems/morphous-hercules-moth/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the \"Hercules Moth\" grand editorial design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent Hercules moth motif and the light design-system board as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, dashboard patterns, and editorial field-guide structure.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160.\nResolution and legibility: use large readable labels, strong grid, avoid dense tiny text.\nRequired visible sections: title \"Hercules Moth\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius tokens, spacing tokens, shadow tokens, generated asset examples.\nVisual details: dark background derived from deepest umber and forest shadow, light text from cream moth spots, primary actions in rust wing brown, accents in olive forest green and amber scale dust, subtle wing-scale texture overlays, crisp shadcn-style cards and controls with restrained 8px radius.\nTypography: editorial serif display paired with multilingual UI sans; include English and Japanese examples.\nText: short readable UI labels only; include English and Japanese section labels.\nConstraints: no neon colors, no flat pure black background, no unrelated saturated colors, no generic purple or blue gradients, no illegible microtext, no watermark, no random brand names."
+    }
+  ]
+}

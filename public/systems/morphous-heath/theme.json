@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-heath",
+    "name": "Morphous Heath",
+    "motifName": "Heather Moor",
+    "motifCategory": "landscape",
+    "biome": "moorland heath",
+    "motif": "heather moor"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sky Wash",
+      "hex": "#F6F7F8",
+      "oklch": "oklch(0.976 0.002 247.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Peat Ink",
+      "hex": "#2A231F",
+      "oklch": "oklch(0.263 0.013 51.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Heather Purple",
+      "hex": "#7B58A6",
+      "oklch": "oklch(0.531 0.123 303.2)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Moor Violet",
+      "hex": "#604487",
+      "oklch": "oklch(0.448 0.109 301.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Heath Green",
+      "hex": "#5D7055",
+      "oklch": "oklch(0.522 0.047 136.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Weathered Mauve",
+      "hex": "#B08AA2",
+      "oklch": "oklch(0.677 0.057 340.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Lichen Pale",
+      "hex": "#D8E2D1",
+      "oklch": "oklch(0.901 0.025 132.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cloud White",
+      "hex": "#FAFAFB",
+      "oklch": "oklch(0.985 0.001 286.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sky Grey",
+      "hex": "#D9DDE3",
+      "oklch": "oklch(0.896 0.009 258.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Peat",
+      "hex": "#0F0D10",
+      "oklch": "oklch(0.163 0.007 314.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#B8C0C7",
+      "oklch": "oklch(0.804 0.013 244.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bog Cranberry",
+      "hex": "#B55C5C",
+      "oklch": "oklch(0.581 0.116 21.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.002 247.8)",
+    "foreground": "oklch(0.263 0.013 51.6)",
+    "card": "oklch(0.985 0.001 286.4)",
+    "card-foreground": "oklch(0.263 0.013 51.6)",
+    "popover": "oklch(0.985 0.001 286.4)",
+    "popover-foreground": "oklch(0.263 0.013 51.6)",
+    "primary": "oklch(0.531 0.123 303.2)",
+    "primary-foreground": "oklch(0.976 0.002 247.8)",
+    "secondary": "oklch(0.982 0.002 247.8)",
+    "secondary-foreground": "oklch(0.163 0.007 314.6)",
+    "muted": "oklch(0.982 0.001 286.4)",
+    "muted-foreground": "oklch(0.163 0.007 314.6)",
+    "accent": "oklch(0.677 0.057 340.5)",
+    "accent-foreground": "oklch(0.263 0.013 51.6)",
+    "destructive": "oklch(0.531 0.123 303.2)",
+    "border": "oklch(0.954 0.003 247.9)",
+    "input": "oklch(0.954 0.003 247.9)",
+    "ring": "oklch(0.522 0.047 136.5)",
+    "chart-1": "oklch(0.531 0.123 303.2)",
+    "chart-2": "oklch(0.522 0.047 136.5)",
+    "chart-3": "oklch(0.677 0.057 340.5)",
+    "chart-4": "oklch(0.677 0.057 340.5)",
+    "chart-5": "oklch(0.163 0.007 314.6)",
+    "sidebar": "oklch(0.982 0.001 286.4)",
+    "sidebar-foreground": "oklch(0.263 0.013 51.6)",
+    "sidebar-primary": "oklch(0.531 0.123 303.2)",
+    "sidebar-primary-foreground": "oklch(0.976 0.002 247.8)",
+    "sidebar-accent": "oklch(0.934 0.014 304.1)",
+    "sidebar-accent-foreground": "oklch(0.531 0.123 303.2)",
+    "sidebar-border": "oklch(0.954 0.003 247.9)",
+    "sidebar-ring": "oklch(0.522 0.047 136.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.263 0.013 51.6)",
+    "foreground": "oklch(0.976 0.002 247.8)",
+    "card": "oklch(0.196 0.007 0.8)",
+    "card-foreground": "oklch(0.976 0.002 247.8)",
+    "popover": "oklch(0.196 0.007 0.8)",
+    "popover-foreground": "oklch(0.976 0.002 247.8)",
+    "primary": "oklch(0.522 0.047 136.5)",
+    "primary-foreground": "oklch(0.263 0.013 51.6)",
+    "secondary": "oklch(0.353 0.005 286.1)",
+    "secondary-foreground": "oklch(0.976 0.002 247.8)",
+    "muted": "oklch(0.353 0.005 286.1)",
+    "muted-foreground": "oklch(0.940 0.006 264.5)",
+    "accent": "oklch(0.677 0.057 340.5)",
+    "accent-foreground": "oklch(0.263 0.013 51.6)",
+    "destructive": "oklch(0.531 0.123 303.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.522 0.047 136.5)",
+    "chart-1": "oklch(0.522 0.047 136.5)",
+    "chart-2": "oklch(0.531 0.123 303.2)",
+    "chart-3": "oklch(0.677 0.057 340.5)",
+    "chart-4": "oklch(0.677 0.057 340.5)",
+    "chart-5": "oklch(0.896 0.009 258.3)",
+    "sidebar": "oklch(0.219 0.008 31.2)",
+    "sidebar-foreground": "oklch(0.976 0.002 247.8)",
+    "sidebar-primary": "oklch(0.522 0.047 136.5)",
+    "sidebar-primary-foreground": "oklch(0.263 0.013 51.6)",
+    "sidebar-accent": "oklch(0.353 0.005 286.1)",
+    "sidebar-accent-foreground": "oklch(0.976 0.002 247.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.522 0.047 136.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Airy English product UI with Japanese typography guidance for maps, filters, field notes, table numerals, route labels, command search, and calm observation states.",
+  "layout": "Open 8px product grids, wide horizon bands, breathable field dashboards, route tables, compact form panels, restrained shadows, heather-stem texture, and 8px cards and controls.",
+  "tags": [
+    "heath",
+    "landscape",
+    "moorland-heath",
+    "heather-purple",
+    "peat-brown",
+    "sky-grey",
+    "open-landscape-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-heath/motif.png",
+    "board": "/systems/morphous-heath/design-system-light.png",
+    "darkBoard": "/systems/morphous-heath/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-heath/theme.css",
+    "themeJson": "/systems/morphous-heath/theme.json",
+    "promptsJson": "/systems/morphous-heath/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent heather moor motif",
+      "asset": "/systems/morphous-heath/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a heather moor motif cluster, isolated full subject, no surrounding landscape, no props, no text.\nSubject: One natural sculptural cutout of moorland heath: dense purple heather sprigs in bloom, wiry brown stems, small evergreen heath leaves, peat-brown root mat and low hummock base, a few sky-grey lichen and weathered grass details, accurate upland heather texture, compact enough to work as a reusable catalog motif.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the heather cluster; show the full low moorland plant form with an uneven peat base.\nLighting/mood: clean studio light that preserves purple heather blossoms, peat brown stems, muted green leaves, and cool sky-grey weathering detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no wide landscape, no decorative background, no second separate plant, no animals, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-heath/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Heath light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Heath\", derived from moorland heath and a heather moor motif. This board is a source reference for implementing a shadcn/tweakcn-compatible open landscape system.\nReference use: Use heather moor as the source of truth: purple heather blossoms, peat-brown stems and earth, muted evergreen heath leaves, pale lichen, wind-worn grass, and sky-grey open moorland atmosphere. The board must visibly respect these motif colors and textures.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Heath, Heather Moor, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: purple heather primary, peat brown grounding, sky grey surfaces, lichen pale accents, muted heath green support color, dark peat ink, cloud white cards, weathered mauve highlights, and restrained near-neutrals derived only from the motif.\nTypography: open landscape product UI guidance with English and Japanese type. Use an airy humanist sans with sturdy data numerals and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, maps, filters, table numerals, field notes, and calm workflow states. Include short Japanese labels such as 地図, 検索, 記録, 観測.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, horizon line chart, area chart, field survey table, route list, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, open landscape operations dashboard, sky-grey breathable surfaces, purple-heather primary actions, peat-brown text and borders, lichen accent chips, subtle heather-stem texture, wide horizon rhythm, confident hierarchy, compact but airy data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Heath\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-heath/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Heath dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Heath\". It must feel like the same open landscape system translated to dark mode, not a new theme, and it must remain derived from heather moorland and the light-mode board.\nReference use: Preserve purple-heather primary controls, peat-brown grounding and borders, sky-grey typography guidance, lichen accent chips, heath-green support colors, heather-stem texture, 8px radius language, wide horizon rhythm, dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Heath, Dark Mode, Heather Moor, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest peat background, warm dark brown panels, purple heather primary, mauve focus rings, muted heath green accents, pale lichen status, sky-grey text, weathered stone borders, and restrained near-neutrals derived only from the motif.\nTypography: open landscape product UI guidance with English and Japanese type. Use an airy humanist sans with sturdy data numerals and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, maps, filters, table numerals, field notes, and calm workflow states. Include short Japanese labels such as 地図, 検索, 記録, 観測.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, horizon line chart, area chart, field survey table, route list, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from wet peat and twilight moor, elevated panels in peat charcoal, sky-grey foreground text, purple-heather primary actions, mauve focus rings, muted heath-green navigation and success accents, pale lichen chips, subtle heather-stem texture overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple/blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Heath\", no tiny illegible paragraphs."
+    }
+  ]
+}

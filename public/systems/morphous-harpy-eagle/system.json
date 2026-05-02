@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-harpy-eagle",
+  "name": "Morphous Harpy Eagle",
+  "motifName": "Harpy Eagle",
+  "motifCategory": "bird",
+  "biome": "rainforest canopy",
+  "motif": "harpy eagle crest",
+  "description": "A shadcn/tweakcn-compatible system drafted from a harpy eagle crest: feather-white command surfaces, slate gray hierarchy, black collar contrast, canopy-green focus, and precise dashboard controls with a powerful command posture.",
+  "typography": "Geist for sharp English command UI with Noto Sans JP guidance for compact Japanese labels, status tables, and multilingual operations dashboards.",
+  "layout": "Dense 8px command grids, black-feather headers, crest-like vertical navigation, crisp feather dividers, 8px component radius, restrained shadows, and canopy-green focus states.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "harpy-eagle",
+    "bird",
+    "rainforest-canopy",
+    "crest",
+    "feather",
+    "command",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Feather White",
+      "hex": "#f4f5f1"
+    },
+    {
+      "role": "Ink",
+      "name": "Command Ink",
+      "hex": "#171a1a"
+    },
+    {
+      "role": "Primary",
+      "name": "Wing Graphite",
+      "hex": "#2b2f2f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cloud Gray",
+      "hex": "#d9ddd9"
+    },
+    {
+      "role": "Accent",
+      "name": "Canopy Green",
+      "hex": "#1f4a36"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Signal",
+      "hex": "#55745c"
+    },
+    {
+      "role": "Surface",
+      "name": "Slate Crest",
+      "hex": "#727a78"
+    },
+    {
+      "role": "Warning",
+      "name": "Talon Ochre",
+      "hex": "#b79a58"
+    },
+    {
+      "role": "Depth",
+      "name": "Collar Black",
+      "hex": "#101313"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

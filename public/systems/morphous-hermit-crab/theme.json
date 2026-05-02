@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hermit-crab",
+    "name": "Morphous Hermit Crab",
+    "motifName": "Hermit Crab",
+    "motifCategory": "crustacean",
+    "biome": "Tidepool",
+    "motif": "hermit crab shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tidepool Foam",
+      "hex": "#F6F0E6",
+      "oklch": "oklch(0.957 0.015 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Slate Ink",
+      "hex": "#1C2528",
+      "oklch": "oklch(0.257 0.014 220.1)"
+    },
+    {
+      "role": "Foreground",
+      "name": "Claw Graphite",
+      "hex": "#263537",
+      "oklch": "oklch(0.316 0.020 206.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Shell",
+      "hex": "#D56E58",
+      "oklch": "oklch(0.653 0.134 33.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Glass Blue",
+      "hex": "#4E91A2",
+      "oklch": "oklch(0.619 0.073 216.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Claw",
+      "hex": "#84AEB7",
+      "oklch": "oklch(0.723 0.047 212.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Pearl",
+      "hex": "#FFF8EA",
+      "oklch": "oklch(0.981 0.020 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Taupe",
+      "hex": "#B79A78",
+      "oklch": "oklch(0.704 0.058 71.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Kelp Shadow",
+      "hex": "#33443A",
+      "oklch": "oklch(0.369 0.028 158.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Anemone Coral",
+      "hex": "#E59A6C",
+      "oklch": "oklch(0.751 0.109 51.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.957 0.015 80.7)",
+    "foreground": "oklch(0.257 0.014 220.1)",
+    "card": "oklch(0.981 0.020 84.6)",
+    "card-foreground": "oklch(0.257 0.014 220.1)",
+    "popover": "oklch(0.981 0.020 84.6)",
+    "popover-foreground": "oklch(0.257 0.014 220.1)",
+    "primary": "oklch(0.653 0.134 33.3)",
+    "primary-foreground": "oklch(0.957 0.015 80.7)",
+    "secondary": "oklch(0.971 0.018 86.1)",
+    "secondary-foreground": "oklch(0.369 0.028 158.9)",
+    "muted": "oklch(0.974 0.018 86.1)",
+    "muted-foreground": "oklch(0.369 0.028 158.9)",
+    "accent": "oklch(0.723 0.047 212.3)",
+    "accent-foreground": "oklch(0.257 0.014 220.1)",
+    "destructive": "oklch(0.653 0.134 33.3)",
+    "border": "oklch(0.883 0.033 76.4)",
+    "input": "oklch(0.883 0.033 76.4)",
+    "ring": "oklch(0.619 0.073 216.2)",
+    "chart-1": "oklch(0.653 0.134 33.3)",
+    "chart-2": "oklch(0.619 0.073 216.2)",
+    "chart-3": "oklch(0.723 0.047 212.3)",
+    "chart-4": "oklch(0.751 0.109 51.9)",
+    "chart-5": "oklch(0.369 0.028 158.9)",
+    "sidebar": "oklch(0.972 0.018 81.3)",
+    "sidebar-foreground": "oklch(0.257 0.014 220.1)",
+    "sidebar-primary": "oklch(0.653 0.134 33.3)",
+    "sidebar-primary-foreground": "oklch(0.957 0.015 80.7)",
+    "sidebar-accent": "oklch(0.939 0.029 60.8)",
+    "sidebar-accent-foreground": "oklch(0.653 0.134 33.3)",
+    "sidebar-border": "oklch(0.883 0.033 76.4)",
+    "sidebar-ring": "oklch(0.619 0.073 216.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.014 220.1)",
+    "foreground": "oklch(0.957 0.015 80.7)",
+    "card": "oklch(0.330 0.020 171.2)",
+    "card-foreground": "oklch(0.957 0.015 80.7)",
+    "popover": "oklch(0.330 0.020 171.2)",
+    "popover-foreground": "oklch(0.957 0.015 80.7)",
+    "primary": "oklch(0.619 0.073 216.2)",
+    "primary-foreground": "oklch(0.257 0.014 220.1)",
+    "secondary": "oklch(0.446 0.025 127.8)",
+    "secondary-foreground": "oklch(0.957 0.015 80.7)",
+    "muted": "oklch(0.446 0.025 127.8)",
+    "muted-foreground": "oklch(0.845 0.033 71.8)",
+    "accent": "oklch(0.723 0.047 212.3)",
+    "accent-foreground": "oklch(0.257 0.014 220.1)",
+    "destructive": "oklch(0.653 0.134 33.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.619 0.073 216.2)",
+    "chart-1": "oklch(0.619 0.073 216.2)",
+    "chart-2": "oklch(0.653 0.134 33.3)",
+    "chart-3": "oklch(0.723 0.047 212.3)",
+    "chart-4": "oklch(0.751 0.109 51.9)",
+    "chart-5": "oklch(0.704 0.058 71.1)",
+    "sidebar": "oklch(0.309 0.017 178.2)",
+    "sidebar-foreground": "oklch(0.957 0.015 80.7)",
+    "sidebar-primary": "oklch(0.619 0.073 216.2)",
+    "sidebar-primary-foreground": "oklch(0.257 0.014 220.1)",
+    "sidebar-accent": "oklch(0.446 0.025 127.8)",
+    "sidebar-accent-foreground": "oklch(0.957 0.015 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.619 0.073 216.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or Inter for compact product UI with Noto Sans JP guidance for Japanese labels, practical dashboards, concise forms, and tabular numeric rhythm.",
+  "layout": "Strict 8px grids, 8px maximum radii, modular shell-card panels, shell-ridge dividers, portable workspace spacing, tidepool focus rings, and shallow wet-surface shadows.",
+  "tags": [
+    "hermit-crab",
+    "crustacean",
+    "tidepool",
+    "shell-ridge",
+    "portable-workspace",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hermit-crab/motif.png",
+    "board": "/systems/morphous-hermit-crab/design-system-light.png",
+    "darkBoard": "/systems/morphous-hermit-crab/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hermit-crab/theme.css",
+    "themeJson": "/systems/morphous-hermit-crab/theme.json",
+    "promptsJson": "/systems/morphous-hermit-crab/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Motif",
+      "asset": "/systems/morphous-hermit-crab/motif.png",
+      "sourceAsset": "/systems/morphous-hermit-crab/motif-source-chroma.png",
+      "workflow": "Generated on a flat #ff00ff chroma-key background, then locally removed to alpha and validated.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for a catalog theme\nPrimary request: Create only a hermit crab shell motif, isolated full subject, no environment, no props, no text.\nSubject: A single hermit crab carrying a spiral shell, accurate crustacean anatomy, coral-shell tan and warm sand shell bands, compact blue-gray claws and walking legs, subtle sea-blue edge highlights, crisp shell ridges, portable workspace character without anthropomorphic features. The shell should feel like a small mobile office module through form language only: protected, modular, carried, self-contained.\nComposition/framing: centered complete cutout with generous padding; show the full shell, crab face, claws, and legs without cropping; slight three-quarter top-down specimen angle; compact horizontal silhouette.\nLighting/mood: clean studio light that preserves coral shell texture, tan claw detail, and sea-blue accents.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no tidepool scene, no sand floor, no rocks, no seaweed, no second crab, no cast shadow, no contact shadow, no reflection, no decorative background, no cartoon face."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light Design System",
+      "asset": "/systems/morphous-hermit-crab/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-hermit-crab/motif.png"
+      ],
+      "workflow": "Generated as a 16:9 board, then locally resampled to 3840x2160 to meet Morphous source-asset dimensions.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, final catalog source image\nPrimary request: Generate one comprehensive LIGHT MODE design-system board for a Morphous theme named exactly \"Morphous Hermit Crab\". The board is derived from a hermit crab shell motif: coral shell tan, sand ridges, blue-gray claws, sea-blue tidepool accents, and a portable workspace system mood.\nReference use: Use the hermit crab shell cutout previously generated in this conversation as motif reference. Extract palette, shell-ridge texture, compact carried-home logic, modular workspace rhythm, contrast, and interaction language from that motif.\nCanvas: exact 16:9 landscape board at 3840x2160 pixels. This must be a high-resolution source board, not a small preview. Avoid 1024px or 1672px preview-style output.\nBoard organization: premium product UI design-system board with a clean modular grid, large readable labels, and fewer larger examples so labels remain legible when downscaled. No text should be tiny.\nRequired visible sections: Morphous Hermit Crab, Hermit Crab, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese type guidance using short labels: Geist, Inter, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, compact shell-card panels, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, data table rows, command palette/search menu, status chips, loading state, empty state, error state, token swatches, texture samples.\nVisual language: shadcn/tweakcn-compatible product design system, realistic UI mockup, portable workspace system, compact modular panels like a carried shell, shell-ridge dividers, tidepool focus rings, coral primary actions, sea-blue secondary controls, blue-gray claw data marks, shell-tan surfaces, foam background, restrained shallow shadows.\nRadius rule: every card, panel, button, input, menu, and chip must use 8px radius or less.\nPalette: tidepool foam, shell pearl, coral shell, blue claw, sea glass blue, sand taupe, barnacle cream, wet slate ink, kelp shadow olive, warning anemone coral.\nTexture: include fine shell ridges, speckled barnacle dots, subtle wet tidepool sheen, and compact grid spacing tokens.\nText: short readable UI labels only; spell exactly \"Morphous Hermit Crab\" and \"Hermit Crab\".\nConstraints: no unrelated bright colors, no purple or blue gradient theme, no beige-only palette, no oversized pill radii, no rounded elements over 8px, no stock UI kit look, no long paragraphs, no watermark, no random brand names, no misspelling of the theme name."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark Design System",
+      "asset": "/systems/morphous-hermit-crab/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-hermit-crab/motif.png",
+        "/systems/morphous-hermit-crab/design-system-light.png"
+      ],
+      "workflow": "Generated as a 16:9 board, then locally resampled to 3840x2160 to meet Morphous source-asset dimensions.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, final catalog source image\nPrimary request: Generate one comprehensive DARK MODE design-system board for a Morphous theme named exactly \"Morphous Hermit Crab\" / \"Hermit Crab\". Translate the existing light-mode Hermit Crab board into dark mode; keep it recognizably the same system, not a new theme.\nReference use: Use the hermit crab motif and the light-mode board generated earlier in this conversation as style references. Preserve motif-derived palette roles, component coverage, typography hierarchy, modular shell-card organization, shell-ridge texture rhythm, 8px radius discipline, and portable workspace system language.\nCanvas: exact 16:9 landscape board at 3840x2160 pixels. This must be a high-resolution source board, not a small preview. Avoid 1024px or 1672px preview-style output.\nBoard organization: premium product UI design-system board with a clean modular grid, large readable labels, and fewer larger examples so labels remain legible when downscaled. No text should be tiny.\nRequired visible sections: Morphous Hermit Crab, Hermit Crab, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status States, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese type guidance using short labels: Geist, Inter, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, compact shell-card panels, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, data table rows, command palette/search menu, status chips, loading state, empty state, error state, token swatches, texture samples.\nVisual language: shadcn/tweakcn-compatible product design system, realistic UI mockup, portable workspace system, dark wet-slate tidepool background, readable foam and pearl text, coral primary actions, sea-glass blue secondary controls, blue-gray claw data marks, barnacle cream highlights, shell-ridge dividers, tidepool focus rings, compact modular panels, restrained shallow dark shadows.\nRadius rule: every card, panel, button, input, menu, and chip must use 8px radius or less.\nPalette: wet slate ink, deep tidepool navy, shell pearl, coral shell, blue claw, sea glass blue, sand taupe, barnacle cream, kelp shadow olive, warning anemone coral.\nTexture: include subtle shell ridges, speckled barnacle dots, wet tidepool sheen, and compact grid spacing tokens.\nText: short readable UI labels only; spell exactly \"Morphous Hermit Crab\" and \"Hermit Crab\".\nConstraints: no unrelated bright colors, no neon rainbow palette, no purple or blue gradient theme, no pure black flat-only background, no beige-heavy palette, no oversized pill radii, no rounded elements over 8px, no stock UI kit look, no long paragraphs, no watermark, no random brand names, no misspelling of the theme name."
+    }
+  ]
+}

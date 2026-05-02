@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-glowworm",
+    "name": "Morphous Glowworm",
+    "motifName": "Glowworm",
+    "motifCategory": "insect",
+    "biome": "limestone cave",
+    "motif": "glowworm threads"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Limestone Mist",
+      "hex": "#F7FBF9",
+      "oklch": "oklch(0.985 0.005 165.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cave Black",
+      "hex": "#071217",
+      "oklch": "oklch(0.174 0.019 228.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Biolume Cyan",
+      "hex": "#00B6C8",
+      "oklch": "oklch(0.710 0.122 207.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Thread Teal",
+      "hex": "#35D6C8",
+      "oklch": "oklch(0.794 0.129 186.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Glow Droplet",
+      "hex": "#7DF8FF",
+      "oklch": "oklch(0.911 0.111 200.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Larva Amber",
+      "hex": "#C88735",
+      "oklch": "oklch(0.675 0.124 68.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Calcite Veil",
+      "hex": "#EAF4F2",
+      "oklch": "oklch(0.959 0.011 182.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Limestone",
+      "hex": "#9EB0B3",
+      "oklch": "oklch(0.744 0.021 208.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Subterranean Slate",
+      "hex": "#20323A",
+      "oklch": "oklch(0.305 0.028 227.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Thread Silver",
+      "hex": "#B8CED0",
+      "oklch": "oklch(0.836 0.024 203.3)"
+    },
+    {
+      "role": "Success",
+      "name": "Route Teal",
+      "hex": "#08B98F",
+      "oklch": "oklch(0.699 0.139 169.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.005 165.0)",
+    "foreground": "oklch(0.174 0.019 228.0)",
+    "card": "oklch(0.959 0.011 182.9)",
+    "card-foreground": "oklch(0.174 0.019 228.0)",
+    "popover": "oklch(0.959 0.011 182.9)",
+    "popover-foreground": "oklch(0.174 0.019 228.0)",
+    "primary": "oklch(0.710 0.122 207.3)",
+    "primary-foreground": "oklch(0.985 0.005 165.0)",
+    "secondary": "oklch(0.970 0.009 179.6)",
+    "secondary-foreground": "oklch(0.305 0.028 227.5)",
+    "muted": "oklch(0.967 0.009 179.6)",
+    "muted-foreground": "oklch(0.305 0.028 227.5)",
+    "accent": "oklch(0.911 0.111 200.4)",
+    "accent-foreground": "oklch(0.174 0.019 228.0)",
+    "destructive": "oklch(0.710 0.122 207.3)",
+    "border": "oklch(0.884 0.014 191.4)",
+    "input": "oklch(0.884 0.014 191.4)",
+    "ring": "oklch(0.794 0.129 186.1)",
+    "chart-1": "oklch(0.710 0.122 207.3)",
+    "chart-2": "oklch(0.794 0.129 186.1)",
+    "chart-3": "oklch(0.911 0.111 200.4)",
+    "chart-4": "oklch(0.675 0.124 68.7)",
+    "chart-5": "oklch(0.305 0.028 227.5)",
+    "sidebar": "oklch(0.967 0.009 179.6)",
+    "sidebar-foreground": "oklch(0.174 0.019 228.0)",
+    "sidebar-primary": "oklch(0.710 0.122 207.3)",
+    "sidebar-primary-foreground": "oklch(0.985 0.005 165.0)",
+    "sidebar-accent": "oklch(0.924 0.032 196.6)",
+    "sidebar-accent-foreground": "oklch(0.710 0.122 207.3)",
+    "sidebar-border": "oklch(0.884 0.014 191.4)",
+    "sidebar-ring": "oklch(0.794 0.129 186.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.174 0.019 228.0)",
+    "foreground": "oklch(0.985 0.005 165.0)",
+    "card": "oklch(0.262 0.024 228.8)",
+    "card-foreground": "oklch(0.985 0.005 165.0)",
+    "popover": "oklch(0.262 0.024 228.8)",
+    "popover-foreground": "oklch(0.985 0.005 165.0)",
+    "primary": "oklch(0.794 0.129 186.1)",
+    "primary-foreground": "oklch(0.174 0.019 228.0)",
+    "secondary": "oklch(0.411 0.025 223.6)",
+    "secondary-foreground": "oklch(0.985 0.005 165.0)",
+    "muted": "oklch(0.411 0.025 223.6)",
+    "muted-foreground": "oklch(0.878 0.011 204.1)",
+    "accent": "oklch(0.911 0.111 200.4)",
+    "accent-foreground": "oklch(0.174 0.019 228.0)",
+    "destructive": "oklch(0.710 0.122 207.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.794 0.129 186.1)",
+    "chart-1": "oklch(0.794 0.129 186.1)",
+    "chart-2": "oklch(0.710 0.122 207.3)",
+    "chart-3": "oklch(0.911 0.111 200.4)",
+    "chart-4": "oklch(0.675 0.124 68.7)",
+    "chart-5": "oklch(0.744 0.021 208.7)",
+    "sidebar": "oklch(0.238 0.022 226.7)",
+    "sidebar-foreground": "oklch(0.985 0.005 165.0)",
+    "sidebar-primary": "oklch(0.794 0.129 186.1)",
+    "sidebar-primary-foreground": "oklch(0.174 0.019 228.0)",
+    "sidebar-accent": "oklch(0.411 0.025 223.6)",
+    "sidebar-accent-foreground": "oklch(0.985 0.005 165.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.794 0.129 186.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean product English UI with Japanese typography guidance for wayfinding labels, route dashboards, dense data tables, search commands, alerts, and calm cave-map panels.",
+  "layout": "Luminous wayfinding interfaces, 8px radii, thread-like dividers, droplet badges, glowing route rails, limestone card surfaces, cave-black dark mode, and dashboard/data views for route planning.",
+  "tags": [
+    "glowworm",
+    "insect",
+    "limestone-cave",
+    "glowworm-threads",
+    "blue-green-glow",
+    "cave-black",
+    "luminous-wayfinding",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-glowworm/motif.png",
+    "board": "/systems/morphous-glowworm/design-system-light.png",
+    "darkBoard": "/systems/morphous-glowworm/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-glowworm/theme.css",
+    "themeJson": "/systems/morphous-glowworm/theme.json",
+    "promptsJson": "/systems/morphous-glowworm/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent glowworm threads motif",
+      "asset": "/systems/morphous-glowworm/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Glowworm transparent motif chroma-key source\nPrimary request: Create a complete isolated glowworm motif for a design-system catalog, on a removable chroma-key background.\nSubject: A luminous New Zealand-style glowworm larva suspended from delicate sticky silk threads, with small translucent amber-brown segmented body, subtle dark head, and many hanging bead-like glowworm threads emitting blue-green bioluminescent points. The motif should feel like a limestone cave wayfinding symbol: cool cyan glow, teal halos around thread droplets, fine thread detail, crisp biological form.\nComposition/framing: centered complete cutout with generous padding, vertical hanging thread cluster and larva visible without cropping; no cave wall or background objects, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: do not use #ff00ff anywhere in the subject; no firefly beetle, no butterfly, no fantasy fairy, no landscape, no rock wall, no hand, no props, no text."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-glowworm/design-system-light.png",
+      "sourceAsset": "/systems/morphous-glowworm/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Glowworm light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Glowworm, derived from the visible glowworm larva and glowing silk-thread motif.\nInput image: Use the loaded transparent glowworm motif as the source reference for color, texture, shape language, thread lines, glowing droplets, amber body translucency, limestone cave context, and blue-green bioluminescence.\nCanvas: 16:9 high-resolution design board, target 3840x2160, polished luminous wayfinding system presentation. Preserve readable large section labels and generous spacing.\nRequired visible sections: Morphous Glowworm, Glowworm Threads, Light Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nVisual system: pale limestone surfaces, cave mist background, charcoal cave ink, cyan and blue-green primary actions, teal glow focus rings, amber larva secondary accents, thin thread dividers, droplet badges, waypoint navigation rails, softly luminous chart points, cave-rim texture samples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, breadcrumb/wayfinding, command palette, tables, metrics, line/bar/donut charts, forms, empty/loading/error/success states, token swatches, spacing/radius/shadow examples, sample app screen.\nTypography guidance: include English UI guidance and Japanese UI guidance with concise visible labels; clean sans UI with measured tracking, legible at gallery preview scale.\nConstraints: no generic neon cyber UI, no saturated purple gradient, no unrelated red/orange dominance, no firefly beetle, no fantasy fairy, no tiny unreadable text, no watermark, no misspelling of Morphous Glowworm."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-glowworm/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-glowworm/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Glowworm dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board named Morphous Glowworm that feels like the light board translated into a limestone cave night interface.\nInput images: Use the loaded transparent glowworm motif as the source reference, and preserve the same system sections, UI coverage, and wayfinding/dashboard structure shown in the light-board direction.\nCanvas: 16:9 high-resolution design board, target 3840x2160, polished dark luminous wayfinding system presentation. Use large readable labels and avoid tiny token text.\nRequired visible sections: Morphous Glowworm, Glowworm Threads, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nVisual system: cave-black background, charcoal limestone cards, blue-green bioluminescent primary controls, cyan droplet focus rings, teal waypoint rails, amber translucent larva secondary accents, pale limestone text, fine silk-thread dividers, glowing chart nodes, dark cave texture samples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, sidebar navigation, breadcrumb/wayfinding, command palette, tables, metrics, line/bar/donut charts, forms, empty/loading/error/success states, token swatches, spacing/radius/shadow examples, sample app screen.\nTypography guidance: include English UI guidance and Japanese UI guidance with concise visible labels; clean sans UI, high contrast, legible at gallery preview scale.\nConstraints: no generic pure-black neon cyber UI, no saturated purple gradient, no unrelated red/orange dominance, no firefly beetle, no fantasy fairy, no tiny unreadable text, no watermark, no misspelling of Morphous Glowworm."
+    }
+  ]
+}

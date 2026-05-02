@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-guineafowl",
+    "name": "Morphous Guineafowl",
+    "motifName": "Guineafowl",
+    "motifCategory": "bird",
+    "biome": "Savanna Scrub",
+    "motif": "guineafowl spots"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dot White",
+      "hex": "#f8f6ed",
+      "oklch": "oklch(0.972 0.012 96.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Plumage Black",
+      "hex": "#141517",
+      "oklch": "oklch(0.195 0.004 264.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Head Blue",
+      "hex": "#2e75b8",
+      "oklch": "oklch(0.551 0.126 250.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Crown Cyan",
+      "hex": "#62b7d8",
+      "oklch": "oklch(0.739 0.095 225.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Savanna Dust",
+      "hex": "#d7c39b",
+      "oklch": "oklch(0.824 0.058 84.5)"
+    },
+    {
+      "role": "Focus",
+      "name": "Alert Rust",
+      "hex": "#b45f3f",
+      "oklch": "oklch(0.579 0.119 40.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Field Mist",
+      "hex": "#e8e2d2",
+      "oklch": "oklch(0.913 0.022 89.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Beak Ivory",
+      "hex": "#efe2bf",
+      "oklch": "oklch(0.914 0.048 90.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Roost",
+      "hex": "#0b0d10",
+      "oklch": "oklch(0.158 0.007 258.4)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Scrub Taupe",
+      "hex": "#8d7a5d",
+      "oklch": "oklch(0.589 0.048 78.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.012 96.4)",
+    "foreground": "oklch(0.195 0.004 264.5)",
+    "card": "oklch(0.913 0.022 89.8)",
+    "card-foreground": "oklch(0.195 0.004 264.5)",
+    "popover": "oklch(0.913 0.022 89.8)",
+    "popover-foreground": "oklch(0.195 0.004 264.5)",
+    "primary": "oklch(0.551 0.126 250.2)",
+    "primary-foreground": "oklch(0.972 0.012 96.4)",
+    "secondary": "oklch(0.937 0.018 89.4)",
+    "secondary-foreground": "oklch(0.158 0.007 258.4)",
+    "muted": "oklch(0.930 0.019 93.7)",
+    "muted-foreground": "oklch(0.158 0.007 258.4)",
+    "accent": "oklch(0.824 0.058 84.5)",
+    "accent-foreground": "oklch(0.195 0.004 264.5)",
+    "destructive": "oklch(0.551 0.126 250.2)",
+    "border": "oklch(0.914 0.032 89.1)",
+    "input": "oklch(0.914 0.032 89.1)",
+    "ring": "oklch(0.739 0.095 225.7)",
+    "chart-1": "oklch(0.551 0.126 250.2)",
+    "chart-2": "oklch(0.739 0.095 225.7)",
+    "chart-3": "oklch(0.824 0.058 84.5)",
+    "chart-4": "oklch(0.579 0.119 40.9)",
+    "chart-5": "oklch(0.158 0.007 258.4)",
+    "sidebar": "oklch(0.933 0.019 93.7)",
+    "sidebar-foreground": "oklch(0.195 0.004 264.5)",
+    "sidebar-primary": "oklch(0.551 0.126 250.2)",
+    "sidebar-primary-foreground": "oklch(0.972 0.012 96.4)",
+    "sidebar-accent": "oklch(0.869 0.009 128.6)",
+    "sidebar-accent-foreground": "oklch(0.551 0.126 250.2)",
+    "sidebar-border": "oklch(0.914 0.032 89.1)",
+    "sidebar-ring": "oklch(0.739 0.095 225.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.195 0.004 264.5)",
+    "foreground": "oklch(0.972 0.012 96.4)",
+    "card": "oklch(0.172 0.005 248.1)",
+    "card-foreground": "oklch(0.972 0.012 96.4)",
+    "popover": "oklch(0.172 0.005 248.1)",
+    "popover-foreground": "oklch(0.972 0.012 96.4)",
+    "primary": "oklch(0.739 0.095 225.7)",
+    "primary-foreground": "oklch(0.195 0.004 264.5)",
+    "secondary": "oklch(0.355 0.009 97.6)",
+    "secondary-foreground": "oklch(0.972 0.012 96.4)",
+    "muted": "oklch(0.355 0.009 97.6)",
+    "muted-foreground": "oklch(0.946 0.029 91.6)",
+    "accent": "oklch(0.824 0.058 84.5)",
+    "accent-foreground": "oklch(0.195 0.004 264.5)",
+    "destructive": "oklch(0.551 0.126 250.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.739 0.095 225.7)",
+    "chart-1": "oklch(0.739 0.095 225.7)",
+    "chart-2": "oklch(0.551 0.126 250.2)",
+    "chart-3": "oklch(0.824 0.058 84.5)",
+    "chart-4": "oklch(0.579 0.119 40.9)",
+    "chart-5": "oklch(0.914 0.048 90.1)",
+    "sidebar": "oklch(0.178 0.006 271.0)",
+    "sidebar-foreground": "oklch(0.972 0.012 96.4)",
+    "sidebar-primary": "oklch(0.739 0.095 225.7)",
+    "sidebar-primary-foreground": "oklch(0.195 0.004 264.5)",
+    "sidebar-accent": "oklch(0.355 0.009 97.6)",
+    "sidebar-accent-foreground": "oklch(0.972 0.012 96.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.739 0.095 225.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable for crisp operations UI with Noto Sans JP guidance for Japanese labels, compact numeric dashboards, and high-density workflow scanning.",
+  "layout": "8px grid, compact radius, dotted separators, white-dot status indicators, blue active states, charcoal patterned headers, and savanna-neutral operational panels.",
+  "tags": [
+    "guineafowl",
+    "bird",
+    "savanna-scrub",
+    "guineafowl-spots",
+    "black-white-dot",
+    "blue-head",
+    "operations-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-guineafowl/motif.png",
+    "board": "/systems/morphous-guineafowl/design-system-light.png",
+    "darkBoard": "/systems/morphous-guineafowl/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-guineafowl/theme.css",
+    "themeJson": "/systems/morphous-guineafowl/theme.json",
+    "promptsJson": "/systems/morphous-guineafowl/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent guineafowl motif",
+      "asset": "/systems/morphous-guineafowl/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Guineafowl transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated guineafowl spot-and-blue-head motif on a perfectly flat solid #00ff00 chroma-key background for transparency removal.\nSubject: A refined guineafowl motif combining a curved black feather panel densely covered in crisp white round dots with a sculptural cobalt-blue guineafowl head accent, small ivory beak detail, subtle savanna scrub dust neutrals, accurate feather texture, crisp silhouette edges, and a premium patterned operations system feel.\nComposition/framing: centered complete cutout with generous padding; show the full dotted feather silhouette and blue head accent without cropping; no environment, no props, no text.\nLighting/mood: clean studio light preserving black plumage, white dot pattern, vivid blue head, ivory highlights, and precise feather detail.\nChroma-key background: perfectly flat solid #00ff00 only. One uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #00ff00 anywhere in the subject; no cast shadow, no contact shadow, no landscape, no other birds, no flowers, no watermark, no text, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-guineafowl/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive light-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 light-mode product design-system board for \"Morphous Guineafowl\" / \"Guineafowl\" using the motif of guineafowl spots, black plumage with white dots, and a cobalt blue head from savanna scrub.\nVisual identity: patterned operations system, distinctive product UI, ivory-white dot pattern over charcoal-black surfaces, cobalt and cyan-blue head accents, small ivory beak highlights, warm savanna scrub neutrals, dry grass taupe, dust beige, precise editorial operations-dashboard polish.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, dotted separators and density grids, white-dot status indicators, blue active states, charcoal patterned headers, savanna-neutral borders, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic operations UI terms such as Overview, Queue, Health, Status, Form, Table, Throughput, Conversion, Active, Pending.\nPalette names visible: Plumage Black #141517, Dot White #f8f6ed, Head Blue #2e75b8, Crown Cyan #62b7d8, Savanna Dust #d7c39b, Scrub Taupe #8d7a5d, Beak Ivory #efe2bf, Alert Rust #b45f3f, Field Mist #e8e2d2, Night Roost #0b0d10.\nConstraints: no bird photo background, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-guineafowl/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive dark-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 dark-mode product design-system board for \"Morphous Guineafowl\" / \"Guineafowl\", translated from the same guineafowl spots, black plumage with white dots, and cobalt blue head motif from savanna scrub.\nVisual identity: patterned operations system, deep night roost backgrounds, charcoal-black plumage panels with crisp ivory-white dot grids, cobalt and cyan-blue active states, small ivory beak highlights, warm savanna scrub neutrals, dry grass taupe, dust beige, alert rust, precise editorial operations-dashboard polish.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, dotted separators and density grids, white-dot status indicators, blue active states, dark patterned headers, savanna-neutral borders, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic operations UI terms such as Overview, Queue, Health, Status, Form, Table, Throughput, Conversion, Active, Pending.\nPalette names visible: Night Roost #0b0d10, Dot White #f8f6ed, Plumage Black #141517, Head Blue #2e75b8, Crown Cyan #62b7d8, Savanna Dust #d7c39b, Scrub Taupe #8d7a5d, Beak Ivory #efe2bf, Alert Rust #b45f3f, Field Mist #e8e2d2.\nConstraints: no bird photo background, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    }
+  ]
+}

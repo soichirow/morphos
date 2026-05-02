@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-granite",
+  "name": "Morphous Granite",
+  "status": "ready",
+  "motifName": "Granite",
+  "motifCategory": "mineral",
+  "biome": "Mountain Batholith",
+  "motif": "granite texture",
+  "description": "A durable component system to be coded from Granite light and dark design-system boards: white feldspar surfaces, black mica structure, pink quartz actions, and dense stone texture for solid infrastructure interfaces.",
+  "typography": "Geist for engineered product UI with Noto Sans JP guidance for headings, body, labels, metrics, and code-like status text.",
+  "layout": "Slab-aligned grids, compact infrastructure dashboards, crisp borders, 8px radius, dense texture samples, and quiet operational component states.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "granite",
+    "mineral",
+    "mountain-batholith",
+    "infrastructure",
+    "component",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "White Feldspar", "hex": "#f4f0e7" },
+    { "role": "Ink", "name": "Structural Ink", "hex": "#24211e" },
+    { "role": "Primary", "name": "Pink Quartz", "hex": "#c8917e" },
+    { "role": "Secondary", "name": "Feldspar Gray", "hex": "#9c9991" },
+    { "role": "Accent", "name": "Iron Blush", "hex": "#a76554" },
+    { "role": "Surface", "name": "Warm Slab", "hex": "#ddd2c3" },
+    { "role": "Muted", "name": "Polished Edge", "hex": "#c7bfb3" },
+    { "role": "Depth", "name": "Black Mica", "hex": "#171513" },
+    { "role": "Shadow", "name": "Quarry Shadow", "hex": "#4a4742" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

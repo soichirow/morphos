@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-harbor-seal",
+    "name": "Morphous Harbor Seal",
+    "motifName": "Harbor Seal",
+    "motifCategory": "mammal",
+    "biome": "cold coast",
+    "motif": "harbor seal spots"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ice Floe",
+      "hex": "#F3F6F8",
+      "oklch": "oklch(0.971 0.004 236.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Tide Mist",
+      "hex": "#E6EEF2",
+      "oklch": "oklch(0.944 0.010 228.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Seal Silver",
+      "hex": "#D6DBDF",
+      "oklch": "oklch(0.889 0.008 241.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Harbor Grey",
+      "hex": "#98A2AD",
+      "oklch": "oklch(0.708 0.020 250.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Kelp Slate",
+      "hex": "#4D5A64",
+      "oklch": "oklch(0.460 0.023 241.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Spotted Charcoal",
+      "hex": "#2B3037",
+      "oklch": "oklch(0.307 0.014 256.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sea Blue",
+      "hex": "#2E6F8E",
+      "oklch": "oklch(0.514 0.082 232.2)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Deep Harbor",
+      "hex": "#0B1520",
+      "oklch": "oklch(0.192 0.027 251.6)"
+    },
+    {
+      "role": "Success",
+      "name": "Success Kelp",
+      "hex": "#3D7A62",
+      "oklch": "oklch(0.531 0.075 165.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Amber",
+      "hex": "#B7792E",
+      "oklch": "oklch(0.627 0.118 67.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Error Mussel",
+      "hex": "#B94A43",
+      "oklch": "oklch(0.556 0.145 26.5)"
+    }
+  ],
+  "light": {
+    "background": "204 26% 96%",
+    "foreground": "215 12% 19%",
+    "card": "0 0% 100%",
+    "card-foreground": "215 12% 19%",
+    "popover": "0 0% 100%",
+    "popover-foreground": "215 12% 19%",
+    "primary": "199 51% 37%",
+    "primary-foreground": "0 0% 100%",
+    "secondary": "207 12% 86%",
+    "secondary-foreground": "215 12% 19%",
+    "muted": "200 32% 93%",
+    "muted-foreground": "206 13% 35%",
+    "accent": "211 11% 64%",
+    "accent-foreground": "215 12% 19%",
+    "destructive": "4 47% 49%",
+    "border": "207 12% 86%",
+    "input": "207 12% 86%",
+    "ring": "199 51% 37%",
+    "chart-1": "199 51% 37%",
+    "chart-2": "33 60% 45%",
+    "chart-3": "211 11% 64%",
+    "chart-4": "156 33% 36%",
+    "chart-5": "215 12% 19%",
+    "sidebar": "204 26% 96%",
+    "sidebar-foreground": "215 12% 19%",
+    "sidebar-primary": "199 51% 37%",
+    "sidebar-primary-foreground": "0 0% 100%",
+    "sidebar-accent": "200 32% 93%",
+    "sidebar-accent-foreground": "215 12% 19%",
+    "sidebar-border": "207 12% 86%",
+    "sidebar-ring": "199 51% 37%",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "211 49% 8%",
+    "foreground": "210 32% 93%",
+    "card": "205 26% 18%",
+    "card-foreground": "216 45% 98%",
+    "popover": "205 26% 18%",
+    "popover-foreground": "216 45% 98%",
+    "primary": "201 50% 31%",
+    "primary-foreground": "0 0% 100%",
+    "secondary": "205 10% 24%",
+    "secondary-foreground": "210 32% 93%",
+    "muted": "205 26% 18%",
+    "muted-foreground": "204 17% 62%",
+    "accent": "204 17% 62%",
+    "accent-foreground": "211 49% 8%",
+    "destructive": "4 47% 49%",
+    "border": "205 10% 24%",
+    "input": "205 10% 24%",
+    "ring": "204 17% 62%",
+    "chart-1": "199 51% 37%",
+    "chart-2": "212 12% 79%",
+    "chart-3": "204 17% 62%",
+    "chart-4": "33 60% 45%",
+    "chart-5": "4 47% 49%",
+    "sidebar": "211 49% 8%",
+    "sidebar-foreground": "210 32% 93%",
+    "sidebar-primary": "201 50% 31%",
+    "sidebar-primary-foreground": "0 0% 100%",
+    "sidebar-accent": "205 26% 18%",
+    "sidebar-accent-foreground": "210 32% 93%",
+    "sidebar-border": "205 10% 24%",
+    "sidebar-ring": "204 17% 62%",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear interface sans headings and text with soft weight contrast; Japanese guidance pairs Noto Sans JP with calm spacing for care operations, support dashboards, and service records.",
+  "layout": "Quiet 8px-grid dashboard layout with 8px card radius, soft seal-spot texture bands, cool coastal dividers, restrained borders, and steady support surfaces.",
+  "tags": [
+    "mammal",
+    "cold coast",
+    "harbor seal",
+    "spots",
+    "grey",
+    "sea blue",
+    "support",
+    "calm"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-harbor-seal/motif.png",
+    "board": "/systems/morphous-harbor-seal/design-system-light.png",
+    "darkBoard": "/systems/morphous-harbor-seal/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-harbor-seal/theme.css",
+    "themeJson": "/systems/morphous-harbor-seal/theme.json",
+    "promptsJson": "/systems/morphous-harbor-seal/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "motif",
+      "label": "Transparent harbor seal motif",
+      "asset": "/systems/morphous-harbor-seal/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a single harbor seal, isolated full subject, no environment, no props, no text.\nSubject: an accurate adult harbor seal with rounded head, soft dark eyes, compact flippers, smooth short grey spotted fur, charcoal speckles and mottled spots, pale silver belly, subtle sea-blue cool shadows, natural coastal-mammal anatomy. The expression and posture should feel like a calm support system: steady, grounded, gentle, attentive. Use a clean resting three-quarter pose with the full body visible and the head slightly lifted.\nComposition/framing: centered complete cutout with generous padding; do not crop the seal. Keep the silhouette clear and readable for a catalog motif.\nLighting/mood: clean studio light that preserves grey spotted fur texture, wet-satin highlights, mottled pattern detail, and cool sea-blue shadow notes.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second animal, no rocks, no water, no cast shadow, no contact shadow, no reflection, no floor plane, no loose flyaway whiskers, no green rim light."
+    },
+    {
+      "id": "design-system-light",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-harbor-seal/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Morphous Harbor Seal\", derived from the visible harbor seal cutout in this conversation.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the harbor seal motif. The board must visibly respect grey spotted fur, charcoal speckles, pale silver belly, sea-blue coastal shadows, cold coast mist, and calm support-system mood.\nCanvas: wide 16:9 board, target 3840x2160 4K-class source image.\nResolution and legibility: use large readable section labels, generous spacing, and a precise grid. Avoid dense tiny tables. Text must be clean and legible at gallery preview size.\nRequired visible sections: title \"Morphous Harbor Seal\", motif story \"calm support system\", palette, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nPalette labels to show: Ice Floe, Seal Silver, Harbor Grey, Spotted Charcoal, Sea Blue, Kelp Slate, Foam White, Tide Mist.\nTypography: include English guidance for a calm product UI and Japanese guidance with readable sample text such as \"静かな支援\" and \"港の記録\". Use multilingual font guidance that would work for care operations, support dashboards, and service tools.\nComponents: buttons, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, popover, table, search command menu, sidebar navigation, top navigation, dashboard KPI cards, line chart, bar chart, donut chart, empty state, error state, loading state.\nCharts: show a line chart, bar chart, donut chart, and compact KPI trend using motif colors only.\nStyle/medium: premium shadcn/tweakcn-compatible product design-system board, realistic crisp UI mockup, quiet work-focused dashboard surface, 8px radius cards, restrained shadows, stable token grid, soft seal-spot texture strips and coastal dividers.\nColor palette: light ice background, foam white surfaces, silver-grey panels, harbor-grey borders, sea-blue primary controls, charcoal text and speckled accents. Use only motif-derived colors plus near-neutrals from the motif.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple gradients, no unrelated saturated colors, no random brand names, no watermark, no illegible microtext, no dark-mode-only surface."
+    },
+    {
+      "id": "design-system-dark",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-harbor-seal/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the \"Morphous Harbor Seal\" design-system board. It must feel like the same calm support system translated to dark mode, not a new theme.\nReference use: Use the visible harbor seal motif and the light-mode Morphous Harbor Seal board already in this conversation as references. Preserve the palette roles, component language, soft seal-spot texture strips, coastal dividers, 8px radius, typography hierarchy, and support-dashboard UI coverage.\nCanvas: wide 16:9 board, target 3840x2160 4K-class source image.\nResolution and legibility: use large readable labels, generous spacing, and a precise grid. Avoid dense tiny token tables. Text must stay legible at gallery preview size.\nRequired visible sections: title \"Morphous Harbor Seal\", label \"Dark Mode\", motif story \"calm support system\", palette, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nPalette labels to show: Deep Harbor, Kelp Slate, Sea Blue, Tide Mist, Seal Silver, Ice Floe, Spotted Charcoal, Foam White.\nTypography: include English guidance for a calm product UI and Japanese guidance with readable sample text such as \"静かな支援\" and \"港の記録\". Use multilingual font guidance for care operations, support dashboards, and service tools.\nComponents: buttons, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, popover, table, search command menu, sidebar navigation, top navigation, dashboard KPI cards, line chart, bar chart, donut chart, empty state, error state, loading state.\nCharts: show a line chart, bar chart, donut chart, and compact KPI trend using motif colors only.\nVisual details: dark background derived from deep cold harbor water and kelp slate, light text from ice floe and foam white, sea-blue primary controls, silver-grey muted surfaces, charcoal speckled accent states, subtle spotted-fur texture overlays, crisp shadcn/tweakcn-compatible cards and controls.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no pure flat black, no unrelated saturated colors, no generic purple gradients, no random brand names, no watermark, no illegible microtext."
+    }
+  ]
+}

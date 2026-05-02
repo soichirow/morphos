@@ -1,0 +1,75 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-goldfish",
+  "name": "Morphous Goldfish",
+  "motifName": "Goldfish",
+  "motifCategory": "fish",
+  "biome": "Garden Pond",
+  "motif": "goldfish fins",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Goldfish light and dark design-system boards: orange-gold actions, pearl white surfaces, pond green support, water-glass neutrals, and friendly dashboard workflows shaped by flowing fin rhythms.",
+  "typography": "Geist for clean dashboard UI with Noto Sans JP guidance for Japanese labels, generous numeric rhythm, and friendly readable status text.",
+  "layout": "Calm 8px grids, fin-ripple dividers, soft scale texture, compact dashboard panels, readable tables, rounded controls, and pond-water spacing rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "goldfish",
+    "fish",
+    "garden-pond",
+    "orange-gold",
+    "friendly-dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl White",
+      "hex": "#fff7ec"
+    },
+    {
+      "role": "Ink",
+      "name": "Reed Ink",
+      "hex": "#233025"
+    },
+    {
+      "role": "Primary",
+      "name": "Goldfish Orange",
+      "hex": "#f46a21"
+    },
+    {
+      "role": "Accent",
+      "name": "Fin Gold",
+      "hex": "#f7b733"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pond Green",
+      "hex": "#6e8f5b"
+    },
+    {
+      "role": "Signal",
+      "name": "Water Glass",
+      "hex": "#d7e8e4"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#ead7b7"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Pond",
+      "hex": "#123232"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

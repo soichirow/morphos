@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-goldfinch",
+  "name": "Morphous Goldfinch",
+  "motifName": "Goldfinch Feather",
+  "motifCategory": "bird",
+  "biome": "Thistle Meadow",
+  "motif": "goldfinch feather",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Goldfinch light and dark design-system boards: yellow social actions, black-and-white feather structure, thistle-green support states, and warm meadow surfaces.",
+  "typography": "Geist for bright collaborative product UI with Noto Sans guidance for Japanese labels, compact activity streams, and clear social dashboards.",
+  "layout": "Tight 8px grids, feather-bar panels, black-and-white stripe dividers, compact social feeds, approachable cards, and bright dashboard rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "goldfinch",
+    "bird",
+    "feather",
+    "thistle-meadow",
+    "social",
+    "bright",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Paper",
+      "hex": "#fbf6da"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#17160f"
+    },
+    {
+      "role": "Primary",
+      "name": "Goldfinch Yellow",
+      "hex": "#f3d21b"
+    },
+    {
+      "role": "Secondary",
+      "name": "Thistle Green",
+      "hex": "#6f8f57"
+    },
+    {
+      "role": "Accent",
+      "name": "Feather White",
+      "hex": "#fffbe8"
+    },
+    {
+      "role": "Chart",
+      "name": "Seedhead Olive",
+      "hex": "#a7b46a"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Straw",
+      "hex": "#eee5aa"
+    },
+    {
+      "role": "Muted",
+      "name": "Thistle Haze",
+      "hex": "#d7dcc1"
+    },
+    {
+      "role": "Depth",
+      "name": "Quill Charcoal",
+      "hex": "#2a2920"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

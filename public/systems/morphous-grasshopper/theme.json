@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-grasshopper",
+    "name": "Morphous Grasshopper",
+    "motifName": "Grasshopper",
+    "motifCategory": "insect",
+    "biome": "prairie grass",
+    "motif": "grasshopper profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Oat Field",
+      "hex": "#FAF7EF",
+      "oklch": "oklch(0.976 0.011 89.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Olive Ink",
+      "hex": "#2E331E",
+      "oklch": "oklch(0.310 0.036 119.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Exoskeleton Olive",
+      "hex": "#6D7F3A",
+      "oklch": "oklch(0.566 0.097 121.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Prairie Green",
+      "hex": "#8DA55A",
+      "oklch": "oklch(0.686 0.104 123.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tan Wing",
+      "hex": "#C6A27A",
+      "oklch": "oklch(0.735 0.069 69.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Wing Straw",
+      "hex": "#D8B46F",
+      "oklch": "oklch(0.787 0.097 82.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Oat Surface",
+      "hex": "#F6EEDC",
+      "oklch": "oklch(0.951 0.025 86.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Grass",
+      "hex": "#DCC69A",
+      "oklch": "oklch(0.834 0.063 84.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Light Straw",
+      "hex": "#E6D5AE",
+      "oklch": "oklch(0.877 0.055 87.2)"
+    },
+    {
+      "role": "Olive",
+      "name": "Wing Shadow Olive",
+      "hex": "#686F4B",
+      "oklch": "oklch(0.526 0.054 117.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Amber Leg",
+      "hex": "#B77A36",
+      "oklch": "oklch(0.630 0.113 65.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Dry Rust",
+      "hex": "#9A4B25",
+      "oklch": "oklch(0.505 0.117 44.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Prairie Night",
+      "hex": "#171A0D",
+      "oklch": "oklch(0.210 0.024 119.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.011 89.7)",
+    "foreground": "oklch(0.310 0.036 119.4)",
+    "card": "oklch(0.951 0.025 86.9)",
+    "card-foreground": "oklch(0.310 0.036 119.4)",
+    "popover": "oklch(0.951 0.025 86.9)",
+    "popover-foreground": "oklch(0.310 0.036 119.4)",
+    "primary": "oklch(0.566 0.097 121.7)",
+    "primary-foreground": "oklch(0.976 0.011 89.7)",
+    "secondary": "oklch(0.735 0.069 69.4)",
+    "secondary-foreground": "oklch(0.310 0.036 119.4)",
+    "muted": "oklch(0.933 0.028 86.6)",
+    "muted-foreground": "oklch(0.526 0.054 117.2)",
+    "accent": "oklch(0.787 0.097 82.8)",
+    "accent-foreground": "oklch(0.310 0.036 119.4)",
+    "destructive": "oklch(0.505 0.117 44.4)",
+    "border": "oklch(0.877 0.055 87.2)",
+    "input": "oklch(0.877 0.055 87.2)",
+    "ring": "oklch(0.686 0.104 123.7)",
+    "chart-1": "oklch(0.566 0.097 121.7)",
+    "chart-2": "oklch(0.735 0.069 69.4)",
+    "chart-3": "oklch(0.686 0.104 123.7)",
+    "chart-4": "oklch(0.787 0.097 82.8)",
+    "chart-5": "oklch(0.526 0.054 117.2)",
+    "sidebar": "oklch(0.933 0.028 86.6)",
+    "sidebar-foreground": "oklch(0.310 0.036 119.4)",
+    "sidebar-primary": "oklch(0.566 0.097 121.7)",
+    "sidebar-primary-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-accent": "oklch(0.837 0.066 91.8)",
+    "sidebar-accent-foreground": "oklch(0.310 0.036 119.4)",
+    "sidebar-border": "oklch(0.877 0.055 87.2)",
+    "sidebar-ring": "oklch(0.686 0.104 123.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.024 119.1)",
+    "foreground": "oklch(0.951 0.025 86.9)",
+    "card": "oklch(0.260 0.027 120.5)",
+    "card-foreground": "oklch(0.951 0.025 86.9)",
+    "popover": "oklch(0.260 0.027 120.5)",
+    "popover-foreground": "oklch(0.951 0.025 86.9)",
+    "primary": "oklch(0.714 0.096 109.3)",
+    "primary-foreground": "oklch(0.210 0.024 119.1)",
+    "secondary": "oklch(0.389 0.059 123.9)",
+    "secondary-foreground": "oklch(0.951 0.025 86.9)",
+    "muted": "oklch(0.323 0.041 122.0)",
+    "muted-foreground": "oklch(0.837 0.066 91.8)",
+    "accent": "oklch(0.735 0.069 69.4)",
+    "accent-foreground": "oklch(0.210 0.024 119.1)",
+    "destructive": "oklch(0.626 0.136 45.8)",
+    "border": "oklch(0.526 0.054 117.2 / 35%)",
+    "input": "oklch(0.526 0.054 117.2 / 45%)",
+    "ring": "oklch(0.714 0.096 109.3)",
+    "chart-1": "oklch(0.714 0.096 109.3)",
+    "chart-2": "oklch(0.735 0.069 69.4)",
+    "chart-3": "oklch(0.787 0.097 82.8)",
+    "chart-4": "oklch(0.686 0.104 123.7)",
+    "chart-5": "oklch(0.837 0.066 91.8)",
+    "sidebar": "oklch(0.260 0.027 120.5)",
+    "sidebar-foreground": "oklch(0.951 0.025 86.9)",
+    "sidebar-primary": "oklch(0.714 0.096 109.3)",
+    "sidebar-primary-foreground": "oklch(0.210 0.024 119.1)",
+    "sidebar-accent": "oklch(0.389 0.059 123.9)",
+    "sidebar-accent-foreground": "oklch(0.951 0.025 86.9)",
+    "sidebar-border": "oklch(0.526 0.054 117.2 / 35%)",
+    "sidebar-ring": "oklch(0.714 0.096 109.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for field product UI, Geist Mono for movement and telemetry values, and Noto Sans JP guidance for Japanese labels, tables, filters, and mission notes.",
+  "layout": "Precise 8px grid, 8px-or-less component radii, segmented exoskeleton dividers, wing-vein data lines, dry prairie navigation, dense dashboards, compact forms, and fast command/search workflows.",
+  "tags": [
+    "grasshopper",
+    "insect",
+    "prairie-grass",
+    "olive-green",
+    "tan-wing",
+    "straw",
+    "field-mobility",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-grasshopper/motif.png",
+    "board": "/systems/morphous-grasshopper/design-system-light.png",
+    "darkBoard": "/systems/morphous-grasshopper/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-grasshopper/theme.css",
+    "themeJson": "/systems/morphous-grasshopper/theme.json",
+    "promptsJson": "/systems/morphous-grasshopper/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent grasshopper profile motif",
+      "asset": "/systems/morphous-grasshopper/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a grasshopper profile motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A prairie grass grasshopper in clean side profile, accurate insect anatomy, olive green segmented body, tan wing cases, straw-colored translucent folded wing edges, jointed hind legs, fine antennae, subtle dark olive markings, dry-grass field mobility character. Natural exoskeleton texture, crisp edges, unmistakably grasshopper, no cartoon styling.\nComposition/framing: centered complete cutout with generous padding; show full antennae, head, thorax, abdomen, folded wings, all legs, and hind jumping legs without cropping. Clean studio light that preserves olive green, tan, straw, and dark olive detail.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no second insect, no leaf, no flower, no branch, no grass stem, no landscape, no cast shadow, no contact shadow, no reflection, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-grasshopper/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Grasshopper light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Grasshopper\", derived from the visible transparent grasshopper profile cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible field mobility product UI theme.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Grasshopper, Grasshopper Profile, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible motif only: olive green exoskeleton, tan wing cases, straw translucent wings, dark olive markings, amber legs, prairie grass dryness, field mobility system. The board must read as a grasshopper profile in prairie grass, not generic insect or beetle.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, map/grid module, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple field-mobility icons.\nStyle: premium shadcn/tweakcn-style light product design system, precise grid, component radii 8px or less, oat-cream surfaces, olive primary actions, tan wing secondary states, straw highlights, dark olive text and borders, dry prairie navigation, subtle exoskeleton segment lines and wing-vein textures.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. No unrelated saturated colors, no generic purple or blue gradients, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Grasshopper\" or \"Grasshopper Profile\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-grasshopper/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Grasshopper dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Grasshopper\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible transparent grasshopper profile cutout.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Grasshopper, Grasshopper Profile, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Use the visible transparent grasshopper motif and the visible light-mode Morphous Grasshopper board as references. Preserve motif-derived palette roles, component language, 8px-or-less radii, prairie navigation, exoskeleton segment texture, wing-vein texture, Japanese typography, dashboard/data charts, forms, tables, command/search, status states, tokens, spacing, and shadows.\nVisual details: dark background derived from deep dark olive and prairie night shadow; foreground from oat cream and straw highlights; primary actions from olive green; secondary accents from tan wing and amber leg tones; warnings from dry straw; borders from muted olive; subtle exoskeleton segment lines and wing-vein texture overlays. Keep a field mobility system identity in dark mode.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, map/grid module, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple field-mobility icons.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. No neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Grasshopper\" or \"Grasshopper Profile\", no tiny unreadable paragraphs."
+    }
+  ]
+}

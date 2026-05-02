@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-hailstone",
+  "name": "Morphous Hailstone",
+  "status": "ready",
+  "motifName": "Hailstone",
+  "motifCategory": "weather",
+  "biome": "storm cloud",
+  "motif": "hailstone ice",
+  "mood": "incident alert system",
+  "description": "An incident-alert UI system derived from hailstone ice: translucent white surfaces, slate storm-cloud structure, icy blue focus states, impact-cyan highlights, and sparse signal red for severe-weather escalation.",
+  "typography": "Inter or Geist for compact incident operations UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular alert data.",
+  "layout": "Dense shadcn/tweakcn grids, 8px radii, angular ice-chip dividers, frosted alert panels, restrained storm-cloud texture, and precise status surfaces for severe-weather monitoring.",
+  "themeReference": [
+    "/systems/morphous-hailstone/design-system-light.png",
+    "/systems/morphous-hailstone/design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "alerts",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "hailstone",
+    "weather",
+    "storm-cloud",
+    "hailstone-ice",
+    "incident-alert",
+    "operations",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ice White",
+      "hex": "#F3F8FB",
+      "oklch": "oklch(0.975 0.006 230)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Cell",
+      "hex": "#24303F",
+      "oklch": "oklch(0.245 0.018 248)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warning Blue",
+      "hex": "#1872D9",
+      "oklch": "oklch(0.62 0.142 252)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Frost Veil",
+      "hex": "#D1DCE5",
+      "oklch": "oklch(0.86 0.018 238)"
+    },
+    {
+      "role": "Accent",
+      "name": "Impact Cyan",
+      "hex": "#8BCBE8",
+      "oklch": "oklch(0.79 0.075 222)"
+    },
+    {
+      "role": "Focus",
+      "name": "Hail Core",
+      "hex": "#B5D5EA",
+      "oklch": "oklch(0.84 0.035 232)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cloudline",
+      "hex": "#AEBBCA",
+      "oklch": "oklch(0.74 0.036 236)"
+    },
+    {
+      "role": "Muted",
+      "name": "Storm Slate",
+      "hex": "#5F6C7E",
+      "oklch": "oklch(0.57 0.042 245)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Hail White",
+      "hex": "#FAFCFD",
+      "oklch": "oklch(0.995 0.002 230)"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Red",
+      "hex": "#D94132",
+      "oklch": "oklch(0.58 0.19 24)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.975 0.006 230)",
+    "foreground": "oklch(0.245 0.018 248)",
+    "card": "oklch(0.995 0.002 230)",
+    "card-foreground": "oklch(0.245 0.018 248)",
+    "popover": "oklch(0.995 0.002 230)",
+    "popover-foreground": "oklch(0.245 0.018 248)",
+    "primary": "oklch(0.62 0.142 252)",
+    "primary-foreground": "oklch(0.995 0.002 230)",
+    "secondary": "oklch(0.86 0.018 238)",
+    "secondary-foreground": "oklch(0.245 0.018 248)",
+    "muted": "oklch(0.925 0.01 235)",
+    "muted-foreground": "oklch(0.46 0.02 248)",
+    "accent": "oklch(0.79 0.075 222)",
+    "accent-foreground": "oklch(0.205 0.02 250)",
+    "destructive": "oklch(0.58 0.19 24)",
+    "border": "oklch(0.84 0.018 238)",
+    "input": "oklch(0.84 0.018 238)",
+    "ring": "oklch(0.71 0.1 230)",
+    "chart-1": "oklch(0.62 0.142 252)",
+    "chart-2": "oklch(0.79 0.075 222)",
+    "chart-3": "oklch(0.57 0.042 245)",
+    "chart-4": "oklch(0.74 0.036 236)",
+    "chart-5": "oklch(0.58 0.19 24)",
+    "sidebar": "oklch(0.955 0.008 232)",
+    "sidebar-foreground": "oklch(0.245 0.018 248)",
+    "sidebar-primary": "oklch(0.62 0.142 252)",
+    "sidebar-primary-foreground": "oklch(0.995 0.002 230)",
+    "sidebar-accent": "oklch(0.9 0.016 236)",
+    "sidebar-accent-foreground": "oklch(0.245 0.018 248)",
+    "sidebar-border": "oklch(0.84 0.018 238)",
+    "sidebar-ring": "oklch(0.71 0.1 230)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.17 0.018 252)",
+    "foreground": "oklch(0.95 0.008 228)",
+    "card": "oklch(0.22 0.02 252)",
+    "card-foreground": "oklch(0.95 0.008 228)",
+    "popover": "oklch(0.22 0.02 252)",
+    "popover-foreground": "oklch(0.95 0.008 228)",
+    "primary": "oklch(0.69 0.13 248)",
+    "primary-foreground": "oklch(0.15 0.02 252)",
+    "secondary": "oklch(0.31 0.018 248)",
+    "secondary-foreground": "oklch(0.95 0.008 228)",
+    "muted": "oklch(0.26 0.017 250)",
+    "muted-foreground": "oklch(0.73 0.024 235)",
+    "accent": "oklch(0.78 0.08 222)",
+    "accent-foreground": "oklch(0.15 0.02 252)",
+    "destructive": "oklch(0.62 0.2 24)",
+    "border": "oklch(0.78 0.024 235 / 22%)",
+    "input": "oklch(0.78 0.024 235 / 26%)",
+    "ring": "oklch(0.73 0.105 232)",
+    "chart-1": "oklch(0.69 0.13 248)",
+    "chart-2": "oklch(0.78 0.08 222)",
+    "chart-3": "oklch(0.84 0.035 232)",
+    "chart-4": "oklch(0.52 0.032 245)",
+    "chart-5": "oklch(0.62 0.2 24)",
+    "sidebar": "oklch(0.15 0.02 252)",
+    "sidebar-foreground": "oklch(0.95 0.008 228)",
+    "sidebar-primary": "oklch(0.69 0.13 248)",
+    "sidebar-primary-foreground": "oklch(0.15 0.02 252)",
+    "sidebar-accent": "oklch(0.25 0.02 250)",
+    "sidebar-accent-foreground": "oklch(0.95 0.008 228)",
+    "sidebar-border": "oklch(0.78 0.024 235 / 22%)",
+    "sidebar-ring": "oklch(0.73 0.105 232)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "/systems/morphous-hailstone/motif.png",
+    "board": "/systems/morphous-hailstone/design-system-light.png",
+    "darkBoard": "/systems/morphous-hailstone/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hailstone/theme.css",
+    "themeJson": "/systems/morphous-hailstone/theme.json",
+    "promptsJson": "/systems/morphous-hailstone/prompts.json"
+  }
+}

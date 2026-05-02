@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-honeycreeper",
+    "name": "Morphous Honeycreeper",
+    "motifName": "Honeycreeper",
+    "motifCategory": "bird",
+    "biome": "Hawaiian Forest",
+    "motif": "honeycreeper bill"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Canopy Light",
+      "hex": "#f8f5ec",
+      "oklch": "oklch(0.970 0.012 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bill Black",
+      "hex": "#171717",
+      "oklch": "oklch(0.205 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Feather Crimson",
+      "hex": "#c91f24",
+      "oklch": "oklch(0.538 0.202 26.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Canopy",
+      "hex": "#2f5d35",
+      "oklch": "oklch(0.434 0.083 146.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Nectar Amber",
+      "hex": "#d89a28",
+      "oklch": "oklch(0.729 0.141 77.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fern Mist",
+      "hex": "#e7efe3",
+      "oklch": "oklch(0.943 0.018 134.9)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Koa Bark",
+      "hex": "#8a5c36",
+      "oklch": "oklch(0.516 0.080 59.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Volcanic Charcoal",
+      "hex": "#252321",
+      "oklch": "oklch(0.258 0.005 67.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Shadow",
+      "hex": "#596844",
+      "oklch": "oklch(0.495 0.057 126.8)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Night Canopy",
+      "hex": "#121610",
+      "oklch": "oklch(0.194 0.013 135.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.012 91.5)",
+    "foreground": "oklch(0.205 0.000 89.9)",
+    "card": "oklch(0.943 0.018 134.9)",
+    "card-foreground": "oklch(0.205 0.000 89.9)",
+    "popover": "oklch(0.943 0.018 134.9)",
+    "popover-foreground": "oklch(0.205 0.000 89.9)",
+    "primary": "oklch(0.538 0.202 26.4)",
+    "primary-foreground": "oklch(0.970 0.012 91.5)",
+    "secondary": "oklch(0.955 0.015 123.0)",
+    "secondary-foreground": "oklch(0.258 0.005 67.6)",
+    "muted": "oklch(0.951 0.016 126.8)",
+    "muted-foreground": "oklch(0.258 0.005 67.6)",
+    "accent": "oklch(0.729 0.141 77.1)",
+    "accent-foreground": "oklch(0.205 0.000 89.9)",
+    "destructive": "oklch(0.538 0.202 26.4)",
+    "border": "oklch(0.788 0.030 128.9)",
+    "input": "oklch(0.788 0.030 128.9)",
+    "ring": "oklch(0.434 0.083 146.9)",
+    "chart-1": "oklch(0.538 0.202 26.4)",
+    "chart-2": "oklch(0.434 0.083 146.9)",
+    "chart-3": "oklch(0.729 0.141 77.1)",
+    "chart-4": "oklch(0.943 0.018 134.9)",
+    "chart-5": "oklch(0.258 0.005 67.6)",
+    "sidebar": "oklch(0.952 0.015 123.0)",
+    "sidebar-foreground": "oklch(0.205 0.000 89.9)",
+    "sidebar-primary": "oklch(0.538 0.202 26.4)",
+    "sidebar-primary-foreground": "oklch(0.970 0.012 91.5)",
+    "sidebar-accent": "oklch(0.884 0.020 60.1)",
+    "sidebar-accent-foreground": "oklch(0.538 0.202 26.4)",
+    "sidebar-border": "oklch(0.788 0.030 128.9)",
+    "sidebar-ring": "oklch(0.434 0.083 146.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.000 89.9)",
+    "foreground": "oklch(0.970 0.012 91.5)",
+    "card": "oklch(0.240 0.002 67.7)",
+    "card-foreground": "oklch(0.970 0.012 91.5)",
+    "popover": "oklch(0.240 0.002 67.7)",
+    "popover-foreground": "oklch(0.970 0.012 91.5)",
+    "primary": "oklch(0.434 0.083 146.9)",
+    "primary-foreground": "oklch(0.205 0.000 89.9)",
+    "secondary": "oklch(0.312 0.016 117.5)",
+    "secondary-foreground": "oklch(0.970 0.012 91.5)",
+    "muted": "oklch(0.312 0.016 117.5)",
+    "muted-foreground": "oklch(0.765 0.031 119.5)",
+    "accent": "oklch(0.729 0.141 77.1)",
+    "accent-foreground": "oklch(0.205 0.000 89.9)",
+    "destructive": "oklch(0.538 0.202 26.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.434 0.083 146.9)",
+    "chart-1": "oklch(0.434 0.083 146.9)",
+    "chart-2": "oklch(0.538 0.202 26.4)",
+    "chart-3": "oklch(0.729 0.141 77.1)",
+    "chart-4": "oklch(0.943 0.018 134.9)",
+    "chart-5": "oklch(0.495 0.057 126.8)",
+    "sidebar": "oklch(0.230 0.002 106.5)",
+    "sidebar-foreground": "oklch(0.970 0.012 91.5)",
+    "sidebar-primary": "oklch(0.434 0.083 146.9)",
+    "sidebar-primary-foreground": "oklch(0.205 0.000 89.9)",
+    "sidebar-accent": "oklch(0.312 0.016 117.5)",
+    "sidebar-accent-foreground": "oklch(0.970 0.012 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.434 0.083 146.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense conservation dashboards with Noto Sans guidance for Japanese labels, tabular numerals, and clear field-science hierarchy.",
+  "layout": "8px grid, compact radius, bill-curve tabs, feather dividers, leaf-vein separators, dense analytics panels, and conservation workflow surfaces.",
+  "tags": [
+    "honeycreeper",
+    "bird",
+    "hawaiian-forest",
+    "crimson",
+    "black-bill",
+    "conservation-dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-honeycreeper/motif.png",
+    "board": "/systems/morphous-honeycreeper/design-system-light.png",
+    "darkBoard": "/systems/morphous-honeycreeper/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-honeycreeper/theme.css",
+    "themeJson": "/systems/morphous-honeycreeper/theme.json",
+    "promptsJson": "/systems/morphous-honeycreeper/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent honeycreeper motif",
+      "asset": "/systems/morphous-honeycreeper/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Honeycreeper transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated Hawaiian honeycreeper bill motif on a perfectly flat solid #00ff00 chroma-key background for transparency removal.\nSubject: A refined honeycreeper motif combining a slender curved black bill, crimson honeycreeper feather segments, small dark eye-mask contour, and native Hawaiian forest leaf shapes; accurate feather texture, crisp silhouette edges, premium conservation dashboard system feel.\nComposition/framing: centered complete cutout with generous padding; show the full curved bill silhouette and feather/leaf motif without cropping; no environment, no props, no text.\nLighting/mood: clean studio light preserving crimson feather, matte black bill, deep forest leaf green, and precise natural detail.\nChroma-key background: perfectly flat solid #00ff00 only. One uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #00ff00 anywhere in the subject; no cast shadow, no contact shadow, no landscape, no extra birds, no flowers, no watermark, no text, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-honeycreeper/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive light-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 light-mode product design-system board for \"Morphous Honeycreeper\" / \"Honeycreeper\" using the motif of a Hawaiian honeycreeper curved black bill, crimson feather, and deep forest leaf.\nVisual identity: conservation dashboard system for Hawaiian forest monitoring; crimson feather primary actions, matte black bill ink, deep native leaf green, fern mist surfaces, warm koa bark neutrals, volcanic charcoal text, pale canopy light background, ivory cards, amber nectar focus states, precise field-science product polish.\nRequired board sections with large readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, conservation dashboard analytics with charts, species status table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, bill-curve pill tabs, feather-bar dividers, leaf-vein separators, ivory cards, crimson active states, forest green secondary controls, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic conservation UI terms such as Overview, Habitat Index, Species, Threat, Status, Survey, Table, Active, Watch, Recovery.\nPalette names visible: Feather Crimson #c91f24, Bill Black #171717, Leaf Canopy #2f5d35, Fern Mist #e7efe3, Koa Bark #8a5c36, Nectar Amber #d89a28, Volcanic Charcoal #252321, Canopy Light #f8f5ec, Moss Shadow #596844.\nConstraints: no bird photo background, no extra animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-honeycreeper/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive dark-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 dark-mode product design-system board for \"Morphous Honeycreeper\" / \"Honeycreeper\", translated from the same Hawaiian honeycreeper curved black bill, crimson feather, and deep forest leaf motif.\nVisual identity: conservation dashboard system for Hawaiian forest monitoring; volcanic charcoal and bill-black backgrounds, crimson feather primary actions, deep native leaf green controls, fern mist text, warm koa bark dividers, nectar amber focus states, shadowed canopy panels, precise field-science product polish.\nRequired board sections with large readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, conservation dashboard analytics with charts, species status table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, bill-curve pill tabs, feather-bar dividers, leaf-vein separators, dark forest panels, crimson active states, green secondary controls, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic conservation UI terms such as Overview, Habitat Index, Species, Threat, Status, Survey, Table, Active, Watch, Recovery.\nPalette names visible: Night Canopy #121610, Feather Crimson #e23a35, Bill Black #050505, Leaf Canopy #3f7845, Fern Mist #dce8d6, Koa Bark #a17445, Nectar Amber #e2a634, Volcanic Charcoal #252321, Moss Shadow #596844.\nConstraints: no bird photo background, no extra animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    }
+  ]
+}

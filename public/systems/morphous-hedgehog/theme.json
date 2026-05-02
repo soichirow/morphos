@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hedgehog",
+    "name": "Morphous Hedgehog",
+    "motifName": "Hedgehog",
+    "motifCategory": "mammal",
+    "biome": "hedgerow",
+    "motif": "hedgehog spines"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Face",
+      "hex": "#f8f1e5",
+      "oklch": "oklch(0.960 0.018 81.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Hedge Ink",
+      "hex": "#101816",
+      "oklch": "oklch(0.200 0.013 177.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Spine Brown",
+      "hex": "#5a4636",
+      "oklch": "oklch(0.411 0.037 60.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Warm Brown",
+      "hex": "#7a5a3a",
+      "oklch": "oklch(0.493 0.063 65.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#86a668",
+      "oklch": "oklch(0.686 0.093 130.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Green",
+      "hex": "#5e7f46",
+      "oklch": "oklch(0.557 0.091 133.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone",
+      "hex": "#e6e1d7",
+      "oklch": "oklch(0.911 0.014 84.6)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Straw",
+      "hex": "#f7e9c9",
+      "oklch": "oklch(0.937 0.045 87.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Umber",
+      "hex": "#3b2e22",
+      "oklch": "oklch(0.312 0.028 64.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.018 81.3)",
+    "foreground": "oklch(0.200 0.013 177.9)",
+    "card": "oklch(0.911 0.014 84.6)",
+    "card-foreground": "oklch(0.200 0.013 177.9)",
+    "popover": "oklch(0.911 0.014 84.6)",
+    "popover-foreground": "oklch(0.200 0.013 177.9)",
+    "primary": "oklch(0.411 0.037 60.1)",
+    "primary-foreground": "oklch(0.960 0.018 81.3)",
+    "secondary": "oklch(0.933 0.016 82.8)",
+    "secondary-foreground": "oklch(0.312 0.028 64.2)",
+    "muted": "oklch(0.924 0.015 80.7)",
+    "muted-foreground": "oklch(0.312 0.028 64.2)",
+    "accent": "oklch(0.686 0.093 130.7)",
+    "accent-foreground": "oklch(0.200 0.013 177.9)",
+    "destructive": "oklch(0.411 0.037 60.1)",
+    "border": "oklch(0.765 0.030 72.4)",
+    "input": "oklch(0.765 0.030 72.4)",
+    "ring": "oklch(0.493 0.063 65.5)",
+    "chart-1": "oklch(0.411 0.037 60.1)",
+    "chart-2": "oklch(0.493 0.063 65.5)",
+    "chart-3": "oklch(0.686 0.093 130.7)",
+    "chart-4": "oklch(0.557 0.091 133.2)",
+    "chart-5": "oklch(0.312 0.028 64.2)",
+    "sidebar": "oklch(0.927 0.015 80.7)",
+    "sidebar-foreground": "oklch(0.200 0.013 177.9)",
+    "sidebar-primary": "oklch(0.411 0.037 60.1)",
+    "sidebar-primary-foreground": "oklch(0.960 0.018 81.3)",
+    "sidebar-accent": "oklch(0.854 0.016 77.1)",
+    "sidebar-accent-foreground": "oklch(0.411 0.037 60.1)",
+    "sidebar-border": "oklch(0.765 0.030 72.4)",
+    "sidebar-ring": "oklch(0.493 0.063 65.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.200 0.013 177.9)",
+    "foreground": "oklch(0.960 0.018 81.3)",
+    "card": "oklch(0.275 0.018 82.2)",
+    "card-foreground": "oklch(0.960 0.018 81.3)",
+    "popover": "oklch(0.275 0.018 82.2)",
+    "popover-foreground": "oklch(0.960 0.018 81.3)",
+    "primary": "oklch(0.493 0.063 65.5)",
+    "primary-foreground": "oklch(0.200 0.013 177.9)",
+    "secondary": "oklch(0.355 0.037 66.2)",
+    "secondary-foreground": "oklch(0.960 0.018 81.3)",
+    "muted": "oklch(0.355 0.037 66.2)",
+    "muted-foreground": "oklch(0.757 0.036 71.5)",
+    "accent": "oklch(0.686 0.093 130.7)",
+    "accent-foreground": "oklch(0.200 0.013 177.9)",
+    "destructive": "oklch(0.411 0.037 60.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.493 0.063 65.5)",
+    "chart-1": "oklch(0.493 0.063 65.5)",
+    "chart-2": "oklch(0.411 0.037 60.1)",
+    "chart-3": "oklch(0.686 0.093 130.7)",
+    "chart-4": "oklch(0.557 0.091 133.2)",
+    "chart-5": "oklch(0.493 0.063 65.5)",
+    "sidebar": "oklch(0.252 0.011 91.7)",
+    "sidebar-foreground": "oklch(0.960 0.018 81.3)",
+    "sidebar-primary": "oklch(0.493 0.063 65.5)",
+    "sidebar-primary-foreground": "oklch(0.200 0.013 177.9)",
+    "sidebar-accent": "oklch(0.355 0.037 66.2)",
+    "sidebar-accent-foreground": "oklch(0.960 0.018 81.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.493 0.063 65.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English product UI with calm personal-dashboard hierarchy, readable numbers, and paired Japanese UI guidance.",
+  "layout": "Dense personal panels, protective spine dividers, 8px radii, compact navigation, tactile texture, and warm hedgerow spacing.",
+  "tags": [
+    "hedgehog",
+    "mammal",
+    "hedgerow",
+    "spines",
+    "compact",
+    "personal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hedgehog/motif.png",
+    "board": "/systems/morphous-hedgehog/design-system-light.png",
+    "darkBoard": "/systems/morphous-hedgehog/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hedgehog/theme.css",
+    "themeJson": "/systems/morphous-hedgehog/theme.json",
+    "promptsJson": "/systems/morphous-hedgehog/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hedgehog motif",
+      "asset": "/systems/morphous-hedgehog/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Hedgehog transparent motif chroma-key source\nPrimary request: Create only a hedgehog motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A compact European hedgehog in a calm curled-but-readable walking posture, with dense brown and umber spines, cream face and belly, small black eyes, pointed snout, tiny ears, warm brown paws, and a few natural hedgerow leaf accents tucked near the body. Accurate hedgehog anatomy, tactile spine texture, crisp subject edges, cozy personal-system character.\nComposition/framing: centered complete cutout with generous padding; full body visible, no cropping, clean studio lighting, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no porcupine, no echidna, no second animal, no landscape, no props except minimal leaf accents, no text, no watermark, no decorative background, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hedgehog/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hedgehog light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Hedgehog\", derived from a compact hedgerow hedgehog motif with brown spines, cream face, and leaf accents. This board is a source reference for implementing a shadcn/tweakcn-compatible compact personal system.\nCanvas: exact wide 16:9 high-resolution 4K-class board, target 3840x2160, clean professional UI design-system presentation.\nRequired visible sections: Morphous Hedgehog, Hedgehog, Compact Personal System, Palette, Typography, English UI, 日本語 UI, Components, Navigation, Dashboard, Data/Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from hedgehog spines, warm brown guard hairs, cream face and belly, black nose/eyes, small leaf accents, and hedgerow shelter. The board must read as hedgehog: compact, tactile, protective, personal, warm, organized.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep all text short and legible at gallery preview size.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, spacing scale, radius scale, border, shadow, spine texture swatches, leaf accent chips, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, cream parchment surfaces, brown spine primary actions, umber active states, moss/leaf green success accents, warm hedgerow ink text, fine spine-stripe texture, compact personal dashboard layouts.\nColor palette: brown spine, cream face, leaf green, hedgerow ink, umber shadow, straw highlight, muted bark, soft warm surfaces. Avoid one-note brown by balancing cream, green, and ink neutrals.\nConstraints: no porcupine, no echidna, no generic beige-only palette, no unrelated saturated colors, no purple/blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Hedgehog\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hedgehog/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hedgehog dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Hedgehog\". It must feel like the same compact hedgerow personal system translated to dark mode, not a new theme, and remain derived from a hedgehog motif with brown spines, cream face, leaf green accents, and warm hedgerow shelter.\nCanvas: exact wide 16:9 high-resolution 4K-class board, target 3840x2160, clean professional UI design-system presentation.\nRequired visible sections: Morphous Hedgehog, Hedgehog, Dark Mode, Compact Personal System, Palette, Typography, English UI, 日本語 UI, Components, Navigation, Dashboard, Data/Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve hedgehog system language: dense brown spine texture, warm umber shell surfaces, cream face foregrounds, black nose/eye ink, moss and leaf green controls, straw highlights, bark borders, compact personal dashboard layouts, 8px radii, precise shadcn/tweakcn component grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep all text short and legible at gallery preview size.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, spacing scale, radius scale, border, shadow, spine texture swatches, leaf accent chips, simple icons.\nVisual details: deep hedgerow ink background, umber card surfaces, cream and straw text, brown spine primary actions, moss green focus states, leaf green success, bark borders, soft warm shadows, subtle spine-stripe texture overlays, compact protective panels.\nConstraints: no porcupine, no echidna, no neon colors, no pure-black-only flat background, no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark, no misspelling of \"Morphous Hedgehog\", no illegible tiny paragraphs."
+    }
+  ]
+}

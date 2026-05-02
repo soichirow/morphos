@@ -1,0 +1,85 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-hermit-crab",
+  "name": "Morphous Hermit Crab",
+  "motifName": "Hermit Crab",
+  "motifCategory": "crustacean",
+  "biome": "Tidepool",
+  "motif": "hermit crab shell",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Hermit Crab light and dark design-system boards: coral shell actions, shell-pearl surfaces, blue-gray claw data marks, sea-glass focus rings, compact shell-card panels, and a portable workspace rhythm.",
+  "typography": "Geist or Inter for compact product UI with Noto Sans JP guidance for Japanese labels, practical dashboards, concise forms, and tabular numeric rhythm.",
+  "layout": "Strict 8px grids, 8px maximum radii, modular shell-card panels, shell-ridge dividers, portable workspace spacing, tidepool focus rings, and shallow wet-surface shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "hermit-crab",
+    "crustacean",
+    "tidepool",
+    "shell-ridge",
+    "portable-workspace",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tidepool Foam",
+      "hex": "#F6F0E6"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Slate Ink",
+      "hex": "#1C2528"
+    },
+    {
+      "role": "Foreground",
+      "name": "Claw Graphite",
+      "hex": "#263537"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Shell",
+      "hex": "#D56E58"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Glass Blue",
+      "hex": "#4E91A2"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Claw",
+      "hex": "#84AEB7"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Pearl",
+      "hex": "#FFF8EA"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Taupe",
+      "hex": "#B79A78"
+    },
+    {
+      "role": "Depth",
+      "name": "Kelp Shadow",
+      "hex": "#33443A"
+    },
+    {
+      "role": "Signal",
+      "name": "Anemone Coral",
+      "hex": "#E59A6C"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

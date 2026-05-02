@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-halite",
+  "name": "Morphous Halite",
+  "motifName": "Halite",
+  "motifCategory": "mineral",
+  "biome": "Salt Flat",
+  "motif": "halite cube",
+  "description": "A minimal storage system derived from halite cube crystals: clear salt whites, pale pink internal shadows, thin cubic borders, and quiet salt-flat order.",
+  "typography": "Minimal English product UI with tabular inventory numerals and Japanese guidance for compact storage labels.",
+  "layout": "Cubic 6px grids, shelving-like panels, thin salt-edge dividers, and disciplined inventory surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "halite",
+    "mineral",
+    "salt-flat",
+    "cube",
+    "storage-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clear Salt",
+      "hex": "#fbfaf7"
+    },
+    {
+      "role": "Ink",
+      "name": "Brine Ink",
+      "hex": "#2b2826"
+    },
+    {
+      "role": "Primary",
+      "name": "Salt Blush",
+      "hex": "#eec7c7"
+    },
+    {
+      "role": "Accent",
+      "name": "Pink Shadow",
+      "hex": "#c9989a"
+    },
+    {
+      "role": "Surface",
+      "name": "Cube Edge",
+      "hex": "#d9d3ce"
+    },
+    {
+      "role": "Secondary",
+      "name": "Brine Grey",
+      "hex": "#879aa0"
+    },
+    {
+      "role": "Signal",
+      "name": "Compressed Clay",
+      "hex": "#a66f65"
+    },
+    {
+      "role": "Highlight",
+      "name": "Crystal White",
+      "hex": "#fff7ec"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Mineral",
+      "hex": "#1d1917"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

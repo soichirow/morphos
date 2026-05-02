@@ -1,0 +1,221 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hellbender",
+    "name": "Morphous Hellbender",
+    "motifName": "Hellbender",
+    "motifCategory": "amphibian",
+    "biome": "rocky stream",
+    "motif": "hellbender skin"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silted Foam",
+      "hex": "#F4F0E7",
+      "oklch": "oklch(0.949 0.013 83.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "River Stone",
+      "hex": "#D7D0C4",
+      "oklch": "oklch(0.853 0.019 80.0)"
+    },
+    {
+      "role": "Card",
+      "name": "Wet Limestone",
+      "hex": "#E9E4D9",
+      "oklch": "oklch(0.920 0.018 82.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mottled Umber",
+      "hex": "#725338",
+      "oklch": "oklch(0.457 0.052 63.0)"
+    },
+    {
+      "role": "Action",
+      "name": "Silt Brown",
+      "hex": "#9A7048",
+      "oklch": "oklch(0.553 0.071 60.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Stream Copper",
+      "hex": "#B58A5E",
+      "oklch": "oklch(0.660 0.065 62.0)"
+    },
+    {
+      "role": "Info",
+      "name": "Cold Riffle",
+      "hex": "#6F8583",
+      "oklch": "oklch(0.610 0.040 206.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Survey",
+      "hex": "#63755C",
+      "oklch": "oklch(0.527 0.044 130.0)"
+    },
+    {
+      "role": "Warning",
+      "name": "Ochre Tag",
+      "hex": "#C59C57",
+      "oklch": "oklch(0.695 0.066 79.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Crevice",
+      "hex": "#2D2922",
+      "oklch": "oklch(0.270 0.015 77.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pebble Grey",
+      "hex": "#A79F93",
+      "oklch": "oklch(0.686 0.015 78.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Gravel Line",
+      "hex": "#8D867B",
+      "oklch": "oklch(0.628 0.016 78.0)"
+    },
+    {
+      "role": "Night",
+      "name": "Underrock Pool",
+      "hex": "#151713",
+      "oklch": "oklch(0.185 0.010 93.0)"
+    },
+    {
+      "role": "Night Card",
+      "name": "Dark Basalt",
+      "hex": "#23251F",
+      "oklch": "oklch(0.245 0.012 92.0)"
+    },
+    {
+      "role": "Night Accent",
+      "name": "Wet Shale",
+      "hex": "#A78A66",
+      "oklch": "oklch(0.640 0.044 75.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.949 0.013 83.0)",
+    "foreground": "oklch(0.270 0.015 77.0)",
+    "card": "oklch(0.920 0.018 82.0)",
+    "card-foreground": "oklch(0.270 0.015 77.0)",
+    "popover": "oklch(0.975 0.009 82.0)",
+    "popover-foreground": "oklch(0.270 0.015 77.0)",
+    "primary": "oklch(0.457 0.052 63.0)",
+    "primary-foreground": "oklch(0.975 0.009 82.0)",
+    "secondary": "oklch(0.853 0.019 80.0)",
+    "secondary-foreground": "oklch(0.355 0.025 67.0)",
+    "muted": "oklch(0.853 0.019 80.0)",
+    "muted-foreground": "oklch(0.555 0.022 74.0)",
+    "accent": "oklch(0.610 0.040 206.0)",
+    "accent-foreground": "oklch(0.185 0.010 93.0)",
+    "destructive": "oklch(0.521 0.095 35.0)",
+    "border": "oklch(0.628 0.016 78.0)",
+    "input": "oklch(0.628 0.016 78.0)",
+    "ring": "oklch(0.610 0.040 206.0)",
+    "chart-1": "oklch(0.553 0.071 60.0)",
+    "chart-2": "oklch(0.610 0.040 206.0)",
+    "chart-3": "oklch(0.527 0.044 130.0)",
+    "chart-4": "oklch(0.695 0.066 79.0)",
+    "chart-5": "oklch(0.457 0.052 63.0)",
+    "sidebar": "oklch(0.853 0.019 80.0)",
+    "sidebar-foreground": "oklch(0.270 0.015 77.0)",
+    "sidebar-primary": "oklch(0.457 0.052 63.0)",
+    "sidebar-primary-foreground": "oklch(0.975 0.009 82.0)",
+    "sidebar-accent": "oklch(0.610 0.040 206.0)",
+    "sidebar-accent-foreground": "oklch(0.185 0.010 93.0)",
+    "sidebar-border": "oklch(0.628 0.016 78.0)",
+    "sidebar-ring": "oklch(0.610 0.040 206.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.185 0.010 93.0)",
+    "foreground": "oklch(0.920 0.018 82.0)",
+    "card": "oklch(0.245 0.012 92.0)",
+    "card-foreground": "oklch(0.920 0.018 82.0)",
+    "popover": "oklch(0.215 0.011 92.0)",
+    "popover-foreground": "oklch(0.920 0.018 82.0)",
+    "primary": "oklch(0.660 0.065 62.0)",
+    "primary-foreground": "oklch(0.185 0.010 93.0)",
+    "secondary": "oklch(0.315 0.016 88.0)",
+    "secondary-foreground": "oklch(0.920 0.018 82.0)",
+    "muted": "oklch(0.315 0.016 88.0)",
+    "muted-foreground": "oklch(0.770 0.018 80.0)",
+    "accent": "oklch(0.690 0.043 205.0)",
+    "accent-foreground": "oklch(0.185 0.010 93.0)",
+    "destructive": "oklch(0.610 0.104 35.0)",
+    "border": "oklch(0.455 0.015 82.0 / 48%)",
+    "input": "oklch(0.455 0.015 82.0 / 58%)",
+    "ring": "oklch(0.690 0.043 205.0)",
+    "chart-1": "oklch(0.660 0.065 62.0)",
+    "chart-2": "oklch(0.690 0.043 205.0)",
+    "chart-3": "oklch(0.610 0.047 130.0)",
+    "chart-4": "oklch(0.725 0.067 79.0)",
+    "chart-5": "oklch(0.770 0.018 80.0)",
+    "sidebar": "oklch(0.245 0.012 92.0)",
+    "sidebar-foreground": "oklch(0.920 0.018 82.0)",
+    "sidebar-primary": "oklch(0.660 0.065 62.0)",
+    "sidebar-primary-foreground": "oklch(0.185 0.010 93.0)",
+    "sidebar-accent": "oklch(0.315 0.016 88.0)",
+    "sidebar-accent-foreground": "oklch(0.920 0.018 82.0)",
+    "sidebar-border": "oklch(0.455 0.015 82.0 / 48%)",
+    "sidebar-ring": "oklch(0.690 0.043 205.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for rugged research dashboards, Geist Mono for specimen IDs and sensor readings, and Noto Sans JP guidance for Japanese navigation, search, data, and status labels.",
+  "layout": "Dense field-research dashboards, gravel-line borders, 8px maximum radius, low crisp shadows, mottled texture overlays, sidebar navigation, telemetry charts, specimen tables, and compact forms for rocky stream survey workflows.",
+  "tags": [
+    "hellbender",
+    "amphibian",
+    "rocky-stream",
+    "mottled-brown",
+    "river-stone-grey",
+    "research-dashboard",
+    "rugged-ui",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hellbender/motif.png",
+    "board": "/systems/morphous-hellbender/design-system-light.png",
+    "darkBoard": "/systems/morphous-hellbender/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hellbender/theme.css",
+    "themeJson": "/systems/morphous-hellbender/theme.json",
+    "promptsJson": "/systems/morphous-hellbender/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hellbender motif",
+      "asset": "/systems/morphous-hellbender/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, copied from this worker's generated-images directory, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous Hellbender transparent motif chroma-key source. Primary request: Create only an isolated hellbender skin motif for a design-system catalog, no environment, no props, no text. Subject: A single accurate hellbender salamander in full-body cutout, flattened broad head, small eyes, wrinkled lateral skin folds, sturdy tail, rough amphibian skin with mottled brown, river-stone grey, olive umber, and sediment speckles. Composition/framing: centered complete cutout with generous padding; show the full head, body, legs, tail, skin folds, and mottled surface without cropping. Transparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. Constraints: no rocks, no stream scene, no water, no second animal, no decorative background, no cast shadow, no reflection, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hellbender/design-system-light.png",
+      "sourceAsset": "/systems/morphous-hellbender/motif.png",
+      "workflow": "Rendered as a 3840x2160 PNG using the generated transparent motif as visual source, with deterministic labels and UI sections for catalog readability.",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Hellbender light-mode design-system board. Primary request: Create one comprehensive 3840 x 2160 light-mode design-system board for a rugged research UI derived from hellbender skin, mottled brown, river stone grey, stream neutrals, wet amphibian highlights, wrinkled skin folds, and rocky stream fieldwork. Required visible sections: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, and Shadows. UI coverage: buttons, inputs, select, textarea, checkbox, tabs, badges, alerts, cards, table rows, search, sidebar navigation, dashboard metrics, charts, empty/loading/error/ready states. Text constraints: readable labels, no watermark, no random brand names."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hellbender/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-hellbender/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-hellbender/design-system-light.png"
+      ],
+      "workflow": "Rendered as a 3840x2160 PNG from the same motif and layout language as the light board, translated to under-rock dark mode.",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Hellbender dark-mode design-system board. Primary request: Create one comprehensive 3840 x 2160 dark-mode board that feels like the light Morphous Hellbender system translated to under-rock pool conditions. Preserve the rugged research dashboard layout, precise data sections, forms, navigation, charts, table, status states, token map, and texture samples. Palette: dark basalt, deep crevice, wet shale, muted river stone, cold riffle blue-grey, moss survey green, silt brown action, and ochre warnings. Text constraints: readable labels, no watermark, no random brand names."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-green-viper",
+    "name": "Green Viper",
+    "motifName": "Green Viper Head",
+    "motifCategory": "reptile",
+    "biome": "rainforest branch",
+    "motif": "green viper head"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist",
+      "hex": "#F5F8F6",
+      "oklch": "oklch(0.976 0.004 157.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Ink",
+      "hex": "#0F1A12",
+      "oklch": "oklch(0.204 0.022 152.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#2E7D32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Viper Green",
+      "hex": "#4CAF50",
+      "oklch": "oklch(0.673 0.162 144.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Viper Eye Yellow",
+      "hex": "#F5C400",
+      "oklch": "oklch(0.840 0.172 90.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bark Taupe",
+      "hex": "#8A7F68",
+      "oklch": "oklch(0.600 0.036 85.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone",
+      "hex": "#D9D6CF",
+      "oklch": "oklch(0.876 0.010 87.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Rainforest",
+      "hex": "#1B2820",
+      "oklch": "oklch(0.262 0.023 157.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Alert Red",
+      "hex": "#E53935",
+      "oklch": "oklch(0.608 0.209 27.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.004 157.2)",
+    "foreground": "oklch(0.204 0.022 152.6)",
+    "card": "oklch(0.600 0.036 85.4)",
+    "card-foreground": "oklch(0.204 0.022 152.6)",
+    "popover": "oklch(0.600 0.036 85.4)",
+    "popover-foreground": "oklch(0.204 0.022 152.6)",
+    "primary": "oklch(0.523 0.135 144.2)",
+    "primary-foreground": "oklch(0.976 0.004 157.2)",
+    "secondary": "oklch(0.764 0.020 90.6)",
+    "secondary-foreground": "oklch(0.262 0.023 157.3)",
+    "muted": "oklch(0.710 0.025 88.3)",
+    "muted-foreground": "oklch(0.262 0.023 157.3)",
+    "accent": "oklch(0.840 0.172 90.4)",
+    "accent-foreground": "oklch(0.204 0.022 152.6)",
+    "destructive": "oklch(0.523 0.135 144.2)",
+    "border": "oklch(0.701 0.026 85.8)",
+    "input": "oklch(0.701 0.026 85.8)",
+    "ring": "oklch(0.673 0.162 144.2)",
+    "chart-1": "oklch(0.523 0.135 144.2)",
+    "chart-2": "oklch(0.673 0.162 144.2)",
+    "chart-3": "oklch(0.840 0.172 90.4)",
+    "chart-4": "oklch(0.600 0.036 85.4)",
+    "chart-5": "oklch(0.262 0.023 157.3)",
+    "sidebar": "oklch(0.732 0.024 89.8)",
+    "sidebar-foreground": "oklch(0.204 0.022 152.6)",
+    "sidebar-primary": "oklch(0.523 0.135 144.2)",
+    "sidebar-primary-foreground": "oklch(0.976 0.004 157.2)",
+    "sidebar-accent": "oklch(0.589 0.042 107.6)",
+    "sidebar-accent-foreground": "oklch(0.523 0.135 144.2)",
+    "sidebar-border": "oklch(0.701 0.026 85.8)",
+    "sidebar-ring": "oklch(0.673 0.162 144.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.204 0.022 152.6)",
+    "foreground": "oklch(0.976 0.004 157.2)",
+    "card": "oklch(0.242 0.023 155.2)",
+    "card-foreground": "oklch(0.976 0.004 157.2)",
+    "popover": "oklch(0.242 0.023 155.2)",
+    "popover-foreground": "oklch(0.976 0.004 157.2)",
+    "primary": "oklch(0.673 0.162 144.2)",
+    "primary-foreground": "oklch(0.204 0.022 152.6)",
+    "secondary": "oklch(0.414 0.016 152.2)",
+    "secondary-foreground": "oklch(0.976 0.004 157.2)",
+    "muted": "oklch(0.414 0.016 152.2)",
+    "muted-foreground": "oklch(0.932 0.007 115.7)",
+    "accent": "oklch(0.840 0.172 90.4)",
+    "accent-foreground": "oklch(0.204 0.022 152.6)",
+    "destructive": "oklch(0.523 0.135 144.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.673 0.162 144.2)",
+    "chart-1": "oklch(0.673 0.162 144.2)",
+    "chart-2": "oklch(0.523 0.135 144.2)",
+    "chart-3": "oklch(0.840 0.172 90.4)",
+    "chart-4": "oklch(0.600 0.036 85.4)",
+    "chart-5": "oklch(0.876 0.010 87.5)",
+    "sidebar": "oklch(0.230 0.022 152.9)",
+    "sidebar-foreground": "oklch(0.976 0.004 157.2)",
+    "sidebar-primary": "oklch(0.673 0.162 144.2)",
+    "sidebar-primary-foreground": "oklch(0.204 0.022 152.6)",
+    "sidebar-accent": "oklch(0.414 0.016 152.2)",
+    "sidebar-accent-foreground": "oklch(0.976 0.004 157.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.673 0.162 144.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise security operations UI with Noto Sans guidance for Japanese labels, compact metrics, and readable incident tables.",
+  "layout": "Dense 8px-grid monitoring surfaces with angular viper-head emphasis, clipped status bands, clear navigation, high-contrast tables, and focused alert states.",
+  "tags": [
+    "green-viper",
+    "reptile",
+    "rainforest",
+    "security",
+    "leaf-green",
+    "yellow-accent",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-green-viper/motif.png",
+    "board": "/systems/morphous-green-viper/design-system-light.png",
+    "darkBoard": "/systems/morphous-green-viper/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-green-viper/theme.css",
+    "themeJson": "/systems/morphous-green-viper/theme.json",
+    "promptsJson": "/systems/morphous-green-viper/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Green Viper motif",
+      "asset": "/systems/morphous-green-viper/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: transparent motif cutout for a Morphous design-system catalog bundle\nPrimary request: Green viper head motif, sharp security system mood, isolated cutout.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nSubject: a detailed green viper head facing slightly forward, triangular head, focused yellow eye accent, subtle rainforest branch context implied only by natural scale texture, leaf green scales, deep shadow under planes, crisp silhouette.\nStyle: premium realistic digital illustration with clean edges, high detail, sharp security UI inspiration, no gore, no full body.\nComposition: centered subject, generous padding, no cast shadow, no contact shadow, no reflection.\nAvoid: no text, no watermark, no random brand names, do not use #ff00ff anywhere in the subject, no background texture."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-green-viper/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 design-system board for Morphous catalog, light mode\nPrimary request: Create a complete light-mode design system board inspired by a Green Viper head motif for a sharp security system UI.\nCanvas: exact 16:9 landscape composition intended for 3840x2160 output. Make every label large and readable in gallery preview.\nVisual identity: leaf green viper scales, yellow eye accent, deep shadow planes, rainforest branch neutrals, precise and alert security-console mood.\nRequired board sections with visible labels: Palette, Typography EN/JA, Navigation, Dashboard, Charts, Data Table, Form Controls, Status & Alerts, Buttons & Badges, Cards, Search/Command, Tokens.\nUI content: security monitoring dashboard with risk score cards, access events chart, threat trend line chart, sensor status donut, incident table, login/access form, filter tabs, left navigation rail, top bar, status chips, warning alert, empty/loading/error microstates.\nPalette: off-white mist background, dark rainforest ink text, leaf green primary, yellow eye accent, moss secondary, bark taupe neutral, deep canopy shadow, red only for destructive state.\nStyle: clean professional product UI board, crisp vector-like interface, subtle scale texture swatches, 8px radius cards, strong focus rings, no oversized marketing hero.\nText constraints: use generic labels only, no random brand names, no watermark, no illegible microtext. Use short labels such as Overview, Sensors, Incidents, Access, Secure, Watch, Alert, Active, Pending, Risk, Signal, Zone.\nAvoid: generic purple/blue gradients, one-note green wash, decorative blobs, unrelated animals, fake logos, random company names."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-green-viper/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 design-system board for Morphous catalog, dark mode\nPrimary request: Create a complete dark-mode design system board inspired by a Green Viper head motif for a sharp security system UI, matching the light board identity.\nCanvas: exact 16:9 landscape composition intended for 3840x2160 output. Make every label large and readable in gallery preview.\nVisual identity: leaf green viper scales glowing subtly on deep rainforest shadow, yellow eye accent for focus and alert states, bark and branch neutrals, precise alert security-console mood.\nRequired board sections with visible labels: Palette, Typography EN/JA, Navigation, Dashboard, Charts, Data Table, Form Controls, Status & Alerts, Buttons & Badges, Cards, Search/Command, Tokens.\nUI content: dark security monitoring dashboard with risk score cards, access events bar chart, threat trend line chart, sensor status donut, incident table, login/access form, filter tabs, left navigation rail, top bar, status chips, warning alert, empty/loading/error microstates.\nPalette: canopy black background, mist green foreground text, leaf green primary, yellow eye accent, moss secondary, bark taupe muted surface, deep shadow borders, red only for destructive state.\nStyle: clean professional product UI board, crisp vector-like interface, restrained glow, subtle viper-scale texture swatches, 8px radius cards, clear focus rings, no oversized marketing hero.\nText constraints: use generic labels only, no random brand names, no watermark, no illegible microtext. Use short labels such as Overview, Sensors, Incidents, Access, Secure, Watch, Alert, Active, Pending, Risk, Signal, Zone.\nAvoid: generic purple/blue gradients, one-note green wash, decorative blobs, unrelated animals, fake logos, random company names."
+    }
+  ]
+}

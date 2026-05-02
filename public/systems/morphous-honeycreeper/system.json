@@ -1,0 +1,86 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-honeycreeper",
+  "name": "Morphous Honeycreeper",
+  "motifName": "Honeycreeper",
+  "motifCategory": "bird",
+  "biome": "Hawaiian Forest",
+  "motif": "honeycreeper bill",
+  "description": "A shadcn/tweakcn-compatible conservation dashboard system shaped by a Hawaiian honeycreeper's curved black bill, crimson feather forms, and native forest leaves.",
+  "typography": "Geist for dense conservation dashboards with Noto Sans guidance for Japanese labels, tabular numerals, and clear field-science hierarchy.",
+  "layout": "8px grid, compact radius, bill-curve tabs, feather dividers, leaf-vein separators, dense analytics panels, and conservation workflow surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "honeycreeper",
+    "bird",
+    "hawaiian-forest",
+    "crimson",
+    "black-bill",
+    "conservation-dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Canopy Light",
+      "hex": "#f8f5ec"
+    },
+    {
+      "role": "Ink",
+      "name": "Bill Black",
+      "hex": "#171717"
+    },
+    {
+      "role": "Primary",
+      "name": "Feather Crimson",
+      "hex": "#c91f24"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Canopy",
+      "hex": "#2f5d35"
+    },
+    {
+      "role": "Accent",
+      "name": "Nectar Amber",
+      "hex": "#d89a28"
+    },
+    {
+      "role": "Surface",
+      "name": "Fern Mist",
+      "hex": "#e7efe3"
+    },
+    {
+      "role": "Neutral",
+      "name": "Koa Bark",
+      "hex": "#8a5c36"
+    },
+    {
+      "role": "Depth",
+      "name": "Volcanic Charcoal",
+      "hex": "#252321"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Shadow",
+      "hex": "#596844"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Night Canopy",
+      "hex": "#121610"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

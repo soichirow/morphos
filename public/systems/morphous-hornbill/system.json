@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-hornbill",
+  "name": "Morphous Hornbill",
+  "motifName": "Hornbill Casque",
+  "motifCategory": "bird",
+  "biome": "Tropical Canopy",
+  "motif": "hornbill casque",
+  "description": "A shadcn/tweakcn-compatible bold navigation system shaped by hornbill casque yellow, feather black, bill ivory, canopy green, and high-contrast tropical canopy structure.",
+  "typography": "Clash Display or Inter Tight for bold navigation headings, Inter for product UI, and Noto Sans JP guidance for Japanese labels.",
+  "layout": "Strong left navigation, dense dashboard grids, 8px radii, black divider lines, casque-yellow active states, and canopy-green focus paths for confident wayfinding.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "hornbill",
+    "bird",
+    "tropical-canopy",
+    "casque",
+    "bold-navigation",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Primary",
+      "name": "Casque Yellow",
+      "hex": "#f6bf26"
+    },
+    {
+      "role": "Accent",
+      "name": "Horn Amber",
+      "hex": "#d88918"
+    },
+    {
+      "role": "Background",
+      "name": "Soft Plume",
+      "hex": "#f8f5ea"
+    },
+    {
+      "role": "Surface",
+      "name": "Bill Ivory",
+      "hex": "#fff3cf"
+    },
+    {
+      "role": "Ink",
+      "name": "Feather Black",
+      "hex": "#12130f"
+    },
+    {
+      "role": "Primary Support",
+      "name": "Canopy Green",
+      "hex": "#2f6b43"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Shadow",
+      "hex": "#6f7b47"
+    },
+    {
+      "role": "Border",
+      "name": "Liana Taupe",
+      "hex": "#b7a779"
+    },
+    {
+      "role": "Depth",
+      "name": "Understory Ink",
+      "hex": "#273026"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

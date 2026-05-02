@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hematite",
+    "name": "Morphous Hematite",
+    "motifName": "Hematite",
+    "motifCategory": "mineral",
+    "biome": "Iron Ridge",
+    "motif": "hematite sheen"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Iron Ridge",
+      "hex": "#fffefe",
+      "oklch": "oklch(0.998 0.001 17.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Gunmetal Ink",
+      "hex": "#2b2f33",
+      "oklch": "oklch(0.303 0.009 248.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Hematite Red",
+      "hex": "#8b1e1e",
+      "oklch": "oklch(0.420 0.145 26.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Steel Sheen",
+      "hex": "#6b727a",
+      "oklch": "oklch(0.549 0.015 251.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Polished Silver",
+      "hex": "#d6dade",
+      "oklch": "oklch(0.886 0.007 247.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Oxide Ochre",
+      "hex": "#c47f2a",
+      "oklch": "oklch(0.654 0.128 66.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Ore Surface",
+      "hex": "#ececec",
+      "oklch": "oklch(0.943 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Graphite Veil",
+      "hex": "#f4f5f6",
+      "oklch": "oklch(0.970 0.002 247.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Black Luster",
+      "hex": "#121417",
+      "oklch": "oklch(0.190 0.007 258.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.998 0.001 17.2)",
+    "foreground": "oklch(0.303 0.009 248.1)",
+    "card": "oklch(0.943 0.000 89.9)",
+    "card-foreground": "oklch(0.303 0.009 248.1)",
+    "popover": "oklch(0.943 0.000 89.9)",
+    "popover-foreground": "oklch(0.303 0.009 248.1)",
+    "primary": "oklch(0.420 0.145 26.1)",
+    "primary-foreground": "oklch(0.998 0.001 17.2)",
+    "secondary": "oklch(0.967 0.000 89.9)",
+    "secondary-foreground": "oklch(0.190 0.007 258.4)",
+    "muted": "oklch(0.958 0.000 89.9)",
+    "muted-foreground": "oklch(0.190 0.007 258.4)",
+    "accent": "oklch(0.886 0.007 247.9)",
+    "accent-foreground": "oklch(0.303 0.009 248.1)",
+    "destructive": "oklch(0.420 0.145 26.1)",
+    "border": "oklch(0.952 0.001 286.4)",
+    "input": "oklch(0.952 0.001 286.4)",
+    "ring": "oklch(0.549 0.015 251.7)",
+    "chart-1": "oklch(0.420 0.145 26.1)",
+    "chart-2": "oklch(0.549 0.015 251.7)",
+    "chart-3": "oklch(0.886 0.007 247.9)",
+    "chart-4": "oklch(0.654 0.128 66.9)",
+    "chart-5": "oklch(0.190 0.007 258.4)",
+    "sidebar": "oklch(0.961 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.303 0.009 248.1)",
+    "sidebar-primary": "oklch(0.420 0.145 26.1)",
+    "sidebar-primary-foreground": "oklch(0.998 0.001 17.2)",
+    "sidebar-accent": "oklch(0.877 0.014 17.4)",
+    "sidebar-accent-foreground": "oklch(0.420 0.145 26.1)",
+    "sidebar-border": "oklch(0.952 0.001 286.4)",
+    "sidebar-ring": "oklch(0.549 0.015 251.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.303 0.009 248.1)",
+    "foreground": "oklch(0.998 0.001 17.2)",
+    "card": "oklch(0.230 0.008 264.4)",
+    "card-foreground": "oklch(0.998 0.001 17.2)",
+    "popover": "oklch(0.230 0.008 264.4)",
+    "popover-foreground": "oklch(0.998 0.001 17.2)",
+    "primary": "oklch(0.549 0.015 251.7)",
+    "primary-foreground": "oklch(0.303 0.009 248.1)",
+    "secondary": "oklch(0.393 0.004 247.9)",
+    "secondary-foreground": "oklch(0.998 0.001 17.2)",
+    "muted": "oklch(0.393 0.004 247.9)",
+    "muted-foreground": "oklch(0.985 0.000 89.9)",
+    "accent": "oklch(0.886 0.007 247.9)",
+    "accent-foreground": "oklch(0.303 0.009 248.1)",
+    "destructive": "oklch(0.420 0.145 26.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.549 0.015 251.7)",
+    "chart-1": "oklch(0.549 0.015 251.7)",
+    "chart-2": "oklch(0.420 0.145 26.1)",
+    "chart-3": "oklch(0.886 0.007 247.9)",
+    "chart-4": "oklch(0.654 0.128 66.9)",
+    "chart-5": "oklch(0.970 0.002 247.8)",
+    "sidebar": "oklch(0.254 0.007 248.1)",
+    "sidebar-foreground": "oklch(0.998 0.001 17.2)",
+    "sidebar-primary": "oklch(0.549 0.015 251.7)",
+    "sidebar-primary-foreground": "oklch(0.303 0.009 248.1)",
+    "sidebar-accent": "oklch(0.393 0.004 247.9)",
+    "sidebar-accent-foreground": "oklch(0.998 0.001 17.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.549 0.015 251.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise operations UI typography with compact numerals and Japanese guidance tuned for dashboards, runbooks, monitoring, and asset workflows.",
+  "layout": "Disciplined 8px grids, low-radius operational surfaces, brushed-metal dividers, strong status hierarchy, and red-streak focus states.",
+  "tags": [
+    "hematite",
+    "mineral",
+    "iron-ridge",
+    "gunmetal",
+    "operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hematite/motif.png",
+    "board": "/systems/morphous-hematite/design-system-light.png",
+    "darkBoard": "/systems/morphous-hematite/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hematite/theme.css",
+    "themeJson": "/systems/morphous-hematite/theme.json",
+    "promptsJson": "/systems/morphous-hematite/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hematite motif",
+      "asset": "/systems/morphous-hematite/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Hematite transparent motif chroma-key source\nPrimary request: Create only a hematite mineral motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural hematite specimen from an iron ridge, with polished metallic gunmetal grey surfaces, mirror-like hematite sheen, dark iron-black facets, subtle red-brown streaks, ochre iron oxide traces, dense mineral weight, and sharp but slightly worn crystalline plates. Geological accuracy, polished operations system identity, no jewelry and no fantasy crystal treatment.\nComposition/framing: centered complete cutout with generous padding; include the full mineral mass without cropping. Clean studio lighting that reveals reflective gunmetal sheen; no cast shadow.\nChroma-key background: perfectly flat solid green background for removal, one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: no jewelry setting, no hand, no landscape, no rainbow iridescence, no fantasy glow, no text, no watermark, no loose gemstones, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hematite/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hematite light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Hematite\", derived from a hematite mineral motif cutout. This board is a source reference for a shadcn/tweakcn-compatible polished operations UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional design-system presentation, no outer browser chrome.\nRequired visible sections: Morphous Hematite, Hematite, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from polished hematite sheen, gunmetal grey reflective plates, iron-black facets, red-brown streaks, oxide ochre iron ridge traces, and dense mineral surface. The board must read as hematite mineral and iron ridge operations, not generic grey SaaS.\nTypography: English operations UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Runbook Notes. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: polished operations system, shadcn/tweakcn-style product UI, 8px radius, light iron-white backgrounds, charcoal gunmetal foreground, hematite red primary actions, steel grey muted panels, oxide ochre accents, precise grid, subtle brushed-metal and red-streak mineral texture, accessible contrast.\nPalette names to show: Iron Ridge, Gunmetal Ink, Hematite Red, Steel Sheen, Polished Silver, Oxide Ochre, Ore Surface, Graphite Veil, Black Luster.\nConstraints: no rainbow gradients, no purple-blue SaaS gradients, no neon, no unrelated saturated colors, no jewelry, no fantasy crystal glow, no tiny unreadable paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Hematite\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hematite/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hematite dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Hematite\". It must feel like the light-mode board translated to dark mode and remain derived from a polished hematite mineral motif.\nCanvas: wide 16:9 high-resolution board, clean professional design-system presentation, no outer browser chrome.\nRequired visible sections: Morphous Hematite, Hematite, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve polished hematite sheen, gunmetal grey reflective plates, iron-black facets, red-brown streaks, oxide ochre iron ridge traces, and dense operational precision. Must read as hematite mineral and iron ridge operations, not generic dark SaaS.\nTypography: English operations UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Runbook Notes. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: near-black luster background, graphite cards, polished silver foreground text, hematite red primary buttons, steel-grey controls, oxide ochre warning/accent marks, red streak chart lines, brushed metal texture, 8px shadcn/tweakcn grid, accessible contrast.\nPalette names to show: Iron Ridge, Gunmetal Ink, Hematite Red, Steel Sheen, Polished Silver, Oxide Ochre, Ore Surface, Graphite Veil, Black Luster.\nConstraints: no rainbow gradients, no purple-blue SaaS gradients, no neon, no pure black flat-only background, no unrelated saturated colors, no jewelry, no fantasy crystal glow, no tiny unreadable paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Hematite\"."
+    }
+  ]
+}

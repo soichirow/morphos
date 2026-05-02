@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hoarfrost",
+    "name": "Morphous Hoarfrost",
+    "motifName": "Hoarfrost",
+    "motifCategory": "weather",
+    "biome": "Winter Branch",
+    "motif": "hoarfrost crystals"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Frost Veil",
+      "hex": "#f8fbfb",
+      "oklch": "oklch(0.986 0.003 197.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#2d2118",
+      "oklch": "oklch(0.259 0.025 58.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rime Blue",
+      "hex": "#b8d8e7",
+      "oklch": "oklch(0.864 0.040 227.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Hoar White",
+      "hex": "#eef6f8",
+      "oklch": "oklch(0.968 0.009 214.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Branch Brown",
+      "hex": "#7a5438",
+      "oklch": "oklch(0.480 0.065 56.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lichen Gray",
+      "hex": "#a8b1ad",
+      "oklch": "oklch(0.752 0.012 167.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Thaw Mist",
+      "hex": "#dce8ea",
+      "oklch": "oklch(0.923 0.013 208.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Crystal Edge",
+      "hex": "#c8eaf4",
+      "oklch": "oklch(0.916 0.038 217.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Bark",
+      "hex": "#4a3324",
+      "oklch": "oklch(0.344 0.042 54.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.986 0.003 197.1)",
+    "foreground": "oklch(0.259 0.025 58.3)",
+    "card": "oklch(0.923 0.013 208.8)",
+    "card-foreground": "oklch(0.259 0.025 58.3)",
+    "popover": "oklch(0.923 0.013 208.8)",
+    "popover-foreground": "oklch(0.259 0.025 58.3)",
+    "primary": "oklch(0.864 0.040 227.8)",
+    "primary-foreground": "oklch(0.986 0.003 197.1)",
+    "secondary": "oklch(0.949 0.009 205.9)",
+    "secondary-foreground": "oklch(0.344 0.042 54.0)",
+    "muted": "oklch(0.940 0.010 212.5)",
+    "muted-foreground": "oklch(0.344 0.042 54.0)",
+    "accent": "oklch(0.480 0.065 56.8)",
+    "accent-foreground": "oklch(0.259 0.025 58.3)",
+    "destructive": "oklch(0.864 0.040 227.8)",
+    "border": "oklch(0.938 0.012 209.8)",
+    "input": "oklch(0.938 0.012 209.8)",
+    "ring": "oklch(0.968 0.009 214.3)",
+    "chart-1": "oklch(0.864 0.040 227.8)",
+    "chart-2": "oklch(0.968 0.009 214.3)",
+    "chart-3": "oklch(0.480 0.065 56.8)",
+    "chart-4": "oklch(0.752 0.012 167.7)",
+    "chart-5": "oklch(0.344 0.042 54.0)",
+    "sidebar": "oklch(0.944 0.009 214.3)",
+    "sidebar-foreground": "oklch(0.259 0.025 58.3)",
+    "sidebar-primary": "oklch(0.864 0.040 227.8)",
+    "sidebar-primary-foreground": "oklch(0.986 0.003 197.1)",
+    "sidebar-accent": "oklch(0.916 0.016 216.7)",
+    "sidebar-accent-foreground": "oklch(0.864 0.040 227.8)",
+    "sidebar-border": "oklch(0.938 0.012 209.8)",
+    "sidebar-ring": "oklch(0.968 0.009 214.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.259 0.025 58.3)",
+    "foreground": "oklch(0.986 0.003 197.1)",
+    "card": "oklch(0.316 0.036 55.4)",
+    "card-foreground": "oklch(0.986 0.003 197.1)",
+    "popover": "oklch(0.316 0.036 55.4)",
+    "popover-foreground": "oklch(0.986 0.003 197.1)",
+    "primary": "oklch(0.968 0.009 214.3)",
+    "primary-foreground": "oklch(0.259 0.025 58.3)",
+    "secondary": "oklch(0.494 0.027 56.5)",
+    "secondary-foreground": "oklch(0.986 0.003 197.1)",
+    "muted": "oklch(0.494 0.027 56.5)",
+    "muted-foreground": "oklch(0.979 0.005 211.0)",
+    "accent": "oklch(0.480 0.065 56.8)",
+    "accent-foreground": "oklch(0.259 0.025 58.3)",
+    "destructive": "oklch(0.864 0.040 227.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.968 0.009 214.3)",
+    "chart-1": "oklch(0.968 0.009 214.3)",
+    "chart-2": "oklch(0.864 0.040 227.8)",
+    "chart-3": "oklch(0.480 0.065 56.8)",
+    "chart-4": "oklch(0.752 0.012 167.7)",
+    "chart-5": "oklch(0.968 0.009 214.3)",
+    "sidebar": "oklch(0.298 0.032 54.0)",
+    "sidebar-foreground": "oklch(0.986 0.003 197.1)",
+    "sidebar-primary": "oklch(0.968 0.009 214.3)",
+    "sidebar-primary-foreground": "oklch(0.259 0.025 58.3)",
+    "sidebar-accent": "oklch(0.494 0.027 56.5)",
+    "sidebar-accent-foreground": "oklch(0.986 0.003 197.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.968 0.009 214.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp product UI typography with fine labels, calm numerals, and Japanese guidance tuned for precise winter interfaces.",
+  "layout": "Airy 8px grids, thin crystalline dividers, restrained radius, translucent frost surfaces, and bark-grounded navigation rhythm.",
+  "tags": [
+    "hoarfrost",
+    "weather",
+    "winter-branch",
+    "frost",
+    "pale-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hoarfrost/motif.png",
+    "board": "/systems/morphous-hoarfrost/design-system-light.png",
+    "darkBoard": "/systems/morphous-hoarfrost/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hoarfrost/theme.css",
+    "themeJson": "/systems/morphous-hoarfrost/theme.json",
+    "promptsJson": "/systems/morphous-hoarfrost/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hoarfrost motif",
+      "asset": "/systems/morphous-hoarfrost/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Hoarfrost transparent motif chroma-key source\nPrimary request: Create only a hoarfrost crystals motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A small winter branch segment coated with delicate hoarfrost crystals, fine white rime needles, fernlike crystalline edges, pale blue reflected cold light, and visible bark brown beneath the frost. Accurate natural winter texture, fragile crystalline detail, quiet delicate component-system identity.\nComposition/framing: centered complete cutout with generous padding; include the full frosted branch segment without cropping. Clean studio lighting that preserves white frost, bark brown, and pale blue crystal highlights; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no snow landscape, no hand, no berries, no leaves dominating, no holiday decoration, no fantasy glow, no text, no watermark, no extra props, no second branch crossing the frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hoarfrost/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hoarfrost light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Hoarfrost\", derived from a motif of hoarfrost crystals on a winter branch. This board is a source reference for a shadcn/tweakcn-compatible delicate component system.\nCanvas: exact 16:9 wide board, 3840 x 2160 target, high-resolution design-system presentation, crisp readable text, precise grid.\nRequired visible sections: Morphous Hoarfrost, Hoarfrost, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from white frost crystals, bark brown branch texture, pale blue cold light, translucent rime needles, fernlike crystal growth, and quiet winter air. The board must read as hoarfrost on a winter branch, not snowflakes, holiday decor, generic icy blue SaaS, or a ski/snow landscape.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Frost Notes. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple fine-line icons.\nStyle: delicate component system, shadcn/tweakcn-style product UI, 8px radius with crystalline bevel hints, frost-white backgrounds, bark-brown text and borders, pale blue focus rings, translucent icy cards, fine rime texture lines, careful thin dividers, quiet accessible contrast, airy winter spacing.\nPalette names to show: Frost Veil #f8fbfb, Bark Ink #2d2118, Rime Blue #b8d8e7, Hoar White #eef6f8, Branch Brown #7a5438, Lichen Gray #a8b1ad, Thaw Mist #dce8ea, Crystal Edge #c8eaf4, Deep Bark #4a3324.\nConstraints: no Christmas ornaments, no pine tree scene, no snowman, no snowflake clipart as the main motif, no generic purple/blue gradients, no neon cyan, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Hoarfrost\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hoarfrost/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Hoarfrost dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Hoarfrost\". It must feel like the light-mode board translated to dark mode and remain derived from hoarfrost crystals on a winter branch.\nCanvas: exact 16:9 wide board, 3840 x 2160 target, high-resolution design-system presentation, crisp readable text, precise grid.\nRequired visible sections: Morphous Hoarfrost, Hoarfrost, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the delicate component language: white frost highlights, pale rime-blue focus states, bark-brown warmth, deep branch-bark surfaces, translucent icy cards, fernlike crystal texture, fine-line dividers, and quiet winter spacing. It must read as hoarfrost on a winter branch, not holiday decor, snowflake clipart, generic dark blue SaaS, or a ski/snow landscape.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Frost Notes. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple fine-line icons.\nVisual details: deep bark and cold night-brown background, frost-white foreground text, rime-blue primary controls, muted lichen gray panels, branch-brown borders, pale crystal-edge highlights, subtle translucent rime overlays, accessible contrast, 8px shadcn/tweakcn grid with crystalline bevel hints.\nPalette names to show: Frost Veil #f8fbfb, Bark Ink #2d2118, Rime Blue #b8d8e7, Hoar White #eef6f8, Branch Brown #7a5438, Lichen Gray #a8b1ad, Thaw Mist #dce8ea, Crystal Edge #c8eaf4, Deep Bark #4a3324.\nConstraints: no Christmas ornaments, no pine tree scene, no snowman, no snowflake clipart as the main motif, no neon cyan, no pure-black-only flat background, no generic purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Hoarfrost\", no tiny unreadable paragraphs."
+    }
+  ]
+}

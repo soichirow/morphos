@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-goldfinch",
+    "name": "Morphous Goldfinch",
+    "motifName": "Goldfinch Feather",
+    "motifCategory": "bird",
+    "biome": "Thistle Meadow",
+    "motif": "goldfinch feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Paper",
+      "hex": "#fbf6da",
+      "oklch": "oklch(0.970 0.037 98.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#17160f",
+      "oklch": "oklch(0.199 0.013 100.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Goldfinch Yellow",
+      "hex": "#f3d21b",
+      "oklch": "oklch(0.866 0.174 97.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Thistle Green",
+      "hex": "#6f8f57",
+      "oklch": "oklch(0.611 0.088 132.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Feather White",
+      "hex": "#fffbe8",
+      "oklch": "oklch(0.986 0.025 97.1)"
+    },
+    {
+      "role": "Chart",
+      "name": "Seedhead Olive",
+      "hex": "#a7b46a",
+      "oklch": "oklch(0.743 0.099 117.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Straw",
+      "hex": "#eee5aa",
+      "oklch": "oklch(0.915 0.077 100.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Thistle Haze",
+      "hex": "#d7dcc1",
+      "oklch": "oklch(0.883 0.037 115.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Quill Charcoal",
+      "hex": "#2a2920",
+      "oklch": "oklch(0.279 0.016 102.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.037 98.7)",
+    "foreground": "oklch(0.199 0.013 100.7)",
+    "card": "oklch(0.915 0.077 100.4)",
+    "card-foreground": "oklch(0.199 0.013 100.7)",
+    "popover": "oklch(0.915 0.077 100.4)",
+    "popover-foreground": "oklch(0.199 0.013 100.7)",
+    "primary": "oklch(0.866 0.174 97.3)",
+    "primary-foreground": "oklch(0.970 0.037 98.7)",
+    "secondary": "oklch(0.937 0.060 100.3)",
+    "secondary-foreground": "oklch(0.279 0.016 102.1)",
+    "muted": "oklch(0.931 0.067 100.1)",
+    "muted-foreground": "oklch(0.279 0.016 102.1)",
+    "accent": "oklch(0.986 0.025 97.1)",
+    "accent-foreground": "oklch(0.199 0.013 100.7)",
+    "destructive": "oklch(0.866 0.174 97.3)",
+    "border": "oklch(0.904 0.063 103.6)",
+    "input": "oklch(0.904 0.063 103.6)",
+    "ring": "oklch(0.611 0.088 132.7)",
+    "chart-1": "oklch(0.866 0.174 97.3)",
+    "chart-2": "oklch(0.611 0.088 132.7)",
+    "chart-3": "oklch(0.986 0.025 97.1)",
+    "chart-4": "oklch(0.743 0.099 117.0)",
+    "chart-5": "oklch(0.279 0.016 102.1)",
+    "sidebar": "oklch(0.934 0.064 100.8)",
+    "sidebar-foreground": "oklch(0.199 0.013 100.7)",
+    "sidebar-primary": "oklch(0.866 0.174 97.3)",
+    "sidebar-primary-foreground": "oklch(0.970 0.037 98.7)",
+    "sidebar-accent": "oklch(0.909 0.094 100.1)",
+    "sidebar-accent-foreground": "oklch(0.866 0.174 97.3)",
+    "sidebar-border": "oklch(0.904 0.063 103.6)",
+    "sidebar-ring": "oklch(0.611 0.088 132.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.199 0.013 100.7)",
+    "foreground": "oklch(0.970 0.037 98.7)",
+    "card": "oklch(0.254 0.016 102.2)",
+    "card-foreground": "oklch(0.970 0.037 98.7)",
+    "popover": "oklch(0.254 0.016 102.2)",
+    "popover-foreground": "oklch(0.970 0.037 98.7)",
+    "primary": "oklch(0.611 0.088 132.7)",
+    "primary-foreground": "oklch(0.199 0.013 100.7)",
+    "secondary": "oklch(0.427 0.021 107.2)",
+    "secondary-foreground": "oklch(0.970 0.037 98.7)",
+    "muted": "oklch(0.427 0.021 107.2)",
+    "muted-foreground": "oklch(0.931 0.036 105.3)",
+    "accent": "oklch(0.986 0.025 97.1)",
+    "accent-foreground": "oklch(0.199 0.013 100.7)",
+    "destructive": "oklch(0.866 0.174 97.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.611 0.088 132.7)",
+    "chart-1": "oklch(0.611 0.088 132.7)",
+    "chart-2": "oklch(0.866 0.174 97.3)",
+    "chart-3": "oklch(0.986 0.025 97.1)",
+    "chart-4": "oklch(0.743 0.099 117.0)",
+    "chart-5": "oklch(0.883 0.037 115.7)",
+    "sidebar": "oklch(0.238 0.015 101.5)",
+    "sidebar-foreground": "oklch(0.970 0.037 98.7)",
+    "sidebar-primary": "oklch(0.611 0.088 132.7)",
+    "sidebar-primary-foreground": "oklch(0.199 0.013 100.7)",
+    "sidebar-accent": "oklch(0.427 0.021 107.2)",
+    "sidebar-accent-foreground": "oklch(0.970 0.037 98.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.611 0.088 132.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for bright collaborative product UI with Noto Sans guidance for Japanese labels, compact activity streams, and clear social dashboards.",
+  "layout": "Tight 8px grids, feather-bar panels, black-and-white stripe dividers, compact social feeds, approachable cards, and bright dashboard rhythm.",
+  "tags": [
+    "goldfinch",
+    "bird",
+    "feather",
+    "thistle-meadow",
+    "social",
+    "bright",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-goldfinch/motif.png",
+    "board": "/systems/morphous-goldfinch/design-system-light.png",
+    "darkBoard": "/systems/morphous-goldfinch/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-goldfinch/theme.css",
+    "themeJson": "/systems/morphous-goldfinch/theme.json",
+    "promptsJson": "/systems/morphous-goldfinch/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Goldfinch feather motif",
+      "asset": "/systems/morphous-goldfinch/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Goldfinch transparent motif chroma-key source\nPrimary request: Create only an isolated goldfinch feather motif for a design-system catalog, no environment, no props, no text.\nSubject: A single elegant American goldfinch wing feather with bright lemon-yellow vane, deep black wing markings, clean white bars and edge flecks, subtle thistle-green reflected undertones, accurate feather shaft, barbs, and fine natural texture.\nComposition/framing: centered complete feather cutout with generous padding; diagonal presentation, full tip and quill visible, no cropping.\nLighting/mood: crisp clean studio light that preserves yellow, black, white, and fine feather detail; bright social product-system energy.\nChroma-key background: place the feather on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #ff00ff anywhere in the subject, no bird body, no flowers, no landscape, no extra feathers, no text, no watermark, no props, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-goldfinch/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Goldfinch light-mode design-system board, 16:9, high-resolution source asset\nPrimary request: Create one wide comprehensive light-mode design-system board for \"Morphous Goldfinch\" / \"Goldfinch Feather\", source reference for a shadcn/tweakcn theme.\nSystem feel: bright social system for collaborative product UI, friendly but precise, lively scanning rhythm.\nPalette: goldfinch yellow #f3d21b, wing black #17160f, clean feather white #fffbe8, thistle green #6f8f57, seedhead olive #a7b46a, warm meadow paper #fbf6da, pale straw #eee5aa, soft gray-green #d7dcc1, dark quill charcoal #2a2920.\nLayout/content: 3840x2160-style 16:9 board with large readable labels. Include palette, typography, multilingual English and Japanese guidance, buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, tables, command/search, navigation, social activity feed, member avatars, dashboard charts, empty/error/loading states, spacing, radius, border, shadow, texture, and icon style.\nVisual language: feather-bar panels, black-and-white wing stripe dividers, yellow active states, thistle-green secondary actions, seedhead olive charts, white feather highlights, tight 8px grid, 8px radii, clean social collaboration surfaces.\nText constraints: Use clear short UI labels only; keep all text large and legible, no tiny unreadable token tables, no random brand names.\nExclude: no purple/blue gradients, no unrelated saturated colors, no full bird as main subject, no photoreal landscape, no flowers as main subject, no misspellings, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-goldfinch/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Goldfinch dark-mode design-system board, 16:9, high-resolution source asset\nPrimary request: Create one wide comprehensive dark-mode design-system board for \"Morphous Goldfinch\" / \"Goldfinch Feather\", translated from the same light design-system language.\nSystem feel: bright social system in dark mode, lively collaborative UI, high contrast without neon glare.\nPalette: dark quill charcoal #17160f and #232218 backgrounds, feather white #fffbe8 foreground, goldfinch yellow #f3d21b active states, thistle green #6f8f57 secondary actions, seedhead olive #a7b46a charts, muted thistle surface #31382a, pale straw outlines #eee5aa, warm meadow paper tint #fbf6da used sparingly.\nLayout/content: 3840x2160-style 16:9 board with large readable labels. Include palette, typography, multilingual English and Japanese guidance, buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, tables, command/search, navigation, social activity feed, member avatars, dashboard charts, empty/error/loading states, spacing, radius, border, shadow, texture, and icon style.\nVisual language: feather-bar panels, black-and-white wing stripe dividers, yellow active states, thistle-green support controls, seedhead olive data marks, white feather highlights, dark feather texture, tight 8px grid, 8px radii, clean social collaboration surfaces.\nText constraints: Use clear short UI labels only; keep all text large and legible, no tiny unreadable token tables, no random brand names.\nExclude: no purple/blue gradients, no unrelated saturated colors, no full bird as main subject, no photoreal landscape, no flowers as main subject, no neon rainbow, no misspellings, no watermark."
+    }
+  ]
+}

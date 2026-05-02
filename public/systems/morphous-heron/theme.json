@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-heron",
+    "name": "Morphous Heron",
+    "motifName": "Heron",
+    "motifCategory": "bird",
+    "biome": "Marsh Edge",
+    "motif": "heron profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Field",
+      "hex": "#F5F7F3",
+      "oklch": "oklch(0.974 0.006 128.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Plume",
+      "hex": "#172027",
+      "oklch": "oklch(0.238 0.019 241.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Reed Green",
+      "hex": "#5F7F58",
+      "oklch": "oklch(0.561 0.069 140.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Feather Blue Grey",
+      "hex": "#7F95A2",
+      "oklch": "oklch(0.657 0.032 233.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bill Ochre",
+      "hex": "#C9A45A",
+      "oklch": "oklch(0.737 0.103 83.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wing Slate",
+      "hex": "#465B66",
+      "oklch": "oklch(0.458 0.031 231.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Marsh Sedge",
+      "hex": "#B7C0A6",
+      "oklch": "oklch(0.794 0.037 122.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Down",
+      "hex": "#E4DED2",
+      "oklch": "oklch(0.902 0.017 84.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tide Shadow",
+      "hex": "#27343A",
+      "oklch": "oklch(0.316 0.020 227.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.974 0.006 128.5)",
+    "foreground": "oklch(0.238 0.019 241.9)",
+    "card": "oklch(0.794 0.037 122.8)",
+    "card-foreground": "oklch(0.238 0.019 241.9)",
+    "popover": "oklch(0.794 0.037 122.8)",
+    "popover-foreground": "oklch(0.238 0.019 241.9)",
+    "primary": "oklch(0.561 0.069 140.0)",
+    "primary-foreground": "oklch(0.974 0.006 128.5)",
+    "secondary": "oklch(0.870 0.024 122.8)",
+    "secondary-foreground": "oklch(0.316 0.020 227.8)",
+    "muted": "oklch(0.844 0.027 123.5)",
+    "muted-foreground": "oklch(0.316 0.020 227.8)",
+    "accent": "oklch(0.737 0.103 83.3)",
+    "accent-foreground": "oklch(0.238 0.019 241.9)",
+    "destructive": "oklch(0.561 0.069 140.0)",
+    "border": "oklch(0.833 0.029 115.8)",
+    "input": "oklch(0.833 0.029 115.8)",
+    "ring": "oklch(0.657 0.032 233.9)",
+    "chart-1": "oklch(0.561 0.069 140.0)",
+    "chart-2": "oklch(0.657 0.032 233.9)",
+    "chart-3": "oklch(0.737 0.103 83.3)",
+    "chart-4": "oklch(0.458 0.031 231.1)",
+    "chart-5": "oklch(0.316 0.020 227.8)",
+    "sidebar": "oklch(0.856 0.027 123.5)",
+    "sidebar-foreground": "oklch(0.238 0.019 241.9)",
+    "sidebar-primary": "oklch(0.561 0.069 140.0)",
+    "sidebar-primary-foreground": "oklch(0.974 0.006 128.5)",
+    "sidebar-accent": "oklch(0.766 0.040 126.9)",
+    "sidebar-accent-foreground": "oklch(0.561 0.069 140.0)",
+    "sidebar-border": "oklch(0.833 0.029 115.8)",
+    "sidebar-ring": "oklch(0.657 0.032 233.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.238 0.019 241.9)",
+    "foreground": "oklch(0.974 0.006 128.5)",
+    "card": "oklch(0.290 0.020 236.3)",
+    "card-foreground": "oklch(0.974 0.006 128.5)",
+    "popover": "oklch(0.290 0.020 236.3)",
+    "popover-foreground": "oklch(0.974 0.006 128.5)",
+    "primary": "oklch(0.657 0.032 233.9)",
+    "primary-foreground": "oklch(0.238 0.019 241.9)",
+    "secondary": "oklch(0.458 0.011 214.4)",
+    "secondary-foreground": "oklch(0.974 0.006 128.5)",
+    "muted": "oklch(0.458 0.011 214.4)",
+    "muted-foreground": "oklch(0.942 0.011 100.8)",
+    "accent": "oklch(0.737 0.103 83.3)",
+    "accent-foreground": "oklch(0.238 0.019 241.9)",
+    "destructive": "oklch(0.561 0.069 140.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.657 0.032 233.9)",
+    "chart-1": "oklch(0.657 0.032 233.9)",
+    "chart-2": "oklch(0.561 0.069 140.0)",
+    "chart-3": "oklch(0.737 0.103 83.3)",
+    "chart-4": "oklch(0.458 0.031 231.1)",
+    "chart-5": "oklch(0.902 0.017 84.6)",
+    "sidebar": "oklch(0.274 0.020 236.4)",
+    "sidebar-foreground": "oklch(0.974 0.006 128.5)",
+    "sidebar-primary": "oklch(0.657 0.032 233.9)",
+    "sidebar-primary-foreground": "oklch(0.238 0.019 241.9)",
+    "sidebar-accent": "oklch(0.458 0.011 214.4)",
+    "sidebar-accent-foreground": "oklch(0.974 0.006 128.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.657 0.032 233.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English product UI with Japanese guidance for research labels, observation status, form review, and readable scientific tables.",
+  "layout": "Calm 8px research grids, long vertical heron rhythm, thin reed dividers, feather-textured panels, and dense but quiet dashboard workflows for observation and review.",
+  "tags": [
+    "heron",
+    "bird",
+    "marsh-edge",
+    "research",
+    "calm",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-heron/motif.png",
+    "board": "/systems/morphous-heron/design-system-light.png",
+    "darkBoard": "/systems/morphous-heron/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-heron/theme.css",
+    "themeJson": "/systems/morphous-heron/theme.json",
+    "promptsJson": "/systems/morphous-heron/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent heron motif",
+      "asset": "/systems/morphous-heron/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Heron transparent motif chroma-key source\nPrimary request: Create only a heron motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A single marsh-edge heron in calm research-system profile: long neck in an elegant S-curve, slender pointed bill, watchful eye, long legs, layered blue-grey feathers, slate wing coverts, pale feather highlights, subtle reed-green reflected accents, biologically plausible anatomy. The heron should feel quiet, observant, precise, and suited to a calm research dashboard system.\nComposition/framing: centered complete cutout with generous padding; full body visible from bill to feet, side-profile stance, no cropping. Clean studio lighting that preserves feather detail, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the heron.\nConstraints: no marsh scene, no water, no reeds behind the bird, no second animal, no cartoon mascot, no text, no watermark, no logo, no props, no floor plane."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-heron/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Heron light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Heron\", derived from the transparent heron motif shown in this conversation. This board is a source reference for a shadcn/tweakcn-compatible calm research system.\nCanvas: exact 16:9 wide board, target 3840x2160 high-resolution source asset. Use a crisp professional grid with large readable labels and no tiny paragraphs.\nRequired visible sections: Morphous Heron, Heron, Marsh Edge, Palette, Typography, Japanese Typography, Components, Navigation, Research Dashboard, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract color and interaction language from blue-grey feather layers, slate wing coverts, pale neck highlights, reed-green marsh edge accents, soft marsh neutrals, precise bill geometry, long-leg vertical rhythm, and calm observant profile. The board must read as heron/marsh-edge and calm research UI, not generic blue SaaS.\nPalette labels to render clearly: Mist Field, Ink Plume, Feather Blue Grey, Reed Green, Marsh Sedge, Bill Ochre, Wing Slate, Pale Down, Tide Shadow.\nTypography: English product UI examples with Japanese UI guidance; show short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 調査, 観測, 承認. Keep text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, left sidebar navigation, top research filters, study queue, specimen notes, review status chips, dashboard metric cards, line chart for observation trend, bar chart for sample counts, small area chart for wetland readings, empty/loading/error states, spacing scale, 8px radius, border, shadow, texture samples, simple lucide-style icons.\nStyle: restrained premium research product UI, light mist background, blue-grey feather panels, reed-green primary actions, ink-plume text, marsh-neutral surfaces, subtle feather barb texture, thin reed divider lines, calm dashboard density, shadcn/tweakcn token-driven components.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no neon, no stock photo background, no random brand names, no misspelling of \"Morphous Heron\", no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-heron/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Heron dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Heron\". It must feel like the light-mode board shown in this conversation translated to dark mode, while staying derived from the transparent heron motif.\nCanvas: exact 16:9 wide board, target 3840x2160 high-resolution source asset. Use a crisp professional grid with large readable labels and no tiny paragraphs.\nRequired visible sections: Morphous Heron, Heron, Marsh Edge, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Research Dashboard, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the same system language from the light board: blue-grey feather surfaces, reed-green actions, marsh-neutral panels, long vertical heron rhythm, specimen review flows, research filters, status chips, observation charts, and subtle feather-barb texture.\nPalette labels to render clearly: Night Reed, Mist Field, Feather Blue Grey, Reed Green, Marsh Sedge, Bill Ochre, Wing Slate, Pale Down, Tide Shadow.\nTypography: English product UI examples with Japanese UI guidance; show short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, 調査, 観測, 承認. Keep text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, left sidebar navigation, top research filters, study queue, specimen notes, review status chips, dashboard metric cards, line chart for observation trend, bar chart for sample counts, small area chart for wetland readings, empty/loading/error states, spacing scale, 8px radius, border, shadow, texture samples, simple lucide-style icons.\nVisual details: deep blue-grey night background rather than pure black, muted slate cards, pale readable foreground, reed-green primary buttons, blue-grey focus rings, marsh-neutral secondary surfaces, subtle feather texture, thin reed dividers, restrained chart colors.\nConstraints: no neon, no generic purple/blue gradients, no pure flat black-only background, no unrelated saturated colors, no random brand names, no misspelling of \"Morphous Heron\", no watermark, no illegible microtext."
+    }
+  ]
+}

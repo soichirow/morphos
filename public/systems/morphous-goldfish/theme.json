@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-goldfish",
+    "name": "Morphous Goldfish",
+    "motifName": "Goldfish",
+    "motifCategory": "fish",
+    "biome": "Garden Pond",
+    "motif": "goldfish fins"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl White",
+      "hex": "#fff7ec",
+      "oklch": "oklch(0.979 0.017 76.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Reed Ink",
+      "hex": "#233025",
+      "oklch": "oklch(0.293 0.026 149.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Goldfish Orange",
+      "hex": "#f46a21",
+      "oklch": "oklch(0.686 0.187 43.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fin Gold",
+      "hex": "#f7b733",
+      "oklch": "oklch(0.818 0.155 80.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pond Green",
+      "hex": "#6e8f5b",
+      "oklch": "oklch(0.611 0.084 134.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Water Glass",
+      "hex": "#d7e8e4",
+      "oklch": "oklch(0.917 0.019 180.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#ead7b7",
+      "oklch": "oklch(0.886 0.047 80.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Pond",
+      "hex": "#123232",
+      "oklch": "oklch(0.293 0.037 195.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.017 76.1)",
+    "foreground": "oklch(0.293 0.026 149.1)",
+    "card": "oklch(0.886 0.047 80.8)",
+    "card-foreground": "oklch(0.293 0.026 149.1)",
+    "popover": "oklch(0.886 0.047 80.8)",
+    "popover-foreground": "oklch(0.293 0.026 149.1)",
+    "primary": "oklch(0.686 0.187 43.7)",
+    "primary-foreground": "oklch(0.979 0.017 76.1)",
+    "secondary": "oklch(0.925 0.035 78.7)",
+    "secondary-foreground": "oklch(0.293 0.037 195.3)",
+    "muted": "oklch(0.913 0.039 80.0)",
+    "muted-foreground": "oklch(0.293 0.037 195.3)",
+    "accent": "oklch(0.818 0.155 80.5)",
+    "accent-foreground": "oklch(0.293 0.026 149.1)",
+    "destructive": "oklch(0.686 0.187 43.7)",
+    "border": "oklch(0.858 0.095 82.7)",
+    "input": "oklch(0.858 0.095 82.7)",
+    "ring": "oklch(0.611 0.084 134.6)",
+    "chart-1": "oklch(0.686 0.187 43.7)",
+    "chart-2": "oklch(0.611 0.084 134.6)",
+    "chart-3": "oklch(0.818 0.155 80.5)",
+    "chart-4": "oklch(0.917 0.019 180.2)",
+    "chart-5": "oklch(0.293 0.037 195.3)",
+    "sidebar": "oklch(0.918 0.037 80.6)",
+    "sidebar-foreground": "oklch(0.293 0.026 149.1)",
+    "sidebar-primary": "oklch(0.686 0.187 43.7)",
+    "sidebar-primary-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-accent": "oklch(0.858 0.062 70.1)",
+    "sidebar-accent-foreground": "oklch(0.686 0.187 43.7)",
+    "sidebar-border": "oklch(0.858 0.095 82.7)",
+    "sidebar-ring": "oklch(0.611 0.084 134.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.293 0.026 149.1)",
+    "foreground": "oklch(0.979 0.017 76.1)",
+    "card": "oklch(0.292 0.032 185.7)",
+    "card-foreground": "oklch(0.979 0.017 76.1)",
+    "popover": "oklch(0.292 0.032 185.7)",
+    "popover-foreground": "oklch(0.979 0.017 76.1)",
+    "primary": "oklch(0.611 0.084 134.6)",
+    "primary-foreground": "oklch(0.293 0.026 149.1)",
+    "secondary": "oklch(0.410 0.048 125.3)",
+    "secondary-foreground": "oklch(0.979 0.017 76.1)",
+    "muted": "oklch(0.410 0.048 125.3)",
+    "muted-foreground": "oklch(0.901 0.090 83.8)",
+    "accent": "oklch(0.818 0.155 80.5)",
+    "accent-foreground": "oklch(0.293 0.026 149.1)",
+    "destructive": "oklch(0.686 0.187 43.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.611 0.084 134.6)",
+    "chart-1": "oklch(0.611 0.084 134.6)",
+    "chart-2": "oklch(0.686 0.187 43.7)",
+    "chart-3": "oklch(0.818 0.155 80.5)",
+    "chart-4": "oklch(0.917 0.019 180.2)",
+    "chart-5": "oklch(0.818 0.155 80.5)",
+    "sidebar": "oklch(0.293 0.030 174.9)",
+    "sidebar-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-primary": "oklch(0.611 0.084 134.6)",
+    "sidebar-primary-foreground": "oklch(0.293 0.026 149.1)",
+    "sidebar-accent": "oklch(0.410 0.048 125.3)",
+    "sidebar-accent-foreground": "oklch(0.979 0.017 76.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.611 0.084 134.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clean dashboard UI with Noto Sans JP guidance for Japanese labels, generous numeric rhythm, and friendly readable status text.",
+  "layout": "Calm 8px grids, fin-ripple dividers, soft scale texture, compact dashboard panels, readable tables, rounded controls, and pond-water spacing rhythm.",
+  "tags": [
+    "goldfish",
+    "fish",
+    "garden-pond",
+    "orange-gold",
+    "friendly-dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-goldfish/motif.png",
+    "board": "/systems/morphous-goldfish/design-system-light.png",
+    "darkBoard": "/systems/morphous-goldfish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-goldfish/theme.css",
+    "themeJson": "/systems/morphous-goldfish/theme.json",
+    "promptsJson": "/systems/morphous-goldfish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Goldfish motif",
+      "asset": "/systems/morphous-goldfish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Goldfish transparent motif chroma-key source\nPrimary request: Create only an isolated goldfish fins motif for a design-system catalog, no environment, no props, no text.\nSubject: A friendly elegant goldfish with flowing translucent fins and tail, orange-gold body, soft white highlights, subtle pond-water reflections, small dark eyes, accurate anatomy, crisp silhouette edges, and fine natural scale texture. Emphasize the fan-shaped fins as the core motif.\nComposition/framing: centered complete cutout with generous padding; show entire fish, flowing dorsal, pectoral, and tail fins without cropping.\nLighting/mood: clean studio light that preserves orange gold, white fins, fine scales, and translucent fin edges.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no koi, no shark, no tropical reef, no bowl, no lily pads, no plants as the main subject, no text, no watermark, no props, no landscape, no second fish."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-goldfish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Goldfish\" / \"Goldfish Fins\", source reference for a shadcn/tweakcn-compatible friendly dashboard system.\nReference motif: flowing goldfish fins, orange-gold body, translucent white fin edges, pond water neutrals, soft garden-pond green accents.\nCanvas: wide 16:9 design board, 4K-class, clean professional UI documentation layout.\nResolution and legibility: use large readable labels, no tiny dense paragraphs, crisp dashboard details.\nRequired visible sections: title \"Morphous Goldfish\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data charts, forms, table, command/search, status states, texture, radius, spacing, shadow, theme tokens, generated asset examples.\nUI content: include left navigation, top navigation, KPI cards, line chart, donut chart, bar chart, data table, filter form, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, buttons, loading/empty/error statuses.\nVisual language: friendly dashboard UI with 8px radius cards, fin-ripple dividers, soft scale texture, orange-gold primary actions, white/cream surfaces, pond green success/support, water-neutral borders, golden focus rings, subtle fin-shaped highlights.\nPalette labels: Goldfish Orange #F46A21, Fin Gold #F7B733, Pearl White #FFF7EC, Pond Green #6E8F5B, Water Glass #D7E8E4, Reed Ink #233025, Warm Sand #EAD7B7, Deep Pond #123232.\nTypography: clean product UI, Geist / Noto Sans JP guidance, English and Japanese sample labels.\nText rules: use short readable interface labels only; no random company names, no watermark, no misspellings.\nConstraints: no koi branding, no aquarium bowl, no unrelated neon colors, no generic purple or blue gradients, no stock logo, no dense unreadable token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-goldfish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Goldfish\" / \"Goldfish Fins\". It must feel like the same friendly dashboard system translated to dark mode, not a new theme.\nReference motif: flowing goldfish fins, orange-gold body, translucent white fin edges, pond water neutrals, soft garden-pond green accents. Preserve the light board's structure: dashboard charts, table, form, status, navigation, tokens, and component examples.\nCanvas: wide 16:9 design board, 4K-class, clean professional UI documentation layout.\nResolution and legibility: use large readable labels, no tiny dense paragraphs, crisp dashboard details.\nRequired visible sections: title \"Morphous Goldfish\", label \"Dark Mode\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data charts, forms, table, command/search, status states, texture, radius, spacing, shadow, theme tokens, generated asset examples.\nUI content: include left navigation, top navigation, KPI cards, line chart, donut chart, bar chart, data table, filter form, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, buttons, loading/empty/error statuses.\nVisual language: deep pond background, dark teal card surfaces, orange-gold primary actions, pearl white text, pond green success/support, water-neutral borders, golden focus rings, subtle fin-ripple dividers, soft scale texture, 8px radius cards, friendly operations dashboard tone.\nPalette labels: Deep Pond #123232, Reed Ink #233025, Goldfish Orange #F46A21, Fin Gold #F7B733, Pearl White #FFF7EC, Pond Green #6E8F5B, Water Glass #D7E8E4, Warm Sand #EAD7B7.\nTypography: clean product UI, Geist / Noto Sans JP guidance, English and Japanese sample labels.\nText rules: use short readable interface labels only; no random company names, no watermark, no misspellings.\nConstraints: no koi branding, no aquarium bowl, no unrelated neon colors, no generic purple or blue gradients, no pure flat black, no stock logo, no dense unreadable token tables."
+    }
+  ]
+}
