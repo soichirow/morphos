@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-copper-ore",
+    "name": "Morphous Copper Ore",
+    "motifName": "Copper Ore",
+    "motifCategory": "mineral",
+    "biome": "Copper Deposit",
+    "motif": "copper ore"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ore Dust",
+      "hex": "#f4eee3",
+      "oklch": "oklch(0.951 0.016 82.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Quarry Ink",
+      "hex": "#1f2420",
+      "oklch": "oklch(0.254 0.010 151.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Native Copper",
+      "hex": "#c6652e",
+      "oklch": "oklch(0.612 0.141 47.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Patina Green",
+      "hex": "#4f8a62",
+      "oklch": "oklch(0.582 0.088 153.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Verdigris",
+      "hex": "#6fae9a",
+      "oklch": "oklch(0.702 0.072 172.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Matrix Stone",
+      "hex": "#d3c2aa",
+      "oklch": "oklch(0.822 0.038 76.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Oxide Clay",
+      "hex": "#8e5a3c",
+      "oklch": "oklch(0.518 0.081 50.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Carbon Vein",
+      "hex": "#4a5149",
+      "oklch": "oklch(0.426 0.016 141.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Sulfide Shadow",
+      "hex": "#2f332e",
+      "oklch": "oklch(0.315 0.010 139.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.951 0.016 82.8)",
+    "foreground": "oklch(0.254 0.010 151.4)",
+    "card": "oklch(0.822 0.038 76.6)",
+    "card-foreground": "oklch(0.254 0.010 151.4)",
+    "popover": "oklch(0.822 0.038 76.6)",
+    "popover-foreground": "oklch(0.254 0.010 151.4)",
+    "primary": "oklch(0.612 0.141 47.3)",
+    "primary-foreground": "oklch(0.951 0.016 82.8)",
+    "secondary": "oklch(0.876 0.028 76.2)",
+    "secondary-foreground": "oklch(0.315 0.010 139.4)",
+    "muted": "oklch(0.857 0.031 76.9)",
+    "muted-foreground": "oklch(0.315 0.010 139.4)",
+    "accent": "oklch(0.702 0.072 172.1)",
+    "accent-foreground": "oklch(0.254 0.010 151.4)",
+    "destructive": "oklch(0.612 0.141 47.3)",
+    "border": "oklch(0.686 0.028 84.6)",
+    "input": "oklch(0.686 0.028 84.6)",
+    "ring": "oklch(0.582 0.088 153.2)",
+    "chart-1": "oklch(0.612 0.141 47.3)",
+    "chart-2": "oklch(0.582 0.088 153.2)",
+    "chart-3": "oklch(0.702 0.072 172.1)",
+    "chart-4": "oklch(0.518 0.081 50.2)",
+    "chart-5": "oklch(0.315 0.010 139.4)",
+    "sidebar": "oklch(0.866 0.031 78.8)",
+    "sidebar-foreground": "oklch(0.254 0.010 151.4)",
+    "sidebar-primary": "oklch(0.612 0.141 47.3)",
+    "sidebar-primary-foreground": "oklch(0.951 0.016 82.8)",
+    "sidebar-accent": "oklch(0.795 0.048 69.1)",
+    "sidebar-accent-foreground": "oklch(0.612 0.141 47.3)",
+    "sidebar-border": "oklch(0.686 0.028 84.6)",
+    "sidebar-ring": "oklch(0.582 0.088 153.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.254 0.010 151.4)",
+    "foreground": "oklch(0.951 0.016 82.8)",
+    "card": "oklch(0.295 0.011 139.4)",
+    "card-foreground": "oklch(0.951 0.016 82.8)",
+    "popover": "oklch(0.295 0.011 139.4)",
+    "popover-foreground": "oklch(0.951 0.016 82.8)",
+    "primary": "oklch(0.582 0.088 153.2)",
+    "primary-foreground": "oklch(0.254 0.010 151.4)",
+    "secondary": "oklch(0.342 0.012 140.5)",
+    "secondary-foreground": "oklch(0.951 0.016 82.8)",
+    "muted": "oklch(0.342 0.012 140.5)",
+    "muted-foreground": "oklch(0.727 0.013 101.6)",
+    "accent": "oklch(0.702 0.072 172.1)",
+    "accent-foreground": "oklch(0.254 0.010 151.4)",
+    "destructive": "oklch(0.612 0.141 47.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.582 0.088 153.2)",
+    "chart-1": "oklch(0.582 0.088 153.2)",
+    "chart-2": "oklch(0.612 0.141 47.3)",
+    "chart-3": "oklch(0.702 0.072 172.1)",
+    "chart-4": "oklch(0.518 0.081 50.2)",
+    "chart-5": "oklch(0.426 0.016 141.7)",
+    "sidebar": "oklch(0.282 0.011 145.3)",
+    "sidebar-foreground": "oklch(0.951 0.016 82.8)",
+    "sidebar-primary": "oklch(0.582 0.088 153.2)",
+    "sidebar-primary-foreground": "oklch(0.254 0.010 151.4)",
+    "sidebar-accent": "oklch(0.342 0.012 140.5)",
+    "sidebar-accent-foreground": "oklch(0.951 0.016 82.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.582 0.088 153.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact product UI typography with sturdy numerals and Japanese guidance tuned for industrial monitoring, asset operations, and ore-control dashboards.",
+  "layout": "Dense 8px dashboard grid, compact cards, crisp controls, mineral-speckle texture, copper focus states, and patina status accents.",
+  "tags": [
+    "copper-ore",
+    "mineral",
+    "copper-deposit",
+    "industrial-dashboard",
+    "patina",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-copper-ore/motif.png",
+    "board": "/systems/morphous-copper-ore/design-system-light.png",
+    "darkBoard": "/systems/morphous-copper-ore/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-copper-ore/theme.css",
+    "themeJson": "/systems/morphous-copper-ore/theme.json",
+    "promptsJson": "/systems/morphous-copper-ore/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent copper ore motif",
+      "asset": "/systems/morphous-copper-ore/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Copper Ore transparent motif chroma-key source\nPrimary request: Create only a copper ore mineral motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural copper ore specimen from a copper deposit, with rugged gray-brown host stone, bright native copper orange metallic seams, malachite and verdigris green patina blooms, blue-green oxidation traces, fractured mineral faces, granular stone texture, and industrial geological character. Geological accuracy, not jewelry, not a polished gemstone.\nComposition/framing: centered complete cutout with generous padding; include the full ore specimen without cropping. Clean studio lighting that preserves metallic copper highlights and rough stone texture; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no mine scene, no tools, no hand, no jewelry setting, no fantasy glow, no landscape, no text, no watermark, no loose coins, no pure green background, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-copper-ore/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Copper Ore light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Copper Ore\", derived from a copper ore motif cutout. This board is a source reference for a shadcn/tweakcn-compatible industrial dashboard UI system.\nCanvas: 3840 x 2160 wide 16:9 high-resolution board, clean professional UI design-system presentation, large legible labels.\nRequired visible sections: Morphous Copper Ore, Copper Ore, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from rugged gray-brown host stone, bright copper-orange metallic seams, green malachite patina, blue-green verdigris oxidation, dark fractured mineral faces, and granular ore texture. The board must read as copper ore from a copper deposit, not a generic copper metal sheet or steampunk interface.\nTypography: English industrial product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Ore Control. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: industrial dashboard system, shadcn/tweakcn-style product UI, compact 8px radius, warm off-white stone background, charcoal ore text, copper-orange primary actions, oxidized green accent states, gray-brown muted panels, precise grid, subtle mineral speckle texture, accessible contrast.\nPalette names to show: Ore Dust, Quarry Ink, Native Copper, Patina Green, Verdigris, Matrix Stone, Oxide Clay, Carbon Vein, Sulfide Shadow.\nTheme colors to reflect: Ore Dust #f4eee3, Quarry Ink #1f2420, Native Copper #c6652e, Patina Green #4f8a62, Verdigris #6fae9a, Matrix Stone #d3c2aa, Oxide Clay #8e5a3c, Carbon Vein #4a5149, Sulfide Shadow #2f332e.\nConstraints: no steampunk gears, no mining machinery, no people, no fantasy glow, no generic purple or blue gradients, no neon, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Copper Ore\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-copper-ore/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Copper Ore dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Copper Ore\". It must feel like the light-mode board translated to dark mode and remain derived from a copper ore motif cutout.\nCanvas: 3840 x 2160 wide 16:9 high-resolution board, clean professional UI design-system presentation, large legible labels.\nRequired visible sections: Morphous Copper Ore, Copper Ore, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve rugged host stone, native copper-orange active states, malachite green accents, blue-green verdigris oxidation, charcoal fractured ore surfaces, gray-brown matrix texture, and compact industrial dashboard rhythm. Must read as copper ore from a copper deposit, not a generic copper metal sheet, black terminal, or steampunk interface.\nTypography: English industrial product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Ore Control. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: dark carbon-ore background, dark olive-black cards, pale ore-dust foreground text, native copper buttons, patina green focus rings, verdigris chart lines, oxide clay warning states, sulfide shadow panels, subtle mineral speckle texture, accessible contrast, compact dashboard controls.\nPalette names to show: Ore Dust, Quarry Ink, Native Copper, Patina Green, Verdigris, Matrix Stone, Oxide Clay, Carbon Vein, Sulfide Shadow.\nTheme colors to reflect: Ore Dust #f4eee3, Quarry Ink #1f2420, Native Copper #c6652e, Patina Green #4f8a62, Verdigris #6fae9a, Matrix Stone #d3c2aa, Oxide Clay #8e5a3c, Carbon Vein #4a5149, Sulfide Shadow #2f332e.\nConstraints: no steampunk gears, no mining machinery, no people, no fantasy glow, no pure black-only flat background, no generic purple or blue gradients, no neon, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Copper Ore\", no tiny unreadable paragraphs."
+    }
+  ]
+}

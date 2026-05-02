@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-cricket",
+  "name": "Cricket",
+  "motifName": "Field Cricket",
+  "motifCategory": "insect",
+  "biome": "grassland",
+  "motif": "field cricket night audio system",
+  "description": "A shadcn/tweakcn-compatible system derived from a grassland field cricket: glossy black shell surfaces, amber leg articulation, grass-green signal states, straw-field neutrals, and nocturnal audio-monitoring rhythm.",
+  "typography": "Instrument Sans for clear operational English UI with Noto Sans JP guidance for Japanese labels, field notes, audio states, and compact monitoring tables. JetBrains Mono supports device IDs, channels, timestamps, and metric readouts.",
+  "layout": "Precise 8px grids, shell-ridge dividers, stridulation-line textures, waveform dashboards, compact monitoring cards, readable forms, and night-audio navigation density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cricket",
+    "field-cricket",
+    "insect",
+    "grassland",
+    "night-audio",
+    "amber",
+    "grass-green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moonlit Cream",
+      "hex": "#F7F5F0"
+    },
+    {
+      "role": "Ink",
+      "name": "Shell Ink",
+      "hex": "#0E0F10"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Leg",
+      "hex": "#C27A1A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Field Straw",
+      "hex": "#EBD8B6"
+    },
+    {
+      "role": "Accent",
+      "name": "Grass Green",
+      "hex": "#4C7A3A"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Resin",
+      "hex": "#A6560A"
+    },
+    {
+      "role": "Surface",
+      "name": "Night Charcoal",
+      "hex": "#121417"
+    },
+    {
+      "role": "Muted",
+      "name": "Field Moss",
+      "hex": "#6E8457"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite",
+      "hex": "#2B2D31"
+    },
+    {
+      "role": "Danger",
+      "name": "Red Brown",
+      "hex": "#8B2E1F"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

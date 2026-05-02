@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cricket",
+    "name": "Cricket",
+    "motifName": "Field Cricket",
+    "motifCategory": "insect",
+    "biome": "grassland",
+    "motif": "field cricket night audio system"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moonlit Cream",
+      "hex": "#F7F5F0",
+      "oklch": "oklch(0.970 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Shell Ink",
+      "hex": "#0E0F10",
+      "oklch": "oklch(0.168 0.003 248.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Leg",
+      "hex": "#C27A1A",
+      "oklch": "oklch(0.642 0.134 66.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Field Straw",
+      "hex": "#EBD8B6",
+      "oklch": "oklch(0.889 0.050 82.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Grass Green",
+      "hex": "#4C7A3A",
+      "oklch": "oklch(0.530 0.107 137.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Resin",
+      "hex": "#A6560A",
+      "oklch": "oklch(0.539 0.130 55.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Night Charcoal",
+      "hex": "#121417",
+      "oklch": "oklch(0.190 0.007 258.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Field Moss",
+      "hex": "#6E8457",
+      "oklch": "oklch(0.584 0.070 129.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite",
+      "hex": "#2B2D31",
+      "oklch": "oklch(0.297 0.008 264.4)"
+    },
+    {
+      "role": "Danger",
+      "name": "Red Brown",
+      "hex": "#8B2E1F",
+      "oklch": "oklch(0.437 0.130 31.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.007 88.6)",
+    "foreground": "oklch(0.168 0.003 248.0)",
+    "card": "oklch(0.190 0.007 258.4)",
+    "card-foreground": "oklch(0.168 0.003 248.0)",
+    "popover": "oklch(0.190 0.007 258.4)",
+    "popover-foreground": "oklch(0.168 0.003 248.0)",
+    "primary": "oklch(0.642 0.134 66.8)",
+    "primary-foreground": "oklch(0.970 0.007 88.6)",
+    "secondary": "oklch(0.554 0.002 145.5)",
+    "secondary-foreground": "oklch(0.297 0.008 264.4)",
+    "muted": "oklch(0.442 0.002 247.9)",
+    "muted-foreground": "oklch(0.297 0.008 264.4)",
+    "accent": "oklch(0.530 0.107 137.6)",
+    "accent-foreground": "oklch(0.168 0.003 248.0)",
+    "destructive": "oklch(0.642 0.134 66.8)",
+    "border": "oklch(0.343 0.027 134.4)",
+    "input": "oklch(0.343 0.027 134.4)",
+    "ring": "oklch(0.889 0.050 82.1)",
+    "chart-1": "oklch(0.642 0.134 66.8)",
+    "chart-2": "oklch(0.889 0.050 82.1)",
+    "chart-3": "oklch(0.530 0.107 137.6)",
+    "chart-4": "oklch(0.539 0.130 55.0)",
+    "chart-5": "oklch(0.297 0.008 264.4)",
+    "sidebar": "oklch(0.492 0.001 197.1)",
+    "sidebar-foreground": "oklch(0.168 0.003 248.0)",
+    "sidebar-primary": "oklch(0.642 0.134 66.8)",
+    "sidebar-primary-foreground": "oklch(0.970 0.007 88.6)",
+    "sidebar-accent": "oklch(0.249 0.019 73.7)",
+    "sidebar-accent-foreground": "oklch(0.642 0.134 66.8)",
+    "sidebar-border": "oklch(0.343 0.027 134.4)",
+    "sidebar-ring": "oklch(0.889 0.050 82.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.168 0.003 248.0)",
+    "foreground": "oklch(0.970 0.007 88.6)",
+    "card": "oklch(0.255 0.006 258.4)",
+    "card-foreground": "oklch(0.970 0.007 88.6)",
+    "popover": "oklch(0.255 0.006 258.4)",
+    "popover-foreground": "oklch(0.970 0.007 88.6)",
+    "primary": "oklch(0.889 0.050 82.1)",
+    "primary-foreground": "oklch(0.168 0.003 248.0)",
+    "secondary": "oklch(0.363 0.014 141.2)",
+    "secondary-foreground": "oklch(0.970 0.007 88.6)",
+    "muted": "oklch(0.363 0.014 141.2)",
+    "muted-foreground": "oklch(0.801 0.033 124.6)",
+    "accent": "oklch(0.530 0.107 137.6)",
+    "accent-foreground": "oklch(0.168 0.003 248.0)",
+    "destructive": "oklch(0.642 0.134 66.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.889 0.050 82.1)",
+    "chart-1": "oklch(0.889 0.050 82.1)",
+    "chart-2": "oklch(0.642 0.134 66.8)",
+    "chart-3": "oklch(0.530 0.107 137.6)",
+    "chart-4": "oklch(0.539 0.130 55.0)",
+    "chart-5": "oklch(0.584 0.070 129.5)",
+    "sidebar": "oklch(0.229 0.005 248.0)",
+    "sidebar-foreground": "oklch(0.970 0.007 88.6)",
+    "sidebar-primary": "oklch(0.889 0.050 82.1)",
+    "sidebar-primary-foreground": "oklch(0.168 0.003 248.0)",
+    "sidebar-accent": "oklch(0.363 0.014 141.2)",
+    "sidebar-accent-foreground": "oklch(0.970 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.889 0.050 82.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Instrument Sans for clear operational English UI with Noto Sans JP guidance for Japanese labels, field notes, audio states, and compact monitoring tables. JetBrains Mono supports device IDs, channels, timestamps, and metric readouts.",
+  "layout": "Precise 8px grids, shell-ridge dividers, stridulation-line textures, waveform dashboards, compact monitoring cards, readable forms, and night-audio navigation density.",
+  "tags": [
+    "cricket",
+    "field-cricket",
+    "insect",
+    "grassland",
+    "night-audio",
+    "amber",
+    "grass-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cricket/motif.png",
+    "board": "/systems/morphous-cricket/design-system-light.png",
+    "darkBoard": "/systems/morphous-cricket/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cricket/theme.css",
+    "themeJson": "/systems/morphous-cricket/theme.json",
+    "promptsJson": "/systems/morphous-cricket/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent field cricket motif",
+      "asset": "/systems/morphous-cricket/motif.png",
+      "prompt": "Create a high-resolution isolated Morphous motif source: one accurate field cricket with glossy black shell and thorax, dark segmented abdomen, amber-brown legs, fine antennae, crisp feet and wing covers, tactile insect texture, and subtle grass-green reflected accents only where natural. Center the complete cricket with generous padding; do not crop antennae, legs, feet, shell, or abdomen. Place it on a perfectly flat solid #ff00ff chroma-key background for transparent removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, contact shadow, lighting variation, edge glow, text, watermark, props, plants, soil, landscape, or second insect. Workflow record: generated as a chroma-key source, then converted to RGBA motif.png by removing the sampled magenta key with soft matte and despill."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-cricket/design-system-light.png",
+      "prompt": "Create one comprehensive 16:9 light-mode design-system board for \"Cricket\" / \"Morphous Cricket\", a night audio system derived from the field cricket motif. Treat the motif as a glossy black field cricket with amber legs, dark shell texture, fine antennae, grass-green grassland notes, and nocturnal sound rhythm. Include title, motif story, palette swatches, typography, Japanese typography, components, navigation/sidebar, dashboard/data visualization, audio monitoring dashboard, forms, table, command/search, status states, texture/pattern, radius, spacing, shadows, semantic tokens, and generated asset examples. Show buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, charts, meter bars, loading, empty, warning, and success states. Use a premium shadcn/tweakcn-compatible product UI, precise grid, quiet operational layout, 8px-or-less component radius, clean tables, compact charts, subtle stridulation-line texture, shell-ridge dividers, audio waveform rhythm, and grass-blade separators. Palette: black shell ink, amber leg primary, grass green support, night charcoal, dry field straw, moonlit cream, muted graphite, warm resin highlight, and red-brown warning. Use large readable labels; avoid unrelated saturated colors, generic purple or blue gradients, beige-only palette, stock UI kit styling, random brand names, watermarks, misspellings, and illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-cricket/design-system-dark.png",
+      "prompt": "Create one comprehensive 16:9 dark-mode design-system board for \"Cricket\" / \"Morphous Cricket\", a night audio system translated from the same field cricket motif and light board. Preserve the glossy black shell, amber legs, grass-green grassland notes, fine antenna rhythm, stridulation-line texture, shell-ridge dividers, audio waveform language, compact charts, and typography guidance. Include title, Dark Mode label, palette swatches, typography, Japanese typography, components, navigation/sidebar, dashboard/data visualization, audio monitoring dashboard, forms, table, command/search, status states, texture/pattern, radius, spacing, shadows, semantic tokens, and generated asset examples. Show buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, charts, meter bars, loading, empty, warning, and success states. Use a premium shadcn/tweakcn-compatible night product UI, precise grid, 8px-or-less component radius, clean tables, compact charts, nocturnal audio texture, shell ridges, waveform rhythm, and grass-blade separators. Palette: night charcoal background, shell black surfaces, moonlit cream text, amber leg primary, warm resin hover, grass green success/support, field moss muted panels, graphite borders, and red-brown destructive. Use readable labels; avoid neon colors, unrelated saturated colors, generic purple or blue gradients, pure black-only backgrounds, stock UI kit styling, random brand names, watermarks, misspellings, and illegible microtext."
+    }
+  ]
+}

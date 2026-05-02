@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cilantro",
+    "name": "Morphous Cilantro",
+    "motifName": "Cilantro",
+    "motifCategory": "plant",
+    "biome": "market garden",
+    "motif": "cilantro leaf"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stem Cream Wash",
+      "hex": "#F7F6E8",
+      "oklch": "oklch(0.970 0.018 103.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cilantro Shadow Ink",
+      "hex": "#102114",
+      "oklch": "oklch(0.228 0.034 150.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cilantro Leaf",
+      "hex": "#3F8A2F",
+      "oklch": "oklch(0.565 0.147 140.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Garden Lime",
+      "hex": "#74B84B",
+      "oklch": "oklch(0.714 0.159 135.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Lime Glint",
+      "hex": "#DCEB9A",
+      "oklch": "oklch(0.910 0.105 117.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Stem",
+      "hex": "#E9E0B8",
+      "oklch": "oklch(0.904 0.053 96.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Stem Paper",
+      "hex": "#FCFBF0",
+      "oklch": "oklch(0.986 0.014 102.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stem Cream Veil",
+      "hex": "#E5E7D4",
+      "oklch": "oklch(0.921 0.025 111.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Leaf Bed",
+      "hex": "#081A11",
+      "oklch": "oklch(0.199 0.030 160.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Pressed Stem Edge",
+      "hex": "#B8C0A1",
+      "oklch": "oklch(0.793 0.043 119.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bruised Leaf Olive",
+      "hex": "#5D8036",
+      "oklch": "oklch(0.556 0.110 130.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.018 103.4)",
+    "foreground": "oklch(0.228 0.034 150.5)",
+    "card": "oklch(0.986 0.014 102.4)",
+    "card-foreground": "oklch(0.228 0.034 150.5)",
+    "popover": "oklch(0.986 0.014 102.4)",
+    "popover-foreground": "oklch(0.228 0.034 150.5)",
+    "primary": "oklch(0.565 0.147 140.3)",
+    "primary-foreground": "oklch(0.970 0.018 103.4)",
+    "secondary": "oklch(0.980 0.016 102.8)",
+    "secondary-foreground": "oklch(0.199 0.030 160.2)",
+    "muted": "oklch(0.983 0.016 102.8)",
+    "muted-foreground": "oklch(0.199 0.030 160.2)",
+    "accent": "oklch(0.910 0.105 117.1)",
+    "accent-foreground": "oklch(0.228 0.034 150.5)",
+    "destructive": "oklch(0.565 0.147 140.3)",
+    "border": "oklch(0.963 0.018 106.7)",
+    "input": "oklch(0.963 0.018 106.7)",
+    "ring": "oklch(0.714 0.159 135.4)",
+    "chart-1": "oklch(0.565 0.147 140.3)",
+    "chart-2": "oklch(0.714 0.159 135.4)",
+    "chart-3": "oklch(0.910 0.105 117.1)",
+    "chart-4": "oklch(0.904 0.053 96.8)",
+    "chart-5": "oklch(0.199 0.030 160.2)",
+    "sidebar": "oklch(0.980 0.016 102.8)",
+    "sidebar-foreground": "oklch(0.228 0.034 150.5)",
+    "sidebar-primary": "oklch(0.565 0.147 140.3)",
+    "sidebar-primary-foreground": "oklch(0.970 0.018 103.4)",
+    "sidebar-accent": "oklch(0.935 0.028 124.8)",
+    "sidebar-accent-foreground": "oklch(0.565 0.147 140.3)",
+    "sidebar-border": "oklch(0.963 0.018 106.7)",
+    "sidebar-ring": "oklch(0.714 0.159 135.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.228 0.034 150.5)",
+    "foreground": "oklch(0.970 0.018 103.4)",
+    "card": "oklch(0.208 0.031 156.6)",
+    "card-foreground": "oklch(0.970 0.018 103.4)",
+    "popover": "oklch(0.208 0.031 156.6)",
+    "popover-foreground": "oklch(0.970 0.018 103.4)",
+    "primary": "oklch(0.714 0.159 135.4)",
+    "primary-foreground": "oklch(0.228 0.034 150.5)",
+    "secondary": "oklch(0.382 0.026 151.4)",
+    "secondary-foreground": "oklch(0.970 0.018 103.4)",
+    "muted": "oklch(0.382 0.026 151.4)",
+    "muted-foreground": "oklch(0.948 0.021 106.8)",
+    "accent": "oklch(0.910 0.105 117.1)",
+    "accent-foreground": "oklch(0.228 0.034 150.5)",
+    "destructive": "oklch(0.565 0.147 140.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.714 0.159 135.4)",
+    "chart-1": "oklch(0.714 0.159 135.4)",
+    "chart-2": "oklch(0.565 0.147 140.3)",
+    "chart-3": "oklch(0.910 0.105 117.1)",
+    "chart-4": "oklch(0.904 0.053 96.8)",
+    "chart-5": "oklch(0.921 0.025 111.8)",
+    "sidebar": "oklch(0.215 0.033 155.6)",
+    "sidebar-foreground": "oklch(0.970 0.018 103.4)",
+    "sidebar-primary": "oklch(0.714 0.159 135.4)",
+    "sidebar-primary-foreground": "oklch(0.228 0.034 150.5)",
+    "sidebar-accent": "oklch(0.382 0.026 151.4)",
+    "sidebar-accent-foreground": "oklch(0.970 0.018 103.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.714 0.159 135.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English task UI with Japanese typography guidance for harvest queues, route checklists, task capture, status labels, command search, tables, and quick handoff notes.",
+  "layout": "Dense market-garden operations dashboards, compact navigation, 8px radii, lime focus rings, pale stem-cream surfaces, cilantro leaflet textures, and herb-shadow borders.",
+  "tags": [
+    "cilantro",
+    "plant",
+    "market-garden",
+    "cilantro-leaf",
+    "lime-green",
+    "pale-stem-cream",
+    "quick-task-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cilantro/motif.png",
+    "board": "/systems/morphous-cilantro/design-system-light.png",
+    "darkBoard": "/systems/morphous-cilantro/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cilantro/theme.css",
+    "themeJson": "/systems/morphous-cilantro/theme.json",
+    "promptsJson": "/systems/morphous-cilantro/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Cilantro motif",
+      "asset": "/systems/morphous-cilantro/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cilantro transparent motif chroma-key source\nPrimary request: Create only a compact cilantro leaf sprig, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: fresh cilantro leaves with accurate scalloped lobed leaflets, delicate branching pale cream stems, varied lime-green and cilantro-leaf greens, visible fine leaf veins and slight matte botanical texture, market-garden freshness without showing soil, basket, hands, labels, or other herbs.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp opaque edges, natural soft studio light.\nComposition/framing: centered complete cutout with generous padding on all sides; no cropping; no floor plane.\nLighting/mood: quick task system mood, bright, clean, efficient, no cast shadow and no contact shadow.\nColor palette: cilantro leaf green, lime green highlights, pale stem cream, faint garden-neutral shadows only; do not use magenta in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no props, no market crate, no second herb, no flowers, no decorative background, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cilantro/design-system-light.png",
+      "sourceAsset": "/systems/morphous-cilantro/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Cilantro motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Cilantro\".\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: quick task system for a market-garden operations app: task capture, harvest queue, route checklist, team handoff, and rapid status triage; efficient, fresh, scannable, calm, 8px radii throughout.\nColor palette: derive only from the cilantro reference motif: cilantro leaf green, lime green leaf highlights, deep leaf-shadow green, pale cream stems, washed stem-cream backgrounds, faint herb-shadow neutrals. Do not use generic blue, purple, red, orange, or unrelated saturated colors.\nLayout: polished product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, and shadow samples. Include a small cilantro motif cutout preview.\nTypography: compact English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"シラントロ\", \"今日の作業\", \"収穫\", \"完了\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, top navigation, metric cards, task cards, harvest queue, checklist, route timeline, small chart, loading, empty, error, success, warning, and pending states.\nTexture/materials: subtle scalloped cilantro leaflet edge pattern, fine leaf-vein texture, pale stem-cream dividers, lime green focus rings, dense 8px card rhythm, restrained shadows from leaf overlap.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no abstract gradients, no blue/purple default UI, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cilantro/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-cilantro/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nPrimary request: Generate a dark-mode shadcn/tweakcn-like design-system board titled exactly \"Morphous Cilantro\". This is a CILANTRO quick task system for market-garden operations only. Ignore any Basil, Mint, Rosemary, Thyme, Tea Leaf, recipe, cooking, creator, or finance boards visible in the surrounding context.\nReference use: Use the cilantro sprig motif and the Morphous Cilantro light quick-task board as the only style references: scalloped cilantro leaflets, branching pale cream stems, lime green highlights, deep cilantro leaf shadows, quick task and harvest operations UI.\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: quick task system for market-garden operations: task capture, harvest queue, route checklist, team handoff, and rapid status triage; night-mode dispatch desk, dense, fresh, precise, 8px radii throughout.\nColor palette: derive only from cilantro: deep cilantro leaf-shadow backgrounds, dark herb green panels, fresh cilantro green primary controls, lime leaf-highlight charts, pale cream-stem text, washed stem-cream borders and dividers. Status colors must stay herb-derived: success, warning, error, destructive, pending, and info use only deep leaf green, muted olive, pale stem cream, lime green, and cream neutrals. No red, orange, blue, purple, neon, or unrelated saturated colors anywhere.\nLayout: polished dark product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, and shadow samples. Include a small cilantro motif cutout preview, not basil or thyme.\nTypography: compact English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"シラントロ\", \"今日の作業\", \"収穫\", \"完了\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, top navigation, metric cards, task cards, harvest queue, checklist, route timeline, small chart, loading, empty, error, success, warning, and pending states.\nTexture/materials: subtle scalloped cilantro leaflet edge pattern, dark leaf-vein texture, pale stem-cream dividers, lime green focus rings, dense 8px card rhythm, restrained shadows from leaf overlap.\nHard exclusions: no recipe cards, no food photos, no kitchen, no cooking timers, no creator dashboard, no basil plant, no mint sprig, no rosemary twig, no thyme branch, no tea leaf, no red/orange/yellow/blue/purple alert defaults, no watermark."
+    }
+  ]
+}

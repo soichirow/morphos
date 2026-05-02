@@ -1,0 +1,166 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-coconut-crab",
+  "name": "Morphous Coconut Crab",
+  "motifName": "Coconut Crab",
+  "motifCategory": "crustacean",
+  "biome": "island forest",
+  "motif": "coconut crab claw",
+  "description": "A shadcn/tweakcn-compatible heavyweight logistics system derived from a coconut crab claw: shell-blue operational actions, violet armor shadows, sand-worn edge highlights, hinge-brown structure, and rugged shell-bump texture for cargo, route, dock, manifest, and inventory workflows.",
+  "typography": "Dense English logistics UI with tabular operational numbers, strong compact headings, and Noto Sans JP guidance for Japanese manifest, route, dock, cargo, and ETA interfaces.",
+  "layout": "Load-bearing 8px logistics grids, dark indigo navigation rails, route maps, shipment metrics, manifest tables, command search, status chips, shell-bump texture samples, hinge-line dividers, and restrained 8px cards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "coconut-crab",
+    "crustacean",
+    "island-forest",
+    "heavyweight-logistics",
+    "shell-blue",
+    "shell-violet",
+    "sand-brown",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Cream",
+      "hex": "#F6F4EE"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Indigo",
+      "hex": "#182244"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Blue",
+      "hex": "#2D3E7A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shell Violet",
+      "hex": "#5A468A"
+    },
+    {
+      "role": "Accent",
+      "name": "Sand Tan",
+      "hex": "#CBA46A"
+    },
+    {
+      "role": "Signal",
+      "name": "Seafoam",
+      "hex": "#2E665A"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#FFFEFA"
+    },
+    {
+      "role": "Muted",
+      "name": "Claw Gray",
+      "hex": "#AEB3BA"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Gray",
+      "hex": "#E3E6EA"
+    },
+    {
+      "role": "Depth",
+      "name": "Hinge Brown",
+      "hex": "#3A2A1F"
+    },
+    {
+      "role": "Warning",
+      "name": "Driftwood Warning",
+      "hex": "#C79A2E"
+    },
+    {
+      "role": "Danger",
+      "name": "Alert Red",
+      "hex": "#B2333A"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.967 0.008 91.5)",
+    "foreground": "oklch(0.263 0.065 269.2)",
+    "card": "oklch(0.997 0.005 95.1)",
+    "card-foreground": "oklch(0.263 0.065 269.2)",
+    "popover": "oklch(0.997 0.005 95.1)",
+    "popover-foreground": "oklch(0.263 0.065 269.2)",
+    "primary": "oklch(0.383 0.104 269.2)",
+    "primary-foreground": "oklch(0.967 0.008 91.5)",
+    "secondary": "oklch(0.924 0.006 255.5)",
+    "secondary-foreground": "oklch(0.263 0.065 269.2)",
+    "muted": "oklch(0.924 0.006 255.5)",
+    "muted-foreground": "oklch(0.558 0.057 73.9)",
+    "accent": "oklch(0.448 0.109 295.2)",
+    "accent-foreground": "oklch(0.967 0.008 91.5)",
+    "destructive": "oklch(0.515 0.163 22.1)",
+    "border": "oklch(0.924 0.006 255.5)",
+    "input": "oklch(0.924 0.006 255.5)",
+    "ring": "oklch(0.383 0.104 269.2)",
+    "chart-1": "oklch(0.383 0.104 269.2)",
+    "chart-2": "oklch(0.448 0.109 295.2)",
+    "chart-3": "oklch(0.741 0.088 76.6)",
+    "chart-4": "oklch(0.469 0.063 177.5)",
+    "chart-5": "oklch(0.558 0.057 73.9)",
+    "sidebar": "oklch(0.263 0.065 269.2)",
+    "sidebar-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-primary": "oklch(0.383 0.104 269.2)",
+    "sidebar-primary-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-accent": "oklch(0.448 0.109 295.2)",
+    "sidebar-accent-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.383 0.104 269.2)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.181 0.011 260.6)",
+    "foreground": "oklch(0.963 0.015 80.7)",
+    "card": "oklch(0.245 0.026 255.8)",
+    "card-foreground": "oklch(0.963 0.015 80.7)",
+    "popover": "oklch(0.245 0.026 255.8)",
+    "popover-foreground": "oklch(0.963 0.015 80.7)",
+    "primary": "oklch(0.596 0.175 263.8)",
+    "primary-foreground": "oklch(0.181 0.011 260.6)",
+    "secondary": "oklch(0.324 0.030 241.2)",
+    "secondary-foreground": "oklch(0.963 0.015 80.7)",
+    "muted": "oklch(0.324 0.030 241.2)",
+    "muted-foreground": "oklch(0.765 0.011 256.7)",
+    "accent": "oklch(0.561 0.125 296.8)",
+    "accent-foreground": "oklch(0.963 0.015 80.7)",
+    "destructive": "oklch(0.515 0.163 22.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.596 0.175 263.8)",
+    "chart-1": "oklch(0.596 0.175 263.8)",
+    "chart-2": "oklch(0.561 0.125 296.8)",
+    "chart-3": "oklch(0.776 0.091 79.7)",
+    "chart-4": "oklch(0.469 0.063 177.5)",
+    "chart-5": "oklch(0.765 0.011 256.7)",
+    "sidebar": "oklch(0.181 0.011 260.6)",
+    "sidebar-foreground": "oklch(0.963 0.015 80.7)",
+    "sidebar-primary": "oklch(0.596 0.175 263.8)",
+    "sidebar-primary-foreground": "oklch(0.181 0.011 260.6)",
+    "sidebar-accent": "oklch(0.306 0.041 257.3)",
+    "sidebar-accent-foreground": "oklch(0.963 0.015 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.596 0.175 263.8)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

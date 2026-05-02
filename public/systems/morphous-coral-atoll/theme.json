@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-coral-atoll",
+    "name": "Morphous Coral Atoll",
+    "motifName": "Coral Atoll",
+    "motifCategory": "landscape",
+    "biome": "Tropical lagoon",
+    "motif": "coral atoll"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand White",
+      "hex": "#fff7ea",
+      "oklch": "oklch(0.979 0.019 80.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Lagoon Ink",
+      "hex": "#002b33",
+      "oklch": "oklch(0.266 0.047 213.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Aqua Lagoon",
+      "hex": "#00b8c8",
+      "oklch": "oklch(0.715 0.122 205.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shallow Lagoon",
+      "hex": "#70e1e7",
+      "oklch": "oklch(0.846 0.103 200.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Coral",
+      "hex": "#ff7a66",
+      "oklch": "oklch(0.731 0.166 30.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Palm Green",
+      "hex": "#1f7a4a",
+      "oklch": "oklch(0.515 0.113 155.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Surface",
+      "hex": "#f8f3e6",
+      "oklch": "oklch(0.965 0.018 89.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Mist",
+      "hex": "#b6f3f6",
+      "oklch": "oklch(0.924 0.061 199.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Reef",
+      "hex": "#001f26",
+      "oklch": "oklch(0.220 0.039 215.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.019 80.1)",
+    "foreground": "oklch(0.266 0.047 213.5)",
+    "card": "oklch(0.965 0.018 89.4)",
+    "card-foreground": "oklch(0.266 0.047 213.5)",
+    "popover": "oklch(0.965 0.018 89.4)",
+    "popover-foreground": "oklch(0.266 0.047 213.5)",
+    "primary": "oklch(0.715 0.122 205.8)",
+    "primary-foreground": "oklch(0.979 0.019 80.1)",
+    "secondary": "oklch(0.971 0.018 86.1)",
+    "secondary-foreground": "oklch(0.220 0.039 215.4)",
+    "muted": "oklch(0.968 0.018 86.1)",
+    "muted-foreground": "oklch(0.220 0.039 215.4)",
+    "accent": "oklch(0.731 0.166 30.3)",
+    "accent-foreground": "oklch(0.266 0.047 213.5)",
+    "destructive": "oklch(0.715 0.122 205.8)",
+    "border": "oklch(0.948 0.022 171.8)",
+    "input": "oklch(0.948 0.022 171.8)",
+    "ring": "oklch(0.846 0.103 200.0)",
+    "chart-1": "oklch(0.715 0.122 205.8)",
+    "chart-2": "oklch(0.846 0.103 200.0)",
+    "chart-3": "oklch(0.731 0.166 30.3)",
+    "chart-4": "oklch(0.515 0.113 155.3)",
+    "chart-5": "oklch(0.220 0.039 215.4)",
+    "sidebar": "oklch(0.968 0.018 86.1)",
+    "sidebar-foreground": "oklch(0.266 0.047 213.5)",
+    "sidebar-primary": "oklch(0.715 0.122 205.8)",
+    "sidebar-primary-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-accent": "oklch(0.927 0.023 161.7)",
+    "sidebar-accent-foreground": "oklch(0.715 0.122 205.8)",
+    "sidebar-border": "oklch(0.948 0.022 171.8)",
+    "sidebar-ring": "oklch(0.846 0.103 200.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.266 0.047 213.5)",
+    "foreground": "oklch(0.979 0.019 80.1)",
+    "card": "oklch(0.235 0.041 213.9)",
+    "card-foreground": "oklch(0.979 0.019 80.1)",
+    "popover": "oklch(0.235 0.041 213.9)",
+    "popover-foreground": "oklch(0.979 0.019 80.1)",
+    "primary": "oklch(0.846 0.103 200.0)",
+    "primary-foreground": "oklch(0.266 0.047 213.5)",
+    "secondary": "oklch(0.398 0.044 208.7)",
+    "secondary-foreground": "oklch(0.979 0.019 80.1)",
+    "muted": "oklch(0.398 0.044 208.7)",
+    "muted-foreground": "oklch(0.952 0.025 178.4)",
+    "accent": "oklch(0.731 0.166 30.3)",
+    "accent-foreground": "oklch(0.266 0.047 213.5)",
+    "destructive": "oklch(0.715 0.122 205.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.846 0.103 200.0)",
+    "chart-1": "oklch(0.846 0.103 200.0)",
+    "chart-2": "oklch(0.715 0.122 205.8)",
+    "chart-3": "oklch(0.731 0.166 30.3)",
+    "chart-4": "oklch(0.515 0.113 155.3)",
+    "chart-5": "oklch(0.924 0.061 199.9)",
+    "sidebar": "oklch(0.244 0.043 215.6)",
+    "sidebar-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-primary": "oklch(0.846 0.103 200.0)",
+    "sidebar-primary-foreground": "oklch(0.266 0.047 213.5)",
+    "sidebar-accent": "oklch(0.398 0.044 208.7)",
+    "sidebar-accent-foreground": "oklch(0.979 0.019 80.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.846 0.103 200.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp booking workflows with Noto Sans JP guidance for headings, body copy, labels, travel names, prices, and dates.",
+  "layout": "Airy 8px booking grids, lagoon-divider navigation, sand-card surfaces, coral focus states, and destination-first dashboard modules.",
+  "tags": [
+    "coral-atoll",
+    "landscape",
+    "tropical-lagoon",
+    "aqua",
+    "travel-booking",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-coral-atoll/motif.png",
+    "board": "/systems/morphous-coral-atoll/design-system-light.png",
+    "darkBoard": "/systems/morphous-coral-atoll/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-coral-atoll/theme.css",
+    "themeJson": "/systems/morphous-coral-atoll/theme.json",
+    "promptsJson": "/systems/morphous-coral-atoll/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent coral atoll motif source",
+      "asset": "/systems/morphous-coral-atoll/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a coral atoll motif for a tropical lagoon travel booking system, isolated full subject, no text.\nSubject: A compact landscape cutout of a coral atoll: bright aqua lagoon ring, warm coral reef edge, pale sand crescent islands, a few small palm silhouettes, shallow turquoise water, reef texture, and clean tropical geometry. Keep it as a self-contained motif emblem rather than a full background scene.\nComposition/framing: centered complete motif with generous padding; do not crop the lagoon ring, reef edge, sand islands, or palms.\nLighting/mood: clean daylight, premium travel booking system mood, natural aqua lagoon, coral, sand, and palm contrast.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no people, no boats, no hotels, no airplanes, no text, no watermark, no decorative background, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-coral-atoll/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Coral Atoll\" derived from the visible transparent coral atoll motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from aqua lagoon water, warm coral reef, pale sand, palm green, and tropical travel-booking geometry. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board, high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Coral Atoll, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Booking Search, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: booking search bar, date picker, guest selector, destination cards, itinerary sidebar navigation, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, lagoon ripple texture samples.\nStyle/medium: premium shadcn/tweakcn-style travel booking product design system, precise grid, 8px card radius, airy booking workflow surfaces, lagoon dividers, coral focus rings, sand-white cards, restrained palm-green signals.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: aqua lagoon, coral, sand, palm green, deep lagoon ink.\nText: short readable UI labels; no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Coral Atoll\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-coral-atoll/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Coral Atoll design-system board. It must feel like the same travel booking system translated to dark mode, not a new theme.\nReference use: Use the visible transparent coral atoll motif and the visible light-mode board as references. Preserve the aqua lagoon primary palette roles, coral booking action, sand surfaces, palm-green status signals, lagoon ripple texture, travel booking controls, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board, high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Coral Atoll, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Booking Search, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: deep lagoon ink background, warm sand text, aqua lagoon primary accents, coral search and destructive accents, palm green success states, dark reef-card surfaces, crisp cards and controls, restrained contrast for a premium travel booking system.\nUI coverage: dark itinerary sidebar, booking search bar, date picker, guest selector, destination cards, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nText: short readable UI labels; no long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no flat pure-black-only background, no watermark, no random brand names, no misspelling of \"Morphous Coral Atoll\"."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cormorant",
+    "name": "Morphous Cormorant",
+    "motifName": "Cormorant Silhouette",
+    "motifCategory": "bird",
+    "biome": "Rocky coast",
+    "motif": "cormorant silhouette"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fog White",
+      "hex": "#f4f7f6",
+      "oklch": "oklch(0.974 0.003 174.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Feather",
+      "hex": "#111417",
+      "oklch": "oklch(0.189 0.008 248.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Teal Water",
+      "hex": "#137c7a",
+      "oklch": "oklch(0.532 0.087 192.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rock Grey",
+      "hex": "#8f9698",
+      "oklch": "oklch(0.668 0.009 216.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tide Glass",
+      "hex": "#5fb7ad",
+      "oklch": "oklch(0.722 0.087 185.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Alert Rust",
+      "hex": "#b65a3a",
+      "oklch": "oklch(0.573 0.128 39.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Grey",
+      "hex": "#d7dcda",
+      "oklch": "oklch(0.890 0.006 170.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Basalt Mist",
+      "hex": "#6f7778",
+      "oklch": "oklch(0.563 0.010 205.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Ink",
+      "hex": "#1d2426",
+      "oklch": "oklch(0.254 0.011 216.9)"
+    },
+    {
+      "role": "Chart",
+      "name": "Kelp Line",
+      "hex": "#6f8e66",
+      "oklch": "oklch(0.612 0.069 138.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.974 0.003 174.5)",
+    "foreground": "oklch(0.189 0.008 248.2)",
+    "card": "oklch(0.890 0.006 170.4)",
+    "card-foreground": "oklch(0.189 0.008 248.2)",
+    "popover": "oklch(0.890 0.006 170.4)",
+    "popover-foreground": "oklch(0.189 0.008 248.2)",
+    "primary": "oklch(0.532 0.087 192.8)",
+    "primary-foreground": "oklch(0.974 0.003 174.5)",
+    "secondary": "oklch(0.925 0.004 179.7)",
+    "secondary-foreground": "oklch(0.254 0.011 216.9)",
+    "muted": "oklch(0.914 0.006 170.4)",
+    "muted-foreground": "oklch(0.254 0.011 216.9)",
+    "accent": "oklch(0.722 0.087 185.8)",
+    "accent-foreground": "oklch(0.189 0.008 248.2)",
+    "destructive": "oklch(0.532 0.087 192.8)",
+    "border": "oklch(0.778 0.007 185.2)",
+    "input": "oklch(0.778 0.007 185.2)",
+    "ring": "oklch(0.668 0.009 216.7)",
+    "chart-1": "oklch(0.532 0.087 192.8)",
+    "chart-2": "oklch(0.668 0.009 216.7)",
+    "chart-3": "oklch(0.722 0.087 185.8)",
+    "chart-4": "oklch(0.573 0.128 39.5)",
+    "chart-5": "oklch(0.254 0.011 216.9)",
+    "sidebar": "oklch(0.919 0.005 179.7)",
+    "sidebar-foreground": "oklch(0.189 0.008 248.2)",
+    "sidebar-primary": "oklch(0.532 0.087 192.8)",
+    "sidebar-primary-foreground": "oklch(0.974 0.003 174.5)",
+    "sidebar-accent": "oklch(0.844 0.019 188.3)",
+    "sidebar-accent-foreground": "oklch(0.532 0.087 192.8)",
+    "sidebar-border": "oklch(0.778 0.007 185.2)",
+    "sidebar-ring": "oklch(0.668 0.009 216.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.189 0.008 248.2)",
+    "foreground": "oklch(0.974 0.003 174.5)",
+    "card": "oklch(0.234 0.010 219.9)",
+    "card-foreground": "oklch(0.974 0.003 174.5)",
+    "popover": "oklch(0.234 0.010 219.9)",
+    "popover-foreground": "oklch(0.974 0.003 174.5)",
+    "primary": "oklch(0.668 0.009 216.7)",
+    "primary-foreground": "oklch(0.189 0.008 248.2)",
+    "secondary": "oklch(0.327 0.010 216.8)",
+    "secondary-foreground": "oklch(0.974 0.003 174.5)",
+    "muted": "oklch(0.327 0.010 216.8)",
+    "muted-foreground": "oklch(0.794 0.006 197.0)",
+    "accent": "oklch(0.722 0.087 185.8)",
+    "accent-foreground": "oklch(0.189 0.008 248.2)",
+    "destructive": "oklch(0.532 0.087 192.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.668 0.009 216.7)",
+    "chart-1": "oklch(0.668 0.009 216.7)",
+    "chart-2": "oklch(0.532 0.087 192.8)",
+    "chart-3": "oklch(0.722 0.087 185.8)",
+    "chart-4": "oklch(0.573 0.128 39.5)",
+    "chart-5": "oklch(0.563 0.010 205.8)",
+    "sidebar": "oklch(0.219 0.008 240.3)",
+    "sidebar-foreground": "oklch(0.974 0.003 174.5)",
+    "sidebar-primary": "oklch(0.668 0.009 216.7)",
+    "sidebar-primary-foreground": "oklch(0.189 0.008 248.2)",
+    "sidebar-accent": "oklch(0.327 0.010 216.8)",
+    "sidebar-accent-foreground": "oklch(0.974 0.003 174.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.668 0.009 216.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for efficient media UI with Noto Sans JP guidance for Japanese labels, tabular encoding data, clip states, and dense operations tables.",
+  "layout": "Compact 8px grids, cormorant-silhouette navigation marks, waterline teal dividers, rocky grey panels, feather-sheen surfaces, and precise status-heavy media dashboards.",
+  "tags": [
+    "cormorant",
+    "bird",
+    "rocky-coast",
+    "media-system",
+    "black-feather",
+    "teal-water",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cormorant/motif.png",
+    "board": "/systems/morphous-cormorant/design-system-light.png",
+    "darkBoard": "/systems/morphous-cormorant/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cormorant/theme.css",
+    "themeJson": "/systems/morphous-cormorant/theme.json",
+    "promptsJson": "/systems/morphous-cormorant/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Cormorant motif",
+      "asset": "/systems/morphous-cormorant/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cormorant transparent motif chroma-key source\nPrimary request: Create only an isolated cormorant silhouette motif for a design-system catalog: one complete coastal cormorant standing on no ground, no environment, no props, no text.\nSubject: A real cormorant in a strong efficient profile silhouette with slightly opened black feather wings, long neck, hooked beak, compact streamlined body, webbed feet visible, glossy black feather texture, teal water rim highlights on feathers, subtle grey coastal light on beak and legs, crisp recognizable cormorant outline.\nComposition/framing: centered complete cutout with generous padding; show full bird, beak, tail, feet, wing edges, and feather silhouette without cropping; poised rocky-coast media-system mascot silhouette, realistic but clean enough to use as a catalog motif.\nLighting/mood: clean studio light preserving black feather body, teal water reflections, grey coastal edge highlights, and efficient sharp silhouette.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no ocean background, no rocks, no fish, no sky, no second bird, no cartoon, no logo, no text, no watermark, no props, no landscape, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-cormorant/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Cormorant\" / \"Cormorant Silhouette\", an efficient media system inspired by a cormorant silhouette on a rocky coast.\nReference motif: isolated cormorant silhouette with glossy black feathers, teal water reflections, grey rocky coast neutrals, long neck, hooked beak, compact efficient posture, crisp feather edges.\nPalette direction: black feather #111417, ink plume #252b2d, teal water #137c7a, tide glass #5fb7ad, rock grey #8f9698, fog white #f4f7f6, shell grey #d7dcda, alert rust #b65a3a, chart kelp #6f8e66.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Cormorant\", motif story, palette swatches with hex labels, typography, Japanese typography with 日本語 UI examples, components, left navigation, top navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, token samples, and generated asset examples.\nProduct context: efficient media operations dashboard for coastal video ingest, live channel routing, clip queues, encoding status, tide-safe capture windows, storage health, editorial review, and field notes.\nUI style: premium shadcn/tweakcn-style product system; compact efficient media UI; restrained rocky-coast neutrals; black feather primary actions; teal focus rings and charts; grey rock cards; clean tables; status badges; progress meters; line and bar charts; timeline module; form controls; search command; readable labels.\nTypography: English guidance for Inter or Geist-style media operations UI; Japanese guidance for Noto Sans JP, compact 日本語 labels, tabular numbers, and clear dashboard hierarchy.\nTexture/details: subtle black feather sheen, waterline teal dividers, basalt-like grey surfaces, angular cormorant silhouette icon accents, 8px radius, thin borders, precise spacing.\nText: use short readable UI labels only; no paragraphs. Include English and Japanese guidance clearly.\nConstraints: no random brand names, no watermark, no illegible microtext, no generic purple/blue gradients, no unrelated saturated colors, no cartoon bird, no extra animals, no logo lockup beyond Morphous Cormorant."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-cormorant/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Cormorant\" / \"Cormorant Silhouette\". It must feel like the same efficient coastal media operations system translated to dark mode.\nReference motif and light system: cormorant silhouette, glossy black feathers, teal water reflection, grey rocky coast neutrals, compact efficient media UI, shadcn/tweakcn components, 8px radius, precise tables and dashboards.\nPalette direction: deep black feather #111417, wet ink #1d2426, dark slate rock #2d3436, teal water #137c7a, tide glass #5fb7ad, gull grey text #d7dcda, fog white #f4f7f6, muted rock #8f9698, alert rust #b65a3a, chart kelp #6f8e66.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Cormorant\", \"Dark Mode\", palette swatches with hex labels, typography, Japanese typography with 日本語 UI examples, components, left navigation, top navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, token samples, and generated asset examples.\nProduct context: efficient media operations dashboard for coastal video ingest, live channel routing, clip queues, encoding status, tide-safe capture windows, storage health, editorial review, and field notes.\nUI style: premium shadcn/tweakcn-style product system; deep feather-black surfaces, slate rocky cards, teal focus rings and active states, grey readable text, restrained rust alerts, green kelp success chart line, compact media timeline, dense but clear operations table, form controls, search command, status badges, progress meters.\nTypography: English guidance for Inter or Geist-style media operations UI; Japanese guidance for Noto Sans JP, compact 日本語 labels, tabular numbers, and clear dashboard hierarchy.\nTexture/details: subtle feather sheen on dark panels, waterline teal dividers, basalt grey borders, angular cormorant silhouette icon accents, precise spacing and 8px radius.\nText: use short readable UI labels only; no paragraphs. Include English and Japanese guidance clearly.\nConstraints: no neon cyberpunk, no pure flat black, no random brand names, no watermark, no illegible microtext, no generic purple gradients, no unrelated saturated colors, no cartoon bird, no extra animals."
+    }
+  ]
+}

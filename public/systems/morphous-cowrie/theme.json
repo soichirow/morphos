@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cowrie",
+    "name": "Morphous Cowrie",
+    "motifName": "Cowrie Shell",
+    "motifCategory": "marine",
+    "biome": "Reef Flat",
+    "motif": "cowrie shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Porcelain Cream",
+      "hex": "#FBF9F6",
+      "oklch": "oklch(0.983 0.005 78.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dark Coffee",
+      "hex": "#3B2A1E",
+      "oklch": "oklch(0.301 0.033 56.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Caramel Amber",
+      "hex": "#D4A36A",
+      "oklch": "oklch(0.748 0.094 69.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Warm Sand",
+      "hex": "#F2E8D8",
+      "oklch": "oklch(0.935 0.024 79.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cowrie Spot",
+      "hex": "#8A5A2B",
+      "oklch": "oklch(0.511 0.089 62.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Tawny Freckle",
+      "hex": "#B9814A",
+      "oklch": "oklch(0.648 0.100 64.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Ivory",
+      "hex": "#FFFDF9",
+      "oklch": "oklch(0.994 0.006 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Shadow",
+      "hex": "#D6D2C8",
+      "oklch": "oklch(0.864 0.014 88.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Aperture",
+      "hex": "#1F1611",
+      "oklch": "oklch(0.210 0.018 50.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.005 78.3)",
+    "foreground": "oklch(0.301 0.033 56.3)",
+    "card": "oklch(0.994 0.006 84.6)",
+    "card-foreground": "oklch(0.301 0.033 56.3)",
+    "popover": "oklch(0.994 0.006 84.6)",
+    "popover-foreground": "oklch(0.301 0.033 56.3)",
+    "primary": "oklch(0.748 0.094 69.8)",
+    "primary-foreground": "oklch(0.983 0.005 78.3)",
+    "secondary": "oklch(0.989 0.005 78.3)",
+    "secondary-foreground": "oklch(0.210 0.018 50.5)",
+    "muted": "oklch(0.991 0.006 84.6)",
+    "muted-foreground": "oklch(0.210 0.018 50.5)",
+    "accent": "oklch(0.511 0.089 62.8)",
+    "accent-foreground": "oklch(0.301 0.033 56.3)",
+    "destructive": "oklch(0.748 0.094 69.8)",
+    "border": "oklch(0.949 0.010 93.6)",
+    "input": "oklch(0.949 0.010 93.6)",
+    "ring": "oklch(0.935 0.024 79.7)",
+    "chart-1": "oklch(0.748 0.094 69.8)",
+    "chart-2": "oklch(0.935 0.024 79.7)",
+    "chart-3": "oklch(0.511 0.089 62.8)",
+    "chart-4": "oklch(0.648 0.100 64.0)",
+    "chart-5": "oklch(0.210 0.018 50.5)",
+    "sidebar": "oklch(0.991 0.006 84.6)",
+    "sidebar-foreground": "oklch(0.301 0.033 56.3)",
+    "sidebar-primary": "oklch(0.748 0.094 69.8)",
+    "sidebar-primary-foreground": "oklch(0.983 0.005 78.3)",
+    "sidebar-accent": "oklch(0.965 0.016 73.7)",
+    "sidebar-accent-foreground": "oklch(0.748 0.094 69.8)",
+    "sidebar-border": "oklch(0.949 0.010 93.6)",
+    "sidebar-ring": "oklch(0.935 0.024 79.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.301 0.033 56.3)",
+    "foreground": "oklch(0.983 0.005 78.3)",
+    "card": "oklch(0.243 0.024 55.0)",
+    "card-foreground": "oklch(0.983 0.005 78.3)",
+    "popover": "oklch(0.243 0.024 55.0)",
+    "popover-foreground": "oklch(0.983 0.005 78.3)",
+    "primary": "oklch(0.935 0.024 79.7)",
+    "primary-foreground": "oklch(0.301 0.033 56.3)",
+    "secondary": "oklch(0.374 0.015 59.2)",
+    "secondary-foreground": "oklch(0.983 0.005 78.3)",
+    "muted": "oklch(0.374 0.015 59.2)",
+    "muted-foreground": "oklch(0.929 0.009 84.6)",
+    "accent": "oklch(0.511 0.089 62.8)",
+    "accent-foreground": "oklch(0.301 0.033 56.3)",
+    "destructive": "oklch(0.748 0.094 69.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.935 0.024 79.7)",
+    "chart-1": "oklch(0.935 0.024 79.7)",
+    "chart-2": "oklch(0.748 0.094 69.8)",
+    "chart-3": "oklch(0.511 0.089 62.8)",
+    "chart-4": "oklch(0.648 0.100 64.0)",
+    "chart-5": "oklch(0.864 0.014 88.7)",
+    "sidebar": "oklch(0.261 0.026 56.0)",
+    "sidebar-foreground": "oklch(0.983 0.005 78.3)",
+    "sidebar-primary": "oklch(0.935 0.024 79.7)",
+    "sidebar-primary-foreground": "oklch(0.301 0.033 56.3)",
+    "sidebar-accent": "oklch(0.374 0.015 59.2)",
+    "sidebar-accent-foreground": "oklch(0.983 0.005 78.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.935 0.024 79.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Minimal luxury product UI with refined English hierarchy, Japanese typography guidance, crisp labels, and calm tabular numerals for commerce and dashboard surfaces.",
+  "layout": "Polished 8px grids, glossy shell borders, compact dashboard modules, speckled cowrie texture, restrained shadows, and calm reef-flat spacing.",
+  "tags": [
+    "cowrie",
+    "marine",
+    "reef-flat",
+    "shell",
+    "minimal-luxury",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cowrie/motif.png",
+    "board": "/systems/morphous-cowrie/design-system-light.png",
+    "darkBoard": "/systems/morphous-cowrie/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cowrie/theme.css",
+    "themeJson": "/systems/morphous-cowrie/theme.json",
+    "promptsJson": "/systems/morphous-cowrie/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cowrie shell motif",
+      "asset": "/systems/morphous-cowrie/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cowrie transparent motif chroma-key source\nPrimary request: Create only a cowrie shell motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: a single polished cowrie shell, dorsal view plus slight three-quarter depth, accurate oval cowrie form with glossy porcelain-like cream shell, warm caramel-brown spots, subtle sand-beige undertones, darker coffee freckling near the edges, natural aperture ridges just hinted along one side, elegant reef-flat material detail. It must read as cowrie shell, not generic seashell, snail shell, egg, stone, or jewelry bead.\nComposition/framing: centered complete cutout with generous padding; do not crop any part of the shell. No props, no sand, no water, no environment.\nLighting/mood: clean controlled studio light that preserves glossy shell highlights and natural cream-brown color; no cast shadow, no contact shadow, no reflection from the background color.\nTransparent workflow: place the shell on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or vignette. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no logo, no decorative frame, no second shell, no pearl, no coral, no beach scene, no visible green or magenta spill on the shell."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cowrie/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cowrie light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Cowrie\", derived from the visible cowrie shell cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible minimal luxury product UI theme.\nCanvas: exact 16:9 landscape board, 3840 x 2160 feel, crisp high-resolution design-system presentation with a precise grid and large readable labels.\nRequired visible sections: Morphous Cowrie, Cowrie Shell, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Extract the palette and interaction language from the shell: porcelain cream gloss, warm sand beige, caramel amber spots, tawny edge freckles, dark coffee markings, shell ivory highlights, and reef-flat mineral shadows. The board must read as cowrie shell and minimal luxury, not generic beige spa, pearl, marble, or desert.\nTypography: English product UI examples plus Japanese guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI. Keep text short, large, and legible.\nUI coverage: primary/secondary/destructive/ghost/icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, sidebar navigation, top nav, breadcrumbs, dashboard metric cards, line chart, bar chart, donut chart, empty state, loading state, error state, pagination, tooltip, popover, simple icons.\nStyle: minimal luxury system, polished 8px radius, porcelain-cream surfaces, sand cards, amber-cowrie primary actions, coffee-spot data accents, ivory highlights, fine speckled shell texture, subtle glossy borders, restrained shadows, compact product dashboard and pricing/table components.\nLayout: place a small motif reference tile and palette on the left, core components in the center, charts/data/forms/tokens on the right and lower bands. Use coherent spacing and avoid cramped micro text.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no beach scene background, no pearl or jewelry theme, no marble, no random brand names, no watermark, no misspelling of \"Morphous Cowrie\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cowrie/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cowrie dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Cowrie\". It must feel like the visible light-mode Cowrie board translated to dark mode, not a new theme, and it must remain derived from the visible cowrie shell cutout.\nCanvas: exact 16:9 landscape board, 3840 x 2160 feel, crisp high-resolution design-system presentation with a precise grid and large readable labels.\nRequired visible sections: Morphous Cowrie, Cowrie Shell, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nReference use: Preserve the same minimal luxury system language as the light board: porcelain-cream highlights, warm sand surfaces, caramel amber active states, tawny freckle accents, deep coffee text and dark panels, mineral reef-flat muted grays, fine cowrie spot texture, compact product dashboard components, and 8px shadcn/tweakcn grid.\nTypography: English product UI examples plus Japanese guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI. Keep text short, large, and legible on dark shell surfaces.\nUI coverage: primary/secondary/destructive/ghost/icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, sidebar navigation, top nav, breadcrumbs, dashboard metric cards, line chart, bar chart, donut chart, empty state, loading state, error state, pagination, tooltip, popover, simple icons.\nVisual details: deep coffee and umber backgrounds, off-white porcelain foreground, sand card panels, amber-cowrie primary buttons, glossy ivory borders, tawny spot chart series, subtle shell speckle texture overlays, restrained shadows, no flat pure black.\nLayout: match the visible light board structure with palette/reference on the left, core controls in the center, navigation/dashboard/charts on the right and lower bands, tokens and asset examples along the bottom.\nConstraints: no neon colors, no generic purple or blue gradients, no beach scene background, no pearl or jewelry theme, no marble, no pure-black-only flat background, no random brand names, no watermark, no misspelling of \"Morphous Cowrie\", no illegible tiny paragraphs."
+    }
+  ]
+}

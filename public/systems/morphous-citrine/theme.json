@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-citrine",
+    "name": "Morphous Citrine",
+    "motifName": "Citrine Crystal",
+    "motifCategory": "mineral",
+    "biome": "Crystal Pocket",
+    "motif": "honey-yellow crystal facets"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clear Quartz",
+      "hex": "#fff8e6",
+      "oklch": "oklch(0.980 0.025 89.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ledger Ink",
+      "hex": "#24221c",
+      "oklch": "oklch(0.252 0.011 91.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Honey Yield",
+      "hex": "#f4b43f",
+      "oklch": "oklch(0.810 0.147 78.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Crystal Grey",
+      "hex": "#9aa0a2",
+      "oklch": "oklch(0.702 0.007 219.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Warm Bullion",
+      "hex": "#d98a1c",
+      "oklch": "oklch(0.699 0.146 67.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Mint Positive",
+      "hex": "#3f8f72",
+      "oklch": "oklch(0.592 0.091 166.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Vein",
+      "hex": "#e8dcc0",
+      "oklch": "oklch(0.897 0.039 87.6)"
+    },
+    {
+      "role": "Risk",
+      "name": "Risk Garnet",
+      "hex": "#b84b45",
+      "oklch": "oklch(0.556 0.143 25.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Graphite",
+      "hex": "#343434",
+      "oklch": "oklch(0.325 0.000 89.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.025 89.2)",
+    "foreground": "oklch(0.252 0.011 91.7)",
+    "card": "oklch(0.897 0.039 87.6)",
+    "card-foreground": "oklch(0.252 0.011 91.7)",
+    "popover": "oklch(0.897 0.039 87.6)",
+    "popover-foreground": "oklch(0.252 0.011 91.7)",
+    "primary": "oklch(0.810 0.147 78.5)",
+    "primary-foreground": "oklch(0.980 0.025 89.2)",
+    "secondary": "oklch(0.933 0.034 88.1)",
+    "secondary-foreground": "oklch(0.325 0.000 89.9)",
+    "muted": "oklch(0.920 0.035 88.8)",
+    "muted-foreground": "oklch(0.325 0.000 89.9)",
+    "accent": "oklch(0.699 0.146 67.7)",
+    "accent-foreground": "oklch(0.252 0.011 91.7)",
+    "destructive": "oklch(0.810 0.147 78.5)",
+    "border": "oklch(0.827 0.024 90.8)",
+    "input": "oklch(0.827 0.024 90.8)",
+    "ring": "oklch(0.702 0.007 219.6)",
+    "chart-1": "oklch(0.810 0.147 78.5)",
+    "chart-2": "oklch(0.702 0.007 219.6)",
+    "chart-3": "oklch(0.699 0.146 67.7)",
+    "chart-4": "oklch(0.592 0.091 166.8)",
+    "chart-5": "oklch(0.325 0.000 89.9)",
+    "sidebar": "oklch(0.926 0.035 88.8)",
+    "sidebar-foreground": "oklch(0.252 0.011 91.7)",
+    "sidebar-primary": "oklch(0.810 0.147 78.5)",
+    "sidebar-primary-foreground": "oklch(0.980 0.025 89.2)",
+    "sidebar-accent": "oklch(0.884 0.054 85.6)",
+    "sidebar-accent-foreground": "oklch(0.810 0.147 78.5)",
+    "sidebar-border": "oklch(0.827 0.024 90.8)",
+    "sidebar-ring": "oklch(0.702 0.007 219.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.252 0.011 91.7)",
+    "foreground": "oklch(0.980 0.025 89.2)",
+    "card": "oklch(0.301 0.004 84.6)",
+    "card-foreground": "oklch(0.980 0.025 89.2)",
+    "popover": "oklch(0.301 0.004 84.6)",
+    "popover-foreground": "oklch(0.980 0.025 89.2)",
+    "primary": "oklch(0.702 0.007 219.6)",
+    "primary-foreground": "oklch(0.252 0.011 91.7)",
+    "secondary": "oklch(0.415 0.003 197.1)",
+    "secondary-foreground": "oklch(0.980 0.025 89.2)",
+    "muted": "oklch(0.415 0.003 197.1)",
+    "muted-foreground": "oklch(0.857 0.012 96.4)",
+    "accent": "oklch(0.699 0.146 67.7)",
+    "accent-foreground": "oklch(0.252 0.011 91.7)",
+    "destructive": "oklch(0.810 0.147 78.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.702 0.007 219.6)",
+    "chart-1": "oklch(0.702 0.007 219.6)",
+    "chart-2": "oklch(0.810 0.147 78.5)",
+    "chart-3": "oklch(0.699 0.146 67.7)",
+    "chart-4": "oklch(0.592 0.091 166.8)",
+    "chart-5": "oklch(0.702 0.007 219.6)",
+    "sidebar": "oklch(0.285 0.006 91.6)",
+    "sidebar-foreground": "oklch(0.980 0.025 89.2)",
+    "sidebar-primary": "oklch(0.702 0.007 219.6)",
+    "sidebar-primary-foreground": "oklch(0.252 0.011 91.7)",
+    "sidebar-accent": "oklch(0.415 0.003 197.1)",
+    "sidebar-accent-foreground": "oklch(0.980 0.025 89.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.702 0.007 219.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact finance dashboards with Noto Sans guidance for Japanese labels, tabular numerals, and crisp KPI hierarchy.",
+  "layout": "Crystal-facet grids, chamfered 6px panels, tight 8px spacing, precise dashboard tables, and bright numeric surfaces for finance workflows.",
+  "tags": [
+    "citrine",
+    "crystal",
+    "mineral",
+    "crystal-pocket",
+    "finance",
+    "bright",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-citrine/motif.png",
+    "board": "/systems/morphous-citrine/design-system-light.png",
+    "darkBoard": "/systems/morphous-citrine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-citrine/theme.css",
+    "themeJson": "/systems/morphous-citrine/theme.json",
+    "promptsJson": "/systems/morphous-citrine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Citrine motif",
+      "asset": "/systems/morphous-citrine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Citrine transparent motif chroma-key source\nPrimary request: Create only an isolated citrine crystal cluster motif for a design-system catalog, no environment, no props, no text.\nSubject: A citrine crystal pocket specimen with transparent honey-yellow quartz points, clear white terminations, pale grey matrix fragments at the base, crisp facets, subtle internal refraction, mineral inclusions, and a bright finance-system polish.\nComposition/framing: centered complete cutout with generous padding; show a compact crystal pocket cluster with several vertical hexagonal points and smaller supporting crystals, no cropping.\nLighting/mood: clean studio light that preserves honey yellow clarity, clear white highlights, and cool grey stone shadows; premium, precise, optimistic.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no jewelry, no coin, no people, no cave scene, no landscape, no labels, no watermark, no text, no duplicate object, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-citrine/design-system-light.png",
+      "prompt": "Create one comprehensive light-mode design-system board for \"Morphous Citrine\" / \"Citrine Crystal\" as a shadcn/tweakcn-compatible source reference for a bright finance system. Use the citrine crystal pocket motif: transparent honey-yellow crystal facets, clear white highlights, cool grey matrix stone, and precise refractive geometry. Use Honey Yield #f4b43f, Clear Quartz #fff8e6, Ledger Ink #24221c, Crystal Grey #9aa0a2, Pale Vein #e8dcc0, Warm Bullion #d98a1c, Mint Positive #3f8f72, Risk Garnet #b84b45, and Deep Graphite #343434 consistently. Include readable English and Japanese typography guidance plus palette, semantic tokens, radius, spacing, shadow, buttons, forms, tabs, badges, alerts, cards, tables, command/search, navigation, finance KPI cards, charts, portfolio allocation, transaction table, empty/error/loading states, texture, and icons. Use crystal-facet grid lines, chamfered panels, clear white surfaces, honey-yellow primary actions, grey borders, precise numeric hierarchy, green positive indicators, and garnet negative indicators. Exclude generic purple or blue gradients, unrelated neon colors, jewelry branding, coins as motif, people, random logos, and misspellings."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-citrine/design-system-dark.png",
+      "prompt": "Create one comprehensive dark-mode design-system board for \"Morphous Citrine\" / \"Citrine Crystal\" as a shadcn/tweakcn-compatible source reference for a bright finance system translated to dark mode. Use the same citrine crystal pocket motif: transparent honey-yellow facets, clear white glints, cool grey matrix stone, and precise refractive geometry. Use Deep Graphite #1f1f1c, Ledger Ink #24221c, Graphite Panel #2f302d, Clear Quartz #fff8e6, Honey Yield #f4b43f, Warm Bullion #d98a1c, Crystal Grey #9aa0a2, Pale Vein #e8dcc0, Mint Positive #52b58f, and Risk Garnet #d66860 consistently. Include readable English and Japanese typography guidance plus palette, semantic tokens, radius, spacing, shadow, buttons, forms, tabs, badges, alerts, cards, tables, command/search, navigation, finance KPI cards, charts, portfolio allocation, transaction table, empty/error/loading states, texture, and icons. Preserve the light board's crystal-facet grid language with graphite panels, luminous citrine actions, quartz text, honey focus rings, precise numeric hierarchy, green positive indicators, and garnet negative indicators. Exclude generic purple or blue gradients, unrelated neon colors, jewelry branding, coins as motif, people, random logos, cyberpunk styling, and misspellings."
+    }
+  ]
+}

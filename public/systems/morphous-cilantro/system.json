@@ -1,0 +1,112 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 255,
+  "slug": "morphous-cilantro",
+  "name": "Morphous Cilantro",
+  "motifName": "Cilantro",
+  "motifCategory": "plant",
+  "biome": "market garden",
+  "motif": "cilantro leaf",
+  "paletteMood": "lime green pale stem cream",
+  "designMood": "quick task system",
+  "description": "A shadcn/tweakcn-compatible quick task system derived from scalloped cilantro leaves, lime leaf highlights, deep herb shadows, and pale cream stems for market-garden operations.",
+  "typography": "Compact English task UI with Japanese typography guidance for harvest queues, route checklists, task capture, status labels, command search, tables, and quick handoff notes.",
+  "layout": "Dense market-garden operations dashboards, compact navigation, 8px radii, lime focus rings, pale stem-cream surfaces, cilantro leaflet textures, and herb-shadow borders.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "cilantro",
+    "plant",
+    "market-garden",
+    "cilantro-leaf",
+    "lime-green",
+    "pale-stem-cream",
+    "quick-task-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stem Cream Wash",
+      "hex": "#F7F6E8"
+    },
+    {
+      "role": "Ink",
+      "name": "Cilantro Shadow Ink",
+      "hex": "#102114"
+    },
+    {
+      "role": "Primary",
+      "name": "Cilantro Leaf",
+      "hex": "#3F8A2F"
+    },
+    {
+      "role": "Secondary",
+      "name": "Garden Lime",
+      "hex": "#74B84B"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Lime Glint",
+      "hex": "#DCEB9A"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Stem",
+      "hex": "#E9E0B8"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Stem Paper",
+      "hex": "#FCFBF0"
+    },
+    {
+      "role": "Muted",
+      "name": "Stem Cream Veil",
+      "hex": "#E5E7D4"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Leaf Bed",
+      "hex": "#081A11"
+    },
+    {
+      "role": "Border",
+      "name": "Pressed Stem Edge",
+      "hex": "#B8C0A1"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bruised Leaf Olive",
+      "hex": "#5D8036"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

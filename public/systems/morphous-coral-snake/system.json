@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-coral-snake",
+  "name": "Morphous Coral Snake",
+  "motifName": "Coral Snake",
+  "motifCategory": "reptile",
+  "biome": "Pine Woodland",
+  "motif": "coral snake bands",
+  "description": "A shadcn/tweakcn-compatible alert UI system built from coral snake warning bands: saturated red actions, signal-yellow focus, black structural bands, pine woodland support, and leaf-litter neutrals.",
+  "typography": "Geist for bold operational headings with Noto Sans JP guidance for multilingual status labels, compact forms, and readable dashboard tables.",
+  "layout": "8px operational grid, banded section headers, high-contrast focus rings, compact dashboard panels, calm leaf-litter surfaces, and sharp alert-state hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "coral-snake",
+    "reptile",
+    "pine-woodland",
+    "warning-bands",
+    "high-contrast",
+    "alert-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Leaf Litter Paper",
+      "hex": "#fff8eb"
+    },
+    {
+      "role": "Ink",
+      "name": "Band Black",
+      "hex": "#0d0c0b"
+    },
+    {
+      "role": "Primary",
+      "name": "Alert Red",
+      "hex": "#d62521"
+    },
+    {
+      "role": "Accent",
+      "name": "Signal Yellow",
+      "hex": "#f5d24b"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pine Needle",
+      "hex": "#4f643e"
+    },
+    {
+      "role": "Surface",
+      "name": "Dry Needle",
+      "hex": "#f8ecd5"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Vein",
+      "hex": "#cdb789"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Shadow",
+      "hex": "#4a3325"
+    },
+    {
+      "role": "Chart",
+      "name": "Needle Ochre",
+      "hex": "#b68138"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

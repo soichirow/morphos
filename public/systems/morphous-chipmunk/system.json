@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-chipmunk",
+  "name": "Morphous Chipmunk",
+  "motifName": "Chipmunk",
+  "motifCategory": "mammal",
+  "biome": "Forest Floor",
+  "motif": "chipmunk stripes",
+  "description": "A shadcn/tweakcn-compatible quick notes system shaped by chipmunk stripe rhythm, rust-tan fur, black racing marks, cream underfur, moss support tones, and compact forest-floor utility.",
+  "typography": "Rounded humanist sans for quick English note capture with Noto Sans JP guidance for Japanese labels, metadata, and compact review states.",
+  "layout": "Compact 8px grids, stripe-led navigation rails, note stacks, bark-like panel depth, 6px to 8px radii, and scan-friendly dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "chipmunk",
+    "mammal",
+    "forest-floor",
+    "chipmunk-stripes",
+    "quick-notes",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Leaf Parchment",
+      "hex": "#f1e8d6"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Stripe",
+      "hex": "#1f1a16"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Tan",
+      "hex": "#b45309"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#6a7f3d"
+    },
+    {
+      "role": "Accent",
+      "name": "Cream Underfur",
+      "hex": "#f7f3ea"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Tan",
+      "hex": "#d6a772"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Umber",
+      "hex": "#4b3826"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Gray",
+      "hex": "#878b82"
+    },
+    {
+      "role": "Dark",
+      "name": "Warm Charcoal",
+      "hex": "#2a2a2a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

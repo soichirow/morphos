@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-chipmunk",
+    "name": "Morphous Chipmunk",
+    "motifName": "Chipmunk",
+    "motifCategory": "mammal",
+    "biome": "Forest Floor",
+    "motif": "chipmunk stripes"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Leaf Parchment",
+      "hex": "#f1e8d6",
+      "oklch": "oklch(0.933 0.026 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Stripe",
+      "hex": "#1f1a16",
+      "oklch": "oklch(0.222 0.011 60.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Tan",
+      "hex": "#b45309",
+      "oklch": "oklch(0.555 0.146 49.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#6a7f3d",
+      "oklch": "oklch(0.564 0.095 124.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cream Underfur",
+      "hex": "#f7f3ea",
+      "oklch": "oklch(0.965 0.013 86.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Tan",
+      "hex": "#d6a772",
+      "oklch": "oklch(0.760 0.089 69.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Umber",
+      "hex": "#4b3826",
+      "oklch": "oklch(0.357 0.040 64.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Gray",
+      "hex": "#878b82",
+      "oklch": "oklch(0.631 0.014 126.5)"
+    },
+    {
+      "role": "Dark",
+      "name": "Warm Charcoal",
+      "hex": "#2a2a2a",
+      "oklch": "oklch(0.285 0.000 89.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.933 0.026 84.6)",
+    "foreground": "oklch(0.222 0.011 60.9)",
+    "card": "oklch(0.760 0.089 69.2)",
+    "card-foreground": "oklch(0.222 0.011 60.9)",
+    "popover": "oklch(0.760 0.089 69.2)",
+    "popover-foreground": "oklch(0.222 0.011 60.9)",
+    "primary": "oklch(0.555 0.146 49.0)",
+    "primary-foreground": "oklch(0.933 0.026 84.6)",
+    "secondary": "oklch(0.831 0.062 72.5)",
+    "secondary-foreground": "oklch(0.357 0.040 64.5)",
+    "muted": "oklch(0.808 0.071 70.8)",
+    "muted-foreground": "oklch(0.357 0.040 64.5)",
+    "accent": "oklch(0.965 0.013 86.8)",
+    "accent-foreground": "oklch(0.222 0.011 60.9)",
+    "destructive": "oklch(0.555 0.146 49.0)",
+    "border": "oklch(0.713 0.061 73.4)",
+    "input": "oklch(0.713 0.061 73.4)",
+    "ring": "oklch(0.564 0.095 124.0)",
+    "chart-1": "oklch(0.555 0.146 49.0)",
+    "chart-2": "oklch(0.564 0.095 124.0)",
+    "chart-3": "oklch(0.965 0.013 86.8)",
+    "chart-4": "oklch(0.760 0.089 69.2)",
+    "chart-5": "oklch(0.357 0.040 64.5)",
+    "sidebar": "oklch(0.818 0.067 71.9)",
+    "sidebar-foreground": "oklch(0.222 0.011 60.9)",
+    "sidebar-primary": "oklch(0.555 0.146 49.0)",
+    "sidebar-primary-foreground": "oklch(0.933 0.026 84.6)",
+    "sidebar-accent": "oklch(0.734 0.096 66.9)",
+    "sidebar-accent-foreground": "oklch(0.555 0.146 49.0)",
+    "sidebar-border": "oklch(0.713 0.061 73.4)",
+    "sidebar-ring": "oklch(0.564 0.095 124.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.011 60.9)",
+    "foreground": "oklch(0.933 0.026 84.6)",
+    "card": "oklch(0.313 0.030 64.3)",
+    "card-foreground": "oklch(0.933 0.026 84.6)",
+    "popover": "oklch(0.313 0.030 64.3)",
+    "popover-foreground": "oklch(0.933 0.026 84.6)",
+    "primary": "oklch(0.564 0.095 124.0)",
+    "primary-foreground": "oklch(0.222 0.011 60.9)",
+    "secondary": "oklch(0.419 0.032 70.5)",
+    "secondary-foreground": "oklch(0.933 0.026 84.6)",
+    "muted": "oklch(0.419 0.032 70.5)",
+    "muted-foreground": "oklch(0.800 0.020 96.9)",
+    "accent": "oklch(0.965 0.013 86.8)",
+    "accent-foreground": "oklch(0.222 0.011 60.9)",
+    "destructive": "oklch(0.555 0.146 49.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.564 0.095 124.0)",
+    "chart-1": "oklch(0.564 0.095 124.0)",
+    "chart-2": "oklch(0.555 0.146 49.0)",
+    "chart-3": "oklch(0.965 0.013 86.8)",
+    "chart-4": "oklch(0.760 0.089 69.2)",
+    "chart-5": "oklch(0.631 0.014 126.5)",
+    "sidebar": "oklch(0.286 0.025 66.5)",
+    "sidebar-foreground": "oklch(0.933 0.026 84.6)",
+    "sidebar-primary": "oklch(0.564 0.095 124.0)",
+    "sidebar-primary-foreground": "oklch(0.222 0.011 60.9)",
+    "sidebar-accent": "oklch(0.419 0.032 70.5)",
+    "sidebar-accent-foreground": "oklch(0.933 0.026 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.564 0.095 124.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Rounded humanist sans for quick English note capture with Noto Sans JP guidance for Japanese labels, metadata, and compact review states.",
+  "layout": "Compact 8px grids, stripe-led navigation rails, note stacks, bark-like panel depth, 6px to 8px radii, and scan-friendly dashboard density.",
+  "tags": [
+    "chipmunk",
+    "mammal",
+    "forest-floor",
+    "chipmunk-stripes",
+    "quick-notes",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-chipmunk/motif.png",
+    "board": "/systems/morphous-chipmunk/design-system-light.png",
+    "darkBoard": "/systems/morphous-chipmunk/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-chipmunk/theme.css",
+    "themeJson": "/systems/morphous-chipmunk/theme.json",
+    "promptsJson": "/systems/morphous-chipmunk/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent chipmunk motif",
+      "asset": "/systems/morphous-chipmunk/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Chipmunk transparent motif chroma-key source\nPrimary request: Create only an isolated chipmunk motif for a design-system catalog, no environment, no props, no text.\nSubject: A realistic eastern chipmunk in a compact alert pose with accurate small mammal anatomy, rust-tan fur, cream belly, black and dark-brown racing stripes along back and face, small rounded ears, bright eyes, delicate paws, and tactile fur texture. Include a tiny hint of moss-colored reflected light only in shadow tones, not as background.\nComposition/framing: centered complete cutout with generous padding; full body and tail visible, no cropping, crisp silhouette edges.\nLighting/mood: clean studio light preserving rust tan fur, black stripe contrast, cream highlights, and fine fur texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no squirrel, no mouse, no hamster, no leaves as the main subject, no acorns, no props, no text, no watermark, no landscape, no second animal, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-chipmunk/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Chipmunk light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Chipmunk\" / \"Chipmunk Stripes\", a quick notes system for capturing, sorting, and reviewing field notes and product notes.\nReference use: Derive the system from an isolated realistic chipmunk motif: rust tan fur, black and dark-brown racing stripes, cream belly highlights, forest-floor moss, bark, and soft leaf-litter neutrals. Use stripe bands as navigation rails, note dividers, progress marks, and chart accents.\nCanvas: exact wide 16:9 board, target 3840x2160, high-resolution source asset.\nResolution and legibility: large readable labels, clear UI sections, no dense tiny text.\nRequired visible sections: title \"Morphous Chipmunk\", motif story, palette swatches, typography including English guidance and Japanese guidance, component library, navigation/sidebar, dashboard and data charts, quick notes list, forms, table, command/search, status states, texture samples, spacing tokens, radius tokens, shadow tokens, sample usage screen.\nTypography: include English examples and Japanese examples for note titles, metadata, and compact UI labels; recommend a rounded humanist sans for English and Noto Sans JP for Japanese.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise 8px grid, compact note-taking product UI, 6px to 8px radius, crisp controls, restrained forest-floor texture.\nColor palette: rust tan, acorn brown, black stripe, cream underfur, moss green, bark umber, leaf parchment, lichen gray, warm charcoal. Use only motif-derived colors plus near-neutrals.\nComponents to show: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, note cards, table, command palette, search, calendar chip, tags, chart cards, empty, loading, error, toast.\nText: short readable UI labels only; include \"Quick Notes\", \"Inbox\", \"Review\", \"Pinned\", \"Draft\", \"検索\", \"メモ\", \"下書き\".\nConstraints: no squirrel label, no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark, no illegible paragraphs, no dark-mode board in this image."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-chipmunk/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Chipmunk dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Chipmunk\" / \"Chipmunk Stripes\", translated from the light quick notes system into a dark forest-floor note-taking product UI.\nReference use: Keep the same chipmunk motif language: rust tan fur, black and dark-brown racing stripes, cream underfur text highlights, moss green support color, bark umber surfaces, leaf parchment accents, lichen gray dividers, warm charcoal background. Preserve stripe bands as navigation rails, note dividers, progress marks, and chart accents.\nCanvas: exact wide 16:9 board, target 3840x2160, high-resolution source asset.\nResolution and legibility: large readable labels, clear UI sections, no dense tiny text.\nRequired visible sections: title \"Morphous Chipmunk\", label \"Dark Mode\", motif story, palette swatches, typography including English guidance and Japanese guidance, component library, navigation/sidebar, dashboard and data charts, quick notes list, forms, table, command/search, status states, texture samples, spacing tokens, radius tokens, shadow tokens, sample usage screen.\nTypography: include English examples and Japanese examples for note titles, metadata, and compact UI labels; recommend rounded humanist sans for English and Noto Sans JP for Japanese.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise 8px grid, compact quick-notes workflow, 6px to 8px radius, crisp controls, dark panels with restrained forest-floor grain.\nColor palette: warm charcoal, black stripe, bark umber, rust tan, acorn brown, cream underfur, moss green, lichen gray, leaf parchment. Keep dark surfaces usable and text high contrast without neon.\nComponents to show: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, note cards, table, command palette, search, calendar chip, tags, chart cards, empty, loading, error, toast.\nText: short readable UI labels only; include \"Quick Notes\", \"Inbox\", \"Review\", \"Pinned\", \"Draft\", \"検索\", \"メモ\", \"下書き\".\nConstraints: no squirrel label, no neon colors, no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark, no illegible paragraphs, no light-mode board in this image."
+    }
+  ]
+}

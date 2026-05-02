@@ -1,0 +1,86 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-cormorant",
+  "name": "Morphous Cormorant",
+  "motifName": "Cormorant Silhouette",
+  "motifCategory": "bird",
+  "biome": "Rocky coast",
+  "motif": "cormorant silhouette",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Cormorant light and dark design-system boards: black feather authority, teal water focus, grey rocky coast neutrals, and compact media operations dashboards.",
+  "typography": "Inter or Geist for efficient media UI with Noto Sans JP guidance for Japanese labels, tabular encoding data, clip states, and dense operations tables.",
+  "layout": "Compact 8px grids, cormorant-silhouette navigation marks, waterline teal dividers, rocky grey panels, feather-sheen surfaces, and precise status-heavy media dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cormorant",
+    "bird",
+    "rocky-coast",
+    "media-system",
+    "black-feather",
+    "teal-water",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fog White",
+      "hex": "#f4f7f6"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Feather",
+      "hex": "#111417"
+    },
+    {
+      "role": "Primary",
+      "name": "Teal Water",
+      "hex": "#137c7a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rock Grey",
+      "hex": "#8f9698"
+    },
+    {
+      "role": "Accent",
+      "name": "Tide Glass",
+      "hex": "#5fb7ad"
+    },
+    {
+      "role": "Signal",
+      "name": "Alert Rust",
+      "hex": "#b65a3a"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Grey",
+      "hex": "#d7dcda"
+    },
+    {
+      "role": "Muted",
+      "name": "Basalt Mist",
+      "hex": "#6f7778"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Ink",
+      "hex": "#1d2426"
+    },
+    {
+      "role": "Chart",
+      "name": "Kelp Line",
+      "hex": "#6f8e66"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-conch",
+    "name": "Morphous Conch",
+    "motifName": "Conch",
+    "motifCategory": "marine",
+    "biome": "coral sand",
+    "motif": "conch shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Coral Sand",
+      "hex": "#f7e4d8",
+      "oklch": "oklch(0.931 0.026 54.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Conch Ink",
+      "hex": "#3b251c",
+      "oklch": "oklch(0.289 0.037 43.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Conch Pink",
+      "hex": "#e85e73",
+      "oklch": "oklch(0.663 0.171 13.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pink Coral",
+      "hex": "#f49aa6",
+      "oklch": "oklch(0.780 0.109 11.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Cream",
+      "hex": "#fff5e8",
+      "oklch": "oklch(0.974 0.020 74.7)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Pearl Highlight",
+      "hex": "#fffaf3",
+      "oklch": "oklch(0.987 0.011 76.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Peach Ridge",
+      "hex": "#f8b082",
+      "oklch": "oklch(0.815 0.104 53.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Coral Shadow",
+      "hex": "#8a4638",
+      "oklch": "oklch(0.476 0.096 32.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Taupe",
+      "hex": "#b98d77",
+      "oklch": "oklch(0.680 0.062 47.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.931 0.026 54.6)",
+    "foreground": "oklch(0.289 0.037 43.1)",
+    "card": "oklch(0.974 0.020 74.7)",
+    "card-foreground": "oklch(0.289 0.037 43.1)",
+    "popover": "oklch(0.974 0.020 74.7)",
+    "popover-foreground": "oklch(0.289 0.037 43.1)",
+    "primary": "oklch(0.663 0.171 13.9)",
+    "primary-foreground": "oklch(0.931 0.026 54.6)",
+    "secondary": "oklch(0.957 0.023 65.5)",
+    "secondary-foreground": "oklch(0.476 0.096 32.9)",
+    "muted": "oklch(0.962 0.021 65.3)",
+    "muted-foreground": "oklch(0.476 0.096 32.9)",
+    "accent": "oklch(0.815 0.104 53.3)",
+    "accent-foreground": "oklch(0.289 0.037 43.1)",
+    "destructive": "oklch(0.663 0.171 13.9)",
+    "border": "oklch(0.871 0.034 60.0)",
+    "input": "oklch(0.871 0.034 60.0)",
+    "ring": "oklch(0.780 0.109 11.2)",
+    "chart-1": "oklch(0.663 0.171 13.9)",
+    "chart-2": "oklch(0.780 0.109 11.2)",
+    "chart-3": "oklch(0.815 0.104 53.3)",
+    "chart-4": "oklch(0.987 0.011 76.6)",
+    "chart-5": "oklch(0.476 0.096 32.9)",
+    "sidebar": "oklch(0.959 0.021 65.3)",
+    "sidebar-foreground": "oklch(0.289 0.037 43.1)",
+    "sidebar-primary": "oklch(0.663 0.171 13.9)",
+    "sidebar-primary-foreground": "oklch(0.931 0.026 54.6)",
+    "sidebar-accent": "oklch(0.934 0.030 40.9)",
+    "sidebar-accent-foreground": "oklch(0.663 0.171 13.9)",
+    "sidebar-border": "oklch(0.871 0.034 60.0)",
+    "sidebar-ring": "oklch(0.780 0.109 11.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.289 0.037 43.1)",
+    "foreground": "oklch(0.931 0.026 54.6)",
+    "card": "oklch(0.414 0.077 35.0)",
+    "card-foreground": "oklch(0.931 0.026 54.6)",
+    "popover": "oklch(0.414 0.077 35.0)",
+    "popover-foreground": "oklch(0.931 0.026 54.6)",
+    "primary": "oklch(0.780 0.109 11.2)",
+    "primary-foreground": "oklch(0.289 0.037 43.1)",
+    "secondary": "oklch(0.521 0.087 35.3)",
+    "secondary-foreground": "oklch(0.931 0.026 54.6)",
+    "muted": "oklch(0.521 0.087 35.3)",
+    "muted-foreground": "oklch(0.820 0.042 51.4)",
+    "accent": "oklch(0.815 0.104 53.3)",
+    "accent-foreground": "oklch(0.289 0.037 43.1)",
+    "destructive": "oklch(0.663 0.171 13.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.780 0.109 11.2)",
+    "chart-1": "oklch(0.780 0.109 11.2)",
+    "chart-2": "oklch(0.663 0.171 13.9)",
+    "chart-3": "oklch(0.815 0.104 53.3)",
+    "chart-4": "oklch(0.987 0.011 76.6)",
+    "chart-5": "oklch(0.680 0.062 47.8)",
+    "sidebar": "oklch(0.376 0.065 35.2)",
+    "sidebar-foreground": "oklch(0.931 0.026 54.6)",
+    "sidebar-primary": "oklch(0.780 0.109 11.2)",
+    "sidebar-primary-foreground": "oklch(0.289 0.037 43.1)",
+    "sidebar-accent": "oklch(0.521 0.087 35.3)",
+    "sidebar-accent-foreground": "oklch(0.931 0.026 54.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.780 0.109 11.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Ornamental commerce UI with elegant English hierarchy, careful product numerals, and Japanese typography guidance for refined retail workflows.",
+  "layout": "Commerce-focused grids, shell-ridge texture bands, flared-lip accent geometry, 8px radii, warm borders, soft pearly shadows, and readable product data.",
+  "tags": [
+    "conch",
+    "marine",
+    "shell",
+    "coral-sand",
+    "ornamental",
+    "commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-conch/motif.png",
+    "board": "/systems/morphous-conch/design-system-light.png",
+    "darkBoard": "/systems/morphous-conch/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-conch/theme.css",
+    "themeJson": "/systems/morphous-conch/theme.json",
+    "promptsJson": "/systems/morphous-conch/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent conch shell motif",
+      "asset": "/systems/morphous-conch/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Conch transparent motif chroma-key source\nPrimary request: Create only a conch shell motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A natural conch shell with a spiral crown, flared lip, coral-pink interior blush, shell-cream exterior, subtle coral sand speckles, peach ridges, pearly highlights, and soft coral shadow coloration. Accurate marine shell form, opaque material, crisp hard edges, ornamental commerce mood, unmistakably conch shell.\nComposition/framing: centered complete cutout with generous padding; include the full spiral, lip, ridges, opening, and shell base without cropping. Clean studio lighting that preserves shell texture; no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no snail body, no pearl, no beach scene, no water, no coral reef, no props, no text, no watermark, no second shell, no landscape, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-conch/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Conch light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Conch\", derived from a natural conch shell cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible ornamental commerce UI theme.\nCanvas: exact wide 16:9 board, target 3840x2160, high-resolution 4K-class source board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Conch, Conch Shell, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract the palette and interaction language from a conch shell: shell-cream surfaces, coral-sand background, pink shell interior, peach ridge highlights, warm coral shadows, pearly gloss, fine speckled ridges, flared lip geometry, ornamental commerce mood. The board must visibly read as conch shell, not generic beach, not coral reef, not pearl jewelry.\nTypography: English product UI examples with Japanese typography guidance; visible labels should include Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, 注釈. Keep text short, large, and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, form validation, spacing scale, radius scale, border tokens, shadow tokens, texture samples, sample product catalog and checkout usage.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, coral-sand page background, shell-cream cards, conch-pink primary actions, coral-shadow accents, pearly highlight surfaces, warm brown/coral outlines, subtle shell ridge texture and ornamental commerce details. Use restrained, practical UI density.\nColor constraints: use only motif-derived colors plus near-neutrals from shell cream and coral sand; avoid unrelated blue, green, purple, neon, or saturated beach-poster colors.\nText constraints: short readable UI labels only; avoid long paragraphs; no watermark, no random brand names, no misspelling of \"Morphous Conch\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-conch/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Conch dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Conch\". It must feel like the same light-mode conch shell board translated to dark mode, not a new theme, and it must remain derived from a natural conch shell cutout.\nCanvas: exact wide 16:9 board, target 3840x2160, high-resolution 4K-class source board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Conch, Conch Shell, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the conch system language: deep coral-shadow background, shell-cream foreground, conch-pink active states, coral-sand muted surfaces, peach ridge highlights, pearly gloss accents, fine shell ridge texture, flared lip geometry, ornamental commerce mood. The board must visibly read as conch shell, not generic beach, not coral reef, not pearl jewelry.\nTypography: English product UI examples with Japanese typography guidance; visible labels should include Geist, Display, Body, Label, Numbers, 日本語 UI, 見出し, 本文, 注釈. Keep text short, large, and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, form validation, spacing scale, radius scale, border tokens, shadow tokens, texture samples, sample product catalog and checkout usage.\nVisual details: dark conch-umber and coral-shadow surfaces, shell-cream text, conch-pink primary controls, peach/coral chart accents, subtle coral-sand raised cards, thin warm borders, pearly highlight rings, restrained shell-ridge texture overlays, crisp shadcn/tweakcn component grid, practical commerce UI density.\nColor constraints: no neon colors, no unrelated saturated blue, green, purple, or tropical beach palette; no pure-black-only flat background; use motif-derived dark neutrals and shell colors only.\nText constraints: short readable UI labels only; avoid long paragraphs; no watermark, no random brand names, no misspelling of \"Morphous Conch\"."
+    }
+  ]
+}

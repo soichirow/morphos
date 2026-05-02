@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-coconut-crab",
+    "name": "Morphous Coconut Crab",
+    "motifName": "Coconut Crab",
+    "motifCategory": "crustacean",
+    "biome": "island forest",
+    "motif": "coconut crab claw"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Cream",
+      "hex": "#F6F4EE",
+      "oklch": "oklch(0.967 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Indigo",
+      "hex": "#182244",
+      "oklch": "oklch(0.263 0.065 269.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Blue",
+      "hex": "#2D3E7A",
+      "oklch": "oklch(0.383 0.104 269.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shell Violet",
+      "hex": "#5A468A",
+      "oklch": "oklch(0.448 0.109 295.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sand Tan",
+      "hex": "#CBA46A",
+      "oklch": "oklch(0.741 0.088 76.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Seafoam",
+      "hex": "#2E665A",
+      "oklch": "oklch(0.469 0.063 177.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#FFFEFA",
+      "oklch": "oklch(0.997 0.005 95.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Claw Gray",
+      "hex": "#AEB3BA",
+      "oklch": "oklch(0.765 0.011 256.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Gray",
+      "hex": "#E3E6EA",
+      "oklch": "oklch(0.924 0.006 255.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hinge Brown",
+      "hex": "#3A2A1F",
+      "oklch": "oklch(0.300 0.030 55.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Driftwood Warning",
+      "hex": "#C79A2E",
+      "oklch": "oklch(0.710 0.130 84.7)"
+    },
+    {
+      "role": "Danger",
+      "name": "Alert Red",
+      "hex": "#B2333A",
+      "oklch": "oklch(0.515 0.163 22.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.008 91.5)",
+    "foreground": "oklch(0.263 0.065 269.2)",
+    "card": "oklch(0.997 0.005 95.1)",
+    "card-foreground": "oklch(0.263 0.065 269.2)",
+    "popover": "oklch(0.997 0.005 95.1)",
+    "popover-foreground": "oklch(0.263 0.065 269.2)",
+    "primary": "oklch(0.383 0.104 269.2)",
+    "primary-foreground": "oklch(0.967 0.008 91.5)",
+    "secondary": "oklch(0.924 0.006 255.5)",
+    "secondary-foreground": "oklch(0.263 0.065 269.2)",
+    "muted": "oklch(0.924 0.006 255.5)",
+    "muted-foreground": "oklch(0.558 0.057 73.9)",
+    "accent": "oklch(0.448 0.109 295.2)",
+    "accent-foreground": "oklch(0.967 0.008 91.5)",
+    "destructive": "oklch(0.515 0.163 22.1)",
+    "border": "oklch(0.924 0.006 255.5)",
+    "input": "oklch(0.924 0.006 255.5)",
+    "ring": "oklch(0.383 0.104 269.2)",
+    "chart-1": "oklch(0.383 0.104 269.2)",
+    "chart-2": "oklch(0.448 0.109 295.2)",
+    "chart-3": "oklch(0.741 0.088 76.6)",
+    "chart-4": "oklch(0.469 0.063 177.5)",
+    "chart-5": "oklch(0.558 0.057 73.9)",
+    "sidebar": "oklch(0.263 0.065 269.2)",
+    "sidebar-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-primary": "oklch(0.383 0.104 269.2)",
+    "sidebar-primary-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-accent": "oklch(0.448 0.109 295.2)",
+    "sidebar-accent-foreground": "oklch(0.967 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.383 0.104 269.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.181 0.011 260.6)",
+    "foreground": "oklch(0.963 0.015 80.7)",
+    "card": "oklch(0.245 0.026 255.8)",
+    "card-foreground": "oklch(0.963 0.015 80.7)",
+    "popover": "oklch(0.245 0.026 255.8)",
+    "popover-foreground": "oklch(0.963 0.015 80.7)",
+    "primary": "oklch(0.596 0.175 263.8)",
+    "primary-foreground": "oklch(0.181 0.011 260.6)",
+    "secondary": "oklch(0.324 0.030 241.2)",
+    "secondary-foreground": "oklch(0.963 0.015 80.7)",
+    "muted": "oklch(0.324 0.030 241.2)",
+    "muted-foreground": "oklch(0.765 0.011 256.7)",
+    "accent": "oklch(0.561 0.125 296.8)",
+    "accent-foreground": "oklch(0.963 0.015 80.7)",
+    "destructive": "oklch(0.515 0.163 22.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.596 0.175 263.8)",
+    "chart-1": "oklch(0.596 0.175 263.8)",
+    "chart-2": "oklch(0.561 0.125 296.8)",
+    "chart-3": "oklch(0.776 0.091 79.7)",
+    "chart-4": "oklch(0.469 0.063 177.5)",
+    "chart-5": "oklch(0.765 0.011 256.7)",
+    "sidebar": "oklch(0.181 0.011 260.6)",
+    "sidebar-foreground": "oklch(0.963 0.015 80.7)",
+    "sidebar-primary": "oklch(0.596 0.175 263.8)",
+    "sidebar-primary-foreground": "oklch(0.181 0.011 260.6)",
+    "sidebar-accent": "oklch(0.306 0.041 257.3)",
+    "sidebar-accent-foreground": "oklch(0.963 0.015 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.596 0.175 263.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Dense English logistics UI with tabular operational numbers, strong compact headings, and Noto Sans JP guidance for Japanese manifest, route, dock, cargo, and ETA interfaces.",
+  "layout": "Load-bearing 8px logistics grids, dark indigo navigation rails, route maps, shipment metrics, manifest tables, command search, status chips, shell-bump texture samples, hinge-line dividers, and restrained 8px cards.",
+  "tags": [
+    "coconut-crab",
+    "crustacean",
+    "island-forest",
+    "heavyweight-logistics",
+    "shell-blue",
+    "shell-violet",
+    "sand-brown",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-coconut-crab/motif.png",
+    "board": "/systems/morphous-coconut-crab/design-system-light.png",
+    "darkBoard": "/systems/morphous-coconut-crab/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-coconut-crab/theme.css",
+    "themeJson": "/systems/morphous-coconut-crab/theme.json",
+    "promptsJson": "/systems/morphous-coconut-crab/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent coconut crab claw motif",
+      "asset": "/systems/morphous-coconut-crab/motif.png",
+      "workflow": "Generated with the built-in image tool on a flat #00ff00 chroma-key background, then converted to alpha with local chroma-key removal.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Coconut Crab transparent motif chroma-key source\nPrimary request: Create only a coconut crab claw motif for a design-system catalog, isolated as a single complete crustacean claw subject on a removable chroma-key background.\nSubject: One heavyweight coconut crab claw with the full pincer, robust propodus, curved dactyl, knuckle joint, and a short section of forelimb. The anatomy must read clearly as a coconut crab claw, not lobster, hermit crab, shrimp, or generic crab. Use accurate rugged exoskeleton plates, matte-to-satin shell texture, small bumps, worn edge ridges, dark hinge creases, and a powerful logistics-grade silhouette. Color should come from coconut crab shell variation: deep blue violet armor, muted purple shadows, sandy tan and brown worn edges, charcoal creases, subtle cream highlights.\nComposition/framing: centered complete cutout with generous padding; the claw angled diagonally but fully visible with no cropping. Clean studio lighting that preserves shell texture and material detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #00ff00 anywhere in the subject.\nConstraints: no full crab body, no second claw, no coconut, no beach, no forest, no hand, no props, no landscape, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-coconut-crab/design-system-light.png",
+      "sourceAsset": "/systems/morphous-coconut-crab/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Coconut Crab light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Coconut Crab\", derived from the visible coconut crab claw cutout reference. This board is a source reference for implementing a shadcn/tweakcn-compatible heavyweight logistics UI system.\nCanvas: exact wide 16:9 design board, preferably 3840x2160 4K-class. Clean professional product design-system presentation, not a marketing page. Use large legible section labels and avoid dense tiny text.\nRequired visible sections: Morphous Coconut Crab, Coconut Crab Claw, Palette, Typography, Japanese Typography, Components, Navigation, Logistics Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, component mass, and interaction language from the coconut crab claw: deep blue-violet shell plates, muted purple shadow bands, sandy tan worn claw edges, dark brown hinge creases, cream highlights, rugged raised shell bumps, island-forest logistics context, and heavy pincer geometry. The board must read as coconut crab claw, not lobster, hermit crab, generic crab, beach resort, or sci-fi spaceship.\nTypography: English logistics UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual labels for cargo, route, dock, manifest, inventory, weight, carrier, and ETA with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive icon buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, segmented controls, tabs, badges, alerts, cards with 8px radius or less, route cards, shipment metric tiles, manifest tables, command search palette, sidebar navigation, top navigation, dashboard charts, map-like route panel, data table rows, empty/loading/error states, progress, stepper, filters, status chips, spacing scale, radius samples, border samples, shadow samples, texture samples, token swatches, compact icons.\nStyle: heavyweight logistics system, dense but scannable operational UI, 8px grid, radii no larger than 8px, off-white sand surfaces, shell-blue primary actions, purple-brown active states, tan warning chips, dark hinge-brown separators, restrained shadows, subtle shell-bump and claw-edge textures, robust components that feel load-bearing and precise.\nConstraints: no generic purple/blue gradient dominance, no neon colors, no beige-only palette, no orange/brown-only palette, no rounded pill-only UI, no card-in-card layout, no beach vacation theme, no random brand names, no watermark, no tiny unreadable paragraphs, no misspelling of \"Morphous Coconut Crab\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-coconut-crab/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-coconut-crab/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-coconut-crab/motif.png",
+        "/systems/morphous-coconut-crab/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Coconut Crab dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Coconut Crab\" / \"Coconut Crab Claw\". Translate the visible light design-system board and coconut crab claw motif into dark mode; it must feel like the same system, not a new unrelated theme.\nCanvas: exact wide 16:9 design board, preferably 3840x2160 4K-class. Clean professional shadcn/tweakcn design-system presentation, heavyweight logistics system mood. Keep labels large and legible.\nRequired visible sections: Morphous Coconut Crab, Coconut Crab Claw, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Logistics Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the same component layout and motif-derived roles from the light board: shell-blue primary actions, shell-violet active states, deep indigo navigation, hinge-brown separators, sand-tan warnings, cream highlights, shell-gray muted surfaces, raised claw bump texture, rugged worn claw-edge texture, map/route logistics panel, manifest tables, command palette, and compact operational status chips. The board must read as coconut crab claw, not lobster, hermit crab, generic crab, gaming UI, or sci-fi spaceship.\nTypography: English logistics UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual labels for cargo, route, dock, manifest, inventory, weight, carrier, and ETA with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive icon buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, segmented controls, tabs, badges, alerts, cards with 8px radius or less, route cards, shipment metric tiles, manifest tables, command search palette, sidebar navigation, top navigation, dashboard charts, map-like route panel, data table rows, empty/loading/error states, progress, stepper, filters, status chips, spacing scale, radius samples, border samples, shadow samples, texture samples, token swatches, compact icons.\nVisual details: deep blue-black shell background, charcoal-violet panels, brown hinge dividers, sand-tan warning and ETA chips, shell-blue focus rings, cream text, muted purple shadows, subtle shell-bump and claw-edge texture overlays, restrained contrast, dense but scannable dashboards, polished shadcn/tweakcn component language, radii no larger than 8px.\nConstraints: no neon orange, no generic black-and-orange gaming UI, no pure-black flat background, no unrelated saturated colors, no generic purple/blue gradient dominance, no beach vacation theme, no random brand names, no watermark, no tiny unreadable paragraphs, no misspelling of \"Morphous Coconut Crab\"."
+    }
+  ]
+}

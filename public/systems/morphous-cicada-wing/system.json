@@ -1,0 +1,86 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-cicada-wing",
+  "name": "Morphous Cicada Wing",
+  "motifName": "Cicada Wing",
+  "motifCategory": "insect",
+  "biome": "Summer Forest",
+  "motif": "clear amber vein detail",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Cicada Wing light and dark design-system boards: clear amber actions, bark-grey structure, translucent membrane surfaces, resin-gold focus states, summer-moss support, and fine vein-grid rhythm.",
+  "typography": "Inter Variable for crisp product UI with Noto Sans JP guidance for Japanese labels, light numerics, and translucent dashboard hierarchy.",
+  "layout": "Precise 8px grid, wing-cell panel divisions, thin vein-like separators, translucent surface layers, restrained shadows, and radius capped at 8px.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cicada",
+    "wing",
+    "insect",
+    "summer-forest",
+    "transparent",
+    "amber",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Ivory",
+      "hex": "#fbf7ea"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Bark",
+      "hex": "#171412"
+    },
+    {
+      "role": "Primary",
+      "name": "Clear Amber",
+      "hex": "#d89a2e"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Membrane",
+      "hex": "#f4e7bd"
+    },
+    {
+      "role": "Accent",
+      "name": "Resin Gold",
+      "hex": "#b86f16"
+    },
+    {
+      "role": "Support",
+      "name": "Summer Moss",
+      "hex": "#7f8b65"
+    },
+    {
+      "role": "Surface",
+      "name": "Amber Wash",
+      "hex": "#f0d39a"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Grey",
+      "hex": "#7b7566"
+    },
+    {
+      "role": "Depth",
+      "name": "Smoke Brown",
+      "hex": "#2f2924"
+    },
+    {
+      "role": "Line",
+      "name": "Vein Umber",
+      "hex": "#4b3524"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

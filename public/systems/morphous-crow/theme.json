@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-crow",
+    "name": "Morphous Crow",
+    "motifName": "Crow",
+    "motifCategory": "bird",
+    "biome": "Urban Woodland",
+    "motif": "crow feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Fog",
+      "hex": "#f2f4f6",
+      "oklch": "oklch(0.966 0.003 247.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Municipal White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Crow Black",
+      "hex": "#0d0f12",
+      "oklch": "oklch(0.168 0.007 258.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Charcoal Barb",
+      "hex": "#1a1d21",
+      "oklch": "oklch(0.229 0.009 255.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Graphite Wing",
+      "hex": "#3a3f46",
+      "oklch": "oklch(0.366 0.014 256.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Iridescent Blue Black",
+      "hex": "#182633",
+      "oklch": "oklch(0.262 0.031 247.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Grey",
+      "hex": "#6b7178",
+      "oklch": "oklch(0.546 0.013 252.2)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Grey Eye",
+      "hex": "#d4dae0",
+      "oklch": "oklch(0.886 0.011 247.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Signal Amber",
+      "hex": "#d97706",
+      "oklch": "oklch(0.666 0.157 58.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Brick Red",
+      "hex": "#b42318",
+      "oklch": "oklch(0.500 0.182 29.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.966 0.003 247.9)",
+    "foreground": "oklch(0.168 0.007 258.4)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.168 0.007 258.4)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.168 0.007 258.4)",
+    "primary": "oklch(0.229 0.009 255.6)",
+    "primary-foreground": "oklch(0.966 0.003 247.9)",
+    "secondary": "oklch(0.985 0.001 286.4)",
+    "secondary-foreground": "oklch(1.000 0.000 89.9)",
+    "muted": "oklch(0.990 0.001 197.1)",
+    "muted-foreground": "oklch(1.000 0.000 89.9)",
+    "accent": "oklch(0.262 0.031 247.3)",
+    "accent-foreground": "oklch(0.168 0.007 258.4)",
+    "destructive": "oklch(0.229 0.009 255.6)",
+    "border": "oklch(0.844 0.004 247.9)",
+    "input": "oklch(0.844 0.004 247.9)",
+    "ring": "oklch(0.366 0.014 256.8)",
+    "chart-1": "oklch(0.229 0.009 255.6)",
+    "chart-2": "oklch(0.366 0.014 256.8)",
+    "chart-3": "oklch(0.262 0.031 247.3)",
+    "chart-4": "oklch(0.262 0.031 247.3)",
+    "chart-5": "oklch(1.000 0.000 89.9)",
+    "sidebar": "oklch(0.988 0.001 286.4)",
+    "sidebar-foreground": "oklch(0.168 0.007 258.4)",
+    "sidebar-primary": "oklch(0.229 0.009 255.6)",
+    "sidebar-primary-foreground": "oklch(0.966 0.003 247.9)",
+    "sidebar-accent": "oklch(0.919 0.000 89.9)",
+    "sidebar-accent-foreground": "oklch(0.229 0.009 255.6)",
+    "sidebar-border": "oklch(0.844 0.004 247.9)",
+    "sidebar-ring": "oklch(0.366 0.014 256.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.168 0.007 258.4)",
+    "foreground": "oklch(0.966 0.003 247.9)",
+    "card": "oklch(0.748 0.001 286.4)",
+    "card-foreground": "oklch(0.966 0.003 247.9)",
+    "popover": "oklch(0.748 0.001 286.4)",
+    "popover-foreground": "oklch(0.966 0.003 247.9)",
+    "primary": "oklch(0.366 0.014 256.8)",
+    "primary-foreground": "oklch(0.168 0.007 258.4)",
+    "secondary": "oklch(0.905 0.003 228.8)",
+    "secondary-foreground": "oklch(0.966 0.003 247.9)",
+    "muted": "oklch(0.905 0.003 228.8)",
+    "muted-foreground": "oklch(0.784 0.007 247.9)",
+    "accent": "oklch(0.262 0.031 247.3)",
+    "accent-foreground": "oklch(0.168 0.007 258.4)",
+    "destructive": "oklch(0.229 0.009 255.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.366 0.014 256.8)",
+    "chart-1": "oklch(0.366 0.014 256.8)",
+    "chart-2": "oklch(0.229 0.009 255.6)",
+    "chart-3": "oklch(0.262 0.031 247.3)",
+    "chart-4": "oklch(0.262 0.031 247.3)",
+    "chart-5": "oklch(0.546 0.013 252.2)",
+    "sidebar": "oklch(0.589 0.003 264.5)",
+    "sidebar-foreground": "oklch(0.966 0.003 247.9)",
+    "sidebar-primary": "oklch(0.366 0.014 256.8)",
+    "sidebar-primary-foreground": "oklch(0.168 0.007 258.4)",
+    "sidebar-accent": "oklch(0.905 0.003 228.8)",
+    "sidebar-accent-foreground": "oklch(0.966 0.003 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.366 0.014 256.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for practical civic product UI with Noto Sans JP guidance for Japanese service labels, tabular case numbers, and legible dense dashboards.",
+  "layout": "8px grid, matte municipal cards, firm left navigation, feather-line separators, compact civic queue tables, restrained focus rings, and dashboard-first service workflows.",
+  "tags": [
+    "crow",
+    "bird",
+    "urban-woodland",
+    "crow-feather",
+    "charcoal",
+    "civic-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-crow/motif.png",
+    "board": "/systems/morphous-crow/design-system-light.png",
+    "darkBoard": "/systems/morphous-crow/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-crow/theme.css",
+    "themeJson": "/systems/morphous-crow/theme.json",
+    "promptsJson": "/systems/morphous-crow/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent crow feather motif",
+      "asset": "/systems/morphous-crow/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create one isolated crow feather, full feather only, no environment, no props, no text.\nSubject: a single realistic crow wing feather with charcoal black vanes, soft graphite gray edge highlights, subtle blue-black iridescence, central dark shaft, fine barbs and natural asymmetry, clean intact silhouette, practical civic-system mood inspired by urban woodland crows.\nComposition/framing: centered complete cutout with generous padding; do not crop the tip, shaft, or edges.\nLighting/mood: clean studio light that preserves black feather texture, charcoal tonal range, and grey eye-like highlight cues without adding a scene.\nTransparent workflow: place the feather on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the feather.\nConstraints: no text, no watermark, no bird body, no second feather, no props, no landscape, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-crow/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Crow\nPrimary request: Generate a comprehensive light-mode design-system board for a motif-driven UI theme named Crow, derived from a crow feather motif: charcoal black vanes, graphite grey edges, cool grey eye highlights, blue-black iridescence, urban woodland texture, and a practical civic system feel.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: practical civic operations system, urban woodland restraint, dense but calm public-service dashboard UI, feather-barb line texture, orderly municipal navigation, matte surfaces, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Crow\", motif story, palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, civic operations dashboard, queue/status metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: pale fog background, off-white municipal cards, charcoal ink text, crow black primary, graphite grey secondary, blue-black iridescent accent, grey eye highlight, ash borders, muted amber warning, brick red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Labels should be generic civic product UI labels such as Services, Cases, Requests, Status, Queue, District, Forms, Table, Analytics, Search, Ready, Pending, Notice.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple gradients, no blue gradients, no illegible microtext, no marketing hero layout, no cartoon bird mascot."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-crow/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Crow\nPrimary request: Generate a comprehensive dark-mode version of the Crow design-system board. It must feel like the same practical civic operations system translated to dark mode, not a new theme.\nReference style: crow feather motif with charcoal black vanes, graphite grey edges, cool grey eye highlights, restrained blue-black iridescence, urban woodland texture, feather-barb line rhythm, and practical municipal service UI language.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: dark civic operations workspace, dense but readable public-service dashboards, matte charcoal panels, orderly navigation, subtle feather-line texture, grey eye focus rings, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Crow Dark\", motif story, dark palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, civic operations dashboard, queue/status metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: deep crow black background, near-black panels, fog text, graphite borders, ash muted surfaces, grey eye highlight, blue-black iridescent accent, cool civic info, muted amber warning, brick red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Labels should be generic civic product UI labels such as Services, Cases, Requests, Status, Queue, District, Forms, Table, Analytics, Search, Ready, Pending, Notice.\nConstraints: no watermark, no random brand names, no neon colors, no pure flat black background, no unrelated saturated colors, no purple gradients, no blue gradients, no illegible microtext, no marketing hero layout, no cartoon bird mascot."
+    }
+  ]
+}

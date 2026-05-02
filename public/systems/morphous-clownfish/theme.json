@@ -1,0 +1,222 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-clownfish",
+    "name": "Morphous Clownfish",
+    "motifName": "Clownfish",
+    "motifCategory": "fish",
+    "biome": "reef anemone",
+    "motif": "clownfish stripes"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Anemone Mist",
+      "hex": "#F4FAF8",
+      "oklch": "oklch(0.980 0.007 174.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Band Pearl",
+      "hex": "#FAFAFA",
+      "oklch": "oklch(0.985 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Water Mist",
+      "hex": "#E6F5F3",
+      "oklch": "oklch(0.958 0.016 187.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clownfish Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Action",
+      "name": "Scale Orange",
+      "hex": "#FF8C1A",
+      "oklch": "oklch(0.751 0.176 56.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Amber",
+      "hex": "#F4B84A",
+      "oklch": "oklch(0.819 0.141 79.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Error Coral",
+      "hex": "#E23A31",
+      "oklch": "oklch(0.604 0.206 28.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Anemone Teal",
+      "hex": "#2EA39A",
+      "oklch": "oklch(0.650 0.101 187.4)"
+    },
+    {
+      "role": "Accent Deep",
+      "name": "Sea Green Dark",
+      "hex": "#207B74",
+      "oklch": "oklch(0.530 0.083 187.4)"
+    },
+    {
+      "role": "Soft Accent",
+      "name": "Soft Aqua",
+      "hex": "#CFEDEA",
+      "oklch": "oklch(0.924 0.032 189.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stripe Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Reef Slate",
+      "hex": "#374151",
+      "oklch": "oklch(0.373 0.031 259.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Reef Shadow",
+      "hex": "#1F2933",
+      "oklch": "oklch(0.276 0.023 248.7)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Reef",
+      "hex": "#071014",
+      "oklch": "oklch(0.166 0.016 226.9)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Dark Surface",
+      "hex": "#0F1A1A",
+      "oklch": "oklch(0.207 0.016 196.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.007 174.4)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.985 0.000 89.9)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.985 0.000 89.9)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.985 0.000 89.9)",
+    "secondary": "oklch(0.958 0.016 187.3)",
+    "secondary-foreground": "oklch(0.276 0.023 248.7)",
+    "muted": "oklch(0.924 0.032 189.3)",
+    "muted-foreground": "oklch(0.373 0.031 259.7)",
+    "accent": "oklch(0.650 0.101 187.4)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.604 0.206 28.2)",
+    "border": "oklch(0.924 0.032 189.3)",
+    "input": "oklch(0.924 0.032 189.3)",
+    "ring": "oklch(0.530 0.083 187.4)",
+    "chart-1": "oklch(0.701 0.201 44.8)",
+    "chart-2": "oklch(0.650 0.101 187.4)",
+    "chart-3": "oklch(0.631 0.197 40.3)",
+    "chart-4": "oklch(0.819 0.141 79.4)",
+    "chart-5": "oklch(0.276 0.023 248.7)",
+    "sidebar": "oklch(0.985 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-accent": "oklch(0.958 0.016 187.3)",
+    "sidebar-accent-foreground": "oklch(0.276 0.023 248.7)",
+    "sidebar-border": "oklch(0.924 0.032 189.3)",
+    "sidebar-ring": "oklch(0.530 0.083 187.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.166 0.016 226.9)",
+    "foreground": "oklch(0.985 0.000 89.9)",
+    "card": "oklch(0.207 0.016 196.0)",
+    "card-foreground": "oklch(0.985 0.000 89.9)",
+    "popover": "oklch(0.207 0.016 196.0)",
+    "popover-foreground": "oklch(0.985 0.000 89.9)",
+    "primary": "oklch(0.751 0.176 56.8)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.282 0.024 223.3)",
+    "secondary-foreground": "oklch(0.985 0.000 89.9)",
+    "muted": "oklch(0.282 0.024 223.3)",
+    "muted-foreground": "oklch(0.752 0.016 241.8)",
+    "accent": "oklch(0.650 0.101 187.4)",
+    "accent-foreground": "oklch(0.166 0.016 226.9)",
+    "destructive": "oklch(0.604 0.206 28.2)",
+    "border": "oklch(0.376 0.034 229.3 / 64%)",
+    "input": "oklch(0.376 0.034 229.3 / 72%)",
+    "ring": "oklch(0.650 0.101 187.4)",
+    "chart-1": "oklch(0.751 0.176 56.8)",
+    "chart-2": "oklch(0.650 0.101 187.4)",
+    "chart-3": "oklch(0.958 0.016 187.3)",
+    "chart-4": "oklch(0.819 0.141 79.4)",
+    "chart-5": "oklch(0.752 0.016 241.8)",
+    "sidebar": "oklch(0.207 0.016 196.0)",
+    "sidebar-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-primary": "oklch(0.751 0.176 56.8)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.282 0.024 223.3)",
+    "sidebar-accent-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-border": "oklch(0.376 0.034 229.3 / 64%)",
+    "sidebar-ring": "oklch(0.650 0.101 187.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for compact friendly product UI, Geist Mono for tabular reef and conversion data, and Noto Sans JP guidance for Japanese navigation, forms, search, table labels, charts, and status text.",
+  "layout": "Banded product grids, stripe-like dividers, warm light surfaces, compact dashboard cards, 8px radii, orange primary actions, sea-green focus states, charcoal stripe borders, soft white-band cards, scale-grain texture, and approachable operational workflows.",
+  "tags": [
+    "clownfish",
+    "fish",
+    "reef-anemone",
+    "orange-white-black",
+    "sea-green",
+    "stripe-rhythm",
+    "friendly-product",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-clownfish/motif.png",
+    "board": "/systems/morphous-clownfish/design-system-light.png",
+    "darkBoard": "/systems/morphous-clownfish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-clownfish/theme.css",
+    "themeJson": "/systems/morphous-clownfish/theme.json",
+    "promptsJson": "/systems/morphous-clownfish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent clownfish motif",
+      "asset": "/systems/morphous-clownfish/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, copied from this worker's generated-images snapshot, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous transparent motif chroma-key source. Primary request: Create only an isolated clownfish motif for a design-system catalog, no environment, no props, no text. Subject: A single friendly but anatomically credible ocellaris clownfish, full body visible, vivid orange body, clean white bands, crisp black stripe borders, black-edged fins, subtle sea-green reflected highlights from a reef anemone environment, fine scale texture, natural glossy eye, and gently curved swimming posture. The motif should emphasize the readable clownfish stripe rhythm that can drive UI components. Composition/framing: centered complete cutout with generous padding; do not crop tail, fins, head, or stripe bands. Slight three-quarter side view, calm approachable expression, catalog-quality silhouette. Lighting/mood: clean studio light that preserves orange, white, black, and sea-green details without shadows on the background. Transparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. Constraints: no anemone, no coral, no reef scene, no water, no bubbles, no second fish, no decorative background, no cast shadow, no contact shadow, no reflection, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-clownfish/design-system-light.png",
+      "sourceAsset": "/systems/morphous-clownfish/motif.png",
+      "workflow": "Built-in image generation using the transparent motif as visual context, copied from this worker's generated-images snapshot, then resampled and saved as a 3840x2160 16:9 PNG.",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Clownfish light-mode design-system board. Input image role: The visible transparent clownfish motif is the source reference for palette, stripe rhythm, texture, contrast, and interaction language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Clownfish\", derived from the visible transparent clownfish cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board with large readable labels, sparse enough to survive gallery preview downscaling; avoid dense tiny paragraphs. Required visible sections: Morphous Clownfish, Clownfish, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Extract palette and interaction language from the clownfish's vivid orange body, clean white bands, crisp black stripe borders, sea-green anemone reflections on fin edges, glossy scale texture, rounded friendly silhouette, and rhythmic stripe segmentation. UI coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, progress rings, empty/loading/error states, spacing, radius, border, shadow, texture samples, data cards, and simple product icons. Style: premium shadcn/tweakcn-compatible friendly product system, precise product grid, 8px maximum card radius, warm reef-light surfaces, clownfish-orange primary actions, sea-green accents, charcoal stripe borders, soft white band surfaces, subtle scale grain, banded dividers inspired by clownfish stripes, approachable operational UI rather than a marketing page. Typography: show English UI type plus Japanese typography guidance, with short readable Japanese samples such as ナビゲーション, 検索, 状態, and データ. Use compact product typography with a friendly roundness. Color constraints: use only motif-derived colors and near-neutrals from orange, white, black, sea green, reef shadow, and soft water highlights; avoid unrelated saturated colors, generic purple/blue gradients, and one-note orange dominance. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Clownfish\" or \"Clownfish\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-clownfish/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-clownfish/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-clownfish/design-system-light.png"
+      ],
+      "workflow": "Built-in image generation using the transparent motif and light board as visual context, copied from this worker's generated-images snapshot, then resampled and saved as a 3840x2160 16:9 PNG.",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Clownfish dark-mode design-system board. Input image roles: The visible transparent clownfish motif is the source motif reference, and the visible light-mode board is the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Clownfish\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible clownfish cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board with large readable labels, sparse enough to survive gallery preview downscaling; avoid dense tiny paragraphs. Required visible sections: Morphous Clownfish, Clownfish, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Charts, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Preserve the light board's friendly product-system language, section coverage, navigation pattern, cards, forms, table, search palette, status states, token rows, texture samples, 8px radius, stripe rhythm, and chart coverage. Visual details: dark background derived from reef shadow, stripe black, and deep sea-green anemone shade; foreground from clownfish white bands and water mist; primary actions from vivid clownfish orange; secondary and focus states from sea green; surfaces from charcoal reef, ink black, and deep teal; borders from black stripe edges; subtle scale-grain texture and banded clownfish stripe dividers. UI coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, progress rings, empty/loading/error states, forms, tables, status, tokens, texture, radius, spacing, and shadows. Typography: show English UI type plus Japanese typography guidance, with short readable Japanese samples such as ナビゲーション, 検索, 状態, and データ. Use compact product typography with a friendly roundness. Color constraints: use only motif-derived colors and near-neutrals from orange, white, black, sea green, reef shadow, and water highlights; no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background, no one-note orange dominance. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Clownfish\" or \"Clownfish\", no tiny unreadable paragraphs."
+    }
+  ]
+}

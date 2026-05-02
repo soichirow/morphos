@@ -1,0 +1,217 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 359,
+  "slug": "morphous-clownfish",
+  "name": "Morphous Clownfish",
+  "motifName": "Clownfish",
+  "motifCategory": "fish",
+  "biome": "reef anemone",
+  "motif": "clownfish stripes",
+  "description": "A shadcn/tweakcn-compatible friendly product system derived from clownfish orange scales, white bands, black stripe edges, sea-green anemone reflections, reef-shadow depth, and rhythmic segmented markings.",
+  "typography": "Inter for compact friendly product UI, Geist Mono for tabular reef and conversion data, and Noto Sans JP guidance for Japanese navigation, forms, search, table labels, charts, and status text.",
+  "layout": "Banded product grids, stripe-like dividers, warm light surfaces, compact dashboard cards, 8px radii, orange primary actions, sea-green focus states, charcoal stripe borders, soft white-band cards, scale-grain texture, and approachable operational workflows.",
+  "designMood": "friendly product system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "charts",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "clownfish",
+    "fish",
+    "reef-anemone",
+    "orange-white-black",
+    "sea-green",
+    "stripe-rhythm",
+    "friendly-product",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Anemone Mist",
+      "hex": "#F4FAF8",
+      "oklch": "oklch(0.980 0.007 174.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Band Pearl",
+      "hex": "#FAFAFA",
+      "oklch": "oklch(0.985 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Water Mist",
+      "hex": "#E6F5F3",
+      "oklch": "oklch(0.958 0.016 187.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clownfish Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Action",
+      "name": "Scale Orange",
+      "hex": "#FF8C1A",
+      "oklch": "oklch(0.751 0.176 56.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Amber",
+      "hex": "#F4B84A",
+      "oklch": "oklch(0.819 0.141 79.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Error Coral",
+      "hex": "#E23A31",
+      "oklch": "oklch(0.604 0.206 28.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Anemone Teal",
+      "hex": "#2EA39A",
+      "oklch": "oklch(0.650 0.101 187.4)"
+    },
+    {
+      "role": "Accent Deep",
+      "name": "Sea Green Dark",
+      "hex": "#207B74",
+      "oklch": "oklch(0.530 0.083 187.4)"
+    },
+    {
+      "role": "Soft Accent",
+      "name": "Soft Aqua",
+      "hex": "#CFEDEA",
+      "oklch": "oklch(0.924 0.032 189.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stripe Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Reef Slate",
+      "hex": "#374151",
+      "oklch": "oklch(0.373 0.031 259.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Reef Shadow",
+      "hex": "#1F2933",
+      "oklch": "oklch(0.276 0.023 248.7)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Reef",
+      "hex": "#071014",
+      "oklch": "oklch(0.166 0.016 226.9)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Dark Surface",
+      "hex": "#0F1A1A",
+      "oklch": "oklch(0.207 0.016 196.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.980 0.007 174.4)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.985 0.000 89.9)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.985 0.000 89.9)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.985 0.000 89.9)",
+    "secondary": "oklch(0.958 0.016 187.3)",
+    "secondary-foreground": "oklch(0.276 0.023 248.7)",
+    "muted": "oklch(0.924 0.032 189.3)",
+    "muted-foreground": "oklch(0.373 0.031 259.7)",
+    "accent": "oklch(0.650 0.101 187.4)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.604 0.206 28.2)",
+    "border": "oklch(0.924 0.032 189.3)",
+    "input": "oklch(0.924 0.032 189.3)",
+    "ring": "oklch(0.530 0.083 187.4)",
+    "chart-1": "oklch(0.701 0.201 44.8)",
+    "chart-2": "oklch(0.650 0.101 187.4)",
+    "chart-3": "oklch(0.631 0.197 40.3)",
+    "chart-4": "oklch(0.819 0.141 79.4)",
+    "chart-5": "oklch(0.276 0.023 248.7)",
+    "sidebar": "oklch(0.985 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-accent": "oklch(0.958 0.016 187.3)",
+    "sidebar-accent-foreground": "oklch(0.276 0.023 248.7)",
+    "sidebar-border": "oklch(0.924 0.032 189.3)",
+    "sidebar-ring": "oklch(0.530 0.083 187.4)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.166 0.016 226.9)",
+    "foreground": "oklch(0.985 0.000 89.9)",
+    "card": "oklch(0.207 0.016 196.0)",
+    "card-foreground": "oklch(0.985 0.000 89.9)",
+    "popover": "oklch(0.207 0.016 196.0)",
+    "popover-foreground": "oklch(0.985 0.000 89.9)",
+    "primary": "oklch(0.751 0.176 56.8)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.282 0.024 223.3)",
+    "secondary-foreground": "oklch(0.985 0.000 89.9)",
+    "muted": "oklch(0.282 0.024 223.3)",
+    "muted-foreground": "oklch(0.752 0.016 241.8)",
+    "accent": "oklch(0.650 0.101 187.4)",
+    "accent-foreground": "oklch(0.166 0.016 226.9)",
+    "destructive": "oklch(0.604 0.206 28.2)",
+    "border": "oklch(0.376 0.034 229.3 / 64%)",
+    "input": "oklch(0.376 0.034 229.3 / 72%)",
+    "ring": "oklch(0.650 0.101 187.4)",
+    "chart-1": "oklch(0.751 0.176 56.8)",
+    "chart-2": "oklch(0.650 0.101 187.4)",
+    "chart-3": "oklch(0.958 0.016 187.3)",
+    "chart-4": "oklch(0.819 0.141 79.4)",
+    "chart-5": "oklch(0.752 0.016 241.8)",
+    "sidebar": "oklch(0.207 0.016 196.0)",
+    "sidebar-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-primary": "oklch(0.751 0.176 56.8)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.282 0.024 223.3)",
+    "sidebar-accent-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-border": "oklch(0.376 0.034 229.3 / 64%)",
+    "sidebar-ring": "oklch(0.650 0.101 187.4)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

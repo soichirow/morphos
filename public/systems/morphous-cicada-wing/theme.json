@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cicada-wing",
+    "name": "Morphous Cicada Wing",
+    "motifName": "Cicada Wing",
+    "motifCategory": "insect",
+    "biome": "Summer Forest",
+    "motif": "clear amber vein detail"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Ivory",
+      "hex": "#fbf7ea",
+      "oklch": "oklch(0.976 0.018 92.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Bark",
+      "hex": "#171412",
+      "oklch": "oklch(0.194 0.006 56.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clear Amber",
+      "hex": "#d89a2e",
+      "oklch": "oklch(0.729 0.138 76.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Membrane",
+      "hex": "#f4e7bd",
+      "oklch": "oklch(0.928 0.056 92.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Resin Gold",
+      "hex": "#b86f16",
+      "oklch": "oklch(0.609 0.131 63.9)"
+    },
+    {
+      "role": "Support",
+      "name": "Summer Moss",
+      "hex": "#7f8b65",
+      "oklch": "oklch(0.617 0.057 122.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Amber Wash",
+      "hex": "#f0d39a",
+      "oklch": "oklch(0.878 0.080 83.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Grey",
+      "hex": "#7b7566",
+      "oklch": "oklch(0.563 0.024 88.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Smoke Brown",
+      "hex": "#2f2924",
+      "oklch": "oklch(0.286 0.013 62.1)"
+    },
+    {
+      "role": "Line",
+      "name": "Vein Umber",
+      "hex": "#4b3524",
+      "oklch": "oklch(0.350 0.042 58.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.018 92.7)",
+    "foreground": "oklch(0.194 0.006 56.0)",
+    "card": "oklch(0.878 0.080 83.9)",
+    "card-foreground": "oklch(0.194 0.006 56.0)",
+    "popover": "oklch(0.878 0.080 83.9)",
+    "popover-foreground": "oklch(0.194 0.006 56.0)",
+    "primary": "oklch(0.729 0.138 76.4)",
+    "primary-foreground": "oklch(0.976 0.018 92.7)",
+    "secondary": "oklch(0.919 0.054 84.5)",
+    "secondary-foreground": "oklch(0.286 0.013 62.1)",
+    "muted": "oklch(0.905 0.063 84.9)",
+    "muted-foreground": "oklch(0.286 0.013 62.1)",
+    "accent": "oklch(0.609 0.131 63.9)",
+    "accent-foreground": "oklch(0.194 0.006 56.0)",
+    "destructive": "oklch(0.729 0.138 76.4)",
+    "border": "oklch(0.768 0.061 84.4)",
+    "input": "oklch(0.768 0.061 84.4)",
+    "ring": "oklch(0.928 0.056 92.9)",
+    "chart-1": "oklch(0.729 0.138 76.4)",
+    "chart-2": "oklch(0.928 0.056 92.9)",
+    "chart-3": "oklch(0.609 0.131 63.9)",
+    "chart-4": "oklch(0.617 0.057 122.3)",
+    "chart-5": "oklch(0.286 0.013 62.1)",
+    "sidebar": "oklch(0.910 0.059 84.5)",
+    "sidebar-foreground": "oklch(0.194 0.006 56.0)",
+    "sidebar-primary": "oklch(0.729 0.138 76.4)",
+    "sidebar-primary-foreground": "oklch(0.976 0.018 92.7)",
+    "sidebar-accent": "oklch(0.859 0.089 83.1)",
+    "sidebar-accent-foreground": "oklch(0.729 0.138 76.4)",
+    "sidebar-border": "oklch(0.768 0.061 84.4)",
+    "sidebar-ring": "oklch(0.928 0.056 92.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.194 0.006 56.0)",
+    "foreground": "oklch(0.976 0.018 92.7)",
+    "card": "oklch(0.256 0.011 61.0)",
+    "card-foreground": "oklch(0.976 0.018 92.7)",
+    "popover": "oklch(0.256 0.011 61.0)",
+    "popover-foreground": "oklch(0.976 0.018 92.7)",
+    "primary": "oklch(0.928 0.056 92.9)",
+    "primary-foreground": "oklch(0.194 0.006 56.0)",
+    "secondary": "oklch(0.352 0.014 71.6)",
+    "secondary-foreground": "oklch(0.976 0.018 92.7)",
+    "muted": "oklch(0.352 0.014 71.6)",
+    "muted-foreground": "oklch(0.798 0.020 93.7)",
+    "accent": "oklch(0.609 0.131 63.9)",
+    "accent-foreground": "oklch(0.194 0.006 56.0)",
+    "destructive": "oklch(0.729 0.138 76.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.928 0.056 92.9)",
+    "chart-1": "oklch(0.928 0.056 92.9)",
+    "chart-2": "oklch(0.729 0.138 76.4)",
+    "chart-3": "oklch(0.609 0.131 63.9)",
+    "chart-4": "oklch(0.617 0.057 122.3)",
+    "chart-5": "oklch(0.563 0.024 88.8)",
+    "sidebar": "oklch(0.238 0.010 67.3)",
+    "sidebar-foreground": "oklch(0.976 0.018 92.7)",
+    "sidebar-primary": "oklch(0.928 0.056 92.9)",
+    "sidebar-primary-foreground": "oklch(0.194 0.006 56.0)",
+    "sidebar-accent": "oklch(0.352 0.014 71.6)",
+    "sidebar-accent-foreground": "oklch(0.976 0.018 92.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.928 0.056 92.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable for crisp product UI with Noto Sans JP guidance for Japanese labels, light numerics, and translucent dashboard hierarchy.",
+  "layout": "Precise 8px grid, wing-cell panel divisions, thin vein-like separators, translucent surface layers, restrained shadows, and radius capped at 8px.",
+  "tags": [
+    "cicada",
+    "wing",
+    "insect",
+    "summer-forest",
+    "transparent",
+    "amber",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cicada-wing/motif.png",
+    "board": "/systems/morphous-cicada-wing/design-system-light.png",
+    "darkBoard": "/systems/morphous-cicada-wing/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cicada-wing/theme.css",
+    "themeJson": "/systems/morphous-cicada-wing/theme.json",
+    "promptsJson": "/systems/morphous-cicada-wing/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Cicada Wing motif",
+      "asset": "/systems/morphous-cicada-wing/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cicada Wing transparent motif chroma-key source\nPrimary request: Create only an isolated cicada wing detail for a design-system catalog, no environment, no props, no text.\nSubject: A single cicada forewing detail with accurate insect wing anatomy, clear amber translucent-looking membrane, fine bark-grey and smoky brown vein lattice, subtle golden highlights, crisp outer wing edge, and a small natural root/hinge detail. The membrane should look transparent and glassy through surface shading, but it must remain visually opaque enough that the chroma-key background does not show through the wing.\nComposition/framing: centered complete cutout with generous padding, wing oriented gently diagonal from lower left to upper right, no cropping, no second wing, no insect body.\nLighting/mood: clean studio light that preserves amber vein detail, bark-grey linework, and delicate membrane texture.\nTransparent workflow: place the wing on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the wing.\nConstraints: no landscape, no branch, no leaf, no cicada body, no second subject, no text, no watermark, no prop, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-cicada-wing/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cicada Wing light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Cicada Wing\", derived from the cicada wing motif cutout.\nReference use: Extract the palette, translucent amber membrane, bark-grey vein lattice, smoky brown vein structure, summer forest warmth, and precise cellular wing rhythm from the cicada wing. The board must visibly respect these motif colors.\nCanvas: wide 16:9 board, 3840x2160 feel, high-resolution source asset.\nResolution and legibility: use large readable section labels, fewer larger token rows, clean spacing, and avoid tiny paragraphs.\nRequired visible sections: title \"Morphous Cicada Wing\", motif story, palette, English typography, Japanese typography with Japanese samples, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, search command palette, sidebar/top navigation, metrics, charts, empty/loading/error states.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, transparent design system mood, 8px radius maximum, thin vein-like dividers, amber glass panels, bark-grey borders, warm off-white surfaces, restrained shadows.\nColor palette: Clear Amber #d89a2e, Wing Membrane #f4e7bd, Bark Grey #7b7566, Vein Umber #4b3524, Resin Gold #b86f16, Mist Ivory #fbf7ea, Summer Moss #7f8b65, Smoke Brown #2f2924, Deep Bark #171412. Use only motif-derived colors plus these near-neutrals.\nTexture language: translucent wing-cell overlays, fine vein linework, subtle bark grain, crisp separators, no decorative blobs.\nText: short readable UI labels only; exact section headings may include Palette, Type, Japanese, Components, Navigation, Data, Forms, Table, Command, Status, Tokens.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no neon, no random brand names, no watermark, no illegible microtext, no radii above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-cicada-wing/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cicada Wing dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Cicada Wing\". It must feel like the same cicada-wing system translated to dark mode, not a new theme.\nReference use: Use the cicada wing motif and the light design-system board as references. Preserve the clear amber membrane palette, bark-grey vein dividers, smoky brown structure, summer forest context, thin cellular rhythm, 8px maximum radius, and transparent design-system mood.\nCanvas: wide 16:9 board, 3840x2160 feel, high-resolution source asset.\nResolution and legibility: use large readable section labels, fewer larger token rows, clean spacing, and avoid tiny paragraphs.\nRequired visible sections: title \"Morphous Cicada Wing\", Dark Mode, palette, English typography, Japanese typography with Japanese samples, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, search command palette, sidebar/top navigation, metrics, charts, empty/loading/error states.\nVisual details: deep bark background, translucent dark umber panels, amber primary actions, ivory text, summer moss support states, resin gold focus rings, bark-grey borders, fine wing-cell overlays, vein-like separators, restrained shadows, crisp shadcn/tweakcn product UI.\nColor palette: Deep Bark #171412, Night Vein #241d18, Smoke Brown #2f2924, Bark Grey #7b7566, Clear Amber #d89a2e, Resin Gold #b86f16, Wing Membrane #f4e7bd, Mist Ivory #fbf7ea, Summer Moss #7f8b65. Use only motif-derived colors plus near-neutrals.\nText: short readable UI labels only; exact section headings may include Palette, Type, Japanese, Components, Navigation, Data, Forms, Table, Command, Status, Tokens.\nConstraints: no neon colors, no flat pure black, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no illegible microtext, no radii above 8px."
+    }
+  ]
+}

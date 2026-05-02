@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-coelacanth",
+    "name": "Morphous Coelacanth",
+    "motifName": "Coelacanth",
+    "motifCategory": "fish",
+    "biome": "Deep Reef",
+    "motif": "coelacanth scales"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fossil Paper",
+      "hex": "#f3f0e6",
+      "oklch": "oklch(0.955 0.014 93.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Slate Ink",
+      "hex": "#24323b",
+      "oklch": "oklch(0.308 0.025 236.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Steel Scale Blue",
+      "hex": "#496b80",
+      "oklch": "oklch(0.510 0.051 236.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Aged Bone",
+      "hex": "#d8d0bd",
+      "oklch": "oklch(0.859 0.027 87.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Patina Teal",
+      "hex": "#6f9ca2",
+      "oklch": "oklch(0.662 0.049 206.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warning Rust",
+      "hex": "#9d6048",
+      "oklch": "oklch(0.551 0.088 42.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Archive Ivory",
+      "hex": "#fffdf6",
+      "oklch": "oklch(0.994 0.009 93.6)"
+    },
+    {
+      "role": "Fleck",
+      "name": "Pale Fleck",
+      "hex": "#f8f7ed",
+      "oklch": "oklch(0.974 0.013 102.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Reef Navy",
+      "hex": "#142432",
+      "oklch": "oklch(0.253 0.034 246.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.014 93.0)",
+    "foreground": "oklch(0.308 0.025 236.8)",
+    "card": "oklch(0.994 0.009 93.6)",
+    "card-foreground": "oklch(0.308 0.025 236.8)",
+    "popover": "oklch(0.994 0.009 93.6)",
+    "popover-foreground": "oklch(0.308 0.025 236.8)",
+    "primary": "oklch(0.510 0.051 236.3)",
+    "primary-foreground": "oklch(0.955 0.014 93.0)",
+    "secondary": "oklch(0.978 0.012 96.4)",
+    "secondary-foreground": "oklch(0.253 0.034 246.1)",
+    "muted": "oklch(0.982 0.010 87.5)",
+    "muted-foreground": "oklch(0.253 0.034 246.1)",
+    "accent": "oklch(0.662 0.049 206.4)",
+    "accent-foreground": "oklch(0.308 0.025 236.8)",
+    "destructive": "oklch(0.510 0.051 236.3)",
+    "border": "oklch(0.946 0.017 91.6)",
+    "input": "oklch(0.946 0.017 91.6)",
+    "ring": "oklch(0.859 0.027 87.9)",
+    "chart-1": "oklch(0.510 0.051 236.3)",
+    "chart-2": "oklch(0.859 0.027 87.9)",
+    "chart-3": "oklch(0.662 0.049 206.4)",
+    "chart-4": "oklch(0.551 0.088 42.1)",
+    "chart-5": "oklch(0.253 0.034 246.1)",
+    "sidebar": "oklch(0.981 0.011 95.2)",
+    "sidebar-foreground": "oklch(0.308 0.025 236.8)",
+    "sidebar-primary": "oklch(0.510 0.051 236.3)",
+    "sidebar-primary-foreground": "oklch(0.955 0.014 93.0)",
+    "sidebar-accent": "oklch(0.938 0.005 134.9)",
+    "sidebar-accent-foreground": "oklch(0.510 0.051 236.3)",
+    "sidebar-border": "oklch(0.946 0.017 91.6)",
+    "sidebar-ring": "oklch(0.859 0.027 87.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.308 0.025 236.8)",
+    "foreground": "oklch(0.955 0.014 93.0)",
+    "card": "oklch(0.272 0.031 241.7)",
+    "card-foreground": "oklch(0.955 0.014 93.0)",
+    "popover": "oklch(0.272 0.031 241.7)",
+    "popover-foreground": "oklch(0.955 0.014 93.0)",
+    "primary": "oklch(0.859 0.027 87.9)",
+    "primary-foreground": "oklch(0.308 0.025 236.8)",
+    "secondary": "oklch(0.402 0.018 235.9)",
+    "secondary-foreground": "oklch(0.955 0.014 93.0)",
+    "muted": "oklch(0.402 0.018 235.9)",
+    "muted-foreground": "oklch(0.913 0.020 90.6)",
+    "accent": "oklch(0.662 0.049 206.4)",
+    "accent-foreground": "oklch(0.308 0.025 236.8)",
+    "destructive": "oklch(0.510 0.051 236.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.859 0.027 87.9)",
+    "chart-1": "oklch(0.859 0.027 87.9)",
+    "chart-2": "oklch(0.510 0.051 236.3)",
+    "chart-3": "oklch(0.662 0.049 206.4)",
+    "chart-4": "oklch(0.551 0.088 42.1)",
+    "chart-5": "oklch(0.859 0.027 87.9)",
+    "sidebar": "oklch(0.285 0.029 240.8)",
+    "sidebar-foreground": "oklch(0.955 0.014 93.0)",
+    "sidebar-primary": "oklch(0.859 0.027 87.9)",
+    "sidebar-primary-foreground": "oklch(0.308 0.025 236.8)",
+    "sidebar-accent": "oklch(0.402 0.018 235.9)",
+    "sidebar-accent-foreground": "oklch(0.955 0.014 93.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.859 0.027 87.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for archive headings, specimen labels, accession tables, and multilingual metadata.",
+  "layout": "Structured 8px archive grids, thin ruled dividers, scale-plate panels, compact catalog tables, restrained shadows, and deep reef navigation hierarchy.",
+  "tags": [
+    "coelacanth",
+    "fish",
+    "deep-reef",
+    "archive",
+    "fossil",
+    "steel-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-coelacanth/motif.png",
+    "board": "/systems/morphous-coelacanth/design-system-light.png",
+    "darkBoard": "/systems/morphous-coelacanth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-coelacanth/theme.css",
+    "themeJson": "/systems/morphous-coelacanth/theme.json",
+    "promptsJson": "/systems/morphous-coelacanth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent coelacanth scale motif source",
+      "asset": "/systems/morphous-coelacanth/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a coelacanth scale motif as an isolated cutout source: a compact overlapping patch of coelacanth body scales with a subtle partial body contour, no environment, no props, no text.\nSubject: Ancient coelacanth scales, heavy lobed fish scale texture, steel blue plates, white mineral flecks, slate ridges, fossil-like archive patina, deep reef shadow, small pearlescent worn edges. The motif should read unmistakably as coelacanth scales rather than generic fish scales.\nComposition/framing: centered complete cutout with generous padding, crisp silhouette, three-quarter texture view, no cropped edges.\nLighting/mood: clean studio light that preserves steel blue scale relief, white flecks, fossil archive neutrals, and deep shadow detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no ocean background, no bubbles, no decorative background, no full fish, no second subject, no cast shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode ancient archive board",
+      "asset": "/systems/morphous-coelacanth/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Coelacanth\" derived from ancient coelacanth scales.\nReference motif: overlapping coelacanth scale plates, steel blue body color, white mineral flecks, slate ridges, fossil archive neutrals, deep reef shadow, ancient preserved-fish texture. The system mood is \"ancient archive system\".\nCanvas: exact 16:9 composition, 4K-class design-system source board, target 3840 x 2160. Crisp readable labels, large UI text, precise grid.\nRequired visible title text: \"Morphous Coelacanth\" and \"Coelacanth Scales\".\nRequired visible sections: Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: left sidebar navigation with archive folders, top command/search bar, dashboard metric cards, line chart, bar chart, small stacked chart, status badges, alert, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, table rows with accession records, form panel, cards, loading/empty/error states, token swatches.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nStyle/medium: premium shadcn/tweakcn product design system, quiet archive dashboard, fossil catalog UI, 8px radius, thin ruled borders, white fleck texture, scale-plate dividers, restrained shadow, no nested cards.\nColor palette: fossil paper #f3f0e6, archive ivory #fffdf6, steel scale blue #496b80, deep reef navy #142432, slate ink #24323b, white fleck #f8f7ed, aged bone #d8d0bd, patina teal #6f9ca2, warning rust #9d6048. Use only these and close neutrals.\nText constraints: short readable UI labels only; no paragraphs; no watermark; no random brand names; no fake logos; do not misspell \"Morphous Coelacanth\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode deep reef archive board",
+      "asset": "/systems/morphous-coelacanth/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for a Morphous theme named \"Morphous Coelacanth\". It must feel like the dark translation of the same ancient coelacanth scale archive system, not a new theme.\nReference motif: ancient overlapping coelacanth scale plates, steel blue body color, white mineral flecks, slate ridges, fossil archive neutrals, deep reef shadow. The system mood is \"ancient archive system\".\nCanvas: exact 16:9 composition, 4K-class design-system source board, target 3840 x 2160. Crisp readable labels, large UI text, precise grid.\nRequired visible title text: \"Morphous Coelacanth\" and \"Dark Archive\".\nRequired visible sections: Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: left sidebar navigation with archive folders, top command/search bar, dashboard metric cards, line chart, bar chart, small stacked chart, status badges, alert, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, table rows with accession records, form panel, cards, loading/empty/error states, token swatches.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nVisual style: deep reef navy and slate ink surfaces, steel blue controls, white fleck highlights, aged bone muted text, patina teal focus rings, rust destructive state, scale-plate texture, quiet museum archive dashboard, thin ruled borders, 8px radius, restrained glow, no nested cards.\nColor palette: deep reef navy #142432, abyss ledger #0c141b, slate ink #24323b, steel scale blue #496b80, pale fleck #f8f7ed, aged bone #d8d0bd, patina teal #6f9ca2, fossil paper #f3f0e6, warning rust #9d6048. Use only these and close neutrals.\nText constraints: short readable UI labels only; no paragraphs; no watermark; no random brand names; no fake logos; do not misspell \"Morphous Coelacanth\"."
+    }
+  ]
+}
