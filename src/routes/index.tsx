@@ -49,13 +49,7 @@ function LandingRoute() {
   return (
     <div style={themeStyle(heroSystem, "light")}>
       <div
-        className="pointer-events-none fixed inset-0 -z-10 transition-colors duration-700"
-        style={{
-          background:
-            "radial-gradient(70% 60% at 80% 0%, color-mix(in oklch, var(--page-glow), transparent 65%), transparent 70%), " +
-            "radial-gradient(80% 60% at 0% 100%, color-mix(in oklch, var(--palette-primary), transparent 80%), transparent 70%), " +
-            "linear-gradient(180deg, var(--page-bg-from), var(--page-bg-to))",
-        }}
+        className="pointer-events-none fixed inset-0 -z-10 bg-background"
       />
 
       <main className="relative min-h-svh overflow-x-hidden text-foreground">

@@ -363,6 +363,7 @@ async function buildSystem(manifestPath) {
   const background = role(palette, "Background", 0)
   const bgLightness = Number(relativeLuminance(background.hex).toFixed(3))
   const searchBlob = buildSearchBlob(prompts)
+  const motifLabel = manifest.motifName ?? manifest.name ?? slug
 
   return {
     slug,
@@ -372,8 +373,12 @@ async function buildSystem(manifestPath) {
     biome: manifest.biome,
     motif: manifest.motif,
     description: manifest.description,
-    typography: manifest.typography,
-    layout: manifest.layout,
+    typography:
+      manifest.typography ??
+      `Readable product UI typography with Japanese guidance for labels, metrics, and ${motifLabel} themed content.`,
+    layout:
+      manifest.layout ??
+      `Responsive 8px-grid layouts with ${motifLabel} inspired surfaces, navigation, cards, forms, tables, and dashboard states.`,
     tags: manifest.tags ?? [],
     palette,
     tokens: tokenSet.light,
@@ -432,6 +437,9 @@ async function main() {
   sourceAsset?: string
   referenceAssets?: Array<string>
   workflow?: string
+  postProcess?: string
+  postProcessing?: string
+  kind?: string
 }
 export type MorphousAssetExample = { id: string; label: string; image: string }
 
