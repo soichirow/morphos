@@ -227,7 +227,7 @@ function CatalogRoute() {
       />
 
       <main className="relative min-h-svh overflow-x-hidden text-foreground">
-        <header className="z-30 border-b border-border/60 bg-background/70 backdrop-blur-xl lg:sticky lg:top-0">
+        <header className="relative z-30 border-b border-border/60 bg-background/70 backdrop-blur-xl lg:sticky lg:top-0">
           <div className="mx-auto flex max-w-[88rem] flex-col gap-3 px-4 py-3 sm:px-6 lg:px-8">
             <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
               <Link
