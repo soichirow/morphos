@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-selenite",
+    "name": "Morphous Selenite",
+    "motifName": "Selenite",
+    "motifCategory": "mineral",
+    "biome": "desert cave",
+    "motif": "selenite blade"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Alabaster Veil",
+      "hex": "#F8F6F0",
+      "oklch": "oklch(0.973 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cave Graphite",
+      "hex": "#2B2D2E",
+      "oklch": "oklch(0.296 0.003 228.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Satin Crystal",
+      "hex": "#DCD6CB",
+      "oklch": "oklch(0.878 0.016 82.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Crystal Sand",
+      "hex": "#D8C7A8",
+      "oklch": "oklch(0.836 0.046 82.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Champagne Glint",
+      "hex": "#CBB891",
+      "oklch": "oklch(0.789 0.057 85.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moonstone Gray",
+      "hex": "#8E9294",
+      "oklch": "oklch(0.657 0.006 228.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Facet",
+      "hex": "#FFFEFA",
+      "oklch": "oklch(0.997 0.005 95.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Gypsum Haze",
+      "hex": "#ECE7DC",
+      "oklch": "oklch(0.929 0.016 86.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Blade Edge",
+      "hex": "#D0CABF",
+      "oklch": "oklch(0.841 0.016 82.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cave Shadow",
+      "hex": "#3D3B39",
+      "oklch": "oklch(0.354 0.004 67.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Desert Mica",
+      "hex": "#BFA772",
+      "oklch": "oklch(0.737 0.076 86.2)"
+    },
+    {
+      "role": "Danger",
+      "name": "Rose Clay",
+      "hex": "#A7655E",
+      "oklch": "oklch(0.578 0.087 26.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.008 91.5)",
+    "foreground": "oklch(0.296 0.003 228.9)",
+    "card": "oklch(0.997 0.005 95.1)",
+    "card-foreground": "oklch(0.296 0.003 228.9)",
+    "popover": "oklch(0.997 0.005 95.1)",
+    "popover-foreground": "oklch(0.296 0.003 228.9)",
+    "primary": "oklch(0.878 0.016 82.8)",
+    "primary-foreground": "oklch(0.973 0.008 91.5)",
+    "secondary": "oklch(0.987 0.007 97.3)",
+    "secondary-foreground": "oklch(0.354 0.004 67.7)",
+    "muted": "oklch(0.990 0.007 97.3)",
+    "muted-foreground": "oklch(0.354 0.004 67.7)",
+    "accent": "oklch(0.789 0.057 85.0)",
+    "accent-foreground": "oklch(0.296 0.003 228.9)",
+    "destructive": "oklch(0.878 0.016 82.8)",
+    "border": "oklch(0.973 0.010 93.6)",
+    "input": "oklch(0.973 0.010 93.6)",
+    "ring": "oklch(0.836 0.046 82.6)",
+    "chart-1": "oklch(0.878 0.016 82.8)",
+    "chart-2": "oklch(0.836 0.046 82.6)",
+    "chart-3": "oklch(0.789 0.057 85.0)",
+    "chart-4": "oklch(0.657 0.006 228.9)",
+    "chart-5": "oklch(0.354 0.004 67.7)",
+    "sidebar": "oklch(0.989 0.006 84.6)",
+    "sidebar-foreground": "oklch(0.296 0.003 228.9)",
+    "sidebar-primary": "oklch(0.878 0.016 82.8)",
+    "sidebar-primary-foreground": "oklch(0.973 0.008 91.5)",
+    "sidebar-accent": "oklch(0.982 0.007 88.6)",
+    "sidebar-accent-foreground": "oklch(0.878 0.016 82.8)",
+    "sidebar-border": "oklch(0.973 0.010 93.6)",
+    "sidebar-ring": "oklch(0.836 0.046 82.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.296 0.003 228.9)",
+    "foreground": "oklch(0.973 0.008 91.5)",
+    "card": "oklch(0.334 0.002 67.7)",
+    "card-foreground": "oklch(0.973 0.008 91.5)",
+    "popover": "oklch(0.334 0.002 67.7)",
+    "popover-foreground": "oklch(0.973 0.008 91.5)",
+    "primary": "oklch(0.836 0.046 82.6)",
+    "primary-foreground": "oklch(0.296 0.003 228.9)",
+    "secondary": "oklch(0.494 0.007 75.4)",
+    "secondary-foreground": "oklch(0.973 0.008 91.5)",
+    "muted": "oklch(0.494 0.007 75.4)",
+    "muted-foreground": "oklch(0.953 0.011 84.6)",
+    "accent": "oklch(0.789 0.057 85.0)",
+    "accent-foreground": "oklch(0.296 0.003 228.9)",
+    "destructive": "oklch(0.878 0.016 82.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.836 0.046 82.6)",
+    "chart-1": "oklch(0.836 0.046 82.6)",
+    "chart-2": "oklch(0.878 0.016 82.8)",
+    "chart-3": "oklch(0.789 0.057 85.0)",
+    "chart-4": "oklch(0.657 0.006 228.9)",
+    "chart-5": "oklch(0.929 0.016 86.4)",
+    "sidebar": "oklch(0.321 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.973 0.008 91.5)",
+    "sidebar-primary": "oklch(0.836 0.046 82.6)",
+    "sidebar-primary-foreground": "oklch(0.296 0.003 228.9)",
+    "sidebar-accent": "oklch(0.494 0.007 75.4)",
+    "sidebar-accent-foreground": "oklch(0.973 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.836 0.046 82.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Quiet English product UI with stable tabular numbers, calm review labels, and Noto Sans JP guidance for Japanese insight, planning, and workflow screens.",
+  "layout": "Spacious 8px clarity grids, translucent crystal panels, blade-line separators, soft mineral texture, restrained shadows, compact data tables, review cards, and calm command surfaces.",
+  "tags": [
+    "selenite",
+    "mineral",
+    "desert-cave",
+    "quiet-clarity",
+    "satin-crystal",
+    "sand",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-selenite/motif.png",
+    "board": "/systems/morphous-selenite/design-system-light.png",
+    "darkBoard": "/systems/morphous-selenite/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-selenite/theme.css",
+    "themeJson": "/systems/morphous-selenite/theme.json",
+    "promptsJson": "/systems/morphous-selenite/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent selenite blade motif",
+      "asset": "/systems/morphous-selenite/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Selenite transparent motif chroma-key source\nPrimary request: Create only a selenite blade motif for a design-system catalog, isolated as a single complete mineral subject on a removable chroma-key background.\nSubject: A graceful cluster of long translucent white satin selenite crystal blades, gypsum-like striated vertical facets, pearly moonlit highlights, milky edges, faint champagne and sand inclusions near the base, sharp but natural blade tips, and realistic mineral translucency. The identity must read as selenite blade, not quartz point, icicle, glass shard, salt crystal, or marble sculpture.\nComposition/framing: centered complete cutout with generous padding; include the full blade cluster silhouette without cropping. Clean studio lighting that preserves satin crystal sheen and fine striations. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #00ff00 anywhere in the subject.\nConstraints: no cave background, no sand floor, no props, no hands, no jewelry, no text, no watermark, no second mineral species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-selenite/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Selenite light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Selenite\", derived from a selenite blade motif. This board is a source reference for implementing a shadcn/tweakcn-compatible quiet clarity UI system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, quiet clarity system mood. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Selenite, Selenite Blade, Palette, Typography, Japanese Typography, Components, Navigation, Clarity Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from translucent white satin selenite blades, pearly crystal highlights, soft gypsum striations, pale desert cave sand, moonlit champagne inclusions, cool dove-gray shadows, and calm blade geometry. The board must read as selenite crystal, not quartz, ice, marble, or generic glass.\nTypography: English quiet product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use calm bilingual planning, review, insight, and workflow labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, insight tiles, review panels, workflow summary, table rows, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, crystal texture samples, simple icons, theme token swatches.\nStyle: quiet clarity system, precise 8px grid and 8px card radius, satin-white crystal surfaces, pearl primary actions, warm sand secondary fields, dove-gray text, champagne accent glints, faint gypsum blade-line separators, subtle desert-cave mineral texture, calm spacious dashboards, polished shadcn/tweakcn component language.\nColor palette: use white satin, pearl, alabaster, moonstone gray, desert sand, pale champagne, gypsum shadow, cave graphite, and a restrained rose-clay destructive color. Avoid saturated blues or purples.\nConstraints: no generic purple or blue gradients, no neon colors, no beige-only palette, no ice-cave identity, no quartz-only identity, no marble-only identity, no random brand names, no watermark, no misspelling of \"Morphous Selenite\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-selenite/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Selenite dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Selenite\" / \"Selenite Blade\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional shadcn/tweakcn design-system presentation, quiet clarity system mood. Keep labels large and legible.\nRequired visible sections: Morphous Selenite, Selenite Blade, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Clarity Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve translucent white satin crystal actions, pearl highlights, warm desert sand secondary fields, moonstone gray text, champagne accent glints, gypsum blade-line separators, desert-cave mineral texture, calm insight tiles, review panels, workflow tables, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as selenite crystal, not quartz, ice, marble, or generic glass.\nTypography: English quiet product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use calm bilingual planning, review, insight, and workflow labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, insight cards, workflow metrics, review summary, table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, crystal texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep cave graphite background, translucent gypsum panels, satin white foreground text, pearl primary controls, pale champagne chart highlights, warm sand muted fields, moonstone focus rings, rose-clay destructive state, subtle vertical selenite striation overlays, thin blade-line separators, restrained contrast, crisp controls and dashboards.\nConstraints: no neon colors, no generic black-and-blue SaaS UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no ice-cave identity, no quartz-only identity, no random brand names, no watermark, no misspelling of \"Morphous Selenite\", no tiny unreadable paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-scree-slope",
+  "name": "Morphous Scree Slope",
+  "status": "ready",
+  "motifName": "Scree Slope",
+  "motifCategory": "landscape",
+  "biome": "mountain talus",
+  "motif": "scree rocks",
+  "mood": "rugged navigation system",
+  "description": "A rugged navigation-system UI derived from mountain talus: fractured grey stone planes, rust traverse marks, lichen pins, sky-blue focus light, and alpine mist neutrals for shadcn/tweakcn interfaces.",
+  "typography": "Geist or Inter for compact product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular route data.",
+  "layout": "Precise shadcn/tweakcn grids, 8px radii, slanted scree-edge dividers, contour-map navigation cues, restrained stone-chip texture, and durable route-planning surfaces.",
+  "themeReference": [
+    "/systems/morphous-scree-slope/design-system-light.png",
+    "/systems/morphous-scree-slope/design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "scree-slope",
+    "landscape",
+    "mountain-talus",
+    "scree-rocks",
+    "navigation",
+    "rugged",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Summit Mist",
+      "hex": "#ECEDEA",
+      "oklch": "oklch(0.961 0.004 115)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Crack",
+      "hex": "#2B2F33",
+      "oklch": "oklch(0.275 0.008 245)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Traverse",
+      "hex": "#C75A2B",
+      "oklch": "oklch(0.602 0.152 43)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Slate Plane",
+      "hex": "#8D959C",
+      "oklch": "oklch(0.707 0.014 245)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Pin",
+      "hex": "#A7B56A",
+      "oklch": "oklch(0.731 0.091 118)"
+    },
+    {
+      "role": "Focus",
+      "name": "Sky Break",
+      "hex": "#B7D0E2",
+      "oklch": "oklch(0.781 0.048 230)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone Face",
+      "hex": "#B8BDC2",
+      "oklch": "oklch(0.814 0.008 235)"
+    },
+    {
+      "role": "Muted",
+      "name": "Talus Shadow",
+      "hex": "#50565B",
+      "oklch": "oklch(0.476 0.012 245)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Alpine White",
+      "hex": "#F5F6F5",
+      "oklch": "oklch(0.985 0.003 115)"
+    },
+    {
+      "role": "Signal",
+      "name": "Route Amber",
+      "hex": "#D69521",
+      "oklch": "oklch(0.713 0.143 77)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.961 0.004 115)",
+    "foreground": "oklch(0.275 0.008 245)",
+    "card": "oklch(0.985 0.003 115)",
+    "card-foreground": "oklch(0.275 0.008 245)",
+    "popover": "oklch(0.985 0.003 115)",
+    "popover-foreground": "oklch(0.275 0.008 245)",
+    "primary": "oklch(0.602 0.152 43)",
+    "primary-foreground": "oklch(0.985 0.003 115)",
+    "secondary": "oklch(0.707 0.014 245)",
+    "secondary-foreground": "oklch(0.275 0.008 245)",
+    "muted": "oklch(0.879 0.006 235)",
+    "muted-foreground": "oklch(0.476 0.012 245)",
+    "accent": "oklch(0.731 0.091 118)",
+    "accent-foreground": "oklch(0.245 0.009 140)",
+    "destructive": "oklch(0.557 0.169 33)",
+    "border": "oklch(0.814 0.008 235)",
+    "input": "oklch(0.814 0.008 235)",
+    "ring": "oklch(0.781 0.048 230)",
+    "chart-1": "oklch(0.602 0.152 43)",
+    "chart-2": "oklch(0.731 0.091 118)",
+    "chart-3": "oklch(0.781 0.048 230)",
+    "chart-4": "oklch(0.707 0.014 245)",
+    "chart-5": "oklch(0.476 0.012 245)",
+    "sidebar": "oklch(0.985 0.003 115)",
+    "sidebar-foreground": "oklch(0.275 0.008 245)",
+    "sidebar-primary": "oklch(0.602 0.152 43)",
+    "sidebar-primary-foreground": "oklch(0.985 0.003 115)",
+    "sidebar-accent": "oklch(0.879 0.006 235)",
+    "sidebar-accent-foreground": "oklch(0.275 0.008 245)",
+    "sidebar-border": "oklch(0.814 0.008 235)",
+    "sidebar-ring": "oklch(0.781 0.048 230)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.205 0.009 245)",
+    "foreground": "oklch(0.961 0.004 115)",
+    "card": "oklch(0.267 0.009 245)",
+    "card-foreground": "oklch(0.961 0.004 115)",
+    "popover": "oklch(0.267 0.009 245)",
+    "popover-foreground": "oklch(0.961 0.004 115)",
+    "primary": "oklch(0.645 0.156 43)",
+    "primary-foreground": "oklch(0.205 0.009 245)",
+    "secondary": "oklch(0.364 0.011 245)",
+    "secondary-foreground": "oklch(0.961 0.004 115)",
+    "muted": "oklch(0.267 0.009 245)",
+    "muted-foreground": "oklch(0.707 0.014 245)",
+    "accent": "oklch(0.731 0.091 118)",
+    "accent-foreground": "oklch(0.205 0.009 245)",
+    "destructive": "oklch(0.557 0.169 33)",
+    "border": "oklch(0.814 0.008 235 / 18%)",
+    "input": "oklch(0.814 0.008 235 / 22%)",
+    "ring": "oklch(0.781 0.048 230)",
+    "chart-1": "oklch(0.645 0.156 43)",
+    "chart-2": "oklch(0.731 0.091 118)",
+    "chart-3": "oklch(0.781 0.048 230)",
+    "chart-4": "oklch(0.707 0.014 245)",
+    "chart-5": "oklch(0.879 0.006 235)",
+    "sidebar": "oklch(0.205 0.009 245)",
+    "sidebar-foreground": "oklch(0.961 0.004 115)",
+    "sidebar-primary": "oklch(0.645 0.156 43)",
+    "sidebar-primary-foreground": "oklch(0.205 0.009 245)",
+    "sidebar-accent": "oklch(0.267 0.009 245)",
+    "sidebar-accent-foreground": "oklch(0.961 0.004 115)",
+    "sidebar-border": "oklch(0.814 0.008 235 / 18%)",
+    "sidebar-ring": "oklch(0.781 0.048 230)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "/systems/morphous-scree-slope/motif.png",
+    "board": "/systems/morphous-scree-slope/design-system-light.png",
+    "darkBoard": "/systems/morphous-scree-slope/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-scree-slope/theme.css",
+    "themeJson": "/systems/morphous-scree-slope/theme.json",
+    "promptsJson": "/systems/morphous-scree-slope/prompts.json"
+  }
+}

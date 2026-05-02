@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sea-stack",
+    "name": "Morphous Sea Stack",
+    "motifName": "Sea Stack",
+    "motifCategory": "landscape",
+    "biome": "Storm Coast",
+    "motif": "sea stack rock"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Foam White",
+      "hex": "#f6f8f7",
+      "oklch": "oklch(0.977 0.002 165.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Storm Ink",
+      "hex": "#0f172a",
+      "oklch": "oklch(0.208 0.040 265.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sea Blue",
+      "hex": "#0a4f6e",
+      "oklch": "oklch(0.404 0.081 234.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Basalt Grey",
+      "hex": "#667280",
+      "oklch": "oklch(0.547 0.026 252.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mist Blue",
+      "hex": "#a7c7d7",
+      "oklch": "oklch(0.811 0.041 229.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wave Teal",
+      "hex": "#137b88",
+      "oklch": "oklch(0.535 0.088 208.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cloud White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Drift Grey",
+      "hex": "#9aa3ab",
+      "oklch": "oklch(0.711 0.016 244.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tide Line",
+      "hex": "#334155",
+      "oklch": "oklch(0.372 0.039 257.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.002 165.1)",
+    "foreground": "oklch(0.208 0.040 265.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.208 0.040 265.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.208 0.040 265.8)",
+    "primary": "oklch(0.404 0.081 234.8)",
+    "primary-foreground": "oklch(0.977 0.002 165.1)",
+    "secondary": "oklch(0.990 0.001 197.1)",
+    "secondary-foreground": "oklch(0.372 0.039 257.3)",
+    "muted": "oklch(0.993 0.001 197.1)",
+    "muted-foreground": "oklch(0.372 0.039 257.3)",
+    "accent": "oklch(0.811 0.041 229.5)",
+    "accent-foreground": "oklch(0.208 0.040 265.8)",
+    "destructive": "oklch(0.404 0.081 234.8)",
+    "border": "oklch(0.899 0.005 247.9)",
+    "input": "oklch(0.899 0.005 247.9)",
+    "ring": "oklch(0.547 0.026 252.3)",
+    "chart-1": "oklch(0.404 0.081 234.8)",
+    "chart-2": "oklch(0.547 0.026 252.3)",
+    "chart-3": "oklch(0.811 0.041 229.5)",
+    "chart-4": "oklch(0.535 0.088 208.3)",
+    "chart-5": "oklch(0.372 0.039 257.3)",
+    "sidebar": "oklch(0.993 0.002 145.6)",
+    "sidebar-foreground": "oklch(0.208 0.040 265.8)",
+    "sidebar-primary": "oklch(0.404 0.081 234.8)",
+    "sidebar-primary-foreground": "oklch(0.977 0.002 165.1)",
+    "sidebar-accent": "oklch(0.932 0.010 228.9)",
+    "sidebar-accent-foreground": "oklch(0.404 0.081 234.8)",
+    "sidebar-border": "oklch(0.899 0.005 247.9)",
+    "sidebar-ring": "oklch(0.547 0.026 252.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.208 0.040 265.8)",
+    "foreground": "oklch(0.977 0.002 165.1)",
+    "card": "oklch(0.319 0.038 259.4)",
+    "card-foreground": "oklch(0.977 0.002 165.1)",
+    "popover": "oklch(0.319 0.038 259.4)",
+    "popover-foreground": "oklch(0.977 0.002 165.1)",
+    "primary": "oklch(0.547 0.026 252.3)",
+    "primary-foreground": "oklch(0.208 0.040 265.8)",
+    "secondary": "oklch(0.452 0.032 255.2)",
+    "secondary-foreground": "oklch(0.977 0.002 165.1)",
+    "muted": "oklch(0.452 0.032 255.2)",
+    "muted-foreground": "oklch(0.861 0.007 233.7)",
+    "accent": "oklch(0.811 0.041 229.5)",
+    "accent-foreground": "oklch(0.208 0.040 265.8)",
+    "destructive": "oklch(0.404 0.081 234.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.547 0.026 252.3)",
+    "chart-1": "oklch(0.547 0.026 252.3)",
+    "chart-2": "oklch(0.404 0.081 234.8)",
+    "chart-3": "oklch(0.811 0.041 229.5)",
+    "chart-4": "oklch(0.535 0.088 208.3)",
+    "chart-5": "oklch(0.711 0.016 244.8)",
+    "sidebar": "oklch(0.285 0.040 263.6)",
+    "sidebar-foreground": "oklch(0.977 0.002 165.1)",
+    "sidebar-primary": "oklch(0.547 0.026 252.3)",
+    "sidebar-primary-foreground": "oklch(0.208 0.040 265.8)",
+    "sidebar-accent": "oklch(0.452 0.032 255.2)",
+    "sidebar-accent-foreground": "oklch(0.977 0.002 165.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.547 0.026 252.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for editorial product UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Tide-line dividers, stratified rock card edges, 8px radius controls, story-forward dashboards, and dense coastal archive surfaces.",
+  "tags": [
+    "sea-stack",
+    "landscape",
+    "storm-coast",
+    "sea-blue",
+    "storytelling",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-stack/motif.png",
+    "board": "/systems/morphous-sea-stack/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-stack/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-stack/theme.css",
+    "themeJson": "/systems/morphous-sea-stack/theme.json",
+    "promptsJson": "/systems/morphous-sea-stack/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sea stack motif source",
+      "asset": "/systems/morphous-sea-stack/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a sea stack rock motif for a Morphous design system named \"Morphous Sea Stack\". The motif is a rugged grey coastal sea stack rock rising from sea blue water with foam white surf, storm-coast weathering, basalt ledges, wet stone highlights, and a compact storytelling-system silhouette. No text.\nSubject: A single isolated sea stack rock with layered grey rock faces, tide-cut base, small sea-blue wave shapes and foam-white spray accents hugging the base. Opaque solid subject suitable for clean background removal.\nComposition/framing: centered complete motif with generous padding; do not crop the rock, base waves, or foam. Keep a clear readable silhouette for catalog preview.\nLighting/mood: dramatic overcast storm-coast light, natural grey rock, sea blue, foam white; premium coastal storytelling system mood.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no people, no birds, no boats, no lighthouse, no plants, no typography, no watermark, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sea-stack/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sea Stack\" derived from the visible transparent sea stack rock motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, icon language, and interaction language from the visible sea stack motif: weathered grey rock strata, deep sea blue, foam white surf, storm-coast mist, and tide-carved ledges. This light board is the primary reference for coding a coastal storytelling system.\nCanvas: 3840 x 2160 wide 16:9 board, high-resolution, crisp readable labels and UI samples.\nRequired visible sections: Morphous Sea Stack, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance. Keep all labels large and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples, coastal map/story cards.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, quiet editorial product UI, foam-white surfaces, rock-grey borders, sea-blue primary actions, tide-line dividers, layered stratified texture, coastal storytelling dashboard.\nPalette direction: Background foam white, foreground storm ink, primary sea blue, secondary basalt grey, accent mist blue, muted drift grey, surface cloud white, chart tones from rock shadow, wave teal, foam, and storm slate.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no tiny unreadable token tables, no watermark, no random brand names, no misspelling of \"Morphous Sea Stack\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sea-stack/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Morphous Sea Stack design-system board. It must feel like the same coastal storytelling system translated to dark mode, not a new theme.\nReference use: Use the visible transparent sea stack motif and the light-mode board language as references. Preserve the sea blue primary actions, basalt grey structure, foam white highlights, storm-coast storytelling mood, tide-line dividers, stratified rock texture, Japanese typography guidance, and shadcn/tweakcn component coverage.\nCanvas: 3840 x 2160 wide 16:9 board, high-resolution, crisp readable labels and UI samples.\nRequired visible sections: Morphous Sea Stack, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: storm-ink background, basalt card surfaces, foam-white text, sea-blue primary accents, mist-blue focus states, drift-grey borders, restrained coastal contrast, layered rock shadows, clean product UI, 8px card radius.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples, coastal story cards.\nPalette direction: Background storm ink, foreground foam white, primary sea blue, secondary basalt grey, accent mist blue, muted drift grey, charts from wave teal, rock grey, foam, and tide blue.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no tiny unreadable token tables, no watermark, no random brand names, no misspelling of \"Morphous Sea Stack\"."
+    }
+  ]
+}

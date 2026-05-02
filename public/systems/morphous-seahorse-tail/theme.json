@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-seahorse-tail",
+    "name": "Morphous Seahorse Tail",
+    "motifName": "Seahorse Tail",
+    "motifCategory": "marine",
+    "biome": "seagrass meadow",
+    "motif": "seahorse curled tail"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Shoal",
+      "hex": "#FAF5EF",
+      "oklch": "oklch(0.972 0.010 72.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Marine Ink",
+      "hex": "#15383A",
+      "oklch": "oklch(0.316 0.040 200.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Golden Ochre",
+      "hex": "#DAA24A",
+      "oklch": "oklch(0.749 0.123 76.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ochre Light",
+      "hex": "#E7C07A",
+      "oklch": "oklch(0.827 0.099 81.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Teal",
+      "hex": "#28A7A0",
+      "oklch": "oklch(0.661 0.106 189.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Seagrass Green",
+      "hex": "#4E7F5A",
+      "oklch": "oklch(0.551 0.078 150.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#FFF9F1",
+      "oklch": "oklch(0.985 0.012 75.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Drift",
+      "hex": "#D8C8A6",
+      "oklch": "oklch(0.837 0.049 85.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Line",
+      "hex": "#C8BFAF",
+      "oklch": "oklch(0.808 0.024 82.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Teal",
+      "hex": "#005E63",
+      "oklch": "oklch(0.438 0.075 201.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Ochre Signal",
+      "hex": "#C88A1A",
+      "oklch": "oklch(0.679 0.136 75.3)"
+    },
+    {
+      "role": "Danger",
+      "name": "Coral Error",
+      "hex": "#C8493D",
+      "oklch": "oklch(0.577 0.164 28.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.010 72.7)",
+    "foreground": "oklch(0.316 0.040 200.4)",
+    "card": "oklch(0.985 0.012 75.4)",
+    "card-foreground": "oklch(0.316 0.040 200.4)",
+    "popover": "oklch(0.985 0.012 75.4)",
+    "popover-foreground": "oklch(0.316 0.040 200.4)",
+    "primary": "oklch(0.749 0.123 76.0)",
+    "primary-foreground": "oklch(0.972 0.010 72.7)",
+    "secondary": "oklch(0.979 0.011 71.9)",
+    "secondary-foreground": "oklch(0.438 0.075 201.1)",
+    "muted": "oklch(0.982 0.012 75.4)",
+    "muted-foreground": "oklch(0.438 0.075 201.1)",
+    "accent": "oklch(0.661 0.106 189.3)",
+    "accent-foreground": "oklch(0.316 0.040 200.4)",
+    "destructive": "oklch(0.749 0.123 76.0)",
+    "border": "oklch(0.931 0.025 81.1)",
+    "input": "oklch(0.931 0.025 81.1)",
+    "ring": "oklch(0.827 0.099 81.3)",
+    "chart-1": "oklch(0.749 0.123 76.0)",
+    "chart-2": "oklch(0.827 0.099 81.3)",
+    "chart-3": "oklch(0.661 0.106 189.3)",
+    "chart-4": "oklch(0.551 0.078 150.9)",
+    "chart-5": "oklch(0.438 0.075 201.1)",
+    "sidebar": "oklch(0.981 0.012 79.8)",
+    "sidebar-foreground": "oklch(0.316 0.040 200.4)",
+    "sidebar-primary": "oklch(0.749 0.123 76.0)",
+    "sidebar-primary-foreground": "oklch(0.972 0.010 72.7)",
+    "sidebar-accent": "oklch(0.957 0.027 78.2)",
+    "sidebar-accent-foreground": "oklch(0.749 0.123 76.0)",
+    "sidebar-border": "oklch(0.931 0.025 81.1)",
+    "sidebar-ring": "oklch(0.827 0.099 81.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.316 0.040 200.4)",
+    "foreground": "oklch(0.972 0.010 72.7)",
+    "card": "oklch(0.397 0.065 200.8)",
+    "card-foreground": "oklch(0.972 0.010 72.7)",
+    "popover": "oklch(0.397 0.065 200.8)",
+    "popover-foreground": "oklch(0.972 0.010 72.7)",
+    "primary": "oklch(0.827 0.099 81.3)",
+    "primary-foreground": "oklch(0.316 0.040 200.4)",
+    "secondary": "oklch(0.518 0.069 191.3)",
+    "secondary-foreground": "oklch(0.972 0.010 72.7)",
+    "muted": "oklch(0.518 0.069 191.3)",
+    "muted-foreground": "oklch(0.913 0.028 83.5)",
+    "accent": "oklch(0.661 0.106 189.3)",
+    "accent-foreground": "oklch(0.316 0.040 200.4)",
+    "destructive": "oklch(0.749 0.123 76.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.827 0.099 81.3)",
+    "chart-1": "oklch(0.827 0.099 81.3)",
+    "chart-2": "oklch(0.749 0.123 76.0)",
+    "chart-3": "oklch(0.661 0.106 189.3)",
+    "chart-4": "oklch(0.551 0.078 150.9)",
+    "chart-5": "oklch(0.837 0.049 85.8)",
+    "sidebar": "oklch(0.371 0.059 201.7)",
+    "sidebar-foreground": "oklch(0.972 0.010 72.7)",
+    "sidebar-primary": "oklch(0.827 0.099 81.3)",
+    "sidebar-primary-foreground": "oklch(0.316 0.040 200.4)",
+    "sidebar-accent": "oklch(0.518 0.069 191.3)",
+    "sidebar-accent-foreground": "oklch(0.972 0.010 72.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.827 0.099 81.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm English profile UI with stable tabular numbers, concise account labels, and Noto Sans JP guidance for Japanese member profile, billing, activity, and preference screens.",
+  "layout": "Delicate 8px account grids, teal navigation rails, profile headers, activity tables, billing summaries, soft shell dividers, seahorse-ridge texture samples, and restrained 8px cards.",
+  "tags": [
+    "seahorse-tail",
+    "marine",
+    "seagrass-meadow",
+    "profile-system",
+    "golden-ochre",
+    "teal-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-seahorse-tail/motif.png",
+    "board": "/systems/morphous-seahorse-tail/design-system-light.png",
+    "darkBoard": "/systems/morphous-seahorse-tail/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-seahorse-tail/theme.css",
+    "themeJson": "/systems/morphous-seahorse-tail/theme.json",
+    "promptsJson": "/systems/morphous-seahorse-tail/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent seahorse curled tail motif",
+      "asset": "/systems/morphous-seahorse-tail/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Seahorse Tail transparent motif chroma-key source\nPrimary request: Create only a seahorse curled tail motif for a design-system catalog, isolated as a single complete marine subject on a removable chroma-key background.\nSubject: A delicate seahorse curled tail in profile, golden ochre bony ridges and fine ring segments, subtle teal-green marine shadows, tiny bead-like texture, graceful spiral curl like a natural seahorse prehensile tail, with a small hint of seagrass-inspired contour but no extra plants. The identity must read as seahorse curled tail, not shell, fern, shrimp, octopus, dragon, or generic spiral.\nComposition/framing: centered complete cutout with generous padding; include the full curled tail silhouette in elegant side profile without cropping. Clean studio lighting that preserves fine ridges, pearly highlights, and marine teal shadows. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no full seahorse body, no coral reef scene, no bubbles, no fish, no hand, no props, no text, no watermark, no logo, no decorative frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-seahorse-tail/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Seahorse Tail light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Seahorse Tail\", derived from a delicate seahorse curled tail motif. This board is a source reference for implementing a shadcn/tweakcn-compatible profile and account UI system.\nCanvas: exact wide 16:9 high-resolution 4K-class board, intended final size 3840x2160. Clean professional UI design-system presentation with delicate profile/account system mood. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Seahorse Tail, Seahorse Curled Tail, Palette, Typography, Japanese Typography, Components, Navigation, Profile Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from golden ochre seahorse tail ridges, teal marine shadow, seagrass green accents, pearly highlights, soft sand and shell neutrals, fine segmented rings, delicate side-profile silhouette, and seagrass-meadow calm. The board must read as seahorse curled tail, not shell spiral, fern, shrimp, octopus, or generic ocean UI.\nTypography: English profile/account UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use calm bilingual account, member profile, billing, activity, and preferences labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, avatar and profile header, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, account settings panel, activity feed, billing summary, table rows, command search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: delicate profile system, precise 8px grid and 8px card radius, soft pearl and sand surfaces, golden ochre primary actions, teal green navigation and focus states, seagrass green success states, shell-neutral dividers, subtle seahorse-ridge segment texture and seagrass-line texture overlays, scannable profile dashboards, polished shadcn/tweakcn component language.\nConstraints: no random brand names, no watermark, no generic blue gradient ocean UI, no neon colors, no purple dominance, no beige-only palette, no coral reef photo collage, no full seahorse body mascot, no shell-only identity, no misspelling of \"Morphous Seahorse Tail\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-seahorse-tail/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Seahorse Tail dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Seahorse Tail\" / \"Seahorse Curled Tail\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: exact wide 16:9 high-resolution 4K-class board, intended final size 3840x2160. Clean professional shadcn/tweakcn design-system presentation with delicate profile/account system mood. Keep labels large and legible.\nRequired visible sections: Morphous Seahorse Tail, Seahorse Curled Tail, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Profile Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve golden ochre seahorse-ridge actions, teal marine navigation and focus states, seagrass green success states, pearl foreground text, shell-neutral borders, fine segmented tail texture, seagrass-line texture, profile header, account settings, activity table, billing summary, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as seahorse curled tail, not shell spiral, fern, shrimp, octopus, or generic dark ocean UI.\nTypography: English profile/account UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use calm bilingual account, member profile, billing, activity, and preferences labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, avatar and profile header, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, profile cards, account metrics, billing summary, activity table rows, line chart, bar chart, donut chart, sidebar navigation, top navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep marine charcoal background, dark teal panels, golden ochre active states, muted ochre chart highlights, pearl text and surfaces, seagrass green focus rings and success chips, subtle seahorse-ridge segment texture overlays, thin shell-neutral separators, restrained contrast, crisp controls and profile dashboards.\nConstraints: no random brand names, no watermark, no neon teal, no generic black-and-blue dashboard, no pure-black flat background, no purple or blue gradient dominance, no coral reef photo collage, no full seahorse body mascot, no shell-only identity, no misspelling of \"Morphous Seahorse Tail\", no tiny unreadable paragraphs."
+    }
+  ]
+}

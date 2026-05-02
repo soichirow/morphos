@@ -1,0 +1,216 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sea-urchin",
+    "name": "Morphous Sea Urchin",
+    "motifName": "Sea Urchin",
+    "motifCategory": "marine",
+    "biome": "Kelp Bed",
+    "motif": "sea urchin spines"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Pearl",
+      "hex": "#F8F2FA",
+      "oklch": "oklch(0.968 0.012 317.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Urchin Ink",
+      "hex": "#1A1420",
+      "oklch": "oklch(0.204 0.025 307.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Spine Plum",
+      "hex": "#281340",
+      "oklch": "oklch(0.244 0.083 302.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Spine Purple",
+      "hex": "#4E2076",
+      "oklch": "oklch(0.358 0.140 304.7)"
+    },
+    {
+      "role": "Action",
+      "name": "Urchin Violet",
+      "hex": "#855CC3",
+      "oklch": "oklch(0.565 0.156 299.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Lavender Shell",
+      "hex": "#B399E1",
+      "oklch": "oklch(0.732 0.106 300.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Calcium Tip",
+      "hex": "#F6F2FA",
+      "oklch": "oklch(0.967 0.011 308.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sea Glass Wash",
+      "hex": "#E3F0EA",
+      "oklch": "oklch(0.944 0.016 166.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Kelp Green",
+      "hex": "#2E5A44",
+      "oklch": "oklch(0.429 0.062 160.5)"
+    },
+    {
+      "role": "Support",
+      "name": "Kelp Leaf",
+      "hex": "#5EAA7F",
+      "oklch": "oklch(0.677 0.100 157.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Green Water",
+      "hex": "#1A6F6C",
+      "oklch": "oklch(0.493 0.077 191.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Teal Ripple",
+      "hex": "#63C2BA",
+      "oklch": "oklch(0.754 0.091 188.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Border",
+      "hex": "#D8CFE0",
+      "oklch": "oklch(0.867 0.025 309.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Coral Warning",
+      "hex": "#B24B5E",
+      "oklch": "oklch(0.552 0.135 11.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.968 0.012 317.7)",
+    "foreground": "oklch(0.204 0.025 307.1)",
+    "card": "oklch(0.967 0.011 308.3)",
+    "card-foreground": "oklch(0.204 0.025 307.1)",
+    "popover": "oklch(0.982 0.009 188.1)",
+    "popover-foreground": "oklch(0.204 0.025 307.1)",
+    "primary": "oklch(0.358 0.140 304.7)",
+    "primary-foreground": "oklch(0.967 0.011 308.3)",
+    "secondary": "oklch(0.944 0.016 166.7)",
+    "secondary-foreground": "oklch(0.335 0.046 161.5)",
+    "muted": "oklch(0.963 0.010 311.2)",
+    "muted-foreground": "oklch(0.403 0.051 307.8)",
+    "accent": "oklch(0.493 0.077 191.4)",
+    "accent-foreground": "oklch(0.982 0.009 188.1)",
+    "destructive": "oklch(0.552 0.135 11.3)",
+    "border": "oklch(0.867 0.025 309.3)",
+    "input": "oklch(0.867 0.025 309.3)",
+    "ring": "oklch(0.565 0.156 299.8)",
+    "chart-1": "oklch(0.358 0.140 304.7)",
+    "chart-2": "oklch(0.493 0.077 191.4)",
+    "chart-3": "oklch(0.429 0.062 160.5)",
+    "chart-4": "oklch(0.732 0.106 300.4)",
+    "chart-5": "oklch(0.677 0.100 157.5)",
+    "sidebar": "oklch(0.963 0.010 311.2)",
+    "sidebar-foreground": "oklch(0.204 0.025 307.1)",
+    "sidebar-primary": "oklch(0.358 0.140 304.7)",
+    "sidebar-primary-foreground": "oklch(0.967 0.011 308.3)",
+    "sidebar-accent": "oklch(0.924 0.032 189.3)",
+    "sidebar-accent-foreground": "oklch(0.335 0.046 161.5)",
+    "sidebar-border": "oklch(0.867 0.025 309.3)",
+    "sidebar-ring": "oklch(0.565 0.156 299.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.022 263.8)",
+    "foreground": "oklch(0.967 0.011 308.3)",
+    "card": "oklch(0.197 0.032 297.7)",
+    "card-foreground": "oklch(0.967 0.011 308.3)",
+    "popover": "oklch(0.227 0.049 303.0)",
+    "popover-foreground": "oklch(0.967 0.011 308.3)",
+    "primary": "oklch(0.684 0.105 301.4)",
+    "primary-foreground": "oklch(0.197 0.032 297.7)",
+    "secondary": "oklch(0.335 0.046 161.5)",
+    "secondary-foreground": "oklch(0.982 0.009 188.1)",
+    "muted": "oklch(0.262 0.039 309.0)",
+    "muted-foreground": "oklch(0.735 0.028 304.7)",
+    "accent": "oklch(0.754 0.091 188.2)",
+    "accent-foreground": "oklch(0.178 0.022 263.8)",
+    "destructive": "oklch(0.552 0.135 11.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.684 0.105 301.4)",
+    "chart-1": "oklch(0.684 0.105 301.4)",
+    "chart-2": "oklch(0.754 0.091 188.2)",
+    "chart-3": "oklch(0.677 0.100 157.5)",
+    "chart-4": "oklch(0.565 0.156 299.8)",
+    "chart-5": "oklch(0.841 0.060 189.4)",
+    "sidebar": "oklch(0.197 0.032 297.7)",
+    "sidebar-foreground": "oklch(0.967 0.011 308.3)",
+    "sidebar-primary": "oklch(0.684 0.105 301.4)",
+    "sidebar-primary-foreground": "oklch(0.197 0.032 297.7)",
+    "sidebar-accent": "oklch(0.382 0.060 191.7)",
+    "sidebar-accent-foreground": "oklch(0.982 0.009 188.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.684 0.105 301.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for precise product UI with Noto Sans JP guidance for Japanese labels, tabular numbers, compact headings, and calm radial navigation hierarchy.",
+  "layout": "Precise 8px grid, 8px radii, radial menu structures, spine-line dividers, shell-nodule dot textures, kelp-water translucent panels, compact navigation, and restrained marine shadows.",
+  "tags": [
+    "sea urchin",
+    "marine",
+    "kelp bed",
+    "purple spine shell",
+    "green water",
+    "radial navigation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-urchin/motif.png",
+    "board": "/systems/morphous-sea-urchin/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-urchin/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-urchin/theme.css",
+    "themeJson": "/systems/morphous-sea-urchin/theme.json",
+    "promptsJson": "/systems/morphous-sea-urchin/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Sea Urchin motif",
+      "asset": "/systems/morphous-sea-urchin/motif.png",
+      "workflow": "Built-in image generation on a flat #00ff00 chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated sea urchin motif for a design-system catalog, no environment, no props, no text.\nSubject: A single sea urchin with accurate radial anatomy: rounded purple test shell, dense crisp violet and deep plum spines radiating evenly from the body, subtle lavender highlights, small pale shell nodules visible between spines, tactile marine calcium texture, and a clean complete silhouette suitable for a transparent cutout. The form should read clearly as sea urchin spines and shell, not a flower or generic orb.\nComposition/framing: centered complete cutout with generous padding on every side; show the full radial body and all spine tips; do not crop any spine.\nLighting/mood: clean studio light that preserves purple spine detail and shell texture, crisp edges for extraction, no dramatic shadows.\nTransparent workflow: place the sea urchin on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 or bright green anywhere in the subject.\nConstraints: no text, no watermark, no props, no ocean floor, no kelp, no water, no sand, no second animal, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-sea-urchin/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-sea-urchin/motif.png"
+      ],
+      "workflow": "Built-in image generation using the motif as the source reference. The accepted source board was copied from the generated-images snapshot for this call and resampled to 3840x2160 for the final catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, final catalog source image\nPrimary request: Generate one complete high-resolution 4K light-mode design-system board for \"Morphous Sea Urchin\" / \"Sea Urchin\", derived from the provided purple sea urchin motif cutout visible in this conversation.\nReference use: Use the sea urchin cutout visible in this conversation as the source of truth. Extract colors and visual language from purple radial spines, lavender shell nodules, pale calcium spine tips, deep plum shadows, kelp-bed greens, and transparent green water. The board must visibly respect those motif colors.\nCanvas: exact 16:9 landscape board. Compose for a 3840 x 2160 final image; make it feel like a native 4K design-system sheet, not a small screenshot.\nResolution and legibility: very large readable labels, fewer larger token rows, generous whitespace, no microtext. Every section heading and UI label should remain readable when the image is viewed in a gallery preview.\nRequired visible sections: title \"Morphous Sea Urchin\", motif story, palette, typography, Japanese typography, components, radial navigation, dashboard/data analytics, forms, table, command/search, status states, texture/material, radius, spacing, shadow tokens, sample usage.\nTypography: include English and Japanese guidance with labels \"English\" and \"日本語\"; modern sans product UI, tabular numbers, clean hierarchy.\nStyle/medium: premium shadcn/tweakcn-compatible product design system, precise 8px grid, crisp UI mockup, 8px radii, radial navigation system inspired by sea urchin spine geometry, shell-nodule dot texture, spine-line dividers, kelp-water translucent panels, restrained marine material detail.\nColor palette: shell pearl background, deep urchin ink text, purple spine primary, kelp green secondary, green-water accent, lavender shell highlight, pale spine-tip surfaces, muted sea-glass borders, subtle warning/error colors only where needed.\nUI coverage details: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, radial menu, analytics dashboard chart cards, KPI cards, loading/empty/error states, spacing/radius/shadow token swatches, texture samples.\nText: short readable UI labels only; no paragraphs.\nConstraints: no generic purple-blue gradients, no random brand names, no watermark, no unrelated saturated colors, no stock website hero layout, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-sea-urchin/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-sea-urchin/motif.png",
+        "/systems/morphous-sea-urchin/design-system-light.png"
+      ],
+      "workflow": "Built-in image generation using the motif and accepted light board as references. The accepted source board was copied from the generated-images snapshot for this call and resampled to 3840x2160 for the final catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, final catalog source image\nPrimary request: Generate one complete high-resolution 4K dark-mode design-system board for \"Morphous Sea Urchin\" / \"Sea Urchin\". It must feel like the same system translated from the light board visible in this conversation, not a new theme.\nReference use: Use the purple sea urchin motif and the light-mode design-system board visible in this conversation as references. Preserve motif-derived palette roles, radial navigation system, shell-nodule texture, spine-line dividers, 8px radii, dashboard layout, component language, spacing, and English/Japanese typography guidance.\nCanvas: exact 16:9 landscape board. Compose for a 3840 x 2160 final image; make it feel like a native 4K design-system sheet, not a small screenshot.\nResolution and legibility: very large readable labels, fewer larger token rows, generous whitespace, no microtext. Every section heading and UI label should remain readable when viewed in a gallery preview.\nRequired visible sections: title \"Morphous Sea Urchin\", Dark Mode, palette, typography, Japanese typography, components, radial navigation, dashboard/data analytics, forms, table, command/search, status states, texture/material, radius, spacing, shadow tokens, sample usage.\nVisual details: deep urchin ink background from the darkest purple shell shadows; card surfaces from dark plum and blue-black kelp water; foreground text from pale calcium spine tips; primary actions in luminous purple spine; secondary states in dark kelp green; accents in green-water teal; borders in muted sea glass; restrained warning/error colors only where needed. Use subtle radial spine texture overlays and shell-nodule dot patterns inside swatches.\nUI coverage details: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, radial menu, analytics dashboard chart cards, KPI cards, loading/empty/error states, spacing/radius/shadow token swatches, texture samples.\nTypography: include English and Japanese guidance with labels \"English\" and \"日本語\"; modern sans product UI, tabular numbers, clean hierarchy.\nStyle/medium: premium shadcn/tweakcn-compatible product design system, precise 8px grid, crisp dark UI mockup, 8px radii, radial navigation system inspired by sea urchin spine geometry, refined marine depth.\nText: short readable UI labels only; no paragraphs.\nConstraints: no neon colors, no pure black flat background, no generic purple-blue gradients, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout, no illegible microtext."
+    }
+  ]
+}

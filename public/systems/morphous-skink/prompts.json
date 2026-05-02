@@ -1,0 +1,28 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent blue-tailed skink motif",
+    "asset": "/systems/morphous-skink/motif.png",
+    "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, copied from this worker's generated-images snapshot, then local chroma-key removal to transparent RGBA PNG.",
+    "prompt": "Use case: background-extraction. Asset type: transparent RGBA motif cutout for a Morphous design-system catalog. Primary request: a blue-tailed skink motif cutout, black glossy body with fine scales and an electric cobalt-blue tail, agile sharp silhouette, inspired by leaf litter habitat. Scene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal. Subject: one full-body blue-tailed skink, side/top three-quarter view, slender black body, small legs, pointed head, long vivid blue tail, subtle brown leaf-litter color reflected in the scale highlights. Composition: centered with generous padding, entire animal visible, crisp edges, no shadow. Style: polished naturalistic cutout, high-detail scales, catalog-ready, no text. Transparent workflow constraints: The background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. No cast shadow, no contact shadow, no reflection, no watermark."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-skink/design-system-light.png",
+    "sourceAsset": "/systems/morphous-skink/motif.png",
+    "workflow": "Built-in image generation using the skink motif as visual context, copied from this worker's generated-images snapshot, then saved as a 3840x2160 16:9 PNG.",
+    "prompt": "Use case: ui-mockup. Asset type: 3840x2160 light-mode Morphous design-system board. Primary request: Create a comprehensive light-mode design-system board for \"Morphous Skink\", inspired by a blue-tailed skink in leaf litter: black glossy body, electric blue tail, dry leaf brown habitat, sharp mobile system. Reference motif: blue-tailed skink with black body, electric cobalt tail, fine glossy scales, leaf-brown highlights. Canvas: 16:9 ultra high resolution design board, clean grid, readable labels, no watermark, no random brand names. Style: sharp mobile UI, high contrast, compact but readable, 8px radius, crisp black body surfaces, electric blue action/focus states, leaf-brown secondary surfaces, scale-line dividers. Required sections with visible readable labels: Palette, Typography EN/JP, Mobile Navigation, Dashboard, Charts, Data Table, Form, Status, Components, Tokens, Texture, Spacing, Radius, Shadows. UI content: mobile app shell with bottom navigation and top search, dashboard metrics, line chart, bar chart, donut chart, data table with 5 rows, settings form with inputs/select/textarea/checkbox/switch/radio, buttons, badges, tabs, alert, command search, loading/empty/error status cards. Palette labels: Scale Black #11100D, Skink Ink #1F211D, Electric Tail #006BFF, Tail Glow #42A4FF, Leaf Brown #7A5735, Dry Leaf #B99060, Litter Sand #E8D6B7, Paper Shell #FBF8F0. Typography: Inter for UI, Geist Mono for metrics, Noto Sans JP for Japanese labels. Include sample Japanese labels: 検索, 設定, 状態, 表. Avoid: purple gradients, generic SaaS brand names, tiny unreadable text, lorem ipsum blocks, watermarks."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-skink/design-system-dark.png",
+    "sourceAsset": "/systems/morphous-skink/motif.png",
+    "referenceAssets": [
+      "/systems/morphous-skink/design-system-light.png"
+    ],
+    "workflow": "Built-in image generation using the skink motif and light-board language as visual context, copied from this worker's generated-images snapshot, then saved as a 3840x2160 16:9 PNG.",
+    "prompt": "Use case: ui-mockup. Asset type: 3840x2160 dark-mode Morphous design-system board. Primary request: Create a comprehensive dark-mode design-system board for \"Morphous Skink\", inspired by a blue-tailed skink in leaf litter: black glossy body, electric blue tail, dry leaf brown habitat, sharp mobile system. Reference motif: blue-tailed skink with black body, electric cobalt tail, fine glossy scales, leaf-brown highlights. Match the same system as the light board but translated to dark mode. Canvas: 16:9 ultra high resolution design board, clean grid, readable labels, no watermark, no random brand names. Style: sharp high-contrast mobile UI on scale-black and deep ink surfaces, electric blue primary actions/focus rings/charts, warm leaf-brown secondary chips, pale sand text, crisp dividers, 8px radius, subtle glossy scale texture. Required sections with visible readable labels: Palette, Typography EN/JP, Mobile Navigation, Dashboard, Charts, Data Table, Form, Status, Components, Tokens, Texture, Spacing, Radius, Shadows. UI content: dark mobile app shell with bottom navigation and top search, dashboard metrics, line chart, bar chart, donut chart, data table with 5 rows, settings form with inputs/select/textarea/checkbox/switch/radio, buttons, badges, tabs, alert, command search, loading/empty/error/success status cards. Palette labels: Night Scale #090B0C, Scale Black #11100D, Skink Ink #1F211D, Electric Tail #0A7CFF, Tail Glow #55B5FF, Leaf Brown #8B6238, Dry Leaf #C29A68, Litter Sand #E8D6B7. Typography: Inter for UI, Geist Mono for metrics, Noto Sans JP for Japanese labels. Include sample Japanese labels: 検索, 設定, 状態, 表. Avoid: purple gradients, generic SaaS brand names, tiny unreadable text, lorem ipsum blocks, watermarks."
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sea-cucumber",
+    "name": "Morphous Sea Cucumber",
+    "motifName": "Sea Cucumber",
+    "motifCategory": "marine",
+    "biome": "Seafloor",
+    "motif": "sea cucumber texture"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Drift",
+      "hex": "#f4e6ce",
+      "oklch": "oklch(0.930 0.035 81.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Ink",
+      "hex": "#1e2423",
+      "oklch": "oklch(0.254 0.009 184.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Umber Body",
+      "hex": "#7a4630",
+      "oklch": "oklch(0.451 0.079 43.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral Pink",
+      "hex": "#d98273",
+      "oklch": "oklch(0.696 0.111 30.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tube Foot",
+      "hex": "#c86552",
+      "oklch": "oklch(0.620 0.130 32.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Silt Taupe",
+      "hex": "#b79a7c",
+      "oklch": "oklch(0.705 0.054 67.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Kelp Olive",
+      "hex": "#6e7150",
+      "oklch": "oklch(0.537 0.049 112.3)"
+    },
+    {
+      "role": "Chart",
+      "name": "Tide Teal",
+      "hex": "#2c6f73",
+      "oklch": "oklch(0.501 0.067 200.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Umber",
+      "hex": "#3b241b",
+      "oklch": "oklch(0.287 0.039 42.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.930 0.035 81.3)",
+    "foreground": "oklch(0.254 0.009 184.5)",
+    "card": "oklch(0.958 0.018 78.2)",
+    "card-foreground": "oklch(0.254 0.009 184.5)",
+    "popover": "oklch(0.958 0.018 78.2)",
+    "popover-foreground": "oklch(0.254 0.009 184.5)",
+    "primary": "oklch(0.451 0.079 43.3)",
+    "primary-foreground": "oklch(0.930 0.035 81.3)",
+    "secondary": "oklch(0.828 0.047 75.6)",
+    "secondary-foreground": "oklch(0.287 0.039 42.1)",
+    "muted": "oklch(0.912 0.034 80.3)",
+    "muted-foreground": "oklch(0.381 0.054 43.1)",
+    "accent": "oklch(0.620 0.130 32.2)",
+    "accent-foreground": "oklch(0.930 0.035 81.3)",
+    "destructive": "oklch(0.620 0.130 32.2)",
+    "border": "oklch(0.774 0.059 72.8)",
+    "input": "oklch(0.774 0.059 72.8)",
+    "ring": "oklch(0.501 0.067 200.7)",
+    "chart-1": "oklch(0.451 0.079 43.3)",
+    "chart-2": "oklch(0.696 0.111 30.6)",
+    "chart-3": "oklch(0.501 0.067 200.7)",
+    "chart-4": "oklch(0.537 0.049 112.3)",
+    "chart-5": "oklch(0.705 0.054 67.7)",
+    "sidebar": "oklch(0.912 0.034 80.3)",
+    "sidebar-foreground": "oklch(0.254 0.009 184.5)",
+    "sidebar-primary": "oklch(0.451 0.079 43.3)",
+    "sidebar-primary-foreground": "oklch(0.930 0.035 81.3)",
+    "sidebar-accent": "oklch(0.828 0.047 75.6)",
+    "sidebar-accent-foreground": "oklch(0.451 0.079 43.3)",
+    "sidebar-border": "oklch(0.774 0.059 72.8)",
+    "sidebar-ring": "oklch(0.501 0.067 200.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.254 0.009 184.5)",
+    "foreground": "oklch(0.930 0.035 81.3)",
+    "card": "oklch(0.298 0.016 190.0)",
+    "card-foreground": "oklch(0.930 0.035 81.3)",
+    "popover": "oklch(0.298 0.016 190.0)",
+    "popover-foreground": "oklch(0.930 0.035 81.3)",
+    "primary": "oklch(0.696 0.111 30.6)",
+    "primary-foreground": "oklch(0.287 0.039 42.1)",
+    "secondary": "oklch(0.381 0.054 43.1)",
+    "secondary-foreground": "oklch(0.930 0.035 81.3)",
+    "muted": "oklch(0.321 0.017 196.3)",
+    "muted-foreground": "oklch(0.828 0.047 75.6)",
+    "accent": "oklch(0.501 0.067 200.7)",
+    "accent-foreground": "oklch(0.930 0.035 81.3)",
+    "destructive": "oklch(0.620 0.130 32.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.696 0.111 30.6)",
+    "chart-1": "oklch(0.696 0.111 30.6)",
+    "chart-2": "oklch(0.501 0.067 200.7)",
+    "chart-3": "oklch(0.537 0.049 112.3)",
+    "chart-4": "oklch(0.620 0.130 32.2)",
+    "chart-5": "oklch(0.705 0.054 67.7)",
+    "sidebar": "oklch(0.287 0.039 42.1)",
+    "sidebar-foreground": "oklch(0.930 0.035 81.3)",
+    "sidebar-primary": "oklch(0.696 0.111 30.6)",
+    "sidebar-primary-foreground": "oklch(0.287 0.039 42.1)",
+    "sidebar-accent": "oklch(0.381 0.054 43.1)",
+    "sidebar-accent-foreground": "oklch(0.930 0.035 81.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.696 0.111 30.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm operational workflow UI with Noto Sans JP guidance for queue labels, task headings, body copy, form labels, and numeric dashboard rhythm.",
+  "layout": "Stable 8px grids, low-motion workflow groups, rounded tactile controls, queue cards, quiet side navigation, compact charts, and sand-silt surfaces tuned for repeated slow review loops.",
+  "tags": [
+    "sea-cucumber",
+    "marine",
+    "seafloor",
+    "texture",
+    "umber",
+    "coral-pink",
+    "sand",
+    "slow-workflow",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-cucumber/motif.png",
+    "board": "/systems/morphous-sea-cucumber/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-cucumber/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-cucumber/theme.css",
+    "themeJson": "/systems/morphous-sea-cucumber/theme.json",
+    "promptsJson": "/systems/morphous-sea-cucumber/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sea cucumber motif source",
+      "asset": "/systems/morphous-sea-cucumber/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a sea cucumber, isolated complete subject, no environment, no props, no text.\nSubject: A single sea cucumber with accurate elongated soft-bodied marine anatomy, leathery sea cucumber texture, small tube-foot details, subtle wrinkled ridges, umber brown body, coral pink highlights, sand beige underside, damp matte surface, calm slow workflow system mood.\nComposition/framing: centered complete isolated cutout with generous padding; full body visible from a slightly elevated side profile, do not crop either end or any silhouette detail.\nLighting/mood: clean even studio light that preserves tactile texture and natural colors; no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no seafloor, no coral landscape, no decorative background, no second animal, no floor plane, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sea-cucumber/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sea Cucumber\" derived from the visible transparent sea cucumber motif.\nReference use: The board is the source reference for coding a slow workflow system. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the umber brown leathery body, coral pink nodules, sand beige underside, slow seafloor movement, and tactile tube-foot texture.\nCanvas: wide 16:9 board, 4K-class source composition, crisp readable text, large labels, no tiny dense tables.\nRequired visible sections with readable labels: Morphous Sea Cucumber, Sea Cucumber Texture, Palette, Typography, Japanese Typography, Components, Navigation, Slow Workflow Dashboard, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nPalette labels to show: Sand Drift #F4E6CE, Deep Umber #3B241B, Umber Body #7A4630, Coral Pink #D98273, Tube Foot #C86552, Silt Taupe #B79A7C, Kelp Olive #6E7150, Tide Teal #2C6F73, Abyss Ink #1E2423.\nTypography: include English and Japanese examples; use readable labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, task queue cards, progress charts, burndown line chart, empty/loading/error states, spacing, radius, border, shadow, leather texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px radius, calm slow workflow UI, tactile seafloor surfaces, professional component board.\nColor palette: use only motif-derived umber brown, coral pink, sand beige, silt taupe, kelp olive, tide teal as restrained support, and abyss ink. Avoid generic purple/blue gradients and unrelated saturated colors.\nText: all visible text must be short, readable, correctly spelled, and not overlapping. Do not use long paragraphs.\nConstraints: no watermark, no random brand names, no misspelling of \"Morphous Sea Cucumber\", no cropped board, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sea-cucumber/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Sea Cucumber design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent sea cucumber motif and visible light-mode Morphous Sea Cucumber board as references. Preserve the same palette roles, tactile leathery texture, slow workflow component language, spacing, typography, shadcn/tweakcn coverage, dashboard charts, and table/forms layout.\nCanvas: wide 16:9 board, 4K-class source composition, crisp readable text, large labels, no tiny dense tables.\nRequired visible sections with readable labels: Morphous Sea Cucumber, Sea Cucumber Texture, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Slow Workflow Dashboard, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nPalette labels to show: Sand Drift #F4E6CE, Deep Umber #3B241B, Umber Body #7A4630, Coral Pink #D98273, Tube Foot #C86552, Silt Taupe #B79A7C, Kelp Olive #6E7150, Tide Teal #2C6F73, Abyss Ink #1E2423.\nVisual details: dark background derived from abyss ink and deep umber, readable text from sand drift, primary actions from coral pink and tube-foot coral, charts from tide teal and kelp olive, subtle leather-seafloor texture overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; readable labels like Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数値.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, task queue cards, progress charts, burndown line chart, empty/loading/error states, spacing, radius, border, shadow, leather texture samples.\nText: all visible text must be short, readable, correctly spelled, and not overlapping. Do not use long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple gradients, no flat pure-black-only background, no watermark, no random brand names, no misspelling of \"Morphous Sea Cucumber\", no illegible microtext."
+    }
+  ]
+}

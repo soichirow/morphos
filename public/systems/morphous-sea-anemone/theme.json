@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sea-anemone",
+    "name": "Morphous Sea Anemone",
+    "motifName": "Sea Anemone",
+    "motifCategory": "marine",
+    "biome": "Tidepool",
+    "motif": "sea anemone tentacles"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Foam Pearl",
+      "hex": "#fefcfb",
+      "oklch": "oklch(0.992 0.003 48.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pool Ink",
+      "hex": "#001118",
+      "oklch": "oklch(0.165 0.031 223.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Anemone Rose",
+      "hex": "#e87868",
+      "oklch": "oklch(0.697 0.142 29.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tentacle Coral",
+      "hex": "#f88888",
+      "oklch": "oklch(0.749 0.137 20.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidepool Teal",
+      "hex": "#28a898",
+      "oklch": "oklch(0.661 0.109 182.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Oral Disc Umber",
+      "hex": "#794730",
+      "oklch": "oklch(0.452 0.077 45.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Blush",
+      "hex": "#f8e8e8",
+      "oklch": "oklch(0.944 0.017 17.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Sand",
+      "hex": "#af8e8b",
+      "oklch": "oklch(0.676 0.040 24.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Kelp",
+      "hex": "#081818",
+      "oklch": "oklch(0.195 0.022 195.5)"
+    },
+    {
+      "role": "Chart",
+      "name": "Sea Glass",
+      "hex": "#88c8c8",
+      "oklch": "oklch(0.790 0.065 195.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.992 0.003 48.7)",
+    "foreground": "oklch(0.165 0.031 223.4)",
+    "card": "oklch(0.944 0.017 17.5)",
+    "card-foreground": "oklch(0.165 0.031 223.4)",
+    "popover": "oklch(0.944 0.017 17.5)",
+    "popover-foreground": "oklch(0.165 0.031 223.4)",
+    "primary": "oklch(0.697 0.142 29.5)",
+    "primary-foreground": "oklch(0.992 0.003 48.7)",
+    "secondary": "oklch(0.964 0.012 17.4)",
+    "secondary-foreground": "oklch(0.195 0.022 195.5)",
+    "muted": "oklch(0.958 0.013 23.2)",
+    "muted-foreground": "oklch(0.195 0.022 195.5)",
+    "accent": "oklch(0.661 0.109 182.4)",
+    "accent-foreground": "oklch(0.165 0.031 223.4)",
+    "destructive": "oklch(0.697 0.142 29.5)",
+    "border": "oklch(0.851 0.025 20.8)",
+    "input": "oklch(0.851 0.025 20.8)",
+    "ring": "oklch(0.749 0.137 20.8)",
+    "chart-1": "oklch(0.697 0.142 29.5)",
+    "chart-2": "oklch(0.749 0.137 20.8)",
+    "chart-3": "oklch(0.661 0.109 182.4)",
+    "chart-4": "oklch(0.452 0.077 45.0)",
+    "chart-5": "oklch(0.195 0.022 195.5)",
+    "sidebar": "oklch(0.960 0.012 23.7)",
+    "sidebar-foreground": "oklch(0.165 0.031 223.4)",
+    "sidebar-primary": "oklch(0.697 0.142 29.5)",
+    "sidebar-primary-foreground": "oklch(0.992 0.003 48.7)",
+    "sidebar-accent": "oklch(0.913 0.030 22.8)",
+    "sidebar-accent-foreground": "oklch(0.697 0.142 29.5)",
+    "sidebar-border": "oklch(0.851 0.025 20.8)",
+    "sidebar-ring": "oklch(0.749 0.137 20.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.165 0.031 223.4)",
+    "foreground": "oklch(0.992 0.003 48.7)",
+    "card": "oklch(0.186 0.024 205.1)",
+    "card-foreground": "oklch(0.992 0.003 48.7)",
+    "popover": "oklch(0.186 0.024 205.1)",
+    "popover-foreground": "oklch(0.992 0.003 48.7)",
+    "primary": "oklch(0.749 0.137 20.8)",
+    "primary-foreground": "oklch(0.165 0.031 223.4)",
+    "secondary": "oklch(0.312 0.007 182.5)",
+    "secondary-foreground": "oklch(0.992 0.003 48.7)",
+    "muted": "oklch(0.312 0.007 182.5)",
+    "muted-foreground": "oklch(0.854 0.017 26.7)",
+    "accent": "oklch(0.661 0.109 182.4)",
+    "accent-foreground": "oklch(0.165 0.031 223.4)",
+    "destructive": "oklch(0.697 0.142 29.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.749 0.137 20.8)",
+    "chart-1": "oklch(0.749 0.137 20.8)",
+    "chart-2": "oklch(0.697 0.142 29.5)",
+    "chart-3": "oklch(0.661 0.109 182.4)",
+    "chart-4": "oklch(0.452 0.077 45.0)",
+    "chart-5": "oklch(0.676 0.040 24.3)",
+    "sidebar": "oklch(0.179 0.024 215.1)",
+    "sidebar-foreground": "oklch(0.992 0.003 48.7)",
+    "sidebar-primary": "oklch(0.749 0.137 20.8)",
+    "sidebar-primary-foreground": "oklch(0.165 0.031 223.4)",
+    "sidebar-accent": "oklch(0.312 0.007 182.5)",
+    "sidebar-accent-foreground": "oklch(0.992 0.003 48.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.749 0.137 20.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for multilingual headings, body text, labels, and numeric rhythm.",
+  "layout": "Precise 8px product grids, 8px radius cards, radial tentacle dividers, soft status states, compact tidepool navigation, and chart-heavy component coverage.",
+  "tags": [
+    "sea-anemone",
+    "marine",
+    "tidepool",
+    "rose",
+    "teal",
+    "sand",
+    "soft-interaction",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-anemone/motif.png",
+    "board": "/systems/morphous-sea-anemone/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-anemone/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-anemone/theme.css",
+    "themeJson": "/systems/morphous-sea-anemone/theme.json",
+    "promptsJson": "/systems/morphous-sea-anemone/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sea anemone motif source",
+      "asset": "/systems/morphous-sea-anemone/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for a catalog design system\nPrimary request: Create only a sea anemone tentacle cluster, isolated full subject, no environment, no props, no text.\nSubject: A tidepool sea anemone with a rounded central oral disc and many soft rose-pink tentacles, subtle coral gradients, teal shadow notes at the bases, tiny cream-tan sandy speckles near the foot, and accurate soft marine anatomy. Keep the tentacles mostly opaque with crisp visible edges so the subject can be cleanly cut out.\nComposition/framing: centered complete cutout with generous padding on all sides; compact radial form, no cropping of tentacle tips.\nLighting/mood: clean studio light that preserves rose tentacle texture, damp satin sheen, teal tidepool undertones, and sand-colored base detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no rocks, no tidepool background, no water background, no bubbles, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sea-anemone/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive 3840x2160 light-mode design-system board for a Morphous theme named \"Morphous Sea Anemone\", derived from the sea anemone motif cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the rose-pink sea anemone tentacles, teal tidepool shadow, damp satin surface, sandy cream foot, and soft radial tentacle structure. The board must visibly respect those motif colors and be useful as the reference for coding a shadcn/tweakcn-compatible theme.\nCanvas: exact wide 16:9 board composition, target 3840x2160, crisp high-resolution source asset.\nResolution and legibility: large readable labels, clear token names, avoid dense tiny text; clean grid with enough whitespace.\nRequired visible sections: Morphous Sea Anemone title, Sea Anemone motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status states, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; labels such as Geist, Noto Sans JP, Heading, Body, Label, Metrics; show multilingual product UI guidance.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, input, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, tooltip/popover, table rows, search command palette, sidebar navigation, top nav, breadcrumb, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, pagination, progress, slider, avatar, toast.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic polished UI board, precise grid, 8px card radius, soft interaction system, rose tentacle focus states, teal tidepool rings, sand-cream surfaces, subtle radial/tentacle-line dividers, calm tidepool analytics mood.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: anemone rose, tentacle coral, tidepool teal, deep pool ink, wet sand, foam pearl, shell blush, muted sea glass, and shadow kelp.\nCharts: include visible line, bar, and donut charts using the motif palette; charts should be clear and not decorative filler.\nText: use short readable UI labels only; no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Sea Anemone\", no dark-mode-only board."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sea-anemone/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a comprehensive 3840x2160 dark-mode design-system board for \"Morphous Sea Anemone\". It must feel like the same system as the light-mode sea anemone board translated to dark mode, not a new theme.\nReference use: Use the sea anemone motif and light board as references. Preserve the rose tentacle primary actions, coral secondary accents, teal tidepool focus rings, sand/pearl neutrals, soft radial tentacle dividers, component coverage, Japanese typography guidance, and shadcn/tweakcn board structure.\nCanvas: exact wide 16:9 board composition, target 3840x2160, crisp high-resolution source asset.\nResolution and legibility: large readable labels, clear token names, avoid dense tiny text; high contrast without glare.\nRequired visible sections: Morphous Sea Anemone title, Sea Anemone, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status states, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, input, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, tooltip/popover, table rows, search command palette, sidebar navigation, top nav, breadcrumb, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, pagination, progress, slider, avatar, toast.\nVisual details: deep pool ink and shadow kelp backgrounds, foam-pearl text, rose-pink tentacle and coral action colors, teal rings and data accents, sandy muted panels, restrained luminous wet-surface highlights, subtle radial tentacle texture, crisp 8px-radius shadcn-style cards and controls.\nCharts: include visible line, bar, and donut charts using rose, teal, coral, sand, and shell-blush values; charts should be clear and not decorative filler.\nTypography: include English and Japanese examples; labels such as Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nText: use short readable UI labels only; no long paragraphs.\nConstraints: no neon overload, no unrelated saturated colors, no generic purple/blue gradients, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Sea Anemone\", no light-mode-only board."
+    }
+  ]
+}

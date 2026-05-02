@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-snowy-owl",
+  "name": "Morphous Snowy Owl",
+  "status": "ready",
+  "motifName": "Snowy Owl",
+  "motifCategory": "bird",
+  "biome": "Arctic Tundra",
+  "motif": "snowy owl plumage",
+  "description": "A clean research-oriented component system derived from snowy owl plumage: white feather surfaces, black speckle markings, ice-blue focus states, and quiet arctic contrast.",
+  "typography": "Geist for clean research UI with Noto Sans JP guidance for headings, body, labels, numerals, and dense data views.",
+  "layout": "Precise research grids, 8px component radius, fine speckled dividers, restrained shadows, and arctic-tundra data surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "snowy-owl",
+    "bird",
+    "arctic",
+    "tundra",
+    "research",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Snowfield", "hex": "#f8faf8" },
+    { "role": "Ink", "name": "Speckle Ink", "hex": "#1f2428" },
+    { "role": "Primary", "name": "Ice Blue", "hex": "#4f9ab8" },
+    { "role": "Secondary", "name": "Feather Gray", "hex": "#d7dee2" },
+    { "role": "Accent", "name": "Glacial Cyan", "hex": "#a9dbe8" },
+    { "role": "Signal", "name": "Arctic Slate", "hex": "#697987" },
+    { "role": "Surface", "name": "Down White", "hex": "#eef3f2" },
+    { "role": "Muted", "name": "Pale Silver", "hex": "#b9c4ca" },
+    { "role": "Depth", "name": "Tundra Night", "hex": "#11181d" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

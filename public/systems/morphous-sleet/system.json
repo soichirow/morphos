@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-sleet",
+  "name": "Morphous Sleet",
+  "status": "ready",
+  "motifName": "Sleet",
+  "motifCategory": "weather",
+  "biome": "Winter Street",
+  "motif": "sleet pellets",
+  "description": "A careful logistics component system derived from sleet pellets on a winter street: ice-grey surfaces, asphalt-blue structure, white wet highlights, and granular status cues for routing, dispatch, and cold-weather operations.",
+  "typography": "Geist for compact operational UI with Noto Sans JP guidance for headings, body, labels, tables, and route numerals.",
+  "layout": "Dense dispatch grids, measured spacing, 8px component radii, wet-curb dividers, granular pellet textures, and precise status sequencing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sleet",
+    "weather",
+    "winter",
+    "street",
+    "logistics",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Sleet White", "hex": "#f7fafb" },
+    { "role": "Ink", "name": "Storm Ink", "hex": "#18222b" },
+    { "role": "Primary", "name": "Asphalt Blue", "hex": "#2f607a" },
+    { "role": "Secondary", "name": "Ice Grey", "hex": "#c9d4da" },
+    { "role": "Accent", "name": "Signal Cyan", "hex": "#68c7d4" },
+    { "role": "Signal", "name": "Sodium Warning", "hex": "#d49a45" },
+    { "role": "Surface", "name": "Pellet Glass", "hex": "#e7eef1" },
+    { "role": "Muted", "name": "Slush Line", "hex": "#8fa0aa" },
+    { "role": "Depth", "name": "Wet Curb", "hex": "#243642" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

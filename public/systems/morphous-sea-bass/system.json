@@ -1,0 +1,178 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-sea-bass",
+  "name": "Morphous Sea Bass",
+  "motifName": "Sea Bass",
+  "motifCategory": "fish",
+  "biome": "rocky coast",
+  "motif": "sea bass scales",
+  "description": "A shadcn/tweakcn-compatible clean dining system derived from sea bass scales: pearl and polished-silver surfaces, olive-slate primary actions, sea-glass blue focus states, blue-gray lateral shadows, graphite fin-line dividers, wet-stone borders, deep tide navy dark mode, and restrained roe amber alerts for reservations, menus, inventory, and table operations.",
+  "typography": "Clean English dining operations UI with tabular reservation metrics and Noto Sans JP guidance for Japanese menu, seating, inventory, forms, tables, and dashboard screens.",
+  "layout": "Dense but calm 8px product grids, coastal dining sidebars, reservation cards, table maps, menu inventory tables, kitchen-ticket panels, command search, chart dashboards, scale-dot textures, fin-line samples, and restrained shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sea-bass",
+    "fish",
+    "rocky-coast",
+    "sea-bass-scales",
+    "silver",
+    "olive-slate",
+    "sea-glass-blue",
+    "clean-dining",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl White",
+      "hex": "#F8FAFA",
+      "oklch": "oklch(0.984 0.002 197.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Tide Navy",
+      "hex": "#1E2A35",
+      "oklch": "oklch(0.279 0.026 246.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Olive Slate",
+      "hex": "#6B6F5E",
+      "oklch": "oklch(0.533 0.026 118.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Polished Silver",
+      "hex": "#E6E9EB",
+      "oklch": "oklch(0.932 0.004 236.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Glass Blue",
+      "hex": "#7FB3C7",
+      "oklch": "oklch(0.737 0.062 223.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Blue-Gray Shadow",
+      "hex": "#6D7D8F",
+      "oklch": "oklch(0.583 0.034 251.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dining Cream",
+      "hex": "#FFF7E6",
+      "oklch": "oklch(0.978 0.024 85.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Silver Mist",
+      "hex": "#F2F3F4",
+      "oklch": "oklch(0.964 0.002 247.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Wet Stone Gray",
+      "hex": "#8C9196",
+      "oklch": "oklch(0.654 0.009 248.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite",
+      "hex": "#282F33",
+      "oklch": "oklch(0.300 0.012 232.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Roe Amber",
+      "hex": "#E08A2E",
+      "oklch": "oklch(0.709 0.145 62.5)"
+    },
+    {
+      "role": "Danger",
+      "name": "Gill Clay",
+      "hex": "#B85A3C",
+      "oklch": "oklch(0.576 0.130 38.3)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.984 0.002 197.1)",
+    "foreground": "oklch(0.279 0.026 246.6)",
+    "card": "oklch(0.978 0.024 85.8)",
+    "card-foreground": "oklch(0.279 0.026 246.6)",
+    "popover": "oklch(0.984 0.002 197.1)",
+    "popover-foreground": "oklch(0.279 0.026 246.6)",
+    "primary": "oklch(0.533 0.026 118.1)",
+    "primary-foreground": "oklch(0.984 0.002 197.1)",
+    "secondary": "oklch(0.932 0.004 236.5)",
+    "secondary-foreground": "oklch(0.300 0.012 232.9)",
+    "muted": "oklch(0.964 0.002 247.8)",
+    "muted-foreground": "oklch(0.450 0.027 155.2)",
+    "accent": "oklch(0.737 0.062 223.9)",
+    "accent-foreground": "oklch(0.197 0.030 242.1)",
+    "destructive": "oklch(0.576 0.130 38.3)",
+    "border": "oklch(0.897 0.009 236.6)",
+    "input": "oklch(0.897 0.009 236.6)",
+    "ring": "oklch(0.737 0.062 223.9)",
+    "chart-1": "oklch(0.533 0.026 118.1)",
+    "chart-2": "oklch(0.737 0.062 223.9)",
+    "chart-3": "oklch(0.583 0.034 251.5)",
+    "chart-4": "oklch(0.709 0.145 62.5)",
+    "chart-5": "oklch(0.300 0.012 232.9)",
+    "sidebar": "oklch(0.964 0.002 247.8)",
+    "sidebar-foreground": "oklch(0.279 0.026 246.6)",
+    "sidebar-primary": "oklch(0.533 0.026 118.1)",
+    "sidebar-primary-foreground": "oklch(0.984 0.002 197.1)",
+    "sidebar-accent": "oklch(0.936 0.032 87.3)",
+    "sidebar-accent-foreground": "oklch(0.300 0.012 232.9)",
+    "sidebar-border": "oklch(0.897 0.009 236.6)",
+    "sidebar-ring": "oklch(0.737 0.062 223.9)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.197 0.030 242.1)",
+    "foreground": "oklch(0.984 0.002 197.1)",
+    "card": "oklch(0.221 0.017 240.9)",
+    "card-foreground": "oklch(0.984 0.002 197.1)",
+    "popover": "oklch(0.221 0.017 240.9)",
+    "popover-foreground": "oklch(0.984 0.002 197.1)",
+    "primary": "oklch(0.533 0.026 118.1)",
+    "primary-foreground": "oklch(0.984 0.002 197.1)",
+    "secondary": "oklch(0.309 0.016 248.3)",
+    "secondary-foreground": "oklch(0.932 0.004 236.5)",
+    "muted": "oklch(0.309 0.016 248.3)",
+    "muted-foreground": "oklch(0.897 0.009 236.6)",
+    "accent": "oklch(0.737 0.062 223.9)",
+    "accent-foreground": "oklch(0.197 0.030 242.1)",
+    "destructive": "oklch(0.523 0.134 34.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.737 0.062 223.9)",
+    "chart-1": "oklch(0.737 0.062 223.9)",
+    "chart-2": "oklch(0.533 0.026 118.1)",
+    "chart-3": "oklch(0.932 0.004 236.5)",
+    "chart-4": "oklch(0.709 0.145 62.5)",
+    "chart-5": "oklch(0.583 0.034 251.5)",
+    "sidebar": "oklch(0.186 0.022 243.5)",
+    "sidebar-foreground": "oklch(0.984 0.002 197.1)",
+    "sidebar-primary": "oklch(0.533 0.026 118.1)",
+    "sidebar-primary-foreground": "oklch(0.984 0.002 197.1)",
+    "sidebar-accent": "oklch(0.300 0.024 233.6)",
+    "sidebar-accent-foreground": "oklch(0.984 0.002 197.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.737 0.062 223.9)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

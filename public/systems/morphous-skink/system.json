@@ -1,0 +1,205 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 454,
+  "slug": "morphous-skink",
+  "name": "Morphous Skink",
+  "motifName": "Skink",
+  "motifCategory": "reptile",
+  "biome": "leaf litter",
+  "motif": "blue tailed skink",
+  "description": "A shadcn/tweakcn-compatible sharp mobile system derived from the blue-tailed skink's glossy black body, electric cobalt tail, fine scale texture, leaf-brown habitat, and fast ground-level movement.",
+  "typography": "Inter for sharp mobile UI, Geist Mono for compact metrics and table values, and Noto Sans JP guidance for Japanese navigation, forms, search, status, and table labels.",
+  "layout": "High-contrast mobile-first screens, compact dashboard grids, bottom navigation, crisp scale-line dividers, 8px radii, glossy black surfaces, electric-blue focus and action states, leaf-brown secondary controls, and dense but readable data sections.",
+  "designMood": "sharp mobile system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "mobile navigation",
+    "components",
+    "dashboard/data",
+    "charts",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "skink",
+    "reptile",
+    "leaf-litter",
+    "blue-tailed-skink",
+    "scale-black",
+    "electric-blue",
+    "leaf-brown",
+    "sharp-mobile",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Shell",
+      "hex": "#FBF8F0",
+      "oklch": "oklch(0.978 0.012 84.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Litter Sand",
+      "hex": "#E8D6B7",
+      "oklch": "oklch(0.897 0.043 80.1)"
+    },
+    {
+      "role": "Card",
+      "name": "Scale Paper",
+      "hex": "#FFFDF6",
+      "oklch": "oklch(0.990 0.006 91.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Electric Tail",
+      "hex": "#006BFF",
+      "oklch": "oklch(0.573 0.247 260.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tail Glow",
+      "hex": "#42A4FF",
+      "oklch": "oklch(0.707 0.151 248.0)"
+    },
+    {
+      "role": "Action Deep",
+      "name": "Deep Tail Blue",
+      "hex": "#0047C7",
+      "oklch": "oklch(0.474 0.235 261.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Brown",
+      "hex": "#7A5735",
+      "oklch": "oklch(0.482 0.035 68.4)"
+    },
+    {
+      "role": "Warm Surface",
+      "name": "Dry Leaf",
+      "hex": "#B99060",
+      "oklch": "oklch(0.747 0.077 71.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Stem Taupe",
+      "hex": "#9A866C",
+      "oklch": "oklch(0.642 0.038 72.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Vein",
+      "hex": "#C3B197",
+      "oklch": "oklch(0.747 0.035 74.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Scale Black",
+      "hex": "#11100D",
+      "oklch": "oklch(0.178 0.008 106.0)"
+    },
+    {
+      "role": "Ink Soft",
+      "name": "Skink Ink",
+      "hex": "#1F211D",
+      "oklch": "oklch(0.235 0.010 113.0)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Scale",
+      "hex": "#090B0C",
+      "oklch": "oklch(0.115 0.006 225.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.978 0.012 84.0)",
+    "foreground": "oklch(0.178 0.008 106.0)",
+    "card": "oklch(0.990 0.006 91.0)",
+    "card-foreground": "oklch(0.178 0.008 106.0)",
+    "popover": "oklch(0.990 0.006 91.0)",
+    "popover-foreground": "oklch(0.178 0.008 106.0)",
+    "primary": "oklch(0.573 0.247 260.2)",
+    "primary-foreground": "oklch(0.990 0.006 91.0)",
+    "secondary": "oklch(0.897 0.043 80.1)",
+    "secondary-foreground": "oklch(0.342 0.039 63.9)",
+    "muted": "oklch(0.929 0.024 80.7)",
+    "muted-foreground": "oklch(0.482 0.035 68.4)",
+    "accent": "oklch(0.707 0.151 248.0)",
+    "accent-foreground": "oklch(0.134 0.010 215.0)",
+    "destructive": "oklch(0.592 0.191 29.4)",
+    "border": "oklch(0.747 0.035 74.8)",
+    "input": "oklch(0.747 0.035 74.8)",
+    "ring": "oklch(0.573 0.247 260.2)",
+    "chart-1": "oklch(0.573 0.247 260.2)",
+    "chart-2": "oklch(0.707 0.151 248.0)",
+    "chart-3": "oklch(0.556 0.072 65.4)",
+    "chart-4": "oklch(0.747 0.077 71.5)",
+    "chart-5": "oklch(0.178 0.008 106.0)",
+    "sidebar": "oklch(0.929 0.024 80.7)",
+    "sidebar-foreground": "oklch(0.178 0.008 106.0)",
+    "sidebar-primary": "oklch(0.573 0.247 260.2)",
+    "sidebar-primary-foreground": "oklch(0.990 0.006 91.0)",
+    "sidebar-accent": "oklch(0.902 0.046 250.4)",
+    "sidebar-accent-foreground": "oklch(0.134 0.010 215.0)",
+    "sidebar-border": "oklch(0.747 0.035 74.8)",
+    "sidebar-ring": "oklch(0.573 0.247 260.2)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.115 0.006 225.0)",
+    "foreground": "oklch(0.929 0.024 80.7)",
+    "card": "oklch(0.160 0.009 122.0)",
+    "card-foreground": "oklch(0.929 0.024 80.7)",
+    "popover": "oklch(0.145 0.008 125.0)",
+    "popover-foreground": "oklch(0.929 0.024 80.7)",
+    "primary": "oklch(0.630 0.252 256.2)",
+    "primary-foreground": "oklch(0.115 0.006 225.0)",
+    "secondary": "oklch(0.276 0.029 70.0)",
+    "secondary-foreground": "oklch(0.897 0.043 80.1)",
+    "muted": "oklch(0.218 0.012 112.0)",
+    "muted-foreground": "oklch(0.747 0.035 74.8)",
+    "accent": "oklch(0.732 0.153 245.2)",
+    "accent-foreground": "oklch(0.115 0.006 225.0)",
+    "destructive": "oklch(0.628 0.209 29.0)",
+    "border": "oklch(0.420 0.034 70.0 / 55%)",
+    "input": "oklch(0.420 0.034 70.0 / 65%)",
+    "ring": "oklch(0.732 0.153 245.2)",
+    "chart-1": "oklch(0.630 0.252 256.2)",
+    "chart-2": "oklch(0.732 0.153 245.2)",
+    "chart-3": "oklch(0.747 0.077 71.5)",
+    "chart-4": "oklch(0.556 0.072 65.4)",
+    "chart-5": "oklch(0.897 0.043 80.1)",
+    "sidebar": "oklch(0.160 0.009 122.0)",
+    "sidebar-foreground": "oklch(0.929 0.024 80.7)",
+    "sidebar-primary": "oklch(0.630 0.252 256.2)",
+    "sidebar-primary-foreground": "oklch(0.115 0.006 225.0)",
+    "sidebar-accent": "oklch(0.276 0.029 70.0)",
+    "sidebar-accent-foreground": "oklch(0.929 0.024 80.7)",
+    "sidebar-border": "oklch(0.420 0.034 70.0 / 55%)",
+    "sidebar-ring": "oklch(0.732 0.153 245.2)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

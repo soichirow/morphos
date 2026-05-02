@@ -1,0 +1,218 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 348,
+  "slug": "morphous-scallop",
+  "name": "Morphous Scallop",
+  "motifName": "Scallop",
+  "motifCategory": "marine",
+  "biome": "seabed",
+  "motif": "scallop shell",
+  "description": "A shadcn/tweakcn-compatible radial menu system derived from a scallop shell's fan ribs, shell cream nacre, pale blue groove shadows, coral ridge markings, peach edges, pearly highlights, and quiet seabed slate contrast.",
+  "typography": "Playfair Display guidance for large editorial shell headings, Inter for product UI, Geist Mono for tabular marine inventory data, and Noto Sans JP guidance for Japanese navigation, search, status, data, and radial menu labels.",
+  "layout": "Radial menu actions, fan-segment controls, shell-rib dividers, calm product grids, 8px radii, pearly card surfaces, coral primary actions, nacre blue focus states, sand-beige muted surfaces, and deep seabed slate text.",
+  "designMood": "radial menu system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "radial menu",
+    "dashboard/data",
+    "charts",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "scallop",
+    "marine",
+    "seabed",
+    "scallop-shell",
+    "coral-ridge",
+    "shell-cream",
+    "nacre-blue",
+    "radial-menu",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Wash",
+      "hex": "#FFF9F2",
+      "oklch": "oklch(0.985 0.011 71.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Surface",
+      "hex": "#FEFDFC",
+      "oklch": "oklch(0.995 0.002 67.8)"
+    },
+    {
+      "role": "Popover",
+      "name": "Shell Cream",
+      "hex": "#FFFAF2",
+      "oklch": "oklch(0.987 0.012 79.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Ridge",
+      "hex": "#F56A61",
+      "oklch": "oklch(0.694 0.173 26.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral Pink",
+      "hex": "#F783AA",
+      "oklch": "oklch(0.749 0.147 359.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Peach Edge",
+      "hex": "#FFCBA8",
+      "oklch": "oklch(0.879 0.075 55.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Foam Blue",
+      "hex": "#8ED8DE",
+      "oklch": "oklch(0.836 0.074 202.3)"
+    },
+    {
+      "role": "Soft Accent",
+      "name": "Nacre Blue",
+      "hex": "#D7EEF2",
+      "oklch": "oklch(0.933 0.025 209.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Beige",
+      "hex": "#F3E6D2",
+      "oklch": "oklch(0.930 0.030 78.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Sand",
+      "hex": "#E5D8CE",
+      "oklch": "oklch(0.890 0.020 60.1)"
+    },
+    {
+      "role": "Mist",
+      "name": "Mist Gray",
+      "hex": "#A6B2B8",
+      "oklch": "oklch(0.756 0.016 229.0)"
+    },
+    {
+      "role": "Subtle Ink",
+      "name": "Slate Gray",
+      "hex": "#556166",
+      "oklch": "oklch(0.484 0.017 224.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seabed Slate",
+      "hex": "#2B3A42",
+      "oklch": "oklch(0.339 0.024 231.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Seabed",
+      "hex": "#10222A",
+      "oklch": "oklch(0.240 0.028 228.4)"
+    },
+    {
+      "role": "Night",
+      "name": "Blue-Groove Night",
+      "hex": "#172A30",
+      "oklch": "oklch(0.271 0.027 220.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.985 0.011 71.9)",
+    "foreground": "oklch(0.339 0.024 231.6)",
+    "card": "oklch(0.995 0.002 67.8)",
+    "card-foreground": "oklch(0.339 0.024 231.6)",
+    "popover": "oklch(0.987 0.012 79.8)",
+    "popover-foreground": "oklch(0.339 0.024 231.6)",
+    "primary": "oklch(0.694 0.173 26.2)",
+    "primary-foreground": "oklch(0.985 0.011 71.9)",
+    "secondary": "oklch(0.933 0.025 209.3)",
+    "secondary-foreground": "oklch(0.339 0.024 231.6)",
+    "muted": "oklch(0.930 0.030 78.8)",
+    "muted-foreground": "oklch(0.484 0.017 224.8)",
+    "accent": "oklch(0.836 0.074 202.3)",
+    "accent-foreground": "oklch(0.240 0.028 228.4)",
+    "destructive": "oklch(0.581 0.163 26.2)",
+    "border": "oklch(0.890 0.020 60.1)",
+    "input": "oklch(0.890 0.020 60.1)",
+    "ring": "oklch(0.791 0.073 203.5)",
+    "chart-1": "oklch(0.694 0.173 26.2)",
+    "chart-2": "oklch(0.836 0.074 202.3)",
+    "chart-3": "oklch(0.879 0.075 55.5)",
+    "chart-4": "oklch(0.749 0.147 359.9)",
+    "chart-5": "oklch(0.339 0.024 231.6)",
+    "sidebar": "oklch(0.978 0.022 83.3)",
+    "sidebar-foreground": "oklch(0.339 0.024 231.6)",
+    "sidebar-primary": "oklch(0.694 0.173 26.2)",
+    "sidebar-primary-foreground": "oklch(0.985 0.011 71.9)",
+    "sidebar-accent": "oklch(0.933 0.025 209.3)",
+    "sidebar-accent-foreground": "oklch(0.339 0.024 231.6)",
+    "sidebar-border": "oklch(0.890 0.020 60.1)",
+    "sidebar-ring": "oklch(0.791 0.073 203.5)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.240 0.028 228.4)",
+    "foreground": "oklch(0.987 0.012 79.8)",
+    "card": "oklch(0.271 0.027 220.0)",
+    "card-foreground": "oklch(0.987 0.012 79.8)",
+    "popover": "oklch(0.247 0.026 217.5)",
+    "popover-foreground": "oklch(0.987 0.012 79.8)",
+    "primary": "oklch(0.702 0.168 27.3)",
+    "primary-foreground": "oklch(0.240 0.028 228.4)",
+    "secondary": "oklch(0.333 0.032 221.9)",
+    "secondary-foreground": "oklch(0.987 0.012 79.8)",
+    "muted": "oklch(0.313 0.025 221.8)",
+    "muted-foreground": "oklch(0.805 0.023 203.7)",
+    "accent": "oklch(0.836 0.074 202.3)",
+    "accent-foreground": "oklch(0.240 0.028 228.4)",
+    "destructive": "oklch(0.679 0.171 26.4)",
+    "border": "oklch(0.432 0.030 211.9 / 45%)",
+    "input": "oklch(0.432 0.030 211.9 / 55%)",
+    "ring": "oklch(0.791 0.073 203.5)",
+    "chart-1": "oklch(0.702 0.168 27.3)",
+    "chart-2": "oklch(0.836 0.074 202.3)",
+    "chart-3": "oklch(0.887 0.067 70.4)",
+    "chart-4": "oklch(0.805 0.023 203.7)",
+    "chart-5": "oklch(0.450 0.028 258.4)",
+    "sidebar": "oklch(0.247 0.026 217.5)",
+    "sidebar-foreground": "oklch(0.987 0.012 79.8)",
+    "sidebar-primary": "oklch(0.702 0.168 27.3)",
+    "sidebar-primary-foreground": "oklch(0.240 0.028 228.4)",
+    "sidebar-accent": "oklch(0.333 0.032 221.9)",
+    "sidebar-accent-foreground": "oklch(0.987 0.012 79.8)",
+    "sidebar-border": "oklch(0.432 0.030 211.9 / 45%)",
+    "sidebar-ring": "oklch(0.791 0.073 203.5)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

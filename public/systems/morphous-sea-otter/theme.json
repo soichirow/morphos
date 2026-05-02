@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sea-otter",
+    "name": "Morphous Sea Otter",
+    "motifName": "Sea Otter",
+    "motifCategory": "mammal",
+    "biome": "kelp forest",
+    "motif": "sea otter fur"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Mist",
+      "hex": "#F8F4EA",
+      "oklch": "oklch(0.968 0.014 88.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Fur Ink",
+      "hex": "#1B130E",
+      "oklch": "oklch(0.195 0.016 53.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Otter Brown",
+      "hex": "#6B3F24",
+      "oklch": "oklch(0.414 0.073 51.1)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Slick Auburn",
+      "hex": "#A46B3D",
+      "oklch": "oklch(0.579 0.096 58.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Kelp Olive",
+      "hex": "#7A741F",
+      "oklch": "oklch(0.548 0.103 105.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tide Teal",
+      "hex": "#2F7D83",
+      "oklch": "oklch(0.545 0.075 202.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Kelp",
+      "hex": "#3E4A22",
+      "oklch": "oklch(0.388 0.063 123.1)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Alert",
+      "hex": "#C05235",
+      "oklch": "oklch(0.575 0.148 35.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Otter Cream",
+      "hex": "#F3E5C9",
+      "oklch": "oklch(0.926 0.040 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Whisker Taupe",
+      "hex": "#CBB79A",
+      "oklch": "oklch(0.789 0.046 77.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Current",
+      "hex": "#122326",
+      "oklch": "oklch(0.243 0.023 209.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Foam Line",
+      "hex": "#E6DCC4",
+      "oklch": "oklch(0.896 0.034 88.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.968 0.014 88.7)",
+    "foreground": "oklch(0.195 0.016 53.5)",
+    "card": "oklch(0.926 0.040 84.6)",
+    "card-foreground": "oklch(0.195 0.016 53.5)",
+    "popover": "oklch(0.926 0.040 84.6)",
+    "popover-foreground": "oklch(0.195 0.016 53.5)",
+    "primary": "oklch(0.414 0.073 51.1)",
+    "primary-foreground": "oklch(0.968 0.014 88.7)",
+    "secondary": "oklch(0.943 0.029 84.6)",
+    "secondary-foreground": "oklch(0.243 0.023 209.9)",
+    "muted": "oklch(0.937 0.033 85.5)",
+    "muted-foreground": "oklch(0.243 0.023 209.9)",
+    "accent": "oklch(0.545 0.075 202.3)",
+    "accent-foreground": "oklch(0.968 0.014 88.7)",
+    "destructive": "oklch(0.575 0.148 35.8)",
+    "border": "oklch(0.896 0.034 88.1)",
+    "input": "oklch(0.896 0.034 88.1)",
+    "ring": "oklch(0.548 0.103 105.3)",
+    "chart-1": "oklch(0.414 0.073 51.1)",
+    "chart-2": "oklch(0.548 0.103 105.3)",
+    "chart-3": "oklch(0.545 0.075 202.3)",
+    "chart-4": "oklch(0.388 0.063 123.1)",
+    "chart-5": "oklch(0.579 0.096 58.2)",
+    "sidebar": "oklch(0.940 0.031 84.6)",
+    "sidebar-foreground": "oklch(0.195 0.016 53.5)",
+    "sidebar-primary": "oklch(0.414 0.073 51.1)",
+    "sidebar-primary-foreground": "oklch(0.968 0.014 88.7)",
+    "sidebar-accent": "oklch(0.881 0.047 89.6)",
+    "sidebar-accent-foreground": "oklch(0.548 0.103 105.3)",
+    "sidebar-border": "oklch(0.896 0.034 88.1)",
+    "sidebar-ring": "oklch(0.548 0.103 105.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.195 0.016 53.5)",
+    "foreground": "oklch(0.968 0.014 88.7)",
+    "card": "oklch(0.226 0.013 196.3)",
+    "card-foreground": "oklch(0.968 0.014 88.7)",
+    "popover": "oklch(0.226 0.013 196.3)",
+    "popover-foreground": "oklch(0.968 0.014 88.7)",
+    "primary": "oklch(0.548 0.103 105.3)",
+    "primary-foreground": "oklch(0.195 0.016 53.5)",
+    "secondary": "oklch(0.377 0.014 167.1)",
+    "secondary-foreground": "oklch(0.968 0.014 88.7)",
+    "muted": "oklch(0.377 0.014 167.1)",
+    "muted-foreground": "oklch(0.889 0.028 81.5)",
+    "accent": "oklch(0.545 0.075 202.3)",
+    "accent-foreground": "oklch(0.195 0.016 53.5)",
+    "destructive": "oklch(0.575 0.148 35.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.548 0.103 105.3)",
+    "chart-1": "oklch(0.548 0.103 105.3)",
+    "chart-2": "oklch(0.545 0.075 202.3)",
+    "chart-3": "oklch(0.414 0.073 51.1)",
+    "chart-4": "oklch(0.579 0.096 58.2)",
+    "chart-5": "oklch(0.789 0.046 77.1)",
+    "sidebar": "oklch(0.214 0.005 173.9)",
+    "sidebar-foreground": "oklch(0.968 0.014 88.7)",
+    "sidebar-primary": "oklch(0.548 0.103 105.3)",
+    "sidebar-primary-foreground": "oklch(0.195 0.016 53.5)",
+    "sidebar-accent": "oklch(0.377 0.014 167.1)",
+    "sidebar-accent-foreground": "oklch(0.968 0.014 88.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.548 0.103 105.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for friendly English learning UI with Noto Sans JP guidance for Japanese headings, labels, progress metrics, and compact study tables.",
+  "layout": "Playful 8px product grids, warm cream learning panels, kelp-ribbon dividers, wet-fur texture swatches, rounded status controls, and clear dashboard hierarchy for lessons, skills, quizzes, and cohort progress.",
+  "tags": [
+    "sea-otter",
+    "mammal",
+    "kelp-forest",
+    "fur",
+    "learning",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-otter/motif.png",
+    "board": "/systems/morphous-sea-otter/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-otter/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-otter/theme.css",
+    "themeJson": "/systems/morphous-sea-otter/theme.json",
+    "promptsJson": "/systems/morphous-sea-otter/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sea otter motif source",
+      "asset": "/systems/morphous-sea-otter/motif.png",
+      "workflow": "Built-in image_gen generation on a flat #ff00ff chroma-key background, copied into the workspace, then converted to RGBA with local chroma-key removal.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for catalog asset `motif.png`\nPrimary request: Create only a sea otter motif, isolated full subject, no environment, no text.\nSubject: A playful sea otter with rich dark brown wet fur, cream face and muzzle, small rounded ears, visible whiskers, and a gentle learning-system personality. Include one simple kelp-green frond loosely tucked beside the otter so the motif carries the kelp forest context, but keep it as part of the isolated cutout rather than a scene.\nComposition/framing: centered complete cutout with generous padding; do not crop the body, tail, paws, face, whiskers, or kelp frond. The otter may float in a relaxed curved pose with paws near the chest.\nLighting/mood: clean studio light that preserves brown fur texture, cream facial highlights, wet-fur sheen, and calm playful expression. Use a crisp silhouette with controlled fur edges and no flyaway hairs so background removal is clean.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props other than the single kelp frond, no ocean background, no bubbles, no decorative background, no second animal, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sea-otter/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-sea-otter/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for `design-system-light.png`\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sea Otter\", derived from the visible sea otter cutout with brown wet fur, cream face, whiskers, and kelp frond.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the sea otter fur texture, cream muzzle, dark wet guard hairs, kelp forest frond, whisker lines, paw shapes, and playful learning-system mood. The board must visibly respect motif colors and be suitable for coding a shadcn/tweakcn theme.\nCanvas: exact 3840x2160 wide 16:9 design board, high-resolution source asset.\nResolution and legibility: use large readable section labels and UI labels; avoid dense tiny text; crisp product-design mockup with clear component states.\nRequired visible sections: Morphous Sea Otter, Sea Otter, Light Mode, Motif Story, Palette, Typography, Japanese Typography, Components, Navigation, Learning Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance for a playful learning product.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, breadcrumb, dashboard metric cards, progress bars, line chart, bar chart, donut chart, student activity chart, empty state, loading state, error state, success state, tooltip, dropdown menu, stepper, slider, calendar/date input, file upload, spacing scale, radius scale, border tokens, shadow samples, texture swatches, motif asset preview.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise 8px grid, 8px card radius, warm cream learning surfaces, wet-fur line texture, kelp-ribbon dividers, rounded playful controls that remain professional and scannable.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: Otter Cream #F3E5C9, Wet Fur Ink #1B130E, Kelp Olive #7A741F, Deep Kelp #3E4A22, Otter Brown #6B3F24, Slick Auburn #A46B3D, Tide Teal #2F7D83, Shell Mist #F8F4EA, Whisker Taupe #CBB79A, Dark Current #122326.\nCharts: include clear learning analytics charts using Otter Brown, Kelp Olive, Tide Teal, Slick Auburn, and Cream highlight.\nText: use short readable UI labels only, such as Lessons, Progress, Skills, Cohort, Review, Quiz, Active, Complete, Draft, Retry.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no one-note brown-only palette, no watermark, no random brand names, no misspelling of \"Morphous Sea Otter\", no ocean photo background, no illegible token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sea-otter/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-sea-otter/motif.png",
+        "/systems/morphous-sea-otter/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for `design-system-dark.png`\nPrimary request: Generate a dark-mode version of the visible \"Morphous Sea Otter\" design-system board. It must feel like the same sea otter learning system translated to dark mode, not a new theme.\nReference use: Use the visible sea otter motif and the visible light-mode Morphous Sea Otter board as references. Preserve the brown wet fur, cream face, kelp olive, tide teal, whisker-line texture, rounded learning controls, dashboard/data structure, component coverage, Japanese typography, and shadcn/tweakcn token roles. The board must be suitable for coding a dark shadcn/tweakcn theme.\nCanvas: exact 3840x2160 wide 16:9 design board, high-resolution source asset.\nResolution and legibility: use large readable section labels and UI labels; avoid dense tiny text; crisp product-design mockup with clear component states.\nRequired visible sections: Morphous Sea Otter, Sea Otter, Dark Mode, Motif Story, Palette, Typography, Japanese Typography, Components, Navigation, Learning Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, breadcrumb, dashboard metric cards, progress bars, line chart, bar chart, donut chart, student activity chart, empty state, loading state, error state, success state, tooltip, dropdown menu, stepper, slider, calendar/date input, file upload, spacing scale, radius scale, border tokens, shadow samples, texture swatches, motif asset preview.\nVisual details: dark background derived from Wet Fur Ink #1B130E and Dark Current #122326, card surfaces like deep wet fur and kelp shadow, readable text from Otter Cream #F3E5C9 and Shell Mist #F8F4EA, primary actions from Kelp Olive and warm Otter Brown, analytics accents from Tide Teal and Slick Auburn. Use subtle wet-fur line texture, kelp-ribbon dividers, cream highlight glints, and restrained contrast.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance for a playful learning product.\nCharts: include clear learning analytics charts using Kelp Olive, Tide Teal, Otter Brown, Slick Auburn, and Cream highlight on dark surfaces.\nText: use short readable UI labels only, such as Lessons, Progress, Skills, Cohort, Review, Quiz, Active, Complete, Draft, Retry.\nConstraints: no neon overload, no unrelated saturated colors, no generic purple/blue gradients, no one-note brown-only palette, no flat pure-black-only background, no watermark, no random brand names, no misspelling of \"Morphous Sea Otter\", no illegible token tables."
+    }
+  ]
+}

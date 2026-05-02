@@ -1,0 +1,208 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 339,
+  "slug": "morphous-sea-urchin",
+  "name": "Morphous Sea Urchin",
+  "motifName": "Sea Urchin",
+  "motifCategory": "marine",
+  "biome": "Kelp Bed",
+  "motif": "sea urchin spines",
+  "description": "A shadcn/tweakcn-compatible radial navigation system derived from purple sea urchin spines, lavender shell nodules, pale calcium tips, kelp-bed greens, and green-water translucency: spine-purple actions, kelp secondary states, green-water focus, shell-pearl surfaces, and deep urchin-ink structure.",
+  "typography": "Inter or Geist for precise product UI with Noto Sans JP guidance for Japanese labels, tabular numbers, compact headings, and calm radial navigation hierarchy.",
+  "layout": "Precise 8px grid, 8px radii, radial menu structures, spine-line dividers, shell-nodule dot textures, kelp-water translucent panels, compact navigation, and restrained marine shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "radial navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows",
+    "sample usage"
+  ],
+  "tags": [
+    "sea urchin",
+    "marine",
+    "kelp bed",
+    "purple spine shell",
+    "green water",
+    "radial navigation",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Pearl",
+      "hex": "#F8F2FA",
+      "oklch": "oklch(0.968 0.012 317.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Urchin Ink",
+      "hex": "#1A1420",
+      "oklch": "oklch(0.204 0.025 307.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Spine Plum",
+      "hex": "#281340",
+      "oklch": "oklch(0.244 0.083 302.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Spine Purple",
+      "hex": "#4E2076",
+      "oklch": "oklch(0.358 0.140 304.7)"
+    },
+    {
+      "role": "Action",
+      "name": "Urchin Violet",
+      "hex": "#855CC3",
+      "oklch": "oklch(0.565 0.156 299.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Lavender Shell",
+      "hex": "#B399E1",
+      "oklch": "oklch(0.732 0.106 300.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Calcium Tip",
+      "hex": "#F6F2FA",
+      "oklch": "oklch(0.967 0.011 308.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sea Glass Wash",
+      "hex": "#E3F0EA",
+      "oklch": "oklch(0.944 0.016 166.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Kelp Green",
+      "hex": "#2E5A44",
+      "oklch": "oklch(0.429 0.062 160.5)"
+    },
+    {
+      "role": "Support",
+      "name": "Kelp Leaf",
+      "hex": "#5EAA7F",
+      "oklch": "oklch(0.677 0.100 157.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Green Water",
+      "hex": "#1A6F6C",
+      "oklch": "oklch(0.493 0.077 191.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Teal Ripple",
+      "hex": "#63C2BA",
+      "oklch": "oklch(0.754 0.091 188.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Border",
+      "hex": "#D8CFE0",
+      "oklch": "oklch(0.867 0.025 309.3)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Coral Warning",
+      "hex": "#B24B5E",
+      "oklch": "oklch(0.552 0.135 11.3)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.968 0.012 317.7)",
+    "foreground": "oklch(0.204 0.025 307.1)",
+    "card": "oklch(0.967 0.011 308.3)",
+    "card-foreground": "oklch(0.204 0.025 307.1)",
+    "popover": "oklch(0.982 0.009 188.1)",
+    "popover-foreground": "oklch(0.204 0.025 307.1)",
+    "primary": "oklch(0.358 0.140 304.7)",
+    "primary-foreground": "oklch(0.967 0.011 308.3)",
+    "secondary": "oklch(0.944 0.016 166.7)",
+    "secondary-foreground": "oklch(0.335 0.046 161.5)",
+    "muted": "oklch(0.963 0.010 311.2)",
+    "muted-foreground": "oklch(0.403 0.051 307.8)",
+    "accent": "oklch(0.493 0.077 191.4)",
+    "accent-foreground": "oklch(0.982 0.009 188.1)",
+    "destructive": "oklch(0.552 0.135 11.3)",
+    "border": "oklch(0.867 0.025 309.3)",
+    "input": "oklch(0.867 0.025 309.3)",
+    "ring": "oklch(0.565 0.156 299.8)",
+    "chart-1": "oklch(0.358 0.140 304.7)",
+    "chart-2": "oklch(0.493 0.077 191.4)",
+    "chart-3": "oklch(0.429 0.062 160.5)",
+    "chart-4": "oklch(0.732 0.106 300.4)",
+    "chart-5": "oklch(0.677 0.100 157.5)",
+    "sidebar": "oklch(0.963 0.010 311.2)",
+    "sidebar-foreground": "oklch(0.204 0.025 307.1)",
+    "sidebar-primary": "oklch(0.358 0.140 304.7)",
+    "sidebar-primary-foreground": "oklch(0.967 0.011 308.3)",
+    "sidebar-accent": "oklch(0.924 0.032 189.3)",
+    "sidebar-accent-foreground": "oklch(0.335 0.046 161.5)",
+    "sidebar-border": "oklch(0.867 0.025 309.3)",
+    "sidebar-ring": "oklch(0.565 0.156 299.8)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.178 0.022 263.8)",
+    "foreground": "oklch(0.967 0.011 308.3)",
+    "card": "oklch(0.197 0.032 297.7)",
+    "card-foreground": "oklch(0.967 0.011 308.3)",
+    "popover": "oklch(0.227 0.049 303.0)",
+    "popover-foreground": "oklch(0.967 0.011 308.3)",
+    "primary": "oklch(0.684 0.105 301.4)",
+    "primary-foreground": "oklch(0.197 0.032 297.7)",
+    "secondary": "oklch(0.335 0.046 161.5)",
+    "secondary-foreground": "oklch(0.982 0.009 188.1)",
+    "muted": "oklch(0.262 0.039 309.0)",
+    "muted-foreground": "oklch(0.735 0.028 304.7)",
+    "accent": "oklch(0.754 0.091 188.2)",
+    "accent-foreground": "oklch(0.178 0.022 263.8)",
+    "destructive": "oklch(0.552 0.135 11.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.684 0.105 301.4)",
+    "chart-1": "oklch(0.684 0.105 301.4)",
+    "chart-2": "oklch(0.754 0.091 188.2)",
+    "chart-3": "oklch(0.677 0.100 157.5)",
+    "chart-4": "oklch(0.565 0.156 299.8)",
+    "chart-5": "oklch(0.841 0.060 189.4)",
+    "sidebar": "oklch(0.197 0.032 297.7)",
+    "sidebar-foreground": "oklch(0.967 0.011 308.3)",
+    "sidebar-primary": "oklch(0.684 0.105 301.4)",
+    "sidebar-primary-foreground": "oklch(0.197 0.032 297.7)",
+    "sidebar-accent": "oklch(0.382 0.060 191.7)",
+    "sidebar-accent-foreground": "oklch(0.982 0.009 188.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.684 0.105 301.4)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

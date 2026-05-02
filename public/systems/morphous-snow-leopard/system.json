@@ -1,82 +1,91 @@
 {
   "schema": "morphous.system.v1",
   "status": "ready",
+  "queueId": 386,
   "slug": "morphous-snow-leopard",
   "name": "Morphous Snow Leopard",
   "motifName": "Snow Leopard",
-  "motifCategory": "animal",
-  "biome": "Alpine",
-  "motif": "ridgeline silence",
-  "description": "A quiet alpine product system based on the snow leopard board: pale winter fur, charcoal rosettes, warm undercoat, and soft stone-grey operational surfaces.",
-  "typography": "Geist for crisp product UI, compact labels, and large editorial headings.",
-  "layout": "Angular ridgeline grids, monochrome rosette texture, dense dashboards, and restrained 8px cards.",
-  "themeReference": [
-    "design-system.png",
-    "design-system-dark.png"
-  ],
-  "tags": [
-    "alpine",
-    "animal",
-    "leopard",
-    "neutral",
-    "dark-ready"
-  ],
+  "motifCategory": "mammal",
+  "biome": "high mountains",
+  "motif": "snow leopard coat",
+  "mood": "quiet security system",
+  "description": "A quiet security design system derived from snow leopard winter fur, smoke-grey shadows, charcoal rosettes, snow highlights, and high-mountain stillness.",
   "palette": [
     {
       "role": "Background",
-      "name": "Pale Winter Fur",
-      "hex": "#F5F3F1"
+      "name": "Snow",
+      "hex": "#FAFBFC",
+      "oklch": "oklch(0.988 0.002 247.8)"
     },
     {
-      "role": "Ink",
-      "name": "Spot Black",
-      "hex": "#1A1A1A"
+      "role": "Foreground",
+      "name": "Ink",
+      "hex": "#111418",
+      "oklch": "oklch(0.190 0.009 255.6)"
     },
     {
       "role": "Primary",
-      "name": "Charcoal Rosette",
-      "hex": "#1A1A1A"
+      "name": "Glacial Blue",
+      "hex": "#38A6C4",
+      "oklch": "oklch(0.676 0.106 219.9)"
     },
     {
       "role": "Secondary",
-      "name": "Guard Hair Grey",
-      "hex": "#8E887F"
+      "name": "Glacier",
+      "hex": "#F2F4F7",
+      "oklch": "oklch(0.966 0.005 258.3)"
     },
     {
       "role": "Accent",
-      "name": "Warm Undercoat",
-      "hex": "#C2B6AA"
+      "name": "Frost Purple",
+      "hex": "#6C78A6",
+      "oklch": "oklch(0.581 0.072 272.7)"
     },
     {
-      "role": "Signal",
-      "name": "Eye Nose Glint",
-      "hex": "#5e5448"
+      "role": "Muted",
+      "name": "Stone",
+      "hex": "#AEB6BF",
+      "oklch": "oklch(0.773 0.016 251.2)"
     },
     {
-      "role": "Surface",
-      "name": "Silver Undercoat",
-      "hex": "#E7E5E2"
+      "role": "Success",
+      "name": "Alpine Sage",
+      "hex": "#2E7D68",
+      "oklch": "oklch(0.535 0.084 172.4)"
     },
     {
-      "role": "Depth",
-      "name": "Deepest Spot",
-      "hex": "#1d1b19"
+      "role": "Warning",
+      "name": "Amber",
+      "hex": "#DFA63A",
+      "oklch": "oklch(0.760 0.137 79.5)"
     },
     {
-      "role": "Border",
-      "name": "Rosette Border",
-      "hex": "#CFCAC6"
+      "role": "Destructive",
+      "name": "Ridge Clay",
+      "hex": "#C45A43",
+      "oklch": "oklch(0.595 0.141 33.7)"
     }
   ],
+  "theme": {
+    "radius": "0.5rem",
+    "texture": "subtle charcoal rosette marks over snow and smoke surfaces",
+    "typography": "Crisp sans-serif UI with compact English labels and careful Japanese line-height for security dashboards.",
+    "layout": "Dense operational surfaces, calm navigation, 8px cards, thin borders, and focused audit-data hierarchy."
+  },
+  "tags": [
+    "mammal",
+    "high-mountains",
+    "security",
+    "neutral",
+    "dark-ready",
+    "rosette"
+  ],
   "assets": {
-    "motif": "animal.png",
-    "board": "design-system.png",
+    "motif": "motif.png",
+    "board": "design-system-light.png",
     "darkBoard": "design-system-dark.png",
-    "hero": "hero.png",
-    "texture": "texture.png",
-    "examples": [],
+    "promptsJson": "prompts.json",
     "themeCss": "theme.css",
-    "themeJson": "theme.json",
-    "promptsJson": "prompts.json"
+    "themeJson": "theme.json"
   }
 }

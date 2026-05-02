@@ -1,0 +1,206 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-spirulina",
+    "name": "Morphous Spirulina",
+    "motifName": "Spirulina",
+    "motifCategory": "plant",
+    "biome": "alkaline pond",
+    "motif": "spirulina spiral"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Alkaline White",
+      "hex": "#F7FBFB",
+      "oklch": "oklch(0.985 0.004 197.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Pond Ink",
+      "hex": "#062F2E",
+      "oklch": "oklch(0.278 0.043 192.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Spirulina 700",
+      "hex": "#0B5F5A",
+      "oklch": "oklch(0.439 0.073 188.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Spirulina 600",
+      "hex": "#0E7C76",
+      "oklch": "oklch(0.530 0.089 188.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Aqua Glass",
+      "hex": "#8FDDE6",
+      "oklch": "oklch(0.850 0.078 205.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Success Filament",
+      "hex": "#137A6C",
+      "oklch": "oklch(0.522 0.090 180.7)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Spirulina 500",
+      "hex": "#14968E",
+      "oklch": "oklch(0.608 0.102 188.0)"
+    },
+    {
+      "role": "Info",
+      "name": "Cyan 400",
+      "hex": "#49B9C8",
+      "oklch": "oklch(0.728 0.102 207.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Water Surface",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Micro Bubble",
+      "hex": "#B7CFCF",
+      "oklch": "oklch(0.837 0.026 196.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Aqua Border",
+      "hex": "#D2E7E6",
+      "oklch": "oklch(0.912 0.022 193.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Pond 800",
+      "hex": "#0B3F3D",
+      "oklch": "oklch(0.335 0.052 191.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Algae Olive",
+      "hex": "#6B7F2A",
+      "oklch": "oklch(0.563 0.113 121.5)"
+    },
+    {
+      "role": "Danger",
+      "name": "Deep Algae",
+      "hex": "#55621D",
+      "oklch": "oklch(0.470 0.094 119.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.004 197.1)",
+    "foreground": "oklch(0.278 0.043 192.5)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.278 0.043 192.5)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.278 0.043 192.5)",
+    "primary": "oklch(0.439 0.073 188.4)",
+    "primary-foreground": "oklch(0.985 0.004 197.1)",
+    "secondary": "oklch(0.993 0.001 197.1)",
+    "secondary-foreground": "oklch(0.335 0.052 191.1)",
+    "muted": "oklch(0.996 0.001 197.1)",
+    "muted-foreground": "oklch(0.335 0.052 191.1)",
+    "accent": "oklch(0.850 0.078 205.1)",
+    "accent-foreground": "oklch(0.278 0.043 192.5)",
+    "destructive": "oklch(0.470 0.094 119.3)",
+    "border": "oklch(0.942 0.010 197.0)",
+    "input": "oklch(0.942 0.010 197.0)",
+    "ring": "oklch(0.530 0.089 188.8)",
+    "chart-1": "oklch(0.439 0.073 188.4)",
+    "chart-2": "oklch(0.530 0.089 188.8)",
+    "chart-3": "oklch(0.850 0.078 205.1)",
+    "chart-4": "oklch(0.608 0.102 188.0)",
+    "chart-5": "oklch(0.335 0.052 191.1)",
+    "sidebar": "oklch(0.996 0.002 197.1)",
+    "sidebar-foreground": "oklch(0.278 0.043 192.5)",
+    "sidebar-primary": "oklch(0.439 0.073 188.4)",
+    "sidebar-primary-foreground": "oklch(0.985 0.004 197.1)",
+    "sidebar-accent": "oklch(0.935 0.011 189.8)",
+    "sidebar-accent-foreground": "oklch(0.439 0.073 188.4)",
+    "sidebar-border": "oklch(0.942 0.010 197.0)",
+    "sidebar-ring": "oklch(0.530 0.089 188.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.221 0.022 195.7)",
+    "foreground": "oklch(0.975 0.018 192.6)",
+    "card": "oklch(0.340 0.045 199.7)",
+    "card-foreground": "oklch(0.975 0.018 192.6)",
+    "popover": "oklch(0.340 0.045 199.7)",
+    "popover-foreground": "oklch(0.975 0.018 192.6)",
+    "primary": "oklch(0.608 0.102 188.0)",
+    "primary-foreground": "oklch(0.221 0.022 195.7)",
+    "secondary": "oklch(0.395 0.052 198.9)",
+    "secondary-foreground": "oklch(0.975 0.018 192.6)",
+    "muted": "oklch(0.340 0.045 199.7)",
+    "muted-foreground": "oklch(0.918 0.014 196.9)",
+    "accent": "oklch(0.850 0.078 205.1)",
+    "accent-foreground": "oklch(0.221 0.022 195.7)",
+    "destructive": "oklch(0.563 0.113 121.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.728 0.102 207.5)",
+    "chart-1": "oklch(0.608 0.102 188.0)",
+    "chart-2": "oklch(0.728 0.102 207.5)",
+    "chart-3": "oklch(0.850 0.078 205.1)",
+    "chart-4": "oklch(0.522 0.090 180.7)",
+    "chart-5": "oklch(0.563 0.113 121.5)",
+    "sidebar": "oklch(0.278 0.043 192.5)",
+    "sidebar-foreground": "oklch(0.975 0.018 192.6)",
+    "sidebar-primary": "oklch(0.608 0.102 188.0)",
+    "sidebar-primary-foreground": "oklch(0.221 0.022 195.7)",
+    "sidebar-accent": "oklch(0.395 0.052 198.9)",
+    "sidebar-accent-foreground": "oklch(0.975 0.018 192.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.728 0.102 207.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean English nutrition SaaS UI with stable tabular numbers, short ingredient and batch labels, and Noto Sans JP guidance for Japanese quality, nutrition, ingredient, and subscription screens.",
+  "layout": "Precise 8px nutrition grids, deep pond navigation rails, batch quality tables, metric dashboards, command/search palettes, alkaline-water surfaces, spiral filament texture samples, and restrained 8px cards.",
+  "tags": [
+    "spirulina",
+    "plant",
+    "alkaline-pond",
+    "clean-nutrition",
+    "blue-green",
+    "teal-water",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-spirulina/motif.png",
+    "board": "/systems/morphous-spirulina/design-system-light.png",
+    "darkBoard": "/systems/morphous-spirulina/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-spirulina/theme.css",
+    "themeJson": "/systems/morphous-spirulina/theme.json",
+    "promptsJson": "/systems/morphous-spirulina/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent spirulina spiral motif",
+      "asset": "/systems/morphous-spirulina/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Spirulina transparent motif chroma-key source\nPrimary request: Create only a spirulina spiral motif for a design-system catalog, isolated as a single complete microalgae subject on a removable chroma-key background.\nSubject: A macro scientific visualization of spirulina, with elegant blue-green cyanobacteria filaments arranged in visible helical spirals, fine cellular texture, wet translucent edges, subtle teal and deep green banding, and a clean nutrition-system identity. It should read as spirulina spiral from an alkaline pond, not seaweed leaves, generic algae clumps, moss, coral, or pasta.\nComposition/framing: centered complete cutout with generous padding; include several intertwined spirulina spiral filaments forming a compact circular emblem-like silhouette without cropping. Clean studio macro lighting that preserves blue-green teal biological texture. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape, no pond scene, no dish, no laboratory glassware, no pills, no powder scoop, no bowl, no props, no text, no watermark, no second plant species, no fish, no leaf forms."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-spirulina/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Spirulina light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Spirulina\", derived from the visible spirulina spiral motif cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible clean nutrition UI system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, clinical nutrition and alkaline pond mood. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Spirulina, Spirulina Spiral, Palette, Type, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract colors and interaction language from the provided spirulina spiral motif: blue-green teal translucent filaments, cyan highlights, deep pond green cellular cores, pale aqua glass edges, alkaline pond water whites, and compact helical spiral rhythm. The board must read as spirulina spiral, not generic seaweed, kelp, mint leaves, moss, coral, or abstract blue UI.\nTypography: English clean nutrition SaaS examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual nutrition, quality, batch, ingredient, and subscription labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, nutrition metric cards, supplement batch cards, lab-quality dashboard, tables, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, 8px radius samples, border, shadows, texture samples, simple icons, theme token swatches.\nStyle: clean nutrition system, precise 8px grid and 8px card radius, white and alkaline-water surfaces, blue-green teal primary actions, deep spirulina-green navigation and success states, pale aqua focus rings, cyan glass highlights, subtle spiral filament texture and pond-water grain, dense but scannable dashboards, polished shadcn/tweakcn component language.\nColor constraints: use only motif-derived blue, green, teal, aqua, water-white, deep pond-green, and translucent highlight neutrals. No unrelated orange, red, pink, purple, brown, beige, or saturated yellow except a restrained destructive token made by darkening the motif's warm algae shadow toward muted olive.\nConstraints: no generic purple or blue gradients, no neon cyber UI, no one-note blue palette, no seaweed leaves, no pill-bottle product photo, no laboratory photo collage, no random brand names, no watermark, no misspelling of \"Morphous Spirulina\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-spirulina/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Spirulina dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Spirulina\" / \"Spirulina Spiral\". Translate the same visible light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional shadcn/tweakcn design-system presentation, clean nutrition and alkaline pond system mood. Keep labels large and legible.\nRequired visible sections: Morphous Spirulina, Spirulina Spiral, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve blue-green teal primary actions, cyan glass highlights, pale aqua focus rings, deep spirulina-green navigation and success states, water-white foreground text, translucent filament texture, alkaline pond-water grain, compact nutrition metric cards, supplement batch tables, lab-quality dashboard, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as spirulina spiral, not generic seaweed, kelp, mint leaves, moss, coral, or abstract blue UI.\nTypography: English clean nutrition SaaS examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual nutrition, quality, batch, ingredient, and subscription labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, nutrition metrics, supplement batch cards, quality dashboard, tables, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, 8px radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep pond-green background derived from the motif's darkest cells, dark teal panels, luminous but restrained cyan highlights, aqua-glass borders, pale water-white text, blue-green active states, muted olive algae warning/destructive states derived from motif shadows, subtle spiral filament overlays, thin waterline separators, restrained contrast, crisp controls and dashboards.\nColor constraints: use only motif-derived deep green, teal, cyan, aqua, water-white, and dark algae-shadow neutrals. No unrelated orange, red, pink, purple, brown, beige, or saturated yellow except muted olive warning/destructive tokens derived from spirulina shadow.\nConstraints: no neon cyber UI, no pure-black flat background, no generic black-and-teal gaming UI, no unrelated saturated colors, no purple or blue gradient dominance, no seaweed leaf identity, no pill-bottle product photo, no random brand names, no watermark, no misspelling of \"Morphous Spirulina\", no tiny unreadable paragraphs."
+    }
+  ]
+}

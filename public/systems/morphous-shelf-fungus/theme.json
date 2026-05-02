@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-shelf-fungus",
+    "name": "Morphous Shelf Fungus",
+    "motifName": "Shelf Fungus",
+    "motifCategory": "fungi",
+    "biome": "old forest",
+    "motif": "bracket fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Cream",
+      "hex": "#F6ECDA",
+      "oklch": "oklch(0.946 0.026 82.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Old Forest Umber",
+      "hex": "#1D0F08",
+      "oklch": "oklch(0.186 0.028 47.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Umber Shelf",
+      "hex": "#724F36",
+      "oklch": "oklch(0.460 0.060 56.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ring Tan",
+      "hex": "#C39D75",
+      "oklch": "oklch(0.721 0.071 67.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Spine",
+      "hex": "#687010",
+      "oklch": "oklch(0.521 0.112 114.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pore Ivory",
+      "hex": "#F3E4CB",
+      "oklch": "oklch(0.924 0.037 80.6)"
+    },
+    {
+      "role": "Soft",
+      "name": "Cream Ring",
+      "hex": "#EAD2B1",
+      "oklch": "oklch(0.875 0.051 75.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Fresh Umber",
+      "hex": "#AE825C",
+      "oklch": "oklch(0.641 0.076 61.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pore Beige",
+      "hex": "#D3B796",
+      "oklch": "oklch(0.795 0.055 71.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Old Ring",
+      "hex": "#927251",
+      "oklch": "oklch(0.575 0.062 66.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Shadow",
+      "hex": "#311E14",
+      "oklch": "oklch(0.257 0.035 48.4)"
+    },
+    {
+      "role": "Status",
+      "name": "Lichen Moss",
+      "hex": "#98A028",
+      "oklch": "oklch(0.678 0.138 113.4)"
+    },
+    {
+      "role": "Pale Status",
+      "name": "Pale Moss",
+      "hex": "#D8E0A0",
+      "oklch": "oklch(0.885 0.084 113.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.946 0.026 82.4)",
+    "foreground": "oklch(0.186 0.028 47.5)",
+    "card": "oklch(0.924 0.037 80.6)",
+    "card-foreground": "oklch(0.186 0.028 47.5)",
+    "popover": "oklch(0.924 0.037 80.6)",
+    "popover-foreground": "oklch(0.186 0.028 47.5)",
+    "primary": "oklch(0.460 0.060 56.1)",
+    "primary-foreground": "oklch(0.946 0.026 82.4)",
+    "secondary": "oklch(0.875 0.051 75.8)",
+    "secondary-foreground": "oklch(0.305 0.037 53.9)",
+    "muted": "oklch(0.832 0.070 71.6)",
+    "muted-foreground": "oklch(0.415 0.049 63.4)",
+    "accent": "oklch(0.521 0.112 114.7)",
+    "accent-foreground": "oklch(0.946 0.026 82.4)",
+    "destructive": "oklch(0.511 0.062 60.4)",
+    "border": "oklch(0.795 0.055 71.5)",
+    "input": "oklch(0.795 0.055 71.5)",
+    "ring": "oklch(0.521 0.112 114.7)",
+    "chart-1": "oklch(0.460 0.060 56.1)",
+    "chart-2": "oklch(0.641 0.076 61.7)",
+    "chart-3": "oklch(0.521 0.112 114.7)",
+    "chart-4": "oklch(0.721 0.071 67.8)",
+    "chart-5": "oklch(0.186 0.028 47.5)",
+    "sidebar": "oklch(0.875 0.051 75.8)",
+    "sidebar-foreground": "oklch(0.186 0.028 47.5)",
+    "sidebar-primary": "oklch(0.460 0.060 56.1)",
+    "sidebar-primary-foreground": "oklch(0.946 0.026 82.4)",
+    "sidebar-accent": "oklch(0.885 0.084 113.9)",
+    "sidebar-accent-foreground": "oklch(0.186 0.028 47.5)",
+    "sidebar-border": "oklch(0.795 0.055 71.5)",
+    "sidebar-ring": "oklch(0.521 0.112 114.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.186 0.028 47.5)",
+    "foreground": "oklch(0.924 0.037 80.6)",
+    "card": "oklch(0.257 0.035 48.4)",
+    "card-foreground": "oklch(0.924 0.037 80.6)",
+    "popover": "oklch(0.257 0.035 48.4)",
+    "popover-foreground": "oklch(0.924 0.037 80.6)",
+    "primary": "oklch(0.721 0.071 67.8)",
+    "primary-foreground": "oklch(0.186 0.028 47.5)",
+    "secondary": "oklch(0.305 0.037 53.9)",
+    "secondary-foreground": "oklch(0.924 0.037 80.6)",
+    "muted": "oklch(0.305 0.037 53.9)",
+    "muted-foreground": "oklch(0.795 0.055 71.5)",
+    "accent": "oklch(0.678 0.138 113.4)",
+    "accent-foreground": "oklch(0.186 0.028 47.5)",
+    "destructive": "oklch(0.641 0.076 61.7)",
+    "border": "oklch(0.575 0.062 66.9 / 35%)",
+    "input": "oklch(0.575 0.062 66.9 / 45%)",
+    "ring": "oklch(0.721 0.071 67.8)",
+    "chart-1": "oklch(0.721 0.071 67.8)",
+    "chart-2": "oklch(0.832 0.070 71.6)",
+    "chart-3": "oklch(0.678 0.138 113.4)",
+    "chart-4": "oklch(0.641 0.076 61.7)",
+    "chart-5": "oklch(0.885 0.084 113.9)",
+    "sidebar": "oklch(0.257 0.035 48.4)",
+    "sidebar-foreground": "oklch(0.924 0.037 80.6)",
+    "sidebar-primary": "oklch(0.721 0.071 67.8)",
+    "sidebar-primary-foreground": "oklch(0.186 0.028 47.5)",
+    "sidebar-accent": "oklch(0.305 0.037 53.9)",
+    "sidebar-accent-foreground": "oklch(0.924 0.037 80.6)",
+    "sidebar-border": "oklch(0.575 0.062 66.9 / 35%)",
+    "sidebar-ring": "oklch(0.721 0.071 67.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for stacked operational UI, Geist Mono for forest-floor data and token tables, and Noto Sans JP guidance for Japanese navigation, forms, status labels, and compact dashboards.",
+  "layout": "Layered sidebars, shelf-like navigation tiers, growth-ring separators, compact dashboard/data panels, bracket-pore texture, precise forms and tables, 8px radii, and warm old-forest depth.",
+  "tags": [
+    "shelf-fungus",
+    "bracket-fungus",
+    "fungi",
+    "old-forest",
+    "umber-brown",
+    "cream-rings",
+    "moss-green",
+    "stacked-navigation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-shelf-fungus/motif.png",
+    "board": "/systems/morphous-shelf-fungus/design-system-light.png",
+    "darkBoard": "/systems/morphous-shelf-fungus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-shelf-fungus/theme.css",
+    "themeJson": "/systems/morphous-shelf-fungus/theme.json",
+    "promptsJson": "/systems/morphous-shelf-fungus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent shelf fungus motif",
+      "asset": "/systems/morphous-shelf-fungus/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Shelf Fungus transparent motif chroma-key source\nPrimary request: Create only a shelf fungus motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A stacked bracket shelf fungus growing as layered semicircular shelves, old forest character, umber brown upper bands, cream growth rings and pale pore edges, subtle moss green accents clinging near the base, natural fungal matte texture, woody pores, accurate bracket fungus form, crisp edges, unmistakably shelf fungus.\nComposition/framing: centered complete cutout with generous padding; show the full layered fan shape and all cream ring bands without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no cap-and-stem mushroom, no fly agaric spots, no second separate species, no forest landscape, no bark slab extending out of frame, no insects, no hand, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-shelf-fungus/design-system-light.png",
+      "sourceAsset": "/systems/morphous-shelf-fungus/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Shelf Fungus light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Shelf Fungus\", derived from the visible shelf fungus motif cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible stacked navigation product UI theme.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable section labels and avoid dense tiny text.\nRequired visible sections: Morphous Shelf Fungus, Shelf Fungus, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible motif only: umber brown bracket shelves, cream growth rings, pale pore edges, old forest shadow, soft moss green accents, and woody fungal texture. The board must read as shelf fungus or bracket fungus from an old forest, not cap-and-stem mushroom.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, stacked sidebar navigation, layered breadcrumb navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple old-forest system icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px radius on cards and controls, warm cream surfaces, umber primary actions, moss-green active navigation and success states, pale pore-edge dividers, ring-band separators, stacked navigation system inspired by layered bracket fungus shelves, quiet operational dashboard layout.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. No unrelated saturated colors, no generic purple or blue gradients, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Shelf Fungus\" or \"Shelf Fungus\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-shelf-fungus/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-shelf-fungus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Shelf Fungus dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Shelf Fungus\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible shelf fungus motif cutout.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable section labels and avoid dense tiny text.\nRequired visible sections: Morphous Shelf Fungus, Shelf Fungus, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Use the visible shelf fungus motif and the visible light-mode Morphous Shelf Fungus board as references. Preserve motif-derived palette roles, component language, 8px radius, stacked navigation, growth-ring dividers, Japanese typography, dashboard/data charts, forms, tables, command/search, status states, tokens, spacing, and shadows.\nVisual details: dark background derived from old forest shadow and deep umber shelf underside; foreground from cream growth rings and pale pore edges; primary actions from warm umber brown; secondary accents from cream ring bands; navigation and success from moss green; borders from muted bark brown; subtle bracket fungus pore texture and stacked shelf layers. Keep the quiet old-forest operational identity in dark mode.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, stacked sidebar navigation, layered breadcrumb navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple old-forest system icons.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. No neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Shelf Fungus\" or \"Shelf Fungus\", no tiny unreadable paragraphs."
+    }
+  ]
+}

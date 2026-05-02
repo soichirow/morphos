@@ -1,0 +1,178 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sea-slug",
+    "name": "Sea Slug",
+    "motifName": "Nudibranch Form",
+    "motifCategory": "mollusk",
+    "biome": "coral reef",
+    "motif": "nudibranch form"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#f7f9ff",
+      "oklch": "oklch(0.982 0.008 271.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Ink",
+      "hex": "#0b1020",
+      "oklch": "oklch(0.177 0.034 269.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Electric Blue",
+      "hex": "#1668FF",
+      "oklch": "oklch(0.569 0.237 261.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Vibrant Orange",
+      "hex": "#ff6a00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Violet Accent",
+      "hex": "#7B4CFF",
+      "oklch": "oklch(0.576 0.248 288.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Foam White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sea Foam",
+      "hex": "#e6f2f8",
+      "oklch": "oklch(0.954 0.015 229.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pearl Gray",
+      "hex": "#aab4c2",
+      "oklch": "oklch(0.766 0.023 256.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Ocean",
+      "hex": "#06243c",
+      "oklch": "oklch(0.253 0.057 246.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.008 271.3)",
+    "foreground": "oklch(0.177 0.034 269.6)",
+    "card": "oklch(0.954 0.015 229.0)",
+    "card-foreground": "oklch(0.177 0.034 269.6)",
+    "popover": "oklch(0.954 0.015 229.0)",
+    "popover-foreground": "oklch(0.177 0.034 269.6)",
+    "primary": "oklch(0.569 0.237 261.6)",
+    "primary-foreground": "oklch(0.982 0.008 271.3)",
+    "secondary": "oklch(0.966 0.012 239.9)",
+    "secondary-foreground": "oklch(0.253 0.057 246.8)",
+    "muted": "oklch(0.962 0.013 236.6)",
+    "muted-foreground": "oklch(0.253 0.057 246.8)",
+    "accent": "oklch(0.576 0.248 288.0)",
+    "accent-foreground": "oklch(0.177 0.034 269.6)",
+    "destructive": "oklch(0.569 0.237 261.6)",
+    "border": "oklch(0.888 0.018 240.0)",
+    "input": "oklch(0.888 0.018 240.0)",
+    "ring": "oklch(0.701 0.201 44.8)",
+    "chart-1": "oklch(0.569 0.237 261.6)",
+    "chart-2": "oklch(0.701 0.201 44.8)",
+    "chart-3": "oklch(0.576 0.248 288.0)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.253 0.057 246.8)",
+    "sidebar": "oklch(0.963 0.012 239.9)",
+    "sidebar-foreground": "oklch(0.177 0.034 269.6)",
+    "sidebar-primary": "oklch(0.569 0.237 261.6)",
+    "sidebar-primary-foreground": "oklch(0.982 0.008 271.3)",
+    "sidebar-accent": "oklch(0.902 0.039 253.0)",
+    "sidebar-accent-foreground": "oklch(0.569 0.237 261.6)",
+    "sidebar-border": "oklch(0.888 0.018 240.0)",
+    "sidebar-ring": "oklch(0.701 0.201 44.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.177 0.034 269.6)",
+    "foreground": "oklch(0.982 0.008 271.3)",
+    "card": "oklch(0.226 0.049 250.8)",
+    "card-foreground": "oklch(0.982 0.008 271.3)",
+    "popover": "oklch(0.226 0.049 250.8)",
+    "popover-foreground": "oklch(0.982 0.008 271.3)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.177 0.034 269.6)",
+    "secondary": "oklch(0.375 0.048 243.9)",
+    "secondary-foreground": "oklch(0.982 0.008 271.3)",
+    "muted": "oklch(0.375 0.048 243.9)",
+    "muted-foreground": "oklch(0.887 0.015 260.7)",
+    "accent": "oklch(0.576 0.248 288.0)",
+    "accent-foreground": "oklch(0.177 0.034 269.6)",
+    "destructive": "oklch(0.569 0.237 261.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.701 0.201 44.8)",
+    "chart-1": "oklch(0.701 0.201 44.8)",
+    "chart-2": "oklch(0.569 0.237 261.6)",
+    "chart-3": "oklch(0.576 0.248 288.0)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.766 0.023 256.7)",
+    "sidebar": "oklch(0.212 0.045 255.0)",
+    "sidebar-foreground": "oklch(0.982 0.008 271.3)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.177 0.034 269.6)",
+    "sidebar-accent": "oklch(0.375 0.048 243.9)",
+    "sidebar-accent-foreground": "oklch(0.982 0.008 271.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.701 0.201 44.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for expressive gallery dashboards with Noto Sans guidance for Japanese labels, strong specimen-scale headings, compact data tables, and clear numeric rhythm.",
+  "layout": "Modular 8px reef-gallery grids, frilled-edge section rhythm, speckled texture accents, rounded 8px controls, crisp dashboards, readable tables, and high-contrast light/dark surfaces.",
+  "tags": [
+    "sea-slug",
+    "nudibranch",
+    "mollusk",
+    "coral-reef",
+    "electric-blue",
+    "orange",
+    "white",
+    "expressive-gallery",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-slug/motif.png",
+    "board": "/systems/morphous-sea-slug/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-slug/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-slug/theme.css",
+    "themeJson": "/systems/morphous-sea-slug/theme.json",
+    "promptsJson": "/systems/morphous-sea-slug/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent nudibranch motif",
+      "asset": "/systems/morphous-sea-slug/motif.png",
+      "prompt": "Use case: stylized-concept\nAsset type: transparent cutout source for a Morphous design-system catalog motif\nPrimary request: Create a vivid sea slug nudibranch motif on a perfectly flat solid chroma-key background for background removal.\nSubject: A single elegant nudibranch form with curled organic body, saturated orange mantle, electric-blue rhinophores and ridges, clean white speckles, and restrained violet edge accents. The silhouette should feel expressive, modular, and suitable for a gallery design-system mascot.\nComposition: isolated centered subject with generous padding, crisp edges, no cropping.\nBackground: one uniform removable chroma-key color only, no shadows, gradients, texture, floor plane, reflection, lighting variation, text, watermark, random logo, extra animals, or coral scenery."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light expressive gallery system board",
+      "asset": "/systems/morphous-sea-slug/design-system-light.png",
+      "prompt": "Create a wide 16:9 high-resolution light-mode design-system board for Sea Slug, motif nudibranch form, category mollusk, biome coral reef, mood expressive gallery system. Use electric blue, saturated orange, clean white foam neutrals, dark reef ink, sea-foam surfaces, and restrained violet edge accents. Include readable sections for Palette, Typography, Navigation, Dashboard, Charts, Table, Form, Status, Components, Spacing, Radius, Shadows, and Texture. Show a gallery-style product dashboard with sidebar navigation, top toolbar, cards, charts, sortable table, search, select, textarea, checkbox, radio, switch, tabs, badges, alerts, loading, empty, and error states. Include English and Japanese typography samples. Avoid generic blue-purple gradients, unrelated colors, random brand names, watermark, and tiny illegible labels."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark expressive gallery system board",
+      "asset": "/systems/morphous-sea-slug/design-system-dark.png",
+      "prompt": "Create the dark-mode companion board for Sea Slug, motif nudibranch form, category mollusk, biome coral reef, mood expressive gallery system. Translate the light board into dark reef ink and deep ocean surfaces with electric-blue active states, saturated orange highlights, clean white foam text and speckles, sea-foam contrast panels, and restrained violet edge accents. Include readable sections for Palette, Typography, Navigation, Dashboard, Charts, Table, Form, Status, Components, Spacing, Radius, Shadows, and Texture. Show a dark gallery dashboard with sidebar navigation, top toolbar, cards, charts, sortable table, search, select, textarea, checkbox, radio, switch, tabs, badges, alerts, loading, empty, and error states. Include English and Japanese typography samples. Avoid generic blue-purple gradients, unrelated colors, random brand names, watermark, and tiny illegible labels."
+    }
+  ]
+}

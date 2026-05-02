@@ -1,0 +1,46 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-sea-fog",
+  "name": "Morphous Sea Fog",
+  "status": "ready",
+  "motifName": "Sea Fog",
+  "motifCategory": "weather",
+  "biome": "Cold Coast",
+  "motif": "sea fog bank",
+  "description": "A quiet navigation-system theme derived from a cold-coast sea fog bank: soft grey surfaces, sea-blue wayfinding, dune-tan route accents, and misted component boundaries.",
+  "typography": "Geist for dense navigation UI with Noto Sans JP guidance for headings, body, labels, route metadata, and numerals.",
+  "layout": "Calm map-console grids, restrained 8px radii, mist-soft borders, compact route panels, and stable navigation controls for repeated operational scanning.",
+  "themeReference": [
+    "/systems/morphous-sea-fog/design-system-light.png",
+    "/systems/morphous-sea-fog/design-system-dark.png"
+  ],
+  "tags": [
+    "sea-fog",
+    "weather",
+    "cold-coast",
+    "navigation",
+    "quiet",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Fog White", "hex": "#f7f8f6" },
+    { "role": "Ink", "name": "Kelp Ink", "hex": "#182832" },
+    { "role": "Primary", "name": "Harbor Blue", "hex": "#2f5367" },
+    { "role": "Secondary", "name": "Mist Grey", "hex": "#d7dee1" },
+    { "role": "Accent", "name": "Dune Tan", "hex": "#d8c6aa" },
+    { "role": "Signal", "name": "Sea Blue", "hex": "#5d7f94" },
+    { "role": "Surface", "name": "Fog Veil", "hex": "#edf1f0" },
+    { "role": "Success", "name": "Beacon Green", "hex": "#6fa38c" },
+    { "role": "Warning", "name": "Harbor Amber", "hex": "#c8954c" },
+    { "role": "Error", "name": "Buoy Red", "hex": "#b95c58" }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sea-fog/motif.png",
+    "board": "/systems/morphous-sea-fog/design-system-light.png",
+    "darkBoard": "/systems/morphous-sea-fog/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sea-fog/theme.css",
+    "themeJson": "/systems/morphous-sea-fog/theme.json",
+    "promptsJson": "/systems/morphous-sea-fog/prompts.json"
+  }
+}

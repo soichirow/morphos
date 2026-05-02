@@ -1,0 +1,209 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 287,
+  "slug": "morphous-snow-fungus",
+  "name": "Morphous Snow Fungus",
+  "motifName": "Snow Fungus",
+  "motifCategory": "fungi",
+  "biome": "subtropical forest",
+  "motif": "snow fungus",
+  "description": "A shadcn/tweakcn-compatible delicate wellness system derived from translucent white snow fungus on amber forest wood: pearly jelly surfaces, honeyed inner glow, bark-grain actions, quiet subtropical shadow, compact data workflows, and precise 8px product UI.",
+  "typography": "Geist for calm wellness product UI, Geist Mono for nutrition and observation data, and Noto Sans JP guidance for Japanese labels, filters, tables, and status text.",
+  "layout": "Pearl-rice dashboards, translucent jelly highlight states, amber wood primary actions, bark-shadow navigation, compact forms and tables, command search, readable status states, 8px radii, and soft wellness data panels.",
+  "designMood": "delicate wellness system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "snow-fungus",
+    "tremella",
+    "fungi",
+    "subtropical-forest",
+    "white-jelly",
+    "amber-wood",
+    "delicate-wellness",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Rice Paper",
+      "hex": "#FAF9F7",
+      "oklch": "oklch(0.982 0.003 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Bark",
+      "hex": "#2E2419",
+      "oklch": "oklch(0.268 0.024 69.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber Wood",
+      "hex": "#D7A15A",
+      "oklch": "oklch(0.745 0.109 72.3)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Snow White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Warm Bark",
+      "hex": "#A56A37",
+      "oklch": "oklch(0.578 0.101 59.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Honey Glow",
+      "hex": "#F2D9A7",
+      "oklch": "oklch(0.894 0.070 84.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Jelly",
+      "hex": "#F7F6F3",
+      "oklch": "oklch(0.973 0.004 91.4)"
+    },
+    {
+      "role": "Soft",
+      "name": "Translucent Silk",
+      "hex": "#E6E2DA",
+      "oklch": "oklch(0.914 0.012 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Parchment",
+      "hex": "#D8D3C1",
+      "oklch": "oklch(0.866 0.025 94.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Taupe",
+      "hex": "#B8AE9A",
+      "oklch": "oklch(0.754 0.030 84.6)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Moss Shadow",
+      "hex": "#7B715E",
+      "oklch": "oklch(0.552 0.031 83.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Shadow",
+      "hex": "#4A3B2A",
+      "oklch": "oklch(0.364 0.035 69.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bark Ember",
+      "hex": "#9C3F22",
+      "oklch": "oklch(0.489 0.131 37.5)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Bark",
+      "hex": "#1D1712",
+      "oklch": "oklch(0.210 0.014 61.8)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.982 0.003 84.6)",
+    "foreground": "oklch(0.268 0.024 69.2)",
+    "card": "oklch(0.973 0.004 91.4)",
+    "card-foreground": "oklch(0.268 0.024 69.2)",
+    "popover": "oklch(0.973 0.004 91.4)",
+    "popover-foreground": "oklch(0.268 0.024 69.2)",
+    "primary": "oklch(0.745 0.109 72.3)",
+    "primary-foreground": "oklch(0.268 0.024 69.2)",
+    "secondary": "oklch(0.894 0.070 84.4)",
+    "secondary-foreground": "oklch(0.268 0.024 69.2)",
+    "muted": "oklch(0.914 0.012 84.6)",
+    "muted-foreground": "oklch(0.364 0.035 69.9)",
+    "accent": "oklch(0.578 0.101 59.5)",
+    "accent-foreground": "oklch(0.982 0.003 84.6)",
+    "destructive": "oklch(0.489 0.131 37.5)",
+    "border": "oklch(0.866 0.025 94.1)",
+    "input": "oklch(0.866 0.025 94.1)",
+    "ring": "oklch(0.745 0.109 72.3)",
+    "chart-1": "oklch(0.745 0.109 72.3)",
+    "chart-2": "oklch(0.578 0.101 59.5)",
+    "chart-3": "oklch(0.894 0.070 84.4)",
+    "chart-4": "oklch(0.754 0.030 84.6)",
+    "chart-5": "oklch(0.364 0.035 69.9)",
+    "sidebar": "oklch(0.973 0.004 91.4)",
+    "sidebar-foreground": "oklch(0.268 0.024 69.2)",
+    "sidebar-primary": "oklch(0.578 0.101 59.5)",
+    "sidebar-primary-foreground": "oklch(0.982 0.003 84.6)",
+    "sidebar-accent": "oklch(0.894 0.070 84.4)",
+    "sidebar-accent-foreground": "oklch(0.268 0.024 69.2)",
+    "sidebar-border": "oklch(0.866 0.025 94.1)",
+    "sidebar-ring": "oklch(0.745 0.109 72.3)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.210 0.014 61.8)",
+    "foreground": "oklch(0.973 0.004 91.4)",
+    "card": "oklch(0.268 0.024 69.2)",
+    "card-foreground": "oklch(0.973 0.004 91.4)",
+    "popover": "oklch(0.268 0.024 69.2)",
+    "popover-foreground": "oklch(0.973 0.004 91.4)",
+    "primary": "oklch(0.894 0.070 84.4)",
+    "primary-foreground": "oklch(0.210 0.014 61.8)",
+    "secondary": "oklch(0.311 0.026 64.2)",
+    "secondary-foreground": "oklch(0.973 0.004 91.4)",
+    "muted": "oklch(0.311 0.026 64.2)",
+    "muted-foreground": "oklch(0.754 0.030 84.6)",
+    "accent": "oklch(0.745 0.109 72.3)",
+    "accent-foreground": "oklch(0.210 0.014 61.8)",
+    "destructive": "oklch(0.489 0.131 37.5)",
+    "border": "oklch(0.552 0.031 83.5 / 35%)",
+    "input": "oklch(0.552 0.031 83.5 / 45%)",
+    "ring": "oklch(0.745 0.109 72.3)",
+    "chart-1": "oklch(0.894 0.070 84.4)",
+    "chart-2": "oklch(0.745 0.109 72.3)",
+    "chart-3": "oklch(0.578 0.101 59.5)",
+    "chart-4": "oklch(0.754 0.030 84.6)",
+    "chart-5": "oklch(0.552 0.031 83.5)",
+    "sidebar": "oklch(0.268 0.024 69.2)",
+    "sidebar-foreground": "oklch(0.973 0.004 91.4)",
+    "sidebar-primary": "oklch(0.894 0.070 84.4)",
+    "sidebar-primary-foreground": "oklch(0.210 0.014 61.8)",
+    "sidebar-accent": "oklch(0.311 0.026 64.2)",
+    "sidebar-accent-foreground": "oklch(0.973 0.004 91.4)",
+    "sidebar-border": "oklch(0.552 0.031 83.5 / 35%)",
+    "sidebar-ring": "oklch(0.745 0.109 72.3)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
