@@ -1,0 +1,68 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 334,
+  "slug": "morphous-horseshoe-crab",
+  "name": "Morphous Horseshoe Crab",
+  "motifName": "Horseshoe Crab",
+  "motifCategory": "marine",
+  "biome": "sandy shore",
+  "motif": "horseshoe crab shell",
+  "paletteMood": "bronze shell sand grey sea foam",
+  "designMood": "ancient data system",
+  "description": "A shadcn/tweakcn-compatible system derived from a horseshoe crab shell: bronze carapace actions, sandy shore neutrals, sea-foam focus states, fossil-groove dividers, and compact data surfaces for long-lived coastal records.",
+  "typography": "Geist for dense scientific product UI with Noto Sans JP guidance for Japanese labels, specimen names, coastal records, and precise numeric rhythm.",
+  "layout": "Ancient shell-arc panels, fossil groove separators, compact dashboard grids, 8px component radii, side-spine tick marks, and restrained bronze/sea-foam status language.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "horseshoe-crab",
+    "marine",
+    "sandy-shore",
+    "horseshoe crab shell",
+    "bronze shell sand grey sea foam",
+    "ancient data system",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Tidal Sand", "hex": "#e8e1d6" },
+    { "role": "Surface", "name": "Light Shell", "hex": "#faf8f4" },
+    { "role": "Primary", "name": "Shell Bronze", "hex": "#786146" },
+    { "role": "Accent", "name": "Live Bronze", "hex": "#c08a4e" },
+    { "role": "Secondary", "name": "Sea Foam", "hex": "#9fb7ae" },
+    { "role": "Signal", "name": "Wet Shell Highlight", "hex": "#d7e6e2" },
+    { "role": "Muted", "name": "Sand Grey", "hex": "#c8c2b6" },
+    { "role": "Line", "name": "Fossil Line", "hex": "#9a8e7e" },
+    { "role": "Depth", "name": "Worn Umber", "hex": "#5a4833" },
+    { "role": "Ink", "name": "Deep Tide", "hex": "#1e2323" },
+    { "role": "Shadow", "name": "Carapace Charcoal", "hex": "#2b282a" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

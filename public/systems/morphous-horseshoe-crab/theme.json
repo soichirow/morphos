@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-horseshoe-crab",
+    "name": "Morphous Horseshoe Crab",
+    "motifName": "Horseshoe Crab",
+    "motifCategory": "marine",
+    "biome": "sandy shore",
+    "motif": "horseshoe crab shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tidal Sand",
+      "hex": "#e8e1d6",
+      "oklch": "oklch(0.912 0.017 79.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Light Shell",
+      "hex": "#faf8f4",
+      "oklch": "oklch(0.980 0.006 84.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Bronze",
+      "hex": "#786146",
+      "oklch": "oklch(0.508 0.050 70.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Live Bronze",
+      "hex": "#c08a4e",
+      "oklch": "oklch(0.674 0.101 67.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Foam",
+      "hex": "#9fb7ae",
+      "oklch": "oklch(0.759 0.029 170.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wet Shell Highlight",
+      "hex": "#d7e6e2",
+      "oklch": "oklch(0.913 0.017 178.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sand Grey",
+      "hex": "#c8c2b6",
+      "oklch": "oklch(0.816 0.018 84.6)"
+    },
+    {
+      "role": "Line",
+      "name": "Fossil Line",
+      "hex": "#9a8e7e",
+      "oklch": "oklch(0.653 0.027 75.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Worn Umber",
+      "hex": "#5a4833",
+      "oklch": "oklch(0.415 0.041 70.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Tide",
+      "hex": "#1e2323",
+      "oklch": "oklch(0.251 0.007 196.7)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Carapace Charcoal",
+      "hex": "#2b282a",
+      "oklch": "oklch(0.281 0.006 337.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.912 0.017 79.3)",
+    "foreground": "oklch(0.251 0.007 196.7)",
+    "card": "oklch(0.980 0.006 84.6)",
+    "card-foreground": "oklch(0.251 0.007 196.7)",
+    "popover": "oklch(0.980 0.006 84.6)",
+    "popover-foreground": "oklch(0.251 0.007 196.7)",
+    "primary": "oklch(0.508 0.050 70.8)",
+    "primary-foreground": "oklch(0.912 0.017 79.3)",
+    "secondary": "oklch(0.950 0.010 81.8)",
+    "secondary-foreground": "oklch(0.415 0.041 70.6)",
+    "muted": "oklch(0.962 0.009 84.6)",
+    "muted-foreground": "oklch(0.415 0.041 70.6)",
+    "accent": "oklch(0.674 0.101 67.5)",
+    "accent-foreground": "oklch(0.251 0.007 196.7)",
+    "destructive": "oklch(0.508 0.050 70.8)",
+    "border": "oklch(0.922 0.010 87.5)",
+    "input": "oklch(0.922 0.010 87.5)",
+    "ring": "oklch(0.759 0.029 170.9)",
+    "chart-1": "oklch(0.508 0.050 70.8)",
+    "chart-2": "oklch(0.759 0.029 170.9)",
+    "chart-3": "oklch(0.674 0.101 67.5)",
+    "chart-4": "oklch(0.913 0.017 178.2)",
+    "chart-5": "oklch(0.415 0.041 70.6)",
+    "sidebar": "oklch(0.957 0.009 78.3)",
+    "sidebar-foreground": "oklch(0.251 0.007 196.7)",
+    "sidebar-primary": "oklch(0.508 0.050 70.8)",
+    "sidebar-primary-foreground": "oklch(0.912 0.017 79.3)",
+    "sidebar-accent": "oklch(0.926 0.010 81.8)",
+    "sidebar-accent-foreground": "oklch(0.508 0.050 70.8)",
+    "sidebar-border": "oklch(0.922 0.010 87.5)",
+    "sidebar-ring": "oklch(0.759 0.029 170.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.251 0.007 196.7)",
+    "foreground": "oklch(0.912 0.017 79.3)",
+    "card": "oklch(0.360 0.026 71.5)",
+    "card-foreground": "oklch(0.912 0.017 79.3)",
+    "popover": "oklch(0.360 0.026 71.5)",
+    "popover-foreground": "oklch(0.912 0.017 79.3)",
+    "primary": "oklch(0.759 0.029 170.9)",
+    "primary-foreground": "oklch(0.251 0.007 196.7)",
+    "secondary": "oklch(0.509 0.035 73.5)",
+    "secondary-foreground": "oklch(0.912 0.017 79.3)",
+    "muted": "oklch(0.509 0.035 73.5)",
+    "muted-foreground": "oklch(0.869 0.017 79.3)",
+    "accent": "oklch(0.674 0.101 67.5)",
+    "accent-foreground": "oklch(0.251 0.007 196.7)",
+    "destructive": "oklch(0.508 0.050 70.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.759 0.029 170.9)",
+    "chart-1": "oklch(0.759 0.029 170.9)",
+    "chart-2": "oklch(0.508 0.050 70.8)",
+    "chart-3": "oklch(0.674 0.101 67.5)",
+    "chart-4": "oklch(0.913 0.017 178.2)",
+    "chart-5": "oklch(0.816 0.018 84.6)",
+    "sidebar": "oklch(0.328 0.019 80.5)",
+    "sidebar-foreground": "oklch(0.912 0.017 79.3)",
+    "sidebar-primary": "oklch(0.759 0.029 170.9)",
+    "sidebar-primary-foreground": "oklch(0.251 0.007 196.7)",
+    "sidebar-accent": "oklch(0.509 0.035 73.5)",
+    "sidebar-accent-foreground": "oklch(0.912 0.017 79.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.759 0.029 170.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense scientific product UI with Noto Sans JP guidance for Japanese labels, specimen names, coastal records, and precise numeric rhythm.",
+  "layout": "Ancient shell-arc panels, fossil groove separators, compact dashboard grids, 8px component radii, side-spine tick marks, and restrained bronze/sea-foam status language.",
+  "tags": [
+    "horseshoe-crab",
+    "marine",
+    "sandy-shore",
+    "horseshoe crab shell",
+    "bronze shell sand grey sea foam",
+    "ancient data system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-horseshoe-crab/motif.png",
+    "board": "/systems/morphous-horseshoe-crab/design-system-light.png",
+    "darkBoard": "/systems/morphous-horseshoe-crab/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-horseshoe-crab/theme.css",
+    "themeJson": "/systems/morphous-horseshoe-crab/theme.json",
+    "promptsJson": "/systems/morphous-horseshoe-crab/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent horseshoe crab motif source",
+      "asset": "/systems/morphous-horseshoe-crab/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only one complete horseshoe crab shell motif for a Morphous design-system catalog, isolated full subject, no environment, no props, no text.\nSubject: A horseshoe crab viewed from a slightly elevated dorsal angle, complete bronze-brown domed carapace, subtle sand-gray worn edges, segmented tail spine visible but not exaggerated, small legs tucked beneath only if visible, accurate ancient marine anatomy, tactile shell scratches, matte wet-shell highlights, sea-foam pale edge reflections. It should feel like a real Limulus shell and a refined design-system source, not a cartoon.\nComposition/framing: centered complete cutout with generous padding; do not crop the shell edge, tail spine, side spines, or silhouette. Single subject only.\nLighting/mood: clean studio light that preserves bronze shell, sand gray abrasion, sea foam highlights, shallow grooves, and ancient fossil-like shell texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no beach scene, no sand, no water, no second animal, no green screen, no cast shadow, no contact shadow, no reflection outside the shell."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-horseshoe-crab/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: horizontal Morphous light-mode design-system board\nPrimary request: Create a STRICT HORIZONTAL 16:9 WIDESCREEN design-system board for a Morphous theme named \"Morphous Horseshoe Crab\". The canvas must be landscape, not portrait, with a wide dashboard-style layout spanning left to right.\nReference use: Use the visible isolated horseshoe crab motif as the source reference. Derive every color and texture from its bronze-brown domed shell, sand-gray worn rim, fossil-like grooves, shallow scratches, beach-worn carapace panels, and pale sea-foam edge reflections.\nCanvas: exact landscape 16:9 widescreen, 3840 x 2160 px. Never rotate the board. Do not create a tall poster. Fill the wide frame with a top header and multiple horizontal columns.\nRequired visible sections with readable labels: Morphous Horseshoe Crab, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nLayout: left navigation rail, top token header, central component matrix, right dashboard/data column, bottom strip for radius spacing shadows texture tokens. Use broad horizontal bands and large labels so the board reads when downscaled.\nTypography: English UI samples and Japanese samples: カブトガニ, 沿岸データ, 古代シェル. Include Geist and Noto Sans JP style guidance. Use compact product UI typography, readable numerals, and quiet technical labels.\nUI coverage: shadcn/tweakcn buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, tables, command search, sidebar navigation, top navigation, dashboard metric cards, charts, forms, empty/loading/error/success states, token swatches.\nStyle: premium shadcn/tweakcn product design-system source board, ancient coastal data system, 8px radii only, bronze shell primary actions, sand-gray surfaces, sea-foam focus rings, charcoal ink, fossil groove separators, tactile shell texture overlays, precise data-grid rhythm.\nPalette labels: Tidal Sand, Shell Bronze, Worn Umber, Carapace Charcoal, Sand Grey, Sea Foam, Wet Shell Highlight, Fossil Line, Deep Tide.\nVisual details: subtle horseshoe-crab shell arc geometry in panels, thin groove dividers, small side-spine tick marks as chart markers, restrained bronze/sand/sea-foam palette plus near-neutrals only.\nText: short readable UI labels only; avoid long paragraphs and tiny token tables.\nConstraints: no portrait composition, no unrelated saturated colors, no generic purple or blue gradients, no one-note beige theme, no watermark, no random brand names, no misspelling of \"Morphous Horseshoe Crab\", no illegible microtext, no radii larger than 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-horseshoe-crab/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: horizontal Morphous dark-mode design-system board\nPrimary request: Create a STRICT HORIZONTAL 16:9 WIDESCREEN dark-mode companion design-system board for \"Morphous Horseshoe Crab\". It must feel like the same system as the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible isolated horseshoe crab motif and the visible light-mode board as references. Preserve the same sections, component coverage, palette roles, 8px max radius, ancient coastal data-system tone, bronze shell actions, sand-gray neutral structure, sea-foam focus rings, fossil groove texture, Japanese typography, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, spacing, radius, and shadows.\nCanvas: exact landscape 16:9 widescreen, 3840 x 2160 px. Never create a portrait or tall poster. Fill the wide frame with a top header and multiple horizontal UI columns.\nRequired visible sections with readable labels: Morphous Horseshoe Crab, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nDark palette direction: deep tide charcoal background, dark wet-shell panels, bronze primary actions, worn umber secondary controls, sand-gray dividers, sea-foam focus and success states, pale tidal-sand text, fossil-line borders, shell-highlight surfaces. Use only motif-derived colors plus near-neutrals from the motif.\nTypography: English UI samples and Japanese samples: カブトガニ, 沿岸データ, 古代シェル. Include Geist and Noto Sans JP style guidance. Use compact product UI typography, readable numerals, and quiet technical labels.\nUI coverage: shadcn/tweakcn dark buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, top navigation, metric cards, charts, forms, empty/loading/error/success states, token swatches.\nStyle: premium dark product design-system source board, ancient coastal data console, 8px radii only, thin fossil-groove dividers, tactile shell texture overlays, shell-arc panels, side-spine tick marks as chart markers, crisp data-grid rhythm, restrained contrast but not flat black.\nPalette labels: Tidal Sand, Shell Bronze, Worn Umber, Carapace Charcoal, Sand Grey, Sea Foam, Wet Shell Highlight, Fossil Line, Deep Tide.\nText: short readable UI labels only; avoid long paragraphs and tiny token tables.\nConstraints: no portrait composition, no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no one-note dark slate theme, no flat pure-black background only, no watermark, no random brand names, no misspelling of \"Morphous Horseshoe Crab\", no illegible microtext, no radii larger than 8px."
+    }
+  ]
+}

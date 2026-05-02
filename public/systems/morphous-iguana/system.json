@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-iguana",
+  "name": "Morphous Iguana",
+  "motifName": "Iguana Crest",
+  "motifCategory": "reptile",
+  "biome": "Tropical shore",
+  "motif": "iguana crest",
+  "description": "A shadcn/tweakcn-compatible adaptive settings system coded from Iguana light and dark design-system boards: green scale controls, turquoise dewlap focus states, tropical shore neutrals, crest-spine progress markers, and dense configuration dashboards.",
+  "typography": "Inter or Geist for adaptive settings UI with Noto Sans JP guidance for Japanese labels, tabular configuration values, and compact control hierarchy.",
+  "layout": "Precise 8px grids, scale-pattern separators, crest-spine progress indicators, dewlap focus rings, tropical shore panels, and dense dashboard/table/form composition.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "iguana",
+    "reptile",
+    "tropical-shore",
+    "adaptive-settings",
+    "green-scale",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Sand",
+      "hex": "#F3E9D7"
+    },
+    {
+      "role": "Ink",
+      "name": "Mangrove Ink",
+      "hex": "#1B1F19"
+    },
+    {
+      "role": "Primary",
+      "name": "Iguana Green",
+      "hex": "#1E7A3B"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Scale",
+      "hex": "#2FA44F"
+    },
+    {
+      "role": "Accent",
+      "name": "Dewlap Turquoise",
+      "hex": "#29C7C7"
+    },
+    {
+      "role": "Signal",
+      "name": "Sunlit Lime",
+      "hex": "#D7F26A"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Limestone",
+      "hex": "#E2DBC3"
+    },
+    {
+      "role": "Muted",
+      "name": "Driftwood Gray",
+      "hex": "#8D9188"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Mangrove",
+      "hex": "#0E2F2F"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

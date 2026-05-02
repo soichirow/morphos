@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ibis",
+    "name": "Scarlet Ibis",
+    "motifName": "Scarlet Ibis",
+    "motifCategory": "bird",
+    "biome": "mangrove lagoon",
+    "motif": "scarlet ibis plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell",
+      "hex": "#FAF7F2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bill Black",
+      "hex": "#0D0D0F",
+      "oklch": "oklch(0.160 0.004 285.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Scarlet",
+      "hex": "#E31D1A",
+      "oklch": "oklch(0.584 0.227 28.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral",
+      "hex": "#FF5A4D",
+      "oklch": "oklch(0.686 0.203 28.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Teal Lagoon",
+      "hex": "#0EA5A6",
+      "oklch": "oklch(0.655 0.110 195.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Teal",
+      "hex": "#006B6D",
+      "oklch": "oklch(0.479 0.081 197.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sand",
+      "hex": "#F2E7D5",
+      "oklch": "oklch(0.932 0.027 80.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mangrove Sand",
+      "hex": "#C8B99B",
+      "oklch": "oklch(0.790 0.044 84.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Root Taupe",
+      "hex": "#7A6A54",
+      "oklch": "oklch(0.533 0.039 75.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mangrove Green",
+      "hex": "#2E7D5A",
+      "oklch": "oklch(0.531 0.095 161.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Sunlit Reed",
+      "hex": "#D6A13A",
+      "oklch": "oklch(0.741 0.132 80.4)"
+    },
+    {
+      "role": "Danger",
+      "name": "Plume Ember",
+      "hex": "#B8231D",
+      "oklch": "oklch(0.508 0.185 28.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.007 80.7)",
+    "foreground": "oklch(0.160 0.004 285.9)",
+    "card": "oklch(0.932 0.027 80.2)",
+    "card-foreground": "oklch(0.160 0.004 285.9)",
+    "popover": "oklch(0.932 0.027 80.2)",
+    "popover-foreground": "oklch(0.160 0.004 285.9)",
+    "primary": "oklch(0.584 0.227 28.5)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.951 0.019 83.1)",
+    "secondary-foreground": "oklch(0.531 0.095 161.2)",
+    "muted": "oklch(0.943 0.021 79.1)",
+    "muted-foreground": "oklch(0.531 0.095 161.2)",
+    "accent": "oklch(0.655 0.110 195.6)",
+    "accent-foreground": "oklch(0.160 0.004 285.9)",
+    "destructive": "oklch(0.584 0.227 28.5)",
+    "border": "oklch(0.881 0.033 81.0)",
+    "input": "oklch(0.881 0.033 81.0)",
+    "ring": "oklch(0.686 0.203 28.1)",
+    "chart-1": "oklch(0.584 0.227 28.5)",
+    "chart-2": "oklch(0.686 0.203 28.1)",
+    "chart-3": "oklch(0.655 0.110 195.6)",
+    "chart-4": "oklch(0.479 0.081 197.0)",
+    "chart-5": "oklch(0.531 0.095 161.2)",
+    "sidebar": "oklch(0.947 0.020 77.3)",
+    "sidebar-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-primary": "oklch(0.584 0.227 28.5)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.878 0.043 47.5)",
+    "sidebar-accent-foreground": "oklch(0.584 0.227 28.5)",
+    "sidebar-border": "oklch(0.881 0.033 81.0)",
+    "sidebar-ring": "oklch(0.686 0.203 28.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.160 0.004 285.9)",
+    "foreground": "oklch(0.977 0.007 80.7)",
+    "card": "oklch(0.414 0.067 163.1)",
+    "card-foreground": "oklch(0.977 0.007 80.7)",
+    "popover": "oklch(0.414 0.067 163.1)",
+    "popover-foreground": "oklch(0.977 0.007 80.7)",
+    "primary": "oklch(0.686 0.203 28.1)",
+    "primary-foreground": "oklch(0.160 0.004 285.9)",
+    "secondary": "oklch(0.584 0.081 157.0)",
+    "secondary-foreground": "oklch(0.977 0.007 80.7)",
+    "muted": "oklch(0.584 0.081 157.0)",
+    "muted-foreground": "oklch(0.894 0.024 82.1)",
+    "accent": "oklch(0.655 0.110 195.6)",
+    "accent-foreground": "oklch(0.160 0.004 285.9)",
+    "destructive": "oklch(0.584 0.227 28.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.686 0.203 28.1)",
+    "chart-1": "oklch(0.686 0.203 28.1)",
+    "chart-2": "oklch(0.584 0.227 28.5)",
+    "chart-3": "oklch(0.655 0.110 195.6)",
+    "chart-4": "oklch(0.479 0.081 197.0)",
+    "chart-5": "oklch(0.790 0.044 84.5)",
+    "sidebar": "oklch(0.343 0.051 164.9)",
+    "sidebar-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-primary": "oklch(0.686 0.203 28.1)",
+    "sidebar-primary-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-accent": "oklch(0.584 0.081 157.0)",
+    "sidebar-accent-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.686 0.203 28.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Readable travel operations UI with strong English labels, tabular route and revenue numbers, and Noto Sans JP guidance for Japanese navigation, dashboard, form, table, and status labels.",
+  "layout": "Compact 8px travel dashboard grids with black-bill navigation, shell card surfaces, scarlet active states, teal lagoon charts, mangrove-neutral dividers, feather-striation texture accents, and restrained 8px radius.",
+  "tags": [
+    "scarlet-ibis",
+    "bird",
+    "mangrove-lagoon",
+    "scarlet-plumage",
+    "black-bill",
+    "teal-lagoon",
+    "bold-travel",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ibis/motif.png",
+    "board": "/systems/morphous-ibis/design-system-light.png",
+    "darkBoard": "/systems/morphous-ibis/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ibis/theme.css",
+    "themeJson": "/systems/morphous-ibis/theme.json",
+    "promptsJson": "/systems/morphous-ibis/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent scarlet ibis motif",
+      "asset": "/systems/morphous-ibis/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Scarlet Ibis transparent motif chroma-key source\nPrimary request: Create an isolated high-detail Scarlet Ibis motif cutout for a design-system catalog.\nSubject: A full-body scarlet ibis in an elegant three-quarter standing pose, vivid layered scarlet plumage with subtle orange-red feather structure, long curved black bill, slim dark legs, small natural eye, and clean natural proportions. Add tiny hints of teal lagoon reflected in feather shadows while keeping the bird primarily scarlet and black.\nComposition/framing: centered complete cutout with generous padding and no crop. Polished naturalist editorial illustration with crisp edges, suitable as a transparent UI asset.\nTransparent workflow: place the ibis on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no second bird, no landscape scene, no cast shadow, no contact shadow, no reflection, no floor plane."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-ibis/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Scarlet Ibis light-mode design-system board\nPrimary request: Create a complete 3840x2160 light-mode design system board for a Morphous catalog theme named \"Scarlet Ibis\". Motif: scarlet ibis plumage in a mangrove lagoon, bold travel system.\nCanvas: exact 16:9 high-resolution UI board, clean white/shell background, organized grid, readable labels. Title: \"Scarlet Ibis\". Subtitle: \"Bold travel UI for mangrove lagoon journeys\".\nPalette: vivid scarlet feather reds, nearly black bill ink, teal lagoon water, mangrove leaf green, warm sand, pale shell neutrals, and soft feather highlights.\nRequired visible sections: Palette tokens, Typography, Japanese Typography, Navigation, Travel dashboard, Booking form, Data table, Charts, Status badges, Buttons and controls, Cards, Alerts, Texture and spacing.\nUI coverage: sidebar navigation, top tabs, search field, form inputs, select, checkbox, switch, primary/secondary/destructive buttons, status badges, alert states, metric cards, bar chart, line chart, donut chart, and readable data table.\nCopy guidance: use generic travel operations labels only, such as Routes, Tide window, Lagoon pass, Check-in, Vessel, Guests, Permit status, Itinerary, Capacity, and Revenue.\nStyle: scarlet primary actions and active states, black-bill ink text, teal data surfaces, fine feather-striation texture accents, mangrove-neutral borders, compact professional dashboard layout, 8px radius, crisp shadows.\nConstraints: no watermark, no random brand names, no fake company logo, no tiny unreadable labels, no generic purple or blue gradient dominance, no one-note palette."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-ibis/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Scarlet Ibis dark-mode design-system board\nPrimary request: Create a complete 3840x2160 dark-mode design system board for a Morphous catalog theme named \"Scarlet Ibis\". Same system as the light board: scarlet ibis plumage, black bill, teal mangrove lagoon, bold travel UI.\nCanvas: exact 16:9 high-resolution dark UI board, deep black-bill and mangrove-night background, organized grid, readable labels. Title: \"Scarlet Ibis\". Subtitle: \"Dark mode travel operations for lagoon routes\".\nPalette: luminous scarlet feather reds, black bill ink, teal lagoon charts, mangrove olive panels, warm sand labels, and shell highlights.\nRequired visible sections: Palette tokens, Typography, Japanese Typography, Navigation, Travel dashboard, Booking form, Data table, Charts, Status badges, Buttons and controls, Cards, Alerts, Texture and spacing.\nUI coverage: left navigation rail, top tabs, search field, form inputs, select, checkbox, switch, primary/secondary/destructive buttons, status badges, alert states, metric cards, bar chart, line chart, donut chart, and readable data table.\nCopy guidance: use generic travel operations labels only, such as Routes, Tide window, Lagoon pass, Check-in, Vessel, Guests, Permit status, Itinerary, Capacity, and Revenue.\nStyle: luminous scarlet primary actions and active states, teal lagoon charts, warm sand labels, mangrove-olive muted panels, feather-striation texture accents, crisp contrast, compact professional dashboard layout, 8px radius, restrained shadows and glows.\nConstraints: no watermark, no random brand names, no fake company logo, no tiny unreadable labels, no pure-black flat background, no neon-only hacker UI, no generic purple or blue gradient dominance, no unrelated saturated colors."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-humpback",
+  "name": "Morphous Humpback",
+  "motifName": "Humpback Whale",
+  "motifCategory": "mammal",
+  "biome": "Open Ocean",
+  "motif": "humpback fluke",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Humpback light and dark design-system boards: slate-blue structure, whale-white foregrounds, spray-grey borders, deep pelagic contrast, and expansive storytelling layouts.",
+  "typography": "Geist or Inter for long-form English product UI with Noto Sans JP guidance for Japanese labels, calm editorial hierarchy, and precise observation data.",
+  "layout": "Expansive 8px grids, fluke-arc section shapes, migration-track dividers, spray textures, wide navigation, research dashboards, and generous story panels.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "humpback",
+    "whale",
+    "mammal",
+    "open-ocean",
+    "fluke",
+    "storytelling",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ice Wake",
+      "hex": "#f4f8f8"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pelagic",
+      "hex": "#102938"
+    },
+    {
+      "role": "Primary",
+      "name": "Fluke Slate",
+      "hex": "#243f52"
+    },
+    {
+      "role": "Secondary",
+      "name": "Kelp Shadow",
+      "hex": "#476861"
+    },
+    {
+      "role": "Accent",
+      "name": "Sounding Blue",
+      "hex": "#3f7890"
+    },
+    {
+      "role": "Signal",
+      "name": "Whale White",
+      "hex": "#f7f3ec"
+    },
+    {
+      "role": "Surface",
+      "name": "Spray Grey",
+      "hex": "#b7c4c7"
+    },
+    {
+      "role": "Warning",
+      "name": "Krill Rose",
+      "hex": "#c27774"
+    },
+    {
+      "role": "Warmth",
+      "name": "Sunlit Foam",
+      "hex": "#e7d8b5"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

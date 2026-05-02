@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-hummingbird-hawk-moth",
+    "name": "Morphous Hummingbird Hawk Moth",
+    "motifName": "Hummingbird Hawk Moth",
+    "motifCategory": "insect",
+    "biome": "flower meadow",
+    "motif": "hawk moth hover"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Cream",
+      "hex": "#F7F4EE",
+      "oklch": "oklch(0.975 0.008 78)"
+    },
+    {
+      "role": "Surface",
+      "name": "Moth Fuzz",
+      "hex": "#ECE6DD",
+      "oklch": "oklch(0.948 0.010 72)"
+    },
+    {
+      "role": "Primary",
+      "name": "Orange Tail",
+      "hex": "#F26A1A",
+      "oklch": "oklch(0.682 0.186 44.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lavender Sheen",
+      "hex": "#BAAAD6",
+      "oklch": "oklch(0.766 0.064 301.5)"
+    },
+    {
+      "role": "Support",
+      "name": "Sage Meadow",
+      "hex": "#A9B18D",
+      "oklch": "oklch(0.736 0.052 112)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Gold",
+      "hex": "#E2C56C",
+      "oklch": "oklch(0.760 0.105 83)"
+    },
+    {
+      "role": "Wing",
+      "name": "Taupe Wing",
+      "hex": "#A99A8C",
+      "oklch": "oklch(0.685 0.024 67)"
+    },
+    {
+      "role": "Vein",
+      "name": "Warm Vein",
+      "hex": "#8A6E57",
+      "oklch": "oklch(0.542 0.042 62)"
+    },
+    {
+      "role": "Muted",
+      "name": "Meadow Mist",
+      "hex": "#CDC7C0",
+      "oklch": "oklch(0.815 0.014 68)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Wing",
+      "hex": "#4A4542",
+      "oklch": "oklch(0.345 0.012 62)"
+    },
+    {
+      "role": "Ink",
+      "name": "Hover Ink",
+      "hex": "#2A2623",
+      "oklch": "oklch(0.255 0.012 62)"
+    },
+    {
+      "role": "Night",
+      "name": "Meadow Night",
+      "hex": "#1D1A18",
+      "oklch": "oklch(0.205 0.010 62)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.008 78)",
+    "foreground": "oklch(0.255 0.012 62)",
+    "card": "oklch(0.948 0.010 72)",
+    "card-foreground": "oklch(0.255 0.012 62)",
+    "popover": "oklch(0.987 0.004 70)",
+    "popover-foreground": "oklch(0.255 0.012 62)",
+    "primary": "oklch(0.665 0.190 42)",
+    "primary-foreground": "oklch(0.987 0.004 70)",
+    "secondary": "oklch(0.810 0.055 303)",
+    "secondary-foreground": "oklch(0.302 0.018 61)",
+    "muted": "oklch(0.910 0.011 70)",
+    "muted-foreground": "oklch(0.502 0.020 66)",
+    "accent": "oklch(0.736 0.052 112)",
+    "accent-foreground": "oklch(0.255 0.012 62)",
+    "destructive": "oklch(0.590 0.180 28)",
+    "border": "oklch(0.815 0.014 68)",
+    "input": "oklch(0.815 0.014 68)",
+    "ring": "oklch(0.665 0.190 42)",
+    "chart-1": "oklch(0.665 0.190 42)",
+    "chart-2": "oklch(0.624 0.045 64)",
+    "chart-3": "oklch(0.810 0.055 303)",
+    "chart-4": "oklch(0.760 0.105 83)",
+    "chart-5": "oklch(0.736 0.052 112)",
+    "sidebar": "oklch(0.948 0.010 72)",
+    "sidebar-foreground": "oklch(0.255 0.012 62)",
+    "sidebar-primary": "oklch(0.665 0.190 42)",
+    "sidebar-primary-foreground": "oklch(0.987 0.004 70)",
+    "sidebar-accent": "oklch(0.900 0.025 303)",
+    "sidebar-accent-foreground": "oklch(0.302 0.018 61)",
+    "sidebar-border": "oklch(0.815 0.014 68)",
+    "sidebar-ring": "oklch(0.665 0.190 42)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.010 62)",
+    "foreground": "oklch(0.930 0.012 76)",
+    "card": "oklch(0.286 0.014 62)",
+    "card-foreground": "oklch(0.930 0.012 76)",
+    "popover": "oklch(0.255 0.012 62)",
+    "popover-foreground": "oklch(0.930 0.012 76)",
+    "primary": "oklch(0.735 0.175 43)",
+    "primary-foreground": "oklch(0.205 0.010 62)",
+    "secondary": "oklch(0.710 0.060 304)",
+    "secondary-foreground": "oklch(0.205 0.010 62)",
+    "muted": "oklch(0.345 0.012 62)",
+    "muted-foreground": "oklch(0.760 0.018 74)",
+    "accent": "oklch(0.765 0.058 111)",
+    "accent-foreground": "oklch(0.205 0.010 62)",
+    "destructive": "oklch(0.650 0.170 31)",
+    "border": "oklch(0.690 0.020 68 / 38%)",
+    "input": "oklch(0.690 0.020 68 / 48%)",
+    "ring": "oklch(0.735 0.175 43)",
+    "chart-1": "oklch(0.735 0.175 43)",
+    "chart-2": "oklch(0.765 0.058 111)",
+    "chart-3": "oklch(0.710 0.060 304)",
+    "chart-4": "oklch(0.810 0.095 84)",
+    "chart-5": "oklch(0.705 0.026 70)",
+    "sidebar": "oklch(0.255 0.012 62)",
+    "sidebar-foreground": "oklch(0.930 0.012 76)",
+    "sidebar-primary": "oklch(0.735 0.175 43)",
+    "sidebar-primary-foreground": "oklch(0.205 0.010 62)",
+    "sidebar-accent": "oklch(0.366 0.025 303)",
+    "sidebar-accent-foreground": "oklch(0.930 0.012 76)",
+    "sidebar-border": "oklch(0.690 0.020 68 / 38%)",
+    "sidebar-ring": "oklch(0.735 0.175 43)",
+    "radius": "0.5rem"
+  },
+  "typography": "Elegant display type for swift beauty moments, Inter or Geist for fast creator UI, Geist Mono for tabular metrics, and Noto Sans JP guidance for Japanese navigation, form labels, status text, and dashboard data.",
+  "layout": "Airy dashboard grids, compact creator navigation, wing-vein dividers, motion-streak texture, 8px radii, quick-hover focus rings, orange primary actions, lavender secondary highlights, and calm taupe data surfaces.",
+  "tags": [
+    "hummingbird-hawk-moth",
+    "hawk-moth",
+    "insect",
+    "flower-meadow",
+    "taupe-wing",
+    "orange-tail",
+    "lavender-sheen",
+    "swift-creator",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-hummingbird-hawk-moth/motif.png",
+    "board": "/systems/morphous-hummingbird-hawk-moth/design-system-light.png",
+    "darkBoard": "/systems/morphous-hummingbird-hawk-moth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-hummingbird-hawk-moth/theme.css",
+    "themeJson": "/systems/morphous-hummingbird-hawk-moth/theme.json",
+    "promptsJson": "/systems/morphous-hummingbird-hawk-moth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent hummingbird hawk moth motif",
+      "asset": "/systems/morphous-hummingbird-hawk-moth/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous Hummingbird Hawk Moth transparent motif chroma-key source. Primary request: Create only an isolated hummingbird hawk moth motif for a design-system catalog, no environment, no props, no text. Subject: A single hummingbird hawk moth hovering in profile-three-quarter view with accurate insect anatomy, clear antennae, large taupe-brown transparent-veined wings frozen in a swift hover pose, compact fuzzy body, warm orange tail fan, subtle lavender reflected highlights, long curved proboscis tucked elegantly, delicate legs, and fine scale texture. Composition/framing: centered complete cutout with generous padding; show the full moth, wings, body, orange tail, antennae, legs, and proboscis without cropping. Chroma-key background: perfectly flat solid #ff00ff background for removal, with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Constraints: do not include flowers, meadow, leaves, sky, second insect, bird anatomy, toy look, jewelry look, text, watermark, cast shadow, contact shadow, or reflection. Do not use #ff00ff anywhere in the moth."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-hummingbird-hawk-moth/design-system-light.png",
+      "sourceAsset": "/systems/morphous-hummingbird-hawk-moth/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Hummingbird Hawk Moth light-mode design-system board. Input image role: The visible transparent hummingbird hawk moth motif is the source reference for palette, texture, contrast, and visual language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Hummingbird Hawk Moth\", derived from the visible transparent hummingbird hawk moth cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Required visible sections: Morphous Hummingbird Hawk Moth, Hummingbird Hawk Moth, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Sample Usage. Reference use: Extract palette and interaction language from taupe wing membranes, warm brown wing veins, fuzzy cream body, orange tail fan, lavender wing sheen, flower meadow atmosphere, and swift hover motion. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, compact sidebar navigation, top navigation, dashboard metric cards, line/bar/donut charts, empty/loading/error states, spacing, radius, border, shadow, texture samples, and sample product panels. Typography guidance: include English guidance for fast creator workflows and Japanese guidance labeled Japanese Typography / 日本語, with clean sans UI, elegant display, tabular mono, and Noto Sans JP support. Style: shadcn/tweakcn-compatible swift creator system, precise airy grid, 8px radius, wing-vein separators, hover-ring focus states, soft meadow light surfaces, taupe cards, orange action accents, lavender secondary highlights, cream readable surfaces, and subtle motion-streak texture. Color constraints: use only motif-derived colors and near-neutrals; no unrelated saturated colors, no generic blue/purple gradient, no one-note palette. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Hummingbird Hawk Moth\" or \"Hummingbird Hawk Moth\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-hummingbird-hawk-moth/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-hummingbird-hawk-moth/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-hummingbird-hawk-moth/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Hummingbird Hawk Moth dark-mode design-system board. Input image roles: The visible transparent hummingbird hawk moth motif is the source motif reference, and the visible light-mode board is the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Hummingbird Hawk Moth\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible hummingbird hawk moth cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Required visible sections: Morphous Hummingbird Hawk Moth, Hummingbird Hawk Moth, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Sample Usage. Visual details: dark background derived from charcoal wing shadow and dusk flower meadow; foreground from moth cream and pale meadow mist; primary actions from orange tail; secondary states from lavender wing sheen; surfaces from smoky taupe and deep brown; borders from wing-vein taupe; subtle motion-streak texture and translucent wing membrane overlays. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search, sidebar and top navigation, dashboard/data charts, forms, tables, status states, tokens, texture, radius, spacing, shadows, and sample usage cards. Typography guidance: include English guidance for swift creator workflows and Japanese guidance labeled Japanese Typography / 日本語, with clean sans UI, elegant display, tabular mono, and Noto Sans JP support. Color constraints: use only motif-derived colors and near-neutrals; no neon colors, no unrelated saturated colors, no generic blue/purple gradients, no pure-black-only flat background. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Hummingbird Hawk Moth\" or \"Hummingbird Hawk Moth\", no tiny unreadable paragraphs."
+    }
+  ]
+}

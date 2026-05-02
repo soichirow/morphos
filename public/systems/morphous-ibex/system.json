@@ -1,0 +1,129 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 401,
+  "slug": "morphous-ibex",
+  "name": "Morphous Ibex",
+  "motifName": "Ibex",
+  "motifCategory": "mammal",
+  "biome": "alpine rock",
+  "motif": "ibex horns",
+  "paletteMood": "warm brown grey horn lichen",
+  "designMood": "precise navigation system",
+  "description": "A shadcn/tweakcn-compatible precise navigation system derived from an alpine ibex: warm brown coat surfaces, ridged grey-horn controls, lichen sage focus accents, alpine rock borders, hoof-ink text, route dashboards, waypoint tables, command search, bearing charts, and compact 8px components for exact wayfinding decisions.",
+  "typography": "Precise English product UI with Japanese typography guidance for route names, waypoint tables, altitude metrics, bearings, search, alerts, navigation states, and compact dashboard numerals.",
+  "layout": "Compact 8px navigation grids, steady sidebar and top navigation, elevation and bearing data density, horn-ridge texture strips, alpine rock dividers, restrained shadows, and crisp 8px cards and controls.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "designSystemSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "route status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows",
+    "sample usage"
+  ],
+  "tags": [
+    "ibex",
+    "mammal",
+    "alpine-rock",
+    "ibex-horns",
+    "warm-brown",
+    "grey-horn",
+    "lichen",
+    "navigation-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Alpine Chalk",
+      "hex": "#F6F4EF"
+    },
+    {
+      "role": "Ink",
+      "name": "Hoof Ink",
+      "hex": "#1B1F23"
+    },
+    {
+      "role": "Primary",
+      "name": "Horn Grey",
+      "hex": "#6F7378"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Horn Ridge",
+      "hex": "#8D949B"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Sage",
+      "hex": "#A3B18A"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rockfall Rust",
+      "hex": "#B85C4A"
+    },
+    {
+      "role": "Surface",
+      "name": "Horn Highlight",
+      "hex": "#F6F7F8"
+    },
+    {
+      "role": "Muted",
+      "name": "Alpine Rock",
+      "hex": "#ECEFF2"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#D4D8DC"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coat Tan",
+      "hex": "#B68A64"
+    },
+    {
+      "role": "Secondary Hover",
+      "name": "Taupe Undercoat",
+      "hex": "#C9B7A1"
+    },
+    {
+      "role": "Data",
+      "name": "Ibex Brown",
+      "hex": "#8A6A4A"
+    },
+    {
+      "role": "Neutral",
+      "name": "Moss Lichen",
+      "hex": "#7D8F69"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Alpine Night",
+      "hex": "#0F1113"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

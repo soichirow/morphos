@@ -1,0 +1,198 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 421,
+  "slug": "morphous-hummingbird-hawk-moth",
+  "name": "Morphous Hummingbird Hawk Moth",
+  "motifName": "Hummingbird Hawk Moth",
+  "motifCategory": "insect",
+  "biome": "flower meadow",
+  "motif": "hawk moth hover",
+  "description": "A shadcn/tweakcn-compatible swift creator system derived from a hovering hummingbird hawk moth: taupe wing membranes, warm brown veins, fuzzy cream surfaces, orange tail actions, lavender wing sheen, meadow sage support, pollen-gold signals, and charcoal hover shadows.",
+  "typography": "Elegant display type for swift beauty moments, Inter or Geist for fast creator UI, Geist Mono for tabular metrics, and Noto Sans JP guidance for Japanese navigation, form labels, status text, and dashboard data.",
+  "layout": "Airy dashboard grids, compact creator navigation, wing-vein dividers, motion-streak texture, 8px radii, quick-hover focus rings, orange primary actions, lavender secondary highlights, and calm taupe data surfaces.",
+  "designMood": "swift creator system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows",
+    "sample usage"
+  ],
+  "tags": [
+    "hummingbird-hawk-moth",
+    "hawk-moth",
+    "insect",
+    "flower-meadow",
+    "taupe-wing",
+    "orange-tail",
+    "lavender-sheen",
+    "swift-creator",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Cream",
+      "hex": "#F7F4EE",
+      "oklch": "oklch(0.975 0.008 78)"
+    },
+    {
+      "role": "Surface",
+      "name": "Moth Fuzz",
+      "hex": "#ECE6DD",
+      "oklch": "oklch(0.948 0.010 72)"
+    },
+    {
+      "role": "Primary",
+      "name": "Orange Tail",
+      "hex": "#F26A1A",
+      "oklch": "oklch(0.682 0.186 44.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lavender Sheen",
+      "hex": "#BAAAD6",
+      "oklch": "oklch(0.766 0.064 301.5)"
+    },
+    {
+      "role": "Support",
+      "name": "Sage Meadow",
+      "hex": "#A9B18D",
+      "oklch": "oklch(0.736 0.052 112)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pollen Gold",
+      "hex": "#E2C56C",
+      "oklch": "oklch(0.760 0.105 83)"
+    },
+    {
+      "role": "Wing",
+      "name": "Taupe Wing",
+      "hex": "#A99A8C",
+      "oklch": "oklch(0.685 0.024 67)"
+    },
+    {
+      "role": "Vein",
+      "name": "Warm Vein",
+      "hex": "#8A6E57",
+      "oklch": "oklch(0.542 0.042 62)"
+    },
+    {
+      "role": "Muted",
+      "name": "Meadow Mist",
+      "hex": "#CDC7C0",
+      "oklch": "oklch(0.815 0.014 68)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Wing",
+      "hex": "#4A4542",
+      "oklch": "oklch(0.345 0.012 62)"
+    },
+    {
+      "role": "Ink",
+      "name": "Hover Ink",
+      "hex": "#2A2623",
+      "oklch": "oklch(0.255 0.012 62)"
+    },
+    {
+      "role": "Night",
+      "name": "Meadow Night",
+      "hex": "#1D1A18",
+      "oklch": "oklch(0.205 0.010 62)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.975 0.008 78)",
+    "foreground": "oklch(0.255 0.012 62)",
+    "card": "oklch(0.948 0.010 72)",
+    "card-foreground": "oklch(0.255 0.012 62)",
+    "popover": "oklch(0.987 0.004 70)",
+    "popover-foreground": "oklch(0.255 0.012 62)",
+    "primary": "oklch(0.665 0.190 42)",
+    "primary-foreground": "oklch(0.987 0.004 70)",
+    "secondary": "oklch(0.810 0.055 303)",
+    "secondary-foreground": "oklch(0.302 0.018 61)",
+    "muted": "oklch(0.910 0.011 70)",
+    "muted-foreground": "oklch(0.502 0.020 66)",
+    "accent": "oklch(0.736 0.052 112)",
+    "accent-foreground": "oklch(0.255 0.012 62)",
+    "destructive": "oklch(0.590 0.180 28)",
+    "border": "oklch(0.815 0.014 68)",
+    "input": "oklch(0.815 0.014 68)",
+    "ring": "oklch(0.665 0.190 42)",
+    "chart-1": "oklch(0.665 0.190 42)",
+    "chart-2": "oklch(0.624 0.045 64)",
+    "chart-3": "oklch(0.810 0.055 303)",
+    "chart-4": "oklch(0.760 0.105 83)",
+    "chart-5": "oklch(0.736 0.052 112)",
+    "sidebar": "oklch(0.948 0.010 72)",
+    "sidebar-foreground": "oklch(0.255 0.012 62)",
+    "sidebar-primary": "oklch(0.665 0.190 42)",
+    "sidebar-primary-foreground": "oklch(0.987 0.004 70)",
+    "sidebar-accent": "oklch(0.900 0.025 303)",
+    "sidebar-accent-foreground": "oklch(0.302 0.018 61)",
+    "sidebar-border": "oklch(0.815 0.014 68)",
+    "sidebar-ring": "oklch(0.665 0.190 42)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.205 0.010 62)",
+    "foreground": "oklch(0.930 0.012 76)",
+    "card": "oklch(0.286 0.014 62)",
+    "card-foreground": "oklch(0.930 0.012 76)",
+    "popover": "oklch(0.255 0.012 62)",
+    "popover-foreground": "oklch(0.930 0.012 76)",
+    "primary": "oklch(0.735 0.175 43)",
+    "primary-foreground": "oklch(0.205 0.010 62)",
+    "secondary": "oklch(0.710 0.060 304)",
+    "secondary-foreground": "oklch(0.205 0.010 62)",
+    "muted": "oklch(0.345 0.012 62)",
+    "muted-foreground": "oklch(0.760 0.018 74)",
+    "accent": "oklch(0.765 0.058 111)",
+    "accent-foreground": "oklch(0.205 0.010 62)",
+    "destructive": "oklch(0.650 0.170 31)",
+    "border": "oklch(0.690 0.020 68 / 38%)",
+    "input": "oklch(0.690 0.020 68 / 48%)",
+    "ring": "oklch(0.735 0.175 43)",
+    "chart-1": "oklch(0.735 0.175 43)",
+    "chart-2": "oklch(0.765 0.058 111)",
+    "chart-3": "oklch(0.710 0.060 304)",
+    "chart-4": "oklch(0.810 0.095 84)",
+    "chart-5": "oklch(0.705 0.026 70)",
+    "sidebar": "oklch(0.255 0.012 62)",
+    "sidebar-foreground": "oklch(0.930 0.012 76)",
+    "sidebar-primary": "oklch(0.735 0.175 43)",
+    "sidebar-primary-foreground": "oklch(0.205 0.010 62)",
+    "sidebar-accent": "oklch(0.366 0.025 303)",
+    "sidebar-accent-foreground": "oklch(0.930 0.012 76)",
+    "sidebar-border": "oklch(0.690 0.020 68 / 38%)",
+    "sidebar-ring": "oklch(0.735 0.175 43)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

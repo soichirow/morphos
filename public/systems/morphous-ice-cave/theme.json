@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ice-cave",
+    "name": "Morphous Ice Cave",
+    "motifName": "Ice Cave",
+    "motifCategory": "landscape",
+    "biome": "glacial tunnel",
+    "motif": "ice cave wall"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Glacier White",
+      "hex": "#F6FBFF",
+      "oklch": "oklch(0.985 0.008 241.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Crevasse Black",
+      "hex": "#071016",
+      "oklch": "oklch(0.167 0.019 237.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ice Blue",
+      "hex": "#8FD8F7",
+      "oklch": "oklch(0.845 0.084 226.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Deep Cyan",
+      "hex": "#007EA7",
+      "oklch": "oklch(0.555 0.111 230.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Refraction Teal",
+      "hex": "#2BBFD9",
+      "oklch": "oklch(0.742 0.122 213.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Frost Gray",
+      "hex": "#DCEAF2",
+      "oklch": "oklch(0.929 0.018 232.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Glacial Mist",
+      "hex": "#EAF4FA",
+      "oklch": "oklch(0.961 0.013 233.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Fissure Blue",
+      "hex": "#A9C8D6",
+      "oklch": "oklch(0.814 0.039 226.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tunnel Slate",
+      "hex": "#25313A",
+      "oklch": "oklch(0.306 0.023 240.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Frost Amber",
+      "hex": "#E6B84A",
+      "oklch": "oklch(0.804 0.136 85.8)"
+    },
+    {
+      "role": "Danger",
+      "name": "Alert Red",
+      "hex": "#D94F45",
+      "oklch": "oklch(0.613 0.175 27.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.008 241.7)",
+    "foreground": "oklch(0.167 0.019 237.7)",
+    "card": "oklch(0.929 0.018 232.5)",
+    "card-foreground": "oklch(0.167 0.019 237.7)",
+    "popover": "oklch(0.929 0.018 232.5)",
+    "popover-foreground": "oklch(0.167 0.019 237.7)",
+    "primary": "oklch(0.845 0.084 226.7)",
+    "primary-foreground": "oklch(0.985 0.008 241.7)",
+    "secondary": "oklch(0.952 0.013 233.7)",
+    "secondary-foreground": "oklch(0.306 0.023 240.9)",
+    "muted": "oklch(0.945 0.016 233.0)",
+    "muted-foreground": "oklch(0.306 0.023 240.9)",
+    "accent": "oklch(0.742 0.122 213.0)",
+    "accent-foreground": "oklch(0.167 0.019 237.7)",
+    "destructive": "oklch(0.845 0.084 226.7)",
+    "border": "oklch(0.941 0.017 230.9)",
+    "input": "oklch(0.941 0.017 230.9)",
+    "ring": "oklch(0.555 0.111 230.0)",
+    "chart-1": "oklch(0.845 0.084 226.7)",
+    "chart-2": "oklch(0.555 0.111 230.0)",
+    "chart-3": "oklch(0.742 0.122 213.0)",
+    "chart-4": "oklch(0.929 0.018 232.5)",
+    "chart-5": "oklch(0.306 0.023 240.9)",
+    "sidebar": "oklch(0.949 0.014 231.2)",
+    "sidebar-foreground": "oklch(0.167 0.019 237.7)",
+    "sidebar-primary": "oklch(0.845 0.084 226.7)",
+    "sidebar-primary-foreground": "oklch(0.985 0.008 241.7)",
+    "sidebar-accent": "oklch(0.919 0.027 230.4)",
+    "sidebar-accent-foreground": "oklch(0.845 0.084 226.7)",
+    "sidebar-border": "oklch(0.941 0.017 230.9)",
+    "sidebar-ring": "oklch(0.555 0.111 230.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.167 0.019 237.7)",
+    "foreground": "oklch(0.985 0.008 241.7)",
+    "card": "oklch(0.262 0.022 240.2)",
+    "card-foreground": "oklch(0.985 0.008 241.7)",
+    "popover": "oklch(0.262 0.022 240.2)",
+    "popover-foreground": "oklch(0.985 0.008 241.7)",
+    "primary": "oklch(0.555 0.111 230.0)",
+    "primary-foreground": "oklch(0.167 0.019 237.7)",
+    "secondary": "oklch(0.467 0.020 237.1)",
+    "secondary-foreground": "oklch(0.985 0.008 241.7)",
+    "muted": "oklch(0.467 0.020 237.1)",
+    "muted-foreground": "oklch(0.975 0.010 238.5)",
+    "accent": "oklch(0.742 0.122 213.0)",
+    "accent-foreground": "oklch(0.167 0.019 237.7)",
+    "destructive": "oklch(0.845 0.084 226.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.555 0.111 230.0)",
+    "chart-1": "oklch(0.555 0.111 230.0)",
+    "chart-2": "oklch(0.845 0.084 226.7)",
+    "chart-3": "oklch(0.742 0.122 213.0)",
+    "chart-4": "oklch(0.929 0.018 232.5)",
+    "chart-5": "oklch(0.961 0.013 233.7)",
+    "sidebar": "oklch(0.233 0.021 242.9)",
+    "sidebar-foreground": "oklch(0.985 0.008 241.7)",
+    "sidebar-primary": "oklch(0.555 0.111 230.0)",
+    "sidebar-primary-foreground": "oklch(0.167 0.019 237.7)",
+    "sidebar-accent": "oklch(0.467 0.020 237.1)",
+    "sidebar-accent-foreground": "oklch(0.985 0.008 241.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.555 0.111 230.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Enterprise English UI with stable tabular numbers, clear operational labels, and Noto Sans JP guidance for Japanese analytics, approvals, security, and infrastructure screens.",
+  "layout": "Dense 8px enterprise grids, tunnel-slate navigation rails, dashboard metrics, approval queues, incident tables, command search, frost-ridge texture samples, and restrained 8px cards.",
+  "tags": [
+    "ice-cave",
+    "landscape",
+    "glacial-tunnel",
+    "immersive-enterprise",
+    "blue-ice",
+    "frost-white",
+    "shadow-black",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ice-cave/motif.png",
+    "board": "/systems/morphous-ice-cave/design-system-light.png",
+    "darkBoard": "/systems/morphous-ice-cave/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ice-cave/theme.css",
+    "themeJson": "/systems/morphous-ice-cave/theme.json",
+    "promptsJson": "/systems/morphous-ice-cave/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent ice cave wall motif",
+      "asset": "/systems/morphous-ice-cave/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Ice Cave transparent motif chroma-key source\nPrimary request: Create only an ice cave wall motif for a design-system catalog, isolated as a single sculptural glacial wall fragment on a removable chroma-key background.\nSubject: A vertical fragment of glacial tunnel ice cave wall with translucent blue ice strata, white frost ridges, black shadow fissures, crystalline facets, compact scalloped melt textures, compressed snow inclusions, and a rugged enterprise-system silhouette. The identity must read as ice cave wall from a glacial tunnel, not iceberg, mountain, waterfall, crystal cluster, or generic blue rock.\nComposition/framing: centered complete cutout with generous padding; include the full wall fragment silhouette without cropping. Clean studio lighting that preserves translucent blue ice, white frost edge detail, dark crevice shadows, and glassy glacial texture. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no people, no animals, no landscape horizon, no cave opening vista, no water pool, no props, no text, no watermark, no floating crystals, no fantasy magic effects."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-ice-cave/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Ice Cave light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Ice Cave\", derived from the visible ice cave wall motif. This board is a source reference for implementing a shadcn/tweakcn-compatible immersive enterprise UI system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, immersive enterprise system mood. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Ice Cave, Ice Cave Wall, Palette, Typography, Japanese Typography, Components, Navigation, Enterprise Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from translucent blue glacial ice, white frost ridges, deep cyan refraction, shadow-black fissures, pale ice mist, frosted tunnel surfaces, crystalline scalloped melt textures, and black crevice separators. The board must read as ice cave wall in a glacial tunnel, not generic blue gradient, iceberg, ocean, gemstone, or sci-fi neon.\nTypography: English enterprise UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use compact bilingual operations, analytics, approvals, security, and infrastructure labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, approval queue, incident panel, metric cards, table rows, activity log, command search palette, sidebar navigation, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: immersive enterprise system, precise 8px grid and 8px card radius, ice-white work surfaces, translucent blue primary actions, deep cyan focus rings, frost-white highlights, shadow-black separators, subtle ice-facet and frost-ridge texture overlays, dense but scannable operational dashboards, polished shadcn/tweakcn component language.\nPalette names visible: Glacier White #F6FBFF, Ice Blue #8FD8F7, Deep Cyan #007EA7, Crevasse Black #071016, Frost Gray #DCEAF2, Tunnel Slate #25313A, Refraction Teal #2BBFD9, Alert Red #D94F45.\nConstraints: no generic purple gradients, no neon gaming UI, no beige palette, no ocean wave identity, no gemstone-only identity, no cave-tour photo collage, no random brand names, no watermark, no misspelling of \"Morphous Ice Cave\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-ice-cave/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Ice Cave dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Ice Cave\" / \"Ice Cave Wall\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional shadcn/tweakcn design-system presentation, immersive enterprise system mood. Keep labels large and legible.\nRequired visible sections: Morphous Ice Cave, Ice Cave Wall, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Enterprise Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve translucent ice-blue actions, deep cyan focus states, frost-white text and surfaces, shadow-black fissure separators, tunnel-slate panels, glacier-white highlights, crystalline ice-facet texture, frost-ridge texture, enterprise operations tables, incident panels, approval queues, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as ice cave wall in a glacial tunnel, not generic blue gradient, ocean, gemstone, sci-fi neon, or black-and-blue gaming UI.\nTypography: English enterprise UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use compact bilingual operations, analytics, approvals, security, and infrastructure labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, approval cards, incident metrics, SLA dashboard, operations table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep crevasse-black background #071016, tunnel-slate panels #25313A, translucent ice-blue primary #8FD8F7, deep cyan #007EA7 focus rings, refraction teal #2BBFD9 charts, glacier-white foreground #F6FBFF, frost-gray muted #DCEAF2, alert red #D94F45 destructive states, subtle frost ridges and black fissure linework, crisp controls and dense dashboards.\nPalette names visible: Crevasse Black #071016, Tunnel Slate #25313A, Glacier White #F6FBFF, Ice Blue #8FD8F7, Deep Cyan #007EA7, Refraction Teal #2BBFD9, Frost Gray #DCEAF2, Alert Red #D94F45.\nConstraints: no neon gaming UI, no pure flat black, no purple gradient dominance, no beige palette, no ocean wave identity, no gemstone-only identity, no random brand names, no watermark, no misspelling of \"Morphous Ice Cave\", no tiny unreadable paragraphs."
+    }
+  ]
+}

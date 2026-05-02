@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-katydid",
+  "name": "Morphous Katydid",
+  "motifName": "Katydid Leaf Wing",
+  "motifCategory": "insect",
+  "biome": "summer canopy",
+  "motif": "leaf wing with fine vein lattice",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Katydid light and dark design-system boards: discreet collaboration surfaces, leaf-green actions, lime focus rings, dark olive structure, translucent wing panels, and fine vein dividers.",
+  "typography": "Inter Variable for compact product UI with Hiragino Sans and Noto Sans JP guidance for Japanese labels, calm collaboration copy, and dense dashboard data.",
+  "layout": "Precise 4px spacing steps, 8px maximum radius, fine vein-like separators, translucent wing panels, compact navigation, quiet dashboard modules, and restrained status hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "katydid",
+    "insect",
+    "leaf-wing",
+    "summer-canopy",
+    "collaboration",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tender Canopy",
+      "hex": "#f4fae8"
+    },
+    {
+      "role": "Ink",
+      "name": "Moss Shadow",
+      "hex": "#26321f"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#6ea04d"
+    },
+    {
+      "role": "Accent",
+      "name": "Vein Lime",
+      "hex": "#b7e368"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Green",
+      "hex": "#a9c78a"
+    },
+    {
+      "role": "Surface",
+      "name": "Canopy White",
+      "hex": "#fefff7"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Neutral",
+      "hex": "#e8e6da"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Olive",
+      "hex": "#3e482d"
+    },
+    {
+      "role": "Highlight",
+      "name": "Antenna Gold",
+      "hex": "#e6d48a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 279,
+  "slug": "morphous-ink-cap",
+  "name": "Morphous Ink Cap",
+  "motifName": "Ink Cap",
+  "motifCategory": "fungi",
+  "biome": "urban lawn",
+  "motif": "ink cap mushroom",
+  "description": "A shadcn/tweakcn-compatible ephemeral notes system derived from ink cap mushrooms: cap-white pages, ink-black actions, graphite gill dividers, spore-grey tables, parchment fields, and lawn-shadow support tones for capture, review, and archive workflows.",
+  "typography": "Quiet English product UI with clear tabular numbers, compact note labels, and Noto Sans JP guidance for Japanese headings, body text, labels, and numeric metadata.",
+  "layout": "Dense 8px note-system grids, thin radial-gill dividers, ink-edge selection states, spore-dust status surfaces, compact command search, dashboard/data cards, and restrained 8px component radii.",
+  "designMood": "ephemeral notes system",
+  "paletteMood": "white cap ink black grey",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "designSystemSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "ink-cap",
+    "fungi",
+    "urban-lawn",
+    "white-cap",
+    "ink-black",
+    "grey",
+    "ephemeral-notes",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cap White",
+      "hex": "#F6F6F4"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Ink Black",
+      "hex": "#0F0F0E"
+    },
+    {
+      "role": "Primary",
+      "name": "Gill Graphite",
+      "hex": "#6B6B66"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mushroom Parchment",
+      "hex": "#EEE9DF"
+    },
+    {
+      "role": "Accent",
+      "name": "Lawn Shadow",
+      "hex": "#8A8F84"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Ivory",
+      "hex": "#E6E1D6"
+    },
+    {
+      "role": "Muted",
+      "name": "Spore Grey",
+      "hex": "#C9C6BE"
+    },
+    {
+      "role": "Border",
+      "name": "Asphalt Taupe",
+      "hex": "#8B877F"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Cap Night",
+      "hex": "#08080C"
+    },
+    {
+      "role": "Panel",
+      "name": "Charcoal Gills",
+      "hex": "#1A1B1E"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Cap",
+      "hex": "#FAFAF6"
+    },
+    {
+      "role": "Highlight",
+      "name": "Parchment Highlight",
+      "hex": "#F1EEE6"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

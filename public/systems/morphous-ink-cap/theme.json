@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ink-cap",
+    "name": "Morphous Ink Cap",
+    "motifName": "Ink Cap",
+    "motifCategory": "fungi",
+    "biome": "urban lawn",
+    "motif": "ink cap mushroom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cap White",
+      "hex": "#F6F6F4",
+      "oklch": "oklch(0.973 0.003 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Ink Black",
+      "hex": "#0F0F0E",
+      "oklch": "oklch(0.168 0.002 106.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Gill Graphite",
+      "hex": "#6B6B66",
+      "oklch": "oklch(0.526 0.008 106.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mushroom Parchment",
+      "hex": "#EEE9DF",
+      "oklch": "oklch(0.935 0.014 84.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lawn Shadow",
+      "hex": "#8A8F84",
+      "oklch": "oklch(0.643 0.017 127.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Ivory",
+      "hex": "#E6E1D6",
+      "oklch": "oklch(0.911 0.016 86.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Spore Grey",
+      "hex": "#C9C6BE",
+      "oklch": "oklch(0.827 0.012 89.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Asphalt Taupe",
+      "hex": "#8B877F",
+      "oklch": "oklch(0.624 0.013 84.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Cap Night",
+      "hex": "#08080C",
+      "oklch": "oklch(0.137 0.009 285.1)"
+    },
+    {
+      "role": "Panel",
+      "name": "Charcoal Gills",
+      "hex": "#1A1B1E",
+      "oklch": "oklch(0.222 0.006 271.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pale Cap",
+      "hex": "#FAFAF6",
+      "oklch": "oklch(0.984 0.005 106.5)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Parchment Highlight",
+      "hex": "#F1EEE6",
+      "oklch": "oklch(0.949 0.011 89.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.003 106.4)",
+    "foreground": "oklch(0.168 0.002 106.6)",
+    "card": "oklch(0.911 0.016 86.4)",
+    "card-foreground": "oklch(0.168 0.002 106.6)",
+    "popover": "oklch(0.911 0.016 86.4)",
+    "popover-foreground": "oklch(0.168 0.002 106.6)",
+    "primary": "oklch(0.526 0.008 106.7)",
+    "primary-foreground": "oklch(0.973 0.003 106.4)",
+    "secondary": "oklch(0.937 0.010 87.5)",
+    "secondary-foreground": "oklch(0.137 0.009 285.1)",
+    "muted": "oklch(0.928 0.012 91.5)",
+    "muted-foreground": "oklch(0.137 0.009 285.1)",
+    "accent": "oklch(0.643 0.017 127.0)",
+    "accent-foreground": "oklch(0.168 0.002 106.6)",
+    "destructive": "oklch(0.526 0.008 106.7)",
+    "border": "oklch(0.880 0.015 84.6)",
+    "input": "oklch(0.880 0.015 84.6)",
+    "ring": "oklch(0.935 0.014 84.6)",
+    "chart-1": "oklch(0.526 0.008 106.7)",
+    "chart-2": "oklch(0.935 0.014 84.6)",
+    "chart-3": "oklch(0.643 0.017 127.0)",
+    "chart-4": "oklch(0.984 0.005 106.5)",
+    "chart-5": "oklch(0.137 0.009 285.1)",
+    "sidebar": "oklch(0.931 0.011 89.7)",
+    "sidebar-foreground": "oklch(0.168 0.002 106.6)",
+    "sidebar-primary": "oklch(0.526 0.008 106.7)",
+    "sidebar-primary-foreground": "oklch(0.973 0.003 106.4)",
+    "sidebar-accent": "oklch(0.867 0.014 88.7)",
+    "sidebar-accent-foreground": "oklch(0.526 0.008 106.7)",
+    "sidebar-border": "oklch(0.880 0.015 84.6)",
+    "sidebar-ring": "oklch(0.935 0.014 84.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.168 0.002 106.6)",
+    "foreground": "oklch(0.973 0.003 106.4)",
+    "card": "oklch(0.146 0.006 285.6)",
+    "card-foreground": "oklch(0.973 0.003 106.4)",
+    "popover": "oklch(0.146 0.006 285.6)",
+    "popover-foreground": "oklch(0.973 0.003 106.4)",
+    "primary": "oklch(0.935 0.014 84.6)",
+    "primary-foreground": "oklch(0.168 0.002 106.6)",
+    "secondary": "oklch(0.318 0.002 286.3)",
+    "secondary-foreground": "oklch(0.973 0.003 106.4)",
+    "muted": "oklch(0.318 0.002 286.3)",
+    "muted-foreground": "oklch(0.907 0.006 84.6)",
+    "accent": "oklch(0.643 0.017 127.0)",
+    "accent-foreground": "oklch(0.168 0.002 106.6)",
+    "destructive": "oklch(0.526 0.008 106.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.935 0.014 84.6)",
+    "chart-1": "oklch(0.935 0.014 84.6)",
+    "chart-2": "oklch(0.526 0.008 106.7)",
+    "chart-3": "oklch(0.643 0.017 127.0)",
+    "chart-4": "oklch(0.984 0.005 106.5)",
+    "chart-5": "oklch(0.827 0.012 89.7)",
+    "sidebar": "oklch(0.155 0.002 286.2)",
+    "sidebar-foreground": "oklch(0.973 0.003 106.4)",
+    "sidebar-primary": "oklch(0.935 0.014 84.6)",
+    "sidebar-primary-foreground": "oklch(0.168 0.002 106.6)",
+    "sidebar-accent": "oklch(0.318 0.002 286.3)",
+    "sidebar-accent-foreground": "oklch(0.973 0.003 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.935 0.014 84.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Quiet English product UI with clear tabular numbers, compact note labels, and Noto Sans JP guidance for Japanese headings, body text, labels, and numeric metadata.",
+  "layout": "Dense 8px note-system grids, thin radial-gill dividers, ink-edge selection states, spore-dust status surfaces, compact command search, dashboard/data cards, and restrained 8px component radii.",
+  "tags": [
+    "ink-cap",
+    "fungi",
+    "urban-lawn",
+    "white-cap",
+    "ink-black",
+    "grey",
+    "ephemeral-notes",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ink-cap/motif.png",
+    "board": "/systems/morphous-ink-cap/design-system-light.png",
+    "darkBoard": "/systems/morphous-ink-cap/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ink-cap/theme.css",
+    "themeJson": "/systems/morphous-ink-cap/theme.json",
+    "promptsJson": "/systems/morphous-ink-cap/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent ink cap mushroom motif",
+      "asset": "/systems/morphous-ink-cap/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Ink Cap transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated ink cap mushroom motif, no environment, no props, no text.\nSubject: A small cluster of ink cap mushrooms inspired by an urban lawn species, with tall slender white-to-pale-grey caps, fine radial striations, curled deliquescing edges that darken into inky black grey, thin pale stems, natural mushroom texture, and crisp silhouette edges.\nComposition/framing: centered complete cutout with generous padding; show the full caps and stems without cropping; simple elegant vertical silhouette suitable for a UI theme motif.\nLighting/mood: clean studio light that preserves white cap highlights, graphite grey ribbing, inky black edges, and delicate ephemeral texture.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no grass, no soil, no leaves, no landscape, no table, no cast shadow, no contact shadow, no reflection, no text, no watermark, no props, no second kind of mushroom, no saturated colors outside white, black, grey, and subtle lawn-derived cool neutral hints."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-ink-cap/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Ink Cap\" / \"Ink Cap Mushroom\", source reference for a shadcn/tweakcn-compatible theme.\nReference use: Use the visible transparent ink cap mushroom motif as the source of truth. Derive all color, texture, contrast, rhythm, spacing mood, and interaction language from the motif: white cap flesh, warm off-white stem, ink black deliquescing cap edges, graphite radial gills, soft spore grey, cool urban-lawn shadow neutral, and pale mushroom parchment.\nCanvas: exact wide 16:9 board, 3840 x 2160 px, high-resolution source asset.\nResolution and legibility: large readable labels, clean product UI hierarchy, avoid dense tiny text; make section labels obvious at gallery preview size.\nRequired visible sections: title \"Morphous Ink Cap\", palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nUI content: shadcn/tweakcn-style buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, search bar, side navigation, top navigation, dashboard metric cards, small chart, empty/loading/error/success states, token chips, radius examples, 8px radius note, spacing scale, shadow swatches.\nTypography: include English UI type guidance and Japanese typography examples with short readable labels; use modern sans guidance compatible with Geist and Noto Sans JP.\nStyle/medium: premium precise product design-system board, quiet utilitarian SaaS UI, crisp grid, 8px card radius, thin graphite dividers like mushroom gills, soft parchment surfaces, ink-edge active states, monochrome-first palette with restrained lawn-shadow neutral only if needed.\nColor palette: use only motif-derived colors: cap white, mushroom parchment, stem ivory, spore grey, gill graphite, wet ink black, asphalt taupe grey, lawn-shadow grey-green. No unrelated bright colors.\nTexture: subtle radial cap striations, inky edge curls, spore dust grain, urban lawn ephemerality; refined and not noisy.\nText: short readable UI labels only, no paragraphs, no random brand names.\nConstraints: no generic purple/blue gradients, no saturated accent colors, no pure stock UI kit, no photos other than the motif reference, no watermark, no misspellings, no rounded radii above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-ink-cap/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Ink Cap\" / \"Ink Cap Mushroom\". It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent ink cap mushroom motif and the visible light-mode board as references. Preserve the same section layout, motif-derived palette roles, typography guidance, component language, texture rhythm, 8px radius system, and quiet shadcn/tweakcn product UI style.\nCanvas: exact wide 16:9 board, 3840 x 2160 px, high-resolution source asset.\nResolution and legibility: large readable labels, clean product UI hierarchy, avoid dense tiny text; make section labels obvious at gallery preview size.\nRequired visible sections: title \"Morphous Ink Cap\", Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nUI content: shadcn/tweakcn-style buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, search bar, side navigation, top navigation, dashboard metric cards, small chart, empty/loading/error/success states, token chips, radius examples, 8px radius note, spacing scale, shadow swatches.\nTypography: include English UI type guidance and Japanese typography examples with short readable labels; use modern sans guidance compatible with Geist and Noto Sans JP.\nVisual details: dark background derived from wet ink black and deep gill graphite, foreground from cap white and stem ivory, panels in charcoal spore grey, borders in asphalt taupe, active states in cap white over ink, focus and accents from pale mushroom parchment and lawn-shadow grey-green. Thin radial gill dividers, subtle inky deliquescent edge curls, spore dust grain, restrained contrast.\nColor palette: use only motif-derived colors: cap white, mushroom parchment, stem ivory, spore grey, gill graphite, wet ink black, asphalt taupe grey, lawn-shadow grey-green. No unrelated bright colors.\nText: short readable UI labels only, no paragraphs, no random brand names.\nConstraints: no neon colors, no generic purple/blue gradients, no saturated accent colors, no pure flat black background unless varied by motif texture, no stock UI kit, no watermark, no misspellings, no rounded radii above 8px."
+    }
+  ]
+}

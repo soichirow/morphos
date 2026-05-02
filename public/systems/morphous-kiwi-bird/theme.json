@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-kiwi-bird",
+    "name": "Morphous Kiwi Bird",
+    "motifName": "Kiwi Bird Profile",
+    "motifCategory": "bird",
+    "biome": "New Zealand Forest",
+    "motif": "kiwi bird profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Paper",
+      "hex": "#f6f1e7",
+      "oklch": "oklch(0.959 0.014 84.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Beak Cream",
+      "hex": "#ead8b7",
+      "oklch": "oklch(0.888 0.048 82.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fern Green",
+      "hex": "#5f7352",
+      "oklch": "oklch(0.530 0.055 133.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Sage",
+      "hex": "#9aa889",
+      "oklch": "oklch(0.712 0.047 127.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Track Clay",
+      "hex": "#a47452",
+      "oklch": "oklch(0.600 0.077 56.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Flax Border",
+      "hex": "#c8b89c",
+      "oklch": "oklch(0.789 0.042 81.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Warm Bark",
+      "hex": "#8a6041",
+      "oklch": "oklch(0.526 0.071 56.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Feather Umber",
+      "hex": "#5b3c25",
+      "oklch": "oklch(0.386 0.056 56.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Shadow",
+      "hex": "#24271f",
+      "oklch": "oklch(0.267 0.015 124.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.014 84.6)",
+    "foreground": "oklch(0.267 0.015 124.2)",
+    "card": "oklch(0.888 0.048 82.7)",
+    "card-foreground": "oklch(0.267 0.015 124.2)",
+    "popover": "oklch(0.888 0.048 82.7)",
+    "popover-foreground": "oklch(0.267 0.015 124.2)",
+    "primary": "oklch(0.530 0.055 133.4)",
+    "primary-foreground": "oklch(0.959 0.014 84.6)",
+    "secondary": "oklch(0.919 0.034 84.6)",
+    "secondary-foreground": "oklch(0.386 0.056 56.7)",
+    "muted": "oklch(0.908 0.039 83.8)",
+    "muted-foreground": "oklch(0.386 0.056 56.7)",
+    "accent": "oklch(0.600 0.077 56.0)",
+    "accent-foreground": "oklch(0.267 0.015 124.2)",
+    "destructive": "oklch(0.530 0.055 133.4)",
+    "border": "oklch(0.762 0.053 72.7)",
+    "input": "oklch(0.762 0.053 72.7)",
+    "ring": "oklch(0.712 0.047 127.4)",
+    "chart-1": "oklch(0.530 0.055 133.4)",
+    "chart-2": "oklch(0.712 0.047 127.4)",
+    "chart-3": "oklch(0.600 0.077 56.0)",
+    "chart-4": "oklch(0.789 0.042 81.7)",
+    "chart-5": "oklch(0.386 0.056 56.7)",
+    "sidebar": "oklch(0.913 0.037 84.6)",
+    "sidebar-foreground": "oklch(0.267 0.015 124.2)",
+    "sidebar-primary": "oklch(0.530 0.055 133.4)",
+    "sidebar-primary-foreground": "oklch(0.959 0.014 84.6)",
+    "sidebar-accent": "oklch(0.847 0.046 89.1)",
+    "sidebar-accent-foreground": "oklch(0.530 0.055 133.4)",
+    "sidebar-border": "oklch(0.762 0.053 72.7)",
+    "sidebar-ring": "oklch(0.712 0.047 127.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.267 0.015 124.2)",
+    "foreground": "oklch(0.959 0.014 84.6)",
+    "card": "oklch(0.345 0.040 64.3)",
+    "card-foreground": "oklch(0.959 0.014 84.6)",
+    "popover": "oklch(0.345 0.040 64.3)",
+    "popover-foreground": "oklch(0.959 0.014 84.6)",
+    "primary": "oklch(0.712 0.047 127.4)",
+    "primary-foreground": "oklch(0.267 0.015 124.2)",
+    "secondary": "oklch(0.418 0.059 57.4)",
+    "secondary-foreground": "oklch(0.959 0.014 84.6)",
+    "muted": "oklch(0.418 0.059 57.4)",
+    "muted-foreground": "oklch(0.770 0.037 65.9)",
+    "accent": "oklch(0.600 0.077 56.0)",
+    "accent-foreground": "oklch(0.267 0.015 124.2)",
+    "destructive": "oklch(0.530 0.055 133.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.712 0.047 127.4)",
+    "chart-1": "oklch(0.712 0.047 127.4)",
+    "chart-2": "oklch(0.530 0.055 133.4)",
+    "chart-3": "oklch(0.600 0.077 56.0)",
+    "chart-4": "oklch(0.789 0.042 81.7)",
+    "chart-5": "oklch(0.526 0.071 56.9)",
+    "sidebar": "oklch(0.322 0.030 72.6)",
+    "sidebar-foreground": "oklch(0.959 0.014 84.6)",
+    "sidebar-primary": "oklch(0.712 0.047 127.4)",
+    "sidebar-primary-foreground": "oklch(0.267 0.015 124.2)",
+    "sidebar-accent": "oklch(0.418 0.059 57.4)",
+    "sidebar-accent-foreground": "oklch(0.959 0.014 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.712 0.047 127.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Grounded serif headings for conservation reports, Inter-style sans UI text, and Noto Sans JP / Noto Serif JP guidance for Japanese labels.",
+  "layout": "Precise 8px field grids, compact monitoring panels, 8px radius cards, thin flax borders, feather-grain texture bands, and calm dashboard spacing for repeated ecological workflows.",
+  "tags": [
+    "kiwi-bird",
+    "bird",
+    "new-zealand-forest",
+    "conservation",
+    "fern",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-kiwi-bird/motif.png",
+    "board": "/systems/morphous-kiwi-bird/design-system-light.png",
+    "darkBoard": "/systems/morphous-kiwi-bird/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-kiwi-bird/theme.css",
+    "themeJson": "/systems/morphous-kiwi-bird/theme.json",
+    "promptsJson": "/systems/morphous-kiwi-bird/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Kiwi Bird motif",
+      "asset": "/systems/morphous-kiwi-bird/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Kiwi Bird transparent motif chroma-key source\nPrimary request: Create only an isolated kiwi bird profile motif for a design-system catalog, no environment, no props, no text.\nSubject: a New Zealand kiwi bird in clean side profile, compact pear-shaped body, shaggy layered brown feathers with subtle cream tips, long slender cream beak, small dark eye, sturdy muted taupe legs, accurate natural proportions, quiet conservation-system dignity, crisp outer silhouette.\nComposition/framing: centered complete cutout with generous padding; left-facing profile; do not crop beak, feet, or tail area.\nLighting/mood: clean studio light that preserves brown feather texture, cream beak contrast, and fern-forest earthy color.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no forest background, no nest, no egg, no labels, no watermark, no second bird, no logo, no random brand marks."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-kiwi-bird/design-system-light.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive light-mode design-system board for \"Morphous Kiwi Bird\" / \"Kiwi Bird Profile\", source reference for a shadcn/tweakcn theme. Use a quiet conservation system for New Zealand forest monitoring with field-notebook precision, ecological trust, and no marketing hero layout. Derive the palette from a side-profile kiwi bird with shaggy brown feathers, long cream beak, small dark eye, taupe legs, and fern understory context: feather umber #5b3c25, warm bark #8a6041, cream beak #ead8b7, fern green #5f7352, moss sage #9aa889, forest shadow #24271f, mist paper #f6f1e7, flax border #c8b89c, and track clay #a47452. Include large readable sections for title, motif story, palette swatches, typography, Japanese typography, navigation, dashboard charts, conservation status cards, data table, form controls, search/command, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture samples, radius, spacing, shadow, and CSS token samples. Use shadcn/tweakcn-compatible product UI, precise 8px grid, 8px radius cards, warm paper background, thin flax borders, fern-green primary actions, cream-beak highlights, feather-brown text, quiet map/data panels, subtle feather grain and fern rib texture strips. Avoid fake brand names, watermarks, lorem ipsum blocks, tiny illegible token tables, purple or blue gradients, neon, unrelated saturated colors, random logos, and nested card-heavy marketing composition."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-kiwi-bird/design-system-dark.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive dark-mode design-system board for \"Morphous Kiwi Bird\" / \"Kiwi Bird Profile\", translated from the light board and the same kiwi bird profile motif. Use a quiet conservation system for New Zealand forest monitoring with field-notebook precision, ecological trust, and subdued nocturnal forest mode. Derive the palette from a side-profile kiwi bird with shaggy brown feathers, long cream beak, small dark eye, taupe legs, and fern understory context: deep forest shadow #24271f, night loam #342a20, feather umber #5b3c25, warm bark #8a6041, cream beak #ead8b7, fern green #7f946f, moss sage #9aa889, mist text #f6f1e7, flax border #c8b89c, and track clay #a47452. Include large readable sections for title, Dark Mode, motif story, palette swatches, typography, Japanese typography, navigation, dashboard charts, conservation status cards, data table, form controls, search/command, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture samples, radius, spacing, shadow, and CSS token samples. Use shadcn/tweakcn-compatible product UI, precise 8px grid, 8px radius cards, deep forest background, warm dark cards, thin flax borders, fern-green primary actions, cream-beak highlights, mist-paper text, quiet map/data panels, subtle feather grain and fern rib texture strips. Avoid fake brand names, watermarks, lorem ipsum blocks, tiny illegible token tables, purple or blue gradients, neon, unrelated saturated colors, pure black flat slabs except tiny accents, random logos, and nested card-heavy marketing composition."
+    }
+  ]
+}

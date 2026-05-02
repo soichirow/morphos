@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jasper",
+    "name": "Morphous Jasper",
+    "motifName": "Jasper",
+    "motifCategory": "mineral",
+    "biome": "Desert Wash",
+    "motif": "jasper pebble"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wash Cream",
+      "hex": "#f7efe1",
+      "oklch": "oklch(0.955 0.020 81.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Mineral Ink",
+      "hex": "#211712",
+      "oklch": "oklch(0.216 0.019 47.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Red Ochre",
+      "hex": "#a94725",
+      "oklch": "oklch(0.522 0.138 38.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Jasper Clay",
+      "hex": "#c66f3f",
+      "oklch": "oklch(0.630 0.127 48.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Quartz Band",
+      "hex": "#fff7e8",
+      "oklch": "oklch(0.978 0.022 83.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Desert Tan",
+      "hex": "#c9a878",
+      "oklch": "oklch(0.750 0.075 76.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Iron Rust",
+      "hex": "#743019",
+      "oklch": "oklch(0.400 0.102 38.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Veil",
+      "hex": "#dfcfb8",
+      "oklch": "oklch(0.861 0.036 77.1)"
+    },
+    {
+      "role": "Dark",
+      "name": "Black Dendrite",
+      "hex": "#0f0d0b",
+      "oklch": "oklch(0.161 0.005 67.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.020 81.8)",
+    "foreground": "oklch(0.216 0.019 47.8)",
+    "card": "oklch(0.400 0.102 38.7)",
+    "card-foreground": "oklch(0.216 0.019 47.8)",
+    "popover": "oklch(0.400 0.102 38.7)",
+    "popover-foreground": "oklch(0.216 0.019 47.8)",
+    "primary": "oklch(0.522 0.138 38.9)",
+    "primary-foreground": "oklch(0.955 0.020 81.8)",
+    "secondary": "oklch(0.637 0.060 44.9)",
+    "secondary-foreground": "oklch(0.400 0.102 38.7)",
+    "muted": "oklch(0.557 0.074 41.8)",
+    "muted-foreground": "oklch(0.400 0.102 38.7)",
+    "accent": "oklch(0.978 0.022 83.3)",
+    "accent-foreground": "oklch(0.216 0.019 47.8)",
+    "destructive": "oklch(0.522 0.138 38.9)",
+    "border": "oklch(0.568 0.073 45.5)",
+    "input": "oklch(0.568 0.073 45.5)",
+    "ring": "oklch(0.630 0.127 48.0)",
+    "chart-1": "oklch(0.522 0.138 38.9)",
+    "chart-2": "oklch(0.630 0.127 48.0)",
+    "chart-3": "oklch(0.978 0.022 83.3)",
+    "chart-4": "oklch(0.750 0.075 76.5)",
+    "chart-5": "oklch(0.400 0.102 38.7)",
+    "sidebar": "oklch(0.593 0.068 43.5)",
+    "sidebar-foreground": "oklch(0.216 0.019 47.8)",
+    "sidebar-primary": "oklch(0.522 0.138 38.9)",
+    "sidebar-primary-foreground": "oklch(0.955 0.020 81.8)",
+    "sidebar-accent": "oklch(0.415 0.106 39.2)",
+    "sidebar-accent-foreground": "oklch(0.522 0.138 38.9)",
+    "sidebar-border": "oklch(0.568 0.073 45.5)",
+    "sidebar-ring": "oklch(0.630 0.127 48.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.216 0.019 47.8)",
+    "foreground": "oklch(0.955 0.020 81.8)",
+    "card": "oklch(0.340 0.076 39.8)",
+    "card-foreground": "oklch(0.955 0.020 81.8)",
+    "popover": "oklch(0.340 0.076 39.8)",
+    "popover-foreground": "oklch(0.955 0.020 81.8)",
+    "primary": "oklch(0.630 0.127 48.0)",
+    "primary-foreground": "oklch(0.216 0.019 47.8)",
+    "secondary": "oklch(0.502 0.084 42.5)",
+    "secondary-foreground": "oklch(0.955 0.020 81.8)",
+    "muted": "oklch(0.502 0.084 42.5)",
+    "muted-foreground": "oklch(0.914 0.027 80.2)",
+    "accent": "oklch(0.978 0.022 83.3)",
+    "accent-foreground": "oklch(0.216 0.019 47.8)",
+    "destructive": "oklch(0.522 0.138 38.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.630 0.127 48.0)",
+    "chart-1": "oklch(0.630 0.127 48.0)",
+    "chart-2": "oklch(0.522 0.138 38.9)",
+    "chart-3": "oklch(0.978 0.022 83.3)",
+    "chart-4": "oklch(0.750 0.075 76.5)",
+    "chart-5": "oklch(0.861 0.036 77.1)",
+    "sidebar": "oklch(0.302 0.060 41.5)",
+    "sidebar-foreground": "oklch(0.955 0.020 81.8)",
+    "sidebar-primary": "oklch(0.630 0.127 48.0)",
+    "sidebar-primary-foreground": "oklch(0.216 0.019 47.8)",
+    "sidebar-accent": "oklch(0.502 0.084 42.5)",
+    "sidebar-accent-foreground": "oklch(0.955 0.020 81.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.630 0.127 48.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Sturdy product UI typography with compact numerals and Japanese guidance tuned for operational dashboards, field records, and mineral-toned analytics.",
+  "layout": "Dense 8px dashboard grids, pebble-soft card corners, mineral-ink dividers, ochre action states, and subtle jasper grain texture.",
+  "tags": [
+    "jasper",
+    "mineral",
+    "desert-wash",
+    "red-ochre",
+    "earthy-dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jasper/motif.png",
+    "board": "/systems/morphous-jasper/design-system-light.png",
+    "darkBoard": "/systems/morphous-jasper/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jasper/theme.css",
+    "themeJson": "/systems/morphous-jasper/theme.json",
+    "promptsJson": "/systems/morphous-jasper/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent jasper pebble motif",
+      "asset": "/systems/morphous-jasper/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout\nPrimary request: Create only one jasper pebble motif, isolated full subject, no environment, no props, no text.\nSubject: A natural polished-but-not-glossy jasper pebble from a desert wash, rounded river-worn oval stone with red ochre body color, cream vein bands, black dendritic streaks and speckles, subtle tan mineral inclusions, matte earthy silica texture, believable stone translucency at thin edges, geologically accurate jasper.\nComposition/framing: centered complete cutout with generous padding; do not crop the subject. Single pebble angled slightly in three-quarter view, full silhouette visible.\nLighting/mood: clean studio light that preserves natural mineral color and material detail, soft contactless shadow-free presentation.\nTransparent background: transparent PNG background, no floor plane, no scenery, no gradient, no reflected color.\nConstraints: no text, no watermark, no props, no landscape, no second subject, no jewelry setting, no carved shape, no hand, no bright saturated unrelated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-jasper/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jasper light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Jasper\", derived from a jasper pebble motif from a desert wash. This board is a source reference for a shadcn/tweakcn-compatible earthy dashboard system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, final should read as 3840x2160 source art.\nRequired visible sections: Morphous Jasper, Jasper Pebble, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from red ochre jasper, cream quartz bands, black dendritic mineral marks, tan desert wash dust, warm silica grain, and rounded pebble geometry. The board must visibly respect the jasper stone palette.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Earth Metrics. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: earthy dashboard system, shadcn/tweakcn-style product UI, precise grid, 8px radius with subtle pebble-rounding, cream paper backgrounds, red ochre primary actions, black mineral ink foreground, sand-tan muted panels, cream quartz accents, jasper grain texture, calm operational density for analytics dashboards.\nPalette names to show: Wash Cream, Mineral Ink, Red Ochre, Jasper Clay, Quartz Band, Desert Tan, Iron Rust, Dust Veil, Black Dendrite.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no stock landscape photos, no random brand names, no watermark, no tiny unreadable paragraphs, no misspelling of \"Morphous Jasper\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-jasper/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jasper dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Jasper\". It must feel like the light-mode board translated to dark mode and remain derived from a jasper pebble motif from a desert wash.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, final should read as 3840x2160 source art.\nRequired visible sections: Morphous Jasper, Jasper Pebble, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve red ocher primary actions, cream quartz bands, black dendritic marks, tan desert wash dust, warm silica grain, rounded pebble geometry, earthy dashboard density, and 8px shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Earth Metrics. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep black dendrite and smoked umber backgrounds, warm cream foreground text, red ochre active states, muted jasper clay cards, desert tan borders, cream quartz highlights, subtle mineral speckles and banded jasper texture, crisp accessible contrast, calm operational analytics feel.\nPalette names to show: Wash Cream, Mineral Ink, Red Ochre, Jasper Clay, Quartz Band, Desert Tan, Iron Rust, Dust Veil, Black Dendrite.\nConstraints: no neon colors, no pure black flat background, no generic purple or blue gradients, no unrelated saturated colors, no stock landscape photos, no random brand names, no watermark, no illegible tiny paragraphs, no misspelling of \"Morphous Jasper\"."
+    }
+  ]
+}

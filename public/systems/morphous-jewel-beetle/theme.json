@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-jewel-beetle",
+    "name": "Morphous Jewel Beetle",
+    "motifName": "Jewel Beetle Shell",
+    "motifCategory": "insect",
+    "biome": "Tropical Forest",
+    "motif": "iridescent chitin shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Canopy",
+      "hex": "#f4f2e8",
+      "oklch": "oklch(0.960 0.013 97.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Beetle Ink",
+      "hex": "#09110f",
+      "oklch": "oklch(0.169 0.013 177.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Elytra Green",
+      "hex": "#00a86b",
+      "oklch": "oklch(0.645 0.149 158.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gilded Edge",
+      "hex": "#d6a83a",
+      "oklch": "oklch(0.755 0.134 85.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sapphire Flash",
+      "hex": "#0b66c3",
+      "oklch": "oklch(0.516 0.164 255.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Chitin Black",
+      "hex": "#141716",
+      "oklch": "oklch(0.201 0.005 173.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Rain Glass",
+      "hex": "#d8e8df",
+      "oklch": "oklch(0.917 0.021 161.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Veil",
+      "hex": "#7b8f72",
+      "oklch": "oklch(0.626 0.048 136.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Teal",
+      "hex": "#06473f",
+      "oklch": "oklch(0.358 0.062 181.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.013 97.4)",
+    "foreground": "oklch(0.169 0.013 177.5)",
+    "card": "oklch(0.917 0.021 161.4)",
+    "card-foreground": "oklch(0.169 0.013 177.5)",
+    "popover": "oklch(0.917 0.021 161.4)",
+    "popover-foreground": "oklch(0.169 0.013 177.5)",
+    "primary": "oklch(0.645 0.149 158.8)",
+    "primary-foreground": "oklch(0.960 0.013 97.4)",
+    "secondary": "oklch(0.935 0.015 142.2)",
+    "secondary-foreground": "oklch(0.358 0.062 181.9)",
+    "muted": "oklch(0.929 0.017 151.1)",
+    "muted-foreground": "oklch(0.358 0.062 181.9)",
+    "accent": "oklch(0.516 0.164 255.0)",
+    "accent-foreground": "oklch(0.169 0.013 177.5)",
+    "destructive": "oklch(0.645 0.149 158.8)",
+    "border": "oklch(0.815 0.029 147.0)",
+    "input": "oklch(0.815 0.029 147.0)",
+    "ring": "oklch(0.755 0.134 85.2)",
+    "chart-1": "oklch(0.645 0.149 158.8)",
+    "chart-2": "oklch(0.755 0.134 85.2)",
+    "chart-3": "oklch(0.516 0.164 255.0)",
+    "chart-4": "oklch(0.201 0.005 173.8)",
+    "chart-5": "oklch(0.358 0.062 181.9)",
+    "sidebar": "oklch(0.931 0.015 145.5)",
+    "sidebar-foreground": "oklch(0.169 0.013 177.5)",
+    "sidebar-primary": "oklch(0.645 0.149 158.8)",
+    "sidebar-primary-foreground": "oklch(0.960 0.013 97.4)",
+    "sidebar-accent": "oklch(0.878 0.041 166.9)",
+    "sidebar-accent-foreground": "oklch(0.645 0.149 158.8)",
+    "sidebar-border": "oklch(0.815 0.029 147.0)",
+    "sidebar-ring": "oklch(0.755 0.134 85.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.169 0.013 177.5)",
+    "foreground": "oklch(0.960 0.013 97.4)",
+    "card": "oklch(0.297 0.049 182.1)",
+    "card-foreground": "oklch(0.960 0.013 97.4)",
+    "popover": "oklch(0.297 0.049 182.1)",
+    "popover-foreground": "oklch(0.960 0.013 97.4)",
+    "primary": "oklch(0.755 0.134 85.2)",
+    "primary-foreground": "oklch(0.169 0.013 177.5)",
+    "secondary": "oklch(0.416 0.062 175.0)",
+    "secondary-foreground": "oklch(0.960 0.013 97.4)",
+    "muted": "oklch(0.416 0.062 175.0)",
+    "muted-foreground": "oklch(0.813 0.026 124.3)",
+    "accent": "oklch(0.516 0.164 255.0)",
+    "accent-foreground": "oklch(0.169 0.013 177.5)",
+    "destructive": "oklch(0.645 0.149 158.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.755 0.134 85.2)",
+    "chart-1": "oklch(0.755 0.134 85.2)",
+    "chart-2": "oklch(0.645 0.149 158.8)",
+    "chart-3": "oklch(0.516 0.164 255.0)",
+    "chart-4": "oklch(0.201 0.005 173.8)",
+    "chart-5": "oklch(0.626 0.048 136.0)",
+    "sidebar": "oklch(0.259 0.040 181.5)",
+    "sidebar-foreground": "oklch(0.960 0.013 97.4)",
+    "sidebar-primary": "oklch(0.755 0.134 85.2)",
+    "sidebar-primary-foreground": "oklch(0.169 0.013 177.5)",
+    "sidebar-accent": "oklch(0.416 0.062 175.0)",
+    "sidebar-accent-foreground": "oklch(0.960 0.013 97.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.755 0.134 85.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense product UI with Noto Sans JP guidance for Japanese labels, strong dashboard metrics, compact navigation, and precise numeric rhythm.",
+  "layout": "Disciplined 8px grids, 8px-or-less component radii, black-green dividers, dimpled chitin texture panels, compact enterprise navigation, and high-gloss analytics surfaces.",
+  "tags": [
+    "jewel-beetle",
+    "insect",
+    "tropical-forest",
+    "metallic",
+    "premium-dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-jewel-beetle/motif.png",
+    "board": "/systems/morphous-jewel-beetle/design-system-light.png",
+    "darkBoard": "/systems/morphous-jewel-beetle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-jewel-beetle/theme.css",
+    "themeJson": "/systems/morphous-jewel-beetle/theme.json",
+    "promptsJson": "/systems/morphous-jewel-beetle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Jewel Beetle motif",
+      "asset": "/systems/morphous-jewel-beetle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Jewel Beetle transparent motif chroma-key source\nPrimary request: Create only an isolated jewel beetle shell / full jewel beetle dorsal cutout for a design-system catalog, no environment, no props, no text.\nSubject: A jewel beetle viewed from above with accurate beetle anatomy, elongated iridescent elytra shell, metallic emerald green base, gold rim highlights, sapphire blue flashes, glossy black legs and antennae, tiny shell dimples and faceted reflective microtexture, crisp silhouette edges.\nComposition/framing: centered complete cutout with generous padding; show the full shell, head, legs, and antennae without cropping; keep the insect separated from the background.\nLighting/mood: clean studio lighting that preserves metallic green, gold, blue, and black surfaces without cast shadow.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no leaves, no flowers, no branch, no landscape, no second insect, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-jewel-beetle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jewel Beetle light-mode design-system board\nPrimary request: Create one comprehensive 16:9 light-mode design-system board for \"Morphous Jewel Beetle\" / \"Jewel Beetle Shell\", a premium dashboard system and shadcn/tweakcn theme reference.\nCanvas: high-resolution 3840x2160 style source board, wide 16:9. Use a disciplined product UI layout with large readable labels, not tiny dense text.\nMotif source: jewel beetle shell from tropical forest; metallic emerald green elytra, gold rim highlights, sapphire/cobalt blue flashes, glossy black legs, tiny dimpled shell texture, hard reflective chitin.\nPalette: Pearl Canopy #f4f2e8, Beetle Ink #09110f, Elytra Green #00a86b, Gilded Edge #d6a83a, Sapphire Flash #0b66c3, Chitin Black #141716, Moss Veil #7b8f72, Rain Glass #d8e8df, Deep Teal #06473f.\nRequired visible sections: title, motif story, palette swatches, typography, Japanese typography, components, navigation/sidebar, dashboard/data charts, forms, table, command/search, status states, tokens, texture, radius, spacing, shadows.\nComponent language: premium dashboard UI, precise 8px grid, cards and controls radius 8px or less, thin black-green borders, metallic green primary buttons, gold focus rings, blue data accents, subtle dimpled chitin texture, glossy but restrained highlights, compact enterprise navigation.\nTypography: include English UI samples and Japanese UI samples with clean sans guidance; use short readable labels.\nStyle/medium: realistic UI design-system board, polished product dashboard components, white/pearl surfaces, green-gold-blue accents, restrained premium feel.\nConstraints: no generic purple gradients, no beige-only theme, no unrelated bright colors, no random brand names, no watermark, no illegible microtext, no oversized marketing hero, no rounded radii above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-jewel-beetle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Jewel Beetle dark-mode design-system board\nPrimary request: Create one comprehensive 16:9 dark-mode design-system board for \"Morphous Jewel Beetle\" / \"Jewel Beetle Shell\", translated from the light premium dashboard system into dark mode, not a new theme.\nCanvas: high-resolution 3840x2160 style source board, wide 16:9. Use a disciplined product UI layout with large readable labels, not tiny dense text.\nMotif source: same tropical jewel beetle shell; metallic emerald green elytra, gold rim highlights, sapphire/cobalt blue flashes, glossy black chitin, tiny dimpled shell texture, hard reflective surfaces.\nPalette roles: Deep Chitin #06100e as background, Rain Pearl #e7f3ec as text, Black Glass #101918 cards, Elytra Green #00c67a primary, Gilded Edge #d6a83a focus/accent, Sapphire Flash #2a7ee8 info/data, Moss Veil #9aad89 secondary, Deep Teal #06473f surfaces, Error Ruby #c34040 destructive.\nRequired visible sections: title, Dark Mode, motif story, palette swatches, typography, Japanese typography, components, navigation/sidebar, dashboard/data charts, forms, table, command/search, status states, tokens, texture, radius, spacing, shadows.\nComponent language: premium dark dashboard UI, precise 8px grid, cards and controls radius 8px or less, thin green-black borders, luminous metallic green primary buttons, gold focus rings, blue chart accents, subtle dimpled chitin texture, glossy highlights on dark glass, compact enterprise navigation.\nTypography: include English UI samples and Japanese UI samples with clean sans guidance; use short readable labels.\nStyle/medium: realistic UI design-system board, polished product dashboard components, deep black-green surfaces, green-gold-blue accents, restrained premium feel.\nConstraints: no neon rainbow palette, no generic purple gradients, no unrelated bright colors, no pure flat black empty background, no random brand names, no watermark, no illegible microtext, no oversized marketing hero, no rounded radii above 8px."
+    }
+  ]
+}

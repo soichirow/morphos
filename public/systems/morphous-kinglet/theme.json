@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-kinglet",
+    "name": "Morphous Kinglet",
+    "motifName": "Kinglet",
+    "motifCategory": "bird",
+    "biome": "Conifer Grove",
+    "motif": "kinglet crown"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Conifer Mist",
+      "hex": "#F4F6F2",
+      "oklch": "oklch(0.971 0.006 128.5)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Feather Cream",
+      "hex": "#FBF8F0",
+      "oklch": "oklch(0.979 0.011 89.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Soft Feather Grey",
+      "hex": "#D8DBD4",
+      "oklch": "oklch(0.887 0.010 125.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Olive Green",
+      "hex": "#687F4A",
+      "oklch": "oklch(0.565 0.081 127.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Spruce Surface",
+      "hex": "#E6F2E6",
+      "oklch": "oklch(0.949 0.020 145.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Crown Yellow",
+      "hex": "#FFD447",
+      "oklch": "oklch(0.883 0.158 91.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Crown Amber",
+      "hex": "#FFB21A",
+      "oklch": "oklch(0.817 0.167 76.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Eye",
+      "hex": "#1E1F1C",
+      "oklch": "oklch(0.237 0.006 121.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Shadow",
+      "hex": "#3A3D33",
+      "oklch": "oklch(0.354 0.017 120.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Lichen Line",
+      "hex": "#B9C2AE",
+      "oklch": "oklch(0.801 0.029 126.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.006 128.5)",
+    "foreground": "oklch(0.237 0.006 121.9)",
+    "card": "oklch(0.949 0.020 145.4)",
+    "card-foreground": "oklch(0.237 0.006 121.9)",
+    "popover": "oklch(0.949 0.020 145.4)",
+    "popover-foreground": "oklch(0.237 0.006 121.9)",
+    "primary": "oklch(0.565 0.081 127.9)",
+    "primary-foreground": "oklch(0.971 0.006 128.5)",
+    "secondary": "oklch(0.959 0.015 142.2)",
+    "secondary-foreground": "oklch(0.354 0.017 120.9)",
+    "muted": "oklch(0.955 0.016 142.6)",
+    "muted-foreground": "oklch(0.354 0.017 120.9)",
+    "accent": "oklch(0.883 0.158 91.4)",
+    "accent-foreground": "oklch(0.237 0.006 121.9)",
+    "destructive": "oklch(0.565 0.081 127.9)",
+    "border": "oklch(0.816 0.041 132.5)",
+    "input": "oklch(0.816 0.041 132.5)",
+    "ring": "oklch(0.887 0.010 125.7)",
+    "chart-1": "oklch(0.565 0.081 127.9)",
+    "chart-2": "oklch(0.887 0.010 125.7)",
+    "chart-3": "oklch(0.883 0.158 91.4)",
+    "chart-4": "oklch(0.817 0.167 76.5)",
+    "chart-5": "oklch(0.354 0.017 120.9)",
+    "sidebar": "oklch(0.956 0.015 142.2)",
+    "sidebar-foreground": "oklch(0.237 0.006 121.9)",
+    "sidebar-primary": "oklch(0.565 0.081 127.9)",
+    "sidebar-primary-foreground": "oklch(0.971 0.006 128.5)",
+    "sidebar-accent": "oklch(0.904 0.027 138.3)",
+    "sidebar-accent-foreground": "oklch(0.565 0.081 127.9)",
+    "sidebar-border": "oklch(0.816 0.041 132.5)",
+    "sidebar-ring": "oklch(0.887 0.010 125.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.237 0.006 121.9)",
+    "foreground": "oklch(0.971 0.006 128.5)",
+    "card": "oklch(0.315 0.014 124.0)",
+    "card-foreground": "oklch(0.971 0.006 128.5)",
+    "popover": "oklch(0.315 0.014 124.0)",
+    "popover-foreground": "oklch(0.971 0.006 128.5)",
+    "primary": "oklch(0.887 0.010 125.7)",
+    "primary-foreground": "oklch(0.237 0.006 121.9)",
+    "secondary": "oklch(0.403 0.034 125.6)",
+    "secondary-foreground": "oklch(0.971 0.006 128.5)",
+    "muted": "oklch(0.403 0.034 125.6)",
+    "muted-foreground": "oklch(0.792 0.038 126.0)",
+    "accent": "oklch(0.883 0.158 91.4)",
+    "accent-foreground": "oklch(0.237 0.006 121.9)",
+    "destructive": "oklch(0.565 0.081 127.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.887 0.010 125.7)",
+    "chart-1": "oklch(0.887 0.010 125.7)",
+    "chart-2": "oklch(0.565 0.081 127.9)",
+    "chart-3": "oklch(0.883 0.158 91.4)",
+    "chart-4": "oklch(0.817 0.167 76.5)",
+    "chart-5": "oklch(0.565 0.081 127.9)",
+    "sidebar": "oklch(0.293 0.011 122.1)",
+    "sidebar-foreground": "oklch(0.971 0.006 128.5)",
+    "sidebar-primary": "oklch(0.887 0.010 125.7)",
+    "sidebar-primary-foreground": "oklch(0.237 0.006 121.9)",
+    "sidebar-accent": "oklch(0.403 0.034 125.6)",
+    "sidebar-accent-foreground": "oklch(0.971 0.006 128.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.887 0.010 125.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for compact notification UI with Noto Sans JP guidance for multilingual alerts, inboxes, badges, forms, and operational dashboards.",
+  "layout": "Compact notification-center density, 8px radius cards, thin lichen borders, crown-stripe highlight cadence, tight inbox rows, and quiet conifer-grove surfaces.",
+  "tags": [
+    "kinglet",
+    "bird",
+    "conifer",
+    "crown",
+    "olive",
+    "yellow",
+    "grey",
+    "notification",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-kinglet/motif.png",
+    "board": "/systems/morphous-kinglet/design-system-light.png",
+    "darkBoard": "/systems/morphous-kinglet/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-kinglet/theme.css",
+    "themeJson": "/systems/morphous-kinglet/theme.json",
+    "promptsJson": "/systems/morphous-kinglet/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent kinglet crown motif source",
+      "asset": "/systems/morphous-kinglet/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a kinglet crown motif for the Morphous Kinglet design system: a compact golden-crowned kinglet-inspired bird head and upper-body cutout with the crown as the focal motif, isolated full subject, no environment, no props, no text.\nSubject: realistic tiny kinglet with olive green back feathers, soft grey face and underside, fine dark eye, delicate beak, and a vivid yellow crown stripe edged with orange-gold and black feather markings; compact alert posture suited to a notification system.\nComposition/framing: centered complete cutout with generous padding; crown clearly visible from a slight three-quarter view, crisp feather edges, no cropping, clean separation.\nLighting/mood: clean studio light that preserves olive green, yellow crown, warm gold, and soft grey detail without cast shadows.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no forest background, no branch, no nest, no props, no decorative background, no additional species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-kinglet/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for Morphous Kinglet, derived from the visible kinglet crown motif: conifer grove, olive green feathers, vivid yellow crown, soft grey body, black crown edging, compact notification-system mood.\nReference use: Use the visible kinglet motif image as the source of truth for palette, texture rhythm, contrast, spacing mood, and interaction language. The board must visibly respect the bird's olive green wing, yellow crown stripe, orange-gold highlight, black eye/crown marks, soft grey feathers, and conifer-grove context.\nCanvas: exact wide 16:9 design board, 3840 x 2160 px composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Kinglet\", motif story \"conifer grove\", palette swatches, typography, Japanese typography, buttons, icon notification buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, toast notifications, cards, navigation/sidebar, notification inbox, dashboard/data widgets, line chart, bar chart, donut chart, forms, table, command/search, empty state, error state, loading state, texture samples, icon samples, spacing scale, radius tokens, border tokens, shadow tokens, semantic token rows, generated asset preview.\nTypography: include English examples and Japanese examples; choose clean compact product UI font guidance suitable for multilingual notification systems.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, compact notification center software, 8px card radius, thin grey-green borders, crown-stripe highlight rhythm, crisp controls, dense but readable operational interface.\nColor palette: motif-derived colors only: conifer mist background, charcoal eye ink, olive primary, crown yellow accent, soft feather grey secondary, spruce muted surfaces, warm crown amber signal, bark shadow, lichen line, cream feather highlight.\nLayout: organized dense but readable catalog board with full component coverage, notification widgets and badges prominent enough to inspect, no landing-page hero, no marketing copy.\nText: short readable UI labels only.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no random brand names, no tiny illegible paragraphs, no forest photo background."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-kinglet/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Morphous Kinglet design-system board. It must feel like the same compact notification system translated to dark mode, not a new theme.\nReference use: Use the visible kinglet motif and the visible light design-system board as references. Preserve motif-derived palette roles, crown-stripe notification rhythm, component language, texture, spacing, typography, and full component coverage.\nCanvas: exact wide 16:9 design board, 3840 x 2160 px composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Kinglet\", \"Dark Mode\", palette swatches, typography, Japanese typography, buttons, icon notification buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, toast notifications, cards, navigation/sidebar, notification inbox, dashboard/data widgets, line chart, bar chart, donut chart, forms, table, command/search, empty state, error state, loading state, texture samples, icon samples, spacing scale, radius tokens, border tokens, shadow tokens, semantic token rows, generated asset preview.\nVisual details: dark background derived from charcoal eye and bark shadow, card surfaces from deep spruce and muted conifer green, bright text from feather cream and soft grey, primary olive controls, crown yellow accent for unread counts and focus rings, crown amber for warning states, subtle feather and conifer-needle textures, crisp shadcn-style cards and controls, thin lichen-line borders.\nTypography: include English examples and Japanese examples; clean compact product UI font guidance suitable for multilingual notification systems.\nLayout: same dense organized board structure as the light board, notification widgets and data components prominent, no landing-page hero.\nText: short readable UI labels only.\nConstraints: no neon colors, no flat pure-black background, no unrelated saturated colors, no generic purple or blue gradients, no watermark, no random brand names, no illegible tiny paragraphs."
+    }
+  ]
+}

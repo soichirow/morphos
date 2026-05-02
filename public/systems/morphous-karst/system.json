@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-karst",
+  "name": "Morphous Karst",
+  "motifName": "Karst",
+  "motifCategory": "landscape",
+  "biome": "Limestone Valley",
+  "motif": "karst towers",
+  "description": "A vertical exploration system derived from limestone valley karst towers: pale eroded cliffs, deep cave shadows, jungle ledges, moss paths, wet stone borders, lichen signals, and mist-filled basins.",
+  "typography": "Expedition-grade product UI typography with crisp numerals and Japanese guidance tuned for route planning, elevation data, and exploration workflows.",
+  "layout": "Vertical 8px grids, stacked navigation, terraced card groups, cliff-edge dividers, compact route tables, and limestone striation texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "karst",
+    "landscape",
+    "limestone-valley",
+    "vertical-exploration",
+    "jungle-green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Basin",
+      "hex": "#f3f5f2"
+    },
+    {
+      "role": "Ink",
+      "name": "Cave Ink",
+      "hex": "#1a1e1b"
+    },
+    {
+      "role": "Primary",
+      "name": "Jungle Canopy",
+      "hex": "#1f4d2f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Limestone Face",
+      "hex": "#d6d9d2"
+    },
+    {
+      "role": "Accent",
+      "name": "Fog Veil",
+      "hex": "#e7ece9"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Path",
+      "hex": "#6a8f4a"
+    },
+    {
+      "role": "Surface",
+      "name": "Wet Stone",
+      "hex": "#7d8580"
+    },
+    {
+      "role": "Muted",
+      "name": "Cliff Shadow",
+      "hex": "#2b312d"
+    },
+    {
+      "role": "Depth",
+      "name": "Lichen Signal",
+      "hex": "#a7c65a"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-karst/motif.png",
+    "board": "/systems/morphous-karst/design-system-light.png",
+    "darkBoard": "/systems/morphous-karst/design-system-dark.png",
+    "themeCss": "/systems/morphous-karst/theme.css",
+    "themeJson": "/systems/morphous-karst/theme.json",
+    "promptsJson": "/systems/morphous-karst/prompts.json"
+  }
+}

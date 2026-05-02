@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-kestrel",
+  "name": "Morphous Kestrel",
+  "motifName": "Kestrel",
+  "motifCategory": "bird",
+  "biome": "Farmland Edge",
+  "motif": "kestrel feather",
+  "description": "A shadcn/tweakcn-compatible light monitoring system shaped by kestrel feather barring, rust brown field marks, slate blue wing shadows, cream shafts, and farmland-edge neutrals.",
+  "typography": "Geist for monitoring dashboards with Noto Sans guidance for Japanese labels, tabular sensor numerals, and compact status tables.",
+  "layout": "8px grid, compact dashboard panels, feather-bar dividers, farmland map strips, low-contrast field surfaces, and readable sensor monitoring workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "kestrel",
+    "bird",
+    "farmland-edge",
+    "rust-brown",
+    "slate-blue",
+    "cream",
+    "monitoring-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Cream",
+      "hex": "#f4ead8"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Ivory",
+      "hex": "#fffaf0"
+    },
+    {
+      "role": "Ink",
+      "name": "Slate Wing",
+      "hex": "#263642"
+    },
+    {
+      "role": "Primary",
+      "name": "Kestrel Rust",
+      "hex": "#a6532b"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blue Gray Plume",
+      "hex": "#607d8e"
+    },
+    {
+      "role": "Accent",
+      "name": "Pale Sky Watch",
+      "hex": "#91b5bd"
+    },
+    {
+      "role": "Muted",
+      "name": "Straw Edge",
+      "hex": "#d8c6a5"
+    },
+    {
+      "role": "Warning",
+      "name": "Field Amber",
+      "hex": "#c28b32"
+    },
+    {
+      "role": "Destructive",
+      "name": "Barn Red",
+      "hex": "#a94b3f"
+    },
+    {
+      "role": "Depth",
+      "name": "Hedgerow Charcoal",
+      "hex": "#1f272b"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

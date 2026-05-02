@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 520,
+  "slug": "morphous-hummingbird-wing",
+  "name": "Morphous Hummingbird Wing",
+  "motifName": "Hummingbird Wing",
+  "motifCategory": "bird",
+  "biome": "cloud forest",
+  "motif": "hummingbird wing blur",
+  "description": "A shadcn/tweakcn-compatible fast precision system derived from a hummingbird wing blur: emerald iridescent coverts, translucent mist-grey feather planes, smoky graphite shadows, ruby flash accents, pearl cloud surfaces, and velocity-ring focus states.",
+  "typography": "Elegant condensed display type for velocity moments, Inter or Geist for precise product UI, Geist Mono for tabular telemetry, and Noto Sans JP guidance for Japanese navigation, labels, statuses, and dashboard data.",
+  "layout": "Crisp dashboard grids, compact precision navigation, feather-arc dividers, wing-blur texture, 8px radii, velocity focus rings, emerald primary actions, ruby alert flashes, and pearl-grey cloud-forest surfaces.",
+  "designMood": "fast precision system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows",
+    "sample usage"
+  ],
+  "tags": [
+    "hummingbird-wing",
+    "bird",
+    "cloud-forest",
+    "wing-blur",
+    "emerald-grey",
+    "ruby-flash",
+    "fast-precision",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist 50",
+      "hex": "#FAFBFA",
+      "oklch": "oklch(0.987 0.004 170)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist 100",
+      "hex": "#F7F4F4",
+      "oklch": "oklch(0.965 0.006 185)"
+    },
+    {
+      "role": "Primary",
+      "name": "Emerald 600",
+      "hex": "#00857A",
+      "oklch": "oklch(0.585 0.128 172)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Emerald 300",
+      "hex": "#6CD4BB",
+      "oklch": "oklch(0.825 0.062 171)"
+    },
+    {
+      "role": "Support",
+      "name": "Emerald 500",
+      "hex": "#18AA80",
+      "oklch": "oklch(0.695 0.106 169)"
+    },
+    {
+      "role": "Signal",
+      "name": "Ruby 500",
+      "hex": "#D90343",
+      "oklch": "oklch(0.620 0.230 16)"
+    },
+    {
+      "role": "Signal Soft",
+      "name": "Ruby 400",
+      "hex": "#E75C7E",
+      "oklch": "oklch(0.690 0.205 18)"
+    },
+    {
+      "role": "Wing",
+      "name": "Pearl 300",
+      "hex": "#E7EAEC",
+      "oklch": "oklch(0.930 0.006 210)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pearl 200",
+      "hex": "#D5D9DC",
+      "oklch": "oklch(0.865 0.010 210)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite 700",
+      "hex": "#3F464A",
+      "oklch": "oklch(0.345 0.014 215)"
+    },
+    {
+      "role": "Ink",
+      "name": "Graphite 900",
+      "hex": "#1B1F22",
+      "oklch": "oklch(0.245 0.013 210)"
+    },
+    {
+      "role": "Night",
+      "name": "Charcoal 900",
+      "hex": "#0E1011",
+      "oklch": "oklch(0.150 0.016 205)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.987 0.004 170)",
+    "foreground": "oklch(0.245 0.013 210)",
+    "card": "oklch(0.965 0.006 185)",
+    "card-foreground": "oklch(0.245 0.013 210)",
+    "popover": "oklch(0.995 0.002 170)",
+    "popover-foreground": "oklch(0.245 0.013 210)",
+    "primary": "oklch(0.585 0.128 172)",
+    "primary-foreground": "oklch(0.995 0.002 170)",
+    "secondary": "oklch(0.825 0.062 171)",
+    "secondary-foreground": "oklch(0.255 0.038 180)",
+    "muted": "oklch(0.935 0.006 205)",
+    "muted-foreground": "oklch(0.560 0.017 220)",
+    "accent": "oklch(0.620 0.230 16)",
+    "accent-foreground": "oklch(0.995 0.002 170)",
+    "destructive": "oklch(0.590 0.220 18)",
+    "border": "oklch(0.865 0.010 210)",
+    "input": "oklch(0.865 0.010 210)",
+    "ring": "oklch(0.585 0.128 172)",
+    "chart-1": "oklch(0.585 0.128 172)",
+    "chart-2": "oklch(0.695 0.106 169)",
+    "chart-3": "oklch(0.620 0.230 16)",
+    "chart-4": "oklch(0.770 0.096 33)",
+    "chart-5": "oklch(0.625 0.020 220)",
+    "sidebar": "oklch(0.965 0.006 185)",
+    "sidebar-foreground": "oklch(0.245 0.013 210)",
+    "sidebar-primary": "oklch(0.585 0.128 172)",
+    "sidebar-primary-foreground": "oklch(0.995 0.002 170)",
+    "sidebar-accent": "oklch(0.925 0.030 172)",
+    "sidebar-accent-foreground": "oklch(0.255 0.038 180)",
+    "sidebar-border": "oklch(0.865 0.010 210)",
+    "sidebar-ring": "oklch(0.585 0.128 172)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.150 0.016 205)",
+    "foreground": "oklch(0.920 0.010 180)",
+    "card": "oklch(0.205 0.018 205)",
+    "card-foreground": "oklch(0.920 0.010 180)",
+    "popover": "oklch(0.185 0.018 205)",
+    "popover-foreground": "oklch(0.920 0.010 180)",
+    "primary": "oklch(0.700 0.128 170)",
+    "primary-foreground": "oklch(0.150 0.016 205)",
+    "secondary": "oklch(0.790 0.070 168)",
+    "secondary-foreground": "oklch(0.150 0.016 205)",
+    "muted": "oklch(0.285 0.014 215)",
+    "muted-foreground": "oklch(0.735 0.014 205)",
+    "accent": "oklch(0.690 0.205 18)",
+    "accent-foreground": "oklch(0.150 0.016 205)",
+    "destructive": "oklch(0.640 0.215 20)",
+    "border": "oklch(0.745 0.018 205 / 34%)",
+    "input": "oklch(0.745 0.018 205 / 44%)",
+    "ring": "oklch(0.700 0.128 170)",
+    "chart-1": "oklch(0.700 0.128 170)",
+    "chart-2": "oklch(0.790 0.070 168)",
+    "chart-3": "oklch(0.690 0.205 18)",
+    "chart-4": "oklch(0.790 0.096 34)",
+    "chart-5": "oklch(0.690 0.018 215)",
+    "sidebar": "oklch(0.185 0.018 205)",
+    "sidebar-foreground": "oklch(0.920 0.010 180)",
+    "sidebar-primary": "oklch(0.700 0.128 170)",
+    "sidebar-primary-foreground": "oklch(0.150 0.016 205)",
+    "sidebar-accent": "oklch(0.265 0.045 172)",
+    "sidebar-accent-foreground": "oklch(0.920 0.010 180)",
+    "sidebar-border": "oklch(0.745 0.018 205 / 34%)",
+    "sidebar-ring": "oklch(0.700 0.128 170)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

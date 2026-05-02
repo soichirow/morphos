@@ -1,0 +1,208 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ibex",
+    "name": "Morphous Ibex",
+    "motifName": "Ibex",
+    "motifCategory": "mammal",
+    "biome": "alpine rock",
+    "motif": "ibex horns"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Alpine Chalk",
+      "hex": "#F6F4EF",
+      "oklch": "oklch(0.967 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Hoof Ink",
+      "hex": "#1B1F23",
+      "oklch": "oklch(0.237 0.010 248.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Horn Grey",
+      "hex": "#6F7378",
+      "oklch": "oklch(0.554 0.009 253.9)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Horn Ridge",
+      "hex": "#8D949B",
+      "oklch": "oklch(0.663 0.013 248.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Sage",
+      "hex": "#A3B18A",
+      "oklch": "oklch(0.739 0.056 123.8)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rockfall Rust",
+      "hex": "#B85C4A",
+      "oklch": "oklch(0.582 0.123 32.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Horn Highlight",
+      "hex": "#F6F7F8",
+      "oklch": "oklch(0.976 0.002 247.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Alpine Rock",
+      "hex": "#ECEFF2",
+      "oklch": "oklch(0.951 0.005 247.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#D4D8DC",
+      "oklch": "oklch(0.880 0.007 247.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coat Tan",
+      "hex": "#B68A64",
+      "oklch": "oklch(0.667 0.075 61.8)"
+    },
+    {
+      "role": "Secondary Hover",
+      "name": "Taupe Undercoat",
+      "hex": "#C9B7A1",
+      "oklch": "oklch(0.789 0.037 72.8)"
+    },
+    {
+      "role": "Data",
+      "name": "Ibex Brown",
+      "hex": "#8A6A4A",
+      "oklch": "oklch(0.548 0.062 66.0)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Moss Lichen",
+      "hex": "#7D8F69",
+      "oklch": "oklch(0.625 0.059 128.6)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Alpine Night",
+      "hex": "#0F1113",
+      "oklch": "oklch(0.176 0.005 248.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.007 88.6)",
+    "foreground": "oklch(0.237 0.010 248.2)",
+    "card": "oklch(0.976 0.002 247.8)",
+    "card-foreground": "oklch(0.237 0.010 248.2)",
+    "popover": "oklch(0.976 0.002 247.8)",
+    "popover-foreground": "oklch(0.237 0.010 248.2)",
+    "primary": "oklch(0.554 0.009 253.9)",
+    "primary-foreground": "oklch(0.967 0.007 88.6)",
+    "secondary": "oklch(0.973 0.003 106.4)",
+    "secondary-foreground": "oklch(0.237 0.010 248.2)",
+    "muted": "oklch(0.973 0.001 106.4)",
+    "muted-foreground": "oklch(0.237 0.010 248.2)",
+    "accent": "oklch(0.739 0.056 123.8)",
+    "accent-foreground": "oklch(0.237 0.010 248.2)",
+    "destructive": "oklch(0.554 0.009 253.9)",
+    "border": "oklch(0.966 0.003 247.9)",
+    "input": "oklch(0.966 0.003 247.9)",
+    "ring": "oklch(0.667 0.075 61.8)",
+    "chart-1": "oklch(0.554 0.009 253.9)",
+    "chart-2": "oklch(0.667 0.075 61.8)",
+    "chart-3": "oklch(0.739 0.056 123.8)",
+    "chart-4": "oklch(0.582 0.123 32.4)",
+    "chart-5": "oklch(0.237 0.010 248.2)",
+    "sidebar": "oklch(0.973 0.001 106.4)",
+    "sidebar-foreground": "oklch(0.237 0.010 248.2)",
+    "sidebar-primary": "oklch(0.554 0.009 253.9)",
+    "sidebar-primary-foreground": "oklch(0.967 0.007 88.6)",
+    "sidebar-accent": "oklch(0.928 0.003 264.5)",
+    "sidebar-accent-foreground": "oklch(0.554 0.009 253.9)",
+    "sidebar-border": "oklch(0.966 0.003 247.9)",
+    "sidebar-ring": "oklch(0.667 0.075 61.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.237 0.010 248.2)",
+    "foreground": "oklch(0.967 0.007 88.6)",
+    "card": "oklch(0.237 0.010 248.2)",
+    "card-foreground": "oklch(0.967 0.007 88.6)",
+    "popover": "oklch(0.237 0.010 248.2)",
+    "popover-foreground": "oklch(0.967 0.007 88.6)",
+    "primary": "oklch(0.667 0.075 61.8)",
+    "primary-foreground": "oklch(0.237 0.010 248.2)",
+    "secondary": "oklch(0.418 0.008 248.0)",
+    "secondary-foreground": "oklch(0.967 0.007 88.6)",
+    "muted": "oklch(0.418 0.008 248.0)",
+    "muted-foreground": "oklch(0.961 0.003 106.4)",
+    "accent": "oklch(0.739 0.056 123.8)",
+    "accent-foreground": "oklch(0.237 0.010 248.2)",
+    "destructive": "oklch(0.554 0.009 253.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.667 0.075 61.8)",
+    "chart-1": "oklch(0.667 0.075 61.8)",
+    "chart-2": "oklch(0.554 0.009 253.9)",
+    "chart-3": "oklch(0.739 0.056 123.8)",
+    "chart-4": "oklch(0.582 0.123 32.4)",
+    "chart-5": "oklch(0.951 0.005 247.9)",
+    "sidebar": "oklch(0.237 0.010 248.2)",
+    "sidebar-foreground": "oklch(0.967 0.007 88.6)",
+    "sidebar-primary": "oklch(0.667 0.075 61.8)",
+    "sidebar-primary-foreground": "oklch(0.237 0.010 248.2)",
+    "sidebar-accent": "oklch(0.418 0.008 248.0)",
+    "sidebar-accent-foreground": "oklch(0.967 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.667 0.075 61.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise English product UI with Japanese typography guidance for route names, waypoint tables, altitude metrics, bearings, search, alerts, navigation states, and compact dashboard numerals.",
+  "layout": "Compact 8px navigation grids, steady sidebar and top navigation, elevation and bearing data density, horn-ridge texture strips, alpine rock dividers, restrained shadows, and crisp 8px cards and controls.",
+  "tags": [
+    "ibex",
+    "mammal",
+    "alpine-rock",
+    "ibex-horns",
+    "warm-brown",
+    "grey-horn",
+    "lichen",
+    "navigation-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ibex/motif.png",
+    "board": "/systems/morphous-ibex/design-system-light.png",
+    "darkBoard": "/systems/morphous-ibex/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ibex/theme.css",
+    "themeJson": "/systems/morphous-ibex/theme.json",
+    "promptsJson": "/systems/morphous-ibex/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent ibex motif",
+      "asset": "/systems/morphous-ibex/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an isolated full-body alpine ibex motif, no environment, no props, no text.\nSubject: A single adult alpine ibex standing in a poised precise mountain-navigation posture, accurate ibex anatomy, warm brown winter coat, grey-brown legs and beard, pale underbelly highlights, massive ridged backward-curving horns in grey horn and stone taupe, small alert face, black hoof detail, subtle lichen-tinted horn and rock undertones. Keep the silhouette clean enough for background removal while preserving natural fur and horn texture.\nComposition/framing: centered complete ibex cutout with generous padding on all sides; do not crop horns, beard, hooves, tail, muzzle, or fur outline. Three-quarter side pose with head turned slightly toward viewer is acceptable; the whole subject must remain fully inside the frame.\nLighting/mood: clean studio light that preserves warm brown coat texture, ridged horn structure, grey horn highlights, and alpine rock character.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no mountain landscape, no rock ground, no decorative background, no second ibex, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-ibex/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Ibex light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Ibex\", derived from the visible isolated alpine ibex cutout with warm brown coat, grey ridged horns, alpine rock, and lichen undertones. This board is a source reference for implementing a shadcn/tweakcn-compatible precise navigation system.\nReference use: Use the visible ibex motif as the source of truth. Extract warm brown coat, grey horn ridges, stone alpine rock neutrals, pale belly highlights, dark hoof ink, and muted horn lichen accents. The board must visibly respect these motif colors and horn/rock texture rhythms.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Ibex, Ibex, Motif Story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Route Status, Tokens, Texture, Radius, Spacing, Shadows, Sample Usage, Generated Assets.\nPalette direction: snow-lit stone background, warm brown ibex coat surfaces, dark hoof ink, grey horn primary controls, lichen sage accent and focus, alpine rock borders, pale horn highlights, muted taupe undercoat neutrals, and restrained near-neutrals derived only from the motif.\nTypography: precise navigation product UI guidance with English and Japanese type. Use a clear geometric/humanist sans for headings/body and Noto Sans JP / Japanese Gothic guidance for Japanese headings, body, labels, route names, waypoint tables, altitude metrics, search, alerts, and dashboard numerals. Include short Japanese labels such as ルート, 検索, 高度, 方位.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, route dashboard metric cards, elevation chart, bearing/range graph, waypoint table, path queue, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple navigation icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, horn-ridge texture swatches, alpine rock grain swatches, lichen accent swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, calm precise navigation console, light alpine stone surfaces, grey horn primary actions, lichen focus accents, dark hoof typography contrast, subtle horn-ridge and rock-grain texture strips, efficient hierarchy for wayfinding and tactical route decisions, compact dashboard density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Ibex\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-ibex/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Ibex dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Ibex\". It must feel like the same precise navigation system translated to dark mode, not a new theme, and it must remain derived from the visible ibex motif and the visible light-mode board.\nReference use: Use the visible ibex motif and light-mode board as references. Preserve warm brown coat surfaces, grey horn primary controls, lichen focus accents, alpine rock neutrals, dark hoof ink, horn-ridge texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Ibex, Dark Mode, Ibex, Motif Story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Route Status, Tokens, Texture, Radius, Spacing, Shadows, Sample Usage, Generated Assets.\nPalette direction: deepest hoof-ink and alpine-night background, dark horn graphite panels, mist and horn-highlight foreground text, lichen sage accent and focus rings, warm brown coat charts, stone-grey borders, taupe undercoat neutrals, and restrained near-neutrals derived only from the motif.\nTypography: precise navigation product UI guidance with English and Japanese type. Use a clear geometric/humanist sans for headings/body and Noto Sans JP / Japanese Gothic guidance for Japanese headings, body, labels, route names, waypoint tables, altitude metrics, search, alerts, and dashboard numerals. Include short Japanese labels such as ルート, 検索, 高度, 方位.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, route dashboard metric cards, elevation chart, bearing/range graph, waypoint table, path queue, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple navigation icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, horn-ridge texture swatches, alpine rock grain swatches, lichen accent swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the ibex's dark hooves and deep coat shadows, elevated panels in horn graphite and alpine-night brown, mist/horn-highlight foreground text, lichen focus accents, grey horn primary actions, stone border lines, subtle horn-ridge and rock-grain texture overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Ibex\", no tiny illegible paragraphs."
+    }
+  ]
+}

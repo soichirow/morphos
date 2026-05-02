@@ -1,0 +1,49 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-kinglet",
+  "name": "Morphous Kinglet",
+  "status": "ready",
+  "motifName": "Kinglet",
+  "motifCategory": "bird",
+  "biome": "Conifer Grove",
+  "motif": "kinglet crown",
+  "description": "A compact notification design system derived from a kinglet crown: olive conifer surfaces, yellow crown signals, soft feather greys, charcoal detail, and precise alert rhythms.",
+  "typography": "Inter for compact notification UI with Noto Sans JP guidance for multilingual alerts, inboxes, badges, forms, and operational dashboards.",
+  "layout": "Compact notification-center density, 8px radius cards, thin lichen borders, crown-stripe highlight cadence, tight inbox rows, and quiet conifer-grove surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "kinglet",
+    "bird",
+    "conifer",
+    "crown",
+    "olive",
+    "yellow",
+    "grey",
+    "notification",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Conifer Mist", "hex": "#F4F6F2" },
+    { "role": "Highlight", "name": "Feather Cream", "hex": "#FBF8F0" },
+    { "role": "Secondary", "name": "Soft Feather Grey", "hex": "#D8DBD4" },
+    { "role": "Primary", "name": "Olive Green", "hex": "#687F4A" },
+    { "role": "Surface", "name": "Spruce Surface", "hex": "#E6F2E6" },
+    { "role": "Accent", "name": "Crown Yellow", "hex": "#FFD447" },
+    { "role": "Signal", "name": "Crown Amber", "hex": "#FFB21A" },
+    { "role": "Ink", "name": "Charcoal Eye", "hex": "#1E1F1C" },
+    { "role": "Depth", "name": "Bark Shadow", "hex": "#3A3D33" },
+    { "role": "Border", "name": "Lichen Line", "hex": "#B9C2AE" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

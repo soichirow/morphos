@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-katydid",
+    "name": "Morphous Katydid",
+    "motifName": "Katydid Leaf Wing",
+    "motifCategory": "insect",
+    "biome": "summer canopy",
+    "motif": "leaf wing with fine vein lattice"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tender Canopy",
+      "hex": "#f4fae8",
+      "oklch": "oklch(0.976 0.024 121.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Moss Shadow",
+      "hex": "#26321f",
+      "oklch": "oklch(0.300 0.037 134.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#6ea04d",
+      "oklch": "oklch(0.651 0.126 134.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Vein Lime",
+      "hex": "#b7e368",
+      "oklch": "oklch(0.859 0.159 125.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Green",
+      "hex": "#a9c78a",
+      "oklch": "oklch(0.792 0.089 129.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Canopy White",
+      "hex": "#fefff7",
+      "oklch": "oklch(0.997 0.011 112.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Neutral",
+      "hex": "#e8e6da",
+      "oklch": "oklch(0.923 0.016 99.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Olive",
+      "hex": "#3e482d",
+      "oklch": "oklch(0.385 0.045 125.0)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Antenna Gold",
+      "hex": "#e6d48a",
+      "oklch": "oklch(0.868 0.096 96.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.024 121.9)",
+    "foreground": "oklch(0.300 0.037 134.4)",
+    "card": "oklch(0.997 0.011 112.4)",
+    "card-foreground": "oklch(0.300 0.037 134.4)",
+    "popover": "oklch(0.997 0.011 112.4)",
+    "popover-foreground": "oklch(0.300 0.037 134.4)",
+    "primary": "oklch(0.651 0.126 134.3)",
+    "primary-foreground": "oklch(0.976 0.024 121.9)",
+    "secondary": "oklch(0.989 0.016 118.1)",
+    "secondary-foreground": "oklch(0.385 0.045 125.0)",
+    "muted": "oklch(0.992 0.015 119.1)",
+    "muted-foreground": "oklch(0.385 0.045 125.0)",
+    "accent": "oklch(0.859 0.159 125.9)",
+    "accent-foreground": "oklch(0.300 0.037 134.4)",
+    "destructive": "oklch(0.651 0.126 134.3)",
+    "border": "oklch(0.971 0.012 106.6)",
+    "input": "oklch(0.971 0.012 106.6)",
+    "ring": "oklch(0.792 0.089 129.5)",
+    "chart-1": "oklch(0.651 0.126 134.3)",
+    "chart-2": "oklch(0.792 0.089 129.5)",
+    "chart-3": "oklch(0.859 0.159 125.9)",
+    "chart-4": "oklch(0.997 0.011 112.4)",
+    "chart-5": "oklch(0.385 0.045 125.0)",
+    "sidebar": "oklch(0.990 0.015 115.0)",
+    "sidebar-foreground": "oklch(0.300 0.037 134.4)",
+    "sidebar-primary": "oklch(0.651 0.126 134.3)",
+    "sidebar-primary-foreground": "oklch(0.976 0.024 121.9)",
+    "sidebar-accent": "oklch(0.957 0.024 125.2)",
+    "sidebar-accent-foreground": "oklch(0.651 0.126 134.3)",
+    "sidebar-border": "oklch(0.971 0.012 106.6)",
+    "sidebar-ring": "oklch(0.792 0.089 129.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.300 0.037 134.4)",
+    "foreground": "oklch(0.976 0.024 121.9)",
+    "card": "oklch(0.358 0.043 127.7)",
+    "card-foreground": "oklch(0.976 0.024 121.9)",
+    "popover": "oklch(0.358 0.043 127.7)",
+    "popover-foreground": "oklch(0.976 0.024 121.9)",
+    "primary": "oklch(0.792 0.089 129.5)",
+    "primary-foreground": "oklch(0.300 0.037 134.4)",
+    "secondary": "oklch(0.514 0.038 122.7)",
+    "secondary-foreground": "oklch(0.976 0.024 121.9)",
+    "muted": "oklch(0.514 0.038 122.7)",
+    "muted-foreground": "oklch(0.953 0.020 112.9)",
+    "accent": "oklch(0.859 0.159 125.9)",
+    "accent-foreground": "oklch(0.300 0.037 134.4)",
+    "destructive": "oklch(0.651 0.126 134.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.792 0.089 129.5)",
+    "chart-1": "oklch(0.792 0.089 129.5)",
+    "chart-2": "oklch(0.651 0.126 134.3)",
+    "chart-3": "oklch(0.859 0.159 125.9)",
+    "chart-4": "oklch(0.997 0.011 112.4)",
+    "chart-5": "oklch(0.923 0.016 99.0)",
+    "sidebar": "oklch(0.339 0.041 129.2)",
+    "sidebar-foreground": "oklch(0.976 0.024 121.9)",
+    "sidebar-primary": "oklch(0.792 0.089 129.5)",
+    "sidebar-primary-foreground": "oklch(0.300 0.037 134.4)",
+    "sidebar-accent": "oklch(0.514 0.038 122.7)",
+    "sidebar-accent-foreground": "oklch(0.976 0.024 121.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.792 0.089 129.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable for compact product UI with Hiragino Sans and Noto Sans JP guidance for Japanese labels, calm collaboration copy, and dense dashboard data.",
+  "layout": "Precise 4px spacing steps, 8px maximum radius, fine vein-like separators, translucent wing panels, compact navigation, quiet dashboard modules, and restrained status hierarchy.",
+  "tags": [
+    "katydid",
+    "insect",
+    "leaf-wing",
+    "summer-canopy",
+    "collaboration",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-katydid/motif.png",
+    "board": "/systems/morphous-katydid/design-system-light.png",
+    "darkBoard": "/systems/morphous-katydid/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-katydid/theme.css",
+    "themeJson": "/systems/morphous-katydid/theme.json",
+    "promptsJson": "/systems/morphous-katydid/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Katydid motif",
+      "asset": "/systems/morphous-katydid/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Katydid transparent motif chroma-key source\nPrimary request: Create only an isolated katydid with leaf-like wings for a design-system catalog; no environment, no props, no text.\nSubject: A single katydid insect with accurate anatomy, long antennae, angular legs, leaf-mimicking translucent green wings, visible vein network, lime edge highlights, darker moss-green body shadows, subtle summer canopy coloration, crisp silhouette edges, and natural wing texture. The insect should read as a katydid, not a grasshopper, mantis, cicada, or leaf insect.\nComposition/framing: centered complete cutout with generous padding; show the full insect including antennae, legs, body, and leaf-like folded wing without cropping.\nLighting/mood: clean studio light that preserves leaf green, vein lime, dark olive shadows, and fine wing membrane detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no leaves as separate objects, no branch, no landscape, no second insect, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-katydid/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Katydid\" / \"Katydid Leaf Wing\", source reference for a shadcn/tweakcn-compatible theme.\nReference use: Use the previously generated isolated katydid motif as the visual source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from its leaf-like wing, vein network, lime highlights, and dark olive shadows.\nCanvas: exact wide 16:9 board, 3840x2160 preferred, at least 2400px wide if possible.\nResolution and legibility: high-resolution source board with large readable labels; do not overpack tiny token tables.\nRequired visible sections: title, motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows.\nPalette: leaf green, vein lime, tender canopy cream, dark olive, moss shadow, translucent wing green, pale antenna gold, and quiet bark neutral. Use only motif-derived greens, limes, olives, warm pale highlights, and near-neutrals from the motif.\nTypography: include English product UI guidance and Japanese examples such as \"葉脈\", \"協働\", \"検索\", \"状態\", and \"設定\". Favor calm, readable SaaS typography with multilingual support.\nUI language: discreet collaboration system, compact product interface, shadcn/tweakcn style, precise grid, radius tokens capped at 8px, fine leaf-vein dividers, translucent wing panels, quiet collaboration badges, calm status colors, readable data cards, tables, forms, command menu, search field, tabs, switches, checkboxes, radio controls, alerts, loading/empty/error states, dashboard charts, side navigation, top navigation.\nVisual details: leaf-vein linework as separators, wing membrane texture overlays, dark olive text, lime focus rings, muted cream surfaces, no oversized marketing hero section.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no grasshopper label, no mantis, no cicada, no generic purple/blue gradients, no unrelated saturated colors, no neon palette, no beige/brown dominance, no random brand names, no watermark. Keep all cards and controls at 8px radius or less."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-katydid/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Katydid\" / \"Katydid Leaf Wing\". It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the isolated katydid motif and the light-mode Morphous Katydid board visible in context as source references. Preserve the same palette roles, component language, leaf-vein texture, compact spacing, 8px max radius, and English/Japanese typography guidance.\nCanvas: exact wide 16:9 board, 3840x2160 preferred, at least 2400px wide if possible.\nResolution and legibility: high-resolution source board with large readable labels; avoid dense tiny text.\nRequired visible sections: title, Dark Mode, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows.\nDark palette: deep canopy black-green, moss shadow, dark olive, leaf green active states, vein lime focus rings, wing cream foreground, pale antenna gold highlights, muted bark neutral borders. Keep contrast restrained and readable, not neon.\nTypography: include English product UI guidance and Japanese examples such as \"葉脈\", \"協働\", \"検索\", \"状態\", and \"設定\". Favor calm, readable SaaS typography with multilingual support.\nUI language: discreet collaboration system, compact product interface, shadcn/tweakcn style, fine leaf-vein dividers, translucent wing panels, quiet collaboration badges, dark dashboard charts, data tables, forms, command menu, search field, tabs, switches, checkboxes, radio controls, alerts, loading/empty/error states, side navigation, top navigation.\nVisual details: dark background from the katydid's deepest body shadows, subtle wing membrane texture overlays, lime ring states, muted dark cards, crisp borders, no oversized marketing hero section.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no grasshopper label, no mantis, no cicada, no pure black flat background, no neon colors, no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark. Keep all cards and controls at 8px radius or less."
+    }
+  ]
+}

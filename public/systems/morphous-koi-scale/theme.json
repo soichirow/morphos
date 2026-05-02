@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-koi-scale",
+    "name": "Koi Scale",
+    "motifName": "Koi Scale Pattern",
+    "motifCategory": "fish",
+    "biome": "Koi pond",
+    "motif": "koi scale pattern"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Porcelain White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Sumi Black",
+      "hex": "#0D0D0D",
+      "oklch": "oklch(0.159 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Koi Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Jade Water",
+      "hex": "#2E8C7E",
+      "oklch": "oklch(0.582 0.089 181.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Vermilion Scale",
+      "hex": "#E03D16",
+      "oklch": "oklch(0.601 0.205 33.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Porcelain White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pond Mist",
+      "hex": "#E6F2EF",
+      "oklch": "oklch(0.951 0.013 179.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Stone",
+      "hex": "#8b9a92",
+      "oklch": "oklch(0.672 0.021 162.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Jade",
+      "hex": "#123d39",
+      "oklch": "oklch(0.329 0.047 186.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.003 106.4)",
+    "foreground": "oklch(0.159 0.000 89.9)",
+    "card": "oklch(0.951 0.013 179.5)",
+    "card-foreground": "oklch(0.159 0.000 89.9)",
+    "popover": "oklch(0.951 0.013 179.5)",
+    "popover-foreground": "oklch(0.159 0.000 89.9)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.985 0.003 106.4)",
+    "secondary": "oklch(0.964 0.008 177.3)",
+    "secondary-foreground": "oklch(0.329 0.047 186.6)",
+    "muted": "oklch(0.961 0.009 179.6)",
+    "muted-foreground": "oklch(0.329 0.047 186.6)",
+    "accent": "oklch(0.601 0.205 33.8)",
+    "accent-foreground": "oklch(0.159 0.000 89.9)",
+    "destructive": "oklch(0.701 0.201 44.8)",
+    "border": "oklch(0.853 0.015 175.7)",
+    "input": "oklch(0.853 0.015 175.7)",
+    "ring": "oklch(0.582 0.089 181.3)",
+    "chart-1": "oklch(0.701 0.201 44.8)",
+    "chart-2": "oklch(0.582 0.089 181.3)",
+    "chart-3": "oklch(0.601 0.205 33.8)",
+    "chart-4": "oklch(0.985 0.003 106.4)",
+    "chart-5": "oklch(0.329 0.047 186.6)",
+    "sidebar": "oklch(0.963 0.009 171.8)",
+    "sidebar-foreground": "oklch(0.159 0.000 89.9)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-accent": "oklch(0.914 0.023 87.2)",
+    "sidebar-accent-foreground": "oklch(0.701 0.201 44.8)",
+    "sidebar-border": "oklch(0.853 0.015 175.7)",
+    "sidebar-ring": "oklch(0.582 0.089 181.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.159 0.000 89.9)",
+    "foreground": "oklch(0.985 0.003 106.4)",
+    "card": "oklch(0.274 0.035 186.3)",
+    "card-foreground": "oklch(0.985 0.003 106.4)",
+    "popover": "oklch(0.274 0.035 186.3)",
+    "popover-foreground": "oklch(0.985 0.003 106.4)",
+    "primary": "oklch(0.582 0.089 181.3)",
+    "primary-foreground": "oklch(0.159 0.000 89.9)",
+    "secondary": "oklch(0.406 0.042 186.6)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.406 0.042 186.6)",
+    "muted-foreground": "oklch(0.848 0.010 155.1)",
+    "accent": "oklch(0.601 0.205 33.8)",
+    "accent-foreground": "oklch(0.159 0.000 89.9)",
+    "destructive": "oklch(0.701 0.201 44.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.582 0.089 181.3)",
+    "chart-1": "oklch(0.582 0.089 181.3)",
+    "chart-2": "oklch(0.701 0.201 44.8)",
+    "chart-3": "oklch(0.601 0.205 33.8)",
+    "chart-4": "oklch(0.985 0.003 106.4)",
+    "chart-5": "oklch(0.672 0.021 162.6)",
+    "sidebar": "oklch(0.239 0.026 187.3)",
+    "sidebar-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-primary": "oklch(0.582 0.089 181.3)",
+    "sidebar-primary-foreground": "oklch(0.159 0.000 89.9)",
+    "sidebar-accent": "oklch(0.406 0.042 186.6)",
+    "sidebar-accent-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.582 0.089 181.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact content and dashboards, with Noto Sans JP guidance for Japanese labels and calm ornamental hierarchy.",
+  "layout": "8px grid with scale-arc cards, jade focus rings, ink-line separators, compact status rows, readable forms, tables, charts, and navigation.",
+  "tags": [
+    "koi",
+    "scale",
+    "fish",
+    "koi-pond",
+    "ornamental",
+    "content",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-koi-scale/motif.png",
+    "board": "/systems/morphous-koi-scale/design-system-light.png",
+    "darkBoard": "/systems/morphous-koi-scale/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-koi-scale/theme.css",
+    "themeJson": "/systems/morphous-koi-scale/theme.json",
+    "promptsJson": "/systems/morphous-koi-scale/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Koi Scale motif",
+      "asset": "/systems/morphous-koi-scale/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: transparent PNG motif cutout for Morphous design system, final asset public/systems/morphous-koi-scale/motif.png\nPrimary request: Create an ornamental koi scale pattern motif cutout inspired by a koi pond, using vivid koi orange, porcelain white, ink black markings, and jade water accents.\nScene/backdrop: perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nSubject: a compact overlapping fan of koi fish scales, each scale like a rounded teardrop/arc tile with enamel-like orange and white surfaces, irregular black sumi markings, subtle jade-water rim highlights, clean decorative edges, and enough internal detail to read as koi scale pattern.\nComposition: centered isolated object, generous padding, no cast shadow, no contact shadow, no reflection, no text, no watermark. Keep the subject fully separated from the background with crisp edges. Do not use #00ff00 anywhere in the subject.\nStyle: polished semi-realistic ornamental cutout, high-resolution, crisp contour suitable for catalog preview and palette sampling."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-koi-scale/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 design-system board image for Morphous catalog, light mode\nPrimary request: Create a complete high-resolution 16:9 light-mode design system board for \"Koi Scale\", an ornamental content system inspired by koi orange/white/black scales and jade pond water.\nMotif reference: centered ornamental koi scale pattern cutout with overlapping enamel scales, koi orange, porcelain white, ink black sumi markings, and jade-water accents.\nCanvas: exactly 3840 x 2160 pixels, crisp readable text, white warm-rice-paper background with subtle jade water ripples and faint scale texture. No watermark, no fake brand names, no random logos.\nRequired readable sections with labels: title \"Koi Scale\", palette swatches named Koi Orange, Porcelain White, Sumi Black, Jade Water, Pond Mist, Vermilion Scale; typography guidance for English and Japanese; spacing/radius/shadow tokens; navigation rail and top nav; dashboard section with line chart, bar chart, donut chart, metric cards, and status indicators; content cards for articles/media; data table with readable column headers; form section with input, select, textarea, checkbox, radio, switch, segmented tabs; buttons in primary secondary ghost destructive states; badges, alert, tooltip, command search, empty loading and error states.\nVisual language: ornamental editorial/content UI, scale-arc borders, black ink dividers, orange call-to-action accents, jade focus rings, porcelain cards, compact dashboard clarity. Use larger labels and fewer dense rows so text remains legible in gallery preview."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-koi-scale/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 design-system board image for Morphous catalog, dark mode\nPrimary request: Create a complete high-resolution 16:9 dark-mode design system board for \"Koi Scale\", matching the same ornamental content system as the light board, translated into dark mode.\nMotif reference: ornamental koi scale pattern with overlapping enamel scales, koi orange, porcelain white, ink black sumi markings, and jade-water pond accents.\nCanvas: exactly 3840 x 2160 pixels, crisp readable text, deep sumi-black and dark jade pond background, subtle water ripples and scale texture, porcelain text/cards, orange highlights, jade focus rings. No watermark, no fake brand names, no random logos.\nRequired readable sections with labels: title \"Koi Scale Dark\", palette swatches named Koi Orange, Porcelain White, Sumi Black, Jade Water, Pond Mist, Vermilion Scale; typography guidance for English and Japanese; spacing/radius/shadow tokens; navigation rail and top nav; dashboard section with line chart, bar chart, donut chart, metric cards, and status indicators; content cards for articles/media; data table with readable column headers; form section with input, select, textarea, checkbox, radio, switch, segmented tabs; buttons in primary secondary ghost destructive states; badges, alert, tooltip, command search, empty loading and error states.\nVisual language: ornamental editorial/content UI for a dark koi pond interface, scale-arc borders, ink-brush dividers, glowing jade active states, orange calls to action, compact dashboard clarity. Use larger labels and fewer dense rows so text remains legible in gallery preview."
+    }
+  ]
+}
