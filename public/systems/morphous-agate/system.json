@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-agate",
+  "name": "Morphous Agate",
+  "motifName": "Agate",
+  "motifCategory": "mineral",
+  "biome": "Geode Seam",
+  "motif": "agate bands",
+  "description": "A layered editor system derived from agate bands: quartz cream, cocoa seams, taupe veins, blue chalcedony traces, milky mineral layers, and contour-like geode banding.",
+  "typography": "Dense English editor UI with precise numerals and Japanese guidance for structured tool panels.",
+  "layout": "Stacked 8px panels, banded contour dividers, layer chips, compact controls, and subtle mineral-grain surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "agate",
+    "mineral",
+    "geode",
+    "banding",
+    "layered-editor",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Quartz Cream",
+      "hex": "#f7f0df"
+    },
+    {
+      "role": "Ink",
+      "name": "Seam Ink",
+      "hex": "#25201b"
+    },
+    {
+      "role": "Primary",
+      "name": "Cocoa Band",
+      "hex": "#7b563f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blue Chalcedony",
+      "hex": "#6f8fa7"
+    },
+    {
+      "role": "Accent",
+      "name": "Milky Layer",
+      "hex": "#e8dbc4"
+    },
+    {
+      "role": "Signal",
+      "name": "Taupe Vein",
+      "hex": "#a9896a"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Sand",
+      "hex": "#f0e4cf"
+    },
+    {
+      "role": "Muted",
+      "name": "Slate Trace",
+      "hex": "#49606f"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Umber",
+      "hex": "#3c2b23"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-atlas-moth",
+    "name": "Morphous Atlas Moth",
+    "motifName": "Atlas Moth Wing",
+    "motifCategory": "insect",
+    "biome": "Tropical forest",
+    "motif": "atlas moth wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment Wing",
+      "hex": "#f6efe3",
+      "oklch": "oklch(0.954 0.018 81.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Vein",
+      "hex": "#1c1c1b",
+      "oklch": "oklch(0.226 0.002 106.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Copper Scale",
+      "hex": "#b4552a",
+      "oklch": "oklch(0.560 0.136 43.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chestnut Field",
+      "hex": "#7a3823",
+      "oklch": "oklch(0.424 0.098 38.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Window",
+      "hex": "#f2e5cf",
+      "oklch": "oklch(0.926 0.032 81.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tawny Edge",
+      "hex": "#d6a261",
+      "oklch": "oklch(0.747 0.103 71.3)"
+    },
+    {
+      "role": "Support",
+      "name": "Forest Underside",
+      "hex": "#2f4a38",
+      "oklch": "oklch(0.382 0.045 154.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Burnt Umber",
+      "hex": "#5a2a16",
+      "oklch": "oklch(0.346 0.077 42.3)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Moth Shadow",
+      "hex": "#0e0e12",
+      "oklch": "oklch(0.166 0.008 285.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.954 0.018 81.3)",
+    "foreground": "oklch(0.226 0.002 106.6)",
+    "card": "oklch(0.926 0.032 81.0)",
+    "card-foreground": "oklch(0.226 0.002 106.6)",
+    "popover": "oklch(0.926 0.032 81.0)",
+    "popover-foreground": "oklch(0.226 0.002 106.6)",
+    "primary": "oklch(0.560 0.136 43.1)",
+    "primary-foreground": "oklch(0.954 0.018 81.3)",
+    "secondary": "oklch(0.938 0.027 80.2)",
+    "secondary-foreground": "oklch(0.346 0.077 42.3)",
+    "muted": "oklch(0.935 0.028 81.5)",
+    "muted-foreground": "oklch(0.346 0.077 42.3)",
+    "accent": "oklch(0.747 0.103 71.3)",
+    "accent-foreground": "oklch(0.226 0.002 106.6)",
+    "destructive": "oklch(0.560 0.136 43.1)",
+    "border": "oklch(0.751 0.049 56.4)",
+    "input": "oklch(0.751 0.049 56.4)",
+    "ring": "oklch(0.424 0.098 38.2)",
+    "chart-1": "oklch(0.560 0.136 43.1)",
+    "chart-2": "oklch(0.424 0.098 38.2)",
+    "chart-3": "oklch(0.747 0.103 71.3)",
+    "chart-4": "oklch(0.747 0.103 71.3)",
+    "chart-5": "oklch(0.346 0.077 42.3)",
+    "sidebar": "oklch(0.935 0.027 80.2)",
+    "sidebar-foreground": "oklch(0.226 0.002 106.6)",
+    "sidebar-primary": "oklch(0.560 0.136 43.1)",
+    "sidebar-primary-foreground": "oklch(0.954 0.018 81.3)",
+    "sidebar-accent": "oklch(0.882 0.042 69.6)",
+    "sidebar-accent-foreground": "oklch(0.560 0.136 43.1)",
+    "sidebar-border": "oklch(0.751 0.049 56.4)",
+    "sidebar-ring": "oklch(0.424 0.098 38.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.226 0.002 106.6)",
+    "foreground": "oklch(0.954 0.018 81.3)",
+    "card": "oklch(0.303 0.054 42.5)",
+    "card-foreground": "oklch(0.954 0.018 81.3)",
+    "popover": "oklch(0.303 0.054 42.5)",
+    "popover-foreground": "oklch(0.954 0.018 81.3)",
+    "primary": "oklch(0.424 0.098 38.2)",
+    "primary-foreground": "oklch(0.226 0.002 106.6)",
+    "secondary": "oklch(0.364 0.082 41.0)",
+    "secondary-foreground": "oklch(0.954 0.018 81.3)",
+    "muted": "oklch(0.364 0.082 41.0)",
+    "muted-foreground": "oklch(0.722 0.046 47.3)",
+    "accent": "oklch(0.747 0.103 71.3)",
+    "accent-foreground": "oklch(0.226 0.002 106.6)",
+    "destructive": "oklch(0.560 0.136 43.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.424 0.098 38.2)",
+    "chart-1": "oklch(0.424 0.098 38.2)",
+    "chart-2": "oklch(0.560 0.136 43.1)",
+    "chart-3": "oklch(0.747 0.103 71.3)",
+    "chart-4": "oklch(0.747 0.103 71.3)",
+    "chart-5": "oklch(0.424 0.098 38.2)",
+    "sidebar": "oklch(0.279 0.039 42.1)",
+    "sidebar-foreground": "oklch(0.954 0.018 81.3)",
+    "sidebar-primary": "oklch(0.424 0.098 38.2)",
+    "sidebar-primary-foreground": "oklch(0.226 0.002 106.6)",
+    "sidebar-accent": "oklch(0.364 0.082 41.0)",
+    "sidebar-accent-foreground": "oklch(0.954 0.018 81.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.424 0.098 38.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Display serif-inspired headings with clean sans UI text and Noto Sans JP or Hiragino guidance for Japanese labels.",
+  "layout": "Large 16:9 canvas boards, 8px product radii, wing-window panels, charcoal vein dividers, generous spacing, warm shadows, and precise dashboard density.",
+  "tags": [
+    "atlas-moth",
+    "moth",
+    "insect",
+    "tropical-forest",
+    "copper",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-atlas-moth/motif.png",
+    "board": "/systems/morphous-atlas-moth/design-system-light.png",
+    "darkBoard": "/systems/morphous-atlas-moth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-atlas-moth/theme.css",
+    "themeJson": "/systems/morphous-atlas-moth/theme.json",
+    "promptsJson": "/systems/morphous-atlas-moth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Atlas moth motif",
+      "asset": "/systems/morphous-atlas-moth/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Atlas Moth transparent motif chroma-key source\nPrimary request: Create only an isolated Atlas moth motif for a design-system catalog, no environment, no props, no text.\nSubject: A complete Atlas moth (Attacus atlas) with accurate broad triangular wings, copper brown and warm chestnut wing fields, cream translucent window markings, black vein structure, charcoal outlines, and the distinctive snake-head-like wing tips. Natural wing-scale texture, symmetrical but organic posture, crisp silhouette edges, visible body and antennae.\nComposition/framing: centered complete cutout with generous padding; show both forewings and hindwings without cropping.\nLighting/mood: clean studio light that preserves copper brown, cream, black, and subtle tropical forest undertones.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no butterfly, no monarch, no dragonfly, no extra insects, no flowers, no leaves, no branch, no landscape, no decorative background, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-atlas-moth/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Create one 3840x2160 comprehensive light-mode design-system board for Morphous Atlas Moth / Atlas Moth Wing, derived from the Atlas moth motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the Atlas moth image: copper brown wings, cream translucent windows, charcoal black outlines, warm chestnut, tawny gold, pale parchment, and tropical forest undertones.\nRequired visible sections: title, motif story, palette, typography, Japanese typography, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, sample usage, generated asset examples.\nVisual language: large canvas system, 8px radius cards, wing-window panels, black vein dividers, cream window surfaces, copper active states, tawny focus rings, subtle wing-scale texture, snake-tip corner motif, tropical forest accent used sparingly.\nConstraints: no monarch butterfly, no dragonfly, no unrelated bright colors, no generic purple/blue gradients, no random brand names, no watermark, no tiny illegible paragraphs, no misspelled system name."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-atlas-moth/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Create one 3840x2160 comprehensive dark-mode board for Morphous Atlas Moth / Atlas Moth Wing. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Preserve motif-derived palette roles, component language, texture, spacing, typography, wing-window panels, black vein dividers, cream windows, copper active states, tawny focus rings, and snake-tip corner motifs.\nRequired visible sections: title, Dark Mode, motif story, palette, typography, Japanese typography, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, sample usage, generated asset examples.\nVisual language: large canvas dark system, 8px radius cards, deep moth-shadow background, warm cream foreground, charcoal and burnt umber surfaces, copper active states, tawny gold focus rings, forest underside accents used sparingly, subtle wing-scale texture overlays.\nConstraints: no monarch butterfly, no dragonfly, no neon colors, no unrelated bright colors, no generic purple/blue gradients, no random brand names, no watermark, no tiny illegible paragraphs, no misspelled system name."
+    }
+  ]
+}

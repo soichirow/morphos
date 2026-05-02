@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-axolotl",
+    "name": "Morphous Axolotl",
+    "motifName": "Axolotl",
+    "motifCategory": "amphibian",
+    "biome": "Mexican Lake",
+    "motif": "axolotl gills"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lake Mist",
+      "hex": "#EAF6F3",
+      "oklch": "oklch(0.963 0.013 179.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Pond Ink",
+      "hex": "#1C2A2E",
+      "oklch": "oklch(0.274 0.020 217.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Axolotl Pink",
+      "hex": "#ffd6dc",
+      "oklch": "oklch(0.912 0.046 8.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral Gill",
+      "hex": "#FF7B8F",
+      "oklch": "oklch(0.741 0.161 12.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Green",
+      "hex": "#8fe7d6",
+      "oklch": "oklch(0.868 0.089 180.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Aqua Clear",
+      "hex": "#CDEFF0",
+      "oklch": "oklch(0.928 0.035 198.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Cream",
+      "hex": "#FFF7F2",
+      "oklch": "oklch(0.981 0.011 54.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Gray",
+      "hex": "#9AA7A1",
+      "oklch": "oklch(0.716 0.017 166.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Lake",
+      "hex": "#0e1f24",
+      "oklch": "oklch(0.227 0.025 218.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.963 0.013 179.5)",
+    "foreground": "oklch(0.274 0.020 217.3)",
+    "card": "oklch(0.981 0.011 54.5)",
+    "card-foreground": "oklch(0.274 0.020 217.3)",
+    "popover": "oklch(0.981 0.011 54.5)",
+    "popover-foreground": "oklch(0.274 0.020 217.3)",
+    "primary": "oklch(0.912 0.046 8.1)",
+    "primary-foreground": "oklch(0.963 0.013 179.5)",
+    "secondary": "oklch(0.974 0.007 115.7)",
+    "secondary-foreground": "oklch(0.227 0.025 218.8)",
+    "muted": "oklch(0.976 0.007 88.6)",
+    "muted-foreground": "oklch(0.227 0.025 218.8)",
+    "accent": "oklch(0.868 0.089 180.4)",
+    "accent-foreground": "oklch(0.274 0.020 217.3)",
+    "destructive": "oklch(0.912 0.046 8.1)",
+    "border": "oklch(0.888 0.007 97.4)",
+    "input": "oklch(0.888 0.007 97.4)",
+    "ring": "oklch(0.741 0.161 12.4)",
+    "chart-1": "oklch(0.912 0.046 8.1)",
+    "chart-2": "oklch(0.741 0.161 12.4)",
+    "chart-3": "oklch(0.868 0.089 180.4)",
+    "chart-4": "oklch(0.928 0.035 198.7)",
+    "chart-5": "oklch(0.227 0.025 218.8)",
+    "sidebar": "oklch(0.976 0.007 97.4)",
+    "sidebar-foreground": "oklch(0.274 0.020 217.3)",
+    "sidebar-primary": "oklch(0.912 0.046 8.1)",
+    "sidebar-primary-foreground": "oklch(0.963 0.013 179.5)",
+    "sidebar-accent": "oklch(0.972 0.014 39.4)",
+    "sidebar-accent-foreground": "oklch(0.912 0.046 8.1)",
+    "sidebar-border": "oklch(0.888 0.007 97.4)",
+    "sidebar-ring": "oklch(0.741 0.161 12.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.274 0.020 217.3)",
+    "foreground": "oklch(0.963 0.013 179.5)",
+    "card": "oklch(0.244 0.023 215.3)",
+    "card-foreground": "oklch(0.963 0.013 179.5)",
+    "popover": "oklch(0.244 0.023 215.3)",
+    "popover-foreground": "oklch(0.963 0.013 179.5)",
+    "primary": "oklch(0.741 0.161 12.4)",
+    "primary-foreground": "oklch(0.274 0.020 217.3)",
+    "secondary": "oklch(0.347 0.021 210.3)",
+    "secondary-foreground": "oklch(0.963 0.013 179.5)",
+    "muted": "oklch(0.347 0.021 210.3)",
+    "muted-foreground": "oklch(0.853 0.014 174.1)",
+    "accent": "oklch(0.868 0.089 180.4)",
+    "accent-foreground": "oklch(0.274 0.020 217.3)",
+    "destructive": "oklch(0.912 0.046 8.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.741 0.161 12.4)",
+    "chart-1": "oklch(0.741 0.161 12.4)",
+    "chart-2": "oklch(0.912 0.046 8.1)",
+    "chart-3": "oklch(0.868 0.089 180.4)",
+    "chart-4": "oklch(0.928 0.035 198.7)",
+    "chart-5": "oklch(0.716 0.017 166.5)",
+    "sidebar": "oklch(0.253 0.022 216.3)",
+    "sidebar-foreground": "oklch(0.963 0.013 179.5)",
+    "sidebar-primary": "oklch(0.741 0.161 12.4)",
+    "sidebar-primary-foreground": "oklch(0.274 0.020 217.3)",
+    "sidebar-accent": "oklch(0.347 0.021 210.3)",
+    "sidebar-accent-foreground": "oklch(0.963 0.013 179.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.741 0.161 12.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body text, labels, status copy, and numeric metrics.",
+  "layout": "Soft 8px product grids, calm wellness navigation, rounded-but-crisp controls, gill-line dividers, balanced analytics density, and clean Mexican lake neutrals.",
+  "tags": [
+    "axolotl",
+    "amphibian",
+    "mexican-lake",
+    "wellness",
+    "pale-pink",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-axolotl/motif.png",
+    "board": "/systems/morphous-axolotl/design-system-light.png",
+    "darkBoard": "/systems/morphous-axolotl/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-axolotl/theme.css",
+    "themeJson": "/systems/morphous-axolotl/theme.json",
+    "promptsJson": "/systems/morphous-axolotl/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent axolotl motif source",
+      "asset": "/systems/morphous-axolotl/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an axolotl focused on feathery external gills, isolated full subject, no environment, no props, no text.\nSubject: A charming pale pink axolotl with accurate amphibian anatomy, soft translucent skin, coral branching external gills, delicate water-green reflected highlights, tiny dark eyes, gentle wellness-system character, and clean natural texture.\nComposition/framing: centered complete cutout with generous padding; full body visible; gills prominent and crisp; do not crop tail, feet, face, or gills.\nLighting/mood: clean studio light that preserves pale pink body color, coral gill filaments, soft wet skin detail, and calm lake freshness.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no lake background, no bubbles, no decorative background, no second subject, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-axolotl/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Axolotl\" derived from the visible transparent axolotl cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible pale pink axolotl cutout: pale translucent body, coral branching gills, tiny black eyes, soft water-green lake reflections, creamy lake neutrals, and charming wellness-system softness. The board is the reference for coding a future theme, so token roles and component examples must be clear and readable.\nCanvas: exact wide 16:9 board, clean 3840 x 2160 composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Axolotl, Axolotl, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples; use labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic product UI mockup, precise grid, 8px card radius, charming wellness dashboard mood, soft wet-skin translucency, feathery gill-line dividers, clean lake-clinic surfaces.\nColor palette: use only motif-derived colors plus clean lake neutrals: pale axolotl pink, coral gill, soft water green, lake mist, shell cream, warm blush surface, deep pond ink, muted reed gray, clear aqua.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Axolotl\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-axolotl/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Axolotl light design-system board. It must feel like the same charming wellness system translated to dark mode, not a new theme.\nReference use: Use the visible transparent axolotl cutout and the visible light-mode Morphous Axolotl board as references. Preserve pale pink axolotl body, coral branching gill accents, water-green lake highlights, clean lake neutrals, feathery gill dividers, 8px radius, Japanese typography, and shadcn/tweakcn component coverage. The board is the reference for coding any future theme, so dark-mode token roles and component states must be clear.\nCanvas: exact wide 16:9 board, clean 3840 x 2160 composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Axolotl, Axolotl, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: dark background derived from deep pond ink and shaded lake water, light text from lake mist and shell cream, primary accents from pale axolotl pink, secondary accents from coral gill, supporting accents from soft water green and clear aqua, restrained luminous contrast, subtle wet-skin texture and gill-line overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels like Geist, Noto Sans JP, Heading, Body, Label, Metrics.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon overload, no unrelated saturated colors, no generic purple/blue gradients, no flat pure-black-only background, no illegible text, no watermark, no random brand names, no misspelling of \"Morphous Axolotl\"."
+    }
+  ]
+}

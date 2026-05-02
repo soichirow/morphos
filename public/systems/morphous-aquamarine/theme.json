@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-aquamarine",
+    "name": "Morphous Aquamarine",
+    "motifName": "Aquamarine Crystal",
+    "motifCategory": "mineral",
+    "biome": "Pegmatite Seam",
+    "motif": "aquamarine crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ice White",
+      "hex": "#f8fcfb",
+      "oklch": "oklch(0.988 0.004 179.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Teal Ink",
+      "hex": "#10292e",
+      "oklch": "oklch(0.263 0.032 212.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Aquamarine",
+      "hex": "#4fb8c6",
+      "oklch": "oklch(0.727 0.098 207.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Glass",
+      "hex": "#a8dfe3",
+      "oklch": "oklch(0.867 0.056 201.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Clear Facet",
+      "hex": "#e8f6f4",
+      "oklch": "oklch(0.962 0.015 186.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pegmatite Mist",
+      "hex": "#d9e8e4",
+      "oklch": "oklch(0.919 0.017 178.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Glacier Cyan",
+      "hex": "#78cad3",
+      "oklch": "oklch(0.790 0.081 204.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mineral Gray",
+      "hex": "#6f8584",
+      "oklch": "oklch(0.599 0.025 193.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tourmaline Shadow",
+      "hex": "#28484d",
+      "oklch": "oklch(0.379 0.039 208.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.988 0.004 179.7)",
+    "foreground": "oklch(0.263 0.032 212.3)",
+    "card": "oklch(0.919 0.017 178.2)",
+    "card-foreground": "oklch(0.263 0.032 212.3)",
+    "popover": "oklch(0.919 0.017 178.2)",
+    "popover-foreground": "oklch(0.263 0.032 212.3)",
+    "primary": "oklch(0.727 0.098 207.2)",
+    "primary-foreground": "oklch(0.988 0.004 179.7)",
+    "secondary": "oklch(0.947 0.011 182.9)",
+    "secondary-foreground": "oklch(0.379 0.039 208.4)",
+    "muted": "oklch(0.939 0.014 174.2)",
+    "muted-foreground": "oklch(0.379 0.039 208.4)",
+    "accent": "oklch(0.962 0.015 186.7)",
+    "accent-foreground": "oklch(0.263 0.032 212.3)",
+    "destructive": "oklch(0.727 0.098 207.2)",
+    "border": "oklch(0.806 0.019 184.1)",
+    "input": "oklch(0.806 0.019 184.1)",
+    "ring": "oklch(0.867 0.056 201.8)",
+    "chart-1": "oklch(0.727 0.098 207.2)",
+    "chart-2": "oklch(0.867 0.056 201.8)",
+    "chart-3": "oklch(0.962 0.015 186.7)",
+    "chart-4": "oklch(0.790 0.081 204.7)",
+    "chart-5": "oklch(0.379 0.039 208.4)",
+    "sidebar": "oklch(0.943 0.012 178.0)",
+    "sidebar-foreground": "oklch(0.263 0.032 212.3)",
+    "sidebar-primary": "oklch(0.727 0.098 207.2)",
+    "sidebar-primary-foreground": "oklch(0.988 0.004 179.7)",
+    "sidebar-accent": "oklch(0.893 0.028 191.0)",
+    "sidebar-accent-foreground": "oklch(0.727 0.098 207.2)",
+    "sidebar-border": "oklch(0.806 0.019 184.1)",
+    "sidebar-ring": "oklch(0.867 0.056 201.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.263 0.032 212.3)",
+    "foreground": "oklch(0.988 0.004 179.7)",
+    "card": "oklch(0.339 0.036 209.7)",
+    "card-foreground": "oklch(0.988 0.004 179.7)",
+    "popover": "oklch(0.339 0.036 209.7)",
+    "popover-foreground": "oklch(0.988 0.004 179.7)",
+    "primary": "oklch(0.867 0.056 201.8)",
+    "primary-foreground": "oklch(0.263 0.032 212.3)",
+    "secondary": "oklch(0.428 0.035 206.8)",
+    "secondary-foreground": "oklch(0.988 0.004 179.7)",
+    "muted": "oklch(0.428 0.035 206.8)",
+    "muted-foreground": "oklch(0.817 0.013 190.9)",
+    "accent": "oklch(0.962 0.015 186.7)",
+    "accent-foreground": "oklch(0.263 0.032 212.3)",
+    "destructive": "oklch(0.727 0.098 207.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.867 0.056 201.8)",
+    "chart-1": "oklch(0.867 0.056 201.8)",
+    "chart-2": "oklch(0.727 0.098 207.2)",
+    "chart-3": "oklch(0.962 0.015 186.7)",
+    "chart-4": "oklch(0.790 0.081 204.7)",
+    "chart-5": "oklch(0.599 0.025 193.1)",
+    "sidebar": "oklch(0.317 0.035 210.3)",
+    "sidebar-foreground": "oklch(0.988 0.004 179.7)",
+    "sidebar-primary": "oklch(0.867 0.056 201.8)",
+    "sidebar-primary-foreground": "oklch(0.263 0.032 212.3)",
+    "sidebar-accent": "oklch(0.428 0.035 206.8)",
+    "sidebar-accent-foreground": "oklch(0.988 0.004 179.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.867 0.056 201.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean luxury English product UI with precise numerals and Japanese guidance tuned for calm mineral clarity.",
+  "layout": "Prismatic 8px grids, clear crystal-edge separators, compact dashboard panels, and subtle pegmatite grain texture.",
+  "tags": [
+    "aquamarine",
+    "mineral",
+    "crystal",
+    "pegmatite",
+    "clean-luxury",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-aquamarine/motif.png",
+    "board": "/systems/morphous-aquamarine/design-system-light.png",
+    "darkBoard": "/systems/morphous-aquamarine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-aquamarine/theme.css",
+    "themeJson": "/systems/morphous-aquamarine/theme.json",
+    "promptsJson": "/systems/morphous-aquamarine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent aquamarine crystal motif",
+      "asset": "/systems/morphous-aquamarine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Aquamarine transparent motif chroma-key source\nPrimary request: Create only an aquamarine crystal motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural aquamarine beryl crystal cluster from a pegmatite seam, long hexagonal sea-blue transparent crystal columns, clear ice-white facets, pale mineral matrix at the base, fine internal veils, crisp prismatic edges, clean luxury identity, geological accuracy.\nComposition/framing: centered complete cutout with generous padding; include full crystal base and column tips without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no jewelry setting, no necklace, no fantasy magic glow, no ocean scene, no loose gemstones, no hand, no text, no watermark, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-aquamarine/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Aquamarine light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Aquamarine\", derived from an aquamarine crystal cutout from a pegmatite seam. This board is a source reference for a shadcn/tweakcn-compatible clean luxury UI theme.\nCanvas: wide 16:9 4K-class high-resolution board, clean professional UI design-system presentation, no frame around the canvas.\nRequired visible sections: Morphous Aquamarine, Aquamarine Crystal, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from sea-blue transparent beryl columns, clear ice-white facets, pale pegmatite matrix, faint mineral veils, and crisp prismatic edges. The board must read as aquamarine crystal, not generic blue SaaS, ocean resort, or glassmorphism kit.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: clean luxury system, 8px radius with slight prismatic cuts, ice-white surfaces, aquamarine primary actions, mineral-mist muted panels, deep teal ink, clear crystal borders, precise grid, subtle pegmatite grain texture, thin refractive divider accents.\nPalette to show and use consistently: Ice White #f8fcfb, Deep Teal Ink #10292e, Aquamarine #4fb8c6, Sea Glass #a8dfe3, Clear Facet #e8f6f4, Pegmatite Mist #d9e8e4, Glacier Cyan #78cad3, Mineral Gray #6f8584, Tourmaline Shadow #28484d.\nConstraints: no jewelry, no ocean waves, no beach imagery, no neon cyan, no unrelated saturated colors, no generic purple/blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Aquamarine\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-aquamarine/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Aquamarine dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Aquamarine\". It must feel like the light-mode board translated to dark mode and remain derived from the aquamarine crystal cutout from a pegmatite seam.\nCanvas: wide 16:9 4K-class high-resolution board, clean professional UI design-system presentation, no frame around the canvas.\nRequired visible sections: Morphous Aquamarine, Aquamarine Crystal, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve aquamarine active states, sea-glass facets, ice-white text, deep teal mineral surfaces, clear crystal-edge dividers, subtle pegmatite grain texture, clean luxury spacing, and 8px shadcn/tweakcn grid. Must read as aquamarine crystal, not generic cyber blue or ocean dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short, large, and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep teal ink background, tourmaline-shadow cards, ice-white foreground, aquamarine buttons, sea-glass charts, glacier-cyan focus rings, clear crystal borders, subtle faceted shadows and mineral speckle overlays.\nPalette to show and use consistently: Ice White #f8fcfb, Deep Teal Ink #10292e, Aquamarine #4fb8c6, Sea Glass #a8dfe3, Clear Facet #e8f6f4, Pegmatite Mist #d9e8e4, Glacier Cyan #78cad3, Mineral Gray #6f8584, Tourmaline Shadow #28484d.\nConstraints: no jewelry, no ocean waves, no beach imagery, no neon cyan, no pure-black-only flat background, no generic purple/blue gradients, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Aquamarine\"."
+    }
+  ]
+}

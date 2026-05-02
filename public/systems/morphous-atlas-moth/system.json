@@ -1,0 +1,44 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-atlas-moth",
+  "name": "Morphous Atlas Moth",
+  "motifName": "Atlas Moth Wing",
+  "motifCategory": "insect",
+  "biome": "Tropical forest",
+  "motif": "atlas moth wing",
+  "description": "A shadcn/tweakcn-compatible large-canvas system derived from Atlas moth wings: copper brown actions, cream window surfaces, charcoal vein structure, tawny focus rings, forest undertones, and snake-tip protective geometry.",
+  "typography": "Display serif-inspired headings with clean sans UI text and Noto Sans JP or Hiragino guidance for Japanese labels.",
+  "layout": "Large 16:9 canvas boards, 8px product radii, wing-window panels, charcoal vein dividers, generous spacing, warm shadows, and precise dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "atlas-moth",
+    "moth",
+    "insect",
+    "tropical-forest",
+    "copper",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Parchment Wing", "hex": "#f6efe3" },
+    { "role": "Ink", "name": "Charcoal Vein", "hex": "#1c1c1b" },
+    { "role": "Primary", "name": "Copper Scale", "hex": "#b4552a" },
+    { "role": "Secondary", "name": "Chestnut Field", "hex": "#7a3823" },
+    { "role": "Surface", "name": "Cream Window", "hex": "#f2e5cf" },
+    { "role": "Accent", "name": "Tawny Edge", "hex": "#d6a261" },
+    { "role": "Support", "name": "Forest Underside", "hex": "#2f4a38" },
+    { "role": "Depth", "name": "Burnt Umber", "hex": "#5a2a16" },
+    { "role": "Shadow", "name": "Moth Shadow", "hex": "#0e0e12" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

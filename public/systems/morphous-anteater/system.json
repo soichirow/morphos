@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-anteater",
+  "name": "Morphous Anteater",
+  "motifName": "Anteater",
+  "motifCategory": "mammal",
+  "biome": "forest savanna",
+  "motif": "anteater stripe",
+  "description": "A shadcn/tweakcn-compatible linear workflow system drafted from giant anteater markings: charcoal shoulder stripe, grey and cream coarse fur, dry grass accents, forest shade structure, and long directional rhythm.",
+  "typography": "Geist for structured English workflow UI with Noto Sans JP guidance for compact Japanese labels, status language, and multilingual dashboard hierarchy.",
+  "layout": "Linear 8px workflow grids, diagonal stripe dividers, 6px-8px component radius, compact side navigation, restrained shadows, and long-form data surfaces shaped by the anteater silhouette.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "anteater",
+    "mammal",
+    "forest-savanna",
+    "charcoal",
+    "stripe",
+    "workflow",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tail Cream",
+      "hex": "#f3ead7"
+    },
+    {
+      "role": "Ink",
+      "name": "Anteater Charcoal",
+      "hex": "#1f2020"
+    },
+    {
+      "role": "Primary",
+      "name": "Stripe Black",
+      "hex": "#111111"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silver Fur",
+      "hex": "#c4c4b8"
+    },
+    {
+      "role": "Accent",
+      "name": "Dry Grass",
+      "hex": "#b9a45f"
+    },
+    {
+      "role": "Signal",
+      "name": "Savanna Olive",
+      "hex": "#6f7b48"
+    },
+    {
+      "role": "Surface",
+      "name": "Fur Grey",
+      "hex": "#7f817b"
+    },
+    {
+      "role": "Border",
+      "name": "Clay Line",
+      "hex": "#8c6f4d"
+    },
+    {
+      "role": "Depth",
+      "name": "Forest Shade",
+      "hex": "#26352d"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

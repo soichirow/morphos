@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-albatross",
+    "name": "Morphous Albatross",
+    "motifName": "Albatross",
+    "motifCategory": "bird",
+    "biome": "open ocean",
+    "motif": "albatross wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist",
+      "hex": "#FAFBFB",
+      "oklch": "oklch(0.987 0.001 197.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink",
+      "hex": "#111827",
+      "oklch": "oklch(0.210 0.032 264.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ocean Blue",
+      "hex": "#005FFF",
+      "oklch": "oklch(0.551 0.249 261.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Foam Rail",
+      "hex": "#E5EEF1",
+      "oklch": "oklch(0.943 0.010 219.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Glide Cyan",
+      "hex": "#2AA9D6",
+      "oklch": "oklch(0.688 0.123 227.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Horizon Blue",
+      "hex": "#144E73",
+      "oklch": "oklch(0.407 0.085 241.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sea Fog",
+      "hex": "#B9C6C9",
+      "oklch": "oklch(0.817 0.015 213.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal",
+      "hex": "#293137",
+      "oklch": "oklch(0.308 0.015 240.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Feather Grey",
+      "hex": "#D5DEE1",
+      "oklch": "oklch(0.895 0.011 219.6)"
+    },
+    {
+      "role": "Success",
+      "name": "Beacon Teal",
+      "hex": "#16806F",
+      "oklch": "oklch(0.540 0.094 178.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.987 0.001 197.1)",
+    "foreground": "oklch(0.210 0.032 264.7)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.210 0.032 264.7)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.210 0.032 264.7)",
+    "primary": "oklch(0.551 0.249 261.7)",
+    "primary-foreground": "oklch(0.987 0.001 197.1)",
+    "secondary": "oklch(0.994 0.000 89.9)",
+    "secondary-foreground": "oklch(0.308 0.015 240.5)",
+    "muted": "oklch(0.997 0.000 89.9)",
+    "muted-foreground": "oklch(0.308 0.015 240.5)",
+    "accent": "oklch(0.688 0.123 227.6)",
+    "accent-foreground": "oklch(0.210 0.032 264.7)",
+    "destructive": "oklch(0.551 0.249 261.7)",
+    "border": "oklch(0.935 0.005 228.8)",
+    "input": "oklch(0.935 0.005 228.8)",
+    "ring": "oklch(0.943 0.010 219.6)",
+    "chart-1": "oklch(0.551 0.249 261.7)",
+    "chart-2": "oklch(0.943 0.010 219.6)",
+    "chart-3": "oklch(0.688 0.123 227.6)",
+    "chart-4": "oklch(0.407 0.085 241.9)",
+    "chart-5": "oklch(0.308 0.015 240.5)",
+    "sidebar": "oklch(0.996 0.001 197.1)",
+    "sidebar-foreground": "oklch(0.210 0.032 264.7)",
+    "sidebar-primary": "oklch(0.551 0.249 261.7)",
+    "sidebar-primary-foreground": "oklch(0.987 0.001 197.1)",
+    "sidebar-accent": "oklch(0.940 0.029 259.6)",
+    "sidebar-accent-foreground": "oklch(0.551 0.249 261.7)",
+    "sidebar-border": "oklch(0.935 0.005 228.8)",
+    "sidebar-ring": "oklch(0.943 0.010 219.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.032 264.7)",
+    "foreground": "oklch(0.987 0.001 197.1)",
+    "card": "oklch(0.277 0.020 251.6)",
+    "card-foreground": "oklch(0.987 0.001 197.1)",
+    "popover": "oklch(0.277 0.020 251.6)",
+    "popover-foreground": "oklch(0.987 0.001 197.1)",
+    "primary": "oklch(0.943 0.010 219.6)",
+    "primary-foreground": "oklch(0.210 0.032 264.7)",
+    "secondary": "oklch(0.432 0.014 232.0)",
+    "secondary-foreground": "oklch(0.987 0.001 197.1)",
+    "muted": "oklch(0.432 0.014 232.0)",
+    "muted-foreground": "oklch(0.912 0.007 219.6)",
+    "accent": "oklch(0.688 0.123 227.6)",
+    "accent-foreground": "oklch(0.210 0.032 264.7)",
+    "destructive": "oklch(0.551 0.249 261.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.943 0.010 219.6)",
+    "chart-1": "oklch(0.943 0.010 219.6)",
+    "chart-2": "oklch(0.551 0.249 261.7)",
+    "chart-3": "oklch(0.688 0.123 227.6)",
+    "chart-4": "oklch(0.407 0.085 241.9)",
+    "chart-5": "oklch(0.817 0.015 213.1)",
+    "sidebar": "oklch(0.257 0.022 254.2)",
+    "sidebar-foreground": "oklch(0.987 0.001 197.1)",
+    "sidebar-primary": "oklch(0.943 0.010 219.6)",
+    "sidebar-primary-foreground": "oklch(0.210 0.032 264.7)",
+    "sidebar-accent": "oklch(0.432 0.014 232.0)",
+    "sidebar-accent-foreground": "oklch(0.987 0.001 197.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.943 0.010 219.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Wide-navigation English UI with strong section labels, clear numeric rhythm, and Japanese typography guidance for Gothic body text, Mincho editorial accents, compact labels, and scan-friendly data tables.",
+  "layout": "Expansive top navigation, secondary route rails, broad dashboard bands, 8px radii, feather-light surfaces, ocean-blue focus states, charcoal wing-tip dividers, and open-sea spacing.",
+  "tags": [
+    "albatross",
+    "bird",
+    "open-ocean",
+    "white-black-wing",
+    "ocean-blue",
+    "wide-navigation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-albatross/motif.png",
+    "board": "/systems/morphous-albatross/design-system-light.png",
+    "darkBoard": "/systems/morphous-albatross/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-albatross/theme.css",
+    "themeJson": "/systems/morphous-albatross/theme.json",
+    "promptsJson": "/systems/morphous-albatross/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent albatross wing motif",
+      "asset": "/systems/morphous-albatross/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Albatross transparent motif chroma-key source\nPrimary request: Create a complete albatross wing motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A single elegant albatross wing extended in a long gliding arc, white primary feather surfaces with crisp black wing tips and charcoal feather edges, subtle ocean-air highlights, realistic feather layering, clean silhouette. No body, no head, no feet, only the wing as the motif.\nComposition/framing: centered complete wing cutout with generous padding, wide horizontal span, no cropping, crisp edges, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: do not use #ff00ff anywhere in the subject, no sky scene, no ocean scene, no bird body, no extra feathers, no props, no labels, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-albatross/design-system-light.png",
+      "sourceAsset": "/systems/morphous-albatross/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Albatross light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Albatross, derived from an albatross wing motif.\nCanvas: exact 16:9 3840x2160 design board, crisp readable text, broad horizontal layout, wide navigation system.\nVisual identity: white albatross wing surfaces, black wing tips and charcoal feather edges, ocean blue primary accents, open sea neutrals, mist white backgrounds, deep horizon ink, pale foam borders. Use strong white/black wing contrast and expansive open-ocean spacing.\nRequired visible sections with readable labels: Morphous Albatross, Albatross Wing, Palette, Typography, Japanese Typography, Wide Navigation, Components, Dashboard Charts, Data Table, Forms, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: full-width top navigation with many tabs, secondary side navigation, breadcrumbs, buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, metric tiles, line chart, bar chart, donut chart, operational dashboard, sortable table, form panel, command palette, empty/loading/error/success states, texture swatches, spacing/radius/border/shadow tokens.\nText requirements: all labels must be clean and readable; use only generic product UI labels like Fleet, Routes, Signals, Reports, Status, Search, Submit, Save, Cancel, Active, Warning, Error, Success; no random brand names.\nComposition: sophisticated operational SaaS board, restrained and scan-friendly, with long horizontal rails and wing-like section dividers. Include a small cutout-style albatross wing asset example.\nConstraints: no watermark, no random brand names, no tiny illegible text, no generic purple gradient, no stock landing page, no misspelling of Morphous Albatross."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-albatross/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-albatross/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Albatross dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board named Morphous Albatross, translated from the albatross wing light system.\nCanvas: exact 16:9 3840x2160 design board, crisp readable text, broad horizontal layout, wide navigation system.\nVisual identity: deep open-ocean night surfaces, black wing-tip panels, white feather highlights, ocean blue primary accents, fog grey borders, moonlit foam text, charcoal ink. Preserve strong white/black albatross wing contrast with expansive navigation rails.\nRequired visible sections with readable labels: Morphous Albatross, Albatross Wing, Dark Mode, Palette, Typography, Japanese Typography, Wide Navigation, Components, Dashboard Charts, Data Table, Forms, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: full-width top navigation with many tabs, secondary side navigation, breadcrumbs, buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, metric tiles, line chart, bar chart, donut chart, operational dashboard, sortable table, form panel, command palette, empty/loading/error/success states, texture swatches, spacing/radius/border/shadow tokens.\nText requirements: all labels must be clean and readable; use only generic product UI labels like Fleet, Routes, Signals, Reports, Status, Search, Submit, Save, Cancel, Active, Warning, Error, Success; no random brand names.\nComposition: sophisticated dark operational SaaS board, restrained and scan-friendly, with long horizontal rails and wing-like section dividers. Include a small cutout-style albatross wing asset example.\nConstraints: no watermark, no random brand names, no tiny illegible text, no neon palette, no generic purple gradient, no stock landing page, no misspelling of Morphous Albatross."
+    }
+  ]
+}

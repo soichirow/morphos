@@ -1,0 +1,91 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-albatross",
+  "name": "Morphous Albatross",
+  "motifName": "Albatross",
+  "motifCategory": "bird",
+  "biome": "open ocean",
+  "motif": "albatross wing",
+  "description": "A shadcn/tweakcn-compatible wide navigation system derived from an albatross wing: white feather planes, black wing-tip contrast, ocean blue signals, open sea neutrals, and long horizontal structures for route-heavy operational dashboards.",
+  "typography": "Wide-navigation English UI with strong section labels, clear numeric rhythm, and Japanese typography guidance for Gothic body text, Mincho editorial accents, compact labels, and scan-friendly data tables.",
+  "layout": "Expansive top navigation, secondary route rails, broad dashboard bands, 8px radii, feather-light surfaces, ocean-blue focus states, charcoal wing-tip dividers, and open-sea spacing.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "albatross",
+    "bird",
+    "open-ocean",
+    "white-black-wing",
+    "ocean-blue",
+    "wide-navigation",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist",
+      "hex": "#FAFBFB"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink",
+      "hex": "#111827"
+    },
+    {
+      "role": "Primary",
+      "name": "Ocean Blue",
+      "hex": "#005FFF"
+    },
+    {
+      "role": "Secondary",
+      "name": "Foam Rail",
+      "hex": "#E5EEF1"
+    },
+    {
+      "role": "Accent",
+      "name": "Glide Cyan",
+      "hex": "#2AA9D6"
+    },
+    {
+      "role": "Signal",
+      "name": "Horizon Blue",
+      "hex": "#144E73"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Muted",
+      "name": "Sea Fog",
+      "hex": "#B9C6C9"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal",
+      "hex": "#293137"
+    },
+    {
+      "role": "Border",
+      "name": "Feather Grey",
+      "hex": "#D5DEE1"
+    },
+    {
+      "role": "Success",
+      "name": "Beacon Teal",
+      "hex": "#16806F"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

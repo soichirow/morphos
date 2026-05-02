@@ -1,0 +1,217 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-amanita-caesarea",
+    "name": "Morphous Amanita Caesarea",
+    "motifName": "Caesars Mushroom",
+    "motifCategory": "fungi",
+    "biome": "oak woodland",
+    "motif": "caesars mushroom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Volva Cream",
+      "hex": "#F7F2E6",
+      "oklch": "oklch(0.962 0.017 88.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Soil",
+      "hex": "#202316",
+      "oklch": "oklch(0.249 0.024 118.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cap Orange",
+      "hex": "#E45717",
+      "oklch": "oklch(0.636 0.188 40.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gill Yellow",
+      "hex": "#FFC63A",
+      "oklch": "oklch(0.855 0.159 85.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#5A6F2E",
+      "oklch": "oklch(0.509 0.094 124.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Gills Ivory",
+      "hex": "#FFF7DC",
+      "oklch": "oklch(0.975 0.036 93.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Spore Beige",
+      "hex": "#E8DFC7",
+      "oklch": "oklch(0.904 0.033 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mushroom Taupe",
+      "hex": "#8E836E",
+      "oklch": "oklch(0.614 0.033 83.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Umber",
+      "hex": "#4A2A16",
+      "oklch": "oklch(0.321 0.057 51.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Woodland Umber",
+      "hex": "#6B4E2E",
+      "oklch": "oklch(0.447 0.061 67.9)"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Grove",
+      "hex": "#5A6F2E",
+      "oklch": "oklch(0.509 0.094 124.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Gill Gold",
+      "hex": "#E0A21A",
+      "oklch": "oklch(0.752 0.150 79.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Cap Heat",
+      "hex": "#C2410C",
+      "oklch": "oklch(0.553 0.174 38.4)"
+    },
+    {
+      "role": "Info",
+      "name": "Volva Umber",
+      "hex": "#8A682E",
+      "oklch": "oklch(0.540 0.087 78.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.017 88.0)",
+    "foreground": "oklch(0.249 0.024 118.7)",
+    "card": "oklch(0.904 0.033 89.9)",
+    "card-foreground": "oklch(0.249 0.024 118.7)",
+    "popover": "oklch(0.904 0.033 89.9)",
+    "popover-foreground": "oklch(0.249 0.024 118.7)",
+    "primary": "oklch(0.636 0.188 40.5)",
+    "primary-foreground": "oklch(0.962 0.017 88.0)",
+    "secondary": "oklch(0.928 0.026 90.1)",
+    "secondary-foreground": "oklch(0.321 0.057 51.5)",
+    "muted": "oklch(0.920 0.028 88.8)",
+    "muted-foreground": "oklch(0.321 0.057 51.5)",
+    "accent": "oklch(0.509 0.094 124.6)",
+    "accent-foreground": "oklch(0.962 0.017 88.0)",
+    "destructive": "oklch(0.553 0.174 38.4)",
+    "border": "oklch(0.804 0.033 87.3)",
+    "input": "oklch(0.804 0.033 87.3)",
+    "ring": "oklch(0.855 0.159 85.0)",
+    "chart-1": "oklch(0.636 0.188 40.5)",
+    "chart-2": "oklch(0.855 0.159 85.0)",
+    "chart-3": "oklch(0.509 0.094 124.6)",
+    "chart-4": "oklch(0.975 0.036 93.3)",
+    "chart-5": "oklch(0.321 0.057 51.5)",
+    "sidebar": "oklch(0.923 0.027 87.9)",
+    "sidebar-foreground": "oklch(0.249 0.024 118.7)",
+    "sidebar-primary": "oklch(0.636 0.188 40.5)",
+    "sidebar-primary-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-accent": "oklch(0.868 0.048 71.3)",
+    "sidebar-accent-foreground": "oklch(0.636 0.188 40.5)",
+    "sidebar-border": "oklch(0.804 0.033 87.3)",
+    "sidebar-ring": "oklch(0.855 0.159 85.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.249 0.024 118.7)",
+    "foreground": "oklch(0.962 0.017 88.0)",
+    "card": "oklch(0.296 0.042 62.1)",
+    "card-foreground": "oklch(0.962 0.017 88.0)",
+    "popover": "oklch(0.296 0.042 62.1)",
+    "popover-foreground": "oklch(0.962 0.017 88.0)",
+    "primary": "oklch(0.636 0.188 40.5)",
+    "primary-foreground": "oklch(0.962 0.017 88.0)",
+    "secondary": "oklch(0.389 0.050 58.5)",
+    "secondary-foreground": "oklch(0.962 0.017 88.0)",
+    "muted": "oklch(0.389 0.050 58.5)",
+    "muted-foreground": "oklch(0.810 0.024 84.6)",
+    "accent": "oklch(0.855 0.159 85.0)",
+    "accent-foreground": "oklch(0.249 0.024 118.7)",
+    "destructive": "oklch(0.553 0.174 38.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.855 0.159 85.0)",
+    "chart-1": "oklch(0.855 0.159 85.0)",
+    "chart-2": "oklch(0.636 0.188 40.5)",
+    "chart-3": "oklch(0.509 0.094 124.6)",
+    "chart-4": "oklch(0.975 0.036 93.3)",
+    "chart-5": "oklch(0.614 0.033 83.6)",
+    "sidebar": "oklch(0.279 0.033 71.6)",
+    "sidebar-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-primary": "oklch(0.636 0.188 40.5)",
+    "sidebar-primary-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-accent": "oklch(0.389 0.050 58.5)",
+    "sidebar-accent-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.855 0.159 85.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Refined humanist product UI with Noto Sans JP / Japanese Gothic guidance for culinary operations, reservations, inventory, tasting notes, labels, numerals, and dense tables.",
+  "layout": "Precise 8px culinary dashboards, gill-rib texture accents, compact inventory and reservation tables, structured navigation, 8px cards, moss-status chips, and restrained royal service density.",
+  "tags": [
+    "amanita-caesarea",
+    "caesars-mushroom",
+    "fungi",
+    "oak-woodland",
+    "royal-culinary",
+    "orange-cap",
+    "yellow-gills",
+    "moss-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-amanita-caesarea/motif.png",
+    "board": "/systems/morphous-amanita-caesarea/design-system-light.png",
+    "darkBoard": "/systems/morphous-amanita-caesarea/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-amanita-caesarea/theme.css",
+    "themeJson": "/systems/morphous-amanita-caesarea/theme.json",
+    "promptsJson": "/systems/morphous-amanita-caesarea/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Caesar's mushroom motif",
+      "asset": "/systems/morphous-amanita-caesarea/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, followed by local chroma-key removal to RGBA PNG.",
+      "sourceAsset": "/tmp/morphous-amanita-motif-source.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only one accurate Caesar's mushroom (Amanita caesarea) as an isolated design-system motif, with a tiny natural moss base, no wider environment, no props, no text.\nSubject: A mature Caesar's mushroom with a smooth saturated orange cap, warm golden-yellow gills visible under the cap edge, yellow stipe, pale cup-like volva at the base, and a small attached cushion of oak woodland green moss. Accurate Amanita caesarea form; elegant culinary mushroom silhouette; natural fungal texture; no white wart spots.\nComposition/framing: centered complete cutout with generous padding; show cap, underside/gills, stipe, volva, and moss base without cropping. Crisp silhouette edges suitable for background removal.\nLighting/mood: clean studio light that preserves orange cap, yellow gills, pale volva, moss greens, and subtle woodland moisture details.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second mushroom, no cast shadow, no contact shadow, no reflection, no red-and-white Amanita muscaria spots, no white cap warts, no skull or poison symbols."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-amanita-caesarea/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-amanita-caesarea/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Caesar's Mushroom light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Amanita Caesarea\", derived from the visible transparent Caesar's mushroom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible royal culinary system.\nReference motif: mature Amanita caesarea / Caesar's mushroom with smooth orange cap, golden-yellow gills and stipe, pale cream volva, oak woodland green moss, dark forest soil accents, refined edible mushroom identity. Use only motif-derived colors and near-neutrals from the motif.\nCanvas: wide 16:9 4K-class board, 3840x2160 look, crisp readable labels, precise product UI grid, no tiny illegible paragraphs.\nRequired visible sections: Morphous Amanita Caesarea, Caesar's Mushroom, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: imperial orange cap primary, golden gill yellow focus/ring, pale volva cream backgrounds, moss green success/accent, woodland umber borders, spore beige muted surfaces, deep soil brown foreground, soft mushroom shadow neutrals. Keep the palette lively but not one-note.\nTypography: English product UI guidance plus Japanese typography guidance; recommend a refined humanist Latin sans with Noto Sans JP / Japanese Gothic support for culinary inventory, reservation, and tasting workflows. Include short Japanese labels such as 予約, 在庫, 検索, 承認, 状態.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, dashboard metric cards, line chart, bar chart, menu/inventory table, supplier table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple lucide-style icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, background/foreground/card/popover/primary/secondary/muted/accent/destructive/border/input/ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, and component density notes.\nStyle: premium royal culinary product design system for chefs and dining operations, light cream surfaces, orange cap primary actions, yellow gill focus rings, moss green status accents, woodland brown structure, subtle gill-rib and moss textures, restrained shadows, 8px card radius.\nText: short readable UI labels only; exact title spelling \"Morphous Amanita Caesarea\".\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling, no Amanita muscaria red-white spots, no skull/poison symbols, no long paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-amanita-caesarea/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-amanita-caesarea/motif.png",
+        "/systems/morphous-amanita-caesarea/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Amanita Caesarea dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Amanita Caesarea\". It must feel like the same royal culinary system translated from the visible light board and the same Caesar's mushroom motif, not a new theme.\nReference motif: mature Amanita caesarea / Caesar's mushroom with smooth orange cap, golden-yellow gills and stipe, pale cream volva, oak woodland green moss, dark forest soil accents, refined edible mushroom identity.\nReference light-board system details to preserve: orange cap primary controls, gill yellow focus/ring, volva cream neutrals, moss green success/status accents, woodland umber structure, spore beige muted surfaces, deep soil foreground, precise culinary dashboard/data/forms/tables/search/status/token coverage, English and Japanese typography guidance, 8px card radius.\nCanvas: wide 16:9 4K-class board, 3840x2160 look, crisp readable labels, precise product UI grid, no tiny illegible paragraphs.\nRequired visible sections: Morphous Amanita Caesarea, Dark Mode, Caesar's Mushroom, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: English product UI guidance plus Japanese typography guidance; refined humanist Latin sans with Noto Sans JP / Japanese Gothic support. Include short Japanese labels such as 予約, 在庫, 検索, 承認, 状態.\nUI coverage: buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, dashboard metric cards, line chart, bar chart, menu/inventory table, supplier table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple lucide-style icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, background/foreground/card/popover/primary/secondary/muted/accent/destructive/border/input/ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, and component density notes.\nVisual details: dark background derived from deep forest soil and umber, elevated panels in mushroom shadow brown, warm cream foreground text, subdued spore beige labels, orange cap primary actions, golden gill focus rings, moss green success/status accents, subtle gill-rib and moss texture overlays, crisp shadcn-style cards and controls.\nText: short readable UI labels only; exact title spelling \"Morphous Amanita Caesarea\".\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling, no Amanita muscaria red-white spots, no skull/poison symbols, no long paragraphs."
+    }
+  ]
+}

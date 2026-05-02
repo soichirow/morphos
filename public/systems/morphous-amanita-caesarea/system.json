@@ -1,0 +1,198 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 284,
+  "slug": "morphous-amanita-caesarea",
+  "name": "Morphous Amanita Caesarea",
+  "motifName": "Caesars Mushroom",
+  "motifCategory": "fungi",
+  "biome": "oak woodland",
+  "motif": "caesars mushroom",
+  "context": "oak woodland",
+  "colorStory": "orange cap yellow gill green moss",
+  "mood": "royal culinary system",
+  "description": "A shadcn/tweakcn-compatible royal culinary system derived from Amanita caesarea: cap-orange actions, gill-yellow focus, volva-cream surfaces, moss-green status, woodland-umber structure, spore-beige muted panels, and deep forest-soil foregrounds.",
+  "typography": "Refined humanist product UI with Noto Sans JP / Japanese Gothic guidance for culinary operations, reservations, inventory, tasting notes, labels, numerals, and dense tables.",
+  "layout": "Precise 8px culinary dashboards, gill-rib texture accents, compact inventory and reservation tables, structured navigation, 8px cards, moss-status chips, and restrained royal service density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "amanita-caesarea",
+    "caesars-mushroom",
+    "fungi",
+    "oak-woodland",
+    "royal-culinary",
+    "orange-cap",
+    "yellow-gills",
+    "moss-green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Volva Cream",
+      "hex": "#F7F2E6"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Soil",
+      "hex": "#202316"
+    },
+    {
+      "role": "Primary",
+      "name": "Cap Orange",
+      "hex": "#E45717"
+    },
+    {
+      "role": "Secondary",
+      "name": "Gill Yellow",
+      "hex": "#FFC63A"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#5A6F2E"
+    },
+    {
+      "role": "Signal",
+      "name": "Gills Ivory",
+      "hex": "#FFF7DC"
+    },
+    {
+      "role": "Surface",
+      "name": "Spore Beige",
+      "hex": "#E8DFC7"
+    },
+    {
+      "role": "Muted",
+      "name": "Mushroom Taupe",
+      "hex": "#8E836E"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Umber",
+      "hex": "#4A2A16"
+    },
+    {
+      "role": "Border",
+      "name": "Woodland Umber",
+      "hex": "#6B4E2E"
+    },
+    {
+      "role": "Success",
+      "name": "Moss Grove",
+      "hex": "#5A6F2E"
+    },
+    {
+      "role": "Warning",
+      "name": "Gill Gold",
+      "hex": "#E0A21A"
+    },
+    {
+      "role": "Destructive",
+      "name": "Cap Heat",
+      "hex": "#C2410C"
+    },
+    {
+      "role": "Info",
+      "name": "Volva Umber",
+      "hex": "#8A682E"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.962 0.017 88.0)",
+    "foreground": "oklch(0.249 0.024 118.7)",
+    "card": "oklch(0.904 0.033 89.9)",
+    "card-foreground": "oklch(0.249 0.024 118.7)",
+    "popover": "oklch(0.904 0.033 89.9)",
+    "popover-foreground": "oklch(0.249 0.024 118.7)",
+    "primary": "oklch(0.636 0.188 40.5)",
+    "primary-foreground": "oklch(0.962 0.017 88.0)",
+    "secondary": "oklch(0.928 0.026 90.1)",
+    "secondary-foreground": "oklch(0.321 0.057 51.5)",
+    "muted": "oklch(0.920 0.028 88.8)",
+    "muted-foreground": "oklch(0.321 0.057 51.5)",
+    "accent": "oklch(0.509 0.094 124.6)",
+    "accent-foreground": "oklch(0.962 0.017 88.0)",
+    "destructive": "oklch(0.553 0.174 38.4)",
+    "border": "oklch(0.804 0.033 87.3)",
+    "input": "oklch(0.804 0.033 87.3)",
+    "ring": "oklch(0.855 0.159 85.0)",
+    "chart-1": "oklch(0.636 0.188 40.5)",
+    "chart-2": "oklch(0.855 0.159 85.0)",
+    "chart-3": "oklch(0.509 0.094 124.6)",
+    "chart-4": "oklch(0.975 0.036 93.3)",
+    "chart-5": "oklch(0.321 0.057 51.5)",
+    "sidebar": "oklch(0.923 0.027 87.9)",
+    "sidebar-foreground": "oklch(0.249 0.024 118.7)",
+    "sidebar-primary": "oklch(0.636 0.188 40.5)",
+    "sidebar-primary-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-accent": "oklch(0.868 0.048 71.3)",
+    "sidebar-accent-foreground": "oklch(0.636 0.188 40.5)",
+    "sidebar-border": "oklch(0.804 0.033 87.3)",
+    "sidebar-ring": "oklch(0.855 0.159 85.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.249 0.024 118.7)",
+    "foreground": "oklch(0.962 0.017 88.0)",
+    "card": "oklch(0.296 0.042 62.1)",
+    "card-foreground": "oklch(0.962 0.017 88.0)",
+    "popover": "oklch(0.296 0.042 62.1)",
+    "popover-foreground": "oklch(0.962 0.017 88.0)",
+    "primary": "oklch(0.636 0.188 40.5)",
+    "primary-foreground": "oklch(0.962 0.017 88.0)",
+    "secondary": "oklch(0.389 0.050 58.5)",
+    "secondary-foreground": "oklch(0.962 0.017 88.0)",
+    "muted": "oklch(0.389 0.050 58.5)",
+    "muted-foreground": "oklch(0.810 0.024 84.6)",
+    "accent": "oklch(0.855 0.159 85.0)",
+    "accent-foreground": "oklch(0.249 0.024 118.7)",
+    "destructive": "oklch(0.553 0.174 38.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.855 0.159 85.0)",
+    "chart-1": "oklch(0.855 0.159 85.0)",
+    "chart-2": "oklch(0.636 0.188 40.5)",
+    "chart-3": "oklch(0.509 0.094 124.6)",
+    "chart-4": "oklch(0.975 0.036 93.3)",
+    "chart-5": "oklch(0.614 0.033 83.6)",
+    "sidebar": "oklch(0.279 0.033 71.6)",
+    "sidebar-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-primary": "oklch(0.636 0.188 40.5)",
+    "sidebar-primary-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-accent": "oklch(0.389 0.050 58.5)",
+    "sidebar-accent-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.855 0.159 85.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json",
+    "examples": []
+  }
+}

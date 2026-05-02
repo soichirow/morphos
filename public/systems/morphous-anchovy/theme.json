@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-anchovy",
+    "name": "Morphous Anchovy",
+    "motifName": "Anchovy",
+    "motifCategory": "fish",
+    "biome": "Coastal Shoal",
+    "motif": "anchovy school"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl",
+      "hex": "#F7FAFA",
+      "oklch": "oklch(0.983 0.003 197.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Kelp Ink",
+      "hex": "#1A2B2F",
+      "oklch": "oklch(0.276 0.024 214.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sea Green",
+      "hex": "#4EA096",
+      "oklch": "oklch(0.651 0.082 184.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Anchovy Silver",
+      "hex": "#D2D7DB",
+      "oklch": "oklch(0.876 0.008 241.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Glass",
+      "hex": "#7FB7B0",
+      "oklch": "oklch(0.739 0.059 186.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Coral Warning",
+      "hex": "#E76D63",
+      "oklch": "oklch(0.678 0.154 26.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Tidal Foam",
+      "hex": "#EEF3F3",
+      "oklch": "oklch(0.960 0.005 197.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Brine Line",
+      "hex": "#B8C3C7",
+      "oklch": "oklch(0.810 0.013 221.5)"
+    },
+    {
+      "role": "Support",
+      "name": "Blue Gray",
+      "hex": "#3D5663",
+      "oklch": "oklch(0.438 0.037 231.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Sea",
+      "hex": "#27424B",
+      "oklch": "oklch(0.361 0.036 221.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.003 197.1)",
+    "foreground": "oklch(0.276 0.024 214.1)",
+    "card": "oklch(0.960 0.005 197.1)",
+    "card-foreground": "oklch(0.276 0.024 214.1)",
+    "popover": "oklch(0.960 0.005 197.1)",
+    "popover-foreground": "oklch(0.276 0.024 214.1)",
+    "primary": "oklch(0.651 0.082 184.9)",
+    "primary-foreground": "oklch(0.983 0.003 197.1)",
+    "secondary": "oklch(0.970 0.004 197.1)",
+    "secondary-foreground": "oklch(0.361 0.036 221.1)",
+    "muted": "oklch(0.967 0.004 197.1)",
+    "muted-foreground": "oklch(0.361 0.036 221.1)",
+    "accent": "oklch(0.739 0.059 186.2)",
+    "accent-foreground": "oklch(0.276 0.024 214.1)",
+    "destructive": "oklch(0.651 0.082 184.9)",
+    "border": "oklch(0.908 0.008 207.1)",
+    "input": "oklch(0.908 0.008 207.1)",
+    "ring": "oklch(0.876 0.008 241.7)",
+    "chart-1": "oklch(0.651 0.082 184.9)",
+    "chart-2": "oklch(0.876 0.008 241.7)",
+    "chart-3": "oklch(0.739 0.059 186.2)",
+    "chart-4": "oklch(0.678 0.154 26.7)",
+    "chart-5": "oklch(0.361 0.036 221.1)",
+    "sidebar": "oklch(0.967 0.004 197.1)",
+    "sidebar-foreground": "oklch(0.276 0.024 214.1)",
+    "sidebar-primary": "oklch(0.651 0.082 184.9)",
+    "sidebar-primary-foreground": "oklch(0.983 0.003 197.1)",
+    "sidebar-accent": "oklch(0.923 0.015 191.7)",
+    "sidebar-accent-foreground": "oklch(0.651 0.082 184.9)",
+    "sidebar-border": "oklch(0.908 0.008 207.1)",
+    "sidebar-ring": "oklch(0.876 0.008 241.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.276 0.024 214.1)",
+    "foreground": "oklch(0.983 0.003 197.1)",
+    "card": "oklch(0.332 0.031 219.0)",
+    "card-foreground": "oklch(0.983 0.003 197.1)",
+    "popover": "oklch(0.332 0.031 219.0)",
+    "popover-foreground": "oklch(0.983 0.003 197.1)",
+    "primary": "oklch(0.876 0.008 241.7)",
+    "primary-foreground": "oklch(0.276 0.024 214.1)",
+    "secondary": "oklch(0.466 0.031 221.2)",
+    "secondary-foreground": "oklch(0.983 0.003 197.1)",
+    "muted": "oklch(0.466 0.031 221.2)",
+    "muted-foreground": "oklch(0.906 0.007 219.6)",
+    "accent": "oklch(0.739 0.059 186.2)",
+    "accent-foreground": "oklch(0.276 0.024 214.1)",
+    "destructive": "oklch(0.651 0.082 184.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.876 0.008 241.7)",
+    "chart-1": "oklch(0.876 0.008 241.7)",
+    "chart-2": "oklch(0.651 0.082 184.9)",
+    "chart-3": "oklch(0.739 0.059 186.2)",
+    "chart-4": "oklch(0.678 0.154 26.7)",
+    "chart-5": "oklch(0.810 0.013 221.5)",
+    "sidebar": "oklch(0.317 0.030 216.9)",
+    "sidebar-foreground": "oklch(0.983 0.003 197.1)",
+    "sidebar-primary": "oklch(0.876 0.008 241.7)",
+    "sidebar-primary-foreground": "oklch(0.276 0.024 214.1)",
+    "sidebar-accent": "oklch(0.466 0.031 221.2)",
+    "sidebar-accent-foreground": "oklch(0.983 0.003 197.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.876 0.008 241.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for compact product UI with Noto Sans JP guidance for multilingual labels, dashboards, forms, and numeric tables.",
+  "layout": "Shoal-like repeated rows, precise 8px grids, thin silver borders, compact dashboard panels, calm coastal spacing, and crisp component states.",
+  "tags": [
+    "anchovy",
+    "fish",
+    "coastal",
+    "shoal",
+    "silver",
+    "sea-green",
+    "small-business",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-anchovy/motif.png",
+    "board": "/systems/morphous-anchovy/design-system-light.png",
+    "darkBoard": "/systems/morphous-anchovy/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-anchovy/theme.css",
+    "themeJson": "/systems/morphous-anchovy/theme.json",
+    "promptsJson": "/systems/morphous-anchovy/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent anchovy school motif source",
+      "asset": "/systems/morphous-anchovy/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an anchovy school motif for the Morphous Anchovy design system: several small anchovy fish in a compact coastal shoal formation, isolated full subjects, no environment, no props, no text.\nSubject: realistic anchovies with accurate slender fish anatomy, bright silver lateral stripe, translucent fins, blue-green gray dorsal backs, pearly bellies, subtle scale shimmer, small business system mood of agile coordinated motion.\nComposition/framing: centered complete cutout with generous padding; fish arranged as an elegant directional school silhouette, no cropping, crisp edges, clean separation.\nLighting/mood: clean studio light that preserves natural silver, sea green, and blue-gray detail without cast shadows.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no ocean background, no bubbles, no seaweed, no props, no decorative background, no additional species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-anchovy/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for Morphous Anchovy, derived from the visible anchovy school motif: coastal shoal, silver stripe, sea green water, blue-gray backs, pearly belly highlights, agile small-business system mood.\nReference use: Use the anchovy motif image as the source of truth for palette, texture rhythm, contrast, spacing mood, and interaction language. The board must visibly respect the fish's silver lateral stripe, sea-glass green, deep blue-green back, graphite eye detail, and pale pearl belly.\nCanvas: exact wide 16:9 design board, 3840 x 2160 px composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Anchovy\", motif story \"coastal shoal\", palette swatches, typography, Japanese typography, buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, navigation/sidebar, dashboard/data widgets, line chart, bar chart, donut chart, forms, table, command/search, empty state, error state, loading state, texture samples, icon samples, spacing scale, radius tokens, border tokens, shadow tokens, semantic token rows, generated asset preview.\nTypography: include English examples and Japanese examples; choose clean product UI font guidance suitable for multilingual small business tools.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, calm coastal small-business software, 8px card radius, thin silver borders, shoal-like repeated row rhythm, crisp controls.\nColor palette: motif-derived colors only: pearl white, anchovy silver, sea-glass green, blue-gray, kelp ink, graphite eye, tidal foam, brine line, coral warning accent used sparingly.\nLayout: organized dense but readable catalog board with full component coverage, charts prominent enough to inspect, no landing-page hero, no marketing copy.\nText: short readable UI labels only.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no random brand names, no tiny illegible paragraphs, no ocean photo background."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-anchovy/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Morphous Anchovy design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible anchovy motif and the visible light design-system board as references. Preserve motif-derived palette roles, shoal rhythm, component language, texture, spacing, typography, and full component coverage.\nCanvas: exact wide 16:9 design board, 3840 x 2160 px composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Anchovy\", \"Dark Mode\", palette swatches, typography, Japanese typography, buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, navigation/sidebar, dashboard/data widgets, line chart, bar chart, donut chart, forms, table, command/search, empty state, error state, loading state, texture samples, icon samples, spacing scale, radius tokens, border tokens, shadow tokens, semantic token rows, generated asset preview.\nVisual details: dark background derived from kelp ink and deep blue-green anchovy backs, bright text from pearl and anchovy silver, primary sea-glass green controls, restrained coral warning accent, subtle scale and lateral-stripe textures, crisp shadcn-style cards and controls, thin tidal-foam borders.\nTypography: include English examples and Japanese examples; clean product UI font guidance suitable for multilingual small business tools.\nLayout: same dense organized board structure as the light board, charts and data components prominent, no landing-page hero.\nText: short readable UI labels only.\nConstraints: no neon colors, no flat pure-black background, no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no illegible tiny paragraphs."
+    }
+  ]
+}

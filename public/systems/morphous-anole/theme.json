@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-anole",
+    "name": "Morphous Anole",
+    "motifName": "Anole",
+    "motifCategory": "reptile",
+    "biome": "garden branch",
+    "motif": "anole dewlap"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Scale Ivory",
+      "hex": "#F7F4E8",
+      "oklch": "oklch(0.966 0.016 95.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#243021",
+      "oklch": "oklch(0.293 0.031 139.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Anole Green",
+      "hex": "#5E9F25",
+      "oklch": "oklch(0.635 0.165 134.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Flash",
+      "hex": "#9CCB3B",
+      "oklch": "oklch(0.782 0.175 126.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Dewlap Rose",
+      "hex": "#E98296",
+      "oklch": "oklch(0.724 0.128 8.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Throat Pink",
+      "hex": "#C94E69",
+      "oklch": "oklch(0.594 0.157 9.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Branch Cream",
+      "hex": "#FFFBF0",
+      "oklch": "oklch(0.988 0.015 90.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Taupe",
+      "hex": "#B7A68A",
+      "oklch": "oklch(0.732 0.044 80.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Twig Brown",
+      "hex": "#806843",
+      "oklch": "oklch(0.532 0.061 77.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Charcoal",
+      "hex": "#2D261D",
+      "oklch": "oklch(0.274 0.019 73.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Eye Gold",
+      "hex": "#D9B957",
+      "oklch": "oklch(0.795 0.123 91.3)"
+    },
+    {
+      "role": "Danger",
+      "name": "Dewlap Signal",
+      "hex": "#B93F56",
+      "oklch": "oklch(0.546 0.157 12.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.966 0.016 95.2)",
+    "foreground": "oklch(0.293 0.031 139.4)",
+    "card": "oklch(0.988 0.015 90.2)",
+    "card-foreground": "oklch(0.293 0.031 139.4)",
+    "popover": "oklch(0.988 0.015 90.2)",
+    "popover-foreground": "oklch(0.293 0.031 139.4)",
+    "primary": "oklch(0.635 0.165 134.0)",
+    "primary-foreground": "oklch(0.966 0.016 95.2)",
+    "secondary": "oklch(0.979 0.015 90.2)",
+    "secondary-foreground": "oklch(0.274 0.019 73.8)",
+    "muted": "oklch(0.982 0.015 90.2)",
+    "muted-foreground": "oklch(0.274 0.019 73.8)",
+    "accent": "oklch(0.724 0.128 8.3)",
+    "accent-foreground": "oklch(0.293 0.031 139.4)",
+    "destructive": "oklch(0.635 0.165 134.0)",
+    "border": "oklch(0.897 0.025 83.4)",
+    "input": "oklch(0.897 0.025 83.4)",
+    "ring": "oklch(0.782 0.175 126.1)",
+    "chart-1": "oklch(0.635 0.165 134.0)",
+    "chart-2": "oklch(0.782 0.175 126.1)",
+    "chart-3": "oklch(0.724 0.128 8.3)",
+    "chart-4": "oklch(0.594 0.157 9.8)",
+    "chart-5": "oklch(0.274 0.019 73.8)",
+    "sidebar": "oklch(0.981 0.016 95.2)",
+    "sidebar-foreground": "oklch(0.293 0.031 139.4)",
+    "sidebar-primary": "oklch(0.635 0.165 134.0)",
+    "sidebar-primary-foreground": "oklch(0.966 0.016 95.2)",
+    "sidebar-accent": "oklch(0.946 0.032 114.7)",
+    "sidebar-accent-foreground": "oklch(0.635 0.165 134.0)",
+    "sidebar-border": "oklch(0.897 0.025 83.4)",
+    "sidebar-ring": "oklch(0.782 0.175 126.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.293 0.031 139.4)",
+    "foreground": "oklch(0.966 0.016 95.2)",
+    "card": "oklch(0.278 0.019 103.3)",
+    "card-foreground": "oklch(0.966 0.016 95.2)",
+    "popover": "oklch(0.278 0.019 103.3)",
+    "popover-foreground": "oklch(0.966 0.016 95.2)",
+    "primary": "oklch(0.782 0.175 126.1)",
+    "primary-foreground": "oklch(0.293 0.031 139.4)",
+    "secondary": "oklch(0.384 0.024 77.0)",
+    "secondary-foreground": "oklch(0.966 0.016 95.2)",
+    "muted": "oklch(0.384 0.024 77.0)",
+    "muted-foreground": "oklch(0.863 0.028 85.7)",
+    "accent": "oklch(0.724 0.128 8.3)",
+    "accent-foreground": "oklch(0.293 0.031 139.4)",
+    "destructive": "oklch(0.635 0.165 134.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.782 0.175 126.1)",
+    "chart-1": "oklch(0.782 0.175 126.1)",
+    "chart-2": "oklch(0.635 0.165 134.0)",
+    "chart-3": "oklch(0.724 0.128 8.3)",
+    "chart-4": "oklch(0.594 0.157 9.8)",
+    "chart-5": "oklch(0.732 0.044 80.2)",
+    "sidebar": "oklch(0.282 0.022 119.2)",
+    "sidebar-foreground": "oklch(0.966 0.016 95.2)",
+    "sidebar-primary": "oklch(0.782 0.175 126.1)",
+    "sidebar-primary-foreground": "oklch(0.293 0.031 139.4)",
+    "sidebar-accent": "oklch(0.384 0.024 77.0)",
+    "sidebar-accent-foreground": "oklch(0.966 0.016 95.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.782 0.175 126.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Readable English interaction UI with tabular numbers, short status labels, and Noto Sans JP guidance for Japanese dashboard, form, table, and navigation labels.",
+  "layout": "Crisp 8px interaction grids, bark-neutral side navigation, responsive metric panels, data tables, form stacks, rose dewlap focus rings, scale-texture surfaces, and restrained 8px cards.",
+  "tags": [
+    "anole",
+    "reptile",
+    "garden-branch",
+    "anole-dewlap",
+    "green-body",
+    "pink-dewlap",
+    "light-interaction",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-anole/motif.png",
+    "board": "/systems/morphous-anole/design-system-light.png",
+    "darkBoard": "/systems/morphous-anole/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-anole/theme.css",
+    "themeJson": "/systems/morphous-anole/theme.json",
+    "promptsJson": "/systems/morphous-anole/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent anole dewlap motif",
+      "asset": "/systems/morphous-anole/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Anole transparent motif chroma-key source\nPrimary request: Create only an anole dewlap motif for a design-system catalog, isolated as a single complete reptile subject on a removable chroma-key background.\nSubject: A small green anole lizard perched lightly on a short bark twig, bright emerald-green body with fine scale texture, slim limbs and toes visible, alert head profile, and a fully extended rounded pink rose dewlap under the throat. Include subtle bark neutrals on the perch, but keep the lizard and dewlap as the clear subject. The identity must read as anole with dewlap, not gecko, iguana, chameleon, frog, salamander, or generic lizard.\nComposition/framing: centered complete cutout with generous padding; include full body, tail curve, twig, head, and pink dewlap without cropping. Crisp studio lighting that preserves green scale detail and dewlap membrane texture. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no garden scene, no leaves, no second animal, no human hand, no enclosure, no text, no watermark, no extra props, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-anole/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Anole light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Anole\", derived from a green anole lizard with an extended pink dewlap on bark. This board is a source reference for implementing a shadcn/tweakcn-compatible light interaction UI system.\nCanvas: exact 16:9 high-resolution board, intended final asset 3840 x 2160. Clean professional design-system presentation, crisp controls, large legible labels, dense but scannable layout.\nRequired visible sections: Morphous Anole, Anole Dewlap, Palette, Typography, Japanese Typography, Components, Navigation, Interaction Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from emerald green anole body, pale lime belly, rose-pink translucent dewlap, bark taupe and brown, cream branch highlights, fine scale texture, dewlap rib structure, and garden branch context. The board must read as anole dewlap, not gecko, iguana, chameleon, frog, or generic green lizard.\nTypography: English light interaction UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, values. Use concise bilingual labels for interaction state, branch status, sensor metric, and response controls with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, status cards, table rows, command search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, heat strip, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: light interaction system, precise 8px grid and 8px card radius, crisp ivory and leaf-mist surfaces, green-body primary actions, pink-dewlap accent states, bark-neutral navigation and dividers, pale scale texture panels, subtle dewlap membrane gradient only inside accent samples, responsive dashboard controls, polished shadcn/tweakcn component language.\nConstraints: no watermark, no random brand names, no fake company logo, no generic purple or blue gradient dominance, no neon colors, no beige-only palette, no dark-only board, no dense tiny unreadable paragraphs, no misspelling of \"Morphous Anole\", no unrelated animal identity."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-anole/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Anole dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Anole\" / \"Anole Dewlap\". Translate the same light interaction system into dark mode; do not invent a new unrelated theme.\nCanvas: exact 16:9 high-resolution board, intended final asset 3840 x 2160. Clean professional shadcn/tweakcn design-system presentation, crisp controls, large legible labels, dense but scannable layout.\nRequired visible sections: Morphous Anole, Anole Dewlap, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Interaction Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve emerald green anole body actions, rose-pink dewlap accents, bark taupe and brown structure, cream scale highlights, dewlap rib texture, fine scale pattern, garden branch context, responsive interaction controls, status chips, charts, forms, navigation, and data tables. The board must read as anole dewlap, not gecko, iguana, chameleon, frog, or generic lizard.\nTypography: English light interaction UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, values. Use concise bilingual labels for interaction state, branch status, sensor metric, and response controls with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, cards, status cards, data table, command search palette, filters, sidebar navigation, top navigation, dashboard metrics, line chart, bar chart, donut chart, heat strip, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, simple icon set.\nVisual details: deep bark-charcoal background, dark leaf panels, green-body active states, rose-pink dewlap focus and accent rings, soft cream foreground text, bark-brown borders, pale scale texture overlays, thin dewlap-rib separators, restrained contrast, crisp controls and dashboards, 8px grid and 8px card radius.\nConstraints: no watermark, no random brand names, no fake company logo, no generic black-and-green hacker UI, no pure-black flat background, no neon colors, no purple or blue gradient dominance, no unrelated saturated colors, no dense tiny unreadable paragraphs, no misspelling of \"Morphous Anole\", no unrelated animal identity."
+    }
+  ]
+}

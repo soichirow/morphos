@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-avocet",
+    "name": "Morphous Avocet",
+    "motifName": "Avocet Bill",
+    "motifCategory": "bird",
+    "biome": "salt pan",
+    "motif": "avocet bill"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Salt Crust",
+      "hex": "#F1F4F6",
+      "oklch": "oklch(0.965 0.004 236.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bill Black",
+      "hex": "#0D0D0F",
+      "oklch": "oklch(0.160 0.004 285.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bill Black",
+      "hex": "#0D0D0F",
+      "oklch": "oklch(0.160 0.004 285.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rust Head",
+      "hex": "#C2482A",
+      "oklch": "oklch(0.564 0.163 34.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Brine Blue",
+      "hex": "#8FB7D6",
+      "oklch": "oklch(0.761 0.062 241.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Rust Light",
+      "hex": "#E07A5F",
+      "oklch": "oklch(0.688 0.133 35.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Gray",
+      "hex": "#E5E7EB",
+      "oklch": "oklch(0.928 0.006 264.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Gray",
+      "hex": "#374151",
+      "oklch": "oklch(0.373 0.031 259.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.004 236.5)",
+    "foreground": "oklch(0.160 0.004 285.9)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.160 0.004 285.9)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.160 0.004 285.9)",
+    "primary": "oklch(0.160 0.004 285.9)",
+    "primary-foreground": "oklch(0.965 0.004 236.5)",
+    "secondary": "oklch(0.985 0.002 247.8)",
+    "secondary-foreground": "oklch(0.373 0.031 259.7)",
+    "muted": "oklch(0.990 0.001 197.1)",
+    "muted-foreground": "oklch(0.373 0.031 259.7)",
+    "accent": "oklch(0.761 0.062 241.9)",
+    "accent-foreground": "oklch(0.160 0.004 285.9)",
+    "destructive": "oklch(0.160 0.004 285.9)",
+    "border": "oklch(0.974 0.003 286.4)",
+    "input": "oklch(0.974 0.003 286.4)",
+    "ring": "oklch(0.564 0.163 34.9)",
+    "chart-1": "oklch(0.160 0.004 285.9)",
+    "chart-2": "oklch(0.564 0.163 34.9)",
+    "chart-3": "oklch(0.761 0.062 241.9)",
+    "chart-4": "oklch(0.688 0.133 35.8)",
+    "chart-5": "oklch(0.373 0.031 259.7)",
+    "sidebar": "oklch(0.988 0.002 247.8)",
+    "sidebar-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-primary": "oklch(0.160 0.004 285.9)",
+    "sidebar-primary-foreground": "oklch(0.965 0.004 236.5)",
+    "sidebar-accent": "oklch(0.913 0.000 89.9)",
+    "sidebar-accent-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-border": "oklch(0.974 0.003 286.4)",
+    "sidebar-ring": "oklch(0.564 0.163 34.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.160 0.004 285.9)",
+    "foreground": "oklch(0.965 0.004 236.5)",
+    "card": "oklch(0.305 0.023 264.1)",
+    "card-foreground": "oklch(0.965 0.004 236.5)",
+    "popover": "oklch(0.305 0.023 264.1)",
+    "popover-foreground": "oklch(0.965 0.004 236.5)",
+    "primary": "oklch(0.564 0.163 34.9)",
+    "primary-foreground": "oklch(0.160 0.004 285.9)",
+    "secondary": "oklch(0.507 0.023 257.5)",
+    "secondary-foreground": "oklch(0.965 0.004 236.5)",
+    "muted": "oklch(0.507 0.023 257.5)",
+    "muted-foreground": "oklch(0.948 0.005 258.3)",
+    "accent": "oklch(0.761 0.062 241.9)",
+    "accent-foreground": "oklch(0.160 0.004 285.9)",
+    "destructive": "oklch(0.160 0.004 285.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.564 0.163 34.9)",
+    "chart-1": "oklch(0.564 0.163 34.9)",
+    "chart-2": "oklch(0.160 0.004 285.9)",
+    "chart-3": "oklch(0.761 0.062 241.9)",
+    "chart-4": "oklch(0.688 0.133 35.8)",
+    "chart-5": "oklch(0.928 0.006 264.5)",
+    "sidebar": "oklch(0.263 0.017 259.8)",
+    "sidebar-foreground": "oklch(0.965 0.004 236.5)",
+    "sidebar-primary": "oklch(0.564 0.163 34.9)",
+    "sidebar-primary-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-accent": "oklch(0.507 0.023 257.5)",
+    "sidebar-accent-foreground": "oklch(0.965 0.004 236.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.564 0.163 34.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for exact English product UI with Noto Sans JP guidance for Japanese labels, salt-pan observation tables, and crisp dashboard numerals.",
+  "layout": "Precise 8px grids, hairline bill-ink dividers, high-contrast feather-white panels, rust selected states, pale blue focus surfaces, and subtle salt crust texture.",
+  "tags": [
+    "avocet",
+    "bird",
+    "salt-pan",
+    "black-white",
+    "rust-head",
+    "pale-blue",
+    "precise-form",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-avocet/motif.png",
+    "board": "/systems/morphous-avocet/design-system-light.png",
+    "darkBoard": "/systems/morphous-avocet/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-avocet/theme.css",
+    "themeJson": "/systems/morphous-avocet/theme.json",
+    "promptsJson": "/systems/morphous-avocet/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent avocet bill motif",
+      "asset": "/systems/morphous-avocet/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Avocet transparent motif chroma-key source\nPrimary request: Create only an avocet bill motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A precise elegant avocet head and recurved upturned black bill as the dominant visual, with clean black-and-white plumage, rust head/cap accent, fine pale blue salt-pan reflected highlights along the white feathers, crisp natural feather detail. The long thin avocet bill must be accurate: black, slender, strongly upcurved, readable as the central motif.\nComposition/framing: centered clean cutout with generous padding; side profile head, neck, and full bill only, no full bird body, no water, no landscape. Clean studio lighting, crisp edges, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no full bird body, no legs, no salt pan scene, no props, no text, no watermark, no random brand, no cropped bill tip, no generic shorebird, no flamingo, no ibis."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-avocet/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Avocet light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Avocet\", derived from an avocet bill motif: precise upturned black bill, black-and-white plumage contrast, rust head accent, and pale blue salt-pan neutrals.\nCanvas: exact 3840 x 2160, wide 16:9 high-resolution board, clean professional UI design-system presentation, crisp readable labels.\nRequired visible sections: Morphous Avocet, Avocet Bill, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Charts, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from black bill ink, white feather surfaces, rust head accent, pale blue salt-pan sky and brine reflections, salt crust neutrals, thin precise avocet bill geometry, high-contrast feather edges. The board must read as avocet and salt pan, not generic bird UI, flamingo, ibis, or seaside resort.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, large, and legible.\nUI coverage: left navigation, top bar, dashboard metric cards, line chart, bar chart, donut chart, data table rows, status badges, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, alerts, cards, command/search panel, form section, empty/loading/error states, spacing, radius, border, shadow, subtle salt crust and fine feather texture samples, simple icons.\nStyle: premium shadcn/tweakcn-compatible precise form system, strict grid, 8px card radius, pale blue salt-pan background, black bill primary actions, white high-contrast panels, rust selected states and warning accents, cool blue focus rings, hairline black dividers inspired by avocet bill geometry.\nConstraints: no random brand names, no watermark, no tiny unreadable paragraphs, no generic purple/blue gradients, no neon palette, no beige-only palette, no misspelling of \"Morphous Avocet\", no flamingo imagery, no ibis, no unrelated stock photos."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-avocet/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Avocet dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Avocet\". It must feel like the light-mode board translated to dark mode, not a new theme, and remain derived from an avocet bill motif: precise upturned black bill, black-and-white plumage contrast, rust head accent, and pale blue salt-pan neutrals.\nCanvas: exact 3840 x 2160, wide 16:9 high-resolution board, clean professional UI design-system presentation, crisp readable labels.\nRequired visible sections: Morphous Avocet, Avocet Bill, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Charts, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the avocet system language: near-black bill-ink backgrounds, white-feather foreground text, rust head selected states, pale blue salt-pan panels and focus rings, brine blue charts, salt crust muted borders, precise thin curves and hairline dividers inspired by the upturned bill. Must read as avocet and salt pan, not flamingo, ibis, gull, generic bird dashboard, or blue corporate kit.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, large, and legible.\nUI coverage: left navigation, top bar, dashboard metric cards, line chart, bar chart, donut chart, data table rows, status badges, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, alerts, cards, command/search panel, form section, empty/loading/error states, spacing, radius, border, shadow, subtle salt crust and fine feather texture samples, simple icons.\nVisual details: precise form UI, restrained dark surfaces, black/white contrast, rust head accent chips and warnings, pale blue brine chart fills, white feather cards on dark panels, crisp 8px shadcn/tweakcn cards, dashboard/table/form/status/navigation sections all visible.\nConstraints: no random brand names, no watermark, no tiny unreadable paragraphs, no generic purple/blue gradients, no neon palette, no pure-black-only flat background, no misspelling of \"Morphous Avocet\", no flamingo imagery, no ibis, no unrelated stock photos."
+    }
+  ]
+}

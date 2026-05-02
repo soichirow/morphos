@@ -1,0 +1,44 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-ash-field",
+  "name": "Morphous Ash Field",
+  "status": "ready",
+  "motifName": "Ash Field",
+  "motifCategory": "landscape",
+  "biome": "Volcanic Plain",
+  "motif": "ash field",
+  "description": "A minimal recovery-system theme drawn from volcanic ash plains: pale ash surfaces, black pumice structure, basalt borders, rust mineral seams, and restrained operational states.",
+  "typography": "Geist for dense recovery operations UI with Noto Sans JP guidance for headings, body, labels, metadata, and numerals.",
+  "layout": "Sparse volcanic-plain grids, compact monitoring panels, 8px component radius, matte borders, quiet charts, and rust-colored focus paths.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "ash-field",
+    "landscape",
+    "volcanic-plain",
+    "minimal",
+    "recovery-system",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Pale Ash", "hex": "#f3f1ec" },
+    { "role": "Surface", "name": "Ash Surface", "hex": "#d7d0c6" },
+    { "role": "Border", "name": "Basalt Grey", "hex": "#787e83" },
+    { "role": "Ink", "name": "Pumice Ink", "hex": "#1a1c1f" },
+    { "role": "Primary", "name": "Rust Oxide", "hex": "#c24a2a" },
+    { "role": "Accent", "name": "Mineral Ember", "hex": "#e2793a" },
+    { "role": "Muted", "name": "Weathered Stone", "hex": "#a9a791" },
+    { "role": "Depth", "name": "Soot", "hex": "#2a2d31" }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ash-field/motif.png",
+    "board": "/systems/morphous-ash-field/design-system-light.png",
+    "darkBoard": "/systems/morphous-ash-field/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ash-field/theme.css",
+    "themeJson": "/systems/morphous-ash-field/theme.json",
+    "promptsJson": "/systems/morphous-ash-field/prompts.json"
+  }
+}

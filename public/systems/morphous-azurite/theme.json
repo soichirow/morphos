@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-azurite",
+    "name": "Morphous Azurite",
+    "motifName": "Azurite",
+    "motifCategory": "mineral",
+    "biome": "Copper Mine",
+    "motif": "azurite crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mine Lab",
+      "hex": "#f7f8fb",
+      "oklch": "oklch(0.979 0.004 271.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Graphite Core",
+      "hex": "#1b1f26",
+      "oklch": "oklch(0.238 0.015 261.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Velvet Azurite",
+      "hex": "#0d2b6f",
+      "oklch": "oklch(0.316 0.123 263.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Crystal Blue",
+      "hex": "#1e4edb",
+      "oklch": "oklch(0.491 0.221 264.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Malachite Vein",
+      "hex": "#0e8f6e",
+      "oklch": "oklch(0.579 0.113 168.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Copper Matrix",
+      "hex": "#b87333",
+      "oklch": "oklch(0.618 0.117 60.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Strata",
+      "hex": "#eae7df",
+      "oklch": "oklch(0.928 0.011 89.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Slate Dust",
+      "hex": "#606a78",
+      "oklch": "oklch(0.521 0.025 256.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Shaft",
+      "hex": "#0b1220",
+      "oklch": "oklch(0.183 0.031 263.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.004 271.4)",
+    "foreground": "oklch(0.238 0.015 261.6)",
+    "card": "oklch(0.928 0.011 89.7)",
+    "card-foreground": "oklch(0.238 0.015 261.6)",
+    "popover": "oklch(0.928 0.011 89.7)",
+    "popover-foreground": "oklch(0.238 0.015 261.6)",
+    "primary": "oklch(0.316 0.123 263.2)",
+    "primary-foreground": "oklch(0.979 0.004 271.4)",
+    "secondary": "oklch(0.949 0.004 91.4)",
+    "secondary-foreground": "oklch(0.183 0.031 263.4)",
+    "muted": "oklch(0.943 0.007 88.6)",
+    "muted-foreground": "oklch(0.183 0.031 263.4)",
+    "accent": "oklch(0.579 0.113 168.8)",
+    "accent-foreground": "oklch(0.238 0.015 261.6)",
+    "destructive": "oklch(0.316 0.123 263.2)",
+    "border": "oklch(0.787 0.002 197.1)",
+    "input": "oklch(0.787 0.002 197.1)",
+    "ring": "oklch(0.491 0.221 264.6)",
+    "chart-1": "oklch(0.316 0.123 263.2)",
+    "chart-2": "oklch(0.491 0.221 264.6)",
+    "chart-3": "oklch(0.579 0.113 168.8)",
+    "chart-4": "oklch(0.618 0.117 60.4)",
+    "chart-5": "oklch(0.183 0.031 263.4)",
+    "sidebar": "oklch(0.946 0.005 95.1)",
+    "sidebar-foreground": "oklch(0.238 0.015 261.6)",
+    "sidebar-primary": "oklch(0.316 0.123 263.2)",
+    "sidebar-primary-foreground": "oklch(0.979 0.004 271.4)",
+    "sidebar-accent": "oklch(0.857 0.003 264.5)",
+    "sidebar-accent-foreground": "oklch(0.316 0.123 263.2)",
+    "sidebar-border": "oklch(0.787 0.002 197.1)",
+    "sidebar-ring": "oklch(0.491 0.221 264.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.238 0.015 261.6)",
+    "foreground": "oklch(0.979 0.004 271.4)",
+    "card": "oklch(0.200 0.026 263.7)",
+    "card-foreground": "oklch(0.979 0.004 271.4)",
+    "popover": "oklch(0.200 0.026 263.7)",
+    "popover-foreground": "oklch(0.979 0.004 271.4)",
+    "primary": "oklch(0.491 0.221 264.6)",
+    "primary-foreground": "oklch(0.238 0.015 261.6)",
+    "secondary": "oklch(0.264 0.028 263.9)",
+    "secondary-foreground": "oklch(0.979 0.004 271.4)",
+    "muted": "oklch(0.264 0.028 263.9)",
+    "muted-foreground": "oklch(0.781 0.013 259.8)",
+    "accent": "oklch(0.579 0.113 168.8)",
+    "accent-foreground": "oklch(0.238 0.015 261.6)",
+    "destructive": "oklch(0.316 0.123 263.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.491 0.221 264.6)",
+    "chart-1": "oklch(0.491 0.221 264.6)",
+    "chart-2": "oklch(0.316 0.123 263.2)",
+    "chart-3": "oklch(0.579 0.113 168.8)",
+    "chart-4": "oklch(0.618 0.117 60.4)",
+    "chart-5": "oklch(0.521 0.025 256.8)",
+    "sidebar": "oklch(0.213 0.021 264.0)",
+    "sidebar-foreground": "oklch(0.979 0.004 271.4)",
+    "sidebar-primary": "oklch(0.491 0.221 264.6)",
+    "sidebar-primary-foreground": "oklch(0.238 0.015 261.6)",
+    "sidebar-accent": "oklch(0.264 0.028 263.9)",
+    "sidebar-accent-foreground": "oklch(0.979 0.004 271.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.491 0.221 264.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Research product UI typography with confident numerals and Japanese guidance tuned for specimen records, analytical dashboards, and dense mineral notes.",
+  "layout": "Precise 8px grids, crisp mineral-facet cards, compact research dashboards, graphite borders, and subtle velvet crystal texture.",
+  "tags": [
+    "azurite",
+    "mineral",
+    "copper-mine",
+    "research",
+    "deep-blue",
+    "malachite",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-azurite/motif.png",
+    "board": "/systems/morphous-azurite/design-system-light.png",
+    "darkBoard": "/systems/morphous-azurite/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-azurite/theme.css",
+    "themeJson": "/systems/morphous-azurite/theme.json",
+    "promptsJson": "/systems/morphous-azurite/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent azurite motif",
+      "asset": "/systems/morphous-azurite/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Azurite transparent motif chroma-key source\nPrimary request: Create only an azurite mineral motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural azurite crystal cluster from a copper mine, with deep blue velvet azurite crystal faces, saturated royal blue and midnight blue facets, small velvety botryoidal areas, sharp prismatic mineral geometry, hints of green malachite seams and copper-mine matrix stone. Geological accuracy, rich research-system identity, no jewelry or carved object.\nComposition/framing: centered complete cutout with generous padding; include the full crystal cluster without cropping. Clean studio lighting that preserves velvet mineral depth and crisp crystal edges; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no jewelry setting, no fantasy glow, no hand, no landscape, no text, no watermark, no loose polished gemstones, no generic blue rock, no other minerals dominating the azurite."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-azurite/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Azurite light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Azurite\", derived from an azurite crystal motif from a copper mine. This board is a source reference for a shadcn/tweakcn-compatible rich research system.\nCanvas: wide 16:9 high-resolution design-system board, clean professional UI reference, intended final asset 3840x2160. Use large legible labels and spacious sections.\nRequired visible sections: Morphous Azurite, Azurite, Palette, Typography, Japanese Typography, Components, Navigation, Research Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from deep blue velvet azurite crystal, midnight blue facets, mineral ultramarine, green malachite seams, oxidized copper matrix, dark mine stone, and pale lab-paper highlights. The board must read as azurite crystal and copper mine research, not generic blue SaaS.\nTypography: English research/product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Specimen Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: rich research system, shadcn/tweakcn-style product UI, 8px radius with crisp mineral-facet edges, pale mine-lab backgrounds, deep azurite primary actions, malachite green analytical accents, copper ochre warnings, graphite borders, velvet mineral texture, precise grid, accessible contrast.\nPalette names to show: Mine Lab, Graphite Core, Velvet Azurite, Crystal Blue, Malachite Vein, Copper Matrix, Pale Strata, Slate Dust, Deep Shaft.\nConstraints: no jewelry, no fantasy cave, no neon cyan, no generic purple-blue gradients, no unrelated saturated colors, no stock photography, no watermark, no random brand names, no misspelling of \"Morphous Azurite\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-azurite/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Azurite dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Azurite\". It must feel like the light-mode board translated to dark mode and remain derived from an azurite crystal motif from a copper mine.\nCanvas: wide 16:9 high-resolution design-system board, clean professional UI reference, intended final asset 3840x2160. Use large legible labels and spacious sections.\nRequired visible sections: Morphous Azurite, Azurite, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Research Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve deep blue velvet azurite primary actions, electric mineral-blue focus rings, malachite green analytical accents, copper matrix warnings, dark mine stone surfaces, graphite borders, and pale lab-paper text. The board must read as azurite crystal and copper mine research, not generic blue SaaS.\nTypography: English research/product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Specimen Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: near-black deep shaft background, graphite cards, velvet azurite buttons, crystal-blue hover and chart marks, malachite success states, copper oxide warnings, pale strata foreground text, subtle mineral dust and crystalline facets, rich research-system tone, accessible contrast, precise 8px grid.\nPalette names to show: Mine Lab, Graphite Core, Velvet Azurite, Crystal Blue, Malachite Vein, Copper Matrix, Pale Strata, Slate Dust, Deep Shaft.\nConstraints: no jewelry, no fantasy cave, no neon cyan, no pure-black-only flat background, no generic purple-blue gradients, no unrelated saturated colors, no stock photography, no watermark, no random brand names, no misspelling of \"Morphous Azurite\", no tiny unreadable paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-anole",
+  "name": "Morphous Anole",
+  "motifName": "Anole",
+  "motifCategory": "reptile",
+  "biome": "garden branch",
+  "motif": "anole dewlap",
+  "description": "A shadcn/tweakcn-compatible light interaction system derived from a green anole displaying its rose-pink dewlap on a garden branch: emerald body actions, dewlap accent states, bark-neutral structure, ivory scale surfaces, and crisp controls for dashboards, forms, tables, navigation, and status workflows.",
+  "typography": "Readable English interaction UI with tabular numbers, short status labels, and Noto Sans JP guidance for Japanese dashboard, form, table, and navigation labels.",
+  "layout": "Crisp 8px interaction grids, bark-neutral side navigation, responsive metric panels, data tables, form stacks, rose dewlap focus rings, scale-texture surfaces, and restrained 8px cards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "anole",
+    "reptile",
+    "garden-branch",
+    "anole-dewlap",
+    "green-body",
+    "pink-dewlap",
+    "light-interaction",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Scale Ivory",
+      "hex": "#F7F4E8"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#243021"
+    },
+    {
+      "role": "Primary",
+      "name": "Anole Green",
+      "hex": "#5E9F25"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Flash",
+      "hex": "#9CCB3B"
+    },
+    {
+      "role": "Accent",
+      "name": "Dewlap Rose",
+      "hex": "#E98296"
+    },
+    {
+      "role": "Signal",
+      "name": "Throat Pink",
+      "hex": "#C94E69"
+    },
+    {
+      "role": "Surface",
+      "name": "Branch Cream",
+      "hex": "#FFFBF0"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Taupe",
+      "hex": "#B7A68A"
+    },
+    {
+      "role": "Border",
+      "name": "Twig Brown",
+      "hex": "#806843"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Charcoal",
+      "hex": "#2D261D"
+    },
+    {
+      "role": "Warning",
+      "name": "Eye Gold",
+      "hex": "#D9B957"
+    },
+    {
+      "role": "Danger",
+      "name": "Dewlap Signal",
+      "hex": "#B93F56"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

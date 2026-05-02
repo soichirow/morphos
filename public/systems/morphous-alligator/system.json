@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-alligator",
+  "name": "Morphous Alligator",
+  "motifName": "Alligator Eye",
+  "motifCategory": "reptile",
+  "biome": "Swamp bayou",
+  "motif": "alligator eye",
+  "description": "A shadcn/tweakcn-compatible stealth monitoring system derived from an alligator eye: dark green-black armored scales, black water shadows, mud-brown ridges, amber iris signals, and quiet bayou neutrals for dense surveillance dashboards.",
+  "typography": "Inter or Geist for compact monitoring UI with Noto Sans JP guidance for Japanese labels, tabular sensor values, and readable low-light operations hierarchy.",
+  "layout": "Dense 8px grids, scale-ridge dividers, wet black focus rings, bayou-neutral panels, amber status dots, compact tables, and stealth dashboard navigation.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "alligator",
+    "reptile",
+    "swamp-bayou",
+    "stealth-monitoring",
+    "dark-green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bayou Fog",
+      "hex": "#eef1e7"
+    },
+    {
+      "role": "Ink",
+      "name": "Gator Black",
+      "hex": "#10170f"
+    },
+    {
+      "role": "Primary",
+      "name": "Scale Green",
+      "hex": "#243b24"
+    },
+    {
+      "role": "Secondary",
+      "name": "Deep Water",
+      "hex": "#17241e"
+    },
+    {
+      "role": "Accent",
+      "name": "Iris Amber",
+      "hex": "#c49a3b"
+    },
+    {
+      "role": "Signal",
+      "name": "Warning Rust",
+      "hex": "#9a4c2f"
+    },
+    {
+      "role": "Surface",
+      "name": "Reed Tan",
+      "hex": "#c4b693"
+    },
+    {
+      "role": "Muted",
+      "name": "Duckweed",
+      "hex": "#71845d"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Brown",
+      "hex": "#6f5638"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-angelfish",
+    "name": "Morphous Angelfish",
+    "motifName": "Angelfish",
+    "motifCategory": "fish",
+    "biome": "Tropical reef",
+    "motif": "angelfish"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Shell",
+      "hex": "#F8F5E8",
+      "oklch": "oklch(0.969 0.017 96.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Stripe Ink",
+      "hex": "#090A0B",
+      "oklch": "oklch(0.144 0.003 247.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Royal Fin Blue",
+      "hex": "#0232CD",
+      "oklch": "oklch(0.426 0.237 264.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lagoon Blue",
+      "hex": "#1B68D0",
+      "oklch": "oklch(0.533 0.177 257.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Luminous Reef Yellow",
+      "hex": "#F2C203",
+      "oklch": "oklch(0.833 0.170 90.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Golden Fin",
+      "hex": "#C2960D",
+      "oklch": "oklch(0.695 0.140 87.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearly White",
+      "hex": "#EEF2F4",
+      "oklch": "oklch(0.959 0.005 228.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Scale Mist",
+      "hex": "#D9E4EA",
+      "oklch": "oklch(0.912 0.014 231.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Reef Navy",
+      "hex": "#0D1329",
+      "oklch": "oklch(0.194 0.045 270.3)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Slate Scale Blue",
+      "hex": "#48627B",
+      "oklch": "oklch(0.486 0.051 247.9)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Sunlit Fin",
+      "hex": "#FBD718",
+      "oklch": "oklch(0.883 0.179 96.5)"
+    },
+    {
+      "role": "Glow",
+      "name": "Fin Rim Glow",
+      "hex": "#67A7F5",
+      "oklch": "oklch(0.719 0.132 254.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.969 0.017 96.1)",
+    "foreground": "oklch(0.144 0.003 247.1)",
+    "card": "oklch(0.959 0.005 228.8)",
+    "card-foreground": "oklch(0.144 0.003 247.1)",
+    "popover": "oklch(0.959 0.005 228.8)",
+    "popover-foreground": "oklch(0.144 0.003 247.1)",
+    "primary": "oklch(0.426 0.237 264.0)",
+    "primary-foreground": "oklch(0.969 0.017 96.1)",
+    "secondary": "oklch(0.912 0.014 231.2)",
+    "secondary-foreground": "oklch(0.194 0.045 270.3)",
+    "muted": "oklch(0.934 0.003 264.5)",
+    "muted-foreground": "oklch(0.486 0.051 247.9)",
+    "accent": "oklch(0.833 0.170 90.6)",
+    "accent-foreground": "oklch(0.144 0.003 247.1)",
+    "destructive": "oklch(0.695 0.140 87.1)",
+    "border": "oklch(0.864 0.015 235.4)",
+    "input": "oklch(0.864 0.015 235.4)",
+    "ring": "oklch(0.533 0.177 257.9)",
+    "chart-1": "oklch(0.426 0.237 264.0)",
+    "chart-2": "oklch(0.533 0.177 257.9)",
+    "chart-3": "oklch(0.833 0.170 90.6)",
+    "chart-4": "oklch(0.695 0.140 87.1)",
+    "chart-5": "oklch(0.194 0.045 270.3)",
+    "sidebar": "oklch(0.959 0.005 228.8)",
+    "sidebar-foreground": "oklch(0.144 0.003 247.1)",
+    "sidebar-primary": "oklch(0.426 0.237 264.0)",
+    "sidebar-primary-foreground": "oklch(0.969 0.017 96.1)",
+    "sidebar-accent": "oklch(0.912 0.014 231.2)",
+    "sidebar-accent-foreground": "oklch(0.426 0.237 264.0)",
+    "sidebar-border": "oklch(0.864 0.015 235.4)",
+    "sidebar-ring": "oklch(0.533 0.177 257.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.147 0.018 254.4)",
+    "foreground": "oklch(0.959 0.005 228.8)",
+    "card": "oklch(0.210 0.032 264.7)",
+    "card-foreground": "oklch(0.959 0.005 228.8)",
+    "popover": "oklch(0.210 0.032 264.7)",
+    "popover-foreground": "oklch(0.959 0.005 228.8)",
+    "primary": "oklch(0.719 0.132 254.3)",
+    "primary-foreground": "oklch(0.147 0.018 254.4)",
+    "secondary": "oklch(0.319 0.046 258.7)",
+    "secondary-foreground": "oklch(0.959 0.005 228.8)",
+    "muted": "oklch(0.257 0.047 261.2)",
+    "muted-foreground": "oklch(0.717 0.038 243.2)",
+    "accent": "oklch(0.883 0.179 96.5)",
+    "accent-foreground": "oklch(0.147 0.018 254.4)",
+    "destructive": "oklch(0.780 0.158 89.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.719 0.132 254.3)",
+    "chart-1": "oklch(0.719 0.132 254.3)",
+    "chart-2": "oklch(0.426 0.237 264.0)",
+    "chart-3": "oklch(0.883 0.179 96.5)",
+    "chart-4": "oklch(0.780 0.158 89.6)",
+    "chart-5": "oklch(0.959 0.005 228.8)",
+    "sidebar": "oklch(0.194 0.045 270.3)",
+    "sidebar-foreground": "oklch(0.959 0.005 228.8)",
+    "sidebar-primary": "oklch(0.719 0.132 254.3)",
+    "sidebar-primary-foreground": "oklch(0.147 0.018 254.4)",
+    "sidebar-accent": "oklch(0.319 0.046 258.7)",
+    "sidebar-accent-foreground": "oklch(0.959 0.005 228.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.719 0.132 254.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English portfolio operations UI with Noto Sans JP guidance for project names, proposal states, gallery labels, metrics, and multilingual command/search surfaces.",
+  "layout": "Polished 8px portfolio grids, 8px-or-less radii, fin-ray divider rhythm, black-stripe structure, reef-yellow highlights, royal-blue focus states, and low refined shadows for scan-friendly case-study dashboards.",
+  "tags": [
+    "angelfish",
+    "fish",
+    "tropical-reef",
+    "portfolio",
+    "creative-studio",
+    "dashboard",
+    "gallery",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-angelfish/motif.png",
+    "board": "/systems/morphous-angelfish/design-system-light.png",
+    "darkBoard": "/systems/morphous-angelfish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-angelfish/theme.css",
+    "themeJson": "/systems/morphous-angelfish/theme.json",
+    "promptsJson": "/systems/morphous-angelfish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent angelfish motif source",
+      "asset": "/systems/morphous-angelfish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for a catalog design system\nPrimary request: Create only an isolated tropical reef angelfish, full subject, no environment, no props, no text.\nSubject: A graceful marine angelfish with tall triangular dorsal and anal fins, sweeping angelfish fin silhouette, rounded reef-fish body, narrow pointed mouth, elegant trailing fin tips, polished natural detail. Use a palette of luminous reef yellow, saturated blue, crisp black banding, and clean pearly white markings. The fish should read as a precise motif source for a polished portfolio design system.\nComposition/framing: centered complete cutout with generous padding; do not crop any fin tips, tail, or trailing edges. Side-view with slight three-quarter depth so the tall fins and black-white-yellow-blue pattern are clear and useful for palette extraction.\nLighting/mood: clean studio light that preserves scale texture, satin fin translucency, bright tropical color, black stripe contrast, and pearly white highlights without casting a floor shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no coral, no rocks, no sand, no water, no reef background, no aquarium glass, no second fish, no cartoon mascot, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-angelfish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nInput image: use the visible transparent angelfish motif as the source reference for palette, fin shapes, stripe rhythm, scale texture, and interaction language.\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Angelfish\", derived from a tropical reef angelfish motif: luminous yellow body, saturated reef blue fin edges, crisp black bands, pearly white face markings, tall triangular angelfish fins, polished portfolio-system mood.\nCanvas: exact wide 16:9 board composition, designed as a 3840x2160 source image. Keep all text and UI labels large, crisp, and readable at gallery preview scale.\nRequired visible sections: Morphous Angelfish, Angelfish, Palette, Typography, Japanese Typography, Components, Navigation, Portfolio Dashboard/Data, Forms, Tables, Command/Search, Status States, Charts, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nDesign mood: polished portfolio system for creative studios, reef conservation portfolios, design case studies, client project dashboards, curatorial pages, media grids, proposal pipelines, and visual archive workflows. Quiet, premium, scan-friendly, editorial but operational.\nPalette: derive colors only from the motif: reef shell off-white, black stripe ink, luminous reef yellow, royal fin blue, clear lagoon blue, pearly white, golden fin, deep reef navy, muted slate-blue, and scale shadow. Use yellow as confident highlight/accent, royal blue as primary action and focus ring, black bands for structure, white for clean surfaces, with restrained contrast.\nTypography: show English product UI guidance and Japanese typography guidance. Include short examples such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, ポートフォリオ, 作品, 提案, 検索, 状態.\nFull component coverage: icon buttons, primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, dialog/popover, tooltip, table rows, command palette/search field, sidebar navigation, top navigation, breadcrumbs, dashboard metric cards, media cards, timeline, progress, skeleton/loading, empty/error/success states.\nCharts and data: include line chart, bar chart, donut chart, compact status heatmap, sparklines, KPI cards, and table data for portfolio analytics and reef project observations. Use chart colors from royal fin blue, lagoon blue, luminous yellow, golden fin, and black stripe ink.\nTokens: show semantic token rows for background, foreground, primary, secondary, accent, destructive, muted, border, input, ring, chart colors, sidebar tokens. Include visible radius samples capped at 2px, 4px, 6px, 8px; spacing samples on an 8px grid; shadow samples that are low, polished, and portfolio-like.\nTexture: include subtle fish scale texture, fin-ray linework, black-stripe dividers, pearly white panels, small blue rim highlights, and refined reef-yellow swatches. Keep cards radius 8px or less.\nLayout style: premium shadcn/tweakcn-compatible board, precise grid, professional design-system documentation, no nested cards, no oversized marketing hero, realistic app components on a calm light background.\nText constraints: use short readable labels; no long paragraphs; no random brand names; spell \"Morphous Angelfish\" correctly.\nAvoid: generic purple gradients, neon overload, decorative blobs, stock reef photos, cartoon mascot styling, unrelated saturated colors, cropped motif, illegible microtext, watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-angelfish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nInput images: use the visible transparent angelfish motif and the visible light-mode design-system board as references.\nPrimary request: Generate a dark-mode version of the \"Morphous Angelfish\" design-system board. It must feel like the same polished tropical reef portfolio system translated to dark mode, not a new theme.\nReference use: Preserve the motif-derived roles and light-board structure: luminous yellow body, saturated reef blue fin edges, crisp black bands, pearly white markings, tall angelfish fin silhouette, scale texture, fin-ray linework, portfolio dashboard/data examples, navigation, components, forms, tables, command/search, status states, tokens, radius, spacing, shadows, texture, and generated assets.\nCanvas: exact wide 16:9 board composition, designed as a 3840x2160 source image. Keep all text and UI labels large, crisp, and readable at gallery preview scale.\nRequired visible sections: Morphous Angelfish, Angelfish, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Portfolio Dashboard/Data, Forms, Tables, Command/Search, Status States, Charts, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nDesign mood: polished portfolio system for creative studios, reef conservation portfolios, design case studies, client project dashboards, curatorial pages, media grids, proposal pipelines, and visual archive workflows. Quiet, premium, scan-friendly, editorial but operational.\nDark palette: background from black stripe ink and deep reef navy; foreground from reef shell and pearly white; primary from clear lagoon blue and royal fin blue; accent from luminous reef yellow/golden fin; destructive from warm coral-red only for errors; muted surfaces from slate-blue and deep navy. Keep contrast accessible and restrained.\nTypography: show English product UI guidance and Japanese typography guidance. Include short examples such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, ポートフォリオ, 作品, 提案, 検索, 状態.\nFull component coverage: icon buttons, primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, dialog/popover, tooltip, table rows, command palette/search field, sidebar navigation, top navigation, breadcrumbs, dashboard metric cards, media cards, timeline, progress, skeleton/loading, empty/error/success states.\nCharts and data: include line chart, bar chart, donut chart, compact status heatmap, sparklines, KPI cards, and table data for portfolio analytics and reef project observations. Use chart colors from lagoon blue, royal fin blue, luminous yellow, golden fin, and pearly white.\nTokens: show semantic token rows for background, foreground, primary, secondary, accent, destructive, muted, border, input, ring, chart colors, sidebar tokens. Include visible radius samples capped at 2px, 4px, 6px, 8px; spacing samples on an 8px grid; shadow samples that are low and deep-reef polished.\nTexture: include subtle fish scale texture, fin-ray linework, black-stripe dividers, pearly white highlights, small blue rim glows, and refined reef-yellow swatches. Keep cards radius 8px or less.\nLayout style: premium shadcn/tweakcn-compatible board, precise grid, professional design-system documentation, no nested cards, no oversized marketing hero, realistic app components on a dark deep-reef operations surface.\nText constraints: use short readable labels; no long paragraphs; no random brand names; spell \"Morphous Angelfish\" correctly.\nAvoid: generic purple gradients, neon overload, pure black-only background, decorative blobs, stock reef photos, cartoon mascot styling, unrelated saturated colors, cropped motif, illegible microtext, watermark."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-assassin-bug",
+    "name": "Morphous Assassin Bug",
+    "motifName": "Assassin Bug",
+    "motifCategory": "insect",
+    "biome": "tropical leaf",
+    "motif": "assassin bug"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow",
+      "hex": "#FAFAFA",
+      "oklch": "oklch(0.985 0.000 89.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Stone",
+      "hex": "#F7F2F2",
+      "oklch": "oklch(0.965 0.005 17.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone",
+      "hex": "#E5E5E6",
+      "oklch": "oklch(0.922 0.001 286.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Steel",
+      "hex": "#ADB2B8",
+      "oklch": "oklch(0.761 0.010 252.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Alert Red",
+      "hex": "#E31E24",
+      "oklch": "oklch(0.585 0.225 27.0)"
+    },
+    {
+      "role": "Focus",
+      "name": "Ember Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Tactical Orange",
+      "hex": "#FF6A1A",
+      "oklch": "oklch(0.702 0.199 43.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Green",
+      "hex": "#2E7D32",
+      "oklch": "oklch(0.523 0.135 144.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Vein",
+      "hex": "#7FD32F",
+      "oklch": "oklch(0.784 0.206 133.6)"
+    },
+    {
+      "role": "Support",
+      "name": "Moss",
+      "hex": "#51602F",
+      "oklch": "oklch(0.464 0.074 123.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite",
+      "hex": "#141C1E",
+      "oklch": "oklch(0.219 0.012 214.7)"
+    },
+    {
+      "role": "Panel",
+      "name": "Gunmetal",
+      "hex": "#2A2D33",
+      "oklch": "oklch(0.297 0.012 264.4)"
+    },
+    {
+      "role": "Night",
+      "name": "Deep Leaf",
+      "hex": "#0A0C09",
+      "oklch": "oklch(0.151 0.007 134.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.000 89.9)",
+    "foreground": "oklch(0.185 0.005 248.1)",
+    "card": "oklch(0.965 0.005 17.3)",
+    "card-foreground": "oklch(0.185 0.005 248.1)",
+    "popover": "oklch(0.985 0.000 89.9)",
+    "popover-foreground": "oklch(0.185 0.005 248.1)",
+    "primary": "oklch(0.585 0.225 27.0)",
+    "primary-foreground": "oklch(0.985 0.000 89.9)",
+    "secondary": "oklch(0.922 0.001 286.4)",
+    "secondary-foreground": "oklch(0.219 0.012 214.7)",
+    "muted": "oklch(0.965 0.005 17.3)",
+    "muted-foreground": "oklch(0.297 0.012 264.4)",
+    "accent": "oklch(0.523 0.135 144.2)",
+    "accent-foreground": "oklch(0.985 0.000 89.9)",
+    "destructive": "oklch(0.585 0.225 27.0)",
+    "border": "oklch(0.761 0.010 252.8)",
+    "input": "oklch(0.761 0.010 252.8)",
+    "ring": "oklch(0.701 0.201 44.8)",
+    "chart-1": "oklch(0.585 0.225 27.0)",
+    "chart-2": "oklch(0.701 0.201 44.8)",
+    "chart-3": "oklch(0.523 0.135 144.2)",
+    "chart-4": "oklch(0.784 0.206 133.6)",
+    "chart-5": "oklch(0.219 0.012 214.7)",
+    "sidebar": "oklch(0.219 0.012 214.7)",
+    "sidebar-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-primary": "oklch(0.585 0.225 27.0)",
+    "sidebar-primary-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-accent": "oklch(0.297 0.012 264.4)",
+    "sidebar-accent-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-border": "oklch(0.297 0.012 264.4)",
+    "sidebar-ring": "oklch(0.701 0.201 44.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.151 0.007 134.8)",
+    "foreground": "oklch(0.985 0.000 89.9)",
+    "card": "oklch(0.200 0.009 264.4)",
+    "card-foreground": "oklch(0.985 0.000 89.9)",
+    "popover": "oklch(0.219 0.012 214.7)",
+    "popover-foreground": "oklch(0.985 0.000 89.9)",
+    "primary": "oklch(0.585 0.225 27.0)",
+    "primary-foreground": "oklch(0.985 0.000 89.9)",
+    "secondary": "oklch(0.297 0.012 264.4)",
+    "secondary-foreground": "oklch(0.985 0.000 89.9)",
+    "muted": "oklch(0.311 0.012 222.4)",
+    "muted-foreground": "oklch(0.653 0.015 248.1)",
+    "accent": "oklch(0.701 0.201 44.8)",
+    "accent-foreground": "oklch(0.151 0.007 134.8)",
+    "destructive": "oklch(0.585 0.225 27.0)",
+    "border": "oklch(0.311 0.012 222.4 / 65%)",
+    "input": "oklch(0.311 0.012 222.4 / 75%)",
+    "ring": "oklch(0.702 0.199 43.0)",
+    "chart-1": "oklch(0.585 0.225 27.0)",
+    "chart-2": "oklch(0.702 0.199 43.0)",
+    "chart-3": "oklch(0.523 0.135 144.2)",
+    "chart-4": "oklch(0.784 0.206 133.6)",
+    "chart-5": "oklch(0.653 0.015 248.1)",
+    "sidebar": "oklch(0.134 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-primary": "oklch(0.585 0.225 27.0)",
+    "sidebar-primary-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-accent": "oklch(0.219 0.012 214.7)",
+    "sidebar-accent-foreground": "oklch(0.985 0.000 89.9)",
+    "sidebar-border": "oklch(0.311 0.012 222.4 / 65%)",
+    "sidebar-ring": "oklch(0.702 0.199 43.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Orbitron for display and status moments, Inter for precise product UI, Geist Mono for event logs and tabular data, and Noto Sans JP guidance for Japanese navigation, forms, alerts, and security status labels.",
+  "layout": "Compact security dashboards, angular navigation, dense but readable forms and tables, command search, 8px maximum radii, graphite borders, orange focus rings, red alert states, leaf-green secure states, chitin stipple texture, and leaf-vein separators.",
+  "tags": [
+    "assassin-bug",
+    "insect",
+    "tropical-leaf",
+    "black-red-orange",
+    "leaf-green",
+    "security-system",
+    "sharp",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-assassin-bug/motif.png",
+    "board": "/systems/morphous-assassin-bug/design-system-light.png",
+    "darkBoard": "/systems/morphous-assassin-bug/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-assassin-bug/theme.css",
+    "themeJson": "/systems/morphous-assassin-bug/theme.json",
+    "promptsJson": "/systems/morphous-assassin-bug/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent assassin bug motif",
+      "asset": "/systems/morphous-assassin-bug/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous transparent motif chroma-key source for a design-system catalog. Primary request: Create an isolated Assassin Bug motif as one complete cutout object, no surrounding environment, no text. Subject: A single assassin bug with accurate hemipteran anatomy, elongated angular body, piercing rostrum, thin antennae, faceted eyes, spined predatory forelegs, black chitin body, red-orange shield markings, ember-orange leg joints, subtle glossy shell highlights, and a small attached tropical green leaf segment beneath it to carry the leaf-biome palette. The bug should feel sharp, alert, and security-system-like, with clean tactical geometry but natural insect detail. Composition/framing: centered full subject with generous padding; show the full bug, antennae, rostrum, all legs, abdomen, wing covers, and the leaf segment without cropping. Three-quarter top view suitable for a catalog motif. Lighting/mood: clean studio light that preserves black, red, orange, and leaf-green details; crisp silhouette edges. Transparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. Constraints: no other insects, no landscape, no branch, no flowers, no camouflage background, no cast shadow, no contact shadow, no reflection, no watermark, no text."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-assassin-bug/design-system-light.png",
+      "sourceAsset": "/systems/morphous-assassin-bug/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Assassin Bug light-mode design-system board. Input image role: Use the visible transparent Assassin Bug motif from this conversation as the source reference for palette, texture, contrast, posture, and interaction language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Assassin Bug\", derived from the black, red-orange, and tropical-leaf assassin bug motif. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Use a crisp design-system presentation, not a website landing page. Resolution and legibility: high-resolution source board, at least 2400px wide when available; use large readable labels, short text, clear section titles, and avoid dense tiny paragraphs. Required visible sections: Morphous Assassin Bug, Assassin Bug, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Extract palette and behavior from glossy black chitin, alert red wing bars, ember-orange leg joints, tactical graphite, tropical leaf green, vein lime, leaf shadow, tiny shell stipple, spined forelegs, and sharp predatory posture. UI coverage: icon buttons, primary and secondary buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, security dashboard metric cards, threat chart, event timeline, forms, empty/loading/error states, spacing, radius, border, shadow, texture samples, and simple product icons. Typography: include English product UI guidance and Japanese typography samples such as 監視, 認証, 警戒, 設定. Pair a precise technical sans with a strong display face and Noto Sans JP guidance. Style/medium: premium shadcn/tweakcn-style sharp security system; precise grid, angular section dividers, 8px maximum radius, black-and-red active states, orange focus rings, leaf-green success states, graphite borders, stippled chitin texture, leaf-vein accent lines, compact operational density. Color constraints: use only motif-derived colors and near-neutrals; no generic purple or blue gradients; no unrelated saturated colors; no one-note monochrome palette. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Assassin Bug\" or \"Assassin Bug\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-assassin-bug/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-assassin-bug/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-assassin-bug/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Assassin Bug dark-mode design-system board. Input image roles: Use the visible transparent Assassin Bug motif as the source motif reference and the visible light-mode Morphous Assassin Bug board as the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Assassin Bug\". It must feel like the same visible light-mode board translated to dark mode, not a new theme. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Use a crisp design-system presentation, not a website landing page. Resolution and legibility: high-resolution source board, at least 2400px wide when available; use large readable labels, short text, clear section titles, and avoid dense tiny paragraphs. Required visible sections: Morphous Assassin Bug, Assassin Bug, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Preserve the security-system dashboard structure, component set, typography guidance, angular dividers, 8px maximum radius, and assassin bug motif language from the light board. Translate the palette into dark surfaces derived from ink-black chitin and deep leaf shadow, with foreground from pale wing highlights, primary actions from alert red, focus from ember orange, success from leaf green, and borders from graphite shell texture. UI coverage: icon buttons, primary and secondary buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, security dashboard metric cards, threat chart, event timeline, forms, empty/loading/error states, spacing, radius, border, shadow, texture samples, and simple product icons. Typography: include English product UI guidance and Japanese typography samples such as 監視, 認証, 警戒, 設定. Pair a precise technical sans with a strong display face and Noto Sans JP guidance. Visual details: deep black and graphite backgrounds, dark card surfaces, red-orange active states, orange focus rings, green operational states, subtle chitin stipple, leaf-vein lines, tactical dashboard contrast, restrained glow, crisp edges. Color constraints: use only motif-derived colors and near-neutrals; no neon cyberpunk palette, no generic purple or blue gradients, no unrelated saturated colors, no pure-black-only flat background. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Assassin Bug\" or \"Assassin Bug\", no tiny unreadable paragraphs."
+    }
+  ]
+}

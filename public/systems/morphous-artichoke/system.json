@@ -1,0 +1,110 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 264,
+  "slug": "morphous-artichoke",
+  "name": "Artichoke",
+  "motifName": "Artichoke Bud",
+  "motifCategory": "plant",
+  "biome": "mediterranean field",
+  "motif": "artichoke bud",
+  "description": "A shadcn/tweakcn-compatible architectural content system derived from a Mediterranean field artichoke bud: sage green bracts, dusty olive structure, silvery bloom, muted purple heart, pale stem cream, warm bract tips, and olive charcoal grounding for layered editorial workflows.",
+  "typography": "Architectural content typography with sturdy editorial headings, readable product sans body text, compact numeric hierarchy, and Japanese typography guidance for structured labels, dense tables, and field-note content.",
+  "layout": "Precise 8px grids, 8px radii, layered-bract panels, ribbed-stem separators, bract-tip focus marks, fibrous texture accents, compact dashboards, dense content navigation, and calm form-heavy workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "artichoke",
+    "plant",
+    "mediterranean-field",
+    "sage-green",
+    "muted-purple",
+    "dusty-olive",
+    "architectural-content",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Mist",
+      "hex": "#F2F3EE"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Surface",
+      "hex": "#FBFAF4"
+    },
+    {
+      "role": "Ink",
+      "name": "Olive Charcoal",
+      "hex": "#3E4638"
+    },
+    {
+      "role": "Depth",
+      "name": "Heart Shadow",
+      "hex": "#3B2732"
+    },
+    {
+      "role": "Primary",
+      "name": "Sage Green",
+      "hex": "#8FA884"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dusty Olive",
+      "hex": "#6F7B5B"
+    },
+    {
+      "role": "Accent",
+      "name": "Muted Purple Heart",
+      "hex": "#7A5A74"
+    },
+    {
+      "role": "Highlight",
+      "name": "Silvery Green",
+      "hex": "#B7C1B4"
+    },
+    {
+      "role": "Surface Tint",
+      "name": "Stem Cream",
+      "hex": "#E8E7DA"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Straw",
+      "hex": "#D8C89C"
+    },
+    {
+      "role": "Focus",
+      "name": "Bract Tip",
+      "hex": "#B8915E"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

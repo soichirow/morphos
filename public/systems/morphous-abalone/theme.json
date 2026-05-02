@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-abalone",
+    "name": "Morphous Abalone",
+    "motifName": "Abalone Shell",
+    "motifCategory": "marine",
+    "biome": "Rocky Coast",
+    "motif": "abalone shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Pearl",
+      "hex": "#F7F8FA",
+      "oklch": "oklch(0.979 0.003 264.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Graphite Nacre",
+      "hex": "#0F1A1D",
+      "oklch": "oklch(0.209 0.017 216.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Iridescent Teal",
+      "hex": "#0EA5A3",
+      "oklch": "oklch(0.654 0.110 193.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Seafoam Nacre",
+      "hex": "#6ED1C5",
+      "oklch": "oklch(0.797 0.095 185.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blush Pearl",
+      "hex": "#F4B7C3",
+      "oklch": "oklch(0.838 0.072 5.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Opal White",
+      "hex": "#FEFBF7",
+      "oklch": "oklch(0.989 0.006 75.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Grey",
+      "hex": "#E6E9EE",
+      "oklch": "oklch(0.933 0.007 260.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Weathered Shell",
+      "hex": "#9BA8AA",
+      "oklch": "oklch(0.722 0.015 207.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tidepool Shadow",
+      "hex": "#071719",
+      "oklch": "oklch(0.191 0.022 205.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.003 264.5)",
+    "foreground": "oklch(0.209 0.017 216.6)",
+    "card": "oklch(0.933 0.007 260.7)",
+    "card-foreground": "oklch(0.209 0.017 216.6)",
+    "popover": "oklch(0.933 0.007 260.7)",
+    "popover-foreground": "oklch(0.209 0.017 216.6)",
+    "primary": "oklch(0.654 0.110 193.2)",
+    "primary-foreground": "oklch(0.979 0.003 264.5)",
+    "secondary": "oklch(0.952 0.006 264.5)",
+    "secondary-foreground": "oklch(0.191 0.022 205.9)",
+    "muted": "oklch(0.946 0.006 264.5)",
+    "muted-foreground": "oklch(0.191 0.022 205.9)",
+    "accent": "oklch(0.838 0.072 5.7)",
+    "accent-foreground": "oklch(0.209 0.017 216.6)",
+    "destructive": "oklch(0.636 0.208 25.3)",
+    "border": "oklch(0.860 0.009 232.4)",
+    "input": "oklch(0.860 0.009 232.4)",
+    "ring": "oklch(0.797 0.095 185.2)",
+    "chart-1": "oklch(0.654 0.110 193.2)",
+    "chart-2": "oklch(0.797 0.095 185.2)",
+    "chart-3": "oklch(0.838 0.072 5.7)",
+    "chart-4": "oklch(0.989 0.006 75.4)",
+    "chart-5": "oklch(0.191 0.022 205.9)",
+    "sidebar": "oklch(0.949 0.006 264.5)",
+    "sidebar-foreground": "oklch(0.209 0.017 216.6)",
+    "sidebar-primary": "oklch(0.654 0.110 193.2)",
+    "sidebar-primary-foreground": "oklch(0.979 0.003 264.5)",
+    "sidebar-accent": "oklch(0.895 0.023 210.4)",
+    "sidebar-accent-foreground": "oklch(0.654 0.110 193.2)",
+    "sidebar-border": "oklch(0.860 0.009 232.4)",
+    "sidebar-ring": "oklch(0.797 0.095 185.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.209 0.017 216.6)",
+    "foreground": "oklch(0.979 0.003 264.5)",
+    "card": "oklch(0.197 0.020 207.3)",
+    "card-foreground": "oklch(0.979 0.003 264.5)",
+    "popover": "oklch(0.197 0.020 207.3)",
+    "popover-foreground": "oklch(0.979 0.003 264.5)",
+    "primary": "oklch(0.797 0.095 185.2)",
+    "primary-foreground": "oklch(0.209 0.017 216.6)",
+    "secondary": "oklch(0.324 0.020 206.4)",
+    "secondary-foreground": "oklch(0.979 0.003 264.5)",
+    "muted": "oklch(0.324 0.020 206.4)",
+    "muted-foreground": "oklch(0.866 0.007 219.6)",
+    "accent": "oklch(0.838 0.072 5.7)",
+    "accent-foreground": "oklch(0.209 0.017 216.6)",
+    "destructive": "oklch(0.704 0.191 22.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.797 0.095 185.2)",
+    "chart-1": "oklch(0.797 0.095 185.2)",
+    "chart-2": "oklch(0.654 0.110 193.2)",
+    "chart-3": "oklch(0.838 0.072 5.7)",
+    "chart-4": "oklch(0.989 0.006 75.4)",
+    "chart-5": "oklch(0.722 0.015 207.9)",
+    "sidebar": "oklch(0.202 0.020 207.3)",
+    "sidebar-foreground": "oklch(0.979 0.003 264.5)",
+    "sidebar-primary": "oklch(0.797 0.095 185.2)",
+    "sidebar-primary-foreground": "oklch(0.209 0.017 216.6)",
+    "sidebar-accent": "oklch(0.324 0.020 206.4)",
+    "sidebar-accent-foreground": "oklch(0.979 0.003 264.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.797 0.095 185.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for elegant portfolio and dashboard UI with Noto Sans JP guidance for Japanese labels, compact metrics, generous line height, and polished multilingual readability.",
+  "layout": "Quiet 8px-grid portfolio layouts with translucent nacre cards, shell-hole navigation rhythm, soft graphite borders, restrained shadows, and iridescent texture used as a premium accent.",
+  "tags": [
+    "abalone",
+    "shell",
+    "marine",
+    "rocky-coast",
+    "iridescent",
+    "portfolio",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-abalone/motif.png",
+    "board": "/systems/morphous-abalone/design-system-light.png",
+    "darkBoard": "/systems/morphous-abalone/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-abalone/theme.css",
+    "themeJson": "/systems/morphous-abalone/theme.json",
+    "promptsJson": "/systems/morphous-abalone/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Abalone motif",
+      "asset": "/systems/morphous-abalone/motif.png",
+      "workflow": "Built-in image generation on flat #00ff00 chroma key, then local remove_chroma_key.py alpha extraction with border auto-key, soft matte, and despill.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Abalone transparent motif chroma-key source\nPrimary request: Create only an isolated abalone shell motif for a design-system catalog, no environment, no props, no text.\nSubject: A single abalone shell viewed in a graceful three-quarter angle, showing the nacre interior and outer rim, accurate shell form with oval shape, perforation holes along one side, lustrous iridescent teal, seafoam, blush pink, pearl grey, opal white, and graphite rim details. The shell should feel premium, tactile, marine, and suitable as a portfolio-system motif.\nComposition/framing: centered complete cutout with generous padding; show the full shell and rim without cropping; one shell only.\nLighting/mood: clean studio light that preserves pearlescent luster, nacre color shifts, fine shell ridges, and crisp silhouette edges.\nTransparent workflow: place the shell on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the shell fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the shell.\nConstraints: no animal body, no beach scene, no rocks, no sand, no water, no decorative background, no second shell, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-abalone/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-abalone/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for /systems/morphous-abalone/design-system-light.png\nPrimary request: Generate one comprehensive 16:9 light-mode design-system board for \"Morphous Abalone\" / \"Abalone Shell\", a lustrous portfolio system derived from the visible abalone shell motif. The board is the implementation reference for a shadcn/tweakcn-compatible theme.\nReference use: Use the visible abalone shell cutout as the source of truth. Extract palette, pearlescent texture rhythm, nacre glow, shell perforation rhythm, rocky coast context, contrast, spacing mood, and interaction language from the motif image. The board must visibly respect the motif colors: iridescent teal, seafoam, blush pink, pearl grey, opal white, graphite rim, and tidepool shadow.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Abalone, Abalone Shell, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use elegant portfolio UI type hierarchy with strong numeric rhythm.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, portfolio gallery tile, loading, empty, error states, spacing, radius, border, shadow, texture samples.\nVisual details: opal-white and pearl-grey page background, translucent nacre cards, teal primary actions, blush-pink accents, graphite text, seafoam rings, shell-hole pill navigation, subtle ridged nacre texture, 8px radii, quiet portfolio/workflow dashboard layout.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Abalone\".\nConstraints: no animals, no beach photo scene, no shells as repeated clutter, no neon overload, no generic purple gradients, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Abalone\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-abalone/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-abalone/motif.png",
+        "/systems/morphous-abalone/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for /systems/morphous-abalone/design-system-dark.png\nPrimary request: Generate one comprehensive 16:9 dark-mode design-system board for \"Morphous Abalone\" / \"Abalone Shell\". It must feel like the same system translated from the visible light-mode Morphous Abalone board and the same abalone shell motif, not a new theme.\nReference use: Use the visible transparent abalone shell motif and visible light board as references. Preserve motif-derived palette roles, nacre texture rhythm, shell-hole navigation rhythm, portfolio dashboard layout, spacing, typography, and shadcn/tweakcn component coverage. Translate opal-white surfaces into deep tidepool and graphite nacre surfaces, with pearl text, teal primary, seafoam rings, blush-pink accents, and restrained iridescent highlights.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Abalone, Abalone Shell, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use elegant portfolio UI type hierarchy with strong numeric rhythm.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, portfolio gallery tile, loading, empty, error states, spacing, radius, border, shadow, texture samples.\nVisual details: deep tidepool graphite background, dark pearl cards with nacre edge glow, luminous teal primary actions, blush-pink data accents, seafoam focus rings, pearl-grey foreground, shell-hole pill navigation, subtle ridged nacre texture, 8px radii, quiet high-end portfolio/workflow dashboard layout.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Abalone\".\nConstraints: no animals, no beach photo scene, no repeated shell clutter, no neon overload, no flat pure-black-only background, no generic purple gradients, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Abalone\"."
+    }
+  ]
+}

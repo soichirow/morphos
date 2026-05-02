@@ -1,0 +1,82 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-avocet",
+  "name": "Morphous Avocet",
+  "motifName": "Avocet Bill",
+  "motifCategory": "bird",
+  "biome": "salt pan",
+  "motif": "avocet bill",
+  "description": "A shadcn/tweakcn-compatible precise form system drafted from an avocet bill: black-and-white feather contrast, a rust head accent, pale blue salt-pan neutrals, and thin recurved geometry for exact dashboard, table, form, status, and navigation interfaces.",
+  "typography": "Geist for exact English product UI with Noto Sans JP guidance for Japanese labels, salt-pan observation tables, and crisp dashboard numerals.",
+  "layout": "Precise 8px grids, hairline bill-ink dividers, high-contrast feather-white panels, rust selected states, pale blue focus surfaces, and subtle salt crust texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "avocet",
+    "bird",
+    "salt-pan",
+    "black-white",
+    "rust-head",
+    "pale-blue",
+    "precise-form",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Salt Crust",
+      "hex": "#F1F4F6"
+    },
+    {
+      "role": "Ink",
+      "name": "Bill Black",
+      "hex": "#0D0D0F"
+    },
+    {
+      "role": "Primary",
+      "name": "Bill Black",
+      "hex": "#0D0D0F"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rust Head",
+      "hex": "#C2482A"
+    },
+    {
+      "role": "Accent",
+      "name": "Brine Blue",
+      "hex": "#8FB7D6"
+    },
+    {
+      "role": "Signal",
+      "name": "Rust Light",
+      "hex": "#E07A5F"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather White",
+      "hex": "#ffffff"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Gray",
+      "hex": "#E5E7EB"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Gray",
+      "hex": "#374151"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

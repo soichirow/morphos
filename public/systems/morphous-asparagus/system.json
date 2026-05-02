@@ -1,0 +1,123 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 265,
+  "slug": "morphous-asparagus",
+  "name": "Morphous Asparagus",
+  "motifName": "Asparagus",
+  "motifCategory": "plant",
+  "biome": "spring field",
+  "motif": "asparagus spear",
+  "paletteMood": "green spear purple tip soil",
+  "designMood": "slender inventory system",
+  "description": "A shadcn/tweakcn-compatible slender inventory system derived from a spring asparagus spear: deep stalk greens, pale spear highlights, violet bract tips, cut-base ivory, and row-soil browns.",
+  "typography": "Compact English product UI with Japanese typography guidance for asparagus harvest lots, grade counts, cold-room inventory, pick lists, command search, and lot status messaging.",
+  "layout": "Lean operational inventory dashboards, harvest planning flows, 8px radii, spear-green navigation, violet-tip focus states, field-mist surfaces, vertical ridge borders, and restrained row-soil depth.",
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "asparagus",
+    "plant",
+    "spring-field",
+    "asparagus-spear",
+    "green-spear",
+    "purple-tip",
+    "soil",
+    "slender-inventory-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Mist",
+      "hex": "#F7FAF3"
+    },
+    {
+      "role": "Ink",
+      "name": "Row Soil Ink",
+      "hex": "#1E1B17"
+    },
+    {
+      "role": "Surface",
+      "name": "Base Ivory",
+      "hex": "#F3EFE2"
+    },
+    {
+      "role": "Primary",
+      "name": "Spear Deep Green",
+      "hex": "#2E5E2F"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stalk Mid Green",
+      "hex": "#6FAE5E"
+    },
+    {
+      "role": "Highlight",
+      "name": "Spring Highlight",
+      "hex": "#CDEBA8"
+    },
+    {
+      "role": "Accent",
+      "name": "Tip Violet",
+      "hex": "#6E4A6F"
+    },
+    {
+      "role": "Accent Soft",
+      "name": "Bract Mauve",
+      "hex": "#B68AA8"
+    },
+    {
+      "role": "Muted",
+      "name": "Spear Ridge Border",
+      "hex": "#D9E3D3"
+    },
+    {
+      "role": "Input",
+      "name": "Misted Stalk",
+      "hex": "#E9EFE6"
+    },
+    {
+      "role": "Soil",
+      "name": "Root Soil Brown",
+      "hex": "#6B4E34"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bract Ember",
+      "hex": "#7A202D"
+    },
+    {
+      "role": "Depth",
+      "name": "Asparagus Shadow",
+      "hex": "#0B140A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

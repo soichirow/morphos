@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-alligator",
+    "name": "Morphous Alligator",
+    "motifName": "Alligator Eye",
+    "motifCategory": "reptile",
+    "biome": "Swamp bayou",
+    "motif": "alligator eye"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bayou Fog",
+      "hex": "#eef1e7",
+      "oklch": "oklch(0.953 0.014 120.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Gator Black",
+      "hex": "#10170f",
+      "oklch": "oklch(0.194 0.019 141.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Scale Green",
+      "hex": "#243b24",
+      "oklch": "oklch(0.326 0.049 144.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Deep Water",
+      "hex": "#17241e",
+      "oklch": "oklch(0.246 0.021 164.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Iris Amber",
+      "hex": "#c49a3b",
+      "oklch": "oklch(0.708 0.121 84.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warning Rust",
+      "hex": "#9a4c2f",
+      "oklch": "oklch(0.508 0.113 40.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Reed Tan",
+      "hex": "#c4b693",
+      "oklch": "oklch(0.779 0.050 88.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Duckweed",
+      "hex": "#71845d",
+      "oklch": "oklch(0.587 0.061 129.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Brown",
+      "hex": "#6f5638",
+      "oklch": "oklch(0.471 0.055 70.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.014 120.3)",
+    "foreground": "oklch(0.194 0.019 141.5)",
+    "card": "oklch(0.779 0.050 88.8)",
+    "card-foreground": "oklch(0.194 0.019 141.5)",
+    "popover": "oklch(0.779 0.050 88.8)",
+    "popover-foreground": "oklch(0.194 0.019 141.5)",
+    "primary": "oklch(0.326 0.049 144.3)",
+    "primary-foreground": "oklch(0.953 0.014 120.3)",
+    "secondary": "oklch(0.853 0.035 94.1)",
+    "secondary-foreground": "oklch(0.471 0.055 70.9)",
+    "muted": "oklch(0.830 0.039 92.3)",
+    "muted-foreground": "oklch(0.471 0.055 70.9)",
+    "accent": "oklch(0.708 0.121 84.5)",
+    "accent-foreground": "oklch(0.194 0.019 141.5)",
+    "destructive": "oklch(0.326 0.049 144.3)",
+    "border": "oklch(0.711 0.050 105.0)",
+    "input": "oklch(0.711 0.050 105.0)",
+    "ring": "oklch(0.246 0.021 164.5)",
+    "chart-1": "oklch(0.326 0.049 144.3)",
+    "chart-2": "oklch(0.246 0.021 164.5)",
+    "chart-3": "oklch(0.708 0.121 84.5)",
+    "chart-4": "oklch(0.508 0.113 40.5)",
+    "chart-5": "oklch(0.471 0.055 70.9)",
+    "sidebar": "oklch(0.839 0.036 92.9)",
+    "sidebar-foreground": "oklch(0.194 0.019 141.5)",
+    "sidebar-primary": "oklch(0.326 0.049 144.3)",
+    "sidebar-primary-foreground": "oklch(0.953 0.014 120.3)",
+    "sidebar-accent": "oklch(0.728 0.047 93.2)",
+    "sidebar-accent-foreground": "oklch(0.326 0.049 144.3)",
+    "sidebar-border": "oklch(0.711 0.050 105.0)",
+    "sidebar-ring": "oklch(0.246 0.021 164.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.194 0.019 141.5)",
+    "foreground": "oklch(0.953 0.014 120.3)",
+    "card": "oklch(0.384 0.041 79.5)",
+    "card-foreground": "oklch(0.953 0.014 120.3)",
+    "popover": "oklch(0.384 0.041 79.5)",
+    "popover-foreground": "oklch(0.953 0.014 120.3)",
+    "primary": "oklch(0.246 0.021 164.5)",
+    "primary-foreground": "oklch(0.194 0.019 141.5)",
+    "secondary": "oklch(0.495 0.051 85.5)",
+    "secondary-foreground": "oklch(0.953 0.014 120.3)",
+    "muted": "oklch(0.495 0.051 85.5)",
+    "muted-foreground": "oklch(0.794 0.034 126.4)",
+    "accent": "oklch(0.708 0.121 84.5)",
+    "accent-foreground": "oklch(0.194 0.019 141.5)",
+    "destructive": "oklch(0.326 0.049 144.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.246 0.021 164.5)",
+    "chart-1": "oklch(0.246 0.021 164.5)",
+    "chart-2": "oklch(0.326 0.049 144.3)",
+    "chart-3": "oklch(0.708 0.121 84.5)",
+    "chart-4": "oklch(0.508 0.113 40.5)",
+    "chart-5": "oklch(0.587 0.061 129.2)",
+    "sidebar": "oklch(0.328 0.032 86.7)",
+    "sidebar-foreground": "oklch(0.953 0.014 120.3)",
+    "sidebar-primary": "oklch(0.246 0.021 164.5)",
+    "sidebar-primary-foreground": "oklch(0.194 0.019 141.5)",
+    "sidebar-accent": "oklch(0.495 0.051 85.5)",
+    "sidebar-accent-foreground": "oklch(0.953 0.014 120.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.246 0.021 164.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for compact monitoring UI with Noto Sans JP guidance for Japanese labels, tabular sensor values, and readable low-light operations hierarchy.",
+  "layout": "Dense 8px grids, scale-ridge dividers, wet black focus rings, bayou-neutral panels, amber status dots, compact tables, and stealth dashboard navigation.",
+  "tags": [
+    "alligator",
+    "reptile",
+    "swamp-bayou",
+    "stealth-monitoring",
+    "dark-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-alligator/motif.png",
+    "board": "/systems/morphous-alligator/design-system-light.png",
+    "darkBoard": "/systems/morphous-alligator/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-alligator/theme.css",
+    "themeJson": "/systems/morphous-alligator/theme.json",
+    "promptsJson": "/systems/morphous-alligator/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Alligator motif",
+      "asset": "/systems/morphous-alligator/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Alligator transparent motif chroma-key source\nPrimary request: Create only an isolated alligator eye motif for a design-system catalog: one close cropped but complete alligator eye region with surrounding armored scales, no environment, no props, no text.\nSubject: A realistic American alligator eye in stealth profile, amber-green iris with vertical black slit pupil, glossy black waterline reflection, dark green-black armored eyelid scales, water-brown ridges, subtle bayou mud texture, crisp natural scale edges, calm watchful predator focus.\nComposition/framing: centered cutout with generous padding; include the full eye, brow ridge, surrounding scutes, and tapered scale silhouette without cropping the eye; compact horizontal motif suitable for a catalog cutout.\nLighting/mood: controlled studio light that preserves dark green scales, black water shadows, water-brown ridge texture, and wet reflective highlights.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no swamp background, no full animal body, no teeth, no open mouth, no cartoon, no second animal, no text, no watermark, no props, no landscape, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-alligator/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Alligator\" / \"Alligator Eye\", a stealth monitoring system derived from a realistic alligator eye motif: dark green-black armored scales, amber-green slit eye, black water shadows, water-brown ridges, and swamp bayou neutrals.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160. Large readable labels, clean grid, no tiny microtext.\nRequired visible sections: title \"Morphous Alligator\", motif story, palette swatches with hex labels, typography, Japanese typography with 日本語 UI examples, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, token samples, and generated asset examples.\nPalette direction: Bayou Fog #eef1e7, Gator Black #10170f, Scale Green #243b24, Deep Water #17241e, Mud Brown #6f5638, Iris Amber #c49a3b, Duckweed #71845d, Reed Tan #c4b693, Warning Rust #9a4c2f.\nTypography: English guidance for Inter or Geist-style dense monitoring UI; Japanese guidance for Noto Sans JP, tabular numbers, compact sensor labels, and readable operations hierarchy.\nUI style: premium shadcn/tweakcn-style product system, stealth monitoring UI, 8px radius, thin scale-ridge dividers, wet black focus rings, dark green active controls, mud-brown secondary surfaces, amber eye status dots, bayou-neutral cards, restrained charts.\nSample product context: swamp perimeter monitoring dashboard with waterline sensors, thermal sightings, motion zones, camera traps, humidity, battery status, patrol notes, incident table, search command, alert states, and navigation sections.\nText: use short readable UI labels; no paragraphs. Include English and Japanese guidance clearly. No watermark or random brand names.\nConstraints: no generic blue or purple gradients, no unrelated saturated colors, no cartoon alligator, no teeth mascot, no fake company logos, no illegible microtext, no watermark, no random brand names."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-alligator/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Alligator\" / \"Alligator Eye\". It must feel like the same stealth monitoring design system translated to dark mode, derived from a realistic alligator eye motif and the corrected light-mode board language: armored dark green scales, amber-green slit eye, black water shadows, water-brown ridges, and swamp bayou neutrals.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source, target 3840x2160. Large readable labels, clean grid, no tiny microtext.\nRequired visible sections: title \"Morphous Alligator\", \"Dark Mode\", palette swatches with hex labels, typography, Japanese typography with 日本語 UI examples, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, token samples, and generated asset examples.\nPalette direction: Bayou Night #08110c, Mist Text #edf1e7, Scale Green #2f4a2f, Deep Water #14241d, Mud Brown #73583b, Iris Amber #c89f3f, Duckweed #81906a, Reed Tan #c7b991, Warning Rust #a65334.\nVisual details: deep green-black backgrounds rather than pure black, readable mist text, wet black panels, scale-ridge borders, amber eye status lights, dark green active states, mud-brown secondary surfaces, bayou tan muted labels, restrained chart colors, 8px radius, shadcn/tweakcn controls.\nSample product context: swamp perimeter monitoring dashboard with waterline sensors, thermal sightings, motion zones, camera traps, humidity, battery status, patrol notes, incident table, search command, alert states, and navigation sections.\nText: use short readable UI labels; no paragraphs. Include English and Japanese guidance clearly. No watermark or random brand names.\nConstraints: no neon cyberpunk, no generic purple gradients, no unrelated saturated colors, no cartoon alligator, no teeth mascot, no fake company logos, no illegible microtext, no watermark, no random brand names."
+    }
+  ]
+}

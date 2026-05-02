@@ -1,0 +1,77 @@
+/* Artichoke
+   System definition: /systems/morphous-artichoke/system.json
+   Prompt records: /systems/morphous-artichoke/prompts.json
+   Design-system references:
+   light: /systems/morphous-artichoke/design-system-light.png
+   dark: /systems/morphous-artichoke/design-system-dark.png
+*/
+
+:root {
+  --background: oklch(0.962 0.007 115.7);
+  --foreground: oklch(0.382 0.025 131.9);
+  --card: oklch(0.984 0.008 98.9);
+  --card-foreground: oklch(0.382 0.025 131.9);
+  --popover: oklch(0.984 0.008 98.9);
+  --popover-foreground: oklch(0.382 0.025 131.9);
+  --primary: oklch(0.703 0.058 136.2);
+  --primary-foreground: oklch(0.962 0.007 115.7);
+  --secondary: oklch(0.974 0.008 106.5);
+  --secondary-foreground: oklch(0.301 0.035 345.3);
+  --muted: oklch(0.977 0.008 106.5);
+  --muted-foreground: oklch(0.301 0.035 345.3);
+  --accent: oklch(0.510 0.057 333.1);
+  --accent-foreground: oklch(0.382 0.025 131.9);
+  --destructive: oklch(0.703 0.058 136.2);
+  --border: oklch(0.757 0.009 17.4);
+  --input: oklch(0.757 0.009 17.4);
+  --ring: oklch(0.564 0.049 124.7);
+  --chart-1: oklch(0.703 0.058 136.2);
+  --chart-2: oklch(0.564 0.049 124.7);
+  --chart-3: oklch(0.510 0.057 333.1);
+  --chart-4: oklch(0.835 0.061 90.4);
+  --chart-5: oklch(0.301 0.035 345.3);
+  --sidebar: oklch(0.977 0.008 106.5);
+  --sidebar-foreground: oklch(0.382 0.025 131.9);
+  --sidebar-primary: oklch(0.703 0.058 136.2);
+  --sidebar-primary-foreground: oklch(0.962 0.007 115.7);
+  --sidebar-accent: oklch(0.951 0.012 116.8);
+  --sidebar-accent-foreground: oklch(0.703 0.058 136.2);
+  --sidebar-border: oklch(0.757 0.009 17.4);
+  --sidebar-ring: oklch(0.564 0.049 124.7);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.382 0.025 131.9);
+  --foreground: oklch(0.962 0.007 115.7);
+  --card: oklch(0.329 0.015 4.4);
+  --card-foreground: oklch(0.962 0.007 115.7);
+  --popover: oklch(0.329 0.015 4.4);
+  --popover-foreground: oklch(0.962 0.007 115.7);
+  --primary: oklch(0.564 0.049 124.7);
+  --primary-foreground: oklch(0.382 0.025 131.9);
+  --secondary: oklch(0.301 0.035 345.3);
+  --secondary-foreground: oklch(0.962 0.007 115.7);
+  --muted: oklch(0.301 0.035 345.3);
+  --muted-foreground: oklch(0.685 0.011 2.1);
+  --accent: oklch(0.510 0.057 333.1);
+  --accent-foreground: oklch(0.382 0.025 131.9);
+  --destructive: oklch(0.703 0.058 136.2);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.564 0.049 124.7);
+  --chart-1: oklch(0.564 0.049 124.7);
+  --chart-2: oklch(0.703 0.058 136.2);
+  --chart-3: oklch(0.510 0.057 333.1);
+  --chart-4: oklch(0.835 0.061 90.4);
+  --chart-5: oklch(0.301 0.035 345.3);
+  --sidebar: oklch(0.345 0.009 53.2);
+  --sidebar-foreground: oklch(0.962 0.007 115.7);
+  --sidebar-primary: oklch(0.564 0.049 124.7);
+  --sidebar-primary-foreground: oklch(0.382 0.025 131.9);
+  --sidebar-accent: oklch(0.301 0.035 345.3);
+  --sidebar-accent-foreground: oklch(0.962 0.007 115.7);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.564 0.049 124.7);
+  --radius: 0.5rem;
+}
