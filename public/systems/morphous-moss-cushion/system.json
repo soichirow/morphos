@@ -1,0 +1,125 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 269,
+  "slug": "morphous-moss-cushion",
+  "name": "Morphous Moss Cushion",
+  "motifName": "Moss Cushion",
+  "motifCategory": "plant",
+  "biome": "temperate forest",
+  "motif": "moss cushion",
+  "description": "A shadcn/tweakcn-compatible soft wellness system derived from a temperate-forest moss cushion on wet bark: moss-green primary actions, deep bark navigation, pale dew surfaces, bark-brown separators, cushion-soft texture, and restrained humid-forest shadows for care plans, habit check-ins, appointments, forms, tables, search, and wellness dashboards.",
+  "typography": "Calm English wellness UI with tabular recovery metrics, short appointment and habit labels, and Noto Sans JP guidance for Japanese notes, status, search, forms, and dashboard surfaces.",
+  "layout": "Soft 8px wellness grids, compact care dashboards, moss-velvet texture samples, wet-bark side navigation, bark-brown separators, 8px cards, low humid shadows, and scannable form, table, command, and status surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "moss-cushion",
+    "plant",
+    "temperate-forest",
+    "soft-wellness-system",
+    "moss-green",
+    "wet-bark-brown",
+    "dew-highlight",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dew White",
+      "hex": "#F7FAF5"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Bark Ink",
+      "hex": "#20301B"
+    },
+    {
+      "role": "Surface",
+      "name": "Dew Surface",
+      "hex": "#FCFFF8"
+    },
+    {
+      "role": "Primary",
+      "name": "Moss Green",
+      "hex": "#5A7F3A"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Dew Moss",
+      "hex": "#6BA05A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Leaf",
+      "hex": "#7EA55A"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Mist",
+      "hex": "#A8BF8A"
+    },
+    {
+      "role": "Muted",
+      "name": "Dew Veil",
+      "hex": "#DDEBD6"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Mist",
+      "hex": "#CFC7B8"
+    },
+    {
+      "role": "Input",
+      "name": "Soft Moss",
+      "hex": "#DDE8D1"
+    },
+    {
+      "role": "Ring",
+      "name": "Dew Ring",
+      "hex": "#8BB56E"
+    },
+    {
+      "role": "Bark",
+      "name": "Bark Brown",
+      "hex": "#6B4E3A"
+    },
+    {
+      "role": "Danger",
+      "name": "Bark Umber",
+      "hex": "#8B5A3C"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Shadow",
+      "hex": "#2A1E16"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-moss-cushion",
+    "name": "Morphous Moss Cushion",
+    "motifName": "Moss Cushion",
+    "motifCategory": "plant",
+    "biome": "temperate forest",
+    "motif": "moss cushion"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dew White",
+      "hex": "#F7FAF5",
+      "oklch": "oklch(0.981 0.007 132.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Bark Ink",
+      "hex": "#20301B",
+      "oklch": "oklch(0.288 0.043 138.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dew Surface",
+      "hex": "#FCFFF8",
+      "oklch": "oklch(0.996 0.010 125.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Moss Green",
+      "hex": "#5A7F3A",
+      "oklch": "oklch(0.552 0.106 132.3)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Dew Moss",
+      "hex": "#6BA05A",
+      "oklch": "oklch(0.651 0.114 138.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Leaf",
+      "hex": "#7EA55A",
+      "oklch": "oklch(0.675 0.112 131.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Mist",
+      "hex": "#A8BF8A",
+      "oklch": "oklch(0.774 0.077 127.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dew Veil",
+      "hex": "#DDEBD6",
+      "oklch": "oklch(0.924 0.032 135.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Mist",
+      "hex": "#CFC7B8",
+      "oklch": "oklch(0.832 0.022 83.3)"
+    },
+    {
+      "role": "Input",
+      "name": "Soft Moss",
+      "hex": "#DDE8D1",
+      "oklch": "oklch(0.916 0.033 128.0)"
+    },
+    {
+      "role": "Ring",
+      "name": "Dew Ring",
+      "hex": "#8BB56E",
+      "oklch": "oklch(0.725 0.108 133.4)"
+    },
+    {
+      "role": "Bark",
+      "name": "Bark Brown",
+      "hex": "#6B4E3A",
+      "oklch": "oklch(0.450 0.050 55.7)"
+    },
+    {
+      "role": "Danger",
+      "name": "Bark Umber",
+      "hex": "#8B5A3C",
+      "oklch": "oklch(0.515 0.078 51.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Shadow",
+      "hex": "#2A1E16",
+      "oklch": "oklch(0.247 0.024 55.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.007 132.4)",
+    "foreground": "oklch(0.288 0.043 138.4)",
+    "card": "oklch(0.996 0.010 125.7)",
+    "card-foreground": "oklch(0.288 0.043 138.4)",
+    "popover": "oklch(0.996 0.010 125.7)",
+    "popover-foreground": "oklch(0.288 0.043 138.4)",
+    "primary": "oklch(0.552 0.106 132.3)",
+    "primary-foreground": "oklch(0.981 0.007 132.4)",
+    "secondary": "oklch(0.990 0.008 128.6)",
+    "secondary-foreground": "oklch(0.247 0.024 55.0)",
+    "muted": "oklch(0.993 0.010 125.7)",
+    "muted-foreground": "oklch(0.247 0.024 55.0)",
+    "accent": "oklch(0.774 0.077 127.2)",
+    "accent-foreground": "oklch(0.288 0.043 138.4)",
+    "destructive": "oklch(0.552 0.106 132.3)",
+    "border": "oklch(0.971 0.017 131.9)",
+    "input": "oklch(0.971 0.017 131.9)",
+    "ring": "oklch(0.675 0.112 131.3)",
+    "chart-1": "oklch(0.552 0.106 132.3)",
+    "chart-2": "oklch(0.675 0.112 131.3)",
+    "chart-3": "oklch(0.774 0.077 127.2)",
+    "chart-4": "oklch(0.675 0.112 131.3)",
+    "chart-5": "oklch(0.247 0.024 55.0)",
+    "sidebar": "oklch(0.990 0.008 128.6)",
+    "sidebar-foreground": "oklch(0.288 0.043 138.4)",
+    "sidebar-primary": "oklch(0.552 0.106 132.3)",
+    "sidebar-primary-foreground": "oklch(0.981 0.007 132.4)",
+    "sidebar-accent": "oklch(0.946 0.021 127.4)",
+    "sidebar-accent-foreground": "oklch(0.552 0.106 132.3)",
+    "sidebar-border": "oklch(0.971 0.017 131.9)",
+    "sidebar-ring": "oklch(0.675 0.112 131.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.288 0.043 138.4)",
+    "foreground": "oklch(0.981 0.007 132.4)",
+    "card": "oklch(0.260 0.022 95.7)",
+    "card-foreground": "oklch(0.981 0.007 132.4)",
+    "popover": "oklch(0.260 0.022 95.7)",
+    "popover-foreground": "oklch(0.981 0.007 132.4)",
+    "primary": "oklch(0.675 0.112 131.3)",
+    "primary-foreground": "oklch(0.288 0.043 138.4)",
+    "secondary": "oklch(0.415 0.019 82.7)",
+    "secondary-foreground": "oklch(0.981 0.007 132.4)",
+    "muted": "oklch(0.415 0.019 82.7)",
+    "muted-foreground": "oklch(0.955 0.018 134.9)",
+    "accent": "oklch(0.774 0.077 127.2)",
+    "accent-foreground": "oklch(0.288 0.043 138.4)",
+    "destructive": "oklch(0.552 0.106 132.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.675 0.112 131.3)",
+    "chart-1": "oklch(0.675 0.112 131.3)",
+    "chart-2": "oklch(0.552 0.106 132.3)",
+    "chart-3": "oklch(0.774 0.077 127.2)",
+    "chart-4": "oklch(0.675 0.112 131.3)",
+    "chart-5": "oklch(0.924 0.032 135.0)",
+    "sidebar": "oklch(0.269 0.027 117.4)",
+    "sidebar-foreground": "oklch(0.981 0.007 132.4)",
+    "sidebar-primary": "oklch(0.675 0.112 131.3)",
+    "sidebar-primary-foreground": "oklch(0.288 0.043 138.4)",
+    "sidebar-accent": "oklch(0.415 0.019 82.7)",
+    "sidebar-accent-foreground": "oklch(0.981 0.007 132.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.675 0.112 131.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm English wellness UI with tabular recovery metrics, short appointment and habit labels, and Noto Sans JP guidance for Japanese notes, status, search, forms, and dashboard surfaces.",
+  "layout": "Soft 8px wellness grids, compact care dashboards, moss-velvet texture samples, wet-bark side navigation, bark-brown separators, 8px cards, low humid shadows, and scannable form, table, command, and status surfaces.",
+  "tags": [
+    "moss-cushion",
+    "plant",
+    "temperate-forest",
+    "soft-wellness-system",
+    "moss-green",
+    "wet-bark-brown",
+    "dew-highlight",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-moss-cushion/motif.png",
+    "board": "/systems/morphous-moss-cushion/design-system-light.png",
+    "darkBoard": "/systems/morphous-moss-cushion/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-moss-cushion/theme.css",
+    "themeJson": "/systems/morphous-moss-cushion/theme.json",
+    "promptsJson": "/systems/morphous-moss-cushion/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Moss Cushion motif",
+      "asset": "/systems/morphous-moss-cushion/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a moss cushion motif for a design-system catalog, isolated as a single complete temperate-forest botanical subject on a removable chroma-key background.\nSubject: A compact cushion of living forest moss growing on a small piece of wet bark: dense rounded pillow-like moss surface, tiny individual moss shoots, velvety cushion texture, saturated moss green and deeper shadow green, dew beads catching light, damp bark-brown base visible along the lower edge, a few dark crevices and pale wet highlights. The identity must read clearly as moss cushion on wet bark, not grass, lichen, fern, shrub, coral, or generic foliage.\nComposition/framing: centered complete cutout with generous padding; include the full mound silhouette and bark base without cropping. Clean studio lighting that preserves soft moss texture, dew detail, and bark grain. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no forest scene, no soil bed, no stones, no mushrooms, no insects, no leaves, no hand, no props, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-moss-cushion/design-system-light.png",
+      "sourceAsset": "/systems/morphous-moss-cushion/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Moss Cushion light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Moss Cushion\", derived from the moss cushion motif generated earlier: a soft rounded moss cushion growing on wet bark, saturated moss green, deeper shadow green, bark brown, dew highlights, and velvety botanical texture. This board is a source reference for implementing a shadcn/tweakcn-compatible soft wellness system.\nCanvas: exact wide 16:9 board, 3840x2160 target, high-resolution 4K-class design-system source image. Clean professional product UI design-system presentation. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Moss Cushion, Moss Cushion, Palette, Type, Japanese Typography, Components, Navigation, Wellness Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract colors and interaction language only from moss greens, wet bark browns, dew highlights, bark crevices, forest humidity, and cushion softness. The board must read as moss cushion on wet bark, not generic leaves, grass, fern, lichen, mint, or a spa stock theme.\nTypography: English soft-wellness product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual wellness, habit, recovery, appointment, intake, and metrics labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, appointment tiles, habit check-in cards, care-plan metrics, dashboard metric cards, line chart, bar chart, donut chart, table rows, command search palette, sidebar and top navigation, filters, empty/loading/error states, progress, stepper, date picker, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: soft wellness system, precise 8px grid and 8px card radius, damp bark-white and pale dew surfaces, moss-green primary actions, deep bark navigation, soft wet-bark separators, dew-highlight focus rings, subtle velvety moss texture overlays, calm clinical wellness utility, dense but scannable dashboards, polished shadcn/tweakcn component language.\nColor constraints: use motif-derived colors only: moss green, deep moss shadow, wet bark brown, bark umber, dew pale green-white, bark mist, and near-neutrals derived from dew and wet bark highlights. No unrelated bright colors.\nConstraints: no generic purple or blue gradients, no neon colors, no one-note green wash, no beige-only palette, no grass identity, no fern identity, no lichen identity, no stock spa photography collage, no random brand names, no watermark, no misspelling of \"Morphous Moss Cushion\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-moss-cushion/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-moss-cushion/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Moss Cushion dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Moss Cushion\" / \"Moss Cushion\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme. Use the earlier moss cushion motif and light board as continuity references.\nCanvas: exact wide 16:9 board, 3840x2160 target, high-resolution 4K-class design-system source image. Clean professional shadcn/tweakcn presentation for a soft wellness system. Keep labels large and legible.\nRequired visible sections: Morphous Moss Cushion, Moss Cushion, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Wellness Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the moss-derived palette roles: moss green primary actions, deep wet-bark navigation, pale dew foreground text, soft moss accent states, bark-brown separators, dew focus rings, velvety moss texture, and wet bark surfaces. The board must read as moss cushion on wet bark, not generic black-and-green UI, grass, fern, lichen, mint, or a stock spa dashboard.\nTypography: English soft-wellness product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual wellness, habit, recovery, appointment, intake, and metrics labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, care-plan cards, appointment tiles, habit check-in cards, wellness metrics, dashboard data cards, line chart, bar chart, donut chart, sidebar navigation, top navigation, command search palette, filters, table rows, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep wet-bark charcoal background derived from bark crevices, moss-shadow panels, moss-green active states, dew pale green highlights, bark-umber separators, soft cushion surface textures, tiny dew-dot accents, crisp controls, restrained contrast, 8px card radius and 8px grid.\nColor constraints: use motif-derived colors only: deep moss green, moss leaf green, wet bark brown, bark umber, dew pale green-white, bark mist, and near-neutrals derived from those colors. No unrelated bright colors.\nConstraints: no neon green, no generic hacker UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no grass identity, no fern identity, no lichen identity, no random brand names, no watermark, no misspelling of \"Morphous Moss Cushion\", no tiny unreadable paragraphs."
+    }
+  ]
+}

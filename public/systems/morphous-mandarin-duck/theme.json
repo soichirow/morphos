@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mandarin-duck",
+    "name": "Morphous Mandarin Duck",
+    "motifName": "Mandarin Duck",
+    "motifCategory": "bird",
+    "biome": "woodland pond",
+    "motif": "mandarin duck plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream",
+      "hex": "#FFF4E6",
+      "oklch": "oklch(0.972 0.022 74.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Pond Charcoal",
+      "hex": "#111817",
+      "oklch": "oklch(0.201 0.011 185.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Primary Orange",
+      "hex": "#E46A1A",
+      "oklch": "oklch(0.662 0.173 47.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Secondary Orange",
+      "hex": "#F2A14A",
+      "oklch": "oklch(0.774 0.140 64.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Teal",
+      "hex": "#0E7C7B",
+      "oklch": "oklch(0.532 0.088 193.8)"
+    },
+    {
+      "role": "Focus",
+      "name": "Accent Purple",
+      "hex": "#6A4C8C",
+      "oklch": "oklch(0.477 0.105 304.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#EADCC4",
+      "oklch": "oklch(0.899 0.035 81.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pond Taupe",
+      "hex": "#B7A996",
+      "oklch": "oklch(0.741 0.031 75.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Brown",
+      "hex": "#4B3A2F",
+      "oklch": "oklch(0.364 0.030 54.4)"
+    },
+    {
+      "role": "Water",
+      "name": "Deep Teal",
+      "hex": "#0A5A5A",
+      "oklch": "oklch(0.425 0.069 194.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Reed Mist",
+      "hex": "#d9c9b3",
+      "oklch": "oklch(0.843 0.035 75.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.022 74.1)",
+    "foreground": "oklch(0.201 0.011 185.7)",
+    "card": "oklch(0.899 0.035 81.3)",
+    "card-foreground": "oklch(0.201 0.011 185.7)",
+    "popover": "oklch(0.899 0.035 81.3)",
+    "popover-foreground": "oklch(0.201 0.011 185.7)",
+    "primary": "oklch(0.662 0.173 47.4)",
+    "primary-foreground": "oklch(0.972 0.022 74.1)",
+    "secondary": "oklch(0.930 0.030 78.8)",
+    "secondary-foreground": "oklch(0.364 0.030 54.4)",
+    "muted": "oklch(0.921 0.031 79.9)",
+    "muted-foreground": "oklch(0.364 0.030 54.4)",
+    "accent": "oklch(0.532 0.088 193.8)",
+    "accent-foreground": "oklch(0.201 0.011 185.7)",
+    "destructive": "oklch(0.662 0.173 47.4)",
+    "border": "oklch(0.844 0.035 80.3)",
+    "input": "oklch(0.844 0.035 80.3)",
+    "ring": "oklch(0.774 0.140 64.8)",
+    "chart-1": "oklch(0.662 0.173 47.4)",
+    "chart-2": "oklch(0.774 0.140 64.8)",
+    "chart-3": "oklch(0.532 0.088 193.8)",
+    "chart-4": "oklch(0.477 0.105 304.3)",
+    "chart-5": "oklch(0.364 0.030 54.4)",
+    "sidebar": "oklch(0.924 0.030 78.8)",
+    "sidebar-foreground": "oklch(0.201 0.011 185.7)",
+    "sidebar-primary": "oklch(0.662 0.173 47.4)",
+    "sidebar-primary-foreground": "oklch(0.972 0.022 74.1)",
+    "sidebar-accent": "oklch(0.866 0.050 70.0)",
+    "sidebar-accent-foreground": "oklch(0.662 0.173 47.4)",
+    "sidebar-border": "oklch(0.844 0.035 80.3)",
+    "sidebar-ring": "oklch(0.774 0.140 64.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.201 0.011 185.7)",
+    "foreground": "oklch(0.972 0.022 74.1)",
+    "card": "oklch(0.309 0.018 59.9)",
+    "card-foreground": "oklch(0.972 0.022 74.1)",
+    "popover": "oklch(0.309 0.018 59.9)",
+    "popover-foreground": "oklch(0.972 0.022 74.1)",
+    "primary": "oklch(0.774 0.140 64.8)",
+    "primary-foreground": "oklch(0.201 0.011 185.7)",
+    "secondary": "oklch(0.452 0.030 57.1)",
+    "secondary-foreground": "oklch(0.972 0.022 74.1)",
+    "muted": "oklch(0.452 0.030 57.1)",
+    "muted-foreground": "oklch(0.870 0.026 73.2)",
+    "accent": "oklch(0.532 0.088 193.8)",
+    "accent-foreground": "oklch(0.201 0.011 185.7)",
+    "destructive": "oklch(0.662 0.173 47.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.774 0.140 64.8)",
+    "chart-1": "oklch(0.774 0.140 64.8)",
+    "chart-2": "oklch(0.662 0.173 47.4)",
+    "chart-3": "oklch(0.532 0.088 193.8)",
+    "chart-4": "oklch(0.477 0.105 304.3)",
+    "chart-5": "oklch(0.741 0.031 75.6)",
+    "sidebar": "oklch(0.279 0.012 78.1)",
+    "sidebar-foreground": "oklch(0.972 0.022 74.1)",
+    "sidebar-primary": "oklch(0.774 0.140 64.8)",
+    "sidebar-primary-foreground": "oklch(0.201 0.011 185.7)",
+    "sidebar-accent": "oklch(0.452 0.030 57.1)",
+    "sidebar-accent-foreground": "oklch(0.972 0.022 74.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.774 0.140 64.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Ornate but readable product UI with high-contrast display hierarchy, compact dashboard labels, tabular numerals, and Japanese typography guidance.",
+  "layout": "Feather-layered dashboard surfaces, pond-edge navigation, fine plume dividers, 8px radii, crisp tables, charts, forms, and status states.",
+  "tags": [
+    "mandarin-duck",
+    "bird",
+    "woodland",
+    "pond",
+    "ornate",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mandarin-duck/motif.png",
+    "board": "/systems/morphous-mandarin-duck/design-system-light.png",
+    "darkBoard": "/systems/morphous-mandarin-duck/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mandarin-duck/theme.css",
+    "themeJson": "/systems/morphous-mandarin-duck/theme.json",
+    "promptsJson": "/systems/morphous-mandarin-duck/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Mandarin duck motif",
+      "asset": "/systems/morphous-mandarin-duck/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a Mandarin duck inspired by ornate mandarin duck plumage, isolated full subject, no environment, no props, no text.\nSubject: a single adult Mandarin duck with accurate duck anatomy, full body side-three-quarter pose, ornate orange sail feathers, cream face markings, teal-blue wing accents, restrained purple chest tones, warm brown feather texture, glossy natural plumage, realistic beak and feet.\nComposition/framing: centered complete cutout with generous padding; do not crop the subject.\nLighting/mood: clean studio light that preserves natural color and feather detail.\nTransparent workflow: place the duck on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no pond, no landscape, no decorative background, no second bird, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode ornate dashboard design-system board",
+      "asset": "/systems/morphous-mandarin-duck/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for the theme \"Mandarin Duck\". It is an ornate dashboard system derived from mandarin duck plumage.\nReference use: Use the Mandarin duck motif as the design source. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from ornate orange sail feathers, teal-blue wing accents, restrained purple chest tones, cream feather highlights, warm bark brown, pond reed taupe, and soft woodland pond neutrals.\nCanvas: exact wide 16:9 board, intended final asset 3840 x 2160.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, sparse rows, and no tiny paragraphs.\nRequired visible sections: title \"Mandarin Duck\", motif story, palette swatches with labels, typography, Japanese typography, components, navigation sidebar, top tabs, KPI dashboard cards, line chart, bar chart, donut chart, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nUI requirements: premium shadcn/tweakcn-compatible product dashboard, precise grid, functional dashboard/table/form/status/navigation sections, 8px card radius, feather-line dividers, subtle cream paper surfaces, pond-neutral borders, orange primary actions, teal data/success accents, restrained purple only for focus rings and one chart accent.\nTypography: include English and Japanese examples; multilingual product UI guidance.\nConstraints: no watermark, no logo, no company name, no product name other than Mandarin Duck, no user names, no random brand names, no unrelated bright colors, no generic purple/blue gradient dominance, no illegible microtext, no marketing hero layout."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode ornate dashboard design-system board",
+      "asset": "/systems/morphous-mandarin-duck/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the \"Mandarin Duck\" design-system board. It must feel like the same ornate dashboard system translated to dark mode, not a new theme.\nReference use: Use the Mandarin duck motif and the light board as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, and dashboard layout. Translate cream paper surfaces into deep pond charcoal and bark brown surfaces while keeping orange, teal, restrained purple, and cream highlight accents.\nCanvas: exact wide 16:9 board, intended final asset 3840 x 2160.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, sparse rows, and no tiny paragraphs.\nRequired visible sections: title \"Mandarin Duck\", Dark Mode label, palette swatches with labels, typography, Japanese typography, components, navigation sidebar, top tabs, KPI dashboard cards, line chart, bar chart, donut chart, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nUI requirements: premium shadcn/tweakcn-compatible dark product dashboard, precise grid, functional dashboard/table/form/status/navigation sections, 8px card radius, feather-line dividers, deep woodland pond background, bark-charcoal cards, cream text, orange primary actions, teal data/success accents, restrained purple only for focus rings and one chart accent. Avoid a blue/purple dominant look.\nTypography: include English and Japanese examples; multilingual product UI guidance.\nConstraints: no watermark, no logo, no company name, no product name other than Mandarin Duck, no user names, no random brand names, no neon colors, no flat pure black background, no unrelated saturated colors, no generic purple/blue gradient dominance, no illegible microtext, no marketing hero layout."
+    }
+  ]
+}

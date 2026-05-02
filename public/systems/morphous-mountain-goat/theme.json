@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mountain-goat",
+    "name": "Morphous Mountain Goat",
+    "motifName": "Mountain Goat",
+    "motifCategory": "mammal",
+    "biome": "Alpine cliff",
+    "motif": "mountain goat fur"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow Fur",
+      "hex": "#f7f4ec",
+      "oklch": "oklch(0.967 0.011 89.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Horn Black",
+      "hex": "#181715",
+      "oklch": "oklch(0.205 0.004 84.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Granite Gray",
+      "hex": "#696d6c",
+      "oklch": "oklch(0.531 0.005 179.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lichen Sage",
+      "hex": "#8c9b72",
+      "oklch": "oklch(0.667 0.061 124.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ice Blue",
+      "hex": "#9fc9d1",
+      "oklch": "oklch(0.808 0.046 210.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sunlit Scree",
+      "hex": "#c4ad83",
+      "oklch": "oklch(0.757 0.063 82.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Alpine Mist",
+      "hex": "#dfe8e6",
+      "oklch": "oklch(0.924 0.010 181.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Hoof Charcoal",
+      "hex": "#252827",
+      "oklch": "oklch(0.273 0.005 174.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cliff Shadow",
+      "hex": "#3f4442",
+      "oklch": "oklch(0.381 0.007 170.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.011 89.7)",
+    "foreground": "oklch(0.205 0.004 84.6)",
+    "card": "oklch(0.924 0.010 181.4)",
+    "card-foreground": "oklch(0.205 0.004 84.6)",
+    "popover": "oklch(0.924 0.010 181.4)",
+    "popover-foreground": "oklch(0.205 0.004 84.6)",
+    "primary": "oklch(0.531 0.005 179.6)",
+    "primary-foreground": "oklch(0.967 0.011 89.7)",
+    "secondary": "oklch(0.942 0.007 145.5)",
+    "secondary-foreground": "oklch(0.381 0.007 170.1)",
+    "muted": "oklch(0.935 0.007 160.1)",
+    "muted-foreground": "oklch(0.381 0.007 170.1)",
+    "accent": "oklch(0.808 0.046 210.5)",
+    "accent-foreground": "oklch(0.205 0.004 84.6)",
+    "destructive": "oklch(0.531 0.005 179.6)",
+    "border": "oklch(0.709 0.008 177.2)",
+    "input": "oklch(0.709 0.008 177.2)",
+    "ring": "oklch(0.667 0.061 124.3)",
+    "chart-1": "oklch(0.531 0.005 179.6)",
+    "chart-2": "oklch(0.667 0.061 124.3)",
+    "chart-3": "oklch(0.808 0.046 210.5)",
+    "chart-4": "oklch(0.757 0.063 82.4)",
+    "chart-5": "oklch(0.381 0.007 170.1)",
+    "sidebar": "oklch(0.938 0.008 151.9)",
+    "sidebar-foreground": "oklch(0.205 0.004 84.6)",
+    "sidebar-primary": "oklch(0.531 0.005 179.6)",
+    "sidebar-primary-foreground": "oklch(0.967 0.011 89.7)",
+    "sidebar-accent": "oklch(0.879 0.009 179.6)",
+    "sidebar-accent-foreground": "oklch(0.531 0.005 179.6)",
+    "sidebar-border": "oklch(0.709 0.008 177.2)",
+    "sidebar-ring": "oklch(0.667 0.061 124.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.004 84.6)",
+    "foreground": "oklch(0.967 0.011 89.7)",
+    "card": "oklch(0.325 0.005 156.9)",
+    "card-foreground": "oklch(0.967 0.011 89.7)",
+    "popover": "oklch(0.325 0.005 156.9)",
+    "popover-foreground": "oklch(0.967 0.011 89.7)",
+    "primary": "oklch(0.667 0.061 124.3)",
+    "primary-foreground": "oklch(0.205 0.004 84.6)",
+    "secondary": "oklch(0.358 0.008 170.0)",
+    "secondary-foreground": "oklch(0.967 0.011 89.7)",
+    "muted": "oklch(0.358 0.008 170.0)",
+    "muted-foreground": "oklch(0.679 0.007 97.4)",
+    "accent": "oklch(0.808 0.046 210.5)",
+    "accent-foreground": "oklch(0.205 0.004 84.6)",
+    "destructive": "oklch(0.531 0.005 179.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.667 0.061 124.3)",
+    "chart-1": "oklch(0.667 0.061 124.3)",
+    "chart-2": "oklch(0.531 0.005 179.6)",
+    "chart-3": "oklch(0.808 0.046 210.5)",
+    "chart-4": "oklch(0.757 0.063 82.4)",
+    "chart-5": "oklch(0.273 0.005 174.1)",
+    "sidebar": "oklch(0.290 0.005 145.5)",
+    "sidebar-foreground": "oklch(0.967 0.011 89.7)",
+    "sidebar-primary": "oklch(0.667 0.061 124.3)",
+    "sidebar-primary-foreground": "oklch(0.205 0.004 84.6)",
+    "sidebar-accent": "oklch(0.358 0.008 170.0)",
+    "sidebar-accent-foreground": "oklch(0.967 0.011 89.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.667 0.061 124.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Steady grotesk UI for English with firm numeric rhythm; Noto Sans JP or system sans guidance for Japanese labels, generous line-height, and clear kana-kanji contrast.",
+  "layout": "Stable 8px grids, stepped cliff-ledge grouping, compact controls, granite striation dividers, firm 8px radii, and restrained shadows that keep dashboards easy to scan.",
+  "tags": [
+    "mountain-goat",
+    "mammal",
+    "alpine",
+    "cliff",
+    "white-fur",
+    "granite",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mountain-goat/motif.png",
+    "board": "/systems/morphous-mountain-goat/design-system-light.png",
+    "darkBoard": "/systems/morphous-mountain-goat/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mountain-goat/theme.css",
+    "themeJson": "/systems/morphous-mountain-goat/theme.json",
+    "promptsJson": "/systems/morphous-mountain-goat/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Mountain Goat motif",
+      "asset": "/systems/morphous-mountain-goat/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Mountain Goat transparent motif chroma-key source\nPrimary request: Create only an isolated mountain goat motif for a design-system catalog, no environment, no props, no text.\nSubject: A full-body alpine mountain goat with dense white winter fur, subtle cream and cool gray shadowing, black curved horns, black hooves, compact powerful climbing stance, accurate anatomy, crisp silhouette edges, and natural shaggy fur texture.\nComposition/framing: centered complete cutout with generous padding; show the entire animal, horns, beard, legs, and hooves without cropping; stable side-three-quarter stance suggesting cliff confidence.\nLighting/mood: clean studio light that preserves white fur detail, black horn contrast, granite-gray undertones, and fine fur texture.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 removable chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no sheep, no ram, no ibex, no deer, no antelope, no landscape, no rocks, no snow field, no cast shadow, no contact shadow, no reflection, no text, no watermark, no props, no second animal."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-mountain-goat/design-system-light.png",
+      "prompt": "Create one high-resolution wide 16:9 comprehensive LIGHT-MODE design-system board for \"Morphous Mountain Goat\" / \"Mountain Goat\". Use the provided motif as the source reference: white shaggy mountain goat fur, black curved horns, black hooves, granite cliff gray, alpine air, and a stable climbing system mood.\n\nBoard requirements: 3840x2160 target composition, crisp readable labels, polished product-design presentation, not a marketing poster. Include all sections in one board: palette, typography, English/Japanese type guidance, UI components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture swatches, spacing/radius/shadow tokens, icon treatment, and sample usage.\n\nLight theme visual language: snowfield paper background, warm white fur surfaces, granite-gray structure, horn-black text, ice-blue focus rings, lichen-sage support accents, alpine amber warnings. Use cliff ledge geometry, sure-footed stepped layouts, compact stable controls, fine fur-grain texture, granite striation dividers, and small black-horn emphasis strokes.\n\nPalette labels to show: Snow Fur #f7f4ec, Horn Black #181715, Granite Gray #696d6c, Cliff Shadow #3f4442, Alpine Mist #dfe8e6, Lichen Sage #8c9b72, Ice Blue #9fc9d1, Hoof Charcoal #252827, Sunlit Scree #c4ad83.\n\nTypography guidance: English: steady grotesk UI with firm numeric rhythm; Japanese: Noto Sans JP / system sans, generous line-height and clear kana-kanji contrast. Include a compact specimen with headings, body, captions, numerals, and bilingual labels.\n\nConstraints: no purple/blue generic gradients, no one-note beige palette, no unrelated saturated colors, no random brand names, no illegible microtext, no sheep/ram/ibex confusion, no landscapes dominating the board. The mountain goat motif should be visible as a reference cutout and translated into UI tokens."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-mountain-goat/design-system-dark.png",
+      "prompt": "Create one high-resolution wide 16:9 comprehensive DARK-MODE design-system board for \"Morphous Mountain Goat\" / \"Mountain Goat\". Translate the same light-mode motif/system into dark mode: white shaggy mountain goat fur, black curved horns, black hooves, granite cliff gray, alpine air, stable climbing system mood.\n\nBoard requirements: 3840x2160 target composition, crisp readable labels, polished product-design presentation, not a marketing poster. Include all sections in one board: dark palette, typography, English/Japanese type guidance, UI components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture swatches, spacing/radius/shadow tokens, icon treatment, and sample usage.\n\nDark theme visual language: horn-black and cliff-shadow background, charcoal cards, snow-fur foreground, granite borders, ice-blue focus rings, lichen-sage success/support, sunlit-scree amber warnings. Use cliff ledge geometry, sure-footed stepped layouts, compact stable controls, fine fur-grain texture, granite striation dividers, and white-fur highlights against black-horn structure.\n\nPalette labels to show: Horn Night #121312, Hoof Charcoal #252827, Cliff Shadow #3f4442, Granite Gray #696d6c, Snow Fur #f7f4ec, Alpine Mist #dfe8e6, Lichen Sage #8c9b72, Ice Blue #9fc9d1, Sunlit Scree #c4ad83.\n\nTypography guidance: English: steady grotesk UI with firm numeric rhythm; Japanese: Noto Sans JP / system sans, generous line-height and clear kana-kanji contrast. Include a compact specimen with headings, body, captions, numerals, and bilingual labels.\n\nConstraints: no purple/blue generic gradients, no neon cyber palette, no unrelated saturated colors, no random brand names, no illegible microtext, no sheep/ram/ibex confusion, no landscapes dominating the board. The mountain goat motif should be visible as a reference cutout and translated into dark UI tokens."
+    }
+  ]
+}

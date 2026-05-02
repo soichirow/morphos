@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-morpho-butterfly",
+    "name": "Morphous Morpho Butterfly",
+    "motifName": "Morpho Butterfly",
+    "motifCategory": "insect",
+    "biome": "Tropical Forest",
+    "motif": "morpho wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Paper",
+      "hex": "#F6FAFB",
+      "oklch": "oklch(0.982 0.004 214.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#0D0B0F",
+      "oklch": "oklch(0.154 0.009 307.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Iridescent Blue",
+      "hex": "#0A64FF",
+      "oklch": "oklch(0.561 0.242 261.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Morpho Cyan",
+      "hex": "#3FD4FF",
+      "oklch": "oklch(0.811 0.134 221.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Emerald Shadow",
+      "hex": "#1FAF8A",
+      "oklch": "oklch(0.674 0.127 169.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Iridescent Glow",
+      "hex": "#AEEBFF",
+      "oklch": "oklch(0.905 0.067 220.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Glint",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Scale Slate",
+      "hex": "#6C7A7C",
+      "oklch": "oklch(0.569 0.017 207.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Forest",
+      "hex": "#0F1416",
+      "oklch": "oklch(0.187 0.009 224.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Vein Brown",
+      "hex": "#2A241E",
+      "oklch": "oklch(0.265 0.014 67.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Glint Blue Wash",
+      "hex": "#E6F2FF",
+      "oklch": "oklch(0.956 0.022 250.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.004 214.3)",
+    "foreground": "oklch(0.154 0.009 307.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.154 0.009 307.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.154 0.009 307.8)",
+    "primary": "oklch(0.561 0.242 261.5)",
+    "primary-foreground": "oklch(1.000 0.000 89.9)",
+    "secondary": "oklch(0.956 0.022 250.2)",
+    "secondary-foreground": "oklch(0.187 0.009 224.0)",
+    "muted": "oklch(0.907 0.016 239.1)",
+    "muted-foreground": "oklch(0.569 0.017 207.1)",
+    "accent": "oklch(0.811 0.134 221.9)",
+    "accent-foreground": "oklch(0.154 0.009 307.8)",
+    "destructive": "oklch(0.265 0.014 67.2)",
+    "border": "oklch(0.861 0.036 214.5)",
+    "input": "oklch(0.861 0.036 214.5)",
+    "ring": "oklch(0.674 0.127 169.8)",
+    "chart-1": "oklch(0.561 0.242 261.5)",
+    "chart-2": "oklch(0.811 0.134 221.9)",
+    "chart-3": "oklch(0.674 0.127 169.8)",
+    "chart-4": "oklch(0.905 0.067 220.1)",
+    "chart-5": "oklch(0.187 0.009 224.0)",
+    "sidebar": "oklch(0.983 0.011 226.0)",
+    "sidebar-foreground": "oklch(0.154 0.009 307.8)",
+    "sidebar-primary": "oklch(0.561 0.242 261.5)",
+    "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-accent": "oklch(0.905 0.067 220.1)",
+    "sidebar-accent-foreground": "oklch(0.154 0.009 307.8)",
+    "sidebar-border": "oklch(0.861 0.036 214.5)",
+    "sidebar-ring": "oklch(0.674 0.127 169.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.154 0.009 307.8)",
+    "foreground": "oklch(0.982 0.004 214.3)",
+    "card": "oklch(0.230 0.035 228.6)",
+    "card-foreground": "oklch(0.982 0.004 214.3)",
+    "popover": "oklch(0.230 0.035 228.6)",
+    "popover-foreground": "oklch(0.982 0.004 214.3)",
+    "primary": "oklch(0.811 0.134 221.9)",
+    "primary-foreground": "oklch(0.154 0.009 307.8)",
+    "secondary": "oklch(0.350 0.071 238.0)",
+    "secondary-foreground": "oklch(0.982 0.004 214.3)",
+    "muted": "oklch(0.271 0.034 228.3)",
+    "muted-foreground": "oklch(0.861 0.036 214.5)",
+    "accent": "oklch(0.561 0.242 261.5)",
+    "accent-foreground": "oklch(1.000 0.000 89.9)",
+    "destructive": "oklch(0.265 0.014 67.2)",
+    "border": "oklch(0.982 0.004 214.3 / 12%)",
+    "input": "oklch(0.982 0.004 214.3 / 16%)",
+    "ring": "oklch(0.674 0.127 169.8)",
+    "chart-1": "oklch(0.811 0.134 221.9)",
+    "chart-2": "oklch(0.674 0.127 169.8)",
+    "chart-3": "oklch(0.561 0.242 261.5)",
+    "chart-4": "oklch(0.905 0.067 220.1)",
+    "chart-5": "oklch(0.569 0.017 207.1)",
+    "sidebar": "oklch(0.187 0.009 224.0)",
+    "sidebar-foreground": "oklch(0.982 0.004 214.3)",
+    "sidebar-primary": "oklch(0.811 0.134 221.9)",
+    "sidebar-primary-foreground": "oklch(0.154 0.009 307.8)",
+    "sidebar-accent": "oklch(0.350 0.071 238.0)",
+    "sidebar-accent-foreground": "oklch(0.982 0.004 214.3)",
+    "sidebar-border": "oklch(0.982 0.004 214.3 / 12%)",
+    "sidebar-ring": "oklch(0.674 0.127 169.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for luminous product UI with Noto Sans JP guidance for Japanese labels, crisp display hierarchy, compact dashboard numerics, and readable multilingual controls.",
+  "layout": "Precise 8px grids, 8px radii, black wing-vein dividers, blue active rails, emerald focus states, glint-white panels, dense media dashboard sections, and restrained morpho-scale texture.",
+  "tags": [
+    "morpho",
+    "butterfly",
+    "insect",
+    "tropical-forest",
+    "iridescent-blue",
+    "emerald-shadow",
+    "luminous-media",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-morpho-butterfly/motif.png",
+    "board": "/systems/morphous-morpho-butterfly/design-system-light.png",
+    "darkBoard": "/systems/morphous-morpho-butterfly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-morpho-butterfly/theme.css",
+    "themeJson": "/systems/morphous-morpho-butterfly/theme.json",
+    "promptsJson": "/systems/morphous-morpho-butterfly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Morpho Butterfly motif",
+      "asset": "/systems/morphous-morpho-butterfly/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Morpho Butterfly transparent motif chroma-key source\nPrimary request: Create only an isolated morpho butterfly full-body motif for a design-system catalog, no environment, no props, no text.\nSubject: A morpho butterfly with accurate anatomy, broad open wings, luminous iridescent electric blue wing fields, black wing margins and veins, subtle emerald-green shadow shifts in the scales, dark body, antennae, and crisp natural wing-scale texture.\nComposition/framing: centered complete cutout with generous padding; show both wings, body, antennae, black margins, and wing edges without cropping.\nLighting/mood: clean studio light that preserves iridescent blue, black vein structure, emerald shadow shifts, and fine wing texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no monarch, no moth, no dragonfly, no flower, no leaf as the main subject, no tropical forest background, no text, no watermark, no props, no landscape, no second insect."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-morpho-butterfly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board titled exactly \"Morphous Morpho Butterfly\" with subtitle \"Morpho Butterfly Design System - Light Mode\". It must be a luminous media system derived from a blue morpho butterfly, not a glasswing or monarch.\nMotif reference: broad open morpho butterfly wings with saturated iridescent electric blue, cyan glow, black-brown margins and vein lines, subtle emerald-green scale shadows, white wing glints, and deep tropical forest shadow.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nResolution and legibility: large readable labels, clear section cards, no dense tiny token tables.\nRequired visible section headings, all present: Palette, Type, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTokens section: include clearly labeled shadcn/tweakcn semantic token chips for bg, fg, card, primary, primary-fg, secondary, muted, accent, border, input, ring, chart-1, chart-2, chart-3, sidebar, destructive.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, search field, sidebar, top nav, metric cards, charts, loading, empty, error, success.\nTypography: English and Japanese examples for product UI; use short labels only.\nStyle details: precise 8px grid, 8px radius on cards and controls, thin black wing-vein dividers, electric blue primary actions, emerald focus rings, pale glint surfaces, subtle morpho scale texture samples, tropical forest depth as quiet dark neutrals.\nColor palette: use only motif-derived colors: electric morpho blue, cyan wing glow, black-brown wing margin, emerald scale shadow, pale glint white, mist paper, deep forest shadow, muted slate gray. Avoid amber, orange, red except small destructive error, purple gradients, rainbow palettes, generic stock UI, glasswing transparency, random brands, watermark, and misspellings."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-morpho-butterfly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board titled exactly \"Morphous Morpho Butterfly\" with subtitle \"Dark Mode\". It must feel like the same system translated from the light board: luminous media system, blue morpho butterfly motif, precise shadcn/tweakcn UI, not a new theme.\nReference use: Preserve the light-board layout language and motif-derived roles from the blue morpho butterfly: electric blue primary, cyan glow, black-brown wing margins and vein lines, emerald scale shadow, pale wing glints, mist neutrals, and deep tropical forest shadow.\nCanvas: wide 16:9 board, high-resolution 4K-class source, at least 2400px wide when available.\nResolution and legibility: large readable labels, clear section cards, no dense tiny token tables.\nRequired visible section headings, all present: Palette, Type, Japanese Typography, Components, Navigation, Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTokens section: include clearly labeled shadcn/tweakcn semantic token chips for bg, fg, card, primary, primary-fg, secondary, muted, accent, border, input, ring, chart-1, chart-2, chart-3, sidebar, destructive.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, search field, sidebar, top nav, metric cards, charts, loading, empty, error, success.\nTypography: English and Japanese examples for product UI; use short labels only.\nVisual details: dark background from deep forest and black wing margin, elevated cards in forest ink, light text from pale wing glints, electric blue active states, emerald focus rings, cyan chart lines, subtle black wing-vein dividers, morpho scale texture samples, exact 8px radius on cards and controls.\nColor palette: use only motif-derived colors: deep forest black, wing margin black-brown, electric morpho blue, cyan wing glow, emerald scale shadow, pale glint white, muted slate gray. Avoid amber, orange, purple gradients, rainbow palettes, generic blue-only theme, glasswing transparency, random brands, watermark, and misspellings."
+    }
+  ]
+}

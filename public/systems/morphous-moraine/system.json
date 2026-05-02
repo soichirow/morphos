@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-moraine",
+  "name": "Morphous Moraine",
+  "motifName": "Moraine",
+  "motifCategory": "landscape",
+  "biome": "glacial valley",
+  "motif": "moraine stones",
+  "description": "A shadcn/tweakcn-compatible structured archive system derived from glacial valley moraine stones: granite grey surfaces, lichen green status marks, ice blue mineral veins, frost white highlights, sediment taupe dividers, moraine charcoal panels, and graphite ink navigation for records-heavy geological interfaces.",
+  "typography": "Structured archive English UI with Japanese typography guidance for specimen labels, indexed records, tables, command search, provenance logs, and long-term geological panels.",
+  "layout": "Dense archive dashboards, glacial index cards, 8px radii, ice-blue focus states, lichen-green status accents, granite surfaces, sediment-taupe borders, and subtle striated stone texture.",
+  "themeReference": [
+    "/systems/morphous-moraine/design-system-light.png",
+    "/systems/morphous-moraine/design-system-dark.png"
+  ],
+  "tags": [
+    "moraine",
+    "landscape",
+    "glacial-valley",
+    "granite-grey",
+    "lichen-green",
+    "ice-blue",
+    "structured-archive",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Frost White",
+      "hex": "#F6F7F8"
+    },
+    {
+      "role": "Ink",
+      "name": "Graphite Ink",
+      "hex": "#1F2327"
+    },
+    {
+      "role": "Primary",
+      "name": "Ice Blue",
+      "hex": "#A7C7D9"
+    },
+    {
+      "role": "Secondary",
+      "name": "Granite Grey",
+      "hex": "#6F767D"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Green",
+      "hex": "#7A8F6A"
+    },
+    {
+      "role": "Surface",
+      "name": "Glacial Card",
+      "hex": "#EEF2F3"
+    },
+    {
+      "role": "Muted",
+      "name": "Sediment Taupe",
+      "hex": "#B7B1A6"
+    },
+    {
+      "role": "Depth",
+      "name": "Moraine Charcoal",
+      "hex": "#343A40"
+    },
+    {
+      "role": "Border",
+      "name": "Striation Line",
+      "hex": "#C8CED0"
+    },
+    {
+      "role": "Success",
+      "name": "Lichen Index",
+      "hex": "#5E7352"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-moraine/motif.png",
+    "board": "/systems/morphous-moraine/design-system-light.png",
+    "darkBoard": "/systems/morphous-moraine/design-system-dark.png",
+    "themeCss": "/systems/morphous-moraine/theme.css",
+    "themeJson": "/systems/morphous-moraine/theme.json",
+    "promptsJson": "/systems/morphous-moraine/prompts.json"
+  }
+}

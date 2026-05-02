@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-meteor-shower",
+    "name": "Morphous Meteor Shower",
+    "motifName": "Meteor Shower",
+    "motifCategory": "celestial",
+    "biome": "Night Sky",
+    "motif": "meteor streaks"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Starfield White",
+      "hex": "#f7f8ff",
+      "oklch": "oklch(0.980 0.009 279.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Midnight Trace",
+      "hex": "#10172f",
+      "oklch": "oklch(0.212 0.049 269.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Meteor Gold",
+      "hex": "#f2b84b",
+      "oklch": "oklch(0.817 0.140 80.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Violet Ion",
+      "hex": "#8c63ff",
+      "oklch": "oklch(0.623 0.221 290.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Luminous Core",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Sky",
+      "hex": "#172554",
+      "oklch": "oklch(0.282 0.087 267.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Trail Dust",
+      "hex": "#ede7d8",
+      "oklch": "oklch(0.929 0.021 88.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Orbital Slate",
+      "hex": "#68708d",
+      "oklch": "oklch(0.549 0.046 272.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Event Horizon",
+      "hex": "#070a17",
+      "oklch": "oklch(0.149 0.029 271.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.009 279.7)",
+    "foreground": "oklch(0.212 0.049 269.7)",
+    "card": "oklch(0.929 0.021 88.7)",
+    "card-foreground": "oklch(0.212 0.049 269.7)",
+    "popover": "oklch(0.929 0.021 88.7)",
+    "popover-foreground": "oklch(0.212 0.049 269.7)",
+    "primary": "oklch(0.817 0.140 80.1)",
+    "primary-foreground": "oklch(0.980 0.009 279.7)",
+    "secondary": "oklch(0.950 0.009 84.6)",
+    "secondary-foreground": "oklch(0.149 0.029 271.7)",
+    "muted": "oklch(0.944 0.013 86.8)",
+    "muted-foreground": "oklch(0.149 0.029 271.7)",
+    "accent": "oklch(1.000 0.000 89.9)",
+    "accent-foreground": "oklch(0.212 0.049 269.7)",
+    "destructive": "oklch(0.817 0.140 80.1)",
+    "border": "oklch(0.796 0.002 325.6)",
+    "input": "oklch(0.796 0.002 325.6)",
+    "ring": "oklch(0.623 0.221 290.7)",
+    "chart-1": "oklch(0.817 0.140 80.1)",
+    "chart-2": "oklch(0.623 0.221 290.7)",
+    "chart-3": "oklch(1.000 0.000 89.9)",
+    "chart-4": "oklch(0.282 0.087 267.9)",
+    "chart-5": "oklch(0.149 0.029 271.7)",
+    "sidebar": "oklch(0.946 0.011 89.7)",
+    "sidebar-foreground": "oklch(0.212 0.049 269.7)",
+    "sidebar-primary": "oklch(0.817 0.140 80.1)",
+    "sidebar-primary-foreground": "oklch(0.980 0.009 279.7)",
+    "sidebar-accent": "oklch(0.913 0.037 84.6)",
+    "sidebar-accent-foreground": "oklch(0.817 0.140 80.1)",
+    "sidebar-border": "oklch(0.796 0.002 325.6)",
+    "sidebar-ring": "oklch(0.623 0.221 290.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.212 0.049 269.7)",
+    "foreground": "oklch(0.980 0.009 279.7)",
+    "card": "oklch(0.170 0.036 272.1)",
+    "card-foreground": "oklch(0.980 0.009 279.7)",
+    "popover": "oklch(0.170 0.036 272.1)",
+    "popover-foreground": "oklch(0.980 0.009 279.7)",
+    "primary": "oklch(0.623 0.221 290.7)",
+    "primary-foreground": "oklch(0.212 0.049 269.7)",
+    "secondary": "oklch(0.248 0.033 273.6)",
+    "secondary-foreground": "oklch(0.980 0.009 279.7)",
+    "muted": "oklch(0.248 0.033 273.6)",
+    "muted-foreground": "oklch(0.794 0.024 275.3)",
+    "accent": "oklch(1.000 0.000 89.9)",
+    "accent-foreground": "oklch(0.212 0.049 269.7)",
+    "destructive": "oklch(0.817 0.140 80.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.623 0.221 290.7)",
+    "chart-1": "oklch(0.623 0.221 290.7)",
+    "chart-2": "oklch(0.817 0.140 80.1)",
+    "chart-3": "oklch(1.000 0.000 89.9)",
+    "chart-4": "oklch(0.282 0.087 267.9)",
+    "chart-5": "oklch(0.549 0.046 272.8)",
+    "sidebar": "oklch(0.184 0.040 271.0)",
+    "sidebar-foreground": "oklch(0.980 0.009 279.7)",
+    "sidebar-primary": "oklch(0.623 0.221 290.7)",
+    "sidebar-primary-foreground": "oklch(0.212 0.049 269.7)",
+    "sidebar-accent": "oklch(0.248 0.033 273.6)",
+    "sidebar-accent-foreground": "oklch(0.980 0.009 279.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.623 0.221 290.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Sharp product UI typography with crisp numerals and Japanese guidance tuned for observability, space telemetry, and executive analytics.",
+  "layout": "Dense 8px telemetry grids, compact cards, diagonal trail dividers, luminous focus states, restrained starfield texture, and dashboard-first scanning rhythm.",
+  "tags": [
+    "meteor-shower",
+    "celestial",
+    "night-sky",
+    "analytics",
+    "gold",
+    "violet",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-meteor-shower/motif.png",
+    "board": "/systems/morphous-meteor-shower/design-system-light.png",
+    "darkBoard": "/systems/morphous-meteor-shower/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-meteor-shower/theme.css",
+    "themeJson": "/systems/morphous-meteor-shower/theme.json",
+    "promptsJson": "/systems/morphous-meteor-shower/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent meteor shower motif",
+      "asset": "/systems/morphous-meteor-shower/motif.png",
+      "prompt": "Use case: stylized-concept\nAsset type: Morphous Meteor Shower transparent motif chroma-key source\nPrimary request: Create only a meteor shower motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A compact cluster of elegant meteor streaks crossing diagonally through night-sky space, with bright white-hot heads, fine gold ion trails, violet plasma edges, midnight-blue shadow cores, tiny star sparks, and subtle cosmic dust. The motif should read as meteor streaks in a night sky and as a premium cosmic analytics system reference, not as fireworks or rockets.\nComposition/framing: centered complete cutout with generous padding; diagonal motion from upper left to lower right; include several distinct streaks with varied length and taper. No cast shadow, no background scene.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, stars outside the subject, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no fireworks, no rockets, no planets, no astronauts, no landscape horizon, no text, no watermark, no logo, no rectangular frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-meteor-shower/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Meteor Shower light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Meteor Shower\", derived from meteor streaks in a night sky. This board is a source reference for a shadcn/tweakcn-compatible cosmic analytics system.\nCanvas: exact 3840x2160 16:9 high-resolution board, clean professional UI design-system presentation, large readable labels.\nRequired visible sections: Morphous Meteor Shower, Meteor Shower, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from midnight blue night sky, white meteor cores, gold ion trails, violet plasma edges, star sparks, and cosmic dust. The board must read as meteor shower analytics, not generic space fantasy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Orbit Metrics. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: cosmic analytics system, shadcn/tweakcn-style product UI, 8px radius, pale starfield backgrounds, midnight-blue text, white and gold primary actions, violet accents, precise grids, dashboard telemetry, subtle meteor-trail texture, accessible contrast.\nPalette names to show: Starfield White, Midnight Trace, Meteor Gold, Violet Ion, Luminous Core, Deep Sky, Trail Dust, Orbital Slate, Event Horizon.\nConstraints: no planets, no astronauts, no rockets, no fireworks, no fantasy spaceships, no stock photography, no generic blue-purple gradient dominance, no neon overload, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Meteor Shower\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-meteor-shower/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Meteor Shower dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Meteor Shower\". It must feel like the light-mode board translated to dark mode and remain derived from meteor streaks in a night sky. This board is a source reference for a shadcn/tweakcn-compatible cosmic analytics system.\nCanvas: exact 3840x2160 16:9 high-resolution board, clean professional UI design-system presentation, large readable labels.\nRequired visible sections: Morphous Meteor Shower, Meteor Shower, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve midnight blue night-sky depth, white meteor cores, gold ion trails, violet plasma accents, star sparks, cosmic dust, and telemetry dashboard language. Must read as meteor shower analytics, not generic space fantasy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Orbit Metrics. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep midnight and event-horizon backgrounds, slate-violet panels, luminous white foreground text, meteor-gold buttons, violet ion focus rings, white-hot active states, gold and violet charts, soft starfield borders, subtle diagonal meteor-trail texture, accessible contrast.\nPalette names to show: Starfield White, Midnight Trace, Meteor Gold, Violet Ion, Luminous Core, Deep Sky, Trail Dust, Orbital Slate, Event Horizon.\nConstraints: no planets, no astronauts, no rockets, no fireworks, no fantasy spaceships, no pure-black-only flat background, no stock photography, no generic blue-purple gradient dominance, no neon overload, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Meteor Shower\"."
+    }
+  ]
+}

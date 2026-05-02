@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-moon-jelly",
+    "name": "Morphous Moon Jelly",
+    "motifName": "Moon Jelly",
+    "motifCategory": "marine",
+    "biome": "Quiet Bay",
+    "motif": "moon jellyfish"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Moon Pearl",
+      "hex": "#f5f8fb",
+      "oklch": "oklch(0.978 0.005 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bay Ink",
+      "hex": "#122033",
+      "oklch": "oklch(0.241 0.042 256.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Soft Lavender",
+      "hex": "#b9a6e8",
+      "oklch": "oklch(0.765 0.095 297.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rim Blue",
+      "hex": "#7fb9e8",
+      "oklch": "oklch(0.764 0.091 243.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Quiet Cyan",
+      "hex": "#9ed8df",
+      "oklch": "oklch(0.845 0.060 205.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Violet",
+      "hex": "#8063c7",
+      "oklch": "oklch(0.575 0.150 294.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bell White",
+      "hex": "#e8edf5",
+      "oklch": "oklch(0.945 0.012 259.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Veil Gray",
+      "hex": "#aeb8c8",
+      "oklch": "oklch(0.780 0.025 259.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Bay",
+      "hex": "#24506d",
+      "oklch": "oklch(0.414 0.069 240.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.005 247.9)",
+    "foreground": "oklch(0.241 0.042 256.3)",
+    "card": "oklch(0.945 0.012 259.8)",
+    "card-foreground": "oklch(0.241 0.042 256.3)",
+    "popover": "oklch(0.945 0.012 259.8)",
+    "popover-foreground": "oklch(0.241 0.042 256.3)",
+    "primary": "oklch(0.765 0.095 297.3)",
+    "primary-foreground": "oklch(0.978 0.005 247.9)",
+    "secondary": "oklch(0.959 0.010 252.8)",
+    "secondary-foreground": "oklch(0.414 0.069 240.2)",
+    "muted": "oklch(0.954 0.010 261.8)",
+    "muted-foreground": "oklch(0.414 0.069 240.2)",
+    "accent": "oklch(0.845 0.060 205.4)",
+    "accent-foreground": "oklch(0.241 0.042 256.3)",
+    "destructive": "oklch(0.765 0.095 297.3)",
+    "border": "oklch(0.886 0.017 259.4)",
+    "input": "oklch(0.886 0.017 259.4)",
+    "ring": "oklch(0.764 0.091 243.8)",
+    "chart-1": "oklch(0.765 0.095 297.3)",
+    "chart-2": "oklch(0.764 0.091 243.8)",
+    "chart-3": "oklch(0.845 0.060 205.4)",
+    "chart-4": "oklch(0.575 0.150 294.6)",
+    "chart-5": "oklch(0.414 0.069 240.2)",
+    "sidebar": "oklch(0.956 0.010 252.8)",
+    "sidebar-foreground": "oklch(0.241 0.042 256.3)",
+    "sidebar-primary": "oklch(0.765 0.095 297.3)",
+    "sidebar-primary-foreground": "oklch(0.978 0.005 247.9)",
+    "sidebar-accent": "oklch(0.922 0.020 279.9)",
+    "sidebar-accent-foreground": "oklch(0.765 0.095 297.3)",
+    "sidebar-border": "oklch(0.886 0.017 259.4)",
+    "sidebar-ring": "oklch(0.764 0.091 243.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.241 0.042 256.3)",
+    "foreground": "oklch(0.978 0.005 247.9)",
+    "card": "oklch(0.358 0.059 242.7)",
+    "card-foreground": "oklch(0.978 0.005 247.9)",
+    "popover": "oklch(0.358 0.059 242.7)",
+    "popover-foreground": "oklch(0.978 0.005 247.9)",
+    "primary": "oklch(0.764 0.091 243.8)",
+    "primary-foreground": "oklch(0.241 0.042 256.3)",
+    "secondary": "oklch(0.497 0.059 240.1)",
+    "secondary-foreground": "oklch(0.978 0.005 247.9)",
+    "muted": "oklch(0.497 0.059 240.1)",
+    "muted-foreground": "oklch(0.889 0.014 258.3)",
+    "accent": "oklch(0.845 0.060 205.4)",
+    "accent-foreground": "oklch(0.241 0.042 256.3)",
+    "destructive": "oklch(0.765 0.095 297.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.764 0.091 243.8)",
+    "chart-1": "oklch(0.764 0.091 243.8)",
+    "chart-2": "oklch(0.765 0.095 297.3)",
+    "chart-3": "oklch(0.845 0.060 205.4)",
+    "chart-4": "oklch(0.575 0.150 294.6)",
+    "chart-5": "oklch(0.780 0.025 259.8)",
+    "sidebar": "oklch(0.323 0.055 246.4)",
+    "sidebar-foreground": "oklch(0.978 0.005 247.9)",
+    "sidebar-primary": "oklch(0.764 0.091 243.8)",
+    "sidebar-primary-foreground": "oklch(0.241 0.042 256.3)",
+    "sidebar-accent": "oklch(0.497 0.059 240.1)",
+    "sidebar-accent-foreground": "oklch(0.978 0.005 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.764 0.091 243.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body copy, labels, metrics, and dense analytics tables.",
+  "layout": "Calm 8px analytics grids, translucent pearl cards, thin oral-arm dividers, quiet-bay chart rhythm, compact navigation, and restrained luminous dark-mode surfaces.",
+  "tags": [
+    "moon-jelly",
+    "marine",
+    "quiet-bay",
+    "translucent",
+    "lavender",
+    "analytics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-moon-jelly/motif.png",
+    "board": "/systems/morphous-moon-jelly/design-system-light.png",
+    "darkBoard": "/systems/morphous-moon-jelly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-moon-jelly/theme.css",
+    "themeJson": "/systems/morphous-moon-jelly/theme.json",
+    "promptsJson": "/systems/morphous-moon-jelly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent moon jelly motif source",
+      "asset": "/systems/morphous-moon-jelly/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for a design-system catalog\nPrimary request: Create only one moon jellyfish, isolated full subject, no environment, no props, no text.\nSubject: a moon jellyfish with a translucent milky-white saucer bell, soft lavender internal rings, pale blue rim glow, faint pearl highlights, delicate short oral arms, and subtle quiet-bay bioluminescent edges; accurate moon jelly form, elegant calm analytic mood.\nComposition/framing: centered complete cutout with generous padding on all sides; full bell and trailing oral arms visible; do not crop any part.\nLighting/mood: clean studio light that preserves translucency, glassy membrane detail, soft lavender and blue tones, and calm quiet-bay atmosphere.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges. Do not use #00ff00 or any green tint anywhere in the subject.\nConstraints: no text, no watermark, no props, no ocean background, no bubbles, no decorative background, no second jellyfish, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-moon-jelly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, final catalog source image\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Moon Jelly\", derived from the moon jellyfish motif cutout.\nCanvas: exact 16:9 board composition intended for 3840 x 2160 output. Fill the canvas edge to edge; no outer frame.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the moon jelly motif: translucent milky-white bell, soft lavender internal rings, pale blue rim glow, pearl highlights, quiet-bay water clarity, delicate oral-arm lines, calm analytics-system mood. The board must visibly respect these colors and not look like a generic purple/blue kit.\nRequired visible sections with readable headings: Morphous Moon Jelly, Moon Jelly, Quiet Bay, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI and component coverage: primary/secondary/ghost/destructive buttons; input, select, textarea; checkbox, radio, switch; tabs; badges; alerts; cards; table rows; command/search palette; sidebar navigation; top nav; dashboard metric cards; line chart, bar chart, donut chart, small sparkline; empty, loading, error, success states; tooltip/popover sample; calendar/date picker; pagination; slider; avatar; progress; breadcrumb.\nTypography: include English and Japanese examples. Show font guidance labels Geist and Noto Sans JP, with Heading, Body, Label, Metrics examples. Keep all text short and large enough to read after gallery downscaling.\nStyle/medium: premium shadcn/tweakcn-style product design-system board, precise grid, restrained professional analytics dashboard, 8px card radius, translucent pearl surfaces, glassy membrane overlays, thin tentacle-line dividers, calm quiet-bay spacing.\nColor palette: use motif-derived colors plus near-neutrals only: Moon Pearl #f5f8fb, Bay Ink #122033, Bell White #e8edf5, Soft Lavender #b9a6e8, Rim Blue #7fb9e8, Quiet Cyan #9ed8df, Deep Bay #24506d, Veil Gray #aeb8c8, Signal Violet #8063c7.\nCharts: show clearly colored line, bar, donut, and sparkline examples using Soft Lavender, Rim Blue, Quiet Cyan, Deep Bay, and Signal Violet.\nText constraints: short readable UI labels only; no long paragraphs; no random brand names; no watermark.\nAvoid: unrelated saturated colors, generic gradients, illegible tiny type, misspelling \"Morphous Moon Jelly\", misspelling \"Noto Sans JP\", cluttered token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-moon-jelly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, final catalog source image\nPrimary request: Generate a dark-mode version of the Morphous Moon Jelly light design-system board. It must feel like the same system translated to dark mode, not a new theme.\nCanvas: exact 16:9 board composition intended for 3840 x 2160 output. Fill the canvas edge to edge; no outer frame.\nReference use: Use the moon jellyfish motif and the light-mode Morphous Moon Jelly board as references. Preserve the motif-derived palette roles, component language, membrane texture, quiet-bay spacing, Japanese typography guidance, shadcn/tweakcn UI style, and analytics dashboard coverage.\nRequired visible sections with readable headings: Morphous Moon Jelly, Moon Jelly, Dark Mode, Quiet Bay, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nUI and component coverage: primary/secondary/ghost/destructive buttons; input, select, textarea; checkbox, radio, switch; tabs; badges; alerts; cards; table rows; command/search palette; sidebar navigation; top nav; dashboard metric cards; line chart, bar chart, donut chart, small sparkline; empty, loading, error, success states; tooltip/popover sample; calendar/date picker; pagination; slider; avatar; progress; breadcrumb.\nVisual details: deep quiet-bay dark background derived from Bay Ink and Deep Bay, light text from Moon Pearl and Bell White, primary accents from Rim Blue and Soft Lavender, secondary accents from Quiet Cyan, data accents from Signal Violet, restrained luminous contrast, subtle moon-jelly membrane texture, thin tentacle-line separators, crisp glassy cards and controls.\nTypography: include English and Japanese examples. Show font guidance labels Geist and Noto Sans JP, with Heading, Body, Label, Metrics examples. Keep all text short and readable after gallery downscaling.\nStyle/medium: premium shadcn/tweakcn-style dark product design-system board, precise grid, calm analytics dashboard, 8px card radius, translucent deep cards, quiet bay clarity.\nColor palette: use only motif-derived colors plus near-neutrals: Bay Ink #122033, Deep Bay #24506d, Moon Pearl #f5f8fb, Bell White #e8edf5, Soft Lavender #b9a6e8, Rim Blue #7fb9e8, Quiet Cyan #9ed8df, Veil Gray #aeb8c8, Signal Violet #8063c7.\nCharts: show clearly colored line, bar, donut, and sparkline examples using Soft Lavender, Rim Blue, Quiet Cyan, Deep Bay, and Signal Violet.\nText constraints: short readable UI labels only; no long paragraphs; no random brand names; no watermark.\nAvoid: neon overload, unrelated saturated colors, flat pure black, illegible tiny type, misspelling \"Morphous Moon Jelly\", misspelling \"Noto Sans JP\", cluttered token tables."
+    }
+  ]
+}

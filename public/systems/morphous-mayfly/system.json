@@ -1,0 +1,97 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-mayfly",
+  "name": "Morphous Mayfly",
+  "motifName": "Mayfly",
+  "motifCategory": "insect",
+  "biome": "river hatch",
+  "motif": "mayfly wings",
+  "description": "A shadcn/tweakcn-compatible ephemeral feed system derived from river-hatch mayfly wings: cream translucent surfaces, water-blue venation, warm brown body structure, amber thorax highlights, silt-taupe dividers, and deep river ink for live queues, signals, moderation, and stream analytics.",
+  "typography": "Readable English feed UI with tabular live metrics, concise signal labels, and Noto Sans JP guidance for Japanese river, queue, moderation, and analytics workflows.",
+  "layout": "Precise 8px feed grids, restrained 8px cards, translucent wing-vein dividers, fine tail-line separators, live hatch queue panels, command search, compact data tables, and soft hatch-mist texture samples.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "mayfly",
+    "insect",
+    "river-hatch",
+    "ephemeral-feed",
+    "cream-wing",
+    "brown-body",
+    "water-blue",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Cream",
+      "hex": "#F7F3EA"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep River Ink",
+      "hex": "#112128"
+    },
+    {
+      "role": "Primary",
+      "name": "Water Blue",
+      "hex": "#5A9FB8"
+    },
+    {
+      "role": "Secondary",
+      "name": "Vein Blue",
+      "hex": "#9CC0D9"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Thorax",
+      "hex": "#D08A3B"
+    },
+    {
+      "role": "Signal",
+      "name": "Emergence Green",
+      "hex": "#5F9E66"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam White",
+      "hex": "#FAFAF8"
+    },
+    {
+      "role": "Muted",
+      "name": "Silt Taupe",
+      "hex": "#CFC6B6"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Sand",
+      "hex": "#E7E2D6"
+    },
+    {
+      "role": "Depth",
+      "name": "Body Brown",
+      "hex": "#8B5E54"
+    },
+    {
+      "role": "Warning",
+      "name": "Hatch Amber",
+      "hex": "#D08A3B"
+    },
+    {
+      "role": "Danger",
+      "name": "Gill Red",
+      "hex": "#C34B45"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

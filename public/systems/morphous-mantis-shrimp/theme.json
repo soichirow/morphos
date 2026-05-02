@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mantis-shrimp",
+    "name": "Morphous Mantis Shrimp",
+    "motifName": "Mantis Shrimp",
+    "motifCategory": "crustacean",
+    "biome": "Coral Reef",
+    "motif": "mantis shrimp eyes"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Paper",
+      "hex": "#F7F8FA",
+      "oklch": "oklch(0.979 0.003 264.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Teal",
+      "hex": "#052B32",
+      "oklch": "oklch(0.267 0.043 212.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Stomatopod Teal",
+      "hex": "#0E7C82",
+      "oklch": "oklch(0.535 0.088 201.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Pearl",
+      "hex": "#C9F2F0",
+      "oklch": "oklch(0.932 0.042 192.8)"
+    },
+    {
+      "role": "Action",
+      "name": "Raptorial Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Optic Coral",
+      "hex": "#FF9A80",
+      "oklch": "oklch(0.785 0.127 35.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Spectrum Lime",
+      "hex": "#A6FF49",
+      "oklch": "oklch(0.911 0.225 132.3)"
+    },
+    {
+      "role": "Chart",
+      "name": "Iridescent Cyan",
+      "hex": "#21D6F3",
+      "oklch": "oklch(0.806 0.136 212.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Slate",
+      "hex": "#6B7C82",
+      "oklch": "oklch(0.575 0.022 221.1)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Abyss Background",
+      "hex": "#06161B",
+      "oklch": "oklch(0.189 0.024 220.1)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Deep Shell Surface",
+      "hex": "#0D2A32",
+      "oklch": "oklch(0.267 0.037 218.9)"
+    },
+    {
+      "role": "Dark Text",
+      "name": "Shell Pearl Text",
+      "hex": "#E7F6F6",
+      "oklch": "oklch(0.962 0.016 196.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Strike Red",
+      "hex": "#D8301E",
+      "oklch": "oklch(0.576 0.206 30.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.003 264.5)",
+    "foreground": "oklch(0.267 0.043 212.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.267 0.043 212.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.267 0.043 212.8)",
+    "primary": "oklch(0.535 0.088 201.0)",
+    "primary-foreground": "oklch(1.000 0.000 89.9)",
+    "secondary": "oklch(0.932 0.042 192.8)",
+    "secondary-foreground": "oklch(0.267 0.043 212.8)",
+    "muted": "oklch(0.962 0.012 190.4)",
+    "muted-foreground": "oklch(0.575 0.022 221.1)",
+    "accent": "oklch(0.701 0.201 44.8)",
+    "accent-foreground": "oklch(0.267 0.043 212.8)",
+    "destructive": "oklch(0.576 0.206 30.4)",
+    "border": "oklch(0.908 0.019 196.8)",
+    "input": "oklch(0.908 0.019 196.8)",
+    "ring": "oklch(0.806 0.136 212.4)",
+    "chart-1": "oklch(0.535 0.088 201.0)",
+    "chart-2": "oklch(0.701 0.201 44.8)",
+    "chart-3": "oklch(0.806 0.136 212.4)",
+    "chart-4": "oklch(0.911 0.225 132.3)",
+    "chart-5": "oklch(0.785 0.127 35.3)",
+    "sidebar": "oklch(0.970 0.009 188.1)",
+    "sidebar-foreground": "oklch(0.267 0.043 212.8)",
+    "sidebar-primary": "oklch(0.535 0.088 201.0)",
+    "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-accent": "oklch(0.932 0.042 192.8)",
+    "sidebar-accent-foreground": "oklch(0.267 0.043 212.8)",
+    "sidebar-border": "oklch(0.908 0.019 196.8)",
+    "sidebar-ring": "oklch(0.806 0.136 212.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.189 0.024 220.1)",
+    "foreground": "oklch(0.962 0.016 196.9)",
+    "card": "oklch(0.267 0.037 218.9)",
+    "card-foreground": "oklch(0.962 0.016 196.9)",
+    "popover": "oklch(0.267 0.037 218.9)",
+    "popover-foreground": "oklch(0.962 0.016 196.9)",
+    "primary": "oklch(0.750 0.128 191.6)",
+    "primary-foreground": "oklch(0.189 0.024 220.1)",
+    "secondary": "oklch(0.341 0.049 209.6)",
+    "secondary-foreground": "oklch(0.962 0.016 196.9)",
+    "muted": "oklch(0.302 0.037 215.5)",
+    "muted-foreground": "oklch(0.693 0.023 215.3)",
+    "accent": "oklch(0.701 0.201 44.8)",
+    "accent-foreground": "oklch(0.189 0.024 220.1)",
+    "destructive": "oklch(0.756 0.149 35.8)",
+    "border": "oklch(0.962 0.016 196.9 / 12%)",
+    "input": "oklch(0.962 0.016 196.9 / 16%)",
+    "ring": "oklch(0.806 0.136 212.4)",
+    "chart-1": "oklch(0.750 0.128 191.6)",
+    "chart-2": "oklch(0.701 0.201 44.8)",
+    "chart-3": "oklch(0.806 0.136 212.4)",
+    "chart-4": "oklch(0.911 0.225 132.3)",
+    "chart-5": "oklch(0.756 0.149 35.8)",
+    "sidebar": "oklch(0.216 0.029 214.8)",
+    "sidebar-foreground": "oklch(0.962 0.016 196.9)",
+    "sidebar-primary": "oklch(0.750 0.128 191.6)",
+    "sidebar-primary-foreground": "oklch(0.189 0.024 220.1)",
+    "sidebar-accent": "oklch(0.341 0.049 209.6)",
+    "sidebar-accent-foreground": "oklch(0.962 0.016 196.9)",
+    "sidebar-border": "oklch(0.962 0.016 196.9 / 12%)",
+    "sidebar-ring": "oklch(0.806 0.136 212.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Space Grotesk-style English hierarchy for fast analytics scanning with Noto Sans JP guidance for Japanese labels, compact numerics, clear status language, and readable multilingual controls.",
+  "layout": "Precise 8px grid, 8px radii, shell-scale texture panels, teal active rails, orange decisive actions, cyan chart strokes, lime live-state signals, and dense dashboard surfaces for rapid insight.",
+  "tags": [
+    "mantis-shrimp",
+    "crustacean",
+    "coral-reef",
+    "compound-eyes",
+    "teal-shell",
+    "raptorial-orange",
+    "spectrum-analytics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mantis-shrimp/motif.png",
+    "board": "/systems/morphous-mantis-shrimp/design-system-light.png",
+    "darkBoard": "/systems/morphous-mantis-shrimp/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mantis-shrimp/theme.css",
+    "themeJson": "/systems/morphous-mantis-shrimp/theme.json",
+    "promptsJson": "/systems/morphous-mantis-shrimp/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Mantis Shrimp motif",
+      "asset": "/systems/morphous-mantis-shrimp/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a single peacock mantis shrimp, isolated full subject, no environment, no props, no text.\nSubject: accurate mantis shrimp anatomy with raised raptorial appendages, vivid compound eyes on stalks, segmented crustacean shell, teal carapace, orange limbs, coral-red accents, pearly rainbow shell highlights, crisp antennae, natural glossy shell texture.\nComposition/framing: centered complete cutout with generous padding; full body visible from a slightly elevated three-quarter view; do not crop the subject.\nLighting/mood: clean studio light that preserves natural color, iridescence, and shell detail; energetic but natural.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff or magenta anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no coral, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection.",
+      "postProcess": "Removed chroma key with the imagegen remove_chroma_key.py helper using auto-key border, soft matte, transparent threshold 12, opaque threshold 220, and despill."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-mantis-shrimp/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Morphous Mantis Shrimp\", a high-energy analytics system derived from the provided mantis shrimp cutout.\nReference use: Use the mantis shrimp image in the conversation as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, component energy, and chart language from its teal shell, orange raptorial claws, coral reef context, iridescent rainbow tail, and compound eyes.\nCanvas: 16:9 horizontal board, target 3840x2160, high-resolution source asset.\nResolution and legibility: large readable labels, crisp UI text, spacious grid, no tiny dense tables. Use short labels only.\nRequired visible sections: title \"Morphous Mantis Shrimp\", motif story, palette swatches with names, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, sample usage.\nTypography: English guidance with a sharp grotesk for analytics UI; Japanese guidance with clean JP sans fallback. Include examples: \"Signal velocity\", \"反応速度\", \"視覚解析\".\nStyle/medium: premium shadcn/tweakcn-style product design system board, realistic UI mockup, precise grid, compact enterprise dashboard energy, 8px card radius, tactile shell micro-texture.\nColor palette: motif-derived near-white reef paper background, deep abyss teal ink, stomatopod teal primary, raptorial orange action color, optic coral accent, spectrum lime signal, iridescent cyan chart color, shell pearl surfaces, reef slate muted text.\nDashboard/data: analytics overview with line chart, segmented bar chart, radial eye scan chart, event stream, metric cards, filters, and alert states.\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, empty state, error state, loading state.\nText: short readable UI labels only; use exact palette and section names where practical.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no stock UI kit, no watermark, no random brand names, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-mantis-shrimp/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for \"Morphous Mantis Shrimp\". It must feel like the same high-energy analytics system as the provided light board, translated to dark mode rather than redesigned.\nReference use: Use the mantis shrimp cutout and the light design-system board in the conversation as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, chart vocabulary, and shadcn/tweakcn UI coverage.\nCanvas: 16:9 horizontal board, target 3840x2160, high-resolution source asset.\nResolution and legibility: large readable labels, crisp UI text, spacious grid, no tiny dense tables. Use short labels only.\nRequired visible sections: title \"Morphous Mantis Shrimp\", label \"Dark Mode\", motif story, palette swatches with dark tokens, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, sample usage.\nTypography: English guidance with Space Grotesk style; Japanese guidance with Noto Sans JP style. Include examples: \"Signal velocity\", \"反応速度\", \"視覚解析\".\nVisual details: dark background derived from abyss teal and deep shell blue, light text from shell pearl, restrained high contrast, raptorial orange actions, optic coral alerts, spectrum lime success signals, iridescent cyan chart strokes, subtle shell-scale texture overlays, crisp shadcn-style cards and controls with 8px radius.\nDashboard/data: dark analytics overview with line chart, segmented bar chart, radial eye scan chart, event stream, metric cards, filters, and alert states matching the light board.\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, empty state, error state, loading state.\nText: short readable UI labels only; use exact palette and section names where practical.\nConstraints: no neon-only cyberpunk look, no flat pure-black background, no unrelated saturated colors, no generic purple/blue gradients, no random brand names, no watermark, no illegible microtext."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-monsoon-rain",
+    "name": "Morphous Monsoon Rain",
+    "motifName": "Monsoon Rain",
+    "motifCategory": "weather",
+    "biome": "Tropical City",
+    "motif": "monsoon rainfall"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Grey",
+      "hex": "#edf3f1",
+      "oklch": "oklch(0.959 0.007 174.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Asphalt",
+      "hex": "#102022",
+      "oklch": "oklch(0.230 0.022 205.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Monsoon Green",
+      "hex": "#0f5d3e",
+      "oklch": "oklch(0.425 0.089 160.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Foliage Green",
+      "hex": "#1a6b4a",
+      "oklch": "oklch(0.471 0.093 161.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Puddle Blue",
+      "hex": "#0ea5e9",
+      "oklch": "oklch(0.685 0.148 237.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Rain Amber",
+      "hex": "#f59e0b",
+      "oklch": "oklch(0.769 0.165 70.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cloud White",
+      "hex": "#f7faf8",
+      "oklch": "oklch(0.982 0.004 157.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rain Grey",
+      "hex": "#687780",
+      "oklch": "oklch(0.560 0.023 234.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Water",
+      "hex": "#0369a1",
+      "oklch": "oklch(0.500 0.119 242.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.007 174.4)",
+    "foreground": "oklch(0.230 0.022 205.9)",
+    "card": "oklch(0.982 0.004 157.2)",
+    "card-foreground": "oklch(0.230 0.022 205.9)",
+    "popover": "oklch(0.982 0.004 157.2)",
+    "popover-foreground": "oklch(0.230 0.022 205.9)",
+    "primary": "oklch(0.425 0.089 160.8)",
+    "primary-foreground": "oklch(0.959 0.007 174.4)",
+    "secondary": "oklch(0.973 0.005 165.0)",
+    "secondary-foreground": "oklch(0.500 0.119 242.7)",
+    "muted": "oklch(0.976 0.005 165.0)",
+    "muted-foreground": "oklch(0.500 0.119 242.7)",
+    "accent": "oklch(0.685 0.148 237.3)",
+    "accent-foreground": "oklch(0.230 0.022 205.9)",
+    "destructive": "oklch(0.425 0.089 160.8)",
+    "border": "oklch(0.837 0.008 216.6)",
+    "input": "oklch(0.837 0.008 216.6)",
+    "ring": "oklch(0.471 0.093 161.4)",
+    "chart-1": "oklch(0.425 0.089 160.8)",
+    "chart-2": "oklch(0.471 0.093 161.4)",
+    "chart-3": "oklch(0.685 0.148 237.3)",
+    "chart-4": "oklch(0.769 0.165 70.1)",
+    "chart-5": "oklch(0.500 0.119 242.7)",
+    "sidebar": "oklch(0.976 0.005 165.0)",
+    "sidebar-foreground": "oklch(0.230 0.022 205.9)",
+    "sidebar-primary": "oklch(0.425 0.089 160.8)",
+    "sidebar-primary-foreground": "oklch(0.959 0.007 174.4)",
+    "sidebar-accent": "oklch(0.918 0.014 169.2)",
+    "sidebar-accent-foreground": "oklch(0.425 0.089 160.8)",
+    "sidebar-border": "oklch(0.837 0.008 216.6)",
+    "sidebar-ring": "oklch(0.471 0.093 161.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.230 0.022 205.9)",
+    "foreground": "oklch(0.959 0.007 174.4)",
+    "card": "oklch(0.411 0.090 239.5)",
+    "card-foreground": "oklch(0.959 0.007 174.4)",
+    "popover": "oklch(0.411 0.090 239.5)",
+    "popover-foreground": "oklch(0.959 0.007 174.4)",
+    "primary": "oklch(0.471 0.093 161.4)",
+    "primary-foreground": "oklch(0.230 0.022 205.9)",
+    "secondary": "oklch(0.506 0.105 239.1)",
+    "secondary-foreground": "oklch(0.959 0.007 174.4)",
+    "muted": "oklch(0.506 0.105 239.1)",
+    "muted-foreground": "oklch(0.785 0.012 217.6)",
+    "accent": "oklch(0.685 0.148 237.3)",
+    "accent-foreground": "oklch(0.230 0.022 205.9)",
+    "destructive": "oklch(0.425 0.089 160.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.471 0.093 161.4)",
+    "chart-1": "oklch(0.471 0.093 161.4)",
+    "chart-2": "oklch(0.425 0.089 160.8)",
+    "chart-3": "oklch(0.685 0.148 237.3)",
+    "chart-4": "oklch(0.769 0.165 70.1)",
+    "chart-5": "oklch(0.560 0.023 234.2)",
+    "sidebar": "oklch(0.359 0.070 234.8)",
+    "sidebar-foreground": "oklch(0.959 0.007 174.4)",
+    "sidebar-primary": "oklch(0.471 0.093 161.4)",
+    "sidebar-primary-foreground": "oklch(0.230 0.022 205.9)",
+    "sidebar-accent": "oklch(0.506 0.105 239.1)",
+    "sidebar-accent-foreground": "oklch(0.959 0.007 174.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.471 0.093 161.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense operational UI with Noto Sans JP guidance for Japanese labels, dashboard metrics, queue states, and rainfall telemetry.",
+  "layout": "Rain-column dividers, compact route/status tables, puddle-blue focus rings, wet-leaf edge accents, storm-grey surfaces, and restrained 8px component radius.",
+  "tags": [
+    "monsoon",
+    "rain",
+    "weather",
+    "tropical-city",
+    "operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-monsoon-rain/motif.png",
+    "board": "/systems/morphous-monsoon-rain/design-system-light.png",
+    "darkBoard": "/systems/morphous-monsoon-rain/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-monsoon-rain/theme.css",
+    "themeJson": "/systems/morphous-monsoon-rain/theme.json",
+    "promptsJson": "/systems/morphous-monsoon-rain/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent monsoon rainfall motif source",
+      "asset": "/systems/morphous-monsoon-rain/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a monsoon rainfall motif for a design system named Morphous Monsoon Rain: dense vertical tropical city rain, deep green rain-soaked foliage shapes, rain grey sheets, puddle blue reflections, isolated full subject, no text.\nSubject: A single stylized-realistic column of monsoon rainfall as an opaque graphic motif: layered heavy raindrop streaks, wet tropical leaves and awning silhouettes at the edges, puddle splash crown at the base with blue reflections, dense operations-system mood, crisp silhouette suitable for UI theming.\nComposition/framing: centered complete cutout with generous padding, vertical rainfall column fully visible, puddle splash base visible, no cropping.\nLighting/mood: overcast tropical city storm light, practical operational density, high contrast between deep green, rain grey, puddle blue, and dark wet shadows.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape horizon, no people, no cars, no animals, no cartoon face, no readable text, no watermark, no decorative background, no purple or magenta in the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-monsoon-rain/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Create a HORIZONTAL 16:9 design-system board for \"Morphous Monsoon Rain\". The canvas must be landscape, not portrait, formatted like a 3840x2160 presentation board.\nComposition: one wide poster board with a dense but readable operations-system grid, 4 columns across and 3 rows down, large labels, generous gutters. Include a small motif preview of monsoon rain in a tropical city, then UI sections arranged horizontally.\nSystem identity: Monsoon Rain; category weather; context tropical city; motif monsoon rainfall; system feel dense operations system.\nPalette direction: deep monsoon green, rain grey, puddle blue, wet asphalt ink, cloud white cards, restrained amber warnings.\nRequired visible sections with short readable labels: Morphous Monsoon Rain, Palette, Typography, Japanese Typography, Buttons, Inputs, Select, Textarea, Checkbox, Radio, Switch, Tabs, Badges, Alerts, Cards, Table, Command/Search, Navigation, Dense Dashboard, Queue Metrics, Rainfall Charts, Empty Loading Error states, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nVisual language: premium shadcn/tweakcn-style product design system, compact tables, route/status controls, wet leaf edge accents, rain-column dividers, puddle-blue focus rings, storm-grey surfaces, 8px card radius.\nText: short UI labels only, readable at preview size.\nConstraints: no portrait layout, no tall poster, no generic purple gradients, no beach/ocean theme, no sunny weather, no random brand names, no watermark, no tiny unreadable text, no misspelling of \"Morphous Monsoon Rain\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-monsoon-rain/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Create a HORIZONTAL 16:9 dark-mode design-system board for \"Morphous Monsoon Rain\". The canvas must be landscape, not portrait, formatted like a 3840x2160 presentation board. It must feel like the dark translation of the light Morphous Monsoon Rain system, not a new theme.\nComposition: one wide poster board with a dense but readable operations-system grid, 4 columns across and 3 rows down, large labels, generous gutters. Include a small motif preview of monsoon rain in a tropical city, then UI sections arranged horizontally.\nSystem identity: Monsoon Rain; category weather; context tropical city; motif monsoon rainfall; system feel dense operations system.\nPalette direction: deep wet-asphalt background, near-white rain text, dark monsoon green primary, puddle blue focus/accent, rain grey muted surfaces, cloud grey cards, restrained amber warnings.\nRequired visible sections with short readable labels: Morphous Monsoon Rain, Dark Mode, Palette, Typography, Japanese Typography, Buttons, Inputs, Select, Textarea, Checkbox, Radio, Switch, Tabs, Badges, Alerts, Cards, Table, Command/Search, Navigation, Dense Dashboard, Queue Metrics, Rainfall Charts, Empty Loading Error states, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nVisual language: premium shadcn/tweakcn-style product design system, compact tables, route/status controls, wet leaf edge accents, rain-column dividers, puddle-blue focus rings, storm-grey cards, dark operations cockpit, 8px card radius.\nText: short UI labels only, readable at preview size.\nConstraints: no portrait layout, no tall poster, no neon overload, no generic purple gradients, no beach/ocean theme, no sunny weather, no flat pure-black-only background, no random brand names, no watermark, no tiny unreadable text, no misspelling of \"Morphous Monsoon Rain\"."
+    }
+  ]
+}

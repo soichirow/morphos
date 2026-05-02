@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 361,
+  "slug": "morphous-mandarin-fish",
+  "name": "Morphous Mandarin Fish",
+  "motifName": "Mandarin Fish",
+  "motifCategory": "fish",
+  "biome": "Lagoon Reef",
+  "motif": "mandarin fish pattern",
+  "mood": "vivid creator system",
+  "description": "A shadcn/tweakcn-compatible creator system derived from mandarin fish patterning: electric blue structure, coral-orange actions, lagoon-green support, lime chart glints, turquoise focus, reef-paper surfaces, and deep navy dashboard depth.",
+  "typography": "Geist for crisp creator-product UI with Noto Sans JP guidance for Japanese labels, large expressive headings, compact dashboard numerics, and readable multilingual controls.",
+  "layout": "Precise 8px grids, 8px radii, reef-current dividers, mandarin swirl texture bands, vivid token chips, analytics-heavy panels, and restrained luminous shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "charts",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "mandarin-fish",
+    "fish",
+    "lagoon-reef",
+    "blue-orange-green",
+    "swirl-pattern",
+    "vivid-creator",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Paper",
+      "hex": "#F7FAFC",
+      "oklch": "oklch(0.983 0.004 236.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Reef Ink",
+      "hex": "#061220",
+      "oklch": "oklch(0.179 0.034 252.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mandarin Blue",
+      "hex": "#005EFF",
+      "oklch": "oklch(0.549 0.250 261.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Electric Turquoise",
+      "hex": "#00C6EF",
+      "oklch": "oklch(0.764 0.139 219.9)"
+    },
+    {
+      "role": "Support",
+      "name": "Lagoon Green",
+      "hex": "#16B98A",
+      "oklch": "oklch(0.699 0.141 166.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lime Glint",
+      "hex": "#C8F31D",
+      "oklch": "oklch(0.902 0.213 121.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Reef Navy",
+      "hex": "#081E30",
+      "oklch": "oklch(0.228 0.045 246.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sand Glaze",
+      "hex": "#F2E9D8",
+      "oklch": "oklch(0.937 0.025 83.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Kelp Slate",
+      "hex": "#485D68",
+      "oklch": "oklch(0.465 0.031 231.1)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.983 0.004 236.5)",
+    "foreground": "oklch(0.179 0.034 252.5)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.179 0.034 252.5)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.179 0.034 252.5)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.983 0.004 236.5)",
+    "secondary": "oklch(0.956 0.021 259.2)",
+    "secondary-foreground": "oklch(0.228 0.045 246.1)",
+    "muted": "oklch(0.955 0.009 205.9)",
+    "muted-foreground": "oklch(0.465 0.031 231.1)",
+    "accent": "oklch(0.764 0.139 219.9)",
+    "accent-foreground": "oklch(0.179 0.034 252.5)",
+    "destructive": "oklch(0.626 0.218 28.2)",
+    "border": "oklch(0.902 0.021 227.5)",
+    "input": "oklch(0.902 0.021 227.5)",
+    "ring": "oklch(0.764 0.139 219.9)",
+    "chart-1": "oklch(0.549 0.250 261.8)",
+    "chart-2": "oklch(0.764 0.139 219.9)",
+    "chart-3": "oklch(0.701 0.201 44.8)",
+    "chart-4": "oklch(0.699 0.141 166.3)",
+    "chart-5": "oklch(0.902 0.213 121.9)",
+    "sidebar": "oklch(0.967 0.018 209.4)",
+    "sidebar-foreground": "oklch(0.179 0.034 252.5)",
+    "sidebar-primary": "oklch(0.549 0.250 261.8)",
+    "sidebar-primary-foreground": "oklch(0.983 0.004 236.5)",
+    "sidebar-accent": "oklch(0.956 0.021 259.2)",
+    "sidebar-accent-foreground": "oklch(0.228 0.045 246.1)",
+    "sidebar-border": "oklch(0.902 0.021 227.5)",
+    "sidebar-ring": "oklch(0.764 0.139 219.9)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.179 0.034 252.5)",
+    "foreground": "oklch(0.971 0.008 207.1)",
+    "card": "oklch(0.242 0.042 241.8)",
+    "card-foreground": "oklch(0.971 0.008 207.1)",
+    "popover": "oklch(0.242 0.042 241.8)",
+    "popover-foreground": "oklch(0.971 0.008 207.1)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.179 0.034 252.5)",
+    "secondary": "oklch(0.334 0.057 233.5)",
+    "secondary-foreground": "oklch(0.971 0.008 207.1)",
+    "muted": "oklch(0.275 0.044 234.9)",
+    "muted-foreground": "oklch(0.902 0.021 227.5)",
+    "accent": "oklch(0.764 0.139 219.9)",
+    "accent-foreground": "oklch(0.179 0.034 252.5)",
+    "destructive": "oklch(0.626 0.218 28.2)",
+    "border": "oklch(0.971 0.008 207.1 / 12%)",
+    "input": "oklch(0.971 0.008 207.1 / 16%)",
+    "ring": "oklch(0.764 0.139 219.9)",
+    "chart-1": "oklch(0.764 0.139 219.9)",
+    "chart-2": "oklch(0.549 0.250 261.8)",
+    "chart-3": "oklch(0.701 0.201 44.8)",
+    "chart-4": "oklch(0.699 0.141 166.3)",
+    "chart-5": "oklch(0.902 0.213 121.9)",
+    "sidebar": "oklch(0.212 0.035 237.6)",
+    "sidebar-foreground": "oklch(0.971 0.008 207.1)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.179 0.034 252.5)",
+    "sidebar-accent": "oklch(0.334 0.057 233.5)",
+    "sidebar-accent-foreground": "oklch(0.971 0.008 207.1)",
+    "sidebar-border": "oklch(0.971 0.008 207.1 / 12%)",
+    "sidebar-ring": "oklch(0.764 0.139 219.9)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

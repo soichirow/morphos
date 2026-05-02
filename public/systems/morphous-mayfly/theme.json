@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mayfly",
+    "name": "Morphous Mayfly",
+    "motifName": "Mayfly",
+    "motifCategory": "insect",
+    "biome": "river hatch",
+    "motif": "mayfly wings"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Cream",
+      "hex": "#F7F3EA",
+      "oklch": "oklch(0.965 0.013 86.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep River Ink",
+      "hex": "#112128",
+      "oklch": "oklch(0.237 0.025 227.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Water Blue",
+      "hex": "#5A9FB8",
+      "oklch": "oklch(0.667 0.079 223.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Vein Blue",
+      "hex": "#9CC0D9",
+      "oklch": "oklch(0.790 0.053 238.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Thorax",
+      "hex": "#D08A3B",
+      "oklch": "oklch(0.691 0.126 65.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Emergence Green",
+      "hex": "#5F9E66",
+      "oklch": "oklch(0.642 0.105 146.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Silt Taupe",
+      "hex": "#CFC6B6",
+      "oklch": "oklch(0.829 0.024 82.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Sand",
+      "hex": "#E7E2D6",
+      "oklch": "oklch(0.913 0.017 88.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Body Brown",
+      "hex": "#8B5E54",
+      "oklch": "oklch(0.527 0.062 33.0)"
+    },
+    {
+      "role": "Warning",
+      "name": "Hatch Amber",
+      "hex": "#D08A3B",
+      "oklch": "oklch(0.691 0.126 65.9)"
+    },
+    {
+      "role": "Danger",
+      "name": "Gill Red",
+      "hex": "#C34B45",
+      "oklch": "oklch(0.573 0.155 26.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.013 86.8)",
+    "foreground": "oklch(0.237 0.025 227.6)",
+    "card": "oklch(0.985 0.003 106.4)",
+    "card-foreground": "oklch(0.237 0.025 227.6)",
+    "popover": "oklch(0.985 0.003 106.4)",
+    "popover-foreground": "oklch(0.237 0.025 227.6)",
+    "primary": "oklch(0.667 0.079 223.6)",
+    "primary-foreground": "oklch(0.965 0.013 86.8)",
+    "secondary": "oklch(0.976 0.007 88.6)",
+    "secondary-foreground": "oklch(0.527 0.062 33.0)",
+    "muted": "oklch(0.979 0.005 95.1)",
+    "muted-foreground": "oklch(0.527 0.062 33.0)",
+    "accent": "oklch(0.691 0.126 65.9)",
+    "accent-foreground": "oklch(0.237 0.025 227.6)",
+    "destructive": "oklch(0.667 0.079 223.6)",
+    "border": "oklch(0.929 0.010 81.8)",
+    "input": "oklch(0.929 0.010 81.8)",
+    "ring": "oklch(0.790 0.053 238.6)",
+    "chart-1": "oklch(0.667 0.079 223.6)",
+    "chart-2": "oklch(0.790 0.053 238.6)",
+    "chart-3": "oklch(0.691 0.126 65.9)",
+    "chart-4": "oklch(0.642 0.105 146.8)",
+    "chart-5": "oklch(0.527 0.062 33.0)",
+    "sidebar": "oklch(0.979 0.007 97.4)",
+    "sidebar-foreground": "oklch(0.237 0.025 227.6)",
+    "sidebar-primary": "oklch(0.667 0.079 223.6)",
+    "sidebar-primary-foreground": "oklch(0.965 0.013 86.8)",
+    "sidebar-accent": "oklch(0.946 0.009 205.9)",
+    "sidebar-accent-foreground": "oklch(0.667 0.079 223.6)",
+    "sidebar-border": "oklch(0.929 0.010 81.8)",
+    "sidebar-ring": "oklch(0.790 0.053 238.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.237 0.025 227.6)",
+    "foreground": "oklch(0.965 0.013 86.8)",
+    "card": "oklch(0.431 0.035 29.0)",
+    "card-foreground": "oklch(0.965 0.013 86.8)",
+    "popover": "oklch(0.431 0.035 29.0)",
+    "popover-foreground": "oklch(0.965 0.013 86.8)",
+    "primary": "oklch(0.790 0.053 238.6)",
+    "primary-foreground": "oklch(0.237 0.025 227.6)",
+    "secondary": "oklch(0.596 0.050 37.2)",
+    "secondary-foreground": "oklch(0.965 0.013 86.8)",
+    "muted": "oklch(0.596 0.050 37.2)",
+    "muted-foreground": "oklch(0.905 0.017 84.6)",
+    "accent": "oklch(0.691 0.126 65.9)",
+    "accent-foreground": "oklch(0.237 0.025 227.6)",
+    "destructive": "oklch(0.667 0.079 223.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.790 0.053 238.6)",
+    "chart-1": "oklch(0.790 0.053 238.6)",
+    "chart-2": "oklch(0.667 0.079 223.6)",
+    "chart-3": "oklch(0.691 0.126 65.9)",
+    "chart-4": "oklch(0.642 0.105 146.8)",
+    "chart-5": "oklch(0.829 0.024 82.1)",
+    "sidebar": "oklch(0.372 0.017 23.6)",
+    "sidebar-foreground": "oklch(0.965 0.013 86.8)",
+    "sidebar-primary": "oklch(0.790 0.053 238.6)",
+    "sidebar-primary-foreground": "oklch(0.237 0.025 227.6)",
+    "sidebar-accent": "oklch(0.596 0.050 37.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.013 86.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.790 0.053 238.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Readable English feed UI with tabular live metrics, concise signal labels, and Noto Sans JP guidance for Japanese river, queue, moderation, and analytics workflows.",
+  "layout": "Precise 8px feed grids, restrained 8px cards, translucent wing-vein dividers, fine tail-line separators, live hatch queue panels, command search, compact data tables, and soft hatch-mist texture samples.",
+  "tags": [
+    "mayfly",
+    "insect",
+    "river-hatch",
+    "ephemeral-feed",
+    "cream-wing",
+    "brown-body",
+    "water-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mayfly/motif.png",
+    "board": "/systems/morphous-mayfly/design-system-light.png",
+    "darkBoard": "/systems/morphous-mayfly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mayfly/theme.css",
+    "themeJson": "/systems/morphous-mayfly/theme.json",
+    "promptsJson": "/systems/morphous-mayfly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent mayfly wings motif",
+      "asset": "/systems/morphous-mayfly/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Mayfly transparent motif chroma-key source\nPrimary request: Create only an isolated mayfly wings motif for a design-system catalog, a single complete adult mayfly subject on a removable chroma-key background.\nSubject: A scientifically plausible adult mayfly with tall delicate cream translucent upright wings, fine water-blue venation and faint glassy iridescence, a slender warm brown segmented body, small darker thorax, tiny legs, and two or three long hairlike tails. The identity must read as mayfly / river hatch insect, not dragonfly, damselfly, mosquito, moth, butterfly, or generic fly.\nComposition/framing: centered complete cutout with generous padding; include full wings, body, legs, and tails without cropping. Keep the silhouette elegant and usable as a catalog motif. Clean studio lighting that preserves wing membrane detail and brown body texture. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no water surface, no fishing lure, no second insect, no flower, no branch, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-mayfly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Mayfly light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Mayfly\", derived from an adult mayfly with cream translucent upright wings, fine water-blue wing venation, warm brown segmented body, small dark thorax, and long delicate tails. This board is a source reference for a shadcn/tweakcn-compatible ephemeral feed system.\nCanvas: exact wide 16:9 board, 3840 x 2160 high-resolution source asset, clean professional design-system presentation. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Mayfly, Mayfly Wings, Palette, Typography, Japanese Typography, Components, Navigation, Feed Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from cream translucent wing membranes, blue river-water veins, warm brown segmented body, amber thorax shadows, pale hatch mist, long tail-line geometry, and the brief surface emergence of a river hatch. The board must read as mayfly wings and river hatch, not dragonfly, moth, butterfly, beige-only paper, or generic blue dashboard.\nTypography: English ephemeral feed UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual feed, signal, river, queue, moderation, and analytics labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, feed item tiles, live hatch queue, signal metric cards, event timeline, table rows, command search palette, top navigation, sidebar navigation, dashboard metric cards, line chart, bar chart, stream graph, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: quiet ephemeral feed system, precise 8px grid and 8px card radius, soft cream wing surfaces, warm brown body structure, river-water blue focus and charts, amber-brown active states, translucent wing-vein line dividers, subtle hatch-mist paper grain, fine tail-line separators, dense but scannable product UI, polished shadcn/tweakcn component language.\nColor palette: cream wing membrane, brown body, water blue, hatch mist white, amber thorax, silt taupe, deep river ink, pale foam. Use motif-derived near-neutrals only.\nConstraints: no unrelated purple gradients, no neon colors, no dark-mode board, no dragonfly silhouette, no butterfly/moth identity, no fishing brand, no random brand names, no watermark, no misspelling of \"Morphous Mayfly\", no tiny unreadable paragraphs, component radii 8px or less."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-mayfly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Mayfly dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Mayfly\" / \"Mayfly Wings\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme. Base it on an adult mayfly with cream translucent upright wings, fine water-blue wing venation, warm brown segmented body, amber thorax shadows, and long delicate tails.\nCanvas: exact wide 16:9 board, 3840 x 2160 high-resolution source asset, clean professional shadcn/tweakcn design-system presentation. Keep labels large and legible.\nRequired visible sections: Morphous Mayfly, Mayfly Wings, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Feed Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve cream wing highlights, water-blue vein focus states, warm body-brown structure, amber thorax active states, silt-taupe dividers, deep river ink backgrounds, hatch-mist text, translucent wing-vein texture, tail-line separators, ephemeral feed cards, live hatch queue, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as mayfly wings and river hatch, not dragonfly, moth, butterfly, fishing tackle, or generic black-and-blue SaaS.\nTypography: English ephemeral feed UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual feed, signal, river, queue, moderation, and analytics labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, feed cards, live signal metrics, hatch queue, moderation summary, event table rows, line chart, bar chart, stream graph, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep river-ink background, dark body-brown panels, cream wing membrane text and cards, water-blue active and chart states, amber-brown warnings and highlights, pale foam borders, subtle translucent wing-vein overlays, fine tail-line rules, restrained contrast, crisp controls and dashboards, component radii 8px or less.\nConstraints: no neon blue, no purple gradient dominance, no pure-black flat background, no unrelated saturated colors, no dragonfly identity, no butterfly or moth, no fishing brand, no random brand names, no watermark, no misspelling of \"Morphous Mayfly\", no tiny unreadable paragraphs."
+    }
+  ]
+}

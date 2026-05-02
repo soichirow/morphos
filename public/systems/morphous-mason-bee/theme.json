@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mason-bee",
+    "name": "Morphous Mason Bee",
+    "motifName": "Mason Bee",
+    "motifCategory": "insect",
+    "biome": "orchard bloom",
+    "motif": "mason bee"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Blossom Paper",
+      "hex": "#FBFAF6",
+      "oklch": "oklch(0.985 0.005 95.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Carbon Wing",
+      "hex": "#0E1720",
+      "oklch": "oklch(0.200 0.023 249.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mason Blue",
+      "hex": "#005F9E",
+      "oklch": "oklch(0.473 0.126 247.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Mist",
+      "hex": "#EEF2F4",
+      "oklch": "oklch(0.959 0.005 228.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pollen Cream",
+      "hex": "#F4E7C7",
+      "oklch": "oklch(0.930 0.044 88.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Metallic Blue",
+      "hex": "#1282C6",
+      "oklch": "oklch(0.584 0.138 243.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blossom White",
+      "hex": "#FFFDFC",
+      "oklch": "oklch(0.995 0.003 48.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wing Slate",
+      "hex": "#6F7E86",
+      "oklch": "oklch(0.584 0.022 231.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Blue Black",
+      "hex": "#07111A",
+      "oklch": "oklch(0.173 0.024 246.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Vein Border",
+      "hex": "#D6DCE0",
+      "oklch": "oklch(0.891 0.009 236.6)"
+    },
+    {
+      "role": "Success",
+      "name": "Orchard Green",
+      "hex": "#2E7D4F",
+      "oklch": "oklch(0.529 0.106 154.6)"
+    },
+    {
+      "role": "Focus",
+      "name": "Iridescent Ring",
+      "hex": "#3BA7E5",
+      "oklch": "oklch(0.695 0.132 238.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.005 95.1)",
+    "foreground": "oklch(0.200 0.023 249.0)",
+    "card": "oklch(0.995 0.003 48.7)",
+    "card-foreground": "oklch(0.200 0.023 249.0)",
+    "popover": "oklch(0.995 0.003 48.7)",
+    "popover-foreground": "oklch(0.200 0.023 249.0)",
+    "primary": "oklch(0.473 0.126 247.5)",
+    "primary-foreground": "oklch(0.985 0.005 95.1)",
+    "secondary": "oklch(0.991 0.004 91.4)",
+    "secondary-foreground": "oklch(0.173 0.024 246.1)",
+    "muted": "oklch(0.992 0.003 67.8)",
+    "muted-foreground": "oklch(0.173 0.024 246.1)",
+    "accent": "oklch(0.930 0.044 88.5)",
+    "accent-foreground": "oklch(0.200 0.023 249.0)",
+    "destructive": "oklch(0.473 0.126 247.5)",
+    "border": "oklch(0.852 0.006 239.8)",
+    "input": "oklch(0.852 0.006 239.8)",
+    "ring": "oklch(0.959 0.005 228.8)",
+    "chart-1": "oklch(0.473 0.126 247.5)",
+    "chart-2": "oklch(0.959 0.005 228.8)",
+    "chart-3": "oklch(0.930 0.044 88.5)",
+    "chart-4": "oklch(0.584 0.138 243.6)",
+    "chart-5": "oklch(0.173 0.024 246.1)",
+    "sidebar": "oklch(0.992 0.003 67.8)",
+    "sidebar-foreground": "oklch(0.200 0.023 249.0)",
+    "sidebar-primary": "oklch(0.473 0.126 247.5)",
+    "sidebar-primary-foreground": "oklch(0.985 0.005 95.1)",
+    "sidebar-accent": "oklch(0.932 0.014 238.0)",
+    "sidebar-accent-foreground": "oklch(0.473 0.126 247.5)",
+    "sidebar-border": "oklch(0.852 0.006 239.8)",
+    "sidebar-ring": "oklch(0.959 0.005 228.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.200 0.023 249.0)",
+    "foreground": "oklch(0.985 0.005 95.1)",
+    "card": "oklch(0.182 0.024 246.6)",
+    "card-foreground": "oklch(0.985 0.005 95.1)",
+    "popover": "oklch(0.182 0.024 246.6)",
+    "popover-foreground": "oklch(0.985 0.005 95.1)",
+    "primary": "oklch(0.959 0.005 228.8)",
+    "primary-foreground": "oklch(0.200 0.023 249.0)",
+    "secondary": "oklch(0.275 0.023 243.4)",
+    "secondary-foreground": "oklch(0.985 0.005 95.1)",
+    "muted": "oklch(0.275 0.023 243.4)",
+    "muted-foreground": "oklch(0.810 0.007 219.6)",
+    "accent": "oklch(0.930 0.044 88.5)",
+    "accent-foreground": "oklch(0.200 0.023 249.0)",
+    "destructive": "oklch(0.473 0.126 247.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.959 0.005 228.8)",
+    "chart-1": "oklch(0.959 0.005 228.8)",
+    "chart-2": "oklch(0.473 0.126 247.5)",
+    "chart-3": "oklch(0.930 0.044 88.5)",
+    "chart-4": "oklch(0.584 0.138 243.6)",
+    "chart-5": "oklch(0.584 0.022 231.0)",
+    "sidebar": "oklch(0.187 0.023 249.1)",
+    "sidebar-foreground": "oklch(0.985 0.005 95.1)",
+    "sidebar-primary": "oklch(0.959 0.005 228.8)",
+    "sidebar-primary-foreground": "oklch(0.200 0.023 249.0)",
+    "sidebar-accent": "oklch(0.275 0.023 243.4)",
+    "sidebar-accent-foreground": "oklch(0.985 0.005 95.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.959 0.005 228.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Precise craft-operations English UI with Japanese typography guidance for production queues, inspection labels, dashboard metrics, status badges, and dense data tables.",
+  "layout": "Operational dashboards, queue views, 8px-or-less radii, wing-vein dividers, pollen-speck texture accents, mason-blue primary actions, carbon navigation, and blossom-white working surfaces.",
+  "tags": [
+    "mason-bee",
+    "insect",
+    "orchard-bloom",
+    "metallic-blue",
+    "blue-black",
+    "blossom-white",
+    "craft-operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mason-bee/motif.png",
+    "board": "/systems/morphous-mason-bee/design-system-light.png",
+    "darkBoard": "/systems/morphous-mason-bee/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mason-bee/theme.css",
+    "themeJson": "/systems/morphous-mason-bee/theme.json",
+    "promptsJson": "/systems/morphous-mason-bee/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent mason bee motif",
+      "asset": "/systems/morphous-mason-bee/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Mason Bee transparent motif chroma-key source\nPrimary request: Create a complete mason bee motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A single mason bee, accurate orchard-pollinator anatomy, compact body with metallic blue-black iridescent abdomen and thorax, fine pollen-dusted hairs, translucent folded wings with crisp edges, delicate legs and antennae, subtle blossom-white pollen specks, no flower or branch.\nComposition/framing: centered complete full-body cutout in a calm three-quarter side view with generous padding; do not crop antennae, legs, wings, or body.\nLighting/mood: clean studio lighting that preserves metallic blue-black sheen, fine hair texture, translucent wing veins, and blossom-white highlights.\nTransparent workflow: place the bee on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no honeybee stripes, no wasp, no bumblebee, no hive, no honeycomb, no flower, no props, no landscape, no text, no watermark, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-mason-bee/design-system-light.png",
+      "sourceAsset": "/systems/morphous-mason-bee/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Mason Bee light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Mason Bee, derived from the visible transparent mason bee motif cutout in this conversation.\nCanvas: exact wide 16:9 board, target 3840x2160 4K-class source asset, crisp realistic UI mockup with large readable section labels.\nSystem identity: Mason Bee, category insect, biome orchard bloom, palette mood metallic blue black blossom white, design mood craft operations system.\nReference use: Extract metallic blue-black iridescent body panels, charcoal segmented abdomen, translucent wing veins, pollen-dusted hairs, blossom-white specks, orchard bloom clarity, and compact craft-labor precision. The board must visibly respect these motif colors and textures.\nRequired visible sections: Morphous Mason Bee title, Mason Bee motif story, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Asset Examples.\nUI coverage: buttons with icons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, command palette/search, sidebar navigation, top navigation, craft operations dashboard, production queue data, charts, forms, empty/loading/error/success states, texture samples, spacing scale, radius tokens, border tokens, shadow tokens, and color token swatches.\nTypography: include English UI examples and Japanese typography examples for operations labels, dashboard headings, status badges, and data tables. Use short readable labels only.\nLayout and shape: premium operational product UI, precise grid, compact but readable controls, card and control radii must be 8px or less, no pill-heavy style.\nColor direction: blossom-white and cool paper backgrounds, black-carbon ink, metallic mason-blue primary, slate wing neutrals, pollen cream accents, subtle orchard status green only as minor success cue.\nConstraints: no honeybee yellow-and-black stripe theme, no honeycomb pattern, no generic blue-purple gradient, no unrelated saturated colors, no one-note blue UI, no rounded radii above 8px, no tiny unreadable text, no watermark, no random brand names, no misspelling of Morphous Mason Bee."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-mason-bee/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-mason-bee/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Mason Bee dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board for Morphous Mason Bee. It must feel like the visible light board translated to dark mode, not a new theme.\nCanvas: exact wide 16:9 board, target 3840x2160 4K-class source asset, crisp realistic UI mockup with large readable section labels.\nSystem identity: Mason Bee, category insect, biome orchard bloom, palette mood metallic blue black blossom white, design mood craft operations system.\nReference use: Use the visible transparent mason bee motif and the visible light-mode board as references. Preserve metallic mason-blue primary actions, blue-black carbon surfaces, blossom-white text and pollen speck accents, translucent wing-line dividers, orchard-bloom precision, compact craft operations dashboard language, and the same component coverage.\nRequired visible sections: Morphous Mason Bee title, Mason Bee motif story, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Asset Examples.\nUI coverage: buttons with icons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, tables, command palette/search, sidebar navigation, top navigation, craft operations dashboard, production queue data, charts, forms, empty/loading/error/success states, texture samples, spacing scale, radius tokens, border tokens, shadow tokens, and color token swatches.\nTypography: include English UI examples and Japanese typography examples for operations labels, dashboard headings, status badges, and data tables. Use short readable labels only.\nLayout and shape: premium operational product UI, precise grid, compact but readable controls, card and control radii must be 8px or less, no pill-heavy style.\nColor direction: deep carbon and blue-black background, luminous blossom-white text, metallic blue primary controls, slate wing neutral cards, pollen cream accents, restrained orchard green success indicators, subtle pollen-speck texture.\nConstraints: no neon overload, no flat pure-black empty UI, no honeybee yellow-and-black stripe theme, no honeycomb pattern, no generic blue-purple gradient, no unrelated saturated colors, no rounded radii above 8px, no tiny unreadable text, no watermark, no random brand names, no misspelling of Morphous Mason Bee."
+    }
+  ]
+}

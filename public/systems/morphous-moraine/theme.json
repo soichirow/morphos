@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-moraine",
+    "name": "Morphous Moraine",
+    "motifName": "Moraine",
+    "motifCategory": "landscape",
+    "biome": "glacial valley",
+    "motif": "moraine stones"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Frost White",
+      "hex": "#F6F7F8",
+      "oklch": "oklch(0.976 0.002 247.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Graphite Ink",
+      "hex": "#1F2327",
+      "oklch": "oklch(0.254 0.010 248.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ice Blue",
+      "hex": "#A7C7D9",
+      "oklch": "oklch(0.812 0.043 232.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Granite Grey",
+      "hex": "#6F767D",
+      "oklch": "oklch(0.562 0.014 248.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Green",
+      "hex": "#7A8F6A",
+      "oklch": "oklch(0.623 0.059 132.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Glacial Card",
+      "hex": "#EEF2F3",
+      "oklch": "oklch(0.958 0.004 214.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sediment Taupe",
+      "hex": "#B7B1A6",
+      "oklch": "oklch(0.762 0.017 82.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Moraine Charcoal",
+      "hex": "#343A40",
+      "oklch": "oklch(0.345 0.013 248.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Striation Line",
+      "hex": "#C8CED0",
+      "oklch": "oklch(0.847 0.007 219.6)"
+    },
+    {
+      "role": "Success",
+      "name": "Lichen Index",
+      "hex": "#5E7352",
+      "oklch": "oklch(0.529 0.056 134.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.002 247.8)",
+    "foreground": "oklch(0.254 0.010 248.2)",
+    "card": "oklch(0.958 0.004 214.3)",
+    "card-foreground": "oklch(0.254 0.010 248.2)",
+    "popover": "oklch(0.958 0.004 214.3)",
+    "popover-foreground": "oklch(0.254 0.010 248.2)",
+    "primary": "oklch(0.812 0.043 232.7)",
+    "primary-foreground": "oklch(0.976 0.002 247.8)",
+    "secondary": "oklch(0.965 0.003 219.5)",
+    "secondary-foreground": "oklch(0.345 0.013 248.2)",
+    "muted": "oklch(0.962 0.003 219.5)",
+    "muted-foreground": "oklch(0.345 0.013 248.2)",
+    "accent": "oklch(0.623 0.059 132.0)",
+    "accent-foreground": "oklch(0.254 0.010 248.2)",
+    "destructive": "oklch(0.812 0.043 232.7)",
+    "border": "oklch(0.890 0.006 117.9)",
+    "input": "oklch(0.890 0.006 117.9)",
+    "ring": "oklch(0.562 0.014 248.1)",
+    "chart-1": "oklch(0.812 0.043 232.7)",
+    "chart-2": "oklch(0.562 0.014 248.1)",
+    "chart-3": "oklch(0.623 0.059 132.0)",
+    "chart-4": "oklch(0.958 0.004 214.3)",
+    "chart-5": "oklch(0.345 0.013 248.2)",
+    "sidebar": "oklch(0.965 0.003 219.5)",
+    "sidebar-foreground": "oklch(0.254 0.010 248.2)",
+    "sidebar-primary": "oklch(0.812 0.043 232.7)",
+    "sidebar-primary-foreground": "oklch(0.976 0.002 247.8)",
+    "sidebar-accent": "oklch(0.941 0.009 222.1)",
+    "sidebar-accent-foreground": "oklch(0.812 0.043 232.7)",
+    "sidebar-border": "oklch(0.890 0.006 117.9)",
+    "sidebar-ring": "oklch(0.562 0.014 248.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.254 0.010 248.2)",
+    "foreground": "oklch(0.976 0.002 247.8)",
+    "card": "oklch(0.315 0.013 253.0)",
+    "card-foreground": "oklch(0.976 0.002 247.8)",
+    "popover": "oklch(0.315 0.013 253.0)",
+    "popover-foreground": "oklch(0.976 0.002 247.8)",
+    "primary": "oklch(0.562 0.014 248.1)",
+    "primary-foreground": "oklch(0.254 0.010 248.2)",
+    "secondary": "oklch(0.444 0.005 236.6)",
+    "secondary-foreground": "oklch(0.976 0.002 247.8)",
+    "muted": "oklch(0.444 0.005 236.6)",
+    "muted-foreground": "oklch(0.882 0.007 88.6)",
+    "accent": "oklch(0.623 0.059 132.0)",
+    "accent-foreground": "oklch(0.254 0.010 248.2)",
+    "destructive": "oklch(0.812 0.043 232.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.562 0.014 248.1)",
+    "chart-1": "oklch(0.562 0.014 248.1)",
+    "chart-2": "oklch(0.812 0.043 232.7)",
+    "chart-3": "oklch(0.623 0.059 132.0)",
+    "chart-4": "oklch(0.958 0.004 214.3)",
+    "chart-5": "oklch(0.762 0.017 82.8)",
+    "sidebar": "oklch(0.298 0.011 248.2)",
+    "sidebar-foreground": "oklch(0.976 0.002 247.8)",
+    "sidebar-primary": "oklch(0.562 0.014 248.1)",
+    "sidebar-primary-foreground": "oklch(0.254 0.010 248.2)",
+    "sidebar-accent": "oklch(0.444 0.005 236.6)",
+    "sidebar-accent-foreground": "oklch(0.976 0.002 247.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.562 0.014 248.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Structured archive English UI with Japanese typography guidance for specimen labels, indexed records, tables, command search, provenance logs, and long-term geological panels.",
+  "layout": "Dense archive dashboards, glacial index cards, 8px radii, ice-blue focus states, lichen-green status accents, granite surfaces, sediment-taupe borders, and subtle striated stone texture.",
+  "tags": [
+    "moraine",
+    "landscape",
+    "glacial-valley",
+    "granite-grey",
+    "lichen-green",
+    "ice-blue",
+    "structured-archive",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-moraine/motif.png",
+    "board": "/systems/morphous-moraine/design-system-light.png",
+    "darkBoard": "/systems/morphous-moraine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-moraine/theme.css",
+    "themeJson": "/systems/morphous-moraine/theme.json",
+    "promptsJson": "/systems/morphous-moraine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent moraine stones motif",
+      "asset": "/systems/morphous-moraine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Moraine transparent motif chroma-key source\nPrimary request: Create a complete moraine stones motif for a design-system catalog, isolated as a cutout on a removable chroma-key background.\nSubject: A compact sculptural cluster of glacial moraine stones, rounded and angular granite cobbles arranged like an archival specimen pile, with granite grey faces, lichen green patches, pale ice-blue mineral veins, frost-polished edges, fine glacial striations, and subtle sediment dust in crevices. Structured, precise silhouette, tactile stone texture, natural but catalog-ready.\nComposition/framing: centered complete cutout with generous padding, full stone cluster visible without cropping; no horizon line, no valley background, no plants beyond lichen patches on stones, no props.\nLighting/mood: clean studio light that preserves natural granite, lichen, and ice colors; no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no landscape background, no second subject, no generic mountain vista, no saturated decorative colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-moraine/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Moraine light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Moraine, derived from the visible moraine stones motif cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible motif image: granite grey stone faces, lichen green patches, pale ice-blue mineral veins, frost-polished highlights, glacial striations, sediment dust, and archive-like stacked stones. The board must visibly respect the motif colors.\nCanvas: exact 16:9 design-system presentation intended for 3840 x 2160 final use; large readable labels; precise grid; no tiny dense token tables.\nRequired visible sections: Morphous Moraine, Moraine Stones, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nTypography: structured archive/product English UI with Japanese typography guidance for labels, records, tables, specimen notes, command search, provenance logs, and long-term indexed panels.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, navigation groups, sidebar, command palette, tables, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, borders, shadows, and token swatches.\nStyle/medium: premium structured archive system, shadcn/tweakcn-compatible product UI, tactile granite paper texture, glacial index cards, lichen status marks, ice-blue focus rings, restrained professional surfaces, 8px radii, crisp components.\nColor palette: granite grey, lichen green, ice blue, frost white, moraine charcoal, sediment taupe, graphite ink; only motif-derived colors plus near-neutrals from the motif.\nText: use short readable UI labels; include the exact title \"Morphous Moraine\" and motif label \"Moraine Stones\".\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no marketing hero layout, no stock-photo mountain background, no watermark, no misspelling of Morphous Moraine."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-moraine/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Moraine dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn board for Morphous Moraine that feels like the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible moraine stones motif and the established Morphous Moraine light board as references. Preserve granite grey surfaces, lichen green status marks, ice-blue focus and info states, frost-white foreground text, moraine-charcoal navigation, sediment-taupe dividers, graphite ink depth, glacial striation texture rhythm, structured archive-system organization, and 8px radii.\nCanvas: exact 16:9 design-system presentation intended for 3840 x 2160 final use; polished professional board; large readable labels; no dense tiny token tables.\nRequired visible sections: Morphous Moraine, Moraine Stones, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nTypography: structured archive/product English UI with Japanese guidance for dark records, specimen tables, command search, provenance logs, indexed panels, and long-term geological records.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, navigation groups, sidebar, command palette, tables, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, borders, shadows, and token swatches.\nVisual details: dark background derived from graphite ink and moraine charcoal, elevated granite panels, frost-white text, ice-blue focus rings and data highlights, lichen green success/status accents, sediment taupe borders, subtle glacial striation overlays, crisp shadcn-style controls.\nText: use short readable UI labels; include the exact title \"Morphous Moraine\" and \"Dark Mode\".\nConstraints: no neon colors, no pure flat black background, no unrelated purple gradients, no stock-photo mountain background, no illegible text, no watermark, no misspelling of Morphous Moraine."
+    }
+  ]
+}

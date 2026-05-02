@@ -1,0 +1,170 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 271,
+  "slug": "morphous-morel",
+  "name": "Morphous Morel",
+  "motifName": "Morel Mushroom",
+  "motifCategory": "fungi",
+  "biome": "spring woodland",
+  "motif": "morel mushroom",
+  "description": "A crafted catalog system derived from a spring woodland morel: honeycomb tan structure, dark hollow depth, moss-green focus, spore-beige surfaces, and tactile 8px UI components for shadcn/tweakcn workflows.",
+  "typography": "Fraunces or a similar serif for honeycomb editorial display, Inter for product UI, IBM Plex Mono for data, and Noto Sans JP / Noto Serif JP guidance for Japanese typography.",
+  "layout": "Precise 8px grid, 8px radii, honeycomb-cell panels, tan ridge borders, dark pore dividers, moss-green focus rings, and compact dashboard/data surfaces for catalog work.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "morel",
+    "mushroom",
+    "fungi",
+    "spring woodland",
+    "honeycomb",
+    "crafted catalog",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Beige",
+      "hex": "#F6F2E8"
+    },
+    {
+      "role": "Ink",
+      "name": "Pit Shadow",
+      "hex": "#1E150E"
+    },
+    {
+      "role": "Primary",
+      "name": "Cap Honey Tan",
+      "hex": "#C69A63"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#6B7F4A"
+    },
+    {
+      "role": "Accent",
+      "name": "Toasted Ochre",
+      "hex": "#D2B17A"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Cream",
+      "hex": "#F1E7D2"
+    },
+    {
+      "role": "Surface",
+      "name": "Surface Paper",
+      "hex": "#FAF8F4"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Taupe",
+      "hex": "#7A6852"
+    },
+    {
+      "role": "Depth",
+      "name": "Hollow Umber",
+      "hex": "#3B2E22"
+    },
+    {
+      "role": "Border",
+      "name": "Border Subtle",
+      "hex": "#E6E0D3"
+    },
+    {
+      "role": "Soft",
+      "name": "Panel Soft",
+      "hex": "#F2EEE6"
+    },
+    {
+      "role": "Olive",
+      "name": "Lichen Olive",
+      "hex": "#8A9264"
+    },
+    {
+      "role": "Ridge",
+      "name": "Ridge Tan",
+      "hex": "#E3C392"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.962 0.014 88.7)",
+    "foreground": "oklch(0.205 0.020 59.2)",
+    "card": "oklch(0.980 0.006 84.6)",
+    "card-foreground": "oklch(0.205 0.020 59.2)",
+    "popover": "oklch(0.980 0.006 84.6)",
+    "popover-foreground": "oklch(0.205 0.020 59.2)",
+    "primary": "oklch(0.715 0.089 71.8)",
+    "primary-foreground": "oklch(0.205 0.020 59.2)",
+    "secondary": "oklch(0.971 0.009 84.6)",
+    "secondary-foreground": "oklch(0.312 0.028 64.2)",
+    "muted": "oklch(0.974 0.007 80.7)",
+    "muted-foreground": "oklch(0.312 0.028 64.2)",
+    "accent": "oklch(0.777 0.081 79.9)",
+    "accent-foreground": "oklch(0.205 0.020 59.2)",
+    "destructive": "oklch(0.715 0.089 71.8)",
+    "border": "oklch(0.824 0.016 73.7)",
+    "input": "oklch(0.824 0.016 73.7)",
+    "ring": "oklch(0.567 0.080 125.7)",
+    "chart-1": "oklch(0.715 0.089 71.8)",
+    "chart-2": "oklch(0.567 0.080 125.7)",
+    "chart-3": "oklch(0.777 0.081 79.9)",
+    "chart-4": "oklch(0.930 0.030 85.6)",
+    "chart-5": "oklch(0.312 0.028 64.2)",
+    "sidebar": "oklch(0.974 0.009 84.6)",
+    "sidebar-foreground": "oklch(0.205 0.020 59.2)",
+    "sidebar-primary": "oklch(0.715 0.089 71.8)",
+    "sidebar-primary-foreground": "oklch(0.205 0.020 59.2)",
+    "sidebar-accent": "oklch(0.949 0.015 77.1)",
+    "sidebar-accent-foreground": "oklch(0.312 0.028 64.2)",
+    "sidebar-border": "oklch(0.824 0.016 73.7)",
+    "sidebar-ring": "oklch(0.567 0.080 125.7)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.205 0.020 59.2)",
+    "foreground": "oklch(0.962 0.014 88.7)",
+    "card": "oklch(0.278 0.025 66.5)",
+    "card-foreground": "oklch(0.962 0.014 88.7)",
+    "popover": "oklch(0.278 0.025 66.5)",
+    "popover-foreground": "oklch(0.962 0.014 88.7)",
+    "primary": "oklch(0.777 0.081 79.9)",
+    "primary-foreground": "oklch(0.205 0.020 59.2)",
+    "secondary": "oklch(0.363 0.030 66.6)",
+    "secondary-foreground": "oklch(0.962 0.014 88.7)",
+    "muted": "oklch(0.363 0.030 66.6)",
+    "muted-foreground": "oklch(0.774 0.024 78.2)",
+    "accent": "oklch(0.567 0.080 125.7)",
+    "accent-foreground": "oklch(0.205 0.020 59.2)",
+    "destructive": "oklch(0.777 0.081 79.9)",
+    "border": "oklch(0.529 0.040 72.4 / 32%)",
+    "input": "oklch(0.529 0.040 72.4 / 40%)",
+    "ring": "oklch(0.567 0.080 125.7)",
+    "chart-1": "oklch(0.777 0.081 79.9)",
+    "chart-2": "oklch(0.567 0.080 125.7)",
+    "chart-3": "oklch(0.715 0.089 71.8)",
+    "chart-4": "oklch(0.930 0.030 85.6)",
+    "chart-5": "oklch(0.529 0.040 72.4)",
+    "sidebar": "oklch(0.256 0.023 66.5)",
+    "sidebar-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-primary": "oklch(0.777 0.081 79.9)",
+    "sidebar-primary-foreground": "oklch(0.205 0.020 59.2)",
+    "sidebar-accent": "oklch(0.363 0.030 66.6)",
+    "sidebar-accent-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-border": "oklch(0.529 0.040 72.4 / 32%)",
+    "sidebar-ring": "oklch(0.567 0.080 125.7)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

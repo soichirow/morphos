@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-mandarin-fish",
+    "name": "Morphous Mandarin Fish",
+    "motifName": "Mandarin Fish",
+    "motifCategory": "fish",
+    "biome": "Lagoon Reef",
+    "motif": "mandarin fish pattern"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Paper",
+      "hex": "#F7FAFC",
+      "oklch": "oklch(0.983 0.004 236.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Reef Ink",
+      "hex": "#061220",
+      "oklch": "oklch(0.179 0.034 252.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Orange",
+      "hex": "#FF6A00",
+      "oklch": "oklch(0.701 0.201 44.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mandarin Blue",
+      "hex": "#005EFF",
+      "oklch": "oklch(0.549 0.250 261.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Electric Turquoise",
+      "hex": "#00C6EF",
+      "oklch": "oklch(0.764 0.139 219.9)"
+    },
+    {
+      "role": "Support",
+      "name": "Lagoon Green",
+      "hex": "#16B98A",
+      "oklch": "oklch(0.699 0.141 166.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lime Glint",
+      "hex": "#C8F31D",
+      "oklch": "oklch(0.902 0.213 121.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Reef Navy",
+      "hex": "#081E30",
+      "oklch": "oklch(0.228 0.045 246.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sand Glaze",
+      "hex": "#F2E9D8",
+      "oklch": "oklch(0.937 0.025 83.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Kelp Slate",
+      "hex": "#485D68",
+      "oklch": "oklch(0.465 0.031 231.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.004 236.5)",
+    "foreground": "oklch(0.179 0.034 252.5)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.179 0.034 252.5)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.179 0.034 252.5)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.983 0.004 236.5)",
+    "secondary": "oklch(0.956 0.021 259.2)",
+    "secondary-foreground": "oklch(0.228 0.045 246.1)",
+    "muted": "oklch(0.955 0.009 205.9)",
+    "muted-foreground": "oklch(0.465 0.031 231.1)",
+    "accent": "oklch(0.764 0.139 219.9)",
+    "accent-foreground": "oklch(0.179 0.034 252.5)",
+    "destructive": "oklch(0.626 0.218 28.2)",
+    "border": "oklch(0.902 0.021 227.5)",
+    "input": "oklch(0.902 0.021 227.5)",
+    "ring": "oklch(0.764 0.139 219.9)",
+    "chart-1": "oklch(0.549 0.250 261.8)",
+    "chart-2": "oklch(0.764 0.139 219.9)",
+    "chart-3": "oklch(0.701 0.201 44.8)",
+    "chart-4": "oklch(0.699 0.141 166.3)",
+    "chart-5": "oklch(0.902 0.213 121.9)",
+    "sidebar": "oklch(0.967 0.018 209.4)",
+    "sidebar-foreground": "oklch(0.179 0.034 252.5)",
+    "sidebar-primary": "oklch(0.549 0.250 261.8)",
+    "sidebar-primary-foreground": "oklch(0.983 0.004 236.5)",
+    "sidebar-accent": "oklch(0.956 0.021 259.2)",
+    "sidebar-accent-foreground": "oklch(0.228 0.045 246.1)",
+    "sidebar-border": "oklch(0.902 0.021 227.5)",
+    "sidebar-ring": "oklch(0.764 0.139 219.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.179 0.034 252.5)",
+    "foreground": "oklch(0.971 0.008 207.1)",
+    "card": "oklch(0.242 0.042 241.8)",
+    "card-foreground": "oklch(0.971 0.008 207.1)",
+    "popover": "oklch(0.242 0.042 241.8)",
+    "popover-foreground": "oklch(0.971 0.008 207.1)",
+    "primary": "oklch(0.701 0.201 44.8)",
+    "primary-foreground": "oklch(0.179 0.034 252.5)",
+    "secondary": "oklch(0.334 0.057 233.5)",
+    "secondary-foreground": "oklch(0.971 0.008 207.1)",
+    "muted": "oklch(0.275 0.044 234.9)",
+    "muted-foreground": "oklch(0.902 0.021 227.5)",
+    "accent": "oklch(0.764 0.139 219.9)",
+    "accent-foreground": "oklch(0.179 0.034 252.5)",
+    "destructive": "oklch(0.626 0.218 28.2)",
+    "border": "oklch(0.971 0.008 207.1 / 12%)",
+    "input": "oklch(0.971 0.008 207.1 / 16%)",
+    "ring": "oklch(0.764 0.139 219.9)",
+    "chart-1": "oklch(0.764 0.139 219.9)",
+    "chart-2": "oklch(0.549 0.250 261.8)",
+    "chart-3": "oklch(0.701 0.201 44.8)",
+    "chart-4": "oklch(0.699 0.141 166.3)",
+    "chart-5": "oklch(0.902 0.213 121.9)",
+    "sidebar": "oklch(0.212 0.035 237.6)",
+    "sidebar-foreground": "oklch(0.971 0.008 207.1)",
+    "sidebar-primary": "oklch(0.701 0.201 44.8)",
+    "sidebar-primary-foreground": "oklch(0.179 0.034 252.5)",
+    "sidebar-accent": "oklch(0.334 0.057 233.5)",
+    "sidebar-accent-foreground": "oklch(0.971 0.008 207.1)",
+    "sidebar-border": "oklch(0.971 0.008 207.1 / 12%)",
+    "sidebar-ring": "oklch(0.764 0.139 219.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp creator-product UI with Noto Sans JP guidance for Japanese labels, large expressive headings, compact dashboard numerics, and readable multilingual controls.",
+  "layout": "Precise 8px grids, 8px radii, reef-current dividers, mandarin swirl texture bands, vivid token chips, analytics-heavy panels, and restrained luminous shadows.",
+  "tags": [
+    "mandarin-fish",
+    "fish",
+    "lagoon-reef",
+    "blue-orange-green",
+    "swirl-pattern",
+    "vivid-creator",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-mandarin-fish/motif.png",
+    "board": "/systems/morphous-mandarin-fish/design-system-light.png",
+    "darkBoard": "/systems/morphous-mandarin-fish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-mandarin-fish/theme.css",
+    "themeJson": "/systems/morphous-mandarin-fish/theme.json",
+    "promptsJson": "/systems/morphous-mandarin-fish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Mandarin Fish motif",
+      "asset": "/systems/morphous-mandarin-fish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only an isolated mandarin fish motif for a design-system catalog, no environment, no props, no text.\nSubject: a single mandarin fish (Synchiropus splendidus) in clear side profile with accurate compact body, rounded fins, vivid blue maze-like swirls, electric orange bands, emerald green accents, turquoise highlights, fine scale texture, crisp fin edges, and natural reef-fish anatomy.\nComposition/framing: centered complete cutout with generous padding; show full body, fins, tail, head, eye, and flowing pattern without cropping; slight graceful swimming curve, but no water or bubbles.\nLighting/mood: clean studio light that preserves saturated blue, orange, green, turquoise, and fine fish-skin texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the fish fully separated from the background with crisp edges and generous padding. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no coral, no lagoon, no rocks, no plants, no second fish, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-mandarin-fish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Mandarin Fish\" / \"Mandarin Fish\" as a shadcn/tweakcn-compatible theme reference.\nReference use: Use the transparent mandarin fish motif as the source of truth. Extract the vivid creator-system palette from the fish: saturated mandarin blue, electric turquoise, orange coral bands, lagoon green, lime glints, deep reef navy, soft reef paper, sand glaze, and muted kelp slate. The board must visibly respect the fish's blue-orange-green swirl pattern.\nCanvas: exact 3840x2160, wide 16:9, high-resolution 4K-class source board.\nLayout: polished product design-system board with large readable labels, precise grid, no tiny dense token tables. Use 8px radii, reef-current curve dividers, mandarin swirl texture strips, crisp shadcn-style components, and a bright creative-tool dashboard mood.\nRequired visible sections: title \"Morphous Mandarin Fish\", motif story, palette swatches with hex-like labels, English typography, Japanese typography, buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, slider, tabs, badges, alerts, cards, dialog/popover, table, command/search, top navigation, sidebar navigation, dashboard analytics, bar chart, line chart, donut chart, empty state, error state, loading skeleton, texture samples, spacing/radius/shadow tokens, CSS token chips, generated asset examples.\nTypography: include English and Japanese examples; use modern product UI font guidance similar to Geist plus Noto Sans JP.\nVisual style: luminous but controlled light surfaces, reef-paper background, white cards with blue structure, orange primary calls to action, turquoise focus rings, lagoon-green success/support states, lime micro-highlights, deep navy text, subtle scale texture.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple gradients, no stock UI kit, no random brand logos, no watermark, no illegible tiny text, no extra animals or fish as decorative subjects."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-mandarin-fish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Mandarin Fish\" / \"Mandarin Fish\" as a shadcn/tweakcn-compatible theme reference. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the transparent mandarin fish motif and the light design-system board as references. Preserve the light board's component coverage, product-dashboard layout, motif-derived palette roles, typography language, charts, token sections, and blue-orange-green swirl texture.\nCanvas: exact 3840x2160, wide 16:9, high-resolution 4K-class source board.\nRequired visible sections: title \"Morphous Mandarin Fish\", Dark Mode label, motif story, palette swatches with hex-like labels, English typography, Japanese typography, buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, slider, tabs, badges, alerts, cards, dialog/popover, table, command/search, top navigation, sidebar navigation, dashboard analytics, bar chart, line chart, donut chart, empty state, error state, loading skeleton, texture samples, spacing/radius/shadow tokens, CSS token chips, generated asset examples.\nVisual details: deep reef navy and ink backgrounds, crisp luminous cards, mandarin blue and turquoise surfaces, orange coral primary actions, lagoon green support states, lime glint chart accents, pale reef text, subtle mandarin-fish scale texture overlays, 8px radii, fine borders, restrained contrast, polished creator-system dashboard feel.\nTypography: include English and Japanese examples; use modern product UI font guidance similar to Geist plus Noto Sans JP.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no neon overload, no flat pure-black background, no unrelated saturated colors, no generic purple gradients, no stock UI kit, no random brand logos, no watermark, no illegible tiny text, no extra animals or fish as decorative subjects."
+    }
+  ]
+}

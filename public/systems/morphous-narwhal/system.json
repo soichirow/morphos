@@ -1,0 +1,166 @@
+{
+  "slug": "morphous-narwhal",
+  "name": "Morphous Narwhal",
+  "status": "complete",
+  "motifName": "Narwhal",
+  "motifCategory": "mammal",
+  "biome": "arctic sea",
+  "motif": "narwhal tusk",
+  "description": "A precise discovery system shaped by narwhal tusk spirals, grey mottled skin, ivory highlights, ice-blue arctic light, and deep polar-sea contrast.",
+  "typography": "Measured display serif headings with exact interface sans text; Japanese guidance pairs Noto Sans JP for dense UI with a restrained Mincho-style display option for discovery narratives.",
+  "layout": "Research-dashboard layout on an 8px grid with 8px card radius, tusk-line dividers, mottled texture panels, restrained shadows, and high-clarity data surfaces.",
+  "tags": [
+    "mammal",
+    "arctic sea",
+    "narwhal",
+    "tusk",
+    "mottled",
+    "ivory",
+    "ice blue",
+    "discovery"
+  ],
+  "identity": {
+    "row": 379,
+    "displayName": "Narwhal",
+    "descriptor": "grey mottled ivory ice blue",
+    "mood": "precise discovery system"
+  },
+  "motifMetadata": {
+    "subject": "narwhal tusk",
+    "sourceColors": [
+      "grey mottled skin",
+      "tusk ivory",
+      "ice blue",
+      "polar white",
+      "deep sound"
+    ],
+    "transparentWorkflow": {
+      "method": "flat chroma-key source generated with #00ff00, then converted to alpha with remove_chroma_key.py",
+      "keyColor": "#00ff00",
+      "final": "motif.png"
+    }
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ice Floe",
+      "hex": "#F3F7FA"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Sound",
+      "hex": "#0D1B2A"
+    },
+    {
+      "role": "Primary",
+      "name": "Arctic Blue",
+      "hex": "#1E6FAE"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tusk Ivory",
+      "hex": "#F4E8D6"
+    },
+    {
+      "role": "Accent",
+      "name": "Discovery Cyan",
+      "hex": "#00B3E6"
+    },
+    {
+      "role": "Muted",
+      "name": "Mottled Grey",
+      "hex": "#6C7280"
+    },
+    {
+      "role": "Surface",
+      "name": "Polar White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Border",
+      "name": "Ice Edge",
+      "hex": "#CAD6DE"
+    },
+    {
+      "role": "Depth",
+      "name": "Polar Night",
+      "hex": "#071321"
+    }
+  ],
+  "tokens": {
+    "background": "198 38% 97%",
+    "foreground": "211 47% 13%",
+    "card": "0 0% 100%",
+    "card-foreground": "211 47% 13%",
+    "popover": "0 0% 100%",
+    "popover-foreground": "211 47% 13%",
+    "primary": "200 66% 36%",
+    "primary-foreground": "0 0% 100%",
+    "secondary": "38 56% 88%",
+    "secondary-foreground": "211 47% 13%",
+    "muted": "207 20% 88%",
+    "muted-foreground": "208 13% 48%",
+    "accent": "191 100% 36%",
+    "accent-foreground": "0 0% 100%",
+    "destructive": "0 64% 43%",
+    "border": "205 25% 84%",
+    "input": "205 25% 84%",
+    "ring": "191 100% 36%",
+    "chart-1": "200 66% 36%",
+    "chart-2": "191 100% 36%",
+    "chart-3": "38 56% 88%",
+    "chart-4": "209 14% 65%",
+    "chart-5": "211 47% 13%",
+    "sidebar": "198 38% 97%",
+    "sidebar-foreground": "211 47% 13%",
+    "sidebar-primary": "200 66% 36%",
+    "sidebar-primary-foreground": "0 0% 100%",
+    "sidebar-accent": "207 20% 88%",
+    "sidebar-accent-foreground": "211 47% 13%",
+    "sidebar-border": "205 25% 84%",
+    "sidebar-ring": "191 100% 36%",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "211 52% 8%",
+    "foreground": "198 38% 97%",
+    "card": "211 41% 14%",
+    "card-foreground": "198 38% 97%",
+    "popover": "211 41% 14%",
+    "popover-foreground": "198 38% 97%",
+    "primary": "195 78% 72%",
+    "primary-foreground": "211 52% 8%",
+    "secondary": "211 47% 13%",
+    "secondary-foreground": "198 38% 97%",
+    "muted": "209 18% 36%",
+    "muted-foreground": "207 20% 78%",
+    "accent": "191 100% 52%",
+    "accent-foreground": "211 52% 8%",
+    "destructive": "0 64% 52%",
+    "border": "209 18% 36%",
+    "input": "209 18% 36%",
+    "ring": "191 100% 52%",
+    "chart-1": "195 78% 72%",
+    "chart-2": "191 100% 52%",
+    "chart-3": "38 56% 88%",
+    "chart-4": "209 18% 56%",
+    "chart-5": "38 46% 78%",
+    "sidebar": "211 52% 8%",
+    "sidebar-foreground": "198 38% 97%",
+    "sidebar-primary": "195 78% 72%",
+    "sidebar-primary-foreground": "211 52% 8%",
+    "sidebar-accent": "211 41% 14%",
+    "sidebar-accent-foreground": "198 38% 97%",
+    "sidebar-border": "209 18% 36%",
+    "sidebar-ring": "191 100% 52%",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

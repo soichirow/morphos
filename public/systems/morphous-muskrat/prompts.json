@@ -1,0 +1,20 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent muskrat motif",
+    "asset": "/systems/morphous-muskrat/motif.png",
+    "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a muskrat motif for a design-system catalog, isolated as one complete full-body mammal subject on a removable chroma-key background.\nSubject: A realistic muskrat, compact semi-aquatic wetland mammal with warm brown waterproof fur, darker guard hairs, rounded small ears, blunt whiskered muzzle, small black eyes, practical sturdy body, visible small paws, and a long narrow laterally flattened tail. The identity must read clearly as muskrat, not beaver, otter, rat, nutria, mink, or capybara.\nComposition/framing: centered complete cutout with generous padding; include the full body, head, paws, and tail without cropping. Clean studio lighting that preserves fur texture and warm brown reed-marsh coloration. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no water, no reeds, no burrow, no landscape, no props, no text, no watermark, no second animal, no beaver paddle tail, no otter-like long sleek body."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light-mode design-system board",
+    "asset": "/systems/morphous-muskrat/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Muskrat light-mode design-system board\nPrimary request: Generate a true high-resolution 3840x2160 light-mode design-system board for Morphous Muskrat, derived from the isolated muskrat motif and warm brown reed green water palette.\nRequired visible sections: identity, palette, typography with English and Japanese guidance, components, navigation, dashboard/data/charts, forms, table, command/search, states, texture, spacing/radius/shadow tokens, and sample usage.\nStyle: practical wetland system, shadcn/tweakcn-compatible product UI, 8px grid, muskrat fur texture, reed green controls, water blue-green charts, silt paper surfaces, tail leather borders.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no tiny unreadable text, no beaver or otter identity."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark-mode design-system board",
+    "asset": "/systems/morphous-muskrat/design-system-dark.png",
+    "prompt": "Use case: ui-mockup\nAsset type: Morphous Muskrat dark-mode design-system board\nPrimary request: Generate a separate true high-resolution 3840x2160 dark-mode design-system board for Morphous Muskrat using the same motif, palette roles, component language, texture, spacing, and typography as the light board.\nRequired visible sections: identity, Dark Mode, palette, typography with English and Japanese guidance, components, navigation, dashboard/data/charts, forms, table, command/search, states, texture, spacing/radius/shadow tokens, and sample usage.\nStyle: deep wet fur charcoal, dark reed navigation, warm muskrat brown active states, water blue-green charts, silt text, tail-brown borders, crisp shadcn/tweakcn controls.\nConstraints: no neon colors, no generic black-and-orange gaming UI, no pure black flat background, no unrelated saturated colors, no beaver or otter identity."
+  }
+]
