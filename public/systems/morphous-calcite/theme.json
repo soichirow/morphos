@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-calcite",
+    "name": "Morphous Calcite",
+    "motifName": "Calcite",
+    "motifCategory": "mineral",
+    "biome": "Cave Deposit",
+    "motif": "calcite crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clear Veil",
+      "hex": "#f8f7f4",
+      "oklch": "oklch(0.976 0.004 91.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cave Ink",
+      "hex": "#28241e",
+      "oklch": "oklch(0.263 0.012 78.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Honey Facet",
+      "hex": "#e6c789",
+      "oklch": "oklch(0.842 0.087 84.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cream Cleavage",
+      "hex": "#f3e9d6",
+      "oklch": "oklch(0.937 0.027 83.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Limestone Glass",
+      "hex": "#ede6d6",
+      "oklch": "oklch(0.926 0.023 87.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cave Brown",
+      "hex": "#785a3a",
+      "oklch": "oklch(0.491 0.061 67.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mineral Milk",
+      "hex": "#fff8ec",
+      "oklch": "oklch(0.981 0.018 81.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Vein",
+      "hex": "#d9c9a7",
+      "oklch": "oklch(0.840 0.049 85.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Amber Depth",
+      "hex": "#b7843e",
+      "oklch": "oklch(0.650 0.107 72.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.004 91.4)",
+    "foreground": "oklch(0.263 0.012 78.1)",
+    "card": "oklch(0.981 0.018 81.3)",
+    "card-foreground": "oklch(0.263 0.012 78.1)",
+    "popover": "oklch(0.981 0.018 81.3)",
+    "popover-foreground": "oklch(0.263 0.012 78.1)",
+    "primary": "oklch(0.842 0.087 84.1)",
+    "primary-foreground": "oklch(0.976 0.004 91.4)",
+    "secondary": "oklch(0.980 0.013 86.8)",
+    "secondary-foreground": "oklch(0.650 0.107 72.5)",
+    "muted": "oklch(0.980 0.014 84.6)",
+    "muted-foreground": "oklch(0.650 0.107 72.5)",
+    "accent": "oklch(0.926 0.023 87.2)",
+    "accent-foreground": "oklch(0.263 0.012 78.1)",
+    "destructive": "oklch(0.842 0.087 84.1)",
+    "border": "oklch(0.931 0.029 84.6)",
+    "input": "oklch(0.931 0.029 84.6)",
+    "ring": "oklch(0.937 0.027 83.5)",
+    "chart-1": "oklch(0.842 0.087 84.1)",
+    "chart-2": "oklch(0.937 0.027 83.5)",
+    "chart-3": "oklch(0.926 0.023 87.2)",
+    "chart-4": "oklch(0.491 0.061 67.4)",
+    "chart-5": "oklch(0.650 0.107 72.5)",
+    "sidebar": "oklch(0.981 0.013 82.4)",
+    "sidebar-foreground": "oklch(0.263 0.012 78.1)",
+    "sidebar-primary": "oklch(0.842 0.087 84.1)",
+    "sidebar-primary-foreground": "oklch(0.976 0.004 91.4)",
+    "sidebar-accent": "oklch(0.964 0.026 82.4)",
+    "sidebar-accent-foreground": "oklch(0.842 0.087 84.1)",
+    "sidebar-border": "oklch(0.931 0.029 84.6)",
+    "sidebar-ring": "oklch(0.937 0.027 83.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.263 0.012 78.1)",
+    "foreground": "oklch(0.976 0.004 91.4)",
+    "card": "oklch(0.525 0.079 73.3)",
+    "card-foreground": "oklch(0.976 0.004 91.4)",
+    "popover": "oklch(0.525 0.079 73.3)",
+    "popover-foreground": "oklch(0.976 0.004 91.4)",
+    "primary": "oklch(0.937 0.027 83.5)",
+    "primary-foreground": "oklch(0.263 0.012 78.1)",
+    "secondary": "oklch(0.691 0.095 75.2)",
+    "secondary-foreground": "oklch(0.976 0.004 91.4)",
+    "muted": "oklch(0.691 0.095 75.2)",
+    "muted-foreground": "oklch(0.915 0.024 85.8)",
+    "accent": "oklch(0.926 0.023 87.2)",
+    "accent-foreground": "oklch(0.263 0.012 78.1)",
+    "destructive": "oklch(0.842 0.087 84.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.937 0.027 83.5)",
+    "chart-1": "oklch(0.937 0.027 83.5)",
+    "chart-2": "oklch(0.842 0.087 84.1)",
+    "chart-3": "oklch(0.926 0.023 87.2)",
+    "chart-4": "oklch(0.491 0.061 67.4)",
+    "chart-5": "oklch(0.840 0.049 85.8)",
+    "sidebar": "oklch(0.450 0.061 73.4)",
+    "sidebar-foreground": "oklch(0.976 0.004 91.4)",
+    "sidebar-primary": "oklch(0.937 0.027 83.5)",
+    "sidebar-primary-foreground": "oklch(0.263 0.012 78.1)",
+    "sidebar-accent": "oklch(0.691 0.095 75.2)",
+    "sidebar-accent-foreground": "oklch(0.976 0.004 91.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.937 0.027 83.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear product UI typography with structured numerals and Japanese guidance tuned for documentation, reference, and knowledge tools.",
+  "layout": "Layered translucent panels, 8px radius, precise documentation grids, warm cave-brown borders, and subtle calcite cleavage texture.",
+  "tags": [
+    "calcite",
+    "mineral",
+    "cave-deposit",
+    "documentation",
+    "transparent",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-calcite/motif.png",
+    "board": "/systems/morphous-calcite/design-system-light.png",
+    "darkBoard": "/systems/morphous-calcite/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-calcite/theme.css",
+    "themeJson": "/systems/morphous-calcite/theme.json",
+    "promptsJson": "/systems/morphous-calcite/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent calcite motif",
+      "asset": "/systems/morphous-calcite/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Calcite transparent motif chroma-key source\nPrimary request: Create only a calcite crystal motif for a design-system catalog, isolated as one complete mineral subject on a removable chroma-key background.\nSubject: A natural calcite cave deposit crystal cluster, transparent to translucent honey-cream rhombohedral calcite crystals with clear glassy facets, warm cave-brown matrix at the base, pale cream inclusions, subtle internal cleavage planes, crisp mineral edges, and geological accuracy. It should feel like a documentation-system mascot object, not jewelry or fantasy treasure.\nComposition/framing: centered complete cutout with generous padding; include the full crystal mass and base without cropping. Clean studio lighting that preserves clear honey cream translucency and facet detail; no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no jewelry setting, no cave landscape, no hand, no props, no text, no watermark, no geode, no unrelated minerals dominating, no fantasy glow, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-calcite/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Calcite light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Calcite\", derived from a calcite cave-deposit crystal motif. This board is a source reference for a shadcn/tweakcn-compatible transparent documentation system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, at least 2400px wide if possible.\nRequired visible sections: Morphous Calcite, Calcite, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from transparent honey-cream calcite crystals, clear glassy facets, milky inclusions, warm cave-brown matrix, and rhombohedral cleavage planes. The board must read as calcite cave deposit and transparent documentation system, not generic beige SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Documentation Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: transparent documentation system, shadcn/tweakcn-style product UI, clear layered panels, 8px radius, honey cream primary actions, mineral glass highlights, cave brown ink, pale cream surfaces, warm limestone borders, precise grid, subtle crystalline refraction texture, calm accessible contrast.\nPalette names to show: Clear Veil, Cave Ink, Honey Facet, Cream Cleavage, Limestone Glass, Cave Brown, Mineral Milk, Dust Vein, Amber Depth.\nConstraints: no jewelry, no treasure cave fantasy, no generic purple/blue gradients, no neon, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Calcite\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-calcite/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Calcite dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Calcite\". It must feel like the light-mode board translated to dark mode and remain derived from a calcite cave-deposit crystal motif.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, at least 2400px wide if possible.\nRequired visible sections: Morphous Calcite, Calcite, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve transparent honey-cream active states, clear calcite highlights, warm cave-brown matrix borders, rhombohedral cleavage texture, layered documentation spacing, and 8px shadcn/tweakcn grid. Must read as calcite cave deposit and transparent documentation system, not generic brown SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Documentation Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep cave ink and amber-depth dark backgrounds, translucent mineral-glass cards, cream foreground text, honey facet buttons, limestone glass highlights, dust vein muted panels, cave brown borders, subtle crystalline refraction texture, calm documentation tone, accessible contrast.\nPalette names to show: Clear Veil, Cave Ink, Honey Facet, Cream Cleavage, Limestone Glass, Cave Brown, Mineral Milk, Dust Vein, Amber Depth.\nConstraints: no jewelry, no treasure cave fantasy, no neon, no pure-black-only flat background, no generic purple/blue gradients, no unrelated saturated colors, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Calcite\"."
+    }
+  ]
+}

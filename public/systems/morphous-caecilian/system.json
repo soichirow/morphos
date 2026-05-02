@@ -1,0 +1,82 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-caecilian",
+  "name": "Morphous Caecilian",
+  "motifName": "Caecilian",
+  "motifCategory": "amphibian",
+  "biome": "tropical soil",
+  "motif": "caecilian body",
+  "description": "A shadcn/tweakcn-compatible subsurface data system drafted from a caecilian body: slate-violet annular skin, soil-brown burrow structure, damp earth neutrals, clay signals, and quiet underground sensing patterns.",
+  "typography": "Geist for compact operational English UI with Noto Sans JP guidance for Japanese sensor labels, status states, and dense table hierarchy.",
+  "layout": "Dense 8px data grids, annular groove dividers, soil-layer sidebars, 6px to 8px component radius, restrained shadows, and muted dashboard surfaces for repeated monitoring work.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "caecilian",
+    "amphibian",
+    "tropical-soil",
+    "slate-violet",
+    "soil-brown",
+    "subsurface",
+    "data-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Damp Loam",
+      "hex": "#e2ddd2"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Umber",
+      "hex": "#241f1d"
+    },
+    {
+      "role": "Primary",
+      "name": "Slate Violet",
+      "hex": "#61536f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Root Paper",
+      "hex": "#f4f1ea"
+    },
+    {
+      "role": "Accent",
+      "name": "Soil Brown",
+      "hex": "#5a4638"
+    },
+    {
+      "role": "Signal",
+      "name": "Clay Signal",
+      "hex": "#b98258"
+    },
+    {
+      "role": "Surface",
+      "name": "Wet Taupe",
+      "hex": "#8b8176"
+    },
+    {
+      "role": "Status",
+      "name": "Burrow Moss",
+      "hex": "#51624f"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Plum",
+      "hex": "#372d42"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

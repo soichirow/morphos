@@ -1,0 +1,209 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bumblebee",
+    "name": "Morphous Bumblebee",
+    "motifName": "Bumblebee",
+    "motifCategory": "insect",
+    "biome": "wildflower meadow",
+    "motif": "bumblebee fuzz"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fuzzy Cream",
+      "hex": "#FFF6E1",
+      "oklch": "oklch(0.975 0.029 87.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Cream",
+      "hex": "#FAF2E2",
+      "oklch": "oklch(0.963 0.023 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Sand",
+      "hex": "#E9E2CF",
+      "oklch": "oklch(0.913 0.026 90.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Honey Yellow",
+      "hex": "#FFC107",
+      "oklch": "oklch(0.844 0.172 84.9)"
+    },
+    {
+      "role": "Action",
+      "name": "Golden Pollen",
+      "hex": "#EBA400",
+      "oklch": "oklch(0.768 0.160 77.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Wax Amber",
+      "hex": "#D97706",
+      "oklch": "oklch(0.666 0.157 58.3)"
+    },
+    {
+      "role": "Support",
+      "name": "Meadow Green",
+      "hex": "#7FA340",
+      "oklch": "oklch(0.668 0.134 126.6)"
+    },
+    {
+      "role": "Texture",
+      "name": "Wing Vein",
+      "hex": "#8C5A22",
+      "oklch": "oklch(0.512 0.096 65.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite",
+      "hex": "#2A2A2A",
+      "oklch": "oklch(0.285 0.000 89.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Velvet Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Honey",
+      "hex": "#211A0A",
+      "oklch": "oklch(0.222 0.030 86.3)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Comb Shadow",
+      "hex": "#302816",
+      "oklch": "oklch(0.281 0.032 86.4)"
+    },
+    {
+      "role": "Danger",
+      "name": "Alarm Red",
+      "hex": "#C9352B",
+      "oklch": "oklch(0.555 0.186 28.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.029 87.5)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.963 0.023 84.6)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.963 0.023 84.6)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.844 0.172 84.9)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.913 0.026 90.1)",
+    "secondary-foreground": "oklch(0.285 0.000 89.9)",
+    "muted": "oklch(0.913 0.026 90.1)",
+    "muted-foreground": "oklch(0.512 0.096 65.3)",
+    "accent": "oklch(0.668 0.134 126.6)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.555 0.186 28.6)",
+    "border": "oklch(0.913 0.026 90.1)",
+    "input": "oklch(0.913 0.026 90.1)",
+    "ring": "oklch(0.768 0.160 77.6)",
+    "chart-1": "oklch(0.844 0.172 84.9)",
+    "chart-2": "oklch(0.668 0.134 126.6)",
+    "chart-3": "oklch(0.666 0.157 58.3)",
+    "chart-4": "oklch(0.512 0.096 65.3)",
+    "chart-5": "oklch(0.285 0.000 89.9)",
+    "sidebar": "oklch(0.963 0.023 84.6)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.844 0.172 84.9)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.913 0.026 90.1)",
+    "sidebar-accent-foreground": "oklch(0.285 0.000 89.9)",
+    "sidebar-border": "oklch(0.913 0.026 90.1)",
+    "sidebar-ring": "oklch(0.768 0.160 77.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.000 89.9)",
+    "foreground": "oklch(0.975 0.029 87.5)",
+    "card": "oklch(0.281 0.032 86.4)",
+    "card-foreground": "oklch(0.975 0.029 87.5)",
+    "popover": "oklch(0.281 0.032 86.4)",
+    "popover-foreground": "oklch(0.975 0.029 87.5)",
+    "primary": "oklch(0.844 0.172 84.9)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.344 0.047 85.0)",
+    "secondary-foreground": "oklch(0.975 0.029 87.5)",
+    "muted": "oklch(0.285 0.000 89.9)",
+    "muted-foreground": "oklch(0.913 0.026 90.1)",
+    "accent": "oklch(0.668 0.134 126.6)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.555 0.186 28.6)",
+    "border": "oklch(0.463 0.068 85.6 / 45%)",
+    "input": "oklch(0.463 0.068 85.6 / 55%)",
+    "ring": "oklch(0.768 0.160 77.6)",
+    "chart-1": "oklch(0.844 0.172 84.9)",
+    "chart-2": "oklch(0.668 0.134 126.6)",
+    "chart-3": "oklch(0.768 0.160 77.6)",
+    "chart-4": "oklch(0.666 0.157 58.3)",
+    "chart-5": "oklch(0.913 0.026 90.1)",
+    "sidebar": "oklch(0.222 0.030 86.3)",
+    "sidebar-foreground": "oklch(0.975 0.029 87.5)",
+    "sidebar-primary": "oklch(0.844 0.172 84.9)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.344 0.047 85.0)",
+    "sidebar-accent-foreground": "oklch(0.975 0.029 87.5)",
+    "sidebar-border": "oklch(0.463 0.068 85.6 / 45%)",
+    "sidebar-ring": "oklch(0.768 0.160 77.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for crisp product UI, Geist Mono for tabular data, and Noto Sans JP guidance for Japanese navigation, labels, forms, status text, and dashboard metrics.",
+  "layout": "Compact operational grids, 8px maximum radii, cream panels, honey-yellow active states, black structural typography, pollen-dot focus rings, fuzzy divider textures, smoky wing-vein borders, and warm chart/data surfaces.",
+  "tags": [
+    "bumblebee",
+    "insect",
+    "wildflower-meadow",
+    "yellow-black",
+    "fuzzy-cream",
+    "pollen",
+    "productive-team",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bumblebee/motif.png",
+    "board": "/systems/morphous-bumblebee/design-system-light.png",
+    "darkBoard": "/systems/morphous-bumblebee/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bumblebee/theme.css",
+    "themeJson": "/systems/morphous-bumblebee/theme.json",
+    "promptsJson": "/systems/morphous-bumblebee/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bumblebee motif",
+      "asset": "/systems/morphous-bumblebee/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, copied from the generated-images snapshot diff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Bumblebee transparent motif chroma-key source\nPrimary request: Create only an isolated bumblebee fuzz motif for a design-system catalog, no environment, no flower, no props, no text.\nSubject: A single realistic bumblebee with accurate anatomy, plush fuzzy thorax and abdomen, golden yellow bands, deep black bands, fuzzy cream highlights, pollen dust on legs and body hairs, translucent smoky wings folded naturally, crisp readable silhouette, productive team system mood without anthropomorphic features.\nComposition/framing: centered complete cutout with generous padding; show the full bumblebee, head, antennae, legs, wings, thorax, and abdomen without cropping. Slight three-quarter top view so the fuzz texture and wing shape are visible.\nLighting/mood: clean studio light that preserves yellow, black, cream, wing translucency, and pollen detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no flower, no meadow, no honeycomb, no hive, no second insect, no cartoon mascot, no toy look, no extra loose particles separated from the body, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-bumblebee/design-system-light.png",
+      "sourceAsset": "/systems/morphous-bumblebee/motif.png",
+      "workflow": "Built-in image generation, copied from the generated-images snapshot diff, then resized to a 3840 x 2160 16:9 source board.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bumblebee light-mode design-system board, high-resolution source asset\nInput image role: The visible transparent bumblebee motif is the source reference for palette, texture, contrast, shape language, and visual rhythm.\nPrimary request: Generate a large, crisp, production-grade light-mode design-system board for a Morphous theme named \"Morphous Bumblebee\", derived from the visible transparent bumblebee fuzz cutout.\nCanvas: strict wide landscape 16:9 board, 3840 x 2160 4K output. Make this a single large board, not a screenshot thumbnail. Use a spacious 12-column editorial grid with large readable section labels and no microtext.\nRequired visible sections, each with its own clear heading: Morphous Bumblebee, Bumblebee, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette and interaction language from golden bumblebee yellow, deep velvet black, fuzzy cream hair, pollen dust, translucent smoky amber wings, warm meadow cream, muted wildflower green, waxy amber, and soft graphite shadow.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, dashboard metric tiles, line/bar/donut charts, empty/loading/error states, spacing scale, radius samples no larger than 8px, border samples, shadow samples, texture swatches, and simple product icons.\nTypography: include English product UI examples and Japanese typography examples using Noto Sans JP-style guidance; keep labels short and large.\nStyle: premium shadcn/tweakcn-style productive team system, precise grid, compact operational UI, 8px maximum radius, pollen-dot focus rings, fuzzy edge texture used subtly in dividers, honey-gold primary actions, black high-contrast text, cream panels, warm gray table lines, restrained wildflower green secondary states.\nTexture: include macro fuzz, tiny pollen speckles, wing-vein translucency, and soft banded stripe rhythm as UI texture samples, not as a decorative full-page background.\nColor constraints: use only motif-derived colors and near-neutrals; no generic purple or blue gradients, no unrelated saturated colors, no one-note yellow-only palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Bumblebee\" or \"Bumblebee\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-bumblebee/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-bumblebee/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-bumblebee/design-system-light.png"
+      ],
+      "workflow": "Built-in image generation using the transparent motif and light board as references, copied from the generated-images snapshot diff, then resized to a 3840 x 2160 16:9 source board.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bumblebee dark-mode design-system board\nInput image roles: The visible transparent bumblebee motif is the source motif reference, and the visible light-mode board is the layout, section, and component-language reference.\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Bumblebee\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the bumblebee fuzz cutout.\nCanvas: strict wide landscape 16:9 board, 3840 x 2160 4K-class source board, at least 2400px wide. Use large readable labels, clear component sections, and no microtext.\nRequired visible sections: Morphous Bumblebee, Bumblebee, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nVisual details: deep velvet black and graphite background from the bee bands; foreground from fuzzy cream and warm meadow cream; primary actions from honey yellow and golden pollen; secondary states from muted wildflower green; accents from wax amber; borders from wing-vein smoky amber and soft graphite; subtle pollen-dot focus rings, fuzzy hair divider texture, and translucent wing-vein panels.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search, sidebar navigation, top navigation, dashboard/data charts, forms, tables, status states, tokens, texture, radius samples no larger than 8px, spacing, borders, and shadows.\nTypography: include English product UI examples and Japanese typography examples using Noto Sans JP-style guidance; keep labels short and readable.\nStyle: premium shadcn/tweakcn-style productive team system, precise operational dashboard grid, compact but legible controls, 8px maximum radius, warm high-contrast dark UI, no decorative landing-page hero.\nColor constraints: use only motif-derived colors and near-neutrals; no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure black flat background without graphite/wing/pollen nuance.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Bumblebee\" or \"Bumblebee\", no tiny unreadable paragraphs."
+    }
+  ]
+}

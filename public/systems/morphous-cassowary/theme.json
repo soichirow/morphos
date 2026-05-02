@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cassowary",
+    "name": "Morphous Cassowary",
+    "motifName": "Cassowary",
+    "motifCategory": "bird",
+    "biome": "tropical rainforest",
+    "motif": "cassowary casque"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Background",
+      "hex": "#eef4ef",
+      "oklch": "oklch(0.961 0.009 150.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Feather Ink",
+      "hex": "#111316",
+      "oklch": "oklch(0.186 0.007 258.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Casque Amber",
+      "hex": "#b6782b",
+      "oklch": "oklch(0.624 0.119 67.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Feather Graphite",
+      "hex": "#25282b",
+      "oklch": "oklch(0.275 0.007 248.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Neck Cobalt",
+      "hex": "#0057b8",
+      "oklch": "oklch(0.474 0.169 257.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Throat Cyan",
+      "hex": "#18a8d8",
+      "oklch": "oklch(0.684 0.129 228.1)"
+    },
+    {
+      "role": "Danger",
+      "name": "Wattle Red",
+      "hex": "#c8172e",
+      "oklch": "oklch(0.533 0.205 22.9)"
+    },
+    {
+      "role": "Navigation",
+      "name": "Rainforest Green",
+      "hex": "#184b36",
+      "oklch": "oklch(0.372 0.066 162.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bone Surface",
+      "hex": "#f8f2e7",
+      "oklch": "oklch(0.963 0.016 82.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Feather Night",
+      "hex": "#080a0c",
+      "oklch": "oklch(0.143 0.006 246.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.009 150.7)",
+    "foreground": "oklch(0.186 0.007 258.4)",
+    "card": "oklch(0.963 0.016 82.8)",
+    "card-foreground": "oklch(0.186 0.007 258.4)",
+    "popover": "oklch(0.963 0.016 82.8)",
+    "popover-foreground": "oklch(0.186 0.007 258.4)",
+    "primary": "oklch(0.624 0.119 67.7)",
+    "primary-foreground": "oklch(0.961 0.009 150.7)",
+    "secondary": "oklch(0.962 0.012 101.5)",
+    "secondary-foreground": "oklch(0.143 0.006 246.4)",
+    "muted": "oklch(0.963 0.013 97.4)",
+    "muted-foreground": "oklch(0.143 0.006 246.4)",
+    "accent": "oklch(0.474 0.169 257.2)",
+    "accent-foreground": "oklch(0.186 0.007 258.4)",
+    "destructive": "oklch(0.624 0.119 67.7)",
+    "border": "oklch(0.736 0.009 84.6)",
+    "input": "oklch(0.736 0.009 84.6)",
+    "ring": "oklch(0.275 0.007 248.1)",
+    "chart-1": "oklch(0.624 0.119 67.7)",
+    "chart-2": "oklch(0.275 0.007 248.1)",
+    "chart-3": "oklch(0.474 0.169 257.2)",
+    "chart-4": "oklch(0.684 0.129 228.1)",
+    "chart-5": "oklch(0.143 0.006 246.4)",
+    "sidebar": "oklch(0.963 0.012 96.4)",
+    "sidebar-foreground": "oklch(0.186 0.007 258.4)",
+    "sidebar-primary": "oklch(0.624 0.119 67.7)",
+    "sidebar-primary-foreground": "oklch(0.961 0.009 150.7)",
+    "sidebar-accent": "oklch(0.921 0.029 77.5)",
+    "sidebar-accent-foreground": "oklch(0.624 0.119 67.7)",
+    "sidebar-border": "oklch(0.736 0.009 84.6)",
+    "sidebar-ring": "oklch(0.275 0.007 248.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.186 0.007 258.4)",
+    "foreground": "oklch(0.961 0.009 150.7)",
+    "card": "oklch(0.158 0.005 248.2)",
+    "card-foreground": "oklch(0.961 0.009 150.7)",
+    "popover": "oklch(0.158 0.005 248.2)",
+    "popover-foreground": "oklch(0.961 0.009 150.7)",
+    "primary": "oklch(0.275 0.007 248.1)",
+    "primary-foreground": "oklch(0.186 0.007 258.4)",
+    "secondary": "oklch(0.175 0.006 237.0)",
+    "secondary-foreground": "oklch(0.961 0.009 150.7)",
+    "muted": "oklch(0.175 0.006 237.0)",
+    "muted-foreground": "oklch(0.676 0.005 179.7)",
+    "accent": "oklch(0.474 0.169 257.2)",
+    "accent-foreground": "oklch(0.186 0.007 258.4)",
+    "destructive": "oklch(0.624 0.119 67.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.275 0.007 248.1)",
+    "chart-1": "oklch(0.275 0.007 248.1)",
+    "chart-2": "oklch(0.624 0.119 67.7)",
+    "chart-3": "oklch(0.474 0.169 257.2)",
+    "chart-4": "oklch(0.684 0.129 228.1)",
+    "chart-5": "oklch(0.275 0.007 248.1)",
+    "sidebar": "oklch(0.167 0.005 248.1)",
+    "sidebar-foreground": "oklch(0.961 0.009 150.7)",
+    "sidebar-primary": "oklch(0.275 0.007 248.1)",
+    "sidebar-primary-foreground": "oklch(0.186 0.007 258.4)",
+    "sidebar-accent": "oklch(0.175 0.006 237.0)",
+    "sidebar-accent-foreground": "oklch(0.961 0.009 150.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.275 0.007 248.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for direct English product UI with Noto Sans JP guidance for compact Japanese labels, status metadata, and high-contrast dashboard hierarchy.",
+  "layout": "Dense 8px product grids, casque-amber action hierarchy, black-feather surfaces, rainforest sidebars, cobalt focus states, wattle-red alerts, 8px radius, and texture-led identity panels.",
+  "tags": [
+    "cassowary",
+    "bird",
+    "tropical-rainforest",
+    "casque",
+    "black-feather",
+    "blue-neck",
+    "red-wattle",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cassowary/motif.png",
+    "board": "/systems/morphous-cassowary/design-system-light.png",
+    "darkBoard": "/systems/morphous-cassowary/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cassowary/theme.css",
+    "themeJson": "/systems/morphous-cassowary/theme.json",
+    "promptsJson": "/systems/morphous-cassowary/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cassowary motif",
+      "asset": "/systems/morphous-cassowary/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Cassowary transparent motif chroma-key source\nPrimary request: Create only a cassowary casque motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A dramatic southern cassowary head-and-neck portrait with the full horn-like casque visible, glossy black feather mantle, electric cobalt and turquoise blue neck skin, vivid red wattle, warm amber-brown casque with rugged keratin texture, sharp dark beak, alert eye. Accurate cassowary anatomy, premium naturalistic detail, crisp subject silhouette, no extra birds.\nComposition/framing: centered bust cutout with generous padding; casque, head, neck, red wattle, and black feather base all visible, not cropped. Clean studio lighting that preserves black feather texture, blue neck, red wattle, and casque relief. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no rainforest scene, no leaves, no branches, no props, no text, no watermark, no second subject, no cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-cassowary/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cassowary light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Cassowary\", derived from a cassowary casque motif: glossy black feathers, electric blue neck, vivid red wattle, amber-brown rugged casque, tropical rainforest shadow, and dramatic identity-system presence. Use the visible cassowary cutout as motif reference.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Cassowary, Cassowary, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from black feather texture, cobalt and cyan neck skin, red wattle signal color, amber casque keratin, rainforest greens, and dramatic high-contrast silhouette. The board must read as cassowary casque and tropical rainforest, not generic peacock, parrot, toucan, or blue-purple gradient UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, dramatic identity system, precise 8px grid, 8px card radius, cool mist light surfaces, black-feather ink text, casque-amber primary actions, cobalt focus states, red wattle destructive/signal chips, rainforest green navigation, subtle feather and casque texture bands, restrained shadows, dense but organized catalog/product dashboard UI.\nColor palette: feather ink #111316, feather graphite #25282b, neck cobalt #0057b8, throat cyan #18a8d8, wattle red #c8172e, casque amber #b6782b, rainforest green #184b36, moss shadow #4f6b43, mist background #eef4ef, bone surface #f8f2e7.\nConstraints: no peacock identity, no parrot/toucan, no generic purple/blue gradients, no neon colors beyond natural cassowary blue, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Cassowary\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-cassowary/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Cassowary dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Cassowary\". It must feel like the same light-mode cassowary system translated to dark mode, not a new theme, and it must remain derived from the cassowary casque motif: glossy black feathers, electric blue neck, vivid red wattle, amber-brown rugged casque, and tropical rainforest shadow. Use the visible cassowary cutout and the light-mode board language as references.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Cassowary, Cassowary, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the cassowary identity: near-black feather backgrounds, cobalt and cyan neck focus states, wattle-red alerts, casque amber primary highlights, rainforest green sidebars, mist text, subtle feather and casque texture bands. Must read as cassowary casque and tropical rainforest, not generic peacock, parrot, toucan, or blue-purple gradient UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: dramatic dark identity system, black feather and rainforest night backgrounds, charcoal cards, mist foreground text, amber casque active controls, cobalt focus rings, cyan links, red wattle destructive states, rainforest-green navigation, restrained contrast, crisp shadcn/tweakcn components, precise 8px grid, 8px card radius.\nColor palette: feather night #080a0c, graphite card #171a1d, feather border #2b3033, neck cobalt #0a63d8, throat cyan #22b5df, wattle red #dc1f37, casque amber #c4812f, rainforest green #0d3b2a, moss shadow #668055, mist text #edf5ef, bone text #f6ead7.\nConstraints: no peacock identity, no parrot/toucan, no generic purple/blue gradients, no neon colors beyond natural cassowary blue, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Cassowary\"."
+    }
+  ]
+}

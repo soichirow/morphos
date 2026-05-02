@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bunting",
+    "name": "Morphous Painted Bunting",
+    "motifName": "Painted Bunting",
+    "motifCategory": "bird",
+    "biome": "Southern Thicket",
+    "motif": "painted bunting colors"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Nest White",
+      "hex": "#fff9ef",
+      "oklch": "oklch(0.984 0.015 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Seed Ink",
+      "hex": "#1d2320",
+      "oklch": "oklch(0.249 0.010 164.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Scarlet Breast",
+      "hex": "#e43d30",
+      "oklch": "oklch(0.610 0.206 29.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Thicket Green",
+      "hex": "#2f8f3a",
+      "oklch": "oklch(0.575 0.151 145.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bunting Blue",
+      "hex": "#175ad7",
+      "oklch": "oklch(0.509 0.203 261.6)"
+    },
+    {
+      "role": "Focus",
+      "name": "Focus Cyan",
+      "hex": "#20b9d6",
+      "oklch": "oklch(0.725 0.123 215.0)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Golden Flash",
+      "hex": "#f4c430",
+      "oklch": "oklch(0.840 0.160 89.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sky Wash",
+      "hex": "#d9e8ff",
+      "oklch": "oklch(0.927 0.035 258.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Mist",
+      "hex": "#dceecf",
+      "oklch": "oklch(0.928 0.045 132.0)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Twig Taupe",
+      "hex": "#8b6f4e",
+      "oklch": "oklch(0.561 0.059 70.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Thicket Ink",
+      "hex": "#111815",
+      "oklch": "oklch(0.201 0.012 167.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.015 80.7)",
+    "foreground": "oklch(0.249 0.010 164.0)",
+    "card": "oklch(0.927 0.035 258.9)",
+    "card-foreground": "oklch(0.249 0.010 164.0)",
+    "popover": "oklch(0.927 0.035 258.9)",
+    "popover-foreground": "oklch(0.249 0.010 164.0)",
+    "primary": "oklch(0.610 0.206 29.0)",
+    "primary-foreground": "oklch(0.984 0.015 80.7)",
+    "secondary": "oklch(0.950 0.014 258.3)",
+    "secondary-foreground": "oklch(0.201 0.012 167.2)",
+    "muted": "oklch(0.943 0.021 259.2)",
+    "muted-foreground": "oklch(0.201 0.012 167.2)",
+    "accent": "oklch(0.509 0.203 261.6)",
+    "accent-foreground": "oklch(0.249 0.010 164.0)",
+    "destructive": "oklch(0.610 0.206 29.0)",
+    "border": "oklch(0.926 0.018 214.4)",
+    "input": "oklch(0.926 0.018 214.4)",
+    "ring": "oklch(0.575 0.151 145.1)",
+    "chart-1": "oklch(0.610 0.206 29.0)",
+    "chart-2": "oklch(0.575 0.151 145.1)",
+    "chart-3": "oklch(0.509 0.203 261.6)",
+    "chart-4": "oklch(0.725 0.123 215.0)",
+    "chart-5": "oklch(0.201 0.012 167.2)",
+    "sidebar": "oklch(0.947 0.018 258.4)",
+    "sidebar-foreground": "oklch(0.249 0.010 164.0)",
+    "sidebar-primary": "oklch(0.610 0.206 29.0)",
+    "sidebar-primary-foreground": "oklch(0.984 0.015 80.7)",
+    "sidebar-accent": "oklch(0.878 0.027 302.5)",
+    "sidebar-accent-foreground": "oklch(0.610 0.206 29.0)",
+    "sidebar-border": "oklch(0.926 0.018 214.4)",
+    "sidebar-ring": "oklch(0.575 0.151 145.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.249 0.010 164.0)",
+    "foreground": "oklch(0.984 0.015 80.7)",
+    "card": "oklch(0.218 0.012 167.4)",
+    "card-foreground": "oklch(0.984 0.015 80.7)",
+    "popover": "oklch(0.218 0.012 167.4)",
+    "popover-foreground": "oklch(0.984 0.015 80.7)",
+    "primary": "oklch(0.575 0.151 145.1)",
+    "primary-foreground": "oklch(0.249 0.010 164.0)",
+    "secondary": "oklch(0.387 0.019 145.2)",
+    "secondary-foreground": "oklch(0.984 0.015 80.7)",
+    "muted": "oklch(0.387 0.019 145.2)",
+    "muted-foreground": "oklch(0.958 0.026 118.9)",
+    "accent": "oklch(0.509 0.203 261.6)",
+    "accent-foreground": "oklch(0.249 0.010 164.0)",
+    "destructive": "oklch(0.610 0.206 29.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.575 0.151 145.1)",
+    "chart-1": "oklch(0.575 0.151 145.1)",
+    "chart-2": "oklch(0.610 0.206 29.0)",
+    "chart-3": "oklch(0.509 0.203 261.6)",
+    "chart-4": "oklch(0.725 0.123 215.0)",
+    "chart-5": "oklch(0.928 0.045 132.0)",
+    "sidebar": "oklch(0.227 0.012 167.5)",
+    "sidebar-foreground": "oklch(0.984 0.015 80.7)",
+    "sidebar-primary": "oklch(0.575 0.151 145.1)",
+    "sidebar-primary-foreground": "oklch(0.249 0.010 164.0)",
+    "sidebar-accent": "oklch(0.387 0.019 145.2)",
+    "sidebar-accent-foreground": "oklch(0.984 0.015 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.575 0.151 145.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp creator workflows with Noto Sans guidance for Japanese labels, bright hierarchy, compact controls, and readable dashboard density.",
+  "layout": "8px grid, compact panels, feather stripe dividers, thicket-leaf accents, color-coded creator states, and dashboard-first publishing workflows.",
+  "tags": [
+    "painted-bunting",
+    "bunting",
+    "bird",
+    "southern-thicket",
+    "blue-green-red-yellow",
+    "creator-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bunting/motif.png",
+    "board": "/systems/morphous-bunting/design-system-light.png",
+    "darkBoard": "/systems/morphous-bunting/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bunting/theme.css",
+    "themeJson": "/systems/morphous-bunting/theme.json",
+    "promptsJson": "/systems/morphous-bunting/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent painted bunting motif",
+      "asset": "/systems/morphous-bunting/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Painted Bunting transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated painted bunting feather-and-thicket motif on a perfectly flat solid #ff00ff chroma-key background for transparency removal.\nSubject: A refined painted bunting motif combining layered bird plumage shapes: vivid ultramarine blue head feathers, emerald green wing panels, scarlet red breast feathers, and small golden yellow accent flashes, with a subtle southern thicket twig curve integrated as a quiet structural accent. Accurate feather texture, crisp silhouette edges, premium joyful creator-system feel.\nComposition/framing: centered complete cutout with generous padding; show the full colorful feather/plumage emblem without cropping; no environment, no props beyond the tiny twig accent, no text.\nLighting/mood: clean studio light preserving blue, green, red, and yellow bunting colors with tactile feather detail.\nChroma-key background: perfectly flat solid #ff00ff only. One uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #ff00ff anywhere in the subject; no cast shadow, no contact shadow, no landscape, no other birds, no flowers, no watermark, no text, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-bunting/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive light-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 light-mode product design-system board for \"Morphous Painted Bunting\" / \"Painted Bunting\", based on a southern thicket bird motif with painted bunting colors: ultramarine blue head, emerald green wing, scarlet red breast, and golden yellow accents.\nVisual identity: joyful creator system for artists, makers, and publishing tools; crisp product UI, colorful feather-tab accents, thicket leaf dividers, bright but disciplined palette, airy warm white surfaces, dark seed-ink text, creative workspace polish.\nRequired board sections with large readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, creator dashboard with charts, project table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, feather stripe dividers, compact creator toolbars, colored swatches, color-coded chart lines, white cards, green secondary panels, red primary call-to-action states, blue focus rings, yellow highlights, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic product UI terms such as Studio, Projects, Palette, Publish, Draft, Active, Review, Form, Table, Revenue, Conversion, Upload, Search.\nPalette names visible: Bunting Blue #175ad7, Thicket Green #2f8f3a, Scarlet Breast #e43d30, Golden Flash #f4c430, Nest White #fff9ef, Seed Ink #1d2320, Leaf Mist #dceecf, Twig Taupe #8b6f4e, Sky Wash #d9e8ff, Focus Cyan #20b9d6.\nConstraints: no bird photo background, no other animals, no generic purple/blue gradient kit, no neon cyber palette, no stock brand logos, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-bunting/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive dark-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 dark-mode product design-system board for \"Morphous Painted Bunting\" / \"Painted Bunting\", translated from the same southern thicket bird motif and painted bunting colors: ultramarine blue head, emerald green wing, scarlet red breast, and golden yellow accents.\nVisual identity: joyful creator system in dark mode for artists, makers, and publishing tools; deep thicket ink backgrounds, luminous bunting blue focus states, green secondary surfaces, scarlet red primary actions, warm golden highlights, subtle twig/leaf neutrals, colorful but disciplined creator workspace polish.\nRequired board sections with large readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, creator dashboard with charts, project table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, feather stripe dividers, compact creator toolbars, dark cards, colored swatches, color-coded chart lines, green success panels, red primary call-to-action states, blue focus rings, yellow highlights, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic product UI terms such as Studio, Projects, Palette, Publish, Draft, Active, Review, Form, Table, Revenue, Conversion, Upload, Search.\nPalette names visible: Thicket Ink #111815, Bunting Blue #4f83ff, Thicket Green #67b85f, Scarlet Breast #ff5a48, Golden Flash #f6cf4f, Nest White #fff9ef, Leaf Shadow #253529, Twig Taupe #a78a63, Night Sky Wash #192a43, Focus Cyan #38cbe6.\nConstraints: no bird photo background, no other animals, no generic purple/blue gradient kit, no neon cyber palette, no stock brand logos, no random brand names, no watermark."
+    }
+  ]
+}

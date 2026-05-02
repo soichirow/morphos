@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-caiman",
+    "name": "Morphous Caiman",
+    "motifName": "Caiman",
+    "motifCategory": "reptile",
+    "biome": "amazon oxbow",
+    "motif": "caiman scales"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Oxbow Foam",
+      "hex": "#F2F0E4",
+      "oklch": "oklch(0.953 0.016 99.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Water",
+      "hex": "#0F1113",
+      "oklch": "oklch(0.176 0.005 248.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bronze",
+      "hex": "#685D3A",
+      "oklch": "oklch(0.480 0.053 92.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Olive Scute",
+      "hex": "#5E6B3D",
+      "oklch": "oklch(0.505 0.069 121.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mineral Water",
+      "hex": "#679A8B",
+      "oklch": "oklch(0.646 0.059 174.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wet Verdigris",
+      "hex": "#3E7768",
+      "oklch": "oklch(0.526 0.065 174.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "River Sand",
+      "hex": "#D7D2C2",
+      "oklch": "oklch(0.863 0.022 92.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mud Brown",
+      "hex": "#4A3A2A",
+      "oklch": "oklch(0.361 0.034 66.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Mud Bronze",
+      "hex": "#7A6641",
+      "oklch": "oklch(0.521 0.059 82.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Water",
+      "hex": "#1C2226",
+      "oklch": "oklch(0.248 0.012 237.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Eye Amber",
+      "hex": "#C59A3D",
+      "oklch": "oklch(0.709 0.120 83.6)"
+    },
+    {
+      "role": "Danger",
+      "name": "Bank Clay",
+      "hex": "#9F4F34",
+      "oklch": "oklch(0.521 0.114 39.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.016 99.0)",
+    "foreground": "oklch(0.176 0.005 248.1)",
+    "card": "oklch(0.863 0.022 92.5)",
+    "card-foreground": "oklch(0.176 0.005 248.1)",
+    "popover": "oklch(0.863 0.022 92.5)",
+    "popover-foreground": "oklch(0.176 0.005 248.1)",
+    "primary": "oklch(0.480 0.053 92.6)",
+    "primary-foreground": "oklch(0.953 0.016 99.0)",
+    "secondary": "oklch(0.902 0.020 97.6)",
+    "secondary-foreground": "oklch(0.248 0.012 237.2)",
+    "muted": "oklch(0.888 0.020 90.6)",
+    "muted-foreground": "oklch(0.248 0.012 237.2)",
+    "accent": "oklch(0.646 0.059 174.0)",
+    "accent-foreground": "oklch(0.176 0.005 248.1)",
+    "destructive": "oklch(0.480 0.053 92.6)",
+    "border": "oklch(0.693 0.025 82.1)",
+    "input": "oklch(0.693 0.025 82.1)",
+    "ring": "oklch(0.505 0.069 121.8)",
+    "chart-1": "oklch(0.480 0.053 92.6)",
+    "chart-2": "oklch(0.505 0.069 121.8)",
+    "chart-3": "oklch(0.646 0.059 174.0)",
+    "chart-4": "oklch(0.526 0.065 174.6)",
+    "chart-5": "oklch(0.248 0.012 237.2)",
+    "sidebar": "oklch(0.894 0.019 93.7)",
+    "sidebar-foreground": "oklch(0.176 0.005 248.1)",
+    "sidebar-primary": "oklch(0.480 0.053 92.6)",
+    "sidebar-primary-foreground": "oklch(0.953 0.016 99.0)",
+    "sidebar-accent": "oklch(0.820 0.026 91.7)",
+    "sidebar-accent-foreground": "oklch(0.480 0.053 92.6)",
+    "sidebar-border": "oklch(0.693 0.025 82.1)",
+    "sidebar-ring": "oklch(0.505 0.069 121.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.176 0.005 248.1)",
+    "foreground": "oklch(0.953 0.016 99.0)",
+    "card": "oklch(0.224 0.010 248.3)",
+    "card-foreground": "oklch(0.953 0.016 99.0)",
+    "popover": "oklch(0.224 0.010 248.3)",
+    "popover-foreground": "oklch(0.953 0.016 99.0)",
+    "primary": "oklch(0.505 0.069 121.8)",
+    "primary-foreground": "oklch(0.176 0.005 248.1)",
+    "secondary": "oklch(0.272 0.001 197.1)",
+    "secondary-foreground": "oklch(0.953 0.016 99.0)",
+    "muted": "oklch(0.272 0.001 197.1)",
+    "muted-foreground": "oklch(0.702 0.022 81.8)",
+    "accent": "oklch(0.646 0.059 174.0)",
+    "accent-foreground": "oklch(0.176 0.005 248.1)",
+    "destructive": "oklch(0.480 0.053 92.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.505 0.069 121.8)",
+    "chart-1": "oklch(0.505 0.069 121.8)",
+    "chart-2": "oklch(0.480 0.053 92.6)",
+    "chart-3": "oklch(0.646 0.059 174.0)",
+    "chart-4": "oklch(0.526 0.065 174.6)",
+    "chart-5": "oklch(0.361 0.034 66.4)",
+    "sidebar": "oklch(0.211 0.009 240.3)",
+    "sidebar-foreground": "oklch(0.953 0.016 99.0)",
+    "sidebar-primary": "oklch(0.505 0.069 121.8)",
+    "sidebar-primary-foreground": "oklch(0.176 0.005 248.1)",
+    "sidebar-accent": "oklch(0.272 0.001 197.1)",
+    "sidebar-accent-foreground": "oklch(0.953 0.016 99.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.505 0.069 121.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Readable compact English operations UI with tabular numbers, short status labels, and Noto Sans JP guidance for Japanese dashboard, form, table, and navigation labels.",
+  "layout": "Dense 8px control grid, 6px to 8px radii, black-water side navigation, compact metric panels, data tables, form stacks, bronze-green focus rings, and subtle scale-texture surfaces.",
+  "tags": [
+    "caiman",
+    "reptile",
+    "amazon-oxbow",
+    "caiman-scales",
+    "bronze-green",
+    "water-black",
+    "compact-control",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-caiman/motif.png",
+    "board": "/systems/morphous-caiman/design-system-light.png",
+    "darkBoard": "/systems/morphous-caiman/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-caiman/theme.css",
+    "themeJson": "/systems/morphous-caiman/theme.json",
+    "promptsJson": "/systems/morphous-caiman/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent caiman scales motif",
+      "asset": "/systems/morphous-caiman/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Caiman transparent motif chroma-key source\nPrimary request: Create only a caiman scales motif for a design-system catalog, isolated as a single complete reptile subject on a removable chroma-key background.\nSubject: A compact broad-snouted caiman seen in three-quarter profile as a clean studio cutout, armored bronze-green and olive-black scales, ridged back scutes, short powerful body, visible tail curve, dark wet eyes, subtle water-black sheen along the scales. Include a small flat patch of oxbow-water reflection on the belly edge only if it remains attached to the subject silhouette. The identity must read as caiman, not crocodile, alligator, iguana, lizard, dinosaur, turtle, or snake.\nComposition/framing: centered complete cutout with generous padding; include full head, body, legs, and tail without cropping. Crisp studio lighting that preserves armored scale texture, bronze green highlights, black scale shadows, and wet oxbow surface feel. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no swamp scene, no plants, no second animal, no human hand, no enclosure, no text, no watermark, no extra props, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-caiman/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Caiman light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Caiman\", derived from caiman scales in an Amazon oxbow: bronze-green armor, water-black depth, olive scutes, wet reflective surfaces, and compact control-system ergonomics. This board is a source reference for implementing a shadcn/tweakcn-compatible light compact control UI system.\nCanvas: exact 16:9 high-resolution board, intended final asset 3840 x 2160. Clean professional design-system presentation, crisp controls, large legible labels, dense but scannable compact dashboard layout.\nRequired visible sections: Morphous Caiman, Caiman Scales, Amazon Oxbow, Palette, Typography, Japanese Typography, Components, Navigation, Compact Control Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from bronze-green caiman armor scales, black-water oxbow reflections, olive scutes, dark wet eyes, pale water highlights, mud-brown ridges, and tiled reptile scale texture. The board must read as caiman scales, not crocodile brand, alligator mascot, iguana, turtle, snake, or generic green dashboard.\nTypography: English compact operations UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, values. Use concise bilingual labels for oxbow monitor, water gate, scale status, sensor metric, table rows, and response controls with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, compact cards, status cards, table rows, command search palette, left sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, donut chart, area chart, heat strip, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: compact control system, precise 8px grid and 6px to 8px card radius, pale water-surface background, bronze-green primary actions, black-water navigation rails, olive scute active states, muddy bronze borders, scale-tile texture panels, glassy water highlights only as subtle surface accents, readable data-dense controls, polished shadcn/tweakcn component language.\nConstraints: no watermark, no random brand names, no fake company logo, no generic purple or blue gradient dominance, no neon colors, no beige-only palette, no dark-only board, no dense tiny unreadable paragraphs, no misspelling of \"Morphous Caiman\", no unrelated animal identity."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-caiman/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Caiman dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Caiman\" / \"Caiman Scales\". Translate the same compact control system into dark mode; do not invent a new unrelated theme. The visual language is bronze-green caiman armor, Amazon oxbow black water, olive scutes, wet scale texture, and compact dashboard controls.\nCanvas: exact 16:9 high-resolution board, intended final asset 3840 x 2160. Clean professional shadcn/tweakcn design-system presentation, crisp controls, large legible labels, dense but scannable compact control layout.\nRequired visible sections: Morphous Caiman, Caiman Scales, Dark Mode, Amazon Oxbow, Palette, Typography, Japanese Typography, Components, Navigation, Compact Control Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve bronze-green caiman scale primary actions, black-water oxbow surfaces, olive scute active states, muddy bronze borders, pale water highlights, armored scale texture, compact status chips, charts, forms, navigation, and data tables. The board must read as caiman scales, not generic black-and-green terminal UI, crocodile brand, alligator mascot, iguana, turtle, snake, or abstract scales.\nTypography: English compact operations UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, values. Use concise bilingual labels for oxbow monitor, water gate, scale status, sensor metric, table rows, and response controls with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, icon buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, compact cards, status cards, data table, command search palette, filters, left sidebar navigation, top navigation, dashboard metrics, line chart, bar chart, donut chart, area chart, heat strip, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, simple icon set.\nVisual details: deep water-black background, dark olive panels, bronze-green active states, mineral-water focus rings, wet scale highlights, muddy bronze borders, pale reed-foam foreground text, subtle scale-tile texture overlays, restrained contrast, crisp controls and dashboards, 8px grid and 6px to 8px card radius.\nConstraints: no watermark, no random brand names, no fake company logo, no generic hacker UI, no pure-black flat background, no neon colors, no purple or blue gradient dominance, no unrelated saturated colors, no dense tiny unreadable paragraphs, no misspelling of \"Morphous Caiman\", no unrelated animal identity."
+    }
+  ]
+}

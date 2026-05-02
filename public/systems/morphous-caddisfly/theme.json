@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-caddisfly",
+    "name": "Morphous Caddisfly",
+    "motifName": "Caddisfly Case",
+    "motifCategory": "insect",
+    "biome": "Forest Stream",
+    "motif": "assembled caddisfly case"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Cream",
+      "hex": "#F5F3EA",
+      "oklch": "oklch(0.963 0.012 96.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Stream Ink",
+      "hex": "#16181A",
+      "oklch": "oklch(0.208 0.005 248.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pebble Tan",
+      "hex": "#B89A6A",
+      "oklch": "oklch(0.702 0.074 78.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Olive",
+      "hex": "#6E7A4A",
+      "oklch": "oklch(0.557 0.071 120.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Riffle Water",
+      "hex": "#5FA3A3",
+      "oklch": "oklch(0.671 0.069 195.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#E9E4D7",
+      "oklch": "oklch(0.919 0.018 89.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "River Stone",
+      "hex": "#D7D2C6",
+      "oklch": "oklch(0.864 0.017 88.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Pebble Gray",
+      "hex": "#B9B8B6",
+      "oklch": "oklch(0.783 0.003 84.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Umber",
+      "hex": "#6E5E4A",
+      "oklch": "oklch(0.492 0.037 73.0)"
+    },
+    {
+      "role": "Warning",
+      "name": "Reed Amber",
+      "hex": "#C79A38",
+      "oklch": "oklch(0.711 0.124 83.3)"
+    },
+    {
+      "role": "Danger",
+      "name": "Silt Red",
+      "hex": "#A94A38",
+      "oklch": "oklch(0.529 0.129 32.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.963 0.012 96.4)",
+    "foreground": "oklch(0.208 0.005 248.1)",
+    "card": "oklch(0.919 0.018 89.4)",
+    "card-foreground": "oklch(0.208 0.005 248.1)",
+    "popover": "oklch(0.919 0.018 89.4)",
+    "popover-foreground": "oklch(0.208 0.005 248.1)",
+    "primary": "oklch(0.702 0.074 78.9)",
+    "primary-foreground": "oklch(0.963 0.012 96.4)",
+    "secondary": "oklch(0.937 0.015 90.2)",
+    "secondary-foreground": "oklch(0.492 0.037 73.0)",
+    "muted": "oklch(0.931 0.017 91.6)",
+    "muted-foreground": "oklch(0.492 0.037 73.0)",
+    "accent": "oklch(0.671 0.069 195.6)",
+    "accent-foreground": "oklch(0.208 0.005 248.1)",
+    "destructive": "oklch(0.702 0.074 78.9)",
+    "border": "oklch(0.901 0.018 89.4)",
+    "input": "oklch(0.901 0.018 89.4)",
+    "ring": "oklch(0.557 0.071 120.2)",
+    "chart-1": "oklch(0.702 0.074 78.9)",
+    "chart-2": "oklch(0.557 0.071 120.2)",
+    "chart-3": "oklch(0.671 0.069 195.6)",
+    "chart-4": "oklch(0.919 0.018 89.4)",
+    "chart-5": "oklch(0.492 0.037 73.0)",
+    "sidebar": "oklch(0.934 0.017 91.6)",
+    "sidebar-foreground": "oklch(0.208 0.005 248.1)",
+    "sidebar-primary": "oklch(0.702 0.074 78.9)",
+    "sidebar-primary-foreground": "oklch(0.963 0.012 96.4)",
+    "sidebar-accent": "oklch(0.893 0.024 85.8)",
+    "sidebar-accent-foreground": "oklch(0.702 0.074 78.9)",
+    "sidebar-border": "oklch(0.901 0.018 89.4)",
+    "sidebar-ring": "oklch(0.557 0.071 120.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.208 0.005 248.1)",
+    "foreground": "oklch(0.963 0.012 96.4)",
+    "card": "oklch(0.401 0.024 72.1)",
+    "card-foreground": "oklch(0.963 0.012 96.4)",
+    "popover": "oklch(0.401 0.024 72.1)",
+    "popover-foreground": "oklch(0.963 0.012 96.4)",
+    "primary": "oklch(0.557 0.071 120.2)",
+    "primary-foreground": "oklch(0.208 0.005 248.1)",
+    "secondary": "oklch(0.579 0.032 77.3)",
+    "secondary-foreground": "oklch(0.963 0.012 96.4)",
+    "muted": "oklch(0.579 0.032 77.3)",
+    "muted-foreground": "oklch(0.919 0.014 88.7)",
+    "accent": "oklch(0.671 0.069 195.6)",
+    "accent-foreground": "oklch(0.208 0.005 248.1)",
+    "destructive": "oklch(0.702 0.074 78.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.557 0.071 120.2)",
+    "chart-1": "oklch(0.557 0.071 120.2)",
+    "chart-2": "oklch(0.702 0.074 78.9)",
+    "chart-3": "oklch(0.671 0.069 195.6)",
+    "chart-4": "oklch(0.919 0.018 89.4)",
+    "chart-5": "oklch(0.864 0.017 88.0)",
+    "sidebar": "oklch(0.344 0.016 75.1)",
+    "sidebar-foreground": "oklch(0.963 0.012 96.4)",
+    "sidebar-primary": "oklch(0.557 0.071 120.2)",
+    "sidebar-primary-foreground": "oklch(0.208 0.005 248.1)",
+    "sidebar-accent": "oklch(0.579 0.032 77.3)",
+    "sidebar-accent-foreground": "oklch(0.963 0.012 96.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.557 0.071 120.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for precise product UI with Noto Sans JP guidance for Japanese labels, compact data tables, and quiet operational dashboards.",
+  "layout": "Assembled component system with 8px grid rhythm, 8px maximum component radius, pebble-like panels, waterline dividers, tactile texture bands, compact tables, and practical dashboard density.",
+  "tags": [
+    "caddisfly",
+    "case",
+    "insect",
+    "forest-stream",
+    "pebble",
+    "leaf-fragment",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-caddisfly/motif.png",
+    "board": "/systems/morphous-caddisfly/design-system-light.png",
+    "darkBoard": "/systems/morphous-caddisfly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-caddisfly/theme.css",
+    "themeJson": "/systems/morphous-caddisfly/theme.json",
+    "promptsJson": "/systems/morphous-caddisfly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Caddisfly case motif",
+      "asset": "/systems/morphous-caddisfly/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated caddisfly larval case for a design-system catalog, no environment, no props, no text.\nSubject: a single caddisfly case, accurate natural portable larval case made from assembled pebble-tan sand grains, small rounded stream pebbles, tiny twig splinters, leaf fragments, and wet fiber details; compact tapered tube shape with tactile modular texture, water-worn edges, muted forest-stream colors, crisp opaque silhouette.\nComposition/framing: centered complete cutout with generous padding; show the whole case without cropping, angled slightly so the assembled component structure is visible.\nLighting/mood: clean studio light that preserves pebble tan, leaf olive, reed fiber, silt gray, and subtle water-darkened crevices.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #ff00ff or magenta anywhere in the subject.\nConstraints: no adult flying insect, no wings, no legs, no stream scene, no mossy background, no additional cases, no text, no watermark, no props, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-caddisfly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Caddisfly\" derived from the isolated caddisfly case motif: an assembled portable case made from pebble tan grains, leaf fragments, twig splinters, silt, and wet stream materials.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and component language from the caddisfly case motif. The board must visibly respect the motif colors: pebble tan, leaf fragment olive, reed fiber brown, silt gray, wet crevice umber, riffle water blue-green, shell highlight cream, and deep stream ink.\nCanvas: wide 16:9 design-system board, 3840x2160 high-resolution source asset if available.\nResolution and legibility: large readable labels, spacious modular grid, avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Caddisfly\", motif story, palette swatches, English typography, Japanese typography with short Japanese UI samples, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, navigation/sidebar, dashboard/data charts, forms, table, command/search palette, status states, loading/empty/error, texture strips, radius tokens, spacing tokens, shadow tokens, semantic color tokens, generated asset examples.\nTypography: clean product UI guidance, English and Japanese labels; multilingual UI should feel precise and quiet.\nVisual language: premium shadcn/tweakcn-compatible product design system; assembled component system mood; small panels arranged like pebbles and leaf fragments but with component radii 8px or less; exact 8px grid; crisp borders; subtle waterline dividers; tactile grain texture; practical dashboard and form surfaces.\nPalette behavior: warm shell surfaces on light background, deep stream ink text, pebble tan primary actions, leaf olive secondary controls, riffle water focus and charts, amber-brown status accents.\nText: short readable UI labels only, no long paragraphs.\nConstraints: no adult caddisfly insect, no wings, no neon colors, no generic purple or blue gradients, no saturated unrelated colors, no random brand names, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-caddisfly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Caddisfly\". It must be the same design system translated to dark mode, derived from the caddisfly case motif and the light-mode board, not a new theme.\nReference use: Use the motif language of an assembled caddisfly larval case made from pebble-tan grains, leaf fragments, twig splinters, silt, and wet stream materials. Preserve the light board's component language: small assembled modules, crisp shadcn/tweakcn product controls, component radii 8px or less, exact 8px grid, tactile grain texture, waterline dividers, and modular dashboard panels.\nCanvas: wide 16:9 design-system board, 3840x2160 high-resolution source asset if available.\nResolution and legibility: large readable labels, spacious layout, avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Caddisfly\", \"Dark Mode\", palette swatches, English typography, Japanese typography with short Japanese UI samples, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, navigation/sidebar, dashboard/data charts, forms, table, command/search palette, status states, loading/empty/error, texture strips, radius tokens, spacing tokens, shadow tokens, semantic color tokens, generated asset examples.\nDark palette behavior: deep stream ink background, wet umber and basalt cards, shell-cream foreground text, pebble tan primary actions, leaf olive secondary controls, riffle water focus rings and charts, amber reed warnings, muted silt borders. Keep contrast restrained but readable.\nTypography: clean product UI guidance, English and Japanese labels; multilingual UI should feel precise and quiet.\nVisual language: premium shadcn/tweakcn-compatible dark product design system; assembled component system mood; tactile stream-case textures used as subtle overlays, never noisy.\nText: short readable UI labels only, no long paragraphs.\nConstraints: no adult caddisfly insect, no wings, no standalone insect cutout, no neon colors, no pure black flat background, no generic purple or blue gradients, no saturated unrelated colors, no random brand names, no watermark, no illegible microtext."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-caddisfly",
+  "name": "Morphous Caddisfly",
+  "motifName": "Caddisfly Case",
+  "motifCategory": "insect",
+  "biome": "Forest Stream",
+  "motif": "assembled caddisfly case",
+  "description": "A shadcn/tweakcn-compatible system coded from the Caddisfly light and dark design-system boards: pebble-tan actions, leaf-fragment secondary controls, riffle-water focus, shell-cream surfaces, silt borders, and modular panels inspired by a larval case assembled from stream fragments.",
+  "typography": "Inter or Geist for precise product UI with Noto Sans JP guidance for Japanese labels, compact data tables, and quiet operational dashboards.",
+  "layout": "Assembled component system with 8px grid rhythm, 8px maximum component radius, pebble-like panels, waterline dividers, tactile texture bands, compact tables, and practical dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "caddisfly",
+    "case",
+    "insect",
+    "forest-stream",
+    "pebble",
+    "leaf-fragment",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Cream",
+      "hex": "#F5F3EA"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Stream Ink",
+      "hex": "#16181A"
+    },
+    {
+      "role": "Primary",
+      "name": "Pebble Tan",
+      "hex": "#B89A6A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Olive",
+      "hex": "#6E7A4A"
+    },
+    {
+      "role": "Accent",
+      "name": "Riffle Water",
+      "hex": "#5FA3A3"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Sand",
+      "hex": "#E9E4D7"
+    },
+    {
+      "role": "Muted",
+      "name": "River Stone",
+      "hex": "#D7D2C6"
+    },
+    {
+      "role": "Border",
+      "name": "Pebble Gray",
+      "hex": "#B9B8B6"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Umber",
+      "hex": "#6E5E4A"
+    },
+    {
+      "role": "Warning",
+      "name": "Reed Amber",
+      "hex": "#C79A38"
+    },
+    {
+      "role": "Danger",
+      "name": "Silt Red",
+      "hex": "#A94A38"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

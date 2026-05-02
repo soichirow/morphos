@@ -1,0 +1,110 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 320,
+  "slug": "morphous-carpenter-bee",
+  "name": "Morphous Carpenter Bee",
+  "motifName": "Carpenter Bee",
+  "motifCategory": "insect",
+  "biome": "Wood beam",
+  "motif": "carpenter bee",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Carpenter Bee light and dark design-system boards: gloss-black chitin surfaces, violet wing focus states, timber-brown action accents, smoky wing neutrals, sawdust-ivory backgrounds, and sturdy workspace UI density.",
+  "typography": "Inter Variable for precise product UI with Noto Sans JP guidance for Japanese labels, compact workbench dashboards, clear numeric metrics, and durable form-heavy workflows.",
+  "layout": "Sturdy 8px grid, 4px and 8px radii, chitin-dark borders, timber-grain dividers, violet focus rings, bronze hover states, dense dashboard panels, and restrained workshop texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "carpenter-bee",
+    "insect",
+    "wood-beam",
+    "gloss-black",
+    "violet-wing",
+    "timber",
+    "workspace",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sawdust Ivory",
+      "hex": "#FAF6EC"
+    },
+    {
+      "role": "Surface",
+      "name": "Workbench Gray",
+      "hex": "#E7E2D8"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Wash",
+      "hex": "#F0EDF7"
+    },
+    {
+      "role": "Ink",
+      "name": "Gloss Black",
+      "hex": "#0A0A0D"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Graphite",
+      "hex": "#18181F"
+    },
+    {
+      "role": "Muted",
+      "name": "Charcoal Chitin",
+      "hex": "#2B2B30"
+    },
+    {
+      "role": "Primary",
+      "name": "Violet Wing",
+      "hex": "#7A5CE6"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Violet Vein",
+      "hex": "#4D5AD4"
+    },
+    {
+      "role": "Secondary",
+      "name": "Timber Brown",
+      "hex": "#5A3A22"
+    },
+    {
+      "role": "Accent",
+      "name": "Bronze Reflection",
+      "hex": "#8A5A28"
+    },
+    {
+      "role": "Support",
+      "name": "Smoky Wing Edge",
+      "hex": "#C7C2D9"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

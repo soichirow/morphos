@@ -1,0 +1,171 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-char",
+    "name": "Morphous Char",
+    "motifName": "Arctic Char",
+    "motifCategory": "fish",
+    "biome": "Polar River",
+    "motif": "arctic char flank"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Polar Snow",
+      "hex": "#F8FBFC",
+      "oklch": "oklch(0.986 0.003 219.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dorsal Graphite",
+      "hex": "#0F1A23",
+      "oklch": "oklch(0.212 0.024 243.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Char Coral",
+      "hex": "#FF666E",
+      "oklch": "oklch(0.706 0.186 20.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Scale Silver",
+      "hex": "#A0A8B4",
+      "oklch": "oklch(0.729 0.020 258.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Ice Blue",
+      "hex": "#7FB6D6",
+      "oklch": "oklch(0.750 0.074 234.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fin Orange",
+      "hex": "#FF6B3A",
+      "oklch": "oklch(0.705 0.191 38.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Spot",
+      "hex": "#E6EDF3",
+      "oklch": "oklch(0.943 0.011 243.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Polar Current",
+      "hex": "#163044",
+      "oklch": "oklch(0.299 0.049 243.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.986 0.003 219.5)",
+    "foreground": "oklch(0.212 0.024 243.9)",
+    "card": "oklch(0.943 0.011 243.7)",
+    "card-foreground": "oklch(0.212 0.024 243.9)",
+    "popover": "oklch(0.943 0.011 243.7)",
+    "popover-foreground": "oklch(0.212 0.024 243.9)",
+    "primary": "oklch(0.706 0.186 20.2)",
+    "primary-foreground": "oklch(0.986 0.003 219.5)",
+    "secondary": "oklch(0.962 0.008 241.7)",
+    "secondary-foreground": "oklch(0.299 0.049 243.7)",
+    "muted": "oklch(0.955 0.009 242.8)",
+    "muted-foreground": "oklch(0.299 0.049 243.7)",
+    "accent": "oklch(0.750 0.074 234.6)",
+    "accent-foreground": "oklch(0.212 0.024 243.9)",
+    "destructive": "oklch(0.706 0.186 20.2)",
+    "border": "oklch(0.867 0.013 251.6)",
+    "input": "oklch(0.867 0.013 251.6)",
+    "ring": "oklch(0.729 0.020 258.4)",
+    "chart-1": "oklch(0.706 0.186 20.2)",
+    "chart-2": "oklch(0.729 0.020 258.4)",
+    "chart-3": "oklch(0.750 0.074 234.6)",
+    "chart-4": "oklch(0.705 0.191 38.2)",
+    "chart-5": "oklch(0.299 0.049 243.7)",
+    "sidebar": "oklch(0.958 0.008 236.6)",
+    "sidebar-foreground": "oklch(0.212 0.024 243.9)",
+    "sidebar-primary": "oklch(0.706 0.186 20.2)",
+    "sidebar-primary-foreground": "oklch(0.986 0.003 219.5)",
+    "sidebar-accent": "oklch(0.909 0.015 345.6)",
+    "sidebar-accent-foreground": "oklch(0.706 0.186 20.2)",
+    "sidebar-border": "oklch(0.867 0.013 251.6)",
+    "sidebar-ring": "oklch(0.729 0.020 258.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.212 0.024 243.9)",
+    "foreground": "oklch(0.986 0.003 219.5)",
+    "card": "oklch(0.272 0.040 243.0)",
+    "card-foreground": "oklch(0.986 0.003 219.5)",
+    "popover": "oklch(0.272 0.040 243.0)",
+    "popover-foreground": "oklch(0.986 0.003 219.5)",
+    "primary": "oklch(0.729 0.020 258.4)",
+    "primary-foreground": "oklch(0.212 0.024 243.9)",
+    "secondary": "oklch(0.399 0.042 245.2)",
+    "secondary-foreground": "oklch(0.986 0.003 219.5)",
+    "muted": "oklch(0.399 0.042 245.2)",
+    "muted-foreground": "oklch(0.873 0.011 247.9)",
+    "accent": "oklch(0.750 0.074 234.6)",
+    "accent-foreground": "oklch(0.212 0.024 243.9)",
+    "destructive": "oklch(0.706 0.186 20.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.729 0.020 258.4)",
+    "chart-1": "oklch(0.729 0.020 258.4)",
+    "chart-2": "oklch(0.706 0.186 20.2)",
+    "chart-3": "oklch(0.750 0.074 234.6)",
+    "chart-4": "oklch(0.705 0.191 38.2)",
+    "chart-5": "oklch(0.729 0.020 258.4)",
+    "sidebar": "oklch(0.252 0.036 243.3)",
+    "sidebar-foreground": "oklch(0.986 0.003 219.5)",
+    "sidebar-primary": "oklch(0.729 0.020 258.4)",
+    "sidebar-primary-foreground": "oklch(0.212 0.024 243.9)",
+    "sidebar-accent": "oklch(0.399 0.042 245.2)",
+    "sidebar-accent-foreground": "oklch(0.986 0.003 219.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.729 0.020 258.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English tracking UI with strong numeric rhythm and Noto Sans JP guidance for compact Japanese labels on cool river surfaces.",
+  "layout": "Streamlined route lanes, 8px dashboard cards, pale spot texture, silver-scale surfaces, and chart-heavy tracking components tuned for polar river telemetry.",
+  "tags": [
+    "arctic-char",
+    "fish",
+    "polar-river",
+    "tracking",
+    "silver",
+    "pink-orange",
+    "ice-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-char/motif.png",
+    "board": "/systems/morphous-char/design-system-light.png",
+    "darkBoard": "/systems/morphous-char/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-char/theme.css",
+    "themeJson": "/systems/morphous-char/theme.json",
+    "promptsJson": "/systems/morphous-char/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Arctic char motif",
+      "asset": "/systems/morphous-char/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Char transparent motif chroma-key source\nPrimary request: Create only an Arctic char flank motif for a design-system catalog, isolated as one complete fish subject on a removable chroma-key background.\nSubject: A single Arctic char in lateral flank view with accurate fish anatomy, streamlined body, complete head, dorsal fin, pectoral fins, pelvic fins, anal fin, and tail. Show an arctic char flank: bright silver body, subtle ice-blue reflections along the back and belly, vivid pink-to-orange side blush, small pale spots, crisp scale rows, cool polar-river sheen. It must read as Arctic char, not salmon, trout, koi, tuna, or food.\nComposition/framing: centered complete cutout with generous padding; no cropping. Clean studio lighting that preserves silver, pink, orange, and ice-blue color. No cast shadow, no contact shadow, no reflection.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no river scene, no ice chunks, no hook, no lure, no plate, no school of fish, no props, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-char/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Char light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Char\", derived from the visible Arctic char motif cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme for a cool tracking system.\nCanvas: exact wide 16:9 source board, 3840x2160 target composition, clean professional UI design-system presentation.\nRequired visible sections: Morphous Char, Arctic Char, Polar River, Light Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nReference use: Extract the palette and interaction language from the Arctic char flank: bright silver scales, pink-orange side blush, orange fins, ice-blue belly reflections, polar river blues, graphite dorsal shadows, pale spots, and streamlined tracking motion. The board must visibly respect those colors and must read as Arctic char, not salmon, generic trout, koi, or seafood.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short, large, and legible with tracking-system metrics.\nFull component coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, slider, tabs, badges, alerts, cards, popover, tooltip, progress, avatar, table rows, command/search palette, sidebar navigation, top nav, breadcrumbs, metric cards, line chart, bar chart, donut chart, timeline, empty state, loading state, error state, spacing/radius/border/shadow tokens, texture samples, simple icons.\nCharts/data: include a cold-route tracking dashboard with line chart, bar chart, donut chart, compact KPIs, status chips, and a table of route events.\nStyle: cool polar-river tracking system, precise 8px grid, 8px card radius, silver-scale surfaces, pink-orange primary action states, ice-blue accents, deep graphite text, pale spot texture, streamlined navigation lanes, crisp shadcn/tweakcn product UI.\nConstraints: no unrelated saturated colors, no generic purple gradients, no beige-only palette, no stock UI kit, no restaurant or food imagery, no random brand names, no watermark, no misspelling of \"Morphous Char\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-char/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Char dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Char\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible Arctic char motif cutout.\nCanvas: exact wide 16:9 source board, 3840x2160 target composition, clean professional UI design-system presentation.\nRequired visible sections: Morphous Char, Arctic Char, Polar River, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nReference use: Preserve the same Arctic char tracking-system language as the light board: deep polar-river panels, silver-scale foregrounds, pink-orange primary states, ice-blue controls, orange fin warnings, graphite borders, pale spot texture, streamlined route lanes, and precise shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short, large, and legible on dark polar-river surfaces.\nFull component coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, slider, tabs, badges, alerts, cards, popover, tooltip, progress, avatar, table rows, command/search palette, sidebar navigation, top nav, breadcrumbs, metric cards, line chart, bar chart, donut chart, timeline, empty state, loading state, error state, spacing/radius/border/shadow tokens, texture samples, simple icons.\nCharts/data: include a cool route tracking dashboard with line chart, bar chart, donut chart, compact KPIs, status chips, and a table of route events.\nVisual details: dark graphite-blue current background, luminous silver text, coral-pink active actions, orange fin alerts, ice-blue route highlights, pale spotted scale overlays, crisp 8px cards, restrained contrast.\nConstraints: no neon colors, no pure-black-only flat background, no unrelated saturated colors, no generic purple gradients, no restaurant or food imagery, no random brand names, no watermark, no misspelling of \"Morphous Char\", no tiny unreadable paragraphs."
+    }
+  ]
+}

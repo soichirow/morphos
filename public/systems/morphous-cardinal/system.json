@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-cardinal",
+  "name": "Morphous Cardinal",
+  "status": "ready",
+  "motifName": "Cardinal",
+  "motifCategory": "bird",
+  "biome": "Winter Shrub",
+  "motif": "cardinal crest",
+  "description": "A clear alert component system derived from a cardinal crest in a winter shrub: red feather hierarchy, black mask contrast, snow-field surfaces, and crisp status signaling.",
+  "typography": "Geist for clear operational UI with Noto Sans JP guidance for headings, body, labels, and status numerals.",
+  "layout": "Alert-oriented grids, compact component states, 8px cards, high-contrast badges, and winter-shrub spacing with crisp red focus behavior.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "cardinal",
+    "bird",
+    "winter",
+    "alert",
+    "red",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Snow Field", "hex": "#fbfaf6" },
+    { "role": "Ink", "name": "Charcoal Mask", "hex": "#171416" },
+    { "role": "Primary", "name": "Cardinal Red", "hex": "#c91f2c" },
+    { "role": "Accent", "name": "Crest Vermilion", "hex": "#e34235" },
+    { "role": "Secondary", "name": "Winter Twig", "hex": "#7a5841" },
+    { "role": "Signal", "name": "Alert Amber", "hex": "#e0a22f" },
+    { "role": "Surface", "name": "Frost Pink", "hex": "#f4c7c9" },
+    { "role": "Muted", "name": "Snow Shadow", "hex": "#d9d7d2" },
+    { "role": "Depth", "name": "Deep Pine", "hex": "#23362f" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

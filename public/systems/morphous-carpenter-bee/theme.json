@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-carpenter-bee",
+    "name": "Morphous Carpenter Bee",
+    "motifName": "Carpenter Bee",
+    "motifCategory": "insect",
+    "biome": "Wood beam",
+    "motif": "carpenter bee"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sawdust Ivory",
+      "hex": "#FAF6EC",
+      "oklch": "oklch(0.974 0.014 88.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Workbench Gray",
+      "hex": "#E7E2D8",
+      "oklch": "oklch(0.914 0.014 84.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wing Wash",
+      "hex": "#F0EDF7",
+      "oklch": "oklch(0.951 0.014 299.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Gloss Black",
+      "hex": "#0A0A0D",
+      "oklch": "oklch(0.146 0.006 285.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Graphite",
+      "hex": "#18181F",
+      "oklch": "oklch(0.212 0.014 285.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Charcoal Chitin",
+      "hex": "#2B2B30",
+      "oklch": "oklch(0.291 0.009 285.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Violet Wing",
+      "hex": "#7A5CE6",
+      "oklch": "oklch(0.579 0.200 288.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Violet Vein",
+      "hex": "#4D5AD4",
+      "oklch": "oklch(0.528 0.186 273.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Timber Brown",
+      "hex": "#5A3A22",
+      "oklch": "oklch(0.380 0.058 56.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bronze Reflection",
+      "hex": "#8A5A28",
+      "oklch": "oklch(0.510 0.091 64.2)"
+    },
+    {
+      "role": "Support",
+      "name": "Smoky Wing Edge",
+      "hex": "#C7C2D9",
+      "oklch": "oklch(0.825 0.032 295.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.974 0.014 88.7)",
+    "foreground": "oklch(0.146 0.006 285.6)",
+    "card": "oklch(0.914 0.014 84.6)",
+    "card-foreground": "oklch(0.146 0.006 285.6)",
+    "popover": "oklch(0.914 0.014 84.6)",
+    "popover-foreground": "oklch(0.146 0.006 285.6)",
+    "primary": "oklch(0.579 0.200 288.6)",
+    "primary-foreground": "oklch(0.974 0.014 88.7)",
+    "secondary": "oklch(0.938 0.014 84.6)",
+    "secondary-foreground": "oklch(0.212 0.014 285.2)",
+    "muted": "oklch(0.931 0.014 88.7)",
+    "muted-foreground": "oklch(0.212 0.014 285.2)",
+    "accent": "oklch(0.528 0.186 273.6)",
+    "accent-foreground": "oklch(0.146 0.006 285.6)",
+    "destructive": "oklch(0.579 0.200 288.6)",
+    "border": "oklch(0.707 0.007 75.4)",
+    "input": "oklch(0.707 0.007 75.4)",
+    "ring": "oklch(0.380 0.058 56.8)",
+    "chart-1": "oklch(0.579 0.200 288.6)",
+    "chart-2": "oklch(0.380 0.058 56.8)",
+    "chart-3": "oklch(0.528 0.186 273.6)",
+    "chart-4": "oklch(0.291 0.009 285.8)",
+    "chart-5": "oklch(0.212 0.014 285.2)",
+    "sidebar": "oklch(0.934 0.014 88.7)",
+    "sidebar-foreground": "oklch(0.146 0.006 285.6)",
+    "sidebar-primary": "oklch(0.579 0.200 288.6)",
+    "sidebar-primary-foreground": "oklch(0.974 0.014 88.7)",
+    "sidebar-accent": "oklch(0.872 0.014 325.7)",
+    "sidebar-accent-foreground": "oklch(0.579 0.200 288.6)",
+    "sidebar-border": "oklch(0.707 0.007 75.4)",
+    "sidebar-ring": "oklch(0.380 0.058 56.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.146 0.006 285.6)",
+    "foreground": "oklch(0.974 0.014 88.7)",
+    "card": "oklch(0.190 0.012 285.2)",
+    "card-foreground": "oklch(0.974 0.014 88.7)",
+    "popover": "oklch(0.190 0.012 285.2)",
+    "popover-foreground": "oklch(0.974 0.014 88.7)",
+    "primary": "oklch(0.380 0.058 56.8)",
+    "primary-foreground": "oklch(0.146 0.006 285.6)",
+    "secondary": "oklch(0.230 0.013 285.3)",
+    "secondary-foreground": "oklch(0.974 0.014 88.7)",
+    "muted": "oklch(0.230 0.013 285.3)",
+    "muted-foreground": "oklch(0.690 0.006 84.6)",
+    "accent": "oklch(0.528 0.186 273.6)",
+    "accent-foreground": "oklch(0.146 0.006 285.6)",
+    "destructive": "oklch(0.579 0.200 288.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.380 0.058 56.8)",
+    "chart-1": "oklch(0.380 0.058 56.8)",
+    "chart-2": "oklch(0.579 0.200 288.6)",
+    "chart-3": "oklch(0.528 0.186 273.6)",
+    "chart-4": "oklch(0.291 0.009 285.8)",
+    "chart-5": "oklch(0.291 0.009 285.8)",
+    "sidebar": "oklch(0.175 0.010 285.3)",
+    "sidebar-foreground": "oklch(0.974 0.014 88.7)",
+    "sidebar-primary": "oklch(0.380 0.058 56.8)",
+    "sidebar-primary-foreground": "oklch(0.146 0.006 285.6)",
+    "sidebar-accent": "oklch(0.230 0.013 285.3)",
+    "sidebar-accent-foreground": "oklch(0.974 0.014 88.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.380 0.058 56.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable for precise product UI with Noto Sans JP guidance for Japanese labels, compact workbench dashboards, clear numeric metrics, and durable form-heavy workflows.",
+  "layout": "Sturdy 8px grid, 4px and 8px radii, chitin-dark borders, timber-grain dividers, violet focus rings, bronze hover states, dense dashboard panels, and restrained workshop texture.",
+  "tags": [
+    "carpenter-bee",
+    "insect",
+    "wood-beam",
+    "gloss-black",
+    "violet-wing",
+    "timber",
+    "workspace",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-carpenter-bee/motif.png",
+    "board": "/systems/morphous-carpenter-bee/design-system-light.png",
+    "darkBoard": "/systems/morphous-carpenter-bee/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-carpenter-bee/theme.css",
+    "themeJson": "/systems/morphous-carpenter-bee/theme.json",
+    "promptsJson": "/systems/morphous-carpenter-bee/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Carpenter Bee motif",
+      "asset": "/systems/morphous-carpenter-bee/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only an isolated Carpenter Bee motif for a design-system catalog: a complete carpenter bee, no environment, no props, no text.\nSubject: A realistic carpenter bee with a sturdy compact body, glossy black abdomen and thorax, subtle violet-blue iridescent wings, dark jointed legs, fine antennae, accurate bee anatomy, clean recognizable silhouette, and a faint timber-workshop material mood only through the palette and surface sheen, not through props.\nComposition/framing: centered complete cutout with generous padding; side/top three-quarter view with full body, wings, legs, antennae, and wing edges visible without cropping.\nLighting/mood: clean studio light that preserves gloss black body structure, violet translucent wing sheen, small warm timber-brown reflected highlights, fine hair and segment detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no flowers, no wood beam as object, no landscape, no second insect, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-carpenter-bee/design-system-light.png",
+      "prompt": "Create a single extra-large 16:9 PNG design-system board at exact 3840 x 2160 canvas size.\n\nUse case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive LIGHT MODE design-system board for \"Morphous Carpenter Bee\" / \"Carpenter Bee\", derived from the visible transparent carpenter bee motif.\nReference use: Extract the visual system from the motif: glossy black chitin, charcoal segment lines, violet translucent wings, blue-violet wing veins, timber-brown reflections, smoky wing-edge neutrals, sawdust ivory, and workbench gray.\nResolution and legibility: final image must be 3840x2160, wide 16:9, high-resolution source artwork, with oversized readable section labels and no dense microtext.\nLayout: a precise product design board with 12 large labeled zones, not a landing page. Use a sturdy workspace SaaS design language, compact but readable.\nRequired visible sections: title and motif story; palette; English type; Japanese typography; components; navigation; dashboard/data; forms; tables; command/search; status states; design tokens covering texture, radius, spacing, shadows, border, focus ring.\nComponents to include: icon buttons, primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command palette/search overlay, sidebar/top navigation, charts, empty/loading/error states.\nJapanese text: include short readable labels such as 作業台, 検索, 状態, 設定, 表, 完了, 進行中.\nStyle details: shadcn/tweakcn compatible, clean realistic UI mockup, light background, black chitin borders, subtle timber-grain dividers, violet focus rings, bronze-brown hover states, all UI radius 8px or less.\nConstraints: no unrelated saturated colors, no generic purple or blue gradient background, no random brand names, no watermark, no tiny illegible token table, no misspellings, no decorative hero, no rounded controls above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-carpenter-bee/design-system-dark.png",
+      "prompt": "Create a single extra-large 16:9 PNG design-system board at exact 3840 x 2160 canvas size.\n\nUse case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for \"Morphous Carpenter Bee\" / \"Carpenter Bee\". It must feel like the same system as the visible light-mode Carpenter Bee board translated to dark mode, not a new theme.\nInput images: Use the visible transparent Carpenter Bee motif and the visible light-mode design-system board as references. Preserve the same palette roles, component language, texture, spacing, and typography.\nResolution and legibility: final image must be 3840x2160, wide 16:9, high-resolution source artwork, with oversized readable section labels and no dense microtext.\nLayout: a precise product design board with 12 large labeled zones, not a landing page. Use a sturdy workspace SaaS design language, compact but readable.\nRequired visible sections: title and motif story; palette; English type; Japanese typography; components; navigation; dashboard/data; forms; tables; command/search; status states; design tokens covering texture, radius, spacing, shadows, border, focus ring.\nComponents to include: icon buttons, primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command palette/search overlay, sidebar/top navigation, charts, empty/loading/error states.\nJapanese text: include short readable labels such as 作業台, 検索, 状態, 設定, 表, 完了, 進行中.\nStyle details: shadcn/tweakcn compatible, clean realistic UI mockup, deep gloss-black and charcoal background derived from the bee abdomen, smoky wing-edge card surfaces, violet-blue focus rings and active states, timber-brown hover/action states, subtle timber-grain dividers, all UI radius 8px or less.\nColor palette: use motif-derived dark mode colors only: gloss black, deep graphite, charcoal, violet translucent wing, blue-violet veins, warm timber brown, sawdust ivory text, smoky wing gray, muted workbench gray. Strong but not neon contrast.\nConstraints: no neon colors, no flat pure-black empty background, no unrelated saturated colors, no generic purple or blue gradient background, no random brand names, no watermark, no tiny illegible token table, no misspellings, no decorative hero, no UI element radius above 8px."
+    }
+  ]
+}

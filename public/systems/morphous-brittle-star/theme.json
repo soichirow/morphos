@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-brittle-star",
+    "name": "Morphous Brittle Star",
+    "motifName": "Brittle Star",
+    "motifCategory": "marine",
+    "biome": "Reef Rubble",
+    "motif": "brittle star arms"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Calcite Ivory",
+      "hex": "#F6F4F1",
+      "oklch": "oklch(0.968 0.005 78.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Beige",
+      "hex": "#EDE6DA",
+      "oklch": "oklch(0.927 0.018 81.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Banded Sand Tan",
+      "hex": "#D9C3A3",
+      "oklch": "oklch(0.827 0.050 77.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warm Umber",
+      "hex": "#7A4E36",
+      "oklch": "oklch(0.468 0.070 49.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Coral Grey",
+      "hex": "#B7B2AA",
+      "oklch": "oklch(0.765 0.013 79.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Slate",
+      "hex": "#4A5358",
+      "oklch": "oklch(0.436 0.014 232.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Spine Ochre",
+      "hex": "#DAA15A",
+      "oklch": "oklch(0.749 0.111 70.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Reef Shadow",
+      "hex": "#1E1B18",
+      "oklch": "oklch(0.224 0.007 67.4)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Charcoal Umber",
+      "hex": "#2B2521",
+      "oklch": "oklch(0.270 0.012 55.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.968 0.005 78.3)",
+    "foreground": "oklch(0.224 0.007 67.4)",
+    "card": "oklch(0.990 0.002 78.3)",
+    "card-foreground": "oklch(0.224 0.007 67.4)",
+    "popover": "oklch(0.990 0.002 78.3)",
+    "popover-foreground": "oklch(0.224 0.007 67.4)",
+    "primary": "oklch(0.468 0.070 49.0)",
+    "primary-foreground": "oklch(0.968 0.005 78.3)",
+    "secondary": "oklch(0.827 0.050 77.2)",
+    "secondary-foreground": "oklch(0.224 0.007 67.4)",
+    "muted": "oklch(0.927 0.018 81.3)",
+    "muted-foreground": "oklch(0.436 0.014 232.0)",
+    "accent": "oklch(0.749 0.111 70.7)",
+    "accent-foreground": "oklch(0.224 0.007 67.4)",
+    "destructive": "oklch(0.550 0.175 27.7)",
+    "border": "oklch(0.765 0.013 79.8)",
+    "input": "oklch(0.765 0.013 79.8)",
+    "ring": "oklch(0.749 0.111 70.7)",
+    "chart-1": "oklch(0.468 0.070 49.0)",
+    "chart-2": "oklch(0.749 0.111 70.7)",
+    "chart-3": "oklch(0.827 0.050 77.2)",
+    "chart-4": "oklch(0.436 0.014 232.0)",
+    "chart-5": "oklch(0.224 0.007 67.4)",
+    "sidebar": "oklch(0.927 0.018 81.3)",
+    "sidebar-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-primary": "oklch(0.468 0.070 49.0)",
+    "sidebar-primary-foreground": "oklch(0.968 0.005 78.3)",
+    "sidebar-accent": "oklch(0.827 0.050 77.2)",
+    "sidebar-accent-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-border": "oklch(0.765 0.013 79.8)",
+    "sidebar-ring": "oklch(0.749 0.111 70.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.007 67.4)",
+    "foreground": "oklch(0.968 0.005 78.3)",
+    "card": "oklch(0.270 0.012 55.8)",
+    "card-foreground": "oklch(0.968 0.005 78.3)",
+    "popover": "oklch(0.270 0.012 55.8)",
+    "popover-foreground": "oklch(0.968 0.005 78.3)",
+    "primary": "oklch(0.749 0.111 70.7)",
+    "primary-foreground": "oklch(0.224 0.007 67.4)",
+    "secondary": "oklch(0.400 0.047 46.7)",
+    "secondary-foreground": "oklch(0.968 0.005 78.3)",
+    "muted": "oklch(0.400 0.047 46.7)",
+    "muted-foreground": "oklch(0.827 0.050 77.2)",
+    "accent": "oklch(0.827 0.050 77.2)",
+    "accent-foreground": "oklch(0.224 0.007 67.4)",
+    "destructive": "oklch(0.550 0.175 27.7)",
+    "border": "oklch(0.927 0.018 81.3 / 14%)",
+    "input": "oklch(0.927 0.018 81.3 / 18%)",
+    "ring": "oklch(0.749 0.111 70.7)",
+    "chart-1": "oklch(0.749 0.111 70.7)",
+    "chart-2": "oklch(0.827 0.050 77.2)",
+    "chart-3": "oklch(0.468 0.070 49.0)",
+    "chart-4": "oklch(0.765 0.013 79.8)",
+    "chart-5": "oklch(0.436 0.014 232.0)",
+    "sidebar": "oklch(0.270 0.012 55.8)",
+    "sidebar-foreground": "oklch(0.968 0.005 78.3)",
+    "sidebar-primary": "oklch(0.749 0.111 70.7)",
+    "sidebar-primary-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-accent": "oklch(0.400 0.047 46.7)",
+    "sidebar-accent-foreground": "oklch(0.968 0.005 78.3)",
+    "sidebar-border": "oklch(0.927 0.018 81.3 / 14%)",
+    "sidebar-ring": "oklch(0.749 0.111 70.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise branching analytics UI with Noto Sans JP guidance for Japanese labels, compact metrics, readable tabular values, and multilingual dashboard scanning.",
+  "layout": "Dense but readable analytics layouts on an 8px grid with radial branch navigation, banded-arm progress rails, fine spine tick marks, reef-rubble texture accents, restrained borders, and compact chart-heavy panels.",
+  "tags": [
+    "brittle-star",
+    "marine",
+    "reef-rubble",
+    "branching",
+    "analytics",
+    "banded",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-brittle-star/motif.png",
+    "board": "/systems/morphous-brittle-star/design-system-light.png",
+    "darkBoard": "/systems/morphous-brittle-star/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-brittle-star/theme.css",
+    "themeJson": "/systems/morphous-brittle-star/theme.json",
+    "promptsJson": "/systems/morphous-brittle-star/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent brittle star motif",
+      "asset": "/systems/morphous-brittle-star/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Brittle Star transparent motif chroma-key source\nPrimary request: Create only an isolated brittle star motif for a design-system catalog, no environment, no props, no text.\nSubject: A single brittle star (ophiuroid) with a small central disk and five long slender branching-looking arms curled in an elegant reef-rubble posture. Accurate marine invertebrate anatomy, articulated flexible arms, fine spines, tactile brittle-star texture, banded tan, warm brown, coral grey, shell beige, and charcoal-brown markings. The motif should feel natural, reef-derived, analytical, and suitable for a branching analytics design system.\nComposition/framing: centered complete cutout with generous padding; show the full central disk and all five arms without cropping; one brittle star only; balanced radial silhouette with a few arms gently bending like branching paths.\nLighting/mood: clean studio light that preserves natural banding, arm spines, matte reef texture, and crisp silhouette edges.\nTransparent workflow: place the brittle star on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no water, no sand, no rocks, no coral pieces, no aquarium scene, no second animal, no starfish with thick arms, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-brittle-star/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 4K Morphous light-mode design-system board\nPrimary request: Create a single large, sharp, readable 16:9 design-system board for \"Morphous Brittle Star\" / \"Brittle Star\". It is a branching analytics system inspired by the visible brittle star motif: five slender banded arms, fine spines, reef rubble, tan, warm brown, coral grey, shell ivory, reef slate, ochre, and deep umber.\nCanvas: exact 3840 x 2160 pixel 16:9 board, designed as a 4K source asset. Large readable labels, high-detail crisp UI, professional shadcn/tweakcn theme reference.\nLayout: use a clean 12-column product UI board with large modules, not a dense tiny table. Leave enough spacing around each module.\nRequired visible labels: Morphous Brittle Star, Brittle Star, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nFull component coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar nav, top nav, metric cards, branching flow chart, line chart, bar chart, donut chart, network-node map, loading state, empty state, error state.\nTypography: show Geist and Noto Sans JP; include short examples Heading, Body, Label, Metrics, 日本語, 分岐, 分析, 可読性.\nVisual system: shell-ivory background, coral-grey panels, warm umber primary buttons, banded-sand secondary controls, reef-slate text, ochre focus rings, deep umber charts, subtle brittle-star arm stripe rails, fine spine tick marks, reef-rubble grain texture, 8px radii, restrained shadows.\nText: short UI labels only, no paragraphs. Exact title spelling: \"Morphous Brittle Star\".\nConstraints: no thick starfish, no beach photo, no aquarium scene, no random logo, no watermark, no neon, no generic purple/blue gradient, no unrelated saturated colors."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-brittle-star/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 4K Morphous dark-mode design-system board\nPrimary request: Create a single large, sharp, readable 16:9 dark-mode design-system board for \"Morphous Brittle Star\" / \"Brittle Star\". It must feel like the same system translated from the visible light-mode board and the same visible brittle star motif, not a new theme.\nReference use: Preserve the light board's modules, shadcn/tweakcn component coverage, branching analytics dashboard language, brittle-star arm banding, fine spine rhythm, reef-rubble texture, and typography. Translate shell-ivory and coral-grey surfaces into deep reef shadow, charcoal umber, dark coral grey, and warm slate surfaces, with calcite ivory text, banded-sand controls, spine-ochre focus rings, and warm umber primary accents.\nCanvas: exact 3840 x 2160 pixel 16:9 board, designed as a 4K source asset. Large readable labels, high-detail crisp UI, professional shadcn/tweakcn theme reference.\nLayout: clean 12-column product UI board with large modules, matching the light board's structure. Leave enough spacing around each module.\nRequired visible labels: Morphous Brittle Star, Brittle Star, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nFull component coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar nav, top nav, metric cards, branching flow chart, line chart, bar chart, donut chart, network-node map, loading state, empty state, error state.\nTypography: show Geist and Noto Sans JP; include short examples Heading, Body, Label, Metrics, 日本語, 分岐, 分析, 可読性.\nVisual system: deep reef-shadow background, dark coral-grey panels, charcoal umber cards, warm umber primary buttons, shell-ivory foreground text, banded-sand secondary controls, ochre focus rings, coral-grey dividers, subtle brittle-star arm stripe rails, fine spine tick marks, reef-rubble grain texture, 8px radii, restrained dark shadows and soft rim highlights.\nText: short UI labels only, no paragraphs. Exact title spelling: \"Morphous Brittle Star\".\nConstraints: no thick starfish, no beach photo, no aquarium scene, no random logo, no watermark, no neon, no pure black flat background, no generic purple/blue gradient, no unrelated saturated colors."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-caecilian",
+    "name": "Morphous Caecilian",
+    "motifName": "Caecilian",
+    "motifCategory": "amphibian",
+    "biome": "tropical soil",
+    "motif": "caecilian body"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Damp Loam",
+      "hex": "#e2ddd2",
+      "oklch": "oklch(0.898 0.016 86.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Umber",
+      "hex": "#241f1d",
+      "oklch": "oklch(0.244 0.009 43.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Slate Violet",
+      "hex": "#61536f",
+      "oklch": "oklch(0.467 0.048 307.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Root Paper",
+      "hex": "#f4f1ea",
+      "oklch": "oklch(0.959 0.010 87.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Soil Brown",
+      "hex": "#5a4638",
+      "oklch": "oklch(0.411 0.036 56.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Clay Signal",
+      "hex": "#b98258",
+      "oklch": "oklch(0.652 0.089 57.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wet Taupe",
+      "hex": "#8b8176",
+      "oklch": "oklch(0.609 0.020 70.1)"
+    },
+    {
+      "role": "Status",
+      "name": "Burrow Moss",
+      "hex": "#51624f",
+      "oklch": "oklch(0.476 0.037 142.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Plum",
+      "hex": "#372d42",
+      "oklch": "oklch(0.317 0.039 306.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.898 0.016 86.4)",
+    "foreground": "oklch(0.244 0.009 43.1)",
+    "card": "oklch(0.609 0.020 70.1)",
+    "card-foreground": "oklch(0.244 0.009 43.1)",
+    "popover": "oklch(0.609 0.020 70.1)",
+    "popover-foreground": "oklch(0.244 0.009 43.1)",
+    "primary": "oklch(0.467 0.048 307.3)",
+    "primary-foreground": "oklch(0.898 0.016 86.4)",
+    "secondary": "oklch(0.735 0.018 76.1)",
+    "secondary-foreground": "oklch(0.317 0.039 306.0)",
+    "muted": "oklch(0.693 0.018 76.1)",
+    "muted-foreground": "oklch(0.317 0.039 306.0)",
+    "accent": "oklch(0.411 0.036 56.5)",
+    "accent-foreground": "oklch(0.244 0.009 43.1)",
+    "destructive": "oklch(0.467 0.048 307.3)",
+    "border": "oklch(0.739 0.016 70.8)",
+    "input": "oklch(0.739 0.016 70.8)",
+    "ring": "oklch(0.959 0.010 87.5)",
+    "chart-1": "oklch(0.467 0.048 307.3)",
+    "chart-2": "oklch(0.959 0.010 87.5)",
+    "chart-3": "oklch(0.411 0.036 56.5)",
+    "chart-4": "oklch(0.652 0.089 57.8)",
+    "chart-5": "oklch(0.317 0.039 306.0)",
+    "sidebar": "oklch(0.710 0.019 73.0)",
+    "sidebar-foreground": "oklch(0.244 0.009 43.1)",
+    "sidebar-primary": "oklch(0.467 0.048 307.3)",
+    "sidebar-primary-foreground": "oklch(0.898 0.016 86.4)",
+    "sidebar-accent": "oklch(0.591 0.016 50.7)",
+    "sidebar-accent-foreground": "oklch(0.467 0.048 307.3)",
+    "sidebar-border": "oklch(0.739 0.016 70.8)",
+    "sidebar-ring": "oklch(0.959 0.010 87.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.244 0.009 43.1)",
+    "foreground": "oklch(0.898 0.016 86.4)",
+    "card": "oklch(0.292 0.026 315.4)",
+    "card-foreground": "oklch(0.898 0.016 86.4)",
+    "popover": "oklch(0.292 0.026 315.4)",
+    "popover-foreground": "oklch(0.898 0.016 86.4)",
+    "primary": "oklch(0.959 0.010 87.5)",
+    "primary-foreground": "oklch(0.244 0.009 43.1)",
+    "secondary": "oklch(0.474 0.026 311.9)",
+    "secondary-foreground": "oklch(0.898 0.016 86.4)",
+    "muted": "oklch(0.474 0.026 311.9)",
+    "muted-foreground": "oklch(0.926 0.013 86.8)",
+    "accent": "oklch(0.411 0.036 56.5)",
+    "accent-foreground": "oklch(0.244 0.009 43.1)",
+    "destructive": "oklch(0.467 0.048 307.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.959 0.010 87.5)",
+    "chart-1": "oklch(0.959 0.010 87.5)",
+    "chart-2": "oklch(0.467 0.048 307.3)",
+    "chart-3": "oklch(0.411 0.036 56.5)",
+    "chart-4": "oklch(0.652 0.089 57.8)",
+    "chart-5": "oklch(0.959 0.010 87.5)",
+    "sidebar": "oklch(0.277 0.020 322.5)",
+    "sidebar-foreground": "oklch(0.898 0.016 86.4)",
+    "sidebar-primary": "oklch(0.959 0.010 87.5)",
+    "sidebar-primary-foreground": "oklch(0.244 0.009 43.1)",
+    "sidebar-accent": "oklch(0.474 0.026 311.9)",
+    "sidebar-accent-foreground": "oklch(0.898 0.016 86.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.959 0.010 87.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact operational English UI with Noto Sans JP guidance for Japanese sensor labels, status states, and dense table hierarchy.",
+  "layout": "Dense 8px data grids, annular groove dividers, soil-layer sidebars, 6px to 8px component radius, restrained shadows, and muted dashboard surfaces for repeated monitoring work.",
+  "tags": [
+    "caecilian",
+    "amphibian",
+    "tropical-soil",
+    "slate-violet",
+    "soil-brown",
+    "subsurface",
+    "data-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-caecilian/motif.png",
+    "board": "/systems/morphous-caecilian/design-system-light.png",
+    "darkBoard": "/systems/morphous-caecilian/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-caecilian/theme.css",
+    "themeJson": "/systems/morphous-caecilian/theme.json",
+    "promptsJson": "/systems/morphous-caecilian/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent caecilian motif",
+      "asset": "/systems/morphous-caecilian/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Caecilian transparent motif chroma-key source\nPrimary request: Create only a caecilian body motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A realistic caecilian amphibian with accurate limbless anatomy, elongated smooth ringed body, subtle annular grooves, blunt burrowing head, tiny reduced eyes, damp satin skin. Palette is slate violet, muted plum gray, soil brown, wet taupe, and subdued clay highlights. Distinctive subsurface tropical soil creature, not a snake, not a worm.\nComposition/framing: centered complete side-profile cutout with a gentle S-curve, generous padding, full body visible from head to tail tip, not cropped. Clean studio lighting that preserves damp skin texture and body ring detail. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no soil scene, no leaves, no rocks, no props, no text, no watermark, no second subject, no stylized cartoon, no floor plane, no shadow, no snake fangs, no scales."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-caecilian/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Caecilian light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Caecilian\", derived from a caecilian body motif: smooth ringed slate-violet amphibian skin, damp soil-brown tropical underground habitat, muted clay highlights, and subsurface sensing/data-system mood. This board is a source reference for implementing a shadcn/tweakcn-compatible operational data interface.\nCanvas: exactly 16:9 high-resolution design-system presentation, 3840x2160 composition, clean professional UI board with large readable labels.\nRequired visible sections: Morphous Caecilian, Caecilian, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from annular caecilian body rings, slick slate-violet skin, soil brown burrow layers, damp earth neutrals, clay tan highlights, and quiet underground biological sensing. The board must read as caecilian body and tropical soil data system, not snake, worm, generic purple gradient, or cave fantasy.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, left sidebar navigation, top status navigation, dashboard metric cards, soil-depth line chart, burrow humidity bar chart, segmented control, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: restrained shadcn/tweakcn-style subsurface data dashboard, precise 8px grid, 6px to 8px card radius, warm damp-earth surfaces, slate-violet primary actions, soil-brown sidebars, quiet violet focus rings, annular groove dividers, subtle layered-soil texture bands, restrained contrast, dense but organized operational dashboard UI.\nColor palette: damp loam #e2ddd2, root paper #f4f1ea, ink umber #241f1d, slate violet #61536f, deep plum #372d42, soil brown #5a4638, wet taupe #8b8176, clay signal #b98258, burrow moss #51624f, silt border #c7beb2.\nConstraints: no neon colors, no saturated purple/blue gradients, no one-note beige palette, no snake identity, no worm cartoon, no fantasy cave scene, no watermark, no random brand names, no misspelling of \"Morphous Caecilian\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-caecilian/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Caecilian dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Caecilian\". It must feel like the same light-mode caecilian subsurface data system translated to dark mode, not a new theme, and it must remain derived from caecilian annular body rings, slick slate-violet amphibian skin, soil-brown burrow layers, and damp earth neutrals.\nCanvas: exactly 16:9 high-resolution design-system presentation, 3840x2160 composition, clean professional UI board with large readable labels.\nRequired visible sections: Morphous Caecilian, Caecilian, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the caecilian system language: near-black wet soil backgrounds, slate-violet foreground actions, damp taupe cards, soil-brown navigation, clay signal highlights, burrow moss status, fine annular groove dividers, subtle layered-earth texture bands. Must read as caecilian body and tropical soil sensing dashboard, not snake, worm, generic purple gradient, or sci-fi neon.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, left sidebar navigation, top status navigation, dashboard metric cards, soil-depth line chart, burrow humidity bar chart, segmented control, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep wet-loam backgrounds, matte dark plum panels, readable root-paper text, slate-violet controls, quiet clay chart highlights, soil-brown borders, moss status chips, restrained contrast, crisp shadcn/tweakcn components, 8px grid, 6px to 8px card radius.\nColor palette: wet soil #171412, deep plum #2a2131, slate violet #776587, dusk violet #a997ba, damp taupe #6f665f, soil brown #4d382b, root paper #ece6dc, clay signal #c58b61, burrow moss #6f8066, dark border #3a302c.\nConstraints: no neon colors, no saturated purple/blue gradients, no pure-black-only flat background, no snake identity, no worm cartoon, no fantasy cave scene, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Caecilian\"."
+    }
+  ]
+}

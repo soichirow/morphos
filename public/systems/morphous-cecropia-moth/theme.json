@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cecropia-moth",
+    "name": "Morphous Cecropia Moth",
+    "motifName": "Cecropia Moth",
+    "motifCategory": "insect",
+    "biome": "deciduous forest",
+    "motif": "cecropia moth wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Archive Cream",
+      "hex": "#F7F2E8",
+      "oklch": "oklch(0.962 0.014 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Charcoal",
+      "hex": "#2B2523",
+      "oklch": "oklch(0.270 0.010 39.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cecropia Russet",
+      "hex": "#B5523A",
+      "oklch": "oklch(0.559 0.134 34.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bark Umber",
+      "hex": "#6B4A3A",
+      "oklch": "oklch(0.441 0.052 46.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Crescent Cream",
+      "hex": "#FFF2E1",
+      "oklch": "oklch(0.967 0.026 74.8)"
+    },
+    {
+      "role": "Support",
+      "name": "Forest Moss",
+      "hex": "#5C6B46",
+      "oklch": "oklch(0.505 0.059 126.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Scale Taupe",
+      "hex": "#D8C9B4",
+      "oklch": "oklch(0.843 0.033 76.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Vein Rosewood",
+      "hex": "#8A3F33",
+      "oklch": "oklch(0.463 0.105 30.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cocoon Gold",
+      "hex": "#C8A15A",
+      "oklch": "oklch(0.730 0.101 81.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.014 84.6)",
+    "foreground": "oklch(0.270 0.010 39.3)",
+    "card": "oklch(0.843 0.033 76.4)",
+    "card-foreground": "oklch(0.270 0.010 39.3)",
+    "popover": "oklch(0.843 0.033 76.4)",
+    "popover-foreground": "oklch(0.270 0.010 39.3)",
+    "primary": "oklch(0.559 0.134 34.9)",
+    "primary-foreground": "oklch(0.962 0.014 84.6)",
+    "secondary": "oklch(0.893 0.025 77.4)",
+    "secondary-foreground": "oklch(0.463 0.105 30.8)",
+    "muted": "oklch(0.876 0.027 74.7)",
+    "muted-foreground": "oklch(0.463 0.105 30.8)",
+    "accent": "oklch(0.967 0.026 74.8)",
+    "accent-foreground": "oklch(0.270 0.010 39.3)",
+    "destructive": "oklch(0.559 0.134 34.9)",
+    "border": "oklch(0.704 0.038 63.0)",
+    "input": "oklch(0.704 0.038 63.0)",
+    "ring": "oklch(0.441 0.052 46.8)",
+    "chart-1": "oklch(0.559 0.134 34.9)",
+    "chart-2": "oklch(0.441 0.052 46.8)",
+    "chart-3": "oklch(0.967 0.026 74.8)",
+    "chart-4": "oklch(0.730 0.101 81.1)",
+    "chart-5": "oklch(0.463 0.105 30.8)",
+    "sidebar": "oklch(0.884 0.026 76.8)",
+    "sidebar-foreground": "oklch(0.270 0.010 39.3)",
+    "sidebar-primary": "oklch(0.559 0.134 34.9)",
+    "sidebar-primary-foreground": "oklch(0.962 0.014 84.6)",
+    "sidebar-accent": "oklch(0.808 0.042 63.5)",
+    "sidebar-accent-foreground": "oklch(0.559 0.134 34.9)",
+    "sidebar-border": "oklch(0.704 0.038 63.0)",
+    "sidebar-ring": "oklch(0.441 0.052 46.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.270 0.010 39.3)",
+    "foreground": "oklch(0.962 0.014 84.6)",
+    "card": "oklch(0.398 0.076 30.0)",
+    "card-foreground": "oklch(0.962 0.014 84.6)",
+    "popover": "oklch(0.398 0.076 30.0)",
+    "popover-foreground": "oklch(0.962 0.014 84.6)",
+    "primary": "oklch(0.441 0.052 46.8)",
+    "primary-foreground": "oklch(0.270 0.010 39.3)",
+    "secondary": "oklch(0.456 0.094 31.6)",
+    "secondary-foreground": "oklch(0.962 0.014 84.6)",
+    "muted": "oklch(0.456 0.094 31.6)",
+    "muted-foreground": "oklch(0.737 0.027 55.9)",
+    "accent": "oklch(0.967 0.026 74.8)",
+    "accent-foreground": "oklch(0.270 0.010 39.3)",
+    "destructive": "oklch(0.559 0.134 34.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.441 0.052 46.8)",
+    "chart-1": "oklch(0.441 0.052 46.8)",
+    "chart-2": "oklch(0.559 0.134 34.9)",
+    "chart-3": "oklch(0.967 0.026 74.8)",
+    "chart-4": "oklch(0.730 0.101 81.1)",
+    "chart-5": "oklch(0.441 0.052 46.8)",
+    "sidebar": "oklch(0.359 0.057 31.2)",
+    "sidebar-foreground": "oklch(0.962 0.014 84.6)",
+    "sidebar-primary": "oklch(0.441 0.052 46.8)",
+    "sidebar-primary-foreground": "oklch(0.270 0.010 39.3)",
+    "sidebar-accent": "oklch(0.456 0.094 31.6)",
+    "sidebar-accent-foreground": "oklch(0.962 0.014 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.441 0.052 46.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "A calm editorial sans for English product UI paired with Noto Sans JP guidance for Japanese labels, compact dashboards, and archival reading surfaces.",
+  "layout": "Precise 8px grids, 8px radii, crescent badge motifs, charcoal separators, warm paper panels, and wing-scale texture used as restrained product UI atmosphere.",
+  "tags": [
+    "cecropia-moth",
+    "moth",
+    "insect",
+    "deciduous-forest",
+    "warm-archive",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cecropia-moth/motif.png",
+    "board": "/systems/morphous-cecropia-moth/design-system-light.png",
+    "darkBoard": "/systems/morphous-cecropia-moth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cecropia-moth/theme.css",
+    "themeJson": "/systems/morphous-cecropia-moth/theme.json",
+    "promptsJson": "/systems/morphous-cecropia-moth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Cecropia Moth motif",
+      "asset": "/systems/morphous-cecropia-moth/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated cecropia moth motif for a design-system catalog, no environment, no props, no text.\nSubject: A single adult cecropia moth with accurate broad rounded wings spread flat, red-brown and warm russet wing fields, cream crescent moon eye markings, charcoal and umber borders, subtle tan vein structure, soft moth body and antennae, natural wing-scale texture, crisp silhouette edges.\nComposition/framing: centered complete cutout with generous padding; show the full moth, both wings, body, antennae, and all crescent markings without cropping.\nLighting/mood: clean studio light that preserves red brown cream crescent charcoal colors and fine wing texture.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no flowers, no leaves, no branch, no landscape, no second insect, no text, no watermark, no props, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-cecropia-moth/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Cecropia Moth\" / \"Cecropia Moth Wing\", a warm archive system derived from a cecropia moth wing motif.\nReference use: Base every palette and UI detail on cecropia moth wings: red brown and warm russet fields, cream crescent moon markings, charcoal borders, umber veins, dusty tan wing scales, soft deciduous forest neutrals. The board must visibly respect these motif colors.\nCanvas: wide 16:9 design-system board, 4K-class, clean grid, enough breathing room.\nResolution and legibility: high-resolution source board, use large readable labels, avoid dense tiny text, crisp UI details.\nRequired visible sections: title \"Morphous Cecropia Moth\", motif story, palette swatches, typography, Japanese typography guidance, navigation, components, dashboard/data/charts, forms, table, command/search, status states, texture, radius tokens, spacing tokens, shadow tokens, CSS variable token examples, sample usage.\nTypography: include English and Japanese examples; recommend a calm editorial sans for English and Noto Sans JP style guidance for Japanese product UI.\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, sidebar navigation, top nav, chart cards, empty/error/loading states.\nStyle/medium: premium shadcn/tweakcn-style product design system, warm archive product UI, precise 8px grid, 8px card radius, subtle wing-scale paper texture, crescent badges, charcoal separators, russet primary actions, cream surfaces, tan muted panels, restrained forest undertones.\nColor palette names to show: Archive Cream, Wing Charcoal, Cecropia Russet, Crescent Cream, Bark Umber, Scale Taupe, Forest Moss, Vein Rosewood, Cocoon Gold.\nText: short readable UI labels only; include English and Japanese guidance but no paragraphs.\nConstraints: no monarch butterfly orange, no generic purple or blue gradients, no neon colors, no unrelated saturated colors, no random brand names, no watermark, no misspellings, no cropped illegible labels."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-cecropia-moth/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Cecropia Moth\" / \"Cecropia Moth Wing\". It must feel like the same warm archive system translated to dark mode, not a new theme.\nReference use: Use the same cecropia moth wing language as the light board: red brown and warm russet accents, cream crescent moon markings, charcoal borders, umber veins, dusty tan wing-scale texture, deciduous forest undertones. Preserve the component style, typography, spacing, crescent badges, charcoal separators, and archive mood.\nCanvas: wide 16:9 design-system board, 4K-class, clean grid, enough breathing room.\nResolution and legibility: high-resolution source board, use large readable labels, avoid dense tiny text, crisp UI details.\nRequired visible sections: title \"Morphous Cecropia Moth\", label \"Dark Mode\", palette swatches, typography, Japanese typography guidance, navigation, components, dashboard/data/charts, forms, table, command/search, status states, texture, radius tokens, spacing tokens, shadow tokens, CSS variable token examples, sample usage.\nTypography: include English and Japanese examples; recommend a calm editorial sans for English and Noto Sans JP style guidance for Japanese product UI.\nComponents: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, sidebar navigation, top nav, chart cards, empty/error/loading states.\nVisual details: dark background derived from Wing Charcoal and deep rosewood, warm cream foreground, russet primary actions, cocoon gold focus rings, forest moss support colors, subtle moth wing-scale paper texture, restrained contrast, crisp shadcn-style controls.\nColor palette names to show: Night Charcoal, Moon Cream, Cecropia Russet, Bark Umber, Scale Taupe, Forest Moss, Vein Rosewood, Cocoon Gold, Shadow Plum Brown.\nText: short readable UI labels only; include English and Japanese guidance but no paragraphs.\nConstraints: no neon colors, no pure flat black background, no generic purple or blue gradients, no unrelated saturated colors, no random brand names, no watermark, no misspellings, no cropped illegible labels."
+    }
+  ]
+}

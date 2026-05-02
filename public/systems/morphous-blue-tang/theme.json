@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blue-tang",
+    "name": "Morphous Blue Tang",
+    "motifName": "Blue Tang",
+    "motifCategory": "fish",
+    "biome": "coral reef",
+    "motif": "blue tang profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Foam",
+      "hex": "#F7FCFF",
+      "oklch": "oklch(0.988 0.007 233.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Navy",
+      "hex": "#001026",
+      "oklch": "oklch(0.173 0.053 252.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Royal Tang Blue",
+      "hex": "#0D47FF",
+      "oklch": "oklch(0.512 0.273 264.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Signal Tail Yellow",
+      "hex": "#FFD600",
+      "oklch": "oklch(0.885 0.182 94.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Reef Teal",
+      "hex": "#00B5B8",
+      "oklch": "oklch(0.701 0.119 196.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Ocean Cyan",
+      "hex": "#22D3EE",
+      "oklch": "oklch(0.797 0.134 211.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Coral Sand",
+      "hex": "#F5F3EB",
+      "oklch": "oklch(0.963 0.011 95.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Seafoam",
+      "hex": "#CFFAFA",
+      "oklch": "oklch(0.955 0.044 196.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Marine Blue",
+      "hex": "#0A2D6A",
+      "oklch": "oklch(0.315 0.114 260.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Black Marking",
+      "hex": "#0B0B0F",
+      "oklch": "oklch(0.152 0.009 285.3)"
+    },
+    {
+      "role": "Warning",
+      "name": "Tail Flash",
+      "hex": "#FFD600",
+      "oklch": "oklch(0.885 0.182 94.9)"
+    },
+    {
+      "role": "Danger",
+      "name": "Coral Alert",
+      "hex": "#FF3B30",
+      "oklch": "oklch(0.654 0.232 28.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.988 0.007 233.6)",
+    "foreground": "oklch(0.173 0.053 252.6)",
+    "card": "oklch(0.963 0.011 95.2)",
+    "card-foreground": "oklch(0.173 0.053 252.6)",
+    "popover": "oklch(0.963 0.011 95.2)",
+    "popover-foreground": "oklch(0.173 0.053 252.6)",
+    "primary": "oklch(0.512 0.273 264.2)",
+    "primary-foreground": "oklch(0.988 0.007 233.6)",
+    "secondary": "oklch(0.974 0.005 117.9)",
+    "secondary-foreground": "oklch(0.152 0.009 285.3)",
+    "muted": "oklch(0.972 0.007 106.5)",
+    "muted-foreground": "oklch(0.152 0.009 285.3)",
+    "accent": "oklch(0.701 0.119 196.9)",
+    "accent-foreground": "oklch(0.173 0.053 252.6)",
+    "destructive": "oklch(0.654 0.232 28.7)",
+    "border": "oklch(0.960 0.018 170.1)",
+    "input": "oklch(0.960 0.018 170.1)",
+    "ring": "oklch(0.797 0.134 211.5)",
+    "chart-1": "oklch(0.512 0.273 264.2)",
+    "chart-2": "oklch(0.885 0.182 94.9)",
+    "chart-3": "oklch(0.701 0.119 196.9)",
+    "chart-4": "oklch(0.797 0.134 211.5)",
+    "chart-5": "oklch(0.152 0.009 285.3)",
+    "sidebar": "oklch(0.972 0.005 106.5)",
+    "sidebar-foreground": "oklch(0.173 0.053 252.6)",
+    "sidebar-primary": "oklch(0.512 0.273 264.2)",
+    "sidebar-primary-foreground": "oklch(0.988 0.007 233.6)",
+    "sidebar-accent": "oklch(0.945 0.059 98.0)",
+    "sidebar-accent-foreground": "oklch(0.152 0.009 285.3)",
+    "sidebar-border": "oklch(0.960 0.018 170.1)",
+    "sidebar-ring": "oklch(0.797 0.134 211.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.173 0.053 252.6)",
+    "foreground": "oklch(0.988 0.007 233.6)",
+    "card": "oklch(0.158 0.024 259.3)",
+    "card-foreground": "oklch(0.988 0.007 233.6)",
+    "popover": "oklch(0.158 0.024 259.3)",
+    "popover-foreground": "oklch(0.988 0.007 233.6)",
+    "primary": "oklch(0.512 0.273 264.2)",
+    "primary-foreground": "oklch(0.988 0.007 233.6)",
+    "secondary": "oklch(0.230 0.085 266.9)",
+    "secondary-foreground": "oklch(0.988 0.007 233.6)",
+    "muted": "oklch(0.364 0.014 217.8)",
+    "muted-foreground": "oklch(0.973 0.023 203.4)",
+    "accent": "oklch(0.701 0.119 196.9)",
+    "accent-foreground": "oklch(0.173 0.053 252.6)",
+    "destructive": "oklch(0.654 0.232 28.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.797 0.134 211.5)",
+    "chart-1": "oklch(0.512 0.273 264.2)",
+    "chart-2": "oklch(0.885 0.182 94.9)",
+    "chart-3": "oklch(0.701 0.119 196.9)",
+    "chart-4": "oklch(0.797 0.134 211.5)",
+    "chart-5": "oklch(0.955 0.044 196.4)",
+    "sidebar": "oklch(0.162 0.032 255.6)",
+    "sidebar-foreground": "oklch(0.988 0.007 233.6)",
+    "sidebar-primary": "oklch(0.512 0.273 264.2)",
+    "sidebar-primary-foreground": "oklch(0.988 0.007 233.6)",
+    "sidebar-accent": "oklch(0.208 0.064 267.5)",
+    "sidebar-accent-foreground": "oklch(0.988 0.007 233.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.797 0.134 211.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear English navigation UI with stable tabular metrics and Noto Sans JP guidance for Japanese reef operations, monitoring, forms, tables, and dashboard screens.",
+  "layout": "Dense but bright 8px product grids, left navigation rails, top search bars, reef dashboard cards, data tables, command palettes, chart panels, scale-dot textures, fin-stripe samples, and restrained 8px cards.",
+  "tags": [
+    "blue-tang",
+    "fish",
+    "coral-reef",
+    "bright-navigation",
+    "royal-blue",
+    "signal-yellow",
+    "reef-teal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blue-tang/motif.png",
+    "board": "/systems/morphous-blue-tang/design-system-light.png",
+    "darkBoard": "/systems/morphous-blue-tang/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blue-tang/theme.css",
+    "themeJson": "/systems/morphous-blue-tang/theme.json",
+    "promptsJson": "/systems/morphous-blue-tang/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent blue tang profile motif",
+      "asset": "/systems/morphous-blue-tang/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Blue Tang transparent motif chroma-key source\nPrimary request: Create only a blue tang fish profile for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: An accurate royal blue tang fish in clean side profile, full body visible, oval compressed reef-fish shape, saturated royal blue body, vivid yellow tail fin, black palette-shaped marking across the body and dorsal area, small black eye, smooth reflective scales, crisp fins, natural tropical reef anatomy. The identity must read as blue tang, not butterflyfish, angelfish, clownfish, or generic tropical fish.\nComposition/framing: centered complete cutout with generous padding; include the entire fish, all fins, nose, tail, and silhouette without cropping. Face points right. Clean studio light preserving blue, yellow, black, and subtle teal scale details. No cast shadow.\nTransparent workflow: place the fish on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the fish.\nConstraints: no coral, no reef scene, no water background, no bubbles, no props, no second fish, no text, no watermark, no logo, no frame."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-blue-tang/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blue Tang light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Blue Tang\", derived from a royal blue, yellow, black, reef-teal blue tang fish profile. This board is a source reference for implementing a shadcn/tweakcn-compatible bright navigation system.\nCanvas: exact wide 16:9 design-system presentation, intended final asset 3840 x 2160. Make it feel like a polished 4K product design board with large readable labels, precise grid, and no tiny text.\nRequired visible sections: Morphous Blue Tang, Blue Tang Profile, Palette, Typography, Japanese Typography, Components, Navigation, Reef Dashboard / Data, Forms, Table, Command / Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Asset Examples.\nReference use: Extract colors and interaction language from a blue tang fish: electric royal blue body, vivid yellow tail, black palette-shaped marking, reef-teal water hints, bright cyan scale highlights, deep navy shadows, pale reef-sand/foam surfaces. The board must read as blue tang profile and coral reef navigation, not generic blue UI.\nTypography: English navigation and operations UI examples with Japanese typography guidance; use short readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use tabular numbers for dashboard metrics.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, icon buttons, inputs, select, textarea, checkbox, radio, switch, segmented control, tabs, badges, alerts, cards, metric cards, reef navigation sidebar, top nav, breadcrumb, table rows, data filters, command search palette, date picker, pagination, empty/loading/error/success states, progress, stepper, tooltip, dropdown menu, line chart, bar chart, donut chart, area chart, spacing scale, radius samples, border tokens, shadow tokens, texture samples, small icon set, token swatches.\nStyle: bright navigation system, crisp shadcn/tweakcn product UI, restrained 8px card radius, high-contrast royal-blue nav rails, yellow active indicators and alerts, reef-teal focus rings and charts, black marking-inspired dividers, pale foam backgrounds, scale-dot and fin-stripe texture samples, dense but scannable dashboards, polished component examples.\nColor palette: royal blue, signal yellow, black/navy, reef teal, cyan highlights, pale foam, coral-sand neutral. Avoid unrelated colors.\nConstraints: no generic purple or blue gradient dominance, no neon nightclub look, no dark-only board, no stock reef photo collage, no extra animals, no random brand names, no watermark, no misspelling of \"Morphous Blue Tang\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-blue-tang/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blue Tang dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Blue Tang\" / \"Blue Tang Profile\". Translate the same light board into dark mode; do not invent a new unrelated theme. It remains a bright navigation system, but optimized for dark-mode product dashboards.\nCanvas: exact wide 16:9 design-system presentation, intended final asset 3840 x 2160. Make it feel like a polished 4K product design board with large readable labels, precise grid, and no tiny text.\nRequired visible sections: Morphous Blue Tang, Blue Tang Profile, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Reef Dashboard / Data, Forms, Table, Command / Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Asset Examples.\nReference use: Preserve electric royal-blue navigation, vivid yellow tail accents, black palette-shaped marking dividers, reef-teal focus rings, ocean-cyan chart highlights, pale foam text, coral-sand subdued neutrals, scale-dot texture, fin-stripe texture, and the same shadcn/tweakcn component language. The board must read as blue tang profile and coral reef navigation, not generic dark blue UI.\nTypography: English navigation and operations UI examples with Japanese typography guidance; use short readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use tabular numbers for dashboard metrics.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, icon buttons, inputs, select, textarea, checkbox, radio, switch, segmented control, tabs, badges, alerts, cards, metric cards, reef navigation sidebar, top nav, breadcrumb, table rows, data filters, command search palette, date picker, pagination, empty/loading/error/success states, progress, stepper, tooltip, dropdown menu, line chart, bar chart, donut chart, area chart, spacing scale, radius samples, border tokens, shadow tokens, texture samples, small icon set, token swatches.\nVisual details: deep navy ocean background, blue-black panels, electric royal-blue active rails, yellow active indicators and warning states, reef-teal focus rings and success chips, cyan water charts, thin black marking-inspired separators, subtle scale-dot and fin-stripe texture overlays, restrained contrast, crisp controls and dashboards, 8px card radius.\nColor palette: deep navy, blue-black, royal blue, signal yellow, reef teal, ocean cyan, pale foam, muted coral sand. Avoid unrelated colors.\nConstraints: no neon nightclub look, no pure black flat background, no generic purple or blue gradient dominance, no gaming UI, no stock reef photo collage, no extra animals, no random brand names, no watermark, no misspelling of \"Morphous Blue Tang\", no tiny unreadable paragraphs."
+    }
+  ]
+}

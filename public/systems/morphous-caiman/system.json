@@ -1,0 +1,97 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-caiman",
+  "name": "Morphous Caiman",
+  "motifName": "Caiman",
+  "motifCategory": "reptile",
+  "biome": "amazon oxbow",
+  "motif": "caiman scales",
+  "description": "A shadcn/tweakcn-compatible compact control system derived from caiman scales in an Amazon oxbow: bronze-green armored actions, water-black navigation, olive scute state surfaces, muddy bronze dividers, and dense dashboards for charts, tables, forms, status, and operational controls.",
+  "typography": "Readable compact English operations UI with tabular numbers, short status labels, and Noto Sans JP guidance for Japanese dashboard, form, table, and navigation labels.",
+  "layout": "Dense 8px control grid, 6px to 8px radii, black-water side navigation, compact metric panels, data tables, form stacks, bronze-green focus rings, and subtle scale-texture surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "caiman",
+    "reptile",
+    "amazon-oxbow",
+    "caiman-scales",
+    "bronze-green",
+    "water-black",
+    "compact-control",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Oxbow Foam",
+      "hex": "#F2F0E4"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Water",
+      "hex": "#0F1113"
+    },
+    {
+      "role": "Primary",
+      "name": "Bronze",
+      "hex": "#685D3A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Olive Scute",
+      "hex": "#5E6B3D"
+    },
+    {
+      "role": "Accent",
+      "name": "Mineral Water",
+      "hex": "#679A8B"
+    },
+    {
+      "role": "Signal",
+      "name": "Wet Verdigris",
+      "hex": "#3E7768"
+    },
+    {
+      "role": "Surface",
+      "name": "River Sand",
+      "hex": "#D7D2C2"
+    },
+    {
+      "role": "Muted",
+      "name": "Mud Brown",
+      "hex": "#4A3A2A"
+    },
+    {
+      "role": "Border",
+      "name": "Mud Bronze",
+      "hex": "#7A6641"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Water",
+      "hex": "#1C2226"
+    },
+    {
+      "role": "Warning",
+      "name": "Eye Amber",
+      "hex": "#C59A3D"
+    },
+    {
+      "role": "Danger",
+      "name": "Bank Clay",
+      "hex": "#9F4F34"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

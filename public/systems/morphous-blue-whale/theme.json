@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blue-whale",
+    "name": "Morphous Blue Whale",
+    "motifName": "Blue Whale",
+    "motifCategory": "mammal",
+    "biome": "deep ocean",
+    "motif": "blue whale skin"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver Foam",
+      "hex": "#f5f7fa",
+      "oklch": "oklch(0.975 0.005 258.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Navy",
+      "hex": "#0b1f33",
+      "oklch": "oklch(0.234 0.047 250.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Whale Blue",
+      "hex": "#30587a",
+      "oklch": "oklch(0.447 0.072 246.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blue Grey",
+      "hex": "#5a7896",
+      "oklch": "oklch(0.561 0.058 248.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Current Cyan",
+      "hex": "#2f9ec0",
+      "oklch": "oklch(0.653 0.108 223.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sunlit Kelp",
+      "hex": "#e0a84a",
+      "oklch": "oklch(0.767 0.128 77.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Surface",
+      "hex": "#e8eef2",
+      "oklch": "oklch(0.946 0.008 236.6)"
+    },
+    {
+      "role": "Success",
+      "name": "Drift Teal",
+      "hex": "#66b6c1",
+      "oklch": "oklch(0.729 0.080 207.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ocean Shadow",
+      "hex": "#123049",
+      "oklch": "oklch(0.300 0.058 246.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.005 258.3)",
+    "foreground": "oklch(0.234 0.047 250.5)",
+    "card": "oklch(0.946 0.008 236.6)",
+    "card-foreground": "oklch(0.234 0.047 250.5)",
+    "popover": "oklch(0.946 0.008 236.6)",
+    "popover-foreground": "oklch(0.234 0.047 250.5)",
+    "primary": "oklch(0.447 0.072 246.0)",
+    "primary-foreground": "oklch(0.975 0.005 258.3)",
+    "secondary": "oklch(0.958 0.007 233.6)",
+    "secondary-foreground": "oklch(0.300 0.058 246.5)",
+    "muted": "oklch(0.955 0.007 233.6)",
+    "muted-foreground": "oklch(0.300 0.058 246.5)",
+    "accent": "oklch(0.653 0.108 223.1)",
+    "accent-foreground": "oklch(0.234 0.047 250.5)",
+    "destructive": "oklch(0.447 0.072 246.0)",
+    "border": "oklch(0.813 0.025 244.2)",
+    "input": "oklch(0.813 0.025 244.2)",
+    "ring": "oklch(0.561 0.058 248.9)",
+    "chart-1": "oklch(0.447 0.072 246.0)",
+    "chart-2": "oklch(0.561 0.058 248.9)",
+    "chart-3": "oklch(0.653 0.108 223.1)",
+    "chart-4": "oklch(0.767 0.128 77.6)",
+    "chart-5": "oklch(0.300 0.058 246.5)",
+    "sidebar": "oklch(0.956 0.008 241.7)",
+    "sidebar-foreground": "oklch(0.234 0.047 250.5)",
+    "sidebar-primary": "oklch(0.447 0.072 246.0)",
+    "sidebar-primary-foreground": "oklch(0.975 0.005 258.3)",
+    "sidebar-accent": "oklch(0.889 0.015 241.8)",
+    "sidebar-accent-foreground": "oklch(0.447 0.072 246.0)",
+    "sidebar-border": "oklch(0.813 0.025 244.2)",
+    "sidebar-ring": "oklch(0.561 0.058 248.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.234 0.047 250.5)",
+    "foreground": "oklch(0.975 0.005 258.3)",
+    "card": "oklch(0.278 0.055 248.8)",
+    "card-foreground": "oklch(0.975 0.005 258.3)",
+    "popover": "oklch(0.278 0.055 248.8)",
+    "popover-foreground": "oklch(0.975 0.005 258.3)",
+    "primary": "oklch(0.561 0.058 248.9)",
+    "primary-foreground": "oklch(0.234 0.047 250.5)",
+    "secondary": "oklch(0.361 0.058 246.4)",
+    "secondary-foreground": "oklch(0.975 0.005 258.3)",
+    "muted": "oklch(0.361 0.058 246.4)",
+    "muted-foreground": "oklch(0.795 0.027 248.2)",
+    "accent": "oklch(0.653 0.108 223.1)",
+    "accent-foreground": "oklch(0.234 0.047 250.5)",
+    "destructive": "oklch(0.447 0.072 246.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.561 0.058 248.9)",
+    "chart-1": "oklch(0.561 0.058 248.9)",
+    "chart-2": "oklch(0.447 0.072 246.0)",
+    "chart-3": "oklch(0.653 0.108 223.1)",
+    "chart-4": "oklch(0.767 0.128 77.6)",
+    "chart-5": "oklch(0.561 0.058 248.9)",
+    "sidebar": "oklch(0.265 0.052 247.7)",
+    "sidebar-foreground": "oklch(0.975 0.005 258.3)",
+    "sidebar-primary": "oklch(0.561 0.058 248.9)",
+    "sidebar-primary-foreground": "oklch(0.234 0.047 250.5)",
+    "sidebar-accent": "oklch(0.361 0.058 246.4)",
+    "sidebar-accent-foreground": "oklch(0.975 0.005 258.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.561 0.058 248.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English data operations UI with Noto Sans JP guidance for Japanese labels, status tables, and high-density numeric dashboards.",
+  "layout": "Large-scale 8px data grids, throat-groove dividers, mottled whale-skin texture, calm cards, deep ocean shadows, and restrained high-volume dashboard density.",
+  "tags": [
+    "blue-whale",
+    "mammal",
+    "deep-ocean",
+    "blue-grey",
+    "silver",
+    "large-scale-data",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blue-whale/motif.png",
+    "board": "/systems/morphous-blue-whale/design-system-light.png",
+    "darkBoard": "/systems/morphous-blue-whale/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blue-whale/theme.css",
+    "themeJson": "/systems/morphous-blue-whale/theme.json",
+    "promptsJson": "/systems/morphous-blue-whale/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent blue whale motif",
+      "asset": "/systems/morphous-blue-whale/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Blue Whale transparent motif chroma-key source\nPrimary request: Create only a blue whale mammal motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A majestic blue whale in calm side profile with accurate long streamlined anatomy, broad flat rostrum, tiny dorsal fin, pleated throat grooves, mottled blue-grey and silver skin, subtle deep-ocean shadow gradients, pale underside, no water spray, no environment. It should feel massive, quiet, and data-system ready while remaining a natural whale cutout.\nComposition/framing: centered complete cutout with generous padding; include the full whale from nose to flukes without cropping. Clean studio lighting, crisp subject edges, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no shark, no dolphin, no humpback whale, no ocean landscape, no water surface, no bubbles, no props, no text, no watermark, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-blue-whale/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blue Whale light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Blue Whale\", derived from the visible blue whale cutout reference. This board is a source reference for implementing a shadcn/tweakcn-compatible large scale data system.\nCanvas: exact 16:9 high-resolution board, target 3840x2160, clean professional UI design-system presentation.\nResolution and legibility: use large readable labels, structured panels, and avoid dense tiny text. The board must remain legible in a catalog preview.\nRequired visible sections: Morphous Blue Whale, Blue Whale, Palette, Typography, English UI, Japanese UI, Components, Navigation, Dashboard, Data Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract the palette and interaction language from blue whale skin: blue-grey body, silver mottling, pale throat grooves, deep ocean shadows, abyss navy, misty waterline neutrals, and quiet scale. The board must read as blue whale skin and large-scale data system, not generic blue SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, dense data table rows, command palette, left navigation, data-system dashboard metric cards, time-series charts, distribution bars, queue table, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, pale silver-ocean background, blue-grey primary actions, abyss navy text, whale-skin mottled texture, throat-groove divider lines, large-scale calm dashboard density, restrained shadows.\nConstraints: no dolphin or shark imagery, no ocean tourist poster, no generic purple/blue gradients, no unrelated saturated colors, no one-note all-blue palette, no watermark, no random brand names, no misspelling of \"Morphous Blue Whale\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-blue-whale/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Blue Whale dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Blue Whale\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible blue whale cutout.\nCanvas: exact 16:9 high-resolution board, target 3840x2160, clean professional UI design-system presentation.\nResolution and legibility: use large readable labels, structured panels, and avoid dense tiny text. The board must remain legible in a catalog preview.\nRequired visible sections: Morphous Blue Whale, Blue Whale, Dark Mode, Palette, Typography, English UI, Japanese UI, Components, Navigation, Dashboard, Data Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the blue whale system language: abyss navy backgrounds, silver-foam text, blue-grey controls, mist and ice surfaces, deep-ocean shadows, cyan current focus states, subtle whale-skin mottling, throat-groove divider rhythm, 8px shadcn/tweakcn grid. Must read as blue whale skin and large-scale data system, not generic blue dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, dense data table rows, command palette, left navigation, data-system dashboard metric cards, time-series charts, distribution bars, queue table, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: abyss navy and ocean-shadow surfaces, silver-foam foreground, whale-blue active controls, current-cyan status, mist cards, blue-grey borders, mottled skin overlays, calm high-density data dashboard, restrained contrast, crisp cards and controls.\nConstraints: no dolphin or shark imagery, no ocean tourist poster, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no one-note all-blue palette, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Blue Whale\"."
+    }
+  ]
+}

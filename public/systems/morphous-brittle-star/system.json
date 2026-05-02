@@ -1,0 +1,159 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-brittle-star",
+  "name": "Morphous Brittle Star",
+  "motifName": "Brittle Star",
+  "motifCategory": "marine",
+  "biome": "Reef Rubble",
+  "motif": "brittle star arms",
+  "description": "A shadcn/tweakcn-compatible branching analytics system derived from brittle star arms: banded sand and warm umber actions, coral-grey surfaces, reef-slate text, spine-ochre focus states, and deep reef-shadow dark mode.",
+  "typography": "Geist for precise branching analytics UI with Noto Sans JP guidance for Japanese labels, compact metrics, readable tabular values, and multilingual dashboard scanning.",
+  "layout": "Dense but readable analytics layouts on an 8px grid with radial branch navigation, banded-arm progress rails, fine spine tick marks, reef-rubble texture accents, restrained borders, and compact chart-heavy panels.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "brittle-star",
+    "marine",
+    "reef-rubble",
+    "branching",
+    "analytics",
+    "banded",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Calcite Ivory",
+      "hex": "#F6F4F1",
+      "oklch": "oklch(0.968 0.005 78.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Beige",
+      "hex": "#EDE6DA",
+      "oklch": "oklch(0.927 0.018 81.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Banded Sand Tan",
+      "hex": "#D9C3A3",
+      "oklch": "oklch(0.827 0.050 77.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warm Umber",
+      "hex": "#7A4E36",
+      "oklch": "oklch(0.468 0.070 49.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Coral Grey",
+      "hex": "#B7B2AA",
+      "oklch": "oklch(0.765 0.013 79.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Slate",
+      "hex": "#4A5358",
+      "oklch": "oklch(0.436 0.014 232.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Spine Ochre",
+      "hex": "#DAA15A",
+      "oklch": "oklch(0.749 0.111 70.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Reef Shadow",
+      "hex": "#1E1B18",
+      "oklch": "oklch(0.224 0.007 67.4)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Charcoal Umber",
+      "hex": "#2B2521",
+      "oklch": "oklch(0.270 0.012 55.8)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.968 0.005 78.3)",
+    "foreground": "oklch(0.224 0.007 67.4)",
+    "card": "oklch(0.990 0.002 78.3)",
+    "card-foreground": "oklch(0.224 0.007 67.4)",
+    "popover": "oklch(0.990 0.002 78.3)",
+    "popover-foreground": "oklch(0.224 0.007 67.4)",
+    "primary": "oklch(0.468 0.070 49.0)",
+    "primary-foreground": "oklch(0.968 0.005 78.3)",
+    "secondary": "oklch(0.827 0.050 77.2)",
+    "secondary-foreground": "oklch(0.224 0.007 67.4)",
+    "muted": "oklch(0.927 0.018 81.3)",
+    "muted-foreground": "oklch(0.436 0.014 232.0)",
+    "accent": "oklch(0.749 0.111 70.7)",
+    "accent-foreground": "oklch(0.224 0.007 67.4)",
+    "destructive": "oklch(0.550 0.175 27.7)",
+    "border": "oklch(0.765 0.013 79.8)",
+    "input": "oklch(0.765 0.013 79.8)",
+    "ring": "oklch(0.749 0.111 70.7)",
+    "chart-1": "oklch(0.468 0.070 49.0)",
+    "chart-2": "oklch(0.749 0.111 70.7)",
+    "chart-3": "oklch(0.827 0.050 77.2)",
+    "chart-4": "oklch(0.436 0.014 232.0)",
+    "chart-5": "oklch(0.224 0.007 67.4)",
+    "sidebar": "oklch(0.927 0.018 81.3)",
+    "sidebar-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-primary": "oklch(0.468 0.070 49.0)",
+    "sidebar-primary-foreground": "oklch(0.968 0.005 78.3)",
+    "sidebar-accent": "oklch(0.827 0.050 77.2)",
+    "sidebar-accent-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-border": "oklch(0.765 0.013 79.8)",
+    "sidebar-ring": "oklch(0.749 0.111 70.7)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.224 0.007 67.4)",
+    "foreground": "oklch(0.968 0.005 78.3)",
+    "card": "oklch(0.270 0.012 55.8)",
+    "card-foreground": "oklch(0.968 0.005 78.3)",
+    "popover": "oklch(0.270 0.012 55.8)",
+    "popover-foreground": "oklch(0.968 0.005 78.3)",
+    "primary": "oklch(0.749 0.111 70.7)",
+    "primary-foreground": "oklch(0.224 0.007 67.4)",
+    "secondary": "oklch(0.400 0.047 46.7)",
+    "secondary-foreground": "oklch(0.968 0.005 78.3)",
+    "muted": "oklch(0.400 0.047 46.7)",
+    "muted-foreground": "oklch(0.827 0.050 77.2)",
+    "accent": "oklch(0.827 0.050 77.2)",
+    "accent-foreground": "oklch(0.224 0.007 67.4)",
+    "destructive": "oklch(0.550 0.175 27.7)",
+    "border": "oklch(0.927 0.018 81.3 / 14%)",
+    "input": "oklch(0.927 0.018 81.3 / 18%)",
+    "ring": "oklch(0.749 0.111 70.7)",
+    "chart-1": "oklch(0.749 0.111 70.7)",
+    "chart-2": "oklch(0.827 0.050 77.2)",
+    "chart-3": "oklch(0.468 0.070 49.0)",
+    "chart-4": "oklch(0.765 0.013 79.8)",
+    "chart-5": "oklch(0.436 0.014 232.0)",
+    "sidebar": "oklch(0.270 0.012 55.8)",
+    "sidebar-foreground": "oklch(0.968 0.005 78.3)",
+    "sidebar-primary": "oklch(0.749 0.111 70.7)",
+    "sidebar-primary-foreground": "oklch(0.224 0.007 67.4)",
+    "sidebar-accent": "oklch(0.400 0.047 46.7)",
+    "sidebar-accent-foreground": "oklch(0.968 0.005 78.3)",
+    "sidebar-border": "oklch(0.927 0.018 81.3 / 14%)",
+    "sidebar-ring": "oklch(0.749 0.111 70.7)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

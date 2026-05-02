@@ -1,0 +1,181 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-caracal",
+    "name": "Morphous Caracal",
+    "motifName": "Caracal Profile",
+    "motifCategory": "mammal",
+    "biome": "Dry savanna",
+    "motif": "cinnamon fur, black ear tufts, and sand-toned agility"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Savanna Sand",
+      "hex": "#ead5ad",
+      "oklch": "oklch(0.880 0.058 83.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ear Black",
+      "hex": "#17130f",
+      "oklch": "oklch(0.190 0.010 67.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Caracal Cinnamon",
+      "hex": "#b96f32",
+      "oklch": "oklch(0.612 0.120 57.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dust Sage",
+      "hex": "#8a8f68",
+      "oklch": "oklch(0.636 0.056 113.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Eye",
+      "hex": "#c7923a",
+      "oklch": "oklch(0.695 0.121 76.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cream Muzzle",
+      "hex": "#f6ead3",
+      "oklch": "oklch(0.940 0.033 83.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Sand",
+      "hex": "#f2e8cf",
+      "oklch": "oklch(0.932 0.035 88.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shadow Taupe",
+      "hex": "#7b6652",
+      "oklch": "oklch(0.525 0.040 65.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Umber",
+      "hex": "#4b2b1a",
+      "oklch": "oklch(0.326 0.055 48.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Warm Clay",
+      "hex": "#d58a4d",
+      "oklch": "oklch(0.699 0.120 58.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.880 0.058 83.5)",
+    "foreground": "oklch(0.190 0.010 67.1)",
+    "card": "oklch(0.932 0.035 88.8)",
+    "card-foreground": "oklch(0.190 0.010 67.1)",
+    "popover": "oklch(0.932 0.035 88.8)",
+    "popover-foreground": "oklch(0.190 0.010 67.1)",
+    "primary": "oklch(0.612 0.120 57.1)",
+    "primary-foreground": "oklch(0.880 0.058 83.5)",
+    "secondary": "oklch(0.911 0.044 85.2)",
+    "secondary-foreground": "oklch(0.326 0.055 48.1)",
+    "muted": "oklch(0.918 0.042 87.4)",
+    "muted-foreground": "oklch(0.326 0.055 48.1)",
+    "accent": "oklch(0.695 0.121 76.8)",
+    "accent-foreground": "oklch(0.190 0.010 67.1)",
+    "destructive": "oklch(0.612 0.120 57.1)",
+    "border": "oklch(0.791 0.035 80.3)",
+    "input": "oklch(0.791 0.035 80.3)",
+    "ring": "oklch(0.636 0.056 113.9)",
+    "chart-1": "oklch(0.612 0.120 57.1)",
+    "chart-2": "oklch(0.636 0.056 113.9)",
+    "chart-3": "oklch(0.695 0.121 76.8)",
+    "chart-4": "oklch(0.940 0.033 83.7)",
+    "chart-5": "oklch(0.326 0.055 48.1)",
+    "sidebar": "oklch(0.915 0.043 88.0)",
+    "sidebar-foreground": "oklch(0.190 0.010 67.1)",
+    "sidebar-primary": "oklch(0.612 0.120 57.1)",
+    "sidebar-primary-foreground": "oklch(0.880 0.058 83.5)",
+    "sidebar-accent": "oklch(0.892 0.043 79.8)",
+    "sidebar-accent-foreground": "oklch(0.612 0.120 57.1)",
+    "sidebar-border": "oklch(0.791 0.035 80.3)",
+    "sidebar-ring": "oklch(0.636 0.056 113.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.190 0.010 67.1)",
+    "foreground": "oklch(0.880 0.058 83.5)",
+    "card": "oklch(0.280 0.040 51.0)",
+    "card-foreground": "oklch(0.880 0.058 83.5)",
+    "popover": "oklch(0.280 0.040 51.0)",
+    "popover-foreground": "oklch(0.880 0.058 83.5)",
+    "primary": "oklch(0.636 0.056 113.9)",
+    "primary-foreground": "oklch(0.190 0.010 67.1)",
+    "secondary": "oklch(0.371 0.052 51.5)",
+    "secondary-foreground": "oklch(0.880 0.058 83.5)",
+    "muted": "oklch(0.371 0.052 51.5)",
+    "muted-foreground": "oklch(0.726 0.049 77.4)",
+    "accent": "oklch(0.695 0.121 76.8)",
+    "accent-foreground": "oklch(0.190 0.010 67.1)",
+    "destructive": "oklch(0.612 0.120 57.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.636 0.056 113.9)",
+    "chart-1": "oklch(0.636 0.056 113.9)",
+    "chart-2": "oklch(0.612 0.120 57.1)",
+    "chart-3": "oklch(0.695 0.121 76.8)",
+    "chart-4": "oklch(0.940 0.033 83.7)",
+    "chart-5": "oklch(0.525 0.040 65.4)",
+    "sidebar": "oklch(0.254 0.032 51.3)",
+    "sidebar-foreground": "oklch(0.880 0.058 83.5)",
+    "sidebar-primary": "oklch(0.636 0.056 113.9)",
+    "sidebar-primary-foreground": "oklch(0.190 0.010 67.1)",
+    "sidebar-accent": "oklch(0.371 0.052 51.5)",
+    "sidebar-accent-foreground": "oklch(0.880 0.058 83.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.636 0.056 113.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Sora or Inter for crisp English product UI with Noto Sans JP guidance for Japanese labels, compact numerals, and calm planning workflows.",
+  "layout": "Lean 8px grids, compact planning panels, vertical navigation, ear-tuft divider strokes, sand-grain surfaces, and focused dashboard density.",
+  "tags": [
+    "caracal",
+    "mammal",
+    "dry-savanna",
+    "cinnamon",
+    "planning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-caracal/motif.png",
+    "board": "/systems/morphous-caracal/design-system-light.png",
+    "darkBoard": "/systems/morphous-caracal/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-caracal/theme.css",
+    "themeJson": "/systems/morphous-caracal/theme.json",
+    "promptsJson": "/systems/morphous-caracal/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Caracal motif",
+      "asset": "/systems/morphous-caracal/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Caracal transparent motif chroma-key source\nPrimary request: Create only an isolated caracal profile motif for a design-system catalog, no environment, no props, no text.\nSubject: A caracal wild cat in elegant side profile with accurate anatomy, cinnamon-sand fur, darker warm tawny shadows, black ear tufts, black ear backs, fine whiskers, amber eye, lean agile neck and shoulder silhouette, subtle savanna-dust texture in the coat, crisp complete cutout.\nComposition/framing: centered complete cutout with generous padding; show head, ears with long black tufts, neck, upper shoulder, and clean profile without cropping.\nLighting/mood: clean studio light that preserves cinnamon fur, black ear markings, amber eye detail, and fine fur texture.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second animal, no lynx, no leopard spots, no domestic cat collar, no floor shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-caracal/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board derived from the provided caracal profile motif cutout for \"Morphous Caracal\".\nReference use: Use the visible caracal motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from cinnamon fur, black ear tufts, sand habitat, amber eye, cream muzzle, and agile profile lines.\nCanvas: wide 16:9 board, high-resolution 4K-class source board, target 3840x2160. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Caracal\", motif story \"agile planning system\", palette, typography, Japanese typography, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, sample usage.\nTypography: include English guidance and Japanese guidance with readable examples such as \"Agile planning\" and \"俊敏な計画\"; choose font guidance for multilingual product UI.\nStyle/medium: premium shadcn/tweakcn-style product design system, quiet planning and operations UI, precise grid, 8px radius cards, lean vertical navigation, compact kanban/planning dashboard, amber focus rings, black ear-tuft dividers, sand paper surfaces.\nColor palette: motif-derived only: cinnamon fur #b96f32, sand background #ead5ad, black ear #17130f, deep umber #4b2b1a, cream muzzle #f6ead3, amber eye #c7923a, dust sage #8a8f68, warm clay #d58a4d, shadow taupe #7b6652.\nComponents: buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette/search, progress, toast, empty/error/loading states.\nDashboard/data: planning timeline, sprint velocity bars, burndown line, task status donut, priority chips, compact metrics.\nTexture/tokens: subtle short-fur grain, sand stipple, ear-tuft accent strokes, spacing/radius/shadow token samples.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no illegible microtext, no leopard spots, no domestic cat theme, no second animal."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-caracal/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode version of the \"Morphous Caracal\" design-system board. It must feel like the same agile planning system translated to dark mode, not a new theme.\nReference use: Use the visible caracal motif and light design-system board as references. Preserve motif-derived palette roles, lean component language, short-fur texture, sand spacing rhythm, black ear-tuft dividers, amber focus rings, and compact planning dashboard patterns.\nCanvas: wide 16:9 board, high-resolution 4K-class source board, target 3840x2160. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Caracal\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, sample usage.\nVisual details: dark background derived from ear black and deep umber, warm cream text from muzzle highlights, cinnamon primary actions, amber focus rings, dust sage secondary support, shadow taupe borders, subtle savanna sand grain and short-fur texture overlays, crisp shadcn-style cards and controls.\nTypography: include English guidance and Japanese guidance with readable examples such as \"Agile planning\" and \"俊敏な計画\"; choose font guidance for multilingual product UI.\nComponents: buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette/search, progress, toast, empty/error/loading states.\nDashboard/data: planning timeline, sprint velocity bars, burndown line, task status donut, priority chips, compact metrics.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no generic purple/blue gradients, no unrelated saturated colors, no pure flat black, no watermark, no random brand names, no illegible microtext, no leopard spots, no domestic cat theme, no second animal."
+    }
+  ]
+}

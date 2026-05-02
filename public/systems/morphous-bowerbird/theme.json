@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bowerbird",
+    "name": "Morphous Bowerbird",
+    "motifName": "Bowerbird",
+    "motifCategory": "bird",
+    "biome": "Australian Forest",
+    "motif": "bowerbird display"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Nest Parchment",
+      "hex": "#f7f0df",
+      "oklch": "oklch(0.956 0.024 88.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Wing",
+      "hex": "#1f2722",
+      "oklch": "oklch(0.263 0.015 157.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Display Cobalt",
+      "hex": "#1469c8",
+      "oklch": "oklch(0.528 0.166 255.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Feather Umber",
+      "hex": "#8a5d37",
+      "oklch": "oklch(0.518 0.079 59.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Eucalyptus Leaf",
+      "hex": "#5f8f61",
+      "oklch": "oklch(0.603 0.086 145.4)"
+    },
+    {
+      "role": "Focus",
+      "name": "Found Sky",
+      "hex": "#59a9df",
+      "oklch": "oklch(0.706 0.112 240.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bower Reed",
+      "hex": "#e4d2b1",
+      "oklch": "oklch(0.870 0.048 82.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Forest Mist",
+      "hex": "#c9d6bf",
+      "oklch": "oklch(0.860 0.034 131.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Bower",
+      "hex": "#131815",
+      "oklch": "oklch(0.203 0.010 159.1)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Twig Taupe",
+      "hex": "#a08362",
+      "oklch": "oklch(0.629 0.059 70.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.956 0.024 88.2)",
+    "foreground": "oklch(0.263 0.015 157.8)",
+    "card": "oklch(0.870 0.048 82.7)",
+    "card-foreground": "oklch(0.263 0.015 157.8)",
+    "popover": "oklch(0.870 0.048 82.7)",
+    "popover-foreground": "oklch(0.263 0.015 157.8)",
+    "primary": "oklch(0.528 0.166 255.6)",
+    "primary-foreground": "oklch(0.956 0.024 88.2)",
+    "secondary": "oklch(0.907 0.039 85.3)",
+    "secondary-foreground": "oklch(0.203 0.010 159.1)",
+    "muted": "oklch(0.893 0.041 83.1)",
+    "muted-foreground": "oklch(0.203 0.010 159.1)",
+    "accent": "oklch(0.603 0.086 145.4)",
+    "accent-foreground": "oklch(0.263 0.015 157.8)",
+    "destructive": "oklch(0.528 0.166 255.6)",
+    "border": "oklch(0.865 0.040 95.9)",
+    "input": "oklch(0.865 0.040 95.9)",
+    "ring": "oklch(0.518 0.079 59.9)",
+    "chart-1": "oklch(0.528 0.166 255.6)",
+    "chart-2": "oklch(0.518 0.079 59.9)",
+    "chart-3": "oklch(0.603 0.086 145.4)",
+    "chart-4": "oklch(0.706 0.112 240.4)",
+    "chart-5": "oklch(0.203 0.010 159.1)",
+    "sidebar": "oklch(0.899 0.039 83.8)",
+    "sidebar-foreground": "oklch(0.263 0.015 157.8)",
+    "sidebar-primary": "oklch(0.528 0.166 255.6)",
+    "sidebar-primary-foreground": "oklch(0.956 0.024 88.2)",
+    "sidebar-accent": "oklch(0.824 0.024 90.8)",
+    "sidebar-accent-foreground": "oklch(0.528 0.166 255.6)",
+    "sidebar-border": "oklch(0.865 0.040 95.9)",
+    "sidebar-ring": "oklch(0.518 0.079 59.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.263 0.015 157.8)",
+    "foreground": "oklch(0.956 0.024 88.2)",
+    "card": "oklch(0.223 0.012 156.1)",
+    "card-foreground": "oklch(0.956 0.024 88.2)",
+    "popover": "oklch(0.223 0.012 156.1)",
+    "popover-foreground": "oklch(0.956 0.024 88.2)",
+    "primary": "oklch(0.518 0.079 59.9)",
+    "primary-foreground": "oklch(0.263 0.015 157.8)",
+    "secondary": "oklch(0.370 0.016 141.7)",
+    "secondary-foreground": "oklch(0.956 0.024 88.2)",
+    "muted": "oklch(0.370 0.016 141.7)",
+    "muted-foreground": "oklch(0.912 0.025 111.8)",
+    "accent": "oklch(0.603 0.086 145.4)",
+    "accent-foreground": "oklch(0.263 0.015 157.8)",
+    "destructive": "oklch(0.528 0.166 255.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.518 0.079 59.9)",
+    "chart-1": "oklch(0.518 0.079 59.9)",
+    "chart-2": "oklch(0.528 0.166 255.6)",
+    "chart-3": "oklch(0.603 0.086 145.4)",
+    "chart-4": "oklch(0.706 0.112 240.4)",
+    "chart-5": "oklch(0.860 0.034 131.4)",
+    "sidebar": "oklch(0.235 0.013 160.2)",
+    "sidebar-foreground": "oklch(0.956 0.024 88.2)",
+    "sidebar-primary": "oklch(0.518 0.079 59.9)",
+    "sidebar-primary-foreground": "oklch(0.263 0.015 157.8)",
+    "sidebar-accent": "oklch(0.370 0.016 141.7)",
+    "sidebar-accent-foreground": "oklch(0.956 0.024 88.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.518 0.079 59.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise collection UI with Noto Sans guidance for Japanese labels, compact catalog tables, and calm object metadata hierarchy.",
+  "layout": "8px grid, compact panels, gallery rails, object-chip accents, twig-line dividers, restrained shadows, and collection-first dashboard workflows.",
+  "tags": [
+    "bowerbird",
+    "bird",
+    "australian-forest",
+    "curated-collection",
+    "cobalt-blue",
+    "brown-feather",
+    "eucalyptus-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bowerbird/motif.png",
+    "board": "/systems/morphous-bowerbird/design-system-light.png",
+    "darkBoard": "/systems/morphous-bowerbird/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bowerbird/theme.css",
+    "themeJson": "/systems/morphous-bowerbird/theme.json",
+    "promptsJson": "/systems/morphous-bowerbird/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bowerbird display motif",
+      "asset": "/systems/morphous-bowerbird/motif.png",
+      "prompt": "Use case: stylized-concept\nAsset type: transparent catalog motif cutout, generated first on removable chroma-key background\nPrimary request: A refined bowerbird display motif for a Morphous design-system catalog, centered and isolated.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nSubject: a satin bowerbird display arrangement: one elegant brown-feathered bowerbird with subtle dark wings beside a small curated bower of forest twigs, carefully arranged vivid blue found objects, and a few fresh green Australian forest leaves.\nStyle: polished natural-history editorial illustration with tactile feather detail, clean silhouette, high-end design catalog asset, realistic materials but slightly stylized for UI theming.\nComposition: full subject visible, generous padding, crisp edges, no cast shadow, no contact shadow, no reflection.\nColor constraints: blue objects, brown feathers, green foliage; do not use #ff00ff anywhere in the subject.\nAvoid: text, watermark, frame, cropped body, extra birds, photorealistic background, messy clutter."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-bowerbird/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: full Morphous design-system board, light mode, 16:9 high-resolution source artwork\nPrimary request: Create a comprehensive light-mode design-system board for \"Bowerbird\", a curated collection system inspired by a satin bowerbird display in an Australian forest.\nMotif direction: brown feather texture, carefully arranged vivid blue found objects, twig bower structure, fresh green forest leaves, quiet Australian forest context.\nPalette: warm feather brown, bark umber, object cobalt blue, pale sky blue, eucalyptus green, leaf deep green, parchment background, ink charcoal.\nSystem feel: curated collection system: organized, selective, naturalist, precise, gallery-like, useful for cataloging treasured objects.\nLayout: one polished 16:9 board with large readable sections, not a website landing page. Include: motif preview, color palette swatches with names and hex-like labels, typography guidance for English and Japanese, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table, command/search, navigation/sidebar, dashboard charts, empty/error/loading states, spacing/radius/shadow tokens, texture samples, icon style, and sample collection UI usage.\nVisual style: modern shadcn-compatible UI board, crisp labels, restrained density, clean grid, light parchment surface, brown/green neutrals, vivid blue accents used deliberately like curated display objects.\nText: use short readable UI labels only; avoid paragraphs and tiny token tables.\nAvoid: purple gradients, generic SaaS blue-only palette, stock photos, illegible microtext, dark mode, ornamental clutter, watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-bowerbird/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: full Morphous design-system board, dark mode, 16:9 high-resolution source artwork\nPrimary request: Create a comprehensive dark-mode design-system board for \"Bowerbird\", matching the same light-mode Bowerbird system but translated to dark UI surfaces.\nMotif direction: satin bowerbird display in an Australian forest: brown feathers, twig bower, vivid curated blue objects, eucalyptus and deep green leaves.\nPalette: charcoal forest background, deep bark brown, warm feather tan, electric object cobalt, muted sky blue, eucalyptus green, moss green, bone text, amber warning.\nSystem feel: curated collection system: organized, selective, naturalist, precise, gallery-like, useful for cataloging treasured objects.\nLayout: one polished 16:9 board with large readable sections. Include: motif preview, color palette swatches with names and hex-like labels, typography guidance for English and Japanese, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table, command/search, navigation/sidebar, dashboard charts, empty/error/loading states, spacing/radius/shadow tokens, texture samples, icon style, and sample collection UI usage.\nVisual style: modern shadcn-compatible UI board, crisp labels, restrained density, clean grid, dark forest surfaces with brown/green neutrals and vivid blue accents like selected display objects.\nText: use short readable UI labels only; avoid paragraphs and tiny token tables.\nAvoid: purple gradients, generic neon cyber UI, light mode, stock photos, illegible microtext, ornamental clutter, watermark."
+    }
+  ]
+}

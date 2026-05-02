@@ -1,0 +1,187 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-buttes",
+    "name": "Morphous Buttes",
+    "motifName": "Buttes",
+    "motifCategory": "landscape",
+    "biome": "Desert Basin",
+    "motif": "stone buttes"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Basin White",
+      "hex": "#fcf8f3",
+      "oklch": "oklch(0.981 0.008 73.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Crevice Ink",
+      "hex": "#1c1f24",
+      "oklch": "oklch(0.238 0.011 260.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ochre Rock",
+      "hex": "#c46a28",
+      "oklch": "oklch(0.617 0.138 52.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shadow Blue",
+      "hex": "#465a7d",
+      "oklch": "oklch(0.466 0.062 261.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Cyan",
+      "hex": "#35bee6",
+      "oklch": "oklch(0.747 0.126 222.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Burnt Clay",
+      "hex": "#a64a2a",
+      "oklch": "oklch(0.522 0.130 39.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Caprock Sand",
+      "hex": "#f2e7d9",
+      "oklch": "oklch(0.933 0.022 74.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Basin Sand",
+      "hex": "#e7d2b9",
+      "oklch": "oklch(0.875 0.041 72.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Shadow",
+      "hex": "#1e2c30",
+      "oklch": "oklch(0.282 0.020 217.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Clay Strata",
+      "hex": "#d9b384",
+      "oklch": "oklch(0.789 0.076 72.3)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Shadow Basin",
+      "hex": "#0f1116",
+      "oklch": "oklch(0.178 0.011 268.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.008 73.7)",
+    "foreground": "oklch(0.238 0.011 260.7)",
+    "card": "oklch(0.933 0.022 74.1)",
+    "card-foreground": "oklch(0.238 0.011 260.7)",
+    "popover": "oklch(0.933 0.022 74.1)",
+    "popover-foreground": "oklch(0.238 0.011 260.7)",
+    "primary": "oklch(0.617 0.138 52.6)",
+    "primary-foreground": "oklch(0.981 0.008 73.7)",
+    "secondary": "oklch(0.953 0.016 73.7)",
+    "secondary-foreground": "oklch(0.282 0.020 217.3)",
+    "muted": "oklch(0.947 0.019 75.3)",
+    "muted-foreground": "oklch(0.282 0.020 217.3)",
+    "accent": "oklch(0.747 0.126 222.4)",
+    "accent-foreground": "oklch(0.238 0.011 260.7)",
+    "destructive": "oklch(0.617 0.138 52.6)",
+    "border": "oklch(0.911 0.029 72.5)",
+    "input": "oklch(0.911 0.029 72.5)",
+    "ring": "oklch(0.466 0.062 261.3)",
+    "chart-1": "oklch(0.617 0.138 52.6)",
+    "chart-2": "oklch(0.466 0.062 261.3)",
+    "chart-3": "oklch(0.747 0.126 222.4)",
+    "chart-4": "oklch(0.522 0.130 39.2)",
+    "chart-5": "oklch(0.282 0.020 217.3)",
+    "sidebar": "oklch(0.949 0.017 76.1)",
+    "sidebar-foreground": "oklch(0.238 0.011 260.7)",
+    "sidebar-primary": "oklch(0.617 0.138 52.6)",
+    "sidebar-primary-foreground": "oklch(0.981 0.008 73.7)",
+    "sidebar-accent": "oklch(0.893 0.035 67.4)",
+    "sidebar-accent-foreground": "oklch(0.617 0.138 52.6)",
+    "sidebar-border": "oklch(0.911 0.029 72.5)",
+    "sidebar-ring": "oklch(0.466 0.062 261.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.238 0.011 260.7)",
+    "foreground": "oklch(0.981 0.008 73.7)",
+    "card": "oklch(0.268 0.017 222.1)",
+    "card-foreground": "oklch(0.981 0.008 73.7)",
+    "popover": "oklch(0.268 0.017 222.1)",
+    "popover-foreground": "oklch(0.981 0.008 73.7)",
+    "primary": "oklch(0.466 0.062 261.3)",
+    "primary-foreground": "oklch(0.238 0.011 260.7)",
+    "secondary": "oklch(0.428 0.010 168.3)",
+    "secondary-foreground": "oklch(0.981 0.008 73.7)",
+    "muted": "oklch(0.428 0.010 168.3)",
+    "muted-foreground": "oklch(0.934 0.023 71.8)",
+    "accent": "oklch(0.747 0.126 222.4)",
+    "accent-foreground": "oklch(0.238 0.011 260.7)",
+    "destructive": "oklch(0.617 0.138 52.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.466 0.062 261.3)",
+    "chart-1": "oklch(0.466 0.062 261.3)",
+    "chart-2": "oklch(0.617 0.138 52.6)",
+    "chart-3": "oklch(0.747 0.126 222.4)",
+    "chart-4": "oklch(0.522 0.130 39.2)",
+    "chart-5": "oklch(0.875 0.041 72.1)",
+    "sidebar": "oklch(0.259 0.015 235.6)",
+    "sidebar-foreground": "oklch(0.981 0.008 73.7)",
+    "sidebar-primary": "oklch(0.466 0.062 261.3)",
+    "sidebar-primary-foreground": "oklch(0.238 0.011 260.7)",
+    "sidebar-accent": "oklch(0.428 0.010 168.3)",
+    "sidebar-accent-foreground": "oklch(0.981 0.008 73.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.466 0.062 261.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for spacious dashboard UI with Noto Sans JP guidance for headings, body, labels, numerals, and compact data annotations.",
+  "layout": "Open 8px product grids, caprock header bars, sandstone-strata dividers, wide dashboard shelves, quiet data panels, and desert-basin negative space.",
+  "tags": [
+    "buttes",
+    "landscape",
+    "desert",
+    "ochre",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-buttes/motif.png",
+    "board": "/systems/morphous-buttes/design-system-light.png",
+    "darkBoard": "/systems/morphous-buttes/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-buttes/theme.css",
+    "themeJson": "/systems/morphous-buttes/theme.json",
+    "promptsJson": "/systems/morphous-buttes/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent stone buttes motif",
+      "asset": "/systems/morphous-buttes/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a cluster of desert stone buttes for a Morphous system named \"Morphous Buttes\", isolated full subject, no surrounding landscape, no props, no text.\nSubject: three weathered sandstone buttes with flat caprock tops, vertical erosion grooves, ochre rock faces, warm clay ledges, cool blue-violet shadow planes, and a few small stone bases that read as one compact landscape motif.\nComposition/framing: centered complete cutout with generous padding; do not crop the buttes, caprock, bases, or shadow edges. Keep the silhouette bold and instantly recognizable at small catalog size.\nLighting/mood: clean bright desert daylight, crisp material detail, spacious dashboard-system mood, natural ochre rock and cool shadow contrast.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no people, no plants, no animals, no sky, no clouds, no desert floor horizon, no UI, no text, no watermark, no decorative background, no second motif."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-buttes/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Buttes\" derived from the visible transparent stone buttes motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif: ochre sandstone faces, burnt clay ledges, pale basin sand, clear sky cyan context, cool blue-violet shadow cuts, charcoal crevice ink, and horizontal caprock strata. This light board is the primary reference for coding a spacious dashboard system.\nCanvas: exact 16:9 design board, 3840x2160 feel, high-resolution 4K-class source asset. Use large readable labels and avoid dense tiny token text.\nRequired visible sections: Morphous Buttes, motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance for headings, body, labels, numerals, and compact dashboard annotations.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, left sidebar navigation, top filters, metric cards, line chart, bar chart, stacked area chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, and simple icon buttons.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, spacious dashboard UI, 8px card radius, broad quiet surfaces, caprock header bars, sandstone-strata separators, subtle grain textures, strong scan-friendly hierarchy.\nColor palette: warm off-white basin background, deep crevice ink text, ochre rock primary, sky cyan accent, cool shadow secondary, clay border, pale sand muted surfaces. Use only motif-derived colors plus near-neutrals from the motif.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no unrelated saturated colors, no generic purple gradients, no marketing hero layout, no watermark, no random brand names, no misspelling of \"Morphous Buttes\", no illegible tiny text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-buttes/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible \"Morphous Buttes\" design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent stone buttes motif and the visible light-mode Morphous Buttes board as references. Preserve the ochre sandstone palette roles, sky cyan context accents, cool shadow panels, caprock strata separators, spacious dashboard layout, Japanese typography guidance, and shadcn/tweakcn component coverage.\nCanvas: exact 16:9 design board, 3840x2160 feel, high-resolution 4K-class source asset. Use large readable labels and avoid dense tiny token text.\nRequired visible sections: Morphous Buttes, Dark Mode, motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: deep shadow-basin background, charcoal crevice surfaces, pale sand foreground text, ochre rock primary actions, sky cyan focus and chart accents, muted clay borders, blue-violet shadow cards, subtle sandstone grain overlays, crisp dashboard cards and controls.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, left sidebar navigation, top filters, metric cards, line chart, bar chart, stacked area chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, and simple icon buttons.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no unrelated saturated colors, no flat pure-black-only background, no generic purple gradients, no marketing hero layout, no watermark, no random brand names, no misspelling of \"Morphous Buttes\", no illegible tiny text."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+/* Morphous Cecropia Moth
+   System definition: /systems/morphous-cecropia-moth/system.json
+   Prompt records: /systems/morphous-cecropia-moth/prompts.json
+   Design-system references:
+   light: /systems/morphous-cecropia-moth/design-system-light.png
+   dark: /systems/morphous-cecropia-moth/design-system-dark.png
+*/
+
+:root {
+  --background: oklch(0.962 0.014 84.6);
+  --foreground: oklch(0.270 0.010 39.3);
+  --card: oklch(0.843 0.033 76.4);
+  --card-foreground: oklch(0.270 0.010 39.3);
+  --popover: oklch(0.843 0.033 76.4);
+  --popover-foreground: oklch(0.270 0.010 39.3);
+  --primary: oklch(0.559 0.134 34.9);
+  --primary-foreground: oklch(0.962 0.014 84.6);
+  --secondary: oklch(0.893 0.025 77.4);
+  --secondary-foreground: oklch(0.463 0.105 30.8);
+  --muted: oklch(0.876 0.027 74.7);
+  --muted-foreground: oklch(0.463 0.105 30.8);
+  --accent: oklch(0.967 0.026 74.8);
+  --accent-foreground: oklch(0.270 0.010 39.3);
+  --destructive: oklch(0.559 0.134 34.9);
+  --border: oklch(0.704 0.038 63.0);
+  --input: oklch(0.704 0.038 63.0);
+  --ring: oklch(0.441 0.052 46.8);
+  --chart-1: oklch(0.559 0.134 34.9);
+  --chart-2: oklch(0.441 0.052 46.8);
+  --chart-3: oklch(0.967 0.026 74.8);
+  --chart-4: oklch(0.730 0.101 81.1);
+  --chart-5: oklch(0.463 0.105 30.8);
+  --sidebar: oklch(0.884 0.026 76.8);
+  --sidebar-foreground: oklch(0.270 0.010 39.3);
+  --sidebar-primary: oklch(0.559 0.134 34.9);
+  --sidebar-primary-foreground: oklch(0.962 0.014 84.6);
+  --sidebar-accent: oklch(0.808 0.042 63.5);
+  --sidebar-accent-foreground: oklch(0.559 0.134 34.9);
+  --sidebar-border: oklch(0.704 0.038 63.0);
+  --sidebar-ring: oklch(0.441 0.052 46.8);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.270 0.010 39.3);
+  --foreground: oklch(0.962 0.014 84.6);
+  --card: oklch(0.398 0.076 30.0);
+  --card-foreground: oklch(0.962 0.014 84.6);
+  --popover: oklch(0.398 0.076 30.0);
+  --popover-foreground: oklch(0.962 0.014 84.6);
+  --primary: oklch(0.441 0.052 46.8);
+  --primary-foreground: oklch(0.270 0.010 39.3);
+  --secondary: oklch(0.456 0.094 31.6);
+  --secondary-foreground: oklch(0.962 0.014 84.6);
+  --muted: oklch(0.456 0.094 31.6);
+  --muted-foreground: oklch(0.737 0.027 55.9);
+  --accent: oklch(0.967 0.026 74.8);
+  --accent-foreground: oklch(0.270 0.010 39.3);
+  --destructive: oklch(0.559 0.134 34.9);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.441 0.052 46.8);
+  --chart-1: oklch(0.441 0.052 46.8);
+  --chart-2: oklch(0.559 0.134 34.9);
+  --chart-3: oklch(0.967 0.026 74.8);
+  --chart-4: oklch(0.730 0.101 81.1);
+  --chart-5: oklch(0.441 0.052 46.8);
+  --sidebar: oklch(0.359 0.057 31.2);
+  --sidebar-foreground: oklch(0.962 0.014 84.6);
+  --sidebar-primary: oklch(0.441 0.052 46.8);
+  --sidebar-primary-foreground: oklch(0.270 0.010 39.3);
+  --sidebar-accent: oklch(0.456 0.094 31.6);
+  --sidebar-accent-foreground: oklch(0.962 0.014 84.6);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.441 0.052 46.8);
+  --radius: 0.5rem;
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-box-turtle",
+    "name": "Morphous Box Turtle",
+    "motifName": "Box Turtle",
+    "motifCategory": "reptile",
+    "biome": "woodland floor",
+    "motif": "box turtle shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Woodland Parchment",
+      "hex": "#efe4d0",
+      "oklch": "oklch(0.922 0.029 82.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dark Umber",
+      "hex": "#2b1b12",
+      "oklch": "oklch(0.240 0.030 50.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Brown",
+      "hex": "#6f4a2e",
+      "oklch": "oklch(0.444 0.065 57.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cream Highlight",
+      "hex": "#fbf3df",
+      "oklch": "oklch(0.965 0.028 88.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#536b3f",
+      "oklch": "oklch(0.497 0.072 131.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Amber Scute",
+      "hex": "#d79732",
+      "oklch": "oklch(0.722 0.135 74.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Burnt Orange",
+      "hex": "#b95f24",
+      "oklch": "oklch(0.583 0.135 49.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Shell",
+      "hex": "#c7a27a",
+      "oklch": "oklch(0.736 0.070 68.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Shell",
+      "hex": "#18110c",
+      "oklch": "oklch(0.185 0.015 57.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.922 0.029 82.6)",
+    "foreground": "oklch(0.240 0.030 50.2)",
+    "card": "oklch(0.736 0.070 68.6)",
+    "card-foreground": "oklch(0.240 0.030 50.2)",
+    "popover": "oklch(0.736 0.070 68.6)",
+    "popover-foreground": "oklch(0.240 0.030 50.2)",
+    "primary": "oklch(0.444 0.065 57.2)",
+    "primary-foreground": "oklch(0.922 0.029 82.6)",
+    "secondary": "oklch(0.815 0.052 72.7)",
+    "secondary-foreground": "oklch(0.185 0.015 57.1)",
+    "muted": "oklch(0.787 0.058 70.3)",
+    "muted-foreground": "oklch(0.185 0.015 57.1)",
+    "accent": "oklch(0.497 0.072 131.8)",
+    "accent-foreground": "oklch(0.240 0.030 50.2)",
+    "destructive": "oklch(0.444 0.065 57.2)",
+    "border": "oklch(0.819 0.054 72.5)",
+    "input": "oklch(0.819 0.054 72.5)",
+    "ring": "oklch(0.965 0.028 88.7)",
+    "chart-1": "oklch(0.444 0.065 57.2)",
+    "chart-2": "oklch(0.965 0.028 88.7)",
+    "chart-3": "oklch(0.497 0.072 131.8)",
+    "chart-4": "oklch(0.722 0.135 74.2)",
+    "chart-5": "oklch(0.185 0.015 57.1)",
+    "sidebar": "oklch(0.799 0.056 70.5)",
+    "sidebar-foreground": "oklch(0.240 0.030 50.2)",
+    "sidebar-primary": "oklch(0.444 0.065 57.2)",
+    "sidebar-primary-foreground": "oklch(0.922 0.029 82.6)",
+    "sidebar-accent": "oklch(0.701 0.068 67.1)",
+    "sidebar-accent-foreground": "oklch(0.444 0.065 57.2)",
+    "sidebar-border": "oklch(0.819 0.054 72.5)",
+    "sidebar-ring": "oklch(0.965 0.028 88.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.240 0.030 50.2)",
+    "foreground": "oklch(0.922 0.029 82.6)",
+    "card": "oklch(0.202 0.020 52.2)",
+    "card-foreground": "oklch(0.922 0.029 82.6)",
+    "popover": "oklch(0.202 0.020 52.2)",
+    "popover-foreground": "oklch(0.922 0.029 82.6)",
+    "primary": "oklch(0.965 0.028 88.7)",
+    "primary-foreground": "oklch(0.240 0.030 50.2)",
+    "secondary": "oklch(0.387 0.018 74.1)",
+    "secondary-foreground": "oklch(0.922 0.029 82.6)",
+    "muted": "oklch(0.387 0.018 74.1)",
+    "muted-foreground": "oklch(0.942 0.028 86.6)",
+    "accent": "oklch(0.497 0.072 131.8)",
+    "accent-foreground": "oklch(0.240 0.030 50.2)",
+    "destructive": "oklch(0.444 0.065 57.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.965 0.028 88.7)",
+    "chart-1": "oklch(0.965 0.028 88.7)",
+    "chart-2": "oklch(0.444 0.065 57.2)",
+    "chart-3": "oklch(0.497 0.072 131.8)",
+    "chart-4": "oklch(0.722 0.135 74.2)",
+    "chart-5": "oklch(0.965 0.028 88.7)",
+    "sidebar": "oklch(0.214 0.024 51.3)",
+    "sidebar-foreground": "oklch(0.922 0.029 82.6)",
+    "sidebar-primary": "oklch(0.965 0.028 88.7)",
+    "sidebar-primary-foreground": "oklch(0.240 0.030 50.2)",
+    "sidebar-accent": "oklch(0.387 0.018 74.1)",
+    "sidebar-accent-foreground": "oklch(0.922 0.029 82.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.965 0.028 88.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact English product UI with Noto Sans JP guidance for secure status labels, dense dashboard rows, and calm operational forms.",
+  "layout": "Compact 8px grid, shell-scute segmented dividers, 8px component radius, sturdy card surfaces, dark umber navigation, and protected status hierarchy.",
+  "tags": [
+    "box-turtle",
+    "reptile",
+    "woodland-floor",
+    "brown",
+    "amber",
+    "secure",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-box-turtle/motif.png",
+    "board": "/systems/morphous-box-turtle/design-system-light.png",
+    "darkBoard": "/systems/morphous-box-turtle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-box-turtle/theme.css",
+    "themeJson": "/systems/morphous-box-turtle/theme.json",
+    "promptsJson": "/systems/morphous-box-turtle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent box turtle motif",
+      "asset": "/systems/morphous-box-turtle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Box Turtle transparent motif chroma-key source\nPrimary request: Create only a box turtle shell motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A realistic Eastern box turtle shell and compact turtle form, domed hinged carapace with rich brown plates, amber and burnt orange starburst scute patterning, dark umber seams, subtle olive green woodland undertones, sturdy secure silhouette, small head and feet only if needed to identify the turtle, no environment. Natural shell texture, crisp subject edges, distinctive compact protective shape.\nComposition/framing: centered complete three-quarter cutout with generous padding; full shell/turtle visible, not cropped. Clean studio lighting that preserves brown amber orange pattern detail. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no forest scene, no leaves, no rocks, no props, no text, no watermark, no second animal, no stylized cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-box-turtle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Box Turtle high-resolution light-mode design-system board\nPrimary request: Generate one comprehensive high-resolution light-mode design-system board for a Morphous theme named \"Morphous Box Turtle\", derived from a box turtle shell motif: compact domed brown shell, amber and burnt orange scute patterning, dark umber seams, moss green woodland floor accents, sturdy neutral surfaces, secure protected interaction language. This board is a source reference for implementing a shadcn/tweakcn-compatible compact secure system.\nCanvas: exact wide 16:9 landscape board, composed for 3840x2160 output, large readable labels, fewer larger panels instead of tiny dense text. The final should feel like a crisp 4K design-system source board.\nRequired visible sections: Morphous Box Turtle, Box Turtle, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from brown turtle shell plates, amber/orange radiating shell marks, hinged compact protective form, woodland leaf-litter neutrals, moss green accents, and dark shell seams. The board must read as box turtle shell and woodland floor, not generic autumn, leather, or desert.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, high contrast, and legible at gallery preview sizes.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, donut chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple shield/lock/shell icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, compact secure dashboard UI, 8px card radius, sturdy warm neutral surfaces, shell-brown primary actions, amber/orange active patterning, moss green success/accent states, dark umber navigation, segmented scute dividers, subtle domed shell texture, restrained shadows, dense but organized.\nColor palette: woodland parchment #efe4d0, shell brown #6f4a2e, dark umber #2b1b12, amber scute #d79732, burnt orange #b95f24, moss green #536b3f, lichen sage #89966b, warm shell surface #c7a27a, cream highlight #fbf3df.\nConstraints: no generic purple/blue gradients, no neon colors, no beige-only palette, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Box Turtle\", no tiny unreadable paragraphs, no cropped board edges."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-box-turtle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Box Turtle dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Box Turtle\". It must feel like the same light-mode box turtle compact secure system translated to dark mode, not a new theme, and it must remain derived from box turtle domed shell plates, amber/orange scute patterning, dark umber seams, moss woodland floor accents, and sturdy neutral surfaces.\nCanvas: exact wide 16:9 landscape board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Box Turtle, Box Turtle, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the box turtle system language: deep shell-umber backgrounds, cream foreground text, dark brown cards, amber/orange active shell marks, moss green focus and success states, lichen sage charts, segmented scute dividers, subtle domed shell texture. Must read as box turtle shell and woodland floor, not generic autumn, leather, desert, or tactical camouflage.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, donut chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple shield/lock/shell icons.\nVisual details: deep umber surfaces, brown shell cards, cream text and hairline dividers, amber controls, burnt-orange warnings, moss focus rings, sage chart highlights, restrained contrast, crisp shadcn/tweakcn components, 8px grid, 8px card radius, compact secure dashboard layout.\nColor palette: night shell #18110c, dark umber #2b1b12, shell brown #6f4a2e, deep carapace #3a2618, amber scute #d79732, burnt orange #b95f24, moss green #536b3f, lichen sage #89966b, cream highlight #fbf3df.\nConstraints: no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no generic military camouflage, no tiger orange, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Box Turtle\"."
+    }
+  ]
+}
