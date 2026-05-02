@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-oriole",
+  "name": "Morphous Oriole",
+  "motifName": "Oriole Plumage",
+  "motifCategory": "bird",
+  "biome": "Orchard canopy",
+  "motif": "oriole plumage",
+  "description": "A shadcn/tweakcn-compatible clear publishing system drawn from oriole orange plumage, glossy black wing bars, leaf-green orchard canopy cues, warm paper surfaces, and precise editorial hierarchy.",
+  "typography": "Arvo or Georgia for publishing headlines, Inter for product UI, and Noto Sans JP guidance for Japanese labels and editorial metadata.",
+  "layout": "Editorial 8px grids, black wing-bar dividers, warm paper panels, orange action states, leaf-green support states, compact publishing navigation, and clear content-density rhythm.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "oriole",
+    "bird",
+    "orchard",
+    "canopy",
+    "publishing",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper",
+      "hex": "#FAF8F2"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Black",
+      "hex": "#0E0E0E"
+    },
+    {
+      "role": "Primary",
+      "name": "Oriole Orange",
+      "hex": "#FF7A00"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2E7032"
+    },
+    {
+      "role": "Accent",
+      "name": "Pollen Yellow",
+      "hex": "#FFC107"
+    },
+    {
+      "role": "Signal",
+      "name": "Cream",
+      "hex": "#FFF7E6"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream",
+      "hex": "#FFF7E6"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Taupe",
+      "hex": "#7A6858"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal",
+      "hex": "#2A2A2A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

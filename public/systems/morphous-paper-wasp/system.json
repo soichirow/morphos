@@ -1,0 +1,95 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-paper-wasp",
+  "name": "Morphous Paper Wasp",
+  "motifName": "Paper Wasp Nest",
+  "motifCategory": "insect",
+  "biome": "Dry Garden",
+  "motif": "paper wasp nest",
+  "description": "A shadcn/tweakcn-compatible system to be coded from paper wasp nest boards: amber alerts, black command surfaces, paper-grey panels, smoky wing borders, and precise hex-cell operational density.",
+  "typography": "Geist or Inter for structured product UI, with Noto Sans JP guidance for Japanese labels, compact status text, and tabular dashboard numerals.",
+  "layout": "Structured alert-system layout with 8px grids, 8px-or-less radii, hex-cell modules, paper-fiber dividers, compact navigation, and dashboard/table surfaces tuned for scanning.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "paper-wasp",
+    "wasp-nest",
+    "insect",
+    "dry-garden",
+    "structured-alert",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper White",
+      "hex": "#FAF9F6"
+    },
+    {
+      "role": "Surface",
+      "name": "Surface Alt",
+      "hex": "#F2F1ED"
+    },
+    {
+      "role": "Panel",
+      "name": "Paper Grey",
+      "hex": "#E6E4DF"
+    },
+    {
+      "role": "Border",
+      "name": "Fiber Grey",
+      "hex": "#C8C6BD"
+    },
+    {
+      "role": "Smoke",
+      "name": "Smoke Grey",
+      "hex": "#9A9DA1"
+    },
+    {
+      "role": "Primary",
+      "name": "Wasp Amber",
+      "hex": "#F2A100"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Amber Dark",
+      "hex": "#C87500"
+    },
+    {
+      "role": "Ink",
+      "name": "Gloss Black",
+      "hex": "#0D0D0C"
+    },
+    {
+      "role": "Command",
+      "name": "Onyx",
+      "hex": "#1C1C1C"
+    },
+    {
+      "role": "Shadow",
+      "name": "Umber",
+      "hex": "#4A2E18"
+    },
+    {
+      "role": "Support",
+      "name": "Dry Garden Sage",
+      "hex": "#7D8F75"
+    },
+    {
+      "role": "Support Soft",
+      "name": "Sage Soft",
+      "hex": "#DCE4D8"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

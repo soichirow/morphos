@@ -1,0 +1,105 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 294,
+  "slug": "morphous-painted-lady",
+  "name": "Morphous Painted Lady",
+  "motifName": "Painted Lady Butterfly",
+  "motifCategory": "insect",
+  "biome": "Open meadow",
+  "motif": "painted lady wing",
+  "designMood": "portable campaign system",
+  "description": "A shadcn/tweakcn-compatible system derived from Painted Lady butterfly wings: orange campaign actions, black vein structure, cream spot surfaces, flower-pink highlights, warm meadow neutrals, and compact field-ready workflow UI.",
+  "typography": "Inter Variable for operational English UI with Noto Sans JP guidance for Japanese labels, dense campaign data, readable controls, and precise tabular metrics.",
+  "layout": "Portable campaign dashboards on an 8px grid, 8px radii, wing-cell panels, black vein dividers, cream spot markers, compact navigation, and scan-friendly data surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "painted-lady",
+    "butterfly",
+    "insect",
+    "open-meadow",
+    "campaign",
+    "portable",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Primary",
+      "name": "Painted Orange",
+      "hex": "#F07A1A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ember Apricot",
+      "hex": "#FFB36A"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#1A1A1A"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Vein",
+      "hex": "#3A3A3A"
+    },
+    {
+      "role": "Surface",
+      "name": "Spot Cream",
+      "hex": "#FFF4E1"
+    },
+    {
+      "role": "Background",
+      "name": "Meadow Parchment",
+      "hex": "#FBF6EC"
+    },
+    {
+      "role": "Muted",
+      "name": "Pollen Buff",
+      "hex": "#F6D9A6"
+    },
+    {
+      "role": "Accent",
+      "name": "Flower Pink",
+      "hex": "#F5A6B5"
+    },
+    {
+      "role": "Support",
+      "name": "Warm Umber",
+      "hex": "#6B4E34"
+    },
+    {
+      "role": "Subtle",
+      "name": "Body Olive",
+      "hex": "#6A6D3A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

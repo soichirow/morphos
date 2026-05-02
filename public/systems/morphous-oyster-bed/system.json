@@ -1,0 +1,112 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-oyster-bed",
+  "name": "Morphous Oyster Bed",
+  "motifName": "Oyster Bed",
+  "motifCategory": "marine",
+  "biome": "Tidal Estuary",
+  "motif": "oyster shells",
+  "description": "A shadcn/tweakcn-compatible system coded from the Oyster Bed light and dark design-system boards: slate-grey shell ridges, pearl cream interiors, chalk shell lips, mudflat taupe structure, algae-green operational accents, brine mist neutrals, and practical tidal-estuary supply workflows.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body text, labels, and dense logistics metrics.",
+  "layout": "Practical 8px supply grids, low-radius cards, shell-ridge dividers, tidal ledger panels, inventory tables, restrained shadows, and durable component states for repeated operational use.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "oyster-bed",
+    "marine",
+    "tidal-estuary",
+    "oyster-shells",
+    "supply",
+    "inventory",
+    "dashboard",
+    "dark-ready"
+  ],
+  "identity": {
+    "row": 349,
+    "displayName": "Oyster Bed",
+    "descriptor": "slate grey pearl cream algae green",
+    "mood": "practical supply system"
+  },
+  "motifMetadata": {
+    "subject": "oyster shell cluster",
+    "sourceColors": [
+      "slate grey",
+      "pearl cream",
+      "chalk white",
+      "mudflat taupe",
+      "algae green",
+      "brine mist",
+      "nacre highlight",
+      "estuary ink"
+    ],
+    "transparentWorkflow": {
+      "method": "flat chroma-key source generated with #ff00ff, then converted to alpha with remove_chroma_key.py",
+      "keyColor": "#ff00ff",
+      "final": "motif.png"
+    }
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#F7F5EF"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Cream",
+      "hex": "#F1E9DD"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mudflat Taupe",
+      "hex": "#A69A87"
+    },
+    {
+      "role": "Border",
+      "name": "Shell Ridge",
+      "hex": "#C6BCAA"
+    },
+    {
+      "role": "Primary",
+      "name": "Slate Grey",
+      "hex": "#5A6168"
+    },
+    {
+      "role": "Muted",
+      "name": "Brine Mist",
+      "hex": "#B7C0BE"
+    },
+    {
+      "role": "Ink",
+      "name": "Estuary Ink",
+      "hex": "#283136"
+    },
+    {
+      "role": "Accent",
+      "name": "Algae Green",
+      "hex": "#6E8E58"
+    },
+    {
+      "role": "Signal",
+      "name": "Nacre Highlight",
+      "hex": "#FDF8F7"
+    },
+    {
+      "role": "Depth",
+      "name": "Tidal Slate",
+      "hex": "#0E1115"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

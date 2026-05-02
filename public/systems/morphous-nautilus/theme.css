@@ -1,0 +1,77 @@
+/* Morphous Nautilus
+   System definition: /systems/morphous-nautilus/system.json
+   Prompt records: /systems/morphous-nautilus/prompts.json
+   Design-system references:
+   light: /systems/morphous-nautilus/design-system-light.png
+   dark: /systems/morphous-nautilus/design-system-dark.png
+*/
+
+:root {
+  --background: 38 41% 95%;
+  --foreground: 208 53% 13%;
+  --card: 0 0% 100%;
+  --card-foreground: 208 53% 13%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 208 53% 13%;
+  --primary: 201 61% 30%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 37 47% 85%;
+  --secondary-foreground: 208 53% 13%;
+  --muted: 37 53% 89%;
+  --muted-foreground: 216 13% 48%;
+  --accent: 18 64% 47%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 13 65% 39%;
+  --border: 33 51% 83%;
+  --input: 33 51% 83%;
+  --ring: 201 61% 30%;
+  --chart-1: 201 61% 30%;
+  --chart-2: 18 64% 47%;
+  --chart-3: 37 47% 85%;
+  --chart-4: 198 15% 70%;
+  --chart-5: 15 64% 29%;
+  --sidebar: 38 41% 95%;
+  --sidebar-foreground: 208 53% 13%;
+  --sidebar-primary: 201 61% 30%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 37 53% 89%;
+  --sidebar-accent-foreground: 208 53% 13%;
+  --sidebar-border: 33 51% 83%;
+  --sidebar-ring: 201 61% 30%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 209 53% 9%;
+  --foreground: 38 41% 95%;
+  --card: 202 55% 19%;
+  --card-foreground: 38 41% 95%;
+  --popover: 202 55% 19%;
+  --popover-foreground: 38 41% 95%;
+  --primary: 193 59% 82%;
+  --primary-foreground: 209 53% 9%;
+  --secondary: 208 53% 13%;
+  --secondary-foreground: 38 41% 95%;
+  --muted: 201 21% 47%;
+  --muted-foreground: 198 15% 70%;
+  --accent: 27 65% 57%;
+  --accent-foreground: 209 53% 9%;
+  --destructive: 18 64% 47%;
+  --border: 201 21% 47%;
+  --input: 201 21% 47%;
+  --ring: 193 59% 82%;
+  --chart-1: 193 59% 82%;
+  --chart-2: 27 65% 57%;
+  --chart-3: 37 47% 85%;
+  --chart-4: 201 21% 47%;
+  --chart-5: 18 64% 47%;
+  --sidebar: 209 53% 9%;
+  --sidebar-foreground: 38 41% 95%;
+  --sidebar-primary: 193 59% 82%;
+  --sidebar-primary-foreground: 209 53% 9%;
+  --sidebar-accent: 202 55% 19%;
+  --sidebar-accent-foreground: 38 41% 95%;
+  --sidebar-border: 201 21% 47%;
+  --sidebar-ring: 193 59% 82%;
+  --radius: 0.5rem;
+}

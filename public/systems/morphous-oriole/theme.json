@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-oriole",
+    "name": "Morphous Oriole",
+    "motifName": "Oriole Plumage",
+    "motifCategory": "bird",
+    "biome": "Orchard canopy",
+    "motif": "oriole plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper",
+      "hex": "#FAF8F2",
+      "oklch": "oklch(0.979 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Black",
+      "hex": "#0E0E0E",
+      "oklch": "oklch(0.164 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Oriole Orange",
+      "hex": "#FF7A00",
+      "oklch": "oklch(0.723 0.190 50.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#2E7032",
+      "oklch": "oklch(0.487 0.116 144.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pollen Yellow",
+      "hex": "#FFC107",
+      "oklch": "oklch(0.844 0.172 84.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cream",
+      "hex": "#FFF7E6",
+      "oklch": "oklch(0.978 0.024 85.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream",
+      "hex": "#FFF7E6",
+      "oklch": "oklch(0.978 0.024 85.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Taupe",
+      "hex": "#7A6858",
+      "oklch": "oklch(0.530 0.033 63.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal",
+      "hex": "#2A2A2A",
+      "oklch": "oklch(0.285 0.000 89.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.008 91.5)",
+    "foreground": "oklch(0.164 0.000 89.9)",
+    "card": "oklch(0.978 0.024 85.8)",
+    "card-foreground": "oklch(0.164 0.000 89.9)",
+    "popover": "oklch(0.978 0.024 85.8)",
+    "popover-foreground": "oklch(0.164 0.000 89.9)",
+    "primary": "oklch(0.723 0.190 50.5)",
+    "primary-foreground": "oklch(0.979 0.008 91.5)",
+    "secondary": "oklch(0.978 0.017 84.6)",
+    "secondary-foreground": "oklch(0.285 0.000 89.9)",
+    "muted": "oklch(0.978 0.020 84.6)",
+    "muted-foreground": "oklch(0.285 0.000 89.9)",
+    "accent": "oklch(0.844 0.172 84.9)",
+    "accent-foreground": "oklch(0.164 0.000 89.9)",
+    "destructive": "oklch(0.723 0.190 50.5)",
+    "border": "oklch(0.825 0.026 78.9)",
+    "input": "oklch(0.825 0.026 78.9)",
+    "ring": "oklch(0.487 0.116 144.6)",
+    "chart-1": "oklch(0.723 0.190 50.5)",
+    "chart-2": "oklch(0.487 0.116 144.6)",
+    "chart-3": "oklch(0.844 0.172 84.9)",
+    "chart-4": "oklch(0.978 0.024 85.8)",
+    "chart-5": "oklch(0.285 0.000 89.9)",
+    "sidebar": "oklch(0.977 0.018 86.1)",
+    "sidebar-foreground": "oklch(0.164 0.000 89.9)",
+    "sidebar-primary": "oklch(0.723 0.190 50.5)",
+    "sidebar-primary-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-accent": "oklch(0.942 0.047 74.5)",
+    "sidebar-accent-foreground": "oklch(0.723 0.190 50.5)",
+    "sidebar-border": "oklch(0.825 0.026 78.9)",
+    "sidebar-ring": "oklch(0.487 0.116 144.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.164 0.000 89.9)",
+    "foreground": "oklch(0.979 0.008 91.5)",
+    "card": "oklch(0.244 0.000 89.9)",
+    "card-foreground": "oklch(0.979 0.008 91.5)",
+    "popover": "oklch(0.244 0.000 89.9)",
+    "popover-foreground": "oklch(0.979 0.008 91.5)",
+    "primary": "oklch(0.487 0.116 144.6)",
+    "primary-foreground": "oklch(0.164 0.000 89.9)",
+    "secondary": "oklch(0.343 0.009 67.5)",
+    "secondary-foreground": "oklch(0.979 0.008 91.5)",
+    "muted": "oklch(0.343 0.009 67.5)",
+    "muted-foreground": "oklch(0.784 0.017 70.5)",
+    "accent": "oklch(0.844 0.172 84.9)",
+    "accent-foreground": "oklch(0.164 0.000 89.9)",
+    "destructive": "oklch(0.723 0.190 50.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.487 0.116 144.6)",
+    "chart-1": "oklch(0.487 0.116 144.6)",
+    "chart-2": "oklch(0.723 0.190 50.5)",
+    "chart-3": "oklch(0.844 0.172 84.9)",
+    "chart-4": "oklch(0.978 0.024 85.8)",
+    "chart-5": "oklch(0.530 0.033 63.7)",
+    "sidebar": "oklch(0.222 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-primary": "oklch(0.487 0.116 144.6)",
+    "sidebar-primary-foreground": "oklch(0.164 0.000 89.9)",
+    "sidebar-accent": "oklch(0.343 0.009 67.5)",
+    "sidebar-accent-foreground": "oklch(0.979 0.008 91.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.487 0.116 144.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Arvo or Georgia for publishing headlines, Inter for product UI, and Noto Sans JP guidance for Japanese labels and editorial metadata.",
+  "layout": "Editorial 8px grids, black wing-bar dividers, warm paper panels, orange action states, leaf-green support states, compact publishing navigation, and clear content-density rhythm.",
+  "tags": [
+    "oriole",
+    "bird",
+    "orchard",
+    "canopy",
+    "publishing",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-oriole/motif.png",
+    "board": "/systems/morphous-oriole/design-system-light.png",
+    "darkBoard": "/systems/morphous-oriole/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-oriole/theme.css",
+    "themeJson": "/systems/morphous-oriole/theme.json",
+    "promptsJson": "/systems/morphous-oriole/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Oriole motif",
+      "asset": "/systems/morphous-oriole/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Oriole transparent motif chroma-key source\nPrimary request: Create only an isolated oriole plumage motif for a design-system catalog, no environment, no props, no text.\nSubject: A complete stylized-realistic oriole feather and wing-plumage cluster inspired by a Baltimore oriole: vivid orange breast and wing panels, glossy black head and wing bars, small white feather accents, subtle orchard leaf-green reflected tones, crisp feather layering, accurate bird-plumage texture, elegant publishing-system clarity.\nComposition/framing: centered complete cutout with generous padding; show a compact bird-plumage silhouette with wing, tail feather hints, black mask/head profile cue, and orange body panels without cropping.\nLighting/mood: clean studio light that preserves orange plumage, glossy black markings, white accents, and fine feather texture.\nChroma-key background: create the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #ff00ff anywhere in the subject.\nConstraints: no flowers as main subject, no nest, no branch, no landscape, no second bird, no full orchard scene, no text, no watermark, no props."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-oriole/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Oriole light design-system board\nPrimary request: Create one wide 16:9 comprehensive light-mode design-system board for \"Morphous Oriole\" / \"Oriole Plumage\", source reference for a shadcn/tweakcn-compatible theme.\nVisual identity: clear publishing system for an orchard canopy context, inspired by oriole plumage: vivid oriole orange, glossy black, leaf green, warm paper white, bark taupe, soft cream, pollen yellow, and deep canopy charcoal.\nRequired board content: readable palette swatches with token names, typography guidance for English and Japanese, layout rhythm, radius, spacing, border, shadow, texture samples, navigation, buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, dashboard charts, empty/error/loading states, sidebar preview, and sample article/editorial publishing screen.\nComposition: polished high-resolution product design board, dense but legible, organized grid, large labels, no tiny unreadable token tables, crisp UI components. Use black wing-bar dividers, orange primary actions, leaf-green support states, warm paper surfaces, cream content panels, orchard-canopy texture, and precise editorial hierarchy.\nText constraints: use concise labels only; avoid misspellings; include the exact title \"Morphous Oriole\" and subtitle \"Oriole Plumage Publishing System\".\nExclusions: no generic purple gradients, no unrelated neon colors, no stock landing page, no random brands, no cropped unreadable UI, no muddy one-color palette, no extra animals beyond a subtle oriole motif reference."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-oriole/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Oriole dark design-system board\nPrimary request: Create one wide 16:9 comprehensive dark-mode design-system board for \"Morphous Oriole\" / \"Oriole Plumage\", translated from the same light publishing-system identity.\nVisual identity: dark clear publishing system for an orchard canopy context, inspired by oriole plumage: deep canopy black, vivid oriole orange, leaf green, warm cream foreground, bark taupe, muted moss, pollen yellow, and charcoal paper panels.\nRequired board content: readable palette swatches with token names, typography guidance for English and Japanese, layout rhythm, radius, spacing, border, shadow, texture samples, navigation, buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, dashboard charts, empty/error/loading states, sidebar preview, and sample article/editorial publishing screen.\nComposition: polished high-resolution product design board, dense but legible, organized grid, large labels, no tiny unreadable token tables, crisp UI components. Use black wing-bar dividers, orange primary actions, leaf-green support states, warm cream text, charcoal editorial panels, orchard-canopy dark texture, and precise publishing hierarchy.\nText constraints: use concise labels only; avoid misspellings; include the exact title \"Morphous Oriole\" and subtitle \"Dark Oriole Publishing System\".\nExclusions: no generic purple gradients, no unrelated neon colors, no stock landing page, no random brands, no cropped unreadable UI, no muddy one-color palette, no extra animals beyond a subtle oriole motif reference."
+    }
+  ]
+}

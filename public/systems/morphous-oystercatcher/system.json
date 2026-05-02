@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-oystercatcher",
+  "name": "Morphous Oystercatcher",
+  "motifName": "Oystercatcher Beak",
+  "motifCategory": "bird",
+  "biome": "Rocky Shore",
+  "motif": "red beak high-signal contrast",
+  "description": "A shadcn/tweakcn-compatible high-signal system from oystercatcher contrast: white feather surfaces, black basalt structure, red beak actions, and sea-grey rocky neutrals for operational dashboards.",
+  "typography": "Geist for dense operational UI with Noto Sans JP guidance for Japanese labels, strong numerals, and crisp status text.",
+  "layout": "Precise 8px grids, sharp black-white separation, red beak action rails, sea-grey panels, compact tables, and status-first dashboard composition.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "oystercatcher",
+    "bird",
+    "rocky-shore",
+    "black-white",
+    "red-beak",
+    "high-signal",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Surf White",
+      "hex": "#f7f8f6"
+    },
+    {
+      "role": "Ink",
+      "name": "Plumage Black",
+      "hex": "#111315"
+    },
+    {
+      "role": "Primary",
+      "name": "Beak Red",
+      "hex": "#e33b1f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Grey",
+      "hex": "#728087"
+    },
+    {
+      "role": "Accent",
+      "name": "Eye Ring",
+      "hex": "#ff6a3d"
+    },
+    {
+      "role": "Signal",
+      "name": "Feather White",
+      "hex": "#ffffff"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Panel",
+      "hex": "#e8eceb"
+    },
+    {
+      "role": "Muted",
+      "name": "Rock Lichen",
+      "hex": "#9ba19c"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt",
+      "hex": "#2b3033"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "complete",
+  "slug": "morphous-parrotfish",
+  "name": "Morphous Parrotfish",
+  "motifName": "Parrotfish",
+  "motifCategory": "fish",
+  "biome": "coral reef",
+  "motif": "parrotfish scales",
+  "description": "A playful ecosystem product system derived from parrotfish scales: turquoise primary controls, coral-pink interaction highlights, lime ecosystem signals, fin-coral alerts, reef-foam surfaces, and lagoon-ink dark mode.",
+  "typography": "Geist for crisp English product UI with Noto Sans JP guidance for Japanese ecosystem dashboards, compact monitoring labels, tabular metrics, and friendly but serious interface copy.",
+  "layout": "Precise 8px product grids, 8px cards, parrotfish-scale texture bands, fin-edge dividers, reef-map data panels, bright status chips, and restrained shadows for monitoring-heavy workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "parrotfish",
+    "fish",
+    "coral-reef",
+    "marine",
+    "ecosystem",
+    "turquoise",
+    "coral-pink",
+    "lime",
+    "dark-ready"
+  ],
+  "identity": {
+    "row": 363,
+    "displayName": "Parrotfish",
+    "descriptor": "turquoise pink lime coral",
+    "mood": "playful ecosystem system"
+  },
+  "motifMetadata": {
+    "subject": "parrotfish",
+    "sourceColors": [
+      "turquoise body",
+      "pink coral patches",
+      "lime scale bands",
+      "coral-orange fins",
+      "reef-foam highlights",
+      "lagoon ink"
+    ],
+    "transparentWorkflow": {
+      "method": "flat chroma-key source generated with #ff00ff, then converted to alpha with remove_chroma_key.py",
+      "keyColor": "#ff00ff",
+      "final": "motif.png"
+    }
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reef Foam",
+      "hex": "#F6FBFC",
+      "oklch": "oklch(0.985 0.005 211.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Lagoon Ink",
+      "hex": "#081F2D",
+      "oklch": "oklch(0.229 0.040 238.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Parrot Turquoise",
+      "hex": "#17C9D4",
+      "oklch": "oklch(0.762 0.127 202.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Scale Lime",
+      "hex": "#C7F05A",
+      "oklch": "oklch(0.898 0.180 123.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Coral Pink",
+      "hex": "#FF7FA6",
+      "oklch": "oklch(0.752 0.160 2.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fin Coral",
+      "hex": "#FF8A5B",
+      "oklch": "oklch(0.753 0.155 42.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Highlight",
+      "hex": "#F2F7FA",
+      "oklch": "oklch(0.973 0.007 233.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reef Shadow",
+      "hex": "#78A1B3",
+      "oklch": "oklch(0.685 0.052 226.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Lagoon",
+      "hex": "#112B38",
+      "oklch": "oklch(0.275 0.040 232.5)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bleach Alert",
+      "hex": "#FF5A4F",
+      "oklch": "oklch(0.687 0.202 27.5)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.985 0.005 211.0)",
+    "foreground": "oklch(0.229 0.040 238.5)",
+    "card": "oklch(0.973 0.007 233.6)",
+    "card-foreground": "oklch(0.229 0.040 238.5)",
+    "popover": "oklch(0.973 0.007 233.6)",
+    "popover-foreground": "oklch(0.229 0.040 238.5)",
+    "primary": "oklch(0.762 0.127 202.0)",
+    "primary-foreground": "oklch(0.229 0.040 238.5)",
+    "secondary": "oklch(0.898 0.180 123.1)",
+    "secondary-foreground": "oklch(0.229 0.040 238.5)",
+    "muted": "oklch(0.954 0.020 208.1)",
+    "muted-foreground": "oklch(0.275 0.040 232.5)",
+    "accent": "oklch(0.752 0.160 2.4)",
+    "accent-foreground": "oklch(0.229 0.040 238.5)",
+    "destructive": "oklch(0.687 0.202 27.5)",
+    "border": "oklch(0.934 0.025 212.2)",
+    "input": "oklch(0.934 0.025 212.2)",
+    "ring": "oklch(0.762 0.127 202.0)",
+    "chart-1": "oklch(0.762 0.127 202.0)",
+    "chart-2": "oklch(0.898 0.180 123.1)",
+    "chart-3": "oklch(0.752 0.160 2.4)",
+    "chart-4": "oklch(0.796 0.140 57.6)",
+    "chart-5": "oklch(0.685 0.052 226.8)",
+    "sidebar": "oklch(0.977 0.015 218.0)",
+    "sidebar-foreground": "oklch(0.229 0.040 238.5)",
+    "sidebar-primary": "oklch(0.762 0.127 202.0)",
+    "sidebar-primary-foreground": "oklch(0.229 0.040 238.5)",
+    "sidebar-accent": "oklch(0.952 0.022 203.7)",
+    "sidebar-accent-foreground": "oklch(0.229 0.040 238.5)",
+    "sidebar-border": "oklch(0.934 0.025 212.2)",
+    "sidebar-ring": "oklch(0.762 0.127 202.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.229 0.040 238.5)",
+    "foreground": "oklch(0.985 0.005 211.0)",
+    "card": "oklch(0.305 0.049 226.4)",
+    "card-foreground": "oklch(0.985 0.005 211.0)",
+    "popover": "oklch(0.305 0.049 226.4)",
+    "popover-foreground": "oklch(0.985 0.005 211.0)",
+    "primary": "oklch(0.762 0.127 202.0)",
+    "primary-foreground": "oklch(0.229 0.040 238.5)",
+    "secondary": "oklch(0.297 0.044 230.3)",
+    "secondary-foreground": "oklch(0.985 0.005 211.0)",
+    "muted": "oklch(0.297 0.044 230.3)",
+    "muted-foreground": "oklch(0.685 0.052 226.8)",
+    "accent": "oklch(0.752 0.160 2.4)",
+    "accent-foreground": "oklch(0.229 0.040 238.5)",
+    "destructive": "oklch(0.687 0.202 27.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.762 0.127 202.0)",
+    "chart-1": "oklch(0.762 0.127 202.0)",
+    "chart-2": "oklch(0.898 0.180 123.1)",
+    "chart-3": "oklch(0.752 0.160 2.4)",
+    "chart-4": "oklch(0.796 0.140 57.6)",
+    "chart-5": "oklch(0.685 0.052 226.8)",
+    "sidebar": "oklch(0.241 0.042 238.4)",
+    "sidebar-foreground": "oklch(0.985 0.005 211.0)",
+    "sidebar-primary": "oklch(0.762 0.127 202.0)",
+    "sidebar-primary-foreground": "oklch(0.229 0.040 238.5)",
+    "sidebar-accent": "oklch(0.305 0.049 226.4)",
+    "sidebar-accent-foreground": "oklch(0.985 0.005 211.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.762 0.127 202.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

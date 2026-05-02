@@ -1,0 +1,159 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-orca",
+  "name": "Morphous Orca",
+  "motifName": "Orca",
+  "motifCategory": "mammal",
+  "biome": "Pacific Coast",
+  "motif": "orca pattern",
+  "description": "A shadcn/tweakcn-compatible enterprise system derived from the orca's high-contrast black-white markings, Pacific coast depth, blue edge light, and streamlined navigation rhythm.",
+  "typography": "Inter for precise enterprise dashboards with Noto Sans JP guidance for Japanese labels, dense metrics, accessible contrast, and compact multilingual readability.",
+  "layout": "Disciplined 8px-grid enterprise layouts with sharp black-white contrast, deep ocean-blue actions, sonar-line texture, graphite borders, restrained shadows, and dorsal-fin navigation cues.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "orca",
+    "mammal",
+    "pacific-coast",
+    "black-white",
+    "ocean-blue",
+    "enterprise",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Orca White",
+      "hex": "#F7FAFA",
+      "oklch": "oklch(0.985 0.004 230)"
+    },
+    {
+      "role": "Ink",
+      "name": "Orca Black",
+      "hex": "#080B0D",
+      "oklch": "oklch(0.145 0.010 240)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pacific Blue",
+      "hex": "#0D6EFD",
+      "oklch": "oklch(0.563 0.211 258)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pacific Cyan",
+      "hex": "#19C7D3",
+      "oklch": "oklch(0.726 0.126 195)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Panel",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(0.997 0 0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Fog Grey",
+      "hex": "#E6E8EC",
+      "oklch": "oklch(0.884 0.012 220)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Ocean",
+      "hex": "#0A2540",
+      "oklch": "oklch(0.210 0.030 250)"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Amber",
+      "hex": "#FFB020",
+      "oklch": "oklch(0.722 0.173 79)"
+    },
+    {
+      "role": "Success",
+      "name": "Kelp Green",
+      "hex": "#19837D",
+      "oklch": "oklch(0.624 0.160 150)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.985 0.004 230)",
+    "foreground": "oklch(0.145 0.010 240)",
+    "card": "oklch(0.997 0 0)",
+    "card-foreground": "oklch(0.145 0.010 240)",
+    "popover": "oklch(0.997 0 0)",
+    "popover-foreground": "oklch(0.145 0.010 240)",
+    "primary": "oklch(0.563 0.211 258)",
+    "primary-foreground": "oklch(0.997 0 0)",
+    "secondary": "oklch(0.726 0.126 195)",
+    "secondary-foreground": "oklch(0.145 0.010 240)",
+    "muted": "oklch(0.946 0.008 230)",
+    "muted-foreground": "oklch(0.389 0.022 245)",
+    "accent": "oklch(0.884 0.012 220)",
+    "accent-foreground": "oklch(0.145 0.010 240)",
+    "destructive": "oklch(0.637 0.214 25)",
+    "border": "oklch(0.882 0.012 230)",
+    "input": "oklch(0.882 0.012 230)",
+    "ring": "oklch(0.626 0.158 205)",
+    "chart-1": "oklch(0.563 0.211 258)",
+    "chart-2": "oklch(0.726 0.126 195)",
+    "chart-3": "oklch(0.722 0.173 79)",
+    "chart-4": "oklch(0.637 0.214 25)",
+    "chart-5": "oklch(0.624 0.160 150)",
+    "sidebar": "oklch(0.966 0.006 230)",
+    "sidebar-foreground": "oklch(0.145 0.010 240)",
+    "sidebar-primary": "oklch(0.563 0.211 258)",
+    "sidebar-primary-foreground": "oklch(0.997 0 0)",
+    "sidebar-accent": "oklch(0.915 0.014 230)",
+    "sidebar-accent-foreground": "oklch(0.210 0.030 250)",
+    "sidebar-border": "oklch(0.855 0.015 235)",
+    "sidebar-ring": "oklch(0.626 0.158 205)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.115 0.016 242)",
+    "foreground": "oklch(0.970 0.004 230)",
+    "card": "oklch(0.170 0.025 242)",
+    "card-foreground": "oklch(0.970 0.004 230)",
+    "popover": "oklch(0.170 0.025 242)",
+    "popover-foreground": "oklch(0.970 0.004 230)",
+    "primary": "oklch(0.655 0.213 258)",
+    "primary-foreground": "oklch(0.997 0 0)",
+    "secondary": "oklch(0.682 0.135 195)",
+    "secondary-foreground": "oklch(0.115 0.016 242)",
+    "muted": "oklch(0.250 0.025 242)",
+    "muted-foreground": "oklch(0.785 0.014 230)",
+    "accent": "oklch(0.910 0.008 220)",
+    "accent-foreground": "oklch(0.145 0.010 240)",
+    "destructive": "oklch(0.704 0.191 22)",
+    "border": "oklch(1 0 0 / 14%)",
+    "input": "oklch(1 0 0 / 18%)",
+    "ring": "oklch(0.682 0.135 195)",
+    "chart-1": "oklch(0.655 0.213 258)",
+    "chart-2": "oklch(0.682 0.135 195)",
+    "chart-3": "oklch(0.798 0.165 82)",
+    "chart-4": "oklch(0.704 0.191 22)",
+    "chart-5": "oklch(0.672 0.160 150)",
+    "sidebar": "oklch(0.140 0.020 242)",
+    "sidebar-foreground": "oklch(0.970 0.004 230)",
+    "sidebar-primary": "oklch(0.655 0.213 258)",
+    "sidebar-primary-foreground": "oklch(0.997 0 0)",
+    "sidebar-accent": "oklch(0.225 0.030 245)",
+    "sidebar-accent-foreground": "oklch(0.970 0.004 230)",
+    "sidebar-border": "oklch(1 0 0 / 14%)",
+    "sidebar-ring": "oklch(0.682 0.135 195)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

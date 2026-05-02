@@ -1,0 +1,167 @@
+{
+  "slug": "morphous-nautilus",
+  "name": "Morphous Nautilus",
+  "status": "complete",
+  "motifName": "Nautilus",
+  "motifCategory": "marine",
+  "biome": "deep reef",
+  "motif": "nautilus shell",
+  "description": "A spiral knowledge system shaped by nautilus chamber geometry, pearly cream shell surfaces, rust banding, ocean-blue shadow grooves, and deep reef contrast.",
+  "typography": "Display serif headings with calm interface sans text; Japanese guidance pairs Noto Serif JP for editorial emphasis with Noto Sans JP for dense product UI.",
+  "layout": "Quiet dashboard layout on an 8px grid with 8px card radius, spiral dividers, chamber-like panels, restrained shadows, and clear data surfaces.",
+  "tags": [
+    "marine",
+    "deep reef",
+    "nautilus",
+    "shell",
+    "spiral",
+    "knowledge",
+    "cream",
+    "rust",
+    "ocean blue"
+  ],
+  "identity": {
+    "row": 341,
+    "displayName": "Nautilus",
+    "descriptor": "cream spiral rust stripe ocean blue",
+    "mood": "spiral knowledge system"
+  },
+  "motifMetadata": {
+    "subject": "nautilus shell",
+    "sourceColors": [
+      "cream spiral",
+      "rust stripe",
+      "ocean blue",
+      "reef ink",
+      "pearl highlight"
+    ],
+    "transparentWorkflow": {
+      "method": "flat chroma-key source generated with #ff00ff, then converted to alpha with remove_chroma_key.py",
+      "keyColor": "#ff00ff",
+      "final": "motif.png"
+    }
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Cream",
+      "hex": "#F7F3EC"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Ink",
+      "hex": "#0F2131"
+    },
+    {
+      "role": "Primary",
+      "name": "Ocean Blue",
+      "hex": "#1E5A7A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chamber Sand",
+      "hex": "#EADCC5"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Stripe",
+      "hex": "#C65A2B"
+    },
+    {
+      "role": "Signal",
+      "name": "Blue Pearl",
+      "hex": "#B6E0EC"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Muted",
+      "name": "Pearl Grain",
+      "hex": "#F2E7D5"
+    },
+    {
+      "role": "Depth",
+      "name": "Abyss Blue",
+      "hex": "#0B1824"
+    }
+  ],
+  "tokens": {
+    "background": "38 41% 95%",
+    "foreground": "208 53% 13%",
+    "card": "0 0% 100%",
+    "card-foreground": "208 53% 13%",
+    "popover": "0 0% 100%",
+    "popover-foreground": "208 53% 13%",
+    "primary": "201 61% 30%",
+    "primary-foreground": "0 0% 100%",
+    "secondary": "37 47% 85%",
+    "secondary-foreground": "208 53% 13%",
+    "muted": "37 53% 89%",
+    "muted-foreground": "216 13% 48%",
+    "accent": "18 64% 47%",
+    "accent-foreground": "0 0% 100%",
+    "destructive": "13 65% 39%",
+    "border": "33 51% 83%",
+    "input": "33 51% 83%",
+    "ring": "201 61% 30%",
+    "chart-1": "201 61% 30%",
+    "chart-2": "18 64% 47%",
+    "chart-3": "37 47% 85%",
+    "chart-4": "198 15% 70%",
+    "chart-5": "15 64% 29%",
+    "sidebar": "38 41% 95%",
+    "sidebar-foreground": "208 53% 13%",
+    "sidebar-primary": "201 61% 30%",
+    "sidebar-primary-foreground": "0 0% 100%",
+    "sidebar-accent": "37 53% 89%",
+    "sidebar-accent-foreground": "208 53% 13%",
+    "sidebar-border": "33 51% 83%",
+    "sidebar-ring": "201 61% 30%",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "209 53% 9%",
+    "foreground": "38 41% 95%",
+    "card": "202 55% 19%",
+    "card-foreground": "38 41% 95%",
+    "popover": "202 55% 19%",
+    "popover-foreground": "38 41% 95%",
+    "primary": "193 59% 82%",
+    "primary-foreground": "209 53% 9%",
+    "secondary": "208 53% 13%",
+    "secondary-foreground": "38 41% 95%",
+    "muted": "201 21% 47%",
+    "muted-foreground": "198 15% 70%",
+    "accent": "27 65% 57%",
+    "accent-foreground": "209 53% 9%",
+    "destructive": "18 64% 47%",
+    "border": "201 21% 47%",
+    "input": "201 21% 47%",
+    "ring": "193 59% 82%",
+    "chart-1": "193 59% 82%",
+    "chart-2": "27 65% 57%",
+    "chart-3": "37 47% 85%",
+    "chart-4": "201 21% 47%",
+    "chart-5": "18 64% 47%",
+    "sidebar": "209 53% 9%",
+    "sidebar-foreground": "38 41% 95%",
+    "sidebar-primary": "193 59% 82%",
+    "sidebar-primary-foreground": "209 53% 9%",
+    "sidebar-accent": "202 55% 19%",
+    "sidebar-accent-foreground": "38 41% 95%",
+    "sidebar-border": "201 21% 47%",
+    "sidebar-ring": "193 59% 82%",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

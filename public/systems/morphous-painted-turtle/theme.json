@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-painted-turtle",
+    "name": "Morphous Painted Turtle",
+    "motifName": "Painted Turtle",
+    "motifCategory": "reptile",
+    "biome": "Pond Log",
+    "motif": "painted turtle shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Field",
+      "hex": "#f4f6f1",
+      "oklch": "oklch(0.970 0.007 124.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Shell Black",
+      "hex": "#0e0f10",
+      "oklch": "oklch(0.168 0.003 248.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pond Olive",
+      "hex": "#6e7f3a",
+      "oklch": "oklch(0.567 0.096 121.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Stripe Red",
+      "hex": "#cc2b1a",
+      "oklch": "oklch(0.551 0.199 30.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Log Brown",
+      "hex": "#6b4e2e",
+      "oklch": "oklch(0.447 0.061 67.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Reed Beige",
+      "hex": "#dccfaf",
+      "oklch": "oklch(0.857 0.045 88.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Scute Line",
+      "hex": "#a8b35a",
+      "oklch": "oklch(0.739 0.115 115.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Shell",
+      "hex": "#151a18",
+      "oklch": "oklch(0.212 0.008 169.4)"
+    },
+    {
+      "role": "Field",
+      "name": "Pond Stone",
+      "hex": "#6f7165",
+      "oklch": "oklch(0.543 0.018 114.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.012 94)",
+    "foreground": "oklch(0.176 0.010 220)",
+    "card": "oklch(0.989 0.006 95)",
+    "card-foreground": "oklch(0.176 0.010 220)",
+    "popover": "oklch(0.989 0.006 95)",
+    "popover-foreground": "oklch(0.176 0.010 220)",
+    "primary": "oklch(0.466 0.086 123)",
+    "primary-foreground": "oklch(0.965 0.012 94)",
+    "secondary": "oklch(0.893 0.040 91)",
+    "secondary-foreground": "oklch(0.283 0.039 73)",
+    "muted": "oklch(0.915 0.018 95)",
+    "muted-foreground": "oklch(0.420 0.035 105)",
+    "accent": "oklch(0.556 0.164 35)",
+    "accent-foreground": "oklch(0.985 0.006 95)",
+    "destructive": "oklch(0.556 0.164 35)",
+    "border": "oklch(0.824 0.041 96)",
+    "input": "oklch(0.824 0.041 96)",
+    "ring": "oklch(0.556 0.164 35)",
+    "chart-1": "oklch(0.466 0.086 123)",
+    "chart-2": "oklch(0.556 0.164 35)",
+    "chart-3": "oklch(0.472 0.052 71)",
+    "chart-4": "oklch(0.687 0.105 102)",
+    "chart-5": "oklch(0.283 0.039 73)",
+    "sidebar": "oklch(0.941 0.018 94)",
+    "sidebar-foreground": "oklch(0.176 0.010 220)",
+    "sidebar-primary": "oklch(0.466 0.086 123)",
+    "sidebar-primary-foreground": "oklch(0.965 0.012 94)",
+    "sidebar-accent": "oklch(0.870 0.054 112)",
+    "sidebar-accent-foreground": "oklch(0.466 0.086 123)",
+    "sidebar-border": "oklch(0.824 0.041 96)",
+    "sidebar-ring": "oklch(0.556 0.164 35)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.176 0.010 220)",
+    "foreground": "oklch(0.930 0.030 92)",
+    "card": "oklch(0.218 0.014 205)",
+    "card-foreground": "oklch(0.930 0.030 92)",
+    "popover": "oklch(0.218 0.014 205)",
+    "popover-foreground": "oklch(0.930 0.030 92)",
+    "primary": "oklch(0.687 0.105 102)",
+    "primary-foreground": "oklch(0.176 0.010 220)",
+    "secondary": "oklch(0.283 0.039 73)",
+    "secondary-foreground": "oklch(0.930 0.030 92)",
+    "muted": "oklch(0.286 0.018 120)",
+    "muted-foreground": "oklch(0.767 0.039 93)",
+    "accent": "oklch(0.622 0.168 36)",
+    "accent-foreground": "oklch(0.985 0.006 95)",
+    "destructive": "oklch(0.622 0.168 36)",
+    "border": "oklch(1 0 0 / 14%)",
+    "input": "oklch(1 0 0 / 18%)",
+    "ring": "oklch(0.622 0.168 36)",
+    "chart-1": "oklch(0.687 0.105 102)",
+    "chart-2": "oklch(0.622 0.168 36)",
+    "chart-3": "oklch(0.560 0.085 122)",
+    "chart-4": "oklch(0.767 0.039 93)",
+    "chart-5": "oklch(0.643 0.069 72)",
+    "sidebar": "oklch(0.202 0.012 205)",
+    "sidebar-foreground": "oklch(0.930 0.030 92)",
+    "sidebar-primary": "oklch(0.687 0.105 102)",
+    "sidebar-primary-foreground": "oklch(0.176 0.010 220)",
+    "sidebar-accent": "oklch(0.286 0.018 120)",
+    "sidebar-accent-foreground": "oklch(0.930 0.030 92)",
+    "sidebar-border": "oklch(1 0 0 / 14%)",
+    "sidebar-ring": "oklch(0.622 0.168 36)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for clean field dashboards with Noto Sans JP guidance for observation labels, table rows, form controls, and compact numeric status readouts.",
+  "layout": "Stable 8px grids, low-radius field panels, shell-plate grouping, thin olive borders, red stripe active states, compact navigation, dashboard, table, form, chart, and status sections for repeated pond-log survey work.",
+  "tags": [
+    "painted-turtle",
+    "reptile",
+    "pond-log",
+    "black-shell",
+    "red-stripe",
+    "olive",
+    "field-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-painted-turtle/motif.png",
+    "board": "/systems/morphous-painted-turtle/design-system-light.png",
+    "darkBoard": "/systems/morphous-painted-turtle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-painted-turtle/theme.css",
+    "themeJson": "/systems/morphous-painted-turtle/theme.json",
+    "promptsJson": "/systems/morphous-painted-turtle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent painted turtle shell motif source",
+      "asset": "/systems/morphous-painted-turtle/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: transparent motif cutout for a Morphous design-system catalog.\nPrimary request: a single painted turtle shell motif, isolated for clean background removal.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background, one uniform color, no shadows, no gradients, no texture, no floor plane.\nSubject: top-down painted turtle shell with a glossy black carapace, olive scute structure, fine yellow-olive seams, and distinct narrow red-orange painted-turtle stripes along the rim and sides. Include subtle natural shell wear and pond-log field character without adding a full turtle body.\nComposition: centered object, generous padding, crisp complete silhouette, professional natural-history cutout, no cast shadow, no contact shadow, no reflection.\nPalette: black shell, red stripe, olive pond neutrals, muted log-brown edge accents only.\nAvoid: text, labels, watermark, brand names, random UI, background objects, green or magenta subject colors that confuse background removal."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-painted-turtle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 light-mode design-system board for Morphous catalog.\nPrimary request: create a comprehensive clean field UI design-system board inspired by the provided painted turtle shell motif: glossy black shell, red-orange rim stripes, olive scute seams, pond log neutrals.\nCanvas: exact 16:9 board, 3840x2160 preferred, crisp readable labels, no watermark, no random brand names.\nOverall style: clean field system, precise utilitarian dashboard UI, restrained light background, sharp black-shell typography, red stripe emphasis, olive pond/log neutrals, small shell-scuted texture samples.\nRequired labeled sections with large readable text: \"Painted Turtle\", \"Light Theme\", \"Palette\", \"Typography / English + Japanese\", \"Navigation\", \"Dashboard\", \"Charts\", \"Table\", \"Form\", \"Status\", \"Components\", \"Tokens\".\nUI coverage: top navigation and side navigation, metric dashboard cards, line chart, bar chart, donut chart, data table with readable column headers, search/command field, input, select, textarea, checkbox, radio, switch, tabs, buttons, badges, alert states, empty/loading/error status examples.\nPalette chips: Shell Black, Stripe Red, Pond Olive, Log Brown, Reed Beige, Mist Field, Scute Line.\nLayout: organized grid, lots of breathing room, white to mist field surfaces, thin olive borders, red-orange active indicators, black headings, no nested card clutter.\nAvoid: illegible tiny text, purple/blue gradients, stock brand names, lorem ipsum walls, fake logos, watermark, unrelated saturated colors."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-painted-turtle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 dark-mode design-system board for Morphous catalog.\nInput images: use the previous Painted Turtle light design-system board and shell motif as visual references; preserve the same sections and information architecture.\nPrimary request: create a comprehensive dark-mode version of the Painted Turtle clean field UI system.\nCanvas: exact 16:9 board, 3840x2160 preferred, crisp readable labels, no watermark, no random brand names.\nOverall style: black-shell dark surfaces, charcoal cards, olive pond panels, red-orange stripe active states, reed beige text highlights, thin scute-line borders, clean data-heavy field dashboard.\nRequired labeled sections with large readable text: \"Painted Turtle\", \"Dark Theme\", \"Palette\", \"Typography / English + Japanese\", \"Navigation\", \"Dashboard\", \"Charts\", \"Table\", \"Form\", \"Status\", \"Components\", \"Tokens\".\nUI coverage: top navigation and side navigation, metric dashboard cards, line chart, bar chart, donut chart, data table with readable column headers, search/command field, input, select, textarea, checkbox, radio, switch, tabs, buttons, badges, alert states, empty/loading/error status examples.\nPalette chips: Shell Black, Stripe Red, Pond Olive, Log Brown, Reed Beige, Mist Field, Scute Line.\nLayout: organized grid matching the light board, high contrast, accessible text, subtle shell-scuted texture samples, no nested card clutter.\nAvoid: illegible tiny text, purple/blue gradients, stock brand names, lorem ipsum walls, fake logos, watermark, unrelated saturated colors."
+    }
+  ]
+}

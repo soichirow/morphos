@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ostrich",
+    "name": "Morphous Ostrich",
+    "motifName": "Ostrich",
+    "motifCategory": "bird",
+    "biome": "Open Savanna",
+    "motif": "ostrich feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Plume Ivory",
+      "hex": "#f7f1e4",
+      "oklch": "oklch(0.959 0.018 86.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ostrich Black",
+      "hex": "#171613",
+      "oklch": "oklch(0.200 0.006 91.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Quill Charcoal",
+      "hex": "#2f2d28",
+      "oklch": "oklch(0.297 0.009 88.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Savanna Tan",
+      "hex": "#c7a66b",
+      "oklch": "oklch(0.741 0.086 81.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Grass Olive",
+      "hex": "#6f7651",
+      "oklch": "oklch(0.550 0.055 117.0)"
+    },
+    {
+      "role": "Focus",
+      "name": "Dry Grass",
+      "hex": "#9c8a55",
+      "oklch": "oklch(0.637 0.075 91.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather White",
+      "hex": "#fffdf7",
+      "oklch": "oklch(0.994 0.008 91.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Border",
+      "hex": "#d8c8a7",
+      "oklch": "oklch(0.837 0.048 85.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Plume",
+      "hex": "#0f0e0c",
+      "oklch": "oklch(0.164 0.004 84.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Alert Clay",
+      "hex": "#b96343",
+      "oklch": "oklch(0.593 0.120 40.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.018 86.1)",
+    "foreground": "oklch(0.200 0.006 91.6)",
+    "card": "oklch(0.994 0.008 91.5)",
+    "card-foreground": "oklch(0.200 0.006 91.6)",
+    "popover": "oklch(0.994 0.008 91.5)",
+    "popover-foreground": "oklch(0.200 0.006 91.6)",
+    "primary": "oklch(0.297 0.009 88.8)",
+    "primary-foreground": "oklch(0.959 0.018 86.1)",
+    "secondary": "oklch(0.980 0.013 86.8)",
+    "secondary-foreground": "oklch(0.164 0.004 84.6)",
+    "muted": "oklch(0.985 0.011 89.7)",
+    "muted-foreground": "oklch(0.164 0.004 84.6)",
+    "accent": "oklch(0.550 0.055 117.0)",
+    "accent-foreground": "oklch(0.200 0.006 91.6)",
+    "destructive": "oklch(0.297 0.009 88.8)",
+    "border": "oklch(0.938 0.023 87.2)",
+    "input": "oklch(0.938 0.023 87.2)",
+    "ring": "oklch(0.741 0.086 81.3)",
+    "chart-1": "oklch(0.297 0.009 88.8)",
+    "chart-2": "oklch(0.741 0.086 81.3)",
+    "chart-3": "oklch(0.550 0.055 117.0)",
+    "chart-4": "oklch(0.637 0.075 91.3)",
+    "chart-5": "oklch(0.164 0.004 84.6)",
+    "sidebar": "oklch(0.982 0.011 89.7)",
+    "sidebar-foreground": "oklch(0.200 0.006 91.6)",
+    "sidebar-primary": "oklch(0.297 0.009 88.8)",
+    "sidebar-primary-foreground": "oklch(0.959 0.018 86.1)",
+    "sidebar-accent": "oklch(0.919 0.008 91.5)",
+    "sidebar-accent-foreground": "oklch(0.297 0.009 88.8)",
+    "sidebar-border": "oklch(0.938 0.023 87.2)",
+    "sidebar-ring": "oklch(0.741 0.086 81.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.200 0.006 91.6)",
+    "foreground": "oklch(0.959 0.018 86.1)",
+    "card": "oklch(0.178 0.006 91.7)",
+    "card-foreground": "oklch(0.959 0.018 86.1)",
+    "popover": "oklch(0.178 0.006 91.7)",
+    "popover-foreground": "oklch(0.959 0.018 86.1)",
+    "primary": "oklch(0.741 0.086 81.3)",
+    "primary-foreground": "oklch(0.200 0.006 91.6)",
+    "secondary": "oklch(0.338 0.016 86.9)",
+    "secondary-foreground": "oklch(0.959 0.018 86.1)",
+    "muted": "oklch(0.338 0.016 86.9)",
+    "muted-foreground": "oklch(0.906 0.031 86.5)",
+    "accent": "oklch(0.550 0.055 117.0)",
+    "accent-foreground": "oklch(0.200 0.006 91.6)",
+    "destructive": "oklch(0.297 0.009 88.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.741 0.086 81.3)",
+    "chart-1": "oklch(0.741 0.086 81.3)",
+    "chart-2": "oklch(0.297 0.009 88.8)",
+    "chart-3": "oklch(0.550 0.055 117.0)",
+    "chart-4": "oklch(0.637 0.075 91.3)",
+    "chart-5": "oklch(0.837 0.048 85.2)",
+    "sidebar": "oklch(0.183 0.004 84.6)",
+    "sidebar-foreground": "oklch(0.959 0.018 86.1)",
+    "sidebar-primary": "oklch(0.741 0.086 81.3)",
+    "sidebar-primary-foreground": "oklch(0.200 0.006 91.6)",
+    "sidebar-accent": "oklch(0.338 0.016 86.9)",
+    "sidebar-accent-foreground": "oklch(0.959 0.018 86.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.741 0.086 81.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense admin operations with Noto Sans guidance for Japanese labels, tabular numeric rhythm, and crisp high-volume table scanning.",
+  "layout": "8px grid, compact panels, broad feather-bar separators, low-radius controls, dense data tables, and admin-first navigation built around black, white, and tan savanna contrast.",
+  "tags": [
+    "ostrich",
+    "bird",
+    "ostrich-feather",
+    "open-savanna",
+    "black-white",
+    "tan-grass",
+    "admin-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ostrich/motif.png",
+    "board": "/systems/morphous-ostrich/design-system-light.png",
+    "darkBoard": "/systems/morphous-ostrich/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ostrich/theme.css",
+    "themeJson": "/systems/morphous-ostrich/theme.json",
+    "promptsJson": "/systems/morphous-ostrich/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent ostrich feather motif",
+      "asset": "/systems/morphous-ostrich/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Ostrich transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated ostrich feather motif on a perfectly flat solid #00ff00 chroma-key background for transparency removal.\nSubject: A refined ostrich feather motif: one large sweeping black-and-white ostrich plume with soft barbs, ivory highlights, charcoal center quill, warm tan grass-toned base detail, accurate feather texture, crisp silhouette edges, and a sophisticated large-scale admin system feel.\nComposition/framing: centered complete cutout with generous padding; show the full feather silhouette without cropping; no environment, no props, no text.\nLighting/mood: clean studio light preserving black feather depth, white plume highlights, tan savanna-grass neutrals, and precise feather detail.\nChroma-key background: perfectly flat solid #00ff00 only. One uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #00ff00 anywhere in the subject; no cast shadow, no contact shadow, no landscape, no other birds, no flowers, no watermark, no text, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-ostrich/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive light-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 light-mode large-scale admin design-system board for \"Morphous Ostrich\" / \"Ostrich\" using the motif of a black and white ostrich feather from an open savanna.\nVisual identity: enterprise admin UI, black-and-white ostrich feather contrast, warm tan savanna grass neutrals, ivory feather surfaces, charcoal ink, oat and dry-grass panels, subtle olive grass accent, precise high-density product-system polish.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, broad feather-bar dividers, black primary admin actions, ivory cards, tan grass active surfaces, compact dense tables, large-scale operations dashboard, muted savanna borders, clearly separated navigation/table/form/status sections.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic admin UI terms such as Overview, Operations, Queue, Status, Capacity, Table, Revenue, Conversion, Active, Pending.\nPalette names visible: Plume Ivory #f7f1e4, Ostrich Black #171613, Feather White #fffdf7, Savanna Tan #c7a66b, Dry Grass #9c8a55, Quill Charcoal #2f2d28, Dust Border #d8c8a7, Grass Olive #6f7651, Alert Clay #b96343, Night Plume #0f0e0c.\nConstraints: no bird photo background, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-ostrich/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive dark-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 dark-mode large-scale admin design-system board for \"Morphous Ostrich\" / \"Ostrich\", translated from the same black and white ostrich feather motif from an open savanna.\nVisual identity: enterprise admin UI, deep night-plume black backgrounds, ivory feather text, white plume highlight panels, warm tan savanna data accents, dry-grass muted controls, quill charcoal panels, subtle olive grass success states, precise high-density product-system polish.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, broad feather-bar dividers, ivory primary admin actions on black surfaces, tan grass active states, compact dense tables, large-scale operations dashboard, muted savanna borders, clearly separated navigation/table/form/status sections.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic admin UI terms such as Overview, Operations, Queue, Status, Capacity, Table, Revenue, Conversion, Active, Pending.\nPalette names visible: Night Plume #0f0e0c, Feather White #fffdf7, Plume Ivory #f7f1e4, Ostrich Black #171613, Quill Charcoal #2f2d28, Savanna Tan #c7a66b, Dry Grass #9c8a55, Dust Border #d8c8a7, Grass Olive #6f7651, Alert Clay #b96343.\nConstraints: no bird photo background, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    }
+  ]
+}

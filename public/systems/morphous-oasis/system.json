@@ -1,0 +1,46 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-oasis",
+  "name": "Oasis",
+  "status": "ready",
+  "motifName": "Oasis",
+  "motifCategory": "landscape",
+  "biome": "Desert Spring",
+  "motif": "oasis palms",
+  "description": "A resource scheduling system shaped by oasis palms, blue spring water, and warm sand: clear allocation lanes, scarce-capacity signals, and calm operational hierarchy.",
+  "typography": "Geist for precise scheduling UI with Noto Sans JP guidance for resource names, time labels, status badges, and dense tables.",
+  "layout": "8px grids, waterline dividers, palm-frond rhythm, sand-toned surfaces, compact resource lanes, and queue-first dashboard structure.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "oasis",
+    "landscape",
+    "desert-spring",
+    "emerald",
+    "scheduling",
+    "resource-management",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Spring Sand", "hex": "#f6ecd8" },
+    { "role": "Ink", "name": "Palm Charcoal", "hex": "#10241f" },
+    { "role": "Primary", "name": "Emerald Palm", "hex": "#14845f" },
+    { "role": "Secondary", "name": "Blue Spring", "hex": "#2a9fc7" },
+    { "role": "Accent", "name": "Clear Water", "hex": "#8ed8dc" },
+    { "role": "Signal", "name": "Reed Olive", "hex": "#6f7f3f" },
+    { "role": "Surface", "name": "Dune Surface", "hex": "#fff8e9" },
+    { "role": "Muted", "name": "Dry Stone", "hex": "#c9b893" },
+    { "role": "Depth", "name": "Bark Umber", "hex": "#6a4a2f" }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-oasis/motif.png",
+    "board": "/systems/morphous-oasis/design-system-light.png",
+    "darkBoard": "/systems/morphous-oasis/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-oasis/theme.css",
+    "themeJson": "/systems/morphous-oasis/theme.json",
+    "promptsJson": "/systems/morphous-oasis/prompts.json"
+  }
+}

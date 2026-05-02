@@ -1,0 +1,185 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pangolin",
+    "name": "Morphous Pangolin",
+    "motifName": "Pangolin",
+    "motifCategory": "mammal",
+    "biome": "Tropical Woodland",
+    "motif": "pangolin scales"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Ivory",
+      "hex": "#F7F4ED",
+      "oklch": "oklch(0.970 0.012 82.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Burrow Ink",
+      "hex": "#1F1A16",
+      "oklch": "oklch(0.180 0.018 65.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bronze Brown",
+      "hex": "#8A5B37",
+      "oklch": "oklch(0.493 0.096 58.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tan Scale",
+      "hex": "#C69A6B",
+      "oklch": "oklch(0.703 0.095 73.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#3E7A4A",
+      "oklch": "oklch(0.535 0.105 137.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Focus",
+      "hex": "#6D8F5A",
+      "oklch": "oklch(0.586 0.095 121.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Clay",
+      "hex": "#E6D7C2",
+      "oklch": "oklch(0.886 0.036 76.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Scale Taupe",
+      "hex": "#8B7A67",
+      "oklch": "oklch(0.600 0.027 73.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Umber Armor",
+      "hex": "#4A3425",
+      "oklch": "oklch(0.258 0.040 59.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.012 82.4)",
+    "foreground": "oklch(0.180 0.018 65.0)",
+    "card": "oklch(0.934 0.018 78.0)",
+    "card-foreground": "oklch(0.180 0.018 65.0)",
+    "popover": "oklch(0.982 0.009 84.0)",
+    "popover-foreground": "oklch(0.180 0.018 65.0)",
+    "primary": "oklch(0.493 0.096 58.2)",
+    "primary-foreground": "oklch(0.980 0.009 84.0)",
+    "secondary": "oklch(0.886 0.036 76.5)",
+    "secondary-foreground": "oklch(0.258 0.040 59.2)",
+    "muted": "oklch(0.915 0.018 83.0)",
+    "muted-foreground": "oklch(0.420 0.035 69.0)",
+    "accent": "oklch(0.535 0.105 137.0)",
+    "accent-foreground": "oklch(0.980 0.009 84.0)",
+    "destructive": "oklch(0.579 0.179 29.4)",
+    "border": "oklch(0.824 0.027 74.0)",
+    "input": "oklch(0.824 0.027 74.0)",
+    "ring": "oklch(0.586 0.095 121.0)",
+    "chart-1": "oklch(0.493 0.096 58.2)",
+    "chart-2": "oklch(0.535 0.105 137.0)",
+    "chart-3": "oklch(0.703 0.095 73.0)",
+    "chart-4": "oklch(0.586 0.095 121.0)",
+    "chart-5": "oklch(0.258 0.040 59.2)",
+    "sidebar": "oklch(0.948 0.015 82.0)",
+    "sidebar-foreground": "oklch(0.180 0.018 65.0)",
+    "sidebar-primary": "oklch(0.493 0.096 58.2)",
+    "sidebar-primary-foreground": "oklch(0.980 0.009 84.0)",
+    "sidebar-accent": "oklch(0.900 0.035 118.0)",
+    "sidebar-accent-foreground": "oklch(0.300 0.060 131.0)",
+    "sidebar-border": "oklch(0.824 0.027 74.0)",
+    "sidebar-ring": "oklch(0.586 0.095 121.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.160 0.016 66.0)",
+    "foreground": "oklch(0.950 0.012 82.4)",
+    "card": "oklch(0.214 0.026 61.0)",
+    "card-foreground": "oklch(0.950 0.012 82.4)",
+    "popover": "oklch(0.214 0.026 61.0)",
+    "popover-foreground": "oklch(0.950 0.012 82.4)",
+    "primary": "oklch(0.703 0.095 73.0)",
+    "primary-foreground": "oklch(0.160 0.016 66.0)",
+    "secondary": "oklch(0.286 0.040 62.0)",
+    "secondary-foreground": "oklch(0.950 0.012 82.4)",
+    "muted": "oklch(0.286 0.030 62.0)",
+    "muted-foreground": "oklch(0.780 0.025 78.0)",
+    "accent": "oklch(0.636 0.116 136.0)",
+    "accent-foreground": "oklch(0.130 0.018 124.0)",
+    "destructive": "oklch(0.704 0.191 22.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.636 0.116 136.0)",
+    "chart-1": "oklch(0.703 0.095 73.0)",
+    "chart-2": "oklch(0.636 0.116 136.0)",
+    "chart-3": "oklch(0.535 0.105 137.0)",
+    "chart-4": "oklch(0.824 0.052 74.0)",
+    "chart-5": "oklch(0.970 0.012 82.4)",
+    "sidebar": "oklch(0.188 0.022 63.0)",
+    "sidebar-foreground": "oklch(0.950 0.012 82.4)",
+    "sidebar-primary": "oklch(0.703 0.095 73.0)",
+    "sidebar-primary-foreground": "oklch(0.160 0.016 66.0)",
+    "sidebar-accent": "oklch(0.286 0.040 62.0)",
+    "sidebar-accent-foreground": "oklch(0.950 0.012 82.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.636 0.116 136.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for privacy dashboards and product UI with Noto Sans JP guidance for Japanese labels, compact metrics, calm hierarchy, and guarded multilingual readability.",
+  "layout": "Quiet 8px-grid privacy layouts with overlapping scale cards, compact protected navigation, warm ivory surfaces, bronze borders, restrained shadows, and leaf-green secure accents.",
+  "tags": [
+    "pangolin",
+    "mammal",
+    "tropical-woodland",
+    "scales",
+    "bronze-brown",
+    "leaf-green",
+    "privacy",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pangolin/motif.png",
+    "board": "/systems/morphous-pangolin/design-system-light.png",
+    "darkBoard": "/systems/morphous-pangolin/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pangolin/theme.css",
+    "themeJson": "/systems/morphous-pangolin/theme.json",
+    "promptsJson": "/systems/morphous-pangolin/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Pangolin motif",
+      "asset": "/systems/morphous-pangolin/motif.png",
+      "workflow": "Built-in image generation on flat #ff00ff chroma key, then local remove_chroma_key.py alpha extraction with border auto-key, soft matte, and despill.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Pangolin transparent motif chroma-key source\nPrimary request: Create only an isolated pangolin motif for a design-system catalog, no environment, no props, no text.\nSubject: A single pangolin in a calm curled protective pose, three-quarter view, full body visible, detailed overlapping armor scales, bronze brown and umber scale plates with subtle tan highlights, small dark eye, tapered snout, curved tail, natural anatomy. The motif should feel tactile, private, armored, careful, and suitable for an \"armored privacy system\" design language inspired by tropical woodland and pangolin scales.\nComposition/framing: centered complete cutout with generous padding; show the full silhouette including tail and scale texture without cropping; one pangolin only.\nLighting/mood: clean studio light that preserves crisp scale edges, bronze brown warmth, soft natural shadows on the body only, and a clean silhouette for masking.\nTransparent workflow: place the pangolin on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the pangolin fully separated from the background with crisp edges and generous padding. Do not use #ff00ff anywhere in the pangolin.\nConstraints: no forest scene, no ground, no leaves, no extra animals, no text, no watermark, no cast shadow, no contact shadow, no reflection, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-pangolin/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-pangolin/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: true high-resolution 4K Morphous light-mode design-system board for /systems/morphous-pangolin/design-system-light.png\nPrimary request: Generate one comprehensive, sharp, high-resolution 16:9 light-mode design-system board for \"Morphous Pangolin\" / \"Pangolin\", an armored privacy system derived from the visible pangolin motif. This board must be suitable as a final catalog source image, target 3840 x 2160 pixels, minimum 2400px wide, crisp readable labels, no low-resolution preview.\nReference use: Use the visible pangolin cutout as the source of truth. Extract palette, scale texture rhythm, protective curved silhouette, tropical woodland context, contrast, spacing mood, and interaction language from the motif image. The board must visibly respect the motif colors: bronze brown scale plates, umber armor shadow, tan scale highlights, leaf green accents, moss focus, warm ivory surfaces, and deep burrow ink.\nCanvas: exact wide 16:9 board, 3840 x 2160 pixel composition, ultra sharp source asset, not a thumbnail.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Pangolin, Pangolin, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use guarded privacy-product UI type hierarchy with clear labels and strong numeric rhythm.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, access-control table, privacy audit tile, loading, empty, error states, spacing, radius, border, shadow, texture samples.\nVisual details: warm ivory and pale clay page background, layered scale cards with 8px radius, bronze-brown primary actions, leaf-green secure accents, umber text, moss focus rings, overlapping scale tab shapes, subtle etched armor texture, quiet privacy/security dashboard layout, tropical woodland leaf green used sparingly.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Pangolin\".\nConstraints: no forest photo scene, no repeated animal clutter, no sci-fi neon, no generic purple gradients, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Pangolin\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-pangolin/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-pangolin/motif.png",
+        "/systems/morphous-pangolin/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for /systems/morphous-pangolin/design-system-dark.png\nPrimary request: Generate one comprehensive 16:9 dark-mode design-system board for \"Morphous Pangolin\" / \"Pangolin\". It must feel like the same system translated from the visible light-mode Morphous Pangolin board and the same pangolin motif, not a new theme.\nReference use: Use the visible transparent pangolin motif and visible light board as references. Preserve motif-derived palette roles, overlapping scale rhythm, protective curved silhouette, privacy dashboard layout, spacing, typography, and shadcn/tweakcn component coverage. Translate warm ivory and pale clay surfaces into deep burrow ink and charcoal umber surfaces, with ivory text, bronze primary, leaf green secure accents, moss focus rings, tan highlights, and restrained armor-edge glow.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Pangolin, Pangolin, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use guarded privacy-product UI type hierarchy with clear labels and strong numeric rhythm.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, access-control table, privacy audit tile, loading, empty, error states, spacing, radius, border, shadow, texture samples.\nVisual details: deep burrow ink background, dark umber cards with bronze scale borders, luminous bronze primary actions, leaf-green secure accents, tan data highlights, moss focus rings, ivory foreground, overlapping scale tab shapes, subtle etched armor texture, 8px radii, quiet high-trust privacy/security dashboard layout.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Pangolin\".\nConstraints: no forest photo scene, no repeated animal clutter, no sci-fi neon, no flat pure-black-only background, no generic purple gradients, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Pangolin\"."
+    }
+  ]
+}

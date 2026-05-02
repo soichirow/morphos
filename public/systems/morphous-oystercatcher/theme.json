@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-oystercatcher",
+    "name": "Morphous Oystercatcher",
+    "motifName": "Oystercatcher Beak",
+    "motifCategory": "bird",
+    "biome": "Rocky Shore",
+    "motif": "red beak high-signal contrast"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Surf White",
+      "hex": "#f7f8f6",
+      "oklch": "oklch(0.978 0.003 128.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Plumage Black",
+      "hex": "#111315",
+      "oklch": "oklch(0.185 0.005 248.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Beak Red",
+      "hex": "#e33b1f",
+      "oklch": "oklch(0.605 0.208 32.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Grey",
+      "hex": "#728087",
+      "oklch": "oklch(0.591 0.020 229.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Eye Ring",
+      "hex": "#ff6a3d",
+      "oklch": "oklch(0.704 0.192 37.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Feather White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Panel",
+      "hex": "#e8eceb",
+      "oklch": "oklch(0.940 0.004 179.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Rock Lichen",
+      "hex": "#9ba19c",
+      "oklch": "oklch(0.703 0.010 150.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt",
+      "hex": "#2b3033",
+      "oklch": "oklch(0.305 0.009 234.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.003 128.5)",
+    "foreground": "oklch(0.185 0.005 248.1)",
+    "card": "oklch(0.940 0.004 179.7)",
+    "card-foreground": "oklch(0.185 0.005 248.1)",
+    "popover": "oklch(0.940 0.004 179.7)",
+    "popover-foreground": "oklch(0.185 0.005 248.1)",
+    "primary": "oklch(0.605 0.208 32.0)",
+    "primary-foreground": "oklch(0.978 0.003 128.5)",
+    "secondary": "oklch(0.956 0.003 174.5)",
+    "secondary-foreground": "oklch(0.305 0.009 234.0)",
+    "muted": "oklch(0.950 0.003 174.5)",
+    "muted-foreground": "oklch(0.305 0.009 234.0)",
+    "accent": "oklch(0.704 0.192 37.1)",
+    "accent-foreground": "oklch(0.185 0.005 248.1)",
+    "destructive": "oklch(0.605 0.208 32.0)",
+    "border": "oklch(0.856 0.006 170.4)",
+    "input": "oklch(0.856 0.006 170.4)",
+    "ring": "oklch(0.591 0.020 229.2)",
+    "chart-1": "oklch(0.605 0.208 32.0)",
+    "chart-2": "oklch(0.591 0.020 229.2)",
+    "chart-3": "oklch(0.704 0.192 37.1)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.305 0.009 234.0)",
+    "sidebar": "oklch(0.953 0.003 174.5)",
+    "sidebar-foreground": "oklch(0.185 0.005 248.1)",
+    "sidebar-primary": "oklch(0.605 0.208 32.0)",
+    "sidebar-primary-foreground": "oklch(0.978 0.003 128.5)",
+    "sidebar-accent": "oklch(0.891 0.019 34.3)",
+    "sidebar-accent-foreground": "oklch(0.605 0.208 32.0)",
+    "sidebar-border": "oklch(0.856 0.006 170.4)",
+    "sidebar-ring": "oklch(0.591 0.020 229.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.185 0.005 248.1)",
+    "foreground": "oklch(0.978 0.003 128.5)",
+    "card": "oklch(0.266 0.008 240.2)",
+    "card-foreground": "oklch(0.978 0.003 128.5)",
+    "popover": "oklch(0.266 0.008 240.2)",
+    "popover-foreground": "oklch(0.978 0.003 128.5)",
+    "primary": "oklch(0.591 0.020 229.2)",
+    "primary-foreground": "oklch(0.185 0.005 248.1)",
+    "secondary": "oklch(0.401 0.007 211.0)",
+    "secondary-foreground": "oklch(0.978 0.003 128.5)",
+    "muted": "oklch(0.401 0.007 211.0)",
+    "muted-foreground": "oklch(0.857 0.005 145.5)",
+    "accent": "oklch(0.704 0.192 37.1)",
+    "accent-foreground": "oklch(0.185 0.005 248.1)",
+    "destructive": "oklch(0.605 0.208 32.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.591 0.020 229.2)",
+    "chart-1": "oklch(0.591 0.020 229.2)",
+    "chart-2": "oklch(0.605 0.208 32.0)",
+    "chart-3": "oklch(0.704 0.192 37.1)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.703 0.010 150.6)",
+    "sidebar": "oklch(0.242 0.007 248.1)",
+    "sidebar-foreground": "oklch(0.978 0.003 128.5)",
+    "sidebar-primary": "oklch(0.591 0.020 229.2)",
+    "sidebar-primary-foreground": "oklch(0.185 0.005 248.1)",
+    "sidebar-accent": "oklch(0.401 0.007 211.0)",
+    "sidebar-accent-foreground": "oklch(0.978 0.003 128.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.591 0.020 229.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense operational UI with Noto Sans JP guidance for Japanese labels, strong numerals, and crisp status text.",
+  "layout": "Precise 8px grids, sharp black-white separation, red beak action rails, sea-grey panels, compact tables, and status-first dashboard composition.",
+  "tags": [
+    "oystercatcher",
+    "bird",
+    "rocky-shore",
+    "black-white",
+    "red-beak",
+    "high-signal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-oystercatcher/motif.png",
+    "board": "/systems/morphous-oystercatcher/design-system-light.png",
+    "darkBoard": "/systems/morphous-oystercatcher/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-oystercatcher/theme.css",
+    "themeJson": "/systems/morphous-oystercatcher/theme.json",
+    "promptsJson": "/systems/morphous-oystercatcher/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Oystercatcher motif",
+      "asset": "/systems/morphous-oystercatcher/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Oystercatcher transparent motif chroma-key source\nPrimary request: Create only an isolated oystercatcher beak and head motif for a design-system catalog, no environment, no props, no text.\nSubject: A coastal oystercatcher bird head in precise side profile with glossy black crown, clean white lower patch, vivid long red-orange beak, small red eye ring, crisp black-and-white feather boundary, accurate shorebird anatomy, and smooth natural feather texture.\nComposition/framing: centered complete cutout with generous padding; show the full beak, eye, head, upper neck, and black-white contrast without cropping.\nLighting/mood: clean studio light that preserves the high-signal black/white contrast and the red beak accent.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 removable chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no full beach scene, no rocks, no water background, no second bird, no gull, no puffin, no toucan, no text, no watermark, no props, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-oystercatcher/design-system-light.png",
+      "prompt": "Create one 3840x2160 comprehensive light-mode design-system board for \"Morphous Oystercatcher\" / \"Oystercatcher Beak\", source reference for a shadcn/tweakcn theme. Use black/white bird contrast, red-orange beak accent, sea grey water, slate rocky neutrals, and clean white feather panels. Include readable English and Japanese typography guidance plus palette, navigation, dashboard, charts, table, form, status, components, texture, radius, spacing, shadows, and tokens. Use high-signal operational UI labels only; no random brand names, no watermark, no purple gradients, no illegible tiny tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-oystercatcher/design-system-dark.png",
+      "prompt": "Create one 3840x2160 comprehensive dark-mode design-system board for \"Morphous Oystercatcher\" / \"Oystercatcher Beak\", translated from the light board and the same motif. Use near-black basalt surfaces, white feather text, pale surf borders, red-orange beak active states, sea-grey muted panels, and rocky texture. Include readable English and Japanese typography guidance plus palette, navigation, dashboard, charts, table, form, status, components, texture, radius, spacing, shadows, and tokens. Use high-signal operational UI labels only; no random brand names, no watermark, no purple gradients, no neon overload, no illegible tiny tables."
+    }
+  ]
+}

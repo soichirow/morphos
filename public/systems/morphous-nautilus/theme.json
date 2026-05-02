@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-nautilus",
+    "name": "Morphous Nautilus",
+    "motifName": "Nautilus",
+    "motifCategory": "marine",
+    "biome": "deep reef",
+    "motif": "nautilus shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Cream",
+      "hex": "#F7F3EC",
+      "oklch": "oklch(0.965 0.010 81.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Reef Ink",
+      "hex": "#0F2131",
+      "oklch": "oklch(0.241 0.039 247.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ocean Blue",
+      "hex": "#1E5A7A",
+      "oklch": "oklch(0.445 0.080 236.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chamber Sand",
+      "hex": "#EADCC5",
+      "oklch": "oklch(0.900 0.034 80.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Stripe",
+      "hex": "#C65A2B",
+      "oklch": "oklch(0.595 0.151 42.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Blue Pearl",
+      "hex": "#B6E0EC",
+      "oklch": "oklch(0.881 0.047 217.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pearl Grain",
+      "hex": "#F2E7D5",
+      "oklch": "oklch(0.932 0.027 80.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Abyss Blue",
+      "hex": "#0B1824",
+      "oklch": "oklch(0.204 0.030 247.6)"
+    }
+  ],
+  "light": {
+    "background": "38 41% 95%",
+    "foreground": "208 53% 13%",
+    "card": "0 0% 100%",
+    "card-foreground": "208 53% 13%",
+    "popover": "0 0% 100%",
+    "popover-foreground": "208 53% 13%",
+    "primary": "201 61% 30%",
+    "primary-foreground": "0 0% 100%",
+    "secondary": "37 47% 85%",
+    "secondary-foreground": "208 53% 13%",
+    "muted": "37 53% 89%",
+    "muted-foreground": "216 13% 48%",
+    "accent": "18 64% 47%",
+    "accent-foreground": "0 0% 100%",
+    "destructive": "13 65% 39%",
+    "border": "33 51% 83%",
+    "input": "33 51% 83%",
+    "ring": "201 61% 30%",
+    "chart-1": "201 61% 30%",
+    "chart-2": "18 64% 47%",
+    "chart-3": "37 47% 85%",
+    "chart-4": "198 15% 70%",
+    "chart-5": "15 64% 29%",
+    "sidebar": "38 41% 95%",
+    "sidebar-foreground": "208 53% 13%",
+    "sidebar-primary": "201 61% 30%",
+    "sidebar-primary-foreground": "0 0% 100%",
+    "sidebar-accent": "37 53% 89%",
+    "sidebar-accent-foreground": "208 53% 13%",
+    "sidebar-border": "33 51% 83%",
+    "sidebar-ring": "201 61% 30%",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "209 53% 9%",
+    "foreground": "38 41% 95%",
+    "card": "202 55% 19%",
+    "card-foreground": "38 41% 95%",
+    "popover": "202 55% 19%",
+    "popover-foreground": "38 41% 95%",
+    "primary": "193 59% 82%",
+    "primary-foreground": "209 53% 9%",
+    "secondary": "208 53% 13%",
+    "secondary-foreground": "38 41% 95%",
+    "muted": "201 21% 47%",
+    "muted-foreground": "198 15% 70%",
+    "accent": "27 65% 57%",
+    "accent-foreground": "209 53% 9%",
+    "destructive": "18 64% 47%",
+    "border": "201 21% 47%",
+    "input": "201 21% 47%",
+    "ring": "193 59% 82%",
+    "chart-1": "193 59% 82%",
+    "chart-2": "27 65% 57%",
+    "chart-3": "37 47% 85%",
+    "chart-4": "201 21% 47%",
+    "chart-5": "18 64% 47%",
+    "sidebar": "209 53% 9%",
+    "sidebar-foreground": "38 41% 95%",
+    "sidebar-primary": "193 59% 82%",
+    "sidebar-primary-foreground": "209 53% 9%",
+    "sidebar-accent": "202 55% 19%",
+    "sidebar-accent-foreground": "38 41% 95%",
+    "sidebar-border": "201 21% 47%",
+    "sidebar-ring": "193 59% 82%",
+    "radius": "0.5rem"
+  },
+  "typography": "Display serif headings with calm interface sans text; Japanese guidance pairs Noto Serif JP for editorial emphasis with Noto Sans JP for dense product UI.",
+  "layout": "Quiet dashboard layout on an 8px grid with 8px card radius, spiral dividers, chamber-like panels, restrained shadows, and clear data surfaces.",
+  "tags": [
+    "marine",
+    "deep reef",
+    "nautilus",
+    "shell",
+    "spiral",
+    "knowledge",
+    "cream",
+    "rust",
+    "ocean blue"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-nautilus/motif.png",
+    "board": "/systems/morphous-nautilus/design-system-light.png",
+    "darkBoard": "/systems/morphous-nautilus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-nautilus/theme.css",
+    "themeJson": "/systems/morphous-nautilus/theme.json",
+    "promptsJson": "/systems/morphous-nautilus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "motif",
+      "label": "Transparent nautilus motif",
+      "asset": "/systems/morphous-nautilus/motif.png",
+      "workflow": "Built-in image_gen on flat #ff00ff chroma key, followed by local alpha extraction with remove_chroma_key.py.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a single nautilus shell, isolated full subject, no environment, no props, no text.\nSubject: accurate nautilus shell with a cream spiral chamber structure, rust stripe banding, subtle pearly calcium texture, and small hints of deep ocean blue in the shadowed grooves. Show the shell as a graceful spiral knowledge-system emblem, natural but polished for a design catalog.\nComposition/framing: centered complete cutout with generous padding; do not crop the shell. Slight three-quarter view so the spiral and shell depth are visible.\nLighting/mood: clean studio light that preserves natural color, surface ridges, chamber divisions, pearly highlights, and rust striping.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second shell, no animal body, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "design-system-light",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-nautilus/design-system-light.png",
+      "sourceAsset": "/systems/morphous-nautilus/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-nautilus/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Morphous Nautilus\", derived from the visible nautilus shell cutout in this conversation.\nReference use: Extract palette, texture rhythm, spiral geometry, contrast, spacing mood, and interaction language from the nautilus shell motif. The board must visibly respect cream chamber interiors, rust stripe banding, ocean-blue groove shadows, pearly highlights, and deep reef context.\nCanvas: wide 16:9 board, target 3840x2160 4K-class source image.\nResolution and legibility: use large readable section labels, generous spacing, and a precise grid. Avoid dense tiny tables. Text must be clean and legible at gallery preview size.\nRequired visible sections: title \"Morphous Nautilus\", motif story \"spiral knowledge system\", palette, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nPalette labels to show: Pearl Cream, Chamber Sand, Rust Stripe, Ocean Blue, Reef Ink, Foam White.\nTypography: include English guidance for a refined product UI and Japanese guidance with readable sample text such as \"知識の螺旋\" and \"海の記録\". Use multilingual font guidance that would work for SaaS dashboards and editorial knowledge tools.\nComponents: buttons, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, popover, table, search command menu, sidebar navigation, top navigation, dashboard KPI cards, line chart, bar chart, donut chart, empty state, error state, loading state.\nStyle/medium: premium shadcn/tweakcn-compatible product design-system board, realistic crisp UI mockup, quiet work-focused dashboard surface, 8px radius cards, restrained shadows, motif-derived texture strips and spiral dividers.\nColor palette: warm near-white background from shell highlight, cream and sand surfaces, rust accent, ocean-blue primary, reef-ink text, no unrelated saturated colors.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no generic purple gradients, no random brand names, no watermark, no illegible microtext, no dark-mode-only surface."
+    },
+    {
+      "id": "design-system-dark",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-nautilus/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-nautilus/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-nautilus/motif.png",
+        "/systems/morphous-nautilus/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the \"Morphous Nautilus\" design-system board. It must feel like the same spiral knowledge system translated to dark mode, not a new theme.\nReference use: Use the visible nautilus motif and the light-mode Morphous Nautilus board already in this conversation as references. Preserve the palette roles, component language, spiral dividers, shell texture rhythm, 8px radius, typography hierarchy, and knowledge-dashboard UI coverage.\nCanvas: wide 16:9 board, target 3840x2160 4K-class source image.\nResolution and legibility: use large readable labels, generous spacing, and a precise grid. Avoid dense tiny token tables. Text must stay legible at gallery preview size.\nRequired visible sections: title \"Morphous Nautilus\", label \"Dark Mode\", motif story \"spiral knowledge system\", palette, typography, Japanese typography, components, navigation, dashboard/data, charts, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nPalette labels to show: Reef Ink, Abyss Blue, Ocean Blue, Rust Stripe, Chamber Sand, Pearl Cream, Foam White.\nTypography: include English guidance for a refined product UI and Japanese guidance with readable sample text such as \"知識の螺旋\" and \"海の記録\". Use multilingual font guidance for SaaS dashboards and editorial knowledge tools.\nComponents: buttons, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, popover, table, search command menu, sidebar navigation, top navigation, dashboard KPI cards, line chart, bar chart, donut chart, empty state, error state, loading state.\nVisual details: dark background derived from deepest reef ink and abyss blue, light text from pearl cream and foam white, ocean-blue primary controls, rust stripe accent states, chamber-sand muted surfaces, subtle shell-ridge texture overlays, crisp shadcn/tweakcn-compatible cards and controls.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no pure flat black, no unrelated saturated colors, no generic purple gradients, no random brand names, no watermark, no illegible microtext."
+    }
+  ]
+}

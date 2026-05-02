@@ -1,0 +1,185 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-peafowl-feather",
+    "name": "Morphous Peafowl Feather",
+    "motifName": "Peafowl Feather",
+    "motifCategory": "bird",
+    "biome": "Monsoon Garden",
+    "motif": "peacock eye feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory",
+      "hex": "#FAF8F3",
+      "oklch": "oklch(0.979 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Navy",
+      "hex": "#001B2A",
+      "oklch": "oklch(0.210 0.045 235.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Peafowl Teal",
+      "hex": "#0FA7A6",
+      "oklch": "oklch(0.660 0.111 194.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Peafowl Cobalt",
+      "hex": "#164E9E",
+      "oklch": "oklch(0.437 0.142 258.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Antique Gold",
+      "hex": "#D4AF37",
+      "oklch": "oklch(0.767 0.139 91.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl",
+      "hex": "#F2F0EC",
+      "oklch": "oklch(0.956 0.006 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist",
+      "hex": "#E6E8EB",
+      "oklch": "oklch(0.930 0.005 258.3)"
+    },
+    {
+      "role": "Bronze",
+      "name": "Bronze",
+      "hex": "#B87333",
+      "oklch": "oklch(0.618 0.117 60.4)"
+    },
+    {
+      "role": "Moss",
+      "name": "Moss Green",
+      "hex": "#6A8E3A",
+      "oklch": "oklch(0.601 0.120 128.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink",
+      "hex": "#1A2330",
+      "oklch": "oklch(0.254 0.028 257.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.979 0.007 88.6)",
+    "foreground": "oklch(0.210 0.045 235.9)",
+    "card": "oklch(0.956 0.006 84.6)",
+    "card-foreground": "oklch(0.210 0.045 235.9)",
+    "popover": "oklch(0.956 0.006 84.6)",
+    "popover-foreground": "oklch(0.210 0.045 235.9)",
+    "primary": "oklch(0.660 0.111 194.0)",
+    "primary-foreground": "oklch(0.979 0.007 88.6)",
+    "secondary": "oklch(0.965 0.006 84.6)",
+    "secondary-foreground": "oklch(0.254 0.028 257.5)",
+    "muted": "oklch(0.962 0.006 84.6)",
+    "muted-foreground": "oklch(0.254 0.028 257.5)",
+    "accent": "oklch(0.767 0.139 91.1)",
+    "accent-foreground": "oklch(0.210 0.045 235.9)",
+    "destructive": "oklch(0.660 0.111 194.0)",
+    "border": "oklch(0.947 0.002 67.8)",
+    "input": "oklch(0.947 0.002 67.8)",
+    "ring": "oklch(0.437 0.142 258.4)",
+    "chart-1": "oklch(0.660 0.111 194.0)",
+    "chart-2": "oklch(0.437 0.142 258.4)",
+    "chart-3": "oklch(0.767 0.139 91.1)",
+    "chart-4": "oklch(0.956 0.006 84.6)",
+    "chart-5": "oklch(0.254 0.028 257.5)",
+    "sidebar": "oklch(0.964 0.007 88.6)",
+    "sidebar-foreground": "oklch(0.210 0.045 235.9)",
+    "sidebar-primary": "oklch(0.660 0.111 194.0)",
+    "sidebar-primary-foreground": "oklch(0.979 0.007 88.6)",
+    "sidebar-accent": "oklch(0.915 0.017 183.5)",
+    "sidebar-accent-foreground": "oklch(0.660 0.111 194.0)",
+    "sidebar-border": "oklch(0.947 0.002 67.8)",
+    "sidebar-ring": "oklch(0.437 0.142 258.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.210 0.045 235.9)",
+    "foreground": "oklch(0.979 0.007 88.6)",
+    "card": "oklch(0.237 0.034 247.8)",
+    "card-foreground": "oklch(0.979 0.007 88.6)",
+    "popover": "oklch(0.237 0.034 247.8)",
+    "popover-foreground": "oklch(0.979 0.007 88.6)",
+    "primary": "oklch(0.437 0.142 258.4)",
+    "primary-foreground": "oklch(0.210 0.045 235.9)",
+    "secondary": "oklch(0.422 0.020 259.4)",
+    "secondary-foreground": "oklch(0.979 0.007 88.6)",
+    "muted": "oklch(0.422 0.020 259.4)",
+    "muted-foreground": "oklch(0.958 0.003 106.4)",
+    "accent": "oklch(0.767 0.139 91.1)",
+    "accent-foreground": "oklch(0.210 0.045 235.9)",
+    "destructive": "oklch(0.660 0.111 194.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.437 0.142 258.4)",
+    "chart-1": "oklch(0.437 0.142 258.4)",
+    "chart-2": "oklch(0.660 0.111 194.0)",
+    "chart-3": "oklch(0.767 0.139 91.1)",
+    "chart-4": "oklch(0.956 0.006 84.6)",
+    "chart-5": "oklch(0.930 0.005 258.3)",
+    "sidebar": "oklch(0.231 0.037 242.6)",
+    "sidebar-foreground": "oklch(0.979 0.007 88.6)",
+    "sidebar-primary": "oklch(0.437 0.142 258.4)",
+    "sidebar-primary-foreground": "oklch(0.210 0.045 235.9)",
+    "sidebar-accent": "oklch(0.422 0.020 259.4)",
+    "sidebar-accent-foreground": "oklch(0.979 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.437 0.142 258.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Elegant gallery display headings paired with practical sans product UI; Noto Sans guidance for Japanese labels and multilingual previews.",
+  "layout": "8px grid, restrained 8px panels, feather-bar dividers, eye-spot focus rings, brass hairline borders, and dense gallery/dashboard surfaces.",
+  "tags": [
+    "peafowl",
+    "peacock-eye-feather",
+    "bird",
+    "monsoon-garden",
+    "teal",
+    "cobalt",
+    "bronze",
+    "gold",
+    "decorative-gallery-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-peafowl-feather/motif.png",
+    "board": "/systems/morphous-peafowl-feather/design-system-light.png",
+    "darkBoard": "/systems/morphous-peafowl-feather/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-peafowl-feather/theme.css",
+    "themeJson": "/systems/morphous-peafowl-feather/theme.json",
+    "promptsJson": "/systems/morphous-peafowl-feather/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent peafowl feather motif",
+      "asset": "/systems/morphous-peafowl-feather/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a single peafowl eye feather, isolated complete feather, no environment, no props, no text.\nSubject: an elegant peacock eye feather with accurate barbs, iridescent teal and cobalt eye, bronze-gold ring, fine filament details, natural shaft and delicate taper.\nComposition/framing: centered complete cutout with generous padding; do not crop the feather. Feather angled slightly diagonal for graceful gallery use.\nLighting/mood: clean studio light that preserves iridescent natural color and feather texture detail.\nTransparent workflow: place the feather on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second feather, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-peafowl-feather/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Peafowl Feather\", a decorative gallery system inspired by a peacock eye feather in a monsoon garden.\nMotif source: Use an iridescent peafowl eye feather as the source of truth: teal, cobalt, bronze, antique gold, moss green, ink navy, soft ivory neutrals, fine feather-line texture, and rainwashed garden atmosphere.\nCanvas: wide 16:9 board, high-resolution 4K-class source board, preferred 3840x2160. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Peafowl Feather\", motif story, palette swatches, typography, Japanese typography, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation, dashboard charts, empty/error/loading states, texture, radius, spacing, shadow, semantic tokens, generated asset examples.\nTypography: refined multilingual product UI guidance for English and Japanese, elegant gallery editorial headings with practical sans UI text.\nStyle/medium: premium shadcn/tweakcn-style light mode product design system, precise grid, decorative gallery system, 8px card radius, crisp controls, subtle feather-eye outlines, rainwashed ivory background, brass dividers, teal/cobalt interaction states.\nColor palette: use only motif-derived teal cobalt bronze gold moss navy and near-neutrals from feather highlights.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple gradients, no watermark, no random brand names, no illegible tiny token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-peafowl-feather/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for \"Peafowl Feather\", a decorative gallery system inspired by a peacock eye feather in a monsoon garden. It must feel like the same system translated to dark mode, not a new theme.\nMotif source: Use an iridescent peafowl eye feather as the source of truth: luminous teal, cobalt, bronze, antique gold, moss green, ink navy, rainwater highlights, fine feather-line texture, and monsoon garden atmosphere.\nCanvas: wide 16:9 board, high-resolution 4K-class source board, preferred 3840x2160. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Peafowl Feather\", Dark Mode, motif story, palette swatches, typography, Japanese typography, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation, dashboard charts, empty/error/loading states, texture, radius, spacing, shadow, semantic tokens, generated asset examples.\nTypography: refined multilingual product UI guidance for English and Japanese, elegant gallery editorial headings with practical sans UI text.\nVisual details: deep ink navy background from the feather eye, elevated cards in blue-black and dark teal, light text from pearl feather highlights, antique gold borders, bronze warning accents, teal/cobalt focused states, subtle feather-eye linework and rain texture overlays.\nStyle/medium: premium shadcn/tweakcn-style dark mode product design system, precise grid, decorative gallery system, 8px card radius, crisp controls.\nColor palette: use only motif-derived teal cobalt bronze gold moss navy and near-neutrals from feather highlights.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no neon colors, no flat pure black background, no unrelated saturated colors, no watermark, no random brand names, no illegible tiny token tables."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-oarfish",
+  "name": "Morphous Oarfish",
+  "motifName": "Oarfish Ribbon",
+  "motifCategory": "fish",
+  "biome": "Deep Ocean",
+  "motif": "oarfish ribbon",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Oarfish light and dark design-system boards: silver ribbon surfaces, red fin timeline markers, abyss-navy structure, mist-blue focus, and dense vertical data workflows.",
+  "typography": "Inter for precise operational UI with Noto Sans JP guidance for Japanese labels, compact tables, and timeline-heavy dashboard screens.",
+  "layout": "Vertical timeline-first composition, 8px grid, slim ribbon dividers, red fin tick marks, silver data cards, and deep-ocean navigation rails.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "oarfish",
+    "fish",
+    "deep-ocean",
+    "silver",
+    "red-fin",
+    "vertical-timeline",
+    "data-ui",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl",
+      "hex": "#fafbfc"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Navy",
+      "hex": "#081a2e"
+    },
+    {
+      "role": "Primary",
+      "name": "Red Fin",
+      "hex": "#e6393d"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pelagic Blue",
+      "hex": "#a7bcd1"
+    },
+    {
+      "role": "Accent",
+      "name": "Mist Blue",
+      "hex": "#d6dfe8"
+    },
+    {
+      "role": "Signal",
+      "name": "Coral Red",
+      "hex": "#ff4d4f"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam Gray",
+      "hex": "#f1f3f6"
+    },
+    {
+      "role": "Muted",
+      "name": "Scale Silver",
+      "hex": "#e6eaee"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Blue",
+      "hex": "#11263f"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
