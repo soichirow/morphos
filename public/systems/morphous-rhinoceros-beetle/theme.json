@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rhinoceros-beetle",
+    "name": "Morphous Rhinoceros Beetle",
+    "motifName": "Rhinoceros Beetle",
+    "motifCategory": "insect",
+    "biome": "tropical forest",
+    "motif": "rhinoceros beetle horn"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Shell",
+      "hex": "#FAF7F2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bone Beige",
+      "hex": "#EFE7DA",
+      "oklch": "oklch(0.931 0.019 80.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Horn Black",
+      "hex": "#0D0B0A",
+      "oklch": "oklch(0.152 0.004 48.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Black",
+      "hex": "#090807",
+      "oklch": "oklch(0.135 0.003 69.6)"
+    },
+    {
+      "role": "Panel",
+      "name": "Carapace Brown",
+      "hex": "#1B120E",
+      "oklch": "oklch(0.193 0.017 45.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Sepia",
+      "hex": "#3E2A1F",
+      "oklch": "oklch(0.306 0.035 49.8)"
+    },
+    {
+      "role": "Primary Dark",
+      "name": "Chestnut",
+      "hex": "#5B2B1A",
+      "oklch": "oklch(0.350 0.076 39.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Aged Wood",
+      "hex": "#7A4A2D",
+      "oklch": "oklch(0.458 0.078 50.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bronze",
+      "hex": "#A47132",
+      "oklch": "oklch(0.589 0.102 69.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Burnished Bronze",
+      "hex": "#C29458",
+      "oklch": "oklch(0.697 0.095 72.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber",
+      "hex": "#D07A10",
+      "oklch": "oklch(0.659 0.147 62.4)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Amber Light",
+      "hex": "#F3B34D",
+      "oklch": "oklch(0.808 0.138 76.0)"
+    },
+    {
+      "role": "Danger",
+      "name": "Oxide Red",
+      "hex": "#8A2A1A",
+      "oklch": "oklch(0.430 0.133 32.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.010 78.0)",
+    "foreground": "oklch(0.120 0.006 45.0)",
+    "card": "oklch(0.932 0.018 76.5)",
+    "card-foreground": "oklch(0.170 0.020 44.0)",
+    "popover": "oklch(0.932 0.018 76.5)",
+    "popover-foreground": "oklch(0.170 0.020 44.0)",
+    "primary": "oklch(0.638 0.150 57.0)",
+    "primary-foreground": "oklch(0.120 0.006 45.0)",
+    "secondary": "oklch(0.676 0.087 68.0)",
+    "secondary-foreground": "oklch(0.120 0.006 45.0)",
+    "muted": "oklch(0.932 0.018 76.5)",
+    "muted-foreground": "oklch(0.420 0.072 53.0)",
+    "accent": "oklch(0.543 0.092 63.0)",
+    "accent-foreground": "oklch(0.980 0.010 78.0)",
+    "destructive": "oklch(0.475 0.151 37.0)",
+    "border": "oklch(0.676 0.087 68.0 / 35%)",
+    "input": "oklch(0.676 0.087 68.0 / 28%)",
+    "ring": "oklch(0.638 0.150 57.0)",
+    "chart-1": "oklch(0.638 0.150 57.0)",
+    "chart-2": "oklch(0.543 0.092 63.0)",
+    "chart-3": "oklch(0.420 0.072 53.0)",
+    "chart-4": "oklch(0.330 0.069 42.0)",
+    "chart-5": "oklch(0.676 0.087 68.0)",
+    "sidebar": "oklch(0.170 0.020 44.0)",
+    "sidebar-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-primary": "oklch(0.799 0.132 74.0)",
+    "sidebar-primary-foreground": "oklch(0.120 0.006 45.0)",
+    "sidebar-accent": "oklch(0.270 0.035 47.0)",
+    "sidebar-accent-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-border": "oklch(0.543 0.092 63.0 / 45%)",
+    "sidebar-ring": "oklch(0.638 0.150 57.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.100 0.005 45.0)",
+    "foreground": "oklch(0.980 0.010 78.0)",
+    "card": "oklch(0.170 0.020 44.0)",
+    "card-foreground": "oklch(0.980 0.010 78.0)",
+    "popover": "oklch(0.170 0.020 44.0)",
+    "popover-foreground": "oklch(0.980 0.010 78.0)",
+    "primary": "oklch(0.799 0.132 74.0)",
+    "primary-foreground": "oklch(0.100 0.005 45.0)",
+    "secondary": "oklch(0.270 0.035 47.0)",
+    "secondary-foreground": "oklch(0.980 0.010 78.0)",
+    "muted": "oklch(0.270 0.035 47.0)",
+    "muted-foreground": "oklch(0.932 0.018 76.5)",
+    "accent": "oklch(0.638 0.150 57.0)",
+    "accent-foreground": "oklch(0.100 0.005 45.0)",
+    "destructive": "oklch(0.475 0.151 37.0)",
+    "border": "oklch(0.676 0.087 68.0 / 36%)",
+    "input": "oklch(0.676 0.087 68.0 / 45%)",
+    "ring": "oklch(0.799 0.132 74.0)",
+    "chart-1": "oklch(0.799 0.132 74.0)",
+    "chart-2": "oklch(0.638 0.150 57.0)",
+    "chart-3": "oklch(0.676 0.087 68.0)",
+    "chart-4": "oklch(0.543 0.092 63.0)",
+    "chart-5": "oklch(0.932 0.018 76.5)",
+    "sidebar": "oklch(0.120 0.006 45.0)",
+    "sidebar-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-primary": "oklch(0.799 0.132 74.0)",
+    "sidebar-primary-foreground": "oklch(0.100 0.005 45.0)",
+    "sidebar-accent": "oklch(0.270 0.035 47.0)",
+    "sidebar-accent-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-border": "oklch(0.676 0.087 68.0 / 36%)",
+    "sidebar-ring": "oklch(0.799 0.132 74.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense operations UI, Geist Mono for queue metrics and system logs, and Noto Sans JP guidance for Japanese labels, forms, tables, and status text.",
+  "layout": "Heavy operations dashboards, horn-black navigation, lacquered chitin panels, compact queue tables, amber command actions, 8px-or-less radii, readable data cards, and tactile beetle-shell texture.",
+  "tags": [
+    "rhinoceros-beetle",
+    "beetle-horn",
+    "insect",
+    "tropical-forest",
+    "gloss-brown",
+    "black",
+    "amber",
+    "heavy-operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rhinoceros-beetle/motif.png",
+    "board": "/systems/morphous-rhinoceros-beetle/design-system-light.png",
+    "darkBoard": "/systems/morphous-rhinoceros-beetle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rhinoceros-beetle/theme.css",
+    "themeJson": "/systems/morphous-rhinoceros-beetle/theme.json",
+    "promptsJson": "/systems/morphous-rhinoceros-beetle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rhinoceros beetle horn motif",
+      "asset": "/systems/morphous-rhinoceros-beetle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Rhinoceros Beetle transparent motif chroma-key source\nPrimary request: Create only a rhinoceros beetle horn motif for a design-system catalog, isolated as one complete beetle subject on a removable chroma-key background.\nSubject: A powerful male rhinoceros beetle, full body visible, with a prominent forward-curving head horn and smaller thoracic horn, glossy deep black-brown carapace, amber chestnut wing covers, heavy segmented legs, hooked tarsal claws, short antennae, accurate beetle anatomy, polished chitin highlights, tropical forest rhinoceros beetle character, no environment.\nComposition/framing: centered complete cutout with generous padding; show full horn, head, thorax, wing covers, legs, antennae, and claws without cropping. Low side-front three-quarter view that clearly shows the horn silhouette and heavy armored form. Clean studio lighting that preserves gloss, pores, shell texture, and amber translucence.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no cast shadow, no contact shadow, no green, no leaf, no branch, no soil, no second beetle, no larvae, no hand, no props, no landscape, no text, no watermark, no magenta or pink anywhere in the beetle."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rhinoceros-beetle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rhinoceros Beetle light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Rhinoceros Beetle\", derived from the visible transparent rhinoceros beetle horn cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible heavy operations product UI theme.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Rhinoceros Beetle, Rhinoceros Beetle Horn, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible motif only: glossy black-brown horn and thorax, chestnut amber wing covers, lacquer highlights, ridged chitin seams, heavy segmented legs, claw-like details, tropical forest shadow depth. The board must read as rhinoceros beetle horn and armored chitin, not generic bug, stag beetle, or leaf-green nature theme.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Geist Mono, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: icon buttons, primary and secondary buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, stacked bar chart, queue timeline, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple operations icons.\nStyle: premium shadcn/tweakcn-style heavy operations system, precise grid, component radii 8px or less, warm ivory background, carapace-black text, lacquer-brown panels, amber primary actions, chestnut secondary surfaces, horn-black navigation, burnished bronze borders, tight operational density, tactile chitin texture, strong but restrained shadows.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. Dominant palette is gloss brown, black, chestnut, amber, ivory, bronze. No unrelated saturated colors, no generic purple or blue gradients, no leaf-green palette, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Rhinoceros Beetle\" or \"Rhinoceros Beetle Horn\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rhinoceros-beetle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rhinoceros Beetle dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Rhinoceros Beetle\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible transparent rhinoceros beetle horn cutout.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Rhinoceros Beetle, Rhinoceros Beetle Horn, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Use the visible transparent beetle motif and visible light-mode Morphous Rhinoceros Beetle board as references. Preserve motif-derived palette roles, component language, component radii 8px or less, heavy operations density, Japanese typography, navigation, dashboard/data charts, forms, tables, command/search, status states, tokens, spacing, shadows, lacquer chitin textures, horn silhouette accents, and amber action language.\nVisual details: dark background derived from horn black and deep carapace brown; foreground from ivory shell highlights; primary actions from polished amber; secondary surfaces from chestnut and sepia; accents from burnished bronze; borders from dark lacquer seams; charts use amber, chestnut, bronze, sepia, and ivory only. Add subtle glossy chitin texture overlays and heavy operational shadows.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Geist Mono, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: icon buttons, primary and secondary buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, dashboard metric cards, line chart, stacked bar chart, queue timeline, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple operations icons.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. Dominant palette is gloss black, dark brown, chestnut, amber, ivory, bronze. No neon colors, no unrelated saturated colors, no generic purple or blue gradients, no leaf-green palette, no pure-black-only flat background, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Rhinoceros Beetle\" or \"Rhinoceros Beetle Horn\", no tiny unreadable paragraphs."
+    }
+  ]
+}

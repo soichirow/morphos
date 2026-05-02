@@ -1,0 +1,191 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 302,
+  "slug": "morphous-rhinoceros-beetle",
+  "name": "Morphous Rhinoceros Beetle",
+  "motifName": "Rhinoceros Beetle",
+  "motifCategory": "insect",
+  "biome": "tropical forest",
+  "motif": "rhinoceros beetle horn",
+  "description": "A shadcn/tweakcn-compatible heavy operations system derived from a rhinoceros beetle horn: gloss black carapace structure, chestnut wing-cover surfaces, amber actions, burnished bronze dividers, tight operational dashboards, and precise 8px product UI.",
+  "typography": "Geist for dense operations UI, Geist Mono for queue metrics and system logs, and Noto Sans JP guidance for Japanese labels, forms, tables, and status text.",
+  "layout": "Heavy operations dashboards, horn-black navigation, lacquered chitin panels, compact queue tables, amber command actions, 8px-or-less radii, readable data cards, and tactile beetle-shell texture.",
+  "designMood": "heavy operations system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "rhinoceros-beetle",
+    "beetle-horn",
+    "insect",
+    "tropical-forest",
+    "gloss-brown",
+    "black",
+    "amber",
+    "heavy-operations",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Shell",
+      "hex": "#FAF7F2"
+    },
+    {
+      "role": "Surface",
+      "name": "Bone Beige",
+      "hex": "#EFE7DA"
+    },
+    {
+      "role": "Ink",
+      "name": "Horn Black",
+      "hex": "#0D0B0A"
+    },
+    {
+      "role": "Depth",
+      "name": "Ink Black",
+      "hex": "#090807"
+    },
+    {
+      "role": "Panel",
+      "name": "Carapace Brown",
+      "hex": "#1B120E"
+    },
+    {
+      "role": "Muted",
+      "name": "Sepia",
+      "hex": "#3E2A1F"
+    },
+    {
+      "role": "Primary Dark",
+      "name": "Chestnut",
+      "hex": "#5B2B1A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Aged Wood",
+      "hex": "#7A4A2D"
+    },
+    {
+      "role": "Accent",
+      "name": "Bronze",
+      "hex": "#A47132"
+    },
+    {
+      "role": "Border",
+      "name": "Burnished Bronze",
+      "hex": "#C29458"
+    },
+    {
+      "role": "Primary",
+      "name": "Amber",
+      "hex": "#D07A10"
+    },
+    {
+      "role": "Highlight",
+      "name": "Amber Light",
+      "hex": "#F3B34D"
+    },
+    {
+      "role": "Danger",
+      "name": "Oxide Red",
+      "hex": "#8A2A1A"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.980 0.010 78.0)",
+    "foreground": "oklch(0.120 0.006 45.0)",
+    "card": "oklch(0.932 0.018 76.5)",
+    "card-foreground": "oklch(0.170 0.020 44.0)",
+    "popover": "oklch(0.932 0.018 76.5)",
+    "popover-foreground": "oklch(0.170 0.020 44.0)",
+    "primary": "oklch(0.638 0.150 57.0)",
+    "primary-foreground": "oklch(0.120 0.006 45.0)",
+    "secondary": "oklch(0.676 0.087 68.0)",
+    "secondary-foreground": "oklch(0.120 0.006 45.0)",
+    "muted": "oklch(0.932 0.018 76.5)",
+    "muted-foreground": "oklch(0.420 0.072 53.0)",
+    "accent": "oklch(0.543 0.092 63.0)",
+    "accent-foreground": "oklch(0.980 0.010 78.0)",
+    "destructive": "oklch(0.475 0.151 37.0)",
+    "border": "oklch(0.676 0.087 68.0 / 35%)",
+    "input": "oklch(0.676 0.087 68.0 / 28%)",
+    "ring": "oklch(0.638 0.150 57.0)",
+    "chart-1": "oklch(0.638 0.150 57.0)",
+    "chart-2": "oklch(0.543 0.092 63.0)",
+    "chart-3": "oklch(0.420 0.072 53.0)",
+    "chart-4": "oklch(0.330 0.069 42.0)",
+    "chart-5": "oklch(0.676 0.087 68.0)",
+    "sidebar": "oklch(0.170 0.020 44.0)",
+    "sidebar-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-primary": "oklch(0.799 0.132 74.0)",
+    "sidebar-primary-foreground": "oklch(0.120 0.006 45.0)",
+    "sidebar-accent": "oklch(0.270 0.035 47.0)",
+    "sidebar-accent-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-border": "oklch(0.543 0.092 63.0 / 45%)",
+    "sidebar-ring": "oklch(0.638 0.150 57.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.100 0.005 45.0)",
+    "foreground": "oklch(0.980 0.010 78.0)",
+    "card": "oklch(0.170 0.020 44.0)",
+    "card-foreground": "oklch(0.980 0.010 78.0)",
+    "popover": "oklch(0.170 0.020 44.0)",
+    "popover-foreground": "oklch(0.980 0.010 78.0)",
+    "primary": "oklch(0.799 0.132 74.0)",
+    "primary-foreground": "oklch(0.100 0.005 45.0)",
+    "secondary": "oklch(0.270 0.035 47.0)",
+    "secondary-foreground": "oklch(0.980 0.010 78.0)",
+    "muted": "oklch(0.270 0.035 47.0)",
+    "muted-foreground": "oklch(0.932 0.018 76.5)",
+    "accent": "oklch(0.638 0.150 57.0)",
+    "accent-foreground": "oklch(0.100 0.005 45.0)",
+    "destructive": "oklch(0.475 0.151 37.0)",
+    "border": "oklch(0.676 0.087 68.0 / 36%)",
+    "input": "oklch(0.676 0.087 68.0 / 45%)",
+    "ring": "oklch(0.799 0.132 74.0)",
+    "chart-1": "oklch(0.799 0.132 74.0)",
+    "chart-2": "oklch(0.638 0.150 57.0)",
+    "chart-3": "oklch(0.676 0.087 68.0)",
+    "chart-4": "oklch(0.543 0.092 63.0)",
+    "chart-5": "oklch(0.932 0.018 76.5)",
+    "sidebar": "oklch(0.120 0.006 45.0)",
+    "sidebar-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-primary": "oklch(0.799 0.132 74.0)",
+    "sidebar-primary-foreground": "oklch(0.100 0.005 45.0)",
+    "sidebar-accent": "oklch(0.270 0.035 47.0)",
+    "sidebar-accent-foreground": "oklch(0.980 0.010 78.0)",
+    "sidebar-border": "oklch(0.676 0.087 68.0 / 36%)",
+    "sidebar-ring": "oklch(0.799 0.132 74.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

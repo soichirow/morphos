@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sandpiper",
+    "name": "Morphous Sandpiper",
+    "motifName": "Sandpiper",
+    "motifCategory": "bird",
+    "biome": "Shoreline",
+    "motif": "sandpiper pattern"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand",
+      "hex": "#E9DFC9",
+      "oklch": "oklch(0.906 0.031 86.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#FAF9F6",
+      "oklch": "oklch(0.982 0.004 91.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Driftwood",
+      "hex": "#4A3E33",
+      "oklch": "oklch(0.373 0.025 64.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Speckle Tan",
+      "hex": "#C9B08A",
+      "oklch": "oklch(0.769 0.059 78.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dune Beige",
+      "hex": "#d8c1a1",
+      "oklch": "oklch(0.822 0.050 76.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Glass",
+      "hex": "#4DADA1",
+      "oklch": "oklch(0.687 0.092 184.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Tidepool Gray",
+      "hex": "#D7DADA",
+      "oklch": "oklch(0.886 0.003 197.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Dune Gold",
+      "hex": "#D9B35B",
+      "oklch": "oklch(0.783 0.115 86.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Clay Red",
+      "hex": "#C75B5B",
+      "oklch": "oklch(0.605 0.138 22.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Driftwood",
+      "hex": "#4A3E33",
+      "oklch": "oklch(0.373 0.025 64.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.906 0.031 86.5)",
+    "foreground": "oklch(0.373 0.025 64.5)",
+    "card": "oklch(0.982 0.004 91.4)",
+    "card-foreground": "oklch(0.373 0.025 64.5)",
+    "popover": "oklch(0.982 0.004 91.4)",
+    "popover-foreground": "oklch(0.373 0.025 64.5)",
+    "primary": "oklch(0.769 0.059 78.1)",
+    "primary-foreground": "oklch(0.906 0.031 86.5)",
+    "secondary": "oklch(0.950 0.016 86.4)",
+    "secondary-foreground": "oklch(0.373 0.025 64.5)",
+    "muted": "oklch(0.961 0.012 91.5)",
+    "muted-foreground": "oklch(0.373 0.025 64.5)",
+    "accent": "oklch(0.687 0.092 184.3)",
+    "accent-foreground": "oklch(0.373 0.025 64.5)",
+    "destructive": "oklch(0.769 0.059 78.1)",
+    "border": "oklch(0.948 0.003 128.5)",
+    "input": "oklch(0.948 0.003 128.5)",
+    "ring": "oklch(0.822 0.050 76.0)",
+    "chart-1": "oklch(0.769 0.059 78.1)",
+    "chart-2": "oklch(0.822 0.050 76.0)",
+    "chart-3": "oklch(0.687 0.092 184.3)",
+    "chart-4": "oklch(0.687 0.092 184.3)",
+    "chart-5": "oklch(0.373 0.025 64.5)",
+    "sidebar": "oklch(0.956 0.013 86.8)",
+    "sidebar-foreground": "oklch(0.373 0.025 64.5)",
+    "sidebar-primary": "oklch(0.769 0.059 78.1)",
+    "sidebar-primary-foreground": "oklch(0.906 0.031 86.5)",
+    "sidebar-accent": "oklch(0.956 0.010 81.8)",
+    "sidebar-accent-foreground": "oklch(0.769 0.059 78.1)",
+    "sidebar-border": "oklch(0.948 0.003 128.5)",
+    "sidebar-ring": "oklch(0.822 0.050 76.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.373 0.025 64.5)",
+    "foreground": "oklch(0.906 0.031 86.5)",
+    "card": "oklch(0.373 0.025 64.5)",
+    "card-foreground": "oklch(0.906 0.031 86.5)",
+    "popover": "oklch(0.373 0.025 64.5)",
+    "popover-foreground": "oklch(0.906 0.031 86.5)",
+    "primary": "oklch(0.822 0.050 76.0)",
+    "primary-foreground": "oklch(0.373 0.025 64.5)",
+    "secondary": "oklch(0.495 0.017 64.1)",
+    "secondary-foreground": "oklch(0.906 0.031 86.5)",
+    "muted": "oklch(0.495 0.017 64.1)",
+    "muted-foreground": "oklch(0.897 0.017 91.6)",
+    "accent": "oklch(0.687 0.092 184.3)",
+    "accent-foreground": "oklch(0.373 0.025 64.5)",
+    "destructive": "oklch(0.769 0.059 78.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.822 0.050 76.0)",
+    "chart-1": "oklch(0.822 0.050 76.0)",
+    "chart-2": "oklch(0.769 0.059 78.1)",
+    "chart-3": "oklch(0.687 0.092 184.3)",
+    "chart-4": "oklch(0.687 0.092 184.3)",
+    "chart-5": "oklch(0.886 0.003 197.1)",
+    "sidebar": "oklch(0.373 0.025 64.5)",
+    "sidebar-foreground": "oklch(0.906 0.031 86.5)",
+    "sidebar-primary": "oklch(0.822 0.050 76.0)",
+    "sidebar-primary-foreground": "oklch(0.373 0.025 64.5)",
+    "sidebar-accent": "oklch(0.495 0.017 64.1)",
+    "sidebar-accent-foreground": "oklch(0.906 0.031 86.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.822 0.050 76.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact product UI with Noto Sans guidance for Japanese labels, tabular timeline numerals, and readable dense dashboards.",
+  "layout": "8px grid, compact timeline rails, fine dotted separators, shell-white cards, wet-sand surfaces, restrained shoreline accents, and dashboard-first operational workflows.",
+  "tags": [
+    "sandpiper",
+    "bird",
+    "shoreline",
+    "tan-speckle",
+    "wet-sand",
+    "compact-timeline",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sandpiper/motif.png",
+    "board": "/systems/morphous-sandpiper/design-system-light.png",
+    "darkBoard": "/systems/morphous-sandpiper/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sandpiper/theme.css",
+    "themeJson": "/systems/morphous-sandpiper/theme.json",
+    "promptsJson": "/systems/morphous-sandpiper/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sandpiper motif",
+      "asset": "/systems/morphous-sandpiper/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only one sandpiper bird, isolated full subject, no environment, no props, no text.\nSubject: compact shoreline sandpiper with accurate slender bill, small rounded body, fine tan and beige speckled upper feathers, clean white underside, pale legs, natural wet-sand neutral coloration, subtle feather detail, calm side-facing posture.\nComposition/framing: centered complete cutout with generous padding; do not crop the beak, legs, tail, or feet.\nLighting/mood: clean studio light that preserves tan speckles, white belly, and natural feather texture.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no second bird, no shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-sandpiper/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Sandpiper\nPrimary request: Generate a comprehensive light-mode design-system board for a motif-driven UI theme named Sandpiper, derived from a compact shoreline sandpiper pattern: tan speckled feathers, clean white underside, wet sand neutrals, shallow tidepool gray, shell cream, and restrained shoreline blue-green accents.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: compact timeline system, dense but calm operational UI, small rhythmic speckle texture, narrow timeline rails, shore-map ticks, fine dotted separators, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Sandpiper\", motif story, palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, timeline feed, dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: wet sand background, shell white cards, tan speckle primary, driftwood brown text, tidepool gray borders, sea-glass teal accent, muted dune gold warning, clay red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Labels should be generic product UI labels such as Timeline, Shoreline Ops, Tasks, Status, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple or blue gradients, no illegible microtext, no marketing hero layout."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-sandpiper/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Sandpiper\nPrimary request: Generate a comprehensive dark-mode version of the Sandpiper design-system board. It must feel like the same compact shoreline timeline system translated to dark mode, not a new theme.\nReference style: compact sandpiper pattern: tan feather speckles, shell-white highlights, wet sand neutrals, tidepool gray, driftwood brown, and restrained sea-glass teal accents.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: dark wet-sand workspace, compact timeline system, dense but readable operational UI, fine speckle texture, narrow timeline rails, shore-map ticks, dotted separators, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Sandpiper Dark\", motif story, dark palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, timeline feed, dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: deep wet sand background, dark driftwood panels, warm shell text, muted tan primary, tidepool gray borders, sea-glass teal accent, muted dune gold warning, clay red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Labels should be generic product UI labels such as Timeline, Shoreline Ops, Tasks, Status, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no neon colors, no pure black flat background, no unrelated bright colors, no purple or blue gradients, no illegible microtext, no marketing hero layout."
+    }
+  ]
+}

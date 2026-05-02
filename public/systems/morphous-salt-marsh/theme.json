@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-salt-marsh",
+    "name": "Morphous Salt Marsh",
+    "motifName": "Salt Marsh",
+    "motifCategory": "landscape",
+    "biome": "Coastal wetland",
+    "motif": "salt marsh grass"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver Water",
+      "hex": "#eef3f0",
+      "oklch": "oklch(0.960 0.007 160.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Shell",
+      "hex": "#f8faf7",
+      "oklch": "oklch(0.983 0.004 134.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Channel Green",
+      "hex": "#223b38",
+      "oklch": "oklch(0.331 0.032 186.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Marsh Green",
+      "hex": "#4c7a5a",
+      "oklch": "oklch(0.537 0.071 153.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reed Olive",
+      "hex": "#7a8a5f",
+      "oklch": "oklch(0.609 0.065 124.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidal Blue",
+      "hex": "#5e8f8d",
+      "oklch": "oklch(0.615 0.053 192.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Silt Gray",
+      "hex": "#a9b3ad",
+      "oklch": "oklch(0.757 0.014 159.8)"
+    },
+    {
+      "role": "Mud",
+      "name": "Mud Brown",
+      "hex": "#685a4a",
+      "oklch": "oklch(0.477 0.031 70.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Wrack Amber",
+      "hex": "#d1a24a",
+      "oklch": "oklch(0.739 0.119 80.7)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Clay Red",
+      "hex": "#c94c4c",
+      "oklch": "oklch(0.585 0.160 23.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.007 160.1)",
+    "foreground": "oklch(0.331 0.032 186.2)",
+    "card": "oklch(0.983 0.004 134.8)",
+    "card-foreground": "oklch(0.331 0.032 186.2)",
+    "popover": "oklch(0.983 0.004 134.8)",
+    "popover-foreground": "oklch(0.331 0.032 186.2)",
+    "primary": "oklch(0.537 0.071 153.1)",
+    "primary-foreground": "oklch(0.960 0.007 160.1)",
+    "secondary": "oklch(0.973 0.005 145.5)",
+    "secondary-foreground": "oklch(0.983 0.004 134.8)",
+    "muted": "oklch(0.976 0.005 145.5)",
+    "muted-foreground": "oklch(0.983 0.004 134.8)",
+    "accent": "oklch(0.615 0.053 192.6)",
+    "accent-foreground": "oklch(0.331 0.032 186.2)",
+    "destructive": "oklch(0.537 0.071 153.1)",
+    "border": "oklch(0.902 0.007 145.5)",
+    "input": "oklch(0.902 0.007 145.5)",
+    "ring": "oklch(0.609 0.065 124.9)",
+    "chart-1": "oklch(0.537 0.071 153.1)",
+    "chart-2": "oklch(0.609 0.065 124.9)",
+    "chart-3": "oklch(0.615 0.053 192.6)",
+    "chart-4": "oklch(0.615 0.053 192.6)",
+    "chart-5": "oklch(0.983 0.004 134.8)",
+    "sidebar": "oklch(0.976 0.005 145.5)",
+    "sidebar-foreground": "oklch(0.331 0.032 186.2)",
+    "sidebar-primary": "oklch(0.537 0.071 153.1)",
+    "sidebar-primary-foreground": "oklch(0.960 0.007 160.1)",
+    "sidebar-accent": "oklch(0.932 0.013 149.2)",
+    "sidebar-accent-foreground": "oklch(0.537 0.071 153.1)",
+    "sidebar-border": "oklch(0.902 0.007 145.5)",
+    "sidebar-ring": "oklch(0.609 0.065 124.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.331 0.032 186.2)",
+    "foreground": "oklch(0.960 0.007 160.1)",
+    "card": "oklch(0.777 0.012 176.2)",
+    "card-foreground": "oklch(0.960 0.007 160.1)",
+    "popover": "oklch(0.777 0.012 176.2)",
+    "popover-foreground": "oklch(0.960 0.007 160.1)",
+    "primary": "oklch(0.609 0.065 124.9)",
+    "primary-foreground": "oklch(0.331 0.032 186.2)",
+    "secondary": "oklch(0.934 0.005 145.5)",
+    "secondary-foreground": "oklch(0.960 0.007 160.1)",
+    "muted": "oklch(0.934 0.005 145.5)",
+    "muted-foreground": "oklch(0.870 0.009 161.3)",
+    "accent": "oklch(0.615 0.053 192.6)",
+    "accent-foreground": "oklch(0.331 0.032 186.2)",
+    "destructive": "oklch(0.537 0.071 153.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.609 0.065 124.9)",
+    "chart-1": "oklch(0.609 0.065 124.9)",
+    "chart-2": "oklch(0.537 0.071 153.1)",
+    "chart-3": "oklch(0.615 0.053 192.6)",
+    "chart-4": "oklch(0.615 0.053 192.6)",
+    "chart-5": "oklch(0.757 0.014 159.8)",
+    "sidebar": "oklch(0.650 0.018 182.4)",
+    "sidebar-foreground": "oklch(0.960 0.007 160.1)",
+    "sidebar-primary": "oklch(0.609 0.065 124.9)",
+    "sidebar-primary-foreground": "oklch(0.331 0.032 186.2)",
+    "sidebar-accent": "oklch(0.934 0.005 145.5)",
+    "sidebar-accent-foreground": "oklch(0.960 0.007 160.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.609 0.065 124.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for dense logistics interfaces with Noto Sans JP guidance for Japanese operational labels, tabular tide numerals, route timelines, and water-level dashboards.",
+  "layout": "8px grid, 8px radius cards, vertical grass-blade dividers, meandering tidal-channel paths, compact route timelines, scan-friendly dispatch tables, and calm coastal operations surfaces.",
+  "tags": [
+    "salt-marsh",
+    "landscape",
+    "coastal-wetland",
+    "cordgrass",
+    "tidal-logistics",
+    "silver-water",
+    "mudflat",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-salt-marsh/motif.png",
+    "board": "/systems/morphous-salt-marsh/design-system-light.png",
+    "darkBoard": "/systems/morphous-salt-marsh/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-salt-marsh/theme.css",
+    "themeJson": "/systems/morphous-salt-marsh/theme.json",
+    "promptsJson": "/systems/morphous-salt-marsh/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent salt marsh motif",
+      "asset": "/systems/morphous-salt-marsh/motif.png",
+      "prompt": "Use case: botanical-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create a dense sculptural tuft of salt marsh grass, isolated full subject, no surrounding landscape, no props, no text.\nSubject: coastal wetland cordgrass with long blade clusters, seed heads, brackish-weathered straw tips, tiny silver water glints on blades, and a compact dark wet mud base. The motif should read as salt marsh grass, not lawn grass or a houseplant.\nComposition/framing: centered complete cutout with generous padding; full tuft visible from mud base to blade tips; crisp silhouette suitable for a catalog motif asset.\nStyle: refined natural-history botanical illustration with realistic texture and clean edges.\nPalette: marsh green blades, reed olive shadows, pale straw tips, silver water highlights, dark brown-gray mud.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no pot, no vase, no flowers, no insects, no animals, no horizon, no landscape, no cast shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-salt-marsh/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Salt Marsh\nPrimary request: Generate one comprehensive light-mode design-system board for a motif-driven UI theme named \"Salt Marsh\", derived from coastal wetland cordgrass, tidal channels, silver water, dark mud flats, and green marsh blades.\nCanvas: wide 16:9 high-resolution board intended final use at 3840x2160. Use a precise product-design grid with large readable labels and enough whitespace for gallery preview downscaling.\nSystem feel: tidal logistics system. The UI should feel like calm operational software for wetland routing, dock windows, field teams, water-level monitoring, task dispatch, and inventory flow.\nMood and UI language: dense but orderly logistics dashboard, quiet coastal utility, vertical grass-blade dividers, meandering tidal-channel lines, mudflat texture strips, 8px radius cards, crisp shadcn/tweakcn-style controls, restrained shadows, scan-friendly tables.\nRequired visible sections: title \"Salt Marsh\", motif story, palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, route/tide timeline, dashboard metric cards, line chart, bar chart, map/channel panel, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: pale silver-water background, mist shell cards, marsh green primary, deep channel green foreground, reed olive secondary, mud brown muted surfaces, silt gray borders, tidal blue-green accent, amber wrack warning, clay red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Use generic product UI labels such as Tide Ops, Routes, Berths, Crews, Water Level, Inventory, Dispatch, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple gradients, no neon green, no illegible microtext, no marketing hero layout, no animal imagery."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-salt-marsh/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Salt Marsh\nPrimary request: Generate one comprehensive dark-mode version of the Salt Marsh design-system board. It must feel like the same coastal wetland tidal logistics system translated to dark mode, not a new theme.\nCanvas: wide 16:9 high-resolution board intended final use at 3840x2160. Use a precise product-design grid with large readable labels and enough spacing for gallery preview downscaling.\nSystem feel: tidal logistics system. The UI should feel like calm operational software for wetland routing, dock windows, field teams, water-level monitoring, task dispatch, and inventory flow.\nMood and UI language: nocturnal marsh operations dashboard, deep channel-green workspace, dark mud panels, silver-water highlights, subdued marsh grass accents, vertical grass-blade dividers, meandering tidal-channel lines, mudflat texture strips, 8px radius cards, crisp shadcn/tweakcn-style controls, restrained glows, scan-friendly tables.\nRequired visible sections: title \"Salt Marsh Dark\", motif story, dark palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, route/tide timeline, dashboard metric cards, line chart, bar chart, map/channel panel, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: deep channel green background, dark wet mud cards, pale silver-water text, muted marsh green primary, reed olive secondary, silt gray borders, tidal blue-green accent, amber wrack warning, clay red destructive only for errors. Avoid pure black.\nText: short readable UI labels only; no long paragraphs. Use generic product UI labels such as Tide Ops, Routes, Berths, Crews, Water Level, Inventory, Dispatch, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple gradients, no neon green, no illegible microtext, no marketing hero layout, no animal imagery."
+    }
+  ]
+}

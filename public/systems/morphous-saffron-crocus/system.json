@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 259,
+  "slug": "morphous-saffron-crocus",
+  "name": "Morphous Saffron Crocus",
+  "motifName": "Saffron Crocus",
+  "motifCategory": "plant",
+  "biome": "alpine garden",
+  "motif": "saffron crocus",
+  "description": "A shadcn/tweakcn-compatible precious editorial system derived from a saffron crocus: violet petals, fine lavender veins, saffron-red stigmas, crocus-gold throat, alpine leaf green, pollen ivory surfaces, and corm-shadow darks for refined dashboards, editorial workflows, forms, tables, command search, and data review.",
+  "typography": "Editorial English product UI with high-contrast display headings, compact tabular metrics, and Noto Sans JP guidance for Japanese article metadata, status chips, search, forms, tables, and dashboard labels.",
+  "layout": "Precious editorial grids with 8px radii, petal-vein dividers, saffron-red primary actions, violet selected states, crocus-gold emphasis, alpine-leaf success cues, restrained shadows, and scannable navigation, dashboard, form, table, command, and status surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "saffron-crocus",
+    "plant",
+    "alpine-garden",
+    "precious-editorial-system",
+    "violet-petal",
+    "saffron-red",
+    "crocus-gold",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pollen Ivory",
+      "hex": "#FFF9EC"
+    },
+    {
+      "role": "Ink",
+      "name": "Editorial Ink",
+      "hex": "#2A2333"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Highlight",
+      "hex": "#FFFEFA"
+    },
+    {
+      "role": "Primary",
+      "name": "Saffron Red",
+      "hex": "#E43D12"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Stigma Ember",
+      "hex": "#A72810"
+    },
+    {
+      "role": "Secondary",
+      "name": "Petal Violet",
+      "hex": "#6A3FB6"
+    },
+    {
+      "role": "Signal",
+      "name": "Vein Lavender",
+      "hex": "#B698E6"
+    },
+    {
+      "role": "Accent",
+      "name": "Crocus Gold",
+      "hex": "#F1B21A"
+    },
+    {
+      "role": "Success",
+      "name": "Alpine Leaf",
+      "hex": "#4C8C3A"
+    },
+    {
+      "role": "Muted",
+      "name": "Alpine Mist",
+      "hex": "#F2ECF8"
+    },
+    {
+      "role": "Input",
+      "name": "Petal Wash",
+      "hex": "#E7DDF6"
+    },
+    {
+      "role": "Border",
+      "name": "Border Lavender",
+      "hex": "#D8C9EF"
+    },
+    {
+      "role": "Depth",
+      "name": "Corm Shadow",
+      "hex": "#0D0A16"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Night Bloom",
+      "hex": "#1A1624"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.983 0.018 86.1)",
+    "foreground": "oklch(0.271 0.031 304.4)",
+    "card": "oklch(0.997 0.005 95.1)",
+    "card-foreground": "oklch(0.271 0.031 304.4)",
+    "popover": "oklch(0.997 0.005 95.1)",
+    "popover-foreground": "oklch(0.271 0.031 304.4)",
+    "primary": "oklch(0.607 0.209 34.1)",
+    "primary-foreground": "oklch(0.983 0.018 86.1)",
+    "secondary": "oklch(0.951 0.017 308.3)",
+    "secondary-foreground": "oklch(0.484 0.179 295.5)",
+    "muted": "oklch(0.913 0.035 303.8)",
+    "muted-foreground": "oklch(0.607 0.048 314.0)",
+    "accent": "oklch(0.801 0.160 82.0)",
+    "accent-foreground": "oklch(0.271 0.031 304.4)",
+    "destructive": "oklch(0.480 0.167 32.6)",
+    "border": "oklch(0.860 0.054 303.2)",
+    "input": "oklch(0.860 0.054 303.2)",
+    "ring": "oklch(0.736 0.114 301.3)",
+    "chart-1": "oklch(0.607 0.209 34.1)",
+    "chart-2": "oklch(0.484 0.179 295.5)",
+    "chart-3": "oklch(0.801 0.160 82.0)",
+    "chart-4": "oklch(0.578 0.134 139.3)",
+    "chart-5": "oklch(0.736 0.114 301.3)",
+    "sidebar": "oklch(0.951 0.017 308.3)",
+    "sidebar-foreground": "oklch(0.271 0.031 304.4)",
+    "sidebar-primary": "oklch(0.607 0.209 34.1)",
+    "sidebar-primary-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-accent": "oklch(0.913 0.035 303.8)",
+    "sidebar-accent-foreground": "oklch(0.484 0.179 295.5)",
+    "sidebar-border": "oklch(0.860 0.054 303.2)",
+    "sidebar-ring": "oklch(0.736 0.114 301.3)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.155 0.025 294.7)",
+    "foreground": "oklch(0.983 0.018 86.1)",
+    "card": "oklch(0.250 0.028 293.4)",
+    "card-foreground": "oklch(0.983 0.018 86.1)",
+    "popover": "oklch(0.250 0.028 293.4)",
+    "popover-foreground": "oklch(0.983 0.018 86.1)",
+    "primary": "oklch(0.607 0.209 34.1)",
+    "primary-foreground": "oklch(0.983 0.018 86.1)",
+    "secondary": "oklch(0.389 0.067 301.1)",
+    "secondary-foreground": "oklch(0.983 0.018 86.1)",
+    "muted": "oklch(0.333 0.041 302.1)",
+    "muted-foreground": "oklch(0.913 0.035 303.8)",
+    "accent": "oklch(0.854 0.146 87.0)",
+    "accent-foreground": "oklch(0.155 0.025 294.7)",
+    "destructive": "oklch(0.480 0.167 32.6)",
+    "border": "oklch(0.736 0.114 301.3 / 24%)",
+    "input": "oklch(0.736 0.114 301.3 / 28%)",
+    "ring": "oklch(0.736 0.114 301.3)",
+    "chart-1": "oklch(0.736 0.114 301.3)",
+    "chart-2": "oklch(0.607 0.209 34.1)",
+    "chart-3": "oklch(0.854 0.146 87.0)",
+    "chart-4": "oklch(0.666 0.144 137.5)",
+    "chart-5": "oklch(0.913 0.035 303.8)",
+    "sidebar": "oklch(0.212 0.028 297.1)",
+    "sidebar-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-primary": "oklch(0.607 0.209 34.1)",
+    "sidebar-primary-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-accent": "oklch(0.389 0.067 301.1)",
+    "sidebar-accent-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-border": "oklch(0.736 0.114 301.3 / 24%)",
+    "sidebar-ring": "oklch(0.736 0.114 301.3)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json",
+    "examples": []
+  }
+}

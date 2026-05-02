@@ -1,0 +1,212 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-saffron-crocus",
+    "name": "Morphous Saffron Crocus",
+    "motifName": "Saffron Crocus",
+    "motifCategory": "plant",
+    "biome": "alpine garden",
+    "motif": "saffron crocus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pollen Ivory",
+      "hex": "#FFF9EC",
+      "oklch": "oklch(0.983 0.018 86.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Editorial Ink",
+      "hex": "#2A2333",
+      "oklch": "oklch(0.271 0.031 304.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Petal Highlight",
+      "hex": "#FFFEFA",
+      "oklch": "oklch(0.997 0.005 95.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Saffron Red",
+      "hex": "#E43D12",
+      "oklch": "oklch(0.607 0.209 34.1)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Stigma Ember",
+      "hex": "#A72810",
+      "oklch": "oklch(0.480 0.167 32.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Petal Violet",
+      "hex": "#6A3FB6",
+      "oklch": "oklch(0.484 0.179 295.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Vein Lavender",
+      "hex": "#B698E6",
+      "oklch": "oklch(0.736 0.114 301.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Crocus Gold",
+      "hex": "#F1B21A",
+      "oklch": "oklch(0.801 0.160 82.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Alpine Leaf",
+      "hex": "#4C8C3A",
+      "oklch": "oklch(0.578 0.134 139.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Alpine Mist",
+      "hex": "#F2ECF8",
+      "oklch": "oklch(0.951 0.017 308.3)"
+    },
+    {
+      "role": "Input",
+      "name": "Petal Wash",
+      "hex": "#E7DDF6",
+      "oklch": "oklch(0.913 0.035 303.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Border Lavender",
+      "hex": "#D8C9EF",
+      "oklch": "oklch(0.860 0.054 303.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Corm Shadow",
+      "hex": "#0D0A16",
+      "oklch": "oklch(0.155 0.025 294.7)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Night Bloom",
+      "hex": "#1A1624",
+      "oklch": "oklch(0.212 0.028 297.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.018 86.1)",
+    "foreground": "oklch(0.271 0.031 304.4)",
+    "card": "oklch(0.997 0.005 95.1)",
+    "card-foreground": "oklch(0.271 0.031 304.4)",
+    "popover": "oklch(0.997 0.005 95.1)",
+    "popover-foreground": "oklch(0.271 0.031 304.4)",
+    "primary": "oklch(0.607 0.209 34.1)",
+    "primary-foreground": "oklch(0.983 0.018 86.1)",
+    "secondary": "oklch(0.951 0.017 308.3)",
+    "secondary-foreground": "oklch(0.484 0.179 295.5)",
+    "muted": "oklch(0.913 0.035 303.8)",
+    "muted-foreground": "oklch(0.607 0.048 314.0)",
+    "accent": "oklch(0.801 0.160 82.0)",
+    "accent-foreground": "oklch(0.271 0.031 304.4)",
+    "destructive": "oklch(0.480 0.167 32.6)",
+    "border": "oklch(0.860 0.054 303.2)",
+    "input": "oklch(0.860 0.054 303.2)",
+    "ring": "oklch(0.736 0.114 301.3)",
+    "chart-1": "oklch(0.607 0.209 34.1)",
+    "chart-2": "oklch(0.484 0.179 295.5)",
+    "chart-3": "oklch(0.801 0.160 82.0)",
+    "chart-4": "oklch(0.578 0.134 139.3)",
+    "chart-5": "oklch(0.736 0.114 301.3)",
+    "sidebar": "oklch(0.951 0.017 308.3)",
+    "sidebar-foreground": "oklch(0.271 0.031 304.4)",
+    "sidebar-primary": "oklch(0.607 0.209 34.1)",
+    "sidebar-primary-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-accent": "oklch(0.913 0.035 303.8)",
+    "sidebar-accent-foreground": "oklch(0.484 0.179 295.5)",
+    "sidebar-border": "oklch(0.860 0.054 303.2)",
+    "sidebar-ring": "oklch(0.736 0.114 301.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.155 0.025 294.7)",
+    "foreground": "oklch(0.983 0.018 86.1)",
+    "card": "oklch(0.250 0.028 293.4)",
+    "card-foreground": "oklch(0.983 0.018 86.1)",
+    "popover": "oklch(0.250 0.028 293.4)",
+    "popover-foreground": "oklch(0.983 0.018 86.1)",
+    "primary": "oklch(0.607 0.209 34.1)",
+    "primary-foreground": "oklch(0.983 0.018 86.1)",
+    "secondary": "oklch(0.389 0.067 301.1)",
+    "secondary-foreground": "oklch(0.983 0.018 86.1)",
+    "muted": "oklch(0.333 0.041 302.1)",
+    "muted-foreground": "oklch(0.913 0.035 303.8)",
+    "accent": "oklch(0.854 0.146 87.0)",
+    "accent-foreground": "oklch(0.155 0.025 294.7)",
+    "destructive": "oklch(0.480 0.167 32.6)",
+    "border": "oklch(0.736 0.114 301.3 / 24%)",
+    "input": "oklch(0.736 0.114 301.3 / 28%)",
+    "ring": "oklch(0.736 0.114 301.3)",
+    "chart-1": "oklch(0.736 0.114 301.3)",
+    "chart-2": "oklch(0.607 0.209 34.1)",
+    "chart-3": "oklch(0.854 0.146 87.0)",
+    "chart-4": "oklch(0.666 0.144 137.5)",
+    "chart-5": "oklch(0.913 0.035 303.8)",
+    "sidebar": "oklch(0.212 0.028 297.1)",
+    "sidebar-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-primary": "oklch(0.607 0.209 34.1)",
+    "sidebar-primary-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-accent": "oklch(0.389 0.067 301.1)",
+    "sidebar-accent-foreground": "oklch(0.983 0.018 86.1)",
+    "sidebar-border": "oklch(0.736 0.114 301.3 / 24%)",
+    "sidebar-ring": "oklch(0.736 0.114 301.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Editorial English product UI with high-contrast display headings, compact tabular metrics, and Noto Sans JP guidance for Japanese article metadata, status chips, search, forms, tables, and dashboard labels.",
+  "layout": "Precious editorial grids with 8px radii, petal-vein dividers, saffron-red primary actions, violet selected states, crocus-gold emphasis, alpine-leaf success cues, restrained shadows, and scannable navigation, dashboard, form, table, command, and status surfaces.",
+  "tags": [
+    "saffron-crocus",
+    "plant",
+    "alpine-garden",
+    "precious-editorial-system",
+    "violet-petal",
+    "saffron-red",
+    "crocus-gold",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-saffron-crocus/motif.png",
+    "board": "/systems/morphous-saffron-crocus/design-system-light.png",
+    "darkBoard": "/systems/morphous-saffron-crocus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-saffron-crocus/theme.css",
+    "themeJson": "/systems/morphous-saffron-crocus/theme.json",
+    "promptsJson": "/systems/morphous-saffron-crocus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Saffron Crocus motif",
+      "asset": "/systems/morphous-saffron-crocus/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #00ffff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only one saffron crocus bloom isolated for a Morphous design-system catalog; no environment, no props, no text.\nSubject: A complete saffron crocus (Crocus sativus) with violet and lavender petals, darker petal veins, three vivid saffron-red stigmas, warm golden yellow throat, a short pale green stem, and a few narrow alpine-garden leaves. Botanical accuracy, precious editorial quality, crisp petal edges, believable natural texture, delicate translucent petals.\nComposition/framing: centered complete cutout with generous padding; show the whole bloom, throat, saffron stigmas, stem, and leaves without cropping.\nLighting/mood: clean soft studio light that preserves violet petals, saffron red stigmas, gold throat, green leaves, and fine botanical texture.\nTransparent workflow: place the subject on a perfectly flat solid #00ffff chroma-key background for removal. The background must be one uniform cyan color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff or cyan anywhere in the subject.\nConstraints: no white petals, no vase, no pot, no bouquet, no hand, no insects, no landscape, no soil clumps, no dew drops, no cast shadow, no contact shadow, no reflection, no text, no watermark, no second bloom."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-saffron-crocus/design-system-light.png",
+      "sourceAsset": "/systems/morphous-saffron-crocus/motif.png",
+      "workflow": "Built-in imagegen board source from the visible motif, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Saffron Crocus light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board named \"Morphous Saffron Crocus\" derived from the visible saffron crocus cutout reference: violet petals, lavender vein lines, saffron-red stigmas, golden throat, pale green alpine leaves, and clean botanical highlights. This is a precious editorial system for a shadcn/tweakcn-compatible product UI.\nReference use: Treat the visible saffron crocus motif image as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif only.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. No browser chrome.\nResolution and legibility: high-resolution source board with large readable labels; avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Saffron Crocus\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, editorial article card, sidebar navigation, top navigation, dashboard metrics, small chart, table rows, command palette/search overlay, empty/error/loading/success states.\nVisual system: premium quiet editorial product design board, precise grid, 8px radii, petal-vein dividers, saffron-red primary action and focus, violet selected states, golden highlight cues, alpine leaf green success/accent, warm ivory surfaces and pale lavender mist neutrals.\nTypography: English UI and Japanese UI examples; use short readable labels and a compact multilingual guidance block.\nPalette labels: Petal Violet, Vein Lavender, Saffron Red, Crocus Gold, Alpine Leaf, Pollen Ivory, Alpine Mist, Corm Shadow, Editorial Ink.\nConstraints: use only motif-derived colors and pale botanical neutrals; no unrelated bright colors, no generic blue/purple gradients, no neon, no random brand names, no watermark, no misspellings, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-saffron-crocus/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-saffron-crocus/design-system-light.png",
+      "workflow": "Built-in imagegen board source from the visible motif and light board, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Saffron Crocus dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board named \"Morphous Saffron Crocus\" translated from the visible saffron crocus motif and light-mode board. It must feel like the same precious editorial system in dark mode, not a new theme.\nReference use: Use the visible transparent saffron crocus motif and the visible light board as references. Preserve violet petals, lavender petal veining, saffron-red stigmas, crocus gold, alpine leaf green, pale botanical neutrals, 8px radius language, editorial controls, and shadcn/tweakcn-style UI sections.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. No browser chrome.\nResolution and legibility: high-resolution source board with large readable labels; avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Saffron Crocus\", Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, editorial article card, sidebar navigation, top navigation, dashboard metrics, small chart, table rows, command palette/search overlay, empty/error/loading/success states.\nVisual system: dark background derived from Editorial Ink and Corm Shadow, luminous violet selected states, saffron-red primary action and focus, crocus-gold highlights, alpine green success/support, pollen-ivory text, alpine mist borders, subtle petal-vein texture overlays, crisp rectangular cards with 8px radii.\nTypography: English UI and Japanese UI examples; use short readable labels and a compact multilingual guidance block.\nPalette labels: Editorial Ink, Corm Shadow, Petal Violet, Vein Lavender, Saffron Red, Crocus Gold, Alpine Leaf, Pollen Ivory, Alpine Mist.\nConstraints: use only motif-derived colors and pale botanical neutrals; no neon, no pure black slab background, no unrelated bright colors, no generic blue/purple gradients, no random brand names, no watermark, no misspellings, no illegible microtext."
+    }
+  ]
+}

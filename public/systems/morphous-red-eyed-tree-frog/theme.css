@@ -1,0 +1,77 @@
+/* Morphous Red Eyed Tree Frog
+   System definition: /systems/morphous-red-eyed-tree-frog/system.json
+   Prompt records: /systems/morphous-red-eyed-tree-frog/prompts.json
+   Design-system references:
+   light: /systems/morphous-red-eyed-tree-frog/design-system-light.png
+   dark: /systems/morphous-red-eyed-tree-frog/design-system-dark.png
+*/
+
+:root {
+  --background: oklch(0.982 0.006 96.0);
+  --foreground: oklch(0.218 0.009 153.0);
+  --card: oklch(0.966 0.009 102.0);
+  --card-foreground: oklch(0.218 0.009 153.0);
+  --popover: oklch(0.982 0.006 96.0);
+  --popover-foreground: oklch(0.218 0.009 153.0);
+  --primary: oklch(0.620 0.164 130.0);
+  --primary-foreground: oklch(0.982 0.006 96.0);
+  --secondary: oklch(0.858 0.107 124.0);
+  --secondary-foreground: oklch(0.218 0.009 153.0);
+  --muted: oklch(0.920 0.018 104.0);
+  --muted-foreground: oklch(0.464 0.019 145.0);
+  --accent: oklch(0.741 0.183 53.0);
+  --accent-foreground: oklch(0.982 0.006 96.0);
+  --destructive: oklch(0.613 0.221 27.5);
+  --border: oklch(0.872 0.019 96.0);
+  --input: oklch(0.872 0.019 96.0);
+  --ring: oklch(0.613 0.221 27.5);
+  --chart-1: oklch(0.620 0.164 130.0);
+  --chart-2: oklch(0.741 0.183 53.0);
+  --chart-3: oklch(0.613 0.221 27.5);
+  --chart-4: oklch(0.543 0.111 226.0);
+  --chart-5: oklch(0.651 0.028 177.0);
+  --sidebar: oklch(0.966 0.009 102.0);
+  --sidebar-foreground: oklch(0.218 0.009 153.0);
+  --sidebar-primary: oklch(0.620 0.164 130.0);
+  --sidebar-primary-foreground: oklch(0.982 0.006 96.0);
+  --sidebar-accent: oklch(0.858 0.107 124.0);
+  --sidebar-accent-foreground: oklch(0.218 0.009 153.0);
+  --sidebar-border: oklch(0.872 0.019 96.0);
+  --sidebar-ring: oklch(0.613 0.221 27.5);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.177 0.019 158.0);
+  --foreground: oklch(0.942 0.014 94.0);
+  --card: oklch(0.243 0.022 165.0);
+  --card-foreground: oklch(0.942 0.014 94.0);
+  --popover: oklch(0.243 0.022 165.0);
+  --popover-foreground: oklch(0.942 0.014 94.0);
+  --primary: oklch(0.777 0.167 128.0);
+  --primary-foreground: oklch(0.177 0.019 158.0);
+  --secondary: oklch(0.363 0.046 178.0);
+  --secondary-foreground: oklch(0.942 0.014 94.0);
+  --muted: oklch(0.302 0.023 160.0);
+  --muted-foreground: oklch(0.728 0.026 105.0);
+  --accent: oklch(0.760 0.181 53.0);
+  --accent-foreground: oklch(0.177 0.019 158.0);
+  --destructive: oklch(0.681 0.218 28.5);
+  --border: oklch(0.708 0.020 105.0 / 35%);
+  --input: oklch(0.708 0.020 105.0 / 45%);
+  --ring: oklch(0.681 0.218 28.5);
+  --chart-1: oklch(0.777 0.167 128.0);
+  --chart-2: oklch(0.760 0.181 53.0);
+  --chart-3: oklch(0.681 0.218 28.5);
+  --chart-4: oklch(0.695 0.102 218.0);
+  --chart-5: oklch(0.823 0.045 92.0);
+  --sidebar: oklch(0.225 0.021 164.0);
+  --sidebar-foreground: oklch(0.942 0.014 94.0);
+  --sidebar-primary: oklch(0.777 0.167 128.0);
+  --sidebar-primary-foreground: oklch(0.177 0.019 158.0);
+  --sidebar-accent: oklch(0.363 0.046 178.0);
+  --sidebar-accent-foreground: oklch(0.942 0.014 94.0);
+  --sidebar-border: oklch(0.708 0.020 105.0 / 35%);
+  --sidebar-ring: oklch(0.681 0.218 28.5);
+  --radius: 0.5rem;
+}

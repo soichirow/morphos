@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-salt-flat",
+    "name": "Morphous Salt Flat",
+    "motifName": "Salt Flat",
+    "motifCategory": "landscape",
+    "biome": "Desert Playa",
+    "motif": "salt polygons"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Salt White",
+      "hex": "#f9fbff",
+      "oklch": "oklch(0.988 0.006 264.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Playa Ink",
+      "hex": "#0d1421",
+      "oklch": "oklch(0.191 0.029 262.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Brine Blue",
+      "hex": "#9ac7f6",
+      "oklch": "oklch(0.815 0.082 250.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ridge Frost",
+      "hex": "#dbe3f3",
+      "oklch": "oklch(0.915 0.023 264.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Reflection",
+      "hex": "#cfe3ff",
+      "oklch": "oklch(0.910 0.044 256.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Seam Shadow",
+      "hex": "#6c7a8f",
+      "oklch": "oklch(0.576 0.036 258.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dry Basin",
+      "hex": "#f6f8fb",
+      "oklch": "oklch(0.978 0.005 258.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Crust Gray",
+      "hex": "#d9dee6",
+      "oklch": "oklch(0.899 0.012 259.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Crease",
+      "hex": "#0f1624",
+      "oklch": "oklch(0.201 0.030 263.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.988 0.006 264.5)",
+    "foreground": "oklch(0.191 0.029 262.3)",
+    "card": "oklch(0.978 0.005 258.3)",
+    "card-foreground": "oklch(0.191 0.029 262.3)",
+    "popover": "oklch(0.978 0.005 258.3)",
+    "popover-foreground": "oklch(0.191 0.029 262.3)",
+    "primary": "oklch(0.815 0.082 250.0)",
+    "primary-foreground": "oklch(0.988 0.006 264.5)",
+    "secondary": "oklch(0.982 0.006 264.5)",
+    "secondary-foreground": "oklch(0.201 0.030 263.5)",
+    "muted": "oklch(0.981 0.005 258.3)",
+    "muted-foreground": "oklch(0.201 0.030 263.5)",
+    "accent": "oklch(0.910 0.044 256.8)",
+    "accent-foreground": "oklch(0.191 0.029 262.3)",
+    "destructive": "oklch(0.815 0.082 250.0)",
+    "border": "oklch(0.951 0.006 255.5)",
+    "input": "oklch(0.951 0.006 255.5)",
+    "ring": "oklch(0.915 0.023 264.5)",
+    "chart-1": "oklch(0.815 0.082 250.0)",
+    "chart-2": "oklch(0.915 0.023 264.5)",
+    "chart-3": "oklch(0.910 0.044 256.8)",
+    "chart-4": "oklch(0.576 0.036 258.4)",
+    "chart-5": "oklch(0.201 0.030 263.5)",
+    "sidebar": "oklch(0.981 0.005 258.3)",
+    "sidebar-foreground": "oklch(0.191 0.029 262.3)",
+    "sidebar-primary": "oklch(0.815 0.082 250.0)",
+    "sidebar-primary-foreground": "oklch(0.988 0.006 264.5)",
+    "sidebar-accent": "oklch(0.958 0.013 251.6)",
+    "sidebar-accent-foreground": "oklch(0.815 0.082 250.0)",
+    "sidebar-border": "oklch(0.951 0.006 255.5)",
+    "sidebar-ring": "oklch(0.915 0.023 264.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.191 0.029 262.3)",
+    "foreground": "oklch(0.988 0.006 264.5)",
+    "card": "oklch(0.196 0.030 263.5)",
+    "card-foreground": "oklch(0.988 0.006 264.5)",
+    "popover": "oklch(0.196 0.030 263.5)",
+    "popover-foreground": "oklch(0.988 0.006 264.5)",
+    "primary": "oklch(0.915 0.023 264.5)",
+    "primary-foreground": "oklch(0.191 0.029 262.3)",
+    "secondary": "oklch(0.378 0.024 262.8)",
+    "secondary-foreground": "oklch(0.988 0.006 264.5)",
+    "muted": "oklch(0.378 0.024 262.8)",
+    "muted-foreground": "oklch(0.949 0.009 264.5)",
+    "accent": "oklch(0.910 0.044 256.8)",
+    "accent-foreground": "oklch(0.191 0.029 262.3)",
+    "destructive": "oklch(0.815 0.082 250.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.915 0.023 264.5)",
+    "chart-1": "oklch(0.915 0.023 264.5)",
+    "chart-2": "oklch(0.815 0.082 250.0)",
+    "chart-3": "oklch(0.910 0.044 256.8)",
+    "chart-4": "oklch(0.576 0.036 258.4)",
+    "chart-5": "oklch(0.899 0.012 259.8)",
+    "sidebar": "oklch(0.196 0.029 262.3)",
+    "sidebar-foreground": "oklch(0.988 0.006 264.5)",
+    "sidebar-primary": "oklch(0.915 0.023 264.5)",
+    "sidebar-primary-foreground": "oklch(0.191 0.029 262.3)",
+    "sidebar-accent": "oklch(0.378 0.024 262.8)",
+    "sidebar-accent-foreground": "oklch(0.988 0.006 264.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.915 0.023 264.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp product UI typography with tabular numerals and Japanese guidance tuned for dense operational dashboards, planning tools, and clean grid interfaces.",
+  "layout": "Precise 8px grid, compact cards, 6px to 8px radii, polygon seam dividers, cool borders, and subtle salt-grain texture.",
+  "tags": [
+    "salt-flat",
+    "landscape",
+    "desert-playa",
+    "salt-polygons",
+    "clean-grid",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-salt-flat/motif.png",
+    "board": "/systems/morphous-salt-flat/design-system-light.png",
+    "darkBoard": "/systems/morphous-salt-flat/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-salt-flat/theme.css",
+    "themeJson": "/systems/morphous-salt-flat/theme.json",
+    "promptsJson": "/systems/morphous-salt-flat/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent salt flat motif",
+      "asset": "/systems/morphous-salt-flat/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Salt Flat transparent motif chroma-key source\nPrimary request: Create only a salt flat polygon crust motif for a design-system catalog, isolated as one complete tactile subject on a removable chroma-key background.\nSubject: A natural slab-like patch of desert playa salt polygons, bright white salt crust with pale blue reflected highlights, fine crystalline granularity, thin gray-blue shadow lines in the polygon seams, slightly raised brittle ridges, and dry mineral surface detail. The motif should read as salt polygons from a desert playa, not ice, snow, marble, or ceramic tile.\nComposition/framing: centered complete cutout with generous padding; include an irregular but cohesive patch of connected salt polygons without cropping. Clean studio lighting that preserves white salt texture and pale blue shadow detail; no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no landscape horizon, no sky, no water, no footprints, no vehicle tracks, no people, no plants, no animals, no text, no watermark, no decorative props, no extra rocks dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-salt-flat/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Salt Flat light-mode design-system board\nPrimary request: Generate one comprehensive LIGHT MODE design-system board. The exact title must be \"Morphous Salt Flat\" and the motif name must be \"Salt Flat\". This is a source reference for a shadcn/tweakcn-compatible clean grid product UI theme derived from desert playa salt polygons.\nCanvas: wide 16:9 high-resolution 4K-class board, target 3840x2160, crisp readable labels.\nRequired visible sections with these labels: Morphous Salt Flat, Salt Flat, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference and motif language: white salt polygon crust, pale blue reflected highlights, cool gray-blue seam shadows, brittle crystalline raised ridges, dry desert playa negative space. It must look like salt polygons from a salt flat, not playa lake, cracked clay, snow, ice, marble, sand, beach, or generic SaaS.\nTypography: English product UI examples plus Japanese typography guidance. Include short labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Basin Index. Keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: clean grid system, precise 8px grid, compact operational UI, 6px to 8px radius, white salt surfaces, pale brine-blue active states, cool gray-blue borders, polygon seam dividers, subtle salt-grain texture, quiet dashboard density, accessible contrast.\nPalette names to show exactly: Salt White, Playa Ink, Brine Blue, Ridge Frost, Seam Shadow, Crust Gray, Sky Reflection, Dry Basin, Deep Crease.\nAvoid: the words Playa Lake, cracked clay, warm earth palette, beige-dominant theme, snowflake imagery, ice cave, ocean, beach, cactus, vehicle tracks, people, purple gradient, neon colors, unrelated saturated colors, random brand names, watermark, tiny unreadable paragraphs, misspelling of \"Morphous Salt Flat\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-salt-flat/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Salt Flat dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board. The exact title must be \"Morphous Salt Flat\" and the motif name must be \"Salt Flat\". It must feel like the light-mode Salt Flat system translated to dark mode, not a new theme.\nCanvas: wide 16:9 high-resolution 4K-class board, target 3840x2160, crisp readable labels.\nRequired visible sections with these labels: Morphous Salt Flat, Salt Flat, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference and motif language: preserve white salt polygon crust highlights, pale brine-blue active states, cool gray-blue seam shadows, brittle crystalline raised ridges, and dry desert playa negative space. Use deep blue-gray crease backgrounds and dark playa ink surfaces. It must read as salt polygons from a salt flat, not playa lake, cracked clay, snow, ice, marble, ocean, or generic dark SaaS.\nTypography: English product UI examples plus Japanese typography guidance. Include short labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Basin Index. Keep text short and legible.\nUI coverage: primary/secondary/ghost/destructive buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: dark clean grid system, precise 8px grid, compact operational UI, 6px to 8px radius, deep crease background, cool slate card surfaces, salt-white foreground text, pale blue focus rings, crystalline polygon dividers, subtle salt-grain texture, accessible contrast.\nPalette names to show exactly: Salt White, Playa Ink, Brine Blue, Ridge Frost, Seam Shadow, Crust Gray, Sky Reflection, Dry Basin, Deep Crease.\nAvoid: the words Playa Lake, cracked clay, warm earth palette, beige-dominant theme, pure black flat background, snowflake imagery, ice cave, ocean, beach, cactus, vehicle tracks, people, purple gradient, neon colors, unrelated saturated colors, random brand names, watermark, tiny unreadable paragraphs, misspelling of \"Morphous Salt Flat\"."
+    }
+  ]
+}

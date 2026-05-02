@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rhinoceros",
+    "name": "Morphous Rhinoceros",
+    "motifName": "Rhinoceros",
+    "motifCategory": "mammal",
+    "biome": "grassland",
+    "motif": "rhino horn"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dust Limestone",
+      "hex": "#f2eee3",
+      "oklch": "oklch(0.949 0.015 90.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Hoof Ink",
+      "hex": "#1e211f",
+      "oklch": "oklch(0.244 0.006 156.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Stone Grey",
+      "hex": "#777b75",
+      "oklch": "oklch(0.578 0.010 134.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Horn Cream",
+      "hex": "#e7dcc2",
+      "oklch": "oklch(0.896 0.037 87.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Grass Olive",
+      "hex": "#7f8a4a",
+      "oklch": "oklch(0.609 0.089 117.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dry Grass",
+      "hex": "#c3b46f",
+      "oklch": "oklch(0.767 0.091 97.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Taupe",
+      "hex": "#b7aa93",
+      "oklch": "oklch(0.743 0.035 81.9)"
+    },
+    {
+      "role": "Warning",
+      "name": "Alert Clay",
+      "hex": "#9b5f48",
+      "oklch": "oklch(0.547 0.086 41.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Hide",
+      "hex": "#2f3431",
+      "oklch": "oklch(0.319 0.009 159.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.949 0.015 90.2)",
+    "foreground": "oklch(0.244 0.006 156.8)",
+    "card": "oklch(0.743 0.035 81.9)",
+    "card-foreground": "oklch(0.244 0.006 156.8)",
+    "popover": "oklch(0.743 0.035 81.9)",
+    "popover-foreground": "oklch(0.244 0.006 156.8)",
+    "primary": "oklch(0.578 0.010 134.9)",
+    "primary-foreground": "oklch(0.949 0.015 90.2)",
+    "secondary": "oklch(0.832 0.027 84.6)",
+    "secondary-foreground": "oklch(0.319 0.009 159.6)",
+    "muted": "oklch(0.802 0.030 82.6)",
+    "muted-foreground": "oklch(0.319 0.009 159.6)",
+    "accent": "oklch(0.609 0.089 117.1)",
+    "accent-foreground": "oklch(0.244 0.006 156.8)",
+    "destructive": "oklch(0.578 0.010 134.9)",
+    "border": "oklch(0.799 0.036 84.6)",
+    "input": "oklch(0.799 0.036 84.6)",
+    "ring": "oklch(0.896 0.037 87.8)",
+    "chart-1": "oklch(0.578 0.010 134.9)",
+    "chart-2": "oklch(0.896 0.037 87.8)",
+    "chart-3": "oklch(0.609 0.089 117.1)",
+    "chart-4": "oklch(0.767 0.091 97.4)",
+    "chart-5": "oklch(0.319 0.009 159.6)",
+    "sidebar": "oklch(0.814 0.028 83.5)",
+    "sidebar-foreground": "oklch(0.244 0.006 156.8)",
+    "sidebar-primary": "oklch(0.578 0.010 134.9)",
+    "sidebar-primary-foreground": "oklch(0.949 0.015 90.2)",
+    "sidebar-accent": "oklch(0.722 0.032 83.6)",
+    "sidebar-accent-foreground": "oklch(0.578 0.010 134.9)",
+    "sidebar-border": "oklch(0.799 0.036 84.6)",
+    "sidebar-ring": "oklch(0.896 0.037 87.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.244 0.006 156.8)",
+    "foreground": "oklch(0.949 0.015 90.2)",
+    "card": "oklch(0.295 0.009 159.5)",
+    "card-foreground": "oklch(0.949 0.015 90.2)",
+    "popover": "oklch(0.295 0.009 159.5)",
+    "popover-foreground": "oklch(0.949 0.015 90.2)",
+    "primary": "oklch(0.896 0.037 87.8)",
+    "primary-foreground": "oklch(0.244 0.006 156.8)",
+    "secondary": "oklch(0.460 0.013 118.3)",
+    "secondary-foreground": "oklch(0.949 0.015 90.2)",
+    "muted": "oklch(0.460 0.013 118.3)",
+    "muted-foreground": "oklch(0.926 0.025 89.2)",
+    "accent": "oklch(0.609 0.089 117.1)",
+    "accent-foreground": "oklch(0.244 0.006 156.8)",
+    "destructive": "oklch(0.578 0.010 134.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.896 0.037 87.8)",
+    "chart-1": "oklch(0.896 0.037 87.8)",
+    "chart-2": "oklch(0.578 0.010 134.9)",
+    "chart-3": "oklch(0.609 0.089 117.1)",
+    "chart-4": "oklch(0.767 0.091 97.4)",
+    "chart-5": "oklch(0.896 0.037 87.8)",
+    "sidebar": "oklch(0.280 0.008 153.4)",
+    "sidebar-foreground": "oklch(0.949 0.015 90.2)",
+    "sidebar-primary": "oklch(0.896 0.037 87.8)",
+    "sidebar-primary-foreground": "oklch(0.244 0.006 156.8)",
+    "sidebar-accent": "oklch(0.460 0.013 118.3)",
+    "sidebar-accent-foreground": "oklch(0.949 0.015 90.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.896 0.037 87.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for sturdy English product UI with Noto Sans JP guidance for compact Japanese security labels, risk states, and operational dashboard hierarchy.",
+  "layout": "Dense 8px security grids, grounded side navigation, 8px component radius, rhino-fold separators, strong table rhythm, restrained shadows, and durable dashboard surfaces.",
+  "tags": [
+    "rhinoceros",
+    "mammal",
+    "grassland",
+    "stone-grey",
+    "horn-cream",
+    "security",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rhinoceros/motif.png",
+    "board": "/systems/morphous-rhinoceros/design-system-light.png",
+    "darkBoard": "/systems/morphous-rhinoceros/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rhinoceros/theme.css",
+    "themeJson": "/systems/morphous-rhinoceros/theme.json",
+    "promptsJson": "/systems/morphous-rhinoceros/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rhinoceros motif",
+      "asset": "/systems/morphous-rhinoceros/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Rhinoceros transparent motif chroma-key source\nPrimary request: Create only a rhinoceros motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A powerful adult rhinoceros with accurate anatomy, stone grey hide, thick folded armor-like skin plates, compact robust stance, cream horn, smaller rear horn, rounded ears, heavy shoulders, sturdy legs, natural rough skin texture, crisp silhouette, no extra animals.\nComposition/framing: centered complete side-profile cutout with generous padding; full body visible from horn to tail and hooves, not cropped. Clean studio lighting that preserves natural stone grey and horn cream detail. No cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no savanna scene, no grass, no rocks, no props, no text, no watermark, no second subject, no stylized cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rhinoceros/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rhinoceros light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Rhinoceros\", derived from a rhinoceros motif: stone grey armored hide, cream horn, grassland context, sturdy mass, protective posture, and robust security system mood. This board is a source reference for implementing a shadcn/tweakcn-compatible distinctive product security dashboard system.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Rhinoceros, Rhinoceros, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Data Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from stone grey rhinoceros hide, horn cream highlights, grassland muted olive, deep charcoal hoof shadows, dusty warm neutral light, and armor-plate folds. The board must read as rhinoceros strength and robust security, not elephant, generic safari, or military camouflage.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, security dashboard metric cards, access logs, bar chart, line chart, risk donut chart, status chips, empty/loading/error states, spacing scale, radius tokens, border tokens, shadow tokens, texture samples, simple shield and lock icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, light limestone surfaces, stone grey primary actions, horn cream highlights, grass olive success states, charcoal side navigation, thick but refined border rhythm inspired by rhino skin folds, restrained shadows, dense but organized security operations dashboard UI.\nColor palette: stone grey #777b75, horn cream #e7dcc2, grass olive #7f8a4a, charcoal hide #2f3431, dust limestone #f2eee3, warm taupe #b7aa93, dry grass #c3b46f, alert clay #9b5f48, ink #1e211f.\nConstraints: no elephant identity, no zebra stripes, no generic purple/blue gradients, no neon colors, no one-note grey palette, no watermark, no random brand names, no misspelling of \"Morphous Rhinoceros\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rhinoceros/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rhinoceros dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Rhinoceros\". It must feel like the same light-mode rhinoceros security system translated to dark mode, not a new theme, and it must remain derived from stone grey armored hide, cream horn highlights, grassland olive context, and robust security operations mood.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Rhinoceros, Rhinoceros, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Data Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the rhinoceros system language: charcoal hide backgrounds, slate stone cards, horn cream foreground text, stone grey active states, grass olive success states, alert clay risk states, armor-fold borders, subtle rhino skin texture bands. Must read as rhinoceros strength and robust security, not elephant, generic safari, military camouflage, or a plain grey admin kit.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, security dashboard metric cards, access logs, bar chart, line chart, risk donut chart, status chips, empty/loading/error states, spacing scale, radius tokens, border tokens, shadow tokens, texture samples, simple shield and lock icons.\nVisual details: deep charcoal backgrounds, slate rhino-hide cards, horn-cream text and hairline dividers, stone controls, muted olive focus rings, clay warning chart accents, restrained contrast, crisp shadcn/tweakcn components, 8px grid, 8px card radius.\nColor palette: night hide #191d1b, charcoal #2f3431, slate stone #555b56, horn cream #e8dcc0, limestone text #f2eee3, grass olive #8b9650, dry grass #c3b46f, alert clay #a9654d, border graphite #3c413d.\nConstraints: no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no elephant identity, no zebra stripes, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Rhinoceros\"."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-ruby",
+    "name": "Morphous Ruby",
+    "motifName": "Ruby Crystal",
+    "motifCategory": "mineral",
+    "biome": "Marble Deposit",
+    "motif": "ruby crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Marble White",
+      "hex": "#fbf8f7",
+      "oklch": "oklch(0.981 0.003 39.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Garnet Ink",
+      "hex": "#21070c",
+      "oklch": "oklch(0.177 0.046 10.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ruby Red",
+      "hex": "#c20b3a",
+      "oklch": "oklch(0.519 0.204 17.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ruby Core",
+      "hex": "#7a061c",
+      "oklch": "oklch(0.370 0.144 20.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Corundum Pink",
+      "hex": "#f45b81",
+      "oklch": "oklch(0.681 0.189 8.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Rose Facet",
+      "hex": "#ffd7df",
+      "oklch": "oklch(0.915 0.046 4.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Marble Grey",
+      "hex": "#e5e1df",
+      "oklch": "oklch(0.912 0.005 48.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Grey",
+      "hex": "#68646a",
+      "oklch": "oklch(0.509 0.011 314.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ruby Shadow",
+      "hex": "#310811",
+      "oklch": "oklch(0.214 0.066 11.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.003 39.5)",
+    "foreground": "oklch(0.177 0.046 10.7)",
+    "card": "oklch(0.912 0.005 48.7)",
+    "card-foreground": "oklch(0.177 0.046 10.7)",
+    "popover": "oklch(0.912 0.005 48.7)",
+    "popover-foreground": "oklch(0.177 0.046 10.7)",
+    "primary": "oklch(0.519 0.204 17.6)",
+    "primary-foreground": "oklch(0.981 0.003 39.5)",
+    "secondary": "oklch(0.942 0.004 56.4)",
+    "secondary-foreground": "oklch(0.214 0.066 11.8)",
+    "muted": "oklch(0.931 0.005 34.3)",
+    "muted-foreground": "oklch(0.214 0.066 11.8)",
+    "accent": "oklch(0.681 0.189 8.5)",
+    "accent-foreground": "oklch(0.177 0.046 10.7)",
+    "destructive": "oklch(0.519 0.204 17.6)",
+    "border": "oklch(0.773 0.005 0.0)",
+    "input": "oklch(0.773 0.005 0.0)",
+    "ring": "oklch(0.370 0.144 20.5)",
+    "chart-1": "oklch(0.519 0.204 17.6)",
+    "chart-2": "oklch(0.370 0.144 20.5)",
+    "chart-3": "oklch(0.681 0.189 8.5)",
+    "chart-4": "oklch(0.915 0.046 4.5)",
+    "chart-5": "oklch(0.214 0.066 11.8)",
+    "sidebar": "oklch(0.936 0.004 56.4)",
+    "sidebar-foreground": "oklch(0.177 0.046 10.7)",
+    "sidebar-primary": "oklch(0.519 0.204 17.6)",
+    "sidebar-primary-foreground": "oklch(0.981 0.003 39.5)",
+    "sidebar-accent": "oklch(0.853 0.030 7.2)",
+    "sidebar-accent-foreground": "oklch(0.519 0.204 17.6)",
+    "sidebar-border": "oklch(0.773 0.005 0.0)",
+    "sidebar-ring": "oklch(0.370 0.144 20.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.177 0.046 10.7)",
+    "foreground": "oklch(0.981 0.003 39.5)",
+    "card": "oklch(0.203 0.059 12.5)",
+    "card-foreground": "oklch(0.981 0.003 39.5)",
+    "popover": "oklch(0.203 0.059 12.5)",
+    "popover-foreground": "oklch(0.981 0.003 39.5)",
+    "primary": "oklch(0.370 0.144 20.5)",
+    "primary-foreground": "oklch(0.177 0.046 10.7)",
+    "secondary": "oklch(0.276 0.053 3.7)",
+    "secondary-foreground": "oklch(0.981 0.003 39.5)",
+    "muted": "oklch(0.276 0.053 3.7)",
+    "muted-foreground": "oklch(0.777 0.006 334.0)",
+    "accent": "oklch(0.681 0.189 8.5)",
+    "accent-foreground": "oklch(0.177 0.046 10.7)",
+    "destructive": "oklch(0.519 0.204 17.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.370 0.144 20.5)",
+    "chart-1": "oklch(0.370 0.144 20.5)",
+    "chart-2": "oklch(0.519 0.204 17.6)",
+    "chart-3": "oklch(0.681 0.189 8.5)",
+    "chart-4": "oklch(0.915 0.046 4.5)",
+    "chart-5": "oklch(0.509 0.011 314.7)",
+    "sidebar": "oklch(0.192 0.056 10.9)",
+    "sidebar-foreground": "oklch(0.981 0.003 39.5)",
+    "sidebar-primary": "oklch(0.370 0.144 20.5)",
+    "sidebar-primary-foreground": "oklch(0.177 0.046 10.7)",
+    "sidebar-accent": "oklch(0.276 0.053 3.7)",
+    "sidebar-accent-foreground": "oklch(0.981 0.003 39.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.370 0.144 20.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Assertive English commerce UI with crisp numerals and Japanese guidance tuned for product catalogs, checkout flows, and analytics surfaces.",
+  "layout": "Faceted 8px grids, confident purchase hierarchy, marble-panel surfaces, crystal-edge dividers, and dense commerce dashboards.",
+  "tags": [
+    "ruby",
+    "mineral",
+    "corundum",
+    "marble",
+    "commerce",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-ruby/motif.png",
+    "board": "/systems/morphous-ruby/design-system-light.png",
+    "darkBoard": "/systems/morphous-ruby/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-ruby/theme.css",
+    "themeJson": "/systems/morphous-ruby/theme.json",
+    "promptsJson": "/systems/morphous-ruby/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent ruby crystal motif",
+      "asset": "/systems/morphous-ruby/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Ruby transparent motif chroma-key source\nPrimary request: Create only a ruby crystal motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural ruby corundum crystal cluster from a marble deposit, with hexagonal prismatic red ruby crystals, saturated crimson cores, pink corundum facets, subtle grey marble matrix at the base, small mineral inclusions, crisp angular crystal edges, and realistic translucent-to-opaque mineral luster. Geological accuracy, bold commerce identity, no jewelry setting and no gemstone cut.\nComposition/framing: centered complete cutout with generous padding; include full crystal base and points without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no ring, no necklace, no polished gemstone, no heart shape, no fantasy magic glow, no hand, no cave landscape, no text, no watermark, no loose faceted gems, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-ruby/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Ruby light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Ruby\", derived from a ruby corundum crystal cutout in a marble deposit. This board is a source reference for a shadcn/tweakcn-compatible bold commerce UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class composition with large readable labels.\nRequired visible sections: Morphous Ruby, Ruby Crystal, Palette, Typography, Japanese Typography, Components, Navigation, Commerce Dashboard, Product Cards, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from crimson ruby crystal columns, hot ruby-pink corundum facets, pale rose highlights, grey marble matrix, mineral inclusions, and sharp hexagonal crystal geometry. The board must read as ruby crystal from marble deposit, not generic red SaaS or jewelry retail.\nTypography: English commerce product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product tiles, checkout summary, table rows, search command palette, sidebar navigation, commerce dashboard metric cards, revenue line chart, stock bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: bold commerce system, 8px radius with small faceted corner cuts, marble-white surfaces, ruby-red primary actions, corundum-pink accents, mineral-grey borders, deep garnet ink, precise grid, subtle crystalline grain texture, confident purchase-flow hierarchy.\nConstraints: no gemstones in rings, no luxury jewelry ad layout, no hearts, no fantasy magic symbols, no generic purple/blue gradients, no neon glow, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Ruby\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-ruby/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Ruby dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Ruby\". It must feel like the same bold commerce system translated to dark mode and remain derived from ruby corundum crystals in grey marble.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation, 4K-class composition with large readable labels.\nRequired visible sections: Morphous Ruby, Ruby Crystal, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Commerce Dashboard, Product Cards, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve ruby-red active states, corundum-pink facets, pale rose highlights, grey marble matrix, deep garnet shadows, crystalline dividers, mineral grain texture, bold commerce spacing, and 8px shadcn/tweakcn grid. Must read as ruby crystal, not wine, candy, or generic dark red SaaS.\nTypography: English commerce product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, product tiles, checkout summary, table rows, search command palette, sidebar navigation, commerce dashboard metric cards, revenue line chart, stock bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep garnet dark backgrounds, charcoal-marble cards, rose-white foreground, ruby-red buttons, corundum-pink charts, crisp crystal borders, subtle faceted shadows and mineral speckle overlays, strong commerce calls to action without advertisement layout.\nConstraints: no rings, no jewelry billboard, no hearts, no fantasy magic UI, no neon red, no pure-black-only flat background, no generic purple/blue gradients, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Ruby\"."
+    }
+  ]
+}

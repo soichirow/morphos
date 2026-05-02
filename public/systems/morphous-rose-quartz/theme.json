@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rose-quartz",
+    "name": "Morphous Rose Quartz",
+    "motifName": "Rose Quartz",
+    "motifCategory": "mineral",
+    "biome": "Pegmatite Vein",
+    "motif": "rose quartz"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Milky Quartz",
+      "hex": "#faf6f8",
+      "oklch": "oklch(0.977 0.005 345.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Vein",
+      "hex": "#2b1c26",
+      "oklch": "oklch(0.249 0.029 339.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rose Core",
+      "hex": "#d88aa6",
+      "oklch": "oklch(0.721 0.101 356.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blush Facet",
+      "hex": "#e8c1cd",
+      "oklch": "oklch(0.848 0.047 357.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cloud White",
+      "hex": "#faf7f9",
+      "oklch": "oklch(0.979 0.004 337.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pegmatite Taupe",
+      "hex": "#8f7e73",
+      "oklch": "oklch(0.605 0.027 55.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Matrix",
+      "hex": "#f7ddd2",
+      "oklch": "oklch(0.916 0.033 44.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Veil",
+      "hex": "#d2c6c8",
+      "oklch": "oklch(0.837 0.014 5.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Grounded Mauve",
+      "hex": "#5a394c",
+      "oklch": "oklch(0.390 0.055 344.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.005 345.3)",
+    "foreground": "oklch(0.249 0.029 339.5)",
+    "card": "oklch(0.916 0.033 44.4)",
+    "card-foreground": "oklch(0.249 0.029 339.5)",
+    "popover": "oklch(0.916 0.033 44.4)",
+    "popover-foreground": "oklch(0.249 0.029 339.5)",
+    "primary": "oklch(0.721 0.101 356.8)",
+    "primary-foreground": "oklch(0.977 0.005 345.3)",
+    "secondary": "oklch(0.942 0.019 41.8)",
+    "secondary-foreground": "oklch(0.390 0.055 344.4)",
+    "muted": "oklch(0.933 0.024 40.3)",
+    "muted-foreground": "oklch(0.390 0.055 344.4)",
+    "accent": "oklch(0.979 0.004 337.4)",
+    "accent-foreground": "oklch(0.249 0.029 339.5)",
+    "destructive": "oklch(0.721 0.101 356.8)",
+    "border": "oklch(0.888 0.025 39.4)",
+    "input": "oklch(0.888 0.025 39.4)",
+    "ring": "oklch(0.848 0.047 357.7)",
+    "chart-1": "oklch(0.721 0.101 356.8)",
+    "chart-2": "oklch(0.848 0.047 357.7)",
+    "chart-3": "oklch(0.979 0.004 337.4)",
+    "chart-4": "oklch(0.605 0.027 55.0)",
+    "chart-5": "oklch(0.390 0.055 344.4)",
+    "sidebar": "oklch(0.937 0.022 42.6)",
+    "sidebar-foreground": "oklch(0.249 0.029 339.5)",
+    "sidebar-primary": "oklch(0.721 0.101 356.8)",
+    "sidebar-primary-foreground": "oklch(0.977 0.005 345.3)",
+    "sidebar-accent": "oklch(0.892 0.037 30.4)",
+    "sidebar-accent-foreground": "oklch(0.721 0.101 356.8)",
+    "sidebar-border": "oklch(0.888 0.025 39.4)",
+    "sidebar-ring": "oklch(0.848 0.047 357.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.249 0.029 339.5)",
+    "foreground": "oklch(0.977 0.005 345.3)",
+    "card": "oklch(0.344 0.047 343.5)",
+    "card-foreground": "oklch(0.977 0.005 345.3)",
+    "popover": "oklch(0.344 0.047 343.5)",
+    "popover-foreground": "oklch(0.977 0.005 345.3)",
+    "primary": "oklch(0.848 0.047 357.7)",
+    "primary-foreground": "oklch(0.249 0.029 339.5)",
+    "secondary": "oklch(0.494 0.043 345.4)",
+    "secondary-foreground": "oklch(0.977 0.005 345.3)",
+    "muted": "oklch(0.494 0.043 345.4)",
+    "muted-foreground": "oklch(0.914 0.009 0.1)",
+    "accent": "oklch(0.979 0.004 337.4)",
+    "accent-foreground": "oklch(0.249 0.029 339.5)",
+    "destructive": "oklch(0.721 0.101 356.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.848 0.047 357.7)",
+    "chart-1": "oklch(0.848 0.047 357.7)",
+    "chart-2": "oklch(0.721 0.101 356.8)",
+    "chart-3": "oklch(0.979 0.004 337.4)",
+    "chart-4": "oklch(0.605 0.027 55.0)",
+    "chart-5": "oklch(0.837 0.014 5.9)",
+    "sidebar": "oklch(0.316 0.042 343.9)",
+    "sidebar-foreground": "oklch(0.977 0.005 345.3)",
+    "sidebar-primary": "oklch(0.848 0.047 357.7)",
+    "sidebar-primary-foreground": "oklch(0.249 0.029 339.5)",
+    "sidebar-accent": "oklch(0.494 0.043 345.4)",
+    "sidebar-accent-foreground": "oklch(0.977 0.005 345.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.848 0.047 357.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Warm product UI typography with calm numerals and Japanese guidance tuned for wellness, journaling, and care-centered interfaces.",
+  "layout": "Soft 8px grids, rounded mineral-facet cards, breathable dashboard rhythm, warm borders, and subtle quartz grain texture.",
+  "tags": [
+    "rose-quartz",
+    "mineral",
+    "pegmatite",
+    "wellness",
+    "soft-pink",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rose-quartz/motif.png",
+    "board": "/systems/morphous-rose-quartz/design-system-light.png",
+    "darkBoard": "/systems/morphous-rose-quartz/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rose-quartz/theme.css",
+    "themeJson": "/systems/morphous-rose-quartz/theme.json",
+    "promptsJson": "/systems/morphous-rose-quartz/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rose quartz motif",
+      "asset": "/systems/morphous-rose-quartz/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Rose Quartz transparent motif chroma-key source\nPrimary request: Create only a rose quartz mineral motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural rose quartz cluster from a pegmatite vein, with milky translucent soft pink quartz, cloudy white zones, subtle crystalline facets, rounded broken mineral edges, faint internal veils, and small pale matrix traces. Geological accuracy, kind wellness identity, no jewelry or carved heart shape.\nComposition/framing: centered complete cutout with generous padding; include full crystal mass without cropping. Clean studio lighting that preserves soft stone translucency; no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no jewelry setting, no heart carving, no rose flower, no fantasy glow, no hand, no landscape, no text, no watermark, no loose gemstones, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rose-quartz/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rose Quartz light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Rose Quartz\", derived from the rose quartz motif cutout. This board is a source reference for a shadcn/tweakcn-compatible kind wellness UI theme.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Rose Quartz, Rose Quartz, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from milky translucent soft pink quartz, cloudy white facets, warm pegmatite matrix, gentle internal veils, and rounded mineral breaks. The board must read as rose quartz stone, not rose flowers, candy, cosmetics, or generic pink SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Wellness Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: kind wellness system, shadcn/tweakcn-style product UI, 8px radius with softened mineral facets, quartz-white backgrounds, blush pink primary actions, milky rose muted panels, warm taupe borders, cream highlights, precise grid, subtle crystalline grain texture, calm accessible contrast.\nPalette names to show: Milky Quartz, Deep Vein, Rose Core, Blush Facet, Cloud White, Pegmatite Taupe, Warm Matrix, Soft Veil, Grounded Mauve.\nConstraints: no rose flower imagery, no hearts, no spa stock photography, no candy colors, no generic purple/blue gradients, no neon, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Rose Quartz\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rose-quartz/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rose Quartz dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Rose Quartz\". It must feel like the light-mode board translated to dark mode and remain derived from the rose quartz motif cutout.\nCanvas: wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Rose Quartz, Rose Quartz, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve blush pink active states, milky quartz highlights, warm pegmatite taupe borders, soft crystalline texture, kind wellness spacing, and 8px shadcn/tweakcn grid. Must read as rose quartz stone, not flowers, hearts, cosmetics, candy, or generic pink SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Wellness Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep grounded mauve and warm vein dark backgrounds, soft rose cards, milky white foreground text, rose-core buttons, blush charts, warm taupe borders, subtle translucent stone veils, calm wellness tone, accessible contrast.\nPalette names to show: Milky Quartz, Deep Vein, Rose Core, Blush Facet, Cloud White, Pegmatite Taupe, Warm Matrix, Soft Veil, Grounded Mauve.\nConstraints: no rose flower imagery, no hearts, no spa stock photography, no candy colors, no neon pink, no pure-black-only flat background, no generic purple/blue gradients, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Rose Quartz\"."
+    }
+  ]
+}

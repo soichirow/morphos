@@ -1,0 +1,86 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-sandpiper",
+  "name": "Morphous Sandpiper",
+  "motifName": "Sandpiper",
+  "motifCategory": "bird",
+  "biome": "Shoreline",
+  "motif": "sandpiper pattern",
+  "description": "A shadcn/tweakcn-compatible compact timeline system shaped by sandpiper speckles, shell-white plumage, wet sand neutrals, and restrained shoreline accents.",
+  "typography": "Geist for compact product UI with Noto Sans guidance for Japanese labels, tabular timeline numerals, and readable dense dashboards.",
+  "layout": "8px grid, compact timeline rails, fine dotted separators, shell-white cards, wet-sand surfaces, restrained shoreline accents, and dashboard-first operational workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sandpiper",
+    "bird",
+    "shoreline",
+    "tan-speckle",
+    "wet-sand",
+    "compact-timeline",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand",
+      "hex": "#E9DFC9"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#FAF9F6"
+    },
+    {
+      "role": "Ink",
+      "name": "Driftwood",
+      "hex": "#4A3E33"
+    },
+    {
+      "role": "Primary",
+      "name": "Speckle Tan",
+      "hex": "#C9B08A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Dune Beige",
+      "hex": "#d8c1a1"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Glass",
+      "hex": "#4DADA1"
+    },
+    {
+      "role": "Muted",
+      "name": "Tidepool Gray",
+      "hex": "#D7DADA"
+    },
+    {
+      "role": "Warning",
+      "name": "Dune Gold",
+      "hex": "#D9B35B"
+    },
+    {
+      "role": "Destructive",
+      "name": "Clay Red",
+      "hex": "#C75B5B"
+    },
+    {
+      "role": "Depth",
+      "name": "Driftwood",
+      "hex": "#4A3E33"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

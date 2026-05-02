@@ -1,0 +1,181 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-river-rapids",
+    "name": "River Rapids",
+    "motifName": "Whitewater Rapids",
+    "motifCategory": "landscape",
+    "biome": "Mountain river",
+    "motif": "whitewater rapids"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist White",
+      "hex": "#f4fbfa",
+      "oklch": "oklch(0.983 0.008 186.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wet Stone Charcoal",
+      "hex": "#172426",
+      "oklch": "oklch(0.249 0.018 207.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Blue Green Current",
+      "hex": "#0e8f93",
+      "oklch": "oklch(0.591 0.098 198.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Granite Gray",
+      "hex": "#7d8a8a",
+      "oklch": "oklch(0.623 0.015 196.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Glacial Cyan",
+      "hex": "#7bdde1",
+      "oklch": "oklch(0.839 0.093 199.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Foam White",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "River Stone",
+      "hex": "#d9e6e4",
+      "oklch": "oklch(0.915 0.014 185.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Granite Mist",
+      "hex": "#a9b8b7",
+      "oklch": "oklch(0.771 0.017 192.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep River Teal",
+      "hex": "#0b3f46",
+      "oklch": "oklch(0.339 0.053 208.5)"
+    },
+    {
+      "role": "Warning",
+      "name": "Rapid Amber",
+      "hex": "#d99a2b",
+      "oklch": "oklch(0.730 0.140 76.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.008 186.9)",
+    "foreground": "oklch(0.249 0.018 207.9)",
+    "card": "oklch(0.915 0.014 185.9)",
+    "card-foreground": "oklch(0.249 0.018 207.9)",
+    "popover": "oklch(0.915 0.014 185.9)",
+    "popover-foreground": "oklch(0.249 0.018 207.9)",
+    "primary": "oklch(0.591 0.098 198.4)",
+    "primary-foreground": "oklch(0.983 0.008 186.9)",
+    "secondary": "oklch(0.943 0.012 184.1)",
+    "secondary-foreground": "oklch(0.339 0.053 208.5)",
+    "muted": "oklch(0.934 0.012 184.1)",
+    "muted-foreground": "oklch(0.339 0.053 208.5)",
+    "accent": "oklch(0.839 0.093 199.0)",
+    "accent-foreground": "oklch(0.249 0.018 207.9)",
+    "destructive": "oklch(0.591 0.098 198.4)",
+    "border": "oklch(0.863 0.014 191.3)",
+    "input": "oklch(0.863 0.014 191.3)",
+    "ring": "oklch(0.623 0.015 196.8)",
+    "chart-1": "oklch(0.591 0.098 198.4)",
+    "chart-2": "oklch(0.623 0.015 196.8)",
+    "chart-3": "oklch(0.839 0.093 199.0)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.339 0.053 208.5)",
+    "sidebar": "oklch(0.937 0.012 184.1)",
+    "sidebar-foreground": "oklch(0.249 0.018 207.9)",
+    "sidebar-primary": "oklch(0.591 0.098 198.4)",
+    "sidebar-primary-foreground": "oklch(0.983 0.008 186.9)",
+    "sidebar-accent": "oklch(0.874 0.029 191.2)",
+    "sidebar-accent-foreground": "oklch(0.591 0.098 198.4)",
+    "sidebar-border": "oklch(0.863 0.014 191.3)",
+    "sidebar-ring": "oklch(0.623 0.015 196.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.249 0.018 207.9)",
+    "foreground": "oklch(0.983 0.008 186.9)",
+    "card": "oklch(0.308 0.044 207.1)",
+    "card-foreground": "oklch(0.983 0.008 186.9)",
+    "popover": "oklch(0.308 0.044 207.1)",
+    "popover-foreground": "oklch(0.983 0.008 186.9)",
+    "primary": "oklch(0.623 0.015 196.8)",
+    "primary-foreground": "oklch(0.249 0.018 207.9)",
+    "secondary": "oklch(0.438 0.049 205.1)",
+    "secondary-foreground": "oklch(0.983 0.008 186.9)",
+    "muted": "oklch(0.438 0.049 205.1)",
+    "muted-foreground": "oklch(0.889 0.012 190.4)",
+    "accent": "oklch(0.839 0.093 199.0)",
+    "accent-foreground": "oklch(0.249 0.018 207.9)",
+    "destructive": "oklch(0.591 0.098 198.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.623 0.015 196.8)",
+    "chart-1": "oklch(0.623 0.015 196.8)",
+    "chart-2": "oklch(0.591 0.098 198.4)",
+    "chart-3": "oklch(0.839 0.093 199.0)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.771 0.017 192.0)",
+    "sidebar": "oklch(0.288 0.037 209.5)",
+    "sidebar-foreground": "oklch(0.983 0.008 186.9)",
+    "sidebar-primary": "oklch(0.623 0.015 196.8)",
+    "sidebar-primary-foreground": "oklch(0.249 0.018 207.9)",
+    "sidebar-accent": "oklch(0.438 0.049 205.1)",
+    "sidebar-accent-foreground": "oklch(0.983 0.008 186.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.623 0.015 196.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for fast product workflows with Noto Sans guidance for Japanese labels, compact metrics, clear queue states, and high-legibility numeric rhythm.",
+  "layout": "Diagonal current lanes, foam-cap active states, granite-framed panels, compact dashboard rows, 8px grids, tight scan paths, and precise workflow status bands.",
+  "tags": [
+    "river",
+    "rapids",
+    "landscape",
+    "mountain-river",
+    "workflow",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-river-rapids/motif.png",
+    "board": "/systems/morphous-river-rapids/design-system-light.png",
+    "darkBoard": "/systems/morphous-river-rapids/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-river-rapids/theme.css",
+    "themeJson": "/systems/morphous-river-rapids/theme.json",
+    "promptsJson": "/systems/morphous-river-rapids/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent River Rapids motif",
+      "asset": "/systems/morphous-river-rapids/motif.png",
+      "prompt": "Use case: stylized-concept\nAsset type: Morphous River Rapids transparent motif chroma-key source\nPrimary request: Create only an isolated whitewater rapids motif for a design-system catalog, no environment, no props, no UI, no text.\nSubject: A compact sculptural burst of mountain river whitewater: curling white foam, blue-green current ribbons, icy turquoise eddies, granite-gray spray shadows, faceted river stones visible at the base, crisp energetic silhouette, polished natural texture without photorealistic translucency.\nComposition/framing: centered complete cutout with generous padding; diagonal fast-flowing S-curve from upper left to lower right; keep all spray, foam crests, water ribbons, and granite stones inside the frame without cropping.\nLighting/mood: clean studio light, high clarity, fast workflow energy, precise edges, fresh alpine water color.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #ff00ff anywhere in the subject, no landscape horizon, no forest, no fish, no kayaks, no people, no labels, no watermark, no cast shadow, no contact shadow, no reflection, no UI mockup."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-river-rapids/design-system-light.png",
+      "prompt": "Create one wide 16:9 comprehensive light-mode design-system board for \"Morphous River Rapids\" / \"River Rapids\", source reference for a shadcn/tweakcn-compatible fast workflow system. Use mountain river whitewater rapids: white foam, blue-green current, icy turquoise eddies, granite gray, deep river teal, mist white, pale glacial cyan, wet stone charcoal, and a small safety-signal amber accent. Include readable English and Japanese typography guidance plus palette, typography, components, navigation, dashboard/data visualization, forms, table, command/search, status states, loading/error/empty states, texture samples, icon treatment, radius, spacing, borders, shadows, and semantic tokens. Use diagonal flow lanes, rapid current dividers, foam-cap active states, granite-framed panels, crisp dense operations UI, compact dashboards, queue/progress metaphors, and precise scan-friendly hierarchy. Exclude generic purple gradients, one-note blue-only palettes, ocean beach, waterfall, kayaks, people, fish, random brand logos, lorem ipsum blocks, unreadable microtext, and misspellings. Exact visible title: Morphous River Rapids."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-river-rapids/design-system-dark.png",
+      "prompt": "Create one wide 16:9 comprehensive dark-mode design-system board for \"Morphous River Rapids\" / \"River Rapids\", translated from the same mountain whitewater rapids motif and matching the light board language. Use luminous white foam, blue-green current, icy turquoise eddies, granite gray, deep river teal, mist white, pale glacial cyan, wet stone charcoal, and a small safety-signal amber accent. Include readable English and Japanese typography guidance plus palette, typography, components, navigation, dashboard/data visualization, forms, table, command/search, status states, loading/error/empty states, texture samples, icon treatment, radius, spacing, borders, shadows, and semantic tokens. Use diagonal flow lanes, rapid current dividers, foam-cap active states, granite-framed panels, crisp dense operations UI, compact dashboards, queue/progress metaphors, bright focus rings, and precise scan-friendly hierarchy. Dark translation: deep river teal and wet stone charcoal surfaces, mist-white foreground, glacial cyan focus, foam-white highlights, granite borders, amber warnings. Exclude generic purple gradients, one-note blue-only palettes, ocean beach, waterfall, kayaks, people, fish, random brand logos, lorem ipsum blocks, unreadable microtext, and misspellings. Exact visible title: Morphous River Rapids."
+    }
+  ]
+}

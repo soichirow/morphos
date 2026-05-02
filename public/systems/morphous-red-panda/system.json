@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-red-panda",
+  "name": "Morphous Red Panda",
+  "motifName": "Red Panda",
+  "motifCategory": "mammal",
+  "biome": "Temperate bamboo",
+  "motif": "red panda face",
+  "description": "A friendly knowledge-system theme derived from a red panda face: rust-red fur actions, white mask surfaces, black facial-marking structure, bamboo-green support, and warm amber data highlights.",
+  "typography": "Geist for calm product UI with Noto Sans JP guidance for Japanese labels, balanced editorial headings, and legible data density.",
+  "layout": "Readable 8px grid, compact bamboo-panel navigation, soft fur-grain texture, 8px radii, warm shadow tokens, and dashboard patterns for knowledge workflows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "red-panda",
+    "mammal",
+    "temperate-bamboo",
+    "friendly",
+    "knowledge-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Muzzle White",
+      "hex": "#fff8ee"
+    },
+    {
+      "role": "Ink",
+      "name": "Marking Black",
+      "hex": "#241a16"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Fur",
+      "hex": "#b54a1b"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bamboo Green",
+      "hex": "#5e7f45"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Eye",
+      "hex": "#b8792a"
+    },
+    {
+      "role": "Signal",
+      "name": "Mask Cream",
+      "hex": "#f6e8d2"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Mask",
+      "hex": "#efe0c9"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Mist",
+      "hex": "#c8d4b6"
+    },
+    {
+      "role": "Depth",
+      "name": "Cedar Shadow",
+      "hex": "#4b2a1d"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

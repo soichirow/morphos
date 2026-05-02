@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-salt-marsh",
+  "name": "Morphous Salt Marsh",
+  "motifName": "Salt Marsh",
+  "motifCategory": "landscape",
+  "biome": "Coastal wetland",
+  "motif": "salt marsh grass",
+  "description": "A shadcn/tweakcn-compatible tidal logistics system shaped by salt marsh cordgrass, silver water channels, silt borders, and dark wet mud.",
+  "typography": "Inter for dense logistics interfaces with Noto Sans JP guidance for Japanese operational labels, tabular tide numerals, route timelines, and water-level dashboards.",
+  "layout": "8px grid, 8px radius cards, vertical grass-blade dividers, meandering tidal-channel paths, compact route timelines, scan-friendly dispatch tables, and calm coastal operations surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "salt-marsh",
+    "landscape",
+    "coastal-wetland",
+    "cordgrass",
+    "tidal-logistics",
+    "silver-water",
+    "mudflat",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver Water",
+      "hex": "#eef3f0"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Shell",
+      "hex": "#f8faf7"
+    },
+    {
+      "role": "Ink",
+      "name": "Channel Green",
+      "hex": "#223b38"
+    },
+    {
+      "role": "Primary",
+      "name": "Marsh Green",
+      "hex": "#4c7a5a"
+    },
+    {
+      "role": "Secondary",
+      "name": "Reed Olive",
+      "hex": "#7a8a5f"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidal Blue",
+      "hex": "#5e8f8d"
+    },
+    {
+      "role": "Muted",
+      "name": "Silt Gray",
+      "hex": "#a9b3ad"
+    },
+    {
+      "role": "Mud",
+      "name": "Mud Brown",
+      "hex": "#685a4a"
+    },
+    {
+      "role": "Warning",
+      "name": "Wrack Amber",
+      "hex": "#d1a24a"
+    },
+    {
+      "role": "Destructive",
+      "name": "Clay Red",
+      "hex": "#c94c4c"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-salt-marsh/motif.png",
+    "board": "/systems/morphous-salt-marsh/design-system-light.png",
+    "darkBoard": "/systems/morphous-salt-marsh/design-system-dark.png",
+    "promptsJson": "/systems/morphous-salt-marsh/prompts.json",
+    "themeCss": "/systems/morphous-salt-marsh/theme.css",
+    "themeJson": "/systems/morphous-salt-marsh/theme.json"
+  }
+}

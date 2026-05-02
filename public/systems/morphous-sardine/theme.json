@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sardine",
+    "name": "Morphous Sardine",
+    "motifName": "Sardine",
+    "motifCategory": "fish",
+    "biome": "Pelagic shoal",
+    "motif": "sardine shimmer"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Belly",
+      "hex": "#f6fafd",
+      "oklch": "oklch(0.983 0.006 239.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Ink",
+      "hex": "#0d1117",
+      "oklch": "oklch(0.176 0.014 258.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sardine Blue",
+      "hex": "#2268a8",
+      "oklch": "oklch(0.507 0.123 250.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Scale Silver",
+      "hex": "#c6cdd6",
+      "oklch": "oklch(0.846 0.015 254.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Scale Flash",
+      "hex": "#64b9de",
+      "oklch": "oklch(0.747 0.098 228.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Eye Gold",
+      "hex": "#d6a43a",
+      "oklch": "oklch(0.747 0.133 82.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sea Mist",
+      "hex": "#eaf2f7",
+      "oklch": "oklch(0.957 0.011 234.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cool Gray",
+      "hex": "#8c97a3",
+      "oklch": "oklch(0.671 0.022 250.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Dot",
+      "hex": "#2a2f36",
+      "oklch": "oklch(0.303 0.014 256.8)"
+    },
+    {
+      "role": "Border",
+      "name": "Foam Border",
+      "hex": "#d1dae2",
+      "oklch": "oklch(0.884 0.015 244.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.983 0.006 239.8)",
+    "foreground": "oklch(0.176 0.014 258.4)",
+    "card": "oklch(0.957 0.011 234.8)",
+    "card-foreground": "oklch(0.176 0.014 258.4)",
+    "popover": "oklch(0.957 0.011 234.8)",
+    "popover-foreground": "oklch(0.176 0.014 258.4)",
+    "primary": "oklch(0.507 0.123 250.1)",
+    "primary-foreground": "oklch(0.983 0.006 239.8)",
+    "secondary": "oklch(0.967 0.009 242.8)",
+    "secondary-foreground": "oklch(0.303 0.014 256.8)",
+    "muted": "oklch(0.963 0.010 238.5)",
+    "muted-foreground": "oklch(0.303 0.014 256.8)",
+    "accent": "oklch(0.747 0.098 228.5)",
+    "accent-foreground": "oklch(0.176 0.014 258.4)",
+    "destructive": "oklch(0.507 0.123 250.1)",
+    "border": "oklch(0.856 0.015 244.7)",
+    "input": "oklch(0.856 0.015 244.7)",
+    "ring": "oklch(0.846 0.015 254.6)",
+    "chart-1": "oklch(0.507 0.123 250.1)",
+    "chart-2": "oklch(0.846 0.015 254.6)",
+    "chart-3": "oklch(0.747 0.098 228.5)",
+    "chart-4": "oklch(0.747 0.133 82.5)",
+    "chart-5": "oklch(0.303 0.014 256.8)",
+    "sidebar": "oklch(0.966 0.009 232.4)",
+    "sidebar-foreground": "oklch(0.176 0.014 258.4)",
+    "sidebar-primary": "oklch(0.507 0.123 250.1)",
+    "sidebar-primary-foreground": "oklch(0.983 0.006 239.8)",
+    "sidebar-accent": "oklch(0.902 0.024 244.2)",
+    "sidebar-accent-foreground": "oklch(0.507 0.123 250.1)",
+    "sidebar-border": "oklch(0.856 0.015 244.7)",
+    "sidebar-ring": "oklch(0.846 0.015 254.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.176 0.014 258.4)",
+    "foreground": "oklch(0.983 0.006 239.8)",
+    "card": "oklch(0.262 0.013 253.1)",
+    "card-foreground": "oklch(0.983 0.006 239.8)",
+    "popover": "oklch(0.262 0.013 253.1)",
+    "popover-foreground": "oklch(0.983 0.006 239.8)",
+    "primary": "oklch(0.846 0.015 254.6)",
+    "primary-foreground": "oklch(0.176 0.014 258.4)",
+    "secondary": "oklch(0.392 0.016 255.6)",
+    "secondary-foreground": "oklch(0.983 0.006 239.8)",
+    "muted": "oklch(0.392 0.016 255.6)",
+    "muted-foreground": "oklch(0.845 0.014 251.6)",
+    "accent": "oklch(0.747 0.098 228.5)",
+    "accent-foreground": "oklch(0.176 0.014 258.4)",
+    "destructive": "oklch(0.507 0.123 250.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.846 0.015 254.6)",
+    "chart-1": "oklch(0.846 0.015 254.6)",
+    "chart-2": "oklch(0.507 0.123 250.1)",
+    "chart-3": "oklch(0.747 0.098 228.5)",
+    "chart-4": "oklch(0.747 0.133 82.5)",
+    "chart-5": "oklch(0.671 0.022 250.5)",
+    "sidebar": "oklch(0.237 0.014 253.1)",
+    "sidebar-foreground": "oklch(0.983 0.006 239.8)",
+    "sidebar-primary": "oklch(0.846 0.015 254.6)",
+    "sidebar-primary-foreground": "oklch(0.176 0.014 258.4)",
+    "sidebar-accent": "oklch(0.392 0.016 255.6)",
+    "sidebar-accent-foreground": "oklch(0.983 0.006 239.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.846 0.015 254.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact media UI with Noto Sans JP guidance for multilingual labels, metrics, queue rows, and dense dashboard states.",
+  "layout": "Compact 8px grids, shoal-like list density, scale-texture panels, crisp media dashboards, narrow side navigation, and high-readability controls.",
+  "tags": [
+    "sardine",
+    "fish",
+    "pelagic shoal",
+    "sardine shimmer",
+    "silver blue black scale",
+    "compact media system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sardine/motif.png",
+    "board": "/systems/morphous-sardine/design-system-light.png",
+    "darkBoard": "/systems/morphous-sardine/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sardine/theme.css",
+    "themeJson": "/systems/morphous-sardine/theme.json",
+    "promptsJson": "/systems/morphous-sardine/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sardine motif source",
+      "asset": "/systems/morphous-sardine/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for /systems/morphous-sardine/motif.png\nPrimary request: Create only one accurate sardine fish, isolated full subject, no environment, no props, no text.\nSubject: A compact pelagic sardine in clean side profile, realistic anatomy, streamlined body, small forked tail, visible eye, subtle dorsal fin, iridescent silver scales with blue back, charcoal-black lateral dots, pearly belly, fine scale shimmer, and crisp natural edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the snout, fins, belly, or tail silhouette.\nLighting/mood: clean studio light that preserves silver-blue shimmer, black scale markings, and compact media-system clarity.\nTransparent workflow: place the fish on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no water scene, no bait, no plate, no net, no second fish, no shoal, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sardine/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for /systems/morphous-sardine/design-system-light.png\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sardine\" derived from the visible transparent sardine motif cutout. The board is the implementation reference for a shadcn/tweakcn-compatible compact media system.\nReference use: Use the visible sardine cutout as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the silver scales, blue-black back, charcoal lateral dots, pearly belly, translucent fins, and pelagic shoal shimmer. The board must visibly respect motif colors: silver, bright scale highlight, sardine blue, deep ink black, charcoal dot, pearl belly, pale sea mist, and cool foam.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Sardine, Sardine, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Media Dashboard, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use compact media UI type hierarchy with crisp numeric rhythm.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, compact media queue tile, loading, empty, error states, spacing, radius, border, shadow, texture samples.\nVisual details: pale sea-mist background, pearly white cards, sardine-blue primary actions, black lateral-dot badges, silver scale texture panels, dark ink text, cool foam rings, compact list density, shoal-like repeated micro rows, 8px radii, restrained work-focused media dashboard layout.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Sardine\".\nConstraints: no underwater scene, no fishing, no food packaging, no decorative fish clutter, no neon overload, no generic purple gradients, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Sardine\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sardine/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for /systems/morphous-sardine/design-system-dark.png\nPrimary request: Generate one comprehensive dark-mode version of the visible Morphous Sardine design-system board. It must feel like the same compact media system translated to dark mode, not a new theme.\nReference use: Use the visible sardine cutout and the visible light-mode Morphous Sardine board as references. Preserve palette roles, silver-scale texture, black lateral-dot accents, compact media dashboard language, component coverage, 8px radius, spacing, typography, Japanese guidance, and shadcn/tweakcn implementation coverage.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Sardine, Sardine, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Media Dashboard, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use compact media UI type hierarchy with crisp numeric rhythm.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, compact media queue tile, loading, empty, error states, spacing, radius, border, shadow, texture samples.\nVisual details: deep ink and midnight-blue background derived from the sardine back, readable pearl and sea-mist text, sardine-blue primary actions, silver chart lines and cool foam focus rings, charcoal-dot badges, subtle scale texture panels, compact list density, restrained work-focused media dashboard layout.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Sardine\".\nConstraints: no underwater scene, no fishing, no food packaging, no decorative fish clutter, no neon overload, no generic purple gradients, no flat pure-black-only background, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Sardine\"."
+    }
+  ]
+}

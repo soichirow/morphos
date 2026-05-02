@@ -1,0 +1,203 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 443,
+  "slug": "morphous-red-eyed-tree-frog",
+  "name": "Morphous Red Eyed Tree Frog",
+  "motifName": "Red Eyed Tree Frog",
+  "motifCategory": "amphibian",
+  "biome": "rainforest pond",
+  "motif": "red eyed frog",
+  "description": "A shadcn/tweakcn-compatible playful onboarding system derived from a red-eyed tree frog: leaf-green primary actions, red-eye focus and alert states, orange foot call-to-action accents, cream belly surfaces, blue side-mark support states, wet-stone text contrast, and rainforest pond neutrals.",
+  "typography": "Inter for friendly onboarding and dashboard UI, Geist Mono for compact tabular values, and Noto Sans JP guidance for Japanese navigation, forms, labels, onboarding steps, and status text.",
+  "layout": "Lily-pad cards, compact onboarding steppers, pond-dashboard grids, readable forms and tables, command search, 8px radii, soft waterline dividers, wet-skin highlights, and green/red/orange state contrast.",
+  "designMood": "playful onboarding system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "red-eyed-tree-frog",
+    "frog",
+    "amphibian",
+    "rainforest-pond",
+    "green-red-orange",
+    "pond-neutrals",
+    "playful-onboarding",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Mist",
+      "hex": "#FCFAF4",
+      "oklch": "oklch(0.982 0.006 96.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Belly",
+      "hex": "#FFF4E0",
+      "oklch": "oklch(0.970 0.029 82.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lily Pad",
+      "hex": "#A6D96A",
+      "oklch": "oklch(0.858 0.107 124.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#6DBE45",
+      "oklch": "oklch(0.724 0.175 136.9)"
+    },
+    {
+      "role": "Action",
+      "name": "Moss",
+      "hex": "#3E8E2A",
+      "oklch": "oklch(0.525 0.139 132.0)"
+    },
+    {
+      "role": "Soft",
+      "name": "Pond Sand",
+      "hex": "#E9E3D6",
+      "oklch": "oklch(0.920 0.018 104.0)"
+    },
+    {
+      "role": "Support",
+      "name": "Side Blue",
+      "hex": "#2874A6",
+      "oklch": "oklch(0.543 0.111 226.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Orange Foot",
+      "hex": "#FF8A00",
+      "oklch": "oklch(0.741 0.183 53.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Red Eye",
+      "hex": "#E53935",
+      "oklch": "oklch(0.613 0.221 27.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Pond Reed",
+      "hex": "#D8D0BC",
+      "oklch": "oklch(0.872 0.019 96.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Stone",
+      "hex": "#6B6F66",
+      "oklch": "oklch(0.535 0.015 126.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Pupil Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.218 0.009 153.0)"
+    },
+    {
+      "role": "Night",
+      "name": "Rainforest Night",
+      "hex": "#101E18",
+      "oklch": "oklch(0.177 0.019 158.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.982 0.006 96.0)",
+    "foreground": "oklch(0.218 0.009 153.0)",
+    "card": "oklch(0.966 0.009 102.0)",
+    "card-foreground": "oklch(0.218 0.009 153.0)",
+    "popover": "oklch(0.982 0.006 96.0)",
+    "popover-foreground": "oklch(0.218 0.009 153.0)",
+    "primary": "oklch(0.620 0.164 130.0)",
+    "primary-foreground": "oklch(0.982 0.006 96.0)",
+    "secondary": "oklch(0.858 0.107 124.0)",
+    "secondary-foreground": "oklch(0.218 0.009 153.0)",
+    "muted": "oklch(0.920 0.018 104.0)",
+    "muted-foreground": "oklch(0.464 0.019 145.0)",
+    "accent": "oklch(0.741 0.183 53.0)",
+    "accent-foreground": "oklch(0.982 0.006 96.0)",
+    "destructive": "oklch(0.613 0.221 27.5)",
+    "border": "oklch(0.872 0.019 96.0)",
+    "input": "oklch(0.872 0.019 96.0)",
+    "ring": "oklch(0.613 0.221 27.5)",
+    "chart-1": "oklch(0.620 0.164 130.0)",
+    "chart-2": "oklch(0.741 0.183 53.0)",
+    "chart-3": "oklch(0.613 0.221 27.5)",
+    "chart-4": "oklch(0.543 0.111 226.0)",
+    "chart-5": "oklch(0.651 0.028 177.0)",
+    "sidebar": "oklch(0.966 0.009 102.0)",
+    "sidebar-foreground": "oklch(0.218 0.009 153.0)",
+    "sidebar-primary": "oklch(0.620 0.164 130.0)",
+    "sidebar-primary-foreground": "oklch(0.982 0.006 96.0)",
+    "sidebar-accent": "oklch(0.858 0.107 124.0)",
+    "sidebar-accent-foreground": "oklch(0.218 0.009 153.0)",
+    "sidebar-border": "oklch(0.872 0.019 96.0)",
+    "sidebar-ring": "oklch(0.613 0.221 27.5)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.177 0.019 158.0)",
+    "foreground": "oklch(0.942 0.014 94.0)",
+    "card": "oklch(0.243 0.022 165.0)",
+    "card-foreground": "oklch(0.942 0.014 94.0)",
+    "popover": "oklch(0.243 0.022 165.0)",
+    "popover-foreground": "oklch(0.942 0.014 94.0)",
+    "primary": "oklch(0.777 0.167 128.0)",
+    "primary-foreground": "oklch(0.177 0.019 158.0)",
+    "secondary": "oklch(0.363 0.046 178.0)",
+    "secondary-foreground": "oklch(0.942 0.014 94.0)",
+    "muted": "oklch(0.302 0.023 160.0)",
+    "muted-foreground": "oklch(0.728 0.026 105.0)",
+    "accent": "oklch(0.760 0.181 53.0)",
+    "accent-foreground": "oklch(0.177 0.019 158.0)",
+    "destructive": "oklch(0.681 0.218 28.5)",
+    "border": "oklch(0.708 0.020 105.0 / 35%)",
+    "input": "oklch(0.708 0.020 105.0 / 45%)",
+    "ring": "oklch(0.681 0.218 28.5)",
+    "chart-1": "oklch(0.777 0.167 128.0)",
+    "chart-2": "oklch(0.760 0.181 53.0)",
+    "chart-3": "oklch(0.681 0.218 28.5)",
+    "chart-4": "oklch(0.695 0.102 218.0)",
+    "chart-5": "oklch(0.823 0.045 92.0)",
+    "sidebar": "oklch(0.225 0.021 164.0)",
+    "sidebar-foreground": "oklch(0.942 0.014 94.0)",
+    "sidebar-primary": "oklch(0.777 0.167 128.0)",
+    "sidebar-primary-foreground": "oklch(0.177 0.019 158.0)",
+    "sidebar-accent": "oklch(0.363 0.046 178.0)",
+    "sidebar-accent-foreground": "oklch(0.942 0.014 94.0)",
+    "sidebar-border": "oklch(0.708 0.020 105.0 / 35%)",
+    "sidebar-ring": "oklch(0.681 0.218 28.5)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-roller",
+    "name": "Morphous Lilac Breasted Roller",
+    "motifName": "Lilac Breasted Roller",
+    "motifCategory": "bird",
+    "biome": "Savanna Woodland",
+    "motif": "roller plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Daylight Cream",
+      "hex": "#fff8ec",
+      "oklch": "oklch(0.981 0.018 81.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Roller Ink",
+      "hex": "#172522",
+      "oklch": "oklch(0.251 0.020 179.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lilac Breast",
+      "hex": "#c78ab8",
+      "oklch": "oklch(0.708 0.096 335.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Turquoise Wing",
+      "hex": "#13a9c7",
+      "oklch": "oklch(0.678 0.118 216.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Chestnut Back",
+      "hex": "#a75632",
+      "oklch": "oklch(0.544 0.118 43.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Savanna Green",
+      "hex": "#6f8f45",
+      "oklch": "oklch(0.608 0.108 128.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sky Feather",
+      "hex": "#8bd8e6",
+      "oklch": "oklch(0.837 0.078 210.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Twig Taupe",
+      "hex": "#b89870",
+      "oklch": "oklch(0.699 0.067 72.6)"
+    },
+    {
+      "role": "Focus",
+      "name": "Nectar Focus",
+      "hex": "#f1bf3f",
+      "oklch": "oklch(0.828 0.149 86.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Canopy",
+      "hex": "#26391f",
+      "oklch": "oklch(0.320 0.051 137.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.018 81.3)",
+    "foreground": "oklch(0.251 0.020 179.8)",
+    "card": "oklch(0.837 0.078 210.3)",
+    "card-foreground": "oklch(0.251 0.020 179.8)",
+    "popover": "oklch(0.837 0.078 210.3)",
+    "popover-foreground": "oklch(0.251 0.020 179.8)",
+    "primary": "oklch(0.708 0.096 335.8)",
+    "primary-foreground": "oklch(0.981 0.018 81.3)",
+    "secondary": "oklch(0.894 0.043 203.7)",
+    "secondary-foreground": "oklch(0.320 0.051 137.6)",
+    "muted": "oklch(0.875 0.056 206.1)",
+    "muted-foreground": "oklch(0.320 0.051 137.6)",
+    "accent": "oklch(0.544 0.118 43.5)",
+    "accent-foreground": "oklch(0.251 0.020 179.8)",
+    "destructive": "oklch(0.708 0.096 335.8)",
+    "border": "oklch(0.782 0.041 186.5)",
+    "input": "oklch(0.782 0.041 186.5)",
+    "ring": "oklch(0.678 0.118 216.9)",
+    "chart-1": "oklch(0.708 0.096 335.8)",
+    "chart-2": "oklch(0.678 0.118 216.9)",
+    "chart-3": "oklch(0.544 0.118 43.5)",
+    "chart-4": "oklch(0.608 0.108 128.5)",
+    "chart-5": "oklch(0.320 0.051 137.6)",
+    "sidebar": "oklch(0.883 0.051 204.0)",
+    "sidebar-foreground": "oklch(0.251 0.020 179.8)",
+    "sidebar-primary": "oklch(0.708 0.096 335.8)",
+    "sidebar-primary-foreground": "oklch(0.981 0.018 81.3)",
+    "sidebar-accent": "oklch(0.819 0.067 217.0)",
+    "sidebar-accent-foreground": "oklch(0.708 0.096 335.8)",
+    "sidebar-border": "oklch(0.782 0.041 186.5)",
+    "sidebar-ring": "oklch(0.678 0.118 216.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.251 0.020 179.8)",
+    "foreground": "oklch(0.981 0.018 81.3)",
+    "card": "oklch(0.296 0.039 143.2)",
+    "card-foreground": "oklch(0.981 0.018 81.3)",
+    "popover": "oklch(0.296 0.039 143.2)",
+    "popover-foreground": "oklch(0.981 0.018 81.3)",
+    "primary": "oklch(0.678 0.118 216.9)",
+    "primary-foreground": "oklch(0.251 0.020 179.8)",
+    "secondary": "oklch(0.408 0.047 121.0)",
+    "secondary-foreground": "oklch(0.981 0.018 81.3)",
+    "muted": "oklch(0.408 0.047 121.0)",
+    "muted-foreground": "oklch(0.857 0.039 76.1)",
+    "accent": "oklch(0.544 0.118 43.5)",
+    "accent-foreground": "oklch(0.251 0.020 179.8)",
+    "destructive": "oklch(0.708 0.096 335.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.678 0.118 216.9)",
+    "chart-1": "oklch(0.678 0.118 216.9)",
+    "chart-2": "oklch(0.708 0.096 335.8)",
+    "chart-3": "oklch(0.544 0.118 43.5)",
+    "chart-4": "oklch(0.608 0.108 128.5)",
+    "chart-5": "oklch(0.699 0.067 72.6)",
+    "sidebar": "oklch(0.282 0.032 149.8)",
+    "sidebar-foreground": "oklch(0.981 0.018 81.3)",
+    "sidebar-primary": "oklch(0.678 0.118 216.9)",
+    "sidebar-primary-foreground": "oklch(0.251 0.020 179.8)",
+    "sidebar-accent": "oklch(0.408 0.047 121.0)",
+    "sidebar-accent-foreground": "oklch(0.981 0.018 81.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.678 0.118 216.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp content dashboards with Noto Sans guidance for Japanese labels, high-contrast publishing states, and readable dense tables.",
+  "layout": "8px grid, compact rounded panels, feather-bar dividers, turquoise active rails, lilac content highlights, chestnut accents, and bright dashboard-first publishing workflows.",
+  "tags": [
+    "lilac-breasted-roller",
+    "roller",
+    "bird",
+    "savanna-woodland",
+    "lilac",
+    "turquoise",
+    "content-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-roller/motif.png",
+    "board": "/systems/morphous-roller/design-system-light.png",
+    "darkBoard": "/systems/morphous-roller/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-roller/theme.css",
+    "themeJson": "/systems/morphous-roller/theme.json",
+    "promptsJson": "/systems/morphous-roller/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent lilac-breasted roller motif",
+      "asset": "/systems/morphous-roller/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Lilac Breasted Roller transparent motif chroma-key source for a design-system catalog\nPrimary request: Create only an isolated lilac-breasted roller plumage motif on a perfectly flat solid #ff00ff chroma-key background for transparency removal.\nSubject: A refined lilac-breasted roller motif combining one elegant roller wing plume and breast feather fan with accurate lilac throat and breast, vivid turquoise-blue wing coverts, chestnut back accents, deep green savanna wing shadows, crisp dark feather tips, natural feather barbs, and a bright content-system feel. The subject should be an artful bird-plumage cutout, not a full bird portrait.\nComposition/framing: centered complete cutout with generous padding; show the full feather silhouette without cropping; no environment, no branch, no props, no text.\nLighting/mood: clean studio light preserving lilac, turquoise, chestnut, and green feather detail with crisp silhouette edges.\nChroma-key background: perfectly flat solid #ff00ff only. One uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #ff00ff anywhere in the subject; no cast shadow, no contact shadow, no savanna landscape, no other birds, no flowers, no watermark, no text, no random brand names."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-roller/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive light-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 light-mode product design-system board for \"Morphous Lilac Breasted Roller\" / \"Lilac Breasted Roller\" using the motif of lilac-breasted roller plumage from savanna woodland.\nVisual identity: bright content system, refined editorial product UI, lilac breast surfaces, electric turquoise wing accents, chestnut back details, savanna green navigation states, cream daylight surfaces, warm twig neutrals, precise readable content panels, crisp media-card and dashboard workflows.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, content cards, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, radio controls, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, slim feather-bar dividers, roller-wing turquoise active states, lilac content highlights, chestnut warning/accent states, savanna-green success states, daylight cards, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic content and product UI terms such as Overview, Content Index, Health, Status, Form, Table, Reach, Conversion, Active, Pending, Draft, Publish.\nPalette names visible: Daylight Cream #fff8ec, Roller Ink #172522, Lilac Breast #c78ab8, Turquoise Wing #13a9c7, Chestnut Back #a75632, Savanna Green #6f8f45, Sky Feather #8bd8e6, Twig Taupe #b89870, Nectar Focus #f1bf3f, Deep Canopy #26391f.\nCanvas and legibility: wide 16:9 high-resolution 4K-class board, large readable labels, no dense tiny token tables.\nConstraints: no bird photo background, no full bird portrait, no other animals, no generic purple/blue gradient kit, no neon palette, no stock brand logos, no random brand names, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-roller/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 16:9 comprehensive dark-mode design-system board for Morphous catalog\nPrimary request: Create one wide 16:9 dark-mode product design-system board for \"Morphous Lilac Breasted Roller\" / \"Lilac Breasted Roller\", translated from the same lilac-breasted roller plumage motif from savanna woodland.\nVisual identity: bright content system translated to dark mode, deep canopy and roller-ink backgrounds, luminous lilac breast active states, electric turquoise wing highlights, chestnut back accents, savanna green success/navigation states, warm cream foregrounds, precise readable content panels, crisp dashboard and publishing workflows.\nRequired board sections with readable labels: palette tokens, typography with English and Japanese guidance, component library, navigation/sidebar, dashboard analytics with charts, content cards, data table, forms and filters, status badges and alerts, command/search, tabs, switches, checkboxes, radio controls, spacing/radius/shadow tokens, texture and icon guidance.\nUI language: 8px grid, rounded rectangles radius 8px or less, slim feather-bar dividers, dark canopy panels, turquoise active rings, lilac content highlights, chestnut warning/accent states, savanna-green success states, readable dark cards, dashboard/table/form/status/navigation sections clearly visible.\nText constraints: use clean readable labels only, no random brand names, no watermark, no lorem ipsum, no misspellings; labels should be generic content and product UI terms such as Overview, Content Index, Health, Status, Form, Table, Reach, Conversion, Active, Pending, Draft, Publish.\nPalette names visible: Deep Canopy #26391f, Daylight Cream #fff8ec, Roller Ink #172522, Lilac Breast #c78ab8, Turquoise Wing #13a9c7, Chestnut Back #a75632, Savanna Green #6f8f45, Sky Feather #8bd8e6, Twig Taupe #b89870, Nectar Focus #f1bf3f.\nCanvas and legibility: wide 16:9 high-resolution 4K-class board, large readable labels, no dense tiny token tables.\nConstraints: no bird photo background, no full bird portrait, no other animals, no neon cyberpunk palette, no generic purple/blue gradient kit, no pure black flat background, no stock brand logos, no random brand names, no watermark."
+    }
+  ]
+}

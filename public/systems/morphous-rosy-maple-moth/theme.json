@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rosy-maple-moth",
+    "name": "Morphous Rosy Maple Moth",
+    "motifName": "Rosy Maple Moth",
+    "motifCategory": "insect",
+    "biome": "maple forest",
+    "motif": "rosy maple moth"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Fuzz",
+      "hex": "#FFF3E2",
+      "oklch": "oklch(0.970 0.028 80)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Blush",
+      "hex": "#FFE4EC",
+      "oklch": "oklch(0.940 0.045 8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rosy Pink",
+      "hex": "#F48B81",
+      "oklch": "oklch(0.747 0.129 26.3)"
+    },
+    {
+      "role": "Primary Deep",
+      "name": "Rosy Deep",
+      "hex": "#E56A96",
+      "oklch": "oklch(0.684 0.159 359.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Butter Yellow",
+      "hex": "#FFD766",
+      "oklch": "oklch(0.855 0.128 86)"
+    },
+    {
+      "role": "Signal",
+      "name": "Golden Fuzz",
+      "hex": "#F1C248",
+      "oklch": "oklch(0.785 0.135 82)"
+    },
+    {
+      "role": "Support",
+      "name": "Maple Sage",
+      "hex": "#A9BB8F",
+      "oklch": "oklch(0.767 0.064 125.9)"
+    },
+    {
+      "role": "Support Deep",
+      "name": "Leaf Green",
+      "hex": "#7FA368",
+      "oklch": "oklch(0.674 0.092 133.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Warm Gray",
+      "hex": "#D6D3C8",
+      "oklch": "oklch(0.855 0.013 79)"
+    },
+    {
+      "role": "Depth",
+      "name": "Moss",
+      "hex": "#5F7652",
+      "oklch": "oklch(0.537 0.061 134.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Charcoal",
+      "hex": "#2A2A28",
+      "oklch": "oklch(0.275 0.004 85)"
+    },
+    {
+      "role": "Night",
+      "name": "Bark Night",
+      "hex": "#15131A",
+      "oklch": "oklch(0.180 0.016 285)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.028 80)",
+    "foreground": "oklch(0.275 0.004 85)",
+    "card": "oklch(0.990 0.016 78)",
+    "card-foreground": "oklch(0.275 0.004 85)",
+    "popover": "oklch(0.995 0.010 78)",
+    "popover-foreground": "oklch(0.275 0.004 85)",
+    "primary": "oklch(0.755 0.145 9)",
+    "primary-foreground": "oklch(0.995 0.010 78)",
+    "secondary": "oklch(0.855 0.128 86)",
+    "secondary-foreground": "oklch(0.275 0.004 85)",
+    "muted": "oklch(0.940 0.045 8)",
+    "muted-foreground": "oklch(0.500 0.028 350)",
+    "accent": "oklch(0.735 0.045 112)",
+    "accent-foreground": "oklch(0.275 0.004 85)",
+    "destructive": "oklch(0.610 0.180 28)",
+    "border": "oklch(0.855 0.013 79)",
+    "input": "oklch(0.855 0.013 79)",
+    "ring": "oklch(0.755 0.145 9)",
+    "chart-1": "oklch(0.755 0.145 9)",
+    "chart-2": "oklch(0.855 0.128 86)",
+    "chart-3": "oklch(0.735 0.045 112)",
+    "chart-4": "oklch(0.645 0.180 8)",
+    "chart-5": "oklch(0.785 0.135 82)",
+    "sidebar": "oklch(0.990 0.016 78)",
+    "sidebar-foreground": "oklch(0.275 0.004 85)",
+    "sidebar-primary": "oklch(0.755 0.145 9)",
+    "sidebar-primary-foreground": "oklch(0.995 0.010 78)",
+    "sidebar-accent": "oklch(0.940 0.045 8)",
+    "sidebar-accent-foreground": "oklch(0.410 0.026 350)",
+    "sidebar-border": "oklch(0.855 0.013 79)",
+    "sidebar-ring": "oklch(0.755 0.145 9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.180 0.016 285)",
+    "foreground": "oklch(0.970 0.028 80)",
+    "card": "oklch(0.225 0.018 285)",
+    "card-foreground": "oklch(0.970 0.028 80)",
+    "popover": "oklch(0.205 0.018 285)",
+    "popover-foreground": "oklch(0.970 0.028 80)",
+    "primary": "oklch(0.735 0.155 9)",
+    "primary-foreground": "oklch(0.180 0.016 285)",
+    "secondary": "oklch(0.810 0.130 86)",
+    "secondary-foreground": "oklch(0.180 0.016 285)",
+    "muted": "oklch(0.310 0.022 350)",
+    "muted-foreground": "oklch(0.790 0.030 78)",
+    "accent": "oklch(0.650 0.052 116)",
+    "accent-foreground": "oklch(0.180 0.016 285)",
+    "destructive": "oklch(0.660 0.170 28)",
+    "border": "oklch(0.680 0.030 350 / 38%)",
+    "input": "oklch(0.680 0.030 350 / 48%)",
+    "ring": "oklch(0.735 0.155 9)",
+    "chart-1": "oklch(0.735 0.155 9)",
+    "chart-2": "oklch(0.810 0.130 86)",
+    "chart-3": "oklch(0.650 0.052 116)",
+    "chart-4": "oklch(0.685 0.150 8)",
+    "chart-5": "oklch(0.745 0.100 82)",
+    "sidebar": "oklch(0.205 0.018 285)",
+    "sidebar-foreground": "oklch(0.970 0.028 80)",
+    "sidebar-primary": "oklch(0.735 0.155 9)",
+    "sidebar-primary-foreground": "oklch(0.180 0.016 285)",
+    "sidebar-accent": "oklch(0.310 0.022 350)",
+    "sidebar-accent-foreground": "oklch(0.970 0.028 80)",
+    "sidebar-border": "oklch(0.680 0.030 350 / 38%)",
+    "sidebar-ring": "oklch(0.735 0.155 9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Rounded display type for playful brand moments, Inter or Geist for clear product UI, Geist Mono for tabular metrics and token examples, and Noto Sans JP guidance for Japanese navigation, form labels, status text, and dashboard data.",
+  "layout": "Airy brand-dashboard grids, compact navigation, soft fuzzy-wing texture panels, subtle maple-vein dividers, 8px radii, pink focus rings, butter-yellow secondary actions, cream surfaces, sage data accents, and dark bark-mode surfaces.",
+  "tags": [
+    "rosy-maple-moth",
+    "moth",
+    "insect",
+    "maple-forest",
+    "pink-wing",
+    "yellow-fuzz",
+    "fuzzy-wing",
+    "playful-brand",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rosy-maple-moth/motif.png",
+    "board": "/systems/morphous-rosy-maple-moth/design-system-light.png",
+    "darkBoard": "/systems/morphous-rosy-maple-moth/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rosy-maple-moth/theme.css",
+    "themeJson": "/systems/morphous-rosy-maple-moth/theme.json",
+    "promptsJson": "/systems/morphous-rosy-maple-moth/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rosy maple moth motif",
+      "asset": "/systems/morphous-rosy-maple-moth/motif.png",
+      "workflow": "Built-in image generation on a flat #00ff00 chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous Rosy Maple Moth transparent motif chroma-key source. Primary request: Create only an isolated rosy maple moth motif for a design-system catalog, no environment, no props, no text. Subject: A single rosy maple moth in three-quarter dorsal view with accurate moth anatomy, fuzzy rounded yellow body, rosy pink head and thorax accents, broad soft wings with vivid pink outer bands and buttery yellow central fields, tiny feathery antennae, delicate legs tucked naturally, plush scale texture, playful friendly silhouette, and clean studio lighting. Composition/framing: centered complete cutout with generous padding; show the full moth, wings, body, antennae, and legs without cropping. Chroma-key background: perfectly flat solid #00ff00 background for removal, with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Constraints: do not include maple leaves, forest, branch, sky, second insect, butterfly anatomy, toy look, jewelry look, text, watermark, cast shadow, contact shadow, or reflection. Do not use #00ff00 anywhere in the moth."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rosy-maple-moth/design-system-light.png",
+      "sourceAsset": "/systems/morphous-rosy-maple-moth/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Rosy Maple Moth light-mode design-system board. Input image role: The visible transparent rosy maple moth motif is the source reference for palette, texture, contrast, and visual language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Rosy Maple Moth\", derived from the visible transparent rosy maple moth cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Required visible sections: Morphous Rosy Maple Moth, Rosy Maple Moth, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Sample Usage. Reference use: Extract palette and interaction language from rosy pink wing bands, buttery yellow wing centers, fuzzy golden body, soft cream highlights, maple forest spring light, playful fuzzy wing texture, and delicate antenna geometry. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, compact sidebar navigation, top navigation, dashboard metric cards, line/bar/donut charts, empty/loading/error states, spacing, radius, border, shadow, texture samples, and sample brand/product panels. Typography guidance: include English guidance for playful brand systems and Japanese guidance labeled Japanese Typography / 日本語, with rounded display, clean sans UI, tabular mono, and Noto Sans JP support. Style: shadcn/tweakcn-compatible playful brand system, precise airy grid, 8px radius, fuzzy wing texture, maple-leaf geometry used subtly, candy-pink primary actions, butter-yellow highlights, cream readable surfaces, soft forest-sage support, and clear accessible contrast. Color constraints: use only motif-derived colors and near-neutrals; no unrelated saturated colors, no generic blue/purple gradient, no one-note palette. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Rosy Maple Moth\" or \"Rosy Maple Moth\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rosy-maple-moth/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-rosy-maple-moth/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-rosy-maple-moth/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous Rosy Maple Moth dark-mode design-system board. Input image roles: The visible transparent rosy maple moth motif is the source motif reference, and the visible light-mode board is the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Rosy Maple Moth\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible rosy maple moth cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Required visible sections: Morphous Rosy Maple Moth, Rosy Maple Moth, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Sample Usage. Visual details: dark background derived from dusk maple forest bark and deep charcoal wing shadows; foreground from cream moth fuzz and pale moonlit maple mist; primary actions from rosy pink wing bands; secondary states from butter-yellow wing centers; support colors from forest sage and moss; surfaces from deep berry charcoal and smoky bark; borders from muted rose-gray wing edges; subtle fuzzy wing texture and translucent maple-vein overlays. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search, sidebar and top navigation, dashboard/data charts, forms, tables, status states, tokens, texture, radius, spacing, shadows, and sample usage cards. Typography guidance: include English guidance for playful brand systems and Japanese guidance labeled Japanese Typography / 日本語, with rounded display, clean sans UI, tabular mono, and Noto Sans JP support. Color constraints: use only motif-derived colors and near-neutrals; no neon colors, no unrelated saturated colors, no generic blue/purple gradients, no pure-black-only flat background. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Rosy Maple Moth\" or \"Rosy Maple Moth\", no tiny unreadable paragraphs."
+    }
+  ]
+}

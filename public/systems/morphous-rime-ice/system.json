@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-rime-ice",
+  "name": "Morphous Rime Ice",
+  "status": "ready",
+  "motifName": "Rime Ice",
+  "motifCategory": "weather",
+  "biome": "Mountain Summit",
+  "motif": "rime ice feathers",
+  "description": "A crisp monitoring-system theme derived from wind-grown rime ice feathers on granite: white ice surfaces, sky-blue focus states, cold granite neutrals, and precise alpine sensor dashboards.",
+  "typography": "Geist for crisp operational UI with Noto Sans JP guidance for summit monitoring labels, numerals, headings, body text, and alerts.",
+  "layout": "Compact monitoring grids, fine frost borders, granite-stable panels, 8px component radius, and sharp chart/table surfaces tuned for fast sensor scanning.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "rime ice",
+    "weather",
+    "mountain summit",
+    "monitoring",
+    "granite",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Ice White", "hex": "#f8fbff" },
+    { "role": "Ink", "name": "Graphite 900", "hex": "#11161d" },
+    { "role": "Primary", "name": "Sky 600", "hex": "#2e78e6" },
+    { "role": "Secondary", "name": "Granite 400", "hex": "#8a94a3" },
+    { "role": "Accent", "name": "Frost Cyan", "hex": "#c8f6ff" },
+    { "role": "Signal", "name": "Wind Blue", "hex": "#64a7ff" },
+    { "role": "Surface", "name": "Frost Gray", "hex": "#f6f8fa" },
+    { "role": "Muted", "name": "Granite 200", "hex": "#d7dde5" },
+    { "role": "Depth", "name": "Blue Shadow", "hex": "#0f2a44" }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rime-ice/motif.png",
+    "board": "/systems/morphous-rime-ice/design-system-light.png",
+    "darkBoard": "/systems/morphous-rime-ice/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rime-ice/theme.css",
+    "themeJson": "/systems/morphous-rime-ice/theme.json",
+    "promptsJson": "/systems/morphous-rime-ice/prompts.json"
+  }
+}

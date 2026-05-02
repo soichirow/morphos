@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-red-panda",
+    "name": "Morphous Red Panda",
+    "motifName": "Red Panda",
+    "motifCategory": "mammal",
+    "biome": "Temperate bamboo",
+    "motif": "red panda face"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Muzzle White",
+      "hex": "#fff8ee",
+      "oklch": "oklch(0.982 0.015 77.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Marking Black",
+      "hex": "#241a16",
+      "oklch": "oklch(0.229 0.018 42.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Rust Fur",
+      "hex": "#b54a1b",
+      "oklch": "oklch(0.544 0.150 41.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bamboo Green",
+      "hex": "#5e7f45",
+      "oklch": "oklch(0.557 0.092 132.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Eye",
+      "hex": "#b8792a",
+      "oklch": "oklch(0.628 0.120 67.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Mask Cream",
+      "hex": "#f6e8d2",
+      "oklch": "oklch(0.936 0.033 79.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Mask",
+      "hex": "#efe0c9",
+      "oklch": "oklch(0.913 0.035 78.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Mist",
+      "hex": "#c8d4b6",
+      "oklch": "oklch(0.853 0.043 125.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cedar Shadow",
+      "hex": "#4b2a1d",
+      "oklch": "oklch(0.324 0.054 42.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.015 77.1)",
+    "foreground": "oklch(0.229 0.018 42.9)",
+    "card": "oklch(0.913 0.035 78.7)",
+    "card-foreground": "oklch(0.229 0.018 42.9)",
+    "popover": "oklch(0.913 0.035 78.7)",
+    "popover-foreground": "oklch(0.229 0.018 42.9)",
+    "primary": "oklch(0.544 0.150 41.3)",
+    "primary-foreground": "oklch(0.982 0.015 77.1)",
+    "secondary": "oklch(0.942 0.026 76.8)",
+    "secondary-foreground": "oklch(0.324 0.054 42.1)",
+    "muted": "oklch(0.932 0.030 80.7)",
+    "muted-foreground": "oklch(0.324 0.054 42.1)",
+    "accent": "oklch(0.628 0.120 67.8)",
+    "accent-foreground": "oklch(0.229 0.018 42.9)",
+    "destructive": "oklch(0.544 0.150 41.3)",
+    "border": "oklch(0.892 0.035 98.1)",
+    "input": "oklch(0.892 0.035 98.1)",
+    "ring": "oklch(0.557 0.092 132.9)",
+    "chart-1": "oklch(0.544 0.150 41.3)",
+    "chart-2": "oklch(0.557 0.092 132.9)",
+    "chart-3": "oklch(0.628 0.120 67.8)",
+    "chart-4": "oklch(0.936 0.033 79.3)",
+    "chart-5": "oklch(0.324 0.054 42.1)",
+    "sidebar": "oklch(0.936 0.027 78.2)",
+    "sidebar-foreground": "oklch(0.229 0.018 42.9)",
+    "sidebar-primary": "oklch(0.544 0.150 41.3)",
+    "sidebar-primary-foreground": "oklch(0.982 0.015 77.1)",
+    "sidebar-accent": "oklch(0.866 0.046 67.2)",
+    "sidebar-accent-foreground": "oklch(0.544 0.150 41.3)",
+    "sidebar-border": "oklch(0.892 0.035 98.1)",
+    "sidebar-ring": "oklch(0.557 0.092 132.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.229 0.018 42.9)",
+    "foreground": "oklch(0.982 0.015 77.1)",
+    "card": "oklch(0.293 0.042 42.5)",
+    "card-foreground": "oklch(0.982 0.015 77.1)",
+    "popover": "oklch(0.293 0.042 42.5)",
+    "popover-foreground": "oklch(0.982 0.015 77.1)",
+    "primary": "oklch(0.557 0.092 132.9)",
+    "primary-foreground": "oklch(0.229 0.018 42.9)",
+    "secondary": "oklch(0.448 0.041 55.1)",
+    "secondary-foreground": "oklch(0.982 0.015 77.1)",
+    "muted": "oklch(0.448 0.041 55.1)",
+    "muted-foreground": "oklch(0.924 0.025 111.8)",
+    "accent": "oklch(0.628 0.120 67.8)",
+    "accent-foreground": "oklch(0.229 0.018 42.9)",
+    "destructive": "oklch(0.544 0.150 41.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.557 0.092 132.9)",
+    "chart-1": "oklch(0.557 0.092 132.9)",
+    "chart-2": "oklch(0.544 0.150 41.3)",
+    "chart-3": "oklch(0.628 0.120 67.8)",
+    "chart-4": "oklch(0.936 0.033 79.3)",
+    "chart-5": "oklch(0.853 0.043 125.1)",
+    "sidebar": "oklch(0.272 0.036 41.6)",
+    "sidebar-foreground": "oklch(0.982 0.015 77.1)",
+    "sidebar-primary": "oklch(0.557 0.092 132.9)",
+    "sidebar-primary-foreground": "oklch(0.229 0.018 42.9)",
+    "sidebar-accent": "oklch(0.448 0.041 55.1)",
+    "sidebar-accent-foreground": "oklch(0.982 0.015 77.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.557 0.092 132.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm product UI with Noto Sans JP guidance for Japanese labels, balanced editorial headings, and legible data density.",
+  "layout": "Readable 8px grid, compact bamboo-panel navigation, soft fur-grain texture, 8px radii, warm shadow tokens, and dashboard patterns for knowledge workflows.",
+  "tags": [
+    "red-panda",
+    "mammal",
+    "temperate-bamboo",
+    "friendly",
+    "knowledge-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-red-panda/motif.png",
+    "board": "/systems/morphous-red-panda/design-system-light.png",
+    "darkBoard": "/systems/morphous-red-panda/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-red-panda/theme.css",
+    "themeJson": "/systems/morphous-red-panda/theme.json",
+    "promptsJson": "/systems/morphous-red-panda/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Red Panda motif",
+      "asset": "/systems/morphous-red-panda/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Red Panda transparent motif chroma-key source for a Morphous design-system catalog\nPrimary request: Create only an isolated red panda face motif, no environment, no props, no text.\nSubject: A friendly red panda face looking forward, rust-red facial fur, warm cinnamon cheeks, clear white mask markings, black tear lines and nose, dark rounded ears with pale inner fur, soft but crisp natural fur texture, intelligent calm expression suitable for a friendly knowledge system.\nComposition/framing: centered complete face cutout with generous padding; symmetrical readable silhouette; no body, paws, bamboo stalks, background scene, or cropping.\nLighting/mood: clean studio light that preserves rust red, white, black, and subtle bamboo-green reflected tones while keeping a crisp edge for cutout.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no fox, no raccoon, no cat, no dog, no full body, no forest, no props, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-red-panda/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 Morphous catalog light-mode design-system board\nInput image: use the visible red panda face motif as the primary source reference for palette, texture, markings, and friendly knowledge-system mood.\nPrimary request: Create one high-resolution wide 16:9 comprehensive light-mode design-system board for \"Morphous Red Panda\" / \"Red Panda\". The board should look like a polished source reference for a shadcn/tweakcn-compatible product theme, derived from a red panda face in a temperate bamboo biome.\nCanvas/layout: exact 16:9 design board composition, target 3840x2160, dense but readable, organized into clear full-board sections with large labels and no tiny unreadable token tables.\nVisual language: rust-red primary actions from red panda fur, warm cream and white mask surfaces, charcoal-black facial markings for structure, bamboo green accents, amber eye highlights, soft fur-grain texture, rounded-but-not-pill components, friendly knowledge system tone.\nRequired content: palette swatches with names and hex values; typography including English guidance and Japanese guidance; UI components including buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation/sidebar/topbar; dashboard and data charts; forms and validation states; empty/error/loading states; texture sample; spacing, radius, border, shadow tokens; sample usage screen.\nText quality: use short legible labels, include the exact title \"Morphous Red Panda\", include Japanese typography guidance as readable Japanese text, avoid garbled microcopy.\nPalette direction: Rust Fur #B54A1B, Panda Ember #D66A2E, Mask Cream #F6E8D2, Muzzle White #FFF8EE, Marking Black #241A16, Bamboo Green #5E7F45, Moss Mist #C8D4B6, Amber Eye #B8792A, Cedar Shadow #4B2A1D.\nConstraints: no unrelated animals, no fox theme, no raccoon theme, no generic purple/blue gradients, no neon colors, no stock website hero layout, no random brand logos, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-red-panda/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840x2160 Morphous catalog dark-mode design-system board\nInput image: use the visible red panda face motif and the just-generated light board direction as source references for palette, texture, markings, and layout language.\nPrimary request: Create one high-resolution wide 16:9 comprehensive dark-mode design-system board for \"Morphous Red Panda\" / \"Red Panda\". This must be a separate dark-mode board, not an inverted screenshot, for a shadcn/tweakcn-compatible product theme derived from a red panda face in a temperate bamboo biome.\nCanvas/layout: exact 16:9 design board composition, target 3840x2160, dense but readable, organized into clear full-board sections with large labels and no tiny unreadable token tables.\nVisual language: deep charcoal and cedar-black surfaces from red panda facial markings, rust-red primary actions from fur, warm cream foreground and mask highlights, bamboo green accents, amber eye data highlights, subtle fur-grain and bamboo-fiber texture, rounded-but-not-pill components, friendly knowledge system tone.\nRequired content: palette swatches with names and hex values; typography including English guidance and Japanese guidance; UI components including buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation/sidebar/topbar; dashboard and data charts; forms and validation states; empty/error/loading states; texture sample; spacing, radius, border, shadow tokens; sample usage screen.\nText quality: use short legible labels, include the exact title \"Morphous Red Panda\", include Japanese typography guidance as readable Japanese text, avoid garbled microcopy.\nPalette direction: Night Cedar #181210, Marking Black #241A16, Deep Bark #332019, Rust Fur #B54A1B, Panda Ember #D66A2E, Mask Cream #F6E8D2, Bamboo Green #7FA35D, Moss Mist #C8D4B6, Amber Eye #D1943C.\nConstraints: no unrelated animals, no fox theme, no raccoon theme, no generic purple/blue gradients, no neon cyberpunk, no stock website hero layout, no random brand logos, no watermark."
+    }
+  ]
+}

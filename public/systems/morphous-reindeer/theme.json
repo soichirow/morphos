@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-reindeer",
+    "name": "Morphous Reindeer",
+    "motifName": "Reindeer Antler",
+    "motifCategory": "mammal",
+    "biome": "arctic tundra",
+    "motif": "reindeer antler"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snowfield",
+      "hex": "#faf8f4",
+      "oklch": "oklch(0.980 0.006 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Hoof Ink",
+      "hex": "#282420",
+      "oklch": "oklch(0.263 0.009 67.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cream Antler",
+      "hex": "#f2ead8",
+      "oklch": "oklch(0.939 0.025 86.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Taupe Fur",
+      "hex": "#c8b6a4",
+      "oklch": "oklch(0.787 0.032 67.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Sage",
+      "hex": "#7a8f7a",
+      "oklch": "oklch(0.627 0.039 145.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Frost Blue",
+      "hex": "#b7cde3",
+      "oklch": "oklch(0.839 0.039 248.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Antler Pith",
+      "hex": "#ede2cd",
+      "oklch": "oklch(0.916 0.030 83.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Umber Shadow",
+      "hex": "#8c6f5a",
+      "oklch": "oklch(0.564 0.048 57.5)"
+    },
+    {
+      "role": "Night",
+      "name": "Polar Night",
+      "hex": "#111821",
+      "oklch": "oklch(0.206 0.021 254.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.006 84.6)",
+    "foreground": "oklch(0.263 0.009 67.4)",
+    "card": "oklch(0.916 0.030 83.6)",
+    "card-foreground": "oklch(0.263 0.009 67.4)",
+    "popover": "oklch(0.916 0.030 83.6)",
+    "popover-foreground": "oklch(0.263 0.009 67.4)",
+    "primary": "oklch(0.939 0.025 86.9)",
+    "primary-foreground": "oklch(0.980 0.006 84.6)",
+    "secondary": "oklch(0.942 0.020 84.6)",
+    "secondary-foreground": "oklch(0.564 0.048 57.5)",
+    "muted": "oklch(0.934 0.023 82.1)",
+    "muted-foreground": "oklch(0.564 0.048 57.5)",
+    "accent": "oklch(0.627 0.039 145.1)",
+    "accent-foreground": "oklch(0.263 0.009 67.4)",
+    "destructive": "oklch(0.939 0.025 86.9)",
+    "border": "oklch(0.870 0.031 76.9)",
+    "input": "oklch(0.870 0.031 76.9)",
+    "ring": "oklch(0.787 0.032 67.3)",
+    "chart-1": "oklch(0.939 0.025 86.9)",
+    "chart-2": "oklch(0.787 0.032 67.3)",
+    "chart-3": "oklch(0.627 0.039 145.1)",
+    "chart-4": "oklch(0.839 0.039 248.3)",
+    "chart-5": "oklch(0.564 0.048 57.5)",
+    "sidebar": "oklch(0.936 0.022 83.3)",
+    "sidebar-foreground": "oklch(0.263 0.009 67.4)",
+    "sidebar-primary": "oklch(0.939 0.025 86.9)",
+    "sidebar-primary-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-accent": "oklch(0.919 0.030 83.6)",
+    "sidebar-accent-foreground": "oklch(0.939 0.025 86.9)",
+    "sidebar-border": "oklch(0.870 0.031 76.9)",
+    "sidebar-ring": "oklch(0.787 0.032 67.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.263 0.009 67.4)",
+    "foreground": "oklch(0.980 0.006 84.6)",
+    "card": "oklch(0.469 0.036 60.4)",
+    "card-foreground": "oklch(0.980 0.006 84.6)",
+    "popover": "oklch(0.469 0.036 60.4)",
+    "popover-foreground": "oklch(0.980 0.006 84.6)",
+    "primary": "oklch(0.787 0.032 67.3)",
+    "primary-foreground": "oklch(0.263 0.009 67.4)",
+    "secondary": "oklch(0.615 0.044 60.8)",
+    "secondary-foreground": "oklch(0.980 0.006 84.6)",
+    "muted": "oklch(0.615 0.044 60.8)",
+    "muted-foreground": "oklch(0.894 0.017 67.6)",
+    "accent": "oklch(0.627 0.039 145.1)",
+    "accent-foreground": "oklch(0.263 0.009 67.4)",
+    "destructive": "oklch(0.939 0.025 86.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.787 0.032 67.3)",
+    "chart-1": "oklch(0.787 0.032 67.3)",
+    "chart-2": "oklch(0.939 0.025 86.9)",
+    "chart-3": "oklch(0.627 0.039 145.1)",
+    "chart-4": "oklch(0.839 0.039 248.3)",
+    "chart-5": "oklch(0.787 0.032 67.3)",
+    "sidebar": "oklch(0.410 0.028 60.6)",
+    "sidebar-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-primary": "oklch(0.787 0.032 67.3)",
+    "sidebar-primary-foreground": "oklch(0.263 0.009 67.4)",
+    "sidebar-accent": "oklch(0.615 0.044 60.8)",
+    "sidebar-accent-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.787 0.032 67.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English logistics UI with Noto Sans JP guidance for Japanese route status, manifest labels, and numeric dashboards.",
+  "layout": "Seasonal logistics density with 8px component radius, antler-branch navigation rhythm, snowfield spacing, fur-grain texture, and clear route/status hierarchy.",
+  "tags": [
+    "reindeer",
+    "mammal",
+    "arctic-tundra",
+    "taupe-fur",
+    "cream-antler",
+    "seasonal-logistics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-reindeer/motif.png",
+    "board": "/systems/morphous-reindeer/design-system-light.png",
+    "darkBoard": "/systems/morphous-reindeer/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-reindeer/theme.css",
+    "themeJson": "/systems/morphous-reindeer/theme.json",
+    "promptsJson": "/systems/morphous-reindeer/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent reindeer motif",
+      "asset": "/systems/morphous-reindeer/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Reindeer transparent motif chroma-key source\nPrimary request: Create only an isolated arctic tundra reindeer motif for a design-system catalog, a single complete subject on a removable chroma-key background.\nSubject: A realistic reindeer in calm side-profile stance with broad branching cream antlers, taupe and gray-brown winter fur, pale cream chest and muzzle, dark hooves, compact arctic body, short tail, accurate reindeer anatomy, subtle snow-reflected cool highlights. The antlers should be elegant and recognizable as the motif signature.\nComposition/framing: centered complete cutout with generous padding; include full body, head, legs, hooves, and antlers without cropping. Clean studio lighting, crisp subject edges, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no second animal, no sleigh, no harness, no landscape, no trees, no props, no text, no watermark, no logo, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-reindeer/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Reindeer light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Reindeer\", derived from the provided isolated reindeer motif: arctic tundra mammal, broad cream antlers, taupe fur, cream winter chest, snow neutrals, seasonal logistics system.\nReference image: Use the visible reindeer cutout as the primary motif reference. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the reindeer antlers, taupe fur, cream highlights, dark hooves, and arctic snow context.\nCanvas: wide 16:9 high-resolution design-system board, 4K-class source, clean professional UI design-system presentation.\nRequired visible sections: Morphous Reindeer, Reindeer, Light Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nDesign domain: seasonal logistics system for arctic fleet routing, inventory windows, delivery manifests, shift planning, weather holds, and route status.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, logistics table rows, search command palette, route navigation, dashboard metric cards, timeline, small charts, queue table, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple antler and route icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, snowfield background, taupe-fur cards, cream-antler primary controls, lichen muted greens as operational accents, dark-hoof ink text, frost-blue focus rings, subtle fur-grain and antler-ridge texture. Efficient dashboard density, not a landing page.\nColor palette: use motif-derived colors only plus near-neutrals: snow white, taupe fur, cream antler, umber shadow, hoof charcoal, lichen sage, frost blue.\nText: use short readable UI labels; avoid long paragraphs and tiny token tables.\nConstraints: no holiday decoration, no Santa, no sleigh, no red-and-green Christmas palette, no generic purple/blue gradients, no unrelated saturated colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Reindeer\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-reindeer/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Reindeer dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Reindeer\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and remain derived from the same reindeer motif: cream branching antlers, taupe winter fur, cream chest, dark hooves, snow and arctic tundra logistics.\nReference image: Use the visible reindeer cutout and light-mode Morphous Reindeer board as continuity references. Preserve motif-derived palette roles, component language, dashboard density, texture, spacing, typography, and seasonal logistics domain.\nCanvas: wide 16:9 high-resolution design-system board, 4K-class source, clean professional UI design-system presentation.\nRequired visible sections: Morphous Reindeer, Reindeer, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nDesign domain: seasonal logistics system for arctic fleet routing, inventory windows, delivery manifests, shift planning, weather holds, and route status.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, logistics table rows, search command palette, route navigation, dashboard metric cards, timeline, small charts, queue table, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple antler and route icons.\nVisual details: polar-night charcoal and umber backgrounds, snow-cream foreground text, cream-antler primary controls, taupe-fur cards, lichen-sage success, frost-blue focus and chart accents, dark-hoof borders, subtle fur-grain overlays and antler-ridge texture, 8px shadcn/tweakcn grid, restrained contrast.\nText: use short readable UI labels; avoid long paragraphs and tiny token tables.\nConstraints: no holiday decoration, no Santa, no sleigh, no red-and-green Christmas palette, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Reindeer\"."
+    }
+  ]
+}
