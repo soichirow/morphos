@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-temperate-rainforest",
+    "name": "Morphous Temperate Rainforest",
+    "motifName": "Temperate Rainforest",
+    "motifCategory": "landscape",
+    "biome": "Pacific Coast",
+    "motif": "temperate rainforest"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Coastal Fog",
+      "hex": "#f4f7f1",
+      "oklch": "oklch(0.972 0.009 128.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Ink",
+      "hex": "#123228",
+      "oklch": "oklch(0.290 0.042 170.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Moss Primary",
+      "hex": "#4f7f3f",
+      "oklch": "oklch(0.546 0.107 138.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cedar Bark",
+      "hex": "#76513e",
+      "oklch": "oklch(0.470 0.058 48.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fern Tip",
+      "hex": "#8fb86a",
+      "oklch": "oklch(0.734 0.114 131.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lichen Gold",
+      "hex": "#c4b96f",
+      "oklch": "oklch(0.778 0.096 100.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fog Surface",
+      "hex": "#e5eadf",
+      "oklch": "oklch(0.930 0.016 126.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Loam Muted",
+      "hex": "#8b8171",
+      "oklch": "oklch(0.608 0.026 79.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Rainforest Depth",
+      "hex": "#081b16",
+      "oklch": "oklch(0.204 0.027 174.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.009 128.6)",
+    "foreground": "oklch(0.290 0.042 170.2)",
+    "card": "oklch(0.930 0.016 126.8)",
+    "card-foreground": "oklch(0.290 0.042 170.2)",
+    "popover": "oklch(0.930 0.016 126.8)",
+    "popover-foreground": "oklch(0.290 0.042 170.2)",
+    "primary": "oklch(0.546 0.107 138.3)",
+    "primary-foreground": "oklch(0.972 0.009 128.6)",
+    "secondary": "oklch(0.947 0.011 128.6)",
+    "secondary-foreground": "oklch(0.204 0.027 174.2)",
+    "muted": "oklch(0.943 0.014 128.6)",
+    "muted-foreground": "oklch(0.204 0.027 174.2)",
+    "accent": "oklch(0.734 0.114 131.3)",
+    "accent-foreground": "oklch(0.290 0.042 170.2)",
+    "destructive": "oklch(0.546 0.107 138.3)",
+    "border": "oklch(0.817 0.018 103.2)",
+    "input": "oklch(0.817 0.018 103.2)",
+    "ring": "oklch(0.470 0.058 48.0)",
+    "chart-1": "oklch(0.546 0.107 138.3)",
+    "chart-2": "oklch(0.470 0.058 48.0)",
+    "chart-3": "oklch(0.734 0.114 131.3)",
+    "chart-4": "oklch(0.778 0.096 100.9)",
+    "chart-5": "oklch(0.204 0.027 174.2)",
+    "sidebar": "oklch(0.944 0.013 126.4)",
+    "sidebar-foreground": "oklch(0.290 0.042 170.2)",
+    "sidebar-primary": "oklch(0.546 0.107 138.3)",
+    "sidebar-primary-foreground": "oklch(0.972 0.009 128.6)",
+    "sidebar-accent": "oklch(0.885 0.025 132.1)",
+    "sidebar-accent-foreground": "oklch(0.546 0.107 138.3)",
+    "sidebar-border": "oklch(0.817 0.018 103.2)",
+    "sidebar-ring": "oklch(0.470 0.058 48.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.290 0.042 170.2)",
+    "foreground": "oklch(0.972 0.009 128.6)",
+    "card": "oklch(0.234 0.033 171.7)",
+    "card-foreground": "oklch(0.972 0.009 128.6)",
+    "popover": "oklch(0.234 0.033 171.7)",
+    "popover-foreground": "oklch(0.972 0.009 128.6)",
+    "primary": "oklch(0.470 0.058 48.0)",
+    "primary-foreground": "oklch(0.290 0.042 170.2)",
+    "secondary": "oklch(0.300 0.021 159.3)",
+    "secondary-foreground": "oklch(0.972 0.009 128.6)",
+    "muted": "oklch(0.300 0.021 159.3)",
+    "muted-foreground": "oklch(0.813 0.016 94.2)",
+    "accent": "oklch(0.734 0.114 131.3)",
+    "accent-foreground": "oklch(0.290 0.042 170.2)",
+    "destructive": "oklch(0.546 0.107 138.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.470 0.058 48.0)",
+    "chart-1": "oklch(0.470 0.058 48.0)",
+    "chart-2": "oklch(0.546 0.107 138.3)",
+    "chart-3": "oklch(0.734 0.114 131.3)",
+    "chart-4": "oklch(0.778 0.096 100.9)",
+    "chart-5": "oklch(0.608 0.026 79.6)",
+    "sidebar": "oklch(0.250 0.035 173.3)",
+    "sidebar-foreground": "oklch(0.972 0.009 128.6)",
+    "sidebar-primary": "oklch(0.470 0.058 48.0)",
+    "sidebar-primary-foreground": "oklch(0.290 0.042 170.2)",
+    "sidebar-accent": "oklch(0.300 0.021 159.3)",
+    "sidebar-accent-foreground": "oklch(0.972 0.009 128.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.470 0.058 48.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for structured documentation UI with Noto Sans JP guidance for headings, body, labels, code, and numerals.",
+  "layout": "Dense but readable documentation grids, mossy section dividers, cedar-bark borders, fog-white reading panes, layered sidebar navigation, and 8px component rhythm.",
+  "tags": [
+    "temperate-rainforest",
+    "landscape",
+    "pacific-coast",
+    "deep-green",
+    "moss",
+    "cedar-bark",
+    "documentation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-temperate-rainforest/motif.png",
+    "board": "/systems/morphous-temperate-rainforest/design-system-light.png",
+    "darkBoard": "/systems/morphous-temperate-rainforest/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-temperate-rainforest/theme.css",
+    "themeJson": "/systems/morphous-temperate-rainforest/theme.json",
+    "promptsJson": "/systems/morphous-temperate-rainforest/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent temperate rainforest motif source",
+      "asset": "/systems/morphous-temperate-rainforest/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source, to be background-removed later\nPrimary request: Create only a Pacific Coast temperate rainforest motif for a Morphous catalog bundle named \"Morphous Temperate Rainforest\". Show a compact isolated landscape cutout: deep green conifer canopy, mossy nurse logs, cedar bark columns, fern understory, damp forest floor, and soft coastal mist tucked between trunks. No text.\nSubject: Temperate rainforest micro-landscape with western red cedar bark texture, moss cushions, sword ferns, lichen flecks, and layered evergreen silhouettes; rich documentation-system feel, authoritative and organic.\nPalette: deep green, moss, cedar bark, cool fog highlights, muted loam shadow.\nComposition/framing: centered complete motif with generous padding, full subject visible, crisp silhouette edges, no crop of tree trunks or fern edges.\nLighting/mood: filtered overcast Pacific Coast light, damp natural texture, quiet rich documentation system mood.\nTransparent workflow source: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no people, no animals, no cabins, no trails, no signage, no text, no watermark, no decorative background, no cast shadow or contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-temperate-rainforest/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board, final board should be 3840x2160 16:9\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Temperate Rainforest\" derived from a Pacific Coast temperate rainforest motif.\nMotif reference: deep green conifer canopy, moss cushions, cedar bark columns, sword ferns, nurse logs, lichen flecks, cool coastal mist, damp loam shadow.\nSystem feel: rich documentation system: editorial but practical, dense enough for implementation, calm, authoritative, deeply readable.\nCanvas: exact wide 16:9 composition intended for 3840x2160 output. Use large readable labels and spacious sections; avoid tiny token tables.\nRequired visible sections: Morphous Temperate Rainforest, Palette, Typography, Japanese Typography, Components, Navigation, Documentation Layout, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance for headings, body, labels, code, and numerals.\nUI coverage: buttons with icons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, documentation page layout, metric cards, charts, empty/loading/error states, spacing scale, radius, border, shadow, texture samples.\nPalette roles: canopy ink, moss primary, cedar bark secondary, fog surface, fern accent, loam muted, lichen signal, rainwater focus. Keep colors faithful to deep green, moss, cedar bark.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, rich documentation surfaces, mossy dividers, cedar-bark borders, fog-white backgrounds, subtle botanical texture.\nConstraints: no unrelated saturated colors, no generic purple or blue gradients, no beige-dominant palette, no watermark, no random brand names, no misspelling of \"Morphous Temperate Rainforest\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-temperate-rainforest/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board, final board should be 3840x2160 16:9\nPrimary request: Generate a dark-mode version of the Morphous Temperate Rainforest design-system board. It must feel like the same system translated to dark mode, not a new theme.\nMotif reference: Pacific Coast temperate rainforest with deep green conifer canopy, moss cushions, cedar bark columns, sword ferns, nurse logs, lichen flecks, cool coastal mist, damp loam shadow.\nSystem feel: rich documentation system: editorial but practical, dense enough for implementation, calm, authoritative, deeply readable.\nCanvas: exact wide 16:9 composition intended for 3840x2160 output. Use large readable labels and spacious sections; avoid tiny token tables.\nRequired visible sections: Morphous Temperate Rainforest, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Documentation Layout, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance for headings, body, labels, code, and numerals.\nUI coverage: buttons with icons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, documentation page layout, metric cards, charts, empty/loading/error states, spacing scale, radius, border, shadow, texture samples.\nPalette roles: deep canopy ink background, mist text, moss primary accents, cedar bark secondary cards, fern accent, loam muted, lichen signal, rainwater focus. Keep colors faithful to deep green, moss, cedar bark.\nVisual details: layered dark green documentation surfaces, cedar-bark borders, moss focus rings, cool fog separators, damp forest texture, restrained contrast, crisp controls.\nConstraints: no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only background, no watermark, no random brand names, no misspelling of \"Morphous Temperate Rainforest\", no illegible microtext."
+    }
+  ]
+}

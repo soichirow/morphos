@@ -1,0 +1,185 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 299,
+  "slug": "morphous-stick-insect",
+  "name": "Morphous Stick Insect",
+  "motifName": "Stick Insect",
+  "motifCategory": "insect",
+  "biome": "Woodland Branch",
+  "motif": "bark brown moss green twig grey",
+  "description": "A shadcn/tweakcn-compatible interface system derived from a woodland stick insect: bark-brown actions, moss-green focus states, lichen chartreuse signals, twig-grey borders, branch-taupe surfaces, and compact minimal tooling patterns.",
+  "typography": "Geist for precise operational UI with Noto Sans JP guidance for Japanese labels, compact data tables, steady numeric rhythm, and quiet multilingual controls.",
+  "layout": "Minimal tooling system with 8px radii, branch-line dividers, bark-grain texture samples, lichen focus rings, compact navigation, dashboard/data density, and twig-grey control edges.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "stick-insect",
+    "insect",
+    "woodland-branch",
+    "bark-brown",
+    "moss-green",
+    "twig-grey",
+    "lichen-chartreuse",
+    "minimal-tooling",
+    "dark-ready"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Bark Paper",
+      "hex": "#F7F4EE",
+      "oklch": "oklch(0.968 0.009 84.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Soft Woodland Ivory",
+      "hex": "#FAF8F4",
+      "oklch": "oklch(0.980 0.006 84.6)"
+    },
+    {
+      "role": "Tint",
+      "name": "Cambium Tan",
+      "hex": "#E9D8B3",
+      "oklch": "oklch(0.887 0.052 86.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Branch Taupe",
+      "hex": "#B6AA94",
+      "oklch": "oklch(0.742 0.034 82.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Twig Grey",
+      "hex": "#A39E96",
+      "oklch": "oklch(0.701 0.013 79.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bark Brown",
+      "hex": "#6B4F3A",
+      "oklch": "oklch(0.452 0.050 58.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Bark Ink",
+      "hex": "#2B241D",
+      "oklch": "oklch(0.266 0.016 67.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#6D8B4C",
+      "oklch": "oklch(0.598 0.095 129.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Chartreuse",
+      "hex": "#A8BD46",
+      "oklch": "oklch(0.759 0.145 118.5)"
+    },
+    {
+      "role": "Quiet",
+      "name": "Dry Shadow",
+      "hex": "#E8E4DD",
+      "oklch": "oklch(0.920 0.010 81.8)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.968 0.009 84.6)",
+    "foreground": "oklch(0.266 0.016 67.0)",
+    "card": "oklch(0.980 0.006 84.6)",
+    "card-foreground": "oklch(0.266 0.016 67.0)",
+    "popover": "oklch(0.980 0.006 84.6)",
+    "popover-foreground": "oklch(0.266 0.016 67.0)",
+    "primary": "oklch(0.452 0.050 58.0)",
+    "primary-foreground": "oklch(0.980 0.006 84.6)",
+    "secondary": "oklch(0.887 0.052 86.2)",
+    "secondary-foreground": "oklch(0.266 0.016 67.0)",
+    "muted": "oklch(0.920 0.010 81.8)",
+    "muted-foreground": "oklch(0.452 0.050 58.0)",
+    "accent": "oklch(0.759 0.145 118.5)",
+    "accent-foreground": "oklch(0.266 0.016 67.0)",
+    "destructive": "oklch(0.554 0.105 50.3)",
+    "border": "oklch(0.742 0.034 82.7)",
+    "input": "oklch(0.742 0.034 82.7)",
+    "ring": "oklch(0.598 0.095 129.7)",
+    "chart-1": "oklch(0.452 0.050 58.0)",
+    "chart-2": "oklch(0.598 0.095 129.7)",
+    "chart-3": "oklch(0.759 0.145 118.5)",
+    "chart-4": "oklch(0.887 0.052 86.2)",
+    "chart-5": "oklch(0.701 0.013 79.8)",
+    "sidebar": "oklch(0.920 0.010 81.8)",
+    "sidebar-foreground": "oklch(0.266 0.016 67.0)",
+    "sidebar-primary": "oklch(0.452 0.050 58.0)",
+    "sidebar-primary-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-accent": "oklch(0.887 0.052 86.2)",
+    "sidebar-accent-foreground": "oklch(0.266 0.016 67.0)",
+    "sidebar-border": "oklch(0.742 0.034 82.7)",
+    "sidebar-ring": "oklch(0.598 0.095 129.7)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.205 0.011 60.8)",
+    "foreground": "oklch(0.980 0.006 84.6)",
+    "card": "oklch(0.268 0.013 72.3)",
+    "card-foreground": "oklch(0.980 0.006 84.6)",
+    "popover": "oklch(0.268 0.013 72.3)",
+    "popover-foreground": "oklch(0.980 0.006 84.6)",
+    "primary": "oklch(0.735 0.085 77.9)",
+    "primary-foreground": "oklch(0.205 0.011 60.8)",
+    "secondary": "oklch(0.323 0.018 67.1)",
+    "secondary-foreground": "oklch(0.980 0.006 84.6)",
+    "muted": "oklch(0.323 0.018 67.1)",
+    "muted-foreground": "oklch(0.742 0.034 82.7)",
+    "accent": "oklch(0.613 0.107 119.1)",
+    "accent-foreground": "oklch(0.980 0.006 84.6)",
+    "destructive": "oklch(0.554 0.105 50.3)",
+    "border": "oklch(0.980 0.006 84.6 / 14%)",
+    "input": "oklch(0.980 0.006 84.6 / 18%)",
+    "ring": "oklch(0.759 0.145 118.5)",
+    "chart-1": "oklch(0.735 0.085 77.9)",
+    "chart-2": "oklch(0.613 0.107 119.1)",
+    "chart-3": "oklch(0.759 0.145 118.5)",
+    "chart-4": "oklch(0.808 0.077 85.0)",
+    "chart-5": "oklch(0.701 0.013 79.8)",
+    "sidebar": "oklch(0.268 0.013 72.3)",
+    "sidebar-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-primary": "oklch(0.735 0.085 77.9)",
+    "sidebar-primary-foreground": "oklch(0.205 0.011 60.8)",
+    "sidebar-accent": "oklch(0.323 0.018 67.1)",
+    "sidebar-accent-foreground": "oklch(0.980 0.006 84.6)",
+    "sidebar-border": "oklch(0.980 0.006 84.6 / 14%)",
+    "sidebar-ring": "oklch(0.759 0.145 118.5)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sun-dog",
+    "name": "Morphous Sun Dog",
+    "motifName": "Sun Dog",
+    "motifCategory": "weather",
+    "biome": "polar sky",
+    "motif": "sun dog halo"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Polar Sky",
+      "hex": "#EAF3FF",
+      "oklch": "oklch(0.975 0.014 226.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Zenith",
+      "hex": "#182A44",
+      "oklch": "oklch(0.232 0.045 258.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Halo Gold",
+      "hex": "#FFD873",
+      "oklch": "oklch(0.835 0.138 83.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ice Rainbow",
+      "hex": "#BDEBFF",
+      "oklch": "oklch(0.917 0.040 226.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Prism Cyan",
+      "hex": "#7FD7F4",
+      "oklch": "oklch(0.792 0.090 217.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Parhelion Rose",
+      "hex": "#FFB3C9",
+      "oklch": "oklch(0.795 0.088 12.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cirrus White",
+      "hex": "#F7FAFF",
+      "oklch": "oklch(0.993 0.006 230.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ice Grey",
+      "hex": "#DCE3EB",
+      "oklch": "oklch(0.878 0.018 238.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Zenith Night",
+      "hex": "#0D1526",
+      "oklch": "oklch(0.180 0.050 258.0)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Solar Amber",
+      "hex": "#FFB84D",
+      "oklch": "oklch(0.858 0.142 83.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.975 0.014 226.0)",
+    "foreground": "oklch(0.232 0.045 258.0)",
+    "card": "oklch(0.993 0.006 230.0)",
+    "card-foreground": "oklch(0.232 0.045 258.0)",
+    "popover": "oklch(0.993 0.006 230.0)",
+    "popover-foreground": "oklch(0.232 0.045 258.0)",
+    "primary": "oklch(0.835 0.138 83.0)",
+    "primary-foreground": "oklch(0.232 0.045 258.0)",
+    "secondary": "oklch(0.917 0.040 226.0)",
+    "secondary-foreground": "oklch(0.290 0.052 258.0)",
+    "muted": "oklch(0.915 0.018 236.0)",
+    "muted-foreground": "oklch(0.504 0.042 255.0)",
+    "accent": "oklch(0.792 0.090 217.0)",
+    "accent-foreground": "oklch(0.232 0.045 258.0)",
+    "destructive": "oklch(0.690 0.170 25.0)",
+    "border": "oklch(0.878 0.018 238.0)",
+    "input": "oklch(0.878 0.018 238.0)",
+    "ring": "oklch(0.835 0.138 83.0)",
+    "chart-1": "oklch(0.835 0.138 83.0)",
+    "chart-2": "oklch(0.792 0.090 217.0)",
+    "chart-3": "oklch(0.724 0.070 294.0)",
+    "chart-4": "oklch(0.795 0.088 12.0)",
+    "chart-5": "oklch(0.578 0.092 260.0)",
+    "sidebar": "oklch(0.993 0.006 230.0)",
+    "sidebar-foreground": "oklch(0.232 0.045 258.0)",
+    "sidebar-primary": "oklch(0.835 0.138 83.0)",
+    "sidebar-primary-foreground": "oklch(0.232 0.045 258.0)",
+    "sidebar-accent": "oklch(0.917 0.040 226.0)",
+    "sidebar-accent-foreground": "oklch(0.290 0.052 258.0)",
+    "sidebar-border": "oklch(0.878 0.018 238.0)",
+    "sidebar-ring": "oklch(0.835 0.138 83.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.180 0.050 258.0)",
+    "foreground": "oklch(0.963 0.012 226.0)",
+    "card": "oklch(0.230 0.047 258.0)",
+    "card-foreground": "oklch(0.963 0.012 226.0)",
+    "popover": "oklch(0.230 0.047 258.0)",
+    "popover-foreground": "oklch(0.963 0.012 226.0)",
+    "primary": "oklch(0.858 0.142 83.0)",
+    "primary-foreground": "oklch(0.180 0.050 258.0)",
+    "secondary": "oklch(0.317 0.048 254.0)",
+    "secondary-foreground": "oklch(0.963 0.012 226.0)",
+    "muted": "oklch(0.275 0.042 255.0)",
+    "muted-foreground": "oklch(0.740 0.032 239.0)",
+    "accent": "oklch(0.775 0.095 217.0)",
+    "accent-foreground": "oklch(0.180 0.050 258.0)",
+    "destructive": "oklch(0.680 0.165 25.0)",
+    "border": "oklch(0.878 0.018 238.0 / 18%)",
+    "input": "oklch(0.878 0.018 238.0 / 22%)",
+    "ring": "oklch(0.858 0.142 83.0)",
+    "chart-1": "oklch(0.858 0.142 83.0)",
+    "chart-2": "oklch(0.775 0.095 217.0)",
+    "chart-3": "oklch(0.734 0.075 294.0)",
+    "chart-4": "oklch(0.790 0.100 12.0)",
+    "chart-5": "oklch(0.900 0.020 226.0)",
+    "sidebar": "oklch(0.180 0.050 258.0)",
+    "sidebar-foreground": "oklch(0.963 0.012 226.0)",
+    "sidebar-primary": "oklch(0.858 0.142 83.0)",
+    "sidebar-primary-foreground": "oklch(0.180 0.050 258.0)",
+    "sidebar-accent": "oklch(0.275 0.042 255.0)",
+    "sidebar-accent-foreground": "oklch(0.963 0.012 226.0)",
+    "sidebar-border": "oklch(0.878 0.018 238.0 / 18%)",
+    "sidebar-ring": "oklch(0.858 0.142 83.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or Inter for crisp atmospheric product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular data.",
+  "layout": "Precise shadcn/tweakcn grids, 8px radii, translucent ice-crystal dividers, halo focus rings, compact telemetry charts, and restrained polar-sky texture.",
+  "tags": [
+    "sun-dog",
+    "weather",
+    "polar-sky",
+    "halo",
+    "ice-rainbow",
+    "atmospheric-data",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sun-dog/motif.png",
+    "board": "/systems/morphous-sun-dog/design-system-light.png",
+    "darkBoard": "/systems/morphous-sun-dog/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sun-dog/theme.css",
+    "themeJson": "/systems/morphous-sun-dog/theme.json",
+    "promptsJson": "/systems/morphous-sun-dog/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Sun Dog motif source",
+      "asset": "/systems/morphous-sun-dog/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a Sun Dog motif for later background removal, isolated full subject, no surrounding landscape, no text.\nSubject: a crisp polar-sky sun dog halo fragment: a luminous golden mini-sun point at one side of a pale circular ice-crystal halo arc, with subtle prismatic ice-rainbow bands (red nearest the sun, then amber, pale green, cyan, and violet), delicate hexagonal ice-crystal sparkle structure, and faint pale-sky glow contained inside the motif. The subject should read as an atmospheric optical phenomenon, not a flat logo.\nComposition/framing: centered complete cutout with generous padding; include one clear parhelion bright spot and a partial halo arc sweeping around it; do not crop the halo glow; make the silhouette readable and suitable as a design-system motif asset.\nLighting/mood: clean polar daylight, luminous but controlled, pale sky whites, ice rainbow refraction, soft gold core; atmospheric data system mood.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, horizon, clouds, floor plane, or lighting variation. Do not use #ff00ff or magenta anywhere in the subject. Keep the halo and ice-rainbow subject optically distinct from the background with crisp edges and no magenta spill.\nConstraints: no text, no watermark, no decorative frame, no landscape, no mountains, no full sky scene, no extra suns, no people, no animals, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sun-dog/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sun Dog\", derived from the visible transparent Sun Dog motif: polar-sky parhelion halo arc with ice-rainbow refraction, pale sky glow, and gold sun point.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the sun dog halo motif: ice rainbow bands, pale polar sky, luminous gold, frost white, prism cyan, soft violet, high-altitude blue, and cool grey ice-crystal texture. Use only these motif-derived colors plus near-neutrals from the same source.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. Create a single polished source board, not separate pages.\nResolution and legibility: high-resolution 4K-class source board with large readable labels and clear UI examples; avoid dense tiny token tables.\nRequired visible sections: Morphous Sun Dog title, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: include English and Japanese examples; guidance for Geist or Inter paired with Noto Sans JP; atmospheric data system tone, crisp and observational, not decorative.\nUI coverage: shadcn/tweakcn-compatible buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top nav, dashboard metric cards, bar/line/donut charts, empty/loading/error/success/warning states, form validation, compact data table, texture swatches, radius 8px, spacing scale, border tokens, focus rings, shadow tokens.\nVisual style: premium atmospheric data interface, precise grid, 8px card radius, crisp controls, pale sky surfaces, translucent ice-crystal dividers, subtle halo arcs as focus rings and chart accents, gold primary actions, restrained ice-rainbow telemetry indicators.\nPalette labels to show: Polar Sky, Halo Gold, Ice Rainbow, Prism Cyan, Parhelion Rose, Frost Violet, Cirrus White, Ice Grey, Deep Zenith, Solar Amber.\nText: short readable UI labels only; use real section labels listed above; avoid long paragraphs.\nConstraints: no colors outside the motif palette, no generic purple or blue gradients, no dark storm imagery, no random brand names, no watermark, no misspelling of \"Morphous Sun Dog\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sun-dog/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode companion board for the same Morphous theme named \"Morphous Sun Dog\". It must feel like the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible Sun Dog motif and the visible light-mode design-system board as references. Preserve ice rainbow accents, luminous gold primary actions, pale polar sky highlights, prism cyan telemetry, frost violet status accents, Japanese typography guidance, component coverage, spacing, and 8px radius.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. Create one polished dark-mode source board.\nResolution and legibility: high-resolution board with large readable labels and clear shadcn/tweakcn UI examples; avoid dense tiny text.\nRequired visible sections: Morphous Sun Dog, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: English and Japanese examples; Geist or Inter plus Noto Sans JP; compact atmospheric data system, crisp and observational, not decorative.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top nav, dashboard metric cards, charts, empty/loading/error/success/warning states, form validation, compact data table, texture swatches, radius 8px, spacing scale, border tokens, focus rings, shadow tokens.\nVisual details: deep zenith blue background, cool slate cards, cirrus-white text, gold parhelion primary controls, prism cyan graph lines, frost violet and parhelion rose status chips, subtle ice-crystal texture, halo arcs as focus rings and chart accents, crisp shadcn/tweakcn components.\nPalette labels to show: Polar Sky, Halo Gold, Ice Rainbow, Prism Cyan, Parhelion Rose, Frost Violet, Cirrus White, Ice Grey, Deep Zenith, Solar Amber.\nText: short readable UI labels only; use real section labels listed above.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple or blue gradients, no storm photo background, no random brand names, no watermark, no misspelling of \"Morphous Sun Dog\"."
+    }
+  ]
+}

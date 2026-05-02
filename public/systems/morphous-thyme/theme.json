@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-thyme",
+    "name": "Morphous Thyme",
+    "motifName": "Thyme",
+    "motifCategory": "plant",
+    "biome": "stone garden",
+    "motif": "thyme sprig"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Flower Paper",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Herb Ink",
+      "hex": "#23241F",
+      "oklch": "oklch(0.257 0.009 116.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Thyme Olive",
+      "hex": "#6B7E5A",
+      "oklch": "oklch(0.568 0.058 130.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#546B46",
+      "oklch": "oklch(0.499 0.063 134.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Herb",
+      "hex": "#3E5236",
+      "oklch": "oklch(0.414 0.052 137.0)"
+    },
+    {
+      "role": "Support",
+      "name": "Sage Green",
+      "hex": "#8FA188",
+      "oklch": "oklch(0.688 0.041 136.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lilac Blossom",
+      "hex": "#DCCDE6",
+      "oklch": "oklch(0.868 0.038 312.0)"
+    },
+    {
+      "role": "Accent Soft",
+      "name": "Blossom Light",
+      "hex": "#F3ECF7",
+      "oklch": "oklch(0.952 0.016 313.6)"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Brown",
+      "hex": "#886F4A",
+      "oklch": "oklch(0.557 0.061 76.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Garden Sand",
+      "hex": "#E7E3D8",
+      "oklch": "oklch(0.916 0.015 90.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Light",
+      "hex": "#D6D7DA",
+      "oklch": "oklch(0.879 0.004 271.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#A9AAAD",
+      "oklch": "oklch(0.738 0.004 271.4)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Stem Blush",
+      "hex": "#9A6056",
+      "oklch": "oklch(0.550 0.078 30.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.003 106.4)",
+    "foreground": "oklch(0.257 0.009 116.2)",
+    "card": "oklch(0.916 0.015 90.2)",
+    "card-foreground": "oklch(0.257 0.009 116.2)",
+    "popover": "oklch(0.916 0.015 90.2)",
+    "popover-foreground": "oklch(0.257 0.009 116.2)",
+    "primary": "oklch(0.568 0.058 130.7)",
+    "primary-foreground": "oklch(0.985 0.003 106.4)",
+    "secondary": "oklch(0.945 0.011 95.2)",
+    "secondary-foreground": "oklch(0.414 0.052 137.0)",
+    "muted": "oklch(0.934 0.011 89.7)",
+    "muted-foreground": "oklch(0.414 0.052 137.0)",
+    "accent": "oklch(0.868 0.038 312.0)",
+    "accent-foreground": "oklch(0.257 0.009 116.2)",
+    "destructive": "oklch(0.568 0.058 130.7)",
+    "border": "oklch(0.904 0.008 91.5)",
+    "input": "oklch(0.904 0.008 91.5)",
+    "ring": "oklch(0.499 0.063 134.1)",
+    "chart-1": "oklch(0.568 0.058 130.7)",
+    "chart-2": "oklch(0.499 0.063 134.1)",
+    "chart-3": "oklch(0.868 0.038 312.0)",
+    "chart-4": "oklch(0.557 0.061 76.8)",
+    "chart-5": "oklch(0.414 0.052 137.0)",
+    "sidebar": "oklch(0.939 0.011 95.2)",
+    "sidebar-foreground": "oklch(0.257 0.009 116.2)",
+    "sidebar-primary": "oklch(0.568 0.058 130.7)",
+    "sidebar-primary-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-accent": "oklch(0.876 0.019 103.5)",
+    "sidebar-accent-foreground": "oklch(0.568 0.058 130.7)",
+    "sidebar-border": "oklch(0.904 0.008 91.5)",
+    "sidebar-ring": "oklch(0.499 0.063 134.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.009 116.2)",
+    "foreground": "oklch(0.985 0.003 106.4)",
+    "card": "oklch(0.361 0.037 134.9)",
+    "card-foreground": "oklch(0.985 0.003 106.4)",
+    "popover": "oklch(0.361 0.037 134.9)",
+    "popover-foreground": "oklch(0.985 0.003 106.4)",
+    "primary": "oklch(0.499 0.063 134.1)",
+    "primary-foreground": "oklch(0.257 0.009 116.2)",
+    "secondary": "oklch(0.522 0.038 138.3)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.522 0.038 138.3)",
+    "muted-foreground": "oklch(0.937 0.001 286.4)",
+    "accent": "oklch(0.868 0.038 312.0)",
+    "accent-foreground": "oklch(0.257 0.009 116.2)",
+    "destructive": "oklch(0.568 0.058 130.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.499 0.063 134.1)",
+    "chart-1": "oklch(0.499 0.063 134.1)",
+    "chart-2": "oklch(0.568 0.058 130.7)",
+    "chart-3": "oklch(0.868 0.038 312.0)",
+    "chart-4": "oklch(0.557 0.061 76.8)",
+    "chart-5": "oklch(0.879 0.004 271.4)",
+    "sidebar": "oklch(0.330 0.029 135.3)",
+    "sidebar-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-primary": "oklch(0.499 0.063 134.1)",
+    "sidebar-primary-foreground": "oklch(0.257 0.009 116.2)",
+    "sidebar-accent": "oklch(0.522 0.038 138.3)",
+    "sidebar-accent-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.499 0.063 134.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English recipe UI with Japanese typography guidance for ingredient quantities, prep steps, kitchen timers, nutrition values, command search, and calm status messaging.",
+  "layout": "Dense recipe dashboards, compact navigation, 8px radii, olive-green actions, stone-grey surfaces, pale lilac status accents, herb-sprig texture, and low garden-stone shadows.",
+  "tags": [
+    "thyme",
+    "plant",
+    "stone-garden",
+    "thyme-sprig",
+    "olive-green",
+    "tiny-lilac",
+    "stone-grey",
+    "compact-recipe-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-thyme/motif.png",
+    "board": "/systems/morphous-thyme/design-system-light.png",
+    "darkBoard": "/systems/morphous-thyme/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-thyme/theme.css",
+    "themeJson": "/systems/morphous-thyme/theme.json",
+    "promptsJson": "/systems/morphous-thyme/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Thyme motif",
+      "asset": "/systems/morphous-thyme/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Thyme transparent motif chroma-key source\nPrimary request: Create only a compact thyme sprig, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: a single herbaceous thyme sprig with many tiny oval olive-green leaves, thin woody green-brown stems, a few very small pale lilac thyme blossoms, subtle stone-grey underside shadows, natural botanical detail, compact recipe-system identity.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp opaque edges, clean studio light, natural herbal texture.\nComposition/framing: centered complete cutout with generous padding on all sides; diagonal but fully visible sprig; no cropping; no floor plane.\nLighting/mood: restrained stone-garden calm, compact and precise, no cast shadow and no contact shadow.\nColor palette: olive green tiny leaves, pale lilac blossoms, warm woody stems, stone grey botanical shadows only; do not use magenta in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no props, no pot, no garden, no second sprig, no decorative background, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-thyme/design-system-light.png",
+      "sourceAsset": "/systems/morphous-thyme/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent Thyme motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Thyme\".\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: compact recipe system for ingredient prep, kitchen inventory, cook timers, recipe cards, nutrition, and batch planning; dense, calm, precise, herbal, operational, 8px radii throughout.\nColor palette: derive only from the reference motif and stone-garden context: olive green thyme leaves, deep herb green shadows, tiny pale lilac blossoms, stone grey surfaces, warm woody stem brown, off-white flower highlights, muted garden-sand neutrals. Use no generic blue, purple gradient, orange default, or unrelated saturated color.\nLayout: polished product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, and shadow samples. Include a small thyme motif cutout preview.\nTypography: compact English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"タイム\", \"材料\", \"下ごしらえ\", \"分量\", \"調理時間\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, recipe metric cards, pantry stock cards, prep checklist, ingredient table, nutrition chart, timer bars, loading/empty/error/success states.\nTexture/materials: subtle tiny-leaf rhythm, stone-garden grain, pale lilac blossom pin marks, warm stem dividers, compact 8px card rhythm, low shadow elevation.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no generic saturated food-app palette, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-thyme/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-thyme/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible transparent Thyme motif and the visible Morphous Thyme light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled exactly \"Morphous Thyme\" with the same compact recipe-system coverage and layout logic as the light board.\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: compact recipe system for ingredient prep, kitchen inventory, cook timers, recipe cards, nutrition, and batch planning; night-mode kitchen operations, dense, calm, precise, herbal, 8px radii throughout.\nColor palette: derive only from the thyme sprig and stone-garden palette: deep herb charcoal backgrounds, dark olive panels, sage green controls, pale lilac blossom accents, stone grey borders, warm stem brown warning accents, off-white flower text highlights. Avoid generic blue/purple gradients, neon colors, saturated orange, and pure flat black.\nLayout: polished dark product design board, left palette/token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, shadow samples. Include a small thyme motif cutout preview.\nTypography: compact English UI type plus Japanese typography section with headings, body, captions, numerals, and examples such as \"タイム\", \"材料\", \"下ごしらえ\", \"分量\", \"調理時間\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, card, table rows, command/search palette, compact sidebar navigation, recipe metric cards, pantry stock cards, prep checklist, ingredient table, nutrition chart, timer bars, loading/empty/error/success states.\nTexture/materials: subtle tiny-leaf rhythm, dark stone-garden grain, pale lilac blossom pin marks, warm stem dividers, compact 8px card rhythm, restrained dark-mode shadows.\nText constraints: title must be Morphous Thyme. Do not use the words Mint, Rosemary, Basil, or Lavender as a system title.\nVisual constraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no unrelated colors, no pure black flat background, no blue/purple gradients, no watermark."
+    }
+  ]
+}

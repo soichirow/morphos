@@ -1,0 +1,179 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-swallowtail",
+    "name": "Morphous Swallowtail",
+    "motifName": "Swallowtail Butterfly",
+    "motifCategory": "insect",
+    "biome": "Garden Meadow",
+    "motif": "swallowtail wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Garden Paper",
+      "hex": "#fff8df",
+      "oklch": "oklch(0.978 0.033 94.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Ink",
+      "hex": "#101010",
+      "oklch": "oklch(0.173 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Swallowtail Yellow",
+      "hex": "#f8d850",
+      "oklch": "oklch(0.885 0.154 95.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Meadow Olive",
+      "hex": "#706840",
+      "oklch": "oklch(0.515 0.058 98.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Eyespot",
+      "hex": "#5878a0",
+      "oklch": "oklch(0.565 0.073 254.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Scale Cream",
+      "hex": "#f8f090",
+      "oklch": "oklch(0.941 0.118 104.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Wing Paper",
+      "hex": "#f5e8b8",
+      "oklch": "oklch(0.930 0.064 94.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wing Vein Brown",
+      "hex": "#403020",
+      "oklch": "oklch(0.323 0.035 66.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Olive Shadow",
+      "hex": "#282810",
+      "oklch": "oklch(0.270 0.039 108.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.033 94.0)",
+    "foreground": "oklch(0.173 0.000 89.9)",
+    "card": "oklch(0.930 0.064 94.7)",
+    "card-foreground": "oklch(0.173 0.000 89.9)",
+    "popover": "oklch(0.930 0.064 94.7)",
+    "popover-foreground": "oklch(0.173 0.000 89.9)",
+    "primary": "oklch(0.885 0.154 95.7)",
+    "primary-foreground": "oklch(0.978 0.033 94.0)",
+    "secondary": "oklch(0.950 0.052 95.3)",
+    "secondary-foreground": "oklch(0.270 0.039 108.8)",
+    "muted": "oklch(0.942 0.055 93.6)",
+    "muted-foreground": "oklch(0.270 0.039 108.8)",
+    "accent": "oklch(0.565 0.073 254.4)",
+    "accent-foreground": "oklch(0.173 0.000 89.9)",
+    "destructive": "oklch(0.885 0.154 95.7)",
+    "border": "oklch(0.728 0.053 89.8)",
+    "input": "oklch(0.728 0.053 89.8)",
+    "ring": "oklch(0.515 0.058 98.3)",
+    "chart-1": "oklch(0.885 0.154 95.7)",
+    "chart-2": "oklch(0.515 0.058 98.3)",
+    "chart-3": "oklch(0.565 0.073 254.4)",
+    "chart-4": "oklch(0.941 0.118 104.3)",
+    "chart-5": "oklch(0.270 0.039 108.8)",
+    "sidebar": "oklch(0.945 0.053 94.4)",
+    "sidebar-foreground": "oklch(0.173 0.000 89.9)",
+    "sidebar-primary": "oklch(0.885 0.154 95.7)",
+    "sidebar-primary-foreground": "oklch(0.978 0.033 94.0)",
+    "sidebar-accent": "oklch(0.923 0.076 95.3)",
+    "sidebar-accent-foreground": "oklch(0.885 0.154 95.7)",
+    "sidebar-border": "oklch(0.728 0.053 89.8)",
+    "sidebar-ring": "oklch(0.515 0.058 98.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.173 0.000 89.9)",
+    "foreground": "oklch(0.978 0.033 94.0)",
+    "card": "oklch(0.239 0.028 108.4)",
+    "card-foreground": "oklch(0.978 0.033 94.0)",
+    "popover": "oklch(0.239 0.028 108.4)",
+    "popover-foreground": "oklch(0.978 0.033 94.0)",
+    "primary": "oklch(0.515 0.058 98.3)",
+    "primary-foreground": "oklch(0.173 0.000 89.9)",
+    "secondary": "oklch(0.282 0.036 101.6)",
+    "secondary-foreground": "oklch(0.978 0.033 94.0)",
+    "muted": "oklch(0.282 0.036 101.6)",
+    "muted-foreground": "oklch(0.703 0.032 83.6)",
+    "accent": "oklch(0.565 0.073 254.4)",
+    "accent-foreground": "oklch(0.173 0.000 89.9)",
+    "destructive": "oklch(0.885 0.154 95.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.515 0.058 98.3)",
+    "chart-1": "oklch(0.515 0.058 98.3)",
+    "chart-2": "oklch(0.885 0.154 95.7)",
+    "chart-3": "oklch(0.565 0.073 254.4)",
+    "chart-4": "oklch(0.941 0.118 104.3)",
+    "chart-5": "oklch(0.323 0.035 66.0)",
+    "sidebar": "oklch(0.218 0.020 108.0)",
+    "sidebar-foreground": "oklch(0.978 0.033 94.0)",
+    "sidebar-primary": "oklch(0.515 0.058 98.3)",
+    "sidebar-primary-foreground": "oklch(0.173 0.000 89.9)",
+    "sidebar-accent": "oklch(0.282 0.036 101.6)",
+    "sidebar-accent-foreground": "oklch(0.978 0.033 94.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.515 0.058 98.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for refined portfolio and product UI, with Noto Sans JP guidance for Japanese headings, body copy, labels, and status text.",
+  "layout": "An 8px-grid interface with swallowtail wing-panel composition, black vein dividers, blue eyespot focus details, garden-meadow support states, compact portfolio dashboards, and restrained data surfaces.",
+  "tags": [
+    "swallowtail",
+    "butterfly",
+    "insect",
+    "garden meadow",
+    "portfolio",
+    "yellow",
+    "black",
+    "blue spot",
+    "green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-swallowtail/motif.png",
+    "board": "/systems/morphous-swallowtail/design-system-light.png",
+    "darkBoard": "/systems/morphous-swallowtail/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-swallowtail/theme.css",
+    "themeJson": "/systems/morphous-swallowtail/theme.json",
+    "promptsJson": "/systems/morphous-swallowtail/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Swallowtail motif",
+      "asset": "/systems/morphous-swallowtail/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: Morphous Swallowtail transparent motif chroma-key source\nPrimary request: Create only an isolated swallowtail butterfly motif for a design-system catalog, no environment, no props, no text.\nSubject: A graceful swallowtail butterfly with broad yellow wings, crisp black vein structure and black border bands, blue eyespot markings near the lower wings, tiny pale cream highlights, and subtle meadow-green reflected tones in the body shadows; accurate butterfly anatomy with tails, antennae, body, legs, wing-scale texture, and a clean silhouette.\nComposition/framing: centered complete cutout with generous padding; show both wings, the split swallowtail tails, body, antennae, and blue spot details without cropping.\nLighting/mood: clean studio light that preserves yellow wing panels, black bands, blue eyespots, green shadow notes, and fine wing texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #ff00ff anywhere in the subject. No cast shadow, no contact shadow, no reflection, no text, no watermark, no props, no flowers, no landscape, no second insect, no monarch orange palette, no dragonfly."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-swallowtail/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode Morphous design-system reference board\nPrimary request: Create one comprehensive 3840x2160 landscape design-system board for \"Morphous Swallowtail\" / \"Swallowtail Butterfly\", a graceful portfolio system for shadcn/tweakcn implementation.\nMotif source: swallowtail wing, garden meadow, yellow black blue spot green palette. Use only motif-derived colors: wing yellow, deep wing black, blue eyespot, meadow green, cream scale highlight, pale garden paper, soft pollen gold, dark olive shadow.\nLayout: polished product design board, 16:9, large readable text, dense but organized, no marketing hero. Use an 8px radius language throughout. White/cream background with yellow-black swallowtail wing panels, blue eyespot accents, green support states, black vein-like dividers, subtle wing-scale texture.\nRequired visible sections and labels: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar/nav, breadcrumb, dashboard metrics, compact chart, loading state, empty state, error state, focus rings, token swatches, radius/spacing/shadow samples.\nTypography: English portfolio/product UI using Geist-like sans; Japanese guidance using Noto Sans JP-like forms; include readable Japanese sample labels such as 見出し, 本文, 状態.\nStyle: graceful portfolio system, editorial but operational, quiet surfaces, crisp hierarchy, exact 8px radii on controls and cards, refined shadows, motif-derived color chips named with swallowtail terms.\nConstraints: no unrelated purple gradients, no neon colors, no monarch orange, no stock brand names, no random logos, no spelling errors, no tiny unreadable labels, no extra insects, no flowers as the main subject."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-swallowtail/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode Morphous design-system reference board\nPrimary request: Create one comprehensive 3840x2160 landscape dark-mode design-system board for \"Morphous Swallowtail\" / \"Swallowtail Butterfly\", translated from the light board and the same swallowtail motif.\nMotif source: swallowtail wing, garden meadow, yellow black blue spot green palette. Use only motif-derived colors adapted for dark mode: deep wing black, charcoal olive, luminous wing yellow, blue eyespot accent, meadow green, cream scale highlight, muted pollen gold, dark garden surface.\nLayout: polished product design board, 16:9, large readable text, dense but organized, no marketing hero. Dark black/olive background with yellow active states, cream foreground text, blue focus/selection, green success/support states, black vein-like dividers, subtle wing-scale texture, exact 8px radius language throughout.\nRequired visible sections and labels: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette/search, sidebar/nav, breadcrumb, dashboard metrics, compact chart, loading state, empty state, error state, focus rings, token swatches, radius/spacing/shadow samples.\nTypography: English portfolio/product UI using Geist-like sans; Japanese guidance using Noto Sans JP-like forms; include readable Japanese sample labels such as 見出し, 本文, 状態.\nStyle: graceful portfolio system for a refined creative dashboard, quiet dark surfaces, crisp hierarchy, exact 8px radii on controls and cards, refined shadows, motif-derived color chips named with swallowtail terms.\nConstraints: no unrelated purple gradients, no neon colors, no monarch orange, no stock brand names, no random logos, no spelling errors, no tiny unreadable labels, no extra insects, no flowers as the main subject."
+    }
+  ]
+}

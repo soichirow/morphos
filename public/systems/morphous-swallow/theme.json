@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-swallow",
+    "name": "Swallow",
+    "motifName": "Swallow",
+    "motifCategory": "bird",
+    "biome": "Summer field",
+    "motif": "swallow wings"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sky Field",
+      "hex": "#eef7fb",
+      "oklch": "oklch(0.971 0.011 226.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cloud White",
+      "hex": "#fbfdff",
+      "oklch": "oklch(0.993 0.003 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Night Wing",
+      "hex": "#0c1624",
+      "oklch": "oklch(0.198 0.032 256.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Blue Black",
+      "hex": "#17263a",
+      "oklch": "oklch(0.266 0.043 255.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Flight Navy",
+      "hex": "#24445f",
+      "oklch": "oklch(0.375 0.060 245.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rust Throat",
+      "hex": "#b95f35",
+      "oklch": "oklch(0.585 0.129 44.3)"
+    },
+    {
+      "role": "Info",
+      "name": "Horizon Blue",
+      "hex": "#72a9c9",
+      "oklch": "oklch(0.708 0.074 234.8)"
+    },
+    {
+      "role": "Warning",
+      "name": "Hayline",
+      "hex": "#d6bf7c",
+      "oklch": "oklch(0.809 0.090 91.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Gray",
+      "hex": "#9aa8aa",
+      "oklch": "oklch(0.721 0.016 207.1)"
+    },
+    {
+      "role": "Success",
+      "name": "Field Green",
+      "hex": "#7f9d65",
+      "oklch": "oklch(0.659 0.086 131.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.971 0.011 226.0)",
+    "foreground": "oklch(0.198 0.032 256.9)",
+    "card": "oklch(0.993 0.003 247.9)",
+    "card-foreground": "oklch(0.198 0.032 256.9)",
+    "popover": "oklch(0.993 0.003 247.9)",
+    "popover-foreground": "oklch(0.198 0.032 256.9)",
+    "primary": "oklch(0.266 0.043 255.9)",
+    "primary-foreground": "oklch(0.971 0.011 226.0)",
+    "secondary": "oklch(0.983 0.006 239.8)",
+    "secondary-foreground": "oklch(0.993 0.003 247.9)",
+    "muted": "oklch(0.986 0.006 239.8)",
+    "muted-foreground": "oklch(0.993 0.003 247.9)",
+    "accent": "oklch(0.585 0.129 44.3)",
+    "accent-foreground": "oklch(0.198 0.032 256.9)",
+    "destructive": "oklch(0.266 0.043 255.9)",
+    "border": "oklch(0.897 0.007 219.6)",
+    "input": "oklch(0.897 0.007 219.6)",
+    "ring": "oklch(0.375 0.060 245.8)",
+    "chart-1": "oklch(0.266 0.043 255.9)",
+    "chart-2": "oklch(0.375 0.060 245.8)",
+    "chart-3": "oklch(0.585 0.129 44.3)",
+    "chart-4": "oklch(0.585 0.129 44.3)",
+    "chart-5": "oklch(0.993 0.003 247.9)",
+    "sidebar": "oklch(0.986 0.006 239.8)",
+    "sidebar-foreground": "oklch(0.198 0.032 256.9)",
+    "sidebar-primary": "oklch(0.266 0.043 255.9)",
+    "sidebar-primary-foreground": "oklch(0.971 0.011 226.0)",
+    "sidebar-accent": "oklch(0.915 0.006 255.5)",
+    "sidebar-accent-foreground": "oklch(0.266 0.043 255.9)",
+    "sidebar-border": "oklch(0.897 0.007 219.6)",
+    "sidebar-ring": "oklch(0.375 0.060 245.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.198 0.032 256.9)",
+    "foreground": "oklch(0.971 0.011 226.0)",
+    "card": "oklch(0.750 0.011 261.8)",
+    "card-foreground": "oklch(0.971 0.011 226.0)",
+    "popover": "oklch(0.750 0.011 261.8)",
+    "popover-foreground": "oklch(0.971 0.011 226.0)",
+    "primary": "oklch(0.375 0.060 245.8)",
+    "primary-foreground": "oklch(0.198 0.032 256.9)",
+    "secondary": "oklch(0.935 0.005 228.8)",
+    "secondary-foreground": "oklch(0.971 0.011 226.0)",
+    "muted": "oklch(0.935 0.005 228.8)",
+    "muted-foreground": "oklch(0.860 0.013 221.4)",
+    "accent": "oklch(0.585 0.129 44.3)",
+    "accent-foreground": "oklch(0.198 0.032 256.9)",
+    "destructive": "oklch(0.266 0.043 255.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.375 0.060 245.8)",
+    "chart-1": "oklch(0.375 0.060 245.8)",
+    "chart-2": "oklch(0.266 0.043 255.9)",
+    "chart-3": "oklch(0.585 0.129 44.3)",
+    "chart-4": "oklch(0.585 0.129 44.3)",
+    "chart-5": "oklch(0.721 0.016 207.1)",
+    "sidebar": "oklch(0.598 0.015 258.4)",
+    "sidebar-foreground": "oklch(0.971 0.011 226.0)",
+    "sidebar-primary": "oklch(0.375 0.060 245.8)",
+    "sidebar-primary-foreground": "oklch(0.198 0.032 256.9)",
+    "sidebar-accent": "oklch(0.935 0.005 228.8)",
+    "sidebar-accent-foreground": "oklch(0.971 0.011 226.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.375 0.060 245.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for fast product messaging UI with Noto Sans JP guidance for Japanese labels, compact status trails, and tabular delivery metrics.",
+  "layout": "8px grid, compact inbox rails, wing-sweep motion marks, queue lanes, delivery status trails, cloud-white cards, sky-field surfaces, and rust-throat action accents.",
+  "tags": [
+    "swallow",
+    "bird",
+    "summer-field",
+    "blue-black",
+    "rust-throat",
+    "swift-messaging",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-swallow/motif.png",
+    "board": "/systems/morphous-swallow/design-system-light.png",
+    "darkBoard": "/systems/morphous-swallow/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-swallow/theme.css",
+    "themeJson": "/systems/morphous-swallow/theme.json",
+    "promptsJson": "/systems/morphous-swallow/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent swallow motif",
+      "asset": "/systems/morphous-swallow/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create a single swallow bird motif for a Morphous design-system asset on a perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: one agile barn swallow in flight, full body visible, long forked tail, swept swallow wings extended in a swift V arc, glossy blue-black upper wings and back, warm rust throat, pale underside, small precise head and beak. The bird should feel like a fast summer-field messenger: aerodynamic, crisp, elegant, and natural.\nComposition/framing: centered complete cutout with generous padding; no cropping of wing tips, tail streamers, beak, or body. Slight three-quarter angle so the wing silhouette is clear and iconic.\nLighting/mood: clean studio light that preserves glossy blue-black feather sheen, rust throat, and subtle feather structure. No environment, no props, no text.\nTransparent workflow: background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject. No cast shadow, no contact shadow, no reflection, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-swallow/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for a theme named Swallow\nPrimary request: Generate one comprehensive light-mode design-system board for a motif-driven UI theme named \"Swallow\", derived from swallow wings in a summer field: glossy blue-black flight feathers, rust throat accent, pale underside, open sky blue, sunlit field green kept subtle, and warm dry grass neutrals.\nCanvas: wide 16:9 high-resolution design board, 4K-class composition intended for final use at 3840x2160. Use a precise product-design grid, generous margins, and large readable labels.\nSystem feel: swift messaging system. The UI should feel fast, directional, lightweight, and operational: message queue lanes, wing-sweep motion marks, delivery status trails, compact inbox navigation, signal chips, timeline handoff cards, crisp shadcn/tweakcn-style controls, 8px radius.\nRequired visible sections: title \"Swallow\", motif story, palette swatches with names, typography with English and Japanese examples, compact left navigation, top command/search, inbox and message thread preview, dashboard metric cards, line chart, bar chart, delivery status table, form fields, textarea composer, select, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error states, spacing/radius/shadow tokens, CSS token snippets, texture strip, and generated asset examples.\nPalette to show and use consistently: Sky Field #eef7fb background, Cloud White #fbfdff cards, Blue Black #17263a primary, Flight Navy #24445f secondary, Rust Throat #b95f35 accent, Horizon Blue #72a9c9 chart/accent, Hayline #d6bf7c muted warning, Reed Gray #9aa8aa borders, Field Green #7f9d65 sparingly, Night Wing #0c1624 dark ink.\nText: short readable UI labels only; no long paragraphs. Use generic product UI labels such as Inbox, Dispatch, Threads, Queue, Signal, Sent, Pending, Delivered, Compose, Route, Analytics, Search, Ready, Delay, Alert.\nConstraints: no watermark, no random brand names, no unrelated saturated colors, no purple gradients, no marketing hero layout, no illegible microtext, no decorative blobs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-swallow/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for a theme named Swallow\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Swallow Dark\". It must feel like the same swift messaging system translated to dark mode, not a new theme. Base it on swallow wings in a summer field: glossy blue-black feathers, rust throat accent, pale underside highlights, open sky blue, restrained field green, and warm dry grass neutrals.\nCanvas: wide 16:9 high-resolution design board, 4K-class composition intended for final use at 3840x2160. Use a precise product-design grid, generous margins, and large readable labels.\nSystem feel: swift messaging system. The UI should feel fast, directional, lightweight, and operational: message queue lanes, wing-sweep motion marks, delivery status trails, compact inbox navigation, signal chips, timeline handoff cards, crisp shadcn/tweakcn-style controls, 8px radius.\nRequired visible sections: title \"Swallow Dark\", motif story, dark palette swatches with names, typography with English and Japanese examples, compact left navigation, top command/search, inbox and message thread preview, dashboard metric cards, line chart, bar chart, delivery status table, form fields, textarea composer, select, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error states, spacing/radius/shadow tokens, CSS token snippets, texture strip, and generated asset examples.\nPalette to show and use consistently: Night Wing #0c1624 background, Deep Navy #132235 panels, Moon Cloud #edf5f7 text, Blue Black #17263a primary surface, Flight Navy #24445f secondary, Rust Throat #cf7040 accent, Horizon Blue #72a9c9 chart/accent, Hayline #d6bf7c muted warning, Reed Gray #7f8d91 borders, Field Green #8bad72 sparingly.\nText: short readable UI labels only; no long paragraphs. Use generic product UI labels such as Inbox, Dispatch, Threads, Queue, Signal, Sent, Pending, Delivered, Compose, Route, Analytics, Search, Ready, Delay, Alert.\nConstraints: no watermark, no random brand names, no neon colors, no pure black flat background, no unrelated saturated colors, no purple gradients, no marketing hero layout, no illegible microtext, no decorative blobs."
+    }
+  ]
+}

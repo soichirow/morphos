@@ -1,0 +1,123 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 253,
+  "slug": "morphous-thyme",
+  "name": "Morphous Thyme",
+  "motifName": "Thyme",
+  "motifCategory": "plant",
+  "biome": "stone garden",
+  "motif": "thyme sprig",
+  "paletteMood": "olive green tiny lilac stone grey",
+  "designMood": "compact recipe system",
+  "description": "A shadcn/tweakcn-compatible compact recipe system derived from olive thyme leaves, tiny pale lilac blossoms, warm woody stems, and quiet stone-garden greys.",
+  "typography": "Compact English recipe UI with Japanese typography guidance for ingredient quantities, prep steps, kitchen timers, nutrition values, command search, and calm status messaging.",
+  "layout": "Dense recipe dashboards, compact navigation, 8px radii, olive-green actions, stone-grey surfaces, pale lilac status accents, herb-sprig texture, and low garden-stone shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "thyme",
+    "plant",
+    "stone-garden",
+    "thyme-sprig",
+    "olive-green",
+    "tiny-lilac",
+    "stone-grey",
+    "compact-recipe-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Flower Paper",
+      "hex": "#FAFAF8"
+    },
+    {
+      "role": "Ink",
+      "name": "Herb Ink",
+      "hex": "#23241F"
+    },
+    {
+      "role": "Primary",
+      "name": "Thyme Olive",
+      "hex": "#6B7E5A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#546B46"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Herb",
+      "hex": "#3E5236"
+    },
+    {
+      "role": "Support",
+      "name": "Sage Green",
+      "hex": "#8FA188"
+    },
+    {
+      "role": "Accent",
+      "name": "Lilac Blossom",
+      "hex": "#DCCDE6"
+    },
+    {
+      "role": "Accent Soft",
+      "name": "Blossom Light",
+      "hex": "#F3ECF7"
+    },
+    {
+      "role": "Signal",
+      "name": "Stem Brown",
+      "hex": "#886F4A"
+    },
+    {
+      "role": "Surface",
+      "name": "Garden Sand",
+      "hex": "#E7E3D8"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Light",
+      "hex": "#D6D7DA"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Grey",
+      "hex": "#A9AAAD"
+    },
+    {
+      "role": "Destructive",
+      "name": "Stem Blush",
+      "hex": "#9A6056"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

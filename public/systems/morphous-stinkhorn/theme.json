@@ -1,0 +1,202 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-stinkhorn",
+    "name": "Morphous Stinkhorn",
+    "motifName": "Stinkhorn",
+    "motifCategory": "fungi",
+    "biome": "Leaf Litter",
+    "motif": "stinkhorn fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Muted Stem Surface",
+      "hex": "#F7F2E3",
+      "oklch": "oklch(0.961 0.021 91.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Humus Text",
+      "hex": "#1C150E",
+      "oklch": "oklch(0.202 0.017 66.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cap Olive",
+      "hex": "#686F2D",
+      "oklch": "oklch(0.521 0.090 114.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Olive",
+      "hex": "#3D4017",
+      "oklch": "oklch(0.359 0.061 112.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Cream",
+      "hex": "#F3EDD8",
+      "oklch": "oklch(0.945 0.028 93.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Spore Beige",
+      "hex": "#E6DFC2",
+      "oklch": "oklch(0.902 0.039 95.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Brown",
+      "hex": "#8B5E34",
+      "oklch": "oklch(0.521 0.082 62.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fungal Ochre",
+      "hex": "#C79A43",
+      "oklch": "oklch(0.712 0.117 81.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Muted Gold",
+      "hex": "#DDBE73",
+      "oklch": "oklch(0.812 0.101 87.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Stem Border",
+      "hex": "#D9CDB2",
+      "oklch": "oklch(0.851 0.039 86.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Bruised Gleba",
+      "hex": "#8B302E",
+      "oklch": "oklch(0.442 0.125 24.9)"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Vein",
+      "hex": "#887A4B",
+      "oklch": "oklch(0.581 0.067 93.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.021 91.6)",
+    "foreground": "oklch(0.202 0.017 66.6)",
+    "card": "oklch(0.945 0.028 93.8)",
+    "card-foreground": "oklch(0.202 0.017 66.6)",
+    "popover": "oklch(0.945 0.028 93.8)",
+    "popover-foreground": "oklch(0.202 0.017 66.6)",
+    "primary": "oklch(0.521 0.090 114.6)",
+    "primary-foreground": "oklch(0.945 0.028 93.8)",
+    "secondary": "oklch(0.902 0.039 95.9)",
+    "secondary-foreground": "oklch(0.359 0.061 112.9)",
+    "muted": "oklch(0.902 0.039 95.9)",
+    "muted-foreground": "oklch(0.581 0.067 93.4)",
+    "accent": "oklch(0.712 0.117 81.3)",
+    "accent-foreground": "oklch(0.202 0.017 66.6)",
+    "destructive": "oklch(0.442 0.125 24.9)",
+    "border": "oklch(0.851 0.039 86.9)",
+    "input": "oklch(0.851 0.039 86.9)",
+    "ring": "oklch(0.712 0.117 81.3)",
+    "chart-1": "oklch(0.521 0.090 114.6)",
+    "chart-2": "oklch(0.712 0.117 81.3)",
+    "chart-3": "oklch(0.521 0.082 62.4)",
+    "chart-4": "oklch(0.812 0.101 87.7)",
+    "chart-5": "oklch(0.359 0.061 112.9)",
+    "sidebar": "oklch(0.902 0.039 95.9)",
+    "sidebar-foreground": "oklch(0.202 0.017 66.6)",
+    "sidebar-primary": "oklch(0.521 0.090 114.6)",
+    "sidebar-primary-foreground": "oklch(0.945 0.028 93.8)",
+    "sidebar-accent": "oklch(0.812 0.101 87.7)",
+    "sidebar-accent-foreground": "oklch(0.202 0.017 66.6)",
+    "sidebar-border": "oklch(0.851 0.039 86.9)",
+    "sidebar-ring": "oklch(0.712 0.117 81.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.176 0.017 124.8)",
+    "foreground": "oklch(0.945 0.028 93.8)",
+    "card": "oklch(0.202 0.017 66.6)",
+    "card-foreground": "oklch(0.945 0.028 93.8)",
+    "popover": "oklch(0.253 0.023 104.2)",
+    "popover-foreground": "oklch(0.945 0.028 93.8)",
+    "primary": "oklch(0.689 0.109 107.7)",
+    "primary-foreground": "oklch(0.176 0.017 124.8)",
+    "secondary": "oklch(0.308 0.021 82.6)",
+    "secondary-foreground": "oklch(0.945 0.028 93.8)",
+    "muted": "oklch(0.308 0.021 82.6)",
+    "muted-foreground": "oklch(0.818 0.031 90.4)",
+    "accent": "oklch(0.712 0.117 81.3)",
+    "accent-foreground": "oklch(0.176 0.017 124.8)",
+    "destructive": "oklch(0.442 0.125 24.9)",
+    "border": "oklch(0.945 0.028 93.8 / 14%)",
+    "input": "oklch(0.945 0.028 93.8 / 18%)",
+    "ring": "oklch(0.712 0.117 81.3)",
+    "chart-1": "oklch(0.689 0.109 107.7)",
+    "chart-2": "oklch(0.712 0.117 81.3)",
+    "chart-3": "oklch(0.521 0.082 62.4)",
+    "chart-4": "oklch(0.812 0.101 87.7)",
+    "chart-5": "oklch(0.818 0.031 90.4)",
+    "sidebar": "oklch(0.202 0.017 66.6)",
+    "sidebar-foreground": "oklch(0.945 0.028 93.8)",
+    "sidebar-primary": "oklch(0.689 0.109 107.7)",
+    "sidebar-primary-foreground": "oklch(0.176 0.017 124.8)",
+    "sidebar-accent": "oklch(0.359 0.061 112.9)",
+    "sidebar-accent-foreground": "oklch(0.945 0.028 93.8)",
+    "sidebar-border": "oklch(0.945 0.028 93.8 / 14%)",
+    "sidebar-ring": "oklch(0.712 0.117 81.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter or Geist for dense issue tracking UI with Noto Sans JP guidance for Japanese labels, tabular issue counts, compact headings, and fast triage scanning.",
+  "layout": "Precise 8px grid, 8px radii, porous-stem dot texture, slick cap highlight accents, leaf-litter dividers, compact navigation, issue tables, kanban states, and restrained earth-toned shadows.",
+  "tags": [
+    "stinkhorn",
+    "fungi",
+    "leaf litter",
+    "olive cap",
+    "cream stem",
+    "issue tracker",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-stinkhorn/motif.png",
+    "board": "/systems/morphous-stinkhorn/design-system-light.png",
+    "darkBoard": "/systems/morphous-stinkhorn/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-stinkhorn/theme.css",
+    "themeJson": "/systems/morphous-stinkhorn/theme.json",
+    "promptsJson": "/systems/morphous-stinkhorn/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Stinkhorn motif",
+      "asset": "/systems/morphous-stinkhorn/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated stinkhorn fungus for a design-system catalog, no environment, no text.\nSubject: Stinkhorn fungus fruiting body with accurate natural form: tall cream-white porous spongy stem, olive-brown slimy cap/gleba, subtle ochre-brown cap shadows, pale cream highlights, earthy leaf-litter-brown undertones at the base, crisp silhouette edges, tactile fungal texture. Show one complete upright fruiting body with a small rounded base so the olive cap and cream stem are both clear.\nComposition/framing: centered complete cutout with generous padding; do not crop the cap, stem, or base.\nLighting/mood: clean studio light that preserves olive cap, cream stem, and warm leaf-brown fungal detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no soil bed, no moss mat, no insects, no second mushroom, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-stinkhorn/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-stinkhorn/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Stinkhorn\" / \"Stinkhorn\" derived from the stinkhorn fungus motif visible in this conversation.\nReference use: Use the transparent stinkhorn image as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the olive-brown slimy gleba cap, cream porous stem, warm leaf-litter browns, and deep earthy shadows. Use only motif-derived colors plus near-neutrals visible in the mushroom and leaf-litter context.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Stinkhorn\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data issue metrics, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nTypography: English issue-tracker UI guidance and Japanese UI guidance with short examples; use modern sans product typography, clear numeric alignment.\nStyle/medium: premium shadcn/tweakcn-compatible bold issue tracker system, precise grid, crisp product UI mockup, utilitarian but distinctive, 8px radii everywhere, porous-stem dot texture, slick olive cap highlights, leaf-litter divider rhythm, restrained earth shadows.\nColor palette: olive cap primary, deep olive ink, cream stem surfaces, leaf-litter brown secondary, ochre highlight, spore beige muted areas, warm fungal shadow, dark humus text. No unrelated colors.\nUI coverage details: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, issue list, kanban columns, table, command palette, search field, sidebar navigation, top nav, bug/issue KPI cards, burndown chart, loading/empty/error states, spacing/radius/shadow token swatches.\nText: short readable UI labels only; no paragraphs. Suggested labels: Issues, Backlog, Sprint, Triage, Search, Status, Priority, Assignee, Open, Blocked, Fixed.\nConstraints: no generic purple or blue gradients, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout, no rounded radii above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-stinkhorn/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-stinkhorn/motif.png",
+        "/systems/morphous-stinkhorn/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Stinkhorn\" / \"Stinkhorn\". It must feel like the same bold issue tracker system translated from the light board visible in this conversation, not a new theme.\nReference use: Use the transparent stinkhorn motif and the light-mode board visible in this conversation as references. Preserve motif-derived palette roles, porous-stem dot texture, slick olive cap highlights, leaf-litter divider rhythm, 8px radii, issue-tracker layout, component language, spacing, and typography guidance.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Stinkhorn\", Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data issue metrics, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nVisual details: dark background derived from deepest humus and olive cap shadows; text from cream stem and spore beige highlights; olive primary, ochre focus, leaf-brown secondary, fungal cream surfaces, mossy muted states, and browned destructive state only. Use subtle porous-stem dot texture and slick gleba specular details inside token swatches.\nUI coverage details: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, issue list, kanban columns, table, command palette panel labeled \"Command / Search\", search field, sidebar navigation, top nav, bug/issue KPI cards, burndown chart, loading/empty/error states, spacing/radius/shadow token swatches.\nTypography: English issue-tracker UI guidance and Japanese UI guidance with short examples; modern sans product typography, clear numeric alignment.\nStyle/medium: premium shadcn/tweakcn-compatible bold issue tracker design system, precise grid, crisp dark UI mockup, utilitarian but distinctive, 8px radii everywhere.\nText: short readable UI labels only; no paragraphs. Suggested labels: Issues, Backlog, Sprint, Triage, Search, Command, Status, Priority, Assignee, Open, Blocked, Fixed.\nConstraints: no neon colors, no generic purple or blue gradients, no pure black flat background, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout, no rounded radii above 8px."
+    }
+  ]
+}

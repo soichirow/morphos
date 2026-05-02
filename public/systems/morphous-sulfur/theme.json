@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-sulfur",
+    "name": "Morphous Sulfur",
+    "motifName": "Sulfur",
+    "motifCategory": "mineral",
+    "biome": "Volcanic Fumarole",
+    "motif": "sulfur crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Vapor White",
+      "hex": "#fafaf6",
+      "oklch": "oklch(0.984 0.005 106.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Volcanic Ink",
+      "hex": "#1a1a1a",
+      "oklch": "oklch(0.218 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sulfur Core",
+      "hex": "#f5e100",
+      "oklch": "oklch(0.898 0.189 103.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Crystal Edge",
+      "hex": "#fff26a",
+      "oklch": "oklch(0.946 0.156 103.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Grey",
+      "hex": "#b8b8bc",
+      "oklch": "oklch(0.784 0.006 286.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fumarole Mist",
+      "hex": "#e7eaee",
+      "oklch": "oklch(0.936 0.006 255.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warning Amber",
+      "hex": "#ffb300",
+      "oklch": "oklch(0.818 0.171 77.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Char Dust",
+      "hex": "#585d63",
+      "oklch": "oklch(0.476 0.012 252.9)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Basalt Black",
+      "hex": "#0d0f12",
+      "oklch": "oklch(0.168 0.007 258.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.005 106.5)",
+    "foreground": "oklch(0.218 0.000 89.9)",
+    "card": "oklch(0.936 0.006 255.5)",
+    "card-foreground": "oklch(0.218 0.000 89.9)",
+    "popover": "oklch(0.936 0.006 255.5)",
+    "popover-foreground": "oklch(0.218 0.000 89.9)",
+    "primary": "oklch(0.898 0.189 103.0)",
+    "primary-foreground": "oklch(0.984 0.005 106.5)",
+    "secondary": "oklch(0.957 0.002 197.1)",
+    "secondary-foreground": "oklch(0.476 0.012 252.9)",
+    "muted": "oklch(0.948 0.003 247.9)",
+    "muted-foreground": "oklch(0.476 0.012 252.9)",
+    "accent": "oklch(0.784 0.006 286.3)",
+    "accent-foreground": "oklch(0.218 0.000 89.9)",
+    "destructive": "oklch(0.898 0.189 103.0)",
+    "border": "oklch(0.882 0.006 264.5)",
+    "input": "oklch(0.882 0.006 264.5)",
+    "ring": "oklch(0.946 0.156 103.9)",
+    "chart-1": "oklch(0.898 0.189 103.0)",
+    "chart-2": "oklch(0.946 0.156 103.9)",
+    "chart-3": "oklch(0.784 0.006 286.3)",
+    "chart-4": "oklch(0.818 0.171 77.9)",
+    "chart-5": "oklch(0.476 0.012 252.9)",
+    "sidebar": "oklch(0.951 0.003 247.9)",
+    "sidebar-foreground": "oklch(0.218 0.000 89.9)",
+    "sidebar-primary": "oklch(0.898 0.189 103.0)",
+    "sidebar-primary-foreground": "oklch(0.984 0.005 106.5)",
+    "sidebar-accent": "oklch(0.928 0.032 107.0)",
+    "sidebar-accent-foreground": "oklch(0.898 0.189 103.0)",
+    "sidebar-border": "oklch(0.882 0.006 264.5)",
+    "sidebar-ring": "oklch(0.946 0.156 103.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.218 0.000 89.9)",
+    "foreground": "oklch(0.984 0.005 106.5)",
+    "card": "oklch(0.393 0.008 255.5)",
+    "card-foreground": "oklch(0.984 0.005 106.5)",
+    "popover": "oklch(0.393 0.008 255.5)",
+    "popover-foreground": "oklch(0.984 0.005 106.5)",
+    "primary": "oklch(0.946 0.156 103.9)",
+    "primary-foreground": "oklch(0.218 0.000 89.9)",
+    "secondary": "oklch(0.547 0.011 258.4)",
+    "secondary-foreground": "oklch(0.984 0.005 106.5)",
+    "muted": "oklch(0.547 0.011 258.4)",
+    "muted-foreground": "oklch(0.894 0.000 89.9)",
+    "accent": "oklch(0.784 0.006 286.3)",
+    "accent-foreground": "oklch(0.218 0.000 89.9)",
+    "destructive": "oklch(0.898 0.189 103.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.946 0.156 103.9)",
+    "chart-1": "oklch(0.946 0.156 103.9)",
+    "chart-2": "oklch(0.898 0.189 103.0)",
+    "chart-3": "oklch(0.784 0.006 286.3)",
+    "chart-4": "oklch(0.818 0.171 77.9)",
+    "chart-5": "oklch(0.784 0.006 286.3)",
+    "sidebar": "oklch(0.344 0.006 258.3)",
+    "sidebar-foreground": "oklch(0.984 0.005 106.5)",
+    "sidebar-primary": "oklch(0.946 0.156 103.9)",
+    "sidebar-primary-foreground": "oklch(0.218 0.000 89.9)",
+    "sidebar-accent": "oklch(0.547 0.011 258.4)",
+    "sidebar-accent-foreground": "oklch(0.984 0.005 106.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.946 0.156 103.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "High-clarity product UI typography with tabular incident numerals and Japanese guidance tuned for scanning, escalation, and response workflows.",
+  "layout": "Compact 8px operational grids, angular crystal-edge panels, high-contrast alert hierarchy, clear dashboard lanes, and subtle fumarole vapor texture.",
+  "tags": [
+    "sulfur",
+    "mineral",
+    "volcanic-fumarole",
+    "incident-system",
+    "bright-yellow",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-sulfur/motif.png",
+    "board": "/systems/morphous-sulfur/design-system-light.png",
+    "darkBoard": "/systems/morphous-sulfur/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sulfur/theme.css",
+    "themeJson": "/systems/morphous-sulfur/theme.json",
+    "promptsJson": "/systems/morphous-sulfur/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent sulfur crystal motif",
+      "asset": "/systems/morphous-sulfur/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Sulfur transparent motif chroma-key source\nPrimary request: Create only a sulfur crystal mineral motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A natural sulfur crystal cluster from a volcanic fumarole, with bright canary-yellow orthorhombic crystals, chalky ash-grey mineral crust, small porous volcanic matrix fragments, subtle vapor-etched surfaces, sharp faceted crystal points, and safety-alert visual character. Geological accuracy, alert incident system identity, no jewelry or fantasy object.\nComposition/framing: centered complete cutout with generous padding; include full crystal mass without cropping. Clean studio lighting that preserves sulfur's waxy yellow translucency and granular ash crust; no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no fire flames, no lava flow, no people, no respirator, no warning symbol printed on the crystal, no landscape, no text, no watermark, no loose gemstones, no other minerals dominating."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-sulfur/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sulfur light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Sulfur\", derived from a sulfur crystal motif. This board is a source reference for a shadcn/tweakcn-compatible alert incident system UI theme.\nCanvas: 3840x2160 wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Sulfur, Sulfur Crystal, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from bright canary-yellow sulfur crystals, ash grey volcanic crust, pale fumarole vapor, dark volcanic glass, oxidized warning amber, and chalky mineral dust. The board must read as sulfur crystal at a volcanic fumarole, not generic construction signage or cyberpunk.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Incident Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, incident dashboard metric cards, severity timeline, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple alert icons.\nStyle: alert incident system, shadcn/tweakcn-style product UI, 8px radius with angular crystal cuts, warm off-white vapor background, bright sulfur yellow primary actions, ash-grey panels, charcoal volcanic text, caution amber accents, precise grid, subtle mineral grain and vapor texture, accessible high contrast.\nPalette names to show: Vapor White, Volcanic Ink, Sulfur Core, Crystal Edge, Ash Grey, Fumarole Mist, Warning Amber, Char Dust, Basalt Black.\nConstraints: no flames, no lava dominance, no biohazard symbol, no generic yellow-black stripe overload, no neon green, no purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Sulfur\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-sulfur/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Sulfur dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Sulfur\". It must feel like the light-mode board translated to dark mode and remain derived from the sulfur crystal motif.\nCanvas: 3840x2160 wide 16:9 high-resolution board, clean professional UI design-system presentation.\nRequired visible sections: Morphous Sulfur, Sulfur Crystal, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve bright sulfur yellow active states, ash-grey crust surfaces, pale fumarole vapor text, charcoal volcanic panels, warning amber severity, and precise 8px shadcn/tweakcn grid. Must read as sulfur crystals at a volcanic fumarole, not generic construction signage or cyberpunk.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Incident Notes. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, incident dashboard metric cards, severity timeline, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple alert icons.\nVisual details: basalt black and volcanic ink backgrounds, ash-grey cards, vapor-white foreground text, sulfur-core buttons, crystal-edge highlights, amber warnings, charcoal borders, subtle fumarole vapor and mineral grain texture, urgent operational tone, accessible contrast.\nPalette names to show: Vapor White, Volcanic Ink, Sulfur Core, Crystal Edge, Ash Grey, Fumarole Mist, Warning Amber, Char Dust, Basalt Black.\nConstraints: no flames, no lava dominance, no biohazard symbol, no generic yellow-black stripe overload, no neon green, no pure-black-only flat background, no purple/blue gradients, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Sulfur\"."
+    }
+  ]
+}

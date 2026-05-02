@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-squirrel",
+    "name": "Morphous Squirrel",
+    "motifName": "Squirrel",
+    "motifCategory": "mammal",
+    "biome": "oak park",
+    "motif": "squirrel tail"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Park Fog",
+      "hex": "#f1ece2",
+      "oklch": "oklch(0.944 0.014 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Brown",
+      "hex": "#241810",
+      "oklch": "oklch(0.222 0.024 54.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Acorn Tan",
+      "hex": "#c8954f",
+      "oklch": "oklch(0.705 0.107 73.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cream Belly",
+      "hex": "#ead7b6",
+      "oklch": "oklch(0.886 0.049 81.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Oak Olive",
+      "hex": "#56643a",
+      "oklch": "oklch(0.480 0.065 123.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Muted",
+      "hex": "#8a906c",
+      "oklch": "oklch(0.639 0.052 115.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fur Grey Brown",
+      "hex": "#7a6757",
+      "oklch": "oklch(0.528 0.034 62.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Umber",
+      "hex": "#3f2b1d",
+      "oklch": "oklch(0.309 0.038 55.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tail Charcoal",
+      "hex": "#2d2b28",
+      "oklch": "oklch(0.290 0.006 78.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.944 0.014 84.6)",
+    "foreground": "oklch(0.222 0.024 54.8)",
+    "card": "oklch(0.528 0.034 62.1)",
+    "card-foreground": "oklch(0.222 0.024 54.8)",
+    "popover": "oklch(0.528 0.034 62.1)",
+    "popover-foreground": "oklch(0.222 0.024 54.8)",
+    "primary": "oklch(0.705 0.107 73.2)",
+    "primary-foreground": "oklch(0.944 0.014 84.6)",
+    "secondary": "oklch(0.710 0.025 69.5)",
+    "secondary-foreground": "oklch(0.290 0.006 78.2)",
+    "muted": "oklch(0.649 0.027 65.4)",
+    "muted-foreground": "oklch(0.290 0.006 78.2)",
+    "accent": "oklch(0.480 0.065 123.9)",
+    "accent-foreground": "oklch(0.222 0.024 54.8)",
+    "destructive": "oklch(0.705 0.107 73.2)",
+    "border": "oklch(0.661 0.039 71.2)",
+    "input": "oklch(0.661 0.039 71.2)",
+    "ring": "oklch(0.886 0.049 81.5)",
+    "chart-1": "oklch(0.705 0.107 73.2)",
+    "chart-2": "oklch(0.886 0.049 81.5)",
+    "chart-3": "oklch(0.480 0.065 123.9)",
+    "chart-4": "oklch(0.639 0.052 115.6)",
+    "chart-5": "oklch(0.290 0.006 78.2)",
+    "sidebar": "oklch(0.675 0.026 67.4)",
+    "sidebar-foreground": "oklch(0.222 0.024 54.8)",
+    "sidebar-primary": "oklch(0.705 0.107 73.2)",
+    "sidebar-primary-foreground": "oklch(0.944 0.014 84.6)",
+    "sidebar-accent": "oklch(0.550 0.044 68.0)",
+    "sidebar-accent-foreground": "oklch(0.705 0.107 73.2)",
+    "sidebar-border": "oklch(0.661 0.039 71.2)",
+    "sidebar-ring": "oklch(0.886 0.049 81.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.024 54.8)",
+    "foreground": "oklch(0.944 0.014 84.6)",
+    "card": "oklch(0.268 0.012 67.3)",
+    "card-foreground": "oklch(0.944 0.014 84.6)",
+    "popover": "oklch(0.268 0.012 67.3)",
+    "popover-foreground": "oklch(0.944 0.014 84.6)",
+    "primary": "oklch(0.886 0.049 81.5)",
+    "primary-foreground": "oklch(0.222 0.024 54.8)",
+    "secondary": "oklch(0.438 0.018 80.6)",
+    "secondary-foreground": "oklch(0.944 0.014 84.6)",
+    "muted": "oklch(0.438 0.018 80.6)",
+    "muted-foreground": "oklch(0.919 0.030 83.6)",
+    "accent": "oklch(0.480 0.065 123.9)",
+    "accent-foreground": "oklch(0.222 0.024 54.8)",
+    "destructive": "oklch(0.705 0.107 73.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.886 0.049 81.5)",
+    "chart-1": "oklch(0.886 0.049 81.5)",
+    "chart-2": "oklch(0.705 0.107 73.2)",
+    "chart-3": "oklch(0.480 0.065 123.9)",
+    "chart-4": "oklch(0.639 0.052 115.6)",
+    "chart-5": "oklch(0.886 0.049 81.5)",
+    "sidebar": "oklch(0.254 0.015 62.7)",
+    "sidebar-foreground": "oklch(0.944 0.014 84.6)",
+    "sidebar-primary": "oklch(0.886 0.049 81.5)",
+    "sidebar-primary-foreground": "oklch(0.222 0.024 54.8)",
+    "sidebar-accent": "oklch(0.438 0.018 80.6)",
+    "sidebar-accent-foreground": "oklch(0.944 0.014 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.886 0.049 81.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for dense English resource planning UI with Noto Sans JP guidance for compact Japanese labels, capacity metrics, allocation tables, and multilingual operational dashboards.",
+  "layout": "Operational 8px grids, compact planning panels, 8px component radius, tail-fur dividers, oak-olive navigation, restrained shadows, and acorn-tan emphasis for capacity and allocation state.",
+  "tags": [
+    "squirrel",
+    "mammal",
+    "oak-park",
+    "resource-planning",
+    "grey-brown",
+    "acorn-tan",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-squirrel/motif.png",
+    "board": "/systems/morphous-squirrel/design-system-light.png",
+    "darkBoard": "/systems/morphous-squirrel/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-squirrel/theme.css",
+    "themeJson": "/systems/morphous-squirrel/theme.json",
+    "promptsJson": "/systems/morphous-squirrel/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent squirrel motif",
+      "asset": "/systems/morphous-squirrel/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a squirrel motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A grey-brown oak park squirrel with accurate natural anatomy, plush grey brown fur, warm acorn-tan belly highlights, alert dark eyes, small rounded ears, delicate paws, and an expressive large curled squirrel tail with soft fur texture. The motif should suggest oak park resourcefulness through the tail silhouette and natural acorn-tan accents, but include no props.\nComposition/framing: centered complete cutout with generous padding; full body visible from nose to paws to tail tip, not cropped. Slight three-quarter side pose, tail arcing upward behind the body as the dominant silhouette. Clean studio lighting that preserves natural grey-brown fur and tan detail. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no park scene, no branches, no leaves, no acorns, no props, no text, no watermark, no second subject, no stylized cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-squirrel/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Squirrel light-mode design-system board, final production asset\nPrimary request: Generate a true high-resolution 16:9 light-mode design-system board for a Morphous theme named \"Morphous Squirrel\", derived from the provided squirrel motif: grey brown fur, oversized curled squirrel tail, acorn tan belly highlights, oak park context, and a resource planning system product domain.\nResolution requirement: create a 3840x2160 style board, ultra-high-resolution source image, crisp readable labels, large UI panels, no tiny print. The final image must read as a 4K design-system board, not a thumbnail or compact poster.\nReference use: Use the squirrel motif visible in context as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif image. The board must visibly respect the motif colors: grey-brown fur, tail charcoal guard hairs, acorn tan, cream belly, bark umber, oak leaf olive, and warm park fog neutrals.\nCanvas: wide 16:9 board with a precise grid and generous section spacing.\nRequired visible sections: Morphous Squirrel, Squirrel, Palette, Typography, Japanese Typography, Components, Navigation, Resource Dashboard, Capacity Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nTypography: English resource planning UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, capacity bar chart, allocation line chart, planning status chips, empty/loading/error states, spacing scale, radius scale, border, shadow, texture samples, simple icons.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, quiet operational SaaS interface for resource planning, 8px card radius, warm fog background, crisp nut-brown primary actions, soft grey-brown cards, oak olive focus states, tail-fur texture bands, acorn-tan chart highlights, restrained shadows, dense but organized dashboard UI.\nColor palette: grey brown fur #7a6757, acorn tan #c8954f, cream belly #ead7b6, bark umber #3f2b1d, oak leaf olive #56643a, park fog #f1ece2, tail charcoal #2d2b28, twig taupe #a6937c, moss muted #8a906c.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon colors, no cartoon mascot UI, no stock landing page hero, no watermark, no random brand names, no misspelling of \"Morphous Squirrel\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-squirrel/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Squirrel dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Squirrel\". It must feel like the same light-mode squirrel resource planning system translated to dark mode, not a new theme, and it must remain derived from grey-brown squirrel fur, acorn tan highlights, curled tail texture, oak park context, and resource planning product UI.\nReference use: Use the provided squirrel motif and the light-mode Morphous Squirrel board visible in context as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, resource dashboard semantics, and operational SaaS density.\nCanvas: wide 16:9 high-resolution design-system board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Squirrel, Squirrel, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Resource Dashboard, Capacity Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nTypography: English resource planning UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, capacity bar chart, allocation line chart, planning status chips, empty/loading/error states, spacing scale, radius scale, border, shadow, texture samples, simple icons.\nVisual details: deep tail-charcoal background, bark-umber cards, cream-belly foreground text, acorn-tan primary controls and chart highlights, grey-brown surfaces, oak-olive focus rings and sidebars, subtle tail-fur texture overlays, restrained contrast, crisp shadcn/tweakcn components, 8px grid, 8px card radius.\nColor palette: tail charcoal #1f1d1b, ink brown #241810, bark umber #3f2b1d, fur grey brown #7a6757, acorn tan #c8954f, cream belly #ead7b6, oak olive #56643a, moss muted #8a906c, park fog #f1ece2.\nText: short readable UI labels only; avoid long paragraphs.\nConstraints: no neon colors, no generic purple or blue gradients, no pure-black-only flat background, no cartoon mascot UI, no unrelated saturated colors, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Squirrel\"."
+    }
+  ]
+}

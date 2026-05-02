@@ -1,0 +1,102 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 291,
+  "slug": "morphous-swallowtail",
+  "name": "Morphous Swallowtail",
+  "motifName": "Swallowtail Butterfly",
+  "motifCategory": "insect",
+  "biome": "Garden Meadow",
+  "motif": "swallowtail wing",
+  "description": "A shadcn/tweakcn-compatible graceful portfolio system derived from a swallowtail butterfly: luminous yellow action color, deep black wing structure, blue eyespot focus states, olive meadow support, cream scale surfaces, and precise 8px component geometry.",
+  "typography": "Geist for refined portfolio and product UI, with Noto Sans JP guidance for Japanese headings, body copy, labels, and status text.",
+  "layout": "An 8px-grid interface with swallowtail wing-panel composition, black vein dividers, blue eyespot focus details, garden-meadow support states, compact portfolio dashboards, and restrained data surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "swallowtail",
+    "butterfly",
+    "insect",
+    "garden meadow",
+    "portfolio",
+    "yellow",
+    "black",
+    "blue spot",
+    "green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Garden Paper",
+      "hex": "#fff8df"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Ink",
+      "hex": "#101010"
+    },
+    {
+      "role": "Primary",
+      "name": "Swallowtail Yellow",
+      "hex": "#F7D663"
+    },
+    {
+      "role": "Secondary",
+      "name": "Meadow Green",
+      "hex": "#4F7A3A"
+    },
+    {
+      "role": "Accent",
+      "name": "Eyespot Blue",
+      "hex": "#2E5FA7"
+    },
+    {
+      "role": "Signal",
+      "name": "Scale Cream",
+      "hex": "#f8f090"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Wing Paper",
+      "hex": "#f5e8b8"
+    },
+    {
+      "role": "Muted",
+      "name": "Wing Vein Brown",
+      "hex": "#403020"
+    },
+    {
+      "role": "Depth",
+      "name": "Olive Shadow",
+      "hex": "#282810"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

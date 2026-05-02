@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tidepool",
+    "name": "Morphous Tidepool",
+    "motifName": "Tidepool",
+    "motifCategory": "landscape",
+    "biome": "Rocky Coast",
+    "motif": "tidepool ecosystem"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#f7f4ea",
+      "oklch": "oklch(0.967 0.014 93.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam Glass",
+      "hex": "#eef8f5",
+      "oklch": "oklch(0.971 0.011 176.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Tidepool Teal",
+      "hex": "#0f8f8c",
+      "oklch": "oklch(0.589 0.099 192.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shallow Water",
+      "hex": "#7bc8c0",
+      "oklch": "oklch(0.781 0.077 187.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Starfish Orange",
+      "hex": "#e9783d",
+      "oklch": "oklch(0.692 0.157 46.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Kelp Olive",
+      "hex": "#6f7f3f",
+      "oklch": "oklch(0.568 0.091 120.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Wet Rock Grey",
+      "hex": "#8b9491",
+      "oklch": "oklch(0.658 0.011 174.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Coastal Mist",
+      "hex": "#c9d2cf",
+      "oklch": "oklch(0.856 0.011 174.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt Slate",
+      "hex": "#263433",
+      "oklch": "oklch(0.312 0.019 190.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pool Ink",
+      "hex": "#102322",
+      "oklch": "oklch(0.240 0.025 191.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.967 0.014 93.0)",
+    "foreground": "oklch(0.240 0.025 191.3)",
+    "card": "oklch(0.971 0.011 176.3)",
+    "card-foreground": "oklch(0.240 0.025 191.3)",
+    "popover": "oklch(0.971 0.011 176.3)",
+    "popover-foreground": "oklch(0.240 0.025 191.3)",
+    "primary": "oklch(0.589 0.099 192.1)",
+    "primary-foreground": "oklch(0.967 0.014 93.0)",
+    "secondary": "oklch(0.968 0.009 134.9)",
+    "secondary-foreground": "oklch(0.312 0.019 190.8)",
+    "muted": "oklch(0.970 0.009 150.7)",
+    "muted-foreground": "oklch(0.312 0.019 190.8)",
+    "accent": "oklch(0.692 0.157 46.0)",
+    "accent-foreground": "oklch(0.240 0.025 191.3)",
+    "destructive": "oklch(0.589 0.099 192.1)",
+    "border": "oklch(0.929 0.010 174.3)",
+    "input": "oklch(0.929 0.010 174.3)",
+    "ring": "oklch(0.781 0.077 187.3)",
+    "chart-1": "oklch(0.589 0.099 192.1)",
+    "chart-2": "oklch(0.781 0.077 187.3)",
+    "chart-3": "oklch(0.692 0.157 46.0)",
+    "chart-4": "oklch(0.568 0.091 120.9)",
+    "chart-5": "oklch(0.312 0.019 190.8)",
+    "sidebar": "oklch(0.970 0.010 145.5)",
+    "sidebar-foreground": "oklch(0.240 0.025 191.3)",
+    "sidebar-primary": "oklch(0.589 0.099 192.1)",
+    "sidebar-primary-foreground": "oklch(0.967 0.014 93.0)",
+    "sidebar-accent": "oklch(0.922 0.026 187.6)",
+    "sidebar-accent-foreground": "oklch(0.589 0.099 192.1)",
+    "sidebar-border": "oklch(0.929 0.010 174.3)",
+    "sidebar-ring": "oklch(0.781 0.077 187.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.240 0.025 191.3)",
+    "foreground": "oklch(0.967 0.014 93.0)",
+    "card": "oklch(0.287 0.020 190.9)",
+    "card-foreground": "oklch(0.967 0.014 93.0)",
+    "popover": "oklch(0.287 0.020 190.9)",
+    "popover-foreground": "oklch(0.967 0.014 93.0)",
+    "primary": "oklch(0.781 0.077 187.3)",
+    "primary-foreground": "oklch(0.240 0.025 191.3)",
+    "secondary": "oklch(0.445 0.017 185.4)",
+    "secondary-foreground": "oklch(0.967 0.014 93.0)",
+    "muted": "oklch(0.445 0.017 185.4)",
+    "muted-foreground": "oklch(0.918 0.010 125.7)",
+    "accent": "oklch(0.692 0.157 46.0)",
+    "accent-foreground": "oklch(0.240 0.025 191.3)",
+    "destructive": "oklch(0.589 0.099 192.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.781 0.077 187.3)",
+    "chart-1": "oklch(0.781 0.077 187.3)",
+    "chart-2": "oklch(0.589 0.099 192.1)",
+    "chart-3": "oklch(0.692 0.157 46.0)",
+    "chart-4": "oklch(0.568 0.091 120.9)",
+    "chart-5": "oklch(0.856 0.011 174.2)",
+    "sidebar": "oklch(0.274 0.023 191.3)",
+    "sidebar-foreground": "oklch(0.967 0.014 93.0)",
+    "sidebar-primary": "oklch(0.781 0.077 187.3)",
+    "sidebar-primary-foreground": "oklch(0.240 0.025 191.3)",
+    "sidebar-accent": "oklch(0.445 0.017 185.4)",
+    "sidebar-accent-foreground": "oklch(0.967 0.014 93.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.781 0.077 187.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for exploratory catalog UI, stable tabular numbers for observations and transects, and Noto Sans JP guidance for Japanese labels, field notes, and specimen metadata.",
+  "layout": "Dense 8px fieldwork grids, compact specimen cards, tide-chart panels, wet-rock dividers, shallow-water texture bands, and restrained 8px cards for repeated catalog scanning.",
+  "tags": [
+    "tidepool",
+    "landscape",
+    "rocky-coast",
+    "teal-water",
+    "starfish-orange",
+    "exploratory-catalog",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tidepool/motif.png",
+    "board": "/systems/morphous-tidepool/design-system-light.png",
+    "darkBoard": "/systems/morphous-tidepool/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tidepool/theme.css",
+    "themeJson": "/systems/morphous-tidepool/theme.json",
+    "promptsJson": "/systems/morphous-tidepool/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Tidepool motif",
+      "asset": "/systems/morphous-tidepool/motif.png",
+      "prompt": "Use case: stylized-concept\nAsset type: Morphous catalog motif cutout source for transparent PNG\nPrimary request: Tidepool ecosystem motif for slug morphous-tidepool, name Tidepool; landscape category; rocky coast habitat; exploratory catalog system feel.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nSubject: an isolated compact rocky tidepool ecosystem seen in three-quarter top view: irregular grey coastal rock ring, clear teal water basin, orange starfish, small anemones, tiny shells, seaweed fronds, wet stone highlights, miniature ecosystem detail.\nComposition: centered single object, generous padding, full subject visible, crisp silhouette, no cast shadow, no contact shadow, no reflection on the background.\nPalette: teal water, orange starfish, cool grey rock, muted seaweed olive, shell off-white.\nStyle: polished dimensional catalog illustration, tactile natural textures, high-detail but clean edges, premium design-system source asset.\nAvoid: text, labels, watermark, frame, extra background scenery, sand beach, people, boats, fish, #ff00ff anywhere in the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-tidepool/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tidepool light-mode design-system board, final source asset for /systems/morphous-tidepool/design-system-light.png\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Tidepool\", category landscape, habitat rocky coast, motif tidepool ecosystem, system feel exploratory catalog system.\nCanvas: exact wide 16:9 composition intended for 3840x2160 output; clean professional design-system board; large readable labels; no tiny paragraphs; dense but scannable.\nRequired visible sections: Morphous Tidepool, Tidepool Ecosystem, Palette, Typography, Japanese Typography, Components, Navigation, Exploration Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: derive color and component language from a rocky coastal tidepool: clear teal water basin, orange starfish, cool grey wet rocks, olive seaweed, off-white shells, anemone dots, wet stone highlights, and shallow-water contours. The board must read as tidepool ecosystem, not aquarium, tropical reef, swimming pool, or generic ocean.\nTypography: English exploratory catalog UI examples with Japanese typography guidance; include labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use catalog, specimen, observation, transect, habitat, and field-note labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, specimen tiles, observation metric cards, tide chart cards, habitat filter panels, table rows, logbook list, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, donut chart, empty/loading/error states, progress, stepper, date picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: exploratory catalog system, precise 8px grid and 8px card radius, shell-white and misty-water surfaces, tidepool teal primary actions, orange starfish accent states, wet rock grey borders, olive seaweed success states, subtle water-ripple texture and wet-stone speckle overlays, calm scientific fieldwork polish, shadcn/tweakcn component language.\nPalette: teal water, orange starfish, cool grey rock, olive seaweed, off-white shell, dark slate ink.\nConstraints: no generic purple or blue gradients, no neon colors, no beige-only palette, no tropical coral reef dominance, no fish focus, no boats, no people, no brand logos, no watermark, no misspelling of \"Morphous Tidepool\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-tidepool/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tidepool dark-mode design-system board, final source asset for /systems/morphous-tidepool/design-system-dark.png\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Tidepool\" / \"Tidepool Ecosystem\". Translate the same light-mode exploratory catalog system into dark mode; do not invent a new unrelated theme.\nCanvas: exact wide 16:9 composition intended for 3840x2160 output; clean professional shadcn/tweakcn design-system board; large readable labels; no tiny paragraphs; dense but scannable.\nRequired visible sections: Morphous Tidepool, Tidepool Ecosystem, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Exploration Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: preserve the rocky coastal tidepool identity: luminous deep teal water, orange starfish accents, charcoal wet rocks, cool grey borders, olive seaweed success states, off-white shell text, anemone dots, wet stone highlights, shallow-water contours, and tidepool specimen catalog language. The board must read as tidepool ecosystem, not aquarium, tropical reef, swimming pool, generic ocean, or black-and-blue sci-fi UI.\nTypography: English exploratory catalog UI examples with Japanese typography guidance; include labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use catalog, specimen, observation, transect, habitat, and field-note labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, specimen cards, observation metrics, tide chart cards, habitat filters, observation table rows, line chart, bar chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, simple icon set.\nVisual details: deep wet-rock charcoal background, dark tidepool teal panels, luminous teal primary actions, starfish-orange warnings and active highlights, shell-white foreground text, kelp-olive secondary states, coastal grey dividers, subtle water-caustic texture, wet-stone speckle, thin contour-line separators, restrained contrast, crisp controls and dashboards, polished exploratory field catalog UI.\nPalette: deep water teal, tidepool teal, starfish orange, kelp olive, wet rock charcoal, coastal grey, shell white.\nConstraints: no neon cyberpunk, no generic black-and-orange gaming UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no tropical reef dominance, no fish focus, no boats, no people, no brand logos, no watermark, no misspelling of \"Morphous Tidepool\", no illegible microtext."
+    }
+  ]
+}

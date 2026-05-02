@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-termite-mound",
+    "name": "Morphous Termite Mound",
+    "motifName": "Termite Mound",
+    "motifCategory": "insect",
+    "biome": "Savanna",
+    "motif": "termite mound"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sun-Dried Paper",
+      "hex": "#F6E7D8",
+      "oklch": "oklch(0.936 0.026 67.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Warm Umber",
+      "hex": "#3A2A1F",
+      "oklch": "oklch(0.300 0.030 55.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clay Ochre",
+      "hex": "#C2642E",
+      "oklch": "oklch(0.605 0.137 47.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Terracotta Surface",
+      "hex": "#DE8A58",
+      "oklch": "oklch(0.711 0.122 50.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Blue",
+      "hex": "#78AED6",
+      "oklch": "oklch(0.728 0.081 241.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dry Grass",
+      "hex": "#D0B77A",
+      "oklch": "oklch(0.787 0.084 88.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Dust",
+      "hex": "#F1E6D6",
+      "oklch": "oklch(0.929 0.024 77.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Grey",
+      "hex": "#8E8E87",
+      "oklch": "oklch(0.645 0.010 106.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Clay Rim",
+      "hex": "#E8D6C6",
+      "oklch": "oklch(0.886 0.029 64.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mound Brown",
+      "hex": "#8E5A35",
+      "oklch": "oklch(0.517 0.086 55.0)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Vent Brown",
+      "hex": "#5C3A24",
+      "oklch": "oklch(0.383 0.059 53.0)"
+    },
+    {
+      "role": "Danger",
+      "name": "Heat Alarm",
+      "hex": "#C44536",
+      "oklch": "oklch(0.565 0.165 29.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.936 0.026 67.5)",
+    "foreground": "oklch(0.300 0.030 55.8)",
+    "card": "oklch(0.929 0.024 77.5)",
+    "card-foreground": "oklch(0.300 0.030 55.8)",
+    "popover": "oklch(0.929 0.024 77.5)",
+    "popover-foreground": "oklch(0.300 0.030 55.8)",
+    "primary": "oklch(0.605 0.137 47.7)",
+    "primary-foreground": "oklch(0.936 0.026 67.5)",
+    "secondary": "oklch(0.931 0.025 71.5)",
+    "secondary-foreground": "oklch(0.517 0.086 55.0)",
+    "muted": "oklch(0.930 0.024 73.6)",
+    "muted-foreground": "oklch(0.517 0.086 55.0)",
+    "accent": "oklch(0.728 0.081 241.3)",
+    "accent-foreground": "oklch(0.300 0.030 55.8)",
+    "destructive": "oklch(0.605 0.137 47.7)",
+    "border": "oklch(0.829 0.018 81.3)",
+    "input": "oklch(0.829 0.018 81.3)",
+    "ring": "oklch(0.711 0.122 50.5)",
+    "chart-1": "oklch(0.605 0.137 47.7)",
+    "chart-2": "oklch(0.711 0.122 50.5)",
+    "chart-3": "oklch(0.728 0.081 241.3)",
+    "chart-4": "oklch(0.787 0.084 88.1)",
+    "chart-5": "oklch(0.517 0.086 55.0)",
+    "sidebar": "oklch(0.931 0.025 71.5)",
+    "sidebar-foreground": "oklch(0.300 0.030 55.8)",
+    "sidebar-primary": "oklch(0.605 0.137 47.7)",
+    "sidebar-primary-foreground": "oklch(0.936 0.026 67.5)",
+    "sidebar-accent": "oklch(0.888 0.036 66.0)",
+    "sidebar-accent-foreground": "oklch(0.605 0.137 47.7)",
+    "sidebar-border": "oklch(0.829 0.018 81.3)",
+    "sidebar-ring": "oklch(0.711 0.122 50.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.300 0.030 55.8)",
+    "foreground": "oklch(0.936 0.026 67.5)",
+    "card": "oklch(0.446 0.067 55.7)",
+    "card-foreground": "oklch(0.936 0.026 67.5)",
+    "popover": "oklch(0.446 0.067 55.7)",
+    "popover-foreground": "oklch(0.936 0.026 67.5)",
+    "primary": "oklch(0.711 0.122 50.5)",
+    "primary-foreground": "oklch(0.300 0.030 55.8)",
+    "secondary": "oklch(0.542 0.069 56.9)",
+    "secondary-foreground": "oklch(0.936 0.026 67.5)",
+    "muted": "oklch(0.542 0.069 56.9)",
+    "muted-foreground": "oklch(0.808 0.018 76.1)",
+    "accent": "oklch(0.728 0.081 241.3)",
+    "accent-foreground": "oklch(0.300 0.030 55.8)",
+    "destructive": "oklch(0.605 0.137 47.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.711 0.122 50.5)",
+    "chart-1": "oklch(0.711 0.122 50.5)",
+    "chart-2": "oklch(0.605 0.137 47.7)",
+    "chart-3": "oklch(0.728 0.081 241.3)",
+    "chart-4": "oklch(0.787 0.084 88.1)",
+    "chart-5": "oklch(0.645 0.010 106.7)",
+    "sidebar": "oklch(0.404 0.058 55.2)",
+    "sidebar-foreground": "oklch(0.936 0.026 67.5)",
+    "sidebar-primary": "oklch(0.711 0.122 50.5)",
+    "sidebar-primary-foreground": "oklch(0.300 0.030 55.8)",
+    "sidebar-accent": "oklch(0.542 0.069 56.9)",
+    "sidebar-accent-foreground": "oklch(0.936 0.026 67.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.711 0.122 50.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact architectural monitoring and product UI, with Noto Sans JP guidance for Japanese headings, body copy, labels, status text, and station forms.",
+  "layout": "Precise 8px-grid monitoring panels, 8px-or-less component radii, vertical buttress rhythm, pitted-clay texture panels, sky observation focus states, compact tables, command search, dashboard metrics, and restrained field-station shadows.",
+  "tags": [
+    "termite mound",
+    "insect",
+    "savanna",
+    "architectural monitoring",
+    "clay ochre",
+    "dry grass",
+    "sky blue",
+    "pitted clay",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-termite-mound/motif.png",
+    "board": "/systems/morphous-termite-mound/design-system-light.png",
+    "darkBoard": "/systems/morphous-termite-mound/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-termite-mound/theme.css",
+    "themeJson": "/systems/morphous-termite-mound/theme.json",
+    "promptsJson": "/systems/morphous-termite-mound/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Termite Mound motif",
+      "asset": "/systems/morphous-termite-mound/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: Morphous Termite Mound transparent motif chroma-key source\nPrimary request: Create only an isolated termite mound for a design-system catalog, no landscape, no text.\nSubject: A realistic freestanding savanna termite mound with architectural buttresses, tapering chimneys, ventilation ridges, small pitted clay texture, eroded openings, dry ochre earthen surface, subtle clay shadow planes, accurate mound structure, crisp complete silhouette, no termites visible.\nComposition/framing: centered complete cutout with generous padding; show the entire mound from base to top without cropping. Three-quarter front view, stable architectural mass, suitable as a catalog motif.\nLighting/mood: clean studio light preserving terracotta clay, ochre, dry grass straw hints in tiny embedded fibers, pale dust highlights, and warm shadow detail.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #00ff00 anywhere in the subject. No cast shadow, no contact shadow, no reflection, no readable text, no watermark, no props, no animals, no insects, no horizon, no sky, no grass clumps, no second mound."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-termite-mound/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode Morphous design-system reference board\nPrimary request: Create one comprehensive 3840x2160 landscape design-system board for \"Morphous Termite Mound\" / \"Termite Mound\", an architectural monitoring system for shadcn/tweakcn implementation derived from the previously generated isolated termite mound motif.\nMotif source: realistic savanna termite mound with clay buttresses, ventilation chimneys, pitted earthen texture, ochre dust, dry grass fibers, and open cooling vents. Use only motif-derived colors plus near-neutrals from the motif and biome: clay ochre, terracotta, dry grass straw, pale dust, warm shadow umber, cooled sky blue, ash grey, deep vent brown.\nLayout: polished operational product design board, exact wide 16:9, large readable labels, dense but organized, no marketing hero. Light sun-dried clay background with architectural monitoring structure, ochre primary actions, sky-blue focus rings and charts, straw secondary surfaces, fine mound-ridge dividers, subtle pitted-clay texture. Keep every card, control, badge, tab, and input radius 8px or less.\nRequired visible sections and labels: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn buttons, icon buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, compact cards, table rows, command palette/search, sidebar navigation, breadcrumb, dashboard metrics, compact mound-vent temperature chart, humidity chart, loading state, empty state, error state, focus rings, token swatches, radius samples, spacing samples, shadow samples.\nTypography: English architectural monitoring/product UI using Geist-like sans; Japanese guidance using Noto Sans JP-like forms; include readable Japanese sample labels such as 見出し, 本文, 状態.\nStyle: savanna field architecture, quiet utilitarian monitoring system, precise grid, crisp hierarchy, tactile clay texture, vertical buttress rhythm, sky observation accents, field-station density without tiny text, motif-derived color chips named with termite-mound terms.\nConstraints: no unrelated purple gradients, no neon colors, no bright tropical palette, no stock brand logos, no random logos, no misspelled section labels, no tiny unreadable token tables, no termites as decorative subjects, no flowers, no pure beige-only theme, no card radius above 8px."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-termite-mound/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode Morphous design-system reference board\nPrimary request: Create one comprehensive 3840x2160 landscape dark-mode design-system board for \"Morphous Termite Mound\" / \"Termite Mound\", translated from the visible light board and the same isolated termite mound motif. It must feel like the same architectural monitoring system in dark mode, not a new theme.\nReference use: Use the visible termite mound motif and visible light design-system board as references. Preserve motif-derived palette roles, component language, navigation structure, dashboard/data layout, texture panels, spacing rhythm, Japanese typography coverage, and <=8px radius rule.\nMotif source: realistic savanna termite mound with clay buttresses, ventilation chimneys, pitted earthen texture, ochre dust, dry grass fibers, and open cooling vents. Use only motif-derived colors adapted for dark mode: deep vent brown, night clay umber, burnt terracotta, muted ochre, straw amber, ash grey, cooled sky blue highlights, pale dust text.\nLayout: polished operational product design board, exact wide 16:9, large readable labels, dense but organized, no marketing hero. Dark vent-brown / night-clay background with terracotta primary actions, cooled sky-blue focus rings and charts, ash-clay panels, fine mound-ridge dividers, subtle pitted-clay texture. Keep every card, control, badge, tab, and input radius 8px or less.\nRequired visible sections and labels: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn buttons, icon buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, compact cards, table rows, command palette/search, sidebar navigation, breadcrumb, dashboard metrics, compact mound-vent temperature chart, humidity chart, loading state, empty state, error state, focus rings, token swatches, radius samples, spacing samples, shadow samples.\nTypography: English architectural monitoring/product UI using Geist-like sans; Japanese guidance using Noto Sans JP-like forms; include readable Japanese sample labels such as 見出し, 本文, 状態.\nStyle: savanna field architecture at night, quiet utilitarian monitoring system, precise grid, crisp hierarchy, tactile clay texture, vertical buttress rhythm, sky observation accents, restrained contrast, motif-derived color chips named with termite-mound terms.\nConstraints: no unrelated purple gradients, no neon colors, no bright tropical palette, no stock brand logos, no random logos, no misspelled section labels, no tiny unreadable token tables, no termites as decorative subjects, no flowers, no flat pure black theme, no card radius above 8px."
+    }
+  ]
+}

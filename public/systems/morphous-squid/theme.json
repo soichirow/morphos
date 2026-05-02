@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-squid",
+    "name": "Morphous Squid",
+    "motifName": "Squid",
+    "motifCategory": "marine",
+    "biome": "Open Ocean",
+    "motif": "squid form"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Wake",
+      "hex": "#FAFBFF",
+      "oklch": "oklch(0.988 0.005 275.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#0B0F17",
+      "oklch": "oklch(0.168 0.018 263.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Signal Mauve",
+      "hex": "#C96A9A",
+      "oklch": "oklch(0.648 0.132 349.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Translucent Blue",
+      "hex": "#7FB3E6",
+      "oklch": "oklch(0.750 0.092 248.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Rose Chromatophore",
+      "hex": "#E49AAE",
+      "oklch": "oklch(0.765 0.092 1.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Pelagic",
+      "hex": "#0F1B2E",
+      "oklch": "oklch(0.222 0.041 259.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fin Glass",
+      "hex": "#CDE2F6",
+      "oklch": "oklch(0.903 0.035 246.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Sucker",
+      "hex": "#EDE5EE",
+      "oklch": "oklch(0.931 0.015 322.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Midnight Current",
+      "hex": "#17253A",
+      "oklch": "oklch(0.263 0.044 258.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.988 0.005 275.0)",
+    "foreground": "oklch(0.168 0.018 263.9)",
+    "card": "oklch(0.903 0.035 246.9)",
+    "card-foreground": "oklch(0.168 0.018 263.9)",
+    "popover": "oklch(0.903 0.035 246.9)",
+    "popover-foreground": "oklch(0.168 0.018 263.9)",
+    "primary": "oklch(0.648 0.132 349.8)",
+    "primary-foreground": "oklch(0.988 0.005 275.0)",
+    "secondary": "oklch(0.940 0.022 248.1)",
+    "secondary-foreground": "oklch(0.263 0.044 258.3)",
+    "muted": "oklch(0.928 0.027 249.9)",
+    "muted-foreground": "oklch(0.263 0.044 258.3)",
+    "accent": "oklch(0.765 0.092 1.8)",
+    "accent-foreground": "oklch(0.168 0.018 263.9)",
+    "destructive": "oklch(0.648 0.132 349.8)",
+    "border": "oklch(0.913 0.024 259.8)",
+    "input": "oklch(0.913 0.024 259.8)",
+    "ring": "oklch(0.750 0.092 248.7)",
+    "chart-1": "oklch(0.648 0.132 349.8)",
+    "chart-2": "oklch(0.750 0.092 248.7)",
+    "chart-3": "oklch(0.765 0.092 1.8)",
+    "chart-4": "oklch(0.222 0.041 259.3)",
+    "chart-5": "oklch(0.263 0.044 258.3)",
+    "sidebar": "oklch(0.933 0.025 246.2)",
+    "sidebar-foreground": "oklch(0.168 0.018 263.9)",
+    "sidebar-primary": "oklch(0.648 0.132 349.8)",
+    "sidebar-primary-foreground": "oklch(0.988 0.005 275.0)",
+    "sidebar-accent": "oklch(0.872 0.033 272.2)",
+    "sidebar-accent-foreground": "oklch(0.648 0.132 349.8)",
+    "sidebar-border": "oklch(0.913 0.024 259.8)",
+    "sidebar-ring": "oklch(0.750 0.092 248.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.168 0.018 263.9)",
+    "foreground": "oklch(0.988 0.005 275.0)",
+    "card": "oklch(0.233 0.035 257.7)",
+    "card-foreground": "oklch(0.988 0.005 275.0)",
+    "popover": "oklch(0.233 0.035 257.7)",
+    "popover-foreground": "oklch(0.988 0.005 275.0)",
+    "primary": "oklch(0.750 0.092 248.7)",
+    "primary-foreground": "oklch(0.168 0.018 263.9)",
+    "secondary": "oklch(0.427 0.034 265.1)",
+    "secondary-foreground": "oklch(0.988 0.005 275.0)",
+    "muted": "oklch(0.427 0.034 265.1)",
+    "muted-foreground": "oklch(0.962 0.009 308.4)",
+    "accent": "oklch(0.765 0.092 1.8)",
+    "accent-foreground": "oklch(0.168 0.018 263.9)",
+    "destructive": "oklch(0.648 0.132 349.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.750 0.092 248.7)",
+    "chart-1": "oklch(0.750 0.092 248.7)",
+    "chart-2": "oklch(0.648 0.132 349.8)",
+    "chart-3": "oklch(0.765 0.092 1.8)",
+    "chart-4": "oklch(0.222 0.041 259.3)",
+    "chart-5": "oklch(0.931 0.015 322.3)",
+    "sidebar": "oklch(0.213 0.030 261.3)",
+    "sidebar-foreground": "oklch(0.988 0.005 275.0)",
+    "sidebar-primary": "oklch(0.750 0.092 248.7)",
+    "sidebar-primary-foreground": "oklch(0.168 0.018 263.9)",
+    "sidebar-accent": "oklch(0.427 0.034 265.1)",
+    "sidebar-accent-foreground": "oklch(0.988 0.005 275.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.750 0.092 248.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English product UI with Japanese guidance for concise messaging, status labels, channel navigation, and readable numeric activity.",
+  "layout": "Compact 8px messaging grids, elongated squid-motion rhythm, translucent glass-blue panels, soft chromatophore texture, and high-signal navigation for fast communication workflows.",
+  "tags": [
+    "squid",
+    "marine",
+    "open-ocean",
+    "messaging",
+    "swift",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-squid/motif.png",
+    "board": "/systems/morphous-squid/design-system-light.png",
+    "darkBoard": "/systems/morphous-squid/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-squid/theme.css",
+    "themeJson": "/systems/morphous-squid/theme.json",
+    "promptsJson": "/systems/morphous-squid/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent squid motif",
+      "asset": "/systems/morphous-squid/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Squid transparent motif chroma-key source\nPrimary request: Create only a squid motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A single open-ocean squid in graceful swift-message silhouette: elongated mantle, triangular side fins, ten visible arms with two longer feeding tentacles, glossy black eyes, rose mauve chromatophore skin, translucent blue membrane edges, deep blue-black ink accents, subtle pearlescent speckles, biologically plausible anatomy. It should feel agile, precise, and suited to a swift messaging system.\nComposition/framing: centered complete cutout with generous padding; full body visible, tentacles arranged elegantly but not tangled, do not crop any tentacle. Clean studio lighting that preserves translucent color detail, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the squid.\nConstraints: no ocean scene, no rocks, no bubbles, no second animal, no cartoon mascot, no horror monster, no text, no watermark, no logo, no props, no floor plane."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-squid/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Squid light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Squid\", derived from the transparent squid motif shown in this conversation. This board is a source reference for a shadcn/tweakcn-compatible swift messaging system.\nCanvas: exact 16:9 wide board, target 3840x2160 high-resolution source asset. Use a crisp professional grid with large readable labels and no tiny paragraphs.\nRequired visible sections: Morphous Squid, Squid, Open Ocean, Palette, Typography, Japanese Typography, Components, Navigation, Messaging Dashboard, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract color and interaction language from rose mauve chromatophores, translucent blue fins, black ink eyes, blue-black ocean depth, pearlescent suction cups, and the squid's swift elongated form. The board must read as squid/open ocean and swift messaging, not generic purple SaaS.\nPalette labels to render clearly: Pearl Wake, Ink Black, Signal Mauve, Translucent Blue, Rose Chromatophore, Deep Pelagic, Fin Glass, Soft Sucker, Midnight Current.\nTypography: English product UI examples with Japanese UI guidance; show short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, メッセージ, 既読, 送信. Keep text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, left sidebar navigation, top message composer, chat list, delivery status chips, unread counters, dashboard metric cards, line chart for message flow, bar chart for channel load, empty/loading/error states, spacing scale, 8px radius, border, shadow, texture samples, simple lucide-style icons.\nStyle: restrained premium product UI, light pearl background, soft glass-blue panels, rose-mauve primary actions, blue-black text, translucent edges, subtle chromatophore speckle texture, fast diagonal current lines, compact messaging workflow density, shadcn/tweakcn token-driven components.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no neon, no stock photo background, no random brand names, no misspelling of \"Morphous Squid\", no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-squid/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Squid dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Squid\". It must feel like the light-mode board shown in this conversation translated to dark mode, while staying derived from the transparent squid motif.\nCanvas: exact 16:9 wide board, target 3840x2160 high-resolution source asset. Use a crisp professional grid with large readable labels and no tiny paragraphs.\nRequired visible sections: Morphous Squid, Squid, Open Ocean, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Messaging Dashboard, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the same system language from the light board: rose mauve actions, translucent blue highlights, pearlescent squid texture, blue-black open-ocean depth, compact messaging workflow density, delivery status chips, unread counters, and swift diagonal current lines.\nPalette labels to render clearly: Abyss Ink, Pearl Wake, Signal Mauve, Translucent Blue, Rose Chromatophore, Deep Pelagic, Fin Glass, Soft Sucker, Midnight Current.\nTypography: English product UI examples with Japanese UI guidance; show short labels such as Geist, Display, Body, Label, Numbers, 日本語 UI, メッセージ, 既読, 送信. Keep text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search bar, left sidebar navigation, top message composer, chat list, delivery status chips, unread counters, dashboard metric cards, line chart for message flow, bar chart for channel load, empty/loading/error states, spacing scale, 8px radius, border, shadow, texture samples, simple lucide-style icons.\nVisual details: deep blue-black background rather than pure black, muted ink cards, pearl readable foreground, mauve primary buttons, translucent-blue focus rings, soft blue glass panels, subtle chromatophore speckles, ink-diffusion texture, restrained chart colors.\nConstraints: no neon, no generic purple/blue gradients, no pure flat black-only background, no unrelated saturated colors, no random brand names, no misspelling of \"Morphous Squid\", no watermark, no illegible microtext."
+    }
+  ]
+}

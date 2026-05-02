@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tapir",
+    "name": "Morphous Tapir",
+    "motifName": "Tapir",
+    "motifCategory": "mammal",
+    "biome": "tropical wetland",
+    "motif": "tapir markings"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Field Paper",
+      "hex": "#f3efe5",
+      "oklch": "oklch(0.952 0.014 88.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wetland Ink",
+      "hex": "#161813",
+      "oklch": "oklch(0.205 0.010 125.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Tapir Charcoal",
+      "hex": "#1d201d",
+      "oklch": "oklch(0.239 0.007 145.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Marking White",
+      "hex": "#fbfaf3",
+      "oklch": "oklch(0.984 0.009 100.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Saddle Tan",
+      "hex": "#c2a16c",
+      "oklch": "oklch(0.727 0.080 78.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Leaf Green",
+      "hex": "#5f7f4c",
+      "oklch": "oklch(0.559 0.084 134.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Wetland Green",
+      "hex": "#2f5d45",
+      "oklch": "oklch(0.438 0.065 159.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Mist Border",
+      "hex": "#d5cfbf",
+      "oklch": "oklch(0.855 0.023 89.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Umber",
+      "hex": "#594432",
+      "oklch": "oklch(0.404 0.041 61.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.952 0.014 88.7)",
+    "foreground": "oklch(0.205 0.010 125.1)",
+    "card": "oklch(0.438 0.065 159.3)",
+    "card-foreground": "oklch(0.205 0.010 125.1)",
+    "popover": "oklch(0.438 0.065 159.3)",
+    "popover-foreground": "oklch(0.205 0.010 125.1)",
+    "primary": "oklch(0.239 0.007 145.3)",
+    "primary-foreground": "oklch(0.952 0.014 88.7)",
+    "secondary": "oklch(0.662 0.039 153.9)",
+    "secondary-foreground": "oklch(0.404 0.041 61.9)",
+    "muted": "oklch(0.590 0.047 157.2)",
+    "muted-foreground": "oklch(0.404 0.041 61.9)",
+    "accent": "oklch(0.727 0.080 78.8)",
+    "accent-foreground": "oklch(0.205 0.010 125.1)",
+    "destructive": "oklch(0.239 0.007 145.3)",
+    "border": "oklch(0.645 0.043 158.6)",
+    "input": "oklch(0.645 0.043 158.6)",
+    "ring": "oklch(0.984 0.009 100.0)",
+    "chart-1": "oklch(0.239 0.007 145.3)",
+    "chart-2": "oklch(0.984 0.009 100.0)",
+    "chart-3": "oklch(0.727 0.080 78.8)",
+    "chart-4": "oklch(0.559 0.084 134.5)",
+    "chart-5": "oklch(0.404 0.041 61.9)",
+    "sidebar": "oklch(0.622 0.044 154.8)",
+    "sidebar-foreground": "oklch(0.205 0.010 125.1)",
+    "sidebar-primary": "oklch(0.239 0.007 145.3)",
+    "sidebar-primary-foreground": "oklch(0.952 0.014 88.7)",
+    "sidebar-accent": "oklch(0.416 0.060 158.9)",
+    "sidebar-accent-foreground": "oklch(0.239 0.007 145.3)",
+    "sidebar-border": "oklch(0.645 0.043 158.6)",
+    "sidebar-ring": "oklch(0.984 0.009 100.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.010 125.1)",
+    "foreground": "oklch(0.952 0.014 88.7)",
+    "card": "oklch(0.339 0.030 68.6)",
+    "card-foreground": "oklch(0.952 0.014 88.7)",
+    "popover": "oklch(0.339 0.030 68.6)",
+    "popover-foreground": "oklch(0.952 0.014 88.7)",
+    "primary": "oklch(0.984 0.009 100.0)",
+    "primary-foreground": "oklch(0.205 0.010 125.1)",
+    "secondary": "oklch(0.543 0.032 65.3)",
+    "secondary-foreground": "oklch(0.952 0.014 88.7)",
+    "muted": "oklch(0.543 0.032 65.3)",
+    "muted-foreground": "oklch(0.967 0.012 91.5)",
+    "accent": "oklch(0.727 0.080 78.8)",
+    "accent-foreground": "oklch(0.205 0.010 125.1)",
+    "destructive": "oklch(0.239 0.007 145.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.984 0.009 100.0)",
+    "chart-1": "oklch(0.984 0.009 100.0)",
+    "chart-2": "oklch(0.239 0.007 145.3)",
+    "chart-3": "oklch(0.727 0.080 78.8)",
+    "chart-4": "oklch(0.559 0.084 134.5)",
+    "chart-5": "oklch(0.984 0.009 100.0)",
+    "sidebar": "oklch(0.300 0.023 72.4)",
+    "sidebar-foreground": "oklch(0.952 0.014 88.7)",
+    "sidebar-primary": "oklch(0.984 0.009 100.0)",
+    "sidebar-primary-foreground": "oklch(0.205 0.010 125.1)",
+    "sidebar-accent": "oklch(0.543 0.032 65.3)",
+    "sidebar-accent-foreground": "oklch(0.952 0.014 88.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.984 0.009 100.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for quiet English field-product UI with Noto Sans JP guidance for compact Japanese wetland labels, observation states, and multilingual data hierarchy.",
+  "layout": "Dense 8px field grids, rounded tapir-body panels, crisp black-white marking dividers, 8px component radius, wetland sidebars, soft shadows, and measured data rhythms.",
+  "tags": [
+    "tapir",
+    "mammal",
+    "tropical-wetland",
+    "black-white-tan",
+    "leaf-green",
+    "field-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tapir/motif.png",
+    "board": "/systems/morphous-tapir/design-system-light.png",
+    "darkBoard": "/systems/morphous-tapir/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tapir/theme.css",
+    "themeJson": "/systems/morphous-tapir/theme.json",
+    "promptsJson": "/systems/morphous-tapir/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent tapir motif",
+      "asset": "/systems/morphous-tapir/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tapir transparent motif chroma-key source\nPrimary request: Create only a tapir motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A Baird's tapir / tropical wetland tapir in accurate natural anatomy, rounded sturdy body, short flexible trunk, small rounded ears with pale rims, calm eyes, black-and-white facial and shoulder markings, tan saddle highlights, dark charcoal body patches, soft wetland fur texture, subtle leaf-green reflected edge light. Distinctive tapir silhouette, no extra animals.\nComposition/framing: centered complete side-profile cutout with generous padding; full body visible from nose and trunk to hooves to tail, not cropped. Clean studio lighting that preserves black, white, tan, and leaf-green influenced color detail. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no forest scene, no water, no grass, no rocks, no props, no text, no watermark, no second subject, no stylized cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-tapir/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tapir light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Tapir\", derived from a tropical wetland tapir motif: black and white tapir facial/shoulder markings, tan saddle highlights, charcoal body patches, pale ear rims, and leaf-green wetland context. This board is a source reference for implementing a shadcn/tweakcn-compatible quiet field system.\nCanvas: exact wide 16:9 high-resolution board, target 3840x2160, clean professional UI design-system presentation, large readable labels.\nRequired visible sections: Morphous Tapir, Tapir, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Data Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from tapir black-white-tan markings, rounded body geometry, small pale ear rims, tropical wetland leaf greens, muddy shadow neutrals, and quiet field observation workflows. The board must read as tapir markings and tropical wetland, not zebra, cow, generic safari, or jungle camouflage.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 静かな観察, 湿地データ. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, wetland observation data, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, warm off-white field-note surfaces, charcoal primary actions, leaf-green focus states, tan highlights, crisp black-white tapir marking dividers, soft wetland paper texture, restrained shadows, dense but organized research dashboard UI.\nColor palette: field paper #f3efe5, tapir charcoal #1d201d, marking white #fbfaf3, saddle tan #c2a16c, leaf green #5f7f4c, wetland green #2f5d45, mud umber #594432, mist border #d5cfbf, ink #161813.\nConstraints: no zebra-only identity, no cow pattern identity, no tiger orange, no generic purple/blue gradients, no neon colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Tapir\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-tapir/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tapir dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Tapir\". It must feel like the same light-mode tapir wetland system translated to dark mode, not a new theme, and it must remain derived from tapir black-white-tan markings, rounded charcoal body, pale ear rims, and tropical wetland leaf-green context.\nCanvas: exact wide 16:9 high-resolution board, target 3840x2160, clean professional UI design-system presentation, large readable labels.\nRequired visible sections: Morphous Tapir, Tapir, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Data Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the tapir system language: near-black charcoal and wetland night backgrounds, marking-white foreground text, leaf-green active states, saddle-tan highlights, mud-umber borders, crisp black-white marking dividers, quiet field-observation dashboard patterns. Must read as tapir markings and tropical wetland, not zebra-only, cow pattern, generic safari, or camouflage.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 夜間観察, 湿地記録. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, wetland observation data, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep wetland-night backgrounds, charcoal cards, marking-white labels and hairline dividers, leaf-green controls and focus rings, saddle-tan chart highlights, mud-umber borders, soft wetland texture fields, crisp shadcn/tweakcn components, precise 8px grid, 8px card radius, restrained contrast.\nColor palette: wetland night #111713, tapir charcoal #20231f, deep black #0a0c0a, marking white #f5f1e7, saddle tan #c49d62, leaf green #6f8b55, marsh green #315f45, mud umber #5b4330, mist border #4c5148.\nConstraints: no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no zebra-only identity, no cow pattern identity, no tiger orange, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Tapir\"."
+    }
+  ]
+}

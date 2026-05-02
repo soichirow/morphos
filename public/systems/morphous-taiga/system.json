@@ -1,0 +1,96 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-taiga",
+  "name": "Morphous Taiga",
+  "motifName": "Taiga",
+  "motifCategory": "landscape",
+  "biome": "boreal forest",
+  "motif": "taiga canopy",
+  "description": "A shadcn/tweakcn-compatible deep infrastructure system derived from a boreal taiga canopy: spruce-green navigation and primary actions, snow-blue focus and data surfaces, bark-brown structure, lichen-gray secondary controls, and canopy-shadow depth for operational dashboards.",
+  "typography": "Dense English infrastructure UI with stable tabular numbers, status-heavy labels, and Noto Sans JP guidance for Japanese service, incident, pipeline, and capacity screens.",
+  "layout": "Precise 8px operational grids, trunk-like separators, layered canopy panels, topology maps, incident queues, node health cards, capacity charts, frost and needle textures, and restrained 8px cards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "taiga",
+    "landscape",
+    "boreal-forest",
+    "deep-infrastructure",
+    "spruce-green",
+    "snow-blue",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snowpack Blue",
+      "hex": "#EAF3F5"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Ink",
+      "hex": "#10231C"
+    },
+    {
+      "role": "Primary",
+      "name": "Spruce Core",
+      "hex": "#1F5B45"
+    },
+    {
+      "role": "Secondary",
+      "name": "Frost Blue",
+      "hex": "#7FB5C6"
+    },
+    {
+      "role": "Accent",
+      "name": "Needle Bright",
+      "hex": "#4F8A5F"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Spruce",
+      "hex": "#173C32"
+    },
+    {
+      "role": "Surface",
+      "name": "Frost Surface",
+      "hex": "#F7FBFA"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Gray",
+      "hex": "#8A9A8F"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Line",
+      "hex": "#735438"
+    },
+    {
+      "role": "Depth",
+      "name": "Canopy Shadow",
+      "hex": "#0B1613"
+    },
+    {
+      "role": "Warning",
+      "name": "Resin Amber",
+      "hex": "#C18443"
+    },
+    {
+      "role": "Danger",
+      "name": "Winter Rowan",
+      "hex": "#B84A3A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

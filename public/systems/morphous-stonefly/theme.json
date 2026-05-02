@@ -1,0 +1,197 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-stonefly",
+    "name": "Morphous Stonefly",
+    "motifName": "Stonefly",
+    "motifCategory": "insect",
+    "biome": "Mountain Stream",
+    "motif": "stonefly on rock"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stream Paper",
+      "hex": "#F3F5F6",
+      "oklch": "oklch(0.969 0.003 228.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Umber Body",
+      "hex": "#3F2F23",
+      "oklch": "oklch(0.320 0.031 58.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Wing Brown",
+      "hex": "#7A6451",
+      "oklch": "oklch(0.520 0.040 62.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silt Brown",
+      "hex": "#7A6B57",
+      "oklch": "oklch(0.536 0.035 74.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Stream Teal",
+      "hex": "#2F6F73",
+      "oklch": "oklch(0.502 0.065 200.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Shadow",
+      "hex": "#5A5B3B",
+      "oklch": "oklch(0.462 0.048 109.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mineral Light",
+      "hex": "#D7DCE1",
+      "oklch": "oklch(0.892 0.009 247.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Stone",
+      "hex": "#747C84",
+      "oklch": "oklch(0.582 0.016 248.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Slate Rock",
+      "hex": "#586066",
+      "oklch": "oklch(0.484 0.014 240.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Pool",
+      "hex": "#1D4346",
+      "oklch": "oklch(0.357 0.043 202.3)"
+    },
+    {
+      "role": "Warning",
+      "name": "Caddis Amber",
+      "hex": "#B8843C",
+      "oklch": "oklch(0.651 0.109 72.5)"
+    },
+    {
+      "role": "Danger",
+      "name": "Rust Alert",
+      "hex": "#A64B3E",
+      "oklch": "oklch(0.527 0.123 30.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.969 0.003 228.8)",
+    "foreground": "oklch(0.320 0.031 58.2)",
+    "card": "oklch(0.892 0.009 247.9)",
+    "card-foreground": "oklch(0.320 0.031 58.2)",
+    "popover": "oklch(0.892 0.009 247.9)",
+    "popover-foreground": "oklch(0.320 0.031 58.2)",
+    "primary": "oklch(0.520 0.040 62.6)",
+    "primary-foreground": "oklch(0.969 0.003 228.8)",
+    "secondary": "oklch(0.926 0.006 239.8)",
+    "secondary-foreground": "oklch(0.357 0.043 202.3)",
+    "muted": "oklch(0.914 0.007 247.9)",
+    "muted-foreground": "oklch(0.357 0.043 202.3)",
+    "accent": "oklch(0.502 0.065 200.9)",
+    "accent-foreground": "oklch(0.320 0.031 58.2)",
+    "destructive": "oklch(0.520 0.040 62.6)",
+    "border": "oklch(0.783 0.012 252.1)",
+    "input": "oklch(0.783 0.012 252.1)",
+    "ring": "oklch(0.536 0.035 74.9)",
+    "chart-1": "oklch(0.520 0.040 62.6)",
+    "chart-2": "oklch(0.536 0.035 74.9)",
+    "chart-3": "oklch(0.502 0.065 200.9)",
+    "chart-4": "oklch(0.462 0.048 109.7)",
+    "chart-5": "oklch(0.357 0.043 202.3)",
+    "sidebar": "oklch(0.920 0.006 239.8)",
+    "sidebar-foreground": "oklch(0.320 0.031 58.2)",
+    "sidebar-primary": "oklch(0.520 0.040 62.6)",
+    "sidebar-primary-foreground": "oklch(0.969 0.003 228.8)",
+    "sidebar-accent": "oklch(0.850 0.004 247.9)",
+    "sidebar-accent-foreground": "oklch(0.520 0.040 62.6)",
+    "sidebar-border": "oklch(0.783 0.012 252.1)",
+    "sidebar-ring": "oklch(0.536 0.035 74.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.320 0.031 58.2)",
+    "foreground": "oklch(0.969 0.003 228.8)",
+    "card": "oklch(0.339 0.025 187.9)",
+    "card-foreground": "oklch(0.969 0.003 228.8)",
+    "popover": "oklch(0.339 0.025 187.9)",
+    "popover-foreground": "oklch(0.969 0.003 228.8)",
+    "primary": "oklch(0.536 0.035 74.9)",
+    "primary-foreground": "oklch(0.320 0.031 58.2)",
+    "secondary": "oklch(0.408 0.038 205.8)",
+    "secondary-foreground": "oklch(0.969 0.003 228.8)",
+    "muted": "oklch(0.408 0.038 205.8)",
+    "muted-foreground": "oklch(0.802 0.008 241.7)",
+    "accent": "oklch(0.502 0.065 200.9)",
+    "accent-foreground": "oklch(0.320 0.031 58.2)",
+    "destructive": "oklch(0.520 0.040 62.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.536 0.035 74.9)",
+    "chart-1": "oklch(0.536 0.035 74.9)",
+    "chart-2": "oklch(0.520 0.040 62.6)",
+    "chart-3": "oklch(0.502 0.065 200.9)",
+    "chart-4": "oklch(0.462 0.048 109.7)",
+    "chart-5": "oklch(0.582 0.016 248.1)",
+    "sidebar": "oklch(0.331 0.015 161.2)",
+    "sidebar-foreground": "oklch(0.969 0.003 228.8)",
+    "sidebar-primary": "oklch(0.536 0.035 74.9)",
+    "sidebar-primary-foreground": "oklch(0.320 0.031 58.2)",
+    "sidebar-accent": "oklch(0.408 0.038 205.8)",
+    "sidebar-accent-foreground": "oklch(0.969 0.003 228.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.536 0.035 74.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact field-system and product UI, with Noto Sans JP guidance for Japanese headings, body copy, labels, status text, and stream-monitoring forms.",
+  "layout": "Precise 8px-grid field panels, 8px-or-less component radii, smoky wing-vein dividers, wet-stone texture panels, teal stream signals, compact tables, command search, dashboard metrics, and restrained mineral shadows.",
+  "tags": [
+    "stonefly",
+    "insect",
+    "mountain stream",
+    "field system",
+    "smoky brown",
+    "stone grey",
+    "water teal",
+    "wet rock",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-stonefly/motif.png",
+    "board": "/systems/morphous-stonefly/design-system-light.png",
+    "darkBoard": "/systems/morphous-stonefly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-stonefly/theme.css",
+    "themeJson": "/systems/morphous-stonefly/theme.json",
+    "promptsJson": "/systems/morphous-stonefly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Stonefly motif",
+      "asset": "/systems/morphous-stonefly/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: Morphous Stonefly transparent motif chroma-key source\nPrimary request: Create only an isolated stonefly on a small wet stream rock for a design-system catalog, no environment beyond the single rock, no text.\nSubject: A realistic adult stonefly with long folded smoky brown translucent wings, segmented dark brown body, thin antennae, six delicate legs gripping a rugged stone-grey wet rock, subtle water-teal glints along the rock edges, accurate insect anatomy, crisp silhouette, tactile wing veining, rugged mountain-stream field-guide character.\nComposition/framing: centered complete cutout with generous padding; show the full insect, antennae, legs, wing tips, and the entire small rock without cropping.\nLighting/mood: clean studio light preserving smoky brown wing veining, stone grey texture, dark field markings, and muted water teal highlights.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: do not use #ff00ff anywhere in the subject. No cast shadow, no contact shadow, no reflection, no readable text, no watermark, no props other than the single rock, no landscape, no second insect, no flowers, no bright tropical palette."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-stonefly/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode Morphous design-system reference board\nPrimary request: Create one comprehensive 3840x2160 landscape design-system board for \"Morphous Stonefly\" / \"Stonefly\", a rugged field system for shadcn/tweakcn implementation derived from the visible stonefly-on-wet-rock motif.\nMotif source: realistic stonefly on wet mountain-stream rock. Use only motif-derived colors: smoky translucent wing brown, dark segmented body umber, stone grey, wet slate, water teal glints, pale mineral highlight, mossy olive-brown shadow, cold stream paper.\nLayout: polished operational product design board, 16:9, large readable labels, dense but organized, no marketing hero. Light cold-stone background with rugged field-note structure, shallow water teal focus accents, smoky brown primary actions, grey rock panels, fine wing-vein dividers, subtle wet-stone texture. Keep all cards and controls at 8px radius or less.\nRequired visible sections and labels: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn buttons, icon buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, compact cards, table rows, command palette/search, sidebar/nav, breadcrumb, dashboard metrics, compact stream-health chart, loading state, empty state, error state, focus rings, token swatches, radius/spacing/shadow samples.\nTypography: English field-system/product UI using Geist-like sans; Japanese guidance using Noto Sans JP-like forms; include readable Japanese sample labels such as 見出し, 本文, 状態.\nStyle: rugged field system, quiet utilitarian surfaces, precise grid, crisp hierarchy, tactile mineral texture, smoky wing-vein linework, teal water signal accents, field-note density without tiny text, motif-derived color chips named with stonefly terms.\nConstraints: no unrelated purple gradients, no neon colors, no bright tropical palette, no stock brand logos, no random logos, no misspelled section labels, no tiny unreadable token tables, no extra insects as decorative subjects, no flowers, no pure beige theme."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-stonefly/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode Morphous design-system reference board\nPrimary request: Create one comprehensive 3840x2160 landscape dark-mode design-system board for \"Morphous Stonefly\" / \"Stonefly\", translated from the visible light board and the same visible stonefly-on-wet-rock motif.\nMotif source: realistic stonefly on wet mountain-stream rock. Use only motif-derived colors adapted for dark mode: deep umber body, black-brown wing shadow, wet slate, smoky stone grey, stream teal glints, pale mineral highlight, moss olive shadow, cold river mist foreground.\nLayout: polished operational product design board, 16:9, large readable labels, dense but organized, no marketing hero. Dark wet-stone/umber background with smoky brown primary actions, teal water focus rings and charts, mineral grey panels, wing-vein dividers, subtle wet-rock and translucent-wing textures. Keep all cards and controls at 8px radius or less.\nRequired visible sections and labels: Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nUI coverage: shadcn/tweakcn buttons, icon buttons, inputs, selects, textarea, checkbox, radio, switch, tabs, badges, alerts, compact cards, table rows, command palette/search, sidebar/nav, breadcrumb, dashboard metrics, compact stream-health chart, loading state, empty state, error state, focus rings, token swatches, radius/spacing/shadow samples.\nTypography: English field-system/product UI using Geist-like sans; Japanese guidance using Noto Sans JP-like forms; include readable Japanese sample labels such as 見出し, 本文, 状態.\nStyle: rugged dark field system, quiet utilitarian surfaces, precise grid, crisp hierarchy, tactile mineral texture, smoky wing-vein linework, teal water signal accents, restrained contrast, motif-derived color chips named with stonefly terms.\nConstraints: no unrelated purple gradients, no neon colors, no bright tropical palette, no stock brand logos, no random logos, no misspelled section labels, no tiny unreadable token tables, no extra insects as decorative subjects, no flowers, no flat pure black theme."
+    }
+  ]
+}

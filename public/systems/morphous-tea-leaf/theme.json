@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tea-leaf",
+    "name": "Morphous Tea Leaf",
+    "motifName": "Tea Leaf",
+    "motifCategory": "plant",
+    "biome": "mountain tea field",
+    "motif": "tea leaves"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Mist Off-White",
+      "hex": "#F6FAF5",
+      "oklch": "oklch(0.981 0.008 139.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Steeped Leaf Ink",
+      "hex": "#1F2C22",
+      "oklch": "oklch(0.278 0.026 151.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Tea Paper",
+      "hex": "#FCFEF9",
+      "oklch": "oklch(0.994 0.007 124.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mountain Tea Green",
+      "hex": "#1E6A4A",
+      "oklch": "oklch(0.469 0.090 161.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Shadow",
+      "hex": "#154F3C",
+      "oklch": "oklch(0.385 0.068 167.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "New Leaf Lime",
+      "hex": "#70CB3A",
+      "oklch": "oklch(0.757 0.198 136.3)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Lime Mist",
+      "hex": "#A8E07A",
+      "oklch": "oklch(0.845 0.144 132.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Mist Green",
+      "hex": "#D7EBC8",
+      "oklch": "oklch(0.916 0.051 131.8)"
+    },
+    {
+      "role": "Haze",
+      "name": "Field Haze",
+      "hex": "#ECF4EA",
+      "oklch": "oklch(0.958 0.016 139.4)"
+    },
+    {
+      "role": "Stem",
+      "name": "Tea Stem Olive",
+      "hex": "#6A7F3F",
+      "oklch": "oklch(0.564 0.093 124.3)"
+    },
+    {
+      "role": "Chart",
+      "name": "Vein Yellow Green",
+      "hex": "#B8CF56",
+      "oklch": "oklch(0.813 0.149 118.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Roasted Tea Twig",
+      "hex": "#8A4C2A",
+      "oklch": "oklch(0.484 0.096 47.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Steeped Night Leaf",
+      "hex": "#081F12",
+      "oklch": "oklch(0.216 0.039 156.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.008 139.4)",
+    "foreground": "oklch(0.278 0.026 151.5)",
+    "card": "oklch(0.994 0.007 124.4)",
+    "card-foreground": "oklch(0.278 0.026 151.5)",
+    "popover": "oklch(0.994 0.007 124.4)",
+    "popover-foreground": "oklch(0.278 0.026 151.5)",
+    "primary": "oklch(0.469 0.090 161.3)",
+    "primary-foreground": "oklch(0.981 0.008 139.4)",
+    "secondary": "oklch(0.987 0.007 132.4)",
+    "secondary-foreground": "oklch(0.216 0.039 156.3)",
+    "muted": "oklch(0.990 0.007 132.4)",
+    "muted-foreground": "oklch(0.216 0.039 156.3)",
+    "accent": "oklch(0.757 0.198 136.3)",
+    "accent-foreground": "oklch(0.278 0.026 151.5)",
+    "destructive": "oklch(0.469 0.090 161.3)",
+    "border": "oklch(0.966 0.023 128.7)",
+    "input": "oklch(0.966 0.023 128.7)",
+    "ring": "oklch(0.385 0.068 167.2)",
+    "chart-1": "oklch(0.469 0.090 161.3)",
+    "chart-2": "oklch(0.385 0.068 167.2)",
+    "chart-3": "oklch(0.757 0.198 136.3)",
+    "chart-4": "oklch(0.757 0.198 136.3)",
+    "chart-5": "oklch(0.216 0.039 156.3)",
+    "sidebar": "oklch(0.990 0.007 132.4)",
+    "sidebar-foreground": "oklch(0.278 0.026 151.5)",
+    "sidebar-primary": "oklch(0.469 0.090 161.3)",
+    "sidebar-primary-foreground": "oklch(0.981 0.008 139.4)",
+    "sidebar-accent": "oklch(0.933 0.016 154.5)",
+    "sidebar-accent-foreground": "oklch(0.469 0.090 161.3)",
+    "sidebar-border": "oklch(0.966 0.023 128.7)",
+    "sidebar-ring": "oklch(0.385 0.068 167.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.278 0.026 151.5)",
+    "foreground": "oklch(0.981 0.008 139.4)",
+    "card": "oklch(0.236 0.034 155.0)",
+    "card-foreground": "oklch(0.981 0.008 139.4)",
+    "popover": "oklch(0.236 0.034 155.0)",
+    "popover-foreground": "oklch(0.981 0.008 139.4)",
+    "primary": "oklch(0.385 0.068 167.2)",
+    "primary-foreground": "oklch(0.278 0.026 151.5)",
+    "secondary": "oklch(0.392 0.041 149.7)",
+    "secondary-foreground": "oklch(0.981 0.008 139.4)",
+    "muted": "oklch(0.392 0.041 149.7)",
+    "muted-foreground": "oklch(0.951 0.027 133.0)",
+    "accent": "oklch(0.757 0.198 136.3)",
+    "accent-foreground": "oklch(0.278 0.026 151.5)",
+    "destructive": "oklch(0.469 0.090 161.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.385 0.068 167.2)",
+    "chart-1": "oklch(0.385 0.068 167.2)",
+    "chart-2": "oklch(0.469 0.090 161.3)",
+    "chart-3": "oklch(0.757 0.198 136.3)",
+    "chart-4": "oklch(0.757 0.198 136.3)",
+    "chart-5": "oklch(0.916 0.051 131.8)",
+    "sidebar": "oklch(0.249 0.032 156.4)",
+    "sidebar-foreground": "oklch(0.981 0.008 139.4)",
+    "sidebar-primary": "oklch(0.385 0.068 167.2)",
+    "sidebar-primary-foreground": "oklch(0.278 0.026 151.5)",
+    "sidebar-accent": "oklch(0.392 0.041 149.7)",
+    "sidebar-accent-foreground": "oklch(0.981 0.008 139.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.385 0.068 167.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English product UI with Japanese typography guidance for tea ceremony logs, harvest lots, steep timers, tasting notes, inventory screens, command search, and calm status messaging.",
+  "layout": "Operational tea dashboards, ritual planning flows, 8px radii, deep tea-green navigation, new-leaf lime actions, mist-paper surfaces, vein-line borders, and restrained leaf-shadow depth.",
+  "tags": [
+    "tea-leaf",
+    "plant",
+    "mountain-tea-field",
+    "camellia-sinensis",
+    "deep-green",
+    "new-leaf-lime",
+    "mist",
+    "calm-ritual-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tea-leaf/motif.png",
+    "board": "/systems/morphous-tea-leaf/design-system-light.png",
+    "darkBoard": "/systems/morphous-tea-leaf/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tea-leaf/theme.css",
+    "themeJson": "/systems/morphous-tea-leaf/theme.json",
+    "promptsJson": "/systems/morphous-tea-leaf/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Tea Leaf motif",
+      "asset": "/systems/morphous-tea-leaf/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tea Leaf transparent motif chroma-key source\nPrimary request: Create only a fresh tea leaf sprig for a Morphous design-system motif, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: one elegant Camellia sinensis new-growth tea sprig with a central pale lime bud, two glossy serrated young leaves, deep green mature leaf underside accents, visible fine veins, slender tea stem, tiny dew-like surface sheen but fully opaque leaf edges. The motif should feel like mountain tea field ritual: deep green, new leaf lime, cool mist.\nStyle/medium: high-detail botanical cutout, refined realistic painted-photographic finish, crisp opaque edges, natural clean studio light.\nComposition/framing: centered complete cutout with generous padding on all sides; diagonal-but-balanced sprig shape; do not crop the subject; no floor plane.\nLighting/mood: calm ritual system, quiet, precise, fresh; no cast shadow and no contact shadow.\nColor palette: deep tea green, new leaf lime, pale mist green highlights, muted tea stem olive, cool leaf shadow only; do not use magenta anywhere in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no cup, no teapot, no field, no second plant, no decorative background, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-tea-leaf/design-system-light.png",
+      "sourceAsset": "/systems/morphous-tea-leaf/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nInput images: use the visible transparent Tea Leaf motif as the source reference for color, texture, silhouette, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-compatible design-system board titled \"Morphous Tea Leaf\".\nCanvas: 3840 x 2160 wide 16:9 board, high-resolution source asset, crisp readable UI labels, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: calm ritual system for tea ceremony planning, mountain tea field operations, tasting notes, steep timers, harvest lots, and inventory review; quiet, precise, restorative, operational.\nColor palette: derive only from the visible tea leaf motif: deep tea green, glossy leaf shadow, new leaf lime, pale mist green, vein yellow-green, muted tea stem olive, cool mountain mist off-white, soft field haze neutrals, and steeped leaf ink. Do not introduce unrelated blue, purple, coral, or generic SaaS colors.\nLayout: premium product design board with a left palette/token rail, top typography strip, central component and form examples, right navigation/dashboard/table/search modules, and a bottom row for texture, radius, spacing, shadow, and token samples. Include a small tea leaf motif preview.\nTypography: compact English UI type plus Japanese typography guidance for ritual logs and inventory screens. Include readable examples such as \"茶葉\", \"抽出記録\", \"在庫\", \"今日の一煎\", \"山霧\".\nComponents: primary button, secondary button, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command/search palette, sidebar navigation, top navigation, metric cards, steep timer card, tasting notes card, inventory table, harvest lot chart, loading state, empty state, error state, success state.\nTexture/materials: subtle serrated leaf-edge dividers, fine vein-line texture, misty field paper surfaces, dew highlight chips, 8px-radius cards and controls, restrained shadows.\nImplementation notes visible as tokens: radius 8px, spacing scale 4/8/12/16/24/32, soft mist shadow, leaf vein border, calm focus ring.\nConstraints: every visible UI element uses 8px radius or less; labels fit their containers; professional shadcn/tweakcn product design board; no marketing hero; no abstract gradients; no watermark; no random logos; no unrelated saturated colors; no purple or blue gradients."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-tea-leaf/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-tea-leaf/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nInput images: use the visible transparent Tea Leaf motif and the visible Morphous Tea Leaf light design-system board as source references.\nPrimary request: Generate a separate dark-mode translation of the same shadcn/tweakcn-compatible system, titled \"Morphous Tea Leaf\". It must feel like the same calm ritual system in dark mode, not a new motif.\nCanvas: 3840 x 2160 wide 16:9 board, high-resolution source asset, crisp readable UI labels, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: night-mode calm ritual system for tea ceremony planning, mountain tea field operations, tasting notes, steep timers, harvest lots, and inventory review; quiet, precise, restorative, operational.\nColor palette: derive only from the visible tea leaf motif: deep steeped green and leaf-shadow backgrounds, glossy dark tea panels, new leaf lime primary controls, pale mist green text, vein yellow-green chart accents, muted tea stem olive borders, cool mountain mist highlights. No unrelated blue, purple, coral, neon, or generic SaaS colors.\nLayout: keep the same section coverage and product-board logic as the light board: left palette/token rail, top typography strip, central component and form examples, right navigation/dashboard/table/search modules, and bottom row for texture, radius, spacing, shadow, and token samples. Include a small tea leaf motif preview.\nTypography: compact English UI type plus Japanese typography guidance. Include readable examples such as \"茶葉\", \"抽出記録\", \"在庫\", \"今日の一煎\", \"山霧\".\nComponents: primary button, secondary button, icon buttons, input, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command/search palette, sidebar navigation, top navigation, metric cards, steep timer card, tasting notes card, inventory table, harvest lot chart, loading state, empty state, error state, success state.\nTexture/materials: subtle dark serrated leaf-edge dividers, fine vein-line texture, mist-on-tea-shadow surfaces, dew highlight chips, 8px-radius cards and controls, restrained dark shadows.\nImplementation notes visible as tokens: radius 8px, spacing scale 4/8/12/16/24/32, steeped mist shadow, leaf vein border, lime focus ring.\nConstraints: every visible UI element uses 8px radius or less; labels fit their containers; professional shadcn/tweakcn product design board; no marketing hero; no abstract gradients; no watermark; no random logos; no unrelated saturated colors; no pure black flat background; no purple or blue gradients."
+    }
+  ]
+}

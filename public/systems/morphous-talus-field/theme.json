@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-talus-field",
+    "name": "Talus Field",
+    "motifName": "Talus Boulders",
+    "motifCategory": "landscape",
+    "biome": "Alpine Basin",
+    "motif": "talus boulders"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Glacier Wash",
+      "hex": "#f1f3ef",
+      "oklch": "oklch(0.962 0.006 128.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stone Panel",
+      "hex": "#d8ddd5",
+      "oklch": "oklch(0.891 0.012 133.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Talus Grey",
+      "hex": "#7b827f",
+      "oklch": "oklch(0.600 0.009 168.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Moss Signal",
+      "hex": "#65744b",
+      "oklch": "oklch(0.536 0.063 124.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Crevice Shadow",
+      "hex": "#303534",
+      "oklch": "oklch(0.324 0.007 182.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Boulder Ink",
+      "hex": "#171b1a",
+      "oklch": "oklch(0.218 0.006 179.0)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Lichen Highlight",
+      "hex": "#aeb88a",
+      "oklch": "oklch(0.763 0.064 117.9)"
+    },
+    {
+      "role": "Edge",
+      "name": "Cold Edge",
+      "hex": "#9ba3a0",
+      "oklch": "oklch(0.708 0.010 171.7)"
+    },
+    {
+      "role": "Trace",
+      "name": "Dust Line",
+      "hex": "#c5c0ad",
+      "oklch": "oklch(0.807 0.027 94.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.006 128.5)",
+    "foreground": "oklch(0.218 0.006 179.0)",
+    "card": "oklch(0.891 0.012 133.4)",
+    "card-foreground": "oklch(0.218 0.006 179.0)",
+    "popover": "oklch(0.891 0.012 133.4)",
+    "popover-foreground": "oklch(0.218 0.006 179.0)",
+    "primary": "oklch(0.536 0.063 124.8)",
+    "primary-foreground": "oklch(0.962 0.006 128.5)",
+    "secondary": "oklch(0.921 0.009 128.6)",
+    "secondary-foreground": "oklch(0.324 0.007 182.6)",
+    "muted": "oklch(0.911 0.010 131.4)",
+    "muted-foreground": "oklch(0.324 0.007 182.6)",
+    "accent": "oklch(0.324 0.007 182.6)",
+    "accent-foreground": "oklch(0.218 0.006 179.0)",
+    "destructive": "oklch(0.536 0.063 124.8)",
+    "border": "oklch(0.790 0.010 140.5)",
+    "input": "oklch(0.790 0.010 140.5)",
+    "ring": "oklch(0.536 0.063 124.8)",
+    "chart-1": "oklch(0.536 0.063 124.8)",
+    "chart-2": "oklch(0.536 0.063 124.8)",
+    "chart-3": "oklch(0.324 0.007 182.6)",
+    "chart-4": "oklch(0.218 0.006 179.0)",
+    "chart-5": "oklch(0.324 0.007 182.6)",
+    "sidebar": "oklch(0.915 0.009 128.6)",
+    "sidebar-foreground": "oklch(0.218 0.006 179.0)",
+    "sidebar-primary": "oklch(0.536 0.063 124.8)",
+    "sidebar-primary-foreground": "oklch(0.962 0.006 128.5)",
+    "sidebar-accent": "oklch(0.850 0.018 128.7)",
+    "sidebar-accent-foreground": "oklch(0.536 0.063 124.8)",
+    "sidebar-border": "oklch(0.790 0.010 140.5)",
+    "sidebar-ring": "oklch(0.536 0.063 124.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.218 0.006 179.0)",
+    "foreground": "oklch(0.962 0.006 128.5)",
+    "card": "oklch(0.289 0.006 179.3)",
+    "card-foreground": "oklch(0.962 0.006 128.5)",
+    "popover": "oklch(0.289 0.006 179.3)",
+    "popover-foreground": "oklch(0.962 0.006 128.5)",
+    "primary": "oklch(0.536 0.063 124.8)",
+    "primary-foreground": "oklch(0.218 0.006 179.0)",
+    "secondary": "oklch(0.389 0.007 182.7)",
+    "secondary-foreground": "oklch(0.962 0.006 128.5)",
+    "muted": "oklch(0.389 0.007 182.7)",
+    "muted-foreground": "oklch(0.804 0.006 153.7)",
+    "accent": "oklch(0.324 0.007 182.6)",
+    "accent-foreground": "oklch(0.218 0.006 179.0)",
+    "destructive": "oklch(0.536 0.063 124.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.536 0.063 124.8)",
+    "chart-1": "oklch(0.536 0.063 124.8)",
+    "chart-2": "oklch(0.536 0.063 124.8)",
+    "chart-3": "oklch(0.324 0.007 182.6)",
+    "chart-4": "oklch(0.218 0.006 179.0)",
+    "chart-5": "oklch(0.600 0.009 168.6)",
+    "sidebar": "oklch(0.268 0.006 179.2)",
+    "sidebar-foreground": "oklch(0.962 0.006 128.5)",
+    "sidebar-primary": "oklch(0.536 0.063 124.8)",
+    "sidebar-primary-foreground": "oklch(0.218 0.006 179.0)",
+    "sidebar-accent": "oklch(0.389 0.007 182.7)",
+    "sidebar-accent-foreground": "oklch(0.962 0.006 128.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.536 0.063 124.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Operational infrastructure typography with clear English labels, sturdy numerals, and readable Japanese UI guidance for dense monitoring surfaces.",
+  "layout": "Precise 8px grids, angular stone-edge dividers, compact navigation, dashboard-heavy surfaces, stable component states, and restrained granular texture.",
+  "tags": [
+    "talus",
+    "landscape",
+    "alpine basin",
+    "slate grey",
+    "moss green",
+    "stable infrastructure",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-talus-field/motif.png",
+    "board": "/systems/morphous-talus-field/design-system-light.png",
+    "darkBoard": "/systems/morphous-talus-field/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-talus-field/theme.css",
+    "themeJson": "/systems/morphous-talus-field/theme.json",
+    "promptsJson": "/systems/morphous-talus-field/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent talus boulder motif",
+      "asset": "/systems/morphous-talus-field/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a compact cluster of alpine talus boulders, isolated full subject, no environment beyond the stones, no props, no text.\nSubject: angular talus boulders from an alpine basin, stacked but stable, fractured slate-grey rock faces, cool shadowed crevices, sparse moss green patches and lichen, chipped edges, sediment dust, heavy infrastructure-like mass and stability. The stones should read as talus boulders, not smooth river rocks and not a cliff wall.\nComposition/framing: centered complete cutout with generous padding; do not crop the subject. Compact low mound silhouette suitable as a motif asset.\nLighting/mood: clean studio light that preserves slate grey, moss green, deep shadow, and rugged mineral texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no people, no animals, no plants except subtle moss/lichen on the rocks, no landscape horizon, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-talus-field/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nInput image: the visible transparent talus boulder motif is the source reference for palette, texture, massing, edge geometry, and mood.\nPrimary request: Generate a comprehensive light-mode design-system board for \"Talus Field\", derived from alpine basin talus boulders. It should feel like a stable infrastructure system: durable, load-bearing, calm, operational, and precise.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the talus motif: slate grey boulder planes, moss green lichen, deep crevice shadow, pale stone dust, angular stacked forms. The board must visibly respect these motif colors.\nCanvas: wide 16:9 board, preferred 3840x2160 composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Talus Field\", motif story \"alpine basin / talus boulders\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nTypography: include English and Japanese examples; choose font guidance for stable infrastructure system UI, clear numerals, calm labels, and dense operational screens.\nStyle/medium: premium shadcn/tweakcn-style product design system, stable infrastructure system, precise 8px grid, 8px card radius, matte stone-paper surfaces, angular divider rhythm, subtle granular boulder texture accents.\nColor palette: use only motif-derived colors plus near-neutrals: glacier wash #f1f3ef, stone panel #d8ddd5, talus grey #7b827f, moss signal #65744b, crevice shadow #303534, boulder ink #171b1a, lichen highlight #aeb88a, cold edge #9ba3a0, dust line #c5c0ad.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no marketing hero layout, no random brand names, no watermark, no tiny illegible token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-talus-field/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nInput images: the visible transparent talus boulder motif and the visible light design-system board are references. Preserve the same identity, component language, section coverage, spacing, typography, and motif-derived palette roles.\nPrimary request: Generate a comprehensive dark-mode design-system board for \"Talus Field\". It must feel like the same alpine basin talus boulder system translated to dark mode, not a new theme. The system feel is stable infrastructure: durable, load-bearing, calm, operational, and precise.\nReference use: Use talus boulder planes, moss green lichen, deep crevice shadow, pale stone dust, angular stacked forms, and the light board's operational dashboard/component structure.\nCanvas: wide 16:9 board, preferred 3840x2160 composition.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Talus Field\", \"Dark Mode\", motif story \"alpine basin / talus boulders\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nVisual details: deep crevice background #121615, boulder ink surface #171b1a, talus panel #252a28, shadow panel #303534, light foreground #f1f3ef, muted text #b6bdb8, moss primary #7f9162, lichen accent #aeb88a, cold edge #9ba3a0, dust separators #4b4e45. Restrained contrast, subtle granular stone texture overlays, angular dividers, crisp shadcn-style cards and controls, 8px radius.\nTypography: include English and Japanese examples; clear numerals, calm labels, and dense operational infrastructure screens.\nStyle/medium: premium shadcn/tweakcn-style product design system, stable infrastructure system, precise 8px grid, dark mode dashboard UI.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple/blue gradients, no marketing hero layout, no random brand names, no watermark, no tiny illegible token tables."
+    }
+  ]
+}

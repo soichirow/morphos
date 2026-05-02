@@ -1,0 +1,87 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-tidepool",
+  "name": "Morphous Tidepool",
+  "motifName": "Tidepool",
+  "motifCategory": "landscape",
+  "biome": "Rocky Coast",
+  "habitat": "rocky coast",
+  "motif": "tidepool ecosystem",
+  "description": "A shadcn/tweakcn-compatible exploratory catalog system shaped by clear teal tidepool water, orange starfish accents, wet grey rock borders, shell-white surfaces, and kelp-olive fieldwork states.",
+  "typography": "Geist for exploratory catalog UI, stable tabular numbers for observations and transects, and Noto Sans JP guidance for Japanese labels, field notes, and specimen metadata.",
+  "layout": "Dense 8px fieldwork grids, compact specimen cards, tide-chart panels, wet-rock dividers, shallow-water texture bands, and restrained 8px cards for repeated catalog scanning.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "tidepool",
+    "landscape",
+    "rocky-coast",
+    "teal-water",
+    "starfish-orange",
+    "exploratory-catalog",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#f7f4ea"
+    },
+    {
+      "role": "Surface",
+      "name": "Foam Glass",
+      "hex": "#eef8f5"
+    },
+    {
+      "role": "Primary",
+      "name": "Tidepool Teal",
+      "hex": "#0f8f8c"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shallow Water",
+      "hex": "#7bc8c0"
+    },
+    {
+      "role": "Accent",
+      "name": "Starfish Orange",
+      "hex": "#e9783d"
+    },
+    {
+      "role": "Signal",
+      "name": "Kelp Olive",
+      "hex": "#6f7f3f"
+    },
+    {
+      "role": "Border",
+      "name": "Wet Rock Grey",
+      "hex": "#8b9491"
+    },
+    {
+      "role": "Muted",
+      "name": "Coastal Mist",
+      "hex": "#c9d2cf"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt Slate",
+      "hex": "#263433"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Pool Ink",
+      "hex": "#102322"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tidepool/motif.png",
+    "board": "/systems/morphous-tidepool/design-system-light.png",
+    "darkBoard": "/systems/morphous-tidepool/design-system-dark.png",
+    "themeCss": "/systems/morphous-tidepool/theme.css",
+    "themeJson": "/systems/morphous-tidepool/theme.json",
+    "promptsJson": "/systems/morphous-tidepool/prompts.json"
+  }
+}

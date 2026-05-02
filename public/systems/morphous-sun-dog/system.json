@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-sun-dog",
+  "name": "Morphous Sun Dog",
+  "status": "ready",
+  "motifName": "Sun Dog",
+  "motifCategory": "weather",
+  "biome": "polar sky",
+  "motif": "sun dog halo",
+  "mood": "atmospheric data system",
+  "description": "An atmospheric data-system UI derived from polar sun dog halos: pale sky surfaces, ice-rainbow refraction, prism cyan telemetry, frost violet status accents, and luminous parhelion gold for shadcn/tweakcn interfaces.",
+  "typography": "Geist or Inter for crisp atmospheric product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular data.",
+  "layout": "Precise shadcn/tweakcn grids, 8px radii, translucent ice-crystal dividers, halo focus rings, compact telemetry charts, and restrained polar-sky texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "sun-dog",
+    "weather",
+    "polar-sky",
+    "halo",
+    "ice-rainbow",
+    "atmospheric-data",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Polar Sky",
+      "hex": "#EAF3FF",
+      "oklch": "oklch(0.975 0.014 226.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Zenith",
+      "hex": "#182A44",
+      "oklch": "oklch(0.232 0.045 258.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Halo Gold",
+      "hex": "#FFD873",
+      "oklch": "oklch(0.835 0.138 83.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ice Rainbow",
+      "hex": "#BDEBFF",
+      "oklch": "oklch(0.917 0.040 226.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Prism Cyan",
+      "hex": "#7FD7F4",
+      "oklch": "oklch(0.792 0.090 217.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Parhelion Rose",
+      "hex": "#FFB3C9",
+      "oklch": "oklch(0.795 0.088 12.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cirrus White",
+      "hex": "#F7FAFF",
+      "oklch": "oklch(0.993 0.006 230.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ice Grey",
+      "hex": "#DCE3EB",
+      "oklch": "oklch(0.878 0.018 238.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Zenith Night",
+      "hex": "#0D1526",
+      "oklch": "oklch(0.180 0.050 258.0)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Solar Amber",
+      "hex": "#FFB84D",
+      "oklch": "oklch(0.858 0.142 83.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.975 0.014 226.0)",
+    "foreground": "oklch(0.232 0.045 258.0)",
+    "card": "oklch(0.993 0.006 230.0)",
+    "card-foreground": "oklch(0.232 0.045 258.0)",
+    "popover": "oklch(0.993 0.006 230.0)",
+    "popover-foreground": "oklch(0.232 0.045 258.0)",
+    "primary": "oklch(0.835 0.138 83.0)",
+    "primary-foreground": "oklch(0.232 0.045 258.0)",
+    "secondary": "oklch(0.917 0.040 226.0)",
+    "secondary-foreground": "oklch(0.290 0.052 258.0)",
+    "muted": "oklch(0.915 0.018 236.0)",
+    "muted-foreground": "oklch(0.504 0.042 255.0)",
+    "accent": "oklch(0.792 0.090 217.0)",
+    "accent-foreground": "oklch(0.232 0.045 258.0)",
+    "destructive": "oklch(0.690 0.170 25.0)",
+    "border": "oklch(0.878 0.018 238.0)",
+    "input": "oklch(0.878 0.018 238.0)",
+    "ring": "oklch(0.835 0.138 83.0)",
+    "chart-1": "oklch(0.835 0.138 83.0)",
+    "chart-2": "oklch(0.792 0.090 217.0)",
+    "chart-3": "oklch(0.724 0.070 294.0)",
+    "chart-4": "oklch(0.795 0.088 12.0)",
+    "chart-5": "oklch(0.578 0.092 260.0)",
+    "sidebar": "oklch(0.993 0.006 230.0)",
+    "sidebar-foreground": "oklch(0.232 0.045 258.0)",
+    "sidebar-primary": "oklch(0.835 0.138 83.0)",
+    "sidebar-primary-foreground": "oklch(0.232 0.045 258.0)",
+    "sidebar-accent": "oklch(0.917 0.040 226.0)",
+    "sidebar-accent-foreground": "oklch(0.290 0.052 258.0)",
+    "sidebar-border": "oklch(0.878 0.018 238.0)",
+    "sidebar-ring": "oklch(0.835 0.138 83.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.180 0.050 258.0)",
+    "foreground": "oklch(0.963 0.012 226.0)",
+    "card": "oklch(0.230 0.047 258.0)",
+    "card-foreground": "oklch(0.963 0.012 226.0)",
+    "popover": "oklch(0.230 0.047 258.0)",
+    "popover-foreground": "oklch(0.963 0.012 226.0)",
+    "primary": "oklch(0.858 0.142 83.0)",
+    "primary-foreground": "oklch(0.180 0.050 258.0)",
+    "secondary": "oklch(0.317 0.048 254.0)",
+    "secondary-foreground": "oklch(0.963 0.012 226.0)",
+    "muted": "oklch(0.275 0.042 255.0)",
+    "muted-foreground": "oklch(0.740 0.032 239.0)",
+    "accent": "oklch(0.775 0.095 217.0)",
+    "accent-foreground": "oklch(0.180 0.050 258.0)",
+    "destructive": "oklch(0.680 0.165 25.0)",
+    "border": "oklch(0.878 0.018 238.0 / 18%)",
+    "input": "oklch(0.878 0.018 238.0 / 22%)",
+    "ring": "oklch(0.858 0.142 83.0)",
+    "chart-1": "oklch(0.858 0.142 83.0)",
+    "chart-2": "oklch(0.775 0.095 217.0)",
+    "chart-3": "oklch(0.734 0.075 294.0)",
+    "chart-4": "oklch(0.790 0.100 12.0)",
+    "chart-5": "oklch(0.900 0.020 226.0)",
+    "sidebar": "oklch(0.180 0.050 258.0)",
+    "sidebar-foreground": "oklch(0.963 0.012 226.0)",
+    "sidebar-primary": "oklch(0.858 0.142 83.0)",
+    "sidebar-primary-foreground": "oklch(0.180 0.050 258.0)",
+    "sidebar-accent": "oklch(0.275 0.042 255.0)",
+    "sidebar-accent-foreground": "oklch(0.963 0.012 226.0)",
+    "sidebar-border": "oklch(0.878 0.018 238.0 / 18%)",
+    "sidebar-ring": "oklch(0.858 0.142 83.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "/systems/morphous-sun-dog/motif.png",
+    "board": "/systems/morphous-sun-dog/design-system-light.png",
+    "darkBoard": "/systems/morphous-sun-dog/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-sun-dog/theme.css",
+    "themeJson": "/systems/morphous-sun-dog/theme.json",
+    "promptsJson": "/systems/morphous-sun-dog/prompts.json"
+  }
+}

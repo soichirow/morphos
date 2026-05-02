@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-sulfur",
+  "name": "Morphous Sulfur",
+  "motifName": "Sulfur",
+  "motifCategory": "mineral",
+  "biome": "Volcanic Fumarole",
+  "motif": "sulfur crystal",
+  "description": "An alert incident system derived from sulfur crystals at volcanic fumaroles: bright yellow facets, ash-grey crust, pale vapor, charcoal volcanic depth, and operational warning contrast.",
+  "typography": "High-clarity product UI typography with tabular incident numerals and Japanese guidance tuned for scanning, escalation, and response workflows.",
+  "layout": "Compact 8px operational grids, angular crystal-edge panels, high-contrast alert hierarchy, clear dashboard lanes, and subtle fumarole vapor texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sulfur",
+    "mineral",
+    "volcanic-fumarole",
+    "incident-system",
+    "bright-yellow",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Vapor White",
+      "hex": "#fafaf6"
+    },
+    {
+      "role": "Ink",
+      "name": "Volcanic Ink",
+      "hex": "#1a1a1a"
+    },
+    {
+      "role": "Primary",
+      "name": "Sulfur Core",
+      "hex": "#f5e100"
+    },
+    {
+      "role": "Secondary",
+      "name": "Crystal Edge",
+      "hex": "#fff26a"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Grey",
+      "hex": "#b8b8bc"
+    },
+    {
+      "role": "Surface",
+      "name": "Fumarole Mist",
+      "hex": "#e7eaee"
+    },
+    {
+      "role": "Signal",
+      "name": "Warning Amber",
+      "hex": "#ffb300"
+    },
+    {
+      "role": "Depth",
+      "name": "Char Dust",
+      "hex": "#585d63"
+    },
+    {
+      "role": "Shadow",
+      "name": "Basalt Black",
+      "hex": "#0d0f12"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-sturgeon",
+  "name": "Morphous Sturgeon",
+  "motifName": "Sturgeon",
+  "motifCategory": "fish",
+  "biome": "large river",
+  "motif": "sturgeon plates",
+  "description": "An ancient infrastructure system derived from a large river sturgeon: slate-grey structure, plate-ivory surfaces, river-green operating states, silt-taupe neutrals, oxidized steel controls, warming-clay incidents, and scute-plate texture for resilient waterway, inspection, and asset dashboards.",
+  "typography": "Sturdy humanist English infrastructure UI with Noto Sans JP / Japanese Gothic guidance for headings, body text, labels, numerals, dense operations tables, monitoring screens, and compact Japanese workflows.",
+  "layout": "Compact infrastructure dashboards, 8px cards, plate-texture panels, river-flow chart lanes, sidebar-first navigation, dense inspection tables, measured spacing, and resilient operational hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "sturgeon",
+    "fish",
+    "large-river",
+    "sturgeon-plates",
+    "slate-grey",
+    "cream",
+    "river-green",
+    "ancient-infrastructure",
+    "operations",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Soft Mist",
+      "hex": "#F5F6F4"
+    },
+    {
+      "role": "Ink",
+      "name": "Channel Charcoal",
+      "hex": "#1D2123"
+    },
+    {
+      "role": "Primary",
+      "name": "River Green",
+      "hex": "#607D68"
+    },
+    {
+      "role": "Secondary",
+      "name": "Slate Grey",
+      "hex": "#465057"
+    },
+    {
+      "role": "Accent",
+      "name": "Oxidized Steel",
+      "hex": "#5F7D83"
+    },
+    {
+      "role": "Signal",
+      "name": "Warming Clay",
+      "hex": "#B45A36"
+    },
+    {
+      "role": "Surface",
+      "name": "Plate Ivory",
+      "hex": "#E7E3D6"
+    },
+    {
+      "role": "Muted",
+      "name": "Silt Taupe",
+      "hex": "#8E8A7A"
+    },
+    {
+      "role": "Depth",
+      "name": "Stone Graphite",
+      "hex": "#2E3336"
+    },
+    {
+      "role": "Border",
+      "name": "Armor Ridge",
+      "hex": "#6F6A5D"
+    },
+    {
+      "role": "Success",
+      "name": "River Moss",
+      "hex": "#607D68"
+    },
+    {
+      "role": "Warning",
+      "name": "Clay Alarm",
+      "hex": "#B45A36"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.972 0.003 128.5)",
+    "foreground": "oklch(0.180 0.004 229.0)",
+    "card": "oklch(0.915 0.018 92.7)",
+    "card-foreground": "oklch(0.180 0.004 229.0)",
+    "popover": "oklch(0.915 0.018 92.7)",
+    "popover-foreground": "oklch(0.180 0.004 229.0)",
+    "primary": "oklch(0.561 0.046 153.3)",
+    "primary-foreground": "oklch(0.972 0.003 128.5)",
+    "secondary": "oklch(0.939 0.011 95.2)",
+    "secondary-foreground": "oklch(0.317 0.009 234.0)",
+    "muted": "oklch(0.931 0.014 93.0)",
+    "muted-foreground": "oklch(0.317 0.009 234.0)",
+    "accent": "oklch(0.569 0.036 211.2)",
+    "accent-foreground": "oklch(0.180 0.004 229.0)",
+    "destructive": "oklch(0.570 0.126 39.9)",
+    "border": "oklch(0.817 0.020 93.7)",
+    "input": "oklch(0.817 0.020 93.7)",
+    "ring": "oklch(0.561 0.046 153.3)",
+    "chart-1": "oklch(0.561 0.046 153.3)",
+    "chart-2": "oklch(0.425 0.017 238.4)",
+    "chart-3": "oklch(0.569 0.036 211.2)",
+    "chart-4": "oklch(0.570 0.126 39.9)",
+    "chart-5": "oklch(0.317 0.009 234.0)",
+    "sidebar": "oklch(0.934 0.012 91.5)",
+    "sidebar-foreground": "oklch(0.180 0.004 229.0)",
+    "sidebar-primary": "oklch(0.561 0.046 153.3)",
+    "sidebar-primary-foreground": "oklch(0.972 0.003 128.5)",
+    "sidebar-accent": "oklch(0.875 0.019 106.8)",
+    "sidebar-accent-foreground": "oklch(0.561 0.046 153.3)",
+    "sidebar-border": "oklch(0.817 0.020 93.7)",
+    "sidebar-ring": "oklch(0.561 0.046 153.3)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.180 0.004 229.0)",
+    "foreground": "oklch(0.972 0.003 128.5)",
+    "card": "oklch(0.274 0.007 229.1)",
+    "card-foreground": "oklch(0.972 0.003 128.5)",
+    "popover": "oklch(0.274 0.007 229.1)",
+    "popover-foreground": "oklch(0.972 0.003 128.5)",
+    "primary": "oklch(0.561 0.046 153.3)",
+    "primary-foreground": "oklch(0.180 0.004 229.0)",
+    "secondary": "oklch(0.391 0.004 174.3)",
+    "secondary-foreground": "oklch(0.972 0.003 128.5)",
+    "muted": "oklch(0.391 0.004 174.3)",
+    "muted-foreground": "oklch(0.823 0.011 95.2)",
+    "accent": "oklch(0.569 0.036 211.2)",
+    "accent-foreground": "oklch(0.180 0.004 229.0)",
+    "destructive": "oklch(0.570 0.126 39.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.561 0.046 153.3)",
+    "chart-1": "oklch(0.561 0.046 153.3)",
+    "chart-2": "oklch(0.425 0.017 238.4)",
+    "chart-3": "oklch(0.569 0.036 211.2)",
+    "chart-4": "oklch(0.570 0.126 39.9)",
+    "chart-5": "oklch(0.632 0.024 95.4)",
+    "sidebar": "oklch(0.245 0.006 236.8)",
+    "sidebar-foreground": "oklch(0.972 0.003 128.5)",
+    "sidebar-primary": "oklch(0.561 0.046 153.3)",
+    "sidebar-primary-foreground": "oklch(0.180 0.004 229.0)",
+    "sidebar-accent": "oklch(0.391 0.004 174.3)",
+    "sidebar-accent-foreground": "oklch(0.972 0.003 128.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.561 0.046 153.3)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 307,
+  "slug": "morphous-stonefly",
+  "name": "Morphous Stonefly",
+  "motifName": "Stonefly",
+  "motifCategory": "insect",
+  "biome": "Mountain Stream",
+  "motif": "stonefly on rock",
+  "description": "A shadcn/tweakcn-compatible rugged field system derived from a stonefly on a wet mountain-stream rock: smoky brown wing actions, umber body text, stone-grey surfaces, deep pool structure, water-teal focus states, and mineral highlights for stream monitoring, field records, and durable dashboards.",
+  "typography": "Geist for compact field-system and product UI, with Noto Sans JP guidance for Japanese headings, body copy, labels, status text, and stream-monitoring forms.",
+  "layout": "Precise 8px-grid field panels, 8px-or-less component radii, smoky wing-vein dividers, wet-stone texture panels, teal stream signals, compact tables, command search, dashboard metrics, and restrained mineral shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "stonefly",
+    "insect",
+    "mountain stream",
+    "field system",
+    "smoky brown",
+    "stone grey",
+    "water teal",
+    "wet rock",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stream Paper",
+      "hex": "#F3F5F6"
+    },
+    {
+      "role": "Ink",
+      "name": "Umber Body",
+      "hex": "#3F2F23"
+    },
+    {
+      "role": "Primary",
+      "name": "Wing Brown",
+      "hex": "#7A6451"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silt Brown",
+      "hex": "#7A6B57"
+    },
+    {
+      "role": "Accent",
+      "name": "Stream Teal",
+      "hex": "#2F6F73"
+    },
+    {
+      "role": "Signal",
+      "name": "Moss Shadow",
+      "hex": "#5A5B3B"
+    },
+    {
+      "role": "Surface",
+      "name": "Mineral Light",
+      "hex": "#D7DCE1"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Stone",
+      "hex": "#747C84"
+    },
+    {
+      "role": "Border",
+      "name": "Slate Rock",
+      "hex": "#586066"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Pool",
+      "hex": "#1D4346"
+    },
+    {
+      "role": "Warning",
+      "name": "Caddis Amber",
+      "hex": "#B8843C"
+    },
+    {
+      "role": "Danger",
+      "name": "Rust Alert",
+      "hex": "#A64B3E"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
