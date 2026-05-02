@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-wildflower-meadow",
+    "name": "Wildflower Meadow",
+    "motifName": "Wildflower Field",
+    "motifCategory": "landscape",
+    "biome": "spring meadow",
+    "motif": "wildflower field"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Off White",
+      "hex": "#F7FAF6",
+      "oklch": "oklch(0.982 0.006 137.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Grass Ink",
+      "hex": "#123326",
+      "oklch": "oklch(0.292 0.046 164.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Poppy Red",
+      "hex": "#E6332E",
+      "oklch": "oklch(0.605 0.215 27.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Buttercup",
+      "hex": "#FFD12A",
+      "oklch": "oklch(0.876 0.171 91.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Cornflower",
+      "hex": "#1E66D9",
+      "oklch": "oklch(0.536 0.190 259.9)"
+    },
+    {
+      "role": "Support",
+      "name": "Clover Green",
+      "hex": "#2E8857",
+      "oklch": "oklch(0.560 0.114 155.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Daisy White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Meadow Mist",
+      "hex": "#E6EBE2",
+      "oklch": "oklch(0.934 0.013 130.8)"
+    },
+    {
+      "role": "Info",
+      "name": "Sky Blue",
+      "hex": "#7EC7F4",
+      "oklch": "oklch(0.799 0.097 236.8)"
+    },
+    {
+      "role": "Lavender",
+      "name": "Lavender Bloom",
+      "hex": "#7A5AA6",
+      "oklch": "oklch(0.534 0.120 301.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Stem",
+      "hex": "#C9B38E",
+      "oklch": "oklch(0.776 0.056 80.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.006 137.8)",
+    "foreground": "oklch(0.292 0.046 164.9)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.292 0.046 164.9)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.292 0.046 164.9)",
+    "primary": "oklch(0.605 0.215 27.7)",
+    "primary-foreground": "oklch(0.982 0.006 137.8)",
+    "secondary": "oklch(0.993 0.003 128.5)",
+    "secondary-foreground": "oklch(0.292 0.046 164.9)",
+    "muted": "oklch(0.996 0.003 128.5)",
+    "muted-foreground": "oklch(0.292 0.046 164.9)",
+    "accent": "oklch(0.536 0.190 259.9)",
+    "accent-foreground": "oklch(0.292 0.046 164.9)",
+    "destructive": "oklch(0.605 0.215 27.7)",
+    "border": "oklch(0.977 0.004 134.8)",
+    "input": "oklch(0.977 0.004 134.8)",
+    "ring": "oklch(0.876 0.171 91.7)",
+    "chart-1": "oklch(0.605 0.215 27.7)",
+    "chart-2": "oklch(0.876 0.171 91.7)",
+    "chart-3": "oklch(0.536 0.190 259.9)",
+    "chart-4": "oklch(0.560 0.114 155.7)",
+    "chart-5": "oklch(0.292 0.046 164.9)",
+    "sidebar": "oklch(0.993 0.002 145.6)",
+    "sidebar-foreground": "oklch(0.292 0.046 164.9)",
+    "sidebar-primary": "oklch(0.605 0.215 27.7)",
+    "sidebar-primary-foreground": "oklch(0.982 0.006 137.8)",
+    "sidebar-accent": "oklch(0.945 0.023 20.9)",
+    "sidebar-accent-foreground": "oklch(0.605 0.215 27.7)",
+    "sidebar-border": "oklch(0.977 0.004 134.8)",
+    "sidebar-ring": "oklch(0.876 0.171 91.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.292 0.046 164.9)",
+    "foreground": "oklch(0.982 0.006 137.8)",
+    "card": "oklch(0.292 0.046 164.9)",
+    "card-foreground": "oklch(0.982 0.006 137.8)",
+    "popover": "oklch(0.292 0.046 164.9)",
+    "popover-foreground": "oklch(0.982 0.006 137.8)",
+    "primary": "oklch(0.876 0.171 91.7)",
+    "primary-foreground": "oklch(0.292 0.046 164.9)",
+    "secondary": "oklch(0.446 0.037 164.7)",
+    "secondary-foreground": "oklch(0.982 0.006 137.8)",
+    "muted": "oklch(0.446 0.037 164.7)",
+    "muted-foreground": "oklch(0.959 0.009 134.9)",
+    "accent": "oklch(0.536 0.190 259.9)",
+    "accent-foreground": "oklch(0.292 0.046 164.9)",
+    "destructive": "oklch(0.605 0.215 27.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.876 0.171 91.7)",
+    "chart-1": "oklch(0.876 0.171 91.7)",
+    "chart-2": "oklch(0.605 0.215 27.7)",
+    "chart-3": "oklch(0.536 0.190 259.9)",
+    "chart-4": "oklch(0.560 0.114 155.7)",
+    "chart-5": "oklch(0.934 0.013 130.8)",
+    "sidebar": "oklch(0.292 0.046 164.9)",
+    "sidebar-foreground": "oklch(0.982 0.006 137.8)",
+    "sidebar-primary": "oklch(0.876 0.171 91.7)",
+    "sidebar-primary-foreground": "oklch(0.292 0.046 164.9)",
+    "sidebar-accent": "oklch(0.446 0.037 164.7)",
+    "sidebar-accent-foreground": "oklch(0.982 0.006 137.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.876 0.171 91.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Approachable campaign English UI with warm civic headings, clear sans body text, legible dashboard numerals, and Japanese typography guidance for inclusive labels, event tables, status messages, and community notes.",
+  "layout": "Precise 8px grids, 8px radii, grass-blade dividers, petal markers, clover-dot patterns, pressed-flower texture strips, clear campaign navigation, compact dashboards, and calm coordination forms.",
+  "tags": [
+    "wildflower-meadow",
+    "landscape",
+    "spring-meadow",
+    "mixed-bloom",
+    "green-grass",
+    "sky-blue",
+    "community-campaign",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-wildflower-meadow/motif.png",
+    "board": "/systems/morphous-wildflower-meadow/design-system-light.png",
+    "darkBoard": "/systems/morphous-wildflower-meadow/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-wildflower-meadow/theme.css",
+    "themeJson": "/systems/morphous-wildflower-meadow/theme.json",
+    "promptsJson": "/systems/morphous-wildflower-meadow/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Wildflower Meadow motif",
+      "asset": "/systems/morphous-wildflower-meadow/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Wildflower Meadow transparent motif chroma-key source\nPrimary request: Create only an isolated wildflower field motif for a design-system catalog, no full horizon landscape, no props, no text.\nSubject: A compact natural spring meadow patch with mixed wildflowers: red poppies, yellow buttercups, white daisies, blue cornflowers, small lavender blooms, varied green grasses and stems, clover leaves, seed heads, and a few visible soil/grass-root fragments; crisp botanical silhouettes, tactile petal and grass detail, optimistic community-campaign character.\nComposition/framing: centered complete cutout with generous padding; oval field-clump composition from a slightly elevated three-quarter view; layered grasses and flowers at varied heights; do not crop any flowers or grasses.\nLighting/mood: clean studio light that preserves mixed bloom colors, fresh green grass, and airy spring meadow clarity.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no vase, no people, no animals, no insects, no sky, no full landscape, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-wildflower-meadow/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Wildflower Meadow\" / \"Wildflower Meadow\", derived from the wildflower meadow cutout already provided in context.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the meadow motif image. The board must visibly respect red poppies, yellow buttercups, white daisies, blue cornflowers, lavender accents, fresh green grasses, clover leaves, airy sky blue, and community-campaign energy.\nCanvas: wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if the tool cannot output 3840; use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Wildflower Meadow\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and generated asset examples.\nTypography: include English and Japanese examples; use approachable campaign product typography, readable sans UI, warm civic headings, clear numeric rhythm, inclusive multilingual hierarchy.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, community dashboard metrics, donation/volunteer style progress charts, event table, empty/loading/error/success states, and token swatches.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, practical community campaign system, 8px radius cards and controls, optimistic but operational rather than marketing page.\nColor palette: meadow off-white surface, deep grass ink, poppy red primary, buttercup yellow signal, cornflower blue links, clover green support, sky blue accents, daisy white cards, lavender secondary, dry-stem tan borders. Use only motif-derived colors plus near-neutrals from the motif.\nVisual details: petal marker shapes, grass-blade separators, clover dot patterns, airy sky-blue focus rings, pressed-flower texture strips, campaign badges, volunteer coordination navigation.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens.\nConstraints: no unrelated saturated colors, no generic purple/blue gradients, no neon, no random brand names, no stock hero layout, no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-wildflower-meadow/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode version of the \"Morphous Wildflower Meadow\" / \"Wildflower Meadow\" design-system board, translated from the wildflower meadow motif cutout and the light board already provided in context. It must feel like the same system in dark mode, not a new theme.\nReference use: Use the transparent wildflower meadow motif and the light design-system board as references. Preserve motif-derived palette roles, component language, texture, spacing, typography, and the community campaign UI mood.\nCanvas: wide 16:9 design board, target 3840x2160 or 4K-class source image.\nResolution and legibility: high-resolution, at least 2400px wide if the tool cannot output 3840; use large readable labels and avoid dense tiny text.\nRequired visible sections: title \"Morphous Wildflower Meadow\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, texture, radius, spacing, shadow, tokens, and generated asset examples.\nTypography: include English and Japanese examples; keep the same approachable campaign product typography, readable sans UI, warm civic headings, clear numeric rhythm, inclusive multilingual hierarchy from the light board.\nUI coverage: show buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, community dashboard metrics, donation/volunteer style progress charts, event table, empty/loading/error/success states, and token swatches.\nVisual details: dark background derived from deep grass ink and midnight meadow, poppy red primary, buttercup yellow signal, cornflower blue links, clover green support, sky blue focus rings, lavender secondary, dry-stem tan borders, subtle pressed-flower texture, grass-blade separators, petal marker shapes.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, practical community campaign system, 8px radius cards and controls, optimistic but operational rather than marketing page.\nText: short readable labels only; exact section labels may include Palette, Type, 日本語, Components, Navigation, Data, Forms, Tables, Command, Status, Texture, Radius, Spacing, Shadow, Tokens.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple/blue gradients, no random brand names, no stock hero layout, no watermark, no illegible microtext."
+    }
+  ]
+}

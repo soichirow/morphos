@@ -1,0 +1,98 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-tundra",
+  "name": "Morphous Tundra",
+  "motifName": "Tundra",
+  "motifCategory": "landscape",
+  "biome": "arctic plain",
+  "motif": "tundra moss",
+  "description": "A shadcn/tweakcn-compatible sparse dashboard system derived from arctic plain tundra moss: moss-green actions, lichen-grey structure, snow-white surfaces, frost-soft highlights, and charcoal-moss depth for monitoring, map, sensor, and operations workflows.",
+  "typography": "Sparse English dashboard UI with tabular numerals, concise monitoring labels, and Noto Sans JP guidance for Japanese sensor, map, report, and operations screens.",
+  "layout": "Quiet 8px dashboard grids, broad negative space, low horizontal tundra strata, thin lichen-grey dividers, sensor cards, map panels, event tables, compact filters, and restrained 6px to 8px cards.",
+  "themeReference": [
+    "/systems/morphous-tundra/design-system-light.png",
+    "/systems/morphous-tundra/design-system-dark.png"
+  ],
+  "tags": [
+    "tundra",
+    "landscape",
+    "arctic-plain",
+    "tundra-moss",
+    "sparse-dashboard",
+    "moss-green",
+    "lichen-grey",
+    "snow-white",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow Field",
+      "hex": "#F7FAF6"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Moss",
+      "hex": "#17211B"
+    },
+    {
+      "role": "Primary",
+      "name": "Moss Green",
+      "hex": "#536F4A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lichen Grey",
+      "hex": "#AAB2AD"
+    },
+    {
+      "role": "Accent",
+      "name": "Frost White",
+      "hex": "#EEF2EC"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Moss",
+      "hex": "#2E4A32"
+    },
+    {
+      "role": "Surface",
+      "name": "Snow White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Mist",
+      "hex": "#D7DDD8"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Lichen",
+      "hex": "#7A8480"
+    },
+    {
+      "role": "Depth",
+      "name": "Arctic Night",
+      "hex": "#0E1714"
+    },
+    {
+      "role": "Warning",
+      "name": "Pale Amber",
+      "hex": "#D6A846"
+    },
+    {
+      "role": "Danger",
+      "name": "Frost Red",
+      "hex": "#B75B4D"
+    }
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tundra/motif.png",
+    "board": "/systems/morphous-tundra/design-system-light.png",
+    "darkBoard": "/systems/morphous-tundra/design-system-dark.png",
+    "promptsJson": "/systems/morphous-tundra/prompts.json",
+    "themeCss": "/systems/morphous-tundra/theme.css",
+    "themeJson": "/systems/morphous-tundra/theme.json"
+  }
+}

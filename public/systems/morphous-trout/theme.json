@@ -1,0 +1,172 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-trout",
+    "name": "Morphous Trout",
+    "motifName": "Trout Flank",
+    "motifCategory": "fish",
+    "biome": "Mountain Stream",
+    "motif": "trout flank"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stream White",
+      "hex": "#FAFCFD",
+      "oklch": "oklch(0.990 0.003 228.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Speckle Charcoal",
+      "hex": "#282F31",
+      "oklch": "oklch(0.299 0.010 216.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Olive Back",
+      "hex": "#5E682F",
+      "oklch": "oklch(0.495 0.081 117.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silver Olive Scale",
+      "hex": "#97A97A",
+      "oklch": "oklch(0.709 0.069 125.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "River Blue",
+      "hex": "#4F7F97",
+      "oklch": "oklch(0.572 0.064 231.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Lateral Pink",
+      "hex": "#D07A8E",
+      "oklch": "oklch(0.678 0.109 5.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Silver Flank",
+      "hex": "#DDE5E8",
+      "oklch": "oklch(0.917 0.010 222.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Current",
+      "hex": "#0B222A",
+      "oklch": "oklch(0.238 0.033 223.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.990 0.003 228.8)",
+    "foreground": "oklch(0.299 0.010 216.8)",
+    "card": "oklch(0.917 0.010 222.1)",
+    "card-foreground": "oklch(0.299 0.010 216.8)",
+    "popover": "oklch(0.917 0.010 222.1)",
+    "popover-foreground": "oklch(0.299 0.010 216.8)",
+    "primary": "oklch(0.495 0.081 117.7)",
+    "primary-foreground": "oklch(0.990 0.003 228.8)",
+    "secondary": "oklch(0.948 0.007 219.6)",
+    "secondary-foreground": "oklch(0.238 0.033 223.6)",
+    "muted": "oklch(0.936 0.008 228.9)",
+    "muted-foreground": "oklch(0.238 0.033 223.6)",
+    "accent": "oklch(0.572 0.064 231.1)",
+    "accent-foreground": "oklch(0.299 0.010 216.8)",
+    "destructive": "oklch(0.495 0.081 117.7)",
+    "border": "oklch(0.842 0.024 137.3)",
+    "input": "oklch(0.842 0.024 137.3)",
+    "ring": "oklch(0.709 0.069 125.1)",
+    "chart-1": "oklch(0.495 0.081 117.7)",
+    "chart-2": "oklch(0.709 0.069 125.1)",
+    "chart-3": "oklch(0.572 0.064 231.1)",
+    "chart-4": "oklch(0.678 0.109 5.4)",
+    "chart-5": "oklch(0.238 0.033 223.6)",
+    "sidebar": "oklch(0.942 0.007 219.6)",
+    "sidebar-foreground": "oklch(0.299 0.010 216.8)",
+    "sidebar-primary": "oklch(0.495 0.081 117.7)",
+    "sidebar-primary-foreground": "oklch(0.990 0.003 228.8)",
+    "sidebar-accent": "oklch(0.869 0.010 164.8)",
+    "sidebar-accent-foreground": "oklch(0.495 0.081 117.7)",
+    "sidebar-border": "oklch(0.842 0.024 137.3)",
+    "sidebar-ring": "oklch(0.709 0.069 125.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.299 0.010 216.8)",
+    "foreground": "oklch(0.990 0.003 228.8)",
+    "card": "oklch(0.257 0.025 222.3)",
+    "card-foreground": "oklch(0.990 0.003 228.8)",
+    "popover": "oklch(0.257 0.025 222.3)",
+    "popover-foreground": "oklch(0.990 0.003 228.8)",
+    "primary": "oklch(0.709 0.069 125.1)",
+    "primary-foreground": "oklch(0.299 0.010 216.8)",
+    "secondary": "oklch(0.352 0.029 182.0)",
+    "secondary-foreground": "oklch(0.990 0.003 228.8)",
+    "muted": "oklch(0.352 0.029 182.0)",
+    "muted-foreground": "oklch(0.866 0.030 127.9)",
+    "accent": "oklch(0.572 0.064 231.1)",
+    "accent-foreground": "oklch(0.299 0.010 216.8)",
+    "destructive": "oklch(0.495 0.081 117.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.709 0.069 125.1)",
+    "chart-1": "oklch(0.709 0.069 125.1)",
+    "chart-2": "oklch(0.495 0.081 117.7)",
+    "chart-3": "oklch(0.572 0.064 231.1)",
+    "chart-4": "oklch(0.678 0.109 5.4)",
+    "chart-5": "oklch(0.709 0.069 125.1)",
+    "sidebar": "oklch(0.270 0.021 222.0)",
+    "sidebar-foreground": "oklch(0.990 0.003 228.8)",
+    "sidebar-primary": "oklch(0.709 0.069 125.1)",
+    "sidebar-primary-foreground": "oklch(0.299 0.010 216.8)",
+    "sidebar-accent": "oklch(0.352 0.029 182.0)",
+    "sidebar-accent-foreground": "oklch(0.990 0.003 228.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.709 0.069 125.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English analytical UI with Noto Sans JP guidance for Japanese labels, metrics, and compact environmental dashboards.",
+  "layout": "Clear-water dashboard grids, 8px cards, speckle dividers, river-blue focus lanes, and dense but airy monitoring components.",
+  "tags": [
+    "trout",
+    "fish",
+    "mountain-stream",
+    "clear-field",
+    "olive",
+    "silver",
+    "pink",
+    "river-blue",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-trout/motif.png",
+    "board": "/systems/morphous-trout/design-system-light.png",
+    "darkBoard": "/systems/morphous-trout/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-trout/theme.css",
+    "themeJson": "/systems/morphous-trout/theme.json",
+    "promptsJson": "/systems/morphous-trout/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent trout motif",
+      "asset": "/systems/morphous-trout/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Trout transparent motif chroma-key source\nPrimary request: Create only a trout flank motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A single mountain-stream trout in clean side profile with accurate trout anatomy, olive dorsal back, silver flank, faint pink lateral blush, small dark speckles across the flank, subtle river-blue reflected highlights, translucent fins, crisp tail, and clear field-system calm. It must read as trout, not salmon, koi, tuna, bass, or generic fish.\nComposition/framing: centered complete cutout with generous padding; include head, eye, body, fins, tail, flank texture, speckles, and lateral stripe without cropping. Clean studio light, natural material detail, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no river scene, no water splash, no fishing hook, no lure, no net, no plate or food styling, no second fish, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-trout/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Trout light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Trout\", derived from the visible transparent trout flank cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible product UI theme.\nCanvas: exact wide 16:9 design-system board, 3840 x 2160 composition, clean professional product UI design-system presentation, no mock browser chrome.\nRequired visible sections: Morphous Trout, Trout Flank, Palette, Typography, 日本語 UI, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Charts.\nReference use: Extract the palette and interaction language from mountain-stream trout details: olive dorsal back, silver flank, faint pink lateral line, black flank speckles, river-blue reflections, clear stream field, pale fin translucency, and cool water contrast. The board must read as trout in a clear mountain stream, not salmon, koi, bass, or seafood.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep all text short, large, and legible.\nFull component coverage: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, breadcrumb, dashboard metric cards, line chart, bar chart, donut chart, empty state, loading state, error state, toast, modal, tooltip, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple UI icons.\nStyle: clear field system for analytical environmental dashboards; precise 8px grid; 8px card radius; silver-scale surfaces; olive primary actions; river-blue focus rings and links; pink lateral-line accents; speckle texture dividers; airy clear-water panels; crisp charts and tables.\nColor constraints: use only motif-derived olive, silver, pink, speckle charcoal, river blue, pale stream white, and cool neutral colors. Avoid unrelated saturated colors, generic purple/blue gradients, beige-only palette, and neon.\nText constraints: no random brand names, no watermark, no misspelling of \"Morphous Trout\", no dense unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-trout/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Trout dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Trout\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible trout flank cutout.\nCanvas: exact wide 16:9 design-system board, 3840 x 2160 composition, clean professional product UI design-system presentation, no mock browser chrome.\nRequired visible sections: Morphous Trout, Trout Flank, Dark Mode, Palette, Typography, 日本語 UI, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Charts.\nReference use: Preserve the same trout system language as the visible light board: deep stream panels, silver-scale foreground, olive primary actions, river-blue focus rings and charts, pink lateral-line accents, charcoal speckles, translucent fin neutrals, clear field spacing, and precise shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep all text short, large, and legible on dark stream surfaces.\nFull component coverage: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, breadcrumb, dashboard metric cards, line chart, bar chart, donut chart, empty state, loading state, error state, toast, modal, tooltip, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple UI icons.\nVisual details: deep river-blue and speckle-charcoal background, cool silver text, olive action states, pink active markers, river-blue charts, subtle trout-scale and speckle overlays, crisp 8px cards, clear analytical dashboard density.\nColor constraints: no neon water colors, no pure-black-only flat background, no generic purple gradients, no unrelated saturated colors, no beige/brown dominant palette.\nText constraints: no random brand names, no watermark, no misspelling of \"Morphous Trout\", no illegible tiny paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tortoise",
+    "name": "Morphous Tortoise",
+    "motifName": "Tortoise",
+    "motifCategory": "reptile",
+    "biome": "dry scrub",
+    "motif": "tortoise shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Scrub Cream",
+      "hex": "#f4ecd9",
+      "oklch": "oklch(0.944 0.027 87.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Burrow Ink",
+      "hex": "#251f17",
+      "oklch": "oklch(0.244 0.017 74.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Olive",
+      "hex": "#59653a",
+      "oklch": "oklch(0.485 0.065 121.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Scrub Sand",
+      "hex": "#d8bf8a",
+      "oklch": "oklch(0.813 0.075 85.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Deep Olive",
+      "hex": "#333b22",
+      "oklch": "oklch(0.337 0.042 123.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sage Scute",
+      "hex": "#8a9364",
+      "oklch": "oklch(0.644 0.067 117.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Brown",
+      "hex": "#7a5936",
+      "oklch": "oklch(0.490 0.066 66.9)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Clay Ridge",
+      "hex": "#a8754d",
+      "oklch": "oklch(0.606 0.085 58.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Dry Umber",
+      "hex": "#3f2d1c",
+      "oklch": "oklch(0.313 0.038 64.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.944 0.027 87.9)",
+    "foreground": "oklch(0.244 0.017 74.8)",
+    "card": "oklch(0.490 0.066 66.9)",
+    "card-foreground": "oklch(0.244 0.017 74.8)",
+    "popover": "oklch(0.490 0.066 66.9)",
+    "popover-foreground": "oklch(0.244 0.017 74.8)",
+    "primary": "oklch(0.485 0.065 121.6)",
+    "primary-foreground": "oklch(0.944 0.027 87.9)",
+    "secondary": "oklch(0.688 0.048 74.5)",
+    "secondary-foreground": "oklch(0.244 0.017 74.8)",
+    "muted": "oklch(0.623 0.053 70.6)",
+    "muted-foreground": "oklch(0.244 0.017 74.8)",
+    "accent": "oklch(0.337 0.042 123.1)",
+    "accent-foreground": "oklch(0.244 0.017 74.8)",
+    "destructive": "oklch(0.485 0.065 121.6)",
+    "border": "oklch(0.612 0.069 75.2)",
+    "input": "oklch(0.612 0.069 75.2)",
+    "ring": "oklch(0.813 0.075 85.5)",
+    "chart-1": "oklch(0.485 0.065 121.6)",
+    "chart-2": "oklch(0.813 0.075 85.5)",
+    "chart-3": "oklch(0.337 0.042 123.1)",
+    "chart-4": "oklch(0.644 0.067 117.1)",
+    "chart-5": "oklch(0.244 0.017 74.8)",
+    "sidebar": "oklch(0.651 0.051 72.9)",
+    "sidebar-foreground": "oklch(0.244 0.017 74.8)",
+    "sidebar-primary": "oklch(0.485 0.065 121.6)",
+    "sidebar-primary-foreground": "oklch(0.944 0.027 87.9)",
+    "sidebar-accent": "oklch(0.488 0.063 72.4)",
+    "sidebar-accent-foreground": "oklch(0.485 0.065 121.6)",
+    "sidebar-border": "oklch(0.612 0.069 75.2)",
+    "sidebar-ring": "oklch(0.813 0.075 85.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.244 0.017 74.8)",
+    "foreground": "oklch(0.944 0.027 87.9)",
+    "card": "oklch(0.244 0.017 74.8)",
+    "card-foreground": "oklch(0.944 0.027 87.9)",
+    "popover": "oklch(0.244 0.017 74.8)",
+    "popover-foreground": "oklch(0.944 0.027 87.9)",
+    "primary": "oklch(0.813 0.075 85.5)",
+    "primary-foreground": "oklch(0.244 0.017 74.8)",
+    "secondary": "oklch(0.384 0.032 82.0)",
+    "secondary-foreground": "oklch(0.944 0.027 87.9)",
+    "muted": "oklch(0.384 0.032 82.0)",
+    "muted-foreground": "oklch(0.885 0.049 87.6)",
+    "accent": "oklch(0.337 0.042 123.1)",
+    "accent-foreground": "oklch(0.244 0.017 74.8)",
+    "destructive": "oklch(0.485 0.065 121.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.813 0.075 85.5)",
+    "chart-1": "oklch(0.813 0.075 85.5)",
+    "chart-2": "oklch(0.485 0.065 121.6)",
+    "chart-3": "oklch(0.337 0.042 123.1)",
+    "chart-4": "oklch(0.644 0.067 117.1)",
+    "chart-5": "oklch(0.813 0.075 85.5)",
+    "sidebar": "oklch(0.244 0.017 74.8)",
+    "sidebar-foreground": "oklch(0.944 0.027 87.9)",
+    "sidebar-primary": "oklch(0.813 0.075 85.5)",
+    "sidebar-primary-foreground": "oklch(0.244 0.017 74.8)",
+    "sidebar-accent": "oklch(0.384 0.032 82.0)",
+    "sidebar-accent-foreground": "oklch(0.944 0.027 87.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.813 0.075 85.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English planning UI with Noto Sans JP guidance for compact Japanese task labels, status chips, milestone tables, and dashboard numerals.",
+  "layout": "Dense 8px planning grids, shell-scute section dividers, 8px component radius, stable navigation rails, measured shadows, and calm table-first dashboard rhythm.",
+  "tags": [
+    "tortoise",
+    "reptile",
+    "dry-scrub",
+    "olive",
+    "shell",
+    "planning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tortoise/motif.png",
+    "board": "/systems/morphous-tortoise/design-system-light.png",
+    "darkBoard": "/systems/morphous-tortoise/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tortoise/theme.css",
+    "themeJson": "/systems/morphous-tortoise/theme.json",
+    "promptsJson": "/systems/morphous-tortoise/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent tortoise motif",
+      "asset": "/systems/morphous-tortoise/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tortoise transparent motif chroma-key source\nPrimary request: Create only a tortoise shell motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A realistic adult desert scrub tortoise, complete body visible, domed olive-brown shell with distinct scute plates, subtle growth rings, sand-brown limb scales, cream highlights on shell ridges, sturdy feet, small head, calm steady posture. Natural reptile texture, crisp subject edges, distinctive tortoise silhouette, no extra animals.\nComposition/framing: centered three-quarter side-profile cutout with generous padding; full shell, head, legs, feet, and tail visible, not cropped. Clean studio lighting that preserves olive shell, sand brown, and cream detail. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no desert scene, no plants, no rocks, no props, no text, no watermark, no second subject, no cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-tortoise/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tortoise light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Tortoise\", derived from a dry scrub tortoise shell motif: olive shell scutes, sand brown limb scales, cream shell ridges, dry scrub neutrals, and a calm steady planning mood. This board is a source reference for implementing a shadcn/tweakcn-compatible planning and operations UI.\nCanvas: exact wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Tortoise, Tortoise, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from tortoise shell scute geometry, olive-brown shell plates, sand dry scrub terrain, cream highlights, brown scale texture, and slow steady planning. The board must read as tortoise shell and dry scrub, not generic desert, camouflage, or turtle pond.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, progress chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nPlanning UI details: backlog table, milestone timeline, capacity chart, dependency status, form fields for plan name and owner, navigation for Roadmap, Tasks, Calendar, Risks, Reports.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, cream and sand surfaces, olive primary actions, brown borders, subtle tortoise-shell polygon dividers, restrained shadows, dense but organized planning dashboard UI.\nColor palette: shell olive #59653a, deep olive #333b22, scrub sand #d8bf8a, warm cream #f6edda, shell brown #7a5936, umber #3f2d1c, sage #8a9364, clay #a8754d, ink #251f17.\nConstraints: no water, no pond turtle identity, no generic purple/blue gradients, no neon colors, no beige-only palette, no watermark, no random brand names, no misspelling of \"Morphous Tortoise\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-tortoise/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tortoise dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Tortoise\". It must feel like the same light-mode tortoise system translated to dark mode, not a new theme, and it must remain derived from dry scrub tortoise shell scutes, olive shell plates, sand brown scales, cream ridges, and a steady planning mood.\nCanvas: exact wide 16:9 high-resolution board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Tortoise, Tortoise, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the tortoise planning system language: deep olive and umber backgrounds, cream foreground text, olive active states, sand-brown surfaces, sage focus rings, clay chart accents, shell-scute polygon dividers, dry scrub neutral texture. Must read as tortoise shell and dry scrub, not pond turtle, generic desert, camouflage, or tactical UI.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, progress chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nPlanning UI details: backlog table, milestone timeline, capacity chart, dependency status, form fields for plan name and owner, navigation for Roadmap, Tasks, Calendar, Risks, Reports.\nVisual details: deep shell-olive backgrounds, umber cards, warm cream text and hairline dividers, olive controls, sage focus rings, sand and clay chart highlights, restrained contrast, crisp shadcn/tweakcn components, 8px grid, 8px card radius.\nColor palette: night olive #1f2517, shell dark #2f3520, olive #6f7b43, cream #f3e8d3, scrub sand #c9ad76, shell brown #8a623c, sage #9ba36e, clay #b27a52, umber border #4b3523.\nConstraints: no water, no pond turtle identity, no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Tortoise\"."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tufted-puffin",
+    "name": "Morphous Tufted Puffin",
+    "motifName": "Tufted Puffin",
+    "motifCategory": "bird",
+    "biome": "north pacific cliff",
+    "motif": "tufted puffin face"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sea Mist",
+      "hex": "#E7ECEF",
+      "oklch": "oklch(0.940 0.007 233.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Beak",
+      "hex": "#FF6B4A",
+      "oklch": "oklch(0.707 0.187 34.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tuft Gold",
+      "hex": "#F2C14E",
+      "oklch": "oklch(0.834 0.141 85.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cliff Gray",
+      "hex": "#D2D7DC",
+      "oklch": "oklch(0.877 0.009 247.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Beak Apricot",
+      "hex": "#F49B5F",
+      "oklch": "oklch(0.760 0.132 52)"
+    },
+    {
+      "role": "Border",
+      "name": "Fog Line",
+      "hex": "#C8D0CC",
+      "oklch": "oklch(0.835 0.012 165)"
+    },
+    {
+      "role": "Muted",
+      "name": "Weathered Gull",
+      "hex": "#8C958F",
+      "oklch": "oklch(0.655 0.012 160)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#0E0F10",
+      "oklch": "oklch(0.168 0.003 248.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Basalt",
+      "hex": "#282F33",
+      "oklch": "oklch(0.300 0.012 232.9)"
+    },
+    {
+      "role": "Night",
+      "name": "Cliff Night",
+      "hex": "#171B1D",
+      "oklch": "oklch(0.220 0.008 220)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.011 83)",
+    "foreground": "oklch(0.175 0.004 230)",
+    "card": "oklch(0.995 0.004 84)",
+    "card-foreground": "oklch(0.175 0.004 230)",
+    "popover": "oklch(0.995 0.004 84)",
+    "popover-foreground": "oklch(0.175 0.004 230)",
+    "primary": "oklch(0.660 0.175 34)",
+    "primary-foreground": "oklch(0.995 0.004 84)",
+    "secondary": "oklch(0.930 0.010 164)",
+    "secondary-foreground": "oklch(0.270 0.007 218)",
+    "muted": "oklch(0.910 0.010 165)",
+    "muted-foreground": "oklch(0.520 0.012 160)",
+    "accent": "oklch(0.730 0.135 82)",
+    "accent-foreground": "oklch(0.175 0.004 230)",
+    "destructive": "oklch(0.590 0.190 26)",
+    "border": "oklch(0.835 0.012 165)",
+    "input": "oklch(0.835 0.012 165)",
+    "ring": "oklch(0.660 0.175 34)",
+    "chart-1": "oklch(0.660 0.175 34)",
+    "chart-2": "oklch(0.730 0.135 82)",
+    "chart-3": "oklch(0.590 0.035 154)",
+    "chart-4": "oklch(0.760 0.132 52)",
+    "chart-5": "oklch(0.270 0.007 218)",
+    "sidebar": "oklch(0.930 0.010 164)",
+    "sidebar-foreground": "oklch(0.175 0.004 230)",
+    "sidebar-primary": "oklch(0.660 0.175 34)",
+    "sidebar-primary-foreground": "oklch(0.995 0.004 84)",
+    "sidebar-accent": "oklch(0.890 0.032 80)",
+    "sidebar-accent-foreground": "oklch(0.175 0.004 230)",
+    "sidebar-border": "oklch(0.835 0.012 165)",
+    "sidebar-ring": "oklch(0.660 0.175 34)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.220 0.008 220)",
+    "foreground": "oklch(0.970 0.011 83)",
+    "card": "oklch(0.270 0.007 218)",
+    "card-foreground": "oklch(0.970 0.011 83)",
+    "popover": "oklch(0.270 0.007 218)",
+    "popover-foreground": "oklch(0.970 0.011 83)",
+    "primary": "oklch(0.710 0.165 35)",
+    "primary-foreground": "oklch(0.175 0.004 230)",
+    "secondary": "oklch(0.330 0.018 160)",
+    "secondary-foreground": "oklch(0.970 0.011 83)",
+    "muted": "oklch(0.315 0.008 218)",
+    "muted-foreground": "oklch(0.790 0.014 160)",
+    "accent": "oklch(0.790 0.130 82)",
+    "accent-foreground": "oklch(0.175 0.004 230)",
+    "destructive": "oklch(0.650 0.190 28)",
+    "border": "oklch(0.970 0.011 83 / 18%)",
+    "input": "oklch(0.970 0.011 83 / 22%)",
+    "ring": "oklch(0.710 0.165 35)",
+    "chart-1": "oklch(0.710 0.165 35)",
+    "chart-2": "oklch(0.790 0.130 82)",
+    "chart-3": "oklch(0.665 0.045 154)",
+    "chart-4": "oklch(0.760 0.132 52)",
+    "chart-5": "oklch(0.840 0.020 170)",
+    "sidebar": "oklch(0.175 0.004 230)",
+    "sidebar-foreground": "oklch(0.970 0.011 83)",
+    "sidebar-primary": "oklch(0.710 0.165 35)",
+    "sidebar-primary-foreground": "oklch(0.175 0.004 230)",
+    "sidebar-accent": "oklch(0.330 0.018 160)",
+    "sidebar-accent-foreground": "oklch(0.970 0.011 83)",
+    "sidebar-border": "oklch(0.970 0.011 83 / 16%)",
+    "sidebar-ring": "oklch(0.710 0.165 35)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact content operations, Geist Mono for dashboard numerics, and Noto Sans JP guidance for Japanese labels, navigation, status text, and field metadata.",
+  "layout": "Dense coastal content dashboards with 8px radii, crisp basalt dividers, coral primary controls, gold focus accents, shell-white reading surfaces, and subtle feather and cliff texture swatches.",
+  "tags": [
+    "tufted-puffin",
+    "puffin",
+    "bird",
+    "north-pacific-cliff",
+    "black-white",
+    "gold-tuft",
+    "coral-beak",
+    "coastal-content",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tufted-puffin/motif.png",
+    "board": "/systems/morphous-tufted-puffin/design-system-light.png",
+    "darkBoard": "/systems/morphous-tufted-puffin/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tufted-puffin/theme.css",
+    "themeJson": "/systems/morphous-tufted-puffin/theme.json",
+    "promptsJson": "/systems/morphous-tufted-puffin/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "motif-cutout",
+      "label": "Transparent Tufted Puffin Motif",
+      "asset": "/systems/morphous-tufted-puffin/motif.png",
+      "kind": "motif",
+      "prompt": "Use case: background-extraction. Asset type: isolated motif cutout for a Morphous design-system catalog bundle. Primary request: tufted puffin face motif, centered, front-facing, graphic naturalist cutout. Subject: a tufted puffin head and upper neck with bold black crown and throat, clean white face plates, swept golden tufts, and a coral-orange beak with subtle ivory and charcoal planes. North Pacific cliff bird character, accurate proportions, crisp silhouette, premium editorial illustration with light natural texture. Scene/backdrop: perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Composition: centered portrait cutout with generous padding, subject fully separated from background, no cropped feathers or beak. Style: polished bitmap illustration, sharp edges, tactile feather detail, restrained coastal content-system palette. Avoid: do not use #00ff00 anywhere in the subject; no cast shadow, contact shadow, reflection, watermark, text, logo, frame, random brand names, extra birds, scenery, or decorative UI elements."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light Design-System Board",
+      "asset": "/systems/morphous-tufted-puffin/design-system-light.png",
+      "kind": "design-system-light",
+      "prompt": "Use case: ui-mockup. Asset type: 3840x2160 comprehensive light-mode design-system board for Morphous catalog. Primary request: Create a complete light-mode design system board titled \"Tufted Puffin\" for a coastal content system inspired by a tufted puffin face. Canvas: exact 16:9 4K presentation board, clean editorial layout, high resolution, readable labels, no watermark. Motif and palette: bold black and white puffin face contrast, golden tuft accents, coral-orange beak, north pacific cliff neutrals, sea mist, wet basalt, shell white. Use restrained coastal content UI colors, not generic blue or purple gradients. Required sections with visible labels: Palette, Typography EN/JA, Radius & Shadows, Navigation, Buttons, Form Controls, Search, Cards, Status Badges, Alerts, Data Table, Dashboard Metrics, Charts, Timeline, Empty State, Loading State, Texture Samples. UI content: dashboard and CMS/content-management interface for coastal field notes, publishing queue, media library, cliff survey analytics, compact navigation sidebar and top toolbar. Include line chart, bar chart, donut chart, table rows, form fields, segmented tabs, toggles, checkboxes, radio controls, selects, textarea, badges, status chips. Visual style: crisp product UI, lots of white/shell surfaces, black ink text, coral primary actions, gold highlight accents, charcoal outlines, mist-gray panels, subtle feather/tuft texture swatches. Cards max 8px radius. Professional and dense but organized. Text constraints: labels must be readable at gallery preview scale; avoid tiny token tables. Use generic labels only, no random brand names, no illegible lorem ipsum blocks. Avoid: watermark, fake logos, unrelated animals, decorative blobs/orbs, purple gradients, random company names, overlapping text, cropped board edges."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark Design-System Board",
+      "asset": "/systems/morphous-tufted-puffin/design-system-dark.png",
+      "kind": "design-system-dark",
+      "prompt": "Use case: ui-mockup. Asset type: 3840x2160 comprehensive dark-mode design-system board for Morphous catalog. Primary request: Create a complete dark-mode design system board titled \"Tufted Puffin\" for the same coastal content system inspired by a tufted puffin face. Canvas: exact 16:9 4K presentation board, clean editorial layout, high resolution, readable labels, no watermark. Motif and palette: dark basalt and black puffin head surfaces, shell white face contrast, golden tuft accents, coral-orange beak actions, north pacific cliff neutrals, sea mist lines, kelp charcoal. Keep the palette faithful to black white gold tuft coral and coastal neutrals. Required sections with visible labels: Palette, Typography EN/JA, Radius & Shadows, Navigation, Buttons, Form Controls, Search, Cards, Status Badges, Alerts, Data Table, Dashboard Metrics, Charts, Timeline, Empty State, Loading State, Texture Samples. UI content: dark CMS/content dashboard for coastal field notes, publishing queue, media library, cliff survey analytics, compact navigation sidebar and top toolbar. Include line chart, bar chart, donut chart, table rows, form fields, segmented tabs, toggles, checkboxes, radio controls, selects, textarea, badges, status chips. Visual style: crisp product UI, deep charcoal/basalt background, shell text, coral primary controls, gold focus/highlights, mist-gray borders, subtle puffin feather and tuft texture swatches. Cards max 8px radius. Professional and dense but organized. Text constraints: labels must be readable at gallery preview scale; avoid tiny token tables. Use generic labels only, no random brand names, no illegible lorem ipsum blocks. Avoid: watermark, fake logos, unrelated animals, decorative blobs/orbs, purple gradients, random company names, overlapping text, cropped board edges."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 260,
+  "slug": "morphous-turmeric",
+  "name": "Morphous Turmeric",
+  "motifName": "Turmeric Rhizome",
+  "motifCategory": "plant",
+  "biome": "tropical garden",
+  "motif": "turmeric rhizome with vivid orange root, green leaves, and cream cut highlights",
+  "description": "A shadcn/tweakcn-compatible vivid wellness system drafted from tropical garden turmeric: orange rhizome flesh, ochre root skin, broad green leaves, vein-lime lift, cream cut surfaces, and warm root-shadow depth.",
+  "typography": "Geist for crisp English wellness dashboards with Noto Sans JP guidance for Japanese product labels, ingredient data, and dense form states.",
+  "layout": "Practical 8px grids, rhizome-ring texture, leaf-vein alignment, compact wellness navigation, clear data panels, and warm tactile shadows.",
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "turmeric",
+    "plant",
+    "tropical-garden",
+    "orange-root",
+    "leaf-green",
+    "wellness",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cut Cream",
+      "hex": "#fbf3df"
+    },
+    {
+      "role": "Ink",
+      "name": "Garden Shadow",
+      "hex": "#141b12"
+    },
+    {
+      "role": "Primary",
+      "name": "Turmeric Core",
+      "hex": "#f58211"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green",
+      "hex": "#3f821f"
+    },
+    {
+      "role": "Accent",
+      "name": "Vein Lime",
+      "hex": "#a8c431"
+    },
+    {
+      "role": "Signal",
+      "name": "Rhizome Ochre",
+      "hex": "#b66d31"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Pith",
+      "hex": "#f4e4c7"
+    },
+    {
+      "role": "Border",
+      "name": "Root Fiber",
+      "hex": "#d7b47e"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Leaf",
+      "hex": "#dce8c5"
+    },
+    {
+      "role": "Warning",
+      "name": "Turmeric Gold",
+      "hex": "#f6aa1c"
+    },
+    {
+      "role": "Destructive",
+      "name": "Root Rust",
+      "hex": "#b84e2b"
+    },
+    {
+      "role": "Depth",
+      "name": "Root Umber",
+      "hex": "#3b2514"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

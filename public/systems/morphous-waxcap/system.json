@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 280,
+  "slug": "morphous-waxcap",
+  "name": "Morphous Waxcap",
+  "motifName": "Waxcap",
+  "motifCategory": "fungi",
+  "biome": "unimproved meadow",
+  "motif": "waxcap mushroom",
+  "description": "A shadcn/tweakcn-compatible bright field system derived from a scarlet-orange waxcap in green meadow grass: glossy cap actions, orange gill states, meadow navigation, straw highlights, dark olive loam structure, and precise 8px product UI.",
+  "typography": "Geist for bright field product UI, Geist Mono for habitat data, and Noto Sans JP guidance for Japanese labels, filters, tables, and status text.",
+  "layout": "Bright meadow dashboards, waxcap cap sheen, gill-line dividers, meadow-grass navigation, compact forms and tables, 8px radii, readable data panels, and field-observation command flows.",
+  "designMood": "bright field system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "waxcap",
+    "mushroom",
+    "fungi",
+    "unimproved-meadow",
+    "scarlet-orange",
+    "green-grass",
+    "bright-field",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Cream",
+      "hex": "#FAF7EF"
+    },
+    {
+      "role": "Ink",
+      "name": "Loam Dark",
+      "hex": "#2A2E1A"
+    },
+    {
+      "role": "Primary",
+      "name": "Scarlet Cap",
+      "hex": "#E23612"
+    },
+    {
+      "role": "Highlight",
+      "name": "Cap Highlight",
+      "hex": "#FF5A24"
+    },
+    {
+      "role": "Accent",
+      "name": "Gill Orange",
+      "hex": "#FF8A1A"
+    },
+    {
+      "role": "Signal",
+      "name": "Meadow Green",
+      "hex": "#4E7A28"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Wax",
+      "hex": "#FFE6CC"
+    },
+    {
+      "role": "Soft",
+      "name": "Stem Light",
+      "hex": "#FFC78A"
+    },
+    {
+      "role": "Fresh",
+      "name": "Grass Fresh",
+      "hex": "#7BAA3A"
+    },
+    {
+      "role": "Status",
+      "name": "Straw Green",
+      "hex": "#D6E29A"
+    },
+    {
+      "role": "Muted",
+      "name": "Loam",
+      "hex": "#4B4F31"
+    },
+    {
+      "role": "Border",
+      "name": "Loam Light",
+      "hex": "#6E724F"
+    },
+    {
+      "role": "Depth",
+      "name": "Meadow Shadow",
+      "hex": "#1F2215"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.976 0.011 89.7)",
+    "foreground": "oklch(0.291 0.034 117.8)",
+    "card": "oklch(0.939 0.044 68.4)",
+    "card-foreground": "oklch(0.291 0.034 117.8)",
+    "popover": "oklch(0.939 0.044 68.4)",
+    "popover-foreground": "oklch(0.291 0.034 117.8)",
+    "primary": "oklch(0.598 0.212 32.8)",
+    "primary-foreground": "oklch(0.976 0.011 89.7)",
+    "secondary": "oklch(0.866 0.100 68.3)",
+    "secondary-foreground": "oklch(0.291 0.034 117.8)",
+    "muted": "oklch(0.909 0.037 98.8)",
+    "muted-foreground": "oklch(0.416 0.047 114.7)",
+    "accent": "oklch(0.748 0.177 55.9)",
+    "accent-foreground": "oklch(0.291 0.034 117.8)",
+    "destructive": "oklch(0.598 0.212 32.8)",
+    "border": "oklch(0.909 0.037 98.8)",
+    "input": "oklch(0.909 0.037 98.8)",
+    "ring": "oklch(0.529 0.122 133.2)",
+    "chart-1": "oklch(0.598 0.212 32.8)",
+    "chart-2": "oklch(0.748 0.177 55.9)",
+    "chart-3": "oklch(0.529 0.122 133.2)",
+    "chart-4": "oklch(0.682 0.150 129.2)",
+    "chart-5": "oklch(0.416 0.047 114.7)",
+    "sidebar": "oklch(0.909 0.037 98.8)",
+    "sidebar-foreground": "oklch(0.291 0.034 117.8)",
+    "sidebar-primary": "oklch(0.529 0.122 133.2)",
+    "sidebar-primary-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-accent": "oklch(0.887 0.094 116.1)",
+    "sidebar-accent-foreground": "oklch(0.291 0.034 117.8)",
+    "sidebar-border": "oklch(0.909 0.037 98.8)",
+    "sidebar-ring": "oklch(0.529 0.122 133.2)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.245 0.024 118.8)",
+    "foreground": "oklch(0.961 0.015 106.7)",
+    "card": "oklch(0.293 0.031 126.4)",
+    "card-foreground": "oklch(0.961 0.015 106.7)",
+    "popover": "oklch(0.293 0.031 126.4)",
+    "popover-foreground": "oklch(0.961 0.015 106.7)",
+    "primary": "oklch(0.683 0.210 37.0)",
+    "primary-foreground": "oklch(0.245 0.024 118.8)",
+    "secondary": "oklch(0.357 0.041 123.4)",
+    "secondary-foreground": "oklch(0.961 0.015 106.7)",
+    "muted": "oklch(0.357 0.041 123.4)",
+    "muted-foreground": "oklch(0.887 0.094 116.1)",
+    "accent": "oklch(0.748 0.177 55.9)",
+    "accent-foreground": "oklch(0.245 0.024 118.8)",
+    "destructive": "oklch(0.598 0.212 32.8)",
+    "border": "oklch(0.539 0.052 113.4 / 35%)",
+    "input": "oklch(0.539 0.052 113.4 / 45%)",
+    "ring": "oklch(0.683 0.210 37.0)",
+    "chart-1": "oklch(0.683 0.210 37.0)",
+    "chart-2": "oklch(0.748 0.177 55.9)",
+    "chart-3": "oklch(0.682 0.150 129.2)",
+    "chart-4": "oklch(0.887 0.094 116.1)",
+    "chart-5": "oklch(0.866 0.100 68.3)",
+    "sidebar": "oklch(0.293 0.031 126.4)",
+    "sidebar-foreground": "oklch(0.961 0.015 106.7)",
+    "sidebar-primary": "oklch(0.683 0.210 37.0)",
+    "sidebar-primary-foreground": "oklch(0.245 0.024 118.8)",
+    "sidebar-accent": "oklch(0.357 0.041 123.4)",
+    "sidebar-accent-foreground": "oklch(0.961 0.015 106.7)",
+    "sidebar-border": "oklch(0.539 0.052 113.4 / 35%)",
+    "sidebar-ring": "oklch(0.683 0.210 37.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

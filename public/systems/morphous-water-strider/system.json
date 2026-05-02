@@ -1,0 +1,85 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-water-strider",
+  "name": "Morphous Water Strider",
+  "motifName": "Water Strider",
+  "motifCategory": "insect",
+  "biome": "Still Pond",
+  "motif": "surface-tension interaction grid",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Water Strider light and dark design-system boards: black body graphite, silver ripple focus rings, pond-green actions, hairline leg dividers, and lightweight interaction rhythm.",
+  "typography": "Geist or Inter for precise lightweight product UI with Noto Sans JP guidance for Japanese labels, quiet dashboards, compact tables, and tabular numeric rhythm.",
+  "layout": "Strict 8px grids, 8px maximum radii, hairline separators, still-water spacing, ripple focus states, compact dashboard panels, and shallow surface-tension shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "water-strider",
+    "insect",
+    "still-pond",
+    "surface-tension",
+    "lightweight-interaction",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Still Water",
+      "hex": "#F6F8F7"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#080D0C"
+    },
+    {
+      "role": "Foreground",
+      "name": "Graphite",
+      "hex": "#1A1C1B"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Pond",
+      "hex": "#0F1512"
+    },
+    {
+      "role": "Primary",
+      "name": "Pond Green",
+      "hex": "#2E5E40"
+    },
+    {
+      "role": "Accent",
+      "name": "Algae Green",
+      "hex": "#6F8F6A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leg Olive",
+      "hex": "#4A5A3A"
+    },
+    {
+      "role": "Surface",
+      "name": "Ripple Silver",
+      "hex": "#D8DDE0"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist Gray",
+      "hex": "#E7EBED"
+    },
+    {
+      "role": "Signal",
+      "name": "Reed Amber",
+      "hex": "#B5892A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

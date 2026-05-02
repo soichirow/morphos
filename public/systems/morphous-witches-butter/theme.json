@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-witches-butter",
+    "name": "Morphous Witches Butter",
+    "motifName": "Witches Butter",
+    "motifCategory": "fungi",
+    "biome": "wet woodland",
+    "motif": "jelly fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Spore",
+      "hex": "#FAF7F1",
+      "oklch": "oklch(0.977 0.009 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Bark",
+      "hex": "#1E1C19",
+      "oklch": "oklch(0.228 0.006 78.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warning Gold",
+      "hex": "#FFC107",
+      "oklch": "oklch(0.844 0.172 84.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rain Slate",
+      "hex": "#6A7078",
+      "oklch": "oklch(0.543 0.014 255.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Spore Glow",
+      "hex": "#FFD95A",
+      "oklch": "oklch(0.895 0.149 92.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Bark Rust",
+      "hex": "#B44A22",
+      "oklch": "oklch(0.543 0.148 39.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Film",
+      "hex": "#D9DDE1",
+      "oklch": "oklch(0.896 0.007 247.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Umber",
+      "hex": "#7A4A1E",
+      "oklch": "oklch(0.456 0.087 60.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Bark",
+      "hex": "#3B2F24",
+      "oklch": "oklch(0.315 0.026 64.2)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Amber Jelly",
+      "hex": "#F2B300",
+      "oklch": "oklch(0.804 0.165 83.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.009 84.6)",
+    "foreground": "oklch(0.228 0.006 78.2)",
+    "card": "oklch(0.989 0.006 84.6)",
+    "card-foreground": "oklch(0.228 0.006 78.2)",
+    "popover": "oklch(0.989 0.006 84.6)",
+    "popover-foreground": "oklch(0.228 0.006 78.2)",
+    "primary": "oklch(0.844 0.172 84.9)",
+    "primary-foreground": "oklch(0.228 0.006 78.2)",
+    "secondary": "oklch(0.896 0.007 247.9)",
+    "secondary-foreground": "oklch(0.228 0.006 78.2)",
+    "muted": "oklch(0.896 0.007 247.9)",
+    "muted-foreground": "oklch(0.543 0.014 255.6)",
+    "accent": "oklch(0.895 0.149 92.4)",
+    "accent-foreground": "oklch(0.315 0.026 64.2)",
+    "destructive": "oklch(0.543 0.148 39.7)",
+    "border": "oklch(0.896 0.007 247.9)",
+    "input": "oklch(0.896 0.007 247.9)",
+    "ring": "oklch(0.804 0.165 83.0)",
+    "chart-1": "oklch(0.844 0.172 84.9)",
+    "chart-2": "oklch(0.804 0.165 83.0)",
+    "chart-3": "oklch(0.456 0.087 60.0)",
+    "chart-4": "oklch(0.543 0.014 255.6)",
+    "chart-5": "oklch(0.315 0.026 64.2)",
+    "sidebar": "oklch(0.989 0.006 84.6)",
+    "sidebar-foreground": "oklch(0.228 0.006 78.2)",
+    "sidebar-primary": "oklch(0.844 0.172 84.9)",
+    "sidebar-primary-foreground": "oklch(0.228 0.006 78.2)",
+    "sidebar-accent": "oklch(0.895 0.149 92.4)",
+    "sidebar-accent-foreground": "oklch(0.315 0.026 64.2)",
+    "sidebar-border": "oklch(0.896 0.007 247.9)",
+    "sidebar-ring": "oklch(0.804 0.165 83.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.228 0.006 78.2)",
+    "foreground": "oklch(0.977 0.009 84.6)",
+    "card": "oklch(0.315 0.026 64.2)",
+    "card-foreground": "oklch(0.977 0.009 84.6)",
+    "popover": "oklch(0.315 0.026 64.2)",
+    "popover-foreground": "oklch(0.977 0.009 84.6)",
+    "primary": "oklch(0.844 0.172 84.9)",
+    "primary-foreground": "oklch(0.228 0.006 78.2)",
+    "secondary": "oklch(0.456 0.087 60.0)",
+    "secondary-foreground": "oklch(0.977 0.009 84.6)",
+    "muted": "oklch(0.315 0.026 64.2)",
+    "muted-foreground": "oklch(0.896 0.007 247.9)",
+    "accent": "oklch(0.804 0.165 83.0)",
+    "accent-foreground": "oklch(0.228 0.006 78.2)",
+    "destructive": "oklch(0.543 0.148 39.7)",
+    "border": "oklch(0.896 0.007 247.9 / 18%)",
+    "input": "oklch(0.896 0.007 247.9 / 22%)",
+    "ring": "oklch(0.895 0.149 92.4)",
+    "chart-1": "oklch(0.844 0.172 84.9)",
+    "chart-2": "oklch(0.804 0.165 83.0)",
+    "chart-3": "oklch(0.543 0.014 255.6)",
+    "chart-4": "oklch(0.456 0.087 60.0)",
+    "chart-5": "oklch(0.896 0.007 247.9)",
+    "sidebar": "oklch(0.228 0.006 78.2)",
+    "sidebar-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-primary": "oklch(0.844 0.172 84.9)",
+    "sidebar-primary-foreground": "oklch(0.228 0.006 78.2)",
+    "sidebar-accent": "oklch(0.315 0.026 64.2)",
+    "sidebar-accent-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-border": "oklch(0.896 0.007 247.9 / 18%)",
+    "sidebar-ring": "oklch(0.895 0.149 92.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or Inter for compact product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular data.",
+  "layout": "Precise shadcn/tweakcn grids, 8px radii, bark-fissure separators, rain-speckle texture restraint, high-contrast warning accents, compact data and command surfaces.",
+  "tags": [
+    "witches-butter",
+    "fungi",
+    "wet-woodland",
+    "jelly-fungus",
+    "warning",
+    "golden",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-witches-butter/motif.png",
+    "board": "/systems/morphous-witches-butter/design-system-light.png",
+    "darkBoard": "/systems/morphous-witches-butter/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-witches-butter/theme.css",
+    "themeJson": "/systems/morphous-witches-butter/theme.json",
+    "promptsJson": "/systems/morphous-witches-butter/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Witches Butter motif source",
+      "asset": "/systems/morphous-witches-butter/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a Witches Butter jelly fungus motif for later background removal, isolated full subject, no surrounding environment, no text.\nSubject: a compact cluster of golden yellow Witches Butter jelly fungus (Tremella mesenterica), lobed gelatin texture, glossy folds, sitting on one small fragment of wet dark bark with a few clear rain droplets; the bark fragment is part of the motif substrate, not a landscape.\nComposition/framing: centered complete cutout with generous padding; do not crop the fungus or bark; make the silhouette readable and suitable as a design-system motif asset.\nLighting/mood: clean studio light preserving golden yellow jelly highlights, bark brown ridges, and rain grey wet reflections; playful warning-system mood but naturalistic.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 or green anywhere in the subject. Keep the jelly fungus optically opaque enough that the green background does not show through it.\nConstraints: no forest scene, no leaves, no moss, no second fungus species, no labels, no watermark, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-witches-butter/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Witches Butter\", derived from the visible transparent Witches Butter jelly fungus motif: golden yellow gelatin lobes on wet bark with rain-grey reflections.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from golden yellow jelly folds, amber shadows, bark brown ridges, wet charcoal bark, rain grey highlights, and pale woodland mist neutrals. Use only these motif-derived colors plus near-neutrals from the same source.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. Create a single polished source board, not separate pages.\nResolution and legibility: high-resolution 4K-class source board with large readable labels and clear UI examples; avoid dense tiny token tables.\nRequired visible sections: Morphous Witches Butter title, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: include English and Japanese examples; guidance for Geist or Inter paired with Noto Sans JP; playful warning-system tone without cartoon lettering.\nUI coverage: shadcn/tweakcn-compatible buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top nav, dashboard metric cards, bar/line/donut charts, empty/loading/error/success/warning states, form validation, compact data table, texture swatches, radius 8px, spacing scale, border tokens, focus rings, shadow tokens.\nVisual style: premium product UI system, precise grid, 8px card radius, crisp shadcn-style controls, tactile jelly highlights as accents, bark-fissure dividers, rain speckle texture used sparingly, approachable playful warning system.\nPalette labels to show: Spore Glow, Amber Jelly, Bark Umber, Wet Bark, Rain Slate, Mist Film, Cream Spore, Charcoal Bark, Warning Gold.\nText: short readable UI labels only; use real section labels listed above; avoid long paragraphs.\nConstraints: no colors outside the motif palette, no generic purple or blue gradients, no forest photo background, no random brand names, no watermark, no misspelling of \"Morphous Witches Butter\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-witches-butter/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode companion board for the same Morphous theme named \"Morphous Witches Butter\". It must feel like the visible light board translated to dark mode, not a new theme.\nReference use: Use the visible Witches Butter jelly fungus motif and the visible light-mode design-system board as references. Preserve golden jelly accents, amber warning highlights, wet bark browns, charcoal bark surfaces, rain grey dividers, cream spore text, Japanese typography guidance, component coverage, spacing, and 8px radius.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. Create one polished dark-mode source board.\nResolution and legibility: high-resolution board with large readable labels and clear shadcn/tweakcn UI examples; avoid dense tiny text.\nRequired visible sections: Morphous Witches Butter, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: English and Japanese examples; Geist or Inter plus Noto Sans JP; compact product UI, playful warning-system tone without cartoon lettering.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top nav, dashboard metric cards, charts, empty/loading/error/success/warning states, form validation, compact data table, texture swatches, radius 8px, spacing scale, border tokens, focus rings, shadow tokens.\nVisual details: deep wet bark background, cream spore foreground, golden jelly primary actions, rain-slate borders, amber status chips, subtle bark-fissure and rain-speckle texture, crisp cards and controls.\nPalette labels to show: Spore Glow, Amber Jelly, Bark Umber, Wet Bark, Rain Slate, Mist Film, Cream Spore, Charcoal Bark, Warning Gold.\nText: short readable UI labels only; use real section labels listed above.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple or blue gradients, no forest photo background, no random brand names, no watermark, no misspelling of \"Morphous Witches Butter\"."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-tiger",
+  "name": "Morphous Tiger",
+  "motifName": "Tiger",
+  "motifCategory": "mammal",
+  "biome": "Mangrove forest",
+  "motif": "tiger stripe",
+  "description": "A shadcn/tweakcn-compatible bold operations system derived from tiger orange, stripe black, white fur, mangrove leaf green, clay neutrals, amber focus, and shadow umber depth.",
+  "typography": "Condensed English display hierarchy for operational command surfaces with Noto Sans JP guidance for Japanese labels, dense status text, and numeric dashboards.",
+  "layout": "Precise 8px grids, 8px radii, striped dividers, black structural rails, orange primary actions, green support states, and compact dashboard/data compositions.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "tiger",
+    "mammal",
+    "mangrove",
+    "stripe",
+    "operations",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fur White",
+      "hex": "#f7f5f0"
+    },
+    {
+      "role": "Ink",
+      "name": "Stripe Black",
+      "hex": "#111111"
+    },
+    {
+      "role": "Primary",
+      "name": "Tiger Orange",
+      "hex": "#f47a21"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mangrove Green",
+      "hex": "#3e6849"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber",
+      "hex": "#ffb300"
+    },
+    {
+      "role": "Surface",
+      "name": "Clay Tan",
+      "hex": "#d9b48c"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Umber",
+      "hex": "#4a2e1b"
+    },
+    {
+      "role": "Muted",
+      "name": "Pebble Gray",
+      "hex": "#e6e2da"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

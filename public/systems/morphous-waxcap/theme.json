@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-waxcap",
+    "name": "Morphous Waxcap",
+    "motifName": "Waxcap",
+    "motifCategory": "fungi",
+    "biome": "unimproved meadow",
+    "motif": "waxcap mushroom"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Meadow Cream",
+      "hex": "#FAF7EF",
+      "oklch": "oklch(0.976 0.011 89.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Loam Dark",
+      "hex": "#2A2E1A",
+      "oklch": "oklch(0.291 0.034 117.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Scarlet Cap",
+      "hex": "#E23612",
+      "oklch": "oklch(0.598 0.212 32.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Cap Highlight",
+      "hex": "#FF5A24",
+      "oklch": "oklch(0.683 0.210 37.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Gill Orange",
+      "hex": "#FF8A1A",
+      "oklch": "oklch(0.748 0.177 55.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Meadow Green",
+      "hex": "#4E7A28",
+      "oklch": "oklch(0.529 0.122 133.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Wax",
+      "hex": "#FFE6CC",
+      "oklch": "oklch(0.939 0.044 68.4)"
+    },
+    {
+      "role": "Soft",
+      "name": "Stem Light",
+      "hex": "#FFC78A",
+      "oklch": "oklch(0.866 0.100 68.3)"
+    },
+    {
+      "role": "Fresh",
+      "name": "Grass Fresh",
+      "hex": "#7BAA3A",
+      "oklch": "oklch(0.682 0.150 129.2)"
+    },
+    {
+      "role": "Status",
+      "name": "Straw Green",
+      "hex": "#D6E29A",
+      "oklch": "oklch(0.887 0.094 116.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Loam",
+      "hex": "#4B4F31",
+      "oklch": "oklch(0.416 0.047 114.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Loam Light",
+      "hex": "#6E724F",
+      "oklch": "oklch(0.539 0.052 113.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Meadow Shadow",
+      "hex": "#1F2215",
+      "oklch": "oklch(0.245 0.024 118.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.011 89.7)",
+    "foreground": "oklch(0.291 0.034 117.8)",
+    "card": "oklch(0.939 0.044 68.4)",
+    "card-foreground": "oklch(0.291 0.034 117.8)",
+    "popover": "oklch(0.939 0.044 68.4)",
+    "popover-foreground": "oklch(0.291 0.034 117.8)",
+    "primary": "oklch(0.598 0.212 32.8)",
+    "primary-foreground": "oklch(0.976 0.011 89.7)",
+    "secondary": "oklch(0.866 0.100 68.3)",
+    "secondary-foreground": "oklch(0.291 0.034 117.8)",
+    "muted": "oklch(0.909 0.037 98.8)",
+    "muted-foreground": "oklch(0.416 0.047 114.7)",
+    "accent": "oklch(0.748 0.177 55.9)",
+    "accent-foreground": "oklch(0.291 0.034 117.8)",
+    "destructive": "oklch(0.598 0.212 32.8)",
+    "border": "oklch(0.909 0.037 98.8)",
+    "input": "oklch(0.909 0.037 98.8)",
+    "ring": "oklch(0.529 0.122 133.2)",
+    "chart-1": "oklch(0.598 0.212 32.8)",
+    "chart-2": "oklch(0.748 0.177 55.9)",
+    "chart-3": "oklch(0.529 0.122 133.2)",
+    "chart-4": "oklch(0.682 0.150 129.2)",
+    "chart-5": "oklch(0.416 0.047 114.7)",
+    "sidebar": "oklch(0.909 0.037 98.8)",
+    "sidebar-foreground": "oklch(0.291 0.034 117.8)",
+    "sidebar-primary": "oklch(0.529 0.122 133.2)",
+    "sidebar-primary-foreground": "oklch(0.976 0.011 89.7)",
+    "sidebar-accent": "oklch(0.887 0.094 116.1)",
+    "sidebar-accent-foreground": "oklch(0.291 0.034 117.8)",
+    "sidebar-border": "oklch(0.909 0.037 98.8)",
+    "sidebar-ring": "oklch(0.529 0.122 133.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.245 0.024 118.8)",
+    "foreground": "oklch(0.961 0.015 106.7)",
+    "card": "oklch(0.293 0.031 126.4)",
+    "card-foreground": "oklch(0.961 0.015 106.7)",
+    "popover": "oklch(0.293 0.031 126.4)",
+    "popover-foreground": "oklch(0.961 0.015 106.7)",
+    "primary": "oklch(0.683 0.210 37.0)",
+    "primary-foreground": "oklch(0.245 0.024 118.8)",
+    "secondary": "oklch(0.357 0.041 123.4)",
+    "secondary-foreground": "oklch(0.961 0.015 106.7)",
+    "muted": "oklch(0.357 0.041 123.4)",
+    "muted-foreground": "oklch(0.887 0.094 116.1)",
+    "accent": "oklch(0.748 0.177 55.9)",
+    "accent-foreground": "oklch(0.245 0.024 118.8)",
+    "destructive": "oklch(0.598 0.212 32.8)",
+    "border": "oklch(0.539 0.052 113.4 / 35%)",
+    "input": "oklch(0.539 0.052 113.4 / 45%)",
+    "ring": "oklch(0.683 0.210 37.0)",
+    "chart-1": "oklch(0.683 0.210 37.0)",
+    "chart-2": "oklch(0.748 0.177 55.9)",
+    "chart-3": "oklch(0.682 0.150 129.2)",
+    "chart-4": "oklch(0.887 0.094 116.1)",
+    "chart-5": "oklch(0.866 0.100 68.3)",
+    "sidebar": "oklch(0.293 0.031 126.4)",
+    "sidebar-foreground": "oklch(0.961 0.015 106.7)",
+    "sidebar-primary": "oklch(0.683 0.210 37.0)",
+    "sidebar-primary-foreground": "oklch(0.245 0.024 118.8)",
+    "sidebar-accent": "oklch(0.357 0.041 123.4)",
+    "sidebar-accent-foreground": "oklch(0.961 0.015 106.7)",
+    "sidebar-border": "oklch(0.539 0.052 113.4 / 35%)",
+    "sidebar-ring": "oklch(0.683 0.210 37.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for bright field product UI, Geist Mono for habitat data, and Noto Sans JP guidance for Japanese labels, filters, tables, and status text.",
+  "layout": "Bright meadow dashboards, waxcap cap sheen, gill-line dividers, meadow-grass navigation, compact forms and tables, 8px radii, readable data panels, and field-observation command flows.",
+  "tags": [
+    "waxcap",
+    "mushroom",
+    "fungi",
+    "unimproved-meadow",
+    "scarlet-orange",
+    "green-grass",
+    "bright-field",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-waxcap/motif.png",
+    "board": "/systems/morphous-waxcap/design-system-light.png",
+    "darkBoard": "/systems/morphous-waxcap/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-waxcap/theme.css",
+    "themeJson": "/systems/morphous-waxcap/theme.json",
+    "promptsJson": "/systems/morphous-waxcap/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent waxcap mushroom motif",
+      "asset": "/systems/morphous-waxcap/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Waxcap transparent motif chroma-key source\nPrimary request: Create only a waxcap mushroom motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A bright unimproved meadow waxcap mushroom with a glossy scarlet-orange waxy cap, orange gills visible at the cap edge, slim amber-orange stem, and a small tuft of fresh green meadow grass at the base. Natural fungal texture, clear waxy highlights, accurate waxcap form, crisp edges, unmistakably waxcap mushroom.\nComposition/framing: centered complete cutout with generous padding; show full cap, gills, stem, and grass tuft without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no fly agaric spots, no white dots, no bracket fungus, no forest floor, no moss carpet, no second mushroom, no insects, no hand, no props, no landscape, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-waxcap/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Waxcap light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Waxcap\", derived from the visible transparent waxcap mushroom cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible bright field product UI theme.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Waxcap, Waxcap Mushroom, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the visible motif only: glossy scarlet-orange waxcap cap, vivid orange gills, amber stem, fresh green meadow grass, straw-green blade tips, pale wax highlights, and dark olive loam shadows. The board must read as waxcap mushroom in an unimproved meadow, not fly agaric or generic mushroom.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple field-system icons.\nStyle: premium shadcn/tweakcn-style bright field design system, precise grid, 8px radius on cards and controls, meadow-cream surfaces, scarlet waxcap primary actions, orange gill secondary states, meadow-green navigation and success, straw highlights, dark olive text and borders, subtle waxy cap sheen and meadow blade texture.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. No unrelated saturated colors, no generic purple or blue gradients, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Waxcap\" or \"Waxcap Mushroom\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-waxcap/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Waxcap dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Waxcap\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible transparent waxcap mushroom cutout.\nCanvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board, no portrait crop, no square crop.\nResolution and legibility: high-resolution source board, at least 2400px wide. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Waxcap, Waxcap Mushroom, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Use the visible transparent waxcap motif and the visible light-mode Morphous Waxcap board as references. Preserve motif-derived palette roles, component language, 8px radius, meadow navigation, waxy cap texture, gill line texture, Japanese typography, dashboard/data charts, forms, tables, command/search, status states, tokens, spacing, and shadows.\nVisual details: dark background derived from dark olive loam and deep meadow shadow; foreground from pale wax and straw highlights; primary actions from glossy scarlet waxcap; secondary accents from orange gills and amber stem; navigation and success from meadow green; borders from muted loam; subtle wax sheen and meadow blade texture overlays. Keep a bright-field identity even in dark mode.\nTypography: English product UI examples with Japanese typography guidance. Use labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 日本語 UI. Keep all text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing tokens, radius tokens, border tokens, shadow tokens, texture samples, simple field-system icons.\nColor constraints: use only motif-derived colors and near-neutrals from the motif. No neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background, no one-hue palette.\nText constraints: no watermark, no random brand names, no misspelling of \"Morphous Waxcap\" or \"Waxcap Mushroom\", no tiny unreadable paragraphs."
+    }
+  ]
+}

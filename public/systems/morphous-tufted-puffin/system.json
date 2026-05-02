@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 464,
+  "slug": "morphous-tufted-puffin",
+  "name": "Morphous Tufted Puffin",
+  "motifName": "Tufted Puffin",
+  "motifCategory": "bird",
+  "biome": "north pacific cliff",
+  "motif": "tufted puffin face",
+  "description": "A shadcn/tweakcn-compatible coastal content system derived from a tufted puffin face: black and white editorial contrast, gold tuft highlights, coral beak actions, shell surfaces, basalt structure, and north pacific mist neutrals.",
+  "typography": "Geist for compact content operations, Geist Mono for dashboard numerics, and Noto Sans JP guidance for Japanese labels, navigation, status text, and field metadata.",
+  "layout": "Dense coastal content dashboards with 8px radii, crisp basalt dividers, coral primary controls, gold focus accents, shell-white reading surfaces, and subtle feather and cliff texture swatches.",
+  "designMood": "coastal content system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows",
+    "sample usage"
+  ],
+  "tags": [
+    "tufted-puffin",
+    "puffin",
+    "bird",
+    "north-pacific-cliff",
+    "black-white",
+    "gold-tuft",
+    "coral-beak",
+    "coastal-content",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sea Mist",
+      "hex": "#E7ECEF",
+      "oklch": "oklch(0.940 0.007 233.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Coral Beak",
+      "hex": "#FF6B4A",
+      "oklch": "oklch(0.707 0.187 34.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tuft Gold",
+      "hex": "#F2C14E",
+      "oklch": "oklch(0.834 0.141 85.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Cliff Gray",
+      "hex": "#D2D7DC",
+      "oklch": "oklch(0.877 0.009 247.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Beak Apricot",
+      "hex": "#F49B5F",
+      "oklch": "oklch(0.760 0.132 52)"
+    },
+    {
+      "role": "Border",
+      "name": "Fog Line",
+      "hex": "#C8D0CC",
+      "oklch": "oklch(0.835 0.012 165)"
+    },
+    {
+      "role": "Muted",
+      "name": "Weathered Gull",
+      "hex": "#8C958F",
+      "oklch": "oklch(0.655 0.012 160)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#0E0F10",
+      "oklch": "oklch(0.168 0.003 248.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Basalt",
+      "hex": "#282F33",
+      "oklch": "oklch(0.300 0.012 232.9)"
+    },
+    {
+      "role": "Night",
+      "name": "Cliff Night",
+      "hex": "#171B1D",
+      "oklch": "oklch(0.220 0.008 220)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.970 0.011 83)",
+    "foreground": "oklch(0.175 0.004 230)",
+    "card": "oklch(0.995 0.004 84)",
+    "card-foreground": "oklch(0.175 0.004 230)",
+    "popover": "oklch(0.995 0.004 84)",
+    "popover-foreground": "oklch(0.175 0.004 230)",
+    "primary": "oklch(0.660 0.175 34)",
+    "primary-foreground": "oklch(0.995 0.004 84)",
+    "secondary": "oklch(0.930 0.010 164)",
+    "secondary-foreground": "oklch(0.270 0.007 218)",
+    "muted": "oklch(0.910 0.010 165)",
+    "muted-foreground": "oklch(0.520 0.012 160)",
+    "accent": "oklch(0.730 0.135 82)",
+    "accent-foreground": "oklch(0.175 0.004 230)",
+    "destructive": "oklch(0.590 0.190 26)",
+    "border": "oklch(0.835 0.012 165)",
+    "input": "oklch(0.835 0.012 165)",
+    "ring": "oklch(0.660 0.175 34)",
+    "chart-1": "oklch(0.660 0.175 34)",
+    "chart-2": "oklch(0.730 0.135 82)",
+    "chart-3": "oklch(0.590 0.035 154)",
+    "chart-4": "oklch(0.760 0.132 52)",
+    "chart-5": "oklch(0.270 0.007 218)",
+    "sidebar": "oklch(0.930 0.010 164)",
+    "sidebar-foreground": "oklch(0.175 0.004 230)",
+    "sidebar-primary": "oklch(0.660 0.175 34)",
+    "sidebar-primary-foreground": "oklch(0.995 0.004 84)",
+    "sidebar-accent": "oklch(0.890 0.032 80)",
+    "sidebar-accent-foreground": "oklch(0.175 0.004 230)",
+    "sidebar-border": "oklch(0.835 0.012 165)",
+    "sidebar-ring": "oklch(0.660 0.175 34)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.220 0.008 220)",
+    "foreground": "oklch(0.970 0.011 83)",
+    "card": "oklch(0.270 0.007 218)",
+    "card-foreground": "oklch(0.970 0.011 83)",
+    "popover": "oklch(0.270 0.007 218)",
+    "popover-foreground": "oklch(0.970 0.011 83)",
+    "primary": "oklch(0.710 0.165 35)",
+    "primary-foreground": "oklch(0.175 0.004 230)",
+    "secondary": "oklch(0.330 0.018 160)",
+    "secondary-foreground": "oklch(0.970 0.011 83)",
+    "muted": "oklch(0.315 0.008 218)",
+    "muted-foreground": "oklch(0.790 0.014 160)",
+    "accent": "oklch(0.790 0.130 82)",
+    "accent-foreground": "oklch(0.175 0.004 230)",
+    "destructive": "oklch(0.650 0.190 28)",
+    "border": "oklch(0.970 0.011 83 / 18%)",
+    "input": "oklch(0.970 0.011 83 / 22%)",
+    "ring": "oklch(0.710 0.165 35)",
+    "chart-1": "oklch(0.710 0.165 35)",
+    "chart-2": "oklch(0.790 0.130 82)",
+    "chart-3": "oklch(0.665 0.045 154)",
+    "chart-4": "oklch(0.760 0.132 52)",
+    "chart-5": "oklch(0.840 0.020 170)",
+    "sidebar": "oklch(0.175 0.004 230)",
+    "sidebar-foreground": "oklch(0.970 0.011 83)",
+    "sidebar-primary": "oklch(0.710 0.165 35)",
+    "sidebar-primary-foreground": "oklch(0.175 0.004 230)",
+    "sidebar-accent": "oklch(0.330 0.018 160)",
+    "sidebar-accent-foreground": "oklch(0.970 0.011 83)",
+    "sidebar-border": "oklch(0.970 0.011 83 / 16%)",
+    "sidebar-ring": "oklch(0.710 0.165 35)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

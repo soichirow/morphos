@@ -1,0 +1,196 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tundra",
+    "name": "Morphous Tundra",
+    "motifName": "Tundra",
+    "motifCategory": "landscape",
+    "biome": "arctic plain",
+    "motif": "tundra moss"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snow Field",
+      "hex": "#F7FAF6",
+      "oklch": "oklch(0.982 0.006 137.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Moss",
+      "hex": "#17211B",
+      "oklch": "oklch(0.236 0.018 158.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Moss Green",
+      "hex": "#536F4A",
+      "oklch": "oklch(0.509 0.066 138.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Lichen Grey",
+      "hex": "#AAB2AD",
+      "oklch": "oklch(0.756 0.011 158.8)"
+    },
+    {
+      "role": "Accent",
+      "name": "Frost White",
+      "hex": "#EEF2EC",
+      "oklch": "oklch(0.956 0.009 134.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Deep Moss",
+      "hex": "#2E4A32",
+      "oklch": "oklch(0.379 0.053 148.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Snow White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Lichen Mist",
+      "hex": "#D7DDD8",
+      "oklch": "oklch(0.892 0.009 150.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Lichen",
+      "hex": "#7A8480",
+      "oklch": "oklch(0.604 0.013 170.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Arctic Night",
+      "hex": "#0E1714",
+      "oklch": "oklch(0.194 0.015 172.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Pale Amber",
+      "hex": "#D6A846",
+      "oklch": "oklch(0.756 0.126 83.4)"
+    },
+    {
+      "role": "Danger",
+      "name": "Frost Red",
+      "hex": "#B75B4D",
+      "oklch": "oklch(0.579 0.122 30.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.982 0.006 137.8)",
+    "foreground": "oklch(0.236 0.018 158.3)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.236 0.018 158.3)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.236 0.018 158.3)",
+    "primary": "oklch(0.509 0.066 138.2)",
+    "primary-foreground": "oklch(0.982 0.006 137.8)",
+    "secondary": "oklch(0.993 0.003 128.5)",
+    "secondary-foreground": "oklch(0.194 0.015 172.2)",
+    "muted": "oklch(0.996 0.003 128.5)",
+    "muted-foreground": "oklch(0.194 0.015 172.2)",
+    "accent": "oklch(0.956 0.009 134.9)",
+    "accent-foreground": "oklch(0.236 0.018 158.3)",
+    "destructive": "oklch(0.509 0.066 138.2)",
+    "border": "oklch(0.962 0.003 145.5)",
+    "input": "oklch(0.962 0.003 145.5)",
+    "ring": "oklch(0.756 0.011 158.8)",
+    "chart-1": "oklch(0.509 0.066 138.2)",
+    "chart-2": "oklch(0.756 0.011 158.8)",
+    "chart-3": "oklch(0.956 0.009 134.9)",
+    "chart-4": "oklch(0.379 0.053 148.0)",
+    "chart-5": "oklch(0.194 0.015 172.2)",
+    "sidebar": "oklch(0.993 0.002 145.6)",
+    "sidebar-foreground": "oklch(0.236 0.018 158.3)",
+    "sidebar-primary": "oklch(0.509 0.066 138.2)",
+    "sidebar-primary-foreground": "oklch(0.982 0.006 137.8)",
+    "sidebar-accent": "oklch(0.945 0.008 139.4)",
+    "sidebar-accent-foreground": "oklch(0.509 0.066 138.2)",
+    "sidebar-border": "oklch(0.962 0.003 145.5)",
+    "sidebar-ring": "oklch(0.756 0.011 158.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.236 0.018 158.3)",
+    "foreground": "oklch(0.982 0.006 137.8)",
+    "card": "oklch(0.207 0.015 165.9)",
+    "card-foreground": "oklch(0.982 0.006 137.8)",
+    "popover": "oklch(0.207 0.015 165.9)",
+    "popover-foreground": "oklch(0.982 0.006 137.8)",
+    "primary": "oklch(0.756 0.011 158.8)",
+    "primary-foreground": "oklch(0.236 0.018 158.3)",
+    "secondary": "oklch(0.373 0.014 167.1)",
+    "secondary-foreground": "oklch(0.982 0.006 137.8)",
+    "muted": "oklch(0.373 0.014 167.1)",
+    "muted-foreground": "oklch(0.942 0.007 145.5)",
+    "accent": "oklch(0.956 0.009 134.9)",
+    "accent-foreground": "oklch(0.236 0.018 158.3)",
+    "destructive": "oklch(0.509 0.066 138.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.756 0.011 158.8)",
+    "chart-1": "oklch(0.756 0.011 158.8)",
+    "chart-2": "oklch(0.509 0.066 138.2)",
+    "chart-3": "oklch(0.956 0.009 134.9)",
+    "chart-4": "oklch(0.379 0.053 148.0)",
+    "chart-5": "oklch(0.892 0.009 150.7)",
+    "sidebar": "oklch(0.216 0.015 166.0)",
+    "sidebar-foreground": "oklch(0.982 0.006 137.8)",
+    "sidebar-primary": "oklch(0.756 0.011 158.8)",
+    "sidebar-primary-foreground": "oklch(0.236 0.018 158.3)",
+    "sidebar-accent": "oklch(0.373 0.014 167.1)",
+    "sidebar-accent-foreground": "oklch(0.982 0.006 137.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.756 0.011 158.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Sparse English dashboard UI with tabular numerals, concise monitoring labels, and Noto Sans JP guidance for Japanese sensor, map, report, and operations screens.",
+  "layout": "Quiet 8px dashboard grids, broad negative space, low horizontal tundra strata, thin lichen-grey dividers, sensor cards, map panels, event tables, compact filters, and restrained 6px to 8px cards.",
+  "tags": [
+    "tundra",
+    "landscape",
+    "arctic-plain",
+    "tundra-moss",
+    "sparse-dashboard",
+    "moss-green",
+    "lichen-grey",
+    "snow-white",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tundra/motif.png",
+    "board": "/systems/morphous-tundra/design-system-light.png",
+    "darkBoard": "/systems/morphous-tundra/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tundra/theme.css",
+    "themeJson": "/systems/morphous-tundra/theme.json",
+    "promptsJson": "/systems/morphous-tundra/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent tundra moss motif",
+      "asset": "/systems/morphous-tundra/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tundra transparent motif chroma-key source\nPrimary request: Create only a tundra moss motif for a design-system catalog, isolated as a single complete natural subject on a removable chroma-key background.\nSubject: A compact arctic tundra moss cushion and lichen patch, low rounded clumps of moss green with fine velvety filaments, pale lichen grey branching crusts, small snow-white frost crystals nestled between moss pads, sparse frozen plain character, botanical texture and scale. The identity must read as tundra moss from an arctic plain, not forest moss, tropical moss, grass lawn, coral, seaweed, or generic shrub.\nComposition/framing: centered complete cutout with generous padding; include an irregular low horizontal patch silhouette, visible moss tufts, lichen flakes, and frost details without cropping. Clean diffuse studio light that preserves green, grey, and snow-white detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape horizon, no rocks, no flowers, no animals, no hand, no pot, no props, no text, no watermark, no second plant species beyond moss and lichen, no loose soil pile."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-tundra/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tundra light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Tundra\", derived from a tundra moss motif. This board is a source reference for implementing a shadcn/tweakcn-compatible sparse dashboard system.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source board, target 3840x2160. Clean professional UI design-system presentation. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Tundra, Tundra Moss, Palette, Typography, Japanese Typography, Components, Navigation, Sparse Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from arctic plain tundra moss: deep moss green tufts, lichen grey branching shapes, snow white frost, low horizontal sparse growth, cold mineral neutrals, open negative space, quiet resilience. The board must read as tundra moss from an arctic plain, not forest moss, grass lawn, tropical plant, coral, or generic stone.\nTypography: English sparse dashboard UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, Heading, Body, Label, Numerals. Use concise bilingual monitoring, sensor, map, report, and operations labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, sensor tiles, map status panel, operations summary, table rows, event list, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, scatter plot, empty/loading/error states, progress, filters, date range, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: sparse dashboard system, precise 8px grid and 6px to 8px card radius, snow-white and frost-white surfaces, moss-green primary actions, lichen-grey secondary panels, charcoal-moss ink, quiet low-contrast borders, wide negative space, horizontal tundra strata, subtle moss filament and lichen branching texture overlays, calm arctic monitoring dashboard, polished shadcn/tweakcn component language.\nConstraints: no generic purple or blue gradients, no neon colors, no forest cabin identity, no tropical green palette, no beige-only palette, no full landscape illustration, no random brand names, no watermark, no misspelling of \"Morphous Tundra\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-tundra/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tundra dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Tundra\" / \"Tundra Moss\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: exact wide 16:9 board, high-resolution 4K-class source board, target 3840x2160. Clean professional shadcn/tweakcn design-system presentation. Keep labels large and legible.\nRequired visible sections: Morphous Tundra, Tundra Moss, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Sparse Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve moss-green actions, lichen-grey secondary panels, snow-white foreground text, frost-white highlights, charcoal-moss backgrounds, quiet arctic dashboard spacing, low horizontal tundra strata, moss filament texture, lichen branching texture, sensor tiles, map status panels, operations tables, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as tundra moss from an arctic plain, not forest moss, grass lawn, tropical plant, coral, or generic stone.\nTypography: English sparse dashboard UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, Heading, Body, Label, Numerals. Use concise bilingual monitoring, sensor, map, report, and operations labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, sensor cards, map panel, operations metrics, event table rows, line chart, bar chart, scatter plot, sidebar navigation, command search palette, filters, empty/loading/error states, progress, date range, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep charcoal-moss background, lichen graphite cards, snow-white text, muted moss primary active states, pale lichen grey borders, frost-white focus glow, restrained contrast, wide negative space, thin tundra-strata separators, subtle moss filament and lichen branching overlays, crisp controls and quiet dashboards.\nConstraints: no neon green, no generic black-and-green hacker UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no forest cabin identity, no tropical identity, no random brand names, no watermark, no misspelling of \"Morphous Tundra\", no tiny unreadable paragraphs."
+    }
+  ]
+}

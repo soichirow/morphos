@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-wood-ear",
+    "name": "Morphous Wood Ear",
+    "motifName": "Wood Ear",
+    "motifCategory": "fungi",
+    "biome": "elder branch",
+    "motif": "wood ear fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Paper",
+      "hex": "#F7F3EC",
+      "oklch": "oklch(0.965 0.010 81.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#1E1B17",
+      "oklch": "oklch(0.224 0.009 75.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ear Amber",
+      "hex": "#A85A24",
+      "oklch": "oklch(0.551 0.122 51.6)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Translucent Amber",
+      "hex": "#C98243",
+      "oklch": "oklch(0.668 0.118 60.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Umber Rim",
+      "hex": "#5A2B1C",
+      "oklch": "oklch(0.349 0.074 38.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Olive",
+      "hex": "#687142",
+      "oklch": "oklch(0.529 0.069 117.7)"
+    },
+    {
+      "role": "Success",
+      "name": "Lichen Sage",
+      "hex": "#7D8763",
+      "oklch": "oklch(0.605 0.053 120.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Fungal White",
+      "hex": "#FAF7F1",
+      "oklch": "oklch(0.977 0.009 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Lichen",
+      "hex": "#D1D0C6",
+      "oklch": "oklch(0.856 0.014 102.0)"
+    },
+    {
+      "role": "Bark",
+      "name": "Bark Grey",
+      "hex": "#8B877C",
+      "oklch": "oklch(0.624 0.017 90.3)"
+    },
+    {
+      "role": "Border",
+      "name": "Elder Grey",
+      "hex": "#B8AD9F",
+      "oklch": "oklch(0.753 0.023 74.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Umber",
+      "hex": "#251810",
+      "oklch": "oklch(0.223 0.026 52.6)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Spore Rust",
+      "hex": "#9C3C24",
+      "oklch": "oklch(0.485 0.134 35.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.010 81.8)",
+    "foreground": "oklch(0.224 0.009 75.2)",
+    "card": "oklch(0.977 0.009 84.6)",
+    "card-foreground": "oklch(0.224 0.009 75.2)",
+    "popover": "oklch(0.977 0.009 84.6)",
+    "popover-foreground": "oklch(0.224 0.009 75.2)",
+    "primary": "oklch(0.551 0.122 51.6)",
+    "primary-foreground": "oklch(0.965 0.010 81.8)",
+    "secondary": "oklch(0.972 0.009 78.3)",
+    "secondary-foreground": "oklch(0.223 0.026 52.6)",
+    "muted": "oklch(0.974 0.009 84.6)",
+    "muted-foreground": "oklch(0.223 0.026 52.6)",
+    "accent": "oklch(0.529 0.069 117.7)",
+    "accent-foreground": "oklch(0.224 0.009 75.2)",
+    "destructive": "oklch(0.551 0.122 51.6)",
+    "border": "oklch(0.934 0.010 93.6)",
+    "input": "oklch(0.934 0.010 93.6)",
+    "ring": "oklch(0.349 0.074 38.4)",
+    "chart-1": "oklch(0.551 0.122 51.6)",
+    "chart-2": "oklch(0.349 0.074 38.4)",
+    "chart-3": "oklch(0.529 0.069 117.7)",
+    "chart-4": "oklch(0.529 0.069 117.7)",
+    "chart-5": "oklch(0.223 0.026 52.6)",
+    "sidebar": "oklch(0.974 0.010 87.5)",
+    "sidebar-foreground": "oklch(0.224 0.009 75.2)",
+    "sidebar-primary": "oklch(0.551 0.122 51.6)",
+    "sidebar-primary-foreground": "oklch(0.965 0.010 81.8)",
+    "sidebar-accent": "oklch(0.925 0.021 67.6)",
+    "sidebar-accent-foreground": "oklch(0.551 0.122 51.6)",
+    "sidebar-border": "oklch(0.934 0.010 93.6)",
+    "sidebar-ring": "oklch(0.349 0.074 38.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.009 75.2)",
+    "foreground": "oklch(0.965 0.010 81.8)",
+    "card": "oklch(0.224 0.021 56.4)",
+    "card-foreground": "oklch(0.965 0.010 81.8)",
+    "popover": "oklch(0.224 0.021 56.4)",
+    "popover-foreground": "oklch(0.965 0.010 81.8)",
+    "primary": "oklch(0.349 0.074 38.4)",
+    "primary-foreground": "oklch(0.224 0.009 75.2)",
+    "secondary": "oklch(0.380 0.020 58.1)",
+    "secondary-foreground": "oklch(0.965 0.010 81.8)",
+    "muted": "oklch(0.380 0.020 58.1)",
+    "muted-foreground": "oklch(0.916 0.011 89.7)",
+    "accent": "oklch(0.529 0.069 117.7)",
+    "accent-foreground": "oklch(0.224 0.009 75.2)",
+    "destructive": "oklch(0.551 0.122 51.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.349 0.074 38.4)",
+    "chart-1": "oklch(0.349 0.074 38.4)",
+    "chart-2": "oklch(0.551 0.122 51.6)",
+    "chart-3": "oklch(0.529 0.069 117.7)",
+    "chart-4": "oklch(0.529 0.069 117.7)",
+    "chart-5": "oklch(0.856 0.014 102.0)",
+    "sidebar": "oklch(0.224 0.016 62.5)",
+    "sidebar-foreground": "oklch(0.965 0.010 81.8)",
+    "sidebar-primary": "oklch(0.349 0.074 38.4)",
+    "sidebar-primary-foreground": "oklch(0.224 0.009 75.2)",
+    "sidebar-accent": "oklch(0.380 0.020 58.1)",
+    "sidebar-accent-foreground": "oklch(0.965 0.010 81.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.349 0.074 38.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Soft utilitarian English UI with Japanese typography guidance for media labels, review queues, search, captions, metadata, table numerals, asset states, compact dashboards, and publication controls.",
+  "layout": "Flexible 8px product grids, folded media panels, bark-grain texture bands, compact dashboard/data regions, asset metadata tables, command search, restrained shadows, and 8px cards and controls.",
+  "tags": [
+    "wood-ear",
+    "fungi",
+    "elder-branch",
+    "translucent-brown",
+    "bark-grey",
+    "lichen-grey",
+    "flexible-media-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-wood-ear/motif.png",
+    "board": "/systems/morphous-wood-ear/design-system-light.png",
+    "darkBoard": "/systems/morphous-wood-ear/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-wood-ear/theme.css",
+    "themeJson": "/systems/morphous-wood-ear/theme.json",
+    "promptsJson": "/systems/morphous-wood-ear/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent wood ear motif",
+      "asset": "/systems/morphous-wood-ear/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only wood ear fungus on a small elder branch segment, isolated full subject, no environment, no props beyond the branch, no text.\nSubject: One complete natural cutout of Auricularia auricula-judae wood ear fungus growing from a short elder branch: flexible overlapping ear-shaped lobes, translucent warm brown gelatinous surfaces, curled darker umber rims, subtle amber highlights, damp satin sheen, grey-brown elder bark with small cracks and lichen-like pale grey flecks. Accurate fungal form, no extra plants, no soil, no forest scene.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the branch or fungus; show the whole elder branch segment with fungus attached, diagonal but balanced.\nLighting/mood: clean studio light that preserves translucent brown fungal material, bark grey texture, soft umber shadows, and fine edge detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no decorative background, no second branch, no forest landscape, no cast shadow, no contact shadow, no reflection, no insects, no hands."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-wood-ear/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Wood Ear light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Wood Ear\", derived from the visible isolated wood ear fungus on elder branch cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible flexible media system.\nReference use: Use the visible wood ear motif as the source of truth. Extract translucent warm brown fungal lobes, dark umber curled rims, damp amber highlights, grey-brown elder bark, pale bark-grey lichen flecks, satin gelatinous sheen, flexible folded organic rhythm, and branch-grain texture. The board must visibly respect these motif colors and textures.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Wood Ear, Wood Ear, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: translucent amber-brown primary, dark umber ear-rim secondary, bark grey surfaces, pale lichen grey neutrals, damp chestnut accents, deep bark ink, warm cream fungal highlight, and restrained near-neutrals derived only from the motif.\nTypography: flexible media product UI guidance with English and Japanese type. Use a soft utilitarian grotesk for controls with a refined editorial display option for media titles, and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, metadata, captions, table numerals, and media review workflows. Include short Japanese labels such as メディア, 検索, 下書き, 公開.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, media queue chart, content performance line chart, bar chart, media table, asset metadata table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet flexible media dashboard, warm bark-grey paper surfaces, translucent amber-brown primary actions, dark umber active navigation, lichen-grey secondary surfaces, subtle folded gelatin texture, compact but breathable data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Wood Ear\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-wood-ear/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Wood Ear dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Wood Ear\". It must feel like the same flexible media system translated to dark mode, not a new theme, and it must remain derived from the visible wood ear fungus motif and the visible light-mode board.\nReference use: Use the visible wood ear fungus on elder branch and light-mode board as references. Preserve translucent amber-brown primary controls, dark umber active navigation, bark-grey neutral structure, pale lichen-grey text and borders, folded gelatin texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Wood Ear, Dark Mode, Wood Ear, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest bark ink background, warm umber panels, translucent amber-brown primary, chestnut highlights, pale lichen grey foreground, bark-grey borders, damp amber chart accents, fungal cream text highlights, and restrained near-neutrals derived only from the motif.\nTypography: flexible media product UI guidance with English and Japanese type. Use a soft utilitarian grotesk for controls with a refined editorial display option for media titles, and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, metadata, captions, table numerals, and media review workflows. Include short Japanese labels such as メディア, 検索, 下書き, 公開.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, media queue chart, content performance line chart, bar chart, media table, asset metadata table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the branch's deepest bark shadows, elevated panels in warm umber charcoal, lichen-grey foreground text, translucent amber-brown primary actions, chestnut focus rings, bark-grey borders, damp folded wood-ear texture overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Wood Ear\", no tiny illegible paragraphs."
+    }
+  ]
+}

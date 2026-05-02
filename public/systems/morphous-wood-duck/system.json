@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-wood-duck",
+  "name": "Morphous Wood Duck",
+  "motifName": "Wood Duck Head",
+  "motifCategory": "bird",
+  "biome": "forest wetland",
+  "motif": "wood duck head",
+  "description": "A shadcn/tweakcn-compatible system drafted from a male wood duck head: glossy green crest, chestnut plumage, crisp white markings, red-eye signal, reflective water tones, and forest wetland neutrals.",
+  "typography": "Geist for polished English product UI with Noto Sans JP guidance for Japanese labels, observation tables, and dashboard numerals.",
+  "layout": "Polished 8px nature-system grids, crest-green actions, white-stripe dividers, chestnut emphasis, water-blue focus states, reed-neutral surfaces, and subtle feather and ripple textures.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "wood-duck",
+    "bird",
+    "forest-wetland",
+    "green-crest",
+    "chestnut",
+    "water",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wetland Mist",
+      "hex": "#f6f2e8"
+    },
+    {
+      "role": "Ink",
+      "name": "Feather Ink",
+      "hex": "#101418"
+    },
+    {
+      "role": "Primary",
+      "name": "Crest Green",
+      "hex": "#0e6b4f"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chestnut Neck",
+      "hex": "#8a3c2f"
+    },
+    {
+      "role": "Accent",
+      "name": "Teal Water",
+      "hex": "#0d6e7a"
+    },
+    {
+      "role": "Surface",
+      "name": "White Stripe",
+      "hex": "#f8faf3"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Sand",
+      "hex": "#c7b99a"
+    },
+    {
+      "role": "Chart",
+      "name": "Pond Blue",
+      "hex": "#2c6898"
+    },
+    {
+      "role": "Signal",
+      "name": "Red Eye",
+      "hex": "#e03b38"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

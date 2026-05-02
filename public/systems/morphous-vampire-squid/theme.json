@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-vampire-squid",
+    "name": "Morphous Vampire Squid",
+    "motifName": "Vampire Squid",
+    "motifCategory": "marine",
+    "biome": "Deep Ocean",
+    "motif": "vampire squid cloak"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Abyss Pearl",
+      "hex": "#F4F6FA",
+      "oklch": "oklch(0.973 0.006 264.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Cloak Black",
+      "hex": "#0D0F14",
+      "oklch": "oklch(0.169 0.011 268.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bloodwine Burgundy",
+      "hex": "#6B0F14",
+      "oklch": "oklch(0.343 0.125 24.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Photophore Blue",
+      "hex": "#286EFF",
+      "oklch": "oklch(0.584 0.227 262.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Webbing Maroon",
+      "hex": "#380E16",
+      "oklch": "oklch(0.238 0.067 12.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Signal Cyan",
+      "hex": "#58E6FF",
+      "oklch": "oklch(0.858 0.125 211.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dim Plankton",
+      "hex": "#AEB6C2",
+      "oklch": "oklch(0.774 0.019 258.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ink Slate",
+      "hex": "#182430",
+      "oklch": "oklch(0.255 0.028 249.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Pelagic",
+      "hex": "#0E1B26",
+      "oklch": "oklch(0.216 0.028 245.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.973 0.006 264.5)",
+    "foreground": "oklch(0.169 0.011 268.0)",
+    "card": "oklch(0.774 0.019 258.4)",
+    "card-foreground": "oklch(0.169 0.011 268.0)",
+    "popover": "oklch(0.774 0.019 258.4)",
+    "popover-foreground": "oklch(0.169 0.011 268.0)",
+    "primary": "oklch(0.343 0.125 24.6)",
+    "primary-foreground": "oklch(0.973 0.006 264.5)",
+    "secondary": "oklch(0.859 0.014 258.3)",
+    "secondary-foreground": "oklch(0.216 0.028 245.2)",
+    "muted": "oklch(0.831 0.015 260.7)",
+    "muted-foreground": "oklch(0.216 0.028 245.2)",
+    "accent": "oklch(0.238 0.067 12.4)",
+    "accent-foreground": "oklch(0.169 0.011 268.0)",
+    "destructive": "oklch(0.343 0.125 24.6)",
+    "border": "oklch(0.600 0.021 255.6)",
+    "input": "oklch(0.600 0.021 255.6)",
+    "ring": "oklch(0.584 0.227 262.4)",
+    "chart-1": "oklch(0.343 0.125 24.6)",
+    "chart-2": "oklch(0.584 0.227 262.4)",
+    "chart-3": "oklch(0.238 0.067 12.4)",
+    "chart-4": "oklch(0.858 0.125 211.4)",
+    "chart-5": "oklch(0.216 0.028 245.2)",
+    "sidebar": "oklch(0.843 0.014 258.3)",
+    "sidebar-foreground": "oklch(0.169 0.011 268.0)",
+    "sidebar-primary": "oklch(0.343 0.125 24.6)",
+    "sidebar-primary-foreground": "oklch(0.973 0.006 264.5)",
+    "sidebar-accent": "oklch(0.719 0.016 302.5)",
+    "sidebar-accent-foreground": "oklch(0.343 0.125 24.6)",
+    "sidebar-border": "oklch(0.600 0.021 255.6)",
+    "sidebar-ring": "oklch(0.584 0.227 262.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.169 0.011 268.0)",
+    "foreground": "oklch(0.973 0.006 264.5)",
+    "card": "oklch(0.200 0.023 249.0)",
+    "card-foreground": "oklch(0.973 0.006 264.5)",
+    "popover": "oklch(0.200 0.023 249.0)",
+    "popover-foreground": "oklch(0.973 0.006 264.5)",
+    "primary": "oklch(0.584 0.227 262.4)",
+    "primary-foreground": "oklch(0.169 0.011 268.0)",
+    "secondary": "oklch(0.224 0.028 245.1)",
+    "secondary-foreground": "oklch(0.973 0.006 264.5)",
+    "muted": "oklch(0.224 0.028 245.1)",
+    "muted-foreground": "oklch(0.676 0.013 248.0)",
+    "accent": "oklch(0.238 0.067 12.4)",
+    "accent-foreground": "oklch(0.169 0.011 268.0)",
+    "destructive": "oklch(0.343 0.125 24.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.584 0.227 262.4)",
+    "chart-1": "oklch(0.584 0.227 262.4)",
+    "chart-2": "oklch(0.343 0.125 24.6)",
+    "chart-3": "oklch(0.238 0.067 12.4)",
+    "chart-4": "oklch(0.858 0.125 211.4)",
+    "chart-5": "oklch(0.255 0.028 249.0)",
+    "sidebar": "oklch(0.191 0.019 245.4)",
+    "sidebar-foreground": "oklch(0.973 0.006 264.5)",
+    "sidebar-primary": "oklch(0.584 0.227 262.4)",
+    "sidebar-primary-foreground": "oklch(0.169 0.011 268.0)",
+    "sidebar-accent": "oklch(0.224 0.028 245.1)",
+    "sidebar-accent-foreground": "oklch(0.973 0.006 264.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.584 0.227 262.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp English dashboard UI with Japanese guidance for concise operational labels, status chips, chart legends, and readable numeric telemetry.",
+  "layout": "Compact 8px dashboard grids, cloak-web radial dividers, burgundy-black data cards, blue-glow focus states, and dense navigation for deep-ocean monitoring workflows.",
+  "tags": [
+    "vampire-squid",
+    "marine",
+    "deep-ocean",
+    "dashboard",
+    "dramatic",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-vampire-squid/motif.png",
+    "board": "/systems/morphous-vampire-squid/design-system-light.png",
+    "darkBoard": "/systems/morphous-vampire-squid/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-vampire-squid/theme.css",
+    "themeJson": "/systems/morphous-vampire-squid/theme.json",
+    "promptsJson": "/systems/morphous-vampire-squid/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent vampire squid motif",
+      "asset": "/systems/morphous-vampire-squid/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Vampire Squid transparent motif chroma-key source\nPrimary request: Create only a vampire squid motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A single vampire squid, biologically plausible but polished for a premium UI catalog: compact mantle, cloak-like webbing spread between arms like a dark burgundy cape, curled arm tips, subtle cirri texture, glossy dark eyes, black-burgundy skin with deep wine gradients, dim blue bioluminescent glow along web edges and tiny photophore points, abyssal marine drama without becoming a horror monster.\nComposition/framing: centered complete cutout with generous padding; full body visible, cloak webbing open and readable, no cropped arms. Clean studio lighting that preserves burgundy-black detail and blue glow accents, no cast shadow.\nChroma-key background: perfectly flat solid #00ff00 background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no ocean scene, no rocks, no bubbles, no second animal, no cartoon mascot, no vampire character, no teeth, no blood, no text, no watermark, no logo, no props, no floor plane."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-vampire-squid/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Vampire Squid light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Vampire Squid\", derived from a vampire squid cloak motif. This board is a source reference for a shadcn/tweakcn-compatible dramatic dashboard system.\nCanvas: exact 16:9 wide board, target 3840x2160 high-resolution source asset. Use a crisp professional grid with large readable labels and no tiny paragraphs.\nRequired visible sections: Morphous Vampire Squid, Vampire Squid, Deep Ocean, Palette, Typography, Japanese Typography, Components, Navigation, Operations Dashboard, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract color and interaction language from a vampire squid cloak: black-burgundy webbing, deep wine mantle, blue bioluminescent edge glow, dim abyss neutrals, glossy dark eyes, small photophore dots, cape-like radial arm rhythm. The board must read as deep ocean and dramatic dashboard, not generic purple SaaS.\nPalette labels to render clearly: Abyss Pearl, Cloak Black, Bloodwine Burgundy, Photophore Blue, Deep Pelagic, Webbing Maroon, Dim Plankton, Ink Slate, Signal Cyan.\nTypography: English product UI examples with Japanese UI guidance; show short labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Deep Sea, Active, Warning. Keep text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, metric cards, table rows, command palette, search bar, left sidebar navigation, top toolbar, incident/status chips, uptime counters, dashboard metric cards, line chart for abyss telemetry, bar chart for sensor load, donut chart for risk states, compact data table, empty/loading/error states, spacing scale, 8px radius, border, shadow, texture samples, simple lucide-style icons.\nStyle: dramatic but readable product UI, pearl-gray light background, ink and burgundy panels, blue glow focus rings, compact dashboard workflow density, cloak-web radial dividers, subtle photophore dot texture, dim marine neutrals, shadcn/tweakcn token-driven components.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no horror/blood imagery despite the name, no stock photo background, no random brand names, no misspelling of \"Morphous Vampire Squid\", no watermark, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-vampire-squid/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Vampire Squid dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Vampire Squid\". It must feel like the light-mode board translated to dark mode, while staying derived from a vampire squid cloak motif.\nCanvas: exact 16:9 wide board, target 3840x2160 high-resolution source asset. Use a crisp professional grid with large readable labels and no tiny paragraphs.\nRequired visible sections: Morphous Vampire Squid, Vampire Squid, Deep Ocean, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Operations Dashboard, Charts, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the same system language: black-burgundy cloak webbing, deep wine mantle, dim abyss cards, blue bioluminescent edge glow, glossy dark eyes, small photophore dots, cape-like radial arm rhythm, compact operational dashboard density.\nPalette labels to render clearly: Abyss Black, Abyss Pearl, Cloak Black, Bloodwine Burgundy, Photophore Blue, Deep Pelagic, Webbing Maroon, Dim Plankton, Ink Slate, Signal Cyan.\nTypography: English product UI examples with Japanese UI guidance; show short labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Deep Sea, Active, Warning. Keep text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, text input, select, textarea, checkbox, radio, switch, tabs, badges, alerts, metric cards, table rows, command palette, search bar, left sidebar navigation, top toolbar, incident/status chips, uptime counters, dashboard metric cards, line chart for abyss telemetry, bar chart for sensor load, donut chart for risk states, compact data table, empty/loading/error states, spacing scale, 8px radius, border, shadow, texture samples, simple lucide-style icons.\nVisual details: deep blue-black background rather than pure black, burgundy-black cards, pearl readable foreground, burgundy primary buttons, photophore-blue focus rings and chart highlights, subtle blue glow, cloak-web radial dividers, restrained marine neutrals, dramatic dashboard system.\nConstraints: no neon overload, no generic purple/blue gradients, no horror/blood imagery despite the name, no pure flat black-only background, no unrelated saturated colors, no random brand names, no misspelling of \"Morphous Vampire Squid\", no watermark, no illegible microtext."
+    }
+  ]
+}

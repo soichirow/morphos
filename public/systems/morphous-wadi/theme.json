@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-wadi",
+    "name": "Morphous Wadi",
+    "motifName": "Wadi",
+    "motifCategory": "landscape",
+    "biome": "Desert Canyon",
+    "motif": "wadi channel"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Wash",
+      "hex": "#f7f2e6",
+      "oklch": "oklch(0.962 0.017 88.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canyon Ink",
+      "hex": "#292118",
+      "oklch": "oklch(0.254 0.020 70.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Acacia Green",
+      "hex": "#5a8f62",
+      "oklch": "oklch(0.600 0.089 148.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sandstone",
+      "hex": "#d8b38a",
+      "oklch": "oklch(0.790 0.070 69.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sky Blue Route",
+      "hex": "#49a6e0",
+      "oklch": "oklch(0.694 0.122 239.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Canyon Clay",
+      "hex": "#b56a30",
+      "oklch": "oklch(0.598 0.120 55.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dry Wash",
+      "hex": "#f3e9d4",
+      "oklch": "oklch(0.936 0.030 85.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pebble Taupe",
+      "hex": "#d6cec1",
+      "oklch": "oklch(0.854 0.020 80.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Canyon",
+      "hex": "#0f141a",
+      "oklch": "oklch(0.189 0.015 253.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.017 88.0)",
+    "foreground": "oklch(0.254 0.020 70.0)",
+    "card": "oklch(0.936 0.030 85.6)",
+    "card-foreground": "oklch(0.254 0.020 70.0)",
+    "popover": "oklch(0.936 0.030 85.6)",
+    "popover-foreground": "oklch(0.254 0.020 70.0)",
+    "primary": "oklch(0.600 0.089 148.1)",
+    "primary-foreground": "oklch(0.962 0.017 88.0)",
+    "secondary": "oklch(0.948 0.024 85.8)",
+    "secondary-foreground": "oklch(0.189 0.015 253.2)",
+    "muted": "oklch(0.944 0.027 87.9)",
+    "muted-foreground": "oklch(0.189 0.015 253.2)",
+    "accent": "oklch(0.694 0.122 239.4)",
+    "accent-foreground": "oklch(0.254 0.020 70.0)",
+    "destructive": "oklch(0.600 0.089 148.1)",
+    "border": "oklch(0.907 0.026 82.4)",
+    "input": "oklch(0.907 0.026 82.4)",
+    "ring": "oklch(0.790 0.070 69.4)",
+    "chart-1": "oklch(0.600 0.089 148.1)",
+    "chart-2": "oklch(0.790 0.070 69.4)",
+    "chart-3": "oklch(0.694 0.122 239.4)",
+    "chart-4": "oklch(0.598 0.120 55.3)",
+    "chart-5": "oklch(0.189 0.015 253.2)",
+    "sidebar": "oklch(0.945 0.025 86.9)",
+    "sidebar-foreground": "oklch(0.254 0.020 70.0)",
+    "sidebar-primary": "oklch(0.600 0.089 148.1)",
+    "sidebar-primary-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-accent": "oklch(0.897 0.032 101.2)",
+    "sidebar-accent-foreground": "oklch(0.600 0.089 148.1)",
+    "sidebar-border": "oklch(0.907 0.026 82.4)",
+    "sidebar-ring": "oklch(0.790 0.070 69.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.254 0.020 70.0)",
+    "foreground": "oklch(0.962 0.017 88.0)",
+    "card": "oklch(0.209 0.002 286.2)",
+    "card-foreground": "oklch(0.962 0.017 88.0)",
+    "popover": "oklch(0.209 0.002 286.2)",
+    "popover-foreground": "oklch(0.962 0.017 88.0)",
+    "primary": "oklch(0.790 0.070 69.4)",
+    "primary-foreground": "oklch(0.254 0.020 70.0)",
+    "secondary": "oklch(0.359 0.004 247.9)",
+    "secondary-foreground": "oklch(0.962 0.017 88.0)",
+    "muted": "oklch(0.359 0.004 247.9)",
+    "muted-foreground": "oklch(0.914 0.019 86.1)",
+    "accent": "oklch(0.694 0.122 239.4)",
+    "accent-foreground": "oklch(0.254 0.020 70.0)",
+    "destructive": "oklch(0.600 0.089 148.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.790 0.070 69.4)",
+    "chart-1": "oklch(0.790 0.070 69.4)",
+    "chart-2": "oklch(0.600 0.089 148.1)",
+    "chart-3": "oklch(0.694 0.122 239.4)",
+    "chart-4": "oklch(0.598 0.120 55.3)",
+    "chart-5": "oklch(0.854 0.020 80.1)",
+    "sidebar": "oklch(0.224 0.005 67.6)",
+    "sidebar-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-primary": "oklch(0.790 0.070 69.4)",
+    "sidebar-primary-foreground": "oklch(0.254 0.020 70.0)",
+    "sidebar-accent": "oklch(0.359 0.004 247.9)",
+    "sidebar-accent-foreground": "oklch(0.962 0.017 88.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.790 0.070 69.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for technical route planning UI with Noto Sans JP guidance for headings, body, labels, and coordinate numerals.",
+  "layout": "Compact 8px planning grids, wadi-channel route dividers, sandstone card boundaries, waypoint tables, elevation charts, and dense field-operations dashboards.",
+  "tags": [
+    "wadi",
+    "landscape",
+    "desert-canyon",
+    "sandstone",
+    "route-planning",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-wadi/motif.png",
+    "board": "/systems/morphous-wadi/design-system-light.png",
+    "darkBoard": "/systems/morphous-wadi/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-wadi/theme.css",
+    "themeJson": "/systems/morphous-wadi/theme.json",
+    "promptsJson": "/systems/morphous-wadi/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent wadi channel motif source",
+      "asset": "/systems/morphous-wadi/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for `/systems/morphous-wadi/motif.png`\nPrimary request: Create only a wadi channel motif for a landscape design system named Morphous Wadi, isolated full subject, no text.\nScene/backdrop: The subject must sit on a perfectly flat solid #ff00ff chroma-key background for background removal.\nSubject: A compact desert canyon wadi channel cutout: carved sandstone banks in warm sand-stone tones, dry braided streambed lines, small acacia-green shrubs on the margins, a clear sky-blue ribbon/reflection accent, and route-like natural channel geometry.\nComposition/framing: centered complete motif with generous padding; do not crop the canyon edges, channel, shrubs, or sky accents. Keep a clean silhouette suitable for a transparent catalog motif.\nLighting/mood: crisp desert daylight, route planning system feel, readable sandstone texture, natural shadows only on the subject itself.\nTransparent workflow: background must be one uniform #ff00ff color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no people, vehicles, buildings, signs, map pins, text, watermark, border, decorative background, or contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-wadi/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for `/systems/morphous-wadi/design-system-light.png`\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Wadi\" derived from a transparent motif of a desert canyon wadi channel.\nReference motif description: warm sandstone canyon banks, dry braided streambed geometry, acacia-green shrubs, a narrow sky-blue water/reflection ribbon, route-like channel curves, crisp desert daylight.\nSystem feel: route planning system for field logistics, path comparison, waypoint review, terrain constraints, dry wash navigation, and schedule confidence.\nCanvas: wide 16:9 board, 4K-class composition. Make all labels large enough to read in gallery preview.\nRequired visible sections: Morphous Wadi, Palette, Typography, Japanese Typography, Components, Navigation, Route Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; use clean route-planning labels, map-coordinate numerals, and concise UI copy.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, route list, waypoint cards, elevation/flow charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nPalette direction: sand-stone background and surfaces, sandstone ink and borders, acacia green primary actions, sky blue focus and route accents, dry wash muted neutrals, deep canyon dark text. Avoid purple gradients and unrelated saturated colors.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, sandstone contour dividers, route-channel curves used sparingly as separators, utilitarian route planning interface.\nConstraints: no people, no vehicles, no random brand names, no watermark, no illegible tiny token tables, no misspelling of \"Morphous Wadi\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-wadi/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for `/systems/morphous-wadi/design-system-dark.png`\nPrimary request: Generate a dark-mode companion board for the Morphous theme named \"Morphous Wadi\". It must feel like the same route planning system translated to dark mode, not a new theme.\nReference system: desert canyon wadi channel motif with warm sandstone banks, braided dry wash geometry, acacia-green shrubs, a narrow sky-blue water/reflection route accent, and utilitarian route-planning workflows.\nSystem feel: night operations route planning system for field logistics, waypoint review, terrain constraints, flash-flood status, route comparison, and schedule confidence.\nCanvas: wide 16:9 board, 4K-class composition. Make all labels large enough to read in gallery preview.\nRequired visible sections: Morphous Wadi, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Route Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; use clean route-planning labels, coordinate numerals, and concise UI copy.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, route list, waypoint cards, elevation/flow charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nPalette direction: deep canyon ink background, warm sandstone cards and borders, acacia green primary actions, sky blue focus and active route accents, dry wash muted neutrals, pale sand foreground. Preserve the same roles from the light board.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise 8px grid, 8px card radius, sandstone contour dividers, route-channel curves used sparingly as separators, restrained high-contrast dark operations interface.\nConstraints: no neon colors, no pure black only background, no purple gradients, no unrelated saturated colors, no people, no vehicles, no random brand names, no watermark, no illegible tiny token tables, no misspelling of \"Morphous Wadi\"."
+    }
+  ]
+}

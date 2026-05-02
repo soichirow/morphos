@@ -1,0 +1,170 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-tiger",
+    "name": "Morphous Tiger",
+    "motifName": "Tiger",
+    "motifCategory": "mammal",
+    "biome": "Mangrove forest",
+    "motif": "tiger stripe"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fur White",
+      "hex": "#f7f5f0",
+      "oklch": "oklch(0.970 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Stripe Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Tiger Orange",
+      "hex": "#f47a21",
+      "oklch": "oklch(0.709 0.175 50.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mangrove Green",
+      "hex": "#3e6849",
+      "oklch": "oklch(0.477 0.069 151.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber",
+      "hex": "#ffb300",
+      "oklch": "oklch(0.818 0.171 77.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Clay Tan",
+      "hex": "#d9b48c",
+      "oklch": "oklch(0.793 0.069 68.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shadow Umber",
+      "hex": "#4a2e1b",
+      "oklch": "oklch(0.331 0.051 54.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pebble Gray",
+      "hex": "#e6e2da",
+      "oklch": "oklch(0.914 0.012 84.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.007 88.6)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.793 0.069 68.8)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.793 0.069 68.8)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.709 0.175 50.3)",
+    "primary-foreground": "oklch(0.970 0.007 88.6)",
+    "secondary": "oklch(0.867 0.042 69.6)",
+    "secondary-foreground": "oklch(0.331 0.051 54.2)",
+    "muted": "oklch(0.842 0.051 70.0)",
+    "muted-foreground": "oklch(0.331 0.051 54.2)",
+    "accent": "oklch(0.818 0.171 77.9)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.709 0.175 50.3)",
+    "border": "oklch(0.837 0.048 71.2)",
+    "input": "oklch(0.837 0.048 71.2)",
+    "ring": "oklch(0.477 0.069 151.4)",
+    "chart-1": "oklch(0.709 0.175 50.3)",
+    "chart-2": "oklch(0.477 0.069 151.4)",
+    "chart-3": "oklch(0.818 0.171 77.9)",
+    "chart-4": "oklch(0.793 0.069 68.8)",
+    "chart-5": "oklch(0.331 0.051 54.2)",
+    "sidebar": "oklch(0.853 0.047 70.3)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.709 0.175 50.3)",
+    "sidebar-primary-foreground": "oklch(0.970 0.007 88.6)",
+    "sidebar-accent": "oklch(0.780 0.082 65.5)",
+    "sidebar-accent-foreground": "oklch(0.709 0.175 50.3)",
+    "sidebar-border": "oklch(0.837 0.048 71.2)",
+    "sidebar-ring": "oklch(0.477 0.069 151.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.000 89.9)",
+    "foreground": "oklch(0.970 0.007 88.6)",
+    "card": "oklch(0.280 0.036 53.0)",
+    "card-foreground": "oklch(0.970 0.007 88.6)",
+    "popover": "oklch(0.280 0.036 53.0)",
+    "popover-foreground": "oklch(0.970 0.007 88.6)",
+    "primary": "oklch(0.477 0.069 151.4)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.471 0.039 59.3)",
+    "secondary-foreground": "oklch(0.970 0.007 88.6)",
+    "muted": "oklch(0.471 0.039 59.3)",
+    "muted-foreground": "oklch(0.944 0.009 84.6)",
+    "accent": "oklch(0.818 0.171 77.9)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.709 0.175 50.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.477 0.069 151.4)",
+    "chart-1": "oklch(0.477 0.069 151.4)",
+    "chart-2": "oklch(0.709 0.175 50.3)",
+    "chart-3": "oklch(0.818 0.171 77.9)",
+    "chart-4": "oklch(0.793 0.069 68.8)",
+    "chart-5": "oklch(0.914 0.012 84.6)",
+    "sidebar": "oklch(0.248 0.025 52.8)",
+    "sidebar-foreground": "oklch(0.970 0.007 88.6)",
+    "sidebar-primary": "oklch(0.477 0.069 151.4)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.471 0.039 59.3)",
+    "sidebar-accent-foreground": "oklch(0.970 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.477 0.069 151.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Condensed English display hierarchy for operational command surfaces with Noto Sans JP guidance for Japanese labels, dense status text, and numeric dashboards.",
+  "layout": "Precise 8px grids, 8px radii, striped dividers, black structural rails, orange primary actions, green support states, and compact dashboard/data compositions.",
+  "tags": [
+    "tiger",
+    "mammal",
+    "mangrove",
+    "stripe",
+    "operations",
+    "high-contrast",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-tiger/motif.png",
+    "board": "/systems/morphous-tiger/design-system-light.png",
+    "darkBoard": "/systems/morphous-tiger/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-tiger/theme.css",
+    "themeJson": "/systems/morphous-tiger/theme.json",
+    "promptsJson": "/systems/morphous-tiger/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent tiger motif",
+      "asset": "/systems/morphous-tiger/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Tiger transparent motif chroma-key source\nPrimary request: Create only an isolated tiger motif for a Morphous design-system catalog, no environment, no props, no text.\nSubject: A powerful Bengal tiger in a poised side-facing stance with head turned slightly toward viewer, vivid orange fur, bold black tiger stripes, white cheek and chest markings, accurate anatomy, crisp silhouette edges, and natural fur texture. Include subtle mangrove leaf-green reflected tones only in tiny rim-light accents, not as objects.\nComposition/framing: centered complete cutout with generous padding; show full body, tail, paws, face, ears, stripes, and white markings without cropping.\nLighting/mood: clean studio light that preserves orange fur, black stripes, white highlights, and fine fur detail.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape, no trees, no leaves as objects, no second animal, no text, no watermark, no logo, no props, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-tiger/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tiger light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Tiger\" / \"Tiger\" derived from the provided isolated tiger motif. This is a source reference for a shadcn/tweakcn-compatible bold operations system.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the tiger motif: vivid tiger orange, deep stripe black, warm white fur, mangrove leaf green, clay tan, amber, and shadow umber. The board must visibly respect tiger stripe geometry and mangrove forest context without becoming decorative camouflage.\nCanvas: exact wide 16:9 board, target 3840x2160, high-resolution 4K-class source board.\nResolution and legibility: use large readable labels, clean panel spacing, no dense tiny token tables.\nRequired visible sections: title \"Morphous Tiger\", motif story, palette, typography, Japanese typography guidance, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, token samples, and generated asset examples.\nTypography: include English and Japanese examples; recommend strong condensed English display with Noto Sans JP for Japanese operational labels.\nStyle/medium: premium shadcn/tweakcn-style product design system, bold operations dashboard, precise 8px grid, 8px radius cards, high contrast striped dividers, orange primary actions, black structural rails, white fur surfaces, mangrove green success/support states.\nText: use short readable UI labels only, including a few Japanese labels such as 見出し, 状態, 操作, 検索, 確認.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no random brands, no watermark, no misspellings, no illegible microtext, no second animal."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-tiger/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Tiger dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Tiger\" / \"Tiger\", translated from the light board and the same isolated tiger motif. It must feel like the same bold operations system in dark mode, not a new theme.\nReference use: Use the tiger motif and the light design-system board as references. Preserve tiger stripe component language, orange primary actions, black structural rails, warm white fur text/surfaces, mangrove green success/support states, clay tan neutrals, amber focus, and shadow umber depth.\nCanvas: exact wide 16:9 board, target 3840x2160, high-resolution 4K-class source board.\nResolution and legibility: use large readable labels, clean panel spacing, no dense tiny token tables.\nRequired visible sections: title \"Morphous Tiger\", Dark Mode label, palette, typography, Japanese typography guidance, components, navigation, dashboard/data/charts, forms, table, command/search, status states, texture, radius, spacing, shadow, token samples, and generated asset examples.\nTypography: include English and Japanese examples; recommend strong condensed English display with Noto Sans JP for Japanese operational labels.\nVisual details: deep stripe-black and shadow-umber background, crisp white-fur foreground, tiger-orange active controls, mangrove-green confirmations, amber focus rings, striped dividers, subtle fur grain, 8px grid, 8px radius cards, restrained contrast for operational dashboards.\nText: use short readable UI labels only, including a few Japanese labels such as 見出し, 状態, 操作, 検索, 確認.\nConstraints: no neon colors, no generic purple or blue gradients, no flat pure-black empty canvas, no unrelated saturated colors, no random brands, no watermark, no misspellings, no illegible microtext, no second animal."
+    }
+  ]
+}

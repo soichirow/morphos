@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-warbling-vireo",
+    "name": "Morphous Vireo",
+    "motifName": "Vireo",
+    "motifCategory": "bird",
+    "biome": "Riparian woods",
+    "motif": "vireo plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pale Leaf",
+      "hex": "#eef1e7",
+      "oklch": "oklch(0.953 0.014 120.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Eye White",
+      "hex": "#fbfcf6",
+      "oklch": "oklch(0.989 0.008 114.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Olive",
+      "hex": "#243126",
+      "oklch": "oklch(0.297 0.026 149.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Vireo Olive",
+      "hex": "#6f8a42",
+      "oklch": "oklch(0.596 0.104 126.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Willow Moss",
+      "hex": "#a7b46b",
+      "oklch": "oklch(0.743 0.098 117.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wing Grey",
+      "hex": "#b8beb5",
+      "oklch": "oklch(0.794 0.014 134.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Water Grey",
+      "hex": "#78939a",
+      "oklch": "oklch(0.645 0.032 215.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Reed Gold",
+      "hex": "#b99a4b",
+      "oklch": "oklch(0.698 0.105 88.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Berry Red",
+      "hex": "#a6544f",
+      "oklch": "oklch(0.544 0.109 24.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Leaf Shadow",
+      "hex": "#202821",
+      "oklch": "oklch(0.267 0.017 148.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.014 120.3)",
+    "foreground": "oklch(0.297 0.026 149.1)",
+    "card": "oklch(0.989 0.008 114.2)",
+    "card-foreground": "oklch(0.297 0.026 149.1)",
+    "popover": "oklch(0.989 0.008 114.2)",
+    "popover-foreground": "oklch(0.297 0.026 149.1)",
+    "primary": "oklch(0.596 0.104 126.3)",
+    "primary-foreground": "oklch(0.953 0.014 120.3)",
+    "secondary": "oklch(0.973 0.009 113.2)",
+    "secondary-foreground": "oklch(0.267 0.017 148.6)",
+    "muted": "oklch(0.979 0.009 119.6)",
+    "muted-foreground": "oklch(0.267 0.017 148.6)",
+    "accent": "oklch(0.645 0.032 215.2)",
+    "accent-foreground": "oklch(0.297 0.026 149.1)",
+    "destructive": "oklch(0.596 0.104 126.3)",
+    "border": "oklch(0.921 0.010 125.7)",
+    "input": "oklch(0.921 0.010 125.7)",
+    "ring": "oklch(0.743 0.098 117.1)",
+    "chart-1": "oklch(0.596 0.104 126.3)",
+    "chart-2": "oklch(0.743 0.098 117.1)",
+    "chart-3": "oklch(0.645 0.032 215.2)",
+    "chart-4": "oklch(0.794 0.014 134.9)",
+    "chart-5": "oklch(0.267 0.017 148.6)",
+    "sidebar": "oklch(0.976 0.009 113.2)",
+    "sidebar-foreground": "oklch(0.297 0.026 149.1)",
+    "sidebar-primary": "oklch(0.596 0.104 126.3)",
+    "sidebar-primary-foreground": "oklch(0.953 0.014 120.3)",
+    "sidebar-accent": "oklch(0.942 0.019 119.8)",
+    "sidebar-accent-foreground": "oklch(0.596 0.104 126.3)",
+    "sidebar-border": "oklch(0.921 0.010 125.7)",
+    "sidebar-ring": "oklch(0.743 0.098 117.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.297 0.026 149.1)",
+    "foreground": "oklch(0.953 0.014 120.3)",
+    "card": "oklch(0.277 0.020 150.9)",
+    "card-foreground": "oklch(0.953 0.014 120.3)",
+    "popover": "oklch(0.277 0.020 150.9)",
+    "popover-foreground": "oklch(0.953 0.014 120.3)",
+    "primary": "oklch(0.743 0.098 117.1)",
+    "primary-foreground": "oklch(0.297 0.026 149.1)",
+    "secondary": "oklch(0.396 0.016 148.9)",
+    "secondary-foreground": "oklch(0.953 0.014 120.3)",
+    "muted": "oklch(0.396 0.016 148.9)",
+    "muted-foreground": "oklch(0.883 0.013 126.4)",
+    "accent": "oklch(0.645 0.032 215.2)",
+    "accent-foreground": "oklch(0.297 0.026 149.1)",
+    "destructive": "oklch(0.596 0.104 126.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.743 0.098 117.1)",
+    "chart-1": "oklch(0.743 0.098 117.1)",
+    "chart-2": "oklch(0.596 0.104 126.3)",
+    "chart-3": "oklch(0.645 0.032 215.2)",
+    "chart-4": "oklch(0.794 0.014 134.9)",
+    "chart-5": "oklch(0.794 0.014 134.9)",
+    "sidebar": "oklch(0.284 0.022 150.2)",
+    "sidebar-foreground": "oklch(0.953 0.014 120.3)",
+    "sidebar-primary": "oklch(0.743 0.098 117.1)",
+    "sidebar-primary-foreground": "oklch(0.297 0.026 149.1)",
+    "sidebar-accent": "oklch(0.396 0.016 148.9)",
+    "sidebar-accent-foreground": "oklch(0.953 0.014 120.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.743 0.098 117.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for clear task workflows with Noto Sans JP guidance for Japanese labels, compact numerals, and calm operational dashboards.",
+  "layout": "8px grid, restrained task rails, fine feather-bar dividers, white eye-line focus rings, soft olive status accents, warm white cards, and subtle riparian workspace surfaces.",
+  "tags": [
+    "vireo",
+    "warbling-vireo",
+    "bird",
+    "riparian-woods",
+    "olive-green",
+    "white-eye",
+    "grey-wing",
+    "subtle-task-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-warbling-vireo/motif.png",
+    "board": "/systems/morphous-warbling-vireo/design-system-light.png",
+    "darkBoard": "/systems/morphous-warbling-vireo/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-warbling-vireo/theme.css",
+    "themeJson": "/systems/morphous-warbling-vireo/theme.json",
+    "promptsJson": "/systems/morphous-warbling-vireo/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent vireo motif",
+      "asset": "/systems/morphous-warbling-vireo/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only one warbling vireo bird, isolated full subject, no environment, no props, no text.\nSubject: small riparian-woods warbling vireo with accurate compact songbird anatomy, olive-green upper plumage, soft grey wings and tail, pale whitish underside, distinct clean white eye line and subtle grey eye surround, slender dark bill, fine natural feather detail, calm side-facing perched posture without a branch.\nComposition/framing: centered complete cutout with generous padding; do not crop the beak, legs, tail, or feet.\nLighting/mood: clean studio light that preserves olive green, white eye mark, pale belly, grey wing detail, and subtle feather texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no branch, no second bird, no shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-warbling-vireo/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Vireo\nPrimary request: Generate a comprehensive light-mode design-system board for a motif-driven UI theme named Vireo, derived from warbling vireo plumage in riparian woods: olive-green upper feathers, clean white eye line, pale whitish underside, soft grey wings, willow-leaf neutrals, and restrained water-edge blue grey accents.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: subtle task system, quiet operational dashboard, light riparian surfaces, fine feather-bar dividers, white eye-ring focus marks, soft olive status accents, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Vireo\", motif story, palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, task queue, dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: pale leaf background #eef1e7, warm white cards #fbfcf6, deep olive ink #243126, primary olive #6f8a42, secondary moss #a7b46b, muted grey #b8beb5, accent eye-white #f7f8ed, water-grey blue #78939a, warning muted reed gold #b99a4b, destructive muted berry red #a6544f.\nText: short readable UI labels only; no long paragraphs. Labels should be generic product UI labels such as Tasks, Queue, Review, Status, Focus, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple or blue gradients, no illegible microtext, no marketing hero layout."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-warbling-vireo/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Vireo\nPrimary request: Generate a comprehensive dark-mode version of the Vireo design-system board. It must feel like the same subtle riparian task system translated to dark mode, not a new theme.\nReference style: warbling vireo plumage in riparian woods: olive-green upper feathers, white eye line, pale underside highlights, soft grey wings, willow-leaf neutrals, deep olive shadows, and restrained water-grey blue accents.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: dark subtle task system, deep olive-grey workspace, quiet operational dashboard, fine feather-bar dividers, white eye-line focus rings, moss status accents, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Vireo Dark\", motif story, dark palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, task queue, dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: deep olive background #202821, dark leaf panels #293329, warm eye-white text #eff1e6, primary moss #a7b46b, active olive #7f9850, muted grey #8e978d, water-grey blue #78939a, reed gold #b99a4b, muted berry red #a6544f, soft borders with transparent white.\nText: short readable UI labels only; no long paragraphs. Labels should be generic product UI labels such as Tasks, Queue, Review, Status, Focus, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no neon colors, no pure black flat background, no unrelated bright colors, no purple or blue gradients, no illegible microtext, no marketing hero layout."
+    }
+  ]
+}

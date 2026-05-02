@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-wood-duck",
+    "name": "Morphous Wood Duck",
+    "motifName": "Wood Duck Head",
+    "motifCategory": "bird",
+    "biome": "forest wetland",
+    "motif": "wood duck head"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wetland Mist",
+      "hex": "#f6f2e8",
+      "oklch": "oklch(0.962 0.014 88.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Feather Ink",
+      "hex": "#101418",
+      "oklch": "oklch(0.189 0.010 248.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Crest Green",
+      "hex": "#0e6b4f",
+      "oklch": "oklch(0.470 0.093 166.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chestnut Neck",
+      "hex": "#8a3c2f",
+      "oklch": "oklch(0.458 0.110 31.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Teal Water",
+      "hex": "#0d6e7a",
+      "oklch": "oklch(0.494 0.082 208.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "White Stripe",
+      "hex": "#f8faf3",
+      "oklch": "oklch(0.982 0.009 119.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Sand",
+      "hex": "#c7b99a",
+      "oklch": "oklch(0.789 0.045 86.6)"
+    },
+    {
+      "role": "Chart",
+      "name": "Pond Blue",
+      "hex": "#2c6898",
+      "oklch": "oklch(0.501 0.099 245.8)"
+    },
+    {
+      "role": "Signal",
+      "name": "Red Eye",
+      "hex": "#e03b38",
+      "oklch": "oklch(0.602 0.202 26.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.962 0.014 88.7)",
+    "foreground": "oklch(0.189 0.010 248.4)",
+    "card": "oklch(0.982 0.009 119.6)",
+    "card-foreground": "oklch(0.189 0.010 248.4)",
+    "popover": "oklch(0.982 0.009 119.6)",
+    "popover-foreground": "oklch(0.189 0.010 248.4)",
+    "primary": "oklch(0.470 0.093 166.3)",
+    "primary-foreground": "oklch(0.962 0.014 88.7)",
+    "secondary": "oklch(0.974 0.012 106.6)",
+    "secondary-foreground": "oklch(0.189 0.010 248.4)",
+    "muted": "oklch(0.976 0.011 112.4)",
+    "muted-foreground": "oklch(0.189 0.010 248.4)",
+    "accent": "oklch(0.494 0.082 208.4)",
+    "accent-foreground": "oklch(0.189 0.010 248.4)",
+    "destructive": "oklch(0.470 0.093 166.3)",
+    "border": "oklch(0.914 0.022 98.1)",
+    "input": "oklch(0.914 0.022 98.1)",
+    "ring": "oklch(0.458 0.110 31.3)",
+    "chart-1": "oklch(0.470 0.093 166.3)",
+    "chart-2": "oklch(0.458 0.110 31.3)",
+    "chart-3": "oklch(0.494 0.082 208.4)",
+    "chart-4": "oklch(0.602 0.202 26.5)",
+    "chart-5": "oklch(0.189 0.010 248.4)",
+    "sidebar": "oklch(0.974 0.011 106.6)",
+    "sidebar-foreground": "oklch(0.189 0.010 248.4)",
+    "sidebar-primary": "oklch(0.470 0.093 166.3)",
+    "sidebar-primary-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-accent": "oklch(0.921 0.019 152.8)",
+    "sidebar-accent-foreground": "oklch(0.470 0.093 166.3)",
+    "sidebar-border": "oklch(0.914 0.022 98.1)",
+    "sidebar-ring": "oklch(0.458 0.110 31.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.189 0.010 248.4)",
+    "foreground": "oklch(0.962 0.014 88.7)",
+    "card": "oklch(0.189 0.010 248.4)",
+    "card-foreground": "oklch(0.962 0.014 88.7)",
+    "popover": "oklch(0.189 0.010 248.4)",
+    "popover-foreground": "oklch(0.962 0.014 88.7)",
+    "primary": "oklch(0.458 0.110 31.3)",
+    "primary-foreground": "oklch(0.189 0.010 248.4)",
+    "secondary": "oklch(0.340 0.005 106.7)",
+    "secondary-foreground": "oklch(0.962 0.014 88.7)",
+    "muted": "oklch(0.340 0.005 106.7)",
+    "muted-foreground": "oklch(0.884 0.027 85.7)",
+    "accent": "oklch(0.494 0.082 208.4)",
+    "accent-foreground": "oklch(0.189 0.010 248.4)",
+    "destructive": "oklch(0.470 0.093 166.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.458 0.110 31.3)",
+    "chart-1": "oklch(0.458 0.110 31.3)",
+    "chart-2": "oklch(0.470 0.093 166.3)",
+    "chart-3": "oklch(0.494 0.082 208.4)",
+    "chart-4": "oklch(0.602 0.202 26.5)",
+    "chart-5": "oklch(0.789 0.045 86.6)",
+    "sidebar": "oklch(0.189 0.010 248.4)",
+    "sidebar-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-primary": "oklch(0.458 0.110 31.3)",
+    "sidebar-primary-foreground": "oklch(0.189 0.010 248.4)",
+    "sidebar-accent": "oklch(0.340 0.005 106.7)",
+    "sidebar-accent-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.458 0.110 31.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for polished English product UI with Noto Sans JP guidance for Japanese labels, observation tables, and dashboard numerals.",
+  "layout": "Polished 8px nature-system grids, crest-green actions, white-stripe dividers, chestnut emphasis, water-blue focus states, reed-neutral surfaces, and subtle feather and ripple textures.",
+  "tags": [
+    "wood-duck",
+    "bird",
+    "forest-wetland",
+    "green-crest",
+    "chestnut",
+    "water",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-wood-duck/motif.png",
+    "board": "/systems/morphous-wood-duck/design-system-light.png",
+    "darkBoard": "/systems/morphous-wood-duck/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-wood-duck/theme.css",
+    "themeJson": "/systems/morphous-wood-duck/theme.json",
+    "promptsJson": "/systems/morphous-wood-duck/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent wood duck head motif",
+      "asset": "/systems/morphous-wood-duck/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Wood Duck transparent motif chroma-key source\nPrimary request: Create only a wood duck head motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A male wood duck head and upper neck in accurate natural detail: glossy green swept crest with teal depth, chestnut cheek and throat warmth, crisp white facial stripes around the eye and along the neck, red eye, small warm bill, subtle water-reflection highlights. The subject must read unmistakably as a wood duck head, not a mallard or mandarin duck.\nComposition/framing: centered clean cutout with generous padding; three-quarter side profile head and upper neck, no body, no pond, no branches. Clean studio lighting, crisp edges, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full duck body, no landscape, no props, no text, no watermark, no random brand, no purple background variation, no cropped crest or bill."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-wood-duck/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Wood Duck light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Wood Duck\", derived from a male wood duck head motif: glossy green crest, chestnut head and neck, crisp white facial stripes, red eye, warm bill, and cool forest wetland water tones.\nCanvas: exact 3840 x 2160, wide 16:9 high-resolution board, clean professional UI design-system presentation, crisp readable labels.\nRequired visible sections: Morphous Wood Duck, Wood Duck Head, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Charts, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from emerald green crest, teal water shadows, chestnut plumage, white facial stripes, red eye signal, wetland reed neutrals, dark feather ink, and reflective pond blue. The board must read as wood duck and forest wetland, not mallard, mandarin duck, tropical parrot, or generic teal dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, large, and legible.\nUI coverage: left navigation, top bar, dashboard metric cards, line chart, bar chart, donut chart, data table rows, status badges, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, alerts, cards, command/search panel, form section, empty/loading/error states, spacing, radius, border, shadow, subtle feather and water texture samples, simple icons.\nStyle: premium shadcn/tweakcn-compatible polished nature UI, precise grid, 8px card radius, warm off-white wetland background, dark feather ink text, green crest primary actions, chestnut secondary controls, white-stripe surfaces, water-blue focus rings, red-eye destructive/status accent, subtle rippled-water and feather textures.\nConstraints: no random brand names, no watermark, no tiny unreadable paragraphs, no generic purple/blue gradients, no neon palette, no beige-only palette, no misspelling of \"Morphous Wood Duck\", no mallard imagery, no mandarin duck body, no unrelated stock photos."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-wood-duck/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Wood Duck dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Wood Duck\". It must feel like the light-mode board translated to dark mode, not a new theme, and remain derived from a male wood duck head motif: glossy green crest, chestnut head and neck, crisp white facial stripes, red eye, warm bill, and cool forest wetland water tones.\nCanvas: exact 3840 x 2160, wide 16:9 high-resolution board, clean professional UI design-system presentation, crisp readable labels.\nRequired visible sections: Morphous Wood Duck, Wood Duck Head, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Charts, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the wood duck system language: dark feather-ink backgrounds, pond-shadow panels, white-stripe foreground text, emerald crest active controls, chestnut highlights, water-blue focus rings, red-eye destructive/status accent, wetland reed neutrals, subtle feather and rippled-water textures. Must read as wood duck and forest wetland, not mallard, mandarin duck, tropical parrot, or generic teal dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, large, and legible.\nUI coverage: left navigation, top bar, dashboard metric cards, line chart, bar chart, donut chart, data table rows, status badges, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, alerts, cards, command/search panel, form section, empty/loading/error states, spacing, radius, border, shadow, subtle feather and water texture samples, simple icons.\nVisual details: deep feather ink surface, green crest primary controls, chestnut selected states, bright white stripe dividers, pond blue focus, reed-neutral muted panels, red-eye alert chips, restrained contrast, crisp shadcn/tweakcn grid and 8px cards.\nConstraints: no random brand names, no watermark, no tiny unreadable paragraphs, no generic purple/blue gradients, no neon palette, no pure-black-only flat background, no misspelling of \"Morphous Wood Duck\", no mallard imagery, no mandarin duck body, no unrelated stock photos."
+    }
+  ]
+}

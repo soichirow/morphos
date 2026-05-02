@@ -1,0 +1,83 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-wren",
+  "name": "Morphous Wren",
+  "motifName": "Wren Feather",
+  "motifCategory": "bird",
+  "biome": "hedgerow",
+  "motif": "wren feather",
+  "description": "A shadcn/tweakcn-compatible small notes system drafted from a wren feather: warm brown and cream striping, fine crossbars, hedgerow leaf green, twig neutrals, and compact field-note surfaces.",
+  "typography": "Geist for compact English product UI with Noto Sans JP guidance for Japanese notes, labels, observation rows, and dense numeric summaries.",
+  "layout": "Compact 8px note grids, wren-brown actions, cream-stripe surfaces, leaf-green focus states, twig-taupe rules, small field-note cards, and subtle feather-barb textures.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "wren",
+    "bird",
+    "hedgerow",
+    "feather",
+    "warm-brown",
+    "cream-stripe",
+    "leaf-green",
+    "small-notes",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Cream",
+      "hex": "#f6eddc"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#241912"
+    },
+    {
+      "role": "Primary",
+      "name": "Wren Brown",
+      "hex": "#8a5733"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chestnut Stripe",
+      "hex": "#b97843"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather Cream",
+      "hex": "#fff8e9"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#5f7f3f"
+    },
+    {
+      "role": "Focus",
+      "name": "Moss Focus",
+      "hex": "#7d9a52"
+    },
+    {
+      "role": "Muted",
+      "name": "Twig Taupe",
+      "hex": "#c8b89e"
+    },
+    {
+      "role": "Signal",
+      "name": "Berry Signal",
+      "hex": "#b64b3a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

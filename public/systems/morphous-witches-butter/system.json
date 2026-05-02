@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-witches-butter",
+  "name": "Morphous Witches Butter",
+  "status": "ready",
+  "queueRow": 288,
+  "motifName": "Witches Butter",
+  "motifCategory": "fungi",
+  "biome": "wet woodland",
+  "motif": "jelly fungus",
+  "mood": "playful warning system",
+  "description": "A playful warning-system UI derived from Witches Butter jelly fungus: golden gelatin highlights, wet bark browns, rain-grey borders, and cream spore surfaces for shadcn/tweakcn interfaces.",
+  "typography": "Geist or Inter for compact product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular data.",
+  "layout": "Precise shadcn/tweakcn grids, 8px radii, bark-fissure separators, rain-speckle texture restraint, high-contrast warning accents, compact data and command surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "witches-butter",
+    "fungi",
+    "wet-woodland",
+    "jelly-fungus",
+    "warning",
+    "golden",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream Spore",
+      "hex": "#FAF7F1",
+      "oklch": "oklch(0.977 0.009 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Bark",
+      "hex": "#1E1C19",
+      "oklch": "oklch(0.228 0.006 78.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warning Gold",
+      "hex": "#FFC107",
+      "oklch": "oklch(0.844 0.172 84.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rain Slate",
+      "hex": "#6A7078",
+      "oklch": "oklch(0.543 0.014 255.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Spore Glow",
+      "hex": "#FFD95A",
+      "oklch": "oklch(0.895 0.149 92.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Bark Rust",
+      "hex": "#B44A22",
+      "oklch": "oklch(0.543 0.148 39.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist Film",
+      "hex": "#D9DDE1",
+      "oklch": "oklch(0.896 0.007 247.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bark Umber",
+      "hex": "#7A4A1E",
+      "oklch": "oklch(0.456 0.087 60.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Bark",
+      "hex": "#3B2F24",
+      "oklch": "oklch(0.315 0.026 64.2)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Amber Jelly",
+      "hex": "#F2B300",
+      "oklch": "oklch(0.804 0.165 83.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.977 0.009 84.6)",
+    "foreground": "oklch(0.228 0.006 78.2)",
+    "card": "oklch(0.989 0.006 84.6)",
+    "card-foreground": "oklch(0.228 0.006 78.2)",
+    "popover": "oklch(0.989 0.006 84.6)",
+    "popover-foreground": "oklch(0.228 0.006 78.2)",
+    "primary": "oklch(0.844 0.172 84.9)",
+    "primary-foreground": "oklch(0.228 0.006 78.2)",
+    "secondary": "oklch(0.896 0.007 247.9)",
+    "secondary-foreground": "oklch(0.228 0.006 78.2)",
+    "muted": "oklch(0.896 0.007 247.9)",
+    "muted-foreground": "oklch(0.543 0.014 255.6)",
+    "accent": "oklch(0.895 0.149 92.4)",
+    "accent-foreground": "oklch(0.315 0.026 64.2)",
+    "destructive": "oklch(0.543 0.148 39.7)",
+    "border": "oklch(0.896 0.007 247.9)",
+    "input": "oklch(0.896 0.007 247.9)",
+    "ring": "oklch(0.804 0.165 83.0)",
+    "chart-1": "oklch(0.844 0.172 84.9)",
+    "chart-2": "oklch(0.804 0.165 83.0)",
+    "chart-3": "oklch(0.456 0.087 60.0)",
+    "chart-4": "oklch(0.543 0.014 255.6)",
+    "chart-5": "oklch(0.315 0.026 64.2)",
+    "sidebar": "oklch(0.989 0.006 84.6)",
+    "sidebar-foreground": "oklch(0.228 0.006 78.2)",
+    "sidebar-primary": "oklch(0.844 0.172 84.9)",
+    "sidebar-primary-foreground": "oklch(0.228 0.006 78.2)",
+    "sidebar-accent": "oklch(0.895 0.149 92.4)",
+    "sidebar-accent-foreground": "oklch(0.315 0.026 64.2)",
+    "sidebar-border": "oklch(0.896 0.007 247.9)",
+    "sidebar-ring": "oklch(0.804 0.165 83.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.228 0.006 78.2)",
+    "foreground": "oklch(0.977 0.009 84.6)",
+    "card": "oklch(0.315 0.026 64.2)",
+    "card-foreground": "oklch(0.977 0.009 84.6)",
+    "popover": "oklch(0.315 0.026 64.2)",
+    "popover-foreground": "oklch(0.977 0.009 84.6)",
+    "primary": "oklch(0.844 0.172 84.9)",
+    "primary-foreground": "oklch(0.228 0.006 78.2)",
+    "secondary": "oklch(0.456 0.087 60.0)",
+    "secondary-foreground": "oklch(0.977 0.009 84.6)",
+    "muted": "oklch(0.315 0.026 64.2)",
+    "muted-foreground": "oklch(0.896 0.007 247.9)",
+    "accent": "oklch(0.804 0.165 83.0)",
+    "accent-foreground": "oklch(0.228 0.006 78.2)",
+    "destructive": "oklch(0.543 0.148 39.7)",
+    "border": "oklch(0.896 0.007 247.9 / 18%)",
+    "input": "oklch(0.896 0.007 247.9 / 22%)",
+    "ring": "oklch(0.895 0.149 92.4)",
+    "chart-1": "oklch(0.844 0.172 84.9)",
+    "chart-2": "oklch(0.804 0.165 83.0)",
+    "chart-3": "oklch(0.543 0.014 255.6)",
+    "chart-4": "oklch(0.456 0.087 60.0)",
+    "chart-5": "oklch(0.896 0.007 247.9)",
+    "sidebar": "oklch(0.228 0.006 78.2)",
+    "sidebar-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-primary": "oklch(0.844 0.172 84.9)",
+    "sidebar-primary-foreground": "oklch(0.228 0.006 78.2)",
+    "sidebar-accent": "oklch(0.315 0.026 64.2)",
+    "sidebar-accent-foreground": "oklch(0.977 0.009 84.6)",
+    "sidebar-border": "oklch(0.896 0.007 247.9 / 18%)",
+    "sidebar-ring": "oklch(0.895 0.149 92.4)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

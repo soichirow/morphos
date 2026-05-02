@@ -1,0 +1,178 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-wren",
+    "name": "Morphous Wren",
+    "motifName": "Wren Feather",
+    "motifCategory": "bird",
+    "biome": "hedgerow",
+    "motif": "wren feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Paper Cream",
+      "hex": "#f6eddc",
+      "oklch": "oklch(0.949 0.025 83.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bark Ink",
+      "hex": "#241912",
+      "oklch": "oklch(0.225 0.022 53.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Wren Brown",
+      "hex": "#8a5733",
+      "oklch": "oklch(0.506 0.085 54.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Chestnut Stripe",
+      "hex": "#b97843",
+      "oklch": "oklch(0.630 0.107 58.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather Cream",
+      "hex": "#fff8e9",
+      "oklch": "oklch(0.981 0.021 85.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#5f7f3f",
+      "oklch": "oklch(0.556 0.098 130.8)"
+    },
+    {
+      "role": "Focus",
+      "name": "Moss Focus",
+      "hex": "#7d9a52",
+      "oklch": "oklch(0.647 0.104 127.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Twig Taupe",
+      "hex": "#c8b89e",
+      "oklch": "oklch(0.789 0.040 80.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Berry Signal",
+      "hex": "#b64b3a",
+      "oklch": "oklch(0.551 0.143 31.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.949 0.025 83.4)",
+    "foreground": "oklch(0.225 0.022 53.8)",
+    "card": "oklch(0.981 0.021 85.9)",
+    "card-foreground": "oklch(0.225 0.022 53.8)",
+    "popover": "oklch(0.981 0.021 85.9)",
+    "popover-foreground": "oklch(0.225 0.022 53.8)",
+    "primary": "oklch(0.506 0.085 54.7)",
+    "primary-foreground": "oklch(0.949 0.025 83.4)",
+    "secondary": "oklch(0.966 0.022 83.3)",
+    "secondary-foreground": "oklch(0.225 0.022 53.8)",
+    "muted": "oklch(0.971 0.022 87.1)",
+    "muted-foreground": "oklch(0.225 0.022 53.8)",
+    "accent": "oklch(0.556 0.098 130.8)",
+    "accent-foreground": "oklch(0.225 0.022 53.8)",
+    "destructive": "oklch(0.506 0.085 54.7)",
+    "border": "oklch(0.913 0.028 83.5)",
+    "input": "oklch(0.913 0.028 83.5)",
+    "ring": "oklch(0.630 0.107 58.3)",
+    "chart-1": "oklch(0.506 0.085 54.7)",
+    "chart-2": "oklch(0.630 0.107 58.3)",
+    "chart-3": "oklch(0.556 0.098 130.8)",
+    "chart-4": "oklch(0.551 0.143 31.2)",
+    "chart-5": "oklch(0.225 0.022 53.8)",
+    "sidebar": "oklch(0.969 0.022 83.3)",
+    "sidebar-foreground": "oklch(0.225 0.022 53.8)",
+    "sidebar-primary": "oklch(0.506 0.085 54.7)",
+    "sidebar-primary-foreground": "oklch(0.949 0.025 83.4)",
+    "sidebar-accent": "oklch(0.927 0.027 78.2)",
+    "sidebar-accent-foreground": "oklch(0.506 0.085 54.7)",
+    "sidebar-border": "oklch(0.913 0.028 83.5)",
+    "sidebar-ring": "oklch(0.630 0.107 58.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.225 0.022 53.8)",
+    "foreground": "oklch(0.949 0.025 83.4)",
+    "card": "oklch(0.225 0.022 53.8)",
+    "card-foreground": "oklch(0.949 0.025 83.4)",
+    "popover": "oklch(0.225 0.022 53.8)",
+    "popover-foreground": "oklch(0.949 0.025 83.4)",
+    "primary": "oklch(0.630 0.107 58.3)",
+    "primary-foreground": "oklch(0.225 0.022 53.8)",
+    "secondary": "oklch(0.365 0.025 64.4)",
+    "secondary-foreground": "oklch(0.949 0.025 83.4)",
+    "muted": "oklch(0.365 0.025 64.4)",
+    "muted-foreground": "oklch(0.877 0.031 81.7)",
+    "accent": "oklch(0.556 0.098 130.8)",
+    "accent-foreground": "oklch(0.225 0.022 53.8)",
+    "destructive": "oklch(0.506 0.085 54.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.630 0.107 58.3)",
+    "chart-1": "oklch(0.630 0.107 58.3)",
+    "chart-2": "oklch(0.506 0.085 54.7)",
+    "chart-3": "oklch(0.556 0.098 130.8)",
+    "chart-4": "oklch(0.551 0.143 31.2)",
+    "chart-5": "oklch(0.789 0.040 80.0)",
+    "sidebar": "oklch(0.225 0.022 53.8)",
+    "sidebar-foreground": "oklch(0.949 0.025 83.4)",
+    "sidebar-primary": "oklch(0.630 0.107 58.3)",
+    "sidebar-primary-foreground": "oklch(0.225 0.022 53.8)",
+    "sidebar-accent": "oklch(0.365 0.025 64.4)",
+    "sidebar-accent-foreground": "oklch(0.949 0.025 83.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.630 0.107 58.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact English product UI with Noto Sans JP guidance for Japanese notes, labels, observation rows, and dense numeric summaries.",
+  "layout": "Compact 8px note grids, wren-brown actions, cream-stripe surfaces, leaf-green focus states, twig-taupe rules, small field-note cards, and subtle feather-barb textures.",
+  "tags": [
+    "wren",
+    "bird",
+    "hedgerow",
+    "feather",
+    "warm-brown",
+    "cream-stripe",
+    "leaf-green",
+    "small-notes",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-wren/motif.png",
+    "board": "/systems/morphous-wren/design-system-light.png",
+    "darkBoard": "/systems/morphous-wren/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-wren/theme.css",
+    "themeJson": "/systems/morphous-wren/theme.json",
+    "promptsJson": "/systems/morphous-wren/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent wren feather motif",
+      "asset": "/systems/morphous-wren/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Wren transparent motif chroma-key source\nPrimary request: Create only a wren feather motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A single small wren feather in accurate natural detail, warm russet brown and tawny cream striping, fine darker crossbars, soft downy base, delicate central shaft, subtle edge texture, and a small hedgerow leaf-green glint along a few natural shadow accents. The subject must read as a wren feather: tiny, quick, warm brown, striped, and intimate.\nComposition/framing: centered clean cutout with generous padding; feather angled slightly from lower left to upper right, complete feather visible, no bird body, no nest, no branches. Clean studio lighting, crisp edges, no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full bird, no landscape, no props, no text, no watermark, no random brand, no purple background variation, no cropped feather tip, no oversized eagle or owl feather."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-wren/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Wren light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Wren\", derived from a wren feather motif: warm brown and cream feather stripes, small hedgerow leaf green, twig shadow, and tiny field-note precision.\nCanvas: exact 3840 x 2160, wide 16:9 high-resolution board, clean professional UI design-system presentation, crisp readable labels.\nRequired visible sections: Morphous Wren, Wren Feather, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Charts, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract the palette and interaction language from russet feather brown, tawny cream stripe, deep bark ink, hedgerow leaf green, moss highlight, soft eggshell paper, twig taupe, and tiny dark crossbars. The board must read as wren feather and hedgerow, a small notes system, not a large enterprise dashboard or generic beige kit.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, large, and legible.\nUI coverage: compact left navigation, top bar, notebook-like dashboard metric cards, small line chart, bar chart, donut chart, data table rows, status badges, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, alerts, cards, command/search panel, field-note form section, empty/loading/error states, spacing, radius, border, shadow, subtle feather-barb and hedgerow-paper texture samples, simple icons.\nStyle: premium shadcn/tweakcn-compatible polished nature UI, precise grid, 8px card radius, warm cream paper background, bark-brown text, wren-brown primary actions, leaf-green focus and success states, cream stripe surfaces, twig-taupe borders, small dense notes layout, quiet labels, fine ruled lines, subtle feather stripe motifs.\nPalette tokens shown on board: Paper Cream #f6eddc, Bark Ink #241912, Wren Brown #8a5733, Chestnut Stripe #b97843, Feather Cream #fff8e9, Leaf Green #5f7f3f, Moss Focus #7d9a52, Twig Taupe #c8b89e, Berry Signal #b64b3a.\nConstraints: no random brand names, no watermark, no tiny unreadable paragraphs, no generic purple/blue gradients, no neon palette, no beige-only palette, no misspelling of \"Morphous Wren\", no full bird illustration as the main subject, no unrelated stock photos."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-wren/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Wren dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Wren\". It must feel like the light-mode board translated to dark mode, not a new theme, and remain derived from a wren feather motif: warm brown and cream feather stripes, hedgerow leaf green, twig shadow, and tiny field-note precision.\nCanvas: exact 3840 x 2160, wide 16:9 high-resolution board, clean professional UI design-system presentation, crisp readable labels.\nRequired visible sections: Morphous Wren, Wren Feather, Dark Mode, Palette, Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Charts, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the wren system language: deep bark-ink backgrounds, warm feather-brown active controls, cream-stripe foreground text, hedgerow leaf-green focus rings, moss success states, twig-taupe dividers, berry signal alerts, tiny feather crossbar textures, and compact notebook layouts. Must read as wren feather and hedgerow, a small notes system, not a generic black dashboard.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, large, and legible.\nUI coverage: compact left navigation, top bar, notebook-like dashboard metric cards, small line chart, bar chart, donut chart, data table rows, status badges, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, alerts, cards, command/search panel, field-note form section, empty/loading/error states, spacing, radius, border, shadow, subtle feather-barb and hedgerow-paper texture samples, simple icons.\nVisual details: deep bark ink surface, leaf-shadow panels, warm wren-brown primary controls, chestnut selected states, cream stripe dividers, moss focus, twig neutral muted panels, berry alert chips, restrained contrast, crisp shadcn/tweakcn grid and 8px cards, dense small-notes rhythm.\nPalette tokens shown on board: Bark Night #1c130f, Cream Ink #f6eddc, Wren Brown #a66a3d, Chestnut Stripe #c98248, Leaf Green #78995a, Moss Focus #9db36b, Twig Taupe #8f806b, Feather Cream #fff8e9, Berry Signal #d06854.\nConstraints: no random brand names, no watermark, no tiny unreadable paragraphs, no generic purple/blue gradients, no neon palette, no pure-black-only flat background, no misspelling of \"Morphous Wren\", no full bird illustration as the main subject, no unrelated stock photos."
+    }
+  ]
+}

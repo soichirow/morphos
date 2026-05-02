@@ -1,0 +1,210 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 327,
+  "slug": "morphous-treehopper",
+  "name": "Morphous Treehopper",
+  "motifName": "Treehopper",
+  "motifCategory": "insect",
+  "biome": "tropical stem",
+  "motif": "treehopper silhouette",
+  "description": "A shadcn/tweakcn-compatible quirky identity system derived from a horned tropical treehopper silhouette: leaf-green shell surfaces, moss active states, cream shell panels, warm brown wing veins, twig-brown status accents, olive borders, dotted carapace texture, and deep tropical stem shadows.",
+  "typography": "Sora SemiBold for compact display marks, Inter for precise product UI, JetBrains Mono for tabular data, and Noto Sans JP guidance for Japanese navigation, forms, tables, and status text.",
+  "layout": "Horn-notched dividers, compact dashboard grids, angular tabs, fine wing-vein rules, dotted shell textures, dense but readable tables, command search, 8px radii, restrained shadows, and leaf-green focus states.",
+  "designMood": "quirky identity system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "treehopper",
+    "insect",
+    "tropical-stem",
+    "horned-silhouette",
+    "leaf-green",
+    "stem-brown",
+    "cream-shell",
+    "quirky-identity",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Cream",
+      "hex": "#F8F6EF",
+      "oklch": "oklch(0.973 0.010 93.6)"
+    },
+    {
+      "role": "Foreground",
+      "name": "Ink Neutral",
+      "hex": "#23261F",
+      "oklch": "oklch(0.263 0.013 126.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Shell",
+      "hex": "#F3F0E6",
+      "oklch": "oklch(0.955 0.014 93.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pale Stem",
+      "hex": "#EFE9D6",
+      "oklch": "oklch(0.934 0.026 92.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Leaf Green",
+      "hex": "#2E6B38",
+      "oklch": "oklch(0.474 0.102 147.1)"
+    },
+    {
+      "role": "Action",
+      "name": "Moss Green",
+      "hex": "#557F3A",
+      "oklch": "oklch(0.549 0.109 134.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Soft Leaf",
+      "hex": "#90BA7A",
+      "oklch": "oklch(0.742 0.099 135.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Olive Vein",
+      "hex": "#6E7F4A",
+      "oklch": "oklch(0.569 0.078 123.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wing Membrane",
+      "hex": "#B6966E",
+      "oklch": "oklch(0.693 0.067 72.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warm Brown",
+      "hex": "#A67C52",
+      "oklch": "oklch(0.618 0.078 65.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Twig Brown",
+      "hex": "#7A5A37",
+      "oklch": "oklch(0.493 0.065 67.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Olive",
+      "hex": "#2C321F",
+      "oklch": "oklch(0.305 0.033 122.6)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Stem",
+      "hex": "#0E1710",
+      "oklch": "oklch(0.193 0.019 151.1)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Mark",
+      "hex": "#A74F2D",
+      "oklch": "oklch(0.532 0.126 40.9)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.973 0.010 93.6)",
+    "foreground": "oklch(0.263 0.013 126.2)",
+    "card": "oklch(0.955 0.014 93.0)",
+    "card-foreground": "oklch(0.263 0.013 126.2)",
+    "popover": "oklch(0.955 0.014 93.0)",
+    "popover-foreground": "oklch(0.263 0.013 126.2)",
+    "primary": "oklch(0.474 0.102 147.1)",
+    "primary-foreground": "oklch(0.973 0.010 93.6)",
+    "secondary": "oklch(0.934 0.026 92.4)",
+    "secondary-foreground": "oklch(0.305 0.033 122.6)",
+    "muted": "oklch(0.913 0.029 91.7)",
+    "muted-foreground": "oklch(0.493 0.065 67.8)",
+    "accent": "oklch(0.742 0.099 135.3)",
+    "accent-foreground": "oklch(0.305 0.033 122.6)",
+    "destructive": "oklch(0.532 0.126 40.9)",
+    "border": "oklch(0.859 0.028 88.8)",
+    "input": "oklch(0.859 0.028 88.8)",
+    "ring": "oklch(0.549 0.109 134.6)",
+    "chart-1": "oklch(0.474 0.102 147.1)",
+    "chart-2": "oklch(0.549 0.109 134.6)",
+    "chart-3": "oklch(0.693 0.067 72.6)",
+    "chart-4": "oklch(0.618 0.078 65.5)",
+    "chart-5": "oklch(0.305 0.033 122.6)",
+    "sidebar": "oklch(0.945 0.019 93.7)",
+    "sidebar-foreground": "oklch(0.263 0.013 126.2)",
+    "sidebar-primary": "oklch(0.474 0.102 147.1)",
+    "sidebar-primary-foreground": "oklch(0.973 0.010 93.6)",
+    "sidebar-accent": "oklch(0.930 0.023 115.0)",
+    "sidebar-accent-foreground": "oklch(0.305 0.033 122.6)",
+    "sidebar-border": "oklch(0.859 0.028 88.8)",
+    "sidebar-ring": "oklch(0.549 0.109 134.6)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.193 0.019 151.1)",
+    "foreground": "oklch(0.973 0.010 93.6)",
+    "card": "oklch(0.239 0.031 146.3)",
+    "card-foreground": "oklch(0.973 0.010 93.6)",
+    "popover": "oklch(0.258 0.034 144.5)",
+    "popover-foreground": "oklch(0.973 0.010 93.6)",
+    "primary": "oklch(0.815 0.141 128.6)",
+    "primary-foreground": "oklch(0.193 0.019 151.1)",
+    "secondary": "oklch(0.309 0.043 136.1)",
+    "secondary-foreground": "oklch(0.973 0.010 93.6)",
+    "muted": "oklch(0.309 0.043 136.1)",
+    "muted-foreground": "oklch(0.817 0.038 98.8)",
+    "accent": "oklch(0.693 0.067 72.6)",
+    "accent-foreground": "oklch(0.193 0.019 151.1)",
+    "destructive": "oklch(0.698 0.110 72.1)",
+    "border": "oklch(0.370 0.040 129.0)",
+    "input": "oklch(0.413 0.047 127.2)",
+    "ring": "oklch(0.815 0.141 128.6)",
+    "chart-1": "oklch(0.815 0.141 128.6)",
+    "chart-2": "oklch(0.742 0.099 135.3)",
+    "chart-3": "oklch(0.693 0.067 72.6)",
+    "chart-4": "oklch(0.698 0.110 72.1)",
+    "chart-5": "oklch(0.817 0.038 98.8)",
+    "sidebar": "oklch(0.212 0.025 146.9)",
+    "sidebar-foreground": "oklch(0.973 0.010 93.6)",
+    "sidebar-primary": "oklch(0.815 0.141 128.6)",
+    "sidebar-primary-foreground": "oklch(0.193 0.019 151.1)",
+    "sidebar-accent": "oklch(0.287 0.049 134.4)",
+    "sidebar-accent-foreground": "oklch(0.973 0.010 93.6)",
+    "sidebar-border": "oklch(0.370 0.040 129.0)",
+    "sidebar-ring": "oklch(0.815 0.141 128.6)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

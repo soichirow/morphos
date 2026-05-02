@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-turkey-tail",
+    "name": "Morphous Turkey Tail",
+    "motifName": "Turkey Tail",
+    "motifCategory": "fungi",
+    "biome": "rotting log",
+    "motif": "turkey tail bands"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Cream",
+      "hex": "#f3efe6",
+      "oklch": "oklch(0.953 0.013 86.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pore Edge",
+      "hex": "#e8dcc4",
+      "oklch": "oklch(0.898 0.035 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Shelf Tan",
+      "hex": "#c6a982",
+      "oklch": "oklch(0.751 0.063 74.8)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Band",
+      "hex": "#b8613c",
+      "oklch": "oklch(0.588 0.123 42.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Bark Brown",
+      "hex": "#7a4a2e",
+      "oklch": "oklch(0.458 0.077 50.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Umber",
+      "hex": "#3a2418",
+      "oklch": "oklch(0.285 0.040 49.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Fungal Teal",
+      "hex": "#3d6f73",
+      "oklch": "oklch(0.508 0.054 202.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Weathered Teal",
+      "hex": "#6f8f93",
+      "oklch": "oklch(0.627 0.036 205.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Log Shadow",
+      "hex": "#1e1510",
+      "oklch": "oklch(0.205 0.018 50.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.013 86.8)",
+    "foreground": "oklch(0.285 0.040 49.2)",
+    "card": "oklch(0.898 0.035 84.6)",
+    "card-foreground": "oklch(0.285 0.040 49.2)",
+    "popover": "oklch(0.898 0.035 84.6)",
+    "popover-foreground": "oklch(0.285 0.040 49.2)",
+    "primary": "oklch(0.508 0.054 202.3)",
+    "primary-foreground": "oklch(0.953 0.013 86.8)",
+    "secondary": "oklch(0.921 0.026 84.6)",
+    "secondary-foreground": "oklch(0.205 0.018 50.4)",
+    "muted": "oklch(0.913 0.028 83.5)",
+    "muted-foreground": "oklch(0.205 0.018 50.4)",
+    "accent": "oklch(0.458 0.077 50.1)",
+    "accent-foreground": "oklch(0.285 0.040 49.2)",
+    "destructive": "oklch(0.508 0.054 202.3)",
+    "border": "oklch(0.846 0.045 80.5)",
+    "input": "oklch(0.846 0.045 80.5)",
+    "ring": "oklch(0.627 0.036 205.7)",
+    "chart-1": "oklch(0.508 0.054 202.3)",
+    "chart-2": "oklch(0.627 0.036 205.7)",
+    "chart-3": "oklch(0.458 0.077 50.1)",
+    "chart-4": "oklch(0.285 0.040 49.2)",
+    "chart-5": "oklch(0.205 0.018 50.4)",
+    "sidebar": "oklch(0.916 0.026 82.4)",
+    "sidebar-foreground": "oklch(0.285 0.040 49.2)",
+    "sidebar-primary": "oklch(0.508 0.054 202.3)",
+    "sidebar-primary-foreground": "oklch(0.953 0.013 86.8)",
+    "sidebar-accent": "oklch(0.852 0.029 98.1)",
+    "sidebar-accent-foreground": "oklch(0.508 0.054 202.3)",
+    "sidebar-border": "oklch(0.846 0.045 80.5)",
+    "sidebar-ring": "oklch(0.627 0.036 205.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.285 0.040 49.2)",
+    "foreground": "oklch(0.953 0.013 86.8)",
+    "card": "oklch(0.233 0.026 47.6)",
+    "card-foreground": "oklch(0.953 0.013 86.8)",
+    "popover": "oklch(0.233 0.026 47.6)",
+    "popover-foreground": "oklch(0.953 0.013 86.8)",
+    "primary": "oklch(0.627 0.036 205.7)",
+    "primary-foreground": "oklch(0.285 0.040 49.2)",
+    "secondary": "oklch(0.343 0.028 66.6)",
+    "secondary-foreground": "oklch(0.953 0.013 86.8)",
+    "muted": "oklch(0.343 0.028 66.6)",
+    "muted-foreground": "oklch(0.864 0.035 78.6)",
+    "accent": "oklch(0.458 0.077 50.1)",
+    "accent-foreground": "oklch(0.285 0.040 49.2)",
+    "destructive": "oklch(0.508 0.054 202.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.627 0.036 205.7)",
+    "chart-1": "oklch(0.627 0.036 205.7)",
+    "chart-2": "oklch(0.508 0.054 202.3)",
+    "chart-3": "oklch(0.458 0.077 50.1)",
+    "chart-4": "oklch(0.285 0.040 49.2)",
+    "chart-5": "oklch(0.751 0.063 74.8)",
+    "sidebar": "oklch(0.248 0.030 50.3)",
+    "sidebar-foreground": "oklch(0.953 0.013 86.8)",
+    "sidebar-primary": "oklch(0.627 0.036 205.7)",
+    "sidebar-primary-foreground": "oklch(0.285 0.040 49.2)",
+    "sidebar-accent": "oklch(0.343 0.028 66.6)",
+    "sidebar-accent-foreground": "oklch(0.953 0.013 86.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.627 0.036 205.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for structured product UI with Noto Sans JP guidance for Japanese headings, record labels, tables, and citation-style metadata.",
+  "layout": "Layered document panes, bracket-fungi shelf cards, concentric band dividers, compact dashboard grids, 8px component radii, and calm record-first spacing.",
+  "tags": [
+    "turkey-tail",
+    "fungi",
+    "rotting-log",
+    "turkey-tail-bands",
+    "teal-brown-cream-rust-bands",
+    "layered-documentation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-turkey-tail/motif.png",
+    "board": "/systems/morphous-turkey-tail/design-system-light.png",
+    "darkBoard": "/systems/morphous-turkey-tail/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-turkey-tail/theme.css",
+    "themeJson": "/systems/morphous-turkey-tail/theme.json",
+    "promptsJson": "/systems/morphous-turkey-tail/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent turkey tail motif source",
+      "asset": "/systems/morphous-turkey-tail/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only an isolated cluster of turkey tail bracket fungi for a design-system catalog, no environment, no log, no props, no text.\nSubject: Overlapping fan-shaped Trametes versicolor turkey tail fungi shelves with realistic velvety surface texture, thin layered edges, and accurate concentric bands in motif-derived teal, deep brown, warm cream, tan, chestnut, and rust. The cluster should feel like a natural specimen and a source for a layered documentation UI system, not a cartoon.\nComposition/framing: centered complete cutout with generous padding; show the full fan silhouettes and layered stack without cropping. Use a single cohesive cluster only.\nLighting/mood: clean studio light that preserves the concentric turkey tail bands, fine pore-edge details, and natural fungal texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no landscape, no decorative background, no rotting log, no moss, no leaves, no cast shadow, no contact shadow, no reflection, no second species, no bright unrelated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-turkey-tail/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: horizontal Morphous light-mode design-system board\nInput/reference image: use the visible transparent turkey tail fungi motif as the source reference.\nPrimary request: Create a STRICT HORIZONTAL 16:9 WIDESCREEN design-system board for a Morphous theme named \"Morphous Turkey Tail\". The canvas must be landscape, not portrait, with a wide dashboard-style layout spanning left to right.\nReference use: Derive every color and texture from the visible turkey tail motif: teal-blue fungal bands, deep umber and bark brown rings, warm cream pore edges, tan shelves, rust streaks, layered rotting-log ecology, and concentric turkey-tail documentation strata.\nCanvas: exact landscape 16:9 widescreen, 3840 x 2160 px. Never rotate the board. Do not create a tall poster. Fill the wide frame with a top header and multiple horizontal columns.\nRequired visible sections with readable labels: Morphous Turkey Tail, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nLayout: left vertical navigation rail, top token header, central component matrix, right dashboard/data column, bottom strip for radius spacing shadows texture tokens. Use broad horizontal bands and large section labels so the board reads when downscaled.\nTypography: English UI samples and Japanese samples: ターキーテイル, 層状ドキュメント, 記録データ. Include Geist and Noto Sans JP style guidance.\nUI coverage: shadcn/tweakcn buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, tables, command search, sidebar navigation, top navigation, dashboard charts, forms, empty/loading/error/success states, token swatches.\nStyle: premium shadcn/tweakcn product design system, layered documentation system, 8px radii only, bracket-fungi shelf cards, concentric band dividers, teal focus rings, cream surfaces, rust active states, brown structural borders, refined natural texture.\nPalette labels: Spore Cream, Pore Edge, Shelf Tan, Rust Band, Bark Brown, Deep Umber, Fungal Teal, Weathered Teal, Log Shadow.\nConstraints: no portrait composition, no unrelated saturated colors, no generic purple or blue gradients, no watermark, no random brand names, no misspelling of \"Morphous Turkey Tail\", no illegible microtext, no radii larger than 8px, no colors outside the motif-derived teal brown cream rust bands."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-turkey-tail/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: horizontal Morphous dark-mode design-system board\nInput/reference images: use the visible transparent turkey tail fungi motif and the visible light-mode Morphous Turkey Tail board as references.\nPrimary request: Create a STRICT HORIZONTAL 16:9 WIDESCREEN dark-mode companion board for \"Morphous Turkey Tail\". It must feel like the same layered documentation system as the visible light board translated to dark mode, not a new theme.\nReference use: Preserve the same sections, component coverage, palette roles, typography, 8px radius, concentric turkey-tail band texture, rotting-log ecology, layered document cards, teal focus rings, rust active states, cream foregrounds, brown borders, dashboard/data, forms, tables, command/search, status, tokens, texture, spacing, radius, and shadows.\nCanvas: exact landscape 16:9 widescreen, 3840 x 2160 px. Never create a portrait or tall poster. Fill the wide frame with a top header, sidebar, central component matrix, dashboard/data column, and bottom token strip.\nRequired visible sections with readable labels: Morphous Turkey Tail, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nDark palette direction: deep umber and log-shadow background, dark bark panels, warm cream text, shelf tan muted states, rust primary/destructive accents, fungal teal primary/focus accents, weathered teal secondary states, pore-edge dividers. Use only motif-derived colors plus near-neutrals from the motif.\nUI coverage: shadcn/tweakcn dark buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, top navigation, metric cards, charts, empty/loading/error/success states, token swatches.\nTypography: English UI samples and Japanese samples: ターキーテイル, 層状ドキュメント, 記録データ. Include Geist and Noto Sans JP style guidance.\nStyle: premium dark product design-system board, layered documentation console, 8px radii only, subtle bracket-fungi shelf cards, concentric band dividers, refined organic texture overlays, high contrast but not neon.\nConstraints: no portrait composition, no unrelated saturated colors, no generic purple or blue gradients, no flat pure black only, no watermark, no random brand names, no misspelling of \"Morphous Turkey Tail\", no illegible microtext, no radii larger than 8px, no colors outside the motif-derived teal brown cream rust bands."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-trout",
+  "name": "Morphous Trout",
+  "motifName": "Trout Flank",
+  "motifCategory": "fish",
+  "biome": "Mountain Stream",
+  "motif": "trout flank",
+  "description": "A clear field system derived from mountain-stream trout flank markings: olive dorsal depth, silver scale surfaces, pink lateral-line accents, speckle charcoal detail, and cold river-blue focus states.",
+  "typography": "Geist for crisp English analytical UI with Noto Sans JP guidance for Japanese labels, metrics, and compact environmental dashboards.",
+  "layout": "Clear-water dashboard grids, 8px cards, speckle dividers, river-blue focus lanes, and dense but airy monitoring components.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "trout",
+    "fish",
+    "mountain-stream",
+    "clear-field",
+    "olive",
+    "silver",
+    "pink",
+    "river-blue",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stream White",
+      "hex": "#FAFCFD"
+    },
+    {
+      "role": "Ink",
+      "name": "Speckle Charcoal",
+      "hex": "#282F31"
+    },
+    {
+      "role": "Primary",
+      "name": "Olive Back",
+      "hex": "#5E682F"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silver Olive Scale",
+      "hex": "#97A97A"
+    },
+    {
+      "role": "Accent",
+      "name": "River Blue",
+      "hex": "#4F7F97"
+    },
+    {
+      "role": "Signal",
+      "name": "Lateral Pink",
+      "hex": "#D07A8E"
+    },
+    {
+      "role": "Surface",
+      "name": "Silver Flank",
+      "hex": "#DDE5E8"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Current",
+      "hex": "#0B222A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

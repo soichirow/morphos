@@ -1,0 +1,45 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-wadi",
+  "name": "Morphous Wadi",
+  "status": "ready",
+  "motifName": "Wadi",
+  "motifCategory": "landscape",
+  "biome": "Desert Canyon",
+  "motif": "wadi channel",
+  "description": "A route planning system shaped by desert canyon wash geometry: sand-stone surfaces, acacia green actions, sky blue route focus, and dry-channel structure for waypoint-heavy planning.",
+  "typography": "Geist for technical route planning UI with Noto Sans JP guidance for headings, body, labels, and coordinate numerals.",
+  "layout": "Compact 8px planning grids, wadi-channel route dividers, sandstone card boundaries, waypoint tables, elevation charts, and dense field-operations dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "wadi",
+    "landscape",
+    "desert-canyon",
+    "sandstone",
+    "route-planning",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Sand Wash", "hex": "#f7f2e6" },
+    { "role": "Ink", "name": "Canyon Ink", "hex": "#292118" },
+    { "role": "Primary", "name": "Acacia Green", "hex": "#5a8f62" },
+    { "role": "Secondary", "name": "Sandstone", "hex": "#d8b38a" },
+    { "role": "Accent", "name": "Sky Blue Route", "hex": "#49a6e0" },
+    { "role": "Signal", "name": "Canyon Clay", "hex": "#b56a30" },
+    { "role": "Surface", "name": "Dry Wash", "hex": "#f3e9d4" },
+    { "role": "Muted", "name": "Pebble Taupe", "hex": "#d6cec1" },
+    { "role": "Depth", "name": "Night Canyon", "hex": "#0f141a" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

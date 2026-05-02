@@ -1,0 +1,210 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 328,
+  "slug": "morphous-weevil",
+  "name": "Morphous Weevil",
+  "motifName": "Weevil",
+  "motifCategory": "insect",
+  "biome": "forest leaf",
+  "motif": "weevil snout",
+  "description": "A shadcn/tweakcn-compatible inventory management system derived from a matte brown long-snouted forest weevil: ridged shell actions, acorn tan surfaces, leaf green availability states, deep umber structure, bark-grain borders, and shell-groove data rhythm.",
+  "typography": "Inter for quiet inventory operations, IBM Plex Mono for SKUs, counts, and token labels, and Noto Sans JP guidance for Japanese navigation, forms, search, and status text.",
+  "layout": "Dense but calm inventory dashboards, shell-ridge dividers, snout-pointer focus rings, compact stock tables, measured forms, command search, 8px radii, matte parchment surfaces, leaf-green operational states, and low soft shadows.",
+  "designMood": "inventory management system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "weevil",
+    "snout",
+    "insect",
+    "forest-leaf",
+    "matte-brown",
+    "leaf-green",
+    "acorn-tan",
+    "inventory-management",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment Husk",
+      "hex": "#F2ECE3",
+      "oklch": "oklch(0.945 0.014 78.3)"
+    },
+    {
+      "role": "Foreground",
+      "name": "Ink Snout",
+      "hex": "#1F1B16",
+      "oklch": "oklch(0.225 0.011 73.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ridged Brown",
+      "hex": "#7A5C3E",
+      "oklch": "oklch(0.498 0.059 65.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Ledger",
+      "hex": "#6F8F5B",
+      "oklch": "oklch(0.612 0.083 134.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Acorn Tan",
+      "hex": "#C7A97A",
+      "oklch": "oklch(0.750 0.072 78.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Dry Shell",
+      "hex": "#E6DCC6",
+      "oklch": "oklch(0.897 0.031 86.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Paper",
+      "hex": "#FFFDF8",
+      "oklch": "oklch(0.994 0.007 88.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stone Husk",
+      "hex": "#D6D1C6",
+      "oklch": "oklch(0.862 0.016 86.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Umber Groove",
+      "hex": "#382F24",
+      "oklch": "oklch(0.312 0.023 72.4)"
+    },
+    {
+      "role": "Support",
+      "name": "Moss Count",
+      "hex": "#526B41",
+      "oklch": "oklch(0.496 0.070 133.4)"
+    },
+    {
+      "role": "Soft",
+      "name": "Lichen Mist",
+      "hex": "#A8B69A",
+      "oklch": "oklch(0.758 0.042 129.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Bark Grain",
+      "hex": "#5A4632",
+      "oklch": "oklch(0.410 0.042 66.2)"
+    },
+    {
+      "role": "Info",
+      "name": "Sage Scan",
+      "hex": "#8FA07A",
+      "oklch": "oklch(0.682 0.057 127.5)"
+    },
+    {
+      "role": "Error",
+      "name": "Rot Mark",
+      "hex": "#8A3B2D",
+      "oklch": "oklch(0.456 0.111 31.9)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.945 0.014 78.3)",
+    "foreground": "oklch(0.225 0.011 73.3)",
+    "card": "oklch(0.994 0.007 88.6)",
+    "card-foreground": "oklch(0.225 0.011 73.3)",
+    "popover": "oklch(0.994 0.007 88.6)",
+    "popover-foreground": "oklch(0.225 0.011 73.3)",
+    "primary": "oklch(0.498 0.059 65.8)",
+    "primary-foreground": "oklch(0.994 0.007 88.6)",
+    "secondary": "oklch(0.928 0.022 80.7)",
+    "secondary-foreground": "oklch(0.312 0.023 72.4)",
+    "muted": "oklch(0.930 0.017 79.3)",
+    "muted-foreground": "oklch(0.410 0.042 66.2)",
+    "accent": "oklch(0.750 0.072 78.5)",
+    "accent-foreground": "oklch(0.225 0.011 73.3)",
+    "destructive": "oklch(0.456 0.111 31.9)",
+    "border": "oklch(0.862 0.016 86.4)",
+    "input": "oklch(0.862 0.016 86.4)",
+    "ring": "oklch(0.612 0.083 134.0)",
+    "chart-1": "oklch(0.498 0.059 65.8)",
+    "chart-2": "oklch(0.612 0.083 134.0)",
+    "chart-3": "oklch(0.750 0.072 78.5)",
+    "chart-4": "oklch(0.682 0.057 127.5)",
+    "chart-5": "oklch(0.410 0.042 66.2)",
+    "sidebar": "oklch(0.974 0.013 86.8)",
+    "sidebar-foreground": "oklch(0.225 0.011 73.3)",
+    "sidebar-primary": "oklch(0.498 0.059 65.8)",
+    "sidebar-primary-foreground": "oklch(0.994 0.007 88.6)",
+    "sidebar-accent": "oklch(0.897 0.031 86.5)",
+    "sidebar-accent-foreground": "oklch(0.312 0.023 72.4)",
+    "sidebar-border": "oklch(0.862 0.016 86.4)",
+    "sidebar-ring": "oklch(0.612 0.083 134.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.185 0.012 73.2)",
+    "foreground": "oklch(0.897 0.031 86.5)",
+    "card": "oklch(0.225 0.011 73.3)",
+    "card-foreground": "oklch(0.897 0.031 86.5)",
+    "popover": "oklch(0.225 0.011 73.3)",
+    "popover-foreground": "oklch(0.897 0.031 86.5)",
+    "primary": "oklch(0.694 0.105 68.7)",
+    "primary-foreground": "oklch(0.185 0.012 73.2)",
+    "secondary": "oklch(0.295 0.034 54.7)",
+    "secondary-foreground": "oklch(0.897 0.031 86.5)",
+    "muted": "oklch(0.255 0.021 66.6)",
+    "muted-foreground": "oklch(0.740 0.035 74.7)",
+    "accent": "oklch(0.809 0.079 78.3)",
+    "accent-foreground": "oklch(0.185 0.012 73.2)",
+    "destructive": "oklch(0.456 0.111 31.9)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.490 0.076 134.4)",
+    "chart-1": "oklch(0.694 0.105 68.7)",
+    "chart-2": "oklch(0.490 0.076 134.4)",
+    "chart-3": "oklch(0.809 0.079 78.3)",
+    "chart-4": "oklch(0.740 0.035 74.7)",
+    "chart-5": "oklch(0.456 0.111 31.9)",
+    "sidebar": "oklch(0.225 0.011 73.3)",
+    "sidebar-foreground": "oklch(0.897 0.031 86.5)",
+    "sidebar-primary": "oklch(0.694 0.105 68.7)",
+    "sidebar-primary-foreground": "oklch(0.185 0.012 73.2)",
+    "sidebar-accent": "oklch(0.295 0.034 54.7)",
+    "sidebar-accent-foreground": "oklch(0.897 0.031 86.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.490 0.076 134.4)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-veiled-lady",
+    "name": "Morphous Veiled Lady",
+    "motifName": "Veiled Lady",
+    "motifCategory": "fungi",
+    "biome": "Tropical Forest",
+    "motif": "veiled lady fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lace White",
+      "hex": "#F3F4EF",
+      "oklch": "oklch(0.965 0.007 115.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Forest",
+      "hex": "#0C130E",
+      "oklch": "oklch(0.177 0.015 153.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Olive Cap",
+      "hex": "#686E2E",
+      "oklch": "oklch(0.519 0.087 113.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Humid Green",
+      "hex": "#334036",
+      "oklch": "oklch(0.356 0.024 152.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Porcelain Lace",
+      "hex": "#B0B9A7",
+      "oklch": "oklch(0.774 0.027 128.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wet Olive",
+      "hex": "#7A6B34",
+      "oklch": "oklch(0.530 0.077 94.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Veil Highlight",
+      "hex": "#F9F7EC",
+      "oklch": "oklch(0.975 0.015 98.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Spore Cream",
+      "hex": "#E8E4D3",
+      "oklch": "oklch(0.917 0.023 96.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Forest",
+      "hex": "#0F1A14",
+      "oklch": "oklch(0.205 0.020 160.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Moss Muted",
+      "hex": "#55634E",
+      "oklch": "oklch(0.481 0.037 135.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Paper Mist",
+      "hex": "#C7C4B6",
+      "oklch": "oklch(0.819 0.019 96.9)"
+    },
+    {
+      "role": "Stem",
+      "name": "Stem Ivory",
+      "hex": "#DAD6C2",
+      "oklch": "oklch(0.874 0.027 97.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Cap Shadow",
+      "hex": "#383116",
+      "oklch": "oklch(0.314 0.043 95.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Cap Bruise",
+      "hex": "#6A482E",
+      "oklch": "oklch(0.433 0.061 57.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.007 115.7)",
+    "foreground": "oklch(0.177 0.015 153.6)",
+    "card": "oklch(0.975 0.015 98.3)",
+    "card-foreground": "oklch(0.177 0.015 153.6)",
+    "popover": "oklch(0.975 0.015 98.3)",
+    "popover-foreground": "oklch(0.177 0.015 153.6)",
+    "primary": "oklch(0.519 0.087 113.9)",
+    "primary-foreground": "oklch(0.975 0.015 98.3)",
+    "secondary": "oklch(0.917 0.023 96.0)",
+    "secondary-foreground": "oklch(0.205 0.020 160.1)",
+    "muted": "oklch(0.874 0.027 97.7)",
+    "muted-foreground": "oklch(0.356 0.024 152.0)",
+    "accent": "oklch(0.774 0.027 128.9)",
+    "accent-foreground": "oklch(0.177 0.015 153.6)",
+    "destructive": "oklch(0.433 0.061 57.7)",
+    "border": "oklch(0.819 0.019 96.9)",
+    "input": "oklch(0.819 0.019 96.9)",
+    "ring": "oklch(0.356 0.024 152.0)",
+    "chart-1": "oklch(0.519 0.087 113.9)",
+    "chart-2": "oklch(0.356 0.024 152.0)",
+    "chart-3": "oklch(0.481 0.037 135.2)",
+    "chart-4": "oklch(0.530 0.077 94.4)",
+    "chart-5": "oklch(0.774 0.027 128.9)",
+    "sidebar": "oklch(0.917 0.023 96.0)",
+    "sidebar-foreground": "oklch(0.177 0.015 153.6)",
+    "sidebar-primary": "oklch(0.519 0.087 113.9)",
+    "sidebar-primary-foreground": "oklch(0.975 0.015 98.3)",
+    "sidebar-accent": "oklch(0.874 0.027 97.7)",
+    "sidebar-accent-foreground": "oklch(0.356 0.024 152.0)",
+    "sidebar-border": "oklch(0.819 0.019 96.9)",
+    "sidebar-ring": "oklch(0.356 0.024 152.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.177 0.015 153.6)",
+    "foreground": "oklch(0.965 0.007 115.7)",
+    "card": "oklch(0.205 0.020 160.1)",
+    "card-foreground": "oklch(0.965 0.007 115.7)",
+    "popover": "oklch(0.205 0.020 160.1)",
+    "popover-foreground": "oklch(0.965 0.007 115.7)",
+    "primary": "oklch(0.519 0.087 113.9)",
+    "primary-foreground": "oklch(0.975 0.015 98.3)",
+    "secondary": "oklch(0.356 0.024 152.0)",
+    "secondary-foreground": "oklch(0.965 0.007 115.7)",
+    "muted": "oklch(0.314 0.043 95.2)",
+    "muted-foreground": "oklch(0.819 0.019 96.9)",
+    "accent": "oklch(0.774 0.027 128.9)",
+    "accent-foreground": "oklch(0.177 0.015 153.6)",
+    "destructive": "oklch(0.433 0.061 57.7)",
+    "border": "oklch(0.819 0.019 96.9 / 20%)",
+    "input": "oklch(0.819 0.019 96.9 / 26%)",
+    "ring": "oklch(0.774 0.027 128.9)",
+    "chart-1": "oklch(0.774 0.027 128.9)",
+    "chart-2": "oklch(0.519 0.087 113.9)",
+    "chart-3": "oklch(0.356 0.024 152.0)",
+    "chart-4": "oklch(0.530 0.077 94.4)",
+    "chart-5": "oklch(0.481 0.037 135.2)",
+    "sidebar": "oklch(0.205 0.020 160.1)",
+    "sidebar-foreground": "oklch(0.965 0.007 115.7)",
+    "sidebar-primary": "oklch(0.774 0.027 128.9)",
+    "sidebar-primary-foreground": "oklch(0.177 0.015 153.6)",
+    "sidebar-accent": "oklch(0.314 0.043 95.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.007 115.7)",
+    "sidebar-border": "oklch(0.819 0.019 96.9 / 20%)",
+    "sidebar-ring": "oklch(0.774 0.027 128.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Instrument Sans or Inter for refined publishing UI with Noto Sans JP guidance for Japanese editorial labels, tabular metrics, elegant display headings, and calm multilingual hierarchy.",
+  "layout": "Precise 8px grid, 8px radii, lace-net dividers, olive cap contour accents, humid green separators, compact editorial navigation, high-signal publishing dashboards, and soft forest-ink shadows.",
+  "tags": [
+    "veiled lady",
+    "fungi",
+    "tropical forest",
+    "white lace",
+    "olive cap",
+    "publishing",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-veiled-lady/motif.png",
+    "board": "/systems/morphous-veiled-lady/design-system-light.png",
+    "darkBoard": "/systems/morphous-veiled-lady/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-veiled-lady/theme.css",
+    "themeJson": "/systems/morphous-veiled-lady/theme.json",
+    "promptsJson": "/systems/morphous-veiled-lady/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Veiled Lady motif",
+      "asset": "/systems/morphous-veiled-lady/motif.png",
+      "workflow": "Built-in image generation on a flat #ff00ff chroma-key background, then local chroma-key removal to RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated veiled lady fungus for a design-system catalog, no environment, no props, no text.\nSubject: Veiled lady fungus (Phallus indusiatus) with accurate fungal form: a slender white stem, delicate white lace indusium skirt hanging in a netted veil, olive-brown cap with subtle wet gleba sheen, humid tropical-forest green undertones reflected softly in shadows, fine natural mushroom texture, crisp silhouette edges. Include one elegant full fruiting body with the cap, stem, and entire lace veil visible.\nComposition/framing: centered complete cutout with generous padding; do not crop the cap, lace veil, or stem; keep the veil fully separated from the background.\nLighting/mood: clean studio light that preserves white lace detail, olive cap texture, humid green tonal influence, and natural fungal delicacy.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no leaves, no moss, no soil, no second species, no decorative background, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-veiled-lady/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-veiled-lady/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Veiled Lady\" / \"Veiled Lady\" derived from the visible veiled lady fungus motif cutout.\nReference use: Use the visible mushroom image in this conversation as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the white lace indusium, olive-brown cap, cream-white stem, humid tropical-forest green tonal context, translucent net pattern, and wet gleba highlights. Use only motif-derived colors plus near-neutrals visible in the fungus and humid forest context.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Veiled Lady\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data publishing analytics, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nTypography: English UI guidance and Japanese UI guidance with short examples; use refined editorial sans plus readable Japanese UI guidance, clear numeric alignment, elegant publishing system hierarchy.\nStyle/medium: premium shadcn/tweakcn-compatible elegant publishing product system, precise grid, crisp UI mockup, quiet editorial workflow, 8px radii everywhere, subtle lace-net divider texture, olive cap contour rhythm, humid green separators, cream paper-like surfaces.\nColor palette: lace white and spore cream backgrounds, deep forest ink, olive cap primary, humid green secondary, porcelain lace accent, pale veil highlight, mushroom stem ivory, damp moss-muted support, soft olive-brown warning/destructive derived from cap shadow. No unrelated colors.\nUI coverage details: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, publishing dashboard chart cards, KPI cards, editorial queue cards, loading/empty/error states, spacing/radius/shadow token swatches.\nText: short readable UI labels only; no paragraphs.\nConstraints: no generic purple gradients, no bright blue accents, no red/orange/yellow accents except tiny warning/destructive states derived from muted olive-brown cap shadow, no random brand names, no watermark, no unrelated saturated colors, no stock website hero layout."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-veiled-lady/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-veiled-lady/motif.png",
+        "/systems/morphous-veiled-lady/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Veiled Lady\" / \"Veiled Lady\". It must feel like the same elegant publishing system translated from the visible light board, not a new theme.\nReference use: Use the visible veiled lady fungus motif and the visible light-mode design-system board as references. Preserve motif-derived palette roles, lace-net texture, olive cap contour rhythm, humid forest separators, 8px radii, editorial publishing layout, component language, spacing, and typography guidance.\nCanvas: exact wide 16:9 board, 3840 x 2160 if available, clean product design-system reference sheet.\nResolution and legibility: high-resolution 4K-class source board. Use large readable labels, generous whitespace, and avoid dense tiny token tables.\nRequired visible sections: title \"Morphous Veiled Lady\", Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data publishing analytics, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nVisual details: dark background derived from deepest tropical forest ink and olive cap shadow; text from lace white, porcelain veil, and spore cream highlights; olive cap primary, humid green secondary, porcelain lace accent, moss-muted support, translucent border lines, restrained warning/destructive from muted olive-brown cap shadow only. Use subtle lace-net divider texture and olive cap wet contour swatches inside token areas.\nUI coverage details: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, search field, sidebar navigation, top nav, publishing dashboard chart cards, KPI cards, editorial queue cards, loading/empty/error states, spacing/radius/shadow token swatches.\nTypography: English UI guidance and Japanese UI guidance with short examples; refined editorial sans plus readable Japanese UI guidance, clear numeric alignment.\nStyle/medium: premium shadcn/tweakcn-compatible elegant publishing product system, precise grid, crisp dark UI mockup, refined editorial workflow, 8px radii everywhere.\nText: short readable UI labels only; no paragraphs.\nConstraints: no neon colors, no generic purple gradients, no bright blue accents, no flat pure-black background, no unrelated saturated colors, no random brand names, no watermark, no stock website hero layout."
+    }
+  ]
+}

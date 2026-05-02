@@ -1,0 +1,207 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 292,
+  "slug": "morphous-veiled-lady",
+  "name": "Morphous Veiled Lady",
+  "motifName": "Veiled Lady",
+  "motifCategory": "fungi",
+  "biome": "Tropical Forest",
+  "motif": "veiled lady fungus",
+  "description": "A shadcn/tweakcn-compatible elegant publishing system derived from the veiled lady fungus: white lace indusium structure, olive cap sheen, spore-cream stem surfaces, humid tropical-forest greens, and deep forest ink. The result is a refined editorial UI with lace-net texture, olive primary actions, restrained data states, and quiet publishing workflows.",
+  "typography": "Instrument Sans or Inter for refined publishing UI with Noto Sans JP guidance for Japanese editorial labels, tabular metrics, elegant display headings, and calm multilingual hierarchy.",
+  "layout": "Precise 8px grid, 8px radii, lace-net dividers, olive cap contour accents, humid green separators, compact editorial navigation, high-signal publishing dashboards, and soft forest-ink shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "veiled lady",
+    "fungi",
+    "tropical forest",
+    "white lace",
+    "olive cap",
+    "publishing",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Lace White",
+      "hex": "#F3F4EF",
+      "oklch": "oklch(0.965 0.007 115.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Forest",
+      "hex": "#0C130E",
+      "oklch": "oklch(0.177 0.015 153.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Olive Cap",
+      "hex": "#686E2E",
+      "oklch": "oklch(0.519 0.087 113.9)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Humid Green",
+      "hex": "#334036",
+      "oklch": "oklch(0.356 0.024 152.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Porcelain Lace",
+      "hex": "#B0B9A7",
+      "oklch": "oklch(0.774 0.027 128.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Wet Olive",
+      "hex": "#7A6B34",
+      "oklch": "oklch(0.530 0.077 94.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Veil Highlight",
+      "hex": "#F9F7EC",
+      "oklch": "oklch(0.975 0.015 98.3)"
+    },
+    {
+      "role": "Muted",
+      "name": "Spore Cream",
+      "hex": "#E8E4D3",
+      "oklch": "oklch(0.917 0.023 96.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Forest",
+      "hex": "#0F1A14",
+      "oklch": "oklch(0.205 0.020 160.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Moss Muted",
+      "hex": "#55634E",
+      "oklch": "oklch(0.481 0.037 135.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Paper Mist",
+      "hex": "#C7C4B6",
+      "oklch": "oklch(0.819 0.019 96.9)"
+    },
+    {
+      "role": "Stem",
+      "name": "Stem Ivory",
+      "hex": "#DAD6C2",
+      "oklch": "oklch(0.874 0.027 97.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Cap Shadow",
+      "hex": "#383116",
+      "oklch": "oklch(0.314 0.043 95.2)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Cap Bruise",
+      "hex": "#6A482E",
+      "oklch": "oklch(0.433 0.061 57.7)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.965 0.007 115.7)",
+    "foreground": "oklch(0.177 0.015 153.6)",
+    "card": "oklch(0.975 0.015 98.3)",
+    "card-foreground": "oklch(0.177 0.015 153.6)",
+    "popover": "oklch(0.975 0.015 98.3)",
+    "popover-foreground": "oklch(0.177 0.015 153.6)",
+    "primary": "oklch(0.519 0.087 113.9)",
+    "primary-foreground": "oklch(0.975 0.015 98.3)",
+    "secondary": "oklch(0.917 0.023 96.0)",
+    "secondary-foreground": "oklch(0.205 0.020 160.1)",
+    "muted": "oklch(0.874 0.027 97.7)",
+    "muted-foreground": "oklch(0.356 0.024 152.0)",
+    "accent": "oklch(0.774 0.027 128.9)",
+    "accent-foreground": "oklch(0.177 0.015 153.6)",
+    "destructive": "oklch(0.433 0.061 57.7)",
+    "border": "oklch(0.819 0.019 96.9)",
+    "input": "oklch(0.819 0.019 96.9)",
+    "ring": "oklch(0.356 0.024 152.0)",
+    "chart-1": "oklch(0.519 0.087 113.9)",
+    "chart-2": "oklch(0.356 0.024 152.0)",
+    "chart-3": "oklch(0.481 0.037 135.2)",
+    "chart-4": "oklch(0.530 0.077 94.4)",
+    "chart-5": "oklch(0.774 0.027 128.9)",
+    "sidebar": "oklch(0.917 0.023 96.0)",
+    "sidebar-foreground": "oklch(0.177 0.015 153.6)",
+    "sidebar-primary": "oklch(0.519 0.087 113.9)",
+    "sidebar-primary-foreground": "oklch(0.975 0.015 98.3)",
+    "sidebar-accent": "oklch(0.874 0.027 97.7)",
+    "sidebar-accent-foreground": "oklch(0.356 0.024 152.0)",
+    "sidebar-border": "oklch(0.819 0.019 96.9)",
+    "sidebar-ring": "oklch(0.356 0.024 152.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.177 0.015 153.6)",
+    "foreground": "oklch(0.965 0.007 115.7)",
+    "card": "oklch(0.205 0.020 160.1)",
+    "card-foreground": "oklch(0.965 0.007 115.7)",
+    "popover": "oklch(0.205 0.020 160.1)",
+    "popover-foreground": "oklch(0.965 0.007 115.7)",
+    "primary": "oklch(0.519 0.087 113.9)",
+    "primary-foreground": "oklch(0.975 0.015 98.3)",
+    "secondary": "oklch(0.356 0.024 152.0)",
+    "secondary-foreground": "oklch(0.965 0.007 115.7)",
+    "muted": "oklch(0.314 0.043 95.2)",
+    "muted-foreground": "oklch(0.819 0.019 96.9)",
+    "accent": "oklch(0.774 0.027 128.9)",
+    "accent-foreground": "oklch(0.177 0.015 153.6)",
+    "destructive": "oklch(0.433 0.061 57.7)",
+    "border": "oklch(0.819 0.019 96.9 / 20%)",
+    "input": "oklch(0.819 0.019 96.9 / 26%)",
+    "ring": "oklch(0.774 0.027 128.9)",
+    "chart-1": "oklch(0.774 0.027 128.9)",
+    "chart-2": "oklch(0.519 0.087 113.9)",
+    "chart-3": "oklch(0.356 0.024 152.0)",
+    "chart-4": "oklch(0.530 0.077 94.4)",
+    "chart-5": "oklch(0.481 0.037 135.2)",
+    "sidebar": "oklch(0.205 0.020 160.1)",
+    "sidebar-foreground": "oklch(0.965 0.007 115.7)",
+    "sidebar-primary": "oklch(0.774 0.027 128.9)",
+    "sidebar-primary-foreground": "oklch(0.177 0.015 153.6)",
+    "sidebar-accent": "oklch(0.314 0.043 95.2)",
+    "sidebar-accent-foreground": "oklch(0.965 0.007 115.7)",
+    "sidebar-border": "oklch(0.819 0.019 96.9 / 20%)",
+    "sidebar-ring": "oklch(0.774 0.027 128.9)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
