@@ -1,0 +1,97 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-betta-scale",
+  "name": "Morphous Betta Scale",
+  "motifName": "Betta Scale",
+  "motifCategory": "fish",
+  "biome": "aquatic tank",
+  "motif": "betta scale detail",
+  "description": "A shadcn/tweakcn-compatible fluid component system derived from betta scale detail: teal overlapping scales, crimson fin accents, violet iridescent focus states, pearlescent surfaces, and aquatic dark structure for dashboard, telemetry, form, table, and navigation workflows.",
+  "typography": "Geist for crisp English product UI and numeric telemetry, with Noto Sans JP guidance for Japanese headings, body copy, labels, and dashboard metrics.",
+  "layout": "Fluid 8px product grids, compact cards, wave-like section dividers, fin-ray separators, scale-texture panels, 8px radii, readable dashboard density, and restrained shimmer states for repeatable shadcn components.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "betta-scale",
+    "fish",
+    "aquatic-tank",
+    "teal",
+    "crimson",
+    "violet-shimmer",
+    "fluid-components",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl White",
+      "hex": "#F7FAFF"
+    },
+    {
+      "role": "Surface",
+      "name": "Tank Glass Mist",
+      "hex": "#F3F6FA"
+    },
+    {
+      "role": "Primary",
+      "name": "Betta Teal",
+      "hex": "#0EA7A6"
+    },
+    {
+      "role": "Secondary",
+      "name": "Deep Lagoon",
+      "hex": "#0F4C5C"
+    },
+    {
+      "role": "Accent",
+      "name": "Violet Shimmer",
+      "hex": "#7861FF"
+    },
+    {
+      "role": "Signal",
+      "name": "Iris Blue",
+      "hex": "#4361EE"
+    },
+    {
+      "role": "Destructive",
+      "name": "Crimson Fin",
+      "hex": "#D7263D"
+    },
+    {
+      "role": "Warning",
+      "name": "Coral Blush",
+      "hex": "#FF666B"
+    },
+    {
+      "role": "Muted",
+      "name": "Glass Mist",
+      "hex": "#D8E7F1"
+    },
+    {
+      "role": "Border",
+      "name": "Scale Edge",
+      "hex": "#B9CCD7"
+    },
+    {
+      "role": "Depth",
+      "name": "Scale Graphite",
+      "hex": "#282F36"
+    },
+    {
+      "role": "Ink",
+      "name": "Aquatic Ink",
+      "hex": "#080F14"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

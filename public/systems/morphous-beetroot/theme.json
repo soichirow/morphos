@@ -1,0 +1,238 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-beetroot",
+    "name": "Morphous Beetroot",
+    "motifName": "Beetroot",
+    "motifCategory": "plant",
+    "biome": "vegetable garden",
+    "motif": "beetroot root"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Beet Paper",
+      "hex": "#FAF7F4",
+      "oklch": "oklch(0.978 0.005 67.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Garden Ink",
+      "hex": "#1E1A18",
+      "oklch": "oklch(0.222 0.007 48.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Beet Light",
+      "hex": "#F7E5EC",
+      "oklch": "oklch(0.938 0.022 351.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Beet Purple",
+      "hex": "#6B1F46",
+      "oklch": "oklch(0.372 0.115 352.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Beet Burgundy",
+      "hex": "#8F1E35",
+      "oklch": "oklch(0.431 0.147 15.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Beet Deep",
+      "hex": "#4A152F",
+      "oklch": "oklch(0.291 0.086 353.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Leaf Green",
+      "hex": "#5FAE48",
+      "oklch": "oklch(0.677 0.159 139.2)"
+    },
+    {
+      "role": "Success",
+      "name": "Leaf Deep",
+      "hex": "#3F7A31",
+      "oklch": "oklch(0.522 0.123 139.9)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Leaf Light",
+      "hex": "#CFEBC6",
+      "oklch": "oklch(0.910 0.058 138.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Leaf Vein",
+      "hex": "#7FAE63",
+      "oklch": "oklch(0.699 0.115 134.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Soil Brown",
+      "hex": "#6B4A3A",
+      "oklch": "oklch(0.441 0.052 46.8)"
+    },
+    {
+      "role": "Shadow",
+      "name": "Soil Dark",
+      "hex": "#4A3428",
+      "oklch": "oklch(0.347 0.038 49.7)"
+    },
+    {
+      "role": "Surface Alt",
+      "name": "Soil Light",
+      "hex": "#E8D7C6",
+      "oklch": "oklch(0.888 0.030 67.4)"
+    },
+    {
+      "role": "Dust",
+      "name": "Soil Dust",
+      "hex": "#F3EDE5",
+      "oklch": "oklch(0.949 0.012 75.4)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Stone",
+      "hex": "#F1EEE9",
+      "oklch": "oklch(0.950 0.007 80.7)"
+    },
+    {
+      "role": "Neutral Mid",
+      "name": "Neutral 300",
+      "hex": "#DBD2C8",
+      "oklch": "oklch(0.868 0.017 70.5)"
+    },
+    {
+      "role": "Neutral Deep",
+      "name": "Neutral 600",
+      "hex": "#6B655E",
+      "oklch": "oklch(0.510 0.013 71.8)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Root Shadow",
+      "hex": "#2A2126",
+      "oklch": "oklch(0.260 0.016 343.8)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Night Beet",
+      "hex": "#160E12",
+      "oklch": "oklch(0.176 0.016 347.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.978 0.005 67.8)",
+    "foreground": "oklch(0.222 0.007 48.4)",
+    "card": "oklch(0.938 0.022 351.9)",
+    "card-foreground": "oklch(0.222 0.007 48.4)",
+    "popover": "oklch(0.938 0.022 351.9)",
+    "popover-foreground": "oklch(0.222 0.007 48.4)",
+    "primary": "oklch(0.372 0.115 352.5)",
+    "primary-foreground": "oklch(0.978 0.005 67.8)",
+    "secondary": "oklch(0.955 0.012 4.8)",
+    "secondary-foreground": "oklch(0.291 0.086 353.4)",
+    "muted": "oklch(0.949 0.016 358.0)",
+    "muted-foreground": "oklch(0.291 0.086 353.4)",
+    "accent": "oklch(0.677 0.159 139.2)",
+    "accent-foreground": "oklch(0.222 0.007 48.4)",
+    "destructive": "oklch(0.372 0.115 352.5)",
+    "border": "oklch(0.851 0.030 117.5)",
+    "input": "oklch(0.851 0.030 117.5)",
+    "ring": "oklch(0.431 0.147 15.0)",
+    "chart-1": "oklch(0.372 0.115 352.5)",
+    "chart-2": "oklch(0.431 0.147 15.0)",
+    "chart-3": "oklch(0.677 0.159 139.2)",
+    "chart-4": "oklch(0.291 0.086 353.4)",
+    "chart-5": "oklch(0.291 0.086 353.4)",
+    "sidebar": "oklch(0.951 0.015 356.6)",
+    "sidebar-foreground": "oklch(0.222 0.007 48.4)",
+    "sidebar-primary": "oklch(0.372 0.115 352.5)",
+    "sidebar-primary-foreground": "oklch(0.978 0.005 67.8)",
+    "sidebar-accent": "oklch(0.872 0.031 349.3)",
+    "sidebar-accent-foreground": "oklch(0.372 0.115 352.5)",
+    "sidebar-border": "oklch(0.851 0.030 117.5)",
+    "sidebar-ring": "oklch(0.431 0.147 15.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.222 0.007 48.4)",
+    "foreground": "oklch(0.978 0.005 67.8)",
+    "card": "oklch(0.265 0.061 354.1)",
+    "card-foreground": "oklch(0.978 0.005 67.8)",
+    "popover": "oklch(0.265 0.061 354.1)",
+    "popover-foreground": "oklch(0.978 0.005 67.8)",
+    "primary": "oklch(0.431 0.147 15.0)",
+    "primary-foreground": "oklch(0.222 0.007 48.4)",
+    "secondary": "oklch(0.374 0.045 13.1)",
+    "secondary-foreground": "oklch(0.978 0.005 67.8)",
+    "muted": "oklch(0.374 0.045 13.1)",
+    "muted-foreground": "oklch(0.852 0.052 130.8)",
+    "accent": "oklch(0.677 0.159 139.2)",
+    "accent-foreground": "oklch(0.222 0.007 48.4)",
+    "destructive": "oklch(0.372 0.115 352.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.431 0.147 15.0)",
+    "chart-1": "oklch(0.431 0.147 15.0)",
+    "chart-2": "oklch(0.372 0.115 352.5)",
+    "chart-3": "oklch(0.677 0.159 139.2)",
+    "chart-4": "oklch(0.291 0.086 353.4)",
+    "chart-5": "oklch(0.699 0.115 134.7)",
+    "sidebar": "oklch(0.250 0.045 354.0)",
+    "sidebar-foreground": "oklch(0.978 0.005 67.8)",
+    "sidebar-primary": "oklch(0.431 0.147 15.0)",
+    "sidebar-primary-foreground": "oklch(0.222 0.007 48.4)",
+    "sidebar-accent": "oklch(0.374 0.045 13.1)",
+    "sidebar-accent-foreground": "oklch(0.978 0.005 67.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.431 0.147 15.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Dense English admin UI with crisp numeric hierarchy and Japanese typography guidance for product records, garden inventory, order dashboards, command search, and status messaging.",
+  "layout": "Structured admin grids, 8px radii, beet-purple navigation, burgundy active controls, leaf-green success and focus states, soil-brown borders, root-ring texture, leaf-vein dividers, and restrained shadow depth.",
+  "tags": [
+    "beetroot",
+    "plant",
+    "vegetable-garden",
+    "root-vegetable",
+    "beet-purple",
+    "leaf-green",
+    "soil-brown",
+    "rich-admin-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-beetroot/motif.png",
+    "board": "/systems/morphous-beetroot/design-system-light.png",
+    "darkBoard": "/systems/morphous-beetroot/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-beetroot/theme.css",
+    "themeJson": "/systems/morphous-beetroot/theme.json",
+    "promptsJson": "/systems/morphous-beetroot/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent beetroot root motif",
+      "asset": "/systems/morphous-beetroot/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Beetroot transparent motif chroma-key source\nPrimary request: Create only a beetroot plant motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A fresh beetroot root with a round earthy bulb, tapered root tail, rich beet-purple skin with subtle crimson striations, burgundy stems, leaf-green tops with red-purple veins, and small natural soil-brown texture on the root surface. Botanical accuracy, crisp subject edges, tactile vegetable-root detail, no cut slices.\nComposition/framing: centered complete cutout with generous padding; include the whole root, tail, stems, and leaf cluster without cropping. Clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #00ffff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ffff anywhere in the subject.\nConstraints: no radish, no turnip, no onion, no carrot, no salad, no bowl, no hand, no props, no garden bed, no landscape, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-beetroot/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Beetroot light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Beetroot\", derived from the visible transparent beetroot root cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible rich admin system.\nCanvas: wide 16:9 high-resolution board, professional UI design-system presentation, clean grid, large readable section labels.\nRequired visible sections: Morphous Beetroot, Beetroot Root, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract the palette and interaction language only from rich beet-purple root skin, burgundy stems and veins, leaf-green tops, soil-brown root texture, pale beet-flesh highlights, and vegetable-garden earth neutrals. The board must visibly read as beetroot, not radish or turnip.\nTypography: English admin UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, empty/loading/error states, texture samples, simple icons, token chips.\nStyle: premium shadcn/tweakcn-style product UI for a rich admin system, precise dense layout, 8px radii, beet-paper light background, deep beet-purple primary actions, burgundy active states, leaf-green success/focus accents, soil-brown dividers, subtle root-ring and leaf-vein textures.\nConstraints: use only motif-derived colors plus near-neutrals from the motif; no unrelated blue/purple gradients, no neon colors, no generic stock UI kit, no radishes, no turnips, no bowls, no garden photography, no watermark, no random brand names, no misspelling of \"Morphous Beetroot\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-beetroot/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Beetroot dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Beetroot\". It must feel like the visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible beetroot root cutout.\nCanvas: wide 16:9 high-resolution board, professional UI design-system presentation, clean grid, large readable section labels.\nRequired visible sections: Morphous Beetroot, Beetroot Root, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the same beetroot system language: deepest beet-purple and root-shadow backgrounds, burgundy stems and veins, leaf-green success/focus controls, soil-brown borders and dividers, pale beet-flesh text/surfaces, root-ring and leaf-vein textures, 8px radii, dense shadcn/tweakcn admin grid. Must read as beetroot, not radish or turnip.\nTypography: English admin UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, 日本語 UI. Keep text short and legible.\nUI coverage: primary/secondary/destructive buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, sidebar navigation, top nav, dashboard metric cards, line chart, bar chart, empty/loading/error states, texture samples, simple icons, token chips.\nVisual details: dark beet-ink canvas, deep plum cards, beet-purple active states, burgundy chart highlights, leaf-green focus rings, soil-brown separators, pale beet-flesh foreground, subtle root rings and leaf-vein texture overlays, restrained contrast, crisp admin components.\nConstraints: use only motif-derived colors plus near-neutrals from the motif; no neon colors, no unrelated bright blues, no generic purple/blue gradients, no pure-black-only flat background, no radishes, no turnips, no bowls, no garden photography, no watermark, no random brand names, no misspelling of \"Morphous Beetroot\", no illegible tiny paragraphs."
+    }
+  ]
+}

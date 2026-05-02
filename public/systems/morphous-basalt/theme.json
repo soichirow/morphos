@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-basalt",
+    "name": "Basalt",
+    "motifName": "Basalt Column",
+    "motifCategory": "mineral",
+    "biome": "Lava Field",
+    "motif": "basalt column"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ash Surface",
+      "hex": "#f4f2ed",
+      "oklch": "oklch(0.961 0.007 88.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Basalt Black",
+      "hex": "#171717",
+      "oklch": "oklch(0.205 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Lichen Green",
+      "hex": "#7f9164",
+      "oklch": "oklch(0.630 0.068 126.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Column Grey",
+      "hex": "#3f4442",
+      "oklch": "oklch(0.381 0.007 170.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Mineral Line",
+      "hex": "#C4C7BD",
+      "oklch": "oklch(0.824 0.014 120.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Ember Fault",
+      "hex": "#b4533c",
+      "oklch": "oklch(0.560 0.132 34.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Lava Paper",
+      "hex": "#e7e5dc",
+      "oklch": "oklch(0.921 0.012 96.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Grey Lichen",
+      "hex": "#9aa285",
+      "oklch": "oklch(0.698 0.042 120.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Void Basalt",
+      "hex": "#101211",
+      "oklch": "oklch(0.180 0.004 164.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.007 88.6)",
+    "foreground": "oklch(0.205 0.000 89.9)",
+    "card": "oklch(0.921 0.012 96.4)",
+    "card-foreground": "oklch(0.205 0.000 89.9)",
+    "popover": "oklch(0.921 0.012 96.4)",
+    "popover-foreground": "oklch(0.205 0.000 89.9)",
+    "primary": "oklch(0.630 0.068 126.0)",
+    "primary-foreground": "oklch(0.961 0.007 88.6)",
+    "secondary": "oklch(0.937 0.010 93.6)",
+    "secondary-foreground": "oklch(0.180 0.004 164.6)",
+    "muted": "oklch(0.933 0.011 95.2)",
+    "muted-foreground": "oklch(0.180 0.004 164.6)",
+    "accent": "oklch(0.824 0.014 120.3)",
+    "accent-foreground": "oklch(0.205 0.000 89.9)",
+    "destructive": "oklch(0.630 0.068 126.0)",
+    "border": "oklch(0.842 0.022 112.6)",
+    "input": "oklch(0.842 0.022 112.6)",
+    "ring": "oklch(0.381 0.007 170.1)",
+    "chart-1": "oklch(0.630 0.068 126.0)",
+    "chart-2": "oklch(0.381 0.007 170.1)",
+    "chart-3": "oklch(0.824 0.014 120.3)",
+    "chart-4": "oklch(0.560 0.132 34.6)",
+    "chart-5": "oklch(0.180 0.004 164.6)",
+    "sidebar": "oklch(0.934 0.010 93.6)",
+    "sidebar-foreground": "oklch(0.205 0.000 89.9)",
+    "sidebar-primary": "oklch(0.630 0.068 126.0)",
+    "sidebar-primary-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-accent": "oklch(0.888 0.017 106.8)",
+    "sidebar-accent-foreground": "oklch(0.630 0.068 126.0)",
+    "sidebar-border": "oklch(0.842 0.022 112.6)",
+    "sidebar-ring": "oklch(0.381 0.007 170.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.205 0.000 89.9)",
+    "foreground": "oklch(0.961 0.007 88.6)",
+    "card": "oklch(0.189 0.004 164.6)",
+    "card-foreground": "oklch(0.961 0.007 88.6)",
+    "popover": "oklch(0.189 0.004 164.6)",
+    "popover-foreground": "oklch(0.961 0.007 88.6)",
+    "primary": "oklch(0.381 0.007 170.1)",
+    "primary-foreground": "oklch(0.205 0.000 89.9)",
+    "secondary": "oklch(0.311 0.013 131.6)",
+    "secondary-foreground": "oklch(0.961 0.007 88.6)",
+    "muted": "oklch(0.311 0.013 131.6)",
+    "muted-foreground": "oklch(0.845 0.022 112.6)",
+    "accent": "oklch(0.824 0.014 120.3)",
+    "accent-foreground": "oklch(0.205 0.000 89.9)",
+    "destructive": "oklch(0.630 0.068 126.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.381 0.007 170.1)",
+    "chart-1": "oklch(0.381 0.007 170.1)",
+    "chart-2": "oklch(0.630 0.068 126.0)",
+    "chart-3": "oklch(0.824 0.014 120.3)",
+    "chart-4": "oklch(0.560 0.132 34.6)",
+    "chart-5": "oklch(0.698 0.042 120.0)",
+    "sidebar": "oklch(0.194 0.003 145.5)",
+    "sidebar-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-primary": "oklch(0.381 0.007 170.1)",
+    "sidebar-primary-foreground": "oklch(0.205 0.000 89.9)",
+    "sidebar-accent": "oklch(0.311 0.013 131.6)",
+    "sidebar-accent-foreground": "oklch(0.961 0.007 88.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.381 0.007 170.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact data interfaces with Noto Sans JP guidance for Japanese labels, tabular numerals, and dense operational readouts.",
+  "layout": "Strict 8px grid, hexagonal column rhythm, low-radius panels, clear table hierarchy, and high-density dashboard composition.",
+  "tags": [
+    "basalt",
+    "mineral",
+    "lava-field",
+    "data-system",
+    "lichen-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-basalt/motif.png",
+    "board": "/systems/morphous-basalt/design-system-light.png",
+    "darkBoard": "/systems/morphous-basalt/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-basalt/theme.css",
+    "themeJson": "/systems/morphous-basalt/theme.json",
+    "promptsJson": "/systems/morphous-basalt/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Basalt motif",
+      "asset": "/systems/morphous-basalt/motif.png",
+      "prompt": "Use case: logo-brand\nAsset type: transparent PNG motif source for Morphous catalog theme bundle\nPrimary request: an isolated basalt column motif for a mineral design system named Basalt\nScene/backdrop: perfectly flat solid #ff00ff chroma-key background for background removal; no shadows, no gradients, no floor plane, no texture, no reflections\nSubject: a compact cluster of hexagonal black basalt columns, vertical volcanic stone prisms with fractured tops, subtle grey facets, tiny muted lichen green patches in cracks, strong architectural silhouette\nStyle: high-detail polished bitmap cutout, realistic mineral texture with crisp readable edges, centered composition with generous padding, no text, no watermark\nConstraints: do not use #ff00ff anywhere in the subject; keep the subject fully separated from the background; no cast shadow, no contact shadow, no border"
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-basalt/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution full design-system board for Morphous catalog, light mode\nPrimary request: Create a comprehensive design-system board for \"Basalt\", a mineral theme inspired by basalt columns in a lava field, with a strong data system feel.\nVisual identity: black basalt, charcoal facets, cool ash greys, pale volcanic highlights, muted lichen green accents, lava-field mineral texture, hexagonal column geometry, strong grid, dense analytical dashboards.\nCanvas: 16:9 landscape design board, clean editorial UI specification sheet, bright light mode, crisp large readable labels, no tiny illegible text, no watermark.\nRequired content areas: palette swatches with names, typography guidance for English and Japanese, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation/sidebar, dashboard KPI cards, line/bar charts, empty/error/loading states, spacing/radius/shadow tokens, texture sample, icon style, example data product screen.\nStyle details: precise modular grid, basalt-column dividers, angular but usable components, square-to-8px radii, quiet professional enterprise interface, high contrast but not harsh, consistent tokens.\nPalette values to visibly guide the board: Basalt Black #171717, Column Grey #3f4442, Ash Surface #f4f2ed, Lichen Green #7f9164, Mineral Line #c4c7bd, Ember Error #b4533c.\nAvoid: generic purple/blue gradients, one-note monochrome palette, stock landing page composition, decorative blob backgrounds, unreadable microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-basalt/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution full design-system board for Morphous catalog, dark mode\nPrimary request: Create the dark-mode companion design-system board for \"Basalt\", a mineral theme inspired by basalt columns in a lava field, with a strong data system feel. It must feel like the same system as the light board, translated to dark mode.\nVisual identity: black basalt columns, deep charcoal slabs, cool graphite panels, ash grey text, muted lichen green accents, volcanic mineral texture, hexagonal column geometry, strong grid, dense analytical dashboards.\nCanvas: 16:9 landscape design board, dark mode UI specification sheet, crisp large readable labels, no tiny illegible text, no watermark.\nRequired content areas: palette swatches with names, typography guidance for English and Japanese, buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation/sidebar, dashboard KPI cards, line/bar charts, empty/error/loading states, spacing/radius/shadow tokens, texture sample, icon style, example data product screen.\nStyle details: precise modular grid, basalt-column dividers, angular but usable components, square-to-8px radii, enterprise analytics interface, high-contrast data surfaces, consistent semantic tokens.\nPalette values to visibly guide the board: Void Basalt #101211, Panel Stone #1d201e, Column Grey #3f4442, Ash Text #e7e5dc, Lichen Green #91a36d, Mineral Line #5d665d, Ember Error #d06b50.\nAvoid: generic purple/blue gradients, one-note monochrome palette, stock landing page composition, decorative blob backgrounds, unreadable microtext."
+    }
+  ]
+}

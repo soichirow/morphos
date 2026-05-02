@@ -1,0 +1,188 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blue-admiral",
+    "name": "Morphous Blue Admiral",
+    "motifName": "Blue Admiral Butterfly",
+    "motifCategory": "insect",
+    "biome": "Rainforest edge",
+    "motif": "blue admiral wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Paper Neutral",
+      "hex": "#faf6ef",
+      "oklch": "oklch(0.974 0.010 81.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#0d0d0f",
+      "oklch": "oklch(0.160 0.004 285.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Electric Wing Blue",
+      "hex": "#1e58ff",
+      "oklch": "oklch(0.542 0.253 264.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Band Cyan",
+      "hex": "#4ccbff",
+      "oklch": "oklch(0.793 0.132 229.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green Reflection",
+      "hex": "#3fa36a",
+      "oklch": "oklch(0.642 0.127 155.2)"
+    },
+    {
+      "role": "Support",
+      "name": "Moss Green",
+      "hex": "#68ae30",
+      "oklch": "oklch(0.680 0.172 134.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Edge Spot Ivory",
+      "hex": "#f5f2e8",
+      "oklch": "oklch(0.961 0.014 93.0)"
+    },
+    {
+      "role": "Surface",
+      "name": "Rainforest Mist",
+      "hex": "#d9e2d2",
+      "oklch": "oklch(0.902 0.024 131.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wing Shadow Brown",
+      "hex": "#241c16",
+      "oklch": "oklch(0.234 0.017 58.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Blue Black Panel",
+      "hex": "#11191a",
+      "oklch": "oklch(0.206 0.012 205.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Scaled Charcoal",
+      "hex": "#2a3036",
+      "oklch": "oklch(0.306 0.014 248.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.974 0.010 81.8)",
+    "foreground": "oklch(0.160 0.004 285.9)",
+    "card": "oklch(0.902 0.024 131.2)",
+    "card-foreground": "oklch(0.160 0.004 285.9)",
+    "popover": "oklch(0.902 0.024 131.2)",
+    "popover-foreground": "oklch(0.160 0.004 285.9)",
+    "primary": "oklch(0.542 0.253 264.3)",
+    "primary-foreground": "oklch(0.974 0.010 81.8)",
+    "secondary": "oklch(0.931 0.016 118.1)",
+    "secondary-foreground": "oklch(0.234 0.017 58.7)",
+    "muted": "oklch(0.923 0.020 125.8)",
+    "muted-foreground": "oklch(0.234 0.017 58.7)",
+    "accent": "oklch(0.793 0.132 229.2)",
+    "accent-foreground": "oklch(0.160 0.004 285.9)",
+    "destructive": "oklch(0.542 0.253 264.3)",
+    "border": "oklch(0.703 0.015 145.4)",
+    "input": "oklch(0.703 0.015 145.4)",
+    "ring": "oklch(0.642 0.127 155.2)",
+    "chart-1": "oklch(0.542 0.253 264.3)",
+    "chart-2": "oklch(0.642 0.127 155.2)",
+    "chart-3": "oklch(0.793 0.132 229.2)",
+    "chart-4": "oklch(0.961 0.014 93.0)",
+    "chart-5": "oklch(0.234 0.017 58.7)",
+    "sidebar": "oklch(0.927 0.018 124.0)",
+    "sidebar-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-primary": "oklch(0.542 0.253 264.3)",
+    "sidebar-primary-foreground": "oklch(0.974 0.010 81.8)",
+    "sidebar-accent": "oklch(0.852 0.017 225.2)",
+    "sidebar-accent-foreground": "oklch(0.542 0.253 264.3)",
+    "sidebar-border": "oklch(0.703 0.015 145.4)",
+    "sidebar-ring": "oklch(0.642 0.127 155.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.160 0.004 285.9)",
+    "foreground": "oklch(0.974 0.010 81.8)",
+    "card": "oklch(0.209 0.010 52.9)",
+    "card-foreground": "oklch(0.974 0.010 81.8)",
+    "popover": "oklch(0.209 0.010 52.9)",
+    "popover-foreground": "oklch(0.974 0.010 81.8)",
+    "primary": "oklch(0.642 0.127 155.2)",
+    "primary-foreground": "oklch(0.160 0.004 285.9)",
+    "secondary": "oklch(0.248 0.010 53.0)",
+    "secondary-foreground": "oklch(0.974 0.010 81.8)",
+    "muted": "oklch(0.248 0.010 53.0)",
+    "muted-foreground": "oklch(0.695 0.002 145.6)",
+    "accent": "oklch(0.793 0.132 229.2)",
+    "accent-foreground": "oklch(0.160 0.004 285.9)",
+    "destructive": "oklch(0.542 0.253 264.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.642 0.127 155.2)",
+    "chart-1": "oklch(0.642 0.127 155.2)",
+    "chart-2": "oklch(0.542 0.253 264.3)",
+    "chart-3": "oklch(0.793 0.132 229.2)",
+    "chart-4": "oklch(0.961 0.014 93.0)",
+    "chart-5": "oklch(0.306 0.014 248.3)",
+    "sidebar": "oklch(0.195 0.008 48.3)",
+    "sidebar-foreground": "oklch(0.974 0.010 81.8)",
+    "sidebar-primary": "oklch(0.642 0.127 155.2)",
+    "sidebar-primary-foreground": "oklch(0.160 0.004 285.9)",
+    "sidebar-accent": "oklch(0.248 0.010 53.0)",
+    "sidebar-accent-foreground": "oklch(0.974 0.010 81.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.642 0.127 155.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for sharp product UI with Noto Sans JP guidance for Japanese labels, strong display hierarchy, compact body text, and clear numeric dashboards.",
+  "layout": "Precise 8px grids, 8px radii, black wing-vein dividers, blue-band active rails, pale edge-spot badges, dense dashboard panels, and restrained motif texture.",
+  "tags": [
+    "blue-admiral",
+    "butterfly",
+    "insect",
+    "rainforest-edge",
+    "blue-band",
+    "sharp-content",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blue-admiral/motif.png",
+    "board": "/systems/morphous-blue-admiral/design-system-light.png",
+    "darkBoard": "/systems/morphous-blue-admiral/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blue-admiral/theme.css",
+    "themeJson": "/systems/morphous-blue-admiral/theme.json",
+    "promptsJson": "/systems/morphous-blue-admiral/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Blue Admiral motif",
+      "asset": "/systems/morphous-blue-admiral/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only an isolated Blue Admiral butterfly (Kaniska canace inspired) wing/body motif for a design-system catalog, no environment, no props, no text.\nSubject: A complete Blue Admiral butterfly with dark black-brown wings, a vivid cool blue band across the wings, small pale edge spots, subtle leaf-green rainforest-edge reflected tones in the dark wing sheen, accurate butterfly anatomy, crisp antennae, slim body, natural wing-scale texture, and a clean recognizable silhouette.\nComposition/framing: centered complete cutout with generous padding; show both open wings, body, antennae, and wing edges without cropping.\nLighting/mood: clean studio light that preserves black wing structure, saturated blue band, pale spots, leaf-green undertone, and fine wing-scale texture.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no flowers, no leaves as objects, no landscape, no second insect, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-blue-admiral/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Blue Admiral\" / \"Blue Admiral Butterfly\", source reference for a shadcn/tweakcn theme.\nInput image: Use the visible transparent Blue Admiral butterfly motif as the source reference for palette, texture, contrast, spacing mood, and interaction language.\nCanvas: exact wide 16:9 board, 3840x2160 preferred, at least 2400px wide. Keep all labels large and readable.\nRequired visible sections: title, motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nStyle/medium: premium shadcn/tweakcn-style product design system board, precise grid, realistic UI mockup, work-focused SaaS interface language, all cards and controls using 8px radius.\nColor palette: use only motif-derived colors: blue admiral electric wing blue, blue-band cyan, deep black wing, warm black-brown wing shadow, pale edge spot ivory, rainforest leaf green reflection, muted moss green, and soft wing-paper neutral derived from pale spots. No unrelated colors.\nVisual language: black wing vein dividers, blue band active states, leaf-green success/support indicators, pale spot badges, dark scalloped wing-edge texture as subtle pattern, crisp borders and restrained shadows.\nTypography: show English product UI type guidance and Japanese typography examples; use short readable labels, not dense paragraphs.\nComponents to show: buttons, input, select, textarea, checkbox, radio, switch, tabs, badge, alert, card, table rows, command/search overlay, sidebar/top navigation, dashboard charts, empty/loading/error status states.\nConstraints: no generic purple gradients, no unrelated saturated colors, no random brands, no watermark, no tiny illegible token tables, no misspellings, no decorative landing-page hero."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-blue-admiral/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Blue Admiral\" / \"Blue Admiral Butterfly\". It must feel like the same system translated to dark mode, not a new theme.\nInput images: Use the visible transparent Blue Admiral butterfly motif and the visible light-mode design-system board as references. Preserve the same palette roles, component language, texture, spacing, and typography.\nCanvas: exact wide 16:9 board, 3840x2160 preferred, at least 2400px wide. Keep all labels large and readable.\nRequired visible sections: title, Dark Mode, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nStyle/medium: premium shadcn/tweakcn-style product design system board, precise grid, realistic UI mockup, work-focused SaaS interface language, all cards and controls using 8px radius.\nColor palette: use only motif-derived colors translated for dark mode: deepest wing black for background, warm black-brown and blue-black cards, electric wing blue primary, cyan blue-band highlights, pale edge-spot ivory text, leaf-green support/success, moss green muted surfaces, and restrained wing-paper neutrals.\nVisual language: dark wing vein dividers, blue band active states, leaf-green success/support indicators, pale spot badges, subtle scalloped wing-edge texture, crisp borders, restrained glow-free shadows, strong but not neon contrast.\nTypography: show English product UI type guidance and Japanese typography examples; use short readable labels, not dense paragraphs.\nComponents to show: buttons, input, select, textarea, checkbox, radio, switch, tabs, badge, alert, card, table rows, command/search overlay, sidebar/top navigation, dashboard charts, empty/loading/error status states.\nConstraints: no neon colors, no pure-black flat background unless nuanced by wing texture, no generic purple gradients, no unrelated saturated colors, no random brands, no watermark, no tiny illegible token tables, no misspellings, no decorative landing-page hero."
+    }
+  ]
+}

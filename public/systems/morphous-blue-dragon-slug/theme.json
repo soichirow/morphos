@@ -1,0 +1,171 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blue-dragon-slug",
+    "name": "Morphous Blue Dragon Sea Slug",
+    "motifName": "Blue Dragon Sea Slug",
+    "motifCategory": "mollusk",
+    "biome": "open ocean",
+    "motif": "blue dragon slug"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver White Body",
+      "hex": "#F6FBFF",
+      "oklch": "oklch(0.985 0.006 238)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Ocean Ink",
+      "hex": "#071A2B",
+      "oklch": "oklch(0.170 0.045 250)"
+    },
+    {
+      "role": "Primary",
+      "name": "Marine Blue",
+      "hex": "#1267D8",
+      "oklch": "oklch(0.565 0.205 257)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Midnight Blue",
+      "hex": "#073B75",
+      "oklch": "oklch(0.240 0.079 250)"
+    },
+    {
+      "role": "Accent",
+      "name": "Crisp Cyan",
+      "hex": "#24D8FF",
+      "oklch": "oklch(0.780 0.155 216)"
+    },
+    {
+      "role": "Success",
+      "name": "Sea Foam",
+      "hex": "#A7F3E4",
+      "oklch": "oklch(0.910 0.085 181)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cool Silver",
+      "hex": "#C9D8E6",
+      "oklch": "oklch(0.860 0.025 235)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist Current",
+      "hex": "#E6F0F7",
+      "oklch": "oklch(0.940 0.018 235)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.006 238)",
+    "foreground": "oklch(0.190 0.052 249)",
+    "card": "oklch(0.970 0.011 237)",
+    "card-foreground": "oklch(0.190 0.052 249)",
+    "popover": "oklch(0.985 0.006 238)",
+    "popover-foreground": "oklch(0.190 0.052 249)",
+    "primary": "oklch(0.565 0.205 257)",
+    "primary-foreground": "oklch(0.985 0.006 238)",
+    "secondary": "oklch(0.920 0.030 230)",
+    "secondary-foreground": "oklch(0.240 0.079 250)",
+    "muted": "oklch(0.910 0.017 235)",
+    "muted-foreground": "oklch(0.470 0.045 246)",
+    "accent": "oklch(0.910 0.085 181)",
+    "accent-foreground": "oklch(0.180 0.050 246)",
+    "destructive": "oklch(0.580 0.190 29)",
+    "border": "oklch(0.855 0.025 232)",
+    "input": "oklch(0.855 0.025 232)",
+    "ring": "oklch(0.780 0.155 216)",
+    "chart-1": "oklch(0.565 0.205 257)",
+    "chart-2": "oklch(0.780 0.155 216)",
+    "chart-3": "oklch(0.910 0.085 181)",
+    "chart-4": "oklch(0.780 0.020 235)",
+    "chart-5": "oklch(0.240 0.079 250)",
+    "sidebar": "oklch(0.240 0.079 250)",
+    "sidebar-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-primary": "oklch(0.565 0.205 257)",
+    "sidebar-primary-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-accent": "oklch(0.910 0.085 181)",
+    "sidebar-accent-foreground": "oklch(0.180 0.050 246)",
+    "sidebar-border": "oklch(1 0 0 / 14%)",
+    "sidebar-ring": "oklch(0.780 0.155 216)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.170 0.045 250)",
+    "foreground": "oklch(0.985 0.006 238)",
+    "card": "oklch(0.220 0.060 249)",
+    "card-foreground": "oklch(0.985 0.006 238)",
+    "popover": "oklch(0.220 0.060 249)",
+    "popover-foreground": "oklch(0.985 0.006 238)",
+    "primary": "oklch(0.780 0.155 216)",
+    "primary-foreground": "oklch(0.170 0.045 250)",
+    "secondary": "oklch(0.285 0.080 250)",
+    "secondary-foreground": "oklch(0.950 0.015 236)",
+    "muted": "oklch(0.285 0.050 248)",
+    "muted-foreground": "oklch(0.790 0.022 235)",
+    "accent": "oklch(0.910 0.085 181)",
+    "accent-foreground": "oklch(0.170 0.045 250)",
+    "destructive": "oklch(0.650 0.185 29)",
+    "border": "oklch(1 0 0 / 14%)",
+    "input": "oklch(1 0 0 / 18%)",
+    "ring": "oklch(0.780 0.155 216)",
+    "chart-1": "oklch(0.780 0.155 216)",
+    "chart-2": "oklch(0.565 0.205 257)",
+    "chart-3": "oklch(0.910 0.085 181)",
+    "chart-4": "oklch(0.780 0.020 235)",
+    "chart-5": "oklch(0.985 0.006 238)",
+    "sidebar": "oklch(0.150 0.040 250)",
+    "sidebar-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-primary": "oklch(0.780 0.155 216)",
+    "sidebar-primary-foreground": "oklch(0.170 0.045 250)",
+    "sidebar-accent": "oklch(0.285 0.080 250)",
+    "sidebar-accent-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-border": "oklch(1 0 0 / 14%)",
+    "sidebar-ring": "oklch(0.780 0.155 216)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp English product UI with Noto Sans JP guidance for compact operational labels, dashboard metrics, navigation, forms, and multilingual status surfaces.",
+  "layout": "Precise 8px grids, fin-like branching dividers, 8px-or-less radii, cyan focus rings, silver-white cards, dark-sea navigation, and scan-friendly dashboard density.",
+  "tags": [
+    "blue-dragon-sea-slug",
+    "mollusk",
+    "open-ocean",
+    "marine",
+    "silver-white",
+    "cyan",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blue-dragon-slug/motif.png",
+    "board": "/systems/morphous-blue-dragon-slug/design-system-light.png",
+    "darkBoard": "/systems/morphous-blue-dragon-slug/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blue-dragon-slug/theme.css",
+    "themeJson": "/systems/morphous-blue-dragon-slug/theme.json",
+    "promptsJson": "/systems/morphous-blue-dragon-slug/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Blue Dragon Sea Slug motif",
+      "asset": "/systems/morphous-blue-dragon-slug/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: transparent motif cutout source for a Morphous design-system catalog\nPrimary request: a single Blue Dragon Sea Slug (Glaucus atlanticus), isolated cutout pose, sharp identity-system feel\nSubject: elegant sea slug viewed from above at a slight angle, long tapered silver-white body, vivid marine-blue dorsal stripe, branching wing-like cerata with cyan tips and dark ocean-blue edges, crisp biological details, glossy but opaque surface, no extra animals\nStyle: high-resolution polished natural-history product cutout, clean detailed silhouette, strong graphic identity, realistic enough to recognize the species but slightly refined for a design-system mascot\nChroma key requirements: create the subject on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #ff00ff anywhere in the subject. No cast shadow, no contact shadow, no reflection, no watermark, no text."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-blue-dragon-slug/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution Morphous design-system board, light mode, target 3840x2160\nPrimary request: Create a complete light-mode design-system board for Blue Dragon Sea Slug, a sharp identity system inspired by Glaucus atlanticus in the open ocean.\nComposition: one clean 16:9 board with an editorial design-system layout, large readable labels, no watermark, no fake brand names. Use a pale silver-white canvas with structured sections and crisp marine blue geometry inspired by the sea slug's branching cerata.\nPalette requirements: visibly use marine blue #1267D8, deep ocean ink #071A2B, silver-white body #F6FBFF, cool silver #C9D8E6, sea foam #A7F3E4, crisp cyan #24D8FF, and midnight blue #073B75. Avoid generic blue-only monotony by balancing blue with silver/white panels, sea-foam accents, and dark ocean contrast.\nRequired board sections: palette swatches with hex labels; typography guidance for English and Japanese; navigation sidebar and top bar; dashboard metrics; line chart and bar chart; data table; form fields including input, select, textarea, checkbox, radio, switch; status badges and alert states; buttons in primary/secondary/destructive/ghost styles; tabs and command search; cards; spacing, radius, border, shadow tokens; icon style notes and subtle ocean texture samples.\nVisual motif integration: include a polished small blue dragon sea slug cutout/illustration and branching blue-silver fin shapes as recurring identity elements. Keep all text large and legible at gallery preview size. Use realistic UI labels such as Dashboard, Orders, Status, Search, Active, Pending, Error, Save, Cancel, Revenue, Conversion, Region, Date, Name. No random brand names, no lorem ipsum, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-blue-dragon-slug/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution Morphous design-system board, dark mode, target 3840x2160\nPrimary request: Create a complete dark-mode design-system board for Blue Dragon Sea Slug, a sharp identity system inspired by Glaucus atlanticus in the open ocean.\nComposition: one clean 16:9 board with a deep-ocean ink canvas, crisp silver-white cards, cyan focus rings, marine-blue navigation, and sea-foam success accents. Large readable labels, no watermark, no fake brand names. Same overall information architecture as a professional design-system board.\nPalette requirements: visibly use deep ocean ink #071A2B and midnight blue #073B75 as dominant dark surfaces; marine blue #1267D8 for primary actions; silver-white #F6FBFF and cool silver #C9D8E6 for typography and borders; sea foam #A7F3E4 and crisp cyan #24D8FF for highlights, chart lines, active states, and focus rings. Avoid generic blue-only monotony by balancing silver/white cards, cyan accents, and dark-sea contrast.\nRequired board sections: palette swatches with hex labels; typography guidance for English and Japanese; navigation sidebar and top bar; dashboard metrics; line chart and bar chart; data table; form fields including input, select, textarea, checkbox, radio, switch; status badges and alert states; buttons in primary/secondary/destructive/ghost styles; tabs and command search; cards; spacing, radius, border, shadow tokens; icon style notes and subtle ocean texture samples.\nVisual motif integration: include a polished small blue dragon sea slug cutout/illustration and branching blue-silver cerata shapes as recurring identity elements. Keep all text large and legible at gallery preview size. Use realistic UI labels such as Dashboard, Orders, Status, Search, Active, Pending, Error, Save, Cancel, Revenue, Conversion, Region, Date, Name. No random brand names, no lorem ipsum, no watermark."
+    }
+  ]
+}

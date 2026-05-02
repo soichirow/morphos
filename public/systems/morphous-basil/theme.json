@@ -1,0 +1,206 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-basil",
+    "name": "Morphous Basil",
+    "motifName": "Basil",
+    "motifCategory": "plant",
+    "biome": "kitchen garden",
+    "motif": "basil leaves"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stem Paper",
+      "hex": "#F6F7EA",
+      "oklch": "oklch(0.972 0.017 110.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Basil Ink",
+      "hex": "#1E2D1B",
+      "oklch": "oklch(0.278 0.038 140.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Leaf White",
+      "hex": "#FFFDF4",
+      "oklch": "oklch(0.993 0.012 96.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Basil Emerald",
+      "hex": "#2F7D32",
+      "oklch": "oklch(0.524 0.134 144.0)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Leaf Gloss",
+      "hex": "#3F9A45",
+      "oklch": "oklch(0.611 0.150 144.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "New Growth",
+      "hex": "#A7C957",
+      "oklch": "oklch(0.787 0.146 123.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Stem Cream",
+      "hex": "#DDE8B5",
+      "oklch": "oklch(0.910 0.068 117.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Stem Mist",
+      "hex": "#E8EDD7",
+      "oklch": "oklch(0.936 0.030 117.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Soil Tan",
+      "hex": "#B69A6C",
+      "oklch": "oklch(0.700 0.070 79.6)"
+    },
+    {
+      "role": "Input",
+      "name": "Soft Stem",
+      "hex": "#C9DDA7",
+      "oklch": "oklch(0.869 0.075 124.4)"
+    },
+    {
+      "role": "Ring",
+      "name": "Leaf Vein",
+      "hex": "#6DAA45",
+      "oklch": "oklch(0.674 0.148 134.8)"
+    },
+    {
+      "role": "Danger",
+      "name": "Root Umber",
+      "hex": "#8A4F2B",
+      "oklch": "oklch(0.490 0.094 50.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Soil Shadow",
+      "hex": "#3B2A1A",
+      "oklch": "oklch(0.301 0.037 64.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.972 0.017 110.3)",
+    "foreground": "oklch(0.278 0.038 140.4)",
+    "card": "oklch(0.993 0.012 96.4)",
+    "card-foreground": "oklch(0.278 0.038 140.4)",
+    "popover": "oklch(0.993 0.012 96.4)",
+    "popover-foreground": "oklch(0.278 0.038 140.4)",
+    "primary": "oklch(0.524 0.134 144.0)",
+    "primary-foreground": "oklch(0.972 0.017 110.3)",
+    "secondary": "oklch(0.983 0.013 102.0)",
+    "secondary-foreground": "oklch(0.301 0.037 64.0)",
+    "muted": "oklch(0.986 0.013 102.0)",
+    "muted-foreground": "oklch(0.301 0.037 64.0)",
+    "accent": "oklch(0.910 0.068 117.7)",
+    "accent-foreground": "oklch(0.278 0.038 140.4)",
+    "destructive": "oklch(0.524 0.134 144.0)",
+    "border": "oklch(0.973 0.017 106.7)",
+    "input": "oklch(0.973 0.017 106.7)",
+    "ring": "oklch(0.787 0.146 123.6)",
+    "chart-1": "oklch(0.524 0.134 144.0)",
+    "chart-2": "oklch(0.787 0.146 123.6)",
+    "chart-3": "oklch(0.910 0.068 117.7)",
+    "chart-4": "oklch(0.787 0.146 123.6)",
+    "chart-5": "oklch(0.301 0.037 64.0)",
+    "sidebar": "oklch(0.986 0.013 102.0)",
+    "sidebar-foreground": "oklch(0.278 0.038 140.4)",
+    "sidebar-primary": "oklch(0.524 0.134 144.0)",
+    "sidebar-primary-foreground": "oklch(0.972 0.017 110.3)",
+    "sidebar-accent": "oklch(0.938 0.024 127.6)",
+    "sidebar-accent-foreground": "oklch(0.524 0.134 144.0)",
+    "sidebar-border": "oklch(0.973 0.017 106.7)",
+    "sidebar-ring": "oklch(0.787 0.146 123.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.278 0.038 140.4)",
+    "foreground": "oklch(0.972 0.017 110.3)",
+    "card": "oklch(0.291 0.030 90.8)",
+    "card-foreground": "oklch(0.972 0.017 110.3)",
+    "popover": "oklch(0.291 0.030 90.8)",
+    "popover-foreground": "oklch(0.972 0.017 110.3)",
+    "primary": "oklch(0.787 0.146 123.6)",
+    "primary-foreground": "oklch(0.278 0.038 140.4)",
+    "secondary": "oklch(0.456 0.031 76.4)",
+    "secondary-foreground": "oklch(0.972 0.017 110.3)",
+    "muted": "oklch(0.456 0.031 76.4)",
+    "muted-foreground": "oklch(0.957 0.024 114.5)",
+    "accent": "oklch(0.910 0.068 117.7)",
+    "accent-foreground": "oklch(0.278 0.038 140.4)",
+    "destructive": "oklch(0.524 0.134 144.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.787 0.146 123.6)",
+    "chart-1": "oklch(0.787 0.146 123.6)",
+    "chart-2": "oklch(0.524 0.134 144.0)",
+    "chart-3": "oklch(0.910 0.068 117.7)",
+    "chart-4": "oklch(0.787 0.146 123.6)",
+    "chart-5": "oklch(0.936 0.030 117.4)",
+    "sidebar": "oklch(0.287 0.029 110.9)",
+    "sidebar-foreground": "oklch(0.972 0.017 110.3)",
+    "sidebar-primary": "oklch(0.787 0.146 123.6)",
+    "sidebar-primary-foreground": "oklch(0.278 0.038 140.4)",
+    "sidebar-accent": "oklch(0.456 0.031 76.4)",
+    "sidebar-accent-foreground": "oklch(0.972 0.017 110.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.787 0.146 123.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean English creator UI with tabular metrics, short garden and content labels, and Noto Sans JP guidance for Japanese notes, status, search, forms, and dashboard surfaces.",
+  "layout": "Fresh 8px creator grids, compact dashboards, leaf-vein texture samples, deep basil side navigation, soil-brown separators, 8px cards, restrained shadows, and scannable form, table, command, and status surfaces.",
+  "tags": [
+    "basil",
+    "plant",
+    "kitchen-garden",
+    "fresh-creator-system",
+    "emerald-green",
+    "soft-stem",
+    "soil-brown",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-basil/motif.png",
+    "board": "/systems/morphous-basil/design-system-light.png",
+    "darkBoard": "/systems/morphous-basil/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-basil/theme.css",
+    "themeJson": "/systems/morphous-basil/theme.json",
+    "promptsJson": "/systems/morphous-basil/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Basil motif",
+      "asset": "/systems/morphous-basil/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a basil plant motif for a design-system catalog, isolated as a single complete kitchen-garden botanical subject on a removable chroma-key background.\nSubject: Fresh basil leaves with accurate rounded oval leaf shapes, slightly cupped surfaces, visible branching veins, emerald green glossy highlights, softer yellow-green new growth, tender pale green square stems, and a small natural soil-brown stem base with a few attached fine roots and crumbs of garden soil. The identity must read clearly as culinary basil, not mint, spinach, sage, bay, or generic leaves.\nComposition/framing: centered complete cutout with generous padding; include the full cluster silhouette, multiple overlapping leaves, soft stems, and compact soil-brown base without cropping. Clean studio lighting that preserves natural leaf texture and stem detail. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no pot, no basket, no kitchen tools, no plate, no hand, no water drops, no landscape, no props, no text, no watermark, no second plant species."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-basil/design-system-light.png",
+      "sourceAsset": "/systems/morphous-basil/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Basil light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Basil\", derived from the basil motif generated earlier: fresh kitchen-garden basil leaves, emerald green leaf surfaces, soft pale stems, soil-brown base, and leaf-vein texture. This board is a source reference for implementing a shadcn/tweakcn-compatible fresh creator system.\nCanvas: exact wide 16:9 board, 3840x2160 target, high-resolution 4K-class design-system source image. Clean professional product UI design-system presentation. Use large readable labels and avoid dense tiny text.\nRequired visible sections: Morphous Basil, Basil Leaves, Palette, Type, Japanese Typography, Components, Navigation, Creator Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract colors and interaction language only from basil leaves, yellow-green new growth, pale soft stems, leaf veins, kitchen garden freshness, and soil brown at the stem base. The board must read as culinary basil, not mint, spinach, sage, bay leaf, or generic foliage.\nTypography: English creator-workflow UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual creator, recipe, garden note, content calendar, and metrics labels with tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, creator project tiles, garden note cards, content calendar metrics, dashboard metric cards, line chart, bar chart, donut chart, table rows, command search palette, sidebar and top navigation, filters, empty/loading/error states, progress, stepper, date picker, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: fresh creator system, precise 8px grid and 8px card radius, leafy white and pale stem surfaces, emerald primary actions, deep basil navigation, yellow-green active accents, soil-brown borders and shadows, subtle basil leaf-vein texture overlays, calm kitchen-garden utility, dense but scannable dashboards, polished shadcn/tweakcn component language.\nColor constraints: use motif-derived colors only: basil emerald greens, soft stem green, leaf-highlight yellow green, leaf-shadow deep green, soil brown, stem cream, and near-neutrals derived from leaf/stem highlights. No unrelated bright colors.\nConstraints: no generic purple or blue gradients, no neon colors, no one-note green wash, no beige-only palette, no mint identity, no spinach identity, no food photography collage, no random brand names, no watermark, no misspelling of \"Morphous Basil\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-basil/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-basil/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Basil dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Basil\" / \"Basil Leaves\". Translate the same light design-system language into dark mode; do not invent a new unrelated theme. Use the earlier basil motif and light board as continuity references.\nCanvas: exact wide 16:9 board, 3840x2160 target, high-resolution 4K-class design-system source image. Clean professional shadcn/tweakcn presentation for a fresh creator system. Keep labels large and legible.\nRequired visible sections: Morphous Basil, Basil Leaves, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Creator Dashboard / Data, Forms, Tables, Command / Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the basil-derived palette roles: emerald primary actions, deep basil leaf navigation, pale stem text highlights, yellow-green active accents, soil-brown separators, leaf-vein texture, and soft-stem forms. The board must read as culinary basil, not mint, spinach, sage, bay leaf, or generic green UI.\nTypography: English creator-workflow UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, 日本語 UI, 見出し, 本文, ラベル, 数値. Use concise bilingual creator, recipe, garden note, content calendar, and metrics labels with tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, creator cards, garden note cards, calendar metrics, dashboard data cards, line chart, bar chart, donut chart, sidebar navigation, top navigation, command search palette, filters, table rows, empty/loading/error states, progress, stepper, date picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep basil leaf charcoal background derived from leaf shadows, warm soil-dark panels, emerald active states, yellow-green chart highlights, pale stem foreground text, leaf-green focus rings and success chips, thin soil-brown separators, subtle basil leaf-vein texture overlays, crisp controls, restrained contrast, 8px card radius and 8px grid.\nColor constraints: use motif-derived colors only: deep basil green, emerald leaf, soft stem green, yellow-green leaf highlight, soil brown, stem cream, and near-neutrals derived from those colors. No unrelated bright colors.\nConstraints: no neon green, no generic black-and-green hacker UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no mint identity, no spinach identity, no random brand names, no watermark, no misspelling of \"Morphous Basil\", no tiny unreadable paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-blue-crab",
+    "name": "Morphous Blue Crab",
+    "motifName": "Blue Crab",
+    "motifCategory": "crustacean",
+    "biome": "Estuary",
+    "motif": "blue crab shell"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Foam White",
+      "hex": "#fbfcfa",
+      "oklch": "oklch(0.990 0.003 128.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Navy",
+      "hex": "#0e1b2b",
+      "oklch": "oklch(0.219 0.037 254.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shell Blue",
+      "hex": "#4f7fa6",
+      "oklch": "oklch(0.578 0.080 244.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Oxidized Teal",
+      "hex": "#5c8f8b",
+      "oklch": "oklch(0.613 0.055 189.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Claw Olive",
+      "hex": "#8a8f4c",
+      "oklch": "oklch(0.630 0.090 112.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Shell Edge Amber",
+      "hex": "#c8954a",
+      "oklch": "oklch(0.704 0.111 74.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Belly",
+      "hex": "#f5f2e8",
+      "oklch": "oklch(0.961 0.014 93.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Brine Mist",
+      "hex": "#e6eef2",
+      "oklch": "oklch(0.944 0.010 228.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Harbor",
+      "hex": "#18364d",
+      "oklch": "oklch(0.321 0.055 243.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.990 0.003 128.5)",
+    "foreground": "oklch(0.219 0.037 254.3)",
+    "card": "oklch(0.961 0.014 93.0)",
+    "card-foreground": "oklch(0.219 0.037 254.3)",
+    "popover": "oklch(0.961 0.014 93.0)",
+    "popover-foreground": "oklch(0.219 0.037 254.3)",
+    "primary": "oklch(0.578 0.080 244.3)",
+    "primary-foreground": "oklch(0.990 0.003 128.5)",
+    "secondary": "oklch(0.973 0.008 91.5)",
+    "secondary-foreground": "oklch(0.321 0.055 243.9)",
+    "muted": "oklch(0.969 0.011 95.2)",
+    "muted-foreground": "oklch(0.321 0.055 243.9)",
+    "accent": "oklch(0.630 0.090 112.5)",
+    "accent-foreground": "oklch(0.219 0.037 254.3)",
+    "destructive": "oklch(0.578 0.080 244.3)",
+    "border": "oklch(0.956 0.007 115.7)",
+    "input": "oklch(0.956 0.007 115.7)",
+    "ring": "oklch(0.613 0.055 189.6)",
+    "chart-1": "oklch(0.578 0.080 244.3)",
+    "chart-2": "oklch(0.613 0.055 189.6)",
+    "chart-3": "oklch(0.630 0.090 112.5)",
+    "chart-4": "oklch(0.704 0.111 74.8)",
+    "chart-5": "oklch(0.321 0.055 243.9)",
+    "sidebar": "oklch(0.970 0.010 93.6)",
+    "sidebar-foreground": "oklch(0.219 0.037 254.3)",
+    "sidebar-primary": "oklch(0.578 0.080 244.3)",
+    "sidebar-primary-foreground": "oklch(0.990 0.003 128.5)",
+    "sidebar-accent": "oklch(0.915 0.006 137.8)",
+    "sidebar-accent-foreground": "oklch(0.578 0.080 244.3)",
+    "sidebar-border": "oklch(0.956 0.007 115.7)",
+    "sidebar-ring": "oklch(0.613 0.055 189.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.219 0.037 254.3)",
+    "foreground": "oklch(0.990 0.003 128.5)",
+    "card": "oklch(0.288 0.048 245.6)",
+    "card-foreground": "oklch(0.990 0.003 128.5)",
+    "popover": "oklch(0.288 0.048 245.6)",
+    "popover-foreground": "oklch(0.990 0.003 128.5)",
+    "primary": "oklch(0.613 0.055 189.6)",
+    "primary-foreground": "oklch(0.219 0.037 254.3)",
+    "secondary": "oklch(0.469 0.043 241.6)",
+    "secondary-foreground": "oklch(0.990 0.003 128.5)",
+    "muted": "oklch(0.469 0.043 241.6)",
+    "muted-foreground": "oklch(0.970 0.004 197.1)",
+    "accent": "oklch(0.630 0.090 112.5)",
+    "accent-foreground": "oklch(0.219 0.037 254.3)",
+    "destructive": "oklch(0.578 0.080 244.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.613 0.055 189.6)",
+    "chart-1": "oklch(0.613 0.055 189.6)",
+    "chart-2": "oklch(0.578 0.080 244.3)",
+    "chart-3": "oklch(0.630 0.090 112.5)",
+    "chart-4": "oklch(0.704 0.111 74.8)",
+    "chart-5": "oklch(0.944 0.010 228.9)",
+    "sidebar": "oklch(0.267 0.046 249.9)",
+    "sidebar-foreground": "oklch(0.990 0.003 128.5)",
+    "sidebar-primary": "oklch(0.613 0.055 189.6)",
+    "sidebar-primary-foreground": "oklch(0.219 0.037 254.3)",
+    "sidebar-accent": "oklch(0.469 0.043 241.6)",
+    "sidebar-accent-foreground": "oklch(0.990 0.003 128.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.613 0.055 189.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English operations UI with Noto Sans JP guidance for harbor dashboards, status labels, dense tables, and multilingual command/search surfaces.",
+  "layout": "8px operational grids, 8px-or-less radii, shell-ridge dividers, compact dashboards, clear fleet tables, and low coastal shadows for repeated scanning.",
+  "tags": [
+    "blue-crab",
+    "crustacean",
+    "estuary",
+    "coastal-operations",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-blue-crab/motif.png",
+    "board": "/systems/morphous-blue-crab/design-system-light.png",
+    "darkBoard": "/systems/morphous-blue-crab/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-blue-crab/theme.css",
+    "themeJson": "/systems/morphous-blue-crab/theme.json",
+    "promptsJson": "/systems/morphous-blue-crab/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent blue crab motif source",
+      "asset": "/systems/morphous-blue-crab/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source for a catalog design system\nPrimary request: Create only an isolated blue crab shell motif, full subject, no environment, no props, no text.\nSubject: A blue crab viewed slightly from above with a sculptural blue-green shell, olive-tinted claws, cream underside highlights, cobalt edge markings, subtle speckling, hard shell ridges, pointed lateral spines, and realistic crustacean anatomy. The shell and claws should be the visual source for a coastal operations design system.\nComposition/framing: centered complete cutout with generous padding; do not crop the shell, claws, legs, or lateral spines.\nLighting/mood: clean studio light that preserves glossy shell ridges, mineral blue surface, olive claw detail, and cream highlights without casting a floor shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no sand, no water, no table, no decorative background, no second crab, no seafood plating, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-blue-crab/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Blue Crab\", derived from the visible isolated blue crab motif with blue-green shell, olive claws, cream underside, cobalt edges, speckled ridges, and coastal estuary character.\nCanvas: exact wide 16:9 board composition, designed as a 3840x2160 source image. Keep all text and UI labels large, crisp, and readable at gallery preview scale.\nRequired visible sections: Morphous Blue Crab, Blue Crab, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nDesign mood: coastal operations system for harbor, estuary, fleet, permits, inspections, sensor telemetry, and work queues. Quiet, utilitarian, precise, scan-friendly, operational product UI.\nPalette: derive colors from the motif only: blue shell, deep harbor blue, oxidized teal, olive claw, cream belly, brine mist, sand neutral, shell edge amber, ink navy. Use restrained contrast and avoid unrelated saturated colors.\nTypography: show English product UI guidance and Japanese typography guidance. Include short examples such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, 港湾業務, 監視, 状態, 検索.\nUI coverage: buttons with icon placeholders, inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, table rows, command palette/search field, sidebar navigation, top navigation, dashboard metric cards, timeline, line/bar charts, status chips, empty/loading/error states.\nTokens: show semantic token rows for background, foreground, primary, secondary, accent, muted, border, ring, chart colors, sidebar tokens. Include visible radius samples capped at 2px, 4px, 6px, 8px; spacing samples on an 8px grid; shadow samples that are low and coastal.\nTexture: include subtle blue crab shell speckling, carapace ridge lines, claw-olive swatches, cream shell underside surfaces, and thin shell-edge dividers. Keep cards radius 8px or less.\nLayout style: premium shadcn/tweakcn-compatible board, precise grid, professional design-system documentation, no nested cards, no oversized marketing hero, realistic app components on a calm light background.\nText constraints: use short readable labels; no long paragraphs; no random brand names; spell \"Morphous Blue Crab\" correctly.\nAvoid: purple gradients, neon, decorative blobs, stock beach photography, seafood restaurant styling, cartoon crab mascots, cropped motif, illegible microtext, watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-blue-crab/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible \"Morphous Blue Crab\" design-system board. It must feel like the same coastal operations system translated to dark mode, not a new theme.\nReference use: Preserve the visible blue crab motif and the visible light-board structure: blue shell palette, olive claws, cream underside, shell speckle texture, carapace ridge dividers, harbor operations navigation, dashboard/data examples, forms, tables, command/search, status, tokens, radius, spacing, shadows, and generated assets.\nCanvas: exact wide 16:9 board composition, designed as a 3840x2160 source image. Keep all text and UI labels large, crisp, and readable at gallery preview scale.\nRequired visible sections: Morphous Blue Crab, Blue Crab, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nDesign mood: coastal operations system for harbor, estuary, fleet, permits, inspections, sensor telemetry, and work queues. Quiet, utilitarian, precise, scan-friendly, operational product UI.\nDark palette: background from ink navy and deep harbor blue; foreground from brine mist and cream belly; primary from blue shell; secondary from oxidized teal; accent from olive claw; warning/accent from shell edge amber. Keep contrast accessible and restrained.\nTypography: show English product UI guidance and Japanese typography guidance. Include short examples such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, 港湾業務, 監視, 状態, 検索.\nUI coverage: buttons with icon placeholders, inputs, select, textarea, checkbox, radio, switch, segmented tabs, badges, alerts, cards, table rows, command palette/search field, sidebar navigation, top navigation, dashboard metric cards, timeline, line/bar charts, status chips, empty/loading/error states.\nTokens: show semantic token rows for background, foreground, primary, secondary, accent, muted, border, ring, chart colors, sidebar tokens. Include visible radius samples capped at 2px, 4px, 6px, 8px; spacing samples on an 8px grid; shadow samples that are low and coastal.\nTexture: include subtle blue shell speckling, carapace ridge lines, olive claw swatches, cream shell underside surfaces, and thin shell-edge dividers. Keep cards radius 8px or less.\nLayout style: premium shadcn/tweakcn-compatible board, precise grid, professional design-system documentation, no nested cards, no oversized marketing hero, realistic app components on a dark estuary operations surface.\nText constraints: use short readable labels; no long paragraphs; no random brand names; spell \"Morphous Blue Crab\" correctly.\nAvoid: purple gradients, neon overload, pure black-only background, decorative blobs, stock beach photography, seafood restaurant styling, cartoon crab mascots, cropped motif, illegible microtext, watermark."
+    }
+  ]
+}

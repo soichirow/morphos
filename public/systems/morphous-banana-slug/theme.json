@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-banana-slug",
+    "name": "Morphous Banana Slug",
+    "motifName": "Banana Slug",
+    "motifCategory": "mollusk",
+    "biome": "Temperate Rainforest",
+    "motif": "banana slug"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cream",
+      "hex": "#FAF8F2",
+      "oklch": "oklch(0.979 0.008 91.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Forest Brown",
+      "hex": "#4A3728",
+      "oklch": "oklch(0.354 0.037 59.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Slug Yellow",
+      "hex": "#E6C22B",
+      "oklch": "oklch(0.822 0.158 94.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Green",
+      "hex": "#6A8F3A",
+      "oklch": "oklch(0.603 0.121 129.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Fern Green",
+      "hex": "#8BBE6A",
+      "oklch": "oklch(0.746 0.126 134.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bark Brown",
+      "hex": "#7A5E3E",
+      "oklch": "oklch(0.502 0.059 69.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soil Brown",
+      "hex": "#A68B6A",
+      "oklch": "oklch(0.653 0.057 72.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Cream Highlight",
+      "hex": "#FFF8D8",
+      "oklch": "oklch(0.976 0.046 94.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Wet Bark",
+      "hex": "#5F4D3A",
+      "oklch": "oklch(0.433 0.038 68.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.948 0.034 94.0)",
+    "foreground": "oklch(0.255 0.030 61.0)",
+    "card": "oklch(0.976 0.046 94.0)",
+    "card-foreground": "oklch(0.255 0.030 61.0)",
+    "popover": "oklch(0.976 0.046 94.0)",
+    "popover-foreground": "oklch(0.255 0.030 61.0)",
+    "primary": "oklch(0.819 0.159 88.0)",
+    "primary-foreground": "oklch(0.177 0.018 58.0)",
+    "secondary": "oklch(0.823 0.044 80.0)",
+    "secondary-foreground": "oklch(0.255 0.030 61.0)",
+    "muted": "oklch(0.892 0.030 84.0)",
+    "muted-foreground": "oklch(0.467 0.040 75.0)",
+    "accent": "oklch(0.699 0.071 121.0)",
+    "accent-foreground": "oklch(0.177 0.018 58.0)",
+    "destructive": "oklch(0.610 0.180 29.0)",
+    "border": "oklch(0.760 0.036 78.0)",
+    "input": "oklch(0.760 0.036 78.0)",
+    "ring": "oklch(0.819 0.159 88.0)",
+    "chart-1": "oklch(0.819 0.159 88.0)",
+    "chart-2": "oklch(0.545 0.075 121.0)",
+    "chart-3": "oklch(0.699 0.071 121.0)",
+    "chart-4": "oklch(0.667 0.041 76.0)",
+    "chart-5": "oklch(0.255 0.030 61.0)",
+    "sidebar": "oklch(0.905 0.032 88.0)",
+    "sidebar-foreground": "oklch(0.255 0.030 61.0)",
+    "sidebar-primary": "oklch(0.819 0.159 88.0)",
+    "sidebar-primary-foreground": "oklch(0.177 0.018 58.0)",
+    "sidebar-accent": "oklch(0.823 0.044 80.0)",
+    "sidebar-accent-foreground": "oklch(0.255 0.030 61.0)",
+    "sidebar-border": "oklch(0.760 0.036 78.0)",
+    "sidebar-ring": "oklch(0.819 0.159 88.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.177 0.018 58.0)",
+    "foreground": "oklch(0.948 0.034 94.0)",
+    "card": "oklch(0.230 0.026 62.0)",
+    "card-foreground": "oklch(0.948 0.034 94.0)",
+    "popover": "oklch(0.230 0.026 62.0)",
+    "popover-foreground": "oklch(0.948 0.034 94.0)",
+    "primary": "oklch(0.819 0.159 88.0)",
+    "primary-foreground": "oklch(0.177 0.018 58.0)",
+    "secondary": "oklch(0.353 0.052 118.0)",
+    "secondary-foreground": "oklch(0.948 0.034 94.0)",
+    "muted": "oklch(0.300 0.026 70.0)",
+    "muted-foreground": "oklch(0.760 0.036 78.0)",
+    "accent": "oklch(0.699 0.071 121.0)",
+    "accent-foreground": "oklch(0.177 0.018 58.0)",
+    "destructive": "oklch(0.704 0.191 22.2)",
+    "border": "oklch(0.948 0.034 94.0 / 14%)",
+    "input": "oklch(0.948 0.034 94.0 / 18%)",
+    "ring": "oklch(0.819 0.159 88.0)",
+    "chart-1": "oklch(0.819 0.159 88.0)",
+    "chart-2": "oklch(0.699 0.071 121.0)",
+    "chart-3": "oklch(0.545 0.075 121.0)",
+    "chart-4": "oklch(0.823 0.044 80.0)",
+    "chart-5": "oklch(0.667 0.041 76.0)",
+    "sidebar": "oklch(0.145 0.014 58.0)",
+    "sidebar-foreground": "oklch(0.948 0.034 94.0)",
+    "sidebar-primary": "oklch(0.819 0.159 88.0)",
+    "sidebar-primary-foreground": "oklch(0.177 0.018 58.0)",
+    "sidebar-accent": "oklch(0.300 0.026 70.0)",
+    "sidebar-accent-foreground": "oklch(0.948 0.034 94.0)",
+    "sidebar-border": "oklch(0.948 0.034 94.0 / 14%)",
+    "sidebar-ring": "oklch(0.819 0.159 88.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact product UI with Noto Sans JP guidance for Japanese labels, generous line height, readable dashboard numerals, and calm ecological annotation.",
+  "layout": "Dense 8px-grid dashboard layouts with low-radius cards, bark-fine borders, soft damp-surface shadows, moss status rhythm, and slug-yellow emphasis used for decisive actions.",
+  "tags": [
+    "banana-slug",
+    "mollusk",
+    "temperate-rainforest",
+    "forest-floor",
+    "yellow",
+    "moss",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-banana-slug/motif.png",
+    "board": "/systems/morphous-banana-slug/design-system-light.png",
+    "darkBoard": "/systems/morphous-banana-slug/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-banana-slug/theme.css",
+    "themeJson": "/systems/morphous-banana-slug/theme.json",
+    "promptsJson": "/systems/morphous-banana-slug/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "banana-slug-motif",
+      "label": "Transparent Banana Slug Motif",
+      "asset": "/systems/morphous-banana-slug/motif.png",
+      "prompt": "Create an isolated Pacific banana slug on a perfectly flat removable chroma-key background for transparent cutout processing. Show one realistic-but-polished elongated yellow slug with subtle olive speckles, darker sensory tentacles, wet skin sheen, and gentle anatomical accuracy. Center it in a clean three-quarter side profile with generous padding and crisp edges. Avoid shadows, text, logos, watermarks, extra animals, and any use of the key color in the subject."
+    },
+    {
+      "id": "banana-slug-light-board",
+      "label": "Light Design System Board",
+      "asset": "/systems/morphous-banana-slug/design-system-light.png",
+      "prompt": "Create a 16:9 light-mode design system board titled Banana Slug, derived from a banana slug on a temperate rainforest floor. Use banana-yellow body accents, forest-floor brown, moss green, damp bark neutrals, cream highlights, muted lichen gray, and restrained wet-skin gloss. Include readable palette swatches, English and Japanese typography guidance, navigation, dashboard metric cards, line and bar charts, data table, form controls, buttons, tabs, badges, alerts, search field, spacing, radius, shadow tokens, texture samples, and a small motif placement. Keep the board crisp, organized, shadcn-like, and free of watermarks or random brand names."
+    },
+    {
+      "id": "banana-slug-dark-board",
+      "label": "Dark Design System Board",
+      "asset": "/systems/morphous-banana-slug/design-system-dark.png",
+      "prompt": "Create a 16:9 dark-mode design system board titled Banana Slug, paired with the light system and based on the same banana slug motif. Use deep forest-floor brown and charcoal bark surfaces, luminous banana-yellow primary accents, moss green status and secondary elements, damp bark neutrals, cream text highlights, lichen gray dividers, and subtle wet-skin sheen. Include readable palette swatches, English and Japanese typography guidance, navigation, dashboard metric cards, charts, table, forms, buttons, tabs, badges, alerts, search, tokens, texture samples, and motif placement. Avoid generic blue or purple gradients, one-note yellow, watermarks, and random brand names."
+    }
+  ]
+}

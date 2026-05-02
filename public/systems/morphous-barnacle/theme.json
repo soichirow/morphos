@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-barnacle",
+    "name": "Morphous Barnacle",
+    "motifName": "Barnacle",
+    "motifCategory": "marine",
+    "biome": "Rocky Intertidal",
+    "motif": "barnacle cluster"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Ivory",
+      "hex": "#F5F2EA",
+      "oklch": "oklch(0.961 0.011 89.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Chalk White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Oyster Beige",
+      "hex": "#E6DEC9",
+      "oklch": "oklch(0.901 0.029 89.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Weathered Taupe",
+      "hex": "#C3B8A6",
+      "oklch": "oklch(0.787 0.028 80.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Algae Olive",
+      "hex": "#7A8B52",
+      "oklch": "oklch(0.609 0.082 122.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Rock Grey",
+      "hex": "#A7ACB2",
+      "oklch": "oklch(0.742 0.010 252.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Slate Aperture",
+      "hex": "#3E454C",
+      "oklch": "oklch(0.387 0.015 248.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidepool Blue Grey",
+      "hex": "#7C8A94",
+      "oklch": "oklch(0.625 0.022 238.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Crevice Ink",
+      "hex": "#1E2226",
+      "oklch": "oklch(0.250 0.010 248.2)"
+    },
+    {
+      "role": "Neutral",
+      "name": "Mineral Stone",
+      "hex": "#DAD6CA",
+      "oklch": "oklch(0.876 0.017 91.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.011 89.7)",
+    "foreground": "oklch(0.387 0.015 248.2)",
+    "card": "oklch(0.985 0.003 106.4)",
+    "card-foreground": "oklch(0.387 0.015 248.2)",
+    "popover": "oklch(0.985 0.003 106.4)",
+    "popover-foreground": "oklch(0.387 0.015 248.2)",
+    "primary": "oklch(0.609 0.082 122.4)",
+    "primary-foreground": "oklch(0.961 0.011 89.7)",
+    "secondary": "oklch(0.976 0.007 97.4)",
+    "secondary-foreground": "oklch(0.250 0.010 248.2)",
+    "muted": "oklch(0.979 0.005 95.1)",
+    "muted-foreground": "oklch(0.250 0.010 248.2)",
+    "accent": "oklch(0.625 0.022 238.9)",
+    "accent-foreground": "oklch(0.387 0.015 248.2)",
+    "destructive": "oklch(0.609 0.082 122.4)",
+    "border": "oklch(0.899 0.003 228.8)",
+    "input": "oklch(0.899 0.003 228.8)",
+    "ring": "oklch(0.901 0.029 89.6)",
+    "chart-1": "oklch(0.609 0.082 122.4)",
+    "chart-2": "oklch(0.901 0.029 89.6)",
+    "chart-3": "oklch(0.625 0.022 238.9)",
+    "chart-4": "oklch(0.742 0.010 252.8)",
+    "chart-5": "oklch(0.250 0.010 248.2)",
+    "sidebar": "oklch(0.976 0.005 95.1)",
+    "sidebar-foreground": "oklch(0.387 0.015 248.2)",
+    "sidebar-primary": "oklch(0.609 0.082 122.4)",
+    "sidebar-primary-foreground": "oklch(0.961 0.011 89.7)",
+    "sidebar-accent": "oklch(0.942 0.012 116.8)",
+    "sidebar-accent-foreground": "oklch(0.609 0.082 122.4)",
+    "sidebar-border": "oklch(0.899 0.003 228.8)",
+    "sidebar-ring": "oklch(0.901 0.029 89.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.387 0.015 248.2)",
+    "foreground": "oklch(0.961 0.011 89.7)",
+    "card": "oklch(0.298 0.011 248.2)",
+    "card-foreground": "oklch(0.961 0.011 89.7)",
+    "popover": "oklch(0.298 0.011 248.2)",
+    "popover-foreground": "oklch(0.961 0.011 89.7)",
+    "primary": "oklch(0.901 0.029 89.6)",
+    "primary-foreground": "oklch(0.387 0.015 248.2)",
+    "secondary": "oklch(0.370 0.010 254.0)",
+    "secondary-foreground": "oklch(0.961 0.011 89.7)",
+    "muted": "oklch(0.370 0.010 254.0)",
+    "muted-foreground": "oklch(0.866 0.003 128.5)",
+    "accent": "oklch(0.625 0.022 238.9)",
+    "accent-foreground": "oklch(0.387 0.015 248.2)",
+    "destructive": "oklch(0.609 0.082 122.4)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.901 0.029 89.6)",
+    "chart-1": "oklch(0.901 0.029 89.6)",
+    "chart-2": "oklch(0.609 0.082 122.4)",
+    "chart-3": "oklch(0.625 0.022 238.9)",
+    "chart-4": "oklch(0.742 0.010 252.8)",
+    "chart-5": "oklch(0.742 0.010 252.8)",
+    "sidebar": "oklch(0.326 0.013 248.2)",
+    "sidebar-foreground": "oklch(0.961 0.011 89.7)",
+    "sidebar-primary": "oklch(0.901 0.029 89.6)",
+    "sidebar-primary-foreground": "oklch(0.387 0.015 248.2)",
+    "sidebar-accent": "oklch(0.370 0.010 254.0)",
+    "sidebar-accent-foreground": "oklch(0.961 0.011 89.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.901 0.029 89.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, body text, labels, and metrics.",
+  "layout": "Anchored 8px product grids, compact clustered cards, shell-ridge dividers, low-radius controls, mineral surfaces, and resilient dashboard hierarchy.",
+  "tags": [
+    "barnacle",
+    "marine",
+    "rocky-intertidal",
+    "clustered",
+    "anchored",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-barnacle/motif.png",
+    "board": "/systems/morphous-barnacle/design-system-light.png",
+    "darkBoard": "/systems/morphous-barnacle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-barnacle/theme.css",
+    "themeJson": "/systems/morphous-barnacle/theme.json",
+    "promptsJson": "/systems/morphous-barnacle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent barnacle motif source",
+      "asset": "/systems/morphous-barnacle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a barnacle cluster attached to a small piece of grey intertidal rock, isolated full subject, no environment, no props, no text.\nSubject: A dense cluster of acorn barnacles with ivory and chalk-white conical shell plates, subtle beige ridges, dark slate openings, weathered grey rock base, and small muted olive algae traces tucked around the shells. Accurate rocky intertidal structure: anchored, clustered, irregular, tactile, mineral and shell textures.\nComposition/framing: centered complete cutout with generous padding; do not crop any barnacle shells, rock edges, or algae traces. Slight three-quarter top view so the openings and layered shell rims are visible.\nLighting/mood: clean studio light that preserves natural shell ridges, rough rock pores, algae detail, and calm marine neutrality.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no ocean background, no water, no sand, no shells besides the barnacles, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-barnacle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Barnacle\" derived from the visible transparent barnacle cluster cutout.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the ivory barnacle shell plates, grey intertidal rock, dark shell openings, muted olive algae traces, chalk ridges, mineral pores, and anchored clustered structure in the visible cutout. The board is the reference for coding a shadcn/tweakcn-compatible theme, so token roles and component examples must be clear and readable.\nCanvas: wide 16:9 design-system board, target 3840 x 2160, high-resolution 4K-class source board.\nResolution and legibility: use large readable labels, generous spacing, clean grid, and avoid dense tiny token tables. Every section label must remain legible in a gallery preview.\nRequired visible sections: Morphous Barnacle, Barnacle, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nTypography: include English and Japanese examples; labels such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, 見出し, 本文. Show multilingual product UI guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius samples, border samples, shadow samples, texture swatches, small icon buttons.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, utilitarian product interface, 8px card radius, anchored component system, tactile shell-ridge dividers, mineral paper surfaces, rock-pore texture, clustered modular cards.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: shell ivory, chalk white, oyster beige, wet grey rock, slate aperture, algae olive, tidepool blue-grey, weathered taupe, deep crevice ink. Keep the system calm, coastal, and work-focused.\nText: use short readable UI labels only; no long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no stock marketing layout, no watermark, no random brand names, no misspelling of \"Morphous Barnacle\", no tiny illegible text."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-barnacle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Barnacle design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent barnacle motif and the visible light-mode Morphous Barnacle board as references. Preserve the ivory shell, chalk white, oyster beige, wet rock grey, slate aperture, algae olive, tidepool blue-grey, weathered taupe, and deep crevice ink palette roles. Preserve the anchored component language, clustered modular card rhythm, shell-ridge texture, mineral paper surfaces, Japanese typography, and shadcn/tweakcn component coverage. The dark design-system board is the reference for coding future dark-mode tokens, so state roles and component states must be clear.\nCanvas: wide 16:9 design-system board, target 3840 x 2160, high-resolution 4K-class source board.\nResolution and legibility: use large readable labels, generous spacing, clean grid, and avoid dense tiny token tables. Every section label must remain legible in a gallery preview.\nRequired visible sections: Morphous Barnacle, Barnacle, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nVisual details: dark background derived from deep crevice ink and wet rock grey, card surfaces from slate aperture and tidepool blue-grey, primary accents from shell ivory and oyster beige, secondary accents from algae olive, text from chalk white and mineral stone, restrained coastal contrast, subtle rock-pore and shell-ridge overlays, crisp shadcn-style cards and controls.\nTypography: include English and Japanese examples; labels such as Geist, Noto Sans JP, Heading, Body, Label, Metrics, 見出し, 本文.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing scale, radius samples, border samples, shadow samples, texture swatches, small icon buttons.\nText: use short readable UI labels only; no long paragraphs.\nConstraints: no neon colors, no generic purple/blue gradients, no flat pure-black-only background, no unrelated saturated colors, no stock marketing layout, no watermark, no random brand names, no misspelling of \"Morphous Barnacle\", no tiny illegible text."
+    }
+  ]
+}

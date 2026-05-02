@@ -1,0 +1,154 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-blue-dragon-slug",
+  "name": "Morphous Blue Dragon Sea Slug",
+  "motifName": "Blue Dragon Sea Slug",
+  "motifCategory": "mollusk",
+  "biome": "open ocean",
+  "motif": "blue dragon slug",
+  "description": "A sharp shadcn/tweakcn-compatible identity system derived from the blue dragon sea slug: marine-blue primary controls, silver-white body surfaces, sea-foam success accents, crisp cyan focus states, and deep-ocean ink dark mode for precise open-ocean dashboards.",
+  "typography": "Geist for crisp English product UI with Noto Sans JP guidance for compact operational labels, dashboard metrics, navigation, forms, and multilingual status surfaces.",
+  "layout": "Precise 8px grids, fin-like branching dividers, 8px-or-less radii, cyan focus rings, silver-white cards, dark-sea navigation, and scan-friendly dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "blue-dragon-sea-slug",
+    "mollusk",
+    "open-ocean",
+    "marine",
+    "silver-white",
+    "cyan",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silver White Body",
+      "hex": "#F6FBFF",
+      "oklch": "oklch(0.985 0.006 238)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Ocean Ink",
+      "hex": "#071A2B",
+      "oklch": "oklch(0.170 0.045 250)"
+    },
+    {
+      "role": "Primary",
+      "name": "Marine Blue",
+      "hex": "#1267D8",
+      "oklch": "oklch(0.565 0.205 257)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Midnight Blue",
+      "hex": "#073B75",
+      "oklch": "oklch(0.240 0.079 250)"
+    },
+    {
+      "role": "Accent",
+      "name": "Crisp Cyan",
+      "hex": "#24D8FF",
+      "oklch": "oklch(0.780 0.155 216)"
+    },
+    {
+      "role": "Success",
+      "name": "Sea Foam",
+      "hex": "#A7F3E4",
+      "oklch": "oklch(0.910 0.085 181)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cool Silver",
+      "hex": "#C9D8E6",
+      "oklch": "oklch(0.860 0.025 235)"
+    },
+    {
+      "role": "Muted",
+      "name": "Mist Current",
+      "hex": "#E6F0F7",
+      "oklch": "oklch(0.940 0.018 235)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.985 0.006 238)",
+    "foreground": "oklch(0.190 0.052 249)",
+    "card": "oklch(0.970 0.011 237)",
+    "card-foreground": "oklch(0.190 0.052 249)",
+    "popover": "oklch(0.985 0.006 238)",
+    "popover-foreground": "oklch(0.190 0.052 249)",
+    "primary": "oklch(0.565 0.205 257)",
+    "primary-foreground": "oklch(0.985 0.006 238)",
+    "secondary": "oklch(0.920 0.030 230)",
+    "secondary-foreground": "oklch(0.240 0.079 250)",
+    "muted": "oklch(0.910 0.017 235)",
+    "muted-foreground": "oklch(0.470 0.045 246)",
+    "accent": "oklch(0.910 0.085 181)",
+    "accent-foreground": "oklch(0.180 0.050 246)",
+    "destructive": "oklch(0.580 0.190 29)",
+    "border": "oklch(0.855 0.025 232)",
+    "input": "oklch(0.855 0.025 232)",
+    "ring": "oklch(0.780 0.155 216)",
+    "chart-1": "oklch(0.565 0.205 257)",
+    "chart-2": "oklch(0.780 0.155 216)",
+    "chart-3": "oklch(0.910 0.085 181)",
+    "chart-4": "oklch(0.780 0.020 235)",
+    "chart-5": "oklch(0.240 0.079 250)",
+    "sidebar": "oklch(0.240 0.079 250)",
+    "sidebar-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-primary": "oklch(0.565 0.205 257)",
+    "sidebar-primary-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-accent": "oklch(0.910 0.085 181)",
+    "sidebar-accent-foreground": "oklch(0.180 0.050 246)",
+    "sidebar-border": "oklch(1 0 0 / 14%)",
+    "sidebar-ring": "oklch(0.780 0.155 216)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.170 0.045 250)",
+    "foreground": "oklch(0.985 0.006 238)",
+    "card": "oklch(0.220 0.060 249)",
+    "card-foreground": "oklch(0.985 0.006 238)",
+    "popover": "oklch(0.220 0.060 249)",
+    "popover-foreground": "oklch(0.985 0.006 238)",
+    "primary": "oklch(0.780 0.155 216)",
+    "primary-foreground": "oklch(0.170 0.045 250)",
+    "secondary": "oklch(0.285 0.080 250)",
+    "secondary-foreground": "oklch(0.950 0.015 236)",
+    "muted": "oklch(0.285 0.050 248)",
+    "muted-foreground": "oklch(0.790 0.022 235)",
+    "accent": "oklch(0.910 0.085 181)",
+    "accent-foreground": "oklch(0.170 0.045 250)",
+    "destructive": "oklch(0.650 0.185 29)",
+    "border": "oklch(1 0 0 / 14%)",
+    "input": "oklch(1 0 0 / 18%)",
+    "ring": "oklch(0.780 0.155 216)",
+    "chart-1": "oklch(0.780 0.155 216)",
+    "chart-2": "oklch(0.565 0.205 257)",
+    "chart-3": "oklch(0.910 0.085 181)",
+    "chart-4": "oklch(0.780 0.020 235)",
+    "chart-5": "oklch(0.985 0.006 238)",
+    "sidebar": "oklch(0.150 0.040 250)",
+    "sidebar-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-primary": "oklch(0.780 0.155 216)",
+    "sidebar-primary-foreground": "oklch(0.170 0.045 250)",
+    "sidebar-accent": "oklch(0.285 0.080 250)",
+    "sidebar-accent-foreground": "oklch(0.985 0.006 238)",
+    "sidebar-border": "oklch(1 0 0 / 14%)",
+    "sidebar-ring": "oklch(0.780 0.155 216)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-beluga",
+    "name": "Morphous Beluga",
+    "motifName": "Beluga Whale",
+    "motifCategory": "mammal",
+    "biome": "Arctic Sea",
+    "motif": "beluga profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Beluga White",
+      "hex": "#f7fafd",
+      "oklch": "oklch(0.984 0.005 247.9)"
+    },
+    {
+      "role": "Ink",
+      "name": "Slate Ink",
+      "hex": "#1f2a37",
+      "oklch": "oklch(0.281 0.029 253.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clinical Signal",
+      "hex": "#2aa7c9",
+      "oklch": "oklch(0.678 0.114 221.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ice Blue Shadow",
+      "hex": "#e6f1f8",
+      "oklch": "oklch(0.952 0.015 235.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Arctic Cyan",
+      "hex": "#8fdff2",
+      "oklch": "oklch(0.859 0.083 214.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Highlight",
+      "hex": "#ffffff",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Soft Mist",
+      "hex": "#f0f4f8",
+      "oklch": "oklch(0.965 0.007 247.9)"
+    },
+    {
+      "role": "Edge",
+      "name": "Soft Silver",
+      "hex": "#c7d3dc",
+      "oklch": "oklch(0.860 0.018 240.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Polar Water",
+      "hex": "#0a2a3a",
+      "oklch": "oklch(0.270 0.047 234.3)"
+    },
+    {
+      "role": "Calm",
+      "name": "Sea Glass",
+      "hex": "#d7efef",
+      "oklch": "oklch(0.935 0.025 196.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.005 247.9)",
+    "foreground": "oklch(0.281 0.029 253.0)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.281 0.029 253.0)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.281 0.029 253.0)",
+    "primary": "oklch(0.678 0.114 221.1)",
+    "primary-foreground": "oklch(0.984 0.005 247.9)",
+    "secondary": "oklch(0.994 0.002 247.8)",
+    "secondary-foreground": "oklch(0.270 0.047 234.3)",
+    "muted": "oklch(0.996 0.001 197.1)",
+    "muted-foreground": "oklch(0.270 0.047 234.3)",
+    "accent": "oklch(0.859 0.083 214.4)",
+    "accent-foreground": "oklch(0.281 0.029 253.0)",
+    "destructive": "oklch(0.678 0.114 221.1)",
+    "border": "oklch(0.988 0.002 247.8)",
+    "input": "oklch(0.988 0.002 247.8)",
+    "ring": "oklch(0.952 0.015 235.4)",
+    "chart-1": "oklch(0.678 0.114 221.1)",
+    "chart-2": "oklch(0.952 0.015 235.4)",
+    "chart-3": "oklch(0.859 0.083 214.4)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.270 0.047 234.3)",
+    "sidebar": "oklch(0.994 0.002 247.8)",
+    "sidebar-foreground": "oklch(0.281 0.029 253.0)",
+    "sidebar-primary": "oklch(0.678 0.114 221.1)",
+    "sidebar-primary-foreground": "oklch(0.984 0.005 247.9)",
+    "sidebar-accent": "oklch(0.957 0.017 219.7)",
+    "sidebar-accent-foreground": "oklch(0.678 0.114 221.1)",
+    "sidebar-border": "oklch(0.988 0.002 247.8)",
+    "sidebar-ring": "oklch(0.952 0.015 235.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.281 0.029 253.0)",
+    "foreground": "oklch(0.984 0.005 247.9)",
+    "card": "oklch(0.273 0.042 237.3)",
+    "card-foreground": "oklch(0.984 0.005 247.9)",
+    "popover": "oklch(0.273 0.042 237.3)",
+    "popover-foreground": "oklch(0.984 0.005 247.9)",
+    "primary": "oklch(0.952 0.015 235.4)",
+    "primary-foreground": "oklch(0.281 0.029 253.0)",
+    "secondary": "oklch(0.439 0.038 233.3)",
+    "secondary-foreground": "oklch(0.984 0.005 247.9)",
+    "muted": "oklch(0.439 0.038 233.3)",
+    "muted-foreground": "oklch(0.975 0.006 255.5)",
+    "accent": "oklch(0.859 0.083 214.4)",
+    "accent-foreground": "oklch(0.281 0.029 253.0)",
+    "destructive": "oklch(0.678 0.114 221.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.952 0.015 235.4)",
+    "chart-1": "oklch(0.952 0.015 235.4)",
+    "chart-2": "oklch(0.678 0.114 221.1)",
+    "chart-3": "oklch(0.859 0.083 214.4)",
+    "chart-4": "oklch(1.000 0.000 89.9)",
+    "chart-5": "oklch(0.965 0.007 247.9)",
+    "sidebar": "oklch(0.274 0.038 239.3)",
+    "sidebar-foreground": "oklch(0.984 0.005 247.9)",
+    "sidebar-primary": "oklch(0.952 0.015 235.4)",
+    "sidebar-primary-foreground": "oklch(0.281 0.029 253.0)",
+    "sidebar-accent": "oklch(0.439 0.038 233.3)",
+    "sidebar-accent-foreground": "oklch(0.984 0.005 247.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.952 0.015 235.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for calm clinical product UI with Noto Sans JP guidance for Japanese headings, body, labels, and numerals.",
+  "layout": "Rounded clinical panels, disciplined 8px radii, soft arctic dividers, generous form spacing, and dashboard patterns tuned for healthcare workflows.",
+  "tags": [
+    "beluga",
+    "whale",
+    "mammal",
+    "arctic",
+    "healthcare",
+    "clean",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-beluga/motif.png",
+    "board": "/systems/morphous-beluga/design-system-light.png",
+    "darkBoard": "/systems/morphous-beluga/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-beluga/theme.css",
+    "themeJson": "/systems/morphous-beluga/theme.json",
+    "promptsJson": "/systems/morphous-beluga/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent beluga whale motif source",
+      "asset": "/systems/morphous-beluga/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a beluga whale profile motif, isolated full subject, no environment, no props, no text.\nSubject: A single accurate beluga whale in calm side profile, rounded melon forehead, small dark eye, soft smiling mouth line, subtle pectoral flipper, smooth white skin with faint ice-blue shadowing and gentle pearlescent highlights. Clean healthcare system mood, serene and precise.\nComposition/framing: centered complete cutout with generous padding; do not crop the whale nose, tail, back, belly, or flippers. Keep the body fully separated from the background.\nLighting/mood: clean studio light that preserves white skin detail, soft arctic sea coolness, clinical calm, no cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no ocean scene, no ice floes, no bubbles, no second whale, no cartoon mascot, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-beluga/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Beluga\" derived from the visible transparent beluga whale motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the beluga motif: white skin, soft ice-blue shadow, rounded melon profile, arctic sea calm, and clean healthcare system mood. The board must visibly respect these motif colors and the beluga profile.\nCanvas: exact wide 16:9, target 3840x2160 high-resolution source board.\nResolution and legibility: 4K-class source board with large readable labels; avoid dense tiny text. Make all section titles and token names legible in gallery preview.\nRequired visible sections: Morphous Beluga title, motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance for healthcare product UI; use calm, clear labels and no long paragraphs.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, healthcare metric cards, line chart, bar chart, small donut chart, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, realistic UI mockup, precise grid, 8px card radius, rounded but disciplined controls inspired by beluga anatomy, soft clinical surfaces, subtle arctic-water dividers, pearl highlights, calm accessible contrast.\nColor palette: use only motif-derived colors and near-neutrals: beluga white, ice blue shadow, arctic cyan, slate ink, deep polar water, soft mist, pearl highlight, muted sea glass, gentle clinical signal.\nText: short readable UI labels; include English and Japanese guidance labels such as \"English UI\", \"日本語UI\", \"Noto Sans JP\", \"Patient intake\", \"Vitals\", \"Care plan\".\nConstraints: no unrelated bright colors, no generic purple gradients, no noisy ocean scene, no random brand logos, no watermark, no misspelling of \"Morphous Beluga\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-beluga/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a separate dark-mode version of the visible Morphous Beluga design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the visible transparent beluga motif and the visible light-mode Morphous Beluga board as references. Preserve the white beluga profile, soft ice-blue shadows, arctic sea calm, healthcare UI intent, rounded-but-disciplined controls, Japanese typography guidance, and shadcn/tweakcn component coverage.\nCanvas: exact wide 16:9, target 3840x2160 high-resolution source board.\nResolution and legibility: 4K-class source board with large readable labels; avoid dense tiny text. Make section titles, palette names, token labels, and component labels legible in gallery preview.\nRequired visible sections: Morphous Beluga, Dark Mode, motif story, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage, Generated Assets.\nVisual details: deep polar water background, slate ink panels, ice-white text, beluga white surfaces, ice-blue focus rings, arctic cyan primary accents, sea-glass muted panels, pearl highlights, subtle water-ripple texture, crisp accessible card borders, calm healthcare data dashboard.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search, sidebar navigation, healthcare metric cards, line chart, bar chart, small donut chart, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance, using short readable labels such as \"English UI\", \"日本語UI\", \"Vitals\", \"Care plan\", \"Patient intake\".\nConstraints: no neon overload, no generic purple gradients, no pure-black-only flat background, no unrelated saturated colors, no noisy ocean scene, no random brand logos, no watermark, no misspelling of \"Morphous Beluga\"."
+    }
+  ]
+}

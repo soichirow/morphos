@@ -1,0 +1,201 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bison",
+    "name": "Morphous Bison",
+    "motifName": "Bison Head",
+    "motifCategory": "mammal",
+    "biome": "tallgrass prairie",
+    "motif": "bison head"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Warm Bone",
+      "hex": "#F6F3EC",
+      "oklch": "oklch(0.965 0.010 87.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Muzzle",
+      "hex": "#262724",
+      "oklch": "oklch(0.271 0.006 121.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Bison Brown",
+      "hex": "#4A2E1F",
+      "oklch": "oklch(0.331 0.048 48.7)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Deep Wool",
+      "hex": "#5B3A1E",
+      "oklch": "oklch(0.381 0.063 59.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Prairie Gold",
+      "hex": "#C9972B",
+      "oklch": "oklch(0.706 0.132 81.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tallgrass Sage",
+      "hex": "#6E7F5E",
+      "oklch": "oklch(0.573 0.053 130.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Horn Ivory",
+      "hex": "#EDE7DC",
+      "oklch": "oklch(0.930 0.016 82.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Prairie Sand",
+      "hex": "#C8B18A",
+      "oklch": "oklch(0.770 0.059 80.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Near Black",
+      "hex": "#101010",
+      "oklch": "oklch(0.173 0.000 89.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Umber Soil",
+      "hex": "#6A4F3A",
+      "oklch": "oklch(0.451 0.049 59.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Tallgrass Green",
+      "hex": "#80AA7A",
+      "oklch": "oklch(0.695 0.082 141.5)"
+    },
+    {
+      "role": "Warning",
+      "name": "Sunlit Gold",
+      "hex": "#E0A34E",
+      "oklch": "oklch(0.758 0.124 72.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Prairie Rust",
+      "hex": "#B26A2E",
+      "oklch": "oklch(0.593 0.118 57.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.010 87.5)",
+    "foreground": "oklch(0.271 0.006 121.8)",
+    "card": "oklch(0.930 0.016 82.8)",
+    "card-foreground": "oklch(0.271 0.006 121.8)",
+    "popover": "oklch(0.930 0.016 82.8)",
+    "popover-foreground": "oklch(0.271 0.006 121.8)",
+    "primary": "oklch(0.331 0.048 48.7)",
+    "primary-foreground": "oklch(0.965 0.010 87.5)",
+    "secondary": "oklch(0.945 0.013 82.4)",
+    "secondary-foreground": "oklch(0.173 0.000 89.9)",
+    "muted": "oklch(0.939 0.015 80.7)",
+    "muted-foreground": "oklch(0.173 0.000 89.9)",
+    "accent": "oklch(0.573 0.053 130.1)",
+    "accent-foreground": "oklch(0.271 0.006 121.8)",
+    "destructive": "oklch(0.331 0.048 48.7)",
+    "border": "oklch(0.874 0.032 82.8)",
+    "input": "oklch(0.874 0.032 82.8)",
+    "ring": "oklch(0.706 0.132 81.9)",
+    "chart-1": "oklch(0.331 0.048 48.7)",
+    "chart-2": "oklch(0.706 0.132 81.9)",
+    "chart-3": "oklch(0.573 0.053 130.1)",
+    "chart-4": "oklch(0.573 0.053 130.1)",
+    "chart-5": "oklch(0.173 0.000 89.9)",
+    "sidebar": "oklch(0.941 0.014 84.6)",
+    "sidebar-foreground": "oklch(0.271 0.006 121.8)",
+    "sidebar-primary": "oklch(0.331 0.048 48.7)",
+    "sidebar-primary-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-accent": "oklch(0.864 0.019 78.2)",
+    "sidebar-accent-foreground": "oklch(0.331 0.048 48.7)",
+    "sidebar-border": "oklch(0.874 0.032 82.8)",
+    "sidebar-ring": "oklch(0.706 0.132 81.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.271 0.006 121.8)",
+    "foreground": "oklch(0.965 0.010 87.5)",
+    "card": "oklch(0.208 0.002 145.5)",
+    "card-foreground": "oklch(0.965 0.010 87.5)",
+    "popover": "oklch(0.208 0.002 145.5)",
+    "popover-foreground": "oklch(0.965 0.010 87.5)",
+    "primary": "oklch(0.706 0.132 81.9)",
+    "primary-foreground": "oklch(0.271 0.006 121.8)",
+    "secondary": "oklch(0.324 0.015 79.6)",
+    "secondary-foreground": "oklch(0.965 0.010 87.5)",
+    "muted": "oklch(0.324 0.015 79.6)",
+    "muted-foreground": "oklch(0.877 0.031 81.7)",
+    "accent": "oklch(0.573 0.053 130.1)",
+    "accent-foreground": "oklch(0.271 0.006 121.8)",
+    "destructive": "oklch(0.331 0.048 48.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.706 0.132 81.9)",
+    "chart-1": "oklch(0.706 0.132 81.9)",
+    "chart-2": "oklch(0.331 0.048 48.7)",
+    "chart-3": "oklch(0.573 0.053 130.1)",
+    "chart-4": "oklch(0.573 0.053 130.1)",
+    "chart-5": "oklch(0.770 0.059 80.7)",
+    "sidebar": "oklch(0.226 0.002 106.6)",
+    "sidebar-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-primary": "oklch(0.706 0.132 81.9)",
+    "sidebar-primary-foreground": "oklch(0.271 0.006 121.8)",
+    "sidebar-accent": "oklch(0.324 0.015 79.6)",
+    "sidebar-accent-foreground": "oklch(0.965 0.010 87.5)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.706 0.132 81.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Sturdy English enterprise UI with Noto Sans JP / Japanese Gothic guidance for headings, body text, labels, numerals, audit trails, dense admin tables, and Japanese operations workflows.",
+  "layout": "8px enterprise grids, compact operations tables, grounded sidebar navigation, bison-wool texture accents, tallgrass prairie rule lines, restrained shadows, and 8px card radius.",
+  "tags": [
+    "bison",
+    "mammal",
+    "tallgrass-prairie",
+    "enterprise",
+    "operations",
+    "deep-brown",
+    "prairie-gold",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bison/motif.png",
+    "board": "/systems/morphous-bison/design-system-light.png",
+    "darkBoard": "/systems/morphous-bison/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bison/theme.css",
+    "themeJson": "/systems/morphous-bison/theme.json",
+    "promptsJson": "/systems/morphous-bison/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bison head motif",
+      "asset": "/systems/morphous-bison/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a bison head motif, isolated full subject, no environment, no props, no text.\nSubject: A powerful American bison head, front three-quarter view, deep brown woolly forehead and beard, sturdy curved horns, broad muzzle, prairie gold highlights on the fur tips, natural realistic texture, dignified enterprise-system emblem quality without becoming a logo.\nComposition/framing: centered complete head cutout with generous padding; do not crop horns, beard, or muzzle.\nLighting/mood: clean studio light that preserves deep brown wool, horn texture, and prairie-gold warmth.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no body, no landscape, no grass, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-bison/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bison light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Bison\", derived from an American bison head motif. This board is a source reference for implementing a shadcn/tweakcn-compatible sturdy enterprise system.\nReference motif: powerful bison head, deep brown woolly forehead and beard, broad muzzle, sturdy curved horn shapes, prairie gold fur highlights, tallgrass prairie context, grounded resilient enterprise mood.\nCanvas: exact 16:9 high-resolution board, target 3840 x 2160, crisp readable labels, precise enterprise UI grid.\nRequired visible sections: Morphous Bison, Bison Head, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage, Generated Assets.\nPalette direction: deep brown wool, prairie gold, horn ivory, tallgrass sage, soil umber, charcoal muzzle, warm bone surfaces, wheat neutrals, and restrained near-neutrals derived from the bison motif.\nTypography: English enterprise UI guidance with Japanese typography guidance; use a sturdy grotesk or humanist sans and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, numerals, dense admin tables, audit trails, and operations dashboards. Include short Japanese labels such as 承認, 検索, 状態, レポート.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, dashboard metric cards, line chart, bar chart, stacked status chart, operations table, approval table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple enterprise icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, wool texture swatches, prairie grain texture, focus states, hover states, disabled states, and component density notes.\nStyle: sturdy enterprise product design system, warm bone background, deep brown primary actions, prairie gold focus and highlights, sage status accents, horn ivory cards, soil-umber borders, subtle bison wool texture, tallgrass prairie rule lines, restrained shadows, 8px card radius.\nLayout: one polished design board with clearly separated modules, not a marketing landing page; large readable headings and labels; include a small bison motif cutout as source asset reference.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Bison\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-bison/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bison dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Bison\". It must feel like the same sturdy enterprise system translated to dark mode, not a new theme, and it must remain derived from the bison head motif.\nReference motif: powerful American bison head, deep brown woolly forehead and beard, broad muzzle, sturdy curved horns, prairie gold fur highlights, tallgrass prairie context, grounded resilient enterprise mood.\nReference light-board system details to preserve: deep brown primary controls, prairie gold highlights and focus rings, horn ivory elevated surfaces, tallgrass sage status accents, soil umber borders, charcoal muzzle depth, warm bone typography contrast, enterprise dashboard/data/forms/table/search/status/token coverage, English and Japanese typography guidance.\nCanvas: exact 16:9 high-resolution board, target 3840 x 2160, crisp readable labels, precise enterprise UI grid.\nRequired visible sections: Morphous Bison, Dark Mode, Bison Head, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage, Generated Assets.\nTypography: English enterprise UI guidance with Japanese typography guidance; use a sturdy grotesk or humanist sans and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, numerals, dense admin tables, audit trails, and operations dashboards. Include short Japanese labels such as 承認, 検索, 状態, レポート.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, dashboard metric cards, line chart, bar chart, stacked status chart, operations table, approval table, command palette, search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple enterprise icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, wool texture swatches, prairie grain texture, focus states, hover states, disabled states, and component density notes.\nVisual details: dark background derived from charcoal muzzle and deep wool brown, elevated panels in warm dark umber, bone and horn-ivory foreground text, prairie gold primary actions, sage success/status accents, soil-umber borders, subtle bison wool texture overlays, crisp shadcn-style cards and controls, restrained shadows, 8px card radius.\nLayout: one polished design board with clearly separated modules, not a marketing landing page; large readable headings and labels; include a small bison motif cutout as source asset reference.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Bison\", no tiny illegible paragraphs."
+    }
+  ]
+}

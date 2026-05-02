@@ -1,0 +1,109 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 295,
+  "slug": "morphous-blue-admiral",
+  "name": "Morphous Blue Admiral",
+  "motifName": "Blue Admiral Butterfly",
+  "motifCategory": "insect",
+  "biome": "Rainforest edge",
+  "motif": "blue admiral wing",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Blue Admiral light and dark design-system boards: black wing structure, electric blue command states, cyan band highlights, leaf-green support signals, pale edge-spot surfaces, and crisp content-first UI density.",
+  "typography": "Geist for sharp product UI with Noto Sans JP guidance for Japanese labels, strong display hierarchy, compact body text, and clear numeric dashboards.",
+  "layout": "Precise 8px grids, 8px radii, black wing-vein dividers, blue-band active rails, pale edge-spot badges, dense dashboard panels, and restrained motif texture.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "blue-admiral",
+    "butterfly",
+    "insect",
+    "rainforest-edge",
+    "blue-band",
+    "sharp-content",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing Paper Neutral",
+      "hex": "#faf6ef"
+    },
+    {
+      "role": "Ink",
+      "name": "Wing Black",
+      "hex": "#0d0d0f"
+    },
+    {
+      "role": "Primary",
+      "name": "Electric Wing Blue",
+      "hex": "#1e58ff"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Band Cyan",
+      "hex": "#4ccbff"
+    },
+    {
+      "role": "Secondary",
+      "name": "Leaf Green Reflection",
+      "hex": "#3fa36a"
+    },
+    {
+      "role": "Support",
+      "name": "Moss Green",
+      "hex": "#68BE3D"
+    },
+    {
+      "role": "Signal",
+      "name": "Edge Spot Ivory",
+      "hex": "#f5f2e8"
+    },
+    {
+      "role": "Surface",
+      "name": "Rainforest Mist",
+      "hex": "#d9e2d2"
+    },
+    {
+      "role": "Shadow",
+      "name": "Wing Shadow Brown",
+      "hex": "#241c16"
+    },
+    {
+      "role": "Depth",
+      "name": "Blue Black Panel",
+      "hex": "#11191a"
+    },
+    {
+      "role": "Muted",
+      "name": "Scaled Charcoal",
+      "hex": "#2a3036"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

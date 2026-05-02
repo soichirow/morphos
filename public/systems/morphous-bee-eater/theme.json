@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bee-eater",
+    "name": "Morphous Bee Eater",
+    "motifName": "Bee Eater",
+    "motifCategory": "bird",
+    "biome": "Riverbank",
+    "motif": "bee eater plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "River Mist",
+      "hex": "#eef5e8",
+      "oklch": "oklch(0.961 0.019 130.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm Shell",
+      "hex": "#fffaf0",
+      "oklch": "oklch(0.986 0.014 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Mask Ink",
+      "hex": "#1f2721",
+      "oklch": "oklch(0.263 0.016 152.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Emerald Wing",
+      "hex": "#2f8f5b",
+      "oklch": "oklch(0.581 0.120 155.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sunlit Yellow",
+      "hex": "#f2c94c",
+      "oklch": "oklch(0.850 0.146 90.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Turquoise Flight",
+      "hex": "#1aa6b7",
+      "oklch": "oklch(0.665 0.110 208.2)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Chestnut Crown",
+      "hex": "#a4572a",
+      "oklch": "oklch(0.540 0.117 48.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Reed Green",
+      "hex": "#9bb27f",
+      "oklch": "oklch(0.733 0.075 127.9)"
+    },
+    {
+      "role": "Border",
+      "name": "River Clay",
+      "hex": "#d8c7a6",
+      "oklch": "oklch(0.835 0.048 83.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Berry Red",
+      "hex": "#d64545",
+      "oklch": "oklch(0.597 0.182 24.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.961 0.019 130.2)",
+    "foreground": "oklch(0.263 0.016 152.8)",
+    "card": "oklch(0.986 0.014 84.6)",
+    "card-foreground": "oklch(0.263 0.016 152.8)",
+    "popover": "oklch(0.986 0.014 84.6)",
+    "popover-foreground": "oklch(0.263 0.016 152.8)",
+    "primary": "oklch(0.581 0.120 155.6)",
+    "primary-foreground": "oklch(0.961 0.019 130.2)",
+    "secondary": "oklch(0.976 0.014 106.7)",
+    "secondary-foreground": "oklch(0.986 0.014 84.6)",
+    "muted": "oklch(0.980 0.015 102.5)",
+    "muted-foreground": "oklch(0.986 0.014 84.6)",
+    "accent": "oklch(0.665 0.110 208.2)",
+    "accent-foreground": "oklch(0.263 0.016 152.8)",
+    "destructive": "oklch(0.581 0.120 155.6)",
+    "border": "oklch(0.896 0.034 116.3)",
+    "input": "oklch(0.896 0.034 116.3)",
+    "ring": "oklch(0.850 0.146 90.5)",
+    "chart-1": "oklch(0.581 0.120 155.6)",
+    "chart-2": "oklch(0.850 0.146 90.5)",
+    "chart-3": "oklch(0.665 0.110 208.2)",
+    "chart-4": "oklch(0.665 0.110 208.2)",
+    "chart-5": "oklch(0.986 0.014 84.6)",
+    "sidebar": "oklch(0.977 0.015 102.5)",
+    "sidebar-foreground": "oklch(0.263 0.016 152.8)",
+    "sidebar-primary": "oklch(0.581 0.120 155.6)",
+    "sidebar-primary-foreground": "oklch(0.961 0.019 130.2)",
+    "sidebar-accent": "oklch(0.937 0.021 127.4)",
+    "sidebar-accent-foreground": "oklch(0.581 0.120 155.6)",
+    "sidebar-border": "oklch(0.896 0.034 116.3)",
+    "sidebar-ring": "oklch(0.850 0.146 90.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.263 0.016 152.8)",
+    "foreground": "oklch(0.961 0.019 130.2)",
+    "card": "oklch(0.762 0.011 100.9)",
+    "card-foreground": "oklch(0.961 0.019 130.2)",
+    "popover": "oklch(0.762 0.011 100.9)",
+    "popover-foreground": "oklch(0.961 0.019 130.2)",
+    "primary": "oklch(0.850 0.146 90.5)",
+    "primary-foreground": "oklch(0.263 0.016 152.8)",
+    "secondary": "oklch(0.931 0.025 109.3)",
+    "secondary-foreground": "oklch(0.961 0.019 130.2)",
+    "muted": "oklch(0.931 0.025 109.3)",
+    "muted-foreground": "oklch(0.860 0.043 127.7)",
+    "accent": "oklch(0.665 0.110 208.2)",
+    "accent-foreground": "oklch(0.263 0.016 152.8)",
+    "destructive": "oklch(0.581 0.120 155.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.850 0.146 90.5)",
+    "chart-1": "oklch(0.850 0.146 90.5)",
+    "chart-2": "oklch(0.581 0.120 155.6)",
+    "chart-3": "oklch(0.665 0.110 208.2)",
+    "chart-4": "oklch(0.665 0.110 208.2)",
+    "chart-5": "oklch(0.733 0.075 127.9)",
+    "sidebar": "oklch(0.623 0.012 118.2)",
+    "sidebar-foreground": "oklch(0.961 0.019 130.2)",
+    "sidebar-primary": "oklch(0.850 0.146 90.5)",
+    "sidebar-primary-foreground": "oklch(0.263 0.016 152.8)",
+    "sidebar-accent": "oklch(0.931 0.025 109.3)",
+    "sidebar-accent-foreground": "oklch(0.961 0.019 130.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.850 0.146 90.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for swift product UI with Noto Sans JP guidance for Japanese community labels, compact activity feeds, and readable member dashboards.",
+  "layout": "8px grid, quick flock navigation, feather-bar dividers, river-route markers, compact community feeds, rounded 8px cards, and bright status chips grounded in riverbank neutrals.",
+  "tags": [
+    "bee-eater",
+    "bird",
+    "riverbank",
+    "green-yellow-blue",
+    "chestnut",
+    "community-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bee-eater/motif.png",
+    "board": "/systems/morphous-bee-eater/design-system-light.png",
+    "darkBoard": "/systems/morphous-bee-eater/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bee-eater/theme.css",
+    "themeJson": "/systems/morphous-bee-eater/theme.json",
+    "promptsJson": "/systems/morphous-bee-eater/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bee eater motif",
+      "asset": "/systems/morphous-bee-eater/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only one bee-eater bird, isolated complete subject, no environment, no props, no text.\nSubject: elegant bee-eater with accurate slender slightly curved black bill, long tapered tail streamers, swift riverbank posture, vivid plumage derived from green back and wings, yellow throat, blue turquoise belly and eye stripe, chestnut crown and mantle, small black mask, crisp feather detail, graceful community-bird character.\nComposition/framing: centered complete cutout with generous padding; do not crop the beak, wings, tail streamers, legs, or feet. Side-facing three-quarter profile, perched stance without a branch.\nLighting/mood: clean studio light that preserves green, yellow, blue, and chestnut feather color without glare.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no flowers, no insects, no landscape, no second bird, no shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-bee-eater/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Bee Eater\nPrimary request: Generate a comprehensive light-mode design-system board for a motif-driven UI theme named Bee Eater, derived from bee-eater plumage and riverbank habitat: emerald green wings, sunlit yellow throat, turquoise blue belly and eye stripe, chestnut crown and mantle, black mask, pale river clay, reed green, and clear riverbank air.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: swift community system, fast cooperative workflows, flock activity streams, riverbank route markers, feather-bar texture, nimble status chips, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Bee Eater\", motif story, palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, community activity feed, member dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: river mist background #eef5e8, warm shell surface #fffaf0, dark mask ink #1f2721, emerald primary #2f8f5b, yellow secondary #f2c94c, turquoise accent #1aa6b7, chestnut highlight #a4572a, reed muted #9bb27f, river clay border #d8c7a6, berry red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Labels should be generic community/product UI labels such as Flock, Members, Routes, Posts, Status, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple gradients, no illegible microtext, no marketing hero layout."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-bee-eater/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Bee Eater\nPrimary request: Generate a comprehensive dark-mode version of the Bee Eater design-system board. It must feel like the same swift riverbank community system translated to dark mode, not a new theme.\nReference style: bee-eater plumage and riverbank habitat: emerald green wings, sunlit yellow throat, turquoise blue belly and eye stripe, chestnut crown and mantle, black mask, pale river clay, reed green, and clear riverbank air.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: deep riverbank workspace, swift cooperative workflows, flock activity streams, riverbank route markers, feather-bar texture, nimble status chips, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Bee Eater Dark\", motif story, dark palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, community activity feed, member dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: deep mask background #17211c, dark riverbank panels #202c25, pale mist text #eef5e8, bright emerald primary #58b878, sunlit yellow secondary #f2c94c, turquoise accent #25b8c8, chestnut highlight #c66a32, muted reed #9bb27f, low-contrast borders, berry red destructive only for errors.\nText: short readable UI labels only; no long paragraphs. Labels should be generic community/product UI labels such as Flock, Members, Routes, Posts, Status, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no neon colors, no pure black flat background, no unrelated bright colors, no purple gradients, no illegible microtext, no marketing hero layout."
+    }
+  ]
+}

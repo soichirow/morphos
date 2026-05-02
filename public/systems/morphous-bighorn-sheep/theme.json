@@ -1,0 +1,194 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-bighorn-sheep",
+    "name": "Morphous Bighorn Sheep",
+    "motifName": "Bighorn Sheep",
+    "motifCategory": "mammal",
+    "biome": "desert canyon",
+    "motif": "bighorn horn"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ledger Cream",
+      "hex": "#FAF7F2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canyon Shadow",
+      "hex": "#382F26",
+      "oklch": "oklch(0.312 0.020 67.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Horn Brown",
+      "hex": "#7B5A3A",
+      "oklch": "oklch(0.494 0.064 64.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sandstone",
+      "hex": "#C9A27A",
+      "oklch": "oklch(0.738 0.071 67.1)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Accent",
+      "hex": "#C98A2E",
+      "oklch": "oklch(0.681 0.129 72.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Desert Moss",
+      "hex": "#2F6B45",
+      "oklch": "oklch(0.477 0.088 153.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream",
+      "hex": "#F3E9D7",
+      "oklch": "oklch(0.937 0.026 82.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Tan Fur",
+      "hex": "#D8B48C",
+      "oklch": "oklch(0.792 0.068 69.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Rock Strata",
+      "hex": "#8B6B4D",
+      "oklch": "oklch(0.552 0.060 64.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hoof Charcoal",
+      "hex": "#2F302E",
+      "oklch": "oklch(0.307 0.004 128.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Canyon Gold",
+      "hex": "#D7A24A",
+      "oklch": "oklch(0.746 0.122 77.6)"
+    },
+    {
+      "role": "Danger",
+      "name": "Risk Clay",
+      "hex": "#B84F3D",
+      "oklch": "oklch(0.560 0.140 31.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.007 80.7)",
+    "foreground": "oklch(0.312 0.020 67.0)",
+    "card": "oklch(0.937 0.026 82.4)",
+    "card-foreground": "oklch(0.312 0.020 67.0)",
+    "popover": "oklch(0.937 0.026 82.4)",
+    "popover-foreground": "oklch(0.312 0.020 67.0)",
+    "primary": "oklch(0.494 0.064 64.6)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.954 0.019 83.1)",
+    "secondary-foreground": "oklch(0.307 0.004 128.6)",
+    "muted": "oklch(0.949 0.020 81.8)",
+    "muted-foreground": "oklch(0.307 0.004 128.6)",
+    "accent": "oklch(0.681 0.129 72.0)",
+    "accent-foreground": "oklch(0.312 0.020 67.0)",
+    "destructive": "oklch(0.494 0.064 64.6)",
+    "border": "oklch(0.885 0.041 75.8)",
+    "input": "oklch(0.885 0.041 75.8)",
+    "ring": "oklch(0.738 0.071 67.1)",
+    "chart-1": "oklch(0.494 0.064 64.6)",
+    "chart-2": "oklch(0.738 0.071 67.1)",
+    "chart-3": "oklch(0.681 0.129 72.0)",
+    "chart-4": "oklch(0.477 0.088 153.6)",
+    "chart-5": "oklch(0.307 0.004 128.6)",
+    "sidebar": "oklch(0.951 0.020 84.6)",
+    "sidebar-foreground": "oklch(0.312 0.020 67.0)",
+    "sidebar-primary": "oklch(0.494 0.064 64.6)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.887 0.030 78.8)",
+    "sidebar-accent-foreground": "oklch(0.494 0.064 64.6)",
+    "sidebar-border": "oklch(0.885 0.041 75.8)",
+    "sidebar-ring": "oklch(0.738 0.071 67.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.312 0.020 67.0)",
+    "foreground": "oklch(0.977 0.007 80.7)",
+    "card": "oklch(0.309 0.009 88.8)",
+    "card-foreground": "oklch(0.977 0.007 80.7)",
+    "popover": "oklch(0.309 0.009 88.8)",
+    "popover-foreground": "oklch(0.977 0.007 80.7)",
+    "primary": "oklch(0.738 0.071 67.1)",
+    "primary-foreground": "oklch(0.312 0.020 67.0)",
+    "secondary": "oklch(0.424 0.019 76.9)",
+    "secondary-foreground": "oklch(0.977 0.007 80.7)",
+    "muted": "oklch(0.424 0.019 76.9)",
+    "muted-foreground": "oklch(0.894 0.034 71.6)",
+    "accent": "oklch(0.681 0.129 72.0)",
+    "accent-foreground": "oklch(0.312 0.020 67.0)",
+    "destructive": "oklch(0.494 0.064 64.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.738 0.071 67.1)",
+    "chart-1": "oklch(0.738 0.071 67.1)",
+    "chart-2": "oklch(0.494 0.064 64.6)",
+    "chart-3": "oklch(0.681 0.129 72.0)",
+    "chart-4": "oklch(0.477 0.088 153.6)",
+    "chart-5": "oklch(0.792 0.068 69.6)",
+    "sidebar": "oklch(0.309 0.011 67.4)",
+    "sidebar-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-primary": "oklch(0.738 0.071 67.1)",
+    "sidebar-primary-foreground": "oklch(0.312 0.020 67.0)",
+    "sidebar-accent": "oklch(0.424 0.019 76.9)",
+    "sidebar-accent-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.738 0.071 67.1)",
+    "radius": "0.5rem"
+  },
+  "typography": "Stable English finance UI with tabular numbers, compact ledger labels, and Noto Sans JP guidance for Japanese portfolio, treasury, risk, invoice, and forecast screens.",
+  "layout": "Dense 8px finance grids, dark canyon navigation rails, KPI cards, portfolio charts, risk tables, command search, horn-ring dividers, rock-strata texture samples, and restrained 8px cards.",
+  "tags": [
+    "bighorn-sheep",
+    "mammal",
+    "desert-canyon",
+    "solid-finance",
+    "horn-brown",
+    "tan-fur",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-bighorn-sheep/motif.png",
+    "board": "/systems/morphous-bighorn-sheep/design-system-light.png",
+    "darkBoard": "/systems/morphous-bighorn-sheep/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-bighorn-sheep/theme.css",
+    "themeJson": "/systems/morphous-bighorn-sheep/theme.json",
+    "promptsJson": "/systems/morphous-bighorn-sheep/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent bighorn sheep motif",
+      "asset": "/systems/morphous-bighorn-sheep/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Bighorn Sheep transparent motif chroma-key source\nPrimary request: Create only an isolated bighorn sheep motif for a Morphous design-system catalog, shown as one complete adult ram subject with iconic curled bighorn horns, no environment, no props, no text.\nSubject: A realistic desert canyon bighorn sheep ram with tan fur, cream muzzle, muscular chest and shoulders, short tail, sturdy legs and hooves, and massive symmetrical curled horns in horn-brown with ridged growth rings. The anatomy must clearly read as bighorn sheep, not domestic goat, ibex, yak, deer, or generic ram.\nComposition/framing: centered complete cutout with generous padding; full body visible, three-quarter stance, head slightly turned so both curled horns are visible, no cropping. Clean studio lighting that preserves tan fur texture, horn ridges, and canyon-rock color accents. No cast shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #ff00ff anywhere in the subject.\nConstraints: no landscape, no cliff, no plants, no herd, no second animal, no saddle, no props, no text, no watermark, no decorative background, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode finance design-system board",
+      "asset": "/systems/morphous-bighorn-sheep/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bighorn Sheep light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Bighorn Sheep\", derived from the visible transparent bighorn sheep ram motif. This board is a source reference for implementing a shadcn/tweakcn-compatible solid finance UI system.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional UI design-system presentation, solid finance system mood. Use large legible labels and avoid dense tiny text.\nRequired visible sections: Morphous Bighorn Sheep, Bighorn Horn, Desert Canyon, Palette, Typography, Japanese Typography, Components, Navigation, Finance Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract colors and interaction language from tan fur, horn-brown ridged curled horns, cream muzzle highlights, amber eye accents, warm sandstone rock, desert canyon shade, hoof charcoal, and muscular stable silhouette. The board must read as bighorn sheep and desert canyon finance, not goat, ibex, generic ram, western ranch, or safari.\nTypography: English finance UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use bilingual portfolio, treasury, risk, accounts, invoices, and forecast labels with stable tabular numbers.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, KPI cards, portfolio cards, account balance modules, risk limit cards, cash-flow table, transaction table rows, command search palette, sidebar navigation, dashboard metric cards, line chart, bar chart, waterfall chart, donut chart, empty/loading/error states, progress, stepper, date range picker, filters, status chips, spacing scale, radius samples, border, shadow, texture samples, simple icons, theme token swatches.\nStyle: solid finance system, precise 8px grid and 8px card radius, calm ledger-cream surfaces, horn-brown primary actions, sandstone secondary panels, canyon-shadow navigation rails, tan-fur muted surfaces, amber focus rings and chart highlights, horn-growth-ring line texture, fine fur-grain texture, rock-strata dividers, dense but scannable dashboards, polished shadcn/tweakcn component language.\nConstraints: no generic purple or blue gradients, no neon colors, no orange/brown-only monotone palette, no cartoon mascot UI, no stock trading chaos, no ranch poster, no random brand names, no watermark, no misspelling of \"Morphous Bighorn Sheep\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode finance design-system board",
+      "asset": "/systems/morphous-bighorn-sheep/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Bighorn Sheep dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Bighorn Sheep\" / \"Bighorn Horn\". Translate the same visible light design-system language into dark mode; do not invent a new unrelated theme.\nCanvas: wide 16:9 high-resolution 4K-class board, clean professional shadcn/tweakcn design-system presentation, solid finance system mood. Keep labels large and legible.\nRequired visible sections: Morphous Bighorn Sheep, Bighorn Horn, Desert Canyon, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Finance Dashboard / Data, Forms, Table, Command / Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Use the visible bighorn ram motif and the visible light board as style references. Preserve horn-brown primary actions, tan-fur muted surfaces, sandstone panels, canyon-shadow navigation, cream foreground text, amber chart highlights, hoof-charcoal depth, horn-growth-ring line texture, fur-grain texture, rock-strata dividers, finance tables, risk cards, portfolio charts, command search, status chips, and an 8px shadcn/tweakcn grid. The board must read as bighorn sheep and desert canyon finance, not goat, ibex, generic ram, western ranch, safari, or gaming UI.\nTypography: English finance UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use bilingual portfolio, treasury, risk, accounts, invoices, and forecast labels with stable tabular numbers.\nUI coverage: primary/secondary/tertiary/ghost/destructive buttons, hover/pressed/disabled/loading states, checkbox, radio, switch, input, select, textarea, tabs, badges, alerts, KPI cards, portfolio cards, account balance modules, risk limit cards, cash-flow table, transaction table rows, line chart, bar chart, waterfall chart, donut chart, sidebar navigation, command search palette, filters, empty/loading/error states, progress, stepper, date range picker, texture samples, radius samples, spacing scale, shadow samples, token code snippets, icon set.\nVisual details: deep canyon-shadow background, dark warm rock panels, horn-brown active states, amber chart highlights, ledger-cream text, sandstone borders, tan-fur muted chips, mossy-desert green success signals, subtle horn-ring and rock-strata texture overlays, restrained contrast, crisp controls and dashboards.\nConstraints: no neon orange, no generic black-and-orange gaming UI, no pure-black flat background, no unrelated saturated colors, no purple or blue gradient dominance, no cartoon mascot UI, no random brand names, no watermark, no misspelling of \"Morphous Bighorn Sheep\", no tiny unreadable paragraphs."
+    }
+  ]
+}

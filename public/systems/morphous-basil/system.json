@@ -1,0 +1,120 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 254,
+  "slug": "morphous-basil",
+  "name": "Morphous Basil",
+  "motifName": "Basil",
+  "motifCategory": "plant",
+  "biome": "kitchen garden",
+  "motif": "basil leaves",
+  "description": "A shadcn/tweakcn-compatible fresh creator system derived from kitchen-garden basil leaves: emerald primary actions, deep basil navigation, soft stem surfaces, yellow-green leaf highlights, soil-brown structure, and subtle leaf-vein texture for creator dashboards, garden notes, content calendars, forms, tables, and search workflows.",
+  "typography": "Clean English creator UI with tabular metrics, short garden and content labels, and Noto Sans JP guidance for Japanese notes, status, search, forms, and dashboard surfaces.",
+  "layout": "Fresh 8px creator grids, compact dashboards, leaf-vein texture samples, deep basil side navigation, soil-brown separators, 8px cards, restrained shadows, and scannable form, table, command, and status surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "basil",
+    "plant",
+    "kitchen-garden",
+    "fresh-creator-system",
+    "emerald-green",
+    "soft-stem",
+    "soil-brown",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stem Paper",
+      "hex": "#F6F7EA"
+    },
+    {
+      "role": "Ink",
+      "name": "Basil Ink",
+      "hex": "#1E2D1B"
+    },
+    {
+      "role": "Surface",
+      "name": "Leaf White",
+      "hex": "#FFFDF4"
+    },
+    {
+      "role": "Primary",
+      "name": "Basil Emerald",
+      "hex": "#2F7D32"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Leaf Gloss",
+      "hex": "#3F9A45"
+    },
+    {
+      "role": "Secondary",
+      "name": "New Growth",
+      "hex": "#A7C957"
+    },
+    {
+      "role": "Accent",
+      "name": "Stem Cream",
+      "hex": "#DDE8B5"
+    },
+    {
+      "role": "Muted",
+      "name": "Stem Mist",
+      "hex": "#E8EDD7"
+    },
+    {
+      "role": "Border",
+      "name": "Soil Tan",
+      "hex": "#B69A6C"
+    },
+    {
+      "role": "Input",
+      "name": "Soft Stem",
+      "hex": "#C9DDA7"
+    },
+    {
+      "role": "Ring",
+      "name": "Leaf Vein",
+      "hex": "#6DAA45"
+    },
+    {
+      "role": "Danger",
+      "name": "Root Umber",
+      "hex": "#8A4F2B"
+    },
+    {
+      "role": "Depth",
+      "name": "Soil Shadow",
+      "hex": "#3B2A1A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

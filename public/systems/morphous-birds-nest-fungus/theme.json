@@ -1,0 +1,219 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-birds-nest-fungus",
+    "name": "Morphous Birds Nest Fungus",
+    "motifName": "Birds Nest Fungus",
+    "motifCategory": "fungi",
+    "biome": "woodchip bed",
+    "motif": "birds nest fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Cream",
+      "hex": "#F6EFE6",
+      "oklch": "oklch(0.955 0.014 74.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#EFE9E1",
+      "oklch": "oklch(0.937 0.013 75.4)"
+    },
+    {
+      "role": "Border",
+      "name": "Cup Tan",
+      "hex": "#D7C7AE",
+      "oklch": "oklch(0.836 0.038 79.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mulch Beige",
+      "hex": "#BFA889",
+      "oklch": "oklch(0.744 0.050 75.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Nest Brown",
+      "hex": "#886E4F",
+      "oklch": "oklch(0.556 0.055 71.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cocoa",
+      "hex": "#483627",
+      "oklch": "oklch(0.349 0.036 61.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Cup Brown",
+      "hex": "#7A4E28",
+      "oklch": "oklch(0.466 0.079 59.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Umber",
+      "hex": "#36271D",
+      "oklch": "oklch(0.287 0.029 55.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Silver Egg",
+      "hex": "#B7BDC2",
+      "oklch": "oklch(0.795 0.010 242.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Peridiole Pearl",
+      "hex": "#D9DBDF",
+      "oklch": "oklch(0.891 0.006 264.5)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Warm Cream",
+      "hex": "#FAF4E6",
+      "oklch": "oklch(0.968 0.020 87.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Quiet Olive",
+      "hex": "#687D5E",
+      "oklch": "oklch(0.564 0.053 135.7)"
+    },
+    {
+      "role": "Active",
+      "name": "Mulch Gold",
+      "hex": "#A37A2F",
+      "oklch": "oklch(0.606 0.104 79.4)"
+    },
+    {
+      "role": "Warning",
+      "name": "Spore Gold",
+      "hex": "#D6A23A",
+      "oklch": "oklch(0.743 0.132 81.1)"
+    },
+    {
+      "role": "Error",
+      "name": "Rust Error",
+      "hex": "#B65A43",
+      "oklch": "oklch(0.574 0.125 35.1)"
+    },
+    {
+      "role": "Disabled",
+      "name": "Spore Dust",
+      "hex": "#E7E1D9",
+      "oklch": "oklch(0.912 0.013 75.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.955 0.014 74.4)",
+    "foreground": "oklch(0.287 0.029 55.0)",
+    "card": "oklch(0.937 0.013 75.4)",
+    "card-foreground": "oklch(0.287 0.029 55.0)",
+    "popover": "oklch(0.937 0.013 75.4)",
+    "popover-foreground": "oklch(0.287 0.029 55.0)",
+    "primary": "oklch(0.466 0.079 59.7)",
+    "primary-foreground": "oklch(0.968 0.020 87.5)",
+    "secondary": "oklch(0.836 0.038 79.1)",
+    "secondary-foreground": "oklch(0.349 0.036 61.1)",
+    "muted": "oklch(0.912 0.013 75.4)",
+    "muted-foreground": "oklch(0.556 0.055 71.2)",
+    "accent": "oklch(0.795 0.010 242.9)",
+    "accent-foreground": "oklch(0.287 0.029 55.0)",
+    "destructive": "oklch(0.574 0.125 35.1)",
+    "border": "oklch(0.836 0.038 79.1)",
+    "input": "oklch(0.836 0.038 79.1)",
+    "ring": "oklch(0.795 0.010 242.9)",
+    "chart-1": "oklch(0.466 0.079 59.7)",
+    "chart-2": "oklch(0.606 0.104 79.4)",
+    "chart-3": "oklch(0.743 0.132 81.1)",
+    "chart-4": "oklch(0.795 0.010 242.9)",
+    "chart-5": "oklch(0.564 0.053 135.7)",
+    "sidebar": "oklch(0.937 0.013 75.4)",
+    "sidebar-foreground": "oklch(0.287 0.029 55.0)",
+    "sidebar-primary": "oklch(0.466 0.079 59.7)",
+    "sidebar-primary-foreground": "oklch(0.968 0.020 87.5)",
+    "sidebar-accent": "oklch(0.836 0.038 79.1)",
+    "sidebar-accent-foreground": "oklch(0.349 0.036 61.1)",
+    "sidebar-border": "oklch(0.836 0.038 79.1)",
+    "sidebar-ring": "oklch(0.795 0.010 242.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.287 0.029 55.0)",
+    "foreground": "oklch(0.968 0.020 87.5)",
+    "card": "oklch(0.349 0.036 61.1)",
+    "card-foreground": "oklch(0.968 0.020 87.5)",
+    "popover": "oklch(0.349 0.036 61.1)",
+    "popover-foreground": "oklch(0.968 0.020 87.5)",
+    "primary": "oklch(0.606 0.104 79.4)",
+    "primary-foreground": "oklch(0.287 0.029 55.0)",
+    "secondary": "oklch(0.556 0.055 71.2)",
+    "secondary-foreground": "oklch(0.968 0.020 87.5)",
+    "muted": "oklch(0.382 0.060 55.9)",
+    "muted-foreground": "oklch(0.836 0.038 79.1)",
+    "accent": "oklch(0.795 0.010 242.9)",
+    "accent-foreground": "oklch(0.287 0.029 55.0)",
+    "destructive": "oklch(0.574 0.125 35.1)",
+    "border": "oklch(0.744 0.050 75.1 / 28%)",
+    "input": "oklch(0.744 0.050 75.1 / 36%)",
+    "ring": "oklch(0.795 0.010 242.9)",
+    "chart-1": "oklch(0.606 0.104 79.4)",
+    "chart-2": "oklch(0.743 0.132 81.1)",
+    "chart-3": "oklch(0.795 0.010 242.9)",
+    "chart-4": "oklch(0.564 0.053 135.7)",
+    "chart-5": "oklch(0.744 0.050 75.1)",
+    "sidebar": "oklch(0.349 0.036 61.1)",
+    "sidebar-foreground": "oklch(0.968 0.020 87.5)",
+    "sidebar-primary": "oklch(0.606 0.104 79.4)",
+    "sidebar-primary-foreground": "oklch(0.287 0.029 55.0)",
+    "sidebar-accent": "oklch(0.382 0.060 55.9)",
+    "sidebar-accent-foreground": "oklch(0.968 0.020 87.5)",
+    "sidebar-border": "oklch(0.744 0.050 75.1 / 28%)",
+    "sidebar-ring": "oklch(0.795 0.010 242.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact product UI, Geist Mono for peridiole counts and specimen IDs, and Noto Sans JP guidance for Japanese navigation, forms, tables, and status labels.",
+  "layout": "Miniature cup-nest cards, silver egg-dot indicators, mulch-fiber separators, compact dashboard/data panels, command search flows, dense forms and tables, 8px radii, and tactile woodchip texture tokens.",
+  "tags": [
+    "birds-nest-fungus",
+    "fungi",
+    "woodchip-bed",
+    "mulch",
+    "silver-peridioles",
+    "brown-cups",
+    "miniature-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-birds-nest-fungus/motif.png",
+    "board": "/systems/morphous-birds-nest-fungus/design-system-light.png",
+    "darkBoard": "/systems/morphous-birds-nest-fungus/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-birds-nest-fungus/theme.css",
+    "themeJson": "/systems/morphous-birds-nest-fungus/theme.json",
+    "promptsJson": "/systems/morphous-birds-nest-fungus/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Birds Nest Fungus motif",
+      "asset": "/systems/morphous-birds-nest-fungus/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only a birds nest fungus cluster for a Morphous design-system catalog, isolated full subject, no environment, no props, no text.\nSubject: accurate birds nest fungus (Nidulariaceae) fruiting bodies from a woodchip bed: small brown nest-like cups with fibrous ridged outer walls, darker cocoa interiors, and several smooth silver-gray egg-like peridioles inside each cup. Include a small natural cluster with varied cup sizes and crisp silhouettes.\nComposition/framing: centered complete cutout with generous padding; show the cups and egg-like peridioles clearly without cropping.\nLighting/mood: clean studio light that preserves brown cup texture, silver egg highlights, mulch-derived warm neutrals, and miniature scale detail.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nStyle/medium: naturalistic macro botanical/fungal specimen, polished catalog cutout, high detail.\nConstraints: no text, no watermark, no labels, no insects, no leaves as main subject, no landscape, no soil scene, no second unrelated species, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-birds-nest-fungus/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Birds Nest Fungus\" / \"Birds Nest Fungus\", a shadcn/tweakcn-compatible theme derived only from birds nest fungus in a woodchip bed.\nReference use: Use the birds nest fungus motif shown in context: brown nest cups, fibrous ribbed cup walls, dark cocoa interiors, smooth silver egg-like peridioles, tan mulch fibers, umber shadow, warm cream spore dust. Use only motif-derived colors and near-neutrals from those colors.\nCanvas: wide 16:9 design-system board, target 3840x2160, at least 2400px wide; clean precise grid, large readable labels, not cramped.\nRequired visible sections: title, motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nTypography: English product UI guidance with Geist or Inter-like sans; Japanese UI guidance with Noto Sans JP-like examples. Short readable labels only.\nComponents: shadcn/tweakcn samples including primary/secondary/outline/ghost buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, pagination, toast/status, empty/loading/error states.\nNavigation and data domain: labels must reference woodchip beds, mulch clusters, fungus cups, peridiole counts, garden bed surveys, compost path samples, and specimen records.\nVisual language: miniature component system; exactly 8px radii; cup-nest cards, silver egg-dot indicators, mulch-fiber separators, silver focus rings, brown/tan surfaces, cocoa text, tiny data capsules inspired by peridioles.\nText: include these exact clear labels where useful: Birds Nest Fungus, Woodchip Bed, Peridiole Count, Cup Clusters, Garden Beds, Specimens, Survey, Ready, Active, Warning, Error, Radius 8px, Spacing, Shadows.\nAvoid: the words Waxcap, mushroom, meadow, grassland, wet meadow, heath, mire, woodland edge, flower, insect, unrelated species, unrelated bright colors, purple or blue gradients, generic stock UI kit, random brand names, misspelled title, watermark, tiny unreadable token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-birds-nest-fungus/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Birds Nest Fungus\" / \"Birds Nest Fungus\". It must feel like the same system as the light board shown in context, translated to dark mode, not a different theme.\nReference use: Use the birds nest fungus motif and the light design-system board shown in context. Preserve the motif-derived palette roles: brown cup walls, fibrous tan mulch, dark cocoa interiors, umber shadows, silver egg-like peridioles, pearl gray, warm cream spore highlights, and muted moss/olive status only if needed.\nCanvas: wide 16:9 design-system board, target 3840x2160, at least 2400px wide; clean precise grid, large readable labels, not cramped.\nRequired visible sections: title, Dark Mode label, motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status states, tokens, texture, radius, spacing, shadows, generated asset examples.\nTypography: English product UI guidance with Geist or Inter-like sans; Japanese UI guidance with Noto Sans JP-like examples. Short readable labels only.\nComponents: shadcn/tweakcn dark UI samples including primary/secondary/outline/ghost buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search field, pagination, toast/status, empty/loading/error states.\nNavigation and data domain: labels must reference woodchip beds, mulch clusters, fungus cups, peridiole counts, garden bed surveys, compost path samples, and specimen records.\nVisual language: miniature component system; exactly 8px radii; dark cocoa background, nest-brown cards, tan mulch borders, silver peridiole focus rings, warm cream foreground, cup-nest panels, silver egg-dot indicators, mulch-fiber separators.\nText: include these exact clear labels where useful: Birds Nest Fungus, Dark Mode, Woodchip Bed, Peridiole Count, Cup Clusters, Garden Beds, Specimens, Survey, Ready, Active, Warning, Error, Radius 8px, Spacing, Shadows.\nAvoid: the words Waxcap, mushroom, meadow, grassland, wet meadow, heath, mire, woodland edge, flower, insect, unrelated species, neon colors, pure black flat background, purple or blue gradients, generic stock UI kit, random brand names, misspelled title, watermark, tiny unreadable token tables."
+    }
+  ]
+}

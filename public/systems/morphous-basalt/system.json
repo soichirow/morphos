@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-basalt",
+  "name": "Basalt",
+  "motifName": "Basalt Column",
+  "motifCategory": "mineral",
+  "biome": "Lava Field",
+  "motif": "basalt column",
+  "description": "A shadcn/tweakcn-compatible system for strong data products: black basalt structure, ash-grey analytical surfaces, lichen-green signals, and columnar volcanic geometry.",
+  "typography": "Geist for compact data interfaces with Noto Sans JP guidance for Japanese labels, tabular numerals, and dense operational readouts.",
+  "layout": "Strict 8px grid, hexagonal column rhythm, low-radius panels, clear table hierarchy, and high-density dashboard composition.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "basalt",
+    "mineral",
+    "lava-field",
+    "data-system",
+    "lichen-green",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ash Surface",
+      "hex": "#f4f2ed"
+    },
+    {
+      "role": "Ink",
+      "name": "Basalt Black",
+      "hex": "#171717"
+    },
+    {
+      "role": "Primary",
+      "name": "Lichen Green",
+      "hex": "#7f9164"
+    },
+    {
+      "role": "Secondary",
+      "name": "Column Grey",
+      "hex": "#3f4442"
+    },
+    {
+      "role": "Accent",
+      "name": "Mineral Line",
+      "hex": "#C4C7BD"
+    },
+    {
+      "role": "Signal",
+      "name": "Ember Fault",
+      "hex": "#b4533c"
+    },
+    {
+      "role": "Surface",
+      "name": "Lava Paper",
+      "hex": "#e7e5dc"
+    },
+    {
+      "role": "Muted",
+      "name": "Grey Lichen",
+      "hex": "#9aa285"
+    },
+    {
+      "role": "Depth",
+      "name": "Void Basalt",
+      "hex": "#101211"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
