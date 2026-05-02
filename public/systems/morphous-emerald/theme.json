@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-emerald",
+    "name": "Emerald",
+    "motifName": "Emerald Crystal",
+    "motifCategory": "mineral",
+    "biome": "Beryl vein",
+    "motif": "emerald crystal"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Ivory Vein",
+      "hex": "#fbf7ec",
+      "oklch": "oklch(0.976 0.015 90.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Black Matrix",
+      "hex": "#080c0a",
+      "oklch": "oklch(0.149 0.008 164.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Deep Emerald",
+      "hex": "#006b45",
+      "oklch": "oklch(0.466 0.105 160.3)"
+    },
+    {
+      "role": "Action",
+      "name": "Crystal Green",
+      "hex": "#00a86b",
+      "oklch": "oklch(0.645 0.149 158.8)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Mint Facet",
+      "hex": "#8fdcc2",
+      "oklch": "oklch(0.837 0.085 170.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cream Vein",
+      "hex": "#f1e5c8",
+      "oklch": "oklch(0.924 0.040 88.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Graphite",
+      "hex": "#28302c",
+      "oklch": "oklch(0.300 0.013 163.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Matrix Green",
+      "hex": "#111914",
+      "oklch": "oklch(0.203 0.015 157.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.976 0.015 90.2)",
+    "foreground": "oklch(0.149 0.008 164.5)",
+    "card": "oklch(0.924 0.040 88.2)",
+    "card-foreground": "oklch(0.149 0.008 164.5)",
+    "popover": "oklch(0.924 0.040 88.2)",
+    "popover-foreground": "oklch(0.149 0.008 164.5)",
+    "primary": "oklch(0.466 0.105 160.3)",
+    "primary-foreground": "oklch(0.976 0.015 90.2)",
+    "secondary": "oklch(0.947 0.030 90.3)",
+    "secondary-foreground": "oklch(0.203 0.015 157.3)",
+    "muted": "oklch(0.939 0.033 88.1)",
+    "muted-foreground": "oklch(0.203 0.015 157.3)",
+    "accent": "oklch(0.837 0.085 170.9)",
+    "accent-foreground": "oklch(0.149 0.008 164.5)",
+    "destructive": "oklch(0.466 0.105 160.3)",
+    "border": "oklch(0.717 0.029 95.5)",
+    "input": "oklch(0.717 0.029 95.5)",
+    "ring": "oklch(0.645 0.149 158.8)",
+    "chart-1": "oklch(0.466 0.105 160.3)",
+    "chart-2": "oklch(0.645 0.149 158.8)",
+    "chart-3": "oklch(0.837 0.085 170.9)",
+    "chart-4": "oklch(0.924 0.040 88.2)",
+    "chart-5": "oklch(0.203 0.015 157.3)",
+    "sidebar": "oklch(0.941 0.032 89.1)",
+    "sidebar-foreground": "oklch(0.149 0.008 164.5)",
+    "sidebar-primary": "oklch(0.466 0.105 160.3)",
+    "sidebar-primary-foreground": "oklch(0.976 0.015 90.2)",
+    "sidebar-accent": "oklch(0.867 0.040 110.3)",
+    "sidebar-accent-foreground": "oklch(0.466 0.105 160.3)",
+    "sidebar-border": "oklch(0.717 0.029 95.5)",
+    "sidebar-ring": "oklch(0.645 0.149 158.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.149 0.008 164.5)",
+    "foreground": "oklch(0.976 0.015 90.2)",
+    "card": "oklch(0.187 0.013 159.7)",
+    "card-foreground": "oklch(0.976 0.015 90.2)",
+    "popover": "oklch(0.187 0.013 159.7)",
+    "popover-foreground": "oklch(0.976 0.015 90.2)",
+    "primary": "oklch(0.645 0.149 158.8)",
+    "primary-foreground": "oklch(0.149 0.008 164.5)",
+    "secondary": "oklch(0.225 0.015 157.5)",
+    "secondary-foreground": "oklch(0.976 0.015 90.2)",
+    "muted": "oklch(0.225 0.015 157.5)",
+    "muted-foreground": "oklch(0.693 0.010 113.3)",
+    "accent": "oklch(0.837 0.085 170.9)",
+    "accent-foreground": "oklch(0.149 0.008 164.5)",
+    "destructive": "oklch(0.466 0.105 160.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.645 0.149 158.8)",
+    "chart-1": "oklch(0.645 0.149 158.8)",
+    "chart-2": "oklch(0.466 0.105 160.3)",
+    "chart-3": "oklch(0.837 0.085 170.9)",
+    "chart-4": "oklch(0.924 0.040 88.2)",
+    "chart-5": "oklch(0.300 0.013 163.9)",
+    "sidebar": "oklch(0.175 0.011 163.3)",
+    "sidebar-foreground": "oklch(0.976 0.015 90.2)",
+    "sidebar-primary": "oklch(0.645 0.149 158.8)",
+    "sidebar-primary-foreground": "oklch(0.149 0.008 164.5)",
+    "sidebar-accent": "oklch(0.225 0.015 157.5)",
+    "sidebar-accent-foreground": "oklch(0.976 0.015 90.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.645 0.149 158.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Crisp editorial display typography paired with neutral interface sans guidance and Noto Sans JP for multilingual dashboard labels.",
+  "layout": "Precise 8px grid, restrained 8px radius cards, faceted dividers, dense dashboard panels, mineral texture accents, and high-contrast data surfaces.",
+  "tags": [
+    "emerald",
+    "mineral",
+    "beryl",
+    "premium-dashboard",
+    "deep-green",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-emerald/motif.png",
+    "board": "/systems/morphous-emerald/design-system-light.png",
+    "darkBoard": "/systems/morphous-emerald/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-emerald/theme.css",
+    "themeJson": "/systems/morphous-emerald/theme.json",
+    "promptsJson": "/systems/morphous-emerald/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent emerald motif",
+      "asset": "/systems/morphous-emerald/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout\nPrimary request: Create only an emerald crystal cluster in black matrix, isolated full subject, no environment, no props, no text.\nSubject: premium emerald beryl crystal specimen, deep saturated green hexagonal crystals emerging from rugged black matrix rock with subtle cream beryl vein inclusions, opaque mineral surfaces with crisp facets, natural fractures, and polished highlights; mineralogical accuracy and strong silhouette.\nComposition/framing: centered complete cutout with generous padding; do not crop the subject.\nLighting/mood: clean studio light that preserves deep green crystal color, black matrix texture, and cream vein detail.\nTransparent workflow: place the subject on a perfectly flat solid chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: no text, no watermark, no props, no landscape, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-emerald/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for Emerald, a premium dashboard system derived from emerald crystal clusters growing from black matrix rock with cream beryl vein inclusions.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the motif: deep emerald green crystals, near-black fractured matrix, cream mineral veins, pale mint highlights, graphite ink, warm ivory surfaces.\nCanvas: wide 16:9 board, 4K-class source board.\nRequired visible sections: title Emerald, motif story beryl vein, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nStyle/medium: premium shadcn/tweakcn-style product dashboard system, precise grid, restrained luxury, 8px card radius, fine mineral texture, faceted divider lines, clean data visualization.\nColor palette: deep emerald, crystal green, mint highlight, black matrix, graphite, cream vein, and ivory.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no watermark, no random brand names, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-emerald/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the Emerald design-system board. It must feel like the same system translated to dark mode, not a new theme.\nReference use: Preserve the emerald crystal, black matrix, cream beryl vein, premium dashboard controls, shadcn/tweakcn-style components, precise grid, English typography, and Japanese typography from the light board.\nCanvas: wide 16:9 board, 4K-class source board.\nRequired visible sections: title Emerald, Dark Mode label, motif story beryl vein, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, tokens, generated asset examples.\nVisual details: dark background derived from black matrix and graphite, emerald primary actions, mint highlights, cream vein accents, ivory text, subtle mineral texture overlays, faceted divider lines, crisp dashboard cards and controls.\nConstraints: no neon colors, no flat pure-black background, no unrelated saturated colors, no generic purple or blue gradients, no illegible text, no random brand names, no watermark."
+    }
+  ]
+}

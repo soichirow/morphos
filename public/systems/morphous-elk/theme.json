@@ -1,0 +1,196 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-elk",
+    "name": "Morphous Elk",
+    "motifName": "Elk",
+    "motifCategory": "mammal",
+    "biome": "mountain meadow",
+    "motif": "elk antlers"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Parchment Meadow",
+      "hex": "#FAF7F2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dark Mane",
+      "hex": "#241C17",
+      "oklch": "oklch(0.234 0.016 53.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Tawny Fur",
+      "hex": "#C8935A",
+      "oklch": "oklch(0.702 0.098 67.1)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Rut Amber",
+      "hex": "#D49A2E",
+      "oklch": "oklch(0.724 0.136 78.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Antler Bone",
+      "hex": "#E6DED2",
+      "oklch": "oklch(0.904 0.018 78.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Meadow Grass",
+      "hex": "#5E884C",
+      "oklch": "oklch(0.581 0.099 136.8)"
+    },
+    {
+      "role": "Success",
+      "name": "Lodgepole Green",
+      "hex": "#477140",
+      "oklch": "oklch(0.505 0.088 140.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Sky Mist",
+      "hex": "#F3F5F7",
+      "oklch": "oklch(0.969 0.003 247.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Ash Hide",
+      "hex": "#C8C4BC",
+      "oklch": "oklch(0.821 0.012 84.6)"
+    },
+    {
+      "role": "Border",
+      "name": "Alpine Shadow",
+      "hex": "#8A8174",
+      "oklch": "oklch(0.607 0.022 77.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Hoof Charcoal",
+      "hex": "#2D2A27",
+      "oklch": "oklch(0.287 0.007 67.5)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Warning Sumac",
+      "hex": "#B84A3A",
+      "oklch": "oklch(0.553 0.146 30.6)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.007 80.7)",
+    "foreground": "oklch(0.234 0.016 53.8)",
+    "card": "oklch(0.969 0.003 247.9)",
+    "card-foreground": "oklch(0.234 0.016 53.8)",
+    "popover": "oklch(0.969 0.003 247.9)",
+    "popover-foreground": "oklch(0.234 0.016 53.8)",
+    "primary": "oklch(0.702 0.098 67.1)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.973 0.001 106.4)",
+    "secondary-foreground": "oklch(0.287 0.007 67.5)",
+    "muted": "oklch(0.972 0.001 197.1)",
+    "muted-foreground": "oklch(0.287 0.007 67.5)",
+    "accent": "oklch(0.581 0.099 136.8)",
+    "accent-foreground": "oklch(0.234 0.016 53.8)",
+    "destructive": "oklch(0.702 0.098 67.1)",
+    "border": "oklch(0.916 0.002 67.8)",
+    "input": "oklch(0.916 0.002 67.8)",
+    "ring": "oklch(0.904 0.018 78.2)",
+    "chart-1": "oklch(0.702 0.098 67.1)",
+    "chart-2": "oklch(0.904 0.018 78.2)",
+    "chart-3": "oklch(0.581 0.099 136.8)",
+    "chart-4": "oklch(0.581 0.099 136.8)",
+    "chart-5": "oklch(0.287 0.007 67.5)",
+    "sidebar": "oklch(0.972 0.002 145.6)",
+    "sidebar-foreground": "oklch(0.234 0.016 53.8)",
+    "sidebar-primary": "oklch(0.702 0.098 67.1)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.937 0.009 67.7)",
+    "sidebar-accent-foreground": "oklch(0.702 0.098 67.1)",
+    "sidebar-border": "oklch(0.916 0.002 67.8)",
+    "sidebar-ring": "oklch(0.904 0.018 78.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.234 0.016 53.8)",
+    "foreground": "oklch(0.977 0.007 80.7)",
+    "card": "oklch(0.269 0.009 53.1)",
+    "card-foreground": "oklch(0.977 0.007 80.7)",
+    "popover": "oklch(0.269 0.009 53.1)",
+    "popover-foreground": "oklch(0.977 0.007 80.7)",
+    "primary": "oklch(0.904 0.018 78.2)",
+    "primary-foreground": "oklch(0.234 0.016 53.8)",
+    "secondary": "oklch(0.418 0.008 75.3)",
+    "secondary-foreground": "oklch(0.977 0.007 80.7)",
+    "muted": "oklch(0.418 0.008 75.3)",
+    "muted-foreground": "oklch(0.908 0.009 78.3)",
+    "accent": "oklch(0.581 0.099 136.8)",
+    "accent-foreground": "oklch(0.234 0.016 53.8)",
+    "destructive": "oklch(0.702 0.098 67.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.904 0.018 78.2)",
+    "chart-1": "oklch(0.904 0.018 78.2)",
+    "chart-2": "oklch(0.702 0.098 67.1)",
+    "chart-3": "oklch(0.581 0.099 136.8)",
+    "chart-4": "oklch(0.581 0.099 136.8)",
+    "chart-5": "oklch(0.821 0.012 84.6)",
+    "sidebar": "oklch(0.257 0.012 55.8)",
+    "sidebar-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-primary": "oklch(0.904 0.018 78.2)",
+    "sidebar-primary-foreground": "oklch(0.234 0.016 53.8)",
+    "sidebar-accent": "oklch(0.418 0.008 75.3)",
+    "sidebar-accent-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.904 0.018 78.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clear governance English UI with Japanese typography guidance for policy headings, approvals, audit logs, search, review tables, numerals, and dense administrative workflows.",
+  "layout": "Precise 8px governance grids, branching antler navigation structure, compact dashboard cards, policy tables, audit forms, restrained shadows, and fur-grain texture bands.",
+  "tags": [
+    "elk",
+    "mammal",
+    "mountain-meadow",
+    "antlers",
+    "tawny-fur",
+    "dark-mane",
+    "grass-green",
+    "governance-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-elk/motif.png",
+    "board": "/systems/morphous-elk/design-system-light.png",
+    "darkBoard": "/systems/morphous-elk/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-elk/theme.css",
+    "themeJson": "/systems/morphous-elk/theme.json",
+    "promptsJson": "/systems/morphous-elk/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent elk motif",
+      "asset": "/systems/morphous-elk/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a mature bull elk, isolated full subject, no environment, no props, no text.\nSubject: One majestic North American bull elk standing in a calm three-quarter pose with full branching antlers, accurate elk anatomy, tawny body fur, dark chocolate mane on neck and chest, darker legs, pale rump patch kept subtle, grass-green meadow tint only as tiny natural flecks caught in lower fur, mountain meadow clarity without adding a landscape. Emphasize antler structure, confident posture, natural fur texture, and clean silhouette suitable for a design-system motif.\nComposition/framing: centered complete full-body elk cutout with generous padding on all sides; do not crop antlers, legs, hooves, tail, or ears; keep antlers fully inside frame.\nLighting/mood: clean studio light that preserves tawny fur, dark mane, antler bone texture, and calm governance-system dignity.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no landscape, no mountains, no grass field, no decorative background, no second animal, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-elk/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Elk light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Elk\", derived from an isolated bull elk motif with broad antlers, tawny fur, dark mane, and mountain meadow grass green accents. This board is a source reference for implementing a shadcn/tweakcn-compatible clear governance system.\nReference use: Treat the visible elk motif as the source of truth. Extract palette, texture rhythm, interaction language, and governance mood from branching elk antlers, tawny fur, dark mane, antler bone, hoof charcoal, meadow grass green, and mountain meadow clarity. The board must visibly respect these motif colors and natural textures.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Elk, Elk, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: warm parchment background, dark mane ink, tawny fur primary, antler bone surface, meadow grass green accent, alpine shadow border, hoof charcoal data ink, pale sky mist neutral, amber warning, and restrained near-neutrals derived only from the elk motif.\nTypography: clear governance product UI guidance with English and Japanese type. Use a trustworthy humanist sans for interface text, a sturdy serif or slab display guidance for policy headings, and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, approvals, audit logs, table numerals, and dense workflows. Include short Japanese labels such as 方針, 承認, 記録, 審査.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, quorum chart, policy line chart, budget bar chart, review table, audit log table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple antler-inspired icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet civic governance dashboard, clear hierarchy, antler-branch navigation logic, warm tawny primary actions, grass-green confirmation states, dark mane typography, bone-colored panels, subtle fur-grain and meadow-line textures, compact data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Elk\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-elk/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Elk dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Elk\". It must feel like the same clear governance system translated to dark mode, not a new theme, and it must remain derived from the isolated bull elk motif and the visible light-mode board.\nReference use: Preserve the elk motif language from broad antlers, tawny fur, dark mane, antler bone, hoof charcoal, meadow grass green accents, mountain meadow clarity, antler-branch navigation logic, 8px radius controls, compact governance dashboard, policy tables, command search, forms, charts, status states, texture swatches, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Elk, Dark Mode, Elk, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deep dark mane background, warm charcoal panels, tawny fur primary controls, antler bone text and cards, meadow grass green confirmation accents, alpine shadow borders, hoof charcoal data surfaces, amber warning, and pale sky mist highlights derived only from the elk motif.\nTypography: clear governance product UI guidance with English and Japanese type. Use a trustworthy humanist sans for interface text, a sturdy serif or slab display guidance for policy headings, and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, approvals, audit logs, table numerals, and dense workflows. Include short Japanese labels such as 方針, 承認, 記録, 審査.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, quorum chart, policy line chart, budget bar chart, review table, audit log table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple antler-inspired icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: deepest dark mane and hoof-charcoal background, elevated warm-brown charcoal panels, antler-bone foreground text, tawny primary actions, grass-green active navigation and approval states, amber caution, subtle fur-grain and antler-line texture overlays, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Elk\", no tiny illegible paragraphs."
+    }
+  ]
+}

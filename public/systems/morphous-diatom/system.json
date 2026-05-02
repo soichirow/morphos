@@ -1,0 +1,65 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-diatom",
+  "name": "Morphous Diatom",
+  "status": "ready",
+  "queueRow": 270,
+  "motifName": "Diatom",
+  "motifCategory": "microorganism",
+  "biome": "plankton bloom",
+  "motif": "diatom shell",
+  "description": "A precise microscopy product system derived from a glass-gold silica diatom shell: radial pore lattices, blue microscopy shadows, pale slide surfaces, and disciplined data UI structure.",
+  "typography": "Geist for compact scientific product UI with Noto Sans JP guidance for headings, labels, numerals, and observation notes.",
+  "layout": "Microscope-slide grids, radial pore rhythm, 8px component radii, gold silica hairlines, compact command surfaces, and data-first dashboard spacing.",
+  "designMood": "precise microscopy system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "diatom",
+    "microorganism",
+    "plankton bloom",
+    "diatom shell",
+    "glass gold silica blue shadow",
+    "precise microscopy system",
+    "dark-ready"
+  ],
+  "palette": [
+    { "role": "Background", "name": "Silica White", "hex": "#f7f9fc" },
+    { "role": "Surface", "name": "Slide Surface", "hex": "#f2f5f9" },
+    { "role": "Primary", "name": "Golden Frustule", "hex": "#d8b14a" },
+    { "role": "Secondary", "name": "Pore Amber", "hex": "#f0c97a" },
+    { "role": "Accent", "name": "Blue Shadow", "hex": "#5f86a8" },
+    { "role": "Signal", "name": "Bloom Teal Gray", "hex": "#7fa0a8" },
+    { "role": "Ink", "name": "Microscope Ink", "hex": "#0e1a24" },
+    { "role": "Tint", "name": "Plankton Glass", "hex": "#e6f0f7" },
+    { "role": "Muted", "name": "Sediment Line", "hex": "#a6b1b7" }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

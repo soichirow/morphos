@@ -1,0 +1,189 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-drizzle",
+    "name": "Morphous Drizzle",
+    "motifName": "Drizzle",
+    "motifCategory": "weather",
+    "biome": "coastal morning",
+    "motif": "drizzle droplets"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Tide Foam",
+      "hex": "#F0F2F1",
+      "oklch": "oklch(0.959 0.003 165.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Slate",
+      "hex": "#0F1418",
+      "oklch": "oklch(0.188 0.011 242.4)"
+    },
+    {
+      "role": "Primary",
+      "name": "Soft Green",
+      "hex": "#A7C8A5",
+      "oklch": "oklch(0.799 0.060 143.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sea Mist",
+      "hex": "#E5ECE8",
+      "oklch": "oklch(0.937 0.009 161.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Droplet Glass",
+      "hex": "#C7D3D8",
+      "oklch": "oklch(0.859 0.015 224.5)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warning Amber",
+      "hex": "#D8A23D",
+      "oklch": "oklch(0.745 0.131 79.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Grey",
+      "hex": "#E6E8E8",
+      "oklch": "oklch(0.929 0.002 197.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Stone",
+      "hex": "#8F9896",
+      "oklch": "oklch(0.672 0.011 181.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Stone Slate",
+      "hex": "#1A2126",
+      "oklch": "oklch(0.243 0.014 239.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Rain Line",
+      "hex": "#C9D1CE",
+      "oklch": "oklch(0.854 0.010 171.8)"
+    },
+    {
+      "role": "Success",
+      "name": "Dew Green",
+      "hex": "#7FA77B",
+      "oklch": "oklch(0.687 0.077 142.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.003 165.1)",
+    "foreground": "oklch(0.188 0.011 242.4)",
+    "card": "oklch(0.929 0.002 197.1)",
+    "card-foreground": "oklch(0.188 0.011 242.4)",
+    "popover": "oklch(0.929 0.002 197.1)",
+    "popover-foreground": "oklch(0.188 0.011 242.4)",
+    "primary": "oklch(0.799 0.060 143.5)",
+    "primary-foreground": "oklch(0.959 0.003 165.1)",
+    "secondary": "oklch(0.942 0.002 197.1)",
+    "secondary-foreground": "oklch(0.243 0.014 239.2)",
+    "muted": "oklch(0.939 0.002 197.1)",
+    "muted-foreground": "oklch(0.243 0.014 239.2)",
+    "accent": "oklch(0.859 0.015 224.5)",
+    "accent-foreground": "oklch(0.188 0.011 242.4)",
+    "destructive": "oklch(0.799 0.060 143.5)",
+    "border": "oklch(0.839 0.005 179.7)",
+    "input": "oklch(0.839 0.005 179.7)",
+    "ring": "oklch(0.937 0.009 161.3)",
+    "chart-1": "oklch(0.799 0.060 143.5)",
+    "chart-2": "oklch(0.937 0.009 161.3)",
+    "chart-3": "oklch(0.859 0.015 224.5)",
+    "chart-4": "oklch(0.745 0.131 79.6)",
+    "chart-5": "oklch(0.243 0.014 239.2)",
+    "sidebar": "oklch(0.939 0.002 197.1)",
+    "sidebar-foreground": "oklch(0.188 0.011 242.4)",
+    "sidebar-primary": "oklch(0.799 0.060 143.5)",
+    "sidebar-primary-foreground": "oklch(0.959 0.003 165.1)",
+    "sidebar-accent": "oklch(0.913 0.008 157.1)",
+    "sidebar-accent-foreground": "oklch(0.799 0.060 143.5)",
+    "sidebar-border": "oklch(0.839 0.005 179.7)",
+    "sidebar-ring": "oklch(0.937 0.009 161.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.188 0.011 242.4)",
+    "foreground": "oklch(0.959 0.003 165.1)",
+    "card": "oklch(0.226 0.013 233.2)",
+    "card-foreground": "oklch(0.959 0.003 165.1)",
+    "popover": "oklch(0.226 0.013 233.2)",
+    "popover-foreground": "oklch(0.959 0.003 165.1)",
+    "primary": "oklch(0.937 0.009 161.3)",
+    "primary-foreground": "oklch(0.188 0.011 242.4)",
+    "secondary": "oklch(0.347 0.012 232.7)",
+    "secondary-foreground": "oklch(0.959 0.003 165.1)",
+    "muted": "oklch(0.347 0.012 232.7)",
+    "muted-foreground": "oklch(0.834 0.007 174.3)",
+    "accent": "oklch(0.859 0.015 224.5)",
+    "accent-foreground": "oklch(0.188 0.011 242.4)",
+    "destructive": "oklch(0.799 0.060 143.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.937 0.009 161.3)",
+    "chart-1": "oklch(0.937 0.009 161.3)",
+    "chart-2": "oklch(0.799 0.060 143.5)",
+    "chart-3": "oklch(0.859 0.015 224.5)",
+    "chart-4": "oklch(0.745 0.131 79.6)",
+    "chart-5": "oklch(0.672 0.011 181.2)",
+    "sidebar": "oklch(0.213 0.012 237.3)",
+    "sidebar-foreground": "oklch(0.959 0.003 165.1)",
+    "sidebar-primary": "oklch(0.937 0.009 161.3)",
+    "sidebar-primary-foreground": "oklch(0.188 0.011 242.4)",
+    "sidebar-accent": "oklch(0.347 0.012 232.7)",
+    "sidebar-accent-foreground": "oklch(0.959 0.003 165.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.937 0.009 161.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Clean product English UI with Japanese typography guidance for navigation labels, forms, tables, dashboard metrics, command search, and calm focused content.",
+  "layout": "Subtle productivity layouts, 8px radii, soft green primary actions, pearl grey surfaces, wet stone dividers, low-contrast borders, compact dashboards, and fine drizzle-dot texture.",
+  "tags": [
+    "drizzle",
+    "weather",
+    "coastal-morning",
+    "pearl-grey",
+    "soft-green",
+    "wet-stone",
+    "subtle-productivity",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-drizzle/motif.png",
+    "board": "/systems/morphous-drizzle/design-system-light.png",
+    "darkBoard": "/systems/morphous-drizzle/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-drizzle/theme.css",
+    "themeJson": "/systems/morphous-drizzle/theme.json",
+    "promptsJson": "/systems/morphous-drizzle/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent drizzle droplet motif",
+      "asset": "/systems/morphous-drizzle/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Drizzle transparent motif chroma-key source\nPrimary request: Create a complete drizzle droplet motif for a design-system catalog, isolated on a removable chroma-key background.\nSubject: A delicate cluster of coastal morning drizzle droplets suspended on a thin soft-green seaside grass blade and a small wet-stone fragment, pearl-grey highlights, translucent bead edges, subtle wet stone shadows within the subject only, calm refined material texture. Crisp edges, no cast shadow outside the subject.\nComposition/framing: centered complete cutout with generous padding, droplets, grass blade, and wet-stone detail visible without cropping; elegant quiet silhouette suitable for a productivity design-system motif.\nChroma-key background: perfectly flat solid #ff00ff background for removal, uniform color only, no shadow, gradient, texture, reflection, floor plane, watermark, or text.\nConstraints: do not use #ff00ff anywhere in the subject, no rain cloud, no umbrella, no ocean landscape, no hand, no props, no text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-drizzle/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Drizzle light-mode design-system board\nPrimary request: Generate one comprehensive light-mode shadcn/tweakcn design-system board named Morphous Drizzle, derived from a coastal morning drizzle droplet motif: pearl-grey water beads on soft green seaside grass emerging from smooth wet stone.\nCanvas: wide 16:9 4K-class design board, polished subtle productivity-system presentation, quiet and highly legible.\nVisual system: pearl grey backgrounds, soft green accents, wet stone neutrals, fine drizzle-dot texture, coastal morning clarity, restrained work-focused UI, 8px radius, crisp hairline borders, gentle glassy highlights.\nRequired visible sections: Morphous Drizzle, Drizzle Droplets, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, navigation groups, sidebar, command palette, tables, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, borders, shadows, and token swatches.\nPalette labels to include where legible: Pearl Grey, Soft Green, Wet Stone, Sea Mist, Droplet Glass, Deep Slate, Tide Foam.\nConstraints: no generic blue or purple gradient UI, no saturated neon colors, no dark storm scene, no umbrella, no clouds as the main motif, no tiny unreadable text, no watermark, no misspelling of Morphous Drizzle."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-drizzle/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Drizzle dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode shadcn/tweakcn design-system board named Morphous Drizzle that feels like the light system translated to dark mode.\nCanvas: wide 16:9 4K-class design board, polished subtle productivity-system presentation, quiet and highly legible.\nVisual system: deep wet-stone and slate surfaces, pearl-grey text, soft green primary actions and focus rings, droplet-glass highlights, coastal morning drizzle texture, restrained work-focused UI, 8px radius, crisp low-contrast borders, gentle glassy highlights.\nRequired visible sections: Morphous Drizzle, Drizzle Droplets, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Asset Examples.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, navigation groups, sidebar, command palette, tables, metrics, charts, forms, empty/loading/error/success states, texture samples, spacing, radius, borders, shadows, and token swatches.\nPalette labels to include where legible: Deep Slate, Wet Stone, Pearl Grey, Soft Green, Sea Mist, Droplet Glass, Tide Foam.\nConstraints: no neon palette, no generic black UI, no purple or blue gradient theme, no saturated colors, no stormy rain scene, no umbrella, no tiny unreadable text, no watermark, no misspelling of Morphous Drizzle."
+    }
+  ]
+}

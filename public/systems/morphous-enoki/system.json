@@ -1,0 +1,114 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 274,
+  "slug": "morphous-enoki",
+  "name": "Morphous Enoki",
+  "motifName": "Enoki",
+  "motifCategory": "fungi",
+  "biome": "winter wood",
+  "motif": "enoki cluster",
+  "description": "A shadcn/tweakcn-compatible slender workflow system derived from a winter-wood enoki cluster: ivory stem surfaces, pale-gold cap actions, honey-ochre highlights, gill-taupe borders, root-umber structure, and deep wood dark mode for task queues, handoffs, dashboards, and command-driven operations.",
+  "typography": "Slender English workflow UI with stable tabular numbers, narrow task labels, and Noto Sans JP guidance for Japanese queue, approval, handoff, and status screens.",
+  "layout": "Airy 8px workflow grids, vertical stem-line dividers, mycelium-thread separators, compact queue cards, dashboard/data panels, command search, task tables, and restrained 8px cards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "enoki",
+    "fungi",
+    "winter-wood",
+    "slender-workflow",
+    "ivory-stem",
+    "pale-gold-cap",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore White",
+      "hex": "#FBFAF6"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Wood",
+      "hex": "#1E160E"
+    },
+    {
+      "role": "Primary",
+      "name": "Cap Gold",
+      "hex": "#F0C97A"
+    },
+    {
+      "role": "Secondary",
+      "name": "Honey Ochre",
+      "hex": "#E7B84A"
+    },
+    {
+      "role": "Accent",
+      "name": "Stem Ivory",
+      "hex": "#F6F1E6"
+    },
+    {
+      "role": "Signal",
+      "name": "Root Umber",
+      "hex": "#9C7346"
+    },
+    {
+      "role": "Surface",
+      "name": "Hyphae White",
+      "hex": "#FFFDF8"
+    },
+    {
+      "role": "Muted",
+      "name": "Gill Taupe",
+      "hex": "#D9C8A9"
+    },
+    {
+      "role": "Border",
+      "name": "Mycelium Line",
+      "hex": "#E6DDC4"
+    },
+    {
+      "role": "Depth",
+      "name": "Wood Ink",
+      "hex": "#5A432B"
+    },
+    {
+      "role": "Warning",
+      "name": "Cap Amber",
+      "hex": "#F0C97A"
+    },
+    {
+      "role": "Danger",
+      "name": "Root Rust",
+      "hex": "#B85C3A"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

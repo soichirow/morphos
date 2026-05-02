@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-egret",
+    "name": "Morphous Egret",
+    "motifName": "Egret Plume",
+    "motifCategory": "bird",
+    "biome": "Tidal Marsh",
+    "motif": "egret plume"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Plume White",
+      "hex": "#fafaf9",
+      "oklch": "oklch(0.985 0.001 106.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#f5f6f4",
+      "oklch": "oklch(0.972 0.003 128.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Marsh Green",
+      "hex": "#5c6f55",
+      "oklch": "oklch(0.518 0.046 137.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tidal Sage",
+      "hex": "#93a38e",
+      "oklch": "oklch(0.697 0.035 138.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sand Dune",
+      "hex": "#e7e2d6",
+      "oklch": "oklch(0.913 0.017 88.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Reed Taupe",
+      "hex": "#cac3b5",
+      "oklch": "oklch(0.819 0.021 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Silt",
+      "hex": "#8e8883",
+      "oklch": "oklch(0.630 0.010 62.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mudflat",
+      "hex": "#7e726c",
+      "oklch": "oklch(0.561 0.018 48.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.001 106.4)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.972 0.003 128.5)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.972 0.003 128.5)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.518 0.046 137.3)",
+    "primary-foreground": "oklch(0.985 0.001 106.4)",
+    "secondary": "oklch(0.978 0.003 128.5)",
+    "secondary-foreground": "oklch(0.561 0.018 48.4)",
+    "muted": "oklch(0.975 0.003 128.5)",
+    "muted-foreground": "oklch(0.561 0.018 48.4)",
+    "accent": "oklch(0.913 0.017 88.0)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.518 0.046 137.3)",
+    "border": "oklch(0.852 0.005 78.3)",
+    "input": "oklch(0.852 0.005 78.3)",
+    "ring": "oklch(0.697 0.035 138.2)",
+    "chart-1": "oklch(0.518 0.046 137.3)",
+    "chart-2": "oklch(0.697 0.035 138.2)",
+    "chart-3": "oklch(0.913 0.017 88.0)",
+    "chart-4": "oklch(0.819 0.021 84.6)",
+    "chart-5": "oklch(0.561 0.018 48.4)",
+    "sidebar": "oklch(0.976 0.001 106.4)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.518 0.046 137.3)",
+    "sidebar-primary-foreground": "oklch(0.985 0.001 106.4)",
+    "sidebar-accent": "oklch(0.921 0.007 132.4)",
+    "sidebar-accent-foreground": "oklch(0.518 0.046 137.3)",
+    "sidebar-border": "oklch(0.852 0.005 78.3)",
+    "sidebar-ring": "oklch(0.697 0.035 138.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.000 89.9)",
+    "foreground": "oklch(0.985 0.001 106.4)",
+    "card": "oklch(0.441 0.012 48.4)",
+    "card-foreground": "oklch(0.985 0.001 106.4)",
+    "popover": "oklch(0.441 0.012 48.4)",
+    "popover-foreground": "oklch(0.985 0.001 106.4)",
+    "primary": "oklch(0.697 0.035 138.2)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.577 0.016 50.6)",
+    "secondary-foreground": "oklch(0.985 0.001 106.4)",
+    "muted": "oklch(0.577 0.016 50.6)",
+    "muted-foreground": "oklch(0.830 0.005 78.3)",
+    "accent": "oklch(0.913 0.017 88.0)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.518 0.046 137.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.697 0.035 138.2)",
+    "chart-1": "oklch(0.697 0.035 138.2)",
+    "chart-2": "oklch(0.518 0.046 137.3)",
+    "chart-3": "oklch(0.913 0.017 88.0)",
+    "chart-4": "oklch(0.819 0.021 84.6)",
+    "chart-5": "oklch(0.630 0.010 62.5)",
+    "sidebar": "oklch(0.368 0.009 53.2)",
+    "sidebar-foreground": "oklch(0.985 0.001 106.4)",
+    "sidebar-primary": "oklch(0.697 0.035 138.2)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.577 0.016 50.6)",
+    "sidebar-accent-foreground": "oklch(0.985 0.001 106.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.697 0.035 138.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Playfair Display for plume-like editorial headings, Inter for product UI, and Noto Serif JP / Noto Sans JP guidance for Japanese labels.",
+  "layout": "Airy 8px grids, fine black-leg dividers, feather-soft surface layers, compact dashboard panels, and calm tidal spacing for dense product interfaces.",
+  "tags": [
+    "egret",
+    "bird",
+    "tidal-marsh",
+    "plume",
+    "minimal-editorial",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-egret/motif.png",
+    "board": "/systems/morphous-egret/design-system-light.png",
+    "darkBoard": "/systems/morphous-egret/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-egret/theme.css",
+    "themeJson": "/systems/morphous-egret/theme.json",
+    "promptsJson": "/systems/morphous-egret/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Egret motif",
+      "asset": "/systems/morphous-egret/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Egret transparent motif chroma-key source\nPrimary request: Create only an isolated egret plume motif for a design-system catalog, no environment, no props, no text.\nSubject: an elegant white egret plume cluster with a partial slender black leg silhouette as a graphic counterform, accurate feather barbs, soft white layered plumes, pale warm highlights, subtle tidal-marsh green reflected tones, crisp outer silhouette, minimal editorial elegance.\nComposition/framing: centered complete cutout with generous padding; vertical plume sweep with the black leg as a thin contrasting stem; do not crop the subject.\nLighting/mood: clean studio light that preserves white feather texture, black leg contrast, and refined marsh-neutral color.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full bird body, no landscape, no water, no reeds as props, no text, no watermark, no second subject, no logo, no random brand marks."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-egret/design-system-light.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive light-mode design-system board for \"Morphous Egret\" / \"Egret Plume\", source reference for a shadcn/tweakcn theme. Use a minimal editorial system derived from a white egret plume with a slender black leg counterform, tidal marsh greens, reed taupes, shell whites, wet-silt neutrals, and quiet waterline accents. Include large readable sections for title, motif story, palette, typography, Japanese typography, navigation, dashboard charts, data table, form controls, search/command, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture, radius, spacing, shadow, and CSS token samples. Use shadcn/tweakcn-compatible product UI, precise editorial grid, 8px radius cards, black hairline dividers, feather-white surfaces, marsh green primary actions, silt-neutral secondary controls, pale shell panels, reed-taupe borders, and subtle plume texture strips. Avoid fake brand names, watermark, lorem ipsum blocks, tiny illegible token tables, purple/blue gradients, neon, unrelated saturated colors, and random logos."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-egret/design-system-dark.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive dark-mode design-system board for \"Morphous Egret\" / \"Egret Plume\", translated from the light board and the same white plume plus black leg motif. Use deep ink-black and wet-silt backgrounds, feather-white foreground text, shell-white cards in restrained contrast, marsh green primary actions, tidal sage accents, reed taupe borders, moonlit plume texture, hairline black-leg dividers, and calm editorial spacing. Include large readable sections for title, Dark Mode, motif story, palette, typography, Japanese typography, navigation, dashboard charts, data table, form controls, search/command, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture, radius, spacing, shadow, and CSS token samples. Preserve the light board's component language and shadcn/tweakcn compatibility. Avoid neon, unrelated saturated colors, purple/blue gradients, flat pure black except as accent, fake brands, watermark, and random logos."
+    }
+  ]
+}

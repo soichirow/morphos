@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 315,
+  "slug": "morphous-diving-beetle",
+  "name": "Morphous Diving Beetle",
+  "motifName": "Diving Beetle",
+  "motifCategory": "insect",
+  "biome": "freshwater pond",
+  "motif": "diving beetle",
+  "description": "A shadcn/tweakcn-compatible submerged control system derived from a predaceous diving beetle: olive-black shell structure, glossy wet highlights, teal pond telemetry, bronze rim focus states, amber paddle-leg signals, pale pond-glass surfaces, and deep pond-shadow command panels.",
+  "typography": "Inter Variable or Geist for compact English product UI, Geist Mono for telemetry and tabular sensor values, and Noto Sans JP guidance for Japanese navigation, command labels, status text, and water-quality dashboards.",
+  "layout": "Compact 8px dashboard grids, shell-panel navigation, waterline dividers, low-profile command surfaces, telemetry tables, pond-glass forms, 8px maximum radii, bronze focus rings, and fine wet-shell stipple textures.",
+  "designMood": "submerged control system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "diving-beetle",
+    "beetle",
+    "insect",
+    "freshwater-pond",
+    "olive-black-shell",
+    "water-teal",
+    "bronze-rim",
+    "submerged-control",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Mist",
+      "hex": "#F2F5F3",
+      "oklch": "oklch(0.967 0.004 157.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pond Glass",
+      "hex": "#D9E7E3",
+      "oklch": "oklch(0.916 0.016 177.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Wet Silt",
+      "hex": "#A9B8AF",
+      "oklch": "oklch(0.768 0.021 159.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Teal Deep",
+      "hex": "#0F3D3F",
+      "oklch": "oklch(0.331 0.048 199.3)"
+    },
+    {
+      "role": "Action",
+      "name": "Teal Glass",
+      "hex": "#2FA6A6",
+      "oklch": "oklch(0.662 0.101 195.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Shell Olive",
+      "hex": "#2A3324",
+      "oklch": "oklch(0.308 0.029 133.1)"
+    },
+    {
+      "role": "Support",
+      "name": "Olive Moss",
+      "hex": "#4A5636",
+      "oklch": "oklch(0.434 0.052 125.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pondweed",
+      "hex": "#6F8B43",
+      "oklch": "oklch(0.598 0.104 126.9)"
+    },
+    {
+      "role": "Focus",
+      "name": "Bronze Rim",
+      "hex": "#B97A2E",
+      "oklch": "oklch(0.632 0.119 67.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Amber Leg",
+      "hex": "#D08A2A",
+      "oklch": "oklch(0.689 0.135 69.5)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Signal",
+      "hex": "#B84A2E",
+      "oklch": "oklch(0.551 0.149 35.4)"
+    },
+    {
+      "role": "Depth",
+      "name": "Shell Deep",
+      "hex": "#0E120E",
+      "oklch": "oklch(0.176 0.010 145.1)"
+    },
+    {
+      "role": "Night",
+      "name": "Pond Shadow",
+      "hex": "#0A0F10",
+      "oklch": "oklch(0.163 0.008 211.2)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.967 0.004 157.2)",
+    "foreground": "oklch(0.176 0.010 145.1)",
+    "card": "oklch(0.916 0.016 177.1)",
+    "card-foreground": "oklch(0.176 0.010 145.1)",
+    "popover": "oklch(0.967 0.004 157.2)",
+    "popover-foreground": "oklch(0.176 0.010 145.1)",
+    "primary": "oklch(0.331 0.048 199.3)",
+    "primary-foreground": "oklch(0.967 0.004 157.2)",
+    "secondary": "oklch(0.916 0.016 177.1)",
+    "secondary-foreground": "oklch(0.176 0.010 145.1)",
+    "muted": "oklch(0.916 0.016 177.1)",
+    "muted-foreground": "oklch(0.434 0.052 125.2)",
+    "accent": "oklch(0.632 0.119 67.2)",
+    "accent-foreground": "oklch(0.176 0.010 145.1)",
+    "destructive": "oklch(0.551 0.149 35.4)",
+    "border": "oklch(0.768 0.021 159.6)",
+    "input": "oklch(0.768 0.021 159.6)",
+    "ring": "oklch(0.662 0.101 195.0)",
+    "chart-1": "oklch(0.662 0.101 195.0)",
+    "chart-2": "oklch(0.598 0.104 126.9)",
+    "chart-3": "oklch(0.689 0.135 69.5)",
+    "chart-4": "oklch(0.632 0.119 67.2)",
+    "chart-5": "oklch(0.434 0.052 125.2)",
+    "sidebar": "oklch(0.176 0.010 145.1)",
+    "sidebar-foreground": "oklch(0.967 0.004 157.2)",
+    "sidebar-primary": "oklch(0.662 0.101 195.0)",
+    "sidebar-primary-foreground": "oklch(0.163 0.008 211.2)",
+    "sidebar-accent": "oklch(0.308 0.029 133.1)",
+    "sidebar-accent-foreground": "oklch(0.967 0.004 157.2)",
+    "sidebar-border": "oklch(0.768 0.021 159.6 / 35%)",
+    "sidebar-ring": "oklch(0.662 0.101 195.0)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.163 0.008 211.2)",
+    "foreground": "oklch(0.967 0.004 157.2)",
+    "card": "oklch(0.176 0.010 145.1)",
+    "card-foreground": "oklch(0.967 0.004 157.2)",
+    "popover": "oklch(0.176 0.010 145.1)",
+    "popover-foreground": "oklch(0.967 0.004 157.2)",
+    "primary": "oklch(0.662 0.101 195.0)",
+    "primary-foreground": "oklch(0.163 0.008 211.2)",
+    "secondary": "oklch(0.308 0.029 133.1)",
+    "secondary-foreground": "oklch(0.967 0.004 157.2)",
+    "muted": "oklch(0.308 0.029 133.1)",
+    "muted-foreground": "oklch(0.768 0.021 159.6)",
+    "accent": "oklch(0.689 0.135 69.5)",
+    "accent-foreground": "oklch(0.163 0.008 211.2)",
+    "destructive": "oklch(0.551 0.149 35.4)",
+    "border": "oklch(0.768 0.021 159.6 / 28%)",
+    "input": "oklch(0.768 0.021 159.6 / 34%)",
+    "ring": "oklch(0.662 0.101 195.0)",
+    "chart-1": "oklch(0.662 0.101 195.0)",
+    "chart-2": "oklch(0.598 0.104 126.9)",
+    "chart-3": "oklch(0.689 0.135 69.5)",
+    "chart-4": "oklch(0.632 0.119 67.2)",
+    "chart-5": "oklch(0.916 0.016 177.1)",
+    "sidebar": "oklch(0.176 0.010 145.1)",
+    "sidebar-foreground": "oklch(0.967 0.004 157.2)",
+    "sidebar-primary": "oklch(0.662 0.101 195.0)",
+    "sidebar-primary-foreground": "oklch(0.163 0.008 211.2)",
+    "sidebar-accent": "oklch(0.308 0.029 133.1)",
+    "sidebar-accent-foreground": "oklch(0.967 0.004 157.2)",
+    "sidebar-border": "oklch(0.768 0.021 159.6 / 28%)",
+    "sidebar-ring": "oklch(0.662 0.101 195.0)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

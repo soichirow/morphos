@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-emu",
+    "name": "Morphous Emu",
+    "motifName": "Emu",
+    "motifCategory": "bird",
+    "biome": "Australian scrub",
+    "motif": "emu feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dust Canvas",
+      "hex": "#eee3d2",
+      "oklch": "oklch(0.920 0.026 78.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather Parchment",
+      "hex": "#fbf5e9",
+      "oklch": "oklch(0.972 0.017 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Scrub Ink",
+      "hex": "#2f261f",
+      "oklch": "oklch(0.277 0.018 59.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Shaggy Umber",
+      "hex": "#8a5a35",
+      "oklch": "oklch(0.512 0.082 57.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Down Taupe",
+      "hex": "#c1a47f",
+      "oklch": "oklch(0.735 0.061 73.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Blue Wattle Skin",
+      "hex": "#527f92",
+      "oklch": "oklch(0.571 0.057 226.5)"
+    },
+    {
+      "role": "Muted",
+      "name": "Eucalyptus Gray",
+      "hex": "#87917f",
+      "oklch": "oklch(0.643 0.029 131.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Ochre Warning",
+      "hex": "#bd7b32",
+      "oklch": "oklch(0.639 0.120 65.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Red Earth",
+      "hex": "#a54a37",
+      "oklch": "oklch(0.523 0.125 33.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Scrub",
+      "hex": "#1f1a16",
+      "oklch": "oklch(0.222 0.011 60.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.920 0.026 78.9)",
+    "foreground": "oklch(0.277 0.018 59.8)",
+    "card": "oklch(0.972 0.017 84.6)",
+    "card-foreground": "oklch(0.277 0.018 59.8)",
+    "popover": "oklch(0.972 0.017 84.6)",
+    "popover-foreground": "oklch(0.277 0.018 59.8)",
+    "primary": "oklch(0.512 0.082 57.2)",
+    "primary-foreground": "oklch(0.920 0.026 78.9)",
+    "secondary": "oklch(0.949 0.021 79.1)",
+    "secondary-foreground": "oklch(0.222 0.011 60.9)",
+    "muted": "oklch(0.957 0.019 83.1)",
+    "muted-foreground": "oklch(0.222 0.011 60.9)",
+    "accent": "oklch(0.571 0.057 226.5)",
+    "accent-foreground": "oklch(0.277 0.018 59.8)",
+    "destructive": "oklch(0.512 0.082 57.2)",
+    "border": "oklch(0.857 0.019 106.8)",
+    "input": "oklch(0.857 0.019 106.8)",
+    "ring": "oklch(0.735 0.061 73.4)",
+    "chart-1": "oklch(0.512 0.082 57.2)",
+    "chart-2": "oklch(0.735 0.061 73.4)",
+    "chart-3": "oklch(0.571 0.057 226.5)",
+    "chart-4": "oklch(0.571 0.057 226.5)",
+    "chart-5": "oklch(0.222 0.011 60.9)",
+    "sidebar": "oklch(0.955 0.020 81.8)",
+    "sidebar-foreground": "oklch(0.277 0.018 59.8)",
+    "sidebar-primary": "oklch(0.512 0.082 57.2)",
+    "sidebar-primary-foreground": "oklch(0.920 0.026 78.9)",
+    "sidebar-accent": "oklch(0.917 0.023 75.9)",
+    "sidebar-accent-foreground": "oklch(0.512 0.082 57.2)",
+    "sidebar-border": "oklch(0.857 0.019 106.8)",
+    "sidebar-ring": "oklch(0.735 0.061 73.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.277 0.018 59.8)",
+    "foreground": "oklch(0.920 0.026 78.9)",
+    "card": "oklch(0.240 0.013 61.9)",
+    "card-foreground": "oklch(0.920 0.026 78.9)",
+    "popover": "oklch(0.240 0.013 61.9)",
+    "popover-foreground": "oklch(0.920 0.026 78.9)",
+    "primary": "oklch(0.735 0.061 73.4)",
+    "primary-foreground": "oklch(0.277 0.018 59.8)",
+    "secondary": "oklch(0.325 0.012 93.8)",
+    "secondary-foreground": "oklch(0.920 0.026 78.9)",
+    "muted": "oklch(0.325 0.012 93.8)",
+    "muted-foreground": "oklch(0.798 0.024 101.4)",
+    "accent": "oklch(0.571 0.057 226.5)",
+    "accent-foreground": "oklch(0.277 0.018 59.8)",
+    "destructive": "oklch(0.512 0.082 57.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.735 0.061 73.4)",
+    "chart-1": "oklch(0.735 0.061 73.4)",
+    "chart-2": "oklch(0.512 0.082 57.2)",
+    "chart-3": "oklch(0.571 0.057 226.5)",
+    "chart-4": "oklch(0.571 0.057 226.5)",
+    "chart-5": "oklch(0.643 0.029 131.1)",
+    "sidebar": "oklch(0.251 0.015 53.8)",
+    "sidebar-foreground": "oklch(0.920 0.026 78.9)",
+    "sidebar-primary": "oklch(0.735 0.061 73.4)",
+    "sidebar-primary-foreground": "oklch(0.277 0.018 59.8)",
+    "sidebar-accent": "oklch(0.325 0.012 93.8)",
+    "sidebar-accent-foreground": "oklch(0.920 0.026 78.9)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.735 0.061 73.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for durable field-product UI with Noto Sans JP guidance for Japanese labels, tabular coordinates, and readable dense operational dashboards.",
+  "layout": "8px grid, rugged field panels, feather-fiber separators, compact navigation, dry scrub surfaces, restrained blue skin accents, and dashboard-first field workflows.",
+  "tags": [
+    "emu",
+    "bird",
+    "australian-scrub",
+    "shaggy-feather",
+    "brown",
+    "blue-skin",
+    "rugged-field-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-emu/motif.png",
+    "board": "/systems/morphous-emu/design-system-light.png",
+    "darkBoard": "/systems/morphous-emu/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-emu/theme.css",
+    "themeJson": "/systems/morphous-emu/theme.json",
+    "promptsJson": "/systems/morphous-emu/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent emu feather motif",
+      "asset": "/systems/morphous-emu/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create a single emu feather motif: a clustered fan of shaggy emu body feathers, isolated as a product-style cutout, no bird body, no environment, no props, no text.\nSubject: rugged Australian emu feather cluster with long loose double-shaft strands, shaggy brown and taupe barbs, charcoal umber tips, a few subtle dusky blue-gray skin-inspired accent beads or tiny stem shadows only if they remain natural and not decorative. Feather texture must be detailed, dry, wiry, and field-worn.\nComposition/framing: centered complete cutout with generous padding; vertical but slightly splayed fan shape; do not crop any feather ends.\nLighting/mood: clean studio light that preserves brown shaggy feather texture and rugged field-system feel.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no landscape, no full emu bird, no shadow, no reflection, no floor plane."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-emu/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Emu\nPrimary request: Generate a comprehensive light-mode design-system board for a motif-driven UI theme named Emu, derived from shaggy emu feathers and Australian scrub: layered brown feather fibers, taupe dust, charcoal tips, muted eucalyptus gray-green, oxidized blue emu skin accents, red ochre warning, and dry field-station neutrals.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: rugged field system for Australian scrub operations, durable product UI, dense but organized dashboards, fiber-line dividers, bristle textures, field-note navigation, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Emu\", motif story with emu feather cutout, palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, field log feed, dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: Dust Canvas #eee3d2 background, Feather Parchment #fbf5e9 cards, Scrub Ink #2f261f text, Shaggy Umber #8a5a35 primary, Down Taupe #c1a47f secondary, Blue Wattle Skin #527f92 accent, Eucalyptus Gray #87917f muted, Ochre Warning #bd7b32, Red Earth #a54a37 destructive, Night Scrub #1f1a16 depth.\nText: short readable UI labels only; no long paragraphs. Labels should be generic product UI labels such as Field Log, Transects, Tasks, Status, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple gradients, no blue-dominant theme, no illegible microtext, no marketing hero layout, no cartoon bird mascot."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-emu/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Emu\nPrimary request: Generate a comprehensive dark-mode version of the Emu design-system board. It must feel like the same rugged Australian scrub field system translated to dark mode, not a new theme.\nReference style: shaggy emu feather fibers, charcoal brown tips, taupe dust, muted eucalyptus gray-green, oxidized blue emu skin accent, ochre warning, and red earth destructive states.\nCanvas: wide 16:9 high-resolution 4K-class board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: dark rugged field system for Australian scrub operations, durable product UI, dense but readable dashboards, fiber-line dividers, bristle textures, field-note navigation, 8px radius cards, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Emu Dark\", motif story with emu feather cutout, dark palette swatches, typography with English and Japanese examples, compact left navigation, top navigation, field log feed, dashboard metric cards, line chart, bar chart, small status donut, data table, form fields, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: Night Scrub #1f1a16 background, Charcoal Feather #2f261f panels, Dust Canvas #eee3d2 text, Down Taupe #c1a47f primary, Bark Rail #46362b secondary, Blue Wattle Skin #6b9aad accent, Eucalyptus Gray #87917f muted, Ochre Warning #d19646, Red Earth #c25b45 destructive. Keep blue as a precise accent, not the dominant color.\nText: short readable UI labels only; no long paragraphs. Labels should be generic product UI labels such as Field Log, Transects, Tasks, Status, Checkpoint, Forms, Table, Analytics, Search, Ready, Pending, Alert.\nConstraints: no watermark, no random brand names, no neon colors, no pure black flat background, no unrelated bright colors, no purple gradients, no blue-dominant theme, no illegible microtext, no marketing hero layout, no cartoon bird mascot."
+    }
+  ]
+}

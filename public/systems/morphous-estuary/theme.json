@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-estuary",
+    "name": "Morphous Estuary",
+    "motifName": "Estuary",
+    "motifCategory": "landscape",
+    "biome": "Tidal River",
+    "motif": "estuary marsh"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Silt Foam",
+      "hex": "#dde6e1",
+      "oklch": "oklch(0.917 0.012 162.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Channel",
+      "hex": "#0a2a36",
+      "oklch": "oklch(0.268 0.043 226.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Brackish Teal",
+      "hex": "#0e6f74",
+      "oklch": "oklch(0.494 0.081 200.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Mud Brown",
+      "hex": "#5a4431",
+      "oklch": "oklch(0.405 0.043 62.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Marsh Green",
+      "hex": "#608f5a",
+      "oklch": "oklch(0.602 0.093 141.7)"
+    },
+    {
+      "role": "Signal",
+      "name": "Reed Green",
+      "hex": "#8ba86c",
+      "oklch": "oklch(0.695 0.089 129.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Silt",
+      "hex": "#f2f4f1",
+      "oklch": "oklch(0.965 0.004 134.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Sand",
+      "hex": "#8c8173",
+      "oklch": "oklch(0.609 0.025 73.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Tidal Blue",
+      "hex": "#7fb0ac",
+      "oklch": "oklch(0.721 0.052 189.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.917 0.012 162.0)",
+    "foreground": "oklch(0.268 0.043 226.8)",
+    "card": "oklch(0.965 0.004 134.8)",
+    "card-foreground": "oklch(0.268 0.043 226.8)",
+    "popover": "oklch(0.965 0.004 134.8)",
+    "popover-foreground": "oklch(0.268 0.043 226.8)",
+    "primary": "oklch(0.494 0.081 200.5)",
+    "primary-foreground": "oklch(0.917 0.012 162.0)",
+    "secondary": "oklch(0.944 0.008 151.9)",
+    "secondary-foreground": "oklch(0.721 0.052 189.7)",
+    "muted": "oklch(0.951 0.006 153.8)",
+    "muted-foreground": "oklch(0.721 0.052 189.7)",
+    "accent": "oklch(0.602 0.093 141.7)",
+    "accent-foreground": "oklch(0.268 0.043 226.8)",
+    "destructive": "oklch(0.494 0.081 200.5)",
+    "border": "oklch(0.842 0.010 93.6)",
+    "input": "oklch(0.842 0.010 93.6)",
+    "ring": "oklch(0.405 0.043 62.0)",
+    "chart-1": "oklch(0.494 0.081 200.5)",
+    "chart-2": "oklch(0.405 0.043 62.0)",
+    "chart-3": "oklch(0.602 0.093 141.7)",
+    "chart-4": "oklch(0.695 0.089 129.5)",
+    "chart-5": "oklch(0.721 0.052 189.7)",
+    "sidebar": "oklch(0.948 0.006 153.8)",
+    "sidebar-foreground": "oklch(0.268 0.043 226.8)",
+    "sidebar-primary": "oklch(0.494 0.081 200.5)",
+    "sidebar-primary-foreground": "oklch(0.917 0.012 162.0)",
+    "sidebar-accent": "oklch(0.909 0.014 185.9)",
+    "sidebar-accent-foreground": "oklch(0.494 0.081 200.5)",
+    "sidebar-border": "oklch(0.842 0.010 93.6)",
+    "sidebar-ring": "oklch(0.405 0.043 62.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.268 0.043 226.8)",
+    "foreground": "oklch(0.917 0.012 162.0)",
+    "card": "oklch(0.576 0.047 199.6)",
+    "card-foreground": "oklch(0.917 0.012 162.0)",
+    "popover": "oklch(0.576 0.047 199.6)",
+    "popover-foreground": "oklch(0.917 0.012 162.0)",
+    "primary": "oklch(0.405 0.043 62.0)",
+    "primary-foreground": "oklch(0.268 0.043 226.8)",
+    "secondary": "oklch(0.696 0.041 181.9)",
+    "secondary-foreground": "oklch(0.917 0.012 162.0)",
+    "muted": "oklch(0.696 0.041 181.9)",
+    "muted-foreground": "oklch(0.783 0.013 106.7)",
+    "accent": "oklch(0.602 0.093 141.7)",
+    "accent-foreground": "oklch(0.268 0.043 226.8)",
+    "destructive": "oklch(0.494 0.081 200.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.405 0.043 62.0)",
+    "chart-1": "oklch(0.405 0.043 62.0)",
+    "chart-2": "oklch(0.494 0.081 200.5)",
+    "chart-3": "oklch(0.602 0.093 141.7)",
+    "chart-4": "oklch(0.695 0.089 129.5)",
+    "chart-5": "oklch(0.609 0.025 73.9)",
+    "sidebar": "oklch(0.489 0.045 203.9)",
+    "sidebar-foreground": "oklch(0.917 0.012 162.0)",
+    "sidebar-primary": "oklch(0.405 0.043 62.0)",
+    "sidebar-primary-foreground": "oklch(0.268 0.043 226.8)",
+    "sidebar-accent": "oklch(0.696 0.041 181.9)",
+    "sidebar-accent-foreground": "oklch(0.917 0.012 162.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.405 0.043 62.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for resilient operations UI with Noto Sans JP guidance for headings, body, labels, and numerals.",
+  "layout": "Tidal-channel dividers, mud-bank card boundaries, 8px component radius, reed-like status rhythm, and dense but calm operational dashboards.",
+  "tags": [
+    "estuary",
+    "landscape",
+    "tidal-river",
+    "brackish-teal",
+    "operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-estuary/motif.png",
+    "board": "/systems/morphous-estuary/design-system-light.png",
+    "darkBoard": "/systems/morphous-estuary/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-estuary/theme.css",
+    "themeJson": "/systems/morphous-estuary/theme.json",
+    "promptsJson": "/systems/morphous-estuary/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent estuary marsh motif source",
+      "asset": "/systems/morphous-estuary/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an estuary marsh motif for a Morphous system named Estuary, isolated full subject, no text.\nScene/backdrop: The subject must sit on a perfectly flat solid #ff00ff chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nSubject: A compact landscape cutout of a tidal river estuary marsh: winding brackish teal tidal channel, mud-brown banks and exposed flats, marsh-green reeds and grasses, subtle shell and silt texture, resilient interlaced channels.\nStyle/medium: polished naturalistic bitmap motif, detailed but clean enough to become a catalog cutout.\nComposition/framing: centered complete motif with generous padding; do not crop reeds, banks, or channel edges; clear silhouette.\nLighting/mood: clean overcast coastal daylight, resilient operations-system mood, calm but structured.\nColor palette: brackish teal water, mud brown sediment, marsh green reeds, pale silt highlights.\nConstraints: no people, no buildings, no boats, no animals, no text, no watermark, no decorative background, no cast shadow, no contact shadow, no reflection.\nAvoid: Do not use #ff00ff anywhere in the subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-estuary/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Estuary\" derived from the visible estuary marsh motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from brackish teal tidal channels, mud-brown banks, marsh-green reeds, pale silt highlights, shell texture, and resilient interlaced estuary channels. This light board is the primary reference for coding any future theme.\nCanvas: wide 16:9 board, high-resolution 4K-class composition.\nRequired visible sections: Morphous Estuary, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance; keep labels large and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nStyle/medium: premium shadcn/tweakcn-style product design system, precise grid, 8px card radius, resilient operations UI, tidal-channel dividers, mud-bank borders, reed-like status bars, pale silt surfaces.\nColor palette: brackish teal, mud brown, marsh green, pale silt, deep channel ink; avoid unrelated saturated colors.\nConstraints: no generic purple gradients, no stock UI kit look, no watermark, no random brand names, no misspelling of \"Morphous Estuary\", no tiny illegible token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-estuary/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode version of the visible Morphous Estuary design-system board. It must feel like the same resilient operations system translated to dark mode, not a new theme.\nReference use: Use the visible estuary marsh motif and the visible light-mode board as references. Preserve the brackish teal palette roles, mud-brown structure, marsh-green status accents, pale silt highlights, tidal-channel dividers, spacing, Japanese typography, and shadcn/tweakcn component coverage. This dark board is the companion reference for coding any future theme.\nCanvas: wide 16:9 board, high-resolution 4K-class composition.\nRequired visible sections: Morphous Estuary, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nVisual details: deep channel ink background, silt-light foreground text, brackish teal primary actions, mud-brown and reed-green cards, marsh-green health indicators, oyster/shell focus states, restrained contrast, crisp cards and controls.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples.\nConstraints: no neon colors, no unrelated saturated colors, no flat pure-black-only background, no illegible text, no random brand names, no misspelling of \"Morphous Estuary\", no generic purple gradients."
+    }
+  ]
+}

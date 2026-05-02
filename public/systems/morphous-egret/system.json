@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-egret",
+  "name": "Morphous Egret",
+  "motifName": "Egret Plume",
+  "motifCategory": "bird",
+  "biome": "Tidal Marsh",
+  "motif": "egret plume",
+  "description": "A shadcn/tweakcn-compatible minimal editorial system shaped by egret plume whites, black leg hairlines, marsh green action states, and quiet tidal neutrals.",
+  "typography": "Playfair Display for plume-like editorial headings, Inter for product UI, and Noto Serif JP / Noto Sans JP guidance for Japanese labels.",
+  "layout": "Airy 8px grids, fine black-leg dividers, feather-soft surface layers, compact dashboard panels, and calm tidal spacing for dense product interfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "egret",
+    "bird",
+    "tidal-marsh",
+    "plume",
+    "minimal-editorial",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Plume White",
+      "hex": "#fafaf9"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#f5f6f4"
+    },
+    {
+      "role": "Primary",
+      "name": "Marsh Green",
+      "hex": "#5c6f55"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tidal Sage",
+      "hex": "#93a38e"
+    },
+    {
+      "role": "Accent",
+      "name": "Sand Dune",
+      "hex": "#e7e2d6"
+    },
+    {
+      "role": "Border",
+      "name": "Reed Taupe",
+      "hex": "#cac3b5"
+    },
+    {
+      "role": "Muted",
+      "name": "Wet Silt",
+      "hex": "#8e8883"
+    },
+    {
+      "role": "Depth",
+      "name": "Mudflat",
+      "hex": "#7e726c"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Black",
+      "hex": "#111111"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

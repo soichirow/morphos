@@ -1,0 +1,112 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 282,
+  "slug": "morphous-earthstar",
+  "name": "Earthstar",
+  "motifName": "Earthstar Fungus",
+  "motifCategory": "fungi",
+  "biome": "Sandy Woodland",
+  "motif": "earthstar fungus",
+  "designMood": "celestial catalog system",
+  "description": "A shadcn/tweakcn-compatible system derived from an earthstar fungus: sandy tan star rays, cracked woodland parchment, pore-gold highlights, a dark umber spore sac, and soil-ink depth. The system is built for calm cataloging, observation dashboards, and data-heavy field workflows.",
+  "typography": "Geist for precise catalog UI with Noto Sans JP guidance for Japanese taxonomy labels, observation states, and numeric measurements.",
+  "layout": "Dense 8px catalog grids, radial star dividers, spore-dust texture fields, compact observation cards, and quiet data panels with dark-mode parity.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "earthstar",
+    "fungi",
+    "sandy-woodland",
+    "tan-star",
+    "dark-spore",
+    "soil",
+    "celestial",
+    "catalog",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Fungal Parchment",
+      "hex": "#F7F1E6"
+    },
+    {
+      "role": "Surface",
+      "name": "Spore Milk",
+      "hex": "#F2E8DA"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sand Ray",
+      "hex": "#DCC2A2"
+    },
+    {
+      "role": "Muted",
+      "name": "Open Ray Tan",
+      "hex": "#C7A47B"
+    },
+    {
+      "role": "Accent",
+      "name": "Cortex Ochre",
+      "hex": "#B58C4C"
+    },
+    {
+      "role": "Signal",
+      "name": "Pore Gold",
+      "hex": "#D99A33"
+    },
+    {
+      "role": "Texture",
+      "name": "Soil Dust",
+      "hex": "#A58567"
+    },
+    {
+      "role": "Primary",
+      "name": "Rind Umber",
+      "hex": "#8C5E33"
+    },
+    {
+      "role": "Spore",
+      "name": "Spore Sac",
+      "hex": "#584A34"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Soil",
+      "hex": "#2F231A"
+    },
+    {
+      "role": "Ink",
+      "name": "Soil Ink",
+      "hex": "#1F1913"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-falcon",
+    "name": "Morphous Falcon",
+    "motifName": "Falcon Wing",
+    "motifCategory": "bird",
+    "biome": "Cliff Sky",
+    "motif": "falcon wing"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sky Cream",
+      "hex": "#f6f1e6",
+      "oklch": "oklch(0.959 0.016 86.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather Cream",
+      "hex": "#e8dcc8",
+      "oklch": "oklch(0.899 0.030 80.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Wing Slate",
+      "hex": "#5f6670",
+      "oklch": "oklch(0.508 0.018 257.2)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Flight Grey",
+      "hex": "#858b91",
+      "oklch": "oklch(0.634 0.011 248.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Talon Ochre",
+      "hex": "#b88a3d",
+      "oklch": "oklch(0.663 0.109 77.7)"
+    },
+    {
+      "role": "Warning",
+      "name": "Signal Rust",
+      "hex": "#9f4f32",
+      "oklch": "oklch(0.521 0.115 40.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Cliff Taupe",
+      "hex": "#b7aa98",
+      "oklch": "oklch(0.744 0.029 76.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "High Cloud",
+      "hex": "#d8d2c7",
+      "oklch": "oklch(0.866 0.016 82.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Eye Black",
+      "hex": "#111111",
+      "oklch": "oklch(0.178 0.000 89.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.016 86.4)",
+    "foreground": "oklch(0.178 0.000 89.9)",
+    "card": "oklch(0.899 0.030 80.7)",
+    "card-foreground": "oklch(0.178 0.000 89.9)",
+    "popover": "oklch(0.899 0.030 80.7)",
+    "popover-foreground": "oklch(0.178 0.000 89.9)",
+    "primary": "oklch(0.508 0.018 257.2)",
+    "primary-foreground": "oklch(0.959 0.016 86.4)",
+    "secondary": "oklch(0.925 0.023 82.1)",
+    "secondary-foreground": "oklch(0.899 0.030 80.7)",
+    "muted": "oklch(0.916 0.026 82.4)",
+    "muted-foreground": "oklch(0.899 0.030 80.7)",
+    "accent": "oklch(0.663 0.109 77.7)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.508 0.018 257.2)",
+    "border": "oklch(0.886 0.024 79.7)",
+    "input": "oklch(0.886 0.024 79.7)",
+    "ring": "oklch(0.634 0.011 248.0)",
+    "chart-1": "oklch(0.508 0.018 257.2)",
+    "chart-2": "oklch(0.634 0.011 248.0)",
+    "chart-3": "oklch(0.663 0.109 77.7)",
+    "chart-4": "oklch(0.521 0.115 40.2)",
+    "chart-5": "oklch(0.899 0.030 80.7)",
+    "sidebar": "oklch(0.919 0.025 81.1)",
+    "sidebar-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-primary": "oklch(0.508 0.018 257.2)",
+    "sidebar-primary-foreground": "oklch(0.959 0.016 86.4)",
+    "sidebar-accent": "oklch(0.855 0.026 81.1)",
+    "sidebar-accent-foreground": "oklch(0.508 0.018 257.2)",
+    "sidebar-border": "oklch(0.886 0.024 79.7)",
+    "sidebar-ring": "oklch(0.634 0.011 248.0)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.178 0.000 89.9)",
+    "foreground": "oklch(0.959 0.016 86.4)",
+    "card": "oklch(0.680 0.021 80.1)",
+    "card-foreground": "oklch(0.959 0.016 86.4)",
+    "popover": "oklch(0.680 0.021 80.1)",
+    "popover-foreground": "oklch(0.959 0.016 86.4)",
+    "primary": "oklch(0.634 0.011 248.0)",
+    "primary-foreground": "oklch(0.178 0.000 89.9)",
+    "secondary": "oklch(0.892 0.027 82.4)",
+    "secondary-foreground": "oklch(0.959 0.016 86.4)",
+    "muted": "oklch(0.892 0.027 82.4)",
+    "muted-foreground": "oklch(0.918 0.016 82.8)",
+    "accent": "oklch(0.663 0.109 77.7)",
+    "accent-foreground": "oklch(0.178 0.000 89.9)",
+    "destructive": "oklch(0.508 0.018 257.2)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.634 0.011 248.0)",
+    "chart-1": "oklch(0.634 0.011 248.0)",
+    "chart-2": "oklch(0.508 0.018 257.2)",
+    "chart-3": "oklch(0.663 0.109 77.7)",
+    "chart-4": "oklch(0.521 0.115 40.2)",
+    "chart-5": "oklch(0.866 0.016 82.8)",
+    "sidebar": "oklch(0.541 0.016 78.2)",
+    "sidebar-foreground": "oklch(0.959 0.016 86.4)",
+    "sidebar-primary": "oklch(0.634 0.011 248.0)",
+    "sidebar-primary-foreground": "oklch(0.178 0.000 89.9)",
+    "sidebar-accent": "oklch(0.892 0.027 82.4)",
+    "sidebar-accent-foreground": "oklch(0.959 0.016 86.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.634 0.011 248.0)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter Variable for dense analytics UI, Fraunces for sharp display moments, and Noto Sans JP guidance for Japanese dashboard labels.",
+  "layout": "Compact 8px analytics grids, aerodynamic diagonals, crisp sidebar navigation, data-dense cards, feather-bar chart textures, and black-eye focus states.",
+  "tags": [
+    "falcon",
+    "bird",
+    "cliff-sky",
+    "wing",
+    "fast-analytics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-falcon/motif.png",
+    "board": "/systems/morphous-falcon/design-system-light.png",
+    "darkBoard": "/systems/morphous-falcon/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-falcon/theme.css",
+    "themeJson": "/systems/morphous-falcon/theme.json",
+    "promptsJson": "/systems/morphous-falcon/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Falcon motif",
+      "asset": "/systems/morphous-falcon/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Falcon transparent motif chroma-key source\nPrimary request: Create only an isolated falcon wing motif for a design-system catalog, no environment, no props, no text.\nSubject: a dynamic peregrine falcon wing and sharp black eye accent, slate grey flight feathers, cream underwing bars, charcoal-black feather tips, precise aerodynamic silhouette, cliff-sky neutral highlights, fast analytical energy, crisp outer contour suitable for a transparent PNG cutout.\nComposition/framing: centered complete cutout with generous padding; wing angled in a swift upward banking arc with a small focused black falcon eye detail integrated near the shoulder; do not crop the subject.\nLighting/mood: clean studio light preserving slate grey, cream, and black-eye contrast; premium product-catalog clarity.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no full landscape, no text, no watermark, no second bird, no logo, no random brand marks, no blue/purple gradient, no cast shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-falcon/design-system-light.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive light-mode design-system board for \"Morphous Falcon\" / \"Falcon Wing\", source reference for a shadcn/tweakcn theme. Use a fast analytics system derived from a peregrine falcon wing, slate grey flight feathers, cream barred underwing, charcoal-black feather tips, focused black eye accent, cliff limestone neutrals, pale high-sky surfaces, and aerodynamic diagonal rhythm. Include readable sections for title, motif story, palette, typography, Japanese typography guidance, left navigation, top command/search bar, analytics dashboard overview, KPI cards, line chart, bar chart, sparkline strip, data table, filters, form controls, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture, radius, spacing, shadow, and CSS token samples. Use shadcn/tweakcn-compatible product UI, compact scan-friendly dashboard layout, slate grey primary actions, cream panels, black-eye accent for focus rings and selected states, cliff-stone borders, feather-bar data textures, restrained sky neutral background, 8px radius, and crisp labels large enough to read. Avoid watermark, fake brand names, random logos, lorem ipsum blocks, tiny illegible token tables, purple/blue gradients, neon, and unrelated saturated colors."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-falcon/design-system-dark.png",
+      "prompt": "Create one exact 3840x2160 wide 16:9 comprehensive dark-mode design-system board for \"Morphous Falcon\" / \"Falcon Wing\", translated from the light board and the same peregrine falcon wing motif. Use deep eye-black and charcoal backgrounds, slate grey panels, cream readable foreground text, feather-cream table surfaces, cliff taupe separators, talon ochre and signal rust chart accents, black-eye focus rings, and sharp aerodynamic diagonal rhythm. Include readable sections for title, Dark Mode, motif story, palette, typography, Japanese typography guidance, left navigation, top command/search bar, analytics dashboard overview, KPI cards, line chart, bar chart, sparkline strip, data table, filters, form controls, status states, cards, buttons, inputs, select, textarea, checkboxes, radios, switch, tabs, badges, alert, empty/loading/error states, texture, radius, spacing, shadow, and CSS token samples. Preserve the light board's component language and shadcn/tweakcn compatibility. Avoid watermark, fake brand names, random logos, lorem ipsum blocks, tiny illegible token tables, purple/blue gradients, neon, and unrelated saturated colors."
+    }
+  ]
+}

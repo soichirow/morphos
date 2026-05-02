@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-eider-duck",
+    "name": "Morphous Eider Duck",
+    "motifName": "Eider Duck",
+    "motifCategory": "bird",
+    "biome": "arctic coast",
+    "motif": "eider plumage"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Down Cream",
+      "hex": "#F6F3ED",
+      "oklch": "oklch(0.965 0.009 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Charcoal Black",
+      "hex": "#0E0E0E",
+      "oklch": "oklch(0.164 0.000 89.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sea Green",
+      "hex": "#A7C9BE",
+      "oklch": "oklch(0.808 0.040 173.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Kelp Slate",
+      "hex": "#4C5940",
+      "oklch": "oklch(0.445 0.043 130.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sea Foam",
+      "hex": "#D0ECE7",
+      "oklch": "oklch(0.921 0.030 183.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Warm White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Drift Gray",
+      "hex": "#E5E7E2",
+      "oklch": "oklch(0.925 0.007 124.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Graphite Down",
+      "hex": "#333333",
+      "oklch": "oklch(0.321 0.000 89.9)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sand Warning",
+      "hex": "#D9B768",
+      "oklch": "oklch(0.793 0.106 86.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.965 0.009 84.6)",
+    "foreground": "oklch(0.164 0.000 89.9)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.164 0.000 89.9)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.164 0.000 89.9)",
+    "primary": "oklch(0.808 0.040 173.7)",
+    "primary-foreground": "oklch(0.965 0.009 84.6)",
+    "secondary": "oklch(0.985 0.004 91.4)",
+    "secondary-foreground": "oklch(0.321 0.000 89.9)",
+    "muted": "oklch(0.991 0.003 106.4)",
+    "muted-foreground": "oklch(0.321 0.000 89.9)",
+    "accent": "oklch(0.921 0.030 183.7)",
+    "accent-foreground": "oklch(0.164 0.000 89.9)",
+    "destructive": "oklch(0.808 0.040 173.7)",
+    "border": "oklch(0.973 0.001 106.4)",
+    "input": "oklch(0.973 0.001 106.4)",
+    "ring": "oklch(0.445 0.043 130.3)",
+    "chart-1": "oklch(0.808 0.040 173.7)",
+    "chart-2": "oklch(0.445 0.043 130.3)",
+    "chart-3": "oklch(0.921 0.030 183.7)",
+    "chart-4": "oklch(0.793 0.106 86.7)",
+    "chart-5": "oklch(0.321 0.000 89.9)",
+    "sidebar": "oklch(0.988 0.003 84.6)",
+    "sidebar-foreground": "oklch(0.164 0.000 89.9)",
+    "sidebar-primary": "oklch(0.808 0.040 173.7)",
+    "sidebar-primary-foreground": "oklch(0.965 0.009 84.6)",
+    "sidebar-accent": "oklch(0.978 0.006 170.4)",
+    "sidebar-accent-foreground": "oklch(0.808 0.040 173.7)",
+    "sidebar-border": "oklch(0.973 0.001 106.4)",
+    "sidebar-ring": "oklch(0.445 0.043 130.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.164 0.000 89.9)",
+    "foreground": "oklch(0.965 0.009 84.6)",
+    "card": "oklch(0.269 0.000 89.9)",
+    "card-foreground": "oklch(0.965 0.009 84.6)",
+    "popover": "oklch(0.269 0.000 89.9)",
+    "popover-foreground": "oklch(0.965 0.009 84.6)",
+    "primary": "oklch(0.445 0.043 130.3)",
+    "primary-foreground": "oklch(0.164 0.000 89.9)",
+    "secondary": "oklch(0.470 0.002 145.5)",
+    "secondary-foreground": "oklch(0.965 0.009 84.6)",
+    "muted": "oklch(0.470 0.002 145.5)",
+    "muted-foreground": "oklch(0.947 0.008 106.6)",
+    "accent": "oklch(0.921 0.030 183.7)",
+    "accent-foreground": "oklch(0.164 0.000 89.9)",
+    "destructive": "oklch(0.808 0.040 173.7)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.445 0.043 130.3)",
+    "chart-1": "oklch(0.445 0.043 130.3)",
+    "chart-2": "oklch(0.808 0.040 173.7)",
+    "chart-3": "oklch(0.921 0.030 183.7)",
+    "chart-4": "oklch(0.793 0.106 86.7)",
+    "chart-5": "oklch(0.925 0.007 124.5)",
+    "sidebar": "oklch(0.239 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.965 0.009 84.6)",
+    "sidebar-primary": "oklch(0.445 0.043 130.3)",
+    "sidebar-primary-foreground": "oklch(0.164 0.000 89.9)",
+    "sidebar-accent": "oklch(0.470 0.002 145.5)",
+    "sidebar-accent-foreground": "oklch(0.965 0.009 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.445 0.043 130.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for quiet product interfaces with Noto Sans JP guidance for headings, body, labels, dense tables, and dashboard numerals.",
+  "layout": "Insulated dashboard panels, 8px component radii, feather-quilt spacing, soft borders, clear navigation, readable charts, forms, status states, and table structures.",
+  "tags": [
+    "eider-duck",
+    "bird",
+    "arctic-coast",
+    "plumage",
+    "soft-insulation",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-eider-duck/motif.png",
+    "board": "/systems/morphous-eider-duck/design-system-light.png",
+    "darkBoard": "/systems/morphous-eider-duck/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-eider-duck/theme.css",
+    "themeJson": "/systems/morphous-eider-duck/theme.json",
+    "promptsJson": "/systems/morphous-eider-duck/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent eider duck motif source",
+      "asset": "/systems/morphous-eider-duck/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only an Eider Duck plumage motif cutout for a design system named Morphous Eider Duck. The subject should be an elegant eider duck inspired by arctic coast plumage: crisp black crown and belly, soft white back and wing panels, subtle sea green nape and cheek glow, and down cream feather softness. Isolated full subject, no text.\nSubject: A single detailed eider duck in calm side-profile three-quarter pose, compact rounded body, layered insulating down feathers, black and white plumage blocks, pale down cream highlights, sea green coastal accent on the head and reflected feather edges.\nComposition/framing: centered complete cutout with generous padding; do not crop beak, tail, feet, or wing silhouette.\nLighting/mood: soft arctic coastal light, quiet premium UI reference, warm insulated feather texture, natural but graphic enough for theme extraction.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no water scene, no nest, no eggs, no flock, no cartoon style, no text, no watermark, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-eider-duck/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Eider Duck\" derived from an eider duck plumage motif.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from eider plumage: black crown and belly, clean white wing panels, muted sea green head accent, down cream warmth, arctic coast fog neutrals. This light board is the primary reference for coding a soft insulation UI system.\nCanvas: wide 16:9 board, crisp large readable labels, premium product design-system overview.\nRequired visible sections: Morphous Eider Duck, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, top navigation, metric cards, line chart, bar chart, donut chart, status indicators, empty/loading/error states, spacing, radius, border, shadow, down-feather texture samples.\nStyle/medium: premium shadcn/tweakcn-style design system, soft insulated surfaces, 8px card radius, quilted feather rhythm, calm arctic coast neutrals, restrained sea green focus states, high contrast black/white plumage blocking.\nColor direction: down cream background, charcoal black ink, warm white cards, sea green primary/accent, drift gray borders, kelp slate secondary, pale foam highlights.\nConstraints: no unrelated saturated colors, no generic purple gradients, no watermark, no random brand names, no misspelling of \"Morphous Eider Duck\", no tiny illegible token tables."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-eider-duck/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode companion design-system board for a Morphous theme named \"Morphous Eider Duck\". It must feel like the same soft insulation system translated to dark mode, not a new theme.\nReference use: Preserve eider duck plumage language: charcoal black crown and belly, clean white wing-panel contrast, muted sea green head accent, down cream warmth, arctic coast fog neutrals, soft insulating feather texture. This dark board is the companion reference for coding the theme.\nCanvas: wide 16:9 board, crisp large readable labels, premium product design-system overview.\nRequired visible sections: Morphous Eider Duck, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Charts, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Generated Assets.\nTypography: include English and Japanese examples with Geist and Noto Sans JP guidance.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command, sidebar navigation, top navigation, metric cards, line chart, bar chart, donut chart, status indicators, empty/loading/error states, spacing, radius, border, shadow, down-feather texture samples.\nVisual details: deep graphite background, off-white text, down cream surfaces in small highlights, sea green primary and focus rings, drift gray borders, black/white plumage blocks, restrained arctic coast contrast, soft raised cards with subtle feather grain.\nConstraints: no neon overload, no unrelated saturated colors, no flat pure-black-only background, no generic purple gradients, no illegible text, no random brand names, no misspelling of \"Morphous Eider Duck\", no tiny token tables."
+    }
+  ]
+}

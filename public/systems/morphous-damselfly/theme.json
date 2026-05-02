@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-damselfly",
+    "name": "Morphous Damselfly",
+    "motifName": "Damselfly",
+    "motifCategory": "insect",
+    "biome": "stream bank",
+    "motif": "damselfly body"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing White",
+      "hex": "#F8FCFF",
+      "oklch": "oklch(0.989 0.006 239.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stream Mist",
+      "hex": "#ECF7FA",
+      "oklch": "oklch(0.969 0.012 215.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Azure Body",
+      "hex": "#4EA3FF",
+      "oklch": "oklch(0.705 0.158 252.6)"
+    },
+    {
+      "role": "Primary Deep",
+      "name": "Deep Damselfly",
+      "hex": "#1F4D8F",
+      "oklch": "oklch(0.426 0.120 258.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Reed Green",
+      "hex": "#6AAB4F",
+      "oklch": "oklch(0.676 0.142 137.4)"
+    },
+    {
+      "role": "Info",
+      "name": "Ripple Cyan",
+      "hex": "#7FD6E6",
+      "oklch": "oklch(0.827 0.087 210.6)"
+    },
+    {
+      "role": "Membrane",
+      "name": "Wing Membrane",
+      "hex": "#E6EDF3",
+      "oklch": "oklch(0.943 0.011 243.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Wing Gray",
+      "hex": "#CED6DE",
+      "oklch": "oklch(0.872 0.014 248.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bank Silt",
+      "hex": "#A09B8C",
+      "oklch": "oklch(0.689 0.022 91.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Vein Ink",
+      "hex": "#0D1822",
+      "oklch": "oklch(0.204 0.026 246.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Body Shadow",
+      "hex": "#182D40",
+      "oklch": "oklch(0.289 0.044 247.3)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.989 0.006 239.8)",
+    "foreground": "oklch(0.204 0.026 246.8)",
+    "card": "oklch(0.969 0.012 215.8)",
+    "card-foreground": "oklch(0.204 0.026 246.8)",
+    "popover": "oklch(0.989 0.006 239.8)",
+    "popover-foreground": "oklch(0.204 0.026 246.8)",
+    "primary": "oklch(0.705 0.158 252.6)",
+    "primary-foreground": "oklch(0.989 0.006 239.8)",
+    "secondary": "oklch(0.943 0.011 243.7)",
+    "secondary-foreground": "oklch(0.426 0.120 258.0)",
+    "muted": "oklch(0.943 0.011 243.7)",
+    "muted-foreground": "oklch(0.289 0.044 247.3)",
+    "accent": "oklch(0.676 0.142 137.4)",
+    "accent-foreground": "oklch(0.989 0.006 239.8)",
+    "destructive": "oklch(0.608 0.179 27.0)",
+    "border": "oklch(0.872 0.014 248.0)",
+    "input": "oklch(0.872 0.014 248.0)",
+    "ring": "oklch(0.827 0.087 210.6)",
+    "chart-1": "oklch(0.705 0.158 252.6)",
+    "chart-2": "oklch(0.676 0.142 137.4)",
+    "chart-3": "oklch(0.827 0.087 210.6)",
+    "chart-4": "oklch(0.747 0.149 84.9)",
+    "chart-5": "oklch(0.426 0.120 258.0)",
+    "sidebar": "oklch(0.969 0.012 215.8)",
+    "sidebar-foreground": "oklch(0.204 0.026 246.8)",
+    "sidebar-primary": "oklch(0.705 0.158 252.6)",
+    "sidebar-primary-foreground": "oklch(0.989 0.006 239.8)",
+    "sidebar-accent": "oklch(0.943 0.011 243.7)",
+    "sidebar-accent-foreground": "oklch(0.426 0.120 258.0)",
+    "sidebar-border": "oklch(0.872 0.014 248.0)",
+    "sidebar-ring": "oklch(0.827 0.087 210.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.173 0.029 248.6)",
+    "foreground": "oklch(0.989 0.006 239.8)",
+    "card": "oklch(0.269 0.050 247.3)",
+    "card-foreground": "oklch(0.969 0.012 215.8)",
+    "popover": "oklch(0.269 0.050 247.3)",
+    "popover-foreground": "oklch(0.969 0.012 215.8)",
+    "primary": "oklch(0.705 0.158 252.6)",
+    "primary-foreground": "oklch(0.173 0.029 248.6)",
+    "secondary": "oklch(0.344 0.084 252.1)",
+    "secondary-foreground": "oklch(0.969 0.012 215.8)",
+    "muted": "oklch(0.289 0.044 247.3)",
+    "muted-foreground": "oklch(0.859 0.015 224.5)",
+    "accent": "oklch(0.676 0.142 137.4)",
+    "accent-foreground": "oklch(0.173 0.029 248.6)",
+    "destructive": "oklch(0.608 0.179 27.0)",
+    "border": "oklch(0.872 0.014 248.0 / 22%)",
+    "input": "oklch(0.872 0.014 248.0 / 30%)",
+    "ring": "oklch(0.827 0.087 210.6)",
+    "chart-1": "oklch(0.705 0.158 252.6)",
+    "chart-2": "oklch(0.676 0.142 137.4)",
+    "chart-3": "oklch(0.827 0.087 210.6)",
+    "chart-4": "oklch(0.747 0.149 84.9)",
+    "chart-5": "oklch(0.689 0.022 91.7)",
+    "sidebar": "oklch(0.204 0.026 246.8)",
+    "sidebar-foreground": "oklch(0.989 0.006 239.8)",
+    "sidebar-primary": "oklch(0.705 0.158 252.6)",
+    "sidebar-primary-foreground": "oklch(0.173 0.029 248.6)",
+    "sidebar-accent": "oklch(0.344 0.084 252.1)",
+    "sidebar-accent-foreground": "oklch(0.969 0.012 215.8)",
+    "sidebar-border": "oklch(0.872 0.014 248.0 / 22%)",
+    "sidebar-ring": "oklch(0.827 0.087 210.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for crisp product UI, Geist Mono for compact analytics and tabular figures, and Noto Sans JP guidance for Japanese labels, navigation, forms, status text, and dense dashboards.",
+  "layout": "Slender 8px-or-less radii, clear-wing panels, fine vein-line separators, compact stream-bank navigation, dashboard/data density, precise forms and tables, quiet shadows, and azure/reed interaction hierarchy.",
+  "tags": [
+    "damselfly",
+    "insect",
+    "stream-bank",
+    "azure-blue",
+    "reed-green",
+    "clear-wing",
+    "slender-analytics",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-damselfly/motif.png",
+    "board": "/systems/morphous-damselfly/design-system-light.png",
+    "darkBoard": "/systems/morphous-damselfly/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-damselfly/theme.css",
+    "themeJson": "/systems/morphous-damselfly/theme.json",
+    "promptsJson": "/systems/morphous-damselfly/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Motif",
+      "asset": "/systems/morphous-damselfly/motif.png",
+      "workflow": "Built-in image_gen chroma-key source on #ff00ff, then local remove_chroma_key alpha extraction.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only a damselfly body, isolated full insect subject, no environment, no props, no text.\nSubject: A slender adult damselfly with accurate insect anatomy: long narrow azure-blue segmented body, fine reed-green thorax notes, delicate legs, tiny head, transparent clear wings folded neatly along the body with subtle veining and faint blue-green iridescence. The subject should read as a damselfly rather than a dragonfly, with a very slender profile and wings held close.\nComposition/framing: centered complete cutout with generous padding; show the full body, head, legs, and folded wings without cropping; horizontal/diagonal pose suitable for a catalog motif asset.\nLighting/mood: clean studio light that preserves clear-wing detail, blue body color, reed-green accents, and fine anatomical structure.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no reed stem, no stream background, no leaf perch, no second insect, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light Design System",
+      "asset": "/systems/morphous-damselfly/design-system-light.png",
+      "sourceAsset": "/systems/morphous-damselfly/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Damselfly\", derived from a slender damselfly motif: azure blue segmented body, reed green thorax accents, clear folded wings, fine black wing veins, and stream-bank clarity.\nReference use: Use the damselfly cutout visible in the conversation as the visual source. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the azure segmented body, reed-green markings, clear wing membrane, black vein lines, and stream-bank habitat.\nCanvas: exact wide 16:9 landscape board, high-resolution 3840x2160 source image if available, never portrait. Use a precise grid with large readable labels; avoid dense tiny token tables.\nRequired visible sections: Morphous Damselfly, Damselfly, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nTypography: include English and Japanese examples; labels should include Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, compact sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, table rows, command/search menu, status chips, loading/empty/error states, token swatches, texture samples, spacing/radius/shadow samples.\nStyle/medium: premium shadcn/tweakcn-style analytics product design system board, slender and technical, precise grid, calm data density, 8px maximum radius cards and controls, clear-wing translucent panels, azure action states, reed-green focus states, fine dark vein dividers, stream-bank neutral surfaces.\nColor palette: use only motif-derived colors and near-neutrals: clear wing white, stream mist, azure body blue, deep damselfly blue, reed green, vein ink, bank silt, wing membrane gray, ripple cyan.\nText: use short readable UI labels only; avoid long paragraphs.\nConstraints: component radii 8px or less; no unrelated bright colors, no generic purple gradients, no neon rainbow palette, no stock UI kit look, no random brand names, no watermark, no misspelling of \"Morphous Damselfly\" or \"Damselfly\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark Design System",
+      "asset": "/systems/morphous-damselfly/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-damselfly/motif.png",
+        "/systems/morphous-damselfly/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for a Morphous theme named \"Morphous Damselfly\" / \"Damselfly\". Translate the light-mode Morphous Damselfly board visible in the conversation into dark mode; keep it recognizably the same slender analytics system, not a new theme.\nReference use: Use the transparent damselfly motif and the light-mode Morphous Damselfly board visible in the conversation as strict references for palette roles, texture rhythm, component coverage, typography hierarchy, board organization, clear-wing panels, azure action states, reed-green focus states, fine vein dividers, and 8px maximum radii.\nCanvas: exact wide 16:9 landscape board, high-resolution 3840x2160 source image if available, never portrait. Use a precise grid with large readable labels; avoid dense tiny token tables.\nRequired visible sections: Morphous Damselfly, Damselfly, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nVisual details: deep background derived from vein ink and deep damselfly blue; readable text in wing white and stream mist; azure blue as primary action and chart color; reed green as support and success/focus color; ripple cyan as info; bank silt as muted neutral; translucent clear-wing panels; fine dark wing-vein grid lines; calm stream-bank analytical hierarchy; compact shadcn/tweakcn-style cards and controls.\nTypography: include English and Japanese guidance with short readable labels such as Geist, Noto Sans JP, Heading, Body, Label, Numeric, 見出し, 本文, ラベル, 数字.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, compact sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, table rows, command/search menu, status chips, loading/empty/error states, token swatches, texture samples, spacing/radius/shadow samples.\nColor palette: use only motif-derived colors and near-neutrals: vein ink, deep damselfly blue, azure body blue, reed green, ripple cyan, wing white, stream mist, bank silt, wing membrane gray.\nText: use short readable UI labels only; avoid long paragraphs.\nConstraints: component radii 8px or less; no unrelated insects, no unrelated bright colors, no generic purple gradients, no neon rainbow palette, no pure black flat-only background, no stock UI kit look, no random brand names, no watermark, no misspelling of \"Morphous Damselfly\" or \"Damselfly\"."
+    }
+  ]
+}

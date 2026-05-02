@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-cuttlefish",
+    "name": "Morphous Cuttlefish",
+    "motifName": "Cuttlefish Mantle",
+    "motifCategory": "marine",
+    "biome": "Seagrass Reef",
+    "motif": "cuttlefish mantle"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Seagrass Mist",
+      "hex": "#f4efe3",
+      "oklch": "oklch(0.953 0.017 88.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sepia Mantle",
+      "hex": "#8a5d36",
+      "oklch": "oklch(0.518 0.080 60.5)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ink Umber",
+      "hex": "#241a16",
+      "oklch": "oklch(0.229 0.018 42.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lavender Stripe",
+      "hex": "#b69ad7",
+      "oklch": "oklch(0.733 0.091 305.2)"
+    },
+    {
+      "role": "Focus",
+      "name": "Teal Fin",
+      "hex": "#1f9a9a",
+      "oklch": "oklch(0.624 0.100 194.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell Sand",
+      "hex": "#d8c5a4",
+      "oklch": "oklch(0.831 0.049 81.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Pearl Speckle",
+      "hex": "#f7f2e8",
+      "oklch": "oklch(0.962 0.014 84.6)"
+    },
+    {
+      "role": "Support",
+      "name": "Reef Olive",
+      "hex": "#66725a",
+      "oklch": "oklch(0.535 0.039 129.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Deep Kelp",
+      "hex": "#122f34",
+      "oklch": "oklch(0.285 0.036 210.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.017 88.0)",
+    "foreground": "oklch(0.229 0.018 42.9)",
+    "card": "oklch(0.831 0.049 81.4)",
+    "card-foreground": "oklch(0.229 0.018 42.9)",
+    "popover": "oklch(0.831 0.049 81.4)",
+    "popover-foreground": "oklch(0.229 0.018 42.9)",
+    "primary": "oklch(0.518 0.080 60.5)",
+    "primary-foreground": "oklch(0.953 0.017 88.0)",
+    "secondary": "oklch(0.883 0.036 83.8)",
+    "secondary-foreground": "oklch(0.285 0.036 210.2)",
+    "muted": "oklch(0.866 0.040 82.3)",
+    "muted-foreground": "oklch(0.285 0.036 210.2)",
+    "accent": "oklch(0.733 0.091 305.2)",
+    "accent-foreground": "oklch(0.229 0.018 42.9)",
+    "destructive": "oklch(0.518 0.080 60.5)",
+    "border": "oklch(0.795 0.025 17.7)",
+    "input": "oklch(0.795 0.025 17.7)",
+    "ring": "oklch(0.733 0.091 305.2)",
+    "chart-1": "oklch(0.518 0.080 60.5)",
+    "chart-2": "oklch(0.733 0.091 305.2)",
+    "chart-3": "oklch(0.733 0.091 305.2)",
+    "chart-4": "oklch(0.962 0.014 84.6)",
+    "chart-5": "oklch(0.285 0.036 210.2)",
+    "sidebar": "oklch(0.872 0.039 81.5)",
+    "sidebar-foreground": "oklch(0.229 0.018 42.9)",
+    "sidebar-primary": "oklch(0.518 0.080 60.5)",
+    "sidebar-primary-foreground": "oklch(0.953 0.017 88.0)",
+    "sidebar-accent": "oklch(0.796 0.052 78.6)",
+    "sidebar-accent-foreground": "oklch(0.518 0.080 60.5)",
+    "sidebar-border": "oklch(0.795 0.025 17.7)",
+    "sidebar-ring": "oklch(0.733 0.091 305.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.229 0.018 42.9)",
+    "foreground": "oklch(0.953 0.017 88.0)",
+    "card": "oklch(0.264 0.022 205.8)",
+    "card-foreground": "oklch(0.953 0.017 88.0)",
+    "popover": "oklch(0.264 0.022 205.8)",
+    "popover-foreground": "oklch(0.953 0.017 88.0)",
+    "primary": "oklch(0.733 0.091 305.2)",
+    "primary-foreground": "oklch(0.229 0.018 42.9)",
+    "secondary": "oklch(0.391 0.036 248.8)",
+    "secondary-foreground": "oklch(0.953 0.017 88.0)",
+    "muted": "oklch(0.391 0.036 248.8)",
+    "muted-foreground": "oklch(0.854 0.033 316.4)",
+    "accent": "oklch(0.733 0.091 305.2)",
+    "accent-foreground": "oklch(0.229 0.018 42.9)",
+    "destructive": "oklch(0.518 0.080 60.5)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.733 0.091 305.2)",
+    "chart-1": "oklch(0.733 0.091 305.2)",
+    "chart-2": "oklch(0.518 0.080 60.5)",
+    "chart-3": "oklch(0.733 0.091 305.2)",
+    "chart-4": "oklch(0.962 0.014 84.6)",
+    "chart-5": "oklch(0.733 0.091 305.2)",
+    "sidebar": "oklch(0.253 0.011 196.5)",
+    "sidebar-foreground": "oklch(0.953 0.017 88.0)",
+    "sidebar-primary": "oklch(0.733 0.091 305.2)",
+    "sidebar-primary-foreground": "oklch(0.229 0.018 42.9)",
+    "sidebar-accent": "oklch(0.391 0.036 248.8)",
+    "sidebar-accent-foreground": "oklch(0.953 0.017 88.0)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.733 0.091 305.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or Inter for precise English product UI with Noto Sans JP or Hiragino Sans guidance for Japanese labels, compact dashboards, and legible media metadata.",
+  "layout": "Precise 8px grids, 8px radius cards, mantle-stripe dividers, speckled surface texture, adaptive preview panels, and restrained dashboard composition for seagrass reef media systems.",
+  "tags": [
+    "cuttlefish",
+    "marine",
+    "seagrass-reef",
+    "adaptive-media",
+    "sepia",
+    "lavender",
+    "teal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-cuttlefish/motif.png",
+    "board": "/systems/morphous-cuttlefish/design-system-light.png",
+    "darkBoard": "/systems/morphous-cuttlefish/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-cuttlefish/theme.css",
+    "themeJson": "/systems/morphous-cuttlefish/theme.json",
+    "promptsJson": "/systems/morphous-cuttlefish/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent cuttlefish motif",
+      "asset": "/systems/morphous-cuttlefish/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only an isolated cuttlefish mantle motif for a design-system catalog, no environment, no props, no text.\nSubject: A single cuttlefish seen in a graceful three-quarter dorsal view, full body visible with broad oval mantle, rippling fin skirt, compact arms, subtle W-shaped pupil detail, natural chromatophore speckles, sepia brown base, warm sand highlights, lavender adaptive stripes, soft teal iridescent edge accents, accurate marine anatomy and crisp silhouette edges.\nComposition/framing: centered complete cutout with generous padding; do not crop the mantle, fins, arms, or subtle edge details.\nLighting/mood: clean studio light that preserves the sepia brown, lavender stripe, teal accent, and fine skin texture.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no seagrass, no reef, no water, no sand floor, no cast shadow, no contact shadow, no reflection, no second animal, no text, no watermark, no logo."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-cuttlefish/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Cuttlefish\" / \"Cuttlefish Mantle\", derived from the cuttlefish cutout visible in context. This is a shadcn/tweakcn-compatible adaptive media system for seagrass reef products.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the cuttlefish motif: sepia brown mantle, lavender adaptive stripes, teal fin-edge iridescence, warm sand highlights, pearled speckles, ink-brown shadows, and seagrass reef neutrals.\nCanvas: wide 16:9 board, 3840 x 2160 target, high-resolution 4K-class source.\nResolution and legibility: use large readable labels, clean hierarchy, and generous spacing; avoid dense tiny token tables. Text must remain legible in gallery preview.\nRequired visible sections: title \"Morphous Cuttlefish\", motif story, palette, typography, English typography, Japanese typography, components, navigation, dashboard/data with charts, forms, table, command/search, status states, texture, radius, spacing, shadow, CSS tokens, generated asset examples.\nTypography guidance: show English UI guidance with Geist / Inter-like sans, and Japanese UI guidance with Noto Sans JP / Hiragino Sans-like fallback. Keep copy short.\nComponent coverage: buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search, sidebar navigation, top navigation, media upload card, adaptive preview panel, empty/loading/error states.\nVisual system: premium shadcn-style product UI, precise 8px grid, 8px card radius, matte paper surfaces, subtle cuttlefish speckle texture, mantle-stripe dividers, teal focus rings, lavender selection states, sepia primary actions, sand surfaces, restrained reef-green support accents.\nColor palette labels: Seagrass Mist #f4efe3, Sepia Mantle #8a5d36, Ink Umber #241a16, Lavender Stripe #b69ad7, Teal Fin #1f9a9a, Shell Sand #d8c5a4, Pearl Speckle #f7f2e8, Reef Olive #66725a, Deep Kelp #122f34.\nText: short readable UI labels only; include a few Japanese labels such as \"日本語\", \"設定\", \"検索\", \"状態\".\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no random brand names, no watermark, no illegible microtext, no pure white glare, no cartoon mascot, no extra animals."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-cuttlefish/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Cuttlefish\" / \"Cuttlefish Mantle\". It must feel like the same system translated to dark mode, not a new theme.\nReference use: Use the cuttlefish motif and the light design-system board visible in context as source references. Preserve motif-derived palette roles, component language, texture, spacing, typography, and adaptive media dashboard patterns.\nCanvas: wide 16:9 board, 3840 x 2160 target, high-resolution 4K-class source.\nResolution and legibility: use large readable labels, clean hierarchy, and generous spacing; avoid dense tiny token tables. Text must remain legible in gallery preview.\nRequired visible sections: title \"Morphous Cuttlefish\", \"Dark Mode\", motif story, palette, typography, English typography, Japanese typography, components, navigation, dashboard/data with charts, forms, table, command/search, status states, texture, radius, spacing, shadow, CSS tokens, generated asset examples.\nTypography guidance: show English UI guidance with Geist / Inter-like sans, and Japanese UI guidance with Noto Sans JP / Hiragino Sans-like fallback. Keep copy short.\nComponent coverage: buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table rows, command palette, search, sidebar navigation, top navigation, media upload card, adaptive preview panel, empty/loading/error states.\nVisual details: dark background derived from Ink Umber and Deep Kelp; light text from Pearl Speckle; cards in dark sepia shell tones; primary actions in Sepia Mantle; lavender selected states; teal focus rings and charts; reef olive support states; subtle cuttlefish speckle and mantle stripe texture overlays; crisp shadcn-style cards and controls with 8px radius.\nColor palette labels: Pearl Speckle #f7f2e8, Ink Umber #241a16, Deep Kelp #122f34, Sepia Mantle #8a5d36, Lavender Stripe #b69ad7, Teal Fin #1f9a9a, Shell Sand #d8c5a4, Reef Olive #66725a, Seagrass Mist #f4efe3.\nText: short readable UI labels only; include a few Japanese labels such as \"日本語\", \"設定\", \"検索\", \"状態\".\nConstraints: no neon colors, no flat pure-black background, no generic purple/blue gradients, no unrelated saturated colors, no random brand names, no watermark, no illegible microtext, no cartoon mascot, no extra animals."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-delta",
+    "name": "Delta",
+    "motifName": "River Delta Channels",
+    "motifCategory": "landscape",
+    "biome": "River mouth",
+    "motif": "river delta channels"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell White",
+      "hex": "#faf7f2",
+      "oklch": "oklch(0.977 0.007 80.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Channel",
+      "hex": "#0a4f55",
+      "oklch": "oklch(0.391 0.063 204.2)"
+    },
+    {
+      "role": "Primary",
+      "name": "Estuary Teal",
+      "hex": "#118e97",
+      "oklch": "oklch(0.590 0.098 203.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Silt Tan",
+      "hex": "#cab68a",
+      "oklch": "oklch(0.782 0.063 86.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Reed Green",
+      "hex": "#6f8f4e",
+      "oklch": "oklch(0.610 0.098 130.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pale Sand",
+      "hex": "#e6dcc3",
+      "oklch": "oklch(0.896 0.035 88.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Tidal Mist",
+      "hex": "#dcead8",
+      "oklch": "oklch(0.922 0.028 138.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Mud Shadow",
+      "hex": "#685e4d",
+      "oklch": "oklch(0.486 0.029 80.9)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.007 80.7)",
+    "foreground": "oklch(0.391 0.063 204.2)",
+    "card": "oklch(0.896 0.035 88.8)",
+    "card-foreground": "oklch(0.391 0.063 204.2)",
+    "popover": "oklch(0.896 0.035 88.8)",
+    "popover-foreground": "oklch(0.391 0.063 204.2)",
+    "primary": "oklch(0.590 0.098 203.0)",
+    "primary-foreground": "oklch(0.977 0.007 80.7)",
+    "secondary": "oklch(0.929 0.023 87.2)",
+    "secondary-foreground": "oklch(0.486 0.029 80.9)",
+    "muted": "oklch(0.920 0.028 88.8)",
+    "muted-foreground": "oklch(0.486 0.029 80.9)",
+    "accent": "oklch(0.610 0.098 130.3)",
+    "accent-foreground": "oklch(0.391 0.063 204.2)",
+    "destructive": "oklch(0.590 0.098 203.0)",
+    "border": "oklch(0.905 0.029 104.8)",
+    "input": "oklch(0.905 0.029 104.8)",
+    "ring": "oklch(0.782 0.063 86.3)",
+    "chart-1": "oklch(0.590 0.098 203.0)",
+    "chart-2": "oklch(0.782 0.063 86.3)",
+    "chart-3": "oklch(0.610 0.098 130.3)",
+    "chart-4": "oklch(0.896 0.035 88.8)",
+    "chart-5": "oklch(0.486 0.029 80.9)",
+    "sidebar": "oklch(0.923 0.025 86.9)",
+    "sidebar-foreground": "oklch(0.391 0.063 204.2)",
+    "sidebar-primary": "oklch(0.590 0.098 203.0)",
+    "sidebar-primary-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-accent": "oklch(0.856 0.029 122.1)",
+    "sidebar-accent-foreground": "oklch(0.590 0.098 203.0)",
+    "sidebar-border": "oklch(0.905 0.029 104.8)",
+    "sidebar-ring": "oklch(0.782 0.063 86.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.391 0.063 204.2)",
+    "foreground": "oklch(0.977 0.007 80.7)",
+    "card": "oklch(0.447 0.026 162.1)",
+    "card-foreground": "oklch(0.977 0.007 80.7)",
+    "popover": "oklch(0.447 0.026 162.1)",
+    "popover-foreground": "oklch(0.977 0.007 80.7)",
+    "primary": "oklch(0.782 0.063 86.3)",
+    "primary-foreground": "oklch(0.391 0.063 204.2)",
+    "secondary": "oklch(0.589 0.026 93.5)",
+    "secondary-foreground": "oklch(0.977 0.007 80.7)",
+    "muted": "oklch(0.589 0.026 93.5)",
+    "muted-foreground": "oklch(0.952 0.015 123.0)",
+    "accent": "oklch(0.610 0.098 130.3)",
+    "accent-foreground": "oklch(0.391 0.063 204.2)",
+    "destructive": "oklch(0.590 0.098 203.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.782 0.063 86.3)",
+    "chart-1": "oklch(0.782 0.063 86.3)",
+    "chart-2": "oklch(0.590 0.098 203.0)",
+    "chart-3": "oklch(0.610 0.098 130.3)",
+    "chart-4": "oklch(0.896 0.035 88.8)",
+    "chart-5": "oklch(0.922 0.028 138.7)",
+    "sidebar": "oklch(0.426 0.040 183.8)",
+    "sidebar-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-primary": "oklch(0.782 0.063 86.3)",
+    "sidebar-primary-foreground": "oklch(0.391 0.063 204.2)",
+    "sidebar-accent": "oklch(0.589 0.026 93.5)",
+    "sidebar-accent-foreground": "oklch(0.977 0.007 80.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.782 0.063 86.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter for analytical product UI with Noto Sans JP guidance for Japanese labels, crisp metrics, and readable multilingual dashboards.",
+  "layout": "Precise 8px grids, branching data paths, channel-like dividers, layered sediment surfaces, compact analytics cards, and calm dashboard composition.",
+  "tags": [
+    "delta",
+    "river-mouth",
+    "landscape",
+    "analytics",
+    "teal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-delta/motif.png",
+    "board": "/systems/morphous-delta/design-system-light.png",
+    "darkBoard": "/systems/morphous-delta/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-delta/theme.css",
+    "themeJson": "/systems/morphous-delta/theme.json",
+    "promptsJson": "/systems/morphous-delta/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Delta motif",
+      "asset": "/systems/morphous-delta/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a stylized but physically plausible overhead river delta channel motif, isolated full subject, no surrounding landscape, no props, no text.\nSubject: A branching river mouth delta seen from above: teal water distributary channels splitting and rejoining through silt tan sediment bars with fine reed green marsh edges. The shape should read as one complete natural branching system, like an analytics flow network formed by water.\nComposition/framing: centered complete cutout with generous padding; do not crop the delta shape. Keep the motif as a compact island-like branching silhouette suitable for a design-system catalog.\nLighting/mood: clean studio-style top light that preserves water sheen, silt texture, reed detail, and natural color.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no maps, no labels, no boats, no buildings, no decorative background, no second subject."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-delta/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for \"Delta\", derived from a transparent river delta motif cutout: teal water distributary channels, silt tan bars, reed green marsh edges. The system feel is a branching analytics system.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the river delta motif. The board must visibly respect teal water, silt tan, reed green, pale sediment neutrals, and deep channel shadows.\nCanvas: exact wide 16:9 board, 3840x2160 composition.\nResolution and legibility: high-resolution 4K-class source board, large readable labels, avoid dense tiny text. Use a precise editorial grid with spacious modules.\nRequired visible sections: title \"Delta\", motif story, palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, semantic tokens, generated asset examples.\nUI content direction: analytics dashboard with branching flows, tributary line charts, channel maps, segment filters, conversion split cards, and data tables. Components should be shadcn/tweakcn-compatible product UI with buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, sidebar navigation, and compact charts.\nTypography: include English and Japanese examples; choose clean multilingual product UI guidance, readable labels only.\nStyle/medium: premium product design system board, quiet analytical SaaS interface, precise grid, 8px card radius, subtle sediment grain texture, fine channel-line icon language, no nested cards.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: teal water, deep estuary teal, silt tan, pale sand, reed green, mud shadow, shell white.\nText: short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple/blue gradients, no watermark, no random brand names, no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-delta/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Create a wide 16:9 dark-mode design-system board for \"Delta\", the dark counterpart to the light board. It must feel like the same branching analytics system translated to dark mode.\nReference use: Use the transparent river delta motif and light Delta board as references: teal water distributary channels, silt tan bars, reed green marsh edges, sediment grain, branching analytics flows, precise shadcn/tweakcn product UI.\nCanvas: landscape orientation only, wide 16:9 board layout. Compose for final 3840x2160. Do not create a square or portrait board.\nLayout: three broad horizontal bands across the full wide canvas: top band for title, motif story, palette, typography, Japanese typography, and components; middle band for sidebar navigation, analytics dashboard, forms, table, search/command; bottom band for texture, radius, spacing, shadows, semantic tokens, generated asset examples, and icons.\nResolution and legibility: high-resolution source board, large readable labels, avoid dense tiny text. Use a precise editorial grid with spacious modules.\nRequired visible sections: title \"Delta\", \"Dark Mode\", palette, typography, Japanese typography, components, navigation, dashboard/data, forms, table, command/search, status states, texture, radius, spacing, shadow, semantic tokens, generated asset examples.\nVisual details: dark background derived from deep estuary teal and mud shadow, light text from shell white and pale sand, accents from river teal and reed green, restrained contrast, subtle sediment grain texture, fine channel-line icon language, crisp shadcn-style cards and controls.\nUI content direction: dark analytics dashboard with branching flows, tributary line charts, channel maps, segment filters, conversion split cards, and data tables. Include buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table, command palette, sidebar navigation, and compact charts.\nTypography: include English and Japanese examples; clean multilingual product UI guidance, readable labels only.\nStyle/medium: premium dark product design system board, quiet analytical SaaS interface, precise grid, 8px card radius, no nested cards.\nText: short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no flat pure-black background, no unrelated saturated colors, no generic purple/blue gradients, no watermark, no random brand names, no illegible microtext, no portrait layout."
+    }
+  ]
+}

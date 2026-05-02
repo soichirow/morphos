@@ -1,0 +1,190 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 281,
+  "slug": "morphous-elf-cup",
+  "name": "Morphous Elf Cup",
+  "motifName": "Elf Cup",
+  "motifCategory": "fungi",
+  "biome": "damp woodland",
+  "motif": "scarlet cup fungus",
+  "description": "A shadcn/tweakcn-compatible compact alert system derived from scarlet elf cup fungus in damp woodland: scarlet incident actions, coral cup-rim focus, moss-green recovery states, twig-brown structure, spore-parchment surfaces, and damp charcoal dark mode for alert queues, signal review, incident dashboards, and status-heavy operations.",
+  "typography": "Compact English product UI with tabular incident numbers, dense labels, and Noto Sans JP guidance for Japanese alert, signal, handoff, queue, status, and operations screens.",
+  "layout": "Precise 8px alert grids, compact 8px cards, cup-rim focus rings, spore-speck texture, twig-brown dividers, dense incident tables, command search, status timelines, and dashboard/data panels tuned for fast scanning.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "elf-cup",
+    "scarlet-cup-fungus",
+    "fungi",
+    "damp-woodland",
+    "compact-alert-system",
+    "scarlet",
+    "moss-green",
+    "twig-brown",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore Parchment",
+      "hex": "#F6F2E8"
+    },
+    {
+      "role": "Ink",
+      "name": "Damp Charcoal",
+      "hex": "#23231F"
+    },
+    {
+      "role": "Primary",
+      "name": "Scarlet Cup",
+      "hex": "#E02418"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral Rim",
+      "hex": "#F1645E"
+    },
+    {
+      "role": "Accent",
+      "name": "Moss Green",
+      "hex": "#3A5F34"
+    },
+    {
+      "role": "Signal",
+      "name": "Wet Moss",
+      "hex": "#4E6A3B"
+    },
+    {
+      "role": "Surface",
+      "name": "Parchment Surface",
+      "hex": "#FFFDF6"
+    },
+    {
+      "role": "Muted",
+      "name": "Twig Brown",
+      "hex": "#7A5A3E"
+    },
+    {
+      "role": "Border",
+      "name": "Spore Line",
+      "hex": "#D7CBB8"
+    },
+    {
+      "role": "Depth",
+      "name": "Bark Umber",
+      "hex": "#4A3526"
+    },
+    {
+      "role": "Highlight",
+      "name": "Pale Coral",
+      "hex": "#FFD2C7"
+    },
+    {
+      "role": "Warning",
+      "name": "Soft Moss",
+      "hex": "#B0B946"
+    },
+    {
+      "role": "Danger",
+      "name": "Deep Scarlet",
+      "hex": "#B31211"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.962 0.014 88.7)",
+    "foreground": "oklch(0.255 0.007 106.9)",
+    "card": "oklch(0.994 0.009 93.6)",
+    "card-foreground": "oklch(0.255 0.007 106.9)",
+    "popover": "oklch(0.994 0.009 93.6)",
+    "popover-foreground": "oklch(0.255 0.007 106.9)",
+    "primary": "oklch(0.582 0.221 29.5)",
+    "primary-foreground": "oklch(0.962 0.014 88.7)",
+    "secondary": "oklch(0.979 0.011 89.7)",
+    "secondary-foreground": "oklch(0.349 0.039 56.6)",
+    "muted": "oklch(0.984 0.011 95.2)",
+    "muted-foreground": "oklch(0.349 0.039 56.6)",
+    "accent": "oklch(0.446 0.080 141.0)",
+    "accent-foreground": "oklch(0.962 0.014 88.7)",
+    "destructive": "oklch(0.488 0.191 28.4)",
+    "border": "oklch(0.821 0.024 69.5)",
+    "input": "oklch(0.821 0.024 69.5)",
+    "ring": "oklch(0.680 0.175 25.3)",
+    "chart-1": "oklch(0.582 0.221 29.5)",
+    "chart-2": "oklch(0.680 0.175 25.3)",
+    "chart-3": "oklch(0.446 0.080 141.0)",
+    "chart-4": "oklch(0.756 0.138 113.5)",
+    "chart-5": "oklch(0.349 0.039 56.6)",
+    "sidebar": "oklch(0.982 0.011 89.7)",
+    "sidebar-foreground": "oklch(0.255 0.007 106.9)",
+    "sidebar-primary": "oklch(0.582 0.221 29.5)",
+    "sidebar-primary-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-accent": "oklch(0.933 0.029 39.3)",
+    "sidebar-accent-foreground": "oklch(0.582 0.221 29.5)",
+    "sidebar-border": "oklch(0.821 0.024 69.5)",
+    "sidebar-ring": "oklch(0.680 0.175 25.3)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.255 0.007 106.9)",
+    "foreground": "oklch(0.962 0.014 88.7)",
+    "card": "oklch(0.318 0.028 59.7)",
+    "card-foreground": "oklch(0.962 0.014 88.7)",
+    "popover": "oklch(0.318 0.028 59.7)",
+    "popover-foreground": "oklch(0.962 0.014 88.7)",
+    "primary": "oklch(0.680 0.175 25.3)",
+    "primary-foreground": "oklch(0.255 0.007 106.9)",
+    "secondary": "oklch(0.382 0.044 57.8)",
+    "secondary-foreground": "oklch(0.962 0.014 88.7)",
+    "muted": "oklch(0.382 0.044 57.8)",
+    "muted-foreground": "oklch(0.759 0.031 70.6)",
+    "accent": "oklch(0.446 0.080 141.0)",
+    "accent-foreground": "oklch(0.962 0.014 88.7)",
+    "destructive": "oklch(0.582 0.221 29.5)",
+    "border": "oklch(0.680 0.175 25.3 / 24%)",
+    "input": "oklch(0.494 0.059 62.0 / 42%)",
+    "ring": "oklch(0.680 0.175 25.3)",
+    "chart-1": "oklch(0.680 0.175 25.3)",
+    "chart-2": "oklch(0.582 0.221 29.5)",
+    "chart-3": "oklch(0.446 0.080 141.0)",
+    "chart-4": "oklch(0.756 0.138 113.5)",
+    "chart-5": "oklch(0.494 0.059 62.0)",
+    "sidebar": "oklch(0.297 0.022 63.8)",
+    "sidebar-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-primary": "oklch(0.680 0.175 25.3)",
+    "sidebar-primary-foreground": "oklch(0.255 0.007 106.9)",
+    "sidebar-accent": "oklch(0.382 0.044 57.8)",
+    "sidebar-accent-foreground": "oklch(0.962 0.014 88.7)",
+    "sidebar-border": "oklch(0.680 0.175 25.3 / 24%)",
+    "sidebar-ring": "oklch(0.680 0.175 25.3)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

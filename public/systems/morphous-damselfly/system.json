@@ -1,0 +1,209 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 305,
+  "slug": "morphous-damselfly",
+  "name": "Morphous Damselfly",
+  "motifName": "Damselfly",
+  "motifCategory": "insect",
+  "biome": "stream bank",
+  "motif": "damselfly body",
+  "paletteMood": "azure blue reed green clear wing",
+  "designMood": "slender analytics system",
+  "description": "A shadcn/tweakcn-compatible analytics interface system derived from a damselfly body: azure segmented action color, reed-green focus states, clear-wing translucent surfaces, fine vein dividers, stream-mist neutrals, bank-silt support tones, and compact data-first composition.",
+  "typography": "Geist for crisp product UI, Geist Mono for compact analytics and tabular figures, and Noto Sans JP guidance for Japanese labels, navigation, forms, status text, and dense dashboards.",
+  "layout": "Slender 8px-or-less radii, clear-wing panels, fine vein-line separators, compact stream-bank navigation, dashboard/data density, precise forms and tables, quiet shadows, and azure/reed interaction hierarchy.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "damselfly",
+    "insect",
+    "stream-bank",
+    "azure-blue",
+    "reed-green",
+    "clear-wing",
+    "slender-analytics",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Wing White",
+      "hex": "#F8FCFF",
+      "oklch": "oklch(0.989 0.006 239.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stream Mist",
+      "hex": "#ECF7FA",
+      "oklch": "oklch(0.969 0.012 215.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Azure Body",
+      "hex": "#4EA3FF",
+      "oklch": "oklch(0.705 0.158 252.6)"
+    },
+    {
+      "role": "Primary Deep",
+      "name": "Deep Damselfly",
+      "hex": "#1F4D8F",
+      "oklch": "oklch(0.426 0.120 258.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Reed Green",
+      "hex": "#6AAB4F",
+      "oklch": "oklch(0.676 0.142 137.4)"
+    },
+    {
+      "role": "Info",
+      "name": "Ripple Cyan",
+      "hex": "#7FD6E6",
+      "oklch": "oklch(0.827 0.087 210.6)"
+    },
+    {
+      "role": "Membrane",
+      "name": "Wing Membrane",
+      "hex": "#E6EDF3",
+      "oklch": "oklch(0.943 0.011 243.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Wing Gray",
+      "hex": "#CED6DE",
+      "oklch": "oklch(0.872 0.014 248.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Bank Silt",
+      "hex": "#A09B8C",
+      "oklch": "oklch(0.689 0.022 91.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Vein Ink",
+      "hex": "#0D1822",
+      "oklch": "oklch(0.204 0.026 246.8)"
+    },
+    {
+      "role": "Depth",
+      "name": "Body Shadow",
+      "hex": "#182D40",
+      "oklch": "oklch(0.289 0.044 247.3)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.989 0.006 239.8)",
+    "foreground": "oklch(0.204 0.026 246.8)",
+    "card": "oklch(0.969 0.012 215.8)",
+    "card-foreground": "oklch(0.204 0.026 246.8)",
+    "popover": "oklch(0.989 0.006 239.8)",
+    "popover-foreground": "oklch(0.204 0.026 246.8)",
+    "primary": "oklch(0.705 0.158 252.6)",
+    "primary-foreground": "oklch(0.989 0.006 239.8)",
+    "secondary": "oklch(0.943 0.011 243.7)",
+    "secondary-foreground": "oklch(0.426 0.120 258.0)",
+    "muted": "oklch(0.943 0.011 243.7)",
+    "muted-foreground": "oklch(0.289 0.044 247.3)",
+    "accent": "oklch(0.676 0.142 137.4)",
+    "accent-foreground": "oklch(0.989 0.006 239.8)",
+    "destructive": "oklch(0.608 0.179 27.0)",
+    "border": "oklch(0.872 0.014 248.0)",
+    "input": "oklch(0.872 0.014 248.0)",
+    "ring": "oklch(0.827 0.087 210.6)",
+    "chart-1": "oklch(0.705 0.158 252.6)",
+    "chart-2": "oklch(0.676 0.142 137.4)",
+    "chart-3": "oklch(0.827 0.087 210.6)",
+    "chart-4": "oklch(0.747 0.149 84.9)",
+    "chart-5": "oklch(0.426 0.120 258.0)",
+    "sidebar": "oklch(0.969 0.012 215.8)",
+    "sidebar-foreground": "oklch(0.204 0.026 246.8)",
+    "sidebar-primary": "oklch(0.705 0.158 252.6)",
+    "sidebar-primary-foreground": "oklch(0.989 0.006 239.8)",
+    "sidebar-accent": "oklch(0.943 0.011 243.7)",
+    "sidebar-accent-foreground": "oklch(0.426 0.120 258.0)",
+    "sidebar-border": "oklch(0.872 0.014 248.0)",
+    "sidebar-ring": "oklch(0.827 0.087 210.6)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.173 0.029 248.6)",
+    "foreground": "oklch(0.989 0.006 239.8)",
+    "card": "oklch(0.269 0.050 247.3)",
+    "card-foreground": "oklch(0.969 0.012 215.8)",
+    "popover": "oklch(0.269 0.050 247.3)",
+    "popover-foreground": "oklch(0.969 0.012 215.8)",
+    "primary": "oklch(0.705 0.158 252.6)",
+    "primary-foreground": "oklch(0.173 0.029 248.6)",
+    "secondary": "oklch(0.344 0.084 252.1)",
+    "secondary-foreground": "oklch(0.969 0.012 215.8)",
+    "muted": "oklch(0.289 0.044 247.3)",
+    "muted-foreground": "oklch(0.859 0.015 224.5)",
+    "accent": "oklch(0.676 0.142 137.4)",
+    "accent-foreground": "oklch(0.173 0.029 248.6)",
+    "destructive": "oklch(0.608 0.179 27.0)",
+    "border": "oklch(0.872 0.014 248.0 / 22%)",
+    "input": "oklch(0.872 0.014 248.0 / 30%)",
+    "ring": "oklch(0.827 0.087 210.6)",
+    "chart-1": "oklch(0.705 0.158 252.6)",
+    "chart-2": "oklch(0.676 0.142 137.4)",
+    "chart-3": "oklch(0.827 0.087 210.6)",
+    "chart-4": "oklch(0.747 0.149 84.9)",
+    "chart-5": "oklch(0.689 0.022 91.7)",
+    "sidebar": "oklch(0.204 0.026 246.8)",
+    "sidebar-foreground": "oklch(0.989 0.006 239.8)",
+    "sidebar-primary": "oklch(0.705 0.158 252.6)",
+    "sidebar-primary-foreground": "oklch(0.173 0.029 248.6)",
+    "sidebar-accent": "oklch(0.344 0.084 252.1)",
+    "sidebar-accent-foreground": "oklch(0.969 0.012 215.8)",
+    "sidebar-border": "oklch(0.872 0.014 248.0 / 22%)",
+    "sidebar-ring": "oklch(0.827 0.087 210.6)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}
