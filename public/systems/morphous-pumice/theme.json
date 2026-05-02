@@ -1,0 +1,176 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pumice",
+    "name": "Morphous Pumice",
+    "motifName": "Pumice Stone",
+    "motifCategory": "mineral",
+    "biome": "Volcanic Beach",
+    "motif": "porous cream grey ash tan volcanic stone"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Foam Cream",
+      "hex": "#f5efe2",
+      "oklch": "oklch(0.953 0.018 86.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Ash Ink",
+      "hex": "#25231f",
+      "oklch": "oklch(0.257 0.008 84.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Warm Ash Tan",
+      "hex": "#c9ad83",
+      "oklch": "oklch(0.762 0.065 77.6)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pumice Grey",
+      "hex": "#b8b3a8",
+      "oklch": "oklch(0.768 0.016 86.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tide Glass",
+      "hex": "#8aa4a0",
+      "oklch": "oklch(0.698 0.030 185.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sulfur Lichen",
+      "hex": "#c6bf75",
+      "oklch": "oklch(0.794 0.096 103.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#fffaf0",
+      "oklch": "oklch(0.986 0.014 84.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Porous Charcoal",
+      "hex": "#5d564d",
+      "oklch": "oklch(0.457 0.017 74.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt Shadow",
+      "hex": "#34302a",
+      "oklch": "oklch(0.311 0.012 78.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.018 86.1)",
+    "foreground": "oklch(0.257 0.008 84.6)",
+    "card": "oklch(0.986 0.014 84.6)",
+    "card-foreground": "oklch(0.257 0.008 84.6)",
+    "popover": "oklch(0.986 0.014 84.6)",
+    "popover-foreground": "oklch(0.257 0.008 84.6)",
+    "primary": "oklch(0.762 0.065 77.6)",
+    "primary-foreground": "oklch(0.953 0.018 86.1)",
+    "secondary": "oklch(0.972 0.016 82.8)",
+    "secondary-foreground": "oklch(0.311 0.012 78.1)",
+    "muted": "oklch(0.977 0.015 86.4)",
+    "muted-foreground": "oklch(0.311 0.012 78.1)",
+    "accent": "oklch(0.698 0.030 185.2)",
+    "accent-foreground": "oklch(0.257 0.008 84.6)",
+    "destructive": "oklch(0.762 0.065 77.6)",
+    "border": "oklch(0.807 0.015 80.7)",
+    "input": "oklch(0.807 0.015 80.7)",
+    "ring": "oklch(0.768 0.016 86.4)",
+    "chart-1": "oklch(0.762 0.065 77.6)",
+    "chart-2": "oklch(0.768 0.016 86.4)",
+    "chart-3": "oklch(0.698 0.030 185.2)",
+    "chart-4": "oklch(0.794 0.096 103.6)",
+    "chart-5": "oklch(0.311 0.012 78.1)",
+    "sidebar": "oklch(0.975 0.016 82.8)",
+    "sidebar-foreground": "oklch(0.257 0.008 84.6)",
+    "sidebar-primary": "oklch(0.762 0.065 77.6)",
+    "sidebar-primary-foreground": "oklch(0.953 0.018 86.1)",
+    "sidebar-accent": "oklch(0.961 0.020 81.8)",
+    "sidebar-accent-foreground": "oklch(0.762 0.065 77.6)",
+    "sidebar-border": "oklch(0.807 0.015 80.7)",
+    "sidebar-ring": "oklch(0.768 0.016 86.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.257 0.008 84.6)",
+    "foreground": "oklch(0.953 0.018 86.1)",
+    "card": "oklch(0.294 0.011 84.6)",
+    "card-foreground": "oklch(0.953 0.018 86.1)",
+    "popover": "oklch(0.294 0.011 84.6)",
+    "popover-foreground": "oklch(0.953 0.018 86.1)",
+    "primary": "oklch(0.768 0.016 86.4)",
+    "primary-foreground": "oklch(0.257 0.008 84.6)",
+    "secondary": "oklch(0.344 0.012 72.4)",
+    "secondary-foreground": "oklch(0.953 0.018 86.1)",
+    "muted": "oklch(0.344 0.012 72.4)",
+    "muted-foreground": "oklch(0.741 0.017 79.3)",
+    "accent": "oklch(0.698 0.030 185.2)",
+    "accent-foreground": "oklch(0.257 0.008 84.6)",
+    "destructive": "oklch(0.762 0.065 77.6)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.768 0.016 86.4)",
+    "chart-1": "oklch(0.768 0.016 86.4)",
+    "chart-2": "oklch(0.762 0.065 77.6)",
+    "chart-3": "oklch(0.698 0.030 185.2)",
+    "chart-4": "oklch(0.794 0.096 103.6)",
+    "chart-5": "oklch(0.457 0.017 74.2)",
+    "sidebar": "oklch(0.282 0.010 80.6)",
+    "sidebar-foreground": "oklch(0.953 0.018 86.1)",
+    "sidebar-primary": "oklch(0.768 0.016 86.4)",
+    "sidebar-primary-foreground": "oklch(0.257 0.008 84.6)",
+    "sidebar-accent": "oklch(0.344 0.012 72.4)",
+    "sidebar-accent-foreground": "oklch(0.953 0.018 86.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.768 0.016 86.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise tooling UI with Noto Sans guidance for Japanese labels, compact numeric tables, and low-mass headings.",
+  "layout": "Airy 8px grids, small pore perforation motifs, compact toolbars, flat mineral surfaces, restrained borders, and inspectable dashboard composition.",
+  "tags": [
+    "pumice",
+    "mineral",
+    "volcanic-beach",
+    "porous",
+    "lightweight",
+    "tooling",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pumice/motif.png",
+    "board": "/systems/morphous-pumice/design-system-light.png",
+    "darkBoard": "/systems/morphous-pumice/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pumice/theme.css",
+    "themeJson": "/systems/morphous-pumice/theme.json",
+    "promptsJson": "/systems/morphous-pumice/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Pumice motif",
+      "asset": "/systems/morphous-pumice/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Pumice transparent motif chroma-key source\nPrimary request: Create only an isolated pumice stone motif for a design-system catalog, no environment, no props, no text.\nSubject: A single lightweight volcanic pumice stone with irregular rounded silhouette, porous vesicle holes, cream grey ash tan surface, chalky mineral texture, subtle warm beige edges, tiny dark basalt speckles, and crisp opaque edges.\nComposition/framing: centered complete cutout with generous padding; show the whole stone without cropping; three-quarter top view that reveals the porous surface and airy structure.\nLighting/mood: clean studio light that preserves pale cream, cool grey, ash tan, porous shadows, and matte mineral grain.\nChroma-key background: place the subject on a perfectly flat solid #00ff00 removable chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the subject.\nConstraints: no beach scene, no water, no sand, no hand, no plant, no lava glow, no obsidian shard, no marble, no text, no watermark, no props, no landscape, no second stone."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-pumice/design-system-light.png",
+      "prompt": "Create one wide 16:9 comprehensive light-mode design-system board for \"Morphous Pumice\" / \"Pumice Stone\", source reference for a shadcn/tweakcn theme. Visual direction: lightweight tooling system inspired by porous volcanic pumice from a volcanic beach. Palette must be consistent and visible: Foam Cream #f5efe2, Ash Ink #25231f, Pumice Grey #b8b3a8, Warm Ash Tan #c9ad83, Porous Charcoal #5d564d, Tide Glass #8aa4a0, Sulfur Lichen #c6bf75, Shell White #fffaf0, Basalt Shadow #34302a. Board layout: high-resolution 16:9, polished product design board, readable labels, no tiny illegible text.\n\nInclude: palette swatches with names, typography guidance for English and Japanese, buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation sidebar, compact toolbar, dashboard charts, empty/error/loading states, spacing scale, radius tokens, border tokens, shadow tokens, porous mineral texture samples, and sample usage panels. Use small circular pore perforation patterns, light cream surfaces, ash-grey borders, tan active controls, charcoal text, tide-glass focus rings, and airy 8px tooling grids. Components should feel utilitarian, light, precise, low-mass, and inspectable.\n\nText constraints: labels should be short and legible; include the exact title \"Morphous Pumice\" and subtitle \"Lightweight tooling system\". Avoid misspellings, fake brand logos, random app names, neon colors, purple/blue gradients, heavy glossy materials, beach photography as the main subject, and unrelated saturated colors."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-pumice/design-system-dark.png",
+      "prompt": "Create one wide 16:9 comprehensive dark-mode design-system board for \"Morphous Pumice\" / \"Pumice Stone\", translated from the light board and same volcanic beach pumice motif. Visual direction: lightweight tooling system in dark mode, porous mineral UI language, low-mass panels, precise inspectable controls. Palette must be consistent and visible: Basalt Shadow #25231f, Shell White #f5efe2, Porous Charcoal #5d564d, Pumice Grey #b8b3a8, Warm Ash Tan #c9ad83, Tide Glass #8aa4a0, Sulfur Lichen #c6bf75, Deep Basalt #181713, Foam Cream #fffaf0. Board layout: high-resolution 16:9, polished product design board, readable labels, no tiny illegible text.\n\nInclude: palette swatches with names, typography guidance for English and Japanese, buttons, icon buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table, command/search, navigation sidebar, compact toolbar, dashboard charts, empty/error/loading states, spacing scale, radius tokens, border tokens, shadow tokens, porous mineral texture samples, and sample usage panels. Preserve the same small circular pore perforation patterns, ash-tan active controls, tide-glass focus rings, pale shell text, subtle pumice-grey borders, and airy 8px tooling grids. Components should feel utilitarian, light, precise, low-mass, and inspectable even in dark mode.\n\nText constraints: labels should be short and legible; include the exact title \"Morphous Pumice\" and subtitle \"Lightweight tooling system\". Avoid misspellings, fake brand logos, random app names, neon colors, purple/blue gradients, heavy glossy materials, lava glow, beach photography as the main subject, and unrelated saturated colors."
+    }
+  ]
+}

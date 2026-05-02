@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pelican",
+    "name": "Morphous Pelican",
+    "motifName": "Pelican",
+    "motifCategory": "bird",
+    "biome": "Coastal Lagoon",
+    "motif": "pelican bill"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Feather Cream",
+      "hex": "#F7F3EC",
+      "oklch": "oklch(0.970 0.010 82.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Tide",
+      "hex": "#0E3A4D",
+      "oklch": "oklch(0.331 0.057 229.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pouch Yellow",
+      "hex": "#F2C14E",
+      "oklch": "oklch(0.827 0.143 83.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bill Ivory",
+      "hex": "#FFF6E5",
+      "oklch": "oklch(0.974 0.025 83.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lagoon Blue",
+      "hex": "#4DB6D6",
+      "oklch": "oklch(0.735 0.115 216.0)"
+    },
+    {
+      "role": "Support",
+      "name": "Reed Gray",
+      "hex": "#B7C1C6",
+      "oklch": "oklch(0.795 0.014 229.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Marsh Green",
+      "hex": "#2E907A",
+      "oklch": "oklch(0.591 0.104 170.0)"
+    },
+    {
+      "role": "Warning",
+      "name": "Pouch Umber",
+      "hex": "#8A6A19",
+      "oklch": "oklch(0.525 0.105 85.0)"
+    },
+    {
+      "role": "Error",
+      "name": "Coral Mark",
+      "hex": "#E15864",
+      "oklch": "oklch(0.645 0.170 23.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Lagoon",
+      "hex": "#133F52",
+      "oklch": "oklch(0.357 0.061 229.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.970 0.010 82.0)",
+    "foreground": "oklch(0.331 0.057 229.0)",
+    "card": "oklch(0.985 0.018 83.4)",
+    "card-foreground": "oklch(0.331 0.057 229.0)",
+    "popover": "oklch(0.985 0.018 83.4)",
+    "popover-foreground": "oklch(0.331 0.057 229.0)",
+    "primary": "oklch(0.827 0.143 83.7)",
+    "primary-foreground": "oklch(0.245 0.040 229.0)",
+    "secondary": "oklch(0.944 0.028 84.0)",
+    "secondary-foreground": "oklch(0.357 0.061 229.0)",
+    "muted": "oklch(0.930 0.012 214.0)",
+    "muted-foreground": "oklch(0.516 0.025 225.0)",
+    "accent": "oklch(0.735 0.115 216.0)",
+    "accent-foreground": "oklch(0.985 0.018 83.4)",
+    "destructive": "oklch(0.645 0.170 23.0)",
+    "border": "oklch(0.858 0.018 220.0)",
+    "input": "oklch(0.858 0.018 220.0)",
+    "ring": "oklch(0.735 0.115 216.0)",
+    "chart-1": "oklch(0.827 0.143 83.7)",
+    "chart-2": "oklch(0.735 0.115 216.0)",
+    "chart-3": "oklch(0.591 0.104 170.0)",
+    "chart-4": "oklch(0.525 0.105 85.0)",
+    "chart-5": "oklch(0.331 0.057 229.0)",
+    "sidebar": "oklch(0.955 0.017 82.0)",
+    "sidebar-foreground": "oklch(0.331 0.057 229.0)",
+    "sidebar-primary": "oklch(0.827 0.143 83.7)",
+    "sidebar-primary-foreground": "oklch(0.245 0.040 229.0)",
+    "sidebar-accent": "oklch(0.944 0.028 84.0)",
+    "sidebar-accent-foreground": "oklch(0.357 0.061 229.0)",
+    "sidebar-border": "oklch(0.858 0.018 220.0)",
+    "sidebar-ring": "oklch(0.735 0.115 216.0)",
+    "radius": "0.625rem"
+  },
+  "dark": {
+    "background": "oklch(0.245 0.040 229.0)",
+    "foreground": "oklch(0.970 0.010 82.0)",
+    "card": "oklch(0.300 0.050 229.0)",
+    "card-foreground": "oklch(0.970 0.010 82.0)",
+    "popover": "oklch(0.300 0.050 229.0)",
+    "popover-foreground": "oklch(0.970 0.010 82.0)",
+    "primary": "oklch(0.827 0.143 83.7)",
+    "primary-foreground": "oklch(0.245 0.040 229.0)",
+    "secondary": "oklch(0.357 0.061 229.0)",
+    "secondary-foreground": "oklch(0.970 0.010 82.0)",
+    "muted": "oklch(0.357 0.035 224.0)",
+    "muted-foreground": "oklch(0.795 0.014 229.0)",
+    "accent": "oklch(0.735 0.115 216.0)",
+    "accent-foreground": "oklch(0.245 0.040 229.0)",
+    "destructive": "oklch(0.645 0.170 23.0)",
+    "border": "oklch(0.970 0.010 82.0 / 14%)",
+    "input": "oklch(0.970 0.010 82.0 / 18%)",
+    "ring": "oklch(0.735 0.115 216.0)",
+    "chart-1": "oklch(0.827 0.143 83.7)",
+    "chart-2": "oklch(0.735 0.115 216.0)",
+    "chart-3": "oklch(0.591 0.104 170.0)",
+    "chart-4": "oklch(0.974 0.025 83.4)",
+    "chart-5": "oklch(0.795 0.014 229.0)",
+    "sidebar": "oklch(0.220 0.036 229.0)",
+    "sidebar-foreground": "oklch(0.970 0.010 82.0)",
+    "sidebar-primary": "oklch(0.827 0.143 83.7)",
+    "sidebar-primary-foreground": "oklch(0.245 0.040 229.0)",
+    "sidebar-accent": "oklch(0.357 0.061 229.0)",
+    "sidebar-accent-foreground": "oklch(0.970 0.010 82.0)",
+    "sidebar-border": "oklch(0.970 0.010 82.0 / 14%)",
+    "sidebar-ring": "oklch(0.735 0.115 216.0)",
+    "radius": "0.625rem"
+  },
+  "typography": "Geist for spacious product UI with Noto Sans JP guidance for Japanese labels, large readable form fields, calm dashboard numerics, and high-volume data-entry clarity.",
+  "layout": "Precise 8px grids, 10px radii, wide input rows, pouch-shaped active controls, feather-line texture panels, lagoon-blue focus states, dense dashboard/table regions, and readable status sections.",
+  "tags": [
+    "pelican",
+    "bird",
+    "coastal-lagoon",
+    "cream-yellow-blue",
+    "large-input",
+    "dashboard",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pelican/motif.png",
+    "board": "/systems/morphous-pelican/design-system-light.png",
+    "darkBoard": "/systems/morphous-pelican/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pelican/theme.css",
+    "themeJson": "/systems/morphous-pelican/theme.json",
+    "promptsJson": "/systems/morphous-pelican/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Pelican bill motif",
+      "asset": "/systems/morphous-pelican/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Pelican transparent motif chroma-key source\nPrimary request: Create only an isolated pelican bill motif for a design-system catalog, no environment, no props, no text.\nSubject: A detailed pelican head and oversized bill pouch as the central motif, cream feather head and neck, warm yellow throat pouch, pale ivory bill highlights, subtle sea-blue reflected light along the bill edge, accurate coastal bird anatomy, crisp silhouette edges, natural feather and pouch texture.\nComposition/framing: centered complete cutout with generous padding; show the full head, eye, bill, pouch, and a short neck base without cropping; strong readable silhouette suitable for a catalog motif.\nLighting/mood: clean studio light that preserves cream feather, yellow pouch, sea-blue reflected accents, and fine texture.\nChroma-key background: place the subject on a perfectly flat solid #ff00ff chroma-key background for transparency removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full body bird, no ocean scene, no fish, no nest, no extra animals, no text, no watermark, no props, no landscape, no cast shadow, no contact shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-pelican/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Pelican design-system-light.png, 16:9 comprehensive design system board\nPrimary request: Create a polished high-resolution LIGHT MODE design-system board for a motif-driven UI theme named \"Morphous Pelican\". The theme is inspired by a pelican bill in a coastal lagoon: cream feather surfaces, warm yellow pouch primary controls, sea-blue input focus, and lagoon neutrals. The product mood is \"large input system\" with spacious data-entry components.\nRequired board content: palette swatches with labels (Feather Cream, Pouch Yellow, Bill Ivory, Lagoon Blue, Reed Gray, Deep Tide), typography guidance for English and Japanese, semantic token examples, navigation sidebar and top bar, dashboard cards, charts, data table, large form with text input, search command, select, textarea, checkbox, radio, switch, tabs, badges, alerts, status indicators, empty/loading/error states, spacing/radius/shadow tokens, texture sample inspired by fine feather and pouch grain.\nLayout: one comprehensive 3840x2160-style 16:9 board, clean grid, large readable labels, no tiny text, no overlapping elements. Put the pelican bill motif as a source mark or cutout reference on the board without obscuring the UI.\nVisual direction: light cream background, ivory cards, yellow pouch primary buttons and active states, sea-blue rings and chart accents, muted lagoon gray borders, subtle feather-line texture, rounded but professional components, dense enough for dashboard/table/form/status/navigation coverage.\nText constraints: use only generic UI labels such as Overview, Inputs, Revenue, Lagoon Queue, Status, Active, Pending, Error, Submit, Search, Customer, Amount, Last update, Feather Cream. No random brand names, no watermark, no logo text other than Morphous Pelican.\nQuality constraints: crisp modern UI, readable labels at gallery preview scale, no stock-photo background, no purple gradient, no illegible microcopy, no distorted letters, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-pelican/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Pelican design-system-dark.png, 16:9 comprehensive design system board\nPrimary request: Create a polished high-resolution DARK MODE design-system board for a motif-driven UI theme named \"Morphous Pelican\". It must feel like the dark translation of the light Morphous Pelican board: pelican bill in a coastal lagoon, cream feather text surfaces, warm yellow pouch primary controls, sea-blue input focus, and deep tide lagoon neutrals. The product mood is \"large input system\" with spacious data-entry components.\nRequired board content: palette swatches with labels (Deep Tide, Night Lagoon, Feather Cream, Pouch Yellow, Bill Ivory, Lagoon Blue, Reed Gray), typography guidance for English and Japanese, semantic token examples, navigation sidebar and top bar, dashboard cards, charts, data table, large form with text input, search command, select, textarea, checkbox, radio, switch, tabs, badges, alerts, status indicators, empty/loading/error states, spacing/radius/shadow tokens, texture sample inspired by fine feather and pouch grain.\nLayout: one comprehensive 3840x2160-style 16:9 board, clean grid, large readable labels, no tiny text, no overlapping elements. Put the pelican bill motif as a source mark or cutout reference on the board without obscuring the UI.\nVisual direction: deep blue-green background, dark lagoon cards, cream foreground text, yellow pouch primary buttons and chart bars, sea-blue focus rings and links, muted reed-gray borders, subtle feather-line texture, professional data-heavy dashboard feel, all components clearly legible.\nText constraints: use only generic UI labels such as Overview, Inputs, Revenue, Lagoon Queue, Status, Active, Pending, Error, Submit, Search, Customer, Amount, Last update, Feather Cream. No random brand names, no watermark, no logo text other than Morphous Pelican.\nQuality constraints: crisp modern UI, readable labels at gallery preview scale, no stock-photo background, no purple gradient, no illegible microcopy, no distorted letters, no watermark."
+    }
+  ]
+}

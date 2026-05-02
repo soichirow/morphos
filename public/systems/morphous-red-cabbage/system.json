@@ -1,0 +1,192 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 263,
+  "slug": "morphous-red-cabbage",
+  "name": "Morphous Red Cabbage",
+  "motifName": "Red Cabbage",
+  "motifCategory": "plant",
+  "biome": "vegetable bed",
+  "motif": "red cabbage head",
+  "paletteMood": "purple leaf wax blue vein",
+  "designMood": "layered planning system",
+  "description": "A shadcn/tweakcn-compatible layered planning system derived from red cabbage waxy purple leaves, blue-violet vein structure, burgundy folded shadows, pale lavender bloom, and muted vegetable-bed soil speckles.",
+  "typography": "Compact English planning UI with Japanese typography guidance for layered roadmaps, dependency tables, sprint capacity, milestone status, command search, and calm operational review.",
+  "layout": "Layered planning dashboards, compact navigation, 8px radii, cabbage-layer cards, vein-line dividers, wax-bloom surfaces, soil-umber borders, and dense status tables.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "red-cabbage",
+    "plant",
+    "vegetable-bed",
+    "purple-leaf",
+    "waxy-leaf",
+    "blue-violet-vein",
+    "layered-planning-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cabbage Heart",
+      "hex": "#F8F3F7",
+      "oklch": "oklch(0.969 0.007 332.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Plum Ink",
+      "hex": "#1B1020",
+      "oklch": "oklch(0.196 0.035 314.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Waxy Purple Leaf",
+      "hex": "#7B3F93",
+      "oklch": "oklch(0.479 0.142 315.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blue-Violet Vein",
+      "hex": "#9AA2E6",
+      "oklch": "oklch(0.732 0.099 278.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lavender Bloom",
+      "hex": "#D8C3F0",
+      "oklch": "oklch(0.849 0.066 306.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Burgundy Core",
+      "hex": "#A2145A",
+      "oklch": "oklch(0.471 0.180 358.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cut Leaf Ivory",
+      "hex": "#FFFBFC",
+      "oklch": "oklch(0.991 0.004 360.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Leaf Mist",
+      "hex": "#E8DDED",
+      "oklch": "oklch(0.911 0.024 315.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Midnight Plum",
+      "hex": "#0D0A12",
+      "oklch": "oklch(0.153 0.017 301.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Soil Umber",
+      "hex": "#A88B83",
+      "oklch": "oklch(0.661 0.037 35.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Root Burgundy",
+      "hex": "#8D1C3E",
+      "oklch": "oklch(0.428 0.148 9.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.969 0.007 332.1)",
+    "foreground": "oklch(0.196 0.035 314.8)",
+    "card": "oklch(0.991 0.004 360.0)",
+    "card-foreground": "oklch(0.196 0.035 314.8)",
+    "popover": "oklch(0.991 0.004 360.0)",
+    "popover-foreground": "oklch(0.196 0.035 314.8)",
+    "primary": "oklch(0.479 0.142 315.3)",
+    "primary-foreground": "oklch(0.991 0.004 360.0)",
+    "secondary": "oklch(0.911 0.024 315.5)",
+    "secondary-foreground": "oklch(0.196 0.035 314.8)",
+    "muted": "oklch(0.946 0.015 322.3)",
+    "muted-foreground": "oklch(0.443 0.053 318.9)",
+    "accent": "oklch(0.849 0.066 306.2)",
+    "accent-foreground": "oklch(0.196 0.035 314.8)",
+    "destructive": "oklch(0.428 0.148 9.0)",
+    "border": "oklch(0.852 0.026 323.8)",
+    "input": "oklch(0.852 0.026 323.8)",
+    "ring": "oklch(0.732 0.099 278.5)",
+    "chart-1": "oklch(0.479 0.142 315.3)",
+    "chart-2": "oklch(0.732 0.099 278.5)",
+    "chart-3": "oklch(0.849 0.066 306.2)",
+    "chart-4": "oklch(0.471 0.180 358.3)",
+    "chart-5": "oklch(0.622 0.077 36.1)",
+    "sidebar": "oklch(0.946 0.015 322.3)",
+    "sidebar-foreground": "oklch(0.196 0.035 314.8)",
+    "sidebar-primary": "oklch(0.479 0.142 315.3)",
+    "sidebar-primary-foreground": "oklch(0.991 0.004 360.0)",
+    "sidebar-accent": "oklch(0.911 0.024 315.5)",
+    "sidebar-accent-foreground": "oklch(0.479 0.142 315.3)",
+    "sidebar-border": "oklch(0.852 0.026 323.8)",
+    "sidebar-ring": "oklch(0.732 0.099 278.5)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.153 0.017 301.5)",
+    "foreground": "oklch(0.969 0.007 332.1)",
+    "card": "oklch(0.197 0.029 303.5)",
+    "card-foreground": "oklch(0.969 0.007 332.1)",
+    "popover": "oklch(0.197 0.029 303.5)",
+    "popover-foreground": "oklch(0.969 0.007 332.1)",
+    "primary": "oklch(0.725 0.137 313.9)",
+    "primary-foreground": "oklch(0.196 0.035 314.8)",
+    "secondary": "oklch(0.268 0.040 313.4)",
+    "secondary-foreground": "oklch(0.969 0.007 332.1)",
+    "muted": "oklch(0.268 0.040 313.4)",
+    "muted-foreground": "oklch(0.849 0.066 306.2)",
+    "accent": "oklch(0.732 0.099 278.5)",
+    "accent-foreground": "oklch(0.153 0.017 301.5)",
+    "destructive": "oklch(0.471 0.180 358.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.732 0.099 278.5)",
+    "chart-1": "oklch(0.725 0.137 313.9)",
+    "chart-2": "oklch(0.732 0.099 278.5)",
+    "chart-3": "oklch(0.849 0.066 306.2)",
+    "chart-4": "oklch(0.471 0.180 358.3)",
+    "chart-5": "oklch(0.661 0.037 35.9)",
+    "sidebar": "oklch(0.197 0.029 303.5)",
+    "sidebar-foreground": "oklch(0.969 0.007 332.1)",
+    "sidebar-primary": "oklch(0.725 0.137 313.9)",
+    "sidebar-primary-foreground": "oklch(0.196 0.035 314.8)",
+    "sidebar-accent": "oklch(0.268 0.040 313.4)",
+    "sidebar-accent-foreground": "oklch(0.969 0.007 332.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.732 0.099 278.5)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

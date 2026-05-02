@@ -1,0 +1,177 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-playa-lake",
+    "name": "Morphous Playa Lake",
+    "motifName": "Playa Lake",
+    "motifCategory": "landscape",
+    "biome": "Dry Basin",
+    "motif": "playa lake crust"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Dry Basin",
+      "hex": "#f6efdf",
+      "oklch": "oklch(0.953 0.022 87.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Clay Ink",
+      "hex": "#2f322b",
+      "oklch": "oklch(0.312 0.013 126.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Sky Trace",
+      "hex": "#79b7d2",
+      "oklch": "oklch(0.747 0.075 227.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Sage Margin",
+      "hex": "#9daa8c",
+      "oklch": "oklch(0.719 0.045 126.6)"
+    },
+    {
+      "role": "Accent",
+      "name": "Salt Crust",
+      "hex": "#fff8e8",
+      "oklch": "oklch(0.980 0.022 87.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Silt Border",
+      "hex": "#b9ad93",
+      "oklch": "oklch(0.751 0.039 86.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Blue Wash",
+      "hex": "#d9eef4",
+      "oklch": "oklch(0.935 0.024 216.7)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Veil",
+      "hex": "#d9d2bd",
+      "oklch": "oklch(0.864 0.029 91.7)"
+    },
+    {
+      "role": "Depth",
+      "name": "Basin Shadow",
+      "hex": "#4d5246",
+      "oklch": "oklch(0.430 0.020 125.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.953 0.022 87.2)",
+    "foreground": "oklch(0.312 0.013 126.1)",
+    "card": "oklch(0.935 0.024 216.7)",
+    "card-foreground": "oklch(0.312 0.013 126.1)",
+    "popover": "oklch(0.935 0.024 216.7)",
+    "popover-foreground": "oklch(0.312 0.013 126.1)",
+    "primary": "oklch(0.747 0.075 227.3)",
+    "primary-foreground": "oklch(0.953 0.022 87.2)",
+    "secondary": "oklch(0.941 0.010 174.3)",
+    "secondary-foreground": "oklch(0.430 0.020 125.7)",
+    "muted": "oklch(0.939 0.014 196.9)",
+    "muted-foreground": "oklch(0.430 0.020 125.7)",
+    "accent": "oklch(0.980 0.022 87.1)",
+    "accent-foreground": "oklch(0.312 0.013 126.1)",
+    "destructive": "oklch(0.747 0.075 227.3)",
+    "border": "oklch(0.909 0.013 172.3)",
+    "input": "oklch(0.909 0.013 172.3)",
+    "ring": "oklch(0.719 0.045 126.6)",
+    "chart-1": "oklch(0.747 0.075 227.3)",
+    "chart-2": "oklch(0.719 0.045 126.6)",
+    "chart-3": "oklch(0.980 0.022 87.1)",
+    "chart-4": "oklch(0.751 0.039 86.2)",
+    "chart-5": "oklch(0.430 0.020 125.7)",
+    "sidebar": "oklch(0.941 0.012 190.4)",
+    "sidebar-foreground": "oklch(0.312 0.013 126.1)",
+    "sidebar-primary": "oklch(0.747 0.075 227.3)",
+    "sidebar-primary-foreground": "oklch(0.953 0.022 87.2)",
+    "sidebar-accent": "oklch(0.912 0.030 220.6)",
+    "sidebar-accent-foreground": "oklch(0.747 0.075 227.3)",
+    "sidebar-border": "oklch(0.909 0.013 172.3)",
+    "sidebar-ring": "oklch(0.719 0.045 126.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.312 0.013 126.1)",
+    "foreground": "oklch(0.953 0.022 87.2)",
+    "card": "oklch(0.391 0.017 125.0)",
+    "card-foreground": "oklch(0.953 0.022 87.2)",
+    "popover": "oklch(0.391 0.017 125.0)",
+    "popover-foreground": "oklch(0.953 0.022 87.2)",
+    "primary": "oklch(0.719 0.045 126.6)",
+    "primary-foreground": "oklch(0.312 0.013 126.1)",
+    "secondary": "oklch(0.532 0.021 113.7)",
+    "secondary-foreground": "oklch(0.953 0.022 87.2)",
+    "muted": "oklch(0.532 0.021 113.7)",
+    "muted-foreground": "oklch(0.913 0.025 89.2)",
+    "accent": "oklch(0.980 0.022 87.1)",
+    "accent-foreground": "oklch(0.312 0.013 126.1)",
+    "destructive": "oklch(0.747 0.075 227.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.719 0.045 126.6)",
+    "chart-1": "oklch(0.719 0.045 126.6)",
+    "chart-2": "oklch(0.747 0.075 227.3)",
+    "chart-3": "oklch(0.980 0.022 87.1)",
+    "chart-4": "oklch(0.751 0.039 86.2)",
+    "chart-5": "oklch(0.864 0.029 91.7)",
+    "sidebar": "oklch(0.368 0.018 125.0)",
+    "sidebar-foreground": "oklch(0.953 0.022 87.2)",
+    "sidebar-primary": "oklch(0.719 0.045 126.6)",
+    "sidebar-primary-foreground": "oklch(0.312 0.013 126.1)",
+    "sidebar-accent": "oklch(0.532 0.021 113.7)",
+    "sidebar-accent-foreground": "oklch(0.953 0.022 87.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.719 0.045 126.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Calm product UI typography with steady numerals and Japanese guidance tuned for planning, schedules, work queues, and operational review.",
+  "layout": "Precise 8px planning grids, low-contrast cards, thin silt borders, measured radius, and subtle cracked-crust texture used as a quiet organizing layer.",
+  "tags": [
+    "playa-lake",
+    "landscape",
+    "dry-basin",
+    "planning",
+    "cream-clay",
+    "sky-blue",
+    "sage",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-playa-lake/motif.png",
+    "board": "/systems/morphous-playa-lake/design-system-light.png",
+    "darkBoard": "/systems/morphous-playa-lake/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-playa-lake/theme.css",
+    "themeJson": "/systems/morphous-playa-lake/theme.json",
+    "promptsJson": "/systems/morphous-playa-lake/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent playa lake crust motif",
+      "asset": "/systems/morphous-playa-lake/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Playa Lake transparent motif chroma-key source\nPrimary request: Create only a playa lake crust motif for a design-system catalog, isolated as one complete natural landform fragment on a removable chroma-key background.\nSubject: A dry basin playa lake crust fragment, a broad irregular slab of cracked cream clay and pale salt crust with shallow polygonal fissures, subtle sky-blue mineral sheen in a few thin dry channels, muted sage-gray traces of desert scrub dust at the edges, fine powdery surface texture, accurate arid playa geology, quiet planning-system identity. No standing water, no landscape horizon, no plants as separate objects.\nComposition/framing: centered complete cutout with generous padding; include the full irregular crust fragment without cropping. Clean studio lighting that preserves cream clay, sky blue traces, sage dust, and tactile cracked texture; no cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no props, no full landscape, no road, no lake water, no mountains, no animal tracks, no footprints, no tire marks, no second subject, no decorative background."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-playa-lake/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Playa Lake light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Playa Lake\", derived from a playa lake crust motif cutout. This board is a source reference for a shadcn/tweakcn-compatible quiet planning system.\nCanvas: exact 3840x2160 wide 16:9 high-resolution board, clean professional UI design-system presentation, large readable labels, no dense tiny text.\nRequired visible sections: Morphous Playa Lake, Playa Lake, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Planning Board, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Extract colors and interaction language from dry basin playa lake crust: cracked cream clay, pale salt crust, thin sky-blue mineral traces, dusty sage-gray edge tones, fine powder grain, shallow polygon fissures. The board must read as arid playa crust and quiet planning software, not beach, ocean, generic blue SaaS, or desert tourism.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Planning Notes. Keep text short, large, and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, timeline, kanban planning cards, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nStyle: quiet planning system, shadcn/tweakcn-style product UI, 8px radius, precise 8px grid, cream clay backgrounds, sky-blue primary actions, sage muted panels, clay-silt borders, cracked-salt texture accents, restrained contrast, calm operational workspace.\nPalette names to show: Dry Basin, Clay Ink, Sky Trace, Sage Margin, Salt Crust, Silt Border, Blue Wash, Dust Veil, Basin Shadow.\nConstraints: no ocean water, no beach scene, no mountains, no cactus, no saturated neon colors, no generic purple/blue gradients, no unrelated bright colors, no watermark, no random brand names, no misspelling of \"Morphous Playa Lake\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-playa-lake/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Playa Lake dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Playa Lake\". It must feel like the light-mode board translated to dark mode and remain derived from a playa lake crust motif cutout.\nCanvas: exact 3840x2160 wide 16:9 high-resolution board, clean professional UI design-system presentation, large readable labels, no dense tiny text.\nRequired visible sections: Morphous Playa Lake, Playa Lake, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Planning Board, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens.\nReference use: Preserve the dry basin playa lake crust language: cracked cream clay highlights, pale salt crust edges, thin sky-blue mineral traces, dusty sage-gray margins, powder grain, shallow polygon fissures, quiet planning workflow. Must read as arid playa crust and planning software, not beach, ocean, generic dark SaaS, or desert tourism.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Display, Body, Label, Numbers, Japanese UI, Planning Notes. Keep text short, large, and legible.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, timeline, kanban planning cards, dashboard metric cards, line chart, bar chart, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple icons.\nVisual details: deep clay-ink and basin-shadow backgrounds, warm cream text, sky-blue primary actions, sage muted panels, salt-crust highlights, silt borders, subtle cracked dry-lake texture overlays, calm accessible contrast, precise shadcn/tweakcn-style 8px grid and 8px radius.\nPalette names to show: Dry Basin, Clay Ink, Sky Trace, Sage Margin, Salt Crust, Silt Border, Blue Wash, Dust Veil, Basin Shadow.\nConstraints: no ocean water, no beach scene, no mountains, no cactus, no neon blue, no pure-black-only flat background, no generic purple/blue gradients, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Playa Lake\", no tiny unreadable paragraphs."
+    }
+  ]
+}

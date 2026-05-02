@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 278,
+  "slug": "morphous-puffball",
+  "name": "Morphous Puffball",
+  "motifName": "Puffball",
+  "motifCategory": "fungi",
+  "biome": "meadow",
+  "motif": "puffball fungus",
+  "description": "A plain-language shadcn/tweakcn system derived from a meadow puffball: soft spore-white surfaces, stippled pore texture, grass-green actions, moss support states, root-taupe borders, and soil-brown structure.",
+  "typography": "Geist or a similar clean sans for plain product UI, system-ui for native controls, and Noto Sans JP guidance for Japanese headings, labels, status text, and numerals.",
+  "layout": "Compact 8px grid, 8px radii, soft puffball-card surfaces, pore-grain texture panels, soil-brown navigation structure, grass-green focus rings, and dashboard/data layouts that stay quiet and readable.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "puffball",
+    "fungi",
+    "meadow",
+    "plain language",
+    "pore texture",
+    "grass green",
+    "soil brown",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore White",
+      "hex": "#FAFAF8"
+    },
+    {
+      "role": "Ink",
+      "name": "Loam Ink",
+      "hex": "#211A14"
+    },
+    {
+      "role": "Primary",
+      "name": "Meadow Grass",
+      "hex": "#6F9F50"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Olive",
+      "hex": "#5E6B3A"
+    },
+    {
+      "role": "Accent",
+      "name": "Pore Cream",
+      "hex": "#F2EDE1"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Ivory",
+      "hex": "#E9E3D3"
+    },
+    {
+      "role": "Surface",
+      "name": "Puffball Paper",
+      "hex": "#F7F3EA"
+    },
+    {
+      "role": "Muted",
+      "name": "Root Taupe",
+      "hex": "#D9D2C3"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Soil",
+      "hex": "#3F3026"
+    },
+    {
+      "role": "Border",
+      "name": "Loam",
+      "hex": "#6B6054"
+    },
+    {
+      "role": "Chart",
+      "name": "Moss",
+      "hex": "#7A8A4E"
+    },
+    {
+      "role": "Earth",
+      "name": "Soil Brown",
+      "hex": "#8B735A"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.985 0.003 106.4)",
+    "foreground": "oklch(0.224 0.016 62.5)",
+    "card": "oklch(0.965 0.013 86.8)",
+    "card-foreground": "oklch(0.224 0.016 62.5)",
+    "popover": "oklch(0.965 0.013 86.8)",
+    "popover-foreground": "oklch(0.224 0.016 62.5)",
+    "primary": "oklch(0.649 0.121 134.4)",
+    "primary-foreground": "oklch(0.224 0.016 62.5)",
+    "secondary": "oklch(0.947 0.017 88.0)",
+    "secondary-foreground": "oklch(0.339 0.018 67.2)",
+    "muted": "oklch(0.916 0.022 89.8)",
+    "muted-foreground": "oklch(0.496 0.023 69.7)",
+    "accent": "oklch(0.710 0.104 127.8)",
+    "accent-foreground": "oklch(0.224 0.016 62.5)",
+    "destructive": "oklch(0.572 0.047 67.8)",
+    "border": "oklch(0.865 0.022 85.9)",
+    "input": "oklch(0.865 0.022 85.9)",
+    "ring": "oklch(0.649 0.121 134.4)",
+    "chart-1": "oklch(0.649 0.121 134.4)",
+    "chart-2": "oklch(0.606 0.086 121.2)",
+    "chart-3": "oklch(0.572 0.047 67.8)",
+    "chart-4": "oklch(0.916 0.022 89.8)",
+    "chart-5": "oklch(0.339 0.018 67.2)",
+    "sidebar": "oklch(0.947 0.017 88.0)",
+    "sidebar-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-primary": "oklch(0.649 0.121 134.4)",
+    "sidebar-primary-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-accent": "oklch(0.916 0.022 89.8)",
+    "sidebar-accent-foreground": "oklch(0.339 0.018 67.2)",
+    "sidebar-border": "oklch(0.865 0.022 85.9)",
+    "sidebar-ring": "oklch(0.649 0.121 134.4)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.224 0.016 62.5)",
+    "foreground": "oklch(0.985 0.003 106.4)",
+    "card": "oklch(0.339 0.018 67.2)",
+    "card-foreground": "oklch(0.985 0.003 106.4)",
+    "popover": "oklch(0.339 0.018 67.2)",
+    "popover-foreground": "oklch(0.985 0.003 106.4)",
+    "primary": "oklch(0.710 0.104 127.8)",
+    "primary-foreground": "oklch(0.224 0.016 62.5)",
+    "secondary": "oklch(0.323 0.028 55.2)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.407 0.032 51.6)",
+    "muted-foreground": "oklch(0.865 0.022 85.9)",
+    "accent": "oklch(0.649 0.121 134.4)",
+    "accent-foreground": "oklch(0.224 0.016 62.5)",
+    "destructive": "oklch(0.572 0.047 67.8)",
+    "border": "oklch(0.572 0.047 67.8 / 32%)",
+    "input": "oklch(0.572 0.047 67.8 / 40%)",
+    "ring": "oklch(0.710 0.104 127.8)",
+    "chart-1": "oklch(0.710 0.104 127.8)",
+    "chart-2": "oklch(0.606 0.086 121.2)",
+    "chart-3": "oklch(0.649 0.121 134.4)",
+    "chart-4": "oklch(0.916 0.022 89.8)",
+    "chart-5": "oklch(0.572 0.047 67.8)",
+    "sidebar": "oklch(0.323 0.028 55.2)",
+    "sidebar-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-primary": "oklch(0.710 0.104 127.8)",
+    "sidebar-primary-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-accent": "oklch(0.407 0.032 51.6)",
+    "sidebar-accent-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-border": "oklch(0.572 0.047 67.8 / 32%)",
+    "sidebar-ring": "oklch(0.710 0.104 127.8)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

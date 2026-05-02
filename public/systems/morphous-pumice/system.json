@@ -1,0 +1,81 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-pumice",
+  "name": "Morphous Pumice",
+  "motifName": "Pumice Stone",
+  "motifCategory": "mineral",
+  "biome": "Volcanic Beach",
+  "motif": "porous cream grey ash tan volcanic stone",
+  "description": "A shadcn/tweakcn-compatible system to be coded from the Pumice light and dark design-system boards: cream porous surfaces, ash-grey structure, warm tan actions, charcoal text, tide-glass focus, and lightweight tooling rhythm.",
+  "typography": "Geist for precise tooling UI with Noto Sans guidance for Japanese labels, compact numeric tables, and low-mass headings.",
+  "layout": "Airy 8px grids, small pore perforation motifs, compact toolbars, flat mineral surfaces, restrained borders, and inspectable dashboard composition.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "pumice",
+    "mineral",
+    "volcanic-beach",
+    "porous",
+    "lightweight",
+    "tooling",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Foam Cream",
+      "hex": "#f5efe2"
+    },
+    {
+      "role": "Ink",
+      "name": "Ash Ink",
+      "hex": "#25231f"
+    },
+    {
+      "role": "Primary",
+      "name": "Warm Ash Tan",
+      "hex": "#c9ad83"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pumice Grey",
+      "hex": "#b8b3a8"
+    },
+    {
+      "role": "Accent",
+      "name": "Tide Glass",
+      "hex": "#8aa4a0"
+    },
+    {
+      "role": "Signal",
+      "name": "Sulfur Lichen",
+      "hex": "#c6bf75"
+    },
+    {
+      "role": "Surface",
+      "name": "Shell White",
+      "hex": "#fffaf0"
+    },
+    {
+      "role": "Muted",
+      "name": "Porous Charcoal",
+      "hex": "#5d564d"
+    },
+    {
+      "role": "Depth",
+      "name": "Basalt Shadow",
+      "hex": "#34302a"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.system.v1",
+  "slug": "morphous-pyrite",
+  "name": "Morphous Pyrite",
+  "status": "ready",
+  "queueRow": 544,
+  "motifName": "Pyrite",
+  "motifCategory": "mineral",
+  "biome": "ore vein",
+  "motif": "pyrite cube",
+  "mood": "precise finance system",
+  "description": "A precise finance-system UI derived from pyrite cubes in an ore vein: brassy gold facets, graphite-black matrix, assay-paper neutrals, and sharp cubic geometry for shadcn/tweakcn interfaces.",
+  "typography": "Geist or Inter for compact financial product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular ledgers.",
+  "layout": "Precise shadcn/tweakcn grids, 8px-or-less radii, cubic dividers, graphite hairlines, brassy focus rings, compact dashboards, and dense but readable ledger surfaces.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "pyrite",
+    "mineral",
+    "ore-vein",
+    "pyrite-cube",
+    "finance",
+    "brassy-gold",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Assay Paper",
+      "hex": "#F7F1E6",
+      "oklch": "oklch(0.959 0.021 82.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Matrix Ink",
+      "hex": "#171510",
+      "oklch": "oklch(0.192 0.012 77.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pyrite Gold",
+      "hex": "#C99A2E",
+      "oklch": "oklch(0.684 0.122 81.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ledger Slate",
+      "hex": "#646A6F",
+      "oklch": "oklch(0.535 0.012 245.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Brassy Edge",
+      "hex": "#E0BC58",
+      "oklch": "oklch(0.789 0.112 88.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Strike Amber",
+      "hex": "#A95F1C",
+      "oklch": "oklch(0.526 0.124 55.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mineral Frost",
+      "hex": "#D9D1C3",
+      "oklch": "oklch(0.861 0.020 76.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cubic Ochre",
+      "hex": "#7D6128",
+      "oklch": "oklch(0.474 0.071 78.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ore Black",
+      "hex": "#24211B",
+      "oklch": "oklch(0.260 0.015 75.0)"
+    },
+    {
+      "role": "Line",
+      "name": "Graphite Vein",
+      "hex": "#3C3A35",
+      "oklch": "oklch(0.342 0.007 82.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.959 0.021 82.4)",
+    "foreground": "oklch(0.192 0.012 77.8)",
+    "card": "oklch(0.985 0.014 82.4)",
+    "card-foreground": "oklch(0.192 0.012 77.8)",
+    "popover": "oklch(0.985 0.014 82.4)",
+    "popover-foreground": "oklch(0.192 0.012 77.8)",
+    "primary": "oklch(0.684 0.122 81.1)",
+    "primary-foreground": "oklch(0.192 0.012 77.8)",
+    "secondary": "oklch(0.861 0.020 76.1)",
+    "secondary-foreground": "oklch(0.260 0.015 75.0)",
+    "muted": "oklch(0.861 0.020 76.1)",
+    "muted-foreground": "oklch(0.535 0.012 245.0)",
+    "accent": "oklch(0.789 0.112 88.4)",
+    "accent-foreground": "oklch(0.192 0.012 77.8)",
+    "destructive": "oklch(0.526 0.124 55.8)",
+    "border": "oklch(0.801 0.018 76.1)",
+    "input": "oklch(0.801 0.018 76.1)",
+    "ring": "oklch(0.684 0.122 81.1)",
+    "chart-1": "oklch(0.684 0.122 81.1)",
+    "chart-2": "oklch(0.789 0.112 88.4)",
+    "chart-3": "oklch(0.474 0.071 78.5)",
+    "chart-4": "oklch(0.535 0.012 245.0)",
+    "chart-5": "oklch(0.342 0.007 82.0)",
+    "sidebar": "oklch(0.985 0.014 82.4)",
+    "sidebar-foreground": "oklch(0.192 0.012 77.8)",
+    "sidebar-primary": "oklch(0.684 0.122 81.1)",
+    "sidebar-primary-foreground": "oklch(0.192 0.012 77.8)",
+    "sidebar-accent": "oklch(0.861 0.020 76.1)",
+    "sidebar-accent-foreground": "oklch(0.260 0.015 75.0)",
+    "sidebar-border": "oklch(0.801 0.018 76.1)",
+    "sidebar-ring": "oklch(0.684 0.122 81.1)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.192 0.012 77.8)",
+    "foreground": "oklch(0.959 0.021 82.4)",
+    "card": "oklch(0.260 0.015 75.0)",
+    "card-foreground": "oklch(0.959 0.021 82.4)",
+    "popover": "oklch(0.260 0.015 75.0)",
+    "popover-foreground": "oklch(0.959 0.021 82.4)",
+    "primary": "oklch(0.789 0.112 88.4)",
+    "primary-foreground": "oklch(0.192 0.012 77.8)",
+    "secondary": "oklch(0.342 0.007 82.0)",
+    "secondary-foreground": "oklch(0.959 0.021 82.4)",
+    "muted": "oklch(0.260 0.015 75.0)",
+    "muted-foreground": "oklch(0.861 0.020 76.1)",
+    "accent": "oklch(0.684 0.122 81.1)",
+    "accent-foreground": "oklch(0.192 0.012 77.8)",
+    "destructive": "oklch(0.526 0.124 55.8)",
+    "border": "oklch(0.861 0.020 76.1 / 18%)",
+    "input": "oklch(0.861 0.020 76.1 / 22%)",
+    "ring": "oklch(0.789 0.112 88.4)",
+    "chart-1": "oklch(0.789 0.112 88.4)",
+    "chart-2": "oklch(0.684 0.122 81.1)",
+    "chart-3": "oklch(0.535 0.012 245.0)",
+    "chart-4": "oklch(0.474 0.071 78.5)",
+    "chart-5": "oklch(0.861 0.020 76.1)",
+    "sidebar": "oklch(0.192 0.012 77.8)",
+    "sidebar-foreground": "oklch(0.959 0.021 82.4)",
+    "sidebar-primary": "oklch(0.789 0.112 88.4)",
+    "sidebar-primary-foreground": "oklch(0.192 0.012 77.8)",
+    "sidebar-accent": "oklch(0.260 0.015 75.0)",
+    "sidebar-accent-foreground": "oklch(0.959 0.021 82.4)",
+    "sidebar-border": "oklch(0.861 0.020 76.1 / 18%)",
+    "sidebar-ring": "oklch(0.789 0.112 88.4)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

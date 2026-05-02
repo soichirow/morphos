@@ -1,0 +1,182 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pyrite",
+    "name": "Morphous Pyrite",
+    "motifName": "Pyrite",
+    "motifCategory": "mineral",
+    "biome": "ore vein",
+    "motif": "pyrite cube"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Assay Paper",
+      "hex": "#F7F1E6",
+      "oklch": "oklch(0.959 0.021 82.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Matrix Ink",
+      "hex": "#171510",
+      "oklch": "oklch(0.192 0.012 77.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pyrite Gold",
+      "hex": "#C99A2E",
+      "oklch": "oklch(0.684 0.122 81.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Ledger Slate",
+      "hex": "#646A6F",
+      "oklch": "oklch(0.535 0.012 245.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Brassy Edge",
+      "hex": "#E0BC58",
+      "oklch": "oklch(0.789 0.112 88.4)"
+    },
+    {
+      "role": "Signal",
+      "name": "Strike Amber",
+      "hex": "#A95F1C",
+      "oklch": "oklch(0.526 0.124 55.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mineral Frost",
+      "hex": "#D9D1C3",
+      "oklch": "oklch(0.861 0.020 76.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Cubic Ochre",
+      "hex": "#7D6128",
+      "oklch": "oklch(0.474 0.071 78.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Ore Black",
+      "hex": "#24211B",
+      "oklch": "oklch(0.260 0.015 75.0)"
+    },
+    {
+      "role": "Line",
+      "name": "Graphite Vein",
+      "hex": "#3C3A35",
+      "oklch": "oklch(0.342 0.007 82.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.959 0.021 82.4)",
+    "foreground": "oklch(0.192 0.012 77.8)",
+    "card": "oklch(0.985 0.014 82.4)",
+    "card-foreground": "oklch(0.192 0.012 77.8)",
+    "popover": "oklch(0.985 0.014 82.4)",
+    "popover-foreground": "oklch(0.192 0.012 77.8)",
+    "primary": "oklch(0.684 0.122 81.1)",
+    "primary-foreground": "oklch(0.192 0.012 77.8)",
+    "secondary": "oklch(0.861 0.020 76.1)",
+    "secondary-foreground": "oklch(0.260 0.015 75.0)",
+    "muted": "oklch(0.861 0.020 76.1)",
+    "muted-foreground": "oklch(0.535 0.012 245.0)",
+    "accent": "oklch(0.789 0.112 88.4)",
+    "accent-foreground": "oklch(0.192 0.012 77.8)",
+    "destructive": "oklch(0.526 0.124 55.8)",
+    "border": "oklch(0.801 0.018 76.1)",
+    "input": "oklch(0.801 0.018 76.1)",
+    "ring": "oklch(0.684 0.122 81.1)",
+    "chart-1": "oklch(0.684 0.122 81.1)",
+    "chart-2": "oklch(0.789 0.112 88.4)",
+    "chart-3": "oklch(0.474 0.071 78.5)",
+    "chart-4": "oklch(0.535 0.012 245.0)",
+    "chart-5": "oklch(0.342 0.007 82.0)",
+    "sidebar": "oklch(0.985 0.014 82.4)",
+    "sidebar-foreground": "oklch(0.192 0.012 77.8)",
+    "sidebar-primary": "oklch(0.684 0.122 81.1)",
+    "sidebar-primary-foreground": "oklch(0.192 0.012 77.8)",
+    "sidebar-accent": "oklch(0.861 0.020 76.1)",
+    "sidebar-accent-foreground": "oklch(0.260 0.015 75.0)",
+    "sidebar-border": "oklch(0.801 0.018 76.1)",
+    "sidebar-ring": "oklch(0.684 0.122 81.1)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.192 0.012 77.8)",
+    "foreground": "oklch(0.959 0.021 82.4)",
+    "card": "oklch(0.260 0.015 75.0)",
+    "card-foreground": "oklch(0.959 0.021 82.4)",
+    "popover": "oklch(0.260 0.015 75.0)",
+    "popover-foreground": "oklch(0.959 0.021 82.4)",
+    "primary": "oklch(0.789 0.112 88.4)",
+    "primary-foreground": "oklch(0.192 0.012 77.8)",
+    "secondary": "oklch(0.342 0.007 82.0)",
+    "secondary-foreground": "oklch(0.959 0.021 82.4)",
+    "muted": "oklch(0.260 0.015 75.0)",
+    "muted-foreground": "oklch(0.861 0.020 76.1)",
+    "accent": "oklch(0.684 0.122 81.1)",
+    "accent-foreground": "oklch(0.192 0.012 77.8)",
+    "destructive": "oklch(0.526 0.124 55.8)",
+    "border": "oklch(0.861 0.020 76.1 / 18%)",
+    "input": "oklch(0.861 0.020 76.1 / 22%)",
+    "ring": "oklch(0.789 0.112 88.4)",
+    "chart-1": "oklch(0.789 0.112 88.4)",
+    "chart-2": "oklch(0.684 0.122 81.1)",
+    "chart-3": "oklch(0.535 0.012 245.0)",
+    "chart-4": "oklch(0.474 0.071 78.5)",
+    "chart-5": "oklch(0.861 0.020 76.1)",
+    "sidebar": "oklch(0.192 0.012 77.8)",
+    "sidebar-foreground": "oklch(0.959 0.021 82.4)",
+    "sidebar-primary": "oklch(0.789 0.112 88.4)",
+    "sidebar-primary-foreground": "oklch(0.192 0.012 77.8)",
+    "sidebar-accent": "oklch(0.260 0.015 75.0)",
+    "sidebar-accent-foreground": "oklch(0.959 0.021 82.4)",
+    "sidebar-border": "oklch(0.861 0.020 76.1 / 18%)",
+    "sidebar-ring": "oklch(0.789 0.112 88.4)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or Inter for compact financial product UI with Noto Sans JP guidance for Japanese headings, body, labels, and tabular ledgers.",
+  "layout": "Precise shadcn/tweakcn grids, 8px-or-less radii, cubic dividers, graphite hairlines, brassy focus rings, compact dashboards, and dense but readable ledger surfaces.",
+  "tags": [
+    "pyrite",
+    "mineral",
+    "ore-vein",
+    "pyrite-cube",
+    "finance",
+    "brassy-gold",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pyrite/motif.png",
+    "board": "/systems/morphous-pyrite/design-system-light.png",
+    "darkBoard": "/systems/morphous-pyrite/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pyrite/theme.css",
+    "themeJson": "/systems/morphous-pyrite/theme.json",
+    "promptsJson": "/systems/morphous-pyrite/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Pyrite motif source",
+      "asset": "/systems/morphous-pyrite/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a pyrite cube mineral motif for later background removal, isolated full subject, no surrounding environment, no text.\nSubject: an intergrown cluster of sharp pyrite cubes, brassy metallic gold faces with subtle striations, precise cubic geometry, small black ore-vein matrix attached at the base, a few dark graphite-like facets and mineral fractures; the matrix is part of the motif substrate, not a landscape.\nComposition/framing: centered complete cutout with generous padding; do not crop the cubes or matrix; make the silhouette readable and suitable as a design-system motif asset.\nLighting/mood: clean studio light preserving brassy gold reflections, dark matrix black, tiny mineral edge highlights, and precise finance-system mood; realistic mineral specimen, crisp and premium.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 or green anywhere in the subject. Keep metallic reflections controlled so the green background does not appear in the pyrite faces.\nConstraints: no mine scene, no hands, no tools, no labels, no watermark, no decorative background, no cast shadow, no contact shadow, no reflection, no rounded gold nuggets."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-pyrite/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Pyrite\", derived from a pyrite cube mineral motif: brassy metallic gold cubic faces on dark black ore-vein matrix.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from brassy gold pyrite faces, precise cubic geometry, dark matrix black, graphite fractures, mineral edge highlights, and pale assay-paper neutrals. Use only these motif-derived colors plus near-neutrals from the same source.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. Create a single polished source board, not separate pages.\nResolution and legibility: high-resolution 4K-class source board with large readable labels and clear UI examples; avoid dense tiny token tables.\nRequired visible sections: Morphous Pyrite title, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: include English and Japanese examples; guidance for Geist or Inter paired with Noto Sans JP; precise finance-system tone, compact and analytical.\nUI coverage: shadcn/tweakcn-compatible buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top nav, dashboard metric cards, bar/line/candlestick/donut charts, empty/loading/error/success/warning states, form validation, compact ledger table, texture swatches, radius 6px to 8px, spacing scale, border tokens, focus rings, shadow tokens.\nVisual style: premium product UI system for financial operations, precise grid, crisp 8px-or-less card radius, sharp cubic dividers, metallic brassy gold accents, dark matrix hairline borders, assay-paper surfaces, restrained mineral speckle texture.\nPalette labels to show: Assay Paper, Matrix Ink, Pyrite Gold, Brassy Edge, Cubic Ochre, Graphite Vein, Ledger Slate, Mineral Frost, Ore Black, Strike Amber.\nText: short readable UI labels only; use real section labels listed above; include finance-flavored labels like Portfolio, Exposure, Yield, Risk, Ledger, Rebalance but no random brand names.\nConstraints: no colors outside the motif palette, no generic purple or blue gradients, no stock market photography, no mine photo background, no random brand names, no watermark, no misspelling of \"Morphous Pyrite\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-pyrite/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate a dark-mode companion board for the same Morphous theme named \"Morphous Pyrite\". It must feel like the light-mode finance system translated to dark mode, not a new theme.\nReference use: Use a pyrite cube mineral motif and the light-mode design-system language as references. Preserve brassy gold pyrite accents, sharp cubic geometry, dark ore matrix black, graphite vein dividers, assay-paper text contrast, Japanese typography guidance, component coverage, precise financial dashboard language, spacing, and 6px to 8px radius.\nCanvas: exact wide 16:9 board, 3840 x 2160 preferred, at least 2400px wide. Create one polished dark-mode source board.\nResolution and legibility: high-resolution board with large readable labels and clear shadcn/tweakcn UI examples; avoid dense tiny text.\nRequired visible sections: Morphous Pyrite, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nTypography: English and Japanese examples; Geist or Inter plus Noto Sans JP; precise finance-system tone, compact and analytical.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top nav, dashboard metric cards, bar/line/candlestick/donut charts, empty/loading/error/success/warning states, form validation, compact ledger table, texture swatches, radius 6px to 8px, spacing scale, border tokens, focus rings, shadow tokens.\nVisual details: deep ore-black background, assay-paper foreground, pyrite-gold primary actions, graphite-slate borders, strike-amber status chips, subtle cubic striation texture, dark matrix speckles used sparingly, crisp cards and controls.\nPalette labels to show: Assay Paper, Matrix Ink, Pyrite Gold, Brassy Edge, Cubic Ochre, Graphite Vein, Ledger Slate, Mineral Frost, Ore Black, Strike Amber.\nText: short readable UI labels only; use real section labels listed above; include finance-flavored labels like Portfolio, Exposure, Yield, Risk, Ledger, Rebalance but no random brand names.\nConstraints: no neon colors, no pure black flat background, no unrelated saturated colors, no generic purple or blue gradients, no stock market photography, no mine photo background, no random brand names, no watermark, no misspelling of \"Morphous Pyrite\"."
+    }
+  ]
+}

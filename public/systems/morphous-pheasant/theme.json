@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pheasant",
+    "name": "Morphous Pheasant",
+    "motifName": "Pheasant",
+    "motifCategory": "bird",
+    "biome": "Grassland Edge",
+    "motif": "pheasant feather"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Reed Ivory",
+      "hex": "#F7F0DF",
+      "oklch": "oklch(0.956 0.024 88.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather Parchment",
+      "hex": "#FFF8EA",
+      "oklch": "oklch(0.981 0.020 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Umber Ink",
+      "hex": "#201812",
+      "oklch": "oklch(0.217 0.017 58.6)"
+    },
+    {
+      "role": "Primary",
+      "name": "Burnished Copper",
+      "hex": "#B7652A",
+      "oklch": "oklch(0.591 0.127 52.8)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bottle Green",
+      "hex": "#1F5F50",
+      "oklch": "oklch(0.440 0.069 174.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Antique Gold",
+      "hex": "#D6A443",
+      "oklch": "oklch(0.748 0.127 81.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Pheasant Red",
+      "hex": "#A6261D",
+      "oklch": "oklch(0.477 0.166 29.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Grass",
+      "hex": "#D8C59A",
+      "oklch": "oklch(0.829 0.061 86.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Quill Taupe",
+      "hex": "#C9AE83",
+      "oklch": "oklch(0.764 0.066 79.1)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Umber",
+      "hex": "#120D0A",
+      "oklch": "oklch(0.164 0.011 52.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.956 0.024 88.2)",
+    "foreground": "oklch(0.217 0.017 58.6)",
+    "card": "oklch(0.981 0.020 84.6)",
+    "card-foreground": "oklch(0.217 0.017 58.6)",
+    "popover": "oklch(0.981 0.020 84.6)",
+    "popover-foreground": "oklch(0.217 0.017 58.6)",
+    "primary": "oklch(0.591 0.127 52.8)",
+    "primary-foreground": "oklch(0.956 0.024 88.2)",
+    "secondary": "oklch(0.971 0.022 87.1)",
+    "secondary-foreground": "oklch(0.164 0.011 52.7)",
+    "muted": "oklch(0.975 0.021 85.9)",
+    "muted-foreground": "oklch(0.164 0.011 52.7)",
+    "accent": "oklch(0.748 0.127 81.0)",
+    "accent-foreground": "oklch(0.217 0.017 58.6)",
+    "destructive": "oklch(0.591 0.127 52.8)",
+    "border": "oklch(0.927 0.035 87.1)",
+    "input": "oklch(0.927 0.035 87.1)",
+    "ring": "oklch(0.440 0.069 174.5)",
+    "chart-1": "oklch(0.591 0.127 52.8)",
+    "chart-2": "oklch(0.440 0.069 174.5)",
+    "chart-3": "oklch(0.748 0.127 81.0)",
+    "chart-4": "oklch(0.748 0.127 81.0)",
+    "chart-5": "oklch(0.164 0.011 52.7)",
+    "sidebar": "oklch(0.972 0.021 85.9)",
+    "sidebar-foreground": "oklch(0.217 0.017 58.6)",
+    "sidebar-primary": "oklch(0.591 0.127 52.8)",
+    "sidebar-primary-foreground": "oklch(0.956 0.024 88.2)",
+    "sidebar-accent": "oklch(0.933 0.031 72.2)",
+    "sidebar-accent-foreground": "oklch(0.591 0.127 52.8)",
+    "sidebar-border": "oklch(0.927 0.035 87.1)",
+    "sidebar-ring": "oklch(0.440 0.069 174.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.217 0.017 58.6)",
+    "foreground": "oklch(0.956 0.024 88.2)",
+    "card": "oklch(0.184 0.013 55.5)",
+    "card-foreground": "oklch(0.956 0.024 88.2)",
+    "popover": "oklch(0.184 0.013 55.5)",
+    "popover-foreground": "oklch(0.956 0.024 88.2)",
+    "primary": "oklch(0.440 0.069 174.5)",
+    "primary-foreground": "oklch(0.217 0.017 58.6)",
+    "secondary": "oklch(0.335 0.023 72.5)",
+    "secondary-foreground": "oklch(0.956 0.024 88.2)",
+    "muted": "oklch(0.335 0.023 72.5)",
+    "muted-foreground": "oklch(0.900 0.041 88.2)",
+    "accent": "oklch(0.748 0.127 81.0)",
+    "accent-foreground": "oklch(0.217 0.017 58.6)",
+    "destructive": "oklch(0.591 0.127 52.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.440 0.069 174.5)",
+    "chart-1": "oklch(0.440 0.069 174.5)",
+    "chart-2": "oklch(0.591 0.127 52.8)",
+    "chart-3": "oklch(0.748 0.127 81.0)",
+    "chart-4": "oklch(0.748 0.127 81.0)",
+    "chart-5": "oklch(0.829 0.061 86.9)",
+    "sidebar": "oklch(0.194 0.015 57.2)",
+    "sidebar-foreground": "oklch(0.956 0.024 88.2)",
+    "sidebar-primary": "oklch(0.440 0.069 174.5)",
+    "sidebar-primary-foreground": "oklch(0.217 0.017 58.6)",
+    "sidebar-accent": "oklch(0.335 0.023 72.5)",
+    "sidebar-accent-foreground": "oklch(0.956 0.024 88.2)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.440 0.069 174.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Display serif for editorial headings, durable sans for content tooling, and Noto Serif JP guidance for Japanese titles and long-form reading.",
+  "layout": "8px grid, 6px radius, copper-gold dividers, feather-line texture, ivory editorial surfaces, dark umber panels, and content-first navigation for CMS and knowledge-base workflows.",
+  "tags": [
+    "pheasant",
+    "bird",
+    "grassland-edge",
+    "copper",
+    "bottle-green",
+    "pheasant-red",
+    "ornate-content",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pheasant/motif.png",
+    "board": "/systems/morphous-pheasant/design-system-light.png",
+    "darkBoard": "/systems/morphous-pheasant/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pheasant/theme.css",
+    "themeJson": "/systems/morphous-pheasant/theme.json",
+    "promptsJson": "/systems/morphous-pheasant/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent pheasant feather motif",
+      "asset": "/systems/morphous-pheasant/motif.png",
+      "prompt": "Use case: stylized-concept\nAsset type: transparent motif source for a design-system catalog, later background removal\nPrimary request: an ornate pheasant feather motif for the Morphous Pheasant design system\nScene/backdrop: perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nSubject: a single elegant pheasant feather and a small layered fan of secondary pheasant feather barbs, isolated, centered, fully separated from background with crisp edges and generous padding. Feather colors: burnished copper, bottle green iridescence, deep red eye markings, antique gold tips, dark umber shaft. Grassland-edge natural patterning, ornate but usable as a product motif.\nStyle: high-resolution detailed bitmap illustration with subtle natural feather texture, polished catalog asset, no text, no watermark, no cast shadow, no contact shadow, no reflection.\nConstraints: do not use #00ff00 anywhere in the subject; avoid extra birds, flowers, frames, labels, or UI elements."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-pheasant/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840 x 2160 full design-system board for Morphous catalog\nInput image: the transparent pheasant feather motif is the visual source of truth.\nPrimary request: create a comprehensive light-mode design-system board titled \"Morphous Pheasant\" for an ornate content system inspired by pheasant feather patterning at a grassland edge.\nCanvas/layout: 16:9 4K-class board, crisp readable labels, dense but organized editorial/product design-system presentation. Use a warm parchment background with ivory panels, copper-gold dividers, fine feather-line texture, and restrained ornate details.\nPalette: copper #B7652A, bottle green #1F5F50, pheasant red #A6261D, antique gold #D6A443, umber #3A241B, reed ivory #F7F0DF, ink #201812. Apply these consistently.\nRequired sections: large motif specimen area, palette swatches with names, typography guidance for English and Japanese, spacing/radius/shadow tokens, buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table, command/search, sidebar navigation, content dashboard, charts, empty/error/loading states, icon examples, texture/pattern samples, and example article/content layout.\nStyle: ornate content system, editorial CMS and knowledge-base UI, refined copper green red gold accents, feather-eye details used sparingly, high-end but practical. Text must be legible at gallery preview scale. No fake brand logos beyond the title. No watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-pheasant/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 3840 x 2160 full dark-mode design-system board for Morphous catalog\nInput images: the pheasant feather motif and the light-mode board are source references.\nPrimary request: create the matching dark-mode design-system board titled \"Morphous Pheasant\" for the same ornate content system inspired by pheasant feather patterning at a grassland edge.\nCanvas/layout: 16:9 4K-class board, crisp readable labels, same comprehensive system coverage as the light board, translated into dark mode. Use a deep ink/umber background, near-black panels, warm copper borders, antique gold headings, bottle green active states, pheasant red warnings/destructive, and subtle feather-line texture.\nPalette: ink #120D0A, dark umber #201812, panel #2B1D15, copper #B7652A, bottle green #1F5F50, pheasant red #A6261D, antique gold #D6A443, reed ivory #F4E8CA. Apply consistently.\nRequired sections: motif specimen area, palette swatches with names, typography guidance for English and Japanese, spacing/radius/shadow tokens, buttons, inputs, selects, textarea, checkboxes, radio, switch, tabs, badges, alerts, cards, table, command/search, sidebar navigation, content dashboard, charts, empty/error/loading states, icon examples, texture/pattern samples, and example article/content layout.\nStyle: same ornate content system, refined and practical for editorial CMS and knowledge-base UIs, luminous feather-eye accents used sparingly. Text must be legible at gallery preview scale. No fake brand logos beyond the title. No watermark."
+    }
+  ]
+}

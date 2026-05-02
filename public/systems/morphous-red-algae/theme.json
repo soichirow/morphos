@@ -1,0 +1,219 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-red-algae",
+    "name": "Morphous Red Algae",
+    "motifName": "Red Algae",
+    "motifCategory": "plant",
+    "biome": "rocky tidepool",
+    "motif": "red algae fronds"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Shell Wash",
+      "hex": "#FFF8F9",
+      "oklch": "oklch(0.985 0.008 7.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Kelp Wine Ink",
+      "hex": "#291418",
+      "oklch": "oklch(0.223 0.035 8.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Burgundy Frond",
+      "hex": "#8A0E2A",
+      "oklch": "oklch(0.408 0.154 17.0)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Rhodolith Wine",
+      "hex": "#A41630",
+      "oklch": "oklch(0.465 0.173 19.0)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Coral Tip",
+      "hex": "#E85068",
+      "oklch": "oklch(0.644 0.187 14.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Tidepool Teal",
+      "hex": "#0E888F",
+      "oklch": "oklch(0.571 0.095 201.4)"
+    },
+    {
+      "role": "Accent Soft",
+      "name": "Sea Glass Mist",
+      "hex": "#D7F2F2",
+      "oklch": "oklch(0.942 0.028 196.7)"
+    },
+    {
+      "role": "Surface",
+      "name": "Pearl Shell",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Blush Foam",
+      "hex": "#F6E0E0",
+      "oklch": "oklch(0.924 0.024 17.6)"
+    },
+    {
+      "role": "Muted Foreground",
+      "name": "Wet Stone Mauve",
+      "hex": "#865C60",
+      "oklch": "oklch(0.521 0.056 12.9)"
+    },
+    {
+      "role": "Border",
+      "name": "Tidepool Stone",
+      "hex": "#E2D0D6",
+      "oklch": "oklch(0.874 0.021 355.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Kelp Shadow",
+      "hex": "#160C0F",
+      "oklch": "oklch(0.170 0.018 359.6)"
+    },
+    {
+      "role": "Success",
+      "name": "Marine Teal",
+      "hex": "#0E7A68",
+      "oklch": "oklch(0.520 0.093 177.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Low Tide Ochre",
+      "hex": "#C45A17",
+      "oklch": "oklch(0.591 0.154 47.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Red Tide",
+      "hex": "#D91C1C",
+      "oklch": "oklch(0.565 0.219 28.0)"
+    },
+    {
+      "role": "Ring",
+      "name": "Coral Ring",
+      "hex": "#DBA1AA",
+      "oklch": "oklch(0.766 0.070 8.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.008 7.3)",
+    "foreground": "oklch(0.223 0.035 8.0)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.223 0.035 8.0)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.223 0.035 8.0)",
+    "primary": "oklch(0.408 0.154 17.0)",
+    "primary-foreground": "oklch(0.985 0.008 7.3)",
+    "secondary": "oklch(0.993 0.003 17.2)",
+    "secondary-foreground": "oklch(0.170 0.018 359.6)",
+    "muted": "oklch(0.996 0.002 17.2)",
+    "muted-foreground": "oklch(0.170 0.018 359.6)",
+    "accent": "oklch(0.571 0.095 201.4)",
+    "accent-foreground": "oklch(0.223 0.035 8.0)",
+    "destructive": "oklch(0.408 0.154 17.0)",
+    "border": "oklch(0.973 0.009 17.3)",
+    "input": "oklch(0.973 0.009 17.3)",
+    "ring": "oklch(0.644 0.187 14.9)",
+    "chart-1": "oklch(0.408 0.154 17.0)",
+    "chart-2": "oklch(0.644 0.187 14.9)",
+    "chart-3": "oklch(0.571 0.095 201.4)",
+    "chart-4": "oklch(0.571 0.095 201.4)",
+    "chart-5": "oklch(0.170 0.018 359.6)",
+    "sidebar": "oklch(0.996 0.002 17.2)",
+    "sidebar-foreground": "oklch(0.223 0.035 8.0)",
+    "sidebar-primary": "oklch(0.408 0.154 17.0)",
+    "sidebar-primary-foreground": "oklch(0.985 0.008 7.3)",
+    "sidebar-accent": "oklch(0.926 0.017 3.7)",
+    "sidebar-accent-foreground": "oklch(0.408 0.154 17.0)",
+    "sidebar-border": "oklch(0.973 0.009 17.3)",
+    "sidebar-ring": "oklch(0.644 0.187 14.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.223 0.035 8.0)",
+    "foreground": "oklch(0.985 0.008 7.3)",
+    "card": "oklch(0.188 0.023 4.4)",
+    "card-foreground": "oklch(0.985 0.008 7.3)",
+    "popover": "oklch(0.188 0.023 4.4)",
+    "popover-foreground": "oklch(0.985 0.008 7.3)",
+    "primary": "oklch(0.644 0.187 14.9)",
+    "primary-foreground": "oklch(0.223 0.035 8.0)",
+    "secondary": "oklch(0.366 0.017 6.6)",
+    "secondary-foreground": "oklch(0.985 0.008 7.3)",
+    "muted": "oklch(0.366 0.017 6.6)",
+    "muted-foreground": "oklch(0.957 0.015 12.4)",
+    "accent": "oklch(0.571 0.095 201.4)",
+    "accent-foreground": "oklch(0.223 0.035 8.0)",
+    "destructive": "oklch(0.408 0.154 17.0)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.644 0.187 14.9)",
+    "chart-1": "oklch(0.644 0.187 14.9)",
+    "chart-2": "oklch(0.408 0.154 17.0)",
+    "chart-3": "oklch(0.571 0.095 201.4)",
+    "chart-4": "oklch(0.571 0.095 201.4)",
+    "chart-5": "oklch(0.924 0.024 17.6)",
+    "sidebar": "oklch(0.197 0.028 3.7)",
+    "sidebar-foreground": "oklch(0.985 0.008 7.3)",
+    "sidebar-primary": "oklch(0.644 0.187 14.9)",
+    "sidebar-primary-foreground": "oklch(0.223 0.035 8.0)",
+    "sidebar-accent": "oklch(0.366 0.017 6.6)",
+    "sidebar-accent-foreground": "oklch(0.985 0.008 7.3)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.644 0.187 14.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Refined editorial English UI with Noto Sans JP guidance for Japanese headings, body text, metadata labels, search, moderation queues, table numerals, article states, and multilingual publishing workflows.",
+  "layout": "Compact 8px product grids, branching frond texture bands, quiet marine content dashboards, editorial tables, structured navigation, restrained shadows, and 8px cards and controls.",
+  "tags": [
+    "red-algae",
+    "plant",
+    "rocky-tidepool",
+    "burgundy-red",
+    "coral-pink",
+    "sea-teal",
+    "marine-content-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-red-algae/motif.png",
+    "board": "/systems/morphous-red-algae/design-system-light.png",
+    "darkBoard": "/systems/morphous-red-algae/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-red-algae/theme.css",
+    "themeJson": "/systems/morphous-red-algae/theme.json",
+    "promptsJson": "/systems/morphous-red-algae/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent red algae motif",
+      "asset": "/systems/morphous-red-algae/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only red algae fronds, isolated complete natural clump, no environment, no props, no text.\nSubject: A sculptural clump of red algae fronds from a rocky tidepool, with branching ribbon-like and lace-like fronds, burgundy red blades, coral pink translucent tips, deep wine shadows, subtle wet sea-teal iridescent edge highlights, natural holdfast detail integrated into the algae, accurate marine plant texture and organic branching.\nComposition/framing: centered complete cutout with generous padding on all sides; do not crop the fronds; show the full algae silhouette as a clean asset.\nLighting/mood: clean studio light that preserves translucent frond detail, wet sheen, burgundy-to-coral color variation, and delicate curled edges.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject.\nConstraints: no text, no watermark, no props, no ocean scene, no tidepool background, no rocks beyond a tiny natural holdfast if needed, no bubbles, no decorative background, no second subject, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-red-algae/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Red Algae light-mode design-system board\nPrimary request: Generate a comprehensive light-mode design-system board for a Morphous theme named \"Morphous Red Algae\", derived from the visible isolated red algae fronds cutout. This board is a source reference for implementing a shadcn/tweakcn-compatible marine content system.\nReference use: Use the visible red algae motif as the source of truth. Extract burgundy red glossy fronds, coral pink translucent tips, wine-shadow veins, sea-teal wet highlights, tidepool mineral neutrals, branching lace rhythm, and delicate perforated texture. The board must visibly respect only these motif-derived colors and textures.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Red Algae, Red Algae, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: burgundy red primary, coral pink highlights, deep wine ink, sea teal accents from wet tidepool sheen, pale shell-pink surfaces, tidepool stone borders, dark kelp shadow, and restrained near-neutrals derived only from the motif.\nTypography: marine content product UI guidance with English and Japanese type. Use a refined editorial sans for content headings and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, moderation queues, table numerals, article metadata, and multilingual publishing workflows. Include short Japanese labels such as 記事, 検索, 承認, 公開.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, content analytics line chart, taxonomy bar chart, editorial table, asset table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nStyle: premium product design system, quiet marine content dashboard, shell-pink paper surfaces, burgundy primary actions, sea-teal active navigation and information accents, tidepool-stone borders, subtle branching frond texture, crisp hierarchy, compact content/data density, restrained shadows, all cards and controls use 8px radii.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no beige-only palette, no random brand names, no watermark, no misspelling of \"Morphous Red Algae\", no tiny illegible paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-red-algae/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Red Algae dark-mode design-system board\nPrimary request: Generate a comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Red Algae\". It must feel like the same marine content system translated to dark mode, not a new theme, and it must remain derived from the visible red algae fronds motif and the visible light-mode board.\nReference use: Use the visible red algae motif and light-mode board as references. Preserve burgundy primary controls, coral pink highlights, sea-teal navigation and information accents, tidepool-stone borders, branching frond texture, 8px radius language, compact dashboard/data/forms/table/search/status/token coverage, and English plus Japanese typography guidance.\nCanvas: exact wide 16:9 source board, 3840 x 2160 preferred, crisp readable labels, precise product UI grid.\nRequired visible sections: Morphous Red Algae, Dark Mode, Red Algae, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Generated Assets.\nPalette direction: deepest wine and kelp-shadow background, elevated panels in dark burgundy-charcoal, shell-pink foreground text, burgundy primary actions, coral focus rings, sea-teal active navigation and info/status accents, tidepool-stone borders, and restrained near-neutrals derived only from the motif.\nTypography: marine content product UI guidance with English and Japanese type. Use a refined editorial sans for content headings and Noto Sans JP / Japanese Gothic guidance for headings, body, labels, search, moderation queues, table numerals, article metadata, and multilingual publishing workflows. Include short Japanese labels such as 記事, 検索, 承認, 公開.\nUI coverage: buttons, icon buttons, inputs, selects, textarea, checkboxes, radios, switches, tabs, badges, alerts, cards, top navigation, sidebar navigation, breadcrumb, dashboard metric cards, content analytics line chart, taxonomy bar chart, editorial table, asset table, command palette, global search filters, empty state, loading state, error state, success state, warning state, toast, pagination, and simple restrained icons.\nToken coverage: shadcn/tweakcn semantic color roles, chart tokens, sidebar tokens, border, input, ring, spacing scale, 8px radius family, shadow scale, texture swatches, focus states, hover states, disabled states, density notes, and token chips.\nVisual details: dark background derived from the red algae fronds' deepest wine shadows, elevated panels with subtle frond-lace overlays, shell-pink and pale coral typography, burgundy primary actions, sea-teal active navigation and analytics accents, coral focus states, crisp shadcn-style cards and controls, restrained shadows, all cards and controls use 8px radii.\nText: use short readable UI labels; avoid long paragraphs.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no watermark, no misspelling of \"Morphous Red Algae\", no tiny illegible paragraphs."
+    }
+  ]
+}

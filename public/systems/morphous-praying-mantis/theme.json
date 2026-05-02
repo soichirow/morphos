@@ -1,0 +1,225 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-praying-mantis",
+    "name": "Morphous Praying Mantis",
+    "motifName": "Praying Mantis",
+    "motifCategory": "insect",
+    "biome": "garden stem",
+    "motif": "mantis profile"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stem Veil",
+      "hex": "#F3F1E7",
+      "oklch": "oklch(0.957 0.013 97.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Eye Ink",
+      "hex": "#1F241C",
+      "oklch": "oklch(0.252 0.016 133.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Mantis Leaf",
+      "hex": "#6FAF5D",
+      "oklch": "oklch(0.691 0.132 139.1)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Leaf Shell",
+      "hex": "#8CCB6E",
+      "oklch": "oklch(0.778 0.140 136.3)"
+    },
+    {
+      "role": "Highlight",
+      "name": "Yellow Vein",
+      "hex": "#B7E188",
+      "oklch": "oklch(0.859 0.124 129.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tan Wing Edge",
+      "hex": "#D9B386",
+      "oklch": "oklch(0.790 0.074 71.2)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Surface",
+      "hex": "#E7E0C6",
+      "oklch": "oklch(0.905 0.035 94.6)"
+    },
+    {
+      "role": "Muted",
+      "name": "Olive Stem",
+      "hex": "#8A946A",
+      "oklch": "oklch(0.647 0.061 119.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Wing Border",
+      "hex": "#D8CBB0",
+      "oklch": "oklch(0.846 0.039 85.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Olive Shadow",
+      "hex": "#5E6647",
+      "oklch": "oklch(0.495 0.048 119.9)"
+    },
+    {
+      "role": "Command Surface",
+      "name": "Underbody",
+      "hex": "#3E4632",
+      "oklch": "oklch(0.381 0.034 125.7)"
+    },
+    {
+      "role": "Leg Tip",
+      "name": "Leg Tip",
+      "hex": "#2A251B",
+      "oklch": "oklch(0.267 0.019 84.5)"
+    },
+    {
+      "role": "Success",
+      "name": "Mantis Ready",
+      "hex": "#6FAF5D",
+      "oklch": "oklch(0.691 0.132 139.1)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Seam",
+      "hex": "#D9A75A",
+      "oklch": "oklch(0.759 0.112 76.5)"
+    },
+    {
+      "role": "Error",
+      "name": "Joint Stress",
+      "hex": "#C25343",
+      "oklch": "oklch(0.582 0.146 30.4)"
+    },
+    {
+      "role": "Card",
+      "name": "Card Pith",
+      "hex": "#F2EBD9",
+      "oklch": "oklch(0.941 0.025 89.2)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.957 0.013 97.4)",
+    "foreground": "oklch(0.252 0.016 133.7)",
+    "card": "oklch(0.905 0.035 94.6)",
+    "card-foreground": "oklch(0.252 0.016 133.7)",
+    "popover": "oklch(0.905 0.035 94.6)",
+    "popover-foreground": "oklch(0.252 0.016 133.7)",
+    "primary": "oklch(0.691 0.132 139.1)",
+    "primary-foreground": "oklch(0.957 0.013 97.4)",
+    "secondary": "oklch(0.927 0.026 94.7)",
+    "secondary-foreground": "oklch(0.495 0.048 119.9)",
+    "muted": "oklch(0.920 0.030 96.4)",
+    "muted-foreground": "oklch(0.495 0.048 119.9)",
+    "accent": "oklch(0.859 0.124 129.3)",
+    "accent-foreground": "oklch(0.252 0.016 133.7)",
+    "destructive": "oklch(0.691 0.132 139.1)",
+    "border": "oklch(0.816 0.043 105.8)",
+    "input": "oklch(0.816 0.043 105.8)",
+    "ring": "oklch(0.790 0.074 71.2)",
+    "chart-1": "oklch(0.691 0.132 139.1)",
+    "chart-2": "oklch(0.790 0.074 71.2)",
+    "chart-3": "oklch(0.859 0.124 129.3)",
+    "chart-4": "oklch(0.790 0.074 71.2)",
+    "chart-5": "oklch(0.495 0.048 119.9)",
+    "sidebar": "oklch(0.923 0.028 95.9)",
+    "sidebar-foreground": "oklch(0.252 0.016 133.7)",
+    "sidebar-primary": "oklch(0.691 0.132 139.1)",
+    "sidebar-primary-foreground": "oklch(0.957 0.013 97.4)",
+    "sidebar-accent": "oklch(0.879 0.044 108.7)",
+    "sidebar-accent-foreground": "oklch(0.691 0.132 139.1)",
+    "sidebar-border": "oklch(0.816 0.043 105.8)",
+    "sidebar-ring": "oklch(0.790 0.074 71.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.252 0.016 133.7)",
+    "foreground": "oklch(0.957 0.013 97.4)",
+    "card": "oklch(0.418 0.039 121.3)",
+    "card-foreground": "oklch(0.957 0.013 97.4)",
+    "popover": "oklch(0.418 0.039 121.3)",
+    "popover-foreground": "oklch(0.957 0.013 97.4)",
+    "primary": "oklch(0.790 0.074 71.2)",
+    "primary-foreground": "oklch(0.252 0.016 133.7)",
+    "secondary": "oklch(0.529 0.050 119.2)",
+    "secondary-foreground": "oklch(0.957 0.013 97.4)",
+    "muted": "oklch(0.529 0.050 119.2)",
+    "muted-foreground": "oklch(0.821 0.033 112.9)",
+    "accent": "oklch(0.859 0.124 129.3)",
+    "accent-foreground": "oklch(0.252 0.016 133.7)",
+    "destructive": "oklch(0.691 0.132 139.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.790 0.074 71.2)",
+    "chart-1": "oklch(0.790 0.074 71.2)",
+    "chart-2": "oklch(0.691 0.132 139.1)",
+    "chart-3": "oklch(0.859 0.124 129.3)",
+    "chart-4": "oklch(0.790 0.074 71.2)",
+    "chart-5": "oklch(0.647 0.061 119.0)",
+    "sidebar": "oklch(0.368 0.031 122.9)",
+    "sidebar-foreground": "oklch(0.957 0.013 97.4)",
+    "sidebar-primary": "oklch(0.790 0.074 71.2)",
+    "sidebar-primary-foreground": "oklch(0.252 0.016 133.7)",
+    "sidebar-accent": "oklch(0.529 0.050 119.2)",
+    "sidebar-accent-foreground": "oklch(0.957 0.013 97.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.790 0.074 71.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for Japanese command labels, compact operational tables, tabular numbers, search palettes, status copy, and precise dashboard headings.",
+  "layout": "Focused 8px command grids, compact navigation, command/search-first surfaces, crisp table density, 8px radii, restrained shadows, tan seam dividers, and subtle mantis wing-vein texture accents.",
+  "tags": [
+    "praying-mantis",
+    "insect",
+    "garden-stem",
+    "mantis-profile",
+    "leaf-green",
+    "tan-wing-edge",
+    "eye-ink",
+    "focused-command-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-praying-mantis/motif.png",
+    "board": "/systems/morphous-praying-mantis/design-system-light.png",
+    "darkBoard": "/systems/morphous-praying-mantis/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-praying-mantis/theme.css",
+    "themeJson": "/systems/morphous-praying-mantis/theme.json",
+    "promptsJson": "/systems/morphous-praying-mantis/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent praying mantis motif",
+      "asset": "/systems/morphous-praying-mantis/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #ff00ff, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only a praying mantis profile motif for a design-system catalog, isolated as one complete opaque insect on a removable chroma-key background.\nSubject: A single adult praying mantis in side profile on a garden stem-inspired pose without the stem itself, accurate triangular head, folded raptorial forelegs, long segmented body, delicate antennae, crisp wing casing, leaf-green body panels, tan leg joints and wing edge highlights, dark glossy eye, fine natural insect texture. The silhouette should feel alert, precise, and command-focused.\nComposition/framing: centered complete full-body profile cutout with generous padding; include antennae and all legs without cropping. Clean even studio lighting, no cast shadow, no contact shadow.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no flower, no leaf, no garden scene, no stem, no second insect, no prey, no landscape, no container, no hand, no props, no text, no watermark, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-praying-mantis/design-system-light.png",
+      "sourceAsset": "/systems/morphous-praying-mantis/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Praying Mantis light-mode design-system board\nPrimary request: Generate a comprehensive LIGHT MODE source board for a Morphous theme named \"Morphous Praying Mantis\" / \"Praying Mantis\". The board must be a wide 4K-class design-system reference derived from a praying mantis side-profile motif: leaf green body plates, pale vein highlights, tan wing edges and leg joints, dark glossy eye ink, olive garden-stem shadows, and crisp predatory geometry.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Praying Mantis, Praying Mantis, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette, texture rhythm, contrast, spacing mood, and interaction language from the mantis motif: blade leaf green shells, yellow-green highlights, olive-brown underbody shadows, tan wing seams, dark olive eye ink, pale dry-stem neutrals, and fine wing-vein texture. The system should feel like a focused command system: precise, alert, compact, and tactical without using military imagery.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 蟷螂, 検索, 指令, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, focused command dashboard metric cards, line chart, compact bar chart, task status grid, operations data table, filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, restrained shadow scale, mantis wing-vein texture swatches.\nStyle/medium: premium focused command-system design language, realistic product UI mockup, precise 8px grid, 8px card radius, pale leaf-surface backgrounds, leaf green primary controls, dark eye-ink command surfaces, tan accent seams, olive secondary states, crisp table density, subtle mantis wing-vein texture.\nColor palette: motif-derived colors only: leaf green mantis shell, yellow-green highlight, olive garden-stem shadow, tan wing edge, dry pale stem surface, dark olive eye ink, brown-black leg tip, muted vein green, natural red-brown stress/error from insect joints.\nConstraints: no unrelated bright colors, no generic purple or blue gradients, no neon, no beige-only palette, no random brand names, no weapon imagery, no stock hero layout, no watermark, no misspelling of \"Morphous Praying Mantis\", no illegible microtext."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-praying-mantis/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-praying-mantis/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Praying Mantis dark-mode design-system board\nPrimary request: Generate one comprehensive DARK MODE design-system board for the Morphous theme named \"Morphous Praying Mantis\" / \"Praying Mantis\". It must feel like the same focused command system translated to dark mode, not a new theme, and it must remain derived from the praying mantis motif and the light-mode board language.\nCritical canvas requirement: true wide landscape 16:9 board, 3840 x 2160 style composition, not square, not portrait. Fill the full horizontal board with a clear grid and large readable section labels.\nResolution and legibility: large readable labels, fewer larger rows, no dense tiny token tables, no microscopic text.\nRequired visible section labels: Morphous Praying Mantis, Praying Mantis, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the mantis system language: leaf-green primary controls, pale yellow-green highlights, olive-garden secondary states, tan wing-seam accents, dark eye-ink command palette and sidebar surfaces, pale stem text, muted wing-vein borders, 8px shadcn/tweakcn grid, and fine mantis wing-vein texture. It must read as praying mantis profile and garden-stem precision, not generic green dark SaaS.\nTypography: English product UI examples with Japanese typography guidance; labels such as Inter, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI, 蟷螂, 検索, 指令, 状態. Keep text short and legible.\nUI coverage: shadcn/tweakcn-like buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search palette, sidebar navigation, top navigation, focused command dashboard metric cards, line chart, compact bar chart, task status grid, operations data table, filters, empty/loading/error/success/warning states, toast, pagination, focus rings.\nToken coverage: semantic roles background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, spacing scale, 8px radius family, restrained shadow scale, mantis wing-vein texture swatches.\nVisual details: dark background derived from dark glossy mantis eye and olive underbody, raised cards in brown-black olive, pale dry-stem foreground text, leaf-green and yellow-green primary controls, tan seams for accents and warnings, olive status states, subtle wing-vein texture overlays, restrained contrast, crisp cards and controls.\nColor palette: motif-derived colors only: leaf green mantis shell, yellow-green highlight, olive garden-stem shadow, tan wing edge, dry pale stem surface, dark olive eye ink, brown-black leg tip, muted vein green, natural red-brown stress/error from insect joints.\nConstraints: no neon colors, no pure flat black background, no unrelated saturated colors, no generic purple or blue gradients, no random brand names, no weapon imagery, no stock hero layout, no watermark, no misspelling of \"Morphous Praying Mantis\", no illegible microtext."
+    }
+  ]
+}

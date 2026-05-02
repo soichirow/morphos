@@ -1,0 +1,80 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-pronghorn",
+  "name": "Morphous Pronghorn",
+  "motifName": "Pronghorn",
+  "motifCategory": "mammal",
+  "biome": "shortgrass prairie",
+  "motif": "pronghorn markings",
+  "description": "A shadcn/tweakcn-compatible system for fast routing products: tan prairie surfaces, white contrast fields, black pronghorn markings, grass-gold support tones, and route-amber motion states.",
+  "typography": "Geist for compact routing dashboards with Japanese guidance for short operational labels, clear status text, and stable numerals.",
+  "layout": "Dense 8px grid, quick-scan route panels, stripe dividers, shortgrass texture, compact cards, and low-radius controls for operational dashboards.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "pronghorn",
+    "mammal",
+    "shortgrass prairie",
+    "routing",
+    "logistics",
+    "fast"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Prairie Paper",
+      "hex": "#fbf7ee"
+    },
+    {
+      "role": "Ink",
+      "name": "Horn Black",
+      "hex": "#181411"
+    },
+    {
+      "role": "Primary",
+      "name": "Prairie Tan",
+      "hex": "#D39A43"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rump White",
+      "hex": "#fff5df"
+    },
+    {
+      "role": "Accent",
+      "name": "Grass Gold",
+      "hex": "#B0A14A"
+    },
+    {
+      "role": "Signal",
+      "name": "Route Amber",
+      "hex": "#e5a02a"
+    },
+    {
+      "role": "Surface",
+      "name": "Dust Panel",
+      "hex": "#f3ead9"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Shadow",
+      "hex": "#8d6f45"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Prairie",
+      "hex": "#17130d"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

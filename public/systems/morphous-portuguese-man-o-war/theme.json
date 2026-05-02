@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-portuguese-man-o-war",
+    "name": "Morphous Portuguese Man of War",
+    "motifName": "Portuguese Man of War",
+    "motifCategory": "marine",
+    "biome": "Open Ocean",
+    "motif": "man of war float"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pearl Mist",
+      "hex": "#F7FAFF",
+      "oklch": "oklch(0.984 0.007 260.7)"
+    },
+    {
+      "role": "Ink",
+      "name": "Abyss Ink",
+      "hex": "#0A1230",
+      "oklch": "oklch(0.195 0.061 268.9)"
+    },
+    {
+      "role": "Primary",
+      "name": "Float Violet",
+      "hex": "#866EFF",
+      "oklch": "oklch(0.635 0.207 286.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Alert Cyan",
+      "hex": "#00D4E6",
+      "oklch": "oklch(0.794 0.136 205.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Crest Pink",
+      "hex": "#FF6EC7",
+      "oklch": "oklch(0.741 0.200 345.3)"
+    },
+    {
+      "role": "Signal",
+      "name": "Sea Blue",
+      "hex": "#2D9CFF",
+      "oklch": "oklch(0.681 0.175 250.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Membrane Pearl",
+      "hex": "#E6F2FF",
+      "oklch": "oklch(0.956 0.022 250.2)"
+    },
+    {
+      "role": "Muted",
+      "name": "Drift Lilac",
+      "hex": "#C786FF",
+      "oklch": "oklch(0.733 0.179 307.3)"
+    },
+    {
+      "role": "Depth",
+      "name": "Cobalt Depth",
+      "hex": "#132A68",
+      "oklch": "oklch(0.309 0.113 265.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.984 0.007 260.7)",
+    "foreground": "oklch(0.195 0.061 268.9)",
+    "card": "oklch(0.956 0.022 250.2)",
+    "card-foreground": "oklch(0.195 0.061 268.9)",
+    "popover": "oklch(0.956 0.022 250.2)",
+    "popover-foreground": "oklch(0.195 0.061 268.9)",
+    "primary": "oklch(0.635 0.207 286.5)",
+    "primary-foreground": "oklch(0.984 0.007 260.7)",
+    "secondary": "oklch(0.967 0.016 253.9)",
+    "secondary-foreground": "oklch(0.309 0.113 265.0)",
+    "muted": "oklch(0.964 0.018 253.3)",
+    "muted-foreground": "oklch(0.309 0.113 265.0)",
+    "accent": "oklch(0.741 0.200 345.3)",
+    "accent-foreground": "oklch(0.195 0.061 268.9)",
+    "destructive": "oklch(0.741 0.200 345.3)",
+    "border": "oklch(0.872 0.073 299.0)",
+    "input": "oklch(0.872 0.073 299.0)",
+    "ring": "oklch(0.794 0.136 205.7)",
+    "chart-1": "oklch(0.635 0.207 286.5)",
+    "chart-2": "oklch(0.794 0.136 205.7)",
+    "chart-3": "oklch(0.741 0.200 345.3)",
+    "chart-4": "oklch(0.681 0.175 250.4)",
+    "chart-5": "oklch(0.309 0.113 265.0)",
+    "sidebar": "oklch(0.966 0.017 250.8)",
+    "sidebar-foreground": "oklch(0.195 0.061 268.9)",
+    "sidebar-primary": "oklch(0.635 0.207 286.5)",
+    "sidebar-primary-foreground": "oklch(0.984 0.007 260.7)",
+    "sidebar-accent": "oklch(0.916 0.040 273.3)",
+    "sidebar-accent-foreground": "oklch(0.635 0.207 286.5)",
+    "sidebar-border": "oklch(0.872 0.073 299.0)",
+    "sidebar-ring": "oklch(0.794 0.136 205.7)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.195 0.061 268.9)",
+    "foreground": "oklch(0.984 0.007 260.7)",
+    "card": "oklch(0.272 0.096 265.6)",
+    "card-foreground": "oklch(0.984 0.007 260.7)",
+    "popover": "oklch(0.272 0.096 265.6)",
+    "popover-foreground": "oklch(0.984 0.007 260.7)",
+    "primary": "oklch(0.794 0.136 205.7)",
+    "primary-foreground": "oklch(0.195 0.061 268.9)",
+    "secondary": "oklch(0.404 0.123 277.7)",
+    "secondary-foreground": "oklch(0.984 0.007 260.7)",
+    "muted": "oklch(0.404 0.123 277.7)",
+    "muted-foreground": "oklch(0.868 0.083 306.3)",
+    "accent": "oklch(0.741 0.200 345.3)",
+    "accent-foreground": "oklch(0.195 0.061 268.9)",
+    "destructive": "oklch(0.741 0.200 345.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.794 0.136 205.7)",
+    "chart-1": "oklch(0.794 0.136 205.7)",
+    "chart-2": "oklch(0.635 0.207 286.5)",
+    "chart-3": "oklch(0.741 0.200 345.3)",
+    "chart-4": "oklch(0.681 0.175 250.4)",
+    "chart-5": "oklch(0.733 0.179 307.3)",
+    "sidebar": "oklch(0.249 0.086 266.2)",
+    "sidebar-foreground": "oklch(0.984 0.007 260.7)",
+    "sidebar-primary": "oklch(0.794 0.136 205.7)",
+    "sidebar-primary-foreground": "oklch(0.195 0.061 268.9)",
+    "sidebar-accent": "oklch(0.404 0.123 277.7)",
+    "sidebar-accent-foreground": "oklch(0.984 0.007 260.7)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.794 0.136 205.7)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for alert dashboards and operational UI with Noto Sans JP guidance for Japanese labels, compact metrics, clear incident states, and multilingual scanability.",
+  "layout": "Dense but calm 8px-grid alert dashboards with translucent membrane cards, ribbed float texture bands, tentacle-line dividers, compact tables, clear status hierarchy, and restrained iridescent glow.",
+  "tags": [
+    "portuguese-man-of-war",
+    "marine",
+    "open-ocean",
+    "iridescent",
+    "alert-system",
+    "ethereal",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-portuguese-man-o-war/motif.png",
+    "board": "/systems/morphous-portuguese-man-o-war/design-system-light.png",
+    "darkBoard": "/systems/morphous-portuguese-man-o-war/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-portuguese-man-o-war/theme.css",
+    "themeJson": "/systems/morphous-portuguese-man-o-war/theme.json",
+    "promptsJson": "/systems/morphous-portuguese-man-o-war/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Portuguese Man of War motif",
+      "asset": "/systems/morphous-portuguese-man-o-war/motif.png",
+      "workflow": "Built-in image generation on flat #00ff00 chroma key, then local remove_chroma_key.py alpha extraction with border auto-key, soft matte, and despill.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout chroma-key source\nPrimary request: Create only a Portuguese man o' war organism, isolated full subject, no environment, no props, no text.\nSubject: A single Portuguese man o' war with accurate open-ocean form: inflated sail-like float, raised crest, translucent but crisp-edged body, trailing tentacle cluster gathered into elegant flowing strands. The visual language should emphasize an iridescent violet, cyan, pink, and sea-blue float with pearl highlights and deep cobalt shadow accents. Make the organism feel ethereal and alert, suitable as the motif source for a refined UI design system.\nComposition/framing: centered complete cutout with generous padding; show the full float and readable trailing tentacles without cropping; one organism only. Keep the tentacles contained enough for clean background removal.\nLighting/mood: clean studio lighting that preserves glossy membrane detail, iridescent color shifts, crisp silhouette edges, and a polished catalog-specimen look.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep the subject fully separated from the background with crisp edges and generous padding. Do not use #00ff00 anywhere in the organism.\nConstraints: no ocean, no waves, no bubbles, no sand, no rocks, no decorative background, no second organism, no text, no watermark, no cast shadow, no contact shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-portuguese-man-o-war/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-portuguese-man-o-war/motif.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for /systems/morphous-portuguese-man-o-war/design-system-light.png\nPrimary request: Generate one comprehensive 16:9 light-mode design-system board for \"Morphous Portuguese Man of War\" / \"Portuguese Man of War\", an ethereal alert-system UI theme derived from the visible Portuguese man o' war motif. The board is the implementation reference for a shadcn/tweakcn-compatible theme.\nReference use: Use the visible isolated Portuguese man o' war motif as the source of truth. Extract palette, texture rhythm, contrast, spacing mood, and interaction language from its inflated sail-like float, ribbed membrane crest, trailing tentacles, iridescent violet, cyan, pink, sea blue, pearl highlights, and deep cobalt shadows. The board must visibly respect the motif colors.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Portuguese Man of War, Portuguese Man of War, Light Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use alert-system UI hierarchy with clear numeric rhythm and calm scanability.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, area chart, alert queue chart, empty, loading, error states, spacing, radius, border, shadow, texture samples.\nVisual details: pearl sea-mist page background, translucent aqua cards, violet primary actions, cyan focus rings, pink warning accents, deep cobalt text, ribbed float texture bands, tentacle-line dividers, compact alert dashboard patterns, 8px radii, precise shadcn-style controls.\nColor palette: use only motif-derived colors plus near-neutrals from the motif: pearl mist, abyss ink, float violet, alert cyan, crest pink, sea blue, membrane pearl, drift lilac, cobalt depth.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Portuguese Man of War\".\nConstraints: no ocean photo scene, no waves, no repeated organism clutter, no neon overload, no generic purple/blue gradients beyond motif iridescence, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Portuguese Man of War\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-portuguese-man-o-war/design-system-dark.png",
+      "referenceAssets": [
+        "/systems/morphous-portuguese-man-o-war/motif.png",
+        "/systems/morphous-portuguese-man-o-war/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for /systems/morphous-portuguese-man-o-war/design-system-dark.png\nPrimary request: Generate one comprehensive 16:9 dark-mode design-system board for \"Morphous Portuguese Man of War\" / \"Portuguese Man of War\". It must feel like the same system translated from the visible light-mode Morphous Portuguese Man of War board and the same Portuguese man o' war motif, not a new theme.\nReference use: Use the visible transparent motif and visible light board as references. Preserve motif-derived palette roles, ribbed float texture, tentacle-line dividers, alert dashboard layout, spacing, typography, Japanese typography, and shadcn/tweakcn component coverage. Translate pearl sea-mist surfaces into deep open-ocean and abyss ink surfaces, with luminous cyan primary actions, violet active states, pink alert accents, sea-blue data marks, and restrained iridescent highlights.\nCanvas: exact wide 16:9 board, target 3840 x 2160 pixels, 4K-class composition.\nResolution and legibility: make every section label large and readable after gallery downscaling. Use fewer large rows, no dense tiny token tables, clean grid, generous spacing.\nRequired visible sections with exactly these short labels: Morphous Portuguese Man of War, Portuguese Man of War, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows, Assets.\nTypography: include English and Japanese guidance. Show concise examples: Geist, Noto Sans JP, Heading, Body, Label, Metrics, 日本語, 余白, 可読性, 行間. Use alert-system UI hierarchy with clear numeric rhythm and calm scanability.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command menu, sidebar navigation, top navigation, dashboard metric cards, line chart, bar chart, area chart, alert queue chart, empty, loading, error states, spacing, radius, border, shadow, texture samples.\nVisual details: abyss ink background, deep cobalt cards, translucent membrane panels, luminous cyan focus rings, violet primary controls, crest-pink critical alerts, sea-blue chart fills, pearl text, ribbed float texture bands, tentacle-line dividers, compact alert dashboard patterns, 8px radii, precise shadcn-style controls.\nText: short readable UI labels only; no paragraphs. Use exact title text \"Morphous Portuguese Man of War\".\nConstraints: no ocean photo scene, no waves, no repeated organism clutter, no neon overload, no flat pure-black-only background, no generic purple/blue gradients beyond motif iridescence, no unrelated saturated colors, no random logos, no watermark, no misspelling of \"Morphous Portuguese Man of War\"."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rainbow-chard",
+    "name": "Morphous Rainbow Chard",
+    "motifName": "Rainbow Chard",
+    "motifCategory": "plant",
+    "biome": "kitchen garden",
+    "motif": "chard stems"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Leaf Mist",
+      "hex": "#F8FAF1",
+      "oklch": "oklch(0.981 0.012 116.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#102015",
+      "oklch": "oklch(0.225 0.031 153.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Stem Magenta",
+      "hex": "#D81B60",
+      "oklch": "oklch(0.574 0.218 7.8)"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Stem Magenta Deep",
+      "hex": "#B3124C",
+      "oklch": "oklch(0.497 0.190 8.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stem Lime",
+      "hex": "#A6D96A",
+      "oklch": "oklch(0.826 0.151 129.6)"
+    },
+    {
+      "role": "Secondary Hover",
+      "name": "Leaf Lime",
+      "hex": "#83C341",
+      "oklch": "oklch(0.748 0.173 131.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Stem Yellow",
+      "hex": "#FFD21F",
+      "oklch": "oklch(0.877 0.174 92.5)"
+    },
+    {
+      "role": "Accent Hover",
+      "name": "Yellow Rib",
+      "hex": "#E6B600",
+      "oklch": "oklch(0.797 0.163 89.5)"
+    },
+    {
+      "role": "Leaf Deep",
+      "name": "Leaf Deep",
+      "hex": "#1A3A1F",
+      "oklch": "oklch(0.316 0.061 147.4)"
+    },
+    {
+      "role": "Leaf",
+      "name": "Leaf Green",
+      "hex": "#2E682F",
+      "oklch": "oklch(0.464 0.107 143.9)"
+    },
+    {
+      "role": "Leaf Mid",
+      "name": "Leaf Mid",
+      "hex": "#4F8F3E",
+      "oklch": "oklch(0.588 0.133 139.4)"
+    },
+    {
+      "role": "Leaf Light",
+      "name": "Leaf Light",
+      "hex": "#80B96A",
+      "oklch": "oklch(0.727 0.124 137.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Cream",
+      "hex": "#F3F7E5",
+      "oklch": "oklch(0.968 0.024 117.0)"
+    },
+    {
+      "role": "Border",
+      "name": "Cut Stem",
+      "hex": "#E9E1C6",
+      "oklch": "oklch(0.909 0.037 93.4)"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Night Leaf",
+      "hex": "#0E1A12",
+      "oklch": "oklch(0.203 0.023 154.6)"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Dark Leaf Panel",
+      "hex": "#151E17",
+      "oklch": "oklch(0.224 0.019 151.4)"
+    },
+    {
+      "role": "Dark Muted",
+      "name": "Leaf Understory",
+      "hex": "#1E281F",
+      "oklch": "oklch(0.264 0.022 147.6)"
+    },
+    {
+      "role": "Dark Border",
+      "name": "Leaf Border",
+      "hex": "#425443",
+      "oklch": "oklch(0.425 0.036 146.4)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.981 0.012 116.8)",
+    "foreground": "oklch(0.225 0.031 153.3)",
+    "card": "oklch(0.968 0.024 117.0)",
+    "card-foreground": "oklch(0.225 0.031 153.3)",
+    "popover": "oklch(0.968 0.024 117.0)",
+    "popover-foreground": "oklch(0.225 0.031 153.3)",
+    "primary": "oklch(0.574 0.218 7.8)",
+    "primary-foreground": "oklch(0.981 0.012 116.8)",
+    "secondary": "oklch(0.973 0.019 116.6)",
+    "secondary-foreground": "oklch(0.225 0.031 153.3)",
+    "muted": "oklch(0.972 0.021 118.2)",
+    "muted-foreground": "oklch(0.225 0.031 153.3)",
+    "accent": "oklch(0.877 0.174 92.5)",
+    "accent-foreground": "oklch(0.225 0.031 153.3)",
+    "destructive": "oklch(0.574 0.218 7.8)",
+    "border": "oklch(0.776 0.066 7.8)",
+    "input": "oklch(0.776 0.066 7.8)",
+    "ring": "oklch(0.826 0.151 129.6)",
+    "chart-1": "oklch(0.574 0.218 7.8)",
+    "chart-2": "oklch(0.826 0.151 129.6)",
+    "chart-3": "oklch(0.877 0.174 92.5)",
+    "chart-4": "oklch(0.748 0.173 131.9)",
+    "chart-5": "oklch(0.225 0.031 153.3)",
+    "sidebar": "oklch(0.973 0.020 116.0)",
+    "sidebar-foreground": "oklch(0.225 0.031 153.3)",
+    "sidebar-primary": "oklch(0.574 0.218 7.8)",
+    "sidebar-primary-foreground": "oklch(0.981 0.012 116.8)",
+    "sidebar-accent": "oklch(0.911 0.024 44.3)",
+    "sidebar-accent-foreground": "oklch(0.574 0.218 7.8)",
+    "sidebar-border": "oklch(0.776 0.066 7.8)",
+    "sidebar-ring": "oklch(0.826 0.151 129.6)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.225 0.031 153.3)",
+    "foreground": "oklch(0.981 0.012 116.8)",
+    "card": "oklch(0.225 0.031 153.3)",
+    "card-foreground": "oklch(0.981 0.012 116.8)",
+    "popover": "oklch(0.225 0.031 153.3)",
+    "popover-foreground": "oklch(0.981 0.012 116.8)",
+    "primary": "oklch(0.826 0.151 129.6)",
+    "primary-foreground": "oklch(0.225 0.031 153.3)",
+    "secondary": "oklch(0.263 0.037 8.6)",
+    "secondary-foreground": "oklch(0.981 0.012 116.8)",
+    "muted": "oklch(0.263 0.037 8.6)",
+    "muted-foreground": "oklch(0.736 0.089 0.3)",
+    "accent": "oklch(0.877 0.174 92.5)",
+    "accent-foreground": "oklch(0.225 0.031 153.3)",
+    "destructive": "oklch(0.574 0.218 7.8)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.826 0.151 129.6)",
+    "chart-1": "oklch(0.826 0.151 129.6)",
+    "chart-2": "oklch(0.574 0.218 7.8)",
+    "chart-3": "oklch(0.877 0.174 92.5)",
+    "chart-4": "oklch(0.748 0.173 131.9)",
+    "chart-5": "oklch(0.497 0.190 8.7)",
+    "sidebar": "oklch(0.225 0.031 153.3)",
+    "sidebar-foreground": "oklch(0.981 0.012 116.8)",
+    "sidebar-primary": "oklch(0.826 0.151 129.6)",
+    "sidebar-primary-foreground": "oklch(0.225 0.031 153.3)",
+    "sidebar-accent": "oklch(0.263 0.037 8.6)",
+    "sidebar-accent-foreground": "oklch(0.981 0.012 116.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.826 0.151 129.6)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, labels, tabular numbers, dense tables, and accessible garden-data dashboards.",
+  "layout": "Practical 8px grids, crisp 8px radii, leaf-green data panels, magenta action emphasis, yellow attention states, lime secondary surfaces, ribbed-stem texture strips, and low garden-workspace shadows.",
+  "tags": [
+    "rainbow-chard",
+    "plant",
+    "kitchen-garden",
+    "chard-stems",
+    "magenta",
+    "yellow",
+    "leaf-green",
+    "accessible-data-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rainbow-chard/motif.png",
+    "board": "/systems/morphous-rainbow-chard/design-system-light.png",
+    "darkBoard": "/systems/morphous-rainbow-chard/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rainbow-chard/theme.css",
+    "themeJson": "/systems/morphous-rainbow-chard/theme.json",
+    "promptsJson": "/systems/morphous-rainbow-chard/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rainbow chard motif",
+      "asset": "/systems/morphous-rainbow-chard/motif.png",
+      "workflow": "Built-in imagegen chroma-key source on #0000ff, then local chroma-key removal to transparent RGBA PNG with soft matte and despill.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif chroma-key source\nPrimary request: Create only a Rainbow Chard botanical motif for a design-system catalog, isolated as a single complete subject on a removable chroma-key background.\nSubject: A compact kitchen-garden rainbow chard bundle with overlapping glossy dark green leaves and thick ribbed stems in vivid magenta, golden yellow, lime green, and pale leaf-green. Botanical accuracy for Swiss chard: broad crinkled leaves, prominent colored midribs, crisp edible stems, fresh garden harvest character, opaque solid plant surfaces, high detail, natural leaf veins, clean edges.\nComposition/framing: centered complete cutout with generous padding; include full leaves and visible stems without cropping. Upright slight fan arrangement, clean studio lighting, no cast shadow.\nChroma-key background: perfectly flat solid #0000ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #0000ff anywhere in the subject.\nConstraints: no soil, no basket, no cutting board, no kitchen tools, no water droplets, no hand, no text, no watermark, no extra plant species, no flowers, no transparent or translucent leaf edges."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rainbow-chard/design-system-light.png",
+      "sourceAsset": "/systems/morphous-rainbow-chard/motif.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rainbow Chard light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Rainbow Chard\", derived from the visible transparent rainbow chard cutout in this conversation. This board is a source reference for implementing a shadcn/tweakcn-compatible accessible data system for kitchen-garden operations.\nCanvas: exact 16:9 wide board, 3840x2160 4K-class composition, clean professional UI design-system presentation.\nRequired visible sections: Morphous Rainbow Chard, Rainbow Chard, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Extract palette and interaction language only from the motif: glossy dark chard leaves, deep leaf shadow green, fresh garden green, ribbed magenta stems, bright yellow stem, pale lime stem, leaf-vein highlights, cream cut-stem neutrals, and clean kitchen-garden whites. Use only motif-derived colors and near-neutrals from those sources.\nTypography: English product UI examples with Japanese typography guidance; readable labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep all text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, accessible kitchen-garden data dashboard metric cards, harvest chart, inventory table, progress states, empty/loading/error states, token swatches, texture samples, spacing scale, 8px radius token, shadow tokens, simple lucide-style icons.\nStyle: premium shadcn/tweakcn-style product design system, precise grid, 8px radii, light leaf-mist background, white and pale-lime panels, deep leaf-green text, magenta primary actions, yellow warning highlights, lime secondary surfaces, dark leaf borders and focus rings, subtle ribbed-stem and crinkled-leaf texture. Accessible contrast, practical data-system mood, not decorative.\nComposition: organize as a polished design-system poster with large readable headings and practical UI examples, not a marketing landing page.\nConstraints: no unrelated saturated colors, no generic purple/blue gradient theme, no beige-only palette, no extra vegetables, no garden photo background, no stock photos, no tiny unreadable paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Rainbow Chard\"."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rainbow-chard/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-rainbow-chard/design-system-light.png",
+      "workflow": "Built-in imagegen board source, resized to 3840x2160 for the catalog asset.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rainbow Chard dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Rainbow Chard\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible rainbow chard cutout.\nCanvas: exact 16:9 wide board, 3840x2160 4K-class composition, clean professional UI design-system presentation.\nRequired visible sections: Morphous Rainbow Chard, Rainbow Chard, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows.\nReference use: Preserve the system language from the light board: glossy dark chard leaves, deep leaf shadow green, fresh garden green, ribbed magenta stems, bright yellow stem, pale lime stem, leaf-vein highlights, cream cut-stem neutrals, kitchen-garden data dashboard, 8px shadcn/tweakcn grid.\nTypography: English product UI examples with Japanese typography guidance; readable labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep all text short and legible.\nUI coverage: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command palette search, sidebar navigation, top navigation, accessible kitchen-garden data dashboard metric cards, harvest chart, inventory table, progress states, empty/loading/error states, token swatches, texture samples, spacing scale, 8px radius token, shadow tokens, simple lucide-style icons.\nVisual details: dark background from deepest leaf-shadow greens, readable pale stem-cream and leaf-highlight text, magenta primary actions, yellow warning and attention states, lime secondary surfaces, chard-green success states, muted dark leaf panels, subtle ribbed-stem and crinkled-leaf texture overlays, restrained accessible contrast, crisp cards and controls.\nComposition: organize as a polished dark design-system poster with large readable headings and practical UI examples, not a marketing landing page.\nConstraints: no neon colors, no flat pure-black-only background, no unrelated saturated colors, no generic purple/blue gradient theme, no extra vegetables, no garden photo background, no tiny unreadable paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Rainbow Chard\"."
+    }
+  ]
+}

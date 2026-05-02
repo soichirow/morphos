@@ -1,0 +1,210 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 316,
+  "slug": "morphous-pond-skater",
+  "name": "Morphous Pond Skater",
+  "motifName": "Pond Skater",
+  "motifCategory": "insect",
+  "biome": "garden pond",
+  "motif": "pond skater shadow",
+  "description": "A shadcn/tweakcn-compatible balanced interface system derived from a pond skater shadow: ink-black insect lines, glassy water-blue focus, reed-green secondary states, silver meniscus borders, pale pond-surface neutrals, subtle ripple textures, compact data surfaces, and deep-water dark mode.",
+  "typography": "Inter Variable for clear product UI, Noto Sans JP for Japanese navigation, labels, and status text, and a restrained mono style for metrics, tables, token rows, and command shortcuts.",
+  "layout": "Balanced dashboard grids, compact navigation, calm forms and tables, command search, 8px maximum radius, fine meniscus borders, subtle ripple texture, and quiet shadows that echo a pond skater's shadow over still water.",
+  "designMood": "balanced interface system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "pond-skater",
+    "water-strider",
+    "insect",
+    "garden-pond",
+    "ink-black",
+    "water-blue",
+    "reed-green",
+    "balanced-interface",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Pond Surface",
+      "hex": "#F4F6F7",
+      "oklch": "oklch(0.972 0.003 228.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Paper White",
+      "hex": "#FFFFFF",
+      "oklch": "oklch(1.000 0.000 89.9)"
+    },
+    {
+      "role": "Muted",
+      "name": "Silver Glint",
+      "hex": "#D9DEE2",
+      "oklch": "oklch(0.898 0.008 241.7)"
+    },
+    {
+      "role": "Border",
+      "name": "Mist Border",
+      "hex": "#C7D4DC",
+      "oklch": "oklch(0.862 0.018 234.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Pond Blue",
+      "hex": "#A7C7D6",
+      "oklch": "oklch(0.811 0.040 227.9)"
+    },
+    {
+      "role": "Focus",
+      "name": "Water Blue",
+      "hex": "#2C7FA6",
+      "oklch": "oklch(0.564 0.098 232.9)"
+    },
+    {
+      "role": "Action",
+      "name": "Deep Water Blue",
+      "hex": "#164A62",
+      "oklch": "oklch(0.387 0.067 232.5)"
+    },
+    {
+      "role": "Soft",
+      "name": "Reed Soft",
+      "hex": "#A7B692",
+      "oklch": "oklch(0.755 0.053 126.0)"
+    },
+    {
+      "role": "Accent",
+      "name": "Reed Green",
+      "hex": "#5E7F4A",
+      "oklch": "oklch(0.557 0.086 134.4)"
+    },
+    {
+      "role": "Text",
+      "name": "Ink Gray",
+      "hex": "#1A1B1D",
+      "oklch": "oklch(0.222 0.004 264.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Ink Black",
+      "hex": "#0B0D0D",
+      "oklch": "oklch(0.157 0.003 196.8)"
+    },
+    {
+      "role": "Night",
+      "name": "Deep Water",
+      "hex": "#0F141A",
+      "oklch": "oklch(0.189 0.015 253.2)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Amber",
+      "hex": "#DAA017",
+      "oklch": "oklch(0.742 0.148 81.5)"
+    },
+    {
+      "role": "Danger",
+      "name": "Signal Red",
+      "hex": "#E15B58",
+      "oklch": "oklch(0.643 0.168 24.3)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.972 0.003 228.8)",
+    "foreground": "oklch(0.157 0.003 196.8)",
+    "card": "oklch(1.000 0.000 89.9)",
+    "card-foreground": "oklch(0.157 0.003 196.8)",
+    "popover": "oklch(1.000 0.000 89.9)",
+    "popover-foreground": "oklch(0.157 0.003 196.8)",
+    "primary": "oklch(0.189 0.015 253.2)",
+    "primary-foreground": "oklch(1.000 0.000 89.9)",
+    "secondary": "oklch(0.811 0.040 227.9)",
+    "secondary-foreground": "oklch(0.157 0.003 196.8)",
+    "muted": "oklch(0.898 0.008 241.7)",
+    "muted-foreground": "oklch(0.387 0.067 232.5)",
+    "accent": "oklch(0.755 0.053 126.0)",
+    "accent-foreground": "oklch(0.157 0.003 196.8)",
+    "destructive": "oklch(0.643 0.168 24.3)",
+    "border": "oklch(0.862 0.018 234.5)",
+    "input": "oklch(0.862 0.018 234.5)",
+    "ring": "oklch(0.564 0.098 232.9)",
+    "chart-1": "oklch(0.564 0.098 232.9)",
+    "chart-2": "oklch(0.557 0.086 134.4)",
+    "chart-3": "oklch(0.742 0.148 81.5)",
+    "chart-4": "oklch(0.811 0.040 227.9)",
+    "chart-5": "oklch(0.157 0.003 196.8)",
+    "sidebar": "oklch(1.000 0.000 89.9)",
+    "sidebar-foreground": "oklch(0.157 0.003 196.8)",
+    "sidebar-primary": "oklch(0.189 0.015 253.2)",
+    "sidebar-primary-foreground": "oklch(1.000 0.000 89.9)",
+    "sidebar-accent": "oklch(0.898 0.008 241.7)",
+    "sidebar-accent-foreground": "oklch(0.157 0.003 196.8)",
+    "sidebar-border": "oklch(0.862 0.018 234.5)",
+    "sidebar-ring": "oklch(0.564 0.098 232.9)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.157 0.003 196.8)",
+    "foreground": "oklch(0.898 0.008 241.7)",
+    "card": "oklch(0.189 0.015 253.2)",
+    "card-foreground": "oklch(0.898 0.008 241.7)",
+    "popover": "oklch(0.189 0.015 253.2)",
+    "popover-foreground": "oklch(0.898 0.008 241.7)",
+    "primary": "oklch(0.564 0.098 232.9)",
+    "primary-foreground": "oklch(0.157 0.003 196.8)",
+    "secondary": "oklch(0.557 0.086 134.4)",
+    "secondary-foreground": "oklch(0.157 0.003 196.8)",
+    "muted": "oklch(0.222 0.004 264.5)",
+    "muted-foreground": "oklch(0.811 0.040 227.9)",
+    "accent": "oklch(0.755 0.053 126.0)",
+    "accent-foreground": "oklch(0.157 0.003 196.8)",
+    "destructive": "oklch(0.643 0.168 24.3)",
+    "border": "oklch(0.862 0.018 234.5 / 28%)",
+    "input": "oklch(0.862 0.018 234.5 / 34%)",
+    "ring": "oklch(0.564 0.098 232.9)",
+    "chart-1": "oklch(0.564 0.098 232.9)",
+    "chart-2": "oklch(0.755 0.053 126.0)",
+    "chart-3": "oklch(0.742 0.148 81.5)",
+    "chart-4": "oklch(0.811 0.040 227.9)",
+    "chart-5": "oklch(0.898 0.008 241.7)",
+    "sidebar": "oklch(0.189 0.015 253.2)",
+    "sidebar-foreground": "oklch(0.898 0.008 241.7)",
+    "sidebar-primary": "oklch(0.564 0.098 232.9)",
+    "sidebar-primary-foreground": "oklch(0.157 0.003 196.8)",
+    "sidebar-accent": "oklch(0.222 0.004 264.5)",
+    "sidebar-accent-foreground": "oklch(0.898 0.008 241.7)",
+    "sidebar-border": "oklch(0.862 0.018 234.5 / 28%)",
+    "sidebar-ring": "oklch(0.564 0.098 232.9)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

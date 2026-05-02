@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-rattlesnake",
+    "name": "Morphous Rattlesnake",
+    "motifName": "Rattlesnake",
+    "motifCategory": "reptile",
+    "biome": "desert scrub",
+    "motif": "rattlesnake rattle"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Sand Parchment",
+      "hex": "#eee1c7",
+      "oklch": "oklch(0.913 0.037 84.6)"
+    },
+    {
+      "role": "Ink",
+      "name": "Dark Umber",
+      "hex": "#2a1a11",
+      "oklch": "oklch(0.236 0.030 50.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Diamond Brown",
+      "hex": "#6a4428",
+      "oklch": "oklch(0.424 0.067 56.1)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rattle Tan",
+      "hex": "#c79b63",
+      "oklch": "oklch(0.718 0.090 72.3)"
+    },
+    {
+      "role": "Accent",
+      "name": "Sage Scrub",
+      "hex": "#738063",
+      "oklch": "oklch(0.581 0.046 127.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dry Sage",
+      "hex": "#a5ab86",
+      "oklch": "oklch(0.727 0.052 115.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Caution Amber",
+      "hex": "#d59a2f",
+      "oklch": "oklch(0.726 0.136 77.6)"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Rust",
+      "hex": "#a84f2a",
+      "oklch": "oklch(0.533 0.128 41.9)"
+    },
+    {
+      "role": "Surface",
+      "name": "Bone Highlight",
+      "hex": "#fbf1dc",
+      "oklch": "oklch(0.960 0.030 85.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Umber",
+      "hex": "#1e130d",
+      "oklch": "oklch(0.199 0.022 49.7)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.913 0.037 84.6)",
+    "foreground": "oklch(0.236 0.030 50.1)",
+    "card": "oklch(0.960 0.030 85.6)",
+    "card-foreground": "oklch(0.236 0.030 50.1)",
+    "popover": "oklch(0.960 0.030 85.6)",
+    "popover-foreground": "oklch(0.236 0.030 50.1)",
+    "primary": "oklch(0.424 0.067 56.1)",
+    "primary-foreground": "oklch(0.913 0.037 84.6)",
+    "secondary": "oklch(0.940 0.033 83.7)",
+    "secondary-foreground": "oklch(0.199 0.022 49.7)",
+    "muted": "oklch(0.948 0.032 87.3)",
+    "muted-foreground": "oklch(0.199 0.022 49.7)",
+    "accent": "oklch(0.581 0.046 127.4)",
+    "accent-foreground": "oklch(0.236 0.030 50.1)",
+    "destructive": "oklch(0.424 0.067 56.1)",
+    "border": "oklch(0.878 0.036 100.2)",
+    "input": "oklch(0.878 0.036 100.2)",
+    "ring": "oklch(0.718 0.090 72.3)",
+    "chart-1": "oklch(0.424 0.067 56.1)",
+    "chart-2": "oklch(0.718 0.090 72.3)",
+    "chart-3": "oklch(0.581 0.046 127.4)",
+    "chart-4": "oklch(0.726 0.136 77.6)",
+    "chart-5": "oklch(0.199 0.022 49.7)",
+    "sidebar": "oklch(0.946 0.033 85.5)",
+    "sidebar-foreground": "oklch(0.236 0.030 50.1)",
+    "sidebar-primary": "oklch(0.424 0.067 56.1)",
+    "sidebar-primary-foreground": "oklch(0.913 0.037 84.6)",
+    "sidebar-accent": "oklch(0.900 0.033 79.3)",
+    "sidebar-accent-foreground": "oklch(0.424 0.067 56.1)",
+    "sidebar-border": "oklch(0.878 0.036 100.2)",
+    "sidebar-ring": "oklch(0.718 0.090 72.3)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.236 0.030 50.1)",
+    "foreground": "oklch(0.913 0.037 84.6)",
+    "card": "oklch(0.211 0.025 49.2)",
+    "card-foreground": "oklch(0.913 0.037 84.6)",
+    "popover": "oklch(0.211 0.025 49.2)",
+    "popover-foreground": "oklch(0.913 0.037 84.6)",
+    "primary": "oklch(0.718 0.090 72.3)",
+    "primary-foreground": "oklch(0.236 0.030 50.1)",
+    "secondary": "oklch(0.330 0.023 77.8)",
+    "secondary-foreground": "oklch(0.913 0.037 84.6)",
+    "muted": "oklch(0.330 0.023 77.8)",
+    "muted-foreground": "oklch(0.831 0.042 101.2)",
+    "accent": "oklch(0.581 0.046 127.4)",
+    "accent-foreground": "oklch(0.236 0.030 50.1)",
+    "destructive": "oklch(0.424 0.067 56.1)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.718 0.090 72.3)",
+    "chart-1": "oklch(0.718 0.090 72.3)",
+    "chart-2": "oklch(0.424 0.067 56.1)",
+    "chart-3": "oklch(0.581 0.046 127.4)",
+    "chart-4": "oklch(0.726 0.136 77.6)",
+    "chart-5": "oklch(0.727 0.052 115.2)",
+    "sidebar": "oklch(0.219 0.026 52.5)",
+    "sidebar-foreground": "oklch(0.913 0.037 84.6)",
+    "sidebar-primary": "oklch(0.718 0.090 72.3)",
+    "sidebar-primary-foreground": "oklch(0.236 0.030 50.1)",
+    "sidebar-accent": "oklch(0.330 0.023 77.8)",
+    "sidebar-accent-foreground": "oklch(0.913 0.037 84.6)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.718 0.090 72.3)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English operations UI with Noto Sans JP guidance for warning states, dashboard labels, dense tables, and incident forms.",
+  "layout": "Compact 8px grid, tan diamond dividers, 8px component radius, dark umber navigation, rattle-segment texture, and high-contrast caution workflows.",
+  "tags": [
+    "rattlesnake",
+    "reptile",
+    "desert-scrub",
+    "tan",
+    "brown",
+    "sage",
+    "warning",
+    "operations",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-rattlesnake/motif.png",
+    "board": "/systems/morphous-rattlesnake/design-system-light.png",
+    "darkBoard": "/systems/morphous-rattlesnake/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-rattlesnake/theme.css",
+    "themeJson": "/systems/morphous-rattlesnake/theme.json",
+    "promptsJson": "/systems/morphous-rattlesnake/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent rattlesnake rattle motif",
+      "asset": "/systems/morphous-rattlesnake/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Rattlesnake transparent motif chroma-key source\nPrimary request: Create only a rattlesnake rattle motif for a design-system catalog, isolated as one complete subject on a removable chroma-key background.\nSubject: A realistic close-up rattlesnake tail rattle and short curved tail section, dry tan keratin rattle segments, diamondback brown tail bands, sage desert undertones, crisp segmented warning silhouette, detailed scale texture near the tail base, no environment. The motif should clearly read as a rattlesnake rattle, compact and iconic, suitable as a UI theme source.\nComposition/framing: centered complete three-quarter cutout with generous padding; full rattle and tail tip visible, not cropped. Clean studio lighting that preserves tan, diamond brown, sage, and dark edge detail. No cast shadow.\nChroma-key background: perfectly flat solid #ff00ff background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no full snake body, no desert scene, no rocks, no plants, no props, no text, no watermark, no second animal, no stylized cartoon, no floor plane, no shadow."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-rattlesnake/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rattlesnake high-resolution light-mode design-system board\nPrimary request: Generate one comprehensive high-resolution light-mode design-system board for a Morphous theme named \"Morphous Rattlesnake\", derived from a rattlesnake rattle motif: dry tan keratin rattle segments, diamondback brown bands, sage desert scrub, dark scale seams, strong caution states, and precise operations dashboard language. This board is a source reference for implementing a shadcn/tweakcn-compatible warning operations system.\nCanvas: exact wide 16:9 landscape board, composed for 3840x2160 output, large readable labels, fewer larger panels instead of tiny dense text. The final should feel like a crisp 4K design-system source board.\nRequired visible sections: Morphous Rattlesnake, Rattlesnake, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Extract palette and interaction language from tan rattlesnake rattle segments, diamond brown tail bands, matte scale texture, sage desert scrub, sand dust, and warning posture. The board must read as rattlesnake rattle and desert scrub operations, not generic safari, leather, or construction signage.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short, high contrast, and legible at gallery preview sizes.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, donut chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple rattle/diamond/warning icons.\nStyle: premium shadcn/tweakcn-style product design system, precise 8px grid, warning operations dashboard UI, 8px card radius, warm sand surfaces, diamond-brown primary actions, sage scrub secondary panels, amber caution and burnt warning states, dark umber navigation, tan diamond dividers, subtle rattle-segment texture, restrained shadows, dense but organized.\nColor palette: sand parchment #eee1c7, rattle tan #c79b63, diamond brown #6a4428, dark umber #2a1a11, sage scrub #738063, dry sage #a5ab86, caution amber #d59a2f, warning rust #a84f2a, bone highlight #fbf1dc.\nConstraints: no generic purple/blue gradients, no neon colors, no beige-only palette, no unrelated saturated colors, no watermark, no random brand names, no misspelling of \"Morphous Rattlesnake\", no tiny unreadable paragraphs, no cropped board edges."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-rattlesnake/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Rattlesnake dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Rattlesnake\". It must feel like the same light-mode rattlesnake warning operations system translated to dark mode, not a new theme, and it must remain derived from dry tan rattle segments, diamondback brown bands, sage desert scrub, dark scale seams, and strong caution states.\nCanvas: exact wide 16:9 landscape board, clean professional UI design-system presentation, target 3840x2160 feel with large readable labels.\nRequired visible sections: Morphous Rattlesnake, Rattlesnake, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard, Forms, Table, Command/Search, Status, Texture, Radius, Spacing, Shadow, Tokens, Sample Usage.\nReference use: Preserve the rattlesnake system language: deep umber backgrounds, bone foreground text, rattle-brown cards, tan active segments, sage focus and success states, amber caution, rust destructive warnings, diamond pattern dividers, subtle dry scale and rattle texture. Must read as rattlesnake rattle and desert scrub operations, not generic safari, leather, tactical camouflage, or construction signage.\nTypography: English product UI examples with Japanese typography guidance; labels such as Geist, Noto Sans JP, Display, Body, Label, Numbers, Japanese UI. Keep text short and legible.\nUI coverage: buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, dashboard metric cards, bar chart, line chart, donut chart, status chips, empty/loading/error states, spacing, radius, border, shadow, texture samples, simple rattle/diamond/warning icons.\nVisual details: deep umber surfaces, brown rattle cards, bone text and hairline dividers, tan primary controls, amber caution controls, rust destructive alerts, sage focus rings, dry sage chart highlights, restrained contrast, crisp shadcn/tweakcn components, 8px grid, 8px card radius, compact operations dashboard layout.\nColor palette: night umber #1e130d, dark umber #2a1a11, diamond brown #6a4428, deep scale #3b2518, rattle tan #c79b63, caution amber #d59a2f, warning rust #a84f2a, sage scrub #738063, bone highlight #fbf1dc.\nConstraints: no neon colors, no generic purple/blue gradients, no pure-black-only flat background, no generic military camouflage, no tiger orange, no illegible tiny paragraphs, no watermark, no random brand names, no misspelling of \"Morphous Rattlesnake\"."
+    }
+  ]
+}

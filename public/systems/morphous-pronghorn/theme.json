@@ -1,0 +1,175 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-pronghorn",
+    "name": "Morphous Pronghorn",
+    "motifName": "Pronghorn",
+    "motifCategory": "mammal",
+    "biome": "shortgrass prairie",
+    "motif": "pronghorn markings"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Prairie Paper",
+      "hex": "#fbf7ee",
+      "oklch": "oklch(0.977 0.013 86.8)"
+    },
+    {
+      "role": "Ink",
+      "name": "Horn Black",
+      "hex": "#181411",
+      "oklch": "oklch(0.195 0.009 59.1)"
+    },
+    {
+      "role": "Primary",
+      "name": "Prairie Tan",
+      "hex": "#c7771d",
+      "oklch": "oklch(0.643 0.138 62.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Rump White",
+      "hex": "#fff5df",
+      "oklch": "oklch(0.972 0.031 86.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Grass Gold",
+      "hex": "#9f8a36",
+      "oklch": "oklch(0.636 0.106 95.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Route Amber",
+      "hex": "#e5a02a",
+      "oklch": "oklch(0.755 0.147 75.1)"
+    },
+    {
+      "role": "Surface",
+      "name": "Dust Panel",
+      "hex": "#f3ead9",
+      "oklch": "oklch(0.940 0.025 83.4)"
+    },
+    {
+      "role": "Muted",
+      "name": "Dust Shadow",
+      "hex": "#8d6f45",
+      "oklch": "oklch(0.561 0.070 74.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Prairie",
+      "hex": "#17130d",
+      "oklch": "oklch(0.189 0.013 77.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.977 0.013 86.8)",
+    "foreground": "oklch(0.195 0.009 59.1)",
+    "card": "oklch(0.940 0.025 83.4)",
+    "card-foreground": "oklch(0.195 0.009 59.1)",
+    "popover": "oklch(0.940 0.025 83.4)",
+    "popover-foreground": "oklch(0.195 0.009 59.1)",
+    "primary": "oklch(0.643 0.138 62.3)",
+    "primary-foreground": "oklch(0.977 0.013 86.8)",
+    "secondary": "oklch(0.954 0.019 83.1)",
+    "secondary-foreground": "oklch(0.189 0.013 77.8)",
+    "muted": "oklch(0.951 0.021 85.9)",
+    "muted-foreground": "oklch(0.189 0.013 77.8)",
+    "accent": "oklch(0.636 0.106 95.1)",
+    "accent-foreground": "oklch(0.195 0.009 59.1)",
+    "destructive": "oklch(0.643 0.138 62.3)",
+    "border": "oklch(0.808 0.040 80.0)",
+    "input": "oklch(0.808 0.040 80.0)",
+    "ring": "oklch(0.972 0.031 86.5)",
+    "chart-1": "oklch(0.643 0.138 62.3)",
+    "chart-2": "oklch(0.972 0.031 86.5)",
+    "chart-3": "oklch(0.636 0.106 95.1)",
+    "chart-4": "oklch(0.755 0.147 75.1)",
+    "chart-5": "oklch(0.189 0.013 77.8)",
+    "sidebar": "oklch(0.952 0.020 81.8)",
+    "sidebar-foreground": "oklch(0.195 0.009 59.1)",
+    "sidebar-primary": "oklch(0.643 0.138 62.3)",
+    "sidebar-primary-foreground": "oklch(0.977 0.013 86.8)",
+    "sidebar-accent": "oklch(0.902 0.040 77.2)",
+    "sidebar-accent-foreground": "oklch(0.643 0.138 62.3)",
+    "sidebar-border": "oklch(0.808 0.040 80.0)",
+    "sidebar-ring": "oklch(0.972 0.031 86.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.195 0.009 59.1)",
+    "foreground": "oklch(0.977 0.013 86.8)",
+    "card": "oklch(0.190 0.012 73.2)",
+    "card-foreground": "oklch(0.977 0.013 86.8)",
+    "popover": "oklch(0.190 0.012 73.2)",
+    "popover-foreground": "oklch(0.977 0.013 86.8)",
+    "primary": "oklch(0.972 0.031 86.5)",
+    "primary-foreground": "oklch(0.195 0.009 59.1)",
+    "secondary": "oklch(0.280 0.028 75.5)",
+    "secondary-foreground": "oklch(0.977 0.013 86.8)",
+    "muted": "oklch(0.280 0.028 75.5)",
+    "muted-foreground": "oklch(0.796 0.038 78.1)",
+    "accent": "oklch(0.636 0.106 95.1)",
+    "accent-foreground": "oklch(0.195 0.009 59.1)",
+    "destructive": "oklch(0.643 0.138 62.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.972 0.031 86.5)",
+    "chart-1": "oklch(0.972 0.031 86.5)",
+    "chart-2": "oklch(0.643 0.138 62.3)",
+    "chart-3": "oklch(0.636 0.106 95.1)",
+    "chart-4": "oklch(0.755 0.147 75.1)",
+    "chart-5": "oklch(0.561 0.070 74.9)",
+    "sidebar": "oklch(0.194 0.012 73.2)",
+    "sidebar-foreground": "oklch(0.977 0.013 86.8)",
+    "sidebar-primary": "oklch(0.972 0.031 86.5)",
+    "sidebar-primary-foreground": "oklch(0.195 0.009 59.1)",
+    "sidebar-accent": "oklch(0.280 0.028 75.5)",
+    "sidebar-accent-foreground": "oklch(0.977 0.013 86.8)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.972 0.031 86.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for compact routing dashboards with Japanese guidance for short operational labels, clear status text, and stable numerals.",
+  "layout": "Dense 8px grid, quick-scan route panels, stripe dividers, shortgrass texture, compact cards, and low-radius controls for operational dashboards.",
+  "tags": [
+    "pronghorn",
+    "mammal",
+    "shortgrass prairie",
+    "routing",
+    "logistics",
+    "fast"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-pronghorn/motif.png",
+    "board": "/systems/morphous-pronghorn/design-system-light.png",
+    "darkBoard": "/systems/morphous-pronghorn/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-pronghorn/theme.css",
+    "themeJson": "/systems/morphous-pronghorn/theme.json",
+    "promptsJson": "/systems/morphous-pronghorn/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent pronghorn motif",
+      "asset": "/systems/morphous-pronghorn/motif.png",
+      "prompt": "Use case: background-extraction\nAsset type: Morphous catalog motif source for transparent cutout\nPrimary request: Create an isolated pronghorn antelope motif on a perfectly flat solid #00ff00 chroma-key background for background removal.\nSubject: A single stylized but natural pronghorn in alert running stance, side three-quarter view, slim athletic body, short black horns, white rump patch, white throat bands, black cheek and neck markings, tan gold coat, small dark hooves. The motif should read clearly at icon and hero sizes.\nStyle: refined digital illustration with crisp edges, subtle fur planes, design-system source asset quality, not photorealistic, not cartoonish.\nComposition: centered full body with generous padding, no cropping, no ground contact, no cast shadow.\nChroma-key requirements: background must be one uniform #00ff00 with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject. Keep the subject fully separated from the background with crisp edges. No text, no watermark."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-pronghorn/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: High-resolution Morphous catalog design-system board, light mode, 16:9\nPrimary request: Create a comprehensive light-mode design-system board for \"Morphous Pronghorn\", a fast routing system inspired by the provided pronghorn motif: tan-gold coat, white rump and throat markings, black cheek/horn markings, shortgrass prairie grasses, and route-speed motion cues.\nCanvas: 3840 x 2160, 16:9, crisp high-resolution source board. Use a light warm prairie background (#fbf7ee) with off-white panels and clear dark text.\nRequired visible sections with large readable headings: system identity, motif specimen, palette, typography including English and Japanese guidance, components, navigation, dashboard/data/charts, forms, texture, spacing/radius/shadow tokens, and sample usage for a logistics/routing dashboard.\nVisual style: clean shadcn/Tailwind-like UI, utilitarian SaaS density, 8px-or-less radii, precise grid, black/tan/white contrast, subtle grass-gold accents. Avoid purple/blue gradients, decorative blobs, marketing hero layout, nested cards, watermarks, tiny illegible paragraphs, and unrelated colors."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-pronghorn/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: High-resolution Morphous catalog design-system board, dark mode, 16:9\nPrimary request: Create a separate dark-mode design-system board for \"Morphous Pronghorn\", derived from the same pronghorn motif and light system: tan-gold coat, white rump/throat bands, black cheek and horn markings, shortgrass prairie, and fast routing system cues.\nCanvas: 3840 x 2160, 16:9, crisp high-resolution source board. Use a dark prairie-night interface background (#17130d or deep horn black) with warm tan cards, ivory text, amber route highlights, and grass-gold chart accents.\nRequired visible sections with large readable headings: system identity, motif specimen, palette, typography including English and Japanese guidance, components, navigation, dashboard/data/charts, forms, texture, spacing/radius/shadow tokens, and sample usage for a logistics/routing dashboard.\nVisual style: clean shadcn/Tailwind-like UI, operational SaaS density, 8px-or-less radii, precise grid, strong accessible contrast, warm shadows, no generic neon cyberpunk. Avoid purple/blue gradients, decorative blobs, marketing hero layout, nested cards, watermarks, tiny illegible paragraphs, and unrelated colors."
+    }
+  ]
+}

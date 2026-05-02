@@ -1,0 +1,204 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 322,
+  "slug": "morphous-potter-wasp",
+  "name": "Morphous Potter Wasp",
+  "motifName": "Potter Wasp",
+  "motifCategory": "insect",
+  "biome": "mud wall",
+  "motif": "potter wasp nest",
+  "description": "A shadcn/tweakcn-compatible crafted form system derived from a potter wasp and its clay nest: tactile mud-brown surfaces, glossy black structure, ochre-yellow action states, amber wing highlights, stone-dust borders, warm paper neutrals, and restrained leaf support signals.",
+  "typography": "Fraunces or a sturdy serif for crafted display moments, Geist for precise product UI, Geist Mono for tabular data, and Noto Sans JP guidance for Japanese navigation, forms, search, labels, and status text.",
+  "layout": "Narrow-waist grid rhythm, ringed clay dividers, compact navigation, dense dashboard/data panels, precise forms and tables, command search, 8px maximum radii, tactile mud texture samples, and crisp black/yellow active states.",
+  "designMood": "crafted form system",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "potter-wasp",
+    "wasp",
+    "insect",
+    "mud-wall",
+    "clay-brown",
+    "black-yellow",
+    "leaf-accent",
+    "crafted-form",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clay Wash",
+      "hex": "#FBF8F1",
+      "oklch": "oklch(0.980 0.010 87.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Paper Fiber",
+      "hex": "#F1E8DB",
+      "oklch": "oklch(0.935 0.020 77.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clay Brown",
+      "hex": "#A96838",
+      "oklch": "oklch(0.579 0.105 55.3)"
+    },
+    {
+      "role": "Action",
+      "name": "Wasp Yellow",
+      "hex": "#F7B91E",
+      "oklch": "oklch(0.821 0.163 83.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Wing Amber",
+      "hex": "#C07A21",
+      "oklch": "oklch(0.639 0.130 66.7)"
+    },
+    {
+      "role": "Clay",
+      "name": "Mud Clay",
+      "hex": "#C78642",
+      "oklch": "oklch(0.673 0.116 64.7)"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Support",
+      "hex": "#6F7F45",
+      "oklch": "oklch(0.569 0.084 121.7)"
+    },
+    {
+      "role": "Support Dark",
+      "name": "Leaf Deep",
+      "hex": "#3F4B2A",
+      "oklch": "oklch(0.393 0.054 125.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Dust",
+      "hex": "#D4CABD",
+      "oklch": "oklch(0.844 0.021 74.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Waist",
+      "hex": "#24211B",
+      "oklch": "oklch(0.249 0.012 84.6)"
+    },
+    {
+      "role": "Black",
+      "name": "Wasp Black",
+      "hex": "#11100D",
+      "oklch": "oklch(0.173 0.006 91.7)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Signal",
+      "hex": "#B83D24",
+      "oklch": "oklch(0.533 0.163 33.3)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Mud",
+      "hex": "#111513",
+      "oklch": "oklch(0.191 0.007 164.1)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.980 0.010 87.5)",
+    "foreground": "oklch(0.249 0.012 84.6)",
+    "card": "oklch(0.935 0.020 77.3)",
+    "card-foreground": "oklch(0.249 0.012 84.6)",
+    "popover": "oklch(0.980 0.010 87.5)",
+    "popover-foreground": "oklch(0.249 0.012 84.6)",
+    "primary": "oklch(0.579 0.105 55.3)",
+    "primary-foreground": "oklch(0.980 0.010 87.5)",
+    "secondary": "oklch(0.935 0.020 77.3)",
+    "secondary-foreground": "oklch(0.249 0.012 84.6)",
+    "muted": "oklch(0.844 0.021 74.6)",
+    "muted-foreground": "oklch(0.380 0.027 69.1)",
+    "accent": "oklch(0.821 0.163 83.2)",
+    "accent-foreground": "oklch(0.173 0.006 91.7)",
+    "destructive": "oklch(0.533 0.163 33.3)",
+    "border": "oklch(0.844 0.021 74.6)",
+    "input": "oklch(0.844 0.021 74.6)",
+    "ring": "oklch(0.821 0.163 83.2)",
+    "chart-1": "oklch(0.579 0.105 55.3)",
+    "chart-2": "oklch(0.821 0.163 83.2)",
+    "chart-3": "oklch(0.569 0.084 121.7)",
+    "chart-4": "oklch(0.639 0.130 66.7)",
+    "chart-5": "oklch(0.249 0.012 84.6)",
+    "sidebar": "oklch(0.935 0.020 77.3)",
+    "sidebar-foreground": "oklch(0.249 0.012 84.6)",
+    "sidebar-primary": "oklch(0.579 0.105 55.3)",
+    "sidebar-primary-foreground": "oklch(0.980 0.010 87.5)",
+    "sidebar-accent": "oklch(0.821 0.163 83.2)",
+    "sidebar-accent-foreground": "oklch(0.173 0.006 91.7)",
+    "sidebar-border": "oklch(0.844 0.021 74.6)",
+    "sidebar-ring": "oklch(0.821 0.163 83.2)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.191 0.007 164.1)",
+    "foreground": "oklch(0.935 0.020 77.3)",
+    "card": "oklch(0.226 0.009 137.8)",
+    "card-foreground": "oklch(0.935 0.020 77.3)",
+    "popover": "oklch(0.255 0.021 66.6)",
+    "popover-foreground": "oklch(0.935 0.020 77.3)",
+    "primary": "oklch(0.821 0.163 83.2)",
+    "primary-foreground": "oklch(0.173 0.006 91.7)",
+    "secondary": "oklch(0.255 0.021 66.6)",
+    "secondary-foreground": "oklch(0.935 0.020 77.3)",
+    "muted": "oklch(0.298 0.017 70.8)",
+    "muted-foreground": "oklch(0.750 0.028 76.7)",
+    "accent": "oklch(0.727 0.134 73.1)",
+    "accent-foreground": "oklch(0.173 0.006 91.7)",
+    "destructive": "oklch(0.533 0.163 33.3)",
+    "border": "oklch(0.380 0.027 69.1 / 70%)",
+    "input": "oklch(0.380 0.027 69.1 / 80%)",
+    "ring": "oklch(0.821 0.163 83.2)",
+    "chart-1": "oklch(0.821 0.163 83.2)",
+    "chart-2": "oklch(0.727 0.134 73.1)",
+    "chart-3": "oklch(0.569 0.084 121.7)",
+    "chart-4": "oklch(0.639 0.130 66.7)",
+    "chart-5": "oklch(0.935 0.020 77.3)",
+    "sidebar": "oklch(0.226 0.009 137.8)",
+    "sidebar-foreground": "oklch(0.935 0.020 77.3)",
+    "sidebar-primary": "oklch(0.821 0.163 83.2)",
+    "sidebar-primary-foreground": "oklch(0.173 0.006 91.7)",
+    "sidebar-accent": "oklch(0.255 0.021 66.6)",
+    "sidebar-accent-foreground": "oklch(0.935 0.020 77.3)",
+    "sidebar-border": "oklch(0.380 0.027 69.1 / 70%)",
+    "sidebar-ring": "oklch(0.821 0.163 83.2)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

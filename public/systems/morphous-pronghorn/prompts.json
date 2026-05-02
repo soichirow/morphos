@@ -1,0 +1,20 @@
+[
+  {
+    "id": "transparent-motif",
+    "label": "Transparent pronghorn motif",
+    "asset": "/systems/morphous-pronghorn/motif.png",
+    "prompt": "Use case: background-extraction\nAsset type: Morphous catalog motif source for transparent cutout\nPrimary request: Create an isolated pronghorn antelope motif on a perfectly flat solid #00ff00 chroma-key background for background removal.\nSubject: A single stylized but natural pronghorn in alert running stance, side three-quarter view, slim athletic body, short black horns, white rump patch, white throat bands, black cheek and neck markings, tan gold coat, small dark hooves. The motif should read clearly at icon and hero sizes.\nStyle: refined digital illustration with crisp edges, subtle fur planes, design-system source asset quality, not photorealistic, not cartoonish.\nComposition: centered full body with generous padding, no cropping, no ground contact, no cast shadow.\nChroma-key requirements: background must be one uniform #00ff00 with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject. Keep the subject fully separated from the background with crisp edges. No text, no watermark."
+  },
+  {
+    "id": "light-design-system",
+    "label": "Light design-system board",
+    "asset": "/systems/morphous-pronghorn/design-system-light.png",
+    "prompt": "Use case: ui-mockup\nAsset type: High-resolution Morphous catalog design-system board, light mode, 16:9\nPrimary request: Create a comprehensive light-mode design-system board for \"Morphous Pronghorn\", a fast routing system inspired by the provided pronghorn motif: tan-gold coat, white rump and throat markings, black cheek/horn markings, shortgrass prairie grasses, and route-speed motion cues.\nCanvas: 3840 x 2160, 16:9, crisp high-resolution source board. Use a light warm prairie background (#fbf7ee) with off-white panels and clear dark text.\nRequired visible sections with large readable headings: system identity, motif specimen, palette, typography including English and Japanese guidance, components, navigation, dashboard/data/charts, forms, texture, spacing/radius/shadow tokens, and sample usage for a logistics/routing dashboard.\nVisual style: clean shadcn/Tailwind-like UI, utilitarian SaaS density, 8px-or-less radii, precise grid, black/tan/white contrast, subtle grass-gold accents. Avoid purple/blue gradients, decorative blobs, marketing hero layout, nested cards, watermarks, tiny illegible paragraphs, and unrelated colors."
+  },
+  {
+    "id": "dark-design-system",
+    "label": "Dark design-system board",
+    "asset": "/systems/morphous-pronghorn/design-system-dark.png",
+    "prompt": "Use case: ui-mockup\nAsset type: High-resolution Morphous catalog design-system board, dark mode, 16:9\nPrimary request: Create a separate dark-mode design-system board for \"Morphous Pronghorn\", derived from the same pronghorn motif and light system: tan-gold coat, white rump/throat bands, black cheek and horn markings, shortgrass prairie, and fast routing system cues.\nCanvas: 3840 x 2160, 16:9, crisp high-resolution source board. Use a dark prairie-night interface background (#17130d or deep horn black) with warm tan cards, ivory text, amber route highlights, and grass-gold chart accents.\nRequired visible sections with large readable headings: system identity, motif specimen, palette, typography including English and Japanese guidance, components, navigation, dashboard/data/charts, forms, texture, spacing/radius/shadow tokens, and sample usage for a logistics/routing dashboard.\nVisual style: clean shadcn/Tailwind-like UI, operational SaaS density, 8px-or-less radii, precise grid, strong accessible contrast, warm shadows, no generic neon cyberpunk. Avoid purple/blue gradients, decorative blobs, marketing hero layout, nested cards, watermarks, tiny illegible paragraphs, and unrelated colors."
+  }
+]

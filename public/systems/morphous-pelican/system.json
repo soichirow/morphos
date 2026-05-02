@@ -1,0 +1,184 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 470,
+  "slug": "morphous-pelican",
+  "name": "Morphous Pelican",
+  "motifName": "Pelican",
+  "motifCategory": "bird",
+  "biome": "Coastal Lagoon",
+  "motif": "pelican bill",
+  "mood": "large input system",
+  "description": "A shadcn/tweakcn-compatible large-input system derived from a pelican bill: cream feather surfaces, yellow pouch actions, sea-blue focus rings, bill-ivory forms, reed-gray structure, and deep tide dashboard depth.",
+  "typography": "Geist for spacious product UI with Noto Sans JP guidance for Japanese labels, large readable form fields, calm dashboard numerics, and high-volume data-entry clarity.",
+  "layout": "Precise 8px grids, 10px radii, wide input rows, pouch-shaped active controls, feather-line texture panels, lagoon-blue focus states, dense dashboard/table regions, and readable status sections.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "charts",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "pelican",
+    "bird",
+    "coastal-lagoon",
+    "cream-yellow-blue",
+    "large-input",
+    "dashboard",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Feather Cream",
+      "hex": "#F7F3EC",
+      "oklch": "oklch(0.970 0.010 82.0)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Tide",
+      "hex": "#0E3A4D",
+      "oklch": "oklch(0.331 0.057 229.0)"
+    },
+    {
+      "role": "Primary",
+      "name": "Pouch Yellow",
+      "hex": "#F2C14E",
+      "oklch": "oklch(0.827 0.143 83.7)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Bill Ivory",
+      "hex": "#FFF6E5",
+      "oklch": "oklch(0.974 0.025 83.4)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lagoon Blue",
+      "hex": "#4DB6D6",
+      "oklch": "oklch(0.735 0.115 216.0)"
+    },
+    {
+      "role": "Support",
+      "name": "Reed Gray",
+      "hex": "#B7C1C6",
+      "oklch": "oklch(0.795 0.014 229.0)"
+    },
+    {
+      "role": "Success",
+      "name": "Marsh Green",
+      "hex": "#2E907A",
+      "oklch": "oklch(0.591 0.104 170.0)"
+    },
+    {
+      "role": "Warning",
+      "name": "Pouch Umber",
+      "hex": "#8A6A19",
+      "oklch": "oklch(0.525 0.105 85.0)"
+    },
+    {
+      "role": "Error",
+      "name": "Coral Mark",
+      "hex": "#E15864",
+      "oklch": "oklch(0.645 0.170 23.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Night Lagoon",
+      "hex": "#133F52",
+      "oklch": "oklch(0.357 0.061 229.0)"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.970 0.010 82.0)",
+    "foreground": "oklch(0.331 0.057 229.0)",
+    "card": "oklch(0.985 0.018 83.4)",
+    "card-foreground": "oklch(0.331 0.057 229.0)",
+    "popover": "oklch(0.985 0.018 83.4)",
+    "popover-foreground": "oklch(0.331 0.057 229.0)",
+    "primary": "oklch(0.827 0.143 83.7)",
+    "primary-foreground": "oklch(0.245 0.040 229.0)",
+    "secondary": "oklch(0.944 0.028 84.0)",
+    "secondary-foreground": "oklch(0.357 0.061 229.0)",
+    "muted": "oklch(0.930 0.012 214.0)",
+    "muted-foreground": "oklch(0.516 0.025 225.0)",
+    "accent": "oklch(0.735 0.115 216.0)",
+    "accent-foreground": "oklch(0.985 0.018 83.4)",
+    "destructive": "oklch(0.645 0.170 23.0)",
+    "border": "oklch(0.858 0.018 220.0)",
+    "input": "oklch(0.858 0.018 220.0)",
+    "ring": "oklch(0.735 0.115 216.0)",
+    "chart-1": "oklch(0.827 0.143 83.7)",
+    "chart-2": "oklch(0.735 0.115 216.0)",
+    "chart-3": "oklch(0.591 0.104 170.0)",
+    "chart-4": "oklch(0.525 0.105 85.0)",
+    "chart-5": "oklch(0.331 0.057 229.0)",
+    "sidebar": "oklch(0.955 0.017 82.0)",
+    "sidebar-foreground": "oklch(0.331 0.057 229.0)",
+    "sidebar-primary": "oklch(0.827 0.143 83.7)",
+    "sidebar-primary-foreground": "oklch(0.245 0.040 229.0)",
+    "sidebar-accent": "oklch(0.944 0.028 84.0)",
+    "sidebar-accent-foreground": "oklch(0.357 0.061 229.0)",
+    "sidebar-border": "oklch(0.858 0.018 220.0)",
+    "sidebar-ring": "oklch(0.735 0.115 216.0)",
+    "radius": "0.625rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.245 0.040 229.0)",
+    "foreground": "oklch(0.970 0.010 82.0)",
+    "card": "oklch(0.300 0.050 229.0)",
+    "card-foreground": "oklch(0.970 0.010 82.0)",
+    "popover": "oklch(0.300 0.050 229.0)",
+    "popover-foreground": "oklch(0.970 0.010 82.0)",
+    "primary": "oklch(0.827 0.143 83.7)",
+    "primary-foreground": "oklch(0.245 0.040 229.0)",
+    "secondary": "oklch(0.357 0.061 229.0)",
+    "secondary-foreground": "oklch(0.970 0.010 82.0)",
+    "muted": "oklch(0.357 0.035 224.0)",
+    "muted-foreground": "oklch(0.795 0.014 229.0)",
+    "accent": "oklch(0.735 0.115 216.0)",
+    "accent-foreground": "oklch(0.245 0.040 229.0)",
+    "destructive": "oklch(0.645 0.170 23.0)",
+    "border": "oklch(0.970 0.010 82.0 / 14%)",
+    "input": "oklch(0.970 0.010 82.0 / 18%)",
+    "ring": "oklch(0.735 0.115 216.0)",
+    "chart-1": "oklch(0.827 0.143 83.7)",
+    "chart-2": "oklch(0.735 0.115 216.0)",
+    "chart-3": "oklch(0.591 0.104 170.0)",
+    "chart-4": "oklch(0.974 0.025 83.4)",
+    "chart-5": "oklch(0.795 0.014 229.0)",
+    "sidebar": "oklch(0.220 0.036 229.0)",
+    "sidebar-foreground": "oklch(0.970 0.010 82.0)",
+    "sidebar-primary": "oklch(0.827 0.143 83.7)",
+    "sidebar-primary-foreground": "oklch(0.245 0.040 229.0)",
+    "sidebar-accent": "oklch(0.357 0.061 229.0)",
+    "sidebar-accent-foreground": "oklch(0.970 0.010 82.0)",
+    "sidebar-border": "oklch(0.970 0.010 82.0 / 14%)",
+    "sidebar-ring": "oklch(0.735 0.115 216.0)",
+    "radius": "0.625rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

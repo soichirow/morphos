@@ -1,0 +1,146 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 262,
+  "slug": "morphous-rainbow-chard",
+  "name": "Morphous Rainbow Chard",
+  "motifName": "Rainbow Chard",
+  "motifCategory": "plant",
+  "biome": "kitchen garden",
+  "motif": "chard stems",
+  "description": "An accessible shadcn/tweakcn-compatible data system derived from rainbow chard: glossy deep green leaves, ribbed magenta stems, bright yellow stems, pale lime stalks, leaf-vein greens, cut-stem cream neutrals, and practical kitchen-garden contrast.",
+  "typography": "Geist for English product UI with Noto Sans JP guidance for Japanese headings, labels, tabular numbers, dense tables, and accessible garden-data dashboards.",
+  "layout": "Practical 8px grids, crisp 8px radii, leaf-green data panels, magenta action emphasis, yellow attention states, lime secondary surfaces, ribbed-stem texture strips, and low garden-workspace shadows.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "japanese-typography",
+    "components",
+    "navigation",
+    "dashboard-data",
+    "forms",
+    "tables",
+    "command-search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "rainbow-chard",
+    "plant",
+    "kitchen-garden",
+    "chard-stems",
+    "magenta",
+    "yellow",
+    "leaf-green",
+    "accessible-data-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Leaf Mist",
+      "hex": "#F8FAF1"
+    },
+    {
+      "role": "Ink",
+      "name": "Leaf Ink",
+      "hex": "#102015"
+    },
+    {
+      "role": "Primary",
+      "name": "Stem Magenta",
+      "hex": "#D81B60"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Stem Magenta Deep",
+      "hex": "#B3124C"
+    },
+    {
+      "role": "Secondary",
+      "name": "Stem Lime",
+      "hex": "#A6D96A"
+    },
+    {
+      "role": "Secondary Hover",
+      "name": "Leaf Lime",
+      "hex": "#83C341"
+    },
+    {
+      "role": "Accent",
+      "name": "Stem Yellow",
+      "hex": "#FFD21F"
+    },
+    {
+      "role": "Accent Hover",
+      "name": "Yellow Rib",
+      "hex": "#E6B600"
+    },
+    {
+      "role": "Leaf Deep",
+      "name": "Leaf Deep",
+      "hex": "#1A3A1F"
+    },
+    {
+      "role": "Leaf",
+      "name": "Leaf Green",
+      "hex": "#2E682F"
+    },
+    {
+      "role": "Leaf Mid",
+      "name": "Leaf Mid",
+      "hex": "#4F8F3E"
+    },
+    {
+      "role": "Leaf Light",
+      "name": "Leaf Light",
+      "hex": "#80B96A"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Cream",
+      "hex": "#F3F7E5"
+    },
+    {
+      "role": "Border",
+      "name": "Cut Stem",
+      "hex": "#E9E1C6"
+    },
+    {
+      "role": "Dark Background",
+      "name": "Night Leaf",
+      "hex": "#0E1A12"
+    },
+    {
+      "role": "Dark Surface",
+      "name": "Dark Leaf Panel",
+      "hex": "#151E17"
+    },
+    {
+      "role": "Dark Muted",
+      "name": "Leaf Understory",
+      "hex": "#1E281F"
+    },
+    {
+      "role": "Dark Border",
+      "name": "Leaf Border",
+      "hex": "#425443"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

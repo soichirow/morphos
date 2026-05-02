@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-puffball",
+    "name": "Morphous Puffball",
+    "motifName": "Puffball",
+    "motifCategory": "fungi",
+    "biome": "meadow",
+    "motif": "puffball fungus"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Spore White",
+      "hex": "#FAFAF8",
+      "oklch": "oklch(0.985 0.003 106.4)"
+    },
+    {
+      "role": "Ink",
+      "name": "Loam Ink",
+      "hex": "#211A14",
+      "oklch": "oklch(0.224 0.016 62.5)"
+    },
+    {
+      "role": "Primary",
+      "name": "Meadow Grass",
+      "hex": "#6F9F50",
+      "oklch": "oklch(0.649 0.121 134.4)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Moss Olive",
+      "hex": "#5E6B3A",
+      "oklch": "oklch(0.504 0.073 121.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Pore Cream",
+      "hex": "#F2EDE1",
+      "oklch": "oklch(0.947 0.017 88.0)"
+    },
+    {
+      "role": "Signal",
+      "name": "Warm Ivory",
+      "hex": "#E9E3D3",
+      "oklch": "oklch(0.916 0.022 89.8)"
+    },
+    {
+      "role": "Surface",
+      "name": "Puffball Paper",
+      "hex": "#F7F3EA",
+      "oklch": "oklch(0.965 0.013 86.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Root Taupe",
+      "hex": "#D9D2C3",
+      "oklch": "oklch(0.865 0.022 85.9)"
+    },
+    {
+      "role": "Depth",
+      "name": "Dark Soil",
+      "hex": "#3F3026",
+      "oklch": "oklch(0.323 0.028 55.2)"
+    },
+    {
+      "role": "Border",
+      "name": "Loam",
+      "hex": "#6B6054",
+      "oklch": "oklch(0.496 0.023 69.7)"
+    },
+    {
+      "role": "Chart",
+      "name": "Moss",
+      "hex": "#7A8A4E",
+      "oklch": "oklch(0.606 0.086 121.2)"
+    },
+    {
+      "role": "Earth",
+      "name": "Soil Brown",
+      "hex": "#8B735A",
+      "oklch": "oklch(0.572 0.047 67.8)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.985 0.003 106.4)",
+    "foreground": "oklch(0.224 0.016 62.5)",
+    "card": "oklch(0.965 0.013 86.8)",
+    "card-foreground": "oklch(0.224 0.016 62.5)",
+    "popover": "oklch(0.965 0.013 86.8)",
+    "popover-foreground": "oklch(0.224 0.016 62.5)",
+    "primary": "oklch(0.649 0.121 134.4)",
+    "primary-foreground": "oklch(0.224 0.016 62.5)",
+    "secondary": "oklch(0.947 0.017 88.0)",
+    "secondary-foreground": "oklch(0.339 0.018 67.2)",
+    "muted": "oklch(0.916 0.022 89.8)",
+    "muted-foreground": "oklch(0.496 0.023 69.7)",
+    "accent": "oklch(0.710 0.104 127.8)",
+    "accent-foreground": "oklch(0.224 0.016 62.5)",
+    "destructive": "oklch(0.572 0.047 67.8)",
+    "border": "oklch(0.865 0.022 85.9)",
+    "input": "oklch(0.865 0.022 85.9)",
+    "ring": "oklch(0.649 0.121 134.4)",
+    "chart-1": "oklch(0.649 0.121 134.4)",
+    "chart-2": "oklch(0.606 0.086 121.2)",
+    "chart-3": "oklch(0.572 0.047 67.8)",
+    "chart-4": "oklch(0.916 0.022 89.8)",
+    "chart-5": "oklch(0.339 0.018 67.2)",
+    "sidebar": "oklch(0.947 0.017 88.0)",
+    "sidebar-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-primary": "oklch(0.649 0.121 134.4)",
+    "sidebar-primary-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-accent": "oklch(0.916 0.022 89.8)",
+    "sidebar-accent-foreground": "oklch(0.339 0.018 67.2)",
+    "sidebar-border": "oklch(0.865 0.022 85.9)",
+    "sidebar-ring": "oklch(0.649 0.121 134.4)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.224 0.016 62.5)",
+    "foreground": "oklch(0.985 0.003 106.4)",
+    "card": "oklch(0.339 0.018 67.2)",
+    "card-foreground": "oklch(0.985 0.003 106.4)",
+    "popover": "oklch(0.339 0.018 67.2)",
+    "popover-foreground": "oklch(0.985 0.003 106.4)",
+    "primary": "oklch(0.710 0.104 127.8)",
+    "primary-foreground": "oklch(0.224 0.016 62.5)",
+    "secondary": "oklch(0.323 0.028 55.2)",
+    "secondary-foreground": "oklch(0.985 0.003 106.4)",
+    "muted": "oklch(0.407 0.032 51.6)",
+    "muted-foreground": "oklch(0.865 0.022 85.9)",
+    "accent": "oklch(0.649 0.121 134.4)",
+    "accent-foreground": "oklch(0.224 0.016 62.5)",
+    "destructive": "oklch(0.572 0.047 67.8)",
+    "border": "oklch(0.572 0.047 67.8 / 32%)",
+    "input": "oklch(0.572 0.047 67.8 / 40%)",
+    "ring": "oklch(0.710 0.104 127.8)",
+    "chart-1": "oklch(0.710 0.104 127.8)",
+    "chart-2": "oklch(0.606 0.086 121.2)",
+    "chart-3": "oklch(0.649 0.121 134.4)",
+    "chart-4": "oklch(0.916 0.022 89.8)",
+    "chart-5": "oklch(0.572 0.047 67.8)",
+    "sidebar": "oklch(0.323 0.028 55.2)",
+    "sidebar-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-primary": "oklch(0.710 0.104 127.8)",
+    "sidebar-primary-foreground": "oklch(0.224 0.016 62.5)",
+    "sidebar-accent": "oklch(0.407 0.032 51.6)",
+    "sidebar-accent-foreground": "oklch(0.985 0.003 106.4)",
+    "sidebar-border": "oklch(0.572 0.047 67.8 / 32%)",
+    "sidebar-ring": "oklch(0.710 0.104 127.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist or a similar clean sans for plain product UI, system-ui for native controls, and Noto Sans JP guidance for Japanese headings, labels, status text, and numerals.",
+  "layout": "Compact 8px grid, 8px radii, soft puffball-card surfaces, pore-grain texture panels, soil-brown navigation structure, grass-green focus rings, and dashboard/data layouts that stay quiet and readable.",
+  "tags": [
+    "puffball",
+    "fungi",
+    "meadow",
+    "plain language",
+    "pore texture",
+    "grass green",
+    "soil brown",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-puffball/motif.png",
+    "board": "/systems/morphous-puffball/design-system-light.png",
+    "darkBoard": "/systems/morphous-puffball/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-puffball/theme.css",
+    "themeJson": "/systems/morphous-puffball/theme.json",
+    "promptsJson": "/systems/morphous-puffball/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Puffball motif",
+      "asset": "/systems/morphous-puffball/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Puffball transparent motif chroma-key source\nPrimary request: Create only an isolated puffball fungus motif for a design-system catalog. Show one complete white puffball fungus with a small attached tuft of meadow grass and a compact soil clump at the base so the motif carries white sphere, grass green, and soil colors. No landscape, no props beyond the attached natural base, no text.\nSubject: A rounded white puffball fungus, almost spherical but naturally organic, matte velvety skin with faint pores and cream-gray dimples, a subtle tan shadowed underside, a few slender meadow-green grass blades, and a small dark olive-brown soil base. Accurate natural fungus form, crisp silhouette edges, tactile surface texture.\nComposition/framing: centered complete cutout with generous padding; do not crop the sphere, grass blades, or base. Keep the subject fully separated from the background.\nLighting/mood: clean studio light that preserves white, cream, grass green, olive moss, and soil-brown material detail. No cast shadow, no contact shadow, no reflection.\nTransparent workflow: place the subject on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no decorative background, no second mushroom, no cap-and-stem mushroom, no amanita, no gills, no spores cloud, no landscape scene."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-puffball/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board for \"Morphous Puffball\" / \"Puffball Fungus\", derived from the visible transparent puffball motif reference. The board is a ready shadcn/tweakcn theme source asset.\nReference use: Extract the palette, surface texture, spacing mood, and interaction language from the visible motif: white spherical pore texture, warm cream underside, meadow grass green, moss olive, compact soil brown, root taupe, and deep loam shadow. Use only these motif-derived colors and near-neutrals present in the motif.\nCanvas: exact wide 16:9 board, 3840 x 2160 style composition, high-resolution 4K-class source image.\nResolution and legibility: large readable labels, clear hierarchy, no dense tiny token tables.\nRequired visible sections: title \"Morphous Puffball\", motif story, palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command palette/search field, sidebar navigation, top navigation, dashboard metric cards, line/bar/donut charts, empty state, error state, loading state, focus ring and hover states.\nVisual language: plain language product system, quiet meadow-field interface, soft puffball-white surfaces, stippled pore-grain texture, soil-brown structure, grass-green primary actions, moss-olive support states, cream highlights, 8px radii, compact 8px spacing grid, restrained shadows like lifted paper over soil. Use lucide-style simple line icons where icons appear.\nTypography: English guidance with Geist-like clean sans; Japanese typography guidance with Noto Sans JP-like samples, short readable labels such as 日本語, 検索, 状態, 入力.\nText: use short readable UI labels only; no long paragraphs.\nConstraints: no unrelated colors, no saturated purple, no blue gradient, no neon, no generic stock UI kit, no random brand logos, no misspellings, no cap-and-stem mushroom, no second motif as main subject, no watermark."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-puffball/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board for \"Morphous Puffball\" / \"Puffball Fungus\". It must feel like the same system translated from the visible light board and visible puffball motif, not a new theme.\nReference use: Use the transparent puffball motif and the light design-system board visible in the conversation as references. Preserve the same palette roles, plain-language component language, stippled pore texture, compact spacing, 8px radii, and shadcn/tweakcn UI coverage.\nCanvas: exact wide 16:9 board, 3840 x 2160 style composition, high-resolution 4K-class source image.\nResolution and legibility: large readable labels, clear hierarchy, no dense tiny token tables.\nRequired visible sections: title \"Morphous Puffball Dark\", palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows, generated asset examples.\nUI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command palette/search field, sidebar navigation, top navigation, dashboard metric cards, line/bar/donut charts, empty state, error state, loading state, focus ring and hover states.\nVisual language: dark background from deep loam and soil umber, cards from dark soil and root taupe, foreground from puffball white and warm cream, primary actions in meadow grass green, secondary states in moss olive, focus rings and chart marks from grass, moss, cream, tan, and soil. Add subtle puffball pore-grain texture overlays. Use restrained contrast and compact product UI composition with 8px radii and 8px grid spacing.\nTypography: English guidance with Geist-like clean sans; Japanese typography guidance with Noto Sans JP-like samples, short readable labels such as 日本語, 検索, 状態, 入力.\nText: use short readable UI labels only; no long paragraphs.\nConstraints: no unrelated colors, no saturated purple, no blue gradient, no neon, no pure flat black unless as tiny text contrast, no generic stock UI kit, no random brand logos, no misspellings, no cap-and-stem mushroom, no second motif as main subject, no watermark."
+    }
+  ]
+}

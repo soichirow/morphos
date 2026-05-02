@@ -1,0 +1,91 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "slug": "morphous-ptarmigan",
+  "name": "Morphous Ptarmigan",
+  "motifName": "Ptarmigan",
+  "motifCategory": "bird",
+  "biome": "Alpine tundra",
+  "motif": "ptarmigan plumage",
+  "description": "A shadcn/tweakcn-compatible seasonal mode system shaped by ptarmigan winter whites, warm brown speckles, snow shadow neutrals, granite rock, and muted alpine lichen.",
+  "typography": "Geist for operational UI with Noto Sans guidance for Japanese labels, tabular seasonal metrics, and compact alpine status dashboards.",
+  "layout": "8px grid, seasonal segmented controls, compact status rails, snowfield surfaces, granite separators, speckled texture accents, and adaptive winter/summer states.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "tags": [
+    "ptarmigan",
+    "bird",
+    "alpine-tundra",
+    "snow-white",
+    "brown-speckle",
+    "seasonal-mode",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Snowfield",
+      "hex": "#f4f1e9"
+    },
+    {
+      "role": "Surface",
+      "name": "Feather White",
+      "hex": "#fffdf7"
+    },
+    {
+      "role": "Ink",
+      "name": "Rock Ink",
+      "hex": "#2f2b25"
+    },
+    {
+      "role": "Primary",
+      "name": "Ptarmigan Brown",
+      "hex": "#8d6645"
+    },
+    {
+      "role": "Secondary",
+      "name": "Speckle Umber",
+      "hex": "#5f4835"
+    },
+    {
+      "role": "Accent",
+      "name": "Lichen Sage",
+      "hex": "#7f8f72"
+    },
+    {
+      "role": "Muted",
+      "name": "Snow Shadow",
+      "hex": "#aab8bd"
+    },
+    {
+      "role": "Border",
+      "name": "Granite",
+      "hex": "#c9c6bc"
+    },
+    {
+      "role": "Warning",
+      "name": "Alpine Gold",
+      "hex": "#b99a52"
+    },
+    {
+      "role": "Destructive",
+      "name": "Berry Red",
+      "hex": "#a94f45"
+    },
+    {
+      "role": "Depth",
+      "name": "Alpine Dusk",
+      "hex": "#26241f"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "promptsJson": "prompts.json",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json"
+  }
+}

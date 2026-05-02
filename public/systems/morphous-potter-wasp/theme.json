@@ -1,0 +1,208 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-potter-wasp",
+    "name": "Morphous Potter Wasp",
+    "motifName": "Potter Wasp",
+    "motifCategory": "insect",
+    "biome": "mud wall",
+    "motif": "potter wasp nest"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Clay Wash",
+      "hex": "#FBF8F1",
+      "oklch": "oklch(0.980 0.010 87.5)"
+    },
+    {
+      "role": "Surface",
+      "name": "Paper Fiber",
+      "hex": "#F1E8DB",
+      "oklch": "oklch(0.935 0.020 77.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Clay Brown",
+      "hex": "#A96838",
+      "oklch": "oklch(0.579 0.105 55.3)"
+    },
+    {
+      "role": "Action",
+      "name": "Wasp Yellow",
+      "hex": "#F7B91E",
+      "oklch": "oklch(0.821 0.163 83.2)"
+    },
+    {
+      "role": "Accent",
+      "name": "Wing Amber",
+      "hex": "#C07A21",
+      "oklch": "oklch(0.639 0.130 66.7)"
+    },
+    {
+      "role": "Clay",
+      "name": "Mud Clay",
+      "hex": "#C78642",
+      "oklch": "oklch(0.673 0.116 64.7)"
+    },
+    {
+      "role": "Support",
+      "name": "Leaf Support",
+      "hex": "#6F7F45",
+      "oklch": "oklch(0.569 0.084 121.7)"
+    },
+    {
+      "role": "Support Dark",
+      "name": "Leaf Deep",
+      "hex": "#3F4B2A",
+      "oklch": "oklch(0.393 0.054 125.1)"
+    },
+    {
+      "role": "Border",
+      "name": "Stone Dust",
+      "hex": "#D4CABD",
+      "oklch": "oklch(0.844 0.021 74.6)"
+    },
+    {
+      "role": "Depth",
+      "name": "Charcoal Waist",
+      "hex": "#24211B",
+      "oklch": "oklch(0.249 0.012 84.6)"
+    },
+    {
+      "role": "Black",
+      "name": "Wasp Black",
+      "hex": "#11100D",
+      "oklch": "oklch(0.173 0.006 91.7)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Rust Signal",
+      "hex": "#B83D24",
+      "oklch": "oklch(0.533 0.163 33.3)"
+    },
+    {
+      "role": "Night",
+      "name": "Night Mud",
+      "hex": "#111513",
+      "oklch": "oklch(0.191 0.007 164.1)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.980 0.010 87.5)",
+    "foreground": "oklch(0.249 0.012 84.6)",
+    "card": "oklch(0.935 0.020 77.3)",
+    "card-foreground": "oklch(0.249 0.012 84.6)",
+    "popover": "oklch(0.980 0.010 87.5)",
+    "popover-foreground": "oklch(0.249 0.012 84.6)",
+    "primary": "oklch(0.579 0.105 55.3)",
+    "primary-foreground": "oklch(0.980 0.010 87.5)",
+    "secondary": "oklch(0.935 0.020 77.3)",
+    "secondary-foreground": "oklch(0.249 0.012 84.6)",
+    "muted": "oklch(0.844 0.021 74.6)",
+    "muted-foreground": "oklch(0.380 0.027 69.1)",
+    "accent": "oklch(0.821 0.163 83.2)",
+    "accent-foreground": "oklch(0.173 0.006 91.7)",
+    "destructive": "oklch(0.533 0.163 33.3)",
+    "border": "oklch(0.844 0.021 74.6)",
+    "input": "oklch(0.844 0.021 74.6)",
+    "ring": "oklch(0.821 0.163 83.2)",
+    "chart-1": "oklch(0.579 0.105 55.3)",
+    "chart-2": "oklch(0.821 0.163 83.2)",
+    "chart-3": "oklch(0.569 0.084 121.7)",
+    "chart-4": "oklch(0.639 0.130 66.7)",
+    "chart-5": "oklch(0.249 0.012 84.6)",
+    "sidebar": "oklch(0.935 0.020 77.3)",
+    "sidebar-foreground": "oklch(0.249 0.012 84.6)",
+    "sidebar-primary": "oklch(0.579 0.105 55.3)",
+    "sidebar-primary-foreground": "oklch(0.980 0.010 87.5)",
+    "sidebar-accent": "oklch(0.821 0.163 83.2)",
+    "sidebar-accent-foreground": "oklch(0.173 0.006 91.7)",
+    "sidebar-border": "oklch(0.844 0.021 74.6)",
+    "sidebar-ring": "oklch(0.821 0.163 83.2)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.191 0.007 164.1)",
+    "foreground": "oklch(0.935 0.020 77.3)",
+    "card": "oklch(0.226 0.009 137.8)",
+    "card-foreground": "oklch(0.935 0.020 77.3)",
+    "popover": "oklch(0.255 0.021 66.6)",
+    "popover-foreground": "oklch(0.935 0.020 77.3)",
+    "primary": "oklch(0.821 0.163 83.2)",
+    "primary-foreground": "oklch(0.173 0.006 91.7)",
+    "secondary": "oklch(0.255 0.021 66.6)",
+    "secondary-foreground": "oklch(0.935 0.020 77.3)",
+    "muted": "oklch(0.298 0.017 70.8)",
+    "muted-foreground": "oklch(0.750 0.028 76.7)",
+    "accent": "oklch(0.727 0.134 73.1)",
+    "accent-foreground": "oklch(0.173 0.006 91.7)",
+    "destructive": "oklch(0.533 0.163 33.3)",
+    "border": "oklch(0.380 0.027 69.1 / 70%)",
+    "input": "oklch(0.380 0.027 69.1 / 80%)",
+    "ring": "oklch(0.821 0.163 83.2)",
+    "chart-1": "oklch(0.821 0.163 83.2)",
+    "chart-2": "oklch(0.727 0.134 73.1)",
+    "chart-3": "oklch(0.569 0.084 121.7)",
+    "chart-4": "oklch(0.639 0.130 66.7)",
+    "chart-5": "oklch(0.935 0.020 77.3)",
+    "sidebar": "oklch(0.226 0.009 137.8)",
+    "sidebar-foreground": "oklch(0.935 0.020 77.3)",
+    "sidebar-primary": "oklch(0.821 0.163 83.2)",
+    "sidebar-primary-foreground": "oklch(0.173 0.006 91.7)",
+    "sidebar-accent": "oklch(0.255 0.021 66.6)",
+    "sidebar-accent-foreground": "oklch(0.935 0.020 77.3)",
+    "sidebar-border": "oklch(0.380 0.027 69.1 / 70%)",
+    "sidebar-ring": "oklch(0.821 0.163 83.2)",
+    "radius": "0.5rem"
+  },
+  "typography": "Fraunces or a sturdy serif for crafted display moments, Geist for precise product UI, Geist Mono for tabular data, and Noto Sans JP guidance for Japanese navigation, forms, search, labels, and status text.",
+  "layout": "Narrow-waist grid rhythm, ringed clay dividers, compact navigation, dense dashboard/data panels, precise forms and tables, command search, 8px maximum radii, tactile mud texture samples, and crisp black/yellow active states.",
+  "tags": [
+    "potter-wasp",
+    "wasp",
+    "insect",
+    "mud-wall",
+    "clay-brown",
+    "black-yellow",
+    "leaf-accent",
+    "crafted-form",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-potter-wasp/motif.png",
+    "board": "/systems/morphous-potter-wasp/design-system-light.png",
+    "darkBoard": "/systems/morphous-potter-wasp/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-potter-wasp/theme.css",
+    "themeJson": "/systems/morphous-potter-wasp/theme.json",
+    "promptsJson": "/systems/morphous-potter-wasp/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent potter wasp motif",
+      "asset": "/systems/morphous-potter-wasp/motif.png",
+      "workflow": "Built-in image generation on a flat #00ff00 chroma-key background, then local chroma-key removal to transparent RGBA PNG.",
+      "prompt": "Use case: photorealistic-natural. Asset type: Morphous transparent motif chroma-key source. Primary request: Create only an isolated Potter Wasp motif for a design-system catalog, showing a single potter wasp with a handcrafted mud pot nest, no environment, no wall plane, no text. Subject: One accurate potter wasp with a narrow black waist, glossy black body, warm ochre-yellow markings on head/thorax/abdomen, translucent smoky amber wings, slender legs, and a small rounded clay-brown mud pot nest with an opening and hand-built ridges. The nest should feel like natural clay craftwork from a mud wall but remain an isolated object. Natural insect anatomy, crisp silhouette, tactile mud texture, clay brown, black, yellow, and a tiny muted leaf-green accent only if needed as reflected color. Composition/framing: Centered complete cutout with generous padding; show the full wasp and full mud pot nest without cropping. The wasp may be perched on or hovering beside the nest, with both elements clearly readable as one motif. Lighting/mood: Clean studio lighting that preserves natural color and material detail, no cast shadow. Transparent workflow: Place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #00ff00 anywhere in the subject. Constraints: no landscape, no mud wall background, no flowers, no honeycomb, no extra insects, no cartoon style, no toy look, no text, no watermark, no signature."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-potter-wasp/design-system-light.png",
+      "sourceAsset": "/systems/morphous-potter-wasp/motif.png",
+      "prompt": "Use case: ui-mockup. Asset type: Morphous light-mode design-system board. Input image role: The visible transparent Potter Wasp motif with a clay mud pot nest is the source reference for palette, material texture, component shapes, contrast, and interaction language. Primary request: Generate one comprehensive light-mode design-system board for a Morphous theme named \"Morphous Potter Wasp\", derived from the visible potter wasp and handcrafted mud pot nest cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board, at least 2400px wide if the tool constrains output; use large readable labels, balanced whitespace, and avoid dense tiny token tables. Required visible sections: Morphous Potter Wasp, Potter Wasp, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Reference use: Extract palette and interaction language from clay-brown mud nest ridges, glossy black wasp body, ochre-yellow bands, smoky amber wings, charcoal shadow, warm paper neutrals, and a restrained leaf-green support accent. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, search command palette, sidebar navigation, top navigation, dashboard metric cards, charts, empty/loading/error states, spacing, radius, border, shadow, texture samples, and simple product icons. Typography: include English product UI guidance and Japanese typography guidance with short examples such as 日本語ナビ, 状態, 検索, 設定. Use clean sans UI, sturdy display headings, tabular mono, and Noto Sans JP style guidance. Style: premium shadcn/tweakcn-style crafted form system, precise grid, 8px maximum radius, tactile clay surfaces, ringed mud-nest section dividers, narrow-waist layout rhythm, black/yellow active states, amber-wing translucency, leaf accent for support states, and handmade texture samples without looking rustic. Color constraints: use only motif-derived colors and near-neutrals; no unrelated saturated colors, no generic purple/blue gradients, no one-note beige page, no dark-only composition. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Potter Wasp\" or \"Potter Wasp\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-potter-wasp/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-potter-wasp/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-potter-wasp/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup. Asset type: Morphous dark-mode design-system board. Input image roles: The visible transparent Potter Wasp motif is the source motif reference, and the visible light-mode board is the layout and component-language reference. Primary request: Generate one comprehensive dark-mode design-system board for the Morphous theme named \"Morphous Potter Wasp\". It must feel like the same visible light-mode board translated to dark mode, not a new theme, and it must remain derived from the visible potter wasp and clay mud pot nest cutout. Canvas: exact wide landscape 16:9 composition, 3840 x 2160 4K-class board. Resolution and legibility: high-resolution source board, at least 2400px wide if the tool constrains output; use large readable labels, balanced spacing, and avoid dense tiny token tables. Required visible sections: Morphous Potter Wasp, Potter Wasp, Dark Mode, Palette, Type, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Tables, Command/Search, Status, Tokens, Texture, Radius, Spacing, Shadows. Visual details: dark background derived from glossy wasp black and mud-wall charcoal; foreground from warm paper clay and pale wing highlights; primary actions from ochre-yellow bands; secondary surfaces from deep clay brown; accents from amber translucent wings and muted leaf green; borders from stone dust and clay ridges; subtle handmade mud-nest ring texture overlays; crisp shadcn-style cards and controls. UI coverage: buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alerts, cards, table rows, command/search, sidebar navigation, top navigation, dashboard metric cards, charts, forms, tables, empty/loading/error states, status states, tokens, texture, radius, spacing, and shadows. Typography: include English product UI guidance and Japanese typography guidance with short examples such as 日本語ナビ, 状態, 検索, 設定. Use clean sans UI, sturdy display headings, tabular mono, and Noto Sans JP style guidance. Style: premium shadcn/tweakcn-style crafted form system, exact same system language as the light board, 8px maximum radius, narrow-waist grid rhythm, tactile clay textures, black/yellow active states, amber-wing highlight strokes, and quiet green support states. Color constraints: use only motif-derived colors and near-neutrals; no neon colors, no unrelated saturated colors, no generic purple or blue gradients, no pure-black-only flat background. Text constraints: no watermark, no random brand names, no misspelling of \"Morphous Potter Wasp\" or \"Potter Wasp\", no tiny unreadable paragraphs."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-red-cabbage",
+    "name": "Morphous Red Cabbage",
+    "motifName": "Red Cabbage",
+    "motifCategory": "plant",
+    "biome": "vegetable bed",
+    "motif": "red cabbage head"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cabbage Heart",
+      "hex": "#F8F3F7",
+      "oklch": "oklch(0.969 0.007 332.1)"
+    },
+    {
+      "role": "Ink",
+      "name": "Deep Plum Ink",
+      "hex": "#1B1020",
+      "oklch": "oklch(0.196 0.035 314.8)"
+    },
+    {
+      "role": "Primary",
+      "name": "Waxy Purple Leaf",
+      "hex": "#7B3F93",
+      "oklch": "oklch(0.479 0.142 315.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Blue-Violet Vein",
+      "hex": "#9AA2E6",
+      "oklch": "oklch(0.732 0.099 278.5)"
+    },
+    {
+      "role": "Accent",
+      "name": "Lavender Bloom",
+      "hex": "#D8C3F0",
+      "oklch": "oklch(0.849 0.066 306.2)"
+    },
+    {
+      "role": "Signal",
+      "name": "Burgundy Core",
+      "hex": "#A2145A",
+      "oklch": "oklch(0.471 0.180 358.3)"
+    },
+    {
+      "role": "Surface",
+      "name": "Cut Leaf Ivory",
+      "hex": "#FFFBFC",
+      "oklch": "oklch(0.991 0.004 360.0)"
+    },
+    {
+      "role": "Muted",
+      "name": "Pale Leaf Mist",
+      "hex": "#E8DDED",
+      "oklch": "oklch(0.911 0.024 315.5)"
+    },
+    {
+      "role": "Depth",
+      "name": "Midnight Plum",
+      "hex": "#0D0A12",
+      "oklch": "oklch(0.153 0.017 301.5)"
+    },
+    {
+      "role": "Border",
+      "name": "Soil Umber",
+      "hex": "#A88B83",
+      "oklch": "oklch(0.661 0.037 35.9)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Root Burgundy",
+      "hex": "#8D1C3E",
+      "oklch": "oklch(0.428 0.148 9.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.969 0.007 332.1)",
+    "foreground": "oklch(0.196 0.035 314.8)",
+    "card": "oklch(0.991 0.004 360.0)",
+    "card-foreground": "oklch(0.196 0.035 314.8)",
+    "popover": "oklch(0.991 0.004 360.0)",
+    "popover-foreground": "oklch(0.196 0.035 314.8)",
+    "primary": "oklch(0.479 0.142 315.3)",
+    "primary-foreground": "oklch(0.991 0.004 360.0)",
+    "secondary": "oklch(0.911 0.024 315.5)",
+    "secondary-foreground": "oklch(0.196 0.035 314.8)",
+    "muted": "oklch(0.946 0.015 322.3)",
+    "muted-foreground": "oklch(0.443 0.053 318.9)",
+    "accent": "oklch(0.849 0.066 306.2)",
+    "accent-foreground": "oklch(0.196 0.035 314.8)",
+    "destructive": "oklch(0.428 0.148 9.0)",
+    "border": "oklch(0.852 0.026 323.8)",
+    "input": "oklch(0.852 0.026 323.8)",
+    "ring": "oklch(0.732 0.099 278.5)",
+    "chart-1": "oklch(0.479 0.142 315.3)",
+    "chart-2": "oklch(0.732 0.099 278.5)",
+    "chart-3": "oklch(0.849 0.066 306.2)",
+    "chart-4": "oklch(0.471 0.180 358.3)",
+    "chart-5": "oklch(0.622 0.077 36.1)",
+    "sidebar": "oklch(0.946 0.015 322.3)",
+    "sidebar-foreground": "oklch(0.196 0.035 314.8)",
+    "sidebar-primary": "oklch(0.479 0.142 315.3)",
+    "sidebar-primary-foreground": "oklch(0.991 0.004 360.0)",
+    "sidebar-accent": "oklch(0.911 0.024 315.5)",
+    "sidebar-accent-foreground": "oklch(0.479 0.142 315.3)",
+    "sidebar-border": "oklch(0.852 0.026 323.8)",
+    "sidebar-ring": "oklch(0.732 0.099 278.5)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.153 0.017 301.5)",
+    "foreground": "oklch(0.969 0.007 332.1)",
+    "card": "oklch(0.197 0.029 303.5)",
+    "card-foreground": "oklch(0.969 0.007 332.1)",
+    "popover": "oklch(0.197 0.029 303.5)",
+    "popover-foreground": "oklch(0.969 0.007 332.1)",
+    "primary": "oklch(0.725 0.137 313.9)",
+    "primary-foreground": "oklch(0.196 0.035 314.8)",
+    "secondary": "oklch(0.268 0.040 313.4)",
+    "secondary-foreground": "oklch(0.969 0.007 332.1)",
+    "muted": "oklch(0.268 0.040 313.4)",
+    "muted-foreground": "oklch(0.849 0.066 306.2)",
+    "accent": "oklch(0.732 0.099 278.5)",
+    "accent-foreground": "oklch(0.153 0.017 301.5)",
+    "destructive": "oklch(0.471 0.180 358.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.732 0.099 278.5)",
+    "chart-1": "oklch(0.725 0.137 313.9)",
+    "chart-2": "oklch(0.732 0.099 278.5)",
+    "chart-3": "oklch(0.849 0.066 306.2)",
+    "chart-4": "oklch(0.471 0.180 358.3)",
+    "chart-5": "oklch(0.661 0.037 35.9)",
+    "sidebar": "oklch(0.197 0.029 303.5)",
+    "sidebar-foreground": "oklch(0.969 0.007 332.1)",
+    "sidebar-primary": "oklch(0.725 0.137 313.9)",
+    "sidebar-primary-foreground": "oklch(0.196 0.035 314.8)",
+    "sidebar-accent": "oklch(0.268 0.040 313.4)",
+    "sidebar-accent-foreground": "oklch(0.969 0.007 332.1)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.732 0.099 278.5)",
+    "radius": "0.5rem"
+  },
+  "typography": "Compact English planning UI with Japanese typography guidance for layered roadmaps, dependency tables, sprint capacity, milestone status, command search, and calm operational review.",
+  "layout": "Layered planning dashboards, compact navigation, 8px radii, cabbage-layer cards, vein-line dividers, wax-bloom surfaces, soil-umber borders, and dense status tables.",
+  "tags": [
+    "red-cabbage",
+    "plant",
+    "vegetable-bed",
+    "purple-leaf",
+    "waxy-leaf",
+    "blue-violet-vein",
+    "layered-planning-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-red-cabbage/motif.png",
+    "board": "/systems/morphous-red-cabbage/design-system-light.png",
+    "darkBoard": "/systems/morphous-red-cabbage/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-red-cabbage/theme.css",
+    "themeJson": "/systems/morphous-red-cabbage/theme.json",
+    "promptsJson": "/systems/morphous-red-cabbage/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent Red Cabbage motif",
+      "asset": "/systems/morphous-red-cabbage/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Red Cabbage transparent motif chroma-key source\nPrimary request: Create only a single whole red cabbage head, isolated full subject, no environment, no props, no text.\nScene/backdrop: perfectly flat solid #00ff00 chroma-key background for background removal.\nSubject: compact red cabbage head with layered planning-system geometry: overlapping curled leaves forming a dense spiral core, waxy purple outer leaves, blue-violet veins, crimson-maroon leaf shadows, pale lavender cut highlights, subtle vegetable-bed earth marks only as tiny natural speckles on the lower leaves, no stem stump prominence.\nStyle/medium: high-detail botanical cutout, realistic painted-photographic finish, crisp opaque edges, natural wax bloom and fine vein texture.\nComposition/framing: centered complete cutout with generous padding on all sides; no cropping; no floor plane.\nLighting/mood: clean studio light, structured and analytical, preserves waxy purple leaf color and blue vein detail, no cast shadow and no contact shadow.\nColor palette: use only red cabbage colors: purple, burgundy, crimson, blue-violet wax, pale lavender vein highlights, dark plum shadows, muted vegetable-bed earth speckles; do not use #00ff00 or bright green anywhere in the subject.\nTransparent workflow: place the subject on a perfectly flat solid #00ff00 chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.\nConstraints: keep subject fully separated from the background with crisp edges; no text, no watermark, no props, no knife, no plate, no garden bed, no second vegetable, no decorative background, no extra saturated colors."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light-mode design-system board",
+      "asset": "/systems/morphous-red-cabbage/design-system-light.png",
+      "sourceAsset": "/systems/morphous-red-cabbage/motif.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution light-mode design-system board for Morphous catalog\nInput images: the visible transparent red cabbage motif is the source reference for colors, texture, shape language, and system identity.\nPrimary request: Generate a comprehensive light-mode shadcn/tweakcn-like design-system board titled \"Morphous Red Cabbage\".\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: layered planning system for roadmaps, dependencies, sprint layers, capacity planning, milestone health, and structured operational review; calm, analytical, botanical, layered, 8px radii throughout.\nColor palette: derive only from the red cabbage motif: waxy purple leaves, burgundy folded shadows, blue-violet veins, pale lavender bloom, vegetable-bed umber speckles, soft cabbage-heart ivory, dark plum ink, muted soil borders. Use these motif colors only; do not introduce generic SaaS blue, unrelated green, orange, or rainbow accents.\nLayout: polished product design board with a pale cabbage-heart background, left palette and token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, and shadow samples. Include a small red cabbage motif cutout preview.\nTypography: compact English product UI type plus Japanese typography guidance with headings, body, captions, numerals, and examples such as \"赤キャベツ\", \"計画レイヤー\", \"進捗\", \"依存関係\", \"検索\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command/search palette, compact sidebar navigation, top navigation, metric cards, roadmap layer cards, dependency table, capacity chart, burndown line, kanban status chips, loading/empty/error/success states.\nTexture/materials: subtle wax-bloom grain, curled leaf-edge dividers, blue vein hairline rules, nested cabbage-layer spacing rhythm, muted vegetable-bed speckles for separators, soft 8px card rhythm.\nTokens: show shadcn/tweakcn CSS-variable samples for background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, radius 0.5rem.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no abstract gradients, no unrelated colors, no purple/blue generic gradient wallpaper, no watermark, no random brand names."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark-mode design-system board",
+      "asset": "/systems/morphous-red-cabbage/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-red-cabbage/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-red-cabbage/motif.png",
+        "/systems/morphous-red-cabbage/design-system-light.png"
+      ],
+      "prompt": "Use case: ui-mockup\nAsset type: 16:9 high-resolution dark-mode design-system board for Morphous catalog\nInput images: the visible red cabbage motif and the visible Morphous Red Cabbage light design-system board are source references.\nPrimary request: Generate a separate dark-mode translation titled \"Morphous Red Cabbage\" with the same layered planning-system coverage and layout logic as the light board.\nCanvas: 3840 x 2160, wide 16:9 board, crisp readable UI labels and token names, no tiny text.\nRequired visible sections: dark palette, type, Japanese typography, components, navigation, dashboard/data, forms, tables, command/search, status, tokens, texture, radius, spacing, shadows.\nSystem mood: layered planning system for roadmaps, dependencies, sprint layers, capacity planning, milestone health, and structured operational review; night-mode planning console, calm, analytical, botanical, layered, 8px radii throughout.\nColor palette: derive only from the red cabbage motif and the light board roles: deep plum ink backgrounds, dark burgundy folded panels, waxy purple surfaces, blue-violet vein focus rings, pale lavender text highlights, cabbage-heart ivory labels, muted soil-umber borders and destructive states. Avoid generic SaaS blue, unrelated green, orange, neon, or rainbow colors.\nLayout: polished dark product design board, left palette and token rail, central component and form examples, right dashboard/table/search/status modules, bottom row for texture, radius, spacing, and shadow samples. Include a small red cabbage motif cutout preview.\nTypography: compact English product UI type plus Japanese typography guidance with headings, body, captions, numerals, and examples such as \"赤キャベツ\", \"計画レイヤー\", \"進捗\", \"依存関係\", \"検索\".\nComponents: primary and secondary buttons, icon buttons, inputs, select, textarea, checkbox, radio, switch, tabs, badges, alert, cards, table rows, command/search palette, compact sidebar navigation, top navigation, metric cards, roadmap layer cards, dependency table, capacity chart, burndown line, kanban status chips, loading/empty/error/success states.\nTexture/materials: subtle dark wax-bloom grain, curled leaf-edge dividers, blue vein hairline rules, nested cabbage-layer spacing rhythm, muted vegetable-bed speckles for separators, soft 8px card rhythm.\nTokens: show shadcn/tweakcn CSS-variable samples for background, foreground, card, popover, primary, secondary, muted, accent, destructive, border, input, ring, chart-1 to chart-5, sidebar tokens, radius 0.5rem.\nConstraints: every visible UI element uses 8px radius or less; labels must fit inside containers; professional shadcn/tweakcn-style product design board; no marketing hero, no pure black flat background, no abstract gradients, no unrelated colors, no blue/purple generic gradient wallpaper, no watermark, no random brand names."
+    }
+  ]
+}

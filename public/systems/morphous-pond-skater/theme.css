@@ -1,0 +1,77 @@
+/* Morphous Pond Skater
+   System definition: /systems/morphous-pond-skater/system.json
+   Prompt records: /systems/morphous-pond-skater/prompts.json
+   Design-system references:
+   light: /systems/morphous-pond-skater/design-system-light.png
+   dark: /systems/morphous-pond-skater/design-system-dark.png
+*/
+
+:root {
+  --background: oklch(0.972 0.003 228.8);
+  --foreground: oklch(0.157 0.003 196.8);
+  --card: oklch(1.000 0.000 89.9);
+  --card-foreground: oklch(0.157 0.003 196.8);
+  --popover: oklch(1.000 0.000 89.9);
+  --popover-foreground: oklch(0.157 0.003 196.8);
+  --primary: oklch(0.189 0.015 253.2);
+  --primary-foreground: oklch(1.000 0.000 89.9);
+  --secondary: oklch(0.811 0.040 227.9);
+  --secondary-foreground: oklch(0.157 0.003 196.8);
+  --muted: oklch(0.898 0.008 241.7);
+  --muted-foreground: oklch(0.387 0.067 232.5);
+  --accent: oklch(0.755 0.053 126.0);
+  --accent-foreground: oklch(0.157 0.003 196.8);
+  --destructive: oklch(0.643 0.168 24.3);
+  --border: oklch(0.862 0.018 234.5);
+  --input: oklch(0.862 0.018 234.5);
+  --ring: oklch(0.564 0.098 232.9);
+  --chart-1: oklch(0.564 0.098 232.9);
+  --chart-2: oklch(0.557 0.086 134.4);
+  --chart-3: oklch(0.742 0.148 81.5);
+  --chart-4: oklch(0.811 0.040 227.9);
+  --chart-5: oklch(0.157 0.003 196.8);
+  --sidebar: oklch(1.000 0.000 89.9);
+  --sidebar-foreground: oklch(0.157 0.003 196.8);
+  --sidebar-primary: oklch(0.189 0.015 253.2);
+  --sidebar-primary-foreground: oklch(1.000 0.000 89.9);
+  --sidebar-accent: oklch(0.898 0.008 241.7);
+  --sidebar-accent-foreground: oklch(0.157 0.003 196.8);
+  --sidebar-border: oklch(0.862 0.018 234.5);
+  --sidebar-ring: oklch(0.564 0.098 232.9);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.157 0.003 196.8);
+  --foreground: oklch(0.898 0.008 241.7);
+  --card: oklch(0.189 0.015 253.2);
+  --card-foreground: oklch(0.898 0.008 241.7);
+  --popover: oklch(0.189 0.015 253.2);
+  --popover-foreground: oklch(0.898 0.008 241.7);
+  --primary: oklch(0.564 0.098 232.9);
+  --primary-foreground: oklch(0.157 0.003 196.8);
+  --secondary: oklch(0.557 0.086 134.4);
+  --secondary-foreground: oklch(0.157 0.003 196.8);
+  --muted: oklch(0.222 0.004 264.5);
+  --muted-foreground: oklch(0.811 0.040 227.9);
+  --accent: oklch(0.755 0.053 126.0);
+  --accent-foreground: oklch(0.157 0.003 196.8);
+  --destructive: oklch(0.643 0.168 24.3);
+  --border: oklch(0.862 0.018 234.5 / 28%);
+  --input: oklch(0.862 0.018 234.5 / 34%);
+  --ring: oklch(0.564 0.098 232.9);
+  --chart-1: oklch(0.564 0.098 232.9);
+  --chart-2: oklch(0.755 0.053 126.0);
+  --chart-3: oklch(0.742 0.148 81.5);
+  --chart-4: oklch(0.811 0.040 227.9);
+  --chart-5: oklch(0.898 0.008 241.7);
+  --sidebar: oklch(0.189 0.015 253.2);
+  --sidebar-foreground: oklch(0.898 0.008 241.7);
+  --sidebar-primary: oklch(0.564 0.098 232.9);
+  --sidebar-primary-foreground: oklch(0.157 0.003 196.8);
+  --sidebar-accent: oklch(0.222 0.004 264.5);
+  --sidebar-accent-foreground: oklch(0.898 0.008 241.7);
+  --sidebar-border: oklch(0.862 0.018 234.5 / 28%);
+  --sidebar-ring: oklch(0.564 0.098 232.9);
+  --radius: 0.5rem;
+}

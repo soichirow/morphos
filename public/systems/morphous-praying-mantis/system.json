@@ -1,0 +1,136 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 296,
+  "slug": "morphous-praying-mantis",
+  "name": "Morphous Praying Mantis",
+  "motifName": "Praying Mantis",
+  "motifCategory": "insect",
+  "biome": "garden stem",
+  "motif": "mantis profile",
+  "description": "A shadcn/tweakcn-compatible focused command system derived from a praying mantis profile: leaf-green primary controls, yellow-green focus highlights, tan wing-seam accents, olive garden-stem secondary surfaces, dark eye-ink command palettes, pale dry-stem work surfaces, and fine wing-vein texture for search-heavy dashboards, operation tables, forms, and status workflows.",
+  "typography": "Inter-style English product UI with Noto Sans JP guidance for Japanese command labels, compact operational tables, tabular numbers, search palettes, status copy, and precise dashboard headings.",
+  "layout": "Focused 8px command grids, compact navigation, command/search-first surfaces, crisp table density, 8px radii, restrained shadows, tan seam dividers, and subtle mantis wing-vein texture accents.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "praying-mantis",
+    "insect",
+    "garden-stem",
+    "mantis-profile",
+    "leaf-green",
+    "tan-wing-edge",
+    "eye-ink",
+    "focused-command-system",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Stem Veil",
+      "hex": "#F3F1E7"
+    },
+    {
+      "role": "Ink",
+      "name": "Eye Ink",
+      "hex": "#1F241C"
+    },
+    {
+      "role": "Primary",
+      "name": "Mantis Leaf",
+      "hex": "#6FAF5D"
+    },
+    {
+      "role": "Primary Hover",
+      "name": "Leaf Shell",
+      "hex": "#8CCB6E"
+    },
+    {
+      "role": "Highlight",
+      "name": "Yellow Vein",
+      "hex": "#B7E188"
+    },
+    {
+      "role": "Secondary",
+      "name": "Tan Wing Edge",
+      "hex": "#D9B386"
+    },
+    {
+      "role": "Surface",
+      "name": "Stem Surface",
+      "hex": "#E7E0C6"
+    },
+    {
+      "role": "Muted",
+      "name": "Olive Stem",
+      "hex": "#8A946A"
+    },
+    {
+      "role": "Border",
+      "name": "Wing Border",
+      "hex": "#D8CBB0"
+    },
+    {
+      "role": "Depth",
+      "name": "Olive Shadow",
+      "hex": "#5E6647"
+    },
+    {
+      "role": "Command Surface",
+      "name": "Underbody",
+      "hex": "#3E4632"
+    },
+    {
+      "role": "Leg Tip",
+      "name": "Leg Tip",
+      "hex": "#2A251B"
+    },
+    {
+      "role": "Success",
+      "name": "Mantis Ready",
+      "hex": "#6FAF5D"
+    },
+    {
+      "role": "Warning",
+      "name": "Warning Seam",
+      "hex": "#D9A75A"
+    },
+    {
+      "role": "Error",
+      "name": "Joint Stress",
+      "hex": "#C25343"
+    },
+    {
+      "role": "Card",
+      "name": "Card Pith",
+      "hex": "#F2EBD9"
+    }
+  ],
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

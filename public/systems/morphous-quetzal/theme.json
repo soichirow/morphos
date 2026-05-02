@@ -1,0 +1,183 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-quetzal",
+    "name": "Resplendent Quetzal",
+    "motifName": "Resplendent Quetzal",
+    "motifCategory": "bird",
+    "biome": "Cloud Forest",
+    "motif": "quetzal tail"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Cloud Ivory",
+      "hex": "#f4f2e8",
+      "oklch": "oklch(0.960 0.013 97.4)"
+    },
+    {
+      "role": "Surface",
+      "name": "Mist White",
+      "hex": "#fffdf5",
+      "oklch": "oklch(0.993 0.011 95.2)"
+    },
+    {
+      "role": "Ink",
+      "name": "Canopy Ink",
+      "hex": "#102a23",
+      "oklch": "oklch(0.262 0.035 173.7)"
+    },
+    {
+      "role": "Primary",
+      "name": "Emerald Tail",
+      "hex": "#00865f",
+      "oklch": "oklch(0.549 0.117 164.3)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Jade Plume",
+      "hex": "#2aa889",
+      "oklch": "oklch(0.657 0.117 171.9)"
+    },
+    {
+      "role": "Accent",
+      "name": "Antique Gold",
+      "hex": "#c79a2d",
+      "oklch": "oklch(0.710 0.131 84.8)"
+    },
+    {
+      "role": "Muted",
+      "name": "Moss Veil",
+      "hex": "#c7d2b1",
+      "oklch": "oklch(0.847 0.046 122.4)"
+    },
+    {
+      "role": "Ring",
+      "name": "Cloud Teal",
+      "hex": "#5fb9af",
+      "oklch": "oklch(0.727 0.088 186.0)"
+    },
+    {
+      "role": "Destructive",
+      "name": "Crimson Chest",
+      "hex": "#b72734",
+      "oklch": "oklch(0.512 0.179 22.0)"
+    },
+    {
+      "role": "Depth",
+      "name": "Midnight Canopy",
+      "hex": "#071814",
+      "oklch": "oklch(0.193 0.025 176.5)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.960 0.013 97.4)",
+    "foreground": "oklch(0.262 0.035 173.7)",
+    "card": "oklch(0.993 0.011 95.2)",
+    "card-foreground": "oklch(0.262 0.035 173.7)",
+    "popover": "oklch(0.993 0.011 95.2)",
+    "popover-foreground": "oklch(0.262 0.035 173.7)",
+    "primary": "oklch(0.549 0.117 164.3)",
+    "primary-foreground": "oklch(0.960 0.013 97.4)",
+    "secondary": "oklch(0.978 0.011 95.2)",
+    "secondary-foreground": "oklch(0.193 0.025 176.5)",
+    "muted": "oklch(0.984 0.012 96.4)",
+    "muted-foreground": "oklch(0.193 0.025 176.5)",
+    "accent": "oklch(0.710 0.131 84.8)",
+    "accent-foreground": "oklch(0.262 0.035 173.7)",
+    "destructive": "oklch(0.549 0.117 164.3)",
+    "border": "oklch(0.942 0.023 115.0)",
+    "input": "oklch(0.942 0.023 115.0)",
+    "ring": "oklch(0.657 0.117 171.9)",
+    "chart-1": "oklch(0.549 0.117 164.3)",
+    "chart-2": "oklch(0.657 0.117 171.9)",
+    "chart-3": "oklch(0.710 0.131 84.8)",
+    "chart-4": "oklch(0.710 0.131 84.8)",
+    "chart-5": "oklch(0.193 0.025 176.5)",
+    "sidebar": "oklch(0.981 0.011 95.2)",
+    "sidebar-foreground": "oklch(0.262 0.035 173.7)",
+    "sidebar-primary": "oklch(0.549 0.117 164.3)",
+    "sidebar-primary-foreground": "oklch(0.960 0.013 97.4)",
+    "sidebar-accent": "oklch(0.938 0.023 151.6)",
+    "sidebar-accent-foreground": "oklch(0.549 0.117 164.3)",
+    "sidebar-border": "oklch(0.942 0.023 115.0)",
+    "sidebar-ring": "oklch(0.657 0.117 171.9)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.262 0.035 173.7)",
+    "foreground": "oklch(0.960 0.013 97.4)",
+    "card": "oklch(0.216 0.028 175.2)",
+    "card-foreground": "oklch(0.960 0.013 97.4)",
+    "popover": "oklch(0.216 0.028 175.2)",
+    "popover-foreground": "oklch(0.960 0.013 97.4)",
+    "primary": "oklch(0.657 0.117 171.9)",
+    "primary-foreground": "oklch(0.262 0.035 173.7)",
+    "secondary": "oklch(0.358 0.027 157.3)",
+    "secondary-foreground": "oklch(0.960 0.013 97.4)",
+    "muted": "oklch(0.358 0.027 157.3)",
+    "muted-foreground": "oklch(0.910 0.028 115.7)",
+    "accent": "oklch(0.710 0.131 84.8)",
+    "accent-foreground": "oklch(0.262 0.035 173.7)",
+    "destructive": "oklch(0.549 0.117 164.3)",
+    "border": "oklch(1 0 0 / 12%)",
+    "input": "oklch(1 0 0 / 16%)",
+    "ring": "oklch(0.657 0.117 171.9)",
+    "chart-1": "oklch(0.657 0.117 171.9)",
+    "chart-2": "oklch(0.549 0.117 164.3)",
+    "chart-3": "oklch(0.710 0.131 84.8)",
+    "chart-4": "oklch(0.710 0.131 84.8)",
+    "chart-5": "oklch(0.847 0.046 122.4)",
+    "sidebar": "oklch(0.232 0.031 173.5)",
+    "sidebar-foreground": "oklch(0.960 0.013 97.4)",
+    "sidebar-primary": "oklch(0.657 0.117 171.9)",
+    "sidebar-primary-foreground": "oklch(0.262 0.035 173.7)",
+    "sidebar-accent": "oklch(0.358 0.027 157.3)",
+    "sidebar-accent-foreground": "oklch(0.960 0.013 97.4)",
+    "sidebar-border": "oklch(1 0 0 / 12%)",
+    "sidebar-ring": "oklch(0.657 0.117 171.9)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for refined portfolio dashboards with Noto Sans guidance for Japanese labels, tabular project metrics, and elegant editorial navigation.",
+  "layout": "8px grid, compact portfolio panels, feather-stream dividers, cloud-forest texture strips, restrained shadows, and polished case-study workflows.",
+  "tags": [
+    "quetzal",
+    "bird",
+    "cloud-forest",
+    "emerald",
+    "crimson",
+    "gold",
+    "portfolio-system",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-quetzal/motif.png",
+    "board": "/systems/morphous-quetzal/design-system-light.png",
+    "darkBoard": "/systems/morphous-quetzal/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-quetzal/theme.css",
+    "themeJson": "/systems/morphous-quetzal/theme.json",
+    "promptsJson": "/systems/morphous-quetzal/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "transparent-motif",
+      "label": "Transparent quetzal tail motif",
+      "asset": "/systems/morphous-quetzal/motif.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous transparent motif cutout source\nPrimary request: Create only one resplendent quetzal tail motif, isolated full object, no environment, no props, no text.\nSubject: a single elegant resplendent quetzal tail plume arrangement with two very long emerald green streaming tail coverts, subtle blue-green iridescence, fine feather barbs, a small hint of crimson chest feather at the base, tiny golden highlight accents, natural feather asymmetry, crisp edges suitable for a design-system motif cutout.\nComposition/framing: centered complete tail plume with generous padding; do not crop the feather tips or base.\nLighting/mood: clean studio light that preserves emerald tail, crimson chest, gold glints, and delicate feather texture; majestic portfolio-system polish.\nTransparent workflow: place the feather motif on a perfectly flat solid #ff00ff chroma-key background for removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Do not use #ff00ff anywhere in the subject.\nConstraints: no text, no watermark, no full bird body, no landscape, no branch, no shadow, no reflection."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Light design-system board",
+      "asset": "/systems/morphous-quetzal/design-system-light.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous light-mode design-system board for Resplendent Quetzal\nPrimary request: Generate one comprehensive light-mode design-system board for a motif-driven UI theme named Resplendent Quetzal, derived from a quetzal tail: emerald streaming tail feathers, crimson chest, small gold glints, cloud forest mist, deep canopy shadows, and pale lichen neutrals.\nCanvas: exact wide 16:9 high-resolution board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: majestic portfolio system for curators, studios, and visual case studies; refined editorial dashboard; elegant navigation, portfolio cards, project metrics, media controls, forms, and data views. Use feather-stream vertical rhythm as dividers, cloud-forest mist surfaces, compact cards with 8px radius, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Resplendent Quetzal\", motif story, palette swatches, typography with English and Japanese examples, left navigation, top navigation, portfolio dashboard metric cards, featured project cards, line chart, bar chart, area chart, small status donut, data table, case-study form, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: cloud ivory background, mist white cards, deep canopy ink, emerald tail primary, crimson chest destructive and highlight sparingly, antique gold accent, jade secondary, moss muted surfaces, teal ring, shadow green borders.\nText: short readable UI labels only; no long paragraphs. Labels should be generic portfolio UI labels such as Portfolio, Projects, Gallery, Case Studies, Metrics, Featured, Status, Archive, Inquiry, Review, Published, Draft, Signal, Search, Analytics.\nConstraints: no watermark, no random brand names, no unrelated bright colors, no purple gradients, no illegible microtext, no marketing hero layout, no full bird illustration dominating the board."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Dark design-system board",
+      "asset": "/systems/morphous-quetzal/design-system-dark.png",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous dark-mode design-system board for Resplendent Quetzal\nPrimary request: Generate one comprehensive dark-mode version of the Resplendent Quetzal design-system board. It must feel like the same majestic portfolio system translated to dark mode, not a new theme.\nReference style: quetzal tail motif with emerald streaming feathers, crimson chest, antique gold glints, cloud forest mist, deep canopy shadows, jade secondary controls, lichen neutrals, and refined portfolio surfaces.\nCanvas: exact wide 16:9 high-resolution board, intended final use at 3840x2160. Use a precise product-design grid and large readable labels.\nMood and UI language: dark majestic portfolio workspace for curators, studios, and visual case studies; refined editorial dashboard; elegant navigation, portfolio cards, project metrics, media controls, forms, and data views. Use feather-stream vertical rhythm as dividers, dark cloud-forest panels, compact cards with 8px radius, crisp shadcn/tweakcn-style controls.\nRequired visible sections: title \"Resplendent Quetzal Dark\", motif story, dark palette swatches, typography with English and Japanese examples, left navigation, top navigation, portfolio dashboard metric cards, featured project cards, line chart, bar chart, area chart, small status donut, data table, case-study form, search/command bar, tabs, buttons, badges, alerts, checkbox/radio/switch controls, loading/empty/error status states, spacing/radius/shadow tokens, CSS token snippets, texture strip, generated asset examples.\nPalette: midnight canopy background, deep green-black cards, mist ivory text, emerald tail primary, crimson chest destructive and highlight sparingly, antique gold accent, jade secondary, lichen muted text, teal ring, subtle moss borders.\nText: short readable UI labels only; no long paragraphs. Labels should be generic portfolio UI labels such as Portfolio, Projects, Gallery, Case Studies, Metrics, Featured, Status, Archive, Inquiry, Review, Published, Draft, Signal, Search, Analytics.\nConstraints: no watermark, no random brand names, no neon colors, no pure black flat background, no unrelated bright colors, no purple gradients, no illegible microtext, no marketing hero layout, no full bird illustration dominating the board."
+    }
+  ]
+}
