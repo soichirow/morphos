@@ -1,7 +1,8 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react"
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react"
 import { Link, createFileRoute, useNavigate } from "@tanstack/react-router"
 import {
   Check,
+  ChevronDown,
   Copy,
   Download,
   FileCode2,
@@ -128,6 +129,12 @@ function CatalogRoute() {
   const query = search.q ?? ""
   const category = search.category ?? "all"
   const sort: SortKey = search.sort ?? "name"
+  const [searchColor, setSearchColor] = useState<string>("")
+  const [colorRole, setColorRole] = useState<ColorRoleKey>("Primary")
+  const [mobileResultsOpen, setMobileResultsOpen] = useState(false)
+  const previousMobileFilterSignature = useRef("")
+  const suppressNextMobileAutoOpen = useRef(false)
+  const detailRef = useRef<HTMLDivElement | null>(null)
   const updateSearch = useCallback(
     (patch: Partial<GallerySearch>) => {
       navigate({
@@ -148,12 +155,16 @@ function CatalogRoute() {
   const setCategory = useCallback((value: string) => updateSearch({ category: value }), [updateSearch])
   const setSort = useCallback((value: SortKey) => updateSearch({ sort: value === "name" ? undefined : value }), [updateSearch])
   const clearAll = useCallback(() => {
+    suppressNextMobileAutoOpen.current = true
+    setSearchColor("")
+    setColorRole("Primary")
+    setMobileResultsOpen(false)
     navigate({
       search: (prev) => ({ system: prev.system }),
       replace: true,
     })
   }, [navigate])
-  const hasActiveFilters = Boolean(query) || category !== "all"
+  const hasActiveFilters = Boolean(query) || category !== "all" || sort !== "name" || Boolean(searchColor)
   const [mode, setMode] = useState<ThemeMode>("light")
   const [activeSlug, setActiveSlug] = useState(initialSlug)
 
@@ -162,8 +173,6 @@ function CatalogRoute() {
       setActiveSlug((prev) => (prev === paramSlug ? prev : paramSlug))
     }
   }, [paramSlug])
-  const [searchColor, setSearchColor] = useState<string>("")
-  const [colorRole, setColorRole] = useState<ColorRoleKey>("Primary")
   const { fontId, setFontId, font, jaFontId, setJaFontId, presetId, setPresetId } = useFont()
   const [lightbox, setLightbox] = useState<LightboxItem | null>(null)
   const openLightbox = useCallback((item: LightboxItem) => setLightbox(item), [])
@@ -208,6 +217,37 @@ function CatalogRoute() {
         )
       )
   }, [category, colorRole, query, searchColor, sort])
+  const mobileFilterSignature = [query, category, sort, searchColor, colorRole].join("\u0000")
+  const filtersAreDefault =
+    !query && category === "all" && sort === "name" && !searchColor && colorRole === "Primary"
+
+  useEffect(() => {
+    if (!previousMobileFilterSignature.current) {
+      previousMobileFilterSignature.current = mobileFilterSignature
+      return
+    }
+    if (previousMobileFilterSignature.current === mobileFilterSignature) return
+
+    previousMobileFilterSignature.current = mobileFilterSignature
+    if (suppressNextMobileAutoOpen.current) {
+      setMobileResultsOpen(false)
+      if (filtersAreDefault) suppressNextMobileAutoOpen.current = false
+      return
+    }
+    setMobileResultsOpen(true)
+  }, [filtersAreDefault, mobileFilterSignature])
+
+  const selectSystem = useCallback((slug: string) => {
+    setActiveSlug(slug)
+  }, [])
+
+  const selectMobileSystem = useCallback((slug: string) => {
+    setActiveSlug(slug)
+    setMobileResultsOpen(false)
+    window.requestAnimationFrame(() => {
+      detailRef.current?.scrollIntoView({ block: "start", behavior: "smooth" })
+    })
+  }, [])
 
   return (
     <LightboxContext.Provider value={openLightbox}>
@@ -329,27 +369,25 @@ function CatalogRoute() {
           <Intro count={systems.length} />
         </section>
 
+        <section className="mx-auto max-w-[88rem] px-4 pt-3 sm:px-6 lg:hidden">
+          <MobileResultsPanel
+            results={filteredSystems}
+            activeSystem={activeSystem}
+            open={mobileResultsOpen}
+            onOpenChange={setMobileResultsOpen}
+            onSelect={selectMobileSystem}
+            onClearFilters={clearAll}
+          />
+        </section>
+
         <section className="mx-auto grid max-w-[88rem] gap-5 px-4 py-6 sm:px-6 lg:grid-cols-[20rem_1fr] lg:px-8">
-          <aside className="order-2 max-h-[60svh] space-y-2 overflow-auto rounded-xl border border-border/60 bg-card/40 p-2 backdrop-blur lg:order-1 lg:max-h-[calc(100svh-9rem)] lg:rounded-none lg:border-0 lg:bg-transparent lg:p-0 lg:pr-1 lg:sticky lg:top-32 lg:self-start lg:backdrop-blur-none">
-            <p className="px-1 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
-              {filteredSystems.length} system{filteredSystems.length === 1 ? "" : "s"}
-            </p>
-            {filteredSystems.length === 0 ? (
-              <div className="rounded-lg border border-dashed border-border/70 p-4 text-sm text-muted-foreground">
-                <p>No systems match these filters.</p>
-                <Button variant="ghost" size="sm" onClick={clearAll} className="mt-2 -ml-2">
-                  Clear filters
-                </Button>
-              </div>
-            ) : null}
-            {filteredSystems.map((system) => (
-              <SystemCard
-                key={system.slug}
-                system={system}
-                active={system.slug === activeSystem.slug}
-                onClick={() => setActiveSlug(system.slug)}
-              />
-            ))}
+          <aside className="hidden max-h-[calc(100svh-9rem)] space-y-2 overflow-auto pr-1 lg:sticky lg:top-32 lg:block lg:self-start">
+            <SystemResultsList
+              results={filteredSystems}
+              activeSlug={activeSystem.slug}
+              onSelect={selectSystem}
+              onClearFilters={clearAll}
+            />
             <nav aria-label="System detail links" className="sr-only">
               {systems.map((system) => (
                 <Link key={system.slug} to="/systems/$slug" params={{ slug: system.slug }}>
@@ -359,7 +397,7 @@ function CatalogRoute() {
             </nav>
           </aside>
 
-          <div className="order-1 min-w-0 space-y-5 lg:order-2">
+          <div ref={detailRef} className="min-w-0 scroll-mt-4 space-y-5 lg:scroll-mt-32">
             <ActionBar system={activeSystem} mode={mode} font={fontId} jaFont={jaFontId} />
             <Hero system={activeSystem} />
 
@@ -508,6 +546,110 @@ function Intro({ count }: { count: number }) {
         One motif → palette, shadcn theme, board, PPTX & DOCX. AI-generated, prompts attached.
       </span>
     </div>
+  )
+}
+
+function MobileResultsPanel({
+  results,
+  activeSystem,
+  open,
+  onOpenChange,
+  onSelect,
+  onClearFilters,
+}: {
+  results: Array<MorphousSystem>
+  activeSystem: MorphousSystem
+  open: boolean
+  onOpenChange: (open: boolean) => void
+  onSelect: (slug: string) => void
+  onClearFilters: () => void
+}) {
+  const panelId = "mobile-gallery-results"
+  const resultCount = `${results.length} system${results.length === 1 ? "" : "s"}`
+
+  return (
+    <section className="overflow-hidden rounded-xl border border-border/60 bg-card/85 shadow-sm backdrop-blur">
+      <button
+        type="button"
+        onClick={() => onOpenChange(!open)}
+        aria-expanded={open}
+        aria-controls={panelId}
+        className="flex min-h-16 w-full items-center justify-between gap-3 px-3 py-3 text-left transition hover:bg-muted/50"
+      >
+        <span className="flex min-w-0 flex-1 items-center gap-3">
+          <span
+            className="grid size-10 shrink-0 place-items-center rounded-lg border border-border shadow-inner"
+            style={{ background: paletteGradient(activeSystem) }}
+            aria-hidden
+          />
+          <span className="min-w-0">
+            <span className="block text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
+              {resultCount}
+            </span>
+            <span className="block truncate text-sm font-semibold">
+              {open ? "Choose a system" : activeSystem.name}
+            </span>
+          </span>
+        </span>
+        <span className="flex shrink-0 items-center gap-1 rounded-md border border-border bg-background/70 px-2 py-1 text-xs font-medium text-muted-foreground">
+          {open ? "Hide" : "Open"}
+          <ChevronDown className={`size-3.5 transition-transform ${open ? "rotate-180" : ""}`} />
+        </span>
+      </button>
+      <div
+        id={panelId}
+        hidden={!open}
+        className="max-h-[44svh] space-y-2 overflow-auto border-t border-border/60 p-2"
+      >
+        <SystemResultsList
+          results={results}
+          activeSlug={activeSystem.slug}
+          onSelect={onSelect}
+          onClearFilters={onClearFilters}
+          showCount={false}
+        />
+      </div>
+    </section>
+  )
+}
+
+function SystemResultsList({
+  results,
+  activeSlug,
+  onSelect,
+  onClearFilters,
+  showCount = true,
+}: {
+  results: Array<MorphousSystem>
+  activeSlug: string
+  onSelect: (slug: string) => void
+  onClearFilters: () => void
+  showCount?: boolean
+}) {
+  return (
+    <>
+      {showCount ? (
+        <p className="px-1 text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
+          {results.length} system{results.length === 1 ? "" : "s"}
+        </p>
+      ) : null}
+      {results.length === 0 ? (
+        <div className="rounded-lg border border-dashed border-border/70 p-4 text-sm text-muted-foreground">
+          <p>No systems match these filters.</p>
+          <Button variant="ghost" size="sm" onClick={onClearFilters} className="mt-2 -ml-2">
+            Clear filters
+          </Button>
+        </div>
+      ) : null}
+      {results.map((system) => (
+        <SystemCard
+          key={system.slug}
+          system={system}
+          active={system.slug === activeSlug}
+          onClick={() => onSelect(system.slug)}
+        />
+      ))}
+    </>
   )
 }
 
