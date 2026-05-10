@@ -2,7 +2,7 @@ const previewableAssetPattern = /\.(png|jpe?g|webp)$/i
 
 export type PreviewKind = "motif" | "board" | "hero" | "texture" | "example"
 
-export type PreviewSource = {
+type PreviewSource = {
   type: "image/avif" | "image/webp"
   srcSet: string
   sizes?: string
@@ -34,8 +34,13 @@ function inferKind(filename: string): PreviewKind {
   return "example"
 }
 
-function splitAssetPath(assetPath: string): { dir: string; stem: string } | null {
-  if (!assetPath.startsWith("/systems/") || !previewableAssetPattern.test(assetPath)) {
+function splitAssetPath(
+  assetPath: string
+): { dir: string; stem: string } | null {
+  if (
+    !assetPath.startsWith("/systems/") ||
+    !previewableAssetPattern.test(assetPath)
+  ) {
     return null
   }
   const parts = assetPath.split("/")
@@ -46,15 +51,9 @@ function splitAssetPath(assetPath: string): { dir: string; stem: string } | null
   return { dir: parts.join("/"), stem }
 }
 
-export function previewAssetPath(assetPath: string): string {
-  const split = splitAssetPath(assetPath)
-  if (!split) return assetPath
-  return `${split.dir}/${split.stem}.webp`
-}
-
 export function previewSources(
   assetPath: string,
-  opts?: { kind?: PreviewKind; sizes?: string },
+  opts?: { kind?: PreviewKind; sizes?: string }
 ): PreviewSources {
   const split = splitAssetPath(assetPath)
   if (!split) {

@@ -22,6 +22,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx}\"",
     "typecheck": "tsc --noEmit"
   },
+  "knip": {
+    "ignore": [
+      "eslint.config.js",
+      "scripts/test-docx.mjs",
+      "public/systems/**/theme.css",
+      "public/systems/**/generate-bundle.mjs"
+    ]
+  },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.8",
     "@tailwindcss/vite": "^4.2.1",

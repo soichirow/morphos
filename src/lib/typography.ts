@@ -1,4 +1,4 @@
-export type FontCategory = "sans" | "serif" | "mono"
+type FontCategory = "sans" | "serif" | "mono"
 
 export type FontDef = {
   id: string
@@ -269,7 +269,10 @@ export function getPreset(id: string): Preset {
 }
 
 /** Find the preset whose font IDs match the current selection, if any. */
-export function matchPreset(fontId: string, jaFontId: string): Preset | undefined {
+export function matchPreset(
+  fontId: string,
+  jaFontId: string
+): Preset | undefined {
   return presets.find((p) => p.fontId === fontId && p.jaFontId === jaFontId)
 }
 

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState, useSyncExternalStore } from "react"
 import { Link, createFileRoute } from "@tanstack/react-router"
 import {
   ArrowRight,
@@ -19,10 +19,24 @@ export const Route = createFileRoute("/")({ component: LandingRoute })
 
 const FEATURE_COUNT = 8
 
-// Stable initial set for SSR — first N systems in catalog order. Replaced
-// with a random pick on the client after mount, so each visit gets a
-// different feature row without breaking hydration.
+// Stable initial set for SSR. The client snapshot is randomized once per visit
+// without breaking hydration.
 const INITIAL_POOL = systems.slice(0, FEATURE_COUNT)
+let featuredSnapshot: Array<(typeof systems)[number]> | null = null
+
+function subscribeFeaturedSystems(_onStoreChange: () => void) {
+  return () => {}
+}
+
+function getInitialFeaturedSystems() {
+  return INITIAL_POOL
+}
+
+function getFeaturedSystems() {
+  if (!featuredSnapshot)
+    featuredSnapshot = shuffle(systems).slice(0, FEATURE_COUNT)
+  return featuredSnapshot
+}
 
 function shuffle<T>(arr: ReadonlyArray<T>): Array<T> {
   const a = [...arr]
@@ -34,23 +48,22 @@ function shuffle<T>(arr: ReadonlyArray<T>): Array<T> {
 }
 
 function LandingRoute() {
-  const [featured, setFeatured] = useState<Array<(typeof systems)[number]>>(INITIAL_POOL)
+  const featured = useSyncExternalStore(
+    subscribeFeaturedSystems,
+    getFeaturedSystems,
+    getInitialFeaturedSystems
+  )
   const [hoverSlug, setHoverSlug] = useState<string | null>(null)
 
-  useEffect(() => {
-    setFeatured(shuffle(systems).slice(0, FEATURE_COUNT))
-  }, [])
-
   // Theme follows hover. The first featured system is the resting choice
-  // (no auto-rotation — only changes when the user hovers a card).
+  // (no auto-rotation, only changes when the user hovers a card).
   const restingSystem = featured[0] ?? systems[0]
-  const heroSystem = (hoverSlug && featured.find((s) => s.slug === hoverSlug)) || restingSystem
+  const heroSystem =
+    (hoverSlug && featured.find((s) => s.slug === hoverSlug)) || restingSystem
 
   return (
     <div style={themeStyle(heroSystem, "light")}>
-      <div
-        className="pointer-events-none fixed inset-0 -z-10 bg-background"
-      />
+      <div className="pointer-events-none fixed inset-0 -z-10 bg-background" />
 
       <main className="relative min-h-svh overflow-x-hidden text-foreground">
         <header className="mx-auto flex max-w-[88rem] items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
@@ -61,17 +74,22 @@ function LandingRoute() {
               aria-hidden
             />
             <div className="min-w-0">
-              <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
+              <p className="text-[10px] font-medium tracking-[0.2em] text-muted-foreground uppercase">
                 Morphous
               </p>
               <p className="hidden truncate text-sm font-semibold sm:block">
                 Nature-coded design systems
               </p>
-              <p className="truncate text-sm font-semibold sm:hidden">Morphous gallery</p>
+              <p className="truncate text-sm font-semibold sm:hidden">
+                Morphous gallery
+              </p>
             </div>
           </div>
           <div className="flex items-center gap-1">
-            <IconLink href="https://github.com/Ameyanagi/morphos" label="GitHub repository">
+            <IconLink
+              href="https://github.com/Ameyanagi/morphos"
+              label="GitHub repository"
+            >
               <GithubIcon className="size-4" />
             </IconLink>
             <IconLink href="https://x.com/DrShimogawa" label="X (@DrShimogawa)">
@@ -80,7 +98,10 @@ function LandingRoute() {
             <IconLink href="https://ameyanagi.com" label="ameyanagi.com">
               <Globe className="size-4" />
             </IconLink>
-            <span className="mx-1 hidden h-5 w-px bg-border sm:block" aria-hidden />
+            <span
+              className="mx-1 hidden h-5 w-px bg-border sm:block"
+              aria-hidden
+            />
             <Button asChild size="sm" variant="outline">
               <Link to="/gallery">
                 Open gallery
@@ -90,22 +111,22 @@ function LandingRoute() {
           </div>
         </header>
 
-        <section className="mx-auto grid max-w-[88rem] items-center gap-10 px-4 pb-12 pt-6 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:px-8 lg:pb-16 lg:pt-10">
+        <section className="mx-auto grid max-w-[88rem] items-center gap-10 px-4 pt-6 pb-12 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:px-8 lg:pt-10 lg:pb-16">
           <div className="space-y-6">
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/85 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
               <Sparkles className="size-3.5 text-primary" />
               {systems.length} AI-generated systems · in active development
             </span>
-            <h1 className="text-3xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-              Pick an animal, a flower, a stone —{" "}
+            <h1 className="text-3xl leading-[1.05] font-semibold tracking-tight sm:text-5xl lg:text-6xl">
+              Pick an animal, a flower, or a stone,{" "}
               <span className="text-primary transition-colors duration-700">
                 ship a design system.
               </span>
             </h1>
             <p className="max-w-xl text-base leading-7 text-muted-foreground sm:text-lg">
-              Morphous turns a single nature motif into an 8-role palette, a light/dark
-              shadcn theme, and matching PowerPoint + Word templates. Every prompt is
-              recorded so the catalog stays reproducible.
+              Morphous turns a single nature motif into an 8-role palette, a
+              light/dark shadcn theme, and matching PowerPoint + Word templates.
+              Every prompt is recorded so the catalog stays reproducible.
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Button asChild size="lg">
@@ -144,7 +165,7 @@ function LandingRoute() {
               fetchPriority="high"
               sizes="(max-width: 768px) 90vw, 480px"
             />
-            <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
+            <div className="absolute right-4 bottom-4 left-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
               <span className="truncate font-medium">{heroSystem.name}</span>
               <span className="inline-flex items-center gap-1 text-muted-foreground group-hover:text-primary">
                 Open in gallery <ArrowRight className="size-3" />
@@ -154,21 +175,25 @@ function LandingRoute() {
         </section>
 
         <section className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-primary">
+          <p className="text-[11px] font-medium tracking-[0.18em] text-primary uppercase">
             Why this exists
           </p>
           <p className="mt-3 text-base leading-7 text-foreground">
-            I started this to curate a private collection of nature-inspired palettes for
-            the things I actually ship — my own website, the PowerPoint decks I present
-            from, and the Word documents I write. The PowerPoint and Word templates are
-            still in development; the themes already pick up the palette and fonts, but
-            the layouts will get richer over the next few iterations.
+            I started this to curate a private collection of nature-inspired
+            palettes for the things I actually ship: my own website, the
+            PowerPoint decks I present from, and the Word documents I write. The
+            PowerPoint and Word templates are still in development; the themes
+            already pick up the palette and fonts, but the layouts will get
+            richer over the next few iterations.
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
             The push came from the quality of{" "}
-            <span className="font-medium text-foreground">Codex + ChatGPT Images 2.0</span>
-            , and from a museum trip with my kids where I was honestly shocked by how
-            well-resolved the colors and structures of living things already are.
+            <span className="font-medium text-foreground">
+              Codex + ChatGPT Images 2.0
+            </span>
+            , and from a museum trip with my kids where I was honestly shocked
+            by how well-resolved the colors and structures of living things
+            already are.
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
             Huge respect to{" "}
@@ -189,11 +214,11 @@ function LandingRoute() {
             >
               tweakcn
             </a>{" "}
-            — Morphous slots into both, and most of what I know about token-driven
+            Morphous slots into both, and most of what I know about token-driven
             theming I learned from reading their work.
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            Everything's open —{" "}
+            Everything's open:{" "}
             <a
               href="https://github.com/Ameyanagi/morphos"
               target="_blank"
@@ -202,7 +227,7 @@ function LandingRoute() {
             >
               source on GitHub
             </a>
-            , catalog data, Codex skills, and the prompt for every system. —{" "}
+            , catalog data, Codex skills, and the prompt for every system.{" "}
             <a
               href="https://ameyanagi.com"
               target="_blank"
@@ -219,7 +244,10 @@ function LandingRoute() {
             <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
               Featured systems
             </h2>
-            <Link to="/gallery" className="text-sm font-medium text-primary hover:underline">
+            <Link
+              to="/gallery"
+              className="text-sm font-medium text-primary hover:underline"
+            >
               Browse all {systems.length} →
             </Link>
           </div>
@@ -246,7 +274,7 @@ function LandingRoute() {
             <ValueCard
               icon={<Palette className="size-4" />}
               title="8-role palette"
-              body="Background, Ink, Primary, Secondary, Accent, Signal, Surface, Depth — hex + oklch."
+              body="Background, Ink, Primary, Secondary, Accent, Signal, Surface, Depth: hex + oklch."
             />
             <ValueCard
               icon={<FileCode2 className="size-4" />}
@@ -269,7 +297,8 @@ function LandingRoute() {
         <footer className="mx-auto max-w-[88rem] border-t border-border/60 px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
             <span>
-              Morphous · {systems.length} systems · AI-generated motifs · under active development
+              Morphous · {systems.length} systems · AI-generated motifs · under
+              active development
             </span>
             <FooterLinks />
           </div>
@@ -338,7 +367,7 @@ function FeatureCard({
         />
       </span>
       <div className="border-t border-border p-3">
-        <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
+        <p className="text-[10px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
           {system.motifCategory} · {system.biome}
         </p>
         <p className="mt-1 truncate text-sm font-semibold">{system.name}</p>
@@ -347,7 +376,11 @@ function FeatureCard({
           aria-hidden
         >
           {system.palette.map((c) => (
-            <span key={c.role} className="flex-1" style={{ backgroundColor: c.hex }} />
+            <span
+              key={c.role}
+              className="flex-1"
+              style={{ backgroundColor: c.hex }}
+            />
           ))}
         </span>
       </div>
@@ -393,7 +426,12 @@ function XIcon({ className }: { className?: string }) {
 
 function GithubIcon({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" aria-hidden fill="currentColor" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden
+      fill="currentColor"
+      className={className}
+    >
       <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.27-1.7-1.27-1.7-1.04-.7.08-.69.08-.69 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.52-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.18a10.95 10.95 0 0 1 5.75 0c2.2-1.49 3.16-1.18 3.16-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
     </svg>
   )

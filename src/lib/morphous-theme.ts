@@ -3,7 +3,7 @@ import type { MorphousSystem } from "@/data/systems"
 
 export type ThemeMode = "light" | "dark"
 
-export type PaletteRole =
+type PaletteRole =
   | "Background"
   | "Ink"
   | "Primary"
@@ -13,12 +13,15 @@ export type PaletteRole =
   | "Surface"
   | "Depth"
 
-export function getPaletteColor(system: MorphousSystem, role: PaletteRole): string {
+function getPaletteColor(system: MorphousSystem, role: PaletteRole): string {
   const found = system.palette.find((c) => c.role === role)
   return found?.hex ?? "#000000"
 }
 
-export function themeStyle(system: MorphousSystem, mode: ThemeMode): CSSProperties {
+export function themeStyle(
+  system: MorphousSystem,
+  mode: ThemeMode
+): CSSProperties {
   const tokens = mode === "dark" ? system.darkTokens : system.tokens
   const tokenVars = Object.fromEntries(
     Object.entries(tokens).map(([key, value]) => [`--${key}`, value])
@@ -73,17 +76,26 @@ export type OfficePalette = {
 
 const stripHash = (hex: string) => hex.replace("#", "").toUpperCase()
 
-export function paletteForOffice(system: MorphousSystem, mode: ThemeMode = "light"): OfficePalette {
+export function paletteForOffice(
+  system: MorphousSystem,
+  mode: ThemeMode = "light"
+): OfficePalette {
   const bg = getPaletteColor(system, "Background")
   const ink = getPaletteColor(system, "Ink")
   return {
-    background: stripHash(mode === "dark" ? getPaletteColor(system, "Depth") : bg),
+    background: stripHash(
+      mode === "dark" ? getPaletteColor(system, "Depth") : bg
+    ),
     foreground: stripHash(mode === "dark" ? bg : ink),
     primary: stripHash(getPaletteColor(system, "Primary")),
     secondary: stripHash(getPaletteColor(system, "Secondary")),
     accent: stripHash(getPaletteColor(system, "Accent")),
     signal: stripHash(getPaletteColor(system, "Signal")),
-    surface: stripHash(mode === "dark" ? getPaletteColor(system, "Ink") : getPaletteColor(system, "Surface")),
+    surface: stripHash(
+      mode === "dark"
+        ? getPaletteColor(system, "Ink")
+        : getPaletteColor(system, "Surface")
+    ),
     depth: stripHash(getPaletteColor(system, "Depth")),
   }
 }

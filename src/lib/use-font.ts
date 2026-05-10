@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useSyncExternalStore } from "react"
 import {
   defaultFontId,
   defaultJaFontId,
@@ -17,6 +17,86 @@ const JA_STORAGE_KEY = "morphous.font.ja"
 const PRESET_STORAGE_KEY = "morphous.font.preset"
 const LINK_ID = "morphous-font-link"
 const JA_LINK_ID = "morphous-font-link-ja"
+const FONT_STORE_EVENT = "morphous-font-store"
+
+type FontState = {
+  fontId: string
+  jaFontId: string
+  presetId: string
+}
+
+const DEFAULT_FONT_STATE: FontState = {
+  fontId: defaultFontId,
+  jaFontId: defaultJaFontId,
+  presetId: defaultPresetId,
+}
+
+const encodeFontState = (state: FontState) =>
+  [state.fontId, state.jaFontId, state.presetId].join("\u0000")
+
+function normalizeFontState(state: FontState): FontState {
+  const preset =
+    state.presetId && presets.some((p) => p.id === state.presetId)
+      ? getPreset(state.presetId)
+      : null
+  if (preset) {
+    return {
+      fontId: preset.fontId,
+      jaFontId: preset.jaFontId,
+      presetId: preset.id,
+    }
+  }
+
+  const fontId = fonts.some((f) => f.id === state.fontId)
+    ? state.fontId
+    : defaultFontId
+  const jaFontId = jaFonts.some((f) => f.id === state.jaFontId)
+    ? state.jaFontId
+    : defaultJaFontId
+  return {
+    fontId,
+    jaFontId,
+    presetId: matchPreset(fontId, jaFontId)?.id ?? "",
+  }
+}
+
+function readFontState(): FontState {
+  if (typeof window === "undefined") return DEFAULT_FONT_STATE
+  return normalizeFontState({
+    fontId: window.localStorage.getItem(STORAGE_KEY) ?? defaultFontId,
+    jaFontId: window.localStorage.getItem(JA_STORAGE_KEY) ?? defaultJaFontId,
+    presetId:
+      window.localStorage.getItem(PRESET_STORAGE_KEY) ?? defaultPresetId,
+  })
+}
+
+function getFontSnapshot(): string {
+  return encodeFontState(readFontState())
+}
+
+function getServerFontSnapshot(): string {
+  return encodeFontState(DEFAULT_FONT_STATE)
+}
+
+function subscribeFontStore(onStoreChange: () => void) {
+  if (typeof window === "undefined") return () => {}
+  const onCustomStoreChange = () => onStoreChange()
+  window.addEventListener("storage", onStoreChange)
+  window.addEventListener(FONT_STORE_EVENT, onCustomStoreChange)
+  return () => {
+    window.removeEventListener("storage", onStoreChange)
+    window.removeEventListener(FONT_STORE_EVENT, onCustomStoreChange)
+  }
+}
+
+function writeFontState(state: FontState) {
+  if (typeof window === "undefined") return
+  const normalized = normalizeFontState(state)
+  window.localStorage.setItem(STORAGE_KEY, normalized.fontId)
+  window.localStorage.setItem(JA_STORAGE_KEY, normalized.jaFontId)
+  window.localStorage.setItem(PRESET_STORAGE_KEY, normalized.presetId)
+  window.dispatchEvent(new Event(FONT_STORE_EVENT))
+}
 
 function loadGoogleFont(id: string, href: string | undefined) {
   if (typeof document === "undefined") return
@@ -36,32 +116,25 @@ function loadGoogleFont(id: string, href: string | undefined) {
 }
 
 export function useFont() {
-  const [fontId, setFontIdState] = useState<string>(defaultFontId)
-  const [jaFontId, setJaFontIdState] = useState<string>(defaultJaFontId)
-  const [presetId, setPresetIdState] = useState<string>(defaultPresetId)
-
-  useEffect(() => {
-    if (typeof window === "undefined") return
-    const stored = window.localStorage.getItem(STORAGE_KEY)
-    const storedJa = window.localStorage.getItem(JA_STORAGE_KEY)
-    const storedPreset = window.localStorage.getItem(PRESET_STORAGE_KEY)
-    if (storedPreset && presets.some((p) => p.id === storedPreset)) {
-      const p = getPreset(storedPreset)
-      setPresetIdState(storedPreset)
-      setFontIdState(p.fontId)
-      setJaFontIdState(p.jaFontId)
-      return
-    }
-    if (stored && fonts.some((f) => f.id === stored)) setFontIdState(stored)
-    if (storedJa && jaFonts.some((f) => f.id === storedJa)) setJaFontIdState(storedJa)
-  }, [])
+  const snapshot = useSyncExternalStore(
+    subscribeFontStore,
+    getFontSnapshot,
+    getServerFontSnapshot
+  )
+  const [fontId, jaFontId, presetId] = useMemo(() => {
+    const [nextFontId, nextJaFontId, nextPresetId] = snapshot.split("\u0000")
+    return [
+      nextFontId || defaultFontId,
+      nextJaFontId || defaultJaFontId,
+      nextPresetId,
+    ] as const
+  }, [snapshot])
 
   const font = getFont(fontId)
   const jaFont = getJaFont(jaFontId)
 
   useEffect(() => {
     if (typeof window === "undefined") return
-    window.localStorage.setItem(STORAGE_KEY, fontId)
     loadGoogleFont(LINK_ID, font.googleHref)
     const stack = `${font.stack.replace(/, ?system-ui.*/, "")}, ${jaFont.stack}, system-ui, -apple-system, sans-serif`
     document.documentElement.style.setProperty("--font-sans", stack)
@@ -70,32 +143,30 @@ export function useFont() {
 
   useEffect(() => {
     if (typeof window === "undefined") return
-    window.localStorage.setItem(JA_STORAGE_KEY, jaFontId)
     loadGoogleFont(JA_LINK_ID, jaFont.googleHref)
   }, [jaFontId, jaFont.googleHref])
 
-  useEffect(() => {
-    if (typeof window === "undefined") return
-    window.localStorage.setItem(PRESET_STORAGE_KEY, presetId)
-  }, [presetId])
-
   function setFontId(id: string) {
-    setFontIdState(id)
     const matched = matchPreset(id, jaFontId)
-    setPresetIdState(matched ? matched.id : "")
+    writeFontState({
+      fontId: id,
+      jaFontId,
+      presetId: matched ? matched.id : "",
+    })
   }
 
   function setJaFontId(id: string) {
-    setJaFontIdState(id)
     const matched = matchPreset(fontId, id)
-    setPresetIdState(matched ? matched.id : "")
+    writeFontState({
+      fontId,
+      jaFontId: id,
+      presetId: matched ? matched.id : "",
+    })
   }
 
   function setPresetId(id: string) {
     const p = getPreset(id)
-    setPresetIdState(id)
-    setFontIdState(p.fontId)
-    setJaFontIdState(p.jaFontId)
+    writeFontState({ fontId: p.fontId, jaFontId: p.jaFontId, presetId: p.id })
   }
 
   return {

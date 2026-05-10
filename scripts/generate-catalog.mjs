@@ -55,7 +55,9 @@ function rgbToHex([r, g, b]) {
 
 function srgbToLinear(value) {
   const channel = value / 255
-  return channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4
+  return channel <= 0.04045
+    ? channel / 12.92
+    : ((channel + 0.055) / 1.055) ** 2.4
 }
 
 function rgbToOklch(rgb) {
@@ -98,10 +100,53 @@ function relativeLuminance(hex) {
 }
 
 const SEARCH_STOPWORDS = new Set([
-  "the","a","an","and","or","of","to","in","on","for","with","by","from","at","as","is","are","be",
-  "this","that","these","those","it","its","into","via","use","case","asset","type","prompt",
-  "morphous","transparent","cutout","source","mode","board","light","dark","ui","mockup",
-  "natural","photorealistic","design","system","reference","references",
+  "the",
+  "a",
+  "an",
+  "and",
+  "or",
+  "of",
+  "to",
+  "in",
+  "on",
+  "for",
+  "with",
+  "by",
+  "from",
+  "at",
+  "as",
+  "is",
+  "are",
+  "be",
+  "this",
+  "that",
+  "these",
+  "those",
+  "it",
+  "its",
+  "into",
+  "via",
+  "use",
+  "case",
+  "asset",
+  "type",
+  "prompt",
+  "morphous",
+  "transparent",
+  "cutout",
+  "source",
+  "mode",
+  "board",
+  "light",
+  "dark",
+  "ui",
+  "mockup",
+  "natural",
+  "photorealistic",
+  "design",
+  "system",
+  "reference",
+  "references",
 ])
 
 function buildSearchBlob(prompts) {
@@ -187,7 +232,9 @@ function buildTokensFromPalette(palette) {
   const muted = role(palette, "Muted", 3)
   const depth = role(palette, "Depth", 1)
   const border = hexToOklch(blendHex(surface.hex, muted.hex, 0.36))
-  const secondarySurface = hexToOklch(blendHex(surface.hex, background.hex, 0.42))
+  const secondarySurface = hexToOklch(
+    blendHex(surface.hex, background.hex, 0.42)
+  )
   const mutedSurface = hexToOklch(blendHex(surface.hex, background.hex, 0.28))
   const darkCard = hexToOklch(blendHex(depth.hex, ink.hex, 0.34))
   const darkMuted = hexToOklch(blendHex(depth.hex, muted.hex, 0.22))
@@ -268,7 +315,10 @@ function buildTokensFromPalette(palette) {
 
 function normalizeTokens(manifest, palette) {
   if (manifest.tokens || manifest.darkTokens) {
-    assert(manifest.tokens && manifest.darkTokens, `${manifest.slug} must provide both tokens and darkTokens`)
+    assert(
+      manifest.tokens && manifest.darkTokens,
+      `${manifest.slug} must provide both tokens and darkTokens`
+    )
     return {
       light: orderedTokens(manifest.tokens),
       dark: orderedTokens(manifest.darkTokens),
@@ -336,14 +386,21 @@ async function getSystemManifests() {
 }
 
 function shouldCatalog(manifest) {
-  return !["draft", "queued", "incomplete"].includes(String(manifest.status ?? "ready"))
+  return !["draft", "queued", "incomplete"].includes(
+    String(manifest.status ?? "ready")
+  )
 }
 
 async function hasCatalogInputs(manifest) {
   const slug = manifest.slug
   if (!slug || !manifest.assets) return false
   const assets = normalizeAssets(slug, manifest.assets)
-  const requiredPublicPaths = [assets.motif, assets.board, assets.darkBoard, assets.promptsJson]
+  const requiredPublicPaths = [
+    assets.motif,
+    assets.board,
+    assets.darkBoard,
+    assets.promptsJson,
+  ]
   for (const publicPath of requiredPublicPaths) {
     if (!publicPath || !(await existsPath(publicFile(publicPath)))) return false
   }
@@ -401,7 +458,10 @@ async function main() {
     if (!shouldCatalog(manifest)) continue
     if (!(await hasCatalogInputs(manifest))) continue
     const system = await buildSystem(manifestPath)
-    await fs.writeFile(publicFile(system.assets.themeCss), buildThemeCss(system))
+    await fs.writeFile(
+      publicFile(system.assets.themeCss),
+      buildThemeCss(system)
+    )
     await writeJson(publicFile(system.assets.themeJson), {
       schema: "morphous.theme.v1",
       source:
@@ -429,7 +489,7 @@ async function main() {
   await writeJson(path.join(dataDir, "systems.json"), systems)
   await fs.writeFile(
     path.join(dataDir, "systems.ts"),
-    `export type MorphousPrompt = {
+    `type MorphousPrompt = {
   id: string
   label: string
   asset: string
@@ -441,7 +501,7 @@ async function main() {
   postProcessing?: string
   kind?: string
 }
-export type MorphousAssetExample = { id: string; label: string; image: string }
+type MorphousAssetExample = { id: string; label: string; image: string }
 
 export type MorphousSystem = {
   slug: string
@@ -475,13 +535,13 @@ export type MorphousSystem = {
 
 export const systems = ${JSON.stringify(systems, null, 2)} satisfies Array<MorphousSystem>
 
-export const biomes = Array.from(new Set(systems.map((system) => system.biome))).sort()
 export const motifCategories = Array.from(new Set(systems.map((system) => system.motifCategory))).sort()
-export const allTags = Array.from(new Set(systems.flatMap((system) => system.tags))).sort()
 `
   )
 
-  process.stdout.write(`Generated ${systems.length} Morphous systems from per-system manifests.\n`)
+  process.stdout.write(
+    `Generated ${systems.length} Morphous systems from per-system manifests.\n`
+  )
 }
 
 main().catch((error) => {
