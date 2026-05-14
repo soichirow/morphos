@@ -1,0 +1,195 @@
+{
+  "schema": "morphous.system.v1",
+  "status": "ready",
+  "queueRow": 601,
+  "slug": "morphous-drosophila",
+  "name": "Morphous Drosophila",
+  "motifName": "Drosophila melanogaster",
+  "motifCategory": "insect",
+  "biome": "orchard edge",
+  "motif": "fruit fly specimen",
+  "paletteMood": "compound-eye red amber body translucent wing cream",
+  "designMood": "clean natural specimen system",
+  "description": "A shadcn/tweakcn-compatible natural specimen system derived from Drosophila melanogaster: compound-eye red actions, amber abdomen highlights, translucent wing-membrane panels, fine vein dividers, specimen-cream surfaces, and compact morphology catalog workflows.",
+  "typography": "Geist for precise English product UI, Geist Mono for specimen IDs and tabular observation metrics, and Noto Sans JP guidance for Japanese labels, morphology notes, collection tables, and observation states.",
+  "layout": "Compact 8px-grid interfaces, 8px maximum radii, specimen-tray layouts, fine wing-vein separators, bristle-line texture, translucent wing panels, readable forms and tables, and natural-history dashboard density.",
+  "themeReference": [
+    "design-system-light.png",
+    "design-system-dark.png"
+  ],
+  "sections": [
+    "palette",
+    "type",
+    "Japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "uiSections": [
+    "palette",
+    "type",
+    "japanese typography",
+    "components",
+    "navigation",
+    "dashboard/data",
+    "forms",
+    "tables",
+    "command/search",
+    "status",
+    "tokens",
+    "texture",
+    "radius",
+    "spacing",
+    "shadows"
+  ],
+  "tags": [
+    "drosophila",
+    "drosophila-melanogaster",
+    "fruit-fly",
+    "insect",
+    "orchard-edge",
+    "compound-eye-red",
+    "amber",
+    "translucent-wing",
+    "natural-specimen",
+    "dark-ready"
+  ],
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Slide Ivory",
+      "hex": "#f8f2e6"
+    },
+    {
+      "role": "Surface",
+      "name": "Specimen Cream",
+      "hex": "#fff8ec"
+    },
+    {
+      "role": "Primary",
+      "name": "Compound Eye Red",
+      "hex": "#b6382e"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Veil",
+      "hex": "#e8dcc5"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Abdomen",
+      "hex": "#c47b35"
+    },
+    {
+      "role": "Signal",
+      "name": "Fruit Gold",
+      "hex": "#d8a34a"
+    },
+    {
+      "role": "Support",
+      "name": "Wing Blue Gray",
+      "hex": "#aab8bd"
+    },
+    {
+      "role": "Muted",
+      "name": "Band Taupe",
+      "hex": "#8a7460"
+    },
+    {
+      "role": "Depth",
+      "name": "Thorax Umber",
+      "hex": "#3a2b22"
+    },
+    {
+      "role": "Ink",
+      "name": "Bristle Ink",
+      "hex": "#191614"
+    }
+  ],
+  "tokens": {
+    "background": "oklch(0.963 0.017 84.6)",
+    "foreground": "oklch(0.203 0.006 56.0)",
+    "card": "oklch(0.981 0.018 81.3)",
+    "card-foreground": "oklch(0.203 0.006 56.0)",
+    "popover": "oklch(0.981 0.018 81.3)",
+    "popover-foreground": "oklch(0.203 0.006 56.0)",
+    "primary": "oklch(0.525 0.164 28.5)",
+    "primary-foreground": "oklch(0.963 0.017 84.6)",
+    "secondary": "oklch(0.898 0.033 83.7)",
+    "secondary-foreground": "oklch(0.304 0.027 52.3)",
+    "muted": "oklch(0.898 0.033 83.7)",
+    "muted-foreground": "oklch(0.574 0.040 64.2)",
+    "accent": "oklch(0.648 0.124 61.1)",
+    "accent-foreground": "oklch(0.203 0.006 56.0)",
+    "destructive": "oklch(0.525 0.164 28.5)",
+    "border": "oklch(0.574 0.040 64.2 / 40%)",
+    "input": "oklch(0.574 0.040 64.2 / 48%)",
+    "ring": "oklch(0.749 0.123 77.8)",
+    "chart-1": "oklch(0.525 0.164 28.5)",
+    "chart-2": "oklch(0.648 0.124 61.1)",
+    "chart-3": "oklch(0.749 0.123 77.8)",
+    "chart-4": "oklch(0.773 0.017 221.1)",
+    "chart-5": "oklch(0.304 0.027 52.3)",
+    "sidebar": "oklch(0.981 0.018 81.3)",
+    "sidebar-foreground": "oklch(0.203 0.006 56.0)",
+    "sidebar-primary": "oklch(0.525 0.164 28.5)",
+    "sidebar-primary-foreground": "oklch(0.963 0.017 84.6)",
+    "sidebar-accent": "oklch(0.898 0.033 83.7)",
+    "sidebar-accent-foreground": "oklch(0.304 0.027 52.3)",
+    "sidebar-border": "oklch(0.574 0.040 64.2 / 40%)",
+    "sidebar-ring": "oklch(0.749 0.123 77.8)",
+    "radius": "0.5rem"
+  },
+  "darkTokens": {
+    "background": "oklch(0.203 0.006 56.0)",
+    "foreground": "oklch(0.963 0.017 84.6)",
+    "card": "oklch(0.304 0.027 52.3)",
+    "card-foreground": "oklch(0.963 0.017 84.6)",
+    "popover": "oklch(0.304 0.027 52.3)",
+    "popover-foreground": "oklch(0.963 0.017 84.6)",
+    "primary": "oklch(0.525 0.164 28.5)",
+    "primary-foreground": "oklch(0.963 0.017 84.6)",
+    "secondary": "oklch(0.304 0.027 52.3)",
+    "secondary-foreground": "oklch(0.898 0.033 83.7)",
+    "muted": "oklch(0.304 0.027 52.3)",
+    "muted-foreground": "oklch(0.898 0.033 83.7)",
+    "accent": "oklch(0.648 0.124 61.1)",
+    "accent-foreground": "oklch(0.203 0.006 56.0)",
+    "destructive": "oklch(0.525 0.164 28.5)",
+    "border": "oklch(0.773 0.017 221.1 / 22%)",
+    "input": "oklch(0.773 0.017 221.1 / 30%)",
+    "ring": "oklch(0.749 0.123 77.8)",
+    "chart-1": "oklch(0.525 0.164 28.5)",
+    "chart-2": "oklch(0.648 0.124 61.1)",
+    "chart-3": "oklch(0.749 0.123 77.8)",
+    "chart-4": "oklch(0.773 0.017 221.1)",
+    "chart-5": "oklch(0.898 0.033 83.7)",
+    "sidebar": "oklch(0.203 0.006 56.0)",
+    "sidebar-foreground": "oklch(0.963 0.017 84.6)",
+    "sidebar-primary": "oklch(0.525 0.164 28.5)",
+    "sidebar-primary-foreground": "oklch(0.963 0.017 84.6)",
+    "sidebar-accent": "oklch(0.304 0.027 52.3)",
+    "sidebar-accent-foreground": "oklch(0.898 0.033 83.7)",
+    "sidebar-border": "oklch(0.773 0.017 221.1 / 22%)",
+    "sidebar-ring": "oklch(0.749 0.123 77.8)",
+    "radius": "0.5rem"
+  },
+  "assets": {
+    "motif": "motif.png",
+    "board": "design-system-light.png",
+    "darkBoard": "design-system-dark.png",
+    "examples": [],
+    "themeCss": "theme.css",
+    "themeJson": "theme.json",
+    "promptsJson": "prompts.json"
+  }
+}

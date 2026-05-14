@@ -1,0 +1,200 @@
+{
+  "schema": "morphous.theme.v1",
+  "source": "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
+  "identity": {
+    "slug": "morphous-drosophila",
+    "name": "Morphous Drosophila",
+    "motifName": "Drosophila melanogaster",
+    "motifCategory": "insect",
+    "biome": "orchard edge",
+    "motif": "fruit fly specimen"
+  },
+  "palette": [
+    {
+      "role": "Background",
+      "name": "Slide Ivory",
+      "hex": "#f8f2e6",
+      "oklch": "oklch(0.963 0.017 84.6)"
+    },
+    {
+      "role": "Surface",
+      "name": "Specimen Cream",
+      "hex": "#fff8ec",
+      "oklch": "oklch(0.981 0.018 81.3)"
+    },
+    {
+      "role": "Primary",
+      "name": "Compound Eye Red",
+      "hex": "#b6382e",
+      "oklch": "oklch(0.525 0.164 28.5)"
+    },
+    {
+      "role": "Secondary",
+      "name": "Wing Veil",
+      "hex": "#e8dcc5",
+      "oklch": "oklch(0.898 0.033 83.7)"
+    },
+    {
+      "role": "Accent",
+      "name": "Amber Abdomen",
+      "hex": "#c47b35",
+      "oklch": "oklch(0.648 0.124 61.1)"
+    },
+    {
+      "role": "Signal",
+      "name": "Fruit Gold",
+      "hex": "#d8a34a",
+      "oklch": "oklch(0.749 0.123 77.8)"
+    },
+    {
+      "role": "Support",
+      "name": "Wing Blue Gray",
+      "hex": "#aab8bd",
+      "oklch": "oklch(0.773 0.017 221.1)"
+    },
+    {
+      "role": "Muted",
+      "name": "Band Taupe",
+      "hex": "#8a7460",
+      "oklch": "oklch(0.574 0.040 64.2)"
+    },
+    {
+      "role": "Depth",
+      "name": "Thorax Umber",
+      "hex": "#3a2b22",
+      "oklch": "oklch(0.304 0.027 52.3)"
+    },
+    {
+      "role": "Ink",
+      "name": "Bristle Ink",
+      "hex": "#191614",
+      "oklch": "oklch(0.203 0.006 56.0)"
+    }
+  ],
+  "light": {
+    "background": "oklch(0.963 0.017 84.6)",
+    "foreground": "oklch(0.203 0.006 56.0)",
+    "card": "oklch(0.981 0.018 81.3)",
+    "card-foreground": "oklch(0.203 0.006 56.0)",
+    "popover": "oklch(0.981 0.018 81.3)",
+    "popover-foreground": "oklch(0.203 0.006 56.0)",
+    "primary": "oklch(0.525 0.164 28.5)",
+    "primary-foreground": "oklch(0.963 0.017 84.6)",
+    "secondary": "oklch(0.898 0.033 83.7)",
+    "secondary-foreground": "oklch(0.304 0.027 52.3)",
+    "muted": "oklch(0.898 0.033 83.7)",
+    "muted-foreground": "oklch(0.574 0.040 64.2)",
+    "accent": "oklch(0.648 0.124 61.1)",
+    "accent-foreground": "oklch(0.203 0.006 56.0)",
+    "destructive": "oklch(0.525 0.164 28.5)",
+    "border": "oklch(0.574 0.040 64.2 / 40%)",
+    "input": "oklch(0.574 0.040 64.2 / 48%)",
+    "ring": "oklch(0.749 0.123 77.8)",
+    "chart-1": "oklch(0.525 0.164 28.5)",
+    "chart-2": "oklch(0.648 0.124 61.1)",
+    "chart-3": "oklch(0.749 0.123 77.8)",
+    "chart-4": "oklch(0.773 0.017 221.1)",
+    "chart-5": "oklch(0.304 0.027 52.3)",
+    "sidebar": "oklch(0.981 0.018 81.3)",
+    "sidebar-foreground": "oklch(0.203 0.006 56.0)",
+    "sidebar-primary": "oklch(0.525 0.164 28.5)",
+    "sidebar-primary-foreground": "oklch(0.963 0.017 84.6)",
+    "sidebar-accent": "oklch(0.898 0.033 83.7)",
+    "sidebar-accent-foreground": "oklch(0.304 0.027 52.3)",
+    "sidebar-border": "oklch(0.574 0.040 64.2 / 40%)",
+    "sidebar-ring": "oklch(0.749 0.123 77.8)",
+    "radius": "0.5rem"
+  },
+  "dark": {
+    "background": "oklch(0.203 0.006 56.0)",
+    "foreground": "oklch(0.963 0.017 84.6)",
+    "card": "oklch(0.304 0.027 52.3)",
+    "card-foreground": "oklch(0.963 0.017 84.6)",
+    "popover": "oklch(0.304 0.027 52.3)",
+    "popover-foreground": "oklch(0.963 0.017 84.6)",
+    "primary": "oklch(0.525 0.164 28.5)",
+    "primary-foreground": "oklch(0.963 0.017 84.6)",
+    "secondary": "oklch(0.304 0.027 52.3)",
+    "secondary-foreground": "oklch(0.898 0.033 83.7)",
+    "muted": "oklch(0.304 0.027 52.3)",
+    "muted-foreground": "oklch(0.898 0.033 83.7)",
+    "accent": "oklch(0.648 0.124 61.1)",
+    "accent-foreground": "oklch(0.203 0.006 56.0)",
+    "destructive": "oklch(0.525 0.164 28.5)",
+    "border": "oklch(0.773 0.017 221.1 / 22%)",
+    "input": "oklch(0.773 0.017 221.1 / 30%)",
+    "ring": "oklch(0.749 0.123 77.8)",
+    "chart-1": "oklch(0.525 0.164 28.5)",
+    "chart-2": "oklch(0.648 0.124 61.1)",
+    "chart-3": "oklch(0.749 0.123 77.8)",
+    "chart-4": "oklch(0.773 0.017 221.1)",
+    "chart-5": "oklch(0.898 0.033 83.7)",
+    "sidebar": "oklch(0.203 0.006 56.0)",
+    "sidebar-foreground": "oklch(0.963 0.017 84.6)",
+    "sidebar-primary": "oklch(0.525 0.164 28.5)",
+    "sidebar-primary-foreground": "oklch(0.963 0.017 84.6)",
+    "sidebar-accent": "oklch(0.304 0.027 52.3)",
+    "sidebar-accent-foreground": "oklch(0.898 0.033 83.7)",
+    "sidebar-border": "oklch(0.773 0.017 221.1 / 22%)",
+    "sidebar-ring": "oklch(0.749 0.123 77.8)",
+    "radius": "0.5rem"
+  },
+  "typography": "Geist for precise English product UI, Geist Mono for specimen IDs and tabular observation metrics, and Noto Sans JP guidance for Japanese labels, morphology notes, collection tables, and observation states.",
+  "layout": "Compact 8px-grid interfaces, 8px maximum radii, specimen-tray layouts, fine wing-vein separators, bristle-line texture, translucent wing panels, readable forms and tables, and natural-history dashboard density.",
+  "tags": [
+    "drosophila",
+    "drosophila-melanogaster",
+    "fruit-fly",
+    "insect",
+    "orchard-edge",
+    "compound-eye-red",
+    "amber",
+    "translucent-wing",
+    "natural-specimen",
+    "dark-ready"
+  ],
+  "assets": {
+    "motif": "/systems/morphous-drosophila/motif.png",
+    "board": "/systems/morphous-drosophila/design-system-light.png",
+    "darkBoard": "/systems/morphous-drosophila/design-system-dark.png",
+    "examples": [],
+    "themeCss": "/systems/morphous-drosophila/theme.css",
+    "themeJson": "/systems/morphous-drosophila/theme.json",
+    "promptsJson": "/systems/morphous-drosophila/prompts.json"
+  },
+  "prompts": [
+    {
+      "id": "motif",
+      "label": "Transparent Drosophila melanogaster motif",
+      "asset": "/systems/morphous-drosophila/motif.png",
+      "workflow": "Generated with the built-in image tool on a flat chroma-key background, then processed with remove_chroma_key.py.",
+      "postProcess": "Removed the flat green key to produce an RGBA transparent PNG.",
+      "prompt": "Use case: photorealistic-natural\nAsset type: Morphous Drosophila transparent motif chroma-key source\nPrimary request: Create only one isolated adult Drosophila melanogaster specimen for a Morphous design-system catalog, no environment, no props, no text.\nSubject: an accurate adult fruit fly, Drosophila melanogaster, full body visible in a clean natural specimen presentation, red compound eyes, amber tan thorax, warm banded abdomen, translucent veined wings held naturally over the body, fine bristles on thorax and legs, delicate antennae, small dark feet, believable insect anatomy and scale. The identity must read as Drosophila fruit fly, not housefly, mosquito, bee, wasp, gnat, dragonfly, or generic fly.\nComposition/framing: centered complete cutout with generous padding; slight three-quarter side profile, face angled to the right, entire body, both wings, legs, antennae, eye shape, and abdomen bands visible without cropping. Keep silhouette crisp and readable.\nLighting/mood: clean studio light that preserves the red compound eyes, amber body, translucent wing membranes, fine wing veins, and bristle details. Natural specimen mood, polished but not laboratory props.\nTransparent workflow: place the insect on a perfectly flat solid #00ff00 chroma-key background for background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, lighting variation, or texture. Do not use #00ff00 anywhere in the insect.\nConstraints: no fruit, no microscope, no petri dish, no lab bench, no pin, no label, no second insect, no landscape, no leaves, no flowers, no housefly, no mosquito, no bee, no wasp, no dragonfly, no cast shadow, no contact shadow, no reflection, no watermark, no text."
+    },
+    {
+      "id": "light-design-system",
+      "label": "Morphous Drosophila light design-system board",
+      "asset": "/systems/morphous-drosophila/design-system-light.png",
+      "sourceAsset": "/systems/morphous-drosophila/motif.png",
+      "referenceAssets": [
+        "/systems/morphous-drosophila/motif.png"
+      ],
+      "workflow": "Generated after the motif asset, then normalized to the catalog board size.",
+      "postProcess": "Padded and resampled the generated source board to 3840 x 2160 without distorting its layout.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Drosophila light-mode design-system board\nPrimary request: Generate one comprehensive light-mode design-system board titled exactly \"Morphous Drosophila\" with subtitle \"Drosophila melanogaster natural specimen system\". It must be derived from the Drosophila melanogaster motif generated in the previous step: red compound eyes, amber tan thorax, warm banded abdomen, translucent veined wings, fine bristles, delicate antennae, and compact fruit-fly anatomy. This board is a source reference for implementing a shadcn/tweakcn-compatible natural specimen interface system.\nCanvas: exact wide 16:9 design-system presentation, intended final asset 3840 x 2160. Make it feel like a polished 4K product design board with large readable labels, precise grid, and no tiny text.\nRequired visible sections: Morphous Drosophila, Drosophila melanogaster, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Asset Examples.\nReference use: Extract colors and interaction language from the fruit fly motif: compound-eye red, amber abdomen bands, translucent wing membrane, fine wing veins, bristle ink, specimen cream, thorax umber, subtle wing blue-gray, and fruit-gold highlights. The board must read as a natural Drosophila specimen and morphology catalog system, not a laboratory, genetics, or experiment-management UI.\nVisible UI vocabulary: use field and specimen words only, such as Overview, Specimens, Morphology, Wing Veins, Habitat, Orchard Edge, Field Notes, Observation, Collection, Reports, Media, Settings. Japanese labels may include 標本, 形態, 翅脈, 観察, 採集, 記録, 設定. Do not show words like Lab, Laboratory, Experiment, Genetics, Genotype, Strain, Assay, Vial, Incubator, Microscope, Sequencing, Protocol, or Culture.\nTypography: English specimen catalog and observation UI examples with Japanese typography guidance; use short readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use tabular numbers for specimen counts and observation metrics.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, icon buttons, inputs, select, textarea, checkbox, radio, switch, segmented control, tabs, badges, alerts, cards, natural specimen navigation sidebar, top nav, breadcrumb, table rows, data filters, command search palette, date picker, pagination, empty/loading/error/success states, progress, stepper, tooltip, dropdown menu, line chart, bar chart, donut chart, area chart, spacing scale, radius samples, border tokens, shadow tokens, texture samples, small natural specimen icon set, token swatches.\nCharts: include visible line, bar, donut, and area charts using compound-eye red, amber abdomen, fruit gold, wing blue-gray, band taupe, and bristle ink.\nStyle: crisp shadcn/tweakcn product UI, restrained 8px card radius, natural-history specimen-tray layouts, fine wing-vein dividers, subtle bristle-line texture, translucent wing-membrane panels, compact observation dashboards, pale slide-ivory background, specimen-cream cards, bristle-ink text, compound-eye red primary actions, amber focus rings, band-taupe separators.\nColor palette labels to show: Slide Ivory, Specimen Cream, Compound Eye Red, Amber Abdomen, Fruit Gold, Wing Veil, Wing Blue Gray, Band Taupe, Thorax Umber, Bristle Ink.\nGenerated asset examples: show abstract wing-vein texture strips, specimen-card thumbnails, and morphology icons only; do not show lab vials, petri dishes, microscopes, test tubes, fruit props, or lab benches.\nColor constraints: use only motif-derived colors plus near-neutrals from the fruit fly. Avoid unrelated saturated colors.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no lab equipment, no lab vocabulary, no microscope, no petri dish, no vial, no test tube, no lab bench, no fruit props, no housefly label, no mosquito, no bee, no wasp, no generic purple or blue gradient dominance, no stock photo collage, no extra animals, no random brand names, no watermark, no misspelling of \"Morphous Drosophila\", no tiny unreadable paragraphs."
+    },
+    {
+      "id": "dark-design-system",
+      "label": "Morphous Drosophila dark design-system board",
+      "asset": "/systems/morphous-drosophila/design-system-dark.png",
+      "sourceAsset": "/systems/morphous-drosophila/design-system-light.png",
+      "referenceAssets": [
+        "/systems/morphous-drosophila/motif.png",
+        "/systems/morphous-drosophila/design-system-light.png"
+      ],
+      "workflow": "Generated after the light board as the same system translated into dark mode.",
+      "postProcess": "Padded and resampled the generated source board to 3840 x 2160 without distorting its layout.",
+      "prompt": "Use case: ui-mockup\nAsset type: Morphous Drosophila dark-mode design-system board\nPrimary request: Generate one comprehensive dark-mode design-system board titled exactly \"Morphous Drosophila\" with subtitle \"Dark Mode\" and \"Drosophila melanogaster natural specimen system\". Translate the same visible Drosophila melanogaster motif and accepted light-mode board direction into dark mode; do not invent a new unrelated theme.\nCanvas: exact wide 16:9 design-system presentation, intended final asset 3840 x 2160. Make it feel like a polished 4K product design board with large readable labels, precise grid, and no tiny text.\nRequired visible sections: Morphous Drosophila, Drosophila melanogaster, Dark Mode, Palette, Typography, Japanese Typography, Components, Navigation, Dashboard/Data, Forms, Table, Command/Search, Status States, Texture, Radius, Spacing, Shadow, Tokens, Generated Asset Examples.\nReference use: Preserve the same motif-derived system language: red compound eyes, amber abdomen bands, translucent veined wings, fine bristle-line texture, wing-membrane panels, specimen-tray layouts, compact observation dashboards, 8px card radius, and multilingual product UI guidance. The board must read as a natural Drosophila specimen and morphology catalog system, not a laboratory, genetics, or experiment-management UI.\nVisible UI vocabulary: use field and specimen words only, such as Overview, Specimens, Morphology, Wing Veins, Habitat, Orchard Edge, Field Notes, Observation, Collection, Reports, Media, Settings. Japanese labels may include 標本, 形態, 翅脈, 観察, 採集, 記録, 設定. Do not show words like Lab, Laboratory, Experiment, Genetics, Genotype, Strain, Assay, Vial, Incubator, Microscope, Sequencing, Protocol, or Culture.\nTypography: English specimen catalog and observation UI examples with Japanese typography guidance; use short readable labels such as Geist, Display, Body, Label, Numbers, Noto Sans JP, Japanese UI, headings, body, labels, numbers. Use tabular numbers for specimen counts and observation metrics.\nUI coverage: primary/secondary/ghost/destructive buttons, hover/pressed/disabled/loading states, icon buttons, inputs, select, textarea, checkbox, radio, switch, segmented control, tabs, badges, alerts, cards, natural specimen navigation sidebar, top nav, breadcrumb, table rows, data filters, command search palette, date picker, pagination, empty/loading/error/success states, progress, stepper, tooltip, dropdown menu, line chart, bar chart, donut chart, area chart, spacing scale, radius samples, border tokens, shadow tokens, texture samples, small natural specimen icon set, token swatches.\nCharts: include visible line, bar, donut, and area charts using compound-eye red, amber abdomen, fruit gold, wing blue-gray, band taupe, thorax umber, and bristle ink.\nVisual details: deep bristle-ink background, thorax-umber cards, pale wing-veil text, compound-eye red primary actions, amber abdomen focus rings, fruit-gold highlight metrics, wing blue-gray borders, fine wing-vein dividers, subtle bristle texture overlays, restrained shadows, crisp shadcn/tweakcn-compatible controls and dashboards.\nColor palette labels to show: Bristle Ink, Thorax Umber, Compound Eye Red, Amber Abdomen, Fruit Gold, Wing Veil, Wing Blue Gray, Band Taupe, Specimen Cream, Slide Ivory.\nGenerated asset examples: show abstract wing-vein texture strips, specimen-card thumbnails, and morphology icons only; do not show lab vials, petri dishes, microscopes, test tubes, fruit props, or lab benches.\nColor constraints: use only motif-derived colors plus near-neutrals from the fruit fly. Avoid unrelated saturated colors.\nText: short readable UI labels only; no long paragraphs.\nConstraints: no lab equipment, no lab vocabulary, no microscope, no petri dish, no vial, no test tube, no lab bench, no fruit props, no housefly label, no mosquito, no bee, no wasp, no neon nightclub palette, no pure flat black background, no generic purple or blue gradient dominance, no stock photo collage, no extra animals, no random brand names, no watermark, no misspelling of \"Morphous Drosophila\", no tiny unreadable paragraphs."
+    }
+  ]
+}
