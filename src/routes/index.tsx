@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button"
 import { LanguageToggle } from "@/components/language-toggle"
 import { systems } from "@/data/systems"
 import { PreviewImage } from "@/components/preview-image"
-import { translateTaxonomy } from "@/lib/i18n"
+import { translateBiome, translateTaxonomy } from "@/lib/i18n"
 import { useLanguage } from "@/lib/i18n-context"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 
@@ -197,7 +197,7 @@ function LandingRoute() {
             >
               shadcn/ui
             </a>{" "}
-            {t("landing.and")} {" "}
+            {t("landing.and")}{" "}
             <a
               href="https://tweakcn.com"
               target="_blank"
@@ -358,7 +358,8 @@ function FeatureCard({
       </span>
       <div className="border-t border-border p-3">
         <p className="text-[10px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
-          {translateTaxonomy(language, system.motifCategory)} · {system.biome}
+          {translateTaxonomy(language, system.motifCategory)} ·{" "}
+          {translateBiome(language, system.biome)}
         </p>
         <p className="mt-1 truncate text-sm font-semibold">{system.name}</p>
         <span

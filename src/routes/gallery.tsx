@@ -21,6 +21,7 @@ import {
   Palette,
   Search,
   Share2,
+  Shuffle,
   Sparkles,
   Sun,
   X,
@@ -34,9 +35,11 @@ import { OfficeDownload } from "@/components/office-download"
 import { TypographyPicker } from "@/components/typography-picker"
 import { motifCategories, systems } from "@/data/systems"
 import {
+  translateBiome,
   translateColor,
   translateRole,
   translateSort,
+  translateSystemDescription,
   translateTaxonomy,
 } from "@/lib/i18n"
 import { useLanguage } from "@/lib/i18n-context"
@@ -51,6 +54,7 @@ import {
   parseFavoriteSlugs,
   toggleFavoriteSlug,
 } from "@/lib/share-favorites"
+import { pickRandomSystemSlug } from "@/lib/random-system"
 
 type GallerySearch = {
   system?: string
@@ -286,10 +290,7 @@ function CatalogRoute() {
   const search = Route.useSearch()
   const navigate = useNavigate({ from: Route.fullPath })
   const paramSlug = search.system
-  const initialSlug =
-    (paramSlug && systems.find((s) => s.slug === paramSlug)?.slug) ||
-    systems[0]?.slug ||
-    ""
+  const initialSlug = systems[0]?.slug ?? ""
   const query = search.q ?? ""
   const category = search.category ?? "all"
   const sort: SortKey = search.sort ?? "name"
@@ -398,8 +399,11 @@ function CatalogRoute() {
     Boolean(searchColor)
 
   useEffect(() => {
-    if (paramSlug && systems.some((s) => s.slug === paramSlug)) {
-      dispatchCatalog({ type: "setActiveSlug", value: paramSlug })
+    const requestedSlug =
+      new URLSearchParams(window.location.search).get("system") ?? paramSlug
+
+    if (requestedSlug && systems.some((s) => s.slug === requestedSlug)) {
+      dispatchCatalog({ type: "setActiveSlug", value: requestedSlug })
     }
   }, [paramSlug])
   const {
@@ -499,6 +503,24 @@ function CatalogRoute() {
     [updateSearch]
   )
 
+  const showRandomSystem = useCallback(() => {
+    const pool = filteredSystems.length > 0 ? filteredSystems : systems
+    const slug = pickRandomSystemSlug(
+      pool.map((system) => system.slug),
+      activeSlug
+    )
+
+    if (!slug || slug === activeSlug) return
+    dispatchCatalog({ type: "selectMobileSystem", value: slug })
+    updateSearch({ system: slug })
+    window.requestAnimationFrame(() => {
+      detailRef.current?.scrollIntoView({
+        block: "start",
+        behavior: "smooth",
+      })
+    })
+  }, [activeSlug, filteredSystems, updateSearch])
+
   const selectMobileSystem = useCallback(
     (slug: string) => {
       dispatchCatalog({ type: "selectMobileSystem", value: slug })
@@ -561,6 +583,7 @@ function CatalogRoute() {
               onSortChange={setSort}
               hasActiveFilters={hasActiveFilters}
               onClearFilters={clearAll}
+              onRandomSystem={showRandomSystem}
             />
 
             <CatalogContent
@@ -742,6 +765,7 @@ function GalleryHeader({
   onSortChange,
   hasActiveFilters,
   onClearFilters,
+  onRandomSystem,
 }: {
   activeSystem: MorphousSystem
   mode: ThemeMode
@@ -764,6 +788,7 @@ function GalleryHeader({
   onSortChange: (value: SortKey) => void
   hasActiveFilters: boolean
   onClearFilters: () => void
+  onRandomSystem: () => void
 }) {
   const { language, t } = useLanguage()
   return (
@@ -840,6 +865,10 @@ function GalleryHeader({
           ) : null}
         </label>
         <div className="flex flex-wrap items-center gap-2">
+          <Button variant="outline" size="sm" onClick={onRandomSystem}>
+            <Shuffle data-icon="inline-start" />
+            {t("gallery.randomSystem")}
+          </Button>
           <ColorSearch
             value={searchColor}
             role={colorRole}
@@ -1302,7 +1331,7 @@ function Hero({ system }: { system: MorphousSystem }) {
               {translateTaxonomy(language, system.motifCategory)}
             </span>
             <span className="size-1 rounded-full bg-border" aria-hidden />
-            <span>{system.biome}</span>
+            <span>{translateBiome(language, system.biome)}</span>
             {system.tags.slice(0, 4).map((tag) => (
               <span
                 key={tag}
@@ -1318,7 +1347,11 @@ function Hero({ system }: { system: MorphousSystem }) {
               {system.name}
             </h2>
             <p className="text-sm leading-6 text-muted-foreground sm:text-base sm:leading-7 lg:text-lg">
-              {system.description}
+              {translateSystemDescription(
+                language,
+                system.slug,
+                system.description
+              )}
             </p>
           </div>
 

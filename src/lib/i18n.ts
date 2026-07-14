@@ -138,6 +138,7 @@ export const messages = {
     ja: "モチーフ・カテゴリ・プロンプトを検索",
     en: "Search motif, category, prompt",
   },
+  "gallery.randomSystem": { ja: "ランダム表示", en: "Show random" },
   "gallery.clearSearch": { ja: "検索をクリア", en: "Clear search" },
   "gallery.motifFilter": { ja: "モチーフ", en: "Motif" },
   "gallery.sort": { ja: "並び順", en: "Sort" },
@@ -535,4 +536,27 @@ export function translateSort(language: Language, value: string): string {
 
 export function translateColor(language: Language, value: string): string {
   return language === "ja" ? (japaneseColors[value] ?? value) : value
+}
+
+const japaneseBiomes: Record<string, string> = {
+  "mediterranean field": "地中海の野原",
+}
+
+const japaneseSystemDescriptions: Record<string, string> = {
+  "morphous-artichoke":
+    "地中海の畑に育つアーティチョークのつぼみから着想を得た、shadcn／tweakcn互換の構造的なコンテンツシステムです。セージグリーンの苞、くすんだオリーブの骨格、銀色がかった表面、落ち着いた紫の中心、淡い茎のクリーム色、温かみのある苞先、オリーブチャコールの奥行きを、階層的な編集ワークフローへ展開します。",
+}
+
+export function translateBiome(language: Language, value: string): string {
+  return language === "ja" ? (japaneseBiomes[value] ?? value) : value
+}
+
+export function translateSystemDescription(
+  language: Language,
+  slug: string,
+  fallback: string
+): string {
+  return language === "ja"
+    ? (japaneseSystemDescriptions[slug] ?? fallback)
+    : fallback
 }
