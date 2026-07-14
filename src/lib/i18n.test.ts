@@ -14,6 +14,8 @@ import {
 describe("i18n", () => {
   it("provides Japanese and English labels for the same UI concept", () => {
     expect(translate("ja", "gallery.palette")).toBe("パレット")
+    expect(translate("ja", "gallery.copyThemeCss")).toBe("theme.cssをコピー")
+    expect(translate("en", "gallery.copyPromptsJson")).toBe("Copy prompts.json")
     expect(translate("en", "gallery.palette")).toBe("Palette")
   })
 

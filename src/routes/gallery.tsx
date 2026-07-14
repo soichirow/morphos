@@ -14,7 +14,6 @@ import {
   ChevronDown,
   Copy,
   Download,
-  FileCode2,
   Heart,
   Image as ImageIcon,
   Moon,
@@ -29,6 +28,7 @@ import {
 
 import type { ThemeMode } from "@/lib/morphous-theme"
 import type { MorphousSystem } from "@/data/systems"
+import { CopyTextButton } from "@/components/copy-text-button"
 import { LanguageToggle } from "@/components/language-toggle"
 import { Button } from "@/components/ui/button"
 import { OfficeDownload } from "@/components/office-download"
@@ -44,6 +44,11 @@ import {
 } from "@/lib/i18n"
 import { useLanguage } from "@/lib/i18n-context"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
+import {
+  buildPromptsJson,
+  buildThemeCss,
+  buildThemeJson,
+} from "@/lib/copy-artifacts"
 import { PreviewImage } from "@/components/preview-image"
 import { colorDistance } from "@/lib/color-distance"
 import { useFont } from "@/lib/use-font"
@@ -1040,12 +1045,11 @@ function SystemDetail({
               {t("gallery.promptsHelp")}
             </p>
           </div>
-          <Button asChild variant="outline" size="sm">
-            <a href={activeSystem.assets.promptsJson} download>
-              <Download data-icon="inline-start" />
-              prompts.json
-            </a>
-          </Button>
+          <CopyTextButton
+            getText={() => buildPromptsJson(activeSystem)}
+            title={t("gallery.copyPromptsJson")}
+            label="prompts.json"
+          />
         </div>
         <div className="mt-4 grid gap-3 lg:grid-cols-2">
           {activeSystem.prompts.map((prompt) => (
@@ -1263,46 +1267,25 @@ function ActionBar({
             className="mx-1 hidden h-5 w-px bg-border sm:block"
             aria-hidden
           />
-          <Button asChild size="sm" title={t("gallery.downloadThemeCss")}>
-            <a
-              href={system.assets.themeCss}
-              download
-              aria-label={t("gallery.downloadThemeCss")}
-            >
-              <FileCode2 data-icon="inline-start" />
-              <span className="hidden sm:inline">CSS</span>
-            </a>
-          </Button>
-          <Button
-            asChild
-            size="sm"
-            variant="outline"
-            title={t("gallery.downloadThemeJson")}
-          >
-            <a
-              href={system.assets.themeJson}
-              download
-              aria-label={t("gallery.downloadThemeJson")}
-            >
-              <Download data-icon="inline-start" />
-              <span className="hidden sm:inline">JSON</span>
-            </a>
-          </Button>
-          <Button
-            asChild
-            size="sm"
-            variant="outline"
-            title={t("gallery.downloadPromptsJson")}
-          >
-            <a
-              href={system.assets.promptsJson}
-              download
-              aria-label={t("gallery.downloadPromptsJson")}
-            >
-              <Copy data-icon="inline-start" />
-              <span className="hidden sm:inline">{t("gallery.prompts")}</span>
-            </a>
-          </Button>
+          <CopyTextButton
+            getText={() => buildThemeCss(system)}
+            title={t("gallery.copyThemeCss")}
+            label="CSS"
+            compact
+            variant="default"
+          />
+          <CopyTextButton
+            getText={() => buildThemeJson(system)}
+            title={t("gallery.copyThemeJson")}
+            label="JSON"
+            compact
+          />
+          <CopyTextButton
+            getText={() => buildPromptsJson(system)}
+            title={t("gallery.copyPromptsJson")}
+            label={t("gallery.prompts")}
+            compact
+          />
           <span
             className="mx-1 hidden h-5 w-px bg-border sm:block"
             aria-hidden
@@ -2419,20 +2402,7 @@ function Alert({
 
 function TokensPanel({ system }: { system: MorphousSystem }) {
   const { t } = useLanguage()
-  const [copied, setCopied] = useState(false)
-  const lightCss = blockToCss(":root", system.tokens)
-  const darkCss = blockToCss(".dark", system.darkTokens)
-  const fullCss = `${lightCss}\n\n${darkCss}\n`
-
-  const onCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(fullCss)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1200)
-    } catch {
-      // ignore
-    }
-  }
+  const fullCss = buildThemeCss(system)
 
   return (
     <section className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
@@ -2444,20 +2414,12 @@ function TokensPanel({ system }: { system: MorphousSystem }) {
           </p>
         </div>
         <div className="flex flex-wrap gap-1.5">
-          <Button asChild size="sm" variant="outline">
-            <a href={system.assets.themeCss} download>
-              <FileCode2 data-icon="inline-start" />
-              theme.css
-            </a>
-          </Button>
-          <Button size="sm" onClick={onCopy}>
-            {copied ? (
-              <Check data-icon="inline-start" />
-            ) : (
-              <Copy data-icon="inline-start" />
-            )}
-            {copied ? t("common.copied") : t("common.copyAll")}
-          </Button>
+          <CopyTextButton
+            getText={() => fullCss}
+            title={t("gallery.copyThemeCss")}
+            label={t("common.copyAll")}
+            variant="default"
+          />
         </div>
       </div>
       <div className="mt-4 overflow-hidden rounded-lg border border-border bg-background">
@@ -2478,12 +2440,6 @@ function TokensPanel({ system }: { system: MorphousSystem }) {
     </section>
   )
 }
-
-function blockToCss(selector: string, tokens: Record<string, string>): string {
-  const lines = Object.entries(tokens).map(([k, v]) => `  --${k}: ${v};`)
-  return `${selector} {\n${lines.join("\n")}\n}`
-}
-
 function Switch({
   checked,
   onChange,

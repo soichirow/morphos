@@ -378,17 +378,17 @@ export const messages = {
     ja: "プロンプトをコピーしました",
     en: "Prompt copied",
   },
-  "gallery.downloadThemeCss": {
-    ja: "theme.cssをダウンロード",
-    en: "Download theme.css",
+  "gallery.copyThemeCss": {
+    ja: "theme.cssをコピー",
+    en: "Copy theme.css",
   },
-  "gallery.downloadThemeJson": {
-    ja: "theme.jsonをダウンロード",
-    en: "Download theme.json",
+  "gallery.copyThemeJson": {
+    ja: "theme.jsonをコピー",
+    en: "Copy theme.json",
   },
-  "gallery.downloadPromptsJson": {
-    ja: "prompts.jsonをダウンロード",
-    en: "Download prompts.json",
+  "gallery.copyPromptsJson": {
+    ja: "prompts.jsonをコピー",
+    en: "Copy prompts.json",
   },
   "gallery.weeklyThroughput": {
     ja: "週間スループット",
