@@ -1,5 +1,5 @@
 {
-  "name": "morphous",
+  "name": "morphos-ja",
   "private": true,
   "license": "MIT OR Apache-2.0",
   "type": "module",
@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite dev --port 3000",
     "build": "vite build",
+    "build:cloudflare": "npm run build && node scripts/prepare-cloudflare.mjs",
+    "deploy": "npm run build:cloudflare && wrangler pages deploy .output/public --project-name=morphos-ja --branch=main",
     "preview": "vite preview",
     "prepare": "husky",
     "check": "bun run lint && bun run typecheck",
@@ -73,6 +75,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vitest": "^3.2.4",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.1.0",
+    "wrangler": "^4.110.0"
   }
 }

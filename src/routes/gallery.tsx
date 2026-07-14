@@ -15,10 +15,12 @@ import {
   Copy,
   Download,
   FileCode2,
+  Heart,
   Image as ImageIcon,
   Moon,
   Palette,
   Search,
+  Share2,
   Sparkles,
   Sun,
   X,
@@ -35,6 +37,12 @@ import { PreviewImage } from "@/components/preview-image"
 import { colorDistance } from "@/lib/color-distance"
 import { useFont } from "@/lib/use-font"
 import { usePaletteOverrides } from "@/lib/use-palette-overrides"
+import {
+  FAVORITES_STORAGE_KEY,
+  buildSystemShareUrl,
+  parseFavoriteSlugs,
+  toggleFavoriteSlug,
+} from "@/lib/share-favorites"
 
 type GallerySearch = {
   system?: string
@@ -47,6 +55,10 @@ type LightboxItem = { src: string; alt: string; downloadName?: string }
 const LightboxContext = createContext<((item: LightboxItem) => void) | null>(
   null
 )
+const FavoritesContext = createContext<{
+  slugs: Array<string>
+  toggle: (slug: string) => void
+}>({ slugs: [], toggle: () => undefined })
 const useLightbox = () => use(LightboxContext)
 
 function Lightbox({
@@ -285,9 +297,31 @@ function CatalogRoute() {
     activeSlug,
     lightbox,
   } = catalogState
+  const [favoriteSlugs, setFavoriteSlugs] = useState<Array<string>>([])
+  const [favoritesLoaded, setFavoritesLoaded] = useState(false)
   const previousMobileFilterSignature = useRef("")
   const suppressNextMobileAutoOpen = useRef(false)
   const detailRef = useRef<HTMLDivElement | null>(null)
+
+  useEffect(() => {
+    setFavoriteSlugs(
+      parseFavoriteSlugs(window.localStorage.getItem(FAVORITES_STORAGE_KEY))
+    )
+    setFavoritesLoaded(true)
+  }, [])
+
+  useEffect(() => {
+    if (!favoritesLoaded) return
+    window.localStorage.setItem(
+      FAVORITES_STORAGE_KEY,
+      JSON.stringify(favoriteSlugs)
+    )
+  }, [favoriteSlugs, favoritesLoaded])
+
+  const toggleFavorite = useCallback((slug: string) => {
+    setFavoriteSlugs((current) => toggleFavoriteSlug(current, slug))
+  }, [])
+
   const updateSearch = useCallback(
     (patch: Partial<GallerySearch>) => {
       navigate({
@@ -448,87 +482,102 @@ function CatalogRoute() {
     setMobileResultsOpen(true)
   }, [filtersAreDefault, mobileFilterSignature])
 
-  const selectSystem = useCallback((slug: string) => {
-    dispatchCatalog({ type: "setActiveSlug", value: slug })
-  }, [])
+  const selectSystem = useCallback(
+    (slug: string) => {
+      dispatchCatalog({ type: "setActiveSlug", value: slug })
+      updateSearch({ system: slug })
+    },
+    [updateSearch]
+  )
 
-  const selectMobileSystem = useCallback((slug: string) => {
-    dispatchCatalog({ type: "selectMobileSystem", value: slug })
-    window.requestAnimationFrame(() => {
-      detailRef.current?.scrollIntoView({ block: "start", behavior: "smooth" })
-    })
-  }, [])
+  const selectMobileSystem = useCallback(
+    (slug: string) => {
+      dispatchCatalog({ type: "selectMobileSystem", value: slug })
+      window.requestAnimationFrame(() => {
+        updateSearch({ system: slug })
+        detailRef.current?.scrollIntoView({
+          block: "start",
+          behavior: "smooth",
+        })
+      })
+    },
+    [updateSearch]
+  )
 
   return (
-    <LightboxContext.Provider value={openLightbox}>
-      <div
-        className={mode === "dark" ? "dark" : ""}
-        style={{ ...themeStyle(activeSystem, mode), fontFamily: font.stack }}
-      >
-        {lightbox ? (
-          <Lightbox item={lightbox} onClose={() => setLightbox(null)} />
-        ) : null}
+    <FavoritesContext.Provider
+      value={{ slugs: favoriteSlugs, toggle: toggleFavorite }}
+    >
+      <LightboxContext.Provider value={openLightbox}>
         <div
-          className="pointer-events-none fixed inset-0 -z-10"
-          style={{
-            background:
-              "radial-gradient(60% 50% at 80% 0%, color-mix(in oklch, var(--page-glow), transparent 70%), transparent 70%), " +
-              "radial-gradient(80% 60% at 0% 100%, color-mix(in oklch, var(--palette-primary), transparent 80%), transparent 70%), " +
-              "linear-gradient(180deg, var(--page-bg-from), var(--page-bg-to))",
-          }}
-        />
-
-        <main className="relative min-h-svh overflow-x-hidden text-foreground">
-          <GalleryHeader
-            activeSystem={activeSystem}
-            mode={mode}
-            onModeChange={setMode}
-            presetId={presetId}
-            onPresetChange={setPresetId}
-            fontId={fontId}
-            onFontChange={setFontId}
-            jaFontId={jaFontId}
-            onJaFontChange={setJaFontId}
-            query={query}
-            onQueryChange={setQuery}
-            searchColor={searchColor}
-            colorRole={colorRole}
-            onColorChange={(c) => {
-              setSearchColor(c)
-              if (c) setSort("color")
+          className={mode === "dark" ? "dark" : ""}
+          style={{ ...themeStyle(activeSystem, mode), fontFamily: font.stack }}
+        >
+          {lightbox ? (
+            <Lightbox item={lightbox} onClose={() => setLightbox(null)} />
+          ) : null}
+          <div
+            className="pointer-events-none fixed inset-0 -z-10"
+            style={{
+              background:
+                "radial-gradient(60% 50% at 80% 0%, color-mix(in oklch, var(--page-glow), transparent 70%), transparent 70%), " +
+                "radial-gradient(80% 60% at 0% 100%, color-mix(in oklch, var(--palette-primary), transparent 80%), transparent 70%), " +
+                "linear-gradient(180deg, var(--page-bg-from), var(--page-bg-to))",
             }}
-            onColorRoleChange={setColorRole}
-            category={category}
-            onCategoryChange={setCategory}
-            sort={sort}
-            onSortChange={setSort}
-            hasActiveFilters={hasActiveFilters}
-            onClearFilters={clearAll}
           />
 
-          <CatalogContent
-            filteredSystems={filteredSystems}
-            activeSystem={activeSystem}
-            mobileResultsOpen={mobileResultsOpen}
-            onMobileResultsOpenChange={setMobileResultsOpen}
-            onMobileSelect={selectMobileSystem}
-            onClearFilters={clearAll}
-            onDesktopSelect={selectSystem}
-            detailRef={detailRef}
-            mode={mode}
-            onModeChange={setMode}
-            fontId={fontId}
-            jaFontId={jaFontId}
-            overrides={overrides}
-            hasOverrides={hasOverrides}
-            setOverride={setOverride}
-            resetOverrides={resetOverrides}
-          />
+          <main className="relative min-h-svh overflow-x-hidden text-foreground">
+            <GalleryHeader
+              activeSystem={activeSystem}
+              mode={mode}
+              onModeChange={setMode}
+              presetId={presetId}
+              onPresetChange={setPresetId}
+              fontId={fontId}
+              onFontChange={setFontId}
+              jaFontId={jaFontId}
+              onJaFontChange={setJaFontId}
+              query={query}
+              onQueryChange={setQuery}
+              searchColor={searchColor}
+              colorRole={colorRole}
+              onColorChange={(c) => {
+                setSearchColor(c)
+                if (c) setSort("color")
+              }}
+              onColorRoleChange={setColorRole}
+              category={category}
+              onCategoryChange={setCategory}
+              sort={sort}
+              onSortChange={setSort}
+              hasActiveFilters={hasActiveFilters}
+              onClearFilters={clearAll}
+            />
 
-          <CatalogFooter />
-        </main>
-      </div>
-    </LightboxContext.Provider>
+            <CatalogContent
+              filteredSystems={filteredSystems}
+              activeSystem={activeSystem}
+              mobileResultsOpen={mobileResultsOpen}
+              onMobileResultsOpenChange={setMobileResultsOpen}
+              onMobileSelect={selectMobileSystem}
+              onClearFilters={clearAll}
+              onDesktopSelect={selectSystem}
+              detailRef={detailRef}
+              mode={mode}
+              onModeChange={setMode}
+              fontId={fontId}
+              jaFontId={jaFontId}
+              overrides={overrides}
+              hasOverrides={hasOverrides}
+              setOverride={setOverride}
+              resetOverrides={resetOverrides}
+            />
+
+            <CatalogFooter />
+          </main>
+        </div>
+      </LightboxContext.Provider>
+    </FavoritesContext.Provider>
   )
 }
 
@@ -627,11 +676,11 @@ function CatalogFooter() {
     <footer className="mx-auto max-w-[88rem] border-t border-border/60 px-4 py-6 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
         <Link to="/" className="hover:text-foreground hover:underline">
-          Morphous · {systems.length} systems · AI-generated motifs
+          Morphous 日本語版 · {systems.length}種類のデザインシステム
         </Link>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
           <a
-            href="https://github.com/Ameyanagi/morphos"
+            href="https://github.com/soichirow/morphos"
             target="_blank"
             rel="noreferrer noopener"
             className="hover:text-foreground hover:underline"
@@ -644,7 +693,7 @@ function CatalogFooter() {
             rel="noreferrer noopener"
             className="hover:text-foreground hover:underline"
           >
-            Built by Ameyanagi
+            原作: Ameyanagi
           </a>
           <span className="text-muted-foreground/70">MIT or Apache-2.0</span>
           <button
@@ -652,7 +701,7 @@ function CatalogFooter() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="font-medium text-primary hover:underline"
           >
-            Back to top ↑
+            ページ上部へ ↑
           </button>
         </div>
       </div>
@@ -724,7 +773,7 @@ function GalleryHeader({
                 Morphous
               </p>
               <h1 className="text-base font-semibold tracking-tight sm:text-lg">
-                Nature-coded design systems for shadcn
+                自然から生まれた shadcn デザインシステム
               </h1>
             </div>
           </Link>
@@ -744,7 +793,7 @@ function GalleryHeader({
                 onClick={() => onModeChange("light")}
               >
                 <Sun data-icon="inline-start" />
-                Light
+                ライト
               </Button>
               <Button
                 variant={mode === "dark" ? "default" : "ghost"}
@@ -752,7 +801,7 @@ function GalleryHeader({
                 onClick={() => onModeChange("dark")}
               >
                 <Moon data-icon="inline-start" />
-                Dark
+                ダーク
               </Button>
             </div>
           </div>
@@ -763,14 +812,14 @@ function GalleryHeader({
           <input
             value={query}
             onChange={(event) => onQueryChange(event.target.value)}
-            placeholder="Search motif, category, prompt"
+            placeholder="モチーフ・カテゴリ・プロンプトを検索"
             className="h-10 w-full rounded-lg border border-input bg-card pr-9 pl-9 text-sm transition outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
           />
           {query ? (
             <button
               type="button"
               onClick={() => onQueryChange("")}
-              aria-label="Clear search"
+              aria-label="検索をクリア"
               className="absolute top-1/2 right-2 grid size-6 -translate-y-1/2 place-items-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
             >
               <X className="size-3.5" />
@@ -785,13 +834,13 @@ function GalleryHeader({
             onRole={onColorRoleChange}
           />
           <LabelSelect
-            label="Motif"
+            label="モチーフ"
             value={category}
             onChange={onCategoryChange}
             options={["all", ...motifCategories]}
           />
           <LabelSelect
-            label="Sort"
+            label="並び順"
             value={sort}
             onChange={(value) => onSortChange(value as SortKey)}
             options={sortOptions}
@@ -1050,19 +1099,19 @@ function SystemResultsList({
     <>
       {showCount ? (
         <p className="px-1 text-[11px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
-          {results.length} system{results.length === 1 ? "" : "s"}
+          {results.length}件のシステム
         </p>
       ) : null}
       {results.length === 0 ? (
         <div className="rounded-lg border border-dashed border-border/70 p-4 text-sm text-muted-foreground">
-          <p>No systems match these filters.</p>
+          <p>条件に一致するシステムがありません。</p>
           <Button
             variant="ghost"
             size="sm"
             onClick={onClearFilters}
             className="mt-2 -ml-2"
           >
-            Clear filters
+            絞り込みを解除
           </Button>
         </div>
       ) : null}
@@ -1089,6 +1138,16 @@ function ActionBar({
   font: string
   jaFont: string
 }) {
+  const favorites = use(FavoritesContext)
+  const [copied, setCopied] = useState(false)
+  const isFavorite = favorites.slugs.includes(system.slug)
+  const copyShareUrl = useCallback(async () => {
+    const shareUrl = buildSystemShareUrl(window.location.href, system.slug)
+    await navigator.clipboard.writeText(shareUrl)
+    setCopied(true)
+    window.setTimeout(() => setCopied(false), 1800)
+  }, [system.slug])
+
   return (
     <section className="rounded-xl border border-primary/30 bg-card p-3 shadow-sm ring-1 ring-primary/10">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -1100,12 +1159,46 @@ function ActionBar({
           />
           <div className="min-w-0">
             <p className="text-[10px] font-medium tracking-[0.18em] text-muted-foreground uppercase">
-              Download this system
+              このデザインシステムを使う
             </p>
             <p className="truncate text-sm font-semibold">{system.name}</p>
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-1.5">
+          <Button
+            size="sm"
+            variant={isFavorite ? "default" : "outline"}
+            onClick={() => favorites.toggle(system.slug)}
+            aria-pressed={isFavorite}
+            title={isFavorite ? "お気に入りから外す" : "お気に入りに追加"}
+          >
+            <Heart
+              data-icon="inline-start"
+              fill={isFavorite ? "currentColor" : "none"}
+            />
+            <span className="hidden sm:inline">
+              {isFavorite ? "保存済み" : "お気に入り"}
+            </span>
+          </Button>
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={copyShareUrl}
+            title="このページの共有URLをコピー"
+          >
+            {copied ? (
+              <Check data-icon="inline-start" />
+            ) : (
+              <Share2 data-icon="inline-start" />
+            )}
+            <span className="hidden sm:inline">
+              {copied ? "コピー済み" : "URLをコピー"}
+            </span>
+          </Button>
+          <span
+            className="mx-1 hidden h-5 w-px bg-border sm:block"
+            aria-hidden
+          />
           <Button asChild size="sm" title="Download theme.css">
             <a
               href={system.assets.themeCss}

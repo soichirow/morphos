@@ -20,9 +20,8 @@ const config = defineConfig({
         enabled: true,
         autoSubfolderIndex: true,
         autoStaticPathsDiscovery: true,
-        crawlLinks: true,
-        filter: ({ path }) =>
-          path === "/" || path === "/gallery" || /^\/systems\/[^/.]+$/.test(path),
+        crawlLinks: false,
+        filter: ({ path }) => path === "/" || path === "/gallery",
         failOnError: true,
       },
     }),

@@ -78,16 +78,16 @@ function LandingRoute() {
                 Morphous
               </p>
               <p className="hidden truncate text-sm font-semibold sm:block">
-                Nature-coded design systems
+                自然から生まれたデザインシステム
               </p>
               <p className="truncate text-sm font-semibold sm:hidden">
-                Morphous gallery
+                Morphous ギャラリー
               </p>
             </div>
           </div>
           <div className="flex items-center gap-1">
             <IconLink
-              href="https://github.com/Ameyanagi/morphos"
+              href="https://github.com/soichirow/morphos"
               label="GitHub repository"
             >
               <GithubIcon className="size-4" />
@@ -104,7 +104,7 @@ function LandingRoute() {
             />
             <Button asChild size="sm" variant="outline">
               <Link to="/gallery">
-                Open gallery
+                ギャラリーを開く
                 <ArrowRight data-icon="inline-end" />
               </Link>
             </Button>
@@ -115,28 +115,28 @@ function LandingRoute() {
           <div className="space-y-6">
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/85 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
               <Sparkles className="size-3.5 text-primary" />
-              {systems.length} AI-generated systems · in active development
+              AI生成による{systems.length}種類のシステム · 開発中
             </span>
             <h1 className="text-3xl leading-[1.05] font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-              Pick an animal, a flower, or a stone,{" "}
+              動物、花、石を選んで、{" "}
               <span className="text-primary transition-colors duration-700">
-                ship a design system.
+                デザインシステムを作ろう。
               </span>
             </h1>
             <p className="max-w-xl text-base leading-7 text-muted-foreground sm:text-lg">
-              Morphous turns a single nature motif into an 8-role palette, a
-              light/dark shadcn theme, and matching PowerPoint + Word templates.
-              Every prompt is recorded so the catalog stays reproducible.
+              Morphousは自然のモチーフを8色のパレットと、
+              ライト／ダーク対応のshadcnテーマ、PowerPoint・Wordテンプレートへ展開します。
+              生成プロンプトも公開され、再現・共有できます。
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Button asChild size="lg">
                 <Link to="/gallery">
-                  Browse the gallery
+                  ギャラリーを見る
                   <ArrowRight data-icon="inline-end" />
                 </Link>
               </Button>
               <a
-                href="https://github.com/Ameyanagi/morphos"
+                href="https://github.com/soichirow/morphos"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="text-sm font-medium text-muted-foreground hover:text-foreground hover:underline"
@@ -168,7 +168,7 @@ function LandingRoute() {
             <div className="absolute right-4 bottom-4 left-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
               <span className="truncate font-medium">{heroSystem.name}</span>
               <span className="inline-flex items-center gap-1 text-muted-foreground group-hover:text-primary">
-                Open in gallery <ArrowRight className="size-3" />
+                ギャラリーで開く <ArrowRight className="size-3" />
               </span>
             </div>
           </Link>
@@ -176,27 +176,22 @@ function LandingRoute() {
 
         <section className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
           <p className="text-[11px] font-medium tracking-[0.18em] text-primary uppercase">
-            Why this exists
+            このサイトについて
           </p>
           <p className="mt-3 text-base leading-7 text-foreground">
-            I started this to curate a private collection of nature-inspired
-            palettes for the things I actually ship: my own website, the
-            PowerPoint decks I present from, and the Word documents I write. The
-            PowerPoint and Word templates are still in development; the themes
-            already pick up the palette and fonts, but the layouts will get
-            richer over the next few iterations.
+            Morphousは、自然から着想を得た配色を、Webサイトやプレゼンテーション、
+            文書で実際に使える形に整理したカタログです。PowerPointとWordの
+            テンプレートは現在も開発中ですが、配色とフォントはすでに反映されます。
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            The push came from the quality of{" "}
+            生き物が持つ色や構造の完成度と、{" "}
             <span className="font-medium text-foreground">
               Codex + ChatGPT Images 2.0
             </span>
-            , and from a museum trip with my kids where I was honestly shocked
-            by how well-resolved the colors and structures of living things
-            already are.
+            の表現力から着想を得て制作されています。
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            Huge respect to{" "}
+            テーマ設計は{" "}
             <a
               href="https://ui.shadcn.com"
               target="_blank"
@@ -214,20 +209,19 @@ function LandingRoute() {
             >
               tweakcn
             </a>{" "}
-            Morphous slots into both, and most of what I know about token-driven
-            theming I learned from reading their work.
+            から多くを学び、どちらでも活用できる構成になっています。
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            Everything's open:{" "}
+            ソースコード、カタログデータ、生成プロンプトは{" "}
             <a
-              href="https://github.com/Ameyanagi/morphos"
+              href="https://github.com/soichirow/morphos"
               target="_blank"
               rel="noreferrer noopener"
               className="font-medium text-primary hover:underline"
             >
-              source on GitHub
+              GitHub
             </a>
-            , catalog data, Codex skills, and the prompt for every system.{" "}
+            で公開しています。日本語版はsoichirowによるフォークで、原作は{" "}
             <a
               href="https://ameyanagi.com"
               target="_blank"
@@ -236,19 +230,20 @@ function LandingRoute() {
             >
               Ameyanagi
             </a>
+            です。
           </p>
         </section>
 
         <section className="mx-auto max-w-[88rem] px-4 pb-16 sm:px-6 lg:px-8">
           <div className="mb-5 flex items-baseline justify-between gap-3">
             <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
-              Featured systems
+              注目のシステム
             </h2>
             <Link
               to="/gallery"
               className="text-sm font-medium text-primary hover:underline"
             >
-              Browse all {systems.length} →
+              全{systems.length}件を見る →
             </Link>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -441,7 +436,7 @@ function FooterLinks() {
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
       <a
-        href="https://github.com/Ameyanagi/morphos"
+        href="https://github.com/soichirow/morphos"
         target="_blank"
         rel="noreferrer noopener"
         className="hover:text-foreground hover:underline"
@@ -458,7 +453,7 @@ function FooterLinks() {
       </a>
       <span className="text-muted-foreground/70">MIT or Apache-2.0</span>
       <Link to="/gallery" className="font-medium text-primary hover:underline">
-        Open gallery →
+        ギャラリーを開く →
       </Link>
     </div>
   )

@@ -37,18 +37,23 @@ function inferKind(filename: string): PreviewKind {
 function splitAssetPath(
   assetPath: string
 ): { dir: string; stem: string } | null {
-  if (
-    !assetPath.startsWith("/systems/") ||
-    !previewableAssetPattern.test(assetPath)
-  ) {
+  let path = assetPath
+  let origin = ""
+  if (/^https?:\/\//i.test(assetPath)) {
+    const url = new URL(assetPath)
+    path = url.pathname
+    origin = url.origin
+  }
+
+  if (!path.startsWith("/systems/") || !previewableAssetPattern.test(path)) {
     return null
   }
-  const parts = assetPath.split("/")
+  const parts = path.split("/")
   const filename = parts.pop()
   if (!filename) return null
   const stem = filename.replace(/\.[^.]+$/, "")
   parts.push("previews")
-  return { dir: parts.join("/"), stem }
+  return { dir: `${origin}${parts.join("/")}`, stem }
 }
 
 export function previewSources(

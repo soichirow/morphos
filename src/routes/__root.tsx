@@ -2,9 +2,9 @@ import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router"
 
 import appCss from "../styles.css?url"
 
-const siteTitle = "Morphous - Nature-driven design systems"
+const siteTitle = "Morphous 日本語版 - 自然から生まれたデザインシステム"
 const siteDescription =
-  "A catalog of nature-inspired design systems, generated motif assets, reusable prompt records, and shadcn-compatible CSS themes."
+  "自然をモチーフにしたデザインシステム、生成アセット、再利用できるプロンプト、shadcn対応CSSテーマのカタログです。"
 const socialImage = "/og-image.png"
 
 export const Route = createRootRoute({
@@ -82,7 +82,7 @@ export const Route = createRootRoute({
       },
       {
         property: "og:image:alt",
-        content: "Morphous catalog preview with nature-inspired design systems and theme assets.",
+        content: "自然をモチーフにしたMorphousデザインシステムのカタログ",
       },
       {
         name: "twitter:card",
@@ -147,7 +147,7 @@ export const Route = createRootRoute({
   notFoundComponent: () => (
     <main className="container mx-auto p-4 pt-16">
       <h1>404</h1>
-      <p>The requested page could not be found.</p>
+      <p>お探しのページは見つかりませんでした。</p>
     </main>
   ),
   shellComponent: RootDocument,
@@ -155,7 +155,7 @@ export const Route = createRootRoute({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <head>
         <HeadContent />
       </head>
