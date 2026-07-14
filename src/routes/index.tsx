@@ -11,8 +11,11 @@ import {
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { LanguageToggle } from "@/components/language-toggle"
 import { systems } from "@/data/systems"
 import { PreviewImage } from "@/components/preview-image"
+import { translateTaxonomy } from "@/lib/i18n"
+import { useLanguage } from "@/lib/i18n-context"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 
 export const Route = createFileRoute("/")({ component: LandingRoute })
@@ -48,6 +51,7 @@ function shuffle<T>(arr: ReadonlyArray<T>): Array<T> {
 }
 
 function LandingRoute() {
+  const { t } = useLanguage()
   const featured = useSyncExternalStore(
     subscribeFeaturedSystems,
     getFeaturedSystems,
@@ -78,17 +82,17 @@ function LandingRoute() {
                 Morphous
               </p>
               <p className="hidden truncate text-sm font-semibold sm:block">
-                自然から生まれたデザインシステム
+                {t("landing.subtitle")}
               </p>
               <p className="truncate text-sm font-semibold sm:hidden">
-                Morphous ギャラリー
+                {t("landing.mobileSubtitle")}
               </p>
             </div>
           </div>
           <div className="flex items-center gap-1">
             <IconLink
               href="https://github.com/soichirow/morphos"
-              label="GitHub repository"
+              label={t("common.github")}
             >
               <GithubIcon className="size-4" />
             </IconLink>
@@ -102,9 +106,10 @@ function LandingRoute() {
               className="mx-1 hidden h-5 w-px bg-border sm:block"
               aria-hidden
             />
+            <LanguageToggle />
             <Button asChild size="sm" variant="outline">
               <Link to="/gallery">
-                ギャラリーを開く
+                {t("landing.openGallery")}
                 <ArrowRight data-icon="inline-end" />
               </Link>
             </Button>
@@ -115,23 +120,21 @@ function LandingRoute() {
           <div className="space-y-6">
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/85 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
               <Sparkles className="size-3.5 text-primary" />
-              AI生成による{systems.length}種類のシステム · 開発中
+              {t("landing.badge", { count: systems.length })}
             </span>
             <h1 className="text-3xl leading-[1.05] font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-              動物、花、石を選んで、{" "}
+              {t("landing.headlinePrefix")}{" "}
               <span className="text-primary transition-colors duration-700">
-                デザインシステムを作ろう。
+                {t("landing.headlineAccent")}
               </span>
             </h1>
             <p className="max-w-xl text-base leading-7 text-muted-foreground sm:text-lg">
-              Morphousは自然のモチーフを8色のパレットと、
-              ライト／ダーク対応のshadcnテーマ、PowerPoint・Wordテンプレートへ展開します。
-              生成プロンプトも公開され、再現・共有できます。
+              {t("landing.description")}
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Button asChild size="lg">
                 <Link to="/gallery">
-                  ギャラリーを見る
+                  {t("landing.browse")}
                   <ArrowRight data-icon="inline-end" />
                 </Link>
               </Button>
@@ -149,7 +152,7 @@ function LandingRoute() {
           <Link
             to="/gallery"
             search={{ system: heroSystem.slug }}
-            aria-label={`Open ${heroSystem.name} in the gallery`}
+            aria-label={`${t("landing.openInGallery")}: ${heroSystem.name}`}
             className="group relative block aspect-square overflow-hidden rounded-3xl border border-border shadow-xl transition hover:border-primary"
             style={{
               background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 60%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 20%)`,
@@ -168,7 +171,7 @@ function LandingRoute() {
             <div className="absolute right-4 bottom-4 left-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-border bg-card/85 px-3 py-2 text-xs backdrop-blur">
               <span className="truncate font-medium">{heroSystem.name}</span>
               <span className="inline-flex items-center gap-1 text-muted-foreground group-hover:text-primary">
-                ギャラリーで開く <ArrowRight className="size-3" />
+                {t("landing.openInGallery")} <ArrowRight className="size-3" />
               </span>
             </div>
           </Link>
@@ -176,22 +179,16 @@ function LandingRoute() {
 
         <section className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
           <p className="text-[11px] font-medium tracking-[0.18em] text-primary uppercase">
-            このサイトについて
+            {t("landing.about")}
           </p>
           <p className="mt-3 text-base leading-7 text-foreground">
-            Morphousは、自然から着想を得た配色を、Webサイトやプレゼンテーション、
-            文書で実際に使える形に整理したカタログです。PowerPointとWordの
-            テンプレートは現在も開発中ですが、配色とフォントはすでに反映されます。
+            {t("landing.aboutBody")}
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            生き物が持つ色や構造の完成度と、{" "}
-            <span className="font-medium text-foreground">
-              Codex + ChatGPT Images 2.0
-            </span>
-            の表現力から着想を得て制作されています。
+            {t("landing.inspiration")}
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            テーマ設計は{" "}
+            {t("landing.respectPrefix")}{" "}
             <a
               href="https://ui.shadcn.com"
               target="_blank"
@@ -200,7 +197,7 @@ function LandingRoute() {
             >
               shadcn/ui
             </a>{" "}
-            and{" "}
+            {t("landing.and")} {" "}
             <a
               href="https://tweakcn.com"
               target="_blank"
@@ -209,19 +206,19 @@ function LandingRoute() {
             >
               tweakcn
             </a>{" "}
-            から多くを学び、どちらでも活用できる構成になっています。
+            {t("landing.respectSuffix")}
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            ソースコード、カタログデータ、生成プロンプトは{" "}
+            {t("landing.sourcePrefix")}{" "}
             <a
               href="https://github.com/soichirow/morphos"
               target="_blank"
               rel="noreferrer noopener"
               className="font-medium text-primary hover:underline"
             >
-              GitHub
-            </a>
-            で公開しています。日本語版はsoichirowによるフォークで、原作は{" "}
+              {t("landing.sourceLink")}
+            </a>{" "}
+            {t("landing.sourceSuffix")}{" "}
             <a
               href="https://ameyanagi.com"
               target="_blank"
@@ -230,20 +227,20 @@ function LandingRoute() {
             >
               Ameyanagi
             </a>
-            です。
+            {t("landing.sourceEnd")}
           </p>
         </section>
 
         <section className="mx-auto max-w-[88rem] px-4 pb-16 sm:px-6 lg:px-8">
           <div className="mb-5 flex items-baseline justify-between gap-3">
             <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
-              注目のシステム
+              {t("landing.featured")}
             </h2>
             <Link
               to="/gallery"
               className="text-sm font-medium text-primary hover:underline"
             >
-              全{systems.length}件を見る →
+              {t("landing.browseAll", { count: systems.length })}
             </Link>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -257,44 +254,41 @@ function LandingRoute() {
             ))}
           </div>
           <p className="mt-3 text-xs text-muted-foreground">
-            Hover a card to preview its theme on this page.
+            {t("landing.hoverHint")}
           </p>
         </section>
 
         <section className="mx-auto max-w-[88rem] px-4 pb-16 sm:px-6 lg:px-8">
           <h2 className="mb-5 text-xl font-semibold tracking-tight sm:text-2xl">
-            What every system ships with
+            {t("landing.shipsWith")}
           </h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             <ValueCard
               icon={<Palette className="size-4" />}
-              title="8-role palette"
-              body="Background, Ink, Primary, Secondary, Accent, Signal, Surface, Depth: hex + oklch."
+              title={t("landing.paletteTitle")}
+              body={t("landing.paletteBody")}
             />
             <ValueCard
               icon={<FileCode2 className="size-4" />}
-              title="Light + dark theme"
-              body="Drop-in theme.css with all 30 shadcn tokens for both modes."
+              title={t("landing.themeTitle")}
+              body={t("landing.themeBody")}
             />
             <ValueCard
               icon={<Presentation className="size-4" />}
               title="PowerPoint"
-              body="Editable deck with the palette baked into the OOXML theme."
+              body={t("landing.powerPointBody")}
             />
             <ValueCard
               icon={<FileText className="size-4" />}
               title="Word"
-              body="Cover, palette stripe, palette appendix. Latin + Japanese fonts wired in."
+              body={t("landing.wordBody")}
             />
           </div>
         </section>
 
         <footer className="mx-auto max-w-[88rem] border-t border-border/60 px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
-            <span>
-              Morphous · {systems.length} systems · AI-generated motifs · under
-              active development
-            </span>
+            <span>{t("landing.footer", { count: systems.length })}</span>
             <FooterLinks />
           </div>
         </footer>
@@ -332,6 +326,7 @@ function FeatureCard({
   onHover?: () => void
   onLeave?: () => void
 }) {
+  const { language } = useLanguage()
   return (
     <Link
       to="/gallery"
@@ -363,7 +358,7 @@ function FeatureCard({
       </span>
       <div className="border-t border-border p-3">
         <p className="text-[10px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
-          {system.motifCategory} · {system.biome}
+          {translateTaxonomy(language, system.motifCategory)} · {system.biome}
         </p>
         <p className="mt-1 truncate text-sm font-semibold">{system.name}</p>
         <span
@@ -433,6 +428,7 @@ function GithubIcon({ className }: { className?: string }) {
 }
 
 function FooterLinks() {
+  const { t } = useLanguage()
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
       <a
@@ -449,11 +445,11 @@ function FooterLinks() {
         rel="noreferrer noopener"
         className="hover:text-foreground hover:underline"
       >
-        Built by Ameyanagi
+        {t("common.original")}
       </a>
       <span className="text-muted-foreground/70">MIT or Apache-2.0</span>
       <Link to="/gallery" className="font-medium text-primary hover:underline">
-        ギャラリーを開く →
+        {t("landing.openGallery")} →
       </Link>
     </div>
   )

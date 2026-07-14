@@ -1,4 +1,6 @@
 import { Languages, Sparkles, Type } from "lucide-react"
+
+import { useLanguage } from "@/lib/i18n-context"
 import { fonts, jaFonts, presets } from "@/lib/typography"
 
 export function TypographyPicker({
@@ -16,17 +18,20 @@ export function TypographyPicker({
   jaValue: string
   onJaChange: (id: string) => void
 }) {
+  const { t } = useLanguage()
   return (
-    <div className="inline-flex max-w-full flex-wrap items-center gap-1 rounded-lg border border-border bg-card pl-2 pr-1">
+    <div className="inline-flex max-w-full flex-wrap items-center gap-1 rounded-lg border border-border bg-card pr-1 pl-2">
       <label className="inline-flex min-w-0 items-center gap-1 text-xs font-medium text-muted-foreground">
         <Sparkles className="size-4 shrink-0 text-primary" />
         <select
           value={presetId}
           onChange={(event) => onPresetChange(event.target.value)}
           className="h-9 max-w-[7rem] truncate bg-transparent pr-1 text-sm font-medium text-foreground outline-none sm:max-w-[14rem]"
-          aria-label="Typography preset"
+          aria-label={t("typography.preset")}
         >
-          {presetId === "" ? <option value="">Custom</option> : null}
+          {presetId === "" ? (
+            <option value="">{t("common.custom")}</option>
+          ) : null}
           {presets.map((preset) => (
             <option key={preset.id} value={preset.id}>
               {preset.label}
@@ -41,7 +46,7 @@ export function TypographyPicker({
           value={value}
           onChange={(event) => onChange(event.target.value)}
           className="h-9 max-w-[10rem] truncate bg-transparent pr-1 text-sm text-foreground outline-none"
-          aria-label="Latin font"
+          aria-label={t("typography.latin")}
         >
           {fonts.map((font) => (
             <option key={font.id} value={font.id}>
@@ -57,7 +62,7 @@ export function TypographyPicker({
           value={jaValue}
           onChange={(event) => onJaChange(event.target.value)}
           className="h-9 max-w-[10rem] truncate bg-transparent pr-1 text-sm text-foreground outline-none"
-          aria-label="Japanese font"
+          aria-label={t("typography.japanese")}
         >
           {jaFonts.map((font) => (
             <option key={font.id} value={font.id}>

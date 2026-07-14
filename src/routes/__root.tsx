@@ -1,6 +1,7 @@
 import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router"
 
 import appCss from "../styles.css?url"
+import { LanguageProvider } from "@/lib/i18n-context"
 
 const siteTitle = "Morphous 日本語版 - 自然から生まれたデザインシステム"
 const siteDescription =
@@ -160,8 +161,10 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        {children}
-        <Scripts />
+        <LanguageProvider>
+          {children}
+          <Scripts />
+        </LanguageProvider>
       </body>
     </html>
   )

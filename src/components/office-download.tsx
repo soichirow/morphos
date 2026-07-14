@@ -1,7 +1,9 @@
 import { useState } from "react"
 import { FileText, Presentation } from "lucide-react"
+
 import type { MorphousSystem } from "@/data/systems"
 import type { ThemeMode } from "@/lib/morphous-theme"
+import { useLanguage } from "@/lib/i18n-context"
 import { Button } from "@/components/ui/button"
 import { getFont, getJaFont } from "@/lib/typography"
 
@@ -16,6 +18,7 @@ export function OfficeDownload({
   font: string
   jaFont: string
 }) {
+  const { t } = useLanguage()
   const [busy, setBusy] = useState<"pptx" | "docx" | null>(null)
   const officeFont = getFont(font).officeFamily
   const officeJaFont = getJaFont(jaFont).officeFamily
@@ -24,7 +27,11 @@ export function OfficeDownload({
     setBusy("pptx")
     try {
       const { buildDeck } = await import("@/lib/office/build-pptx")
-      const blob = await buildDeck(system, { mode, font: officeFont, jaFont: officeJaFont })
+      const blob = await buildDeck(system, {
+        mode,
+        font: officeFont,
+        jaFont: officeJaFont,
+      })
       saveAs(blob, `${system.slug}.pptx`)
     } finally {
       setBusy(null)
@@ -35,7 +42,11 @@ export function OfficeDownload({
     setBusy("docx")
     try {
       const { buildDoc } = await import("@/lib/office/build-docx")
-      const blob = await buildDoc(system, { mode, font: officeFont, jaFont: officeJaFont })
+      const blob = await buildDoc(system, {
+        mode,
+        font: officeFont,
+        jaFont: officeJaFont,
+      })
       saveAs(blob, `${system.slug}.docx`)
     } finally {
       setBusy(null)
@@ -49,12 +60,12 @@ export function OfficeDownload({
         variant="outline"
         onClick={downloadPptx}
         disabled={busy !== null}
-        title="Download PowerPoint"
-        aria-label="Download PowerPoint"
+        title={t("office.downloadPowerPoint")}
+        aria-label={t("office.downloadPowerPoint")}
       >
         <Presentation data-icon="inline-start" />
         <span className="hidden sm:inline">
-          {busy === "pptx" ? "Building…" : "PowerPoint"}
+          {busy === "pptx" ? t("office.building") : "PowerPoint"}
         </span>
         {busy === "pptx" ? <span className="sm:hidden">…</span> : null}
       </Button>
@@ -63,12 +74,12 @@ export function OfficeDownload({
         variant="outline"
         onClick={downloadDocx}
         disabled={busy !== null}
-        title="Download Word"
-        aria-label="Download Word"
+        title={t("office.downloadWord")}
+        aria-label={t("office.downloadWord")}
       >
         <FileText data-icon="inline-start" />
         <span className="hidden sm:inline">
-          {busy === "docx" ? "Building…" : "Word"}
+          {busy === "docx" ? t("office.building") : "Word"}
         </span>
         {busy === "docx" ? <span className="sm:hidden">…</span> : null}
       </Button>

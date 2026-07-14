@@ -28,10 +28,18 @@ import {
 
 import type { ThemeMode } from "@/lib/morphous-theme"
 import type { MorphousSystem } from "@/data/systems"
+import { LanguageToggle } from "@/components/language-toggle"
 import { Button } from "@/components/ui/button"
 import { OfficeDownload } from "@/components/office-download"
 import { TypographyPicker } from "@/components/typography-picker"
 import { motifCategories, systems } from "@/data/systems"
+import {
+  translateColor,
+  translateRole,
+  translateSort,
+  translateTaxonomy,
+} from "@/lib/i18n"
+import { useLanguage } from "@/lib/i18n-context"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 import { PreviewImage } from "@/components/preview-image"
 import { colorDistance } from "@/lib/color-distance"
@@ -68,6 +76,7 @@ function Lightbox({
   item: LightboxItem
   onClose: () => void
 }) {
+  const { t } = useLanguage()
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose()
@@ -109,8 +118,8 @@ function Lightbox({
             href={item.src}
             download={item.downloadName}
             className="grid size-9 place-items-center rounded-md bg-background/90 text-foreground shadow hover:bg-background"
-            aria-label="Download"
-            title="Download"
+            aria-label={t("common.download")}
+            title={t("common.download")}
           >
             <Download className="size-4" />
           </a>
@@ -118,8 +127,8 @@ function Lightbox({
             type="button"
             onClick={onClose}
             className="grid size-9 place-items-center rounded-md bg-background/90 text-foreground shadow hover:bg-background"
-            aria-label="Close"
-            title="Close (Esc)"
+            aria-label={t("common.close")}
+            title={`${t("common.close")} (Esc)`}
           >
             <X className="size-4" />
           </button>
@@ -616,6 +625,7 @@ function CatalogContent({
   setOverride: (role: string, hex: string) => void
   resetOverrides: () => void
 }) {
+  const { t } = useLanguage()
   return (
     <>
       <section className="mx-auto max-w-[88rem] px-4 pt-6 sm:px-6 lg:px-8">
@@ -641,7 +651,7 @@ function CatalogContent({
             onSelect={onDesktopSelect}
             onClearFilters={onClearFilters}
           />
-          <nav aria-label="System detail links" className="sr-only">
+          <nav aria-label={t("gallery.detailLinks")} className="sr-only">
             {systems.map((system) => (
               <Link
                 key={system.slug}
@@ -672,11 +682,12 @@ function CatalogContent({
 }
 
 function CatalogFooter() {
+  const { t } = useLanguage()
   return (
     <footer className="mx-auto max-w-[88rem] border-t border-border/60 px-4 py-6 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
         <Link to="/" className="hover:text-foreground hover:underline">
-          Morphous 日本語版 · {systems.length}種類のデザインシステム
+          {t("landing.footer", { count: systems.length })}
         </Link>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
           <a
@@ -693,7 +704,7 @@ function CatalogFooter() {
             rel="noreferrer noopener"
             className="hover:text-foreground hover:underline"
           >
-            原作: Ameyanagi
+            {t("common.original")}
           </a>
           <span className="text-muted-foreground/70">MIT or Apache-2.0</span>
           <button
@@ -701,7 +712,7 @@ function CatalogFooter() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="font-medium text-primary hover:underline"
           >
-            ページ上部へ ↑
+            {t("common.pageTop")}
           </button>
         </div>
       </div>
@@ -754,13 +765,14 @@ function GalleryHeader({
   hasActiveFilters: boolean
   onClearFilters: () => void
 }) {
+  const { language, t } = useLanguage()
   return (
     <header className="relative z-30 border-b border-border/60 bg-background/70 backdrop-blur-xl lg:sticky lg:top-0">
       <div className="mx-auto flex max-w-[88rem] flex-col gap-3 px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <Link
             to="/"
-            aria-label="Morphous home"
+            aria-label={t("gallery.home")}
             className="-m-1 flex items-center gap-3 rounded-lg p-1 transition hover:bg-muted/40"
           >
             <span
@@ -773,7 +785,7 @@ function GalleryHeader({
                 Morphous
               </p>
               <h1 className="text-base font-semibold tracking-tight sm:text-lg">
-                自然から生まれた shadcn デザインシステム
+                {t("gallery.title")}
               </h1>
             </div>
           </Link>
@@ -786,6 +798,7 @@ function GalleryHeader({
               jaValue={jaFontId}
               onJaChange={onJaFontChange}
             />
+            <LanguageToggle />
             <div className="flex rounded-lg border border-border bg-card p-1">
               <Button
                 variant={mode === "light" ? "default" : "ghost"}
@@ -793,7 +806,7 @@ function GalleryHeader({
                 onClick={() => onModeChange("light")}
               >
                 <Sun data-icon="inline-start" />
-                ライト
+                {t("common.light")}
               </Button>
               <Button
                 variant={mode === "dark" ? "default" : "ghost"}
@@ -801,7 +814,7 @@ function GalleryHeader({
                 onClick={() => onModeChange("dark")}
               >
                 <Moon data-icon="inline-start" />
-                ダーク
+                {t("common.dark")}
               </Button>
             </div>
           </div>
@@ -812,14 +825,14 @@ function GalleryHeader({
           <input
             value={query}
             onChange={(event) => onQueryChange(event.target.value)}
-            placeholder="モチーフ・カテゴリ・プロンプトを検索"
+            placeholder={t("gallery.search")}
             className="h-10 w-full rounded-lg border border-input bg-card pr-9 pl-9 text-sm transition outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
           />
           {query ? (
             <button
               type="button"
               onClick={() => onQueryChange("")}
-              aria-label="検索をクリア"
+              aria-label={t("gallery.clearSearch")}
               className="absolute top-1/2 right-2 grid size-6 -translate-y-1/2 place-items-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
             >
               <X className="size-3.5" />
@@ -834,21 +847,27 @@ function GalleryHeader({
             onRole={onColorRoleChange}
           />
           <LabelSelect
-            label="モチーフ"
+            label={t("gallery.motifFilter")}
             value={category}
             onChange={onCategoryChange}
             options={["all", ...motifCategories]}
+            getOptionLabel={(option) =>
+              option === "all"
+                ? t("common.all")
+                : translateTaxonomy(language, option)
+            }
           />
           <LabelSelect
-            label="並び順"
+            label={t("gallery.sort")}
             value={sort}
             onChange={(value) => onSortChange(value as SortKey)}
             options={sortOptions}
+            getOptionLabel={(option) => translateSort(language, option)}
           />
           {hasActiveFilters ? (
             <Button variant="ghost" size="sm" onClick={onClearFilters}>
               <X data-icon="inline-start" />
-              Clear
+              {t("gallery.clearFilters")}
             </Button>
           ) : null}
         </div>
@@ -880,6 +899,7 @@ function SystemDetail({
   setOverride: (role: string, hex: string) => void
   resetOverrides: () => void
 }) {
+  const { t } = useLanguage()
   return (
     <div
       ref={detailRef}
@@ -907,22 +927,21 @@ function SystemDetail({
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <Palette className="size-4 text-primary" />
-              <h2 className="text-lg font-semibold">Palette</h2>
+              <h2 className="text-lg font-semibold">{t("gallery.palette")}</h2>
               {hasOverrides ? (
                 <span className="rounded-full border border-border bg-background px-2 py-0.5 text-[10px] font-medium tracking-wide text-primary uppercase">
-                  tuned
+                  {t("gallery.tuned")}
                 </span>
               ) : null}
             </div>
             {hasOverrides ? (
               <Button variant="ghost" size="sm" onClick={resetOverrides}>
-                Reset
+                {t("common.reset")}
               </Button>
             ) : null}
           </div>
           <p className="mt-1 text-xs text-muted-foreground">
-            Click a swatch to retune. Edits flow into the page backdrop and the
-            PPTX/DOCX exports, and are remembered per system.
+            {t("gallery.paletteHelp")}
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             {activeSystem.palette.map((color) => (
@@ -940,24 +959,36 @@ function SystemDetail({
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2">
               <ImageIcon className="size-4 text-primary" />
-              <h2 className="text-lg font-semibold">Assets</h2>
+              <h2 className="text-lg font-semibold">{t("gallery.assets")}</h2>
             </div>
             <span className="text-[11px] text-muted-foreground">
-              PNG · downloadable
+              {t("gallery.downloadable")}
             </span>
           </div>
           <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-            <AssetThumb label="Motif" href={activeSystem.assets.motif} />
-            <AssetThumb label="Light board" href={activeSystem.assets.board} />
             <AssetThumb
-              label="Dark board"
+              label={t("gallery.motif")}
+              href={activeSystem.assets.motif}
+            />
+            <AssetThumb
+              label={t("gallery.lightBoard")}
+              href={activeSystem.assets.board}
+            />
+            <AssetThumb
+              label={t("gallery.darkBoard")}
               href={activeSystem.assets.darkBoard}
             />
             {activeSystem.assets.hero ? (
-              <AssetThumb label="Hero" href={activeSystem.assets.hero} />
+              <AssetThumb
+                label={t("gallery.hero")}
+                href={activeSystem.assets.hero}
+              />
             ) : null}
             {activeSystem.assets.texture ? (
-              <AssetThumb label="Texture" href={activeSystem.assets.texture} />
+              <AssetThumb
+                label={t("gallery.texture")}
+                href={activeSystem.assets.texture}
+              />
             ) : null}
             {activeSystem.assets.examples.map((example) => (
               <AssetThumb
@@ -975,10 +1006,9 @@ function SystemDetail({
       <section className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
-            <h2 className="text-lg font-semibold">Generation Prompts</h2>
+            <h2 className="text-lg font-semibold">{t("gallery.prompts")}</h2>
             <p className="mt-1 text-xs text-muted-foreground">
-              Every motif and board on this page is AI-generated. Prompts are
-              recorded so the catalog stays reproducible.
+              {t("gallery.promptsHelp")}
             </p>
           </div>
           <Button asChild variant="outline" size="sm">
@@ -999,19 +1029,17 @@ function SystemDetail({
 }
 
 function Intro({ count }: { count: number }) {
+  const { t } = useLanguage()
   return (
     <div className="flex flex-wrap items-center gap-3 rounded-full border border-border bg-card/85 px-4 py-2 text-sm backdrop-blur">
       <div className="flex items-center gap-2 text-primary">
         <Sparkles className="size-4" />
         <span className="font-semibold">
-          {count} nature-coded design systems
+          {t("gallery.introCount", { count })}
         </span>
       </div>
       <span className="hidden h-4 w-px bg-border sm:block" aria-hidden />
-      <span className="text-muted-foreground">
-        One motif → palette, shadcn theme, board, PPTX & DOCX. AI-generated,
-        prompts attached.
-      </span>
+      <span className="text-muted-foreground">{t("gallery.introBody")}</span>
     </div>
   )
 }
@@ -1031,8 +1059,9 @@ function MobileResultsPanel({
   onSelect: (slug: string) => void
   onClearFilters: () => void
 }) {
+  const { t } = useLanguage()
   const panelId = "mobile-gallery-results"
-  const resultCount = `${results.length} system${results.length === 1 ? "" : "s"}`
+  const resultCount = t("gallery.resultCount", { count: results.length })
 
   return (
     <section className="overflow-hidden rounded-xl border border-border/60 bg-card/85 shadow-sm backdrop-blur">
@@ -1054,12 +1083,12 @@ function MobileResultsPanel({
               {resultCount}
             </span>
             <span className="block truncate text-sm font-semibold">
-              {open ? "Choose a system" : activeSystem.name}
+              {open ? t("gallery.chooseSystem") : activeSystem.name}
             </span>
           </span>
         </span>
         <span className="flex shrink-0 items-center gap-1 rounded-md border border-border bg-background/70 px-2 py-1 text-xs font-medium text-muted-foreground">
-          {open ? "Hide" : "Open"}
+          {open ? t("common.hide") : t("common.open")}
           <ChevronDown
             className={`size-3.5 transition-transform ${open ? "rotate-180" : ""}`}
           />
@@ -1095,23 +1124,24 @@ function SystemResultsList({
   onClearFilters: () => void
   showCount?: boolean
 }) {
+  const { t } = useLanguage()
   return (
     <>
       {showCount ? (
         <p className="px-1 text-[11px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
-          {results.length}件のシステム
+          {t("gallery.resultCount", { count: results.length })}
         </p>
       ) : null}
       {results.length === 0 ? (
         <div className="rounded-lg border border-dashed border-border/70 p-4 text-sm text-muted-foreground">
-          <p>条件に一致するシステムがありません。</p>
+          <p>{t("gallery.noResults")}</p>
           <Button
             variant="ghost"
             size="sm"
             onClick={onClearFilters}
             className="mt-2 -ml-2"
           >
-            絞り込みを解除
+            {t("gallery.clearFilters")}
           </Button>
         </div>
       ) : null}
@@ -1138,6 +1168,7 @@ function ActionBar({
   font: string
   jaFont: string
 }) {
+  const { t } = useLanguage()
   const favorites = use(FavoritesContext)
   const [copied, setCopied] = useState(false)
   const isFavorite = favorites.slugs.includes(system.slug)
@@ -1159,7 +1190,7 @@ function ActionBar({
           />
           <div className="min-w-0">
             <p className="text-[10px] font-medium tracking-[0.18em] text-muted-foreground uppercase">
-              このデザインシステムを使う
+              {t("gallery.systemUse")}
             </p>
             <p className="truncate text-sm font-semibold">{system.name}</p>
           </div>
@@ -1170,21 +1201,25 @@ function ActionBar({
             variant={isFavorite ? "default" : "outline"}
             onClick={() => favorites.toggle(system.slug)}
             aria-pressed={isFavorite}
-            title={isFavorite ? "お気に入りから外す" : "お気に入りに追加"}
+            title={
+              isFavorite
+                ? t("gallery.favoriteRemove")
+                : t("gallery.favoriteAdd")
+            }
           >
             <Heart
               data-icon="inline-start"
               fill={isFavorite ? "currentColor" : "none"}
             />
             <span className="hidden sm:inline">
-              {isFavorite ? "保存済み" : "お気に入り"}
+              {isFavorite ? t("gallery.favoriteSaved") : t("gallery.favorite")}
             </span>
           </Button>
           <Button
             size="sm"
             variant="outline"
             onClick={copyShareUrl}
-            title="このページの共有URLをコピー"
+            title={t("gallery.copyUrlTitle")}
           >
             {copied ? (
               <Check data-icon="inline-start" />
@@ -1192,18 +1227,18 @@ function ActionBar({
               <Share2 data-icon="inline-start" />
             )}
             <span className="hidden sm:inline">
-              {copied ? "コピー済み" : "URLをコピー"}
+              {copied ? t("common.copied") : t("gallery.copyUrl")}
             </span>
           </Button>
           <span
             className="mx-1 hidden h-5 w-px bg-border sm:block"
             aria-hidden
           />
-          <Button asChild size="sm" title="Download theme.css">
+          <Button asChild size="sm" title={t("gallery.downloadThemeCss")}>
             <a
               href={system.assets.themeCss}
               download
-              aria-label="Download theme.css"
+              aria-label={t("gallery.downloadThemeCss")}
             >
               <FileCode2 data-icon="inline-start" />
               <span className="hidden sm:inline">CSS</span>
@@ -1213,12 +1248,12 @@ function ActionBar({
             asChild
             size="sm"
             variant="outline"
-            title="Download theme.json"
+            title={t("gallery.downloadThemeJson")}
           >
             <a
               href={system.assets.themeJson}
               download
-              aria-label="Download theme.json"
+              aria-label={t("gallery.downloadThemeJson")}
             >
               <Download data-icon="inline-start" />
               <span className="hidden sm:inline">JSON</span>
@@ -1228,15 +1263,15 @@ function ActionBar({
             asChild
             size="sm"
             variant="outline"
-            title="Download prompts.json"
+            title={t("gallery.downloadPromptsJson")}
           >
             <a
               href={system.assets.promptsJson}
               download
-              aria-label="Download prompts.json"
+              aria-label={t("gallery.downloadPromptsJson")}
             >
               <Copy data-icon="inline-start" />
-              <span className="hidden sm:inline">Prompts</span>
+              <span className="hidden sm:inline">{t("gallery.prompts")}</span>
             </a>
           </Button>
           <span
@@ -1256,6 +1291,7 @@ function ActionBar({
 }
 
 function Hero({ system }: { system: MorphousSystem }) {
+  const { language, t } = useLanguage()
   const openLightbox = useLightbox()
   return (
     <section className="overflow-hidden rounded-2xl border border-border bg-card/85 shadow-sm backdrop-blur">
@@ -1263,7 +1299,7 @@ function Hero({ system }: { system: MorphousSystem }) {
         <div className="flex flex-col gap-5 p-5 sm:p-9">
           <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
             <span className="rounded-full border border-border bg-background/70 px-2 py-0.5">
-              {system.motifCategory}
+              {translateTaxonomy(language, system.motifCategory)}
             </span>
             <span className="size-1 rounded-full bg-border" aria-hidden />
             <span>{system.biome}</span>
@@ -1289,12 +1325,12 @@ function Hero({ system }: { system: MorphousSystem }) {
           <div
             className="h-2 w-full max-w-md overflow-hidden rounded-full border border-border"
             style={{ background: paletteGradient(system) }}
-            aria-label="Palette stripe"
+            aria-label={t("gallery.paletteStripe")}
           />
 
           <div className="mt-auto grid gap-2 sm:grid-cols-2">
-            <Info label="Typography" value={system.typography} />
-            <Info label="Layout" value={system.layout} />
+            <Info label={t("gallery.typography")} value={system.typography} />
+            <Info label={t("gallery.layout")} value={system.layout} />
           </div>
         </div>
 
@@ -1312,7 +1348,7 @@ function Hero({ system }: { system: MorphousSystem }) {
                 alt: `${system.motifName} motif`,
               })
             }
-            aria-label={`View full-resolution ${system.motifName} motif`}
+            aria-label={t("gallery.fullMotif", { name: system.motifName })}
             className="cursor-zoom-in"
           >
             <PreviewImage
@@ -1393,16 +1429,16 @@ function BoardSwitcher({
   mode: ThemeMode
   onModeChange: (mode: ThemeMode) => void
 }) {
+  const { t } = useLanguage()
   const openLightbox = useLightbox()
   const fullSrc = mode === "light" ? light : dark
   return (
     <section className="overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur">
       <div className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
         <div>
-          <h2 className="text-lg font-semibold">Design-system board</h2>
+          <h2 className="text-lg font-semibold">{t("gallery.board")}</h2>
           <p className="mt-0.5 text-xs text-muted-foreground">
-            AI-generated reference board showing tokens, components, and motif
-            treatment.
+            {t("gallery.boardHelp")}
           </p>
         </div>
         <div className="flex rounded-lg border border-border bg-card p-1">
@@ -1411,14 +1447,14 @@ function BoardSwitcher({
             variant={mode === "light" ? "default" : "ghost"}
             onClick={() => onModeChange("light")}
           >
-            <Sun data-icon="inline-start" /> Light
+            <Sun data-icon="inline-start" /> {t("common.light")}
           </Button>
           <Button
             size="sm"
             variant={mode === "dark" ? "default" : "ghost"}
             onClick={() => onModeChange("dark")}
           >
-            <Moon data-icon="inline-start" /> Dark
+            <Moon data-icon="inline-start" /> {t("common.dark")}
           </Button>
         </div>
       </div>
@@ -1428,7 +1464,7 @@ function BoardSwitcher({
           openLightbox?.({ src: fullSrc, alt: `${mode} system board` })
         }
         className="block w-full cursor-zoom-in"
-        aria-label="View full-resolution board"
+        aria-label={t("gallery.viewBoard")}
       >
         <PreviewImage
           src={fullSrc}
@@ -1447,6 +1483,7 @@ function ComponentPreview() {
   const [tab, setTab] = useState<"components" | "dashboard" | "settings">(
     "components"
   )
+  const { t } = useLanguage()
   const [navItem, setNavItem] = useState("Overview")
   const [notify, setNotify] = useState(true)
   const [density, setDensity] = useState(60)
@@ -1455,18 +1492,19 @@ function ComponentPreview() {
     <section className="rounded-xl border border-border bg-card/85 backdrop-blur">
       <div className="flex flex-col gap-3 border-b border-border p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
         <div>
-          <h2 className="text-lg font-semibold">shadcn Component Preview</h2>
+          <h2 className="text-lg font-semibold">
+            {t("gallery.componentPreview")}
+          </h2>
           <p className="mt-1 text-sm text-muted-foreground">
-            All components use the active theme tokens. Switch the system and
-            watch them retune.
+            {t("gallery.componentHelp")}
           </p>
         </div>
         <div className="flex shrink-0 self-start rounded-lg border-2 border-border bg-background p-1 shadow-sm">
           {(
             [
-              ["components", "Components"],
-              ["dashboard", "Dashboard"],
-              ["settings", "Settings"],
+              ["components", t("gallery.components")],
+              ["dashboard", t("gallery.dashboard")],
+              ["settings", t("gallery.settings")],
             ] as const
           ).map(([id, label]) => (
             <button
@@ -1503,7 +1541,9 @@ function ComponentPreview() {
                       : "text-muted-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
                   }`}
                 >
-                  <span>{item}</span>
+                  <span>
+                    {t(`gallery.${item.toLowerCase()}` as "gallery.overview")}
+                  </span>
                   {item === "Reports" ? (
                     <span className="rounded-full bg-primary/15 px-1.5 text-[10px] font-medium text-primary">
                       3
@@ -1514,7 +1554,7 @@ function ComponentPreview() {
             }
           )}
           <div className="mt-3 rounded-lg border border-sidebar-border bg-sidebar-accent/40 p-3">
-            <p className="text-xs font-medium">Theme tokens</p>
+            <p className="text-xs font-medium">{t("gallery.themeTokens")}</p>
             <p className="mt-1 text-[11px] text-muted-foreground">
               {tab === "dashboard"
                 ? "primary · accent · chart-1..5"
@@ -1543,6 +1583,16 @@ function ComponentPreview() {
 }
 
 function DashboardPreview() {
+  const { t } = useLanguage()
+  const days = [
+    t("gallery.mon"),
+    t("gallery.tue"),
+    t("gallery.wed"),
+    t("gallery.thu"),
+    t("gallery.fri"),
+    t("gallery.sat"),
+    t("gallery.sun"),
+  ]
   return (
     <>
       <div className="grid gap-3 sm:grid-cols-3">
@@ -1552,7 +1602,13 @@ function DashboardPreview() {
             className="rounded-lg border border-border bg-background p-3"
           >
             <div className="flex items-center justify-between">
-              <span className="text-xs text-muted-foreground">{kpi.label}</span>
+              <span className="text-xs text-muted-foreground">
+                {kpi.label === "Revenue"
+                  ? t("gallery.revenue")
+                  : kpi.label === "Sessions"
+                    ? t("gallery.sessions")
+                    : t("gallery.conversion")}
+              </span>
               <span
                 className={`rounded-md px-1.5 text-[10px] font-medium ${
                   kpi.delta.startsWith("+")
@@ -1575,10 +1631,10 @@ function DashboardPreview() {
         <div className="rounded-lg border border-border bg-background p-3">
           <div className="flex items-center justify-between gap-2">
             <h3 className="truncate text-sm font-semibold">
-              Weekly throughput
+              {t("gallery.weeklyThroughput")}
             </h3>
             <div className="hidden gap-1.5 text-[11px] text-muted-foreground sm:flex">
-              {weekDays.map((d) => (
+              {days.map((d) => (
                 <span key={d} className="w-7 text-center">
                   {d}
                 </span>
@@ -1600,14 +1656,22 @@ function DashboardPreview() {
         </div>
 
         <div className="rounded-lg border border-border bg-background p-3">
-          <h3 className="text-sm font-semibold">Recent activity</h3>
+          <h3 className="text-sm font-semibold">
+            {t("gallery.recentActivity")}
+          </h3>
           <ul className="mt-3 space-y-2.5">
             {recentActivity.map((row) => (
               <li key={row.who} className="flex items-center gap-3 text-sm">
                 <span className="grid size-7 place-items-center rounded-full bg-primary text-[11px] font-semibold text-primary-foreground">
                   {row.who}
                 </span>
-                <span className="flex-1 truncate">{row.what}</span>
+                <span className="flex-1 truncate">
+                  {row.what === "Approved monarch palette"
+                    ? t("gallery.activityApproved")
+                    : row.what === "Pushed cicada theme.css"
+                      ? t("gallery.activityPushed")
+                      : t("gallery.activityDrafted")}
+                </span>
                 <span className="text-[11px] text-muted-foreground">
                   {row.when}
                 </span>
@@ -1621,10 +1685,10 @@ function DashboardPreview() {
         <table className="w-full min-w-[28rem] text-sm">
           <thead>
             <tr className="border-b border-border bg-muted/40 text-left text-[11px] font-medium tracking-wide text-muted-foreground uppercase">
-              <th className="px-3 py-2">System</th>
-              <th className="px-3 py-2">Status</th>
-              <th className="px-3 py-2">Roles</th>
-              <th className="px-3 py-2 text-right">Coverage</th>
+              <th className="px-3 py-2">{t("gallery.system")}</th>
+              <th className="px-3 py-2">{t("gallery.status")}</th>
+              <th className="px-3 py-2">{t("gallery.roles")}</th>
+              <th className="px-3 py-2 text-right">{t("gallery.coverage")}</th>
             </tr>
           </thead>
           <tbody>
@@ -1633,7 +1697,13 @@ function DashboardPreview() {
                 key={row.name}
                 className="border-b border-border last:border-0"
               >
-                <td className="px-3 py-2 font-medium">{row.name}</td>
+                <td className="px-3 py-2 font-medium">
+                  {row.name === "Snow Leopard"
+                    ? t("gallery.snowLeopard")
+                    : row.name === "Cicada"
+                      ? t("gallery.cicada")
+                      : t("gallery.koi")}
+                </td>
                 <td className="px-3 py-2">
                   <span
                     className={`inline-flex h-5 items-center rounded-full px-2 text-[10px] font-medium ${
@@ -1642,7 +1712,9 @@ function DashboardPreview() {
                         : "bg-accent/20 text-accent-foreground"
                     }`}
                   >
-                    {row.status}
+                    {row.status === "shipped"
+                      ? t("gallery.shipped")
+                      : t("gallery.review")}
                   </span>
                 </td>
                 <td className="px-3 py-2 text-muted-foreground">{row.roles}</td>
@@ -1679,42 +1751,45 @@ function SettingsPreview({
   density: number
   onDensityChange: (value: number) => void
 }) {
+  const { t } = useLanguage()
   return (
     <>
       <div className="rounded-lg border border-border bg-background p-4">
-        <h3 className="text-sm font-semibold">Profile</h3>
+        <h3 className="text-sm font-semibold">{t("gallery.profile")}</h3>
         <div className="mt-3 grid gap-3 sm:grid-cols-2">
           <label className="grid gap-1 text-sm">
-            Workspace
+            {t("gallery.workspace")}
             <input
               className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
               defaultValue="Morphous"
             />
           </label>
           <label className="grid gap-1 text-sm">
-            Plan
+            {t("gallery.plan")}
             <select
               className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
               defaultValue="studio"
             >
-              <option value="solo">Solo</option>
-              <option value="studio">Studio</option>
-              <option value="atelier">Atelier</option>
+              <option value="solo">{t("gallery.solo")}</option>
+              <option value="studio">{t("gallery.studio")}</option>
+              <option value="atelier">{t("gallery.atelier")}</option>
             </select>
           </label>
         </div>
         <div className="mt-4 flex items-center justify-between rounded-md border border-border bg-card px-3 py-2">
           <div>
-            <p className="text-sm font-medium">Email notifications</p>
+            <p className="text-sm font-medium">
+              {t("gallery.emailNotifications")}
+            </p>
             <p className="text-[11px] text-muted-foreground">
-              Daily digest of catalog changes.
+              {t("gallery.dailyDigest")}
             </p>
           </div>
           <Switch checked={notify} onChange={onNotifyChange} />
         </div>
         <div className="mt-3 rounded-md border border-border bg-card p-3">
           <div className="flex items-center justify-between text-sm">
-            <span className="font-medium">Density</span>
+            <span className="font-medium">{t("gallery.density")}</span>
             <span className="text-muted-foreground">{density}%</span>
           </div>
           <input
@@ -1733,22 +1808,22 @@ function SettingsPreview({
           <Check className="size-4" />
         </span>
         <div className="flex-1">
-          <p className="text-sm font-medium">Theme synced</p>
+          <p className="text-sm font-medium">{t("gallery.themeSynced")}</p>
           <p className="mt-0.5 text-xs text-muted-foreground">
-            Latest tokens published to shadcn registry · sample status
+            {t("gallery.latestTokens")}
           </p>
         </div>
         <Button size="sm" variant="outline">
-          View
+          {t("common.view")}
         </Button>
       </div>
 
       <div className="flex flex-wrap gap-2">
-        <Badge>Default</Badge>
-        <Badge tone="accent">Accent</Badge>
-        <Badge tone="muted">Muted</Badge>
+        <Badge>{t("gallery.default")}</Badge>
+        <Badge tone="accent">{t("gallery.accent")}</Badge>
+        <Badge tone="muted">{t("gallery.muted")}</Badge>
         <span className="inline-flex h-7 items-center rounded-md border border-destructive/40 bg-destructive/10 px-2.5 text-xs font-medium text-destructive">
-          Destructive
+          {t("gallery.destructive")}
         </span>
       </div>
     </>
@@ -1812,6 +1887,7 @@ function componentsMatrixReducer(
 }
 
 function ComponentsMatrix() {
+  const { t } = useLanguage()
   const [{ tab, check, radio, toggle, sw, val }, dispatch] = useReducer(
     componentsMatrixReducer,
     initialComponentsMatrixState
@@ -1820,37 +1896,40 @@ function ComponentsMatrix() {
   return (
     <div className="space-y-6">
       <Group
-        title="Buttons"
+        title={t("gallery.buttons")}
         desc="variant x size: bg-primary, bg-secondary, hover.bg-muted, border, ring"
       >
         <div className="flex flex-wrap items-center gap-2">
-          <Button>Primary</Button>
-          <Button variant="secondary">Secondary</Button>
-          <Button variant="outline">Outline</Button>
-          <Button variant="ghost">Ghost</Button>
-          <Button variant="link">Link</Button>
-          <Button variant="destructive">Destructive</Button>
+          <Button>{t("gallery.primaryButton")}</Button>
+          <Button variant="secondary">{t("gallery.secondaryButton")}</Button>
+          <Button variant="outline">{t("gallery.outlineButton")}</Button>
+          <Button variant="ghost">{t("gallery.ghostButton")}</Button>
+          <Button variant="link">{t("gallery.linkButton")}</Button>
+          <Button variant="destructive">{t("gallery.destructive")}</Button>
         </div>
         <div className="mt-2 flex flex-wrap items-center gap-2">
           <Button size="xs">XS</Button>
           <Button size="sm">SM</Button>
           <Button>MD</Button>
           <Button size="lg">LG</Button>
-          <Button size="icon" aria-label="icon">
+          <Button size="icon" aria-label={t("gallery.icon")}>
             <Check />
           </Button>
-          <Button disabled>Disabled</Button>
+          <Button disabled>{t("gallery.disabled")}</Button>
           <Button>
             <Download data-icon="inline-start" />
-            With icon
+            {t("gallery.withIcon")}
           </Button>
         </div>
       </Group>
 
-      <Group title="Inputs" desc="border-input, focus.ring-ring, bg-card">
+      <Group
+        title={t("gallery.inputs")}
+        desc="border-input, focus.ring-ring, bg-card"
+      >
         <div className="grid gap-3 sm:grid-cols-3">
           <label className="grid gap-1 text-xs">
-            <span className="text-muted-foreground">Email</span>
+            <span className="text-muted-foreground">{t("gallery.email")}</span>
             <input
               type="email"
               placeholder="you@morphous.dev"
@@ -1858,18 +1937,20 @@ function ComponentsMatrix() {
             />
           </label>
           <label className="grid gap-1 text-xs">
-            <span className="text-muted-foreground">Plan</span>
+            <span className="text-muted-foreground">{t("gallery.plan")}</span>
             <select
               defaultValue="studio"
               className="h-9 rounded-lg border border-input bg-card px-3 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
             >
-              <option>Solo</option>
-              <option value="studio">Studio</option>
-              <option>Atelier</option>
+              <option>{t("gallery.solo")}</option>
+              <option value="studio">{t("gallery.studio")}</option>
+              <option>{t("gallery.atelier")}</option>
             </select>
           </label>
           <label className="grid gap-1 text-xs">
-            <span className="text-muted-foreground">Disabled</span>
+            <span className="text-muted-foreground">
+              {t("gallery.disabled")}
+            </span>
             <input
               disabled
               defaultValue="-"
@@ -1877,10 +1958,12 @@ function ComponentsMatrix() {
             />
           </label>
           <label className="grid gap-1 text-xs sm:col-span-3">
-            <span className="text-muted-foreground">Description</span>
+            <span className="text-muted-foreground">
+              {t("gallery.description")}
+            </span>
             <textarea
               rows={3}
-              defaultValue="A nature-coded design system."
+              defaultValue={t("gallery.sampleDescription")}
               className="rounded-lg border border-input bg-card px-3 py-2 text-sm outline-none focus:border-ring focus:ring-3 focus:ring-ring/20"
             />
           </label>
@@ -1888,22 +1971,22 @@ function ComponentsMatrix() {
       </Group>
 
       <Group
-        title="Selection"
+        title={t("gallery.selection")}
         desc="checkbox, radio group, toggle group, switch: primary highlights"
       >
         <div className="flex flex-wrap items-center gap-6">
           <Checkbox
             checked={check}
             onChange={(value) => dispatch({ type: "setCheck", value })}
-            label="Send weekly digest"
+            label={t("gallery.weeklyDigest")}
           />
           <RadioGroup
             value={radio}
             onChange={(value) => dispatch({ type: "setRadio", value })}
             options={[
-              ["light", "Light"],
-              ["dark", "Dark"],
-              ["auto", "Auto"],
+              ["light", t("common.light")],
+              ["dark", t("common.dark")],
+              ["auto", t("gallery.auto")],
             ]}
           />
           <ToggleGroup
@@ -1921,19 +2004,21 @@ function ComponentsMatrix() {
               checked={sw}
               onChange={(value) => dispatch({ type: "setSwitch", value })}
             />
-            <span className="text-muted-foreground">Switch</span>
+            <span className="text-muted-foreground">{t("gallery.switch")}</span>
           </div>
         </div>
       </Group>
 
       <Group
-        title="Slider & Progress"
+        title={t("gallery.sliderProgress")}
         desc="accent-primary, bg-muted track, primary fill"
       >
         <div className="grid gap-4 sm:grid-cols-[2fr_3fr]">
           <div className="rounded-md border border-border bg-background p-3">
             <div className="flex items-center justify-between text-xs">
-              <span className="text-muted-foreground">Volume</span>
+              <span className="text-muted-foreground">
+                {t("gallery.volume")}
+              </span>
               <span className="font-medium">{val}%</span>
             </div>
             <input
@@ -1949,9 +2034,9 @@ function ComponentsMatrix() {
           </div>
           <div className="space-y-2">
             {[
-              ["Indexing", 92, "var(--primary)"],
-              ["Sync", 64, "var(--accent)"],
-              ["Cleanup", 31, "var(--chart-3)"],
+              [t("gallery.indexing"), 92, "var(--primary)"],
+              [t("gallery.sync"), 64, "var(--accent)"],
+              [t("gallery.cleanup"), 31, "var(--chart-3)"],
             ].map(([label, pct, color]) => (
               <div key={label as string}>
                 <div className="flex items-center justify-between text-xs">
@@ -1974,21 +2059,22 @@ function ComponentsMatrix() {
       </Group>
 
       <Group
-        title="Badges & Avatars"
+        title={t("gallery.badgesAvatars")}
         desc="primary, secondary, accent, muted, destructive · primary fg avatars"
       >
         <div className="flex flex-wrap items-center gap-3">
-          <Badge>Default</Badge>
-          <Badge tone="accent">Accent</Badge>
-          <Badge tone="muted">Muted</Badge>
+          <Badge>{t("gallery.default")}</Badge>
+          <Badge tone="accent">{t("gallery.accent")}</Badge>
+          <Badge tone="muted">{t("gallery.muted")}</Badge>
           <span className="inline-flex h-7 items-center rounded-md bg-secondary px-2.5 text-xs font-medium text-secondary-foreground">
-            Secondary
+            {t("gallery.secondary")}
           </span>
           <span className="inline-flex h-7 items-center rounded-md border border-destructive/40 bg-destructive/10 px-2.5 text-xs font-medium text-destructive">
-            Destructive
+            {t("gallery.destructive")}
           </span>
           <span className="inline-flex h-7 items-center gap-1 rounded-full border border-border bg-background px-2.5 text-xs font-medium">
-            <span className="size-1.5 rounded-full bg-primary" /> Online
+            <span className="size-1.5 rounded-full bg-primary" />{" "}
+            {t("gallery.online")}
           </span>
         </div>
         <div className="mt-3 flex items-center gap-2">
@@ -2011,7 +2097,7 @@ function ComponentsMatrix() {
         </div>
       </Group>
 
-      <Group title="Tabs" desc="bg-card, primary highlight">
+      <Group title={t("gallery.tabs")} desc="bg-card, primary highlight">
         <div className="inline-flex rounded-lg border border-border bg-card p-1">
           {["overview", "activity", "members", "billing"].map((id) => (
             <button
@@ -2024,36 +2110,42 @@ function ComponentsMatrix() {
                   : "text-muted-foreground hover:text-foreground"
               }`}
             >
-              {id}
+              {id === "overview"
+                ? t("gallery.overview")
+                : id === "activity"
+                  ? t("gallery.activity")
+                  : id === "members"
+                    ? t("gallery.members")
+                    : t("gallery.billing")}
             </button>
           ))}
         </div>
       </Group>
 
       <Group
-        title="Alerts"
+        title={t("gallery.alerts")}
         desc="info → primary, success → primary, warning → accent, destructive"
       >
         <div className="grid gap-3 lg:grid-cols-2">
           <Alert
             tone="info"
-            title="Heads up"
-            body="Theme will be republished in 5 minutes."
+            title={t("gallery.headsUp")}
+            body={t("gallery.republishBody")}
           />
           <Alert
             tone="success"
-            title="Saved"
-            body="Palette tuning persisted to this browser."
+            title={t("gallery.saved")}
+            body={t("gallery.savedBody")}
           />
           <Alert
             tone="warning"
-            title="Contrast warning"
-            body="Accent vs surface is below AA."
+            title={t("gallery.contrastWarning")}
+            body={t("gallery.contrastBody")}
           />
           <Alert
             tone="destructive"
-            title="Delete system?"
-            body="This action cannot be undone."
+            title={t("gallery.deleteSystem")}
+            body={t("gallery.deleteBody")}
           />
         </div>
       </Group>
@@ -2064,61 +2156,68 @@ function ComponentsMatrix() {
 }
 
 function SurfacePreviewGroups() {
+  const { t } = useLanguage()
   return (
     <>
-      <Group title="Cards" desc="bg-card, border, popover, sidebar surfaces">
+      <Group
+        title={t("gallery.cards")}
+        desc="bg-card, border, popover, sidebar surfaces"
+      >
         <div className="grid gap-3 sm:grid-cols-3">
           <div className="rounded-lg border border-border bg-card p-4">
             <p className="text-xs tracking-wide text-muted-foreground uppercase">
-              Card
+              {t("gallery.card")}
             </p>
             <h4 className="mt-1 font-semibold">bg-card</h4>
             <p className="mt-2 text-xs text-muted-foreground">
-              Standard surface for content.
+              {t("gallery.cardBody")}
             </p>
           </div>
           <div className="rounded-lg border border-border bg-popover p-4 text-popover-foreground shadow-md">
             <p className="text-xs tracking-wide text-muted-foreground uppercase">
-              Popover
+              {t("gallery.popover")}
             </p>
             <h4 className="mt-1 font-semibold">bg-popover</h4>
             <p className="mt-2 text-xs text-muted-foreground">
-              Floating surfaces, menus, tooltips.
+              {t("gallery.popoverBody")}
             </p>
           </div>
           <div className="rounded-lg border border-sidebar-border bg-sidebar p-4 text-sidebar-foreground">
             <p className="text-xs tracking-wide text-muted-foreground uppercase">
-              Sidebar
+              {t("gallery.sidebar")}
             </p>
             <h4 className="mt-1 font-semibold">bg-sidebar</h4>
             <p className="mt-2 text-xs text-muted-foreground">
-              Persistent nav background.
+              {t("gallery.sidebarBody")}
             </p>
           </div>
         </div>
       </Group>
 
-      <Group title="Tooltip & Popover" desc="bg-popover, ring-ring, shadow">
+      <Group
+        title={t("gallery.tooltipPopover")}
+        desc="bg-popover, ring-ring, shadow"
+      >
         <div className="flex flex-wrap gap-6">
           <div className="relative">
-            <Button variant="outline">Hover target</Button>
+            <Button variant="outline">{t("gallery.hoverTarget")}</Button>
             <span className="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2 rounded-md bg-popover px-2 py-1 text-xs whitespace-nowrap text-popover-foreground shadow-md ring-1 ring-border">
-              Theme tooltip
+              {t("gallery.themeTooltip")}
             </span>
           </div>
           <div className="rounded-lg border border-border bg-popover p-3 text-popover-foreground shadow-md">
-            <p className="text-xs font-medium">Quick action</p>
+            <p className="text-xs font-medium">{t("gallery.quickAction")}</p>
             <div className="mt-2 flex gap-2">
-              <Button size="xs">Confirm</Button>
+              <Button size="xs">{t("gallery.confirm")}</Button>
               <Button size="xs" variant="ghost">
-                Cancel
+                {t("gallery.cancel")}
               </Button>
             </div>
           </div>
         </div>
       </Group>
 
-      <Group title="Skeleton" desc="bg-muted with pulse">
+      <Group title={t("gallery.skeleton")} desc="bg-muted with pulse">
         <div className="space-y-2">
           <div className="h-4 w-1/3 animate-pulse rounded bg-muted" />
           <div className="h-3 w-2/3 animate-pulse rounded bg-muted" />
@@ -2286,6 +2385,7 @@ function Alert({
 }
 
 function TokensPanel({ system }: { system: MorphousSystem }) {
+  const { t } = useLanguage()
   const [copied, setCopied] = useState(false)
   const lightCss = blockToCss(":root", system.tokens)
   const darkCss = blockToCss(".dark", system.darkTokens)
@@ -2305,17 +2405,9 @@ function TokensPanel({ system }: { system: MorphousSystem }) {
     <section className="rounded-xl border border-border bg-card/85 p-4 backdrop-blur sm:p-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-lg font-semibold">shadcn Tokens</h2>
+          <h2 className="text-lg font-semibold">{t("gallery.tokens")}</h2>
           <p className="mt-1 text-xs text-muted-foreground">
-            Light (
-            <code className="rounded bg-muted px-1 font-mono text-[10px]">
-              :root
-            </code>
-            ) and dark (
-            <code className="rounded bg-muted px-1 font-mono text-[10px]">
-              .dark
-            </code>
-            ) in one block. Paste into any shadcn project.
+            {t("gallery.tokensHelp")}
           </p>
         </div>
         <div className="flex flex-wrap gap-1.5">
@@ -2331,7 +2423,7 @@ function TokensPanel({ system }: { system: MorphousSystem }) {
             ) : (
               <Copy data-icon="inline-start" />
             )}
-            {copied ? "Copied" : "Copy all"}
+            {copied ? t("common.copied") : t("common.copyAll")}
           </Button>
         </div>
       </div>
@@ -2343,7 +2435,7 @@ function TokensPanel({ system }: { system: MorphousSystem }) {
             <Moon className="size-3.5" /> .dark
           </span>
           <span className="text-[10px] text-muted-foreground">
-            {Object.keys(system.tokens).length * 2} CSS variables
+            {Object.keys(system.tokens).length * 2} {t("gallery.cssVariables")}
           </span>
         </div>
         <pre className="max-h-[28rem] overflow-auto p-3 text-[11px] leading-5 text-foreground">
@@ -2449,6 +2541,7 @@ function ColorSearch({
   onColor: (hex: string) => void
   onRole: (role: ColorRoleKey) => void
 }) {
+  const { language, t } = useLanguage()
   const [open, setOpen] = useState(false)
   const active = Boolean(value)
   const activePreset = COLOR_PRESETS.find(
@@ -2461,8 +2554,8 @@ function ColorSearch({
       if (e.key === "Escape") setOpen(false)
     }
     const onClick = (e: MouseEvent) => {
-      const t = e.target as HTMLElement
-      if (!t.closest("[data-color-search]")) setOpen(false)
+      const target = e.target as HTMLElement
+      if (!target.closest("[data-color-search]")) setOpen(false)
     }
     document.addEventListener("keydown", onKey)
     document.addEventListener("mousedown", onClick)
@@ -2485,7 +2578,7 @@ function ColorSearch({
         className="flex h-8 items-center gap-1.5 rounded-md px-2 text-sm hover:bg-muted"
         aria-haspopup="listbox"
         aria-expanded={open}
-        aria-label="Pick color"
+        aria-label={t("gallery.pickColor")}
       >
         <span
           className={`grid size-5 place-items-center rounded border ${
@@ -2499,10 +2592,14 @@ function ColorSearch({
           ) : null}
         </span>
         <span className="text-xs font-medium tracking-[0.12em] text-muted-foreground uppercase">
-          color
+          {t("gallery.color")}
         </span>
         <span className="text-xs text-foreground">
-          {active ? (activePreset?.name ?? value.toUpperCase()) : "any"}
+          {active
+            ? activePreset
+              ? translateColor(language, activePreset.name)
+              : value.toUpperCase()
+            : t("gallery.anyColor")}
         </span>
       </button>
       <span className="h-5 w-px bg-border" aria-hidden />
@@ -2510,11 +2607,11 @@ function ColorSearch({
         value={role}
         onChange={(e) => onRole(e.target.value as ColorRoleKey)}
         className="h-9 bg-transparent px-1 text-sm text-foreground outline-none"
-        aria-label="Color role to match"
+        aria-label={t("gallery.colorRole")}
       >
         {colorRoleOptions.map((r) => (
           <option key={r} value={r}>
-            {r}
+            {translateRole(language, r)}
           </option>
         ))}
       </select>
@@ -2523,7 +2620,7 @@ function ColorSearch({
           type="button"
           onClick={() => onColor("")}
           className="grid size-7 place-items-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
-          aria-label="Clear color filter"
+          aria-label={t("gallery.clearColor")}
         >
           <X className="size-3.5" />
         </button>
@@ -2532,11 +2629,11 @@ function ColorSearch({
       {open ? (
         <div
           role="listbox"
-          aria-label="Color presets"
+          aria-label={t("gallery.colorPresets")}
           className="absolute top-full left-0 z-50 mt-1 w-[min(16rem,calc(100vw-2rem))] rounded-lg border border-border bg-popover p-2 text-popover-foreground shadow-lg"
         >
           <p className="mb-2 px-1 text-[10px] font-medium tracking-[0.16em] text-muted-foreground uppercase">
-            Sort by closest {role.toLowerCase()} color
+            {t("gallery.sortClosest", { role: translateRole(language, role) })}
           </p>
           <div className="grid grid-cols-6 gap-1.5">
             {COLOR_PRESETS.map((p) => (
@@ -2549,7 +2646,7 @@ function ColorSearch({
                   onColor(p.hex)
                   setOpen(false)
                 }}
-                title={`${p.name} · ${p.hex.toUpperCase()}`}
+                title={`${translateColor(language, p.name)} · ${p.hex.toUpperCase()}`}
                 className={`grid aspect-square place-items-center rounded-md border transition hover:scale-110 ${
                   p.hex.toLowerCase() === value.toLowerCase()
                     ? "border-primary ring-2 ring-primary/40"
@@ -2572,7 +2669,7 @@ function ColorSearch({
               }}
               className="mt-2 flex w-full items-center justify-center gap-1.5 rounded-md border border-border px-2 py-1.5 text-xs hover:bg-muted"
             >
-              <X className="size-3" /> Clear color filter
+              <X className="size-3" /> {t("gallery.clearColor")}
             </button>
           ) : null}
         </div>
@@ -2586,11 +2683,13 @@ function LabelSelect({
   value,
   onChange,
   options,
+  getOptionLabel = (option) => (option === "all" ? "All" : option),
 }: {
   label: string
   value: string
   onChange: (value: string) => void
   options: ReadonlyArray<string>
+  getOptionLabel?: (option: string) => string
 }) {
   const isDefault = value === "all" || value === "name"
   return (
@@ -2610,7 +2709,7 @@ function LabelSelect({
       >
         {options.map((option) => (
           <option key={option} value={option}>
-            {option === "all" ? "All" : option}
+            {getOptionLabel(option)}
           </option>
         ))}
       </select>
@@ -2627,6 +2726,7 @@ function EditableSwatch({
   tuned: boolean
   onChange: (hex: string) => void
 }) {
+  const { language, t } = useLanguage()
   const [copied, setCopied] = useState(false)
   const onCopy = async (e: React.MouseEvent) => {
     e.preventDefault()
@@ -2651,12 +2751,16 @@ function EditableSwatch({
           value={normalizeHex(color.hex)}
           onChange={(event) => onChange(event.target.value)}
           className="absolute inset-0 size-full cursor-pointer opacity-0"
-          aria-label={`Tune ${color.role}`}
+          aria-label={t("gallery.tuneRole", {
+            role: translateRole(language, color.role),
+          })}
         />
       </label>
       <div className="min-w-0">
         <div className="flex items-center gap-1.5">
-          <span className="truncate text-sm font-medium">{color.role}</span>
+          <span className="truncate text-sm font-medium">
+            {translateRole(language, color.role)}
+          </span>
           {tuned ? (
             <span className="rounded-sm bg-primary/15 px-1 text-[9px] font-medium tracking-wide text-primary uppercase">
               tuned
@@ -2671,7 +2775,7 @@ function EditableSwatch({
           onClick={onCopy}
           className="mt-1 block truncate text-left font-mono text-[11px] text-primary hover:underline"
         >
-          {copied ? "copied" : color.hex.toUpperCase()}
+          {copied ? t("common.copied") : color.hex.toUpperCase()}
         </button>
       </div>
     </div>
@@ -2708,6 +2812,7 @@ function PromptCard({
 }: {
   prompt: { id: string; label: string; asset: string; prompt: string }
 }) {
+  const { t } = useLanguage()
   const [copied, setCopied] = useState(false)
   const [expanded, setExpanded] = useState(false)
   const onCopy = async () => {
@@ -2735,7 +2840,7 @@ function PromptCard({
           variant="ghost"
           size="xs"
           onClick={onCopy}
-          aria-label="Copy prompt"
+          aria-label={t("gallery.copyPrompt")}
         >
           {copied ? (
             <Check className="size-3.5 text-primary" />
@@ -2756,20 +2861,21 @@ function PromptCard({
         onClick={() => setExpanded((v) => !v)}
         className="mt-2 text-[11px] font-medium text-primary hover:underline"
       >
-        {expanded ? "Show less" : "Show more"}
+        {expanded ? t("common.showLess") : t("common.showMore")}
       </button>
     </article>
   )
 }
 
 function AssetThumb({ label, href }: { label: string; href: string }) {
+  const { t } = useLanguage()
   const openLightbox = useLightbox()
   return (
     <div className="group relative block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary">
       <button
         type="button"
         onClick={() => openLightbox?.({ src: href, alt: label })}
-        title={`View ${label}`}
+        title={t("gallery.viewAsset", { label })}
         className="block w-full cursor-zoom-in text-left"
       >
         <span
@@ -2794,8 +2900,8 @@ function AssetThumb({ label, href }: { label: string; href: string }) {
         href={href}
         download
         onClick={(e) => e.stopPropagation()}
-        title={`Download ${label}`}
-        aria-label={`Download ${label}`}
+        title={t("gallery.downloadAsset", { label })}
+        aria-label={t("gallery.downloadAsset", { label })}
         className="absolute top-1.5 right-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100"
       >
         <Download className="size-3.5" />
