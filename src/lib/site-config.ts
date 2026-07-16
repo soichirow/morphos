@@ -1,4 +1,4 @@
-export const DEFAULT_SITE_URL = "https://morphos-ja.pages.dev"
+export const DEFAULT_SITE_URL = "https://morphos.so1ro.com"
 
 export function normalizeSiteUrl(value: string | undefined): string {
   if (!value) return DEFAULT_SITE_URL

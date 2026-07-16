@@ -322,14 +322,14 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   const robotsResponse = await request.get("/robots.txt")
   expect(robotsResponse.ok()).toBe(true)
   const robots = await robotsResponse.text()
-  expect(robots).toContain("Sitemap: https://morphos-ja.pages.dev/sitemap.xml")
+  expect(robots).toContain("Sitemap: https://morphos.so1ro.com/sitemap.xml")
 
   const sitemapResponse = await request.get("/sitemap.xml")
   expect(sitemapResponse.ok()).toBe(true)
   const sitemap = await sitemapResponse.text()
   expect(sitemap.match(/<url>/g)).toHaveLength(3)
-  expect(sitemap).toContain("<loc>https://morphos-ja.pages.dev/gallery/</loc>")
-  expect(sitemap).toContain("<loc>https://morphos-ja.pages.dev/privacy/</loc>")
+  expect(sitemap).toContain("<loc>https://morphos.so1ro.com/gallery/</loc>")
+  expect(sitemap).toContain("<loc>https://morphos.so1ro.com/privacy/</loc>")
   expect(sitemap).not.toContain("?system=")
 
   const ogImageResponse = await request.get("/og-image.png")
@@ -343,7 +343,7 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   await expect(page.locator('link[rel="canonical"]')).toHaveCount(1)
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     "href",
-    "https://morphos-ja.pages.dev/gallery/"
+    "https://morphos.so1ro.com/gallery/"
   )
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
     "content",
@@ -351,7 +351,7 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   )
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute(
     "content",
-    "https://morphos-ja.pages.dev/og-image.png"
+    "https://morphos.so1ro.com/og-image.png"
   )
   await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
     "content",
@@ -363,7 +363,7 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   )
   await expect(page.locator('meta[name="twitter:image"]')).toHaveAttribute(
     "content",
-    "https://morphos-ja.pages.dev/og-image.png"
+    "https://morphos.so1ro.com/og-image.png"
   )
   expect(
     await page.locator('script[src*="googletagmanager.com"]').count()
@@ -382,7 +382,7 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   await expect(page.locator('link[rel="canonical"]')).toHaveCount(1)
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     "href",
-    "https://morphos-ja.pages.dev/privacy/"
+    "https://morphos.so1ro.com/privacy/"
   )
 })
 

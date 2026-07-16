@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises"
 import { resolve } from "node:path"
 
-const DEFAULT_BASE_URL = "https://morphos-ja.pages.dev"
+const DEFAULT_BASE_URL = "https://morphos.so1ro.com"
 
 function escapeXml(value) {
   return value

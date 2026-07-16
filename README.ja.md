@@ -1,9 +1,9 @@
-# Morphous 日本語版
+# モーファス
 
 [Ameyanagi/morphos](https://github.com/Ameyanagi/morphos) を基にした日本語フォークです。
 自然をモチーフにした611種類のデザインシステムを検索・閲覧できます。
 
-公開版: https://morphos-ja.pages.dev/
+公開版: https://morphos.so1ro.com/
 
 ## 日本語版の追加機能
 

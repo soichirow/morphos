@@ -117,7 +117,7 @@ try {
         <p class="en">Morphous · Nature-driven design systems</p>
       </section>
       <footer>
-        <div class="url"><span class="mark"></span>morphos-ja.pages.dev</div>
+        <div class="url"><span class="mark"></span>morphos.so1ro.com</div>
         <div class="original">Original: morphos.ameyanagi.com<br />日本語・English 切り替え対応</div>
       </footer>
     </main>

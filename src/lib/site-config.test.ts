@@ -15,7 +15,7 @@ describe("site configuration", () => {
 
   it("falls back when the configured origin is not HTTP(S)", () => {
     expect(normalizeSiteUrl("javascript:alert(1)")).toBe(
-      "https://morphos-ja.pages.dev"
+      "https://morphos.so1ro.com"
     )
   })
 
