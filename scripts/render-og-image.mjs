@@ -110,11 +110,11 @@ try {
   <body>
     <div class="overlay"></div>
     <main>
-      <div class="edition">AMEYANAGI'S MORPHOUS — JAPANESE EDITION</div>
+      <div class="edition">ORIGINAL BY AMEYANAGI · JAPANESE / ENGLISH</div>
       <section class="content">
-        <h1 class="brand">Morphous <span>日本語版</span></h1>
+        <h1 class="brand">モーファス</h1>
         <p class="ja">自然から生まれた<br />デザインシステム</p>
-        <p class="en">Nature-driven design systems</p>
+        <p class="en">Morphous · Nature-driven design systems</p>
       </section>
       <footer>
         <div class="url"><span class="mark"></span>morphos-ja.pages.dev</div>

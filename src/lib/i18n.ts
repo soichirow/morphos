@@ -11,7 +11,7 @@ export function parseLanguage(value: string | null): Language {
 const pageMetadataByRoute = {
   landing: {
     ja: {
-      title: "Morphous 日本語版 - 自然から生まれたデザインシステム",
+      title: "モーファス - 自然から生まれたデザインシステム",
       description:
         "自然をモチーフにしたデザインシステム、生成アセット、再利用できるプロンプト、shadcn対応CSSテーマのカタログです。",
     },
@@ -23,7 +23,7 @@ const pageMetadataByRoute = {
   },
   gallery: {
     ja: {
-      title: "デザインシステム一覧 | Morphous 日本語版",
+      title: "デザインシステム一覧 | モーファス",
       description:
         "自然をモチーフにした611種類のデザインシステムを検索し、配色・CSSテーマ・生成プロンプトを確認できます。",
     },
@@ -35,9 +35,9 @@ const pageMetadataByRoute = {
   },
   privacy: {
     ja: {
-      title: "プライバシー方針 | Morphous 日本語版",
+      title: "プライバシー方針 | モーファス",
       description:
-        "Morphous 日本語版におけるアクセス解析、同意、ローカルストレージの取り扱いを説明します。",
+        "モーファスにおけるアクセス解析、同意、ローカルストレージの取り扱いを説明します。",
     },
     en: {
       title: "Privacy | Morphous",
@@ -58,7 +58,7 @@ export function pageMetadata(language: Language, pathname: string) {
 
 export const messages = {
   "meta.title": {
-    ja: "Morphous 日本語版 - 自然から生まれたデザインシステム",
+    ja: "モーファス - 自然から生まれたデザインシステム",
     en: "Morphous - Nature-driven design systems",
   },
   "meta.description": {
@@ -66,6 +66,7 @@ export const messages = {
     en: "A catalog of nature-inspired design systems, generated motif assets, reusable prompt records, and shadcn-compatible CSS themes.",
   },
   "common.language": { ja: "表示言語", en: "Display language" },
+  "common.siteName": { ja: "モーファス", en: "Morphous" },
   "common.japanese": { ja: "日本語", en: "Japanese" },
   "common.english": { ja: "English", en: "English" },
   "common.light": { ja: "ライト", en: "Light" },
@@ -93,7 +94,7 @@ export const messages = {
     en: "Nature-coded design systems",
   },
   "landing.mobileSubtitle": {
-    ja: "Morphous ギャラリー",
+    ja: "モーファス ギャラリー",
     en: "Morphous gallery",
   },
   "landing.openGallery": { ja: "ギャラリーを開く", en: "Open gallery" },
@@ -110,14 +111,14 @@ export const messages = {
     en: "ship a design system.",
   },
   "landing.description": {
-    ja: "Morphousは自然のモチーフを8色のパレット、ライト／ダーク対応のshadcnテーマ、PowerPoint・Wordテンプレートへ展開します。生成プロンプトも公開され、再現・共有できます。",
+    ja: "モーファスは自然のモチーフを8色のパレット、ライト／ダーク対応のshadcnテーマ、PowerPoint・Wordテンプレートへ展開します。生成プロンプトも公開され、再現・共有できます。",
     en: "Morphous turns a single nature motif into an 8-role palette, a light/dark shadcn theme, and matching PowerPoint + Word templates. Every prompt is recorded so the catalog stays reproducible.",
   },
   "landing.browse": { ja: "ギャラリーを見る", en: "Browse the gallery" },
   "landing.openInGallery": { ja: "ギャラリーで開く", en: "Open in gallery" },
   "landing.about": { ja: "このサイトについて", en: "Why this exists" },
   "landing.aboutBody": {
-    ja: "Morphousは、自然から着想を得た配色を、Webサイトやプレゼンテーション、文書で実際に使える形に整理したカタログです。PowerPointとWordのテンプレートは現在も開発中ですが、配色とフォントはすでに反映されます。",
+    ja: "モーファスは、自然から着想を得た配色を、Webサイトやプレゼンテーション、文書で実際に使える形に整理したカタログです。PowerPointとWordのテンプレートは現在も開発中ですが、配色とフォントはすでに反映されます。",
     en: "I started this to curate a private collection of nature-inspired palettes for the things I actually ship: my own website, the PowerPoint decks I present from, and the Word documents I write. The PowerPoint and Word templates are still in development; the themes already pick up the palette and fonts.",
   },
   "landing.inspiration": {
@@ -175,11 +176,11 @@ export const messages = {
     en: "Cover, palette stripe, palette appendix. Latin + Japanese fonts wired in.",
   },
   "landing.footer": {
-    ja: "Morphous · {count}種類 · AI生成モチーフ · 開発中",
+    ja: "モーファス · {count}種類 · AI生成モチーフ · 開発中",
     en: "Morphous · {count} systems · AI-generated motifs · under active development",
   },
 
-  "gallery.home": { ja: "Morphous ホーム", en: "Morphous home" },
+  "gallery.home": { ja: "モーファス ホーム", en: "Morphous home" },
   "gallery.title": {
     ja: "自然から生まれた shadcn デザインシステム",
     en: "Nature-coded design systems for shadcn",

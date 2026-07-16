@@ -799,7 +799,7 @@ function GalleryHeader({
             />
             <div>
               <p className="text-[11px] font-medium tracking-[0.18em] text-muted-foreground uppercase">
-                Morphous
+                {t("common.siteName")}
               </p>
               <h1 className="text-base font-semibold tracking-tight sm:text-lg">
                 {t("gallery.title")}

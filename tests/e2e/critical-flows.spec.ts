@@ -14,6 +14,18 @@ test.beforeEach(async ({ page }) => {
   ).toBeVisible()
 })
 
+test("サイト名を日本語ではカタカナ、英語では英字で表示する", async ({ page }) => {
+  const japaneseHome = page.getByRole("link", { name: "モーファス ホーム" })
+  await expect(japaneseHome).toBeVisible()
+  await expect(japaneseHome).toContainText("モーファス")
+  await expect(page).toHaveTitle("デザインシステム一覧 | モーファス")
+
+  await page.getByRole("button", { name: "English" }).click()
+  const englishHome = page.getByRole("link", { name: "Morphous home" })
+  await expect(englishHome).toBeVisible()
+  await expect(englishHome).toContainText("Morphous")
+})
+
 test("ファーストビューで3つの画像表示モードを選んで保存できる", async ({
   page,
 }) => {
@@ -343,7 +355,7 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   )
   await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
     "content",
-    "デザインシステム一覧 | Morphous 日本語版"
+    "デザインシステム一覧 | モーファス"
   )
   await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute(
     "content",
@@ -366,7 +378,7 @@ test("sitemap、robots、canonical、privacyが本番相当配信で整合する
   await expect(
     page.getByRole("heading", { name: "プライバシー方針" })
   ).toBeVisible()
-  await expect(page).toHaveTitle("プライバシー方針 | Morphous 日本語版")
+  await expect(page).toHaveTitle("プライバシー方針 | モーファス")
   await expect(page.locator('link[rel="canonical"]')).toHaveCount(1)
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     "href",

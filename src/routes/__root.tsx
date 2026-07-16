@@ -6,7 +6,7 @@ import { GentleImagesProvider } from "@/lib/gentle-images-context"
 import { LanguageProvider } from "@/lib/i18n-context"
 import { absoluteSiteUrl, siteConfig } from "@/lib/site-config"
 
-const siteTitle = "Morphous 日本語版 - 自然から生まれたデザインシステム"
+const siteTitle = "モーファス - 自然から生まれたデザインシステム"
 const siteDescription =
   "自然をモチーフにしたデザインシステム、生成アセット、再利用できるプロンプト、shadcn対応CSSテーマのカタログです。"
 const socialImage = absoluteSiteUrl("/og-image.png")
@@ -26,7 +26,7 @@ const verificationMeta = [
 const websiteStructuredData = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Morphous 日本語版",
+  name: "モーファス",
   url: absoluteSiteUrl("/"),
   description: siteDescription,
   inLanguage: ["ja", "en"],
@@ -55,11 +55,11 @@ export const Route = createRootRoute({
       },
       {
         name: "application-name",
-        content: "Morphous",
+        content: "モーファス",
       },
       {
         name: "apple-mobile-web-app-title",
-        content: "Morphous",
+        content: "モーファス",
       },
       {
         name: "apple-mobile-web-app-capable",
@@ -87,7 +87,7 @@ export const Route = createRootRoute({
       },
       {
         property: "og:site_name",
-        content: "Morphous 日本語版",
+        content: "モーファス",
       },
       {
         property: "og:locale",
@@ -131,7 +131,7 @@ export const Route = createRootRoute({
       },
       {
         property: "og:image:alt",
-        content: "自然をモチーフにしたMorphousデザインシステムのカタログ",
+        content: "自然をモチーフにしたモーファスのデザインシステムカタログ",
       },
       {
         name: "twitter:card",
@@ -151,7 +151,7 @@ export const Route = createRootRoute({
       },
       {
         name: "twitter:image:alt",
-        content: "Morphous 日本語版 - 自然から生まれたデザインシステム",
+        content: "モーファス - 自然から生まれたデザインシステム",
       },
       ...verificationMeta,
     ],

@@ -16,6 +16,8 @@ import { systems } from "@/data/systems"
 
 describe("i18n", () => {
   it("provides Japanese and English labels for the same UI concept", () => {
+    expect(translate("ja", "common.siteName")).toBe("モーファス")
+    expect(translate("en", "common.siteName")).toBe("Morphous")
     expect(translate("ja", "gallery.palette")).toBe("パレット")
     expect(translate("ja", "gallery.copyThemeCss")).toBe("theme.cssをコピー")
     expect(translate("en", "gallery.copyPromptsJson")).toBe("Copy prompts.json")
@@ -32,7 +34,7 @@ describe("i18n", () => {
 
   it("keeps page-specific metadata when the display language changes", () => {
     expect(pageMetadata("ja", "/").title).toBe(
-      "Morphous 日本語版 - 自然から生まれたデザインシステム"
+      "モーファス - 自然から生まれたデザインシステム"
     )
     expect(pageMetadata("en", "/gallery/")).toEqual({
       title: "Design system gallery | Morphous",
@@ -40,9 +42,9 @@ describe("i18n", () => {
         "Browse, filter, preview, and share nature-driven design systems.",
     })
     expect(pageMetadata("ja", "/privacy/")).toEqual({
-      title: "プライバシー方針 | Morphous 日本語版",
+      title: "プライバシー方針 | モーファス",
       description:
-        "Morphous 日本語版におけるアクセス解析、同意、ローカルストレージの取り扱いを説明します。",
+        "モーファスにおけるアクセス解析、同意、ローカルストレージの取り扱いを説明します。",
     })
     expect(pageMetadata("en", "/unknown")).toEqual(pageMetadata("en", "/"))
   })

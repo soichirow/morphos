@@ -92,7 +92,7 @@ function LandingRoute() {
             />
             <div className="min-w-0">
               <p className="text-[10px] font-medium tracking-[0.2em] text-muted-foreground uppercase">
-                Morphous
+                {t("common.siteName")}
               </p>
               <p className="hidden truncate text-sm font-semibold sm:block">
                 {t("landing.subtitle")}
