@@ -1,44 +1,15 @@
 import fs from "node:fs/promises"
 import path from "node:path"
+import {
+  buildThemeCssArtifact,
+  buildThemePayload,
+} from "../src/domain/theme-artifact-serializer.js"
+import { REQUIRED_TOKEN_KEYS } from "../src/domain/morphous-system-constants.js"
 
 const ROOT = process.cwd()
 const systemsRoot = path.join(ROOT, "public", "systems")
 const dataDir = path.join(ROOT, "src", "data")
-
-const requiredTokenOrder = [
-  "background",
-  "foreground",
-  "card",
-  "card-foreground",
-  "popover",
-  "popover-foreground",
-  "primary",
-  "primary-foreground",
-  "secondary",
-  "secondary-foreground",
-  "muted",
-  "muted-foreground",
-  "accent",
-  "accent-foreground",
-  "destructive",
-  "border",
-  "input",
-  "ring",
-  "chart-1",
-  "chart-2",
-  "chart-3",
-  "chart-4",
-  "chart-5",
-  "sidebar",
-  "sidebar-foreground",
-  "sidebar-primary",
-  "sidebar-primary-foreground",
-  "sidebar-accent",
-  "sidebar-accent-foreground",
-  "sidebar-border",
-  "sidebar-ring",
-  "radius",
-]
+const snapshotPath = path.join(dataDir, "systems.json")
 
 function hexToRgb(hex) {
   const value = hex.replace("#", "")
@@ -214,7 +185,7 @@ function role(palette, names, fallbackIndex) {
 
 function orderedTokens(tokens) {
   const ordered = {}
-  for (const key of requiredTokenOrder) {
+  for (const key of REQUIRED_TOKEN_KEYS) {
     assert(tokens[key], `Missing token ${key}`)
     ordered[key] = tokens[key]
   }
@@ -327,27 +298,6 @@ function normalizeTokens(manifest, palette) {
   return buildTokensFromPalette(palette)
 }
 
-function formatCssBlock(selector, tokens) {
-  return `${selector} {\n${Object.entries(tokens)
-    .map(([key, value]) => `  --${key}: ${value};`)
-    .join("\n")}\n}`
-}
-
-function buildThemeCss(system) {
-  return `/* ${system.name}
-   System definition: /systems/${system.slug}/system.json
-   Prompt records: ${system.assets.promptsJson}
-   Design-system references:
-   light: ${system.assets.board}
-   dark: ${system.assets.darkBoard}
-*/
-
-${formatCssBlock(":root", system.tokens)}
-
-${formatCssBlock(".dark", system.darkTokens)}
-`
-}
-
 function publicFile(publicPath) {
   return path.join(ROOT, "public", publicPath.replace(/^\//, ""))
 }
@@ -370,7 +320,15 @@ async function writeJson(file, value) {
 }
 
 async function getSystemManifests() {
-  const entries = await fs.readdir(systemsRoot, { withFileTypes: true })
+  let entries
+  try {
+    entries = await fs.readdir(systemsRoot, { withFileTypes: true })
+  } catch (error) {
+    if (error && typeof error === "object" && error.code === "ENOENT") {
+      return []
+    }
+    throw error
+  }
   const manifests = []
   for (const entry of entries) {
     if (!entry.isDirectory()) continue
@@ -447,100 +405,92 @@ async function buildSystem(manifestPath) {
   }
 }
 
-async function main() {
-  await fs.mkdir(dataDir, { recursive: true })
-  const manifestPaths = await getSystemManifests()
-  assert(manifestPaths.length > 0, "No Morphous system manifests found")
+function renderSystemsModule(systems) {
+  return `import type { MorphousSystem } from "@/domain/morphous-system"
 
-  const systems = []
-  for (const manifestPath of manifestPaths) {
-    const manifest = await readJson(manifestPath)
-    if (!shouldCatalog(manifest)) continue
-    if (!(await hasCatalogInputs(manifest))) continue
-    const system = await buildSystem(manifestPath)
-    await fs.writeFile(
-      publicFile(system.assets.themeCss),
-      buildThemeCss(system)
-    )
-    await writeJson(publicFile(system.assets.themeJson), {
-      schema: "morphous.theme.v1",
-      source:
-        "Generated from a per-system Morphous manifest and prompt records. CSS variables are shadcn/tweakcn-compatible.",
-      identity: {
-        slug: system.slug,
-        name: system.name,
-        motifName: system.motifName,
-        motifCategory: system.motifCategory,
-        biome: system.biome,
-        motif: system.motif,
+export type { MorphousSystem } from "@/domain/morphous-system"
+
+const UPSTREAM_ASSET_ORIGIN = "https://morphos.ameyanagi.com"
+
+function upstreamAsset(assetPath: string): string {
+  return new URL(assetPath, UPSTREAM_ASSET_ORIGIN).toString()
+}
+
+const upstreamSystems = ${JSON.stringify(systems, null, 2)} satisfies Array<MorphousSystem>
+
+export const systems: Array<MorphousSystem> = upstreamSystems.map(
+  (system) => {
+    const typedSystem: MorphousSystem = system
+    return {
+      ...typedSystem,
+      prompts: typedSystem.prompts.map((prompt) => ({
+        ...prompt,
+        asset: upstreamAsset(prompt.asset),
+        sourceAsset: prompt.sourceAsset
+          ? upstreamAsset(prompt.sourceAsset)
+          : undefined,
+        referenceAssets: prompt.referenceAssets?.map(upstreamAsset),
+      })),
+      assets: {
+        ...typedSystem.assets,
+        motif: upstreamAsset(typedSystem.assets.motif),
+        board: upstreamAsset(typedSystem.assets.board),
+        darkBoard: upstreamAsset(typedSystem.assets.darkBoard),
+        hero: typedSystem.assets.hero ? upstreamAsset(typedSystem.assets.hero) : undefined,
+        texture: typedSystem.assets.texture ? upstreamAsset(typedSystem.assets.texture) : undefined,
+        examples: typedSystem.assets.examples.map((example) => ({
+          ...example,
+          image: upstreamAsset(example.image),
+        })),
+        themeCss: upstreamAsset(typedSystem.assets.themeCss),
+        themeJson: upstreamAsset(typedSystem.assets.themeJson),
+        promptsJson: upstreamAsset(typedSystem.assets.promptsJson),
       },
-      palette: system.palette,
-      light: system.tokens,
-      dark: system.darkTokens,
-      typography: system.typography,
-      layout: system.layout,
-      tags: system.tags,
-      assets: system.assets,
-      prompts: system.prompts,
-    })
-    systems.push(system)
+    }
   }
-
-  await writeJson(path.join(dataDir, "systems.json"), systems)
-  await fs.writeFile(
-    path.join(dataDir, "systems.ts"),
-    `type MorphousPrompt = {
-  id: string
-  label: string
-  asset: string
-  prompt: string
-  sourceAsset?: string
-  referenceAssets?: Array<string>
-  workflow?: string
-  postProcess?: string
-  postProcessing?: string
-  kind?: string
-}
-type MorphousAssetExample = { id: string; label: string; image: string }
-
-export type MorphousSystem = {
-  slug: string
-  name: string
-  motifName: string
-  motifCategory: string
-  biome: string
-  motif: string
-  description: string
-  typography: string
-  layout: string
-  tags: Array<string>
-  palette: Array<{ role: string; name: string; hex: string; oklch: string }>
-  tokens: Record<string, string>
-  darkTokens: Record<string, string>
-  prompts: Array<MorphousPrompt>
-  assets: {
-    motif: string
-    board: string
-    darkBoard: string
-    hero?: string
-    texture?: string
-    examples: Array<MorphousAssetExample>
-    themeCss: string
-    themeJson: string
-    promptsJson: string
-  }
-  bgLightness: number
-  searchBlob: string
-}
-
-export const systems = ${JSON.stringify(systems, null, 2)} satisfies Array<MorphousSystem>
+)
 
 export const motifCategories = Array.from(new Set(systems.map((system) => system.motifCategory))).sort()
 `
-  )
+}
+
+async function main() {
+  await fs.mkdir(dataDir, { recursive: true })
+  const manifestPaths = await getSystemManifests()
+  const systems = []
+  if (manifestPaths.length === 0) {
+    systems.push(...(await readJson(snapshotPath)))
+  } else {
+    for (const manifestPath of manifestPaths) {
+      const manifest = await readJson(manifestPath)
+      if (!shouldCatalog(manifest)) continue
+      if (!(await hasCatalogInputs(manifest))) continue
+      const system = await buildSystem(manifestPath)
+      await fs.writeFile(
+        publicFile(system.assets.themeCss),
+        buildThemeCssArtifact(system)
+      )
+      await writeJson(
+        publicFile(system.assets.themeJson),
+        buildThemePayload(system)
+      )
+      systems.push(system)
+    }
+  }
+
+  const modulePath = path.join(dataDir, "systems.ts")
+  const moduleSource = renderSystemsModule(systems)
+  const checkOnly = process.argv.includes("--check")
+  if (checkOnly) {
+    const current = await fs.readFile(modulePath, "utf8")
+    assert(current === moduleSource, "Generated systems.ts is out of date")
+  } else {
+    if (manifestPaths.length > 0) await writeJson(snapshotPath, systems)
+    await fs.writeFile(modulePath, moduleSource)
+  }
 
   process.stdout.write(
-    `Generated ${systems.length} Morphous systems from per-system manifests.\n`
+    `${checkOnly ? "Verified" : "Generated"} ${systems.length} Morphous systems.\n`
   )
 }
 

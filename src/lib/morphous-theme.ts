@@ -1,21 +1,20 @@
 import type { CSSProperties } from "react"
-import type { MorphousSystem } from "@/data/systems"
+import type { CorePaletteRole, MorphousSystem } from "@/domain/morphous-system"
 
 export type ThemeMode = "light" | "dark"
 
-type PaletteRole =
-  | "Background"
-  | "Ink"
-  | "Primary"
-  | "Secondary"
-  | "Accent"
-  | "Signal"
-  | "Surface"
-  | "Depth"
-
-function getPaletteColor(system: MorphousSystem, role: PaletteRole): string {
-  const found = system.palette.find((c) => c.role === role)
-  return found?.hex ?? "#000000"
+function getPaletteColor(
+  system: MorphousSystem,
+  role: string,
+  fallbackRole: CorePaletteRole
+): string {
+  const color = system.palette.find((entry) => entry.role === role)
+  if (color) return color.hex
+  const fallback = system.palette.find((entry) => entry.role === fallbackRole)
+  if (!fallback) {
+    throw new Error(`${system.slug} is missing core palette role ${fallbackRole}`)
+  }
+  return fallback.hex
 }
 
 export function themeStyle(
@@ -27,12 +26,12 @@ export function themeStyle(
     Object.entries(tokens).map(([key, value]) => [`--${key}`, value])
   )
 
-  const bg = getPaletteColor(system, "Background")
-  const ink = getPaletteColor(system, "Ink")
-  const surface = getPaletteColor(system, "Surface")
-  const depth = getPaletteColor(system, "Depth")
-  const primary = getPaletteColor(system, "Primary")
-  const accent = getPaletteColor(system, "Accent")
+  const bg = getPaletteColor(system, "Background", "Background")
+  const ink = getPaletteColor(system, "Ink", "Primary")
+  const surface = getPaletteColor(system, "Surface", "Background")
+  const depth = getPaletteColor(system, "Depth", "Primary")
+  const primary = getPaletteColor(system, "Primary", "Primary")
+  const accent = getPaletteColor(system, "Accent", "Primary")
 
   const paletteVars =
     mode === "dark"
@@ -80,22 +79,22 @@ export function paletteForOffice(
   system: MorphousSystem,
   mode: ThemeMode = "light"
 ): OfficePalette {
-  const bg = getPaletteColor(system, "Background")
-  const ink = getPaletteColor(system, "Ink")
+  const bg = getPaletteColor(system, "Background", "Background")
+  const ink = getPaletteColor(system, "Ink", "Primary")
   return {
     background: stripHash(
-      mode === "dark" ? getPaletteColor(system, "Depth") : bg
+      mode === "dark" ? getPaletteColor(system, "Depth", "Primary") : bg
     ),
     foreground: stripHash(mode === "dark" ? bg : ink),
-    primary: stripHash(getPaletteColor(system, "Primary")),
-    secondary: stripHash(getPaletteColor(system, "Secondary")),
-    accent: stripHash(getPaletteColor(system, "Accent")),
-    signal: stripHash(getPaletteColor(system, "Signal")),
+    primary: stripHash(getPaletteColor(system, "Primary", "Primary")),
+    secondary: stripHash(getPaletteColor(system, "Secondary", "Primary")),
+    accent: stripHash(getPaletteColor(system, "Accent", "Primary")),
+    signal: stripHash(getPaletteColor(system, "Signal", "Primary")),
     surface: stripHash(
       mode === "dark"
-        ? getPaletteColor(system, "Ink")
-        : getPaletteColor(system, "Surface")
+        ? getPaletteColor(system, "Ink", "Primary")
+        : getPaletteColor(system, "Surface", "Background")
     ),
-    depth: stripHash(getPaletteColor(system, "Depth")),
+    depth: stripHash(getPaletteColor(system, "Depth", "Primary")),
   }
 }

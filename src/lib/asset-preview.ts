@@ -78,9 +78,10 @@ export function previewSources(
     return primary
   }
 
+  const sizeHint = opts?.sizes ? { sizes: opts.sizes } : {}
   const sources: Array<PreviewSource> = [
-    { type: "image/avif", srcSet: buildSrcSet("avif"), sizes: opts?.sizes },
-    { type: "image/webp", srcSet: buildSrcSet("webp"), sizes: opts?.sizes },
+    { type: "image/avif", srcSet: buildSrcSet("avif"), ...sizeHint },
+    { type: "image/webp", srcSet: buildSrcSet("webp"), ...sizeHint },
   ]
 
   return {

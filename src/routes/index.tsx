@@ -11,14 +11,21 @@ import {
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { MotifPreview } from "@/components/motif-preview"
+import { resolveSystem } from "@/domain/catalog"
 import { LanguageToggle } from "@/components/language-toggle"
 import { systems } from "@/data/systems"
-import { PreviewImage } from "@/components/preview-image"
 import { translateBiome, translateTaxonomy } from "@/lib/i18n"
 import { useLanguage } from "@/lib/i18n-context"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
+import { absoluteSiteUrl } from "@/lib/site-config"
 
-export const Route = createFileRoute("/")({ component: LandingRoute })
+export const Route = createFileRoute("/")({
+  component: LandingRoute,
+  head: () => ({
+    links: [{ rel: "canonical", href: absoluteSiteUrl("/") }],
+  }),
+})
 
 const FEATURE_COUNT = 8
 
@@ -45,7 +52,13 @@ function shuffle<T>(arr: ReadonlyArray<T>): Array<T> {
   const a = [...arr]
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
+    const left = a[i]
+    const right = a[j]
+    if (left === undefined || right === undefined) {
+      throw new Error("Shuffle index must stay inside the collection")
+    }
+    a[i] = right
+    a[j] = left
   }
   return a
 }
@@ -61,7 +74,7 @@ function LandingRoute() {
 
   // Theme follows hover. The first featured system is the resting choice
   // (no auto-rotation, only changes when the user hovers a card).
-  const restingSystem = featured[0] ?? systems[0]
+  const restingSystem = featured[0] ?? resolveSystem(systems, undefined)
   const heroSystem =
     (hoverSlug && featured.find((s) => s.slug === hoverSlug)) || restingSystem
 
@@ -158,11 +171,10 @@ function LandingRoute() {
               background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 60%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 20%)`,
             }}
           >
-            <PreviewImage
+            <MotifPreview
               key={heroSystem.slug}
-              src={heroSystem.assets.motif}
-              alt={`${heroSystem.motifName} motif`}
-              kind="motif"
+              system={heroSystem}
+              label={heroSystem.motifName}
               className="absolute inset-0 size-full object-contain p-8 transition-all duration-500 group-hover:scale-[1.03]"
               loading="eager"
               fetchPriority="high"
@@ -347,10 +359,9 @@ function FeatureCard({
           }`,
         }}
       >
-        <PreviewImage
-          src={system.assets.motif}
-          alt={`${system.motifName} motif`}
-          kind="motif"
+        <MotifPreview
+          system={system}
+          label={system.motifName}
           className="absolute inset-0 size-full object-contain p-6 transition-transform duration-500 group-hover:scale-105"
           loading="lazy"
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 280px"

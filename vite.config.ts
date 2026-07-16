@@ -21,7 +21,8 @@ const config = defineConfig({
         autoSubfolderIndex: true,
         autoStaticPathsDiscovery: true,
         crawlLinks: false,
-        filter: ({ path }) => path === "/" || path === "/gallery",
+        filter: ({ path }) =>
+          path === "/" || path === "/gallery" || path === "/privacy",
         failOnError: true,
       },
     }),

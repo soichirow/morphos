@@ -1,29 +1,33 @@
 import { describe, expect, it } from "vitest"
 
-import { buildSitemap } from "./build-sitemap.mjs"
+import { buildRobots, buildSitemap } from "./build-sitemap.mjs"
 
 describe("buildSitemap", () => {
-  it("lists the landing page, gallery, and every unique shareable system URL", () => {
-    const xml = buildSitemap("https://morphos-ja.pages.dev/", [
-      "morphous-artichoke",
-      "morphous-birch",
-      "morphous-artichoke",
-    ])
+  it("lists only canonical, indexable HTML pages with absolute URLs", () => {
+    const xml = buildSitemap("https://morphos-ja.pages.dev/")
 
     expect(xml).toContain("<loc>https://morphos-ja.pages.dev/</loc>")
-    expect(xml).toContain("<loc>https://morphos-ja.pages.dev/gallery</loc>")
-    expect(xml).toContain(
-      "<loc>https://morphos-ja.pages.dev/gallery?system=morphous-artichoke</loc>"
-    )
-    expect(xml).toContain(
-      "<loc>https://morphos-ja.pages.dev/gallery?system=morphous-birch</loc>"
-    )
-    expect(xml.match(/<url>/g)).toHaveLength(4)
+    expect(xml).toContain("<loc>https://morphos-ja.pages.dev/gallery/</loc>")
+    expect(xml).toContain("<loc>https://morphos-ja.pages.dev/privacy/</loc>")
+    expect(xml).not.toContain("?system=")
+    expect(xml.match(/<url>/g)).toHaveLength(3)
   })
 
-  it("escapes XML-sensitive URL characters", () => {
-    const xml = buildSitemap("https://example.com/?lang=ja&mode=all", [])
+  it("rejects non-HTTP production origins", () => {
+    expect(() => buildSitemap("javascript:alert(1)")).toThrow(
+      /absolute HTTP\(S\) URL/
+    )
+  })
 
-    expect(xml).toContain("https://example.com/?lang=ja&amp;mode=all/")
+  it("generates robots.txt from the same canonical origin", () => {
+    expect(buildRobots("https://example.com/")).toBe(
+      [
+        "User-agent: *",
+        "Allow: /",
+        "",
+        "Sitemap: https://example.com/sitemap.xml",
+        "",
+      ].join("\n")
+    )
   })
 })

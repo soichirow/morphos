@@ -1,27 +1,26 @@
 import { useMemo, useSyncExternalStore } from "react"
-import type { MorphousSystem } from "@/data/systems"
+import type { MorphousSystem } from "@/domain/morphous-system"
+import type { PaletteOverrides } from "@/lib/palette-overrides"
+import { systems } from "@/data/systems"
+import { readStorageItem, writeStorageItem } from "@/lib/browser-storage"
+import {
+  applyPaletteOverrides,
+  parsePaletteOverrides,
+  removePaletteOverrides,
+  setPaletteOverride,
+} from "@/lib/palette-overrides"
 
 const STORAGE_KEY = "morphous.palette-overrides"
 const PALETTE_STORE_EVENT = "morphous-palette-overrides-store"
 
-type AllOverrides = Record<string, Record<string, string>>
-
-function parseAll(raw: string | null): AllOverrides {
-  try {
-    return raw ? (JSON.parse(raw) as AllOverrides) : {}
-  } catch {
-    return {}
-  }
-}
-
-function loadAll(): AllOverrides {
+function loadAll(): PaletteOverrides {
   if (typeof window === "undefined") return {}
-  return parseAll(window.localStorage.getItem(STORAGE_KEY))
+  return parsePaletteOverrides(readStorageItem(window.localStorage, STORAGE_KEY), systems)
 }
 
 function getOverridesSnapshot(): string {
   if (typeof window === "undefined") return ""
-  return window.localStorage.getItem(STORAGE_KEY) ?? ""
+  return readStorageItem(window.localStorage, STORAGE_KEY) ?? ""
 }
 
 function getServerOverridesSnapshot(): string {
@@ -39,9 +38,11 @@ function subscribeOverrides(onStoreChange: () => void) {
   }
 }
 
-function saveAll(all: AllOverrides) {
+function saveAll(all: PaletteOverrides) {
   if (typeof window === "undefined") return
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(all))
+  if (!writeStorageItem(window.localStorage, STORAGE_KEY, JSON.stringify(all))) {
+    return
+  }
   window.dispatchEvent(new Event(PALETTE_STORE_EVENT))
 }
 
@@ -51,33 +52,21 @@ export function usePaletteOverrides(system: MorphousSystem) {
     getOverridesSnapshot,
     getServerOverridesSnapshot
   )
-  const all = useMemo(() => parseAll(snapshot), [snapshot])
+  const all = useMemo(() => parsePaletteOverrides(snapshot, systems), [snapshot])
 
   const overrides = all[system.slug] ?? {}
 
-  const tunedSystem = useMemo<MorphousSystem>(() => {
-    const keys = Object.keys(overrides)
-    if (keys.length === 0) return system
-    return {
-      ...system,
-      palette: system.palette.map((color) =>
-        overrides[color.role] ? { ...color, hex: overrides[color.role] } : color
-      ),
-    }
-  }, [system, overrides])
+  const tunedSystem = useMemo(
+    () => applyPaletteOverrides(system, overrides),
+    [system, overrides]
+  )
 
   function setOverride(role: string, hex: string) {
-    const prev = loadAll()
-    saveAll({
-      ...prev,
-      [system.slug]: { ...(prev[system.slug] ?? {}), [role]: hex },
-    })
+    saveAll(setPaletteOverride(loadAll(), system, role, hex))
   }
 
   function resetOverrides() {
-    const next = { ...loadAll() }
-    delete next[system.slug]
-    saveAll(next)
+    saveAll(removePaletteOverrides(loadAll(), system.slug))
   }
 
   return {

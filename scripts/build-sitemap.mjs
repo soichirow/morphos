@@ -1,8 +1,7 @@
-import { readFile, writeFile } from "node:fs/promises"
+import { writeFile } from "node:fs/promises"
 import { resolve } from "node:path"
 
 const DEFAULT_BASE_URL = "https://morphos-ja.pages.dev"
-const DEFAULT_CATALOG_PATH = resolve("src/data/systems.json")
 
 function escapeXml(value) {
   return value
@@ -13,16 +12,23 @@ function escapeXml(value) {
     .replaceAll(">", "&gt;")
 }
 
-export function buildSitemap(baseUrl, slugs) {
-  const base = baseUrl.replace(/\/+$/, "")
-  const uniqueSlugs = [...new Set(slugs)]
-  const urls = [
-    `${base}/`,
-    `${base}/gallery`,
-    ...uniqueSlugs.map(
-      (slug) => `${base}/gallery?system=${encodeURIComponent(slug)}`
-    ),
-  ]
+function canonicalOrigin(baseUrl) {
+  const url = new URL(baseUrl)
+  if (
+    (url.protocol !== "https:" && url.protocol !== "http:") ||
+    url.username ||
+    url.password ||
+    url.search ||
+    url.hash
+  ) {
+    throw new TypeError("Site origin must be an absolute HTTP(S) URL")
+  }
+  return url.origin
+}
+
+export function buildSitemap(baseUrl) {
+  const base = canonicalOrigin(baseUrl)
+  const urls = [`${base}/`, `${base}/gallery/`, `${base}/privacy/`]
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
@@ -33,19 +39,24 @@ export function buildSitemap(baseUrl, slugs) {
   ].join("\n")
 }
 
-export async function writeSitemap({
-  catalogPath = DEFAULT_CATALOG_PATH,
+export function buildRobots(baseUrl) {
+  const base = canonicalOrigin(baseUrl)
+  return [
+    "User-agent: *",
+    "Allow: /",
+    "",
+    `Sitemap: ${base}/sitemap.xml`,
+    "",
+  ].join("\n")
+}
+
+export async function writeDiscoveryFiles({
   outputPath = resolve(".output/public/sitemap.xml"),
-  baseUrl = DEFAULT_BASE_URL,
+  robotsPath = resolve(".output/public/robots.txt"),
+  baseUrl = process.env.VITE_SITE_URL || DEFAULT_BASE_URL,
 } = {}) {
-  const systems = JSON.parse(await readFile(catalogPath, "utf8"))
-  if (!Array.isArray(systems)) {
-    throw new TypeError("Catalog must be an array")
-  }
+  await writeFile(outputPath, buildSitemap(baseUrl), "utf8")
+  await writeFile(robotsPath, buildRobots(baseUrl), "utf8")
 
-  const slugs = systems.map((system) => system.slug)
-  const xml = buildSitemap(baseUrl, slugs)
-  await writeFile(outputPath, xml, "utf8")
-
-  return { urlCount: new Set(slugs).size + 2, outputPath }
+  return { urlCount: 3, outputPath, robotsPath }
 }

@@ -2,7 +2,9 @@ import { describe, expect, it } from "vitest"
 
 import {
   LANGUAGE_STORAGE_KEY,
+  pageMetadata,
   parseLanguage,
+  systemDisplayIdentity,
   translate,
   translateBiome,
   translateRole,
@@ -10,6 +12,7 @@ import {
   translateSystemDescription,
   translateTaxonomy,
 } from "./i18n"
+import { systems } from "@/data/systems"
 
 describe("i18n", () => {
   it("provides Japanese and English labels for the same UI concept", () => {
@@ -25,6 +28,23 @@ describe("i18n", () => {
     expect(parseLanguage("ja")).toBe("ja")
     expect(parseLanguage("fr")).toBe("ja")
     expect(parseLanguage(null)).toBe("ja")
+  })
+
+  it("keeps page-specific metadata when the display language changes", () => {
+    expect(pageMetadata("ja", "/").title).toBe(
+      "Morphous 日本語版 - 自然から生まれたデザインシステム"
+    )
+    expect(pageMetadata("en", "/gallery/")).toEqual({
+      title: "Design system gallery | Morphous",
+      description:
+        "Browse, filter, preview, and share nature-driven design systems.",
+    })
+    expect(pageMetadata("ja", "/privacy/")).toEqual({
+      title: "プライバシー方針 | Morphous 日本語版",
+      description:
+        "Morphous 日本語版におけるアクセス解析、同意、ローカルストレージの取り扱いを説明します。",
+    })
+    expect(pageMetadata("en", "/unknown")).toEqual(pageMetadata("en", "/"))
   })
 
   it("translates dynamic counts and catalog-facing labels", () => {
@@ -51,5 +71,50 @@ describe("i18n", () => {
     expect(
       translateSystemDescription("en", "morphous-artichoke", englishDescription)
     ).toBe(englishDescription)
+  })
+
+  it("shows the Japanese common name first while retaining the English catalog name", () => {
+    expect(
+      systemDisplayIdentity("ja", {
+        slug: "morphous-abalone",
+        name: "Morphous Abalone",
+        motifName: "Abalone Shell",
+      })
+    ).toEqual({
+      name: "アワビ",
+      originalName: "Morphous Abalone",
+      motifName: "アワビの貝殻",
+    })
+
+    expect(
+      systemDisplayIdentity("en", {
+        slug: "morphous-abalone",
+        name: "Morphous Abalone",
+        motifName: "Abalone Shell",
+      })
+    ).toEqual({
+      name: "Morphous Abalone",
+      originalName: null,
+      motifName: "Abalone Shell",
+    })
+  })
+
+  it("provides a readable Japanese identity for every catalog system", () => {
+    const untranslated = systems.flatMap((system) => {
+      const identity = systemDisplayIdentity("ja", system)
+      const hasJapaneseText = (value: string) =>
+        /[\u3040-\u30ff\u3400-\u9fff]/u.test(value)
+
+      return identity.originalName === system.name &&
+        identity.name !== system.name &&
+        identity.motifName !== system.motifName &&
+        hasJapaneseText(identity.name) &&
+        hasJapaneseText(identity.motifName)
+        ? []
+        : [system.slug]
+    })
+
+    expect(systems).toHaveLength(611)
+    expect(untranslated).toEqual([])
   })
 })

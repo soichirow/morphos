@@ -1,47 +1,19 @@
 import fs from "node:fs/promises"
 import path from "node:path"
+import {
+  CORE_PALETTE_ROLES,
+  REQUIRED_TOKEN_KEYS,
+} from "../src/domain/morphous-system-constants.js"
 
 const ROOT = process.cwd()
 const dataPath = path.join(ROOT, "src", "data", "systems.json")
-const requiredTokens = [
-  "background",
-  "foreground",
-  "card",
-  "card-foreground",
-  "popover",
-  "popover-foreground",
-  "primary",
-  "primary-foreground",
-  "secondary",
-  "secondary-foreground",
-  "muted",
-  "muted-foreground",
-  "accent",
-  "accent-foreground",
-  "destructive",
-  "border",
-  "input",
-  "ring",
-  "chart-1",
-  "chart-2",
-  "chart-3",
-  "chart-4",
-  "chart-5",
-  "sidebar",
-  "sidebar-foreground",
-  "sidebar-primary",
-  "sidebar-primary-foreground",
-  "sidebar-accent",
-  "sidebar-accent-foreground",
-  "sidebar-border",
-  "sidebar-ring",
-  "radius",
-]
 
-async function exists(publicPath) {
-  const file = path.join(ROOT, "public", publicPath.replace(/^\//, ""))
-  await fs.access(file)
-  return file
+function assertAssetPath(assetPath, slug, label) {
+  assert(
+    typeof assetPath === "string" &&
+      assetPath.startsWith(`/systems/${slug}/`),
+    `${slug} ${label} must use its canonical /systems path`
+  )
 }
 
 function assert(condition, message) {
@@ -59,27 +31,33 @@ async function main() {
     assert(system.motifName, `${system.slug} must include a motif name`)
     assert(system.motifCategory, `${system.slug} must include a motif category`)
     assert(system.palette.length >= 6, `${system.slug} must have at least 6 palette colors`)
-    for (const token of requiredTokens) {
+    for (const role of CORE_PALETTE_ROLES) {
+      assert(
+        system.palette.filter((color) => color.role === role).length === 1,
+        `${system.slug} must include exactly one ${role} palette role`
+      )
+    }
+    for (const token of REQUIRED_TOKEN_KEYS) {
       assert(system.tokens[token], `${system.slug} missing light token ${token}`)
       assert(system.darkTokens[token], `${system.slug} missing dark token ${token}`)
     }
-    await exists(system.assets.motif)
-    await exists(system.assets.board)
-    await exists(system.assets.darkBoard)
-    if (system.assets.hero) await exists(system.assets.hero)
-    if (system.assets.texture) await exists(system.assets.texture)
-    await exists(system.assets.themeCss)
-    await exists(system.assets.themeJson)
-    await exists(system.assets.promptsJson)
+    assertAssetPath(system.assets.motif, system.slug, "motif")
+    assertAssetPath(system.assets.board, system.slug, "board")
+    assertAssetPath(system.assets.darkBoard, system.slug, "dark board")
+    if (system.assets.hero) assertAssetPath(system.assets.hero, system.slug, "hero")
+    if (system.assets.texture) assertAssetPath(system.assets.texture, system.slug, "texture")
+    assertAssetPath(system.assets.themeCss, system.slug, "theme CSS")
+    assertAssetPath(system.assets.themeJson, system.slug, "theme JSON")
+    assertAssetPath(system.assets.promptsJson, system.slug, "prompts JSON")
     assert(system.prompts.length >= 3, `${system.slug} must include reusable image prompts`)
     for (const prompt of system.prompts) {
       assert(prompt.id && prompt.label && prompt.asset && prompt.prompt, `${system.slug} has an incomplete prompt entry`)
-      await exists(prompt.asset)
+      assertAssetPath(prompt.asset, system.slug, `prompt ${prompt.id}`)
     }
     assert(Array.isArray(system.assets.examples), `${system.slug} examples must be an array`)
     for (const example of system.assets.examples) {
       assert(example.id && example.label && example.image, `${system.slug} has an incomplete example entry`)
-      await exists(example.image)
+      assertAssetPath(example.image, system.slug, `example ${example.id}`)
     }
   }
 

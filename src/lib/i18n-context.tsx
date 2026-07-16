@@ -9,13 +9,11 @@ import {
 
 import {
   LANGUAGE_STORAGE_KEY,
-  
-  
-  
+  pageMetadata,
   parseLanguage,
-  translate
+  translate,
 } from "./i18n"
-import type {Language, TranslationKey, TranslationValues} from "./i18n";
+import type { Language, TranslationKey, TranslationValues } from "./i18n"
 
 type LanguageContextValue = {
   language: Language
@@ -42,10 +40,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = language
-    document.title = translate(language, "meta.title")
+    const metadata = pageMetadata(language, window.location.pathname)
+    document.title = metadata.title
     document
       .querySelector('meta[name="description"]')
-      ?.setAttribute("content", translate(language, "meta.description"))
+      ?.setAttribute("content", metadata.description)
 
     if (!loaded) return
     try {

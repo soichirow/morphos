@@ -265,7 +265,9 @@ export const presets: Array<Preset> = [
 export const defaultPresetId = "morphous"
 
 export function getPreset(id: string): Preset {
-  return presets.find((p) => p.id === id) ?? presets[0]
+  const preset = presets.find((candidate) => candidate.id === id) ?? presets[0]
+  if (!preset) throw new Error("At least one typography preset is required")
+  return preset
 }
 
 /** Find the preset whose font IDs match the current selection, if any. */
@@ -280,9 +282,13 @@ export const defaultFontId = "geist"
 export const defaultJaFontId = "noto-sans-jp"
 
 export function getFont(id: string): FontDef {
-  return fonts.find((f) => f.id === id) ?? fonts[0]
+  const font = fonts.find((candidate) => candidate.id === id) ?? fonts[0]
+  if (!font) throw new Error("At least one Latin font is required")
+  return font
 }
 
 export function getJaFont(id: string): JaFontDef {
-  return jaFonts.find((f) => f.id === id) ?? jaFonts[0]
+  const font = jaFonts.find((candidate) => candidate.id === id) ?? jaFonts[0]
+  if (!font) throw new Error("At least one Japanese font is required")
+  return font
 }

@@ -1,5 +1,5 @@
 import { buildOfficeTheme, injectThemeIntoZip } from "./theme-xml"
-import type { MorphousSystem } from "@/data/systems"
+import type { MorphousSystem } from "@/domain/morphous-system"
 import type { ThemeMode } from "@/lib/morphous-theme"
 import { paletteForOffice } from "@/lib/morphous-theme"
 
@@ -240,14 +240,16 @@ export async function buildDeck(
       ],
     ]
     notes.forEach(([label, text], i) => {
+      if (!label || !text) throw new Error("Invalid presentation note")
       const y = 3.25 + i * 0.95
+      const chartColor = chartColors[i % chartColors.length] ?? palette.primary
       addShape(slide, "rect", {
         x: 0.65,
         y,
         w: 0.13,
         h: 0.58,
-        fill: { color: chartColors[i % chartColors.length] },
-        line: { color: chartColors[i % chartColors.length], width: 0 },
+        fill: { color: chartColor },
+        line: { color: chartColor, width: 0 },
       })
       addText(slide, label, {
         x: 0.95,
@@ -587,7 +589,7 @@ export async function buildDeck(
         2.95,
         0.12,
         value,
-        chartColors[i],
+        chartColors[i] ?? palette.primary,
         palette.background
       )
     )
@@ -1225,7 +1227,7 @@ function roadmapCopy(index: number, system: MorphousSystem) {
     "Build reusable layouts for updates, reports, dashboards, and bilingual content.",
     "Ship branded Office files with theme colors, fonts, and editable patterns.",
   ]
-  return copy[index]
+  return copy[index] ?? copy[copy.length - 1] ?? ""
 }
 
 function stripeObjects(system: MorphousSystem) {

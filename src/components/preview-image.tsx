@@ -22,7 +22,10 @@ export function PreviewImage({
   kind,
   sizes,
 }: Props) {
-  const preview = previewSources(src, { kind, sizes })
+  const preview = previewSources(src, {
+    ...(kind ? { kind } : {}),
+    ...(sizes ? { sizes } : {}),
+  })
   return (
     <picture>
       {preview.sources.map((source) => (

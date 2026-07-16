@@ -126,7 +126,7 @@ export function useFont() {
     return [
       nextFontId || defaultFontId,
       nextJaFontId || defaultJaFontId,
-      nextPresetId,
+      nextPresetId ?? "",
     ] as const
   }, [snapshot])
 

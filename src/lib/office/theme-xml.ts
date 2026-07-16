@@ -1,4 +1,4 @@
-import type { MorphousSystem } from "@/data/systems"
+import type { MorphousSystem } from "@/domain/morphous-system"
 import type { ThemeMode } from "@/lib/morphous-theme"
 import { paletteForOffice } from "@/lib/morphous-theme"
 

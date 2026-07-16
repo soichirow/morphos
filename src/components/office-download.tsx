@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { FileText, Presentation } from "lucide-react"
 
-import type { MorphousSystem } from "@/data/systems"
+import type { MorphousSystem } from "@/domain/morphous-system"
 import type { ThemeMode } from "@/lib/morphous-theme"
 import { useLanguage } from "@/lib/i18n-context"
 import { Button } from "@/components/ui/button"

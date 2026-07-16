@@ -1,12 +1,36 @@
 import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router"
 
 import appCss from "../styles.css?url"
+import { AnalyticsConsentControl } from "@/components/analytics-consent"
+import { GentleImagesProvider } from "@/lib/gentle-images-context"
 import { LanguageProvider } from "@/lib/i18n-context"
+import { absoluteSiteUrl, siteConfig } from "@/lib/site-config"
 
 const siteTitle = "Morphous 日本語版 - 自然から生まれたデザインシステム"
 const siteDescription =
   "自然をモチーフにしたデザインシステム、生成アセット、再利用できるプロンプト、shadcn対応CSSテーマのカタログです。"
-const socialImage = "/og-image.png"
+const socialImage = absoluteSiteUrl("/og-image.png")
+const verificationMeta = [
+  ...(siteConfig.googleSiteVerification
+    ? [
+        {
+          name: "google-site-verification",
+          content: siteConfig.googleSiteVerification,
+        },
+      ]
+    : []),
+  ...(siteConfig.bingSiteVerification
+    ? [{ name: "msvalidate.01", content: siteConfig.bingSiteVerification }]
+    : []),
+]
+const websiteStructuredData = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Morphous 日本語版",
+  url: absoluteSiteUrl("/"),
+  description: siteDescription,
+  inLanguage: ["ja", "en"],
+})
 
 export const Route = createRootRoute({
   head: () => ({
@@ -24,6 +48,10 @@ export const Route = createRootRoute({
       {
         name: "description",
         content: siteDescription,
+      },
+      {
+        name: "robots",
+        content: "index,follow,max-image-preview:large",
       },
       {
         name: "application-name",
@@ -59,7 +87,15 @@ export const Route = createRootRoute({
       },
       {
         property: "og:site_name",
-        content: "Morphous",
+        content: "Morphous 日本語版",
+      },
+      {
+        property: "og:locale",
+        content: "ja_JP",
+      },
+      {
+        property: "og:locale:alternate",
+        content: "en_US",
       },
       {
         property: "og:title",
@@ -70,8 +106,20 @@ export const Route = createRootRoute({
         content: siteDescription,
       },
       {
+        property: "og:url",
+        content: absoluteSiteUrl("/"),
+      },
+      {
         property: "og:image",
         content: socialImage,
+      },
+      {
+        property: "og:image:secure_url",
+        content: socialImage,
+      },
+      {
+        property: "og:image:type",
+        content: "image/png",
       },
       {
         property: "og:image:width",
@@ -99,8 +147,13 @@ export const Route = createRootRoute({
       },
       {
         name: "twitter:image",
-        content: "/twitter-image.png",
+        content: socialImage,
       },
+      {
+        name: "twitter:image:alt",
+        content: "Morphous 日本語版 - 自然から生まれたデザインシステム",
+      },
+      ...verificationMeta,
     ],
     links: [
       {
@@ -144,6 +197,12 @@ export const Route = createRootRoute({
         href: "/manifest.json",
       },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: websiteStructuredData,
+      },
+    ],
   }),
   notFoundComponent: () => (
     <main className="container mx-auto p-4 pt-16">
@@ -162,8 +221,11 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <LanguageProvider>
-          {children}
-          <Scripts />
+          <GentleImagesProvider>
+            {children}
+            <AnalyticsConsentControl />
+            <Scripts />
+          </GentleImagesProvider>
         </LanguageProvider>
       </body>
     </html>

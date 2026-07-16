@@ -1,9 +1,59 @@
+import japaneseSystemIdentitiesData from "@/data/system-identities.ja.json"
+
 export type Language = "ja" | "en"
 
 export const LANGUAGE_STORAGE_KEY = "morphos-ja:language"
 
 export function parseLanguage(value: string | null): Language {
   return value === "en" ? "en" : "ja"
+}
+
+const pageMetadataByRoute = {
+  landing: {
+    ja: {
+      title: "Morphous 日本語版 - 自然から生まれたデザインシステム",
+      description:
+        "自然をモチーフにしたデザインシステム、生成アセット、再利用できるプロンプト、shadcn対応CSSテーマのカタログです。",
+    },
+    en: {
+      title: "Morphous - Nature-driven design systems",
+      description:
+        "A catalog of nature-inspired design systems, generated motif assets, reusable prompt records, and shadcn-compatible CSS themes.",
+    },
+  },
+  gallery: {
+    ja: {
+      title: "デザインシステム一覧 | Morphous 日本語版",
+      description:
+        "自然をモチーフにした611種類のデザインシステムを検索し、配色・CSSテーマ・生成プロンプトを確認できます。",
+    },
+    en: {
+      title: "Design system gallery | Morphous",
+      description:
+        "Browse, filter, preview, and share nature-driven design systems.",
+    },
+  },
+  privacy: {
+    ja: {
+      title: "プライバシー方針 | Morphous 日本語版",
+      description:
+        "Morphous 日本語版におけるアクセス解析、同意、ローカルストレージの取り扱いを説明します。",
+    },
+    en: {
+      title: "Privacy | Morphous",
+      description:
+        "How Morphous handles analytics consent and browser-local data.",
+    },
+  },
+} as const
+
+export function pageMetadata(language: Language, pathname: string) {
+  const route = pathname.startsWith("/privacy")
+    ? "privacy"
+    : pathname.startsWith("/gallery")
+      ? "gallery"
+      : "landing"
+  return pageMetadataByRoute[route][language]
 }
 
 export const messages = {
@@ -141,7 +191,59 @@ export const messages = {
   "gallery.randomSystem": { ja: "ランダム表示", en: "Show random" },
   "gallery.clearSearch": { ja: "検索をクリア", en: "Clear search" },
   "gallery.motifFilter": { ja: "モチーフ", en: "Motif" },
+  "gallery.categoryGroup": { ja: "カテゴリ", en: "Category" },
+  "gallery.detailCategory": { ja: "細分類", en: "Detailed category" },
   "gallery.sort": { ja: "並び順", en: "Sort" },
+  "gallery.cautiousImages": {
+    ja: "刺激を抑えて表示",
+    en: "Reduce visual intensity",
+  },
+  "gallery.cautiousImagesHelp": {
+    ja: "すべての題材を、らくがきまたはモザイクで表示します。らくがき未対応の題材はモザイクになります。",
+    en: "Shows every motif as a scribble or blurred mosaic. Motifs without a scribble use mosaic.",
+  },
+  "gallery.gentleBadge": {
+    ja: "らくがき表示",
+    en: "Scribble preview",
+  },
+  "gallery.displayMode": { ja: "表示モード", en: "Display mode" },
+  "gallery.fluffyMode": { ja: "ふわふわモード", en: "Fluffy mode" },
+  "gallery.fluffyModeHelp": {
+    ja: "やさしいらくがきで表示",
+    en: "Gentle scribble previews",
+  },
+  "gallery.mosaicMode": {
+    ja: "モザイクモード",
+    en: "Mosaic mode",
+  },
+  "gallery.mosaicModeHelp": {
+    ja: "すべての画像をぼかして表示",
+    en: "Blur every motif image",
+  },
+  "gallery.normalMode": { ja: "通常モード", en: "Normal mode" },
+  "gallery.normalModeHelp": {
+    ja: "元の画像をそのまま表示",
+    en: "Show original motif images",
+  },
+  "gallery.gentleStyle": { ja: "控えめ画像の種類", en: "Gentle image style" },
+  "gallery.scribbleStyle": { ja: "らくがき", en: "Scribble" },
+  "gallery.mosaicStyle": { ja: "モザイク", en: "Mosaic" },
+  "gallery.gentlePreviewSuffix": {
+    ja: "のらくがき表示",
+    en: " scribble preview",
+  },
+  "gallery.mosaicBadge": {
+    ja: "モザイク表示",
+    en: "Mosaic preview",
+  },
+  "gallery.mosaicPreviewSuffix": {
+    ja: "のモザイク表示",
+    en: " mosaic preview",
+  },
+  "gallery.showOriginalMotif": {
+    ja: "元の画像を表示",
+    en: "Show original image",
+  },
   "gallery.clearFilters": { ja: "絞り込みを解除", en: "Clear filters" },
   "gallery.introCount": {
     ja: "自然を基にした{count}種類のデザインシステム",
@@ -176,6 +278,23 @@ export const messages = {
   "gallery.copyUrlTitle": {
     ja: "このページの共有URLをコピー",
     en: "Copy the shareable URL for this page",
+  },
+  "gallery.share": { ja: "SNSでシェア", en: "Share" },
+  "gallery.shareMenuTitle": {
+    ja: "このデザインを共有",
+    en: "Share this design",
+  },
+  "gallery.shareMenuDescription": {
+    ja: "選択中のデザインへ直接開けるURLを共有します。",
+    en: "Share a URL that opens this selected design directly.",
+  },
+  "gallery.shareDevice": {
+    ja: "端末の共有メニューを開く",
+    en: "Open device share menu",
+  },
+  "gallery.shareText": {
+    ja: "自然から生まれたデザインシステム / Nature-driven design system",
+    en: "Nature-driven design system / 自然から生まれたデザインシステム",
   },
   "gallery.palette": { ja: "パレット", en: "Palette" },
   "gallery.tuned": { ja: "調整済み", en: "Tuned" },
@@ -469,6 +588,36 @@ const japaneseTaxonomy: Record<string, string> = {
   weather: "気象",
 }
 
+const englishTaxonomy: Record<string, string> = {
+  amphibian: "Amphibians",
+  animal: "Animals",
+  bird: "Birds",
+  celestial: "Celestial",
+  crustacean: "Crustaceans",
+  fish: "Fish",
+  flower: "Flowers",
+  fruit: "Fruit",
+  fungi: "Fungi",
+  insect: "Insects",
+  landscape: "Landscapes",
+  mammal: "Mammals",
+  marine: "Marine life",
+  microorganism: "Microorganisms",
+  mineral: "Minerals",
+  mollusk: "Mollusks",
+  plant: "Plants",
+  reptile: "Reptiles",
+  weather: "Weather",
+}
+
+const categoryGroupLabels: Record<string, { ja: string; en: string }> = {
+  "group:botanical": { ja: "植物・花・菌類", en: "Plants & fungi" },
+  "group:animals": { ja: "動物", en: "Animals" },
+  "group:small-life": { ja: "昆虫など", en: "Small creatures" },
+  "group:ocean": { ja: "海の生き物", en: "Ocean life" },
+  "group:earth-sky": { ja: "大地・空", en: "Earth & sky" },
+}
+
 const japaneseRoles: Record<string, string> = {
   Primary: "プライマリ",
   Secondary: "セカンダリ",
@@ -521,7 +670,16 @@ const japaneseColors: Record<string, string> = {
 }
 
 export function translateTaxonomy(language: Language, value: string): string {
-  return language === "ja" ? (japaneseTaxonomy[value] ?? value) : value
+  return language === "ja"
+    ? (japaneseTaxonomy[value] ?? value)
+    : (englishTaxonomy[value] ?? value)
+}
+
+export function translateCategoryGroup(
+  language: Language,
+  value: string
+): string {
+  return categoryGroupLabels[value]?.[language] ?? value
 }
 
 export function translateRole(language: Language, value: string): string {
@@ -536,6 +694,44 @@ export function translateSort(language: Language, value: string): string {
 
 export function translateColor(language: Language, value: string): string {
   return language === "ja" ? (japaneseColors[value] ?? value) : value
+}
+
+type SystemIdentitySource = {
+  slug: string
+  name: string
+  motifName: string
+}
+
+export type SystemDisplayIdentity = {
+  name: string
+  originalName: string | null
+  motifName: string
+}
+
+const japaneseSystemIdentities = japaneseSystemIdentitiesData as Record<
+  string,
+  Pick<SystemDisplayIdentity, "name" | "motifName">
+>
+
+export function systemDisplayIdentity(
+  language: Language,
+  system: SystemIdentitySource
+): SystemDisplayIdentity {
+  const localized =
+    language === "ja" ? japaneseSystemIdentities[system.slug] : undefined
+
+  if (!localized) {
+    return {
+      name: system.name,
+      originalName: null,
+      motifName: system.motifName,
+    }
+  }
+
+  return {
+    ...localized,
+    originalName: system.name,
+  }
 }
 
 const japaneseBiomes: Record<string, string> = {

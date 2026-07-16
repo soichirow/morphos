@@ -4,7 +4,7 @@ import { tanstackConfig } from "@tanstack/eslint-config"
 
 export default [
   {
-    ignores: [".output/**", "dist/**", "node_modules/**", "public/systems/**"],
+    ignores: [".output/**", ".wrangler/**", "dist/**", "node_modules/**", "public/systems/**"],
   },
   ...tanstackConfig,
 ]

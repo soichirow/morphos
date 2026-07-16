@@ -8,6 +8,64 @@ export function buildSystemShareUrl(currentHref: string, slug: string): string {
   return url.toString()
 }
 
+export type SocialShareTarget =
+  "x" | "facebook" | "linkedin" | "bluesky" | "reddit" | "whatsapp" | "telegram"
+
+export type SocialSharePayload = {
+  url: string
+  title: string
+  text: string
+}
+
+export function buildSocialShareUrl(
+  target: SocialShareTarget,
+  payload: SocialSharePayload
+): string {
+  const shareText = `${payload.title}\n${payload.text}`
+
+  switch (target) {
+    case "x":
+      return shareUrl("https://twitter.com/intent/tweet", {
+        url: payload.url,
+        text: shareText,
+      })
+    case "facebook":
+      return shareUrl("https://www.facebook.com/sharer/sharer.php", {
+        u: payload.url,
+      })
+    case "linkedin":
+      return shareUrl("https://www.linkedin.com/sharing/share-offsite/", {
+        url: payload.url,
+      })
+    case "bluesky":
+      return shareUrl("https://bsky.app/intent/compose", {
+        text: `${shareText}\n${payload.url}`,
+      })
+    case "reddit":
+      return shareUrl("https://www.reddit.com/submit", {
+        url: payload.url,
+        title: payload.title,
+      })
+    case "whatsapp":
+      return shareUrl("https://wa.me/", {
+        text: `${shareText}\n${payload.url}`,
+      })
+    case "telegram":
+      return shareUrl("https://t.me/share/url", {
+        url: payload.url,
+        text: shareText,
+      })
+  }
+}
+
+function shareUrl(endpoint: string, params: Record<string, string>): string {
+  const url = new URL(endpoint)
+  for (const [key, value] of Object.entries(params)) {
+    url.searchParams.set(key, value)
+  }
+  return url.toString()
+}
+
 export function parseFavoriteSlugs(raw: string | null): Array<string> {
   if (!raw) return []
 

@@ -1,5 +1,5 @@
 import { buildOfficeTheme, injectDocxTheme } from "./theme-xml"
-import type { MorphousSystem } from "@/data/systems"
+import type { MorphousSystem } from "@/domain/morphous-system"
 import type { ThemeMode } from "@/lib/morphous-theme"
 import { paletteForOffice } from "@/lib/morphous-theme"
 
@@ -128,9 +128,11 @@ export async function buildDoc(
         ["Light 1", "Background"],
         ["Dark 1", "Ink"],
       ].map(([slot, roleName]) => {
+        if (!slot || !roleName) throw new Error("Invalid Office palette row")
         const color =
           system.palette.find((entry) => entry.role === roleName) ??
           system.palette[0]
+        if (!color) throw new Error("A Morphous system must have a palette")
         return new TableRow({
           children: [
             textCell(slot, palette.foreground, false, palette.surface),
@@ -547,9 +549,11 @@ export async function buildDoc(
 
   function textCell(text: string, color: string, mono = false, fill?: string) {
     return new TableCell({
-      shading: fill
-        ? { type: ShadingType.CLEAR, color: "auto", fill }
-        : undefined,
+      ...(fill
+        ? {
+            shading: { type: ShadingType.CLEAR, color: "auto", fill },
+          }
+        : {}),
       margins: { top: 110, bottom: 110, left: 120, right: 120 },
       verticalAlign: VerticalAlign.CENTER,
       children: [

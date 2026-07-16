@@ -19,7 +19,6 @@ import {
   Moon,
   Palette,
   Search,
-  Share2,
   Shuffle,
   Sparkles,
   Sun,
@@ -27,15 +26,30 @@ import {
 } from "lucide-react"
 
 import type { ThemeMode } from "@/lib/morphous-theme"
-import type { MorphousSystem } from "@/data/systems"
+import type { ColorRoleKey, GallerySearch, SortKey } from "@/domain/catalog"
+import type { MorphousSystem } from "@/domain/morphous-system"
+import { CATEGORY_GROUPS, isCategoryGroupId } from "@/domain/catalog-categories"
+import {
+  COLOR_ROLE_OPTIONS as colorRoleOptions,
+  filterAndSortSystems,
+  normalizeGallerySearch,
+  resolveSystem,
+  SORT_OPTIONS as sortOptions,
+} from "@/domain/catalog"
 import { CopyTextButton } from "@/components/copy-text-button"
+import { GentleImageStyleToggle } from "@/components/gentle-image-style-toggle"
 import { LanguageToggle } from "@/components/language-toggle"
+import { MotifPreview } from "@/components/motif-preview"
+import { ShareMenu } from "@/components/share-menu"
 import { Button } from "@/components/ui/button"
 import { OfficeDownload } from "@/components/office-download"
 import { TypographyPicker } from "@/components/typography-picker"
 import { motifCategories, systems } from "@/data/systems"
 import {
+  pageMetadata,
+  systemDisplayIdentity,
   translateBiome,
+  translateCategoryGroup,
   translateColor,
   translateRole,
   translateSort,
@@ -50,23 +64,11 @@ import {
   buildThemeJson,
 } from "@/lib/copy-artifacts"
 import { PreviewImage } from "@/components/preview-image"
-import { colorDistance } from "@/lib/color-distance"
 import { useFont } from "@/lib/use-font"
 import { usePaletteOverrides } from "@/lib/use-palette-overrides"
-import {
-  FAVORITES_STORAGE_KEY,
-  buildSystemShareUrl,
-  parseFavoriteSlugs,
-  toggleFavoriteSlug,
-} from "@/lib/share-favorites"
+import { useFavorites } from "@/lib/use-favorites"
+import { absoluteSiteUrl } from "@/lib/site-config"
 import { pickRandomSystemSlug } from "@/lib/random-system"
-
-type GallerySearch = {
-  system?: string
-  q?: string
-  category?: string
-  sort?: SortKey
-}
 
 type LightboxItem = { src: string; alt: string; downloadName?: string }
 const LightboxContext = createContext<((item: LightboxItem) => void) | null>(
@@ -147,35 +149,37 @@ function Lightbox({
   )
 }
 
-function asString(value: unknown): string | undefined {
-  return typeof value === "string" && value.length > 0 ? value : undefined
-}
-
 export const Route = createFileRoute("/gallery")({
   component: CatalogRoute,
-  validateSearch: (search: Record<string, unknown>): GallerySearch => {
-    const sortRaw = asString(search.sort)
-    const sort = (sortOptions as Array<string>).includes(sortRaw ?? "")
-      ? (sortRaw as SortKey)
-      : undefined
+  validateSearch: normalizeGallerySearch,
+  head: () => {
+    const metadata = pageMetadata("ja", "/gallery/")
     return {
-      system: asString(search.system),
-      q: asString(search.q),
-      category: asString(search.category),
-      sort,
+      meta: [
+        { title: metadata.title },
+        { name: "description", content: metadata.description },
+        {
+          name: "robots",
+          content: "index,follow,max-image-preview:large",
+        },
+        {
+          property: "og:title",
+          content: metadata.title,
+        },
+        {
+          property: "og:description",
+          content: metadata.description,
+        },
+        {
+          property: "og:url",
+          content: absoluteSiteUrl("/gallery/"),
+        },
+      ],
+      links: [{ rel: "canonical", href: absoluteSiteUrl("/gallery/") }],
     }
   },
 })
 
-type SortKey = "name" | "motifName" | "color"
-type ColorRoleKey = "Primary" | "Accent" | "Background"
-
-const sortOptions: Array<SortKey> = ["name", "motifName", "color"]
-const colorRoleOptions: Array<ColorRoleKey> = [
-  "Primary",
-  "Accent",
-  "Background",
-]
 const weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 const weeklyThroughput = [45, 72, 58, 86, 64, 93, 74].map((height, index) => ({
   day: weekDays[index],
@@ -292,6 +296,7 @@ function createCatalogState(activeSlug: string): CatalogState {
 }
 
 function CatalogRoute() {
+  const { language } = useLanguage()
   const search = Route.useSearch()
   const navigate = useNavigate({ from: Route.fullPath })
   const paramSlug = search.system
@@ -312,30 +317,10 @@ function CatalogRoute() {
     activeSlug,
     lightbox,
   } = catalogState
-  const [favoriteSlugs, setFavoriteSlugs] = useState<Array<string>>([])
-  const [favoritesLoaded, setFavoritesLoaded] = useState(false)
+  const favorites = useFavorites()
   const previousMobileFilterSignature = useRef("")
   const suppressNextMobileAutoOpen = useRef(false)
   const detailRef = useRef<HTMLDivElement | null>(null)
-
-  useEffect(() => {
-    setFavoriteSlugs(
-      parseFavoriteSlugs(window.localStorage.getItem(FAVORITES_STORAGE_KEY))
-    )
-    setFavoritesLoaded(true)
-  }, [])
-
-  useEffect(() => {
-    if (!favoritesLoaded) return
-    window.localStorage.setItem(
-      FAVORITES_STORAGE_KEY,
-      JSON.stringify(favoriteSlugs)
-    )
-  }, [favoriteSlugs, favoritesLoaded])
-
-  const toggleFavorite = useCallback((slug: string) => {
-    setFavoriteSlugs((current) => toggleFavoriteSlug(current, slug))
-  }, [])
 
   const updateSearch = useCallback(
     (patch: Partial<GallerySearch>) => {
@@ -404,12 +389,9 @@ function CatalogRoute() {
     Boolean(searchColor)
 
   useEffect(() => {
-    const requestedSlug =
-      new URLSearchParams(window.location.search).get("system") ?? paramSlug
-
-    if (requestedSlug && systems.some((s) => s.slug === requestedSlug)) {
-      dispatchCatalog({ type: "setActiveSlug", value: requestedSlug })
-    }
+    if (!paramSlug) return
+    const requestedSystem = resolveSystem(systems, paramSlug)
+    dispatchCatalog({ type: "setActiveSlug", value: requestedSystem.slug })
   }, [paramSlug])
   const {
     fontId,
@@ -426,8 +408,7 @@ function CatalogRoute() {
     []
   )
 
-  const baseSystem =
-    systems.find((system) => system.slug === activeSlug) ?? systems[0]
+  const baseSystem = resolveSystem(systems, activeSlug)
   const {
     tunedSystem: activeSystem,
     overrides,
@@ -436,40 +417,48 @@ function CatalogRoute() {
     resetOverrides,
   } = usePaletteOverrides(baseSystem)
 
-  const filteredSystems = useMemo(() => {
-    const tokens = query.trim().toLowerCase().split(/\s+/).filter(Boolean)
-    const list = systems.filter((system) => {
-      const searchText = [
-        system.name,
-        system.motifName,
-        system.motifCategory,
-        system.biome,
-        system.motif,
-        system.description,
-        system.tags.join(" "),
-        system.searchBlob,
-      ]
-        .join(" ")
-        .toLowerCase()
-      if (
-        tokens.length > 0 &&
-        !tokens.every((token) => searchText.includes(token))
-      )
-        return false
-      if (category !== "all" && system.motifCategory !== category) return false
-      return true
-    })
-    if (sort === "color" && searchColor) {
-      return list.slice().sort((a, b) => {
-        const ca = a.palette.find((c) => c.role === colorRole)?.hex ?? "#000000"
-        const cb = b.palette.find((c) => c.role === colorRole)?.hex ?? "#000000"
-        return colorDistance(searchColor, ca) - colorDistance(searchColor, cb)
-      })
+  const localizedIdentities = useMemo(
+    () =>
+      language === "ja"
+        ? Object.fromEntries(
+            systems.map((system) => [
+              system.slug,
+              systemDisplayIdentity(language, system),
+            ])
+          )
+        : undefined,
+    [language]
+  )
+  const filteredSystems = useMemo(
+    () =>
+      filterAndSortSystems(systems, {
+        query,
+        category,
+        sort,
+        searchColor,
+        colorRole,
+        ...(localizedIdentities ? { localizedIdentities } : {}),
+      }),
+    [category, colorRole, localizedIdentities, query, searchColor, sort]
+  )
+
+  useEffect(() => {
+    const requestedSlug = resolveSystem(systems, paramSlug).slug
+    if (paramSlug && activeSlug !== requestedSlug) {
+      return
     }
-    if (sort === "color") return list
-    const key = sort
-    return list.slice().sort((a, b) => a[key].localeCompare(b[key]))
-  }, [category, colorRole, query, searchColor, sort])
+
+    if (
+      filteredSystems.length === 0 ||
+      filteredSystems.some((system) => system.slug === activeSlug)
+    ) {
+      return
+    }
+    const firstMatch = filteredSystems[0]
+    if (!firstMatch) return
+    dispatchCatalog({ type: "setActiveSlug", value: firstMatch.slug })
+    updateSearch({ system: firstMatch.slug })
+  }, [activeSlug, filteredSystems, paramSlug, updateSearch])
   const mobileFilterSignature = [
     query,
     category,
@@ -541,9 +530,7 @@ function CatalogRoute() {
   )
 
   return (
-    <FavoritesContext.Provider
-      value={{ slugs: favoriteSlugs, toggle: toggleFavorite }}
-    >
+    <FavoritesContext.Provider value={favorites}>
       <LightboxContext.Provider value={openLightbox}>
         <div
           className={mode === "dark" ? "dark" : ""}
@@ -653,7 +640,7 @@ function CatalogContent({
   setOverride: (role: string, hex: string) => void
   resetOverrides: () => void
 }) {
-  const { t } = useLanguage()
+  const { language, t } = useLanguage()
   return (
     <>
       <section className="mx-auto max-w-[88rem] px-4 pt-6 sm:px-6 lg:px-8">
@@ -686,7 +673,7 @@ function CatalogContent({
                 to="/systems/$slug"
                 params={{ slug: system.slug }}
               >
-                {system.name}
+                {systemDisplayIdentity(language, system).name}
               </Link>
             ))}
           </nav>
@@ -849,6 +836,7 @@ function GalleryHeader({
             </div>
           </div>
         </div>
+        <GentleImageStyleToggle />
 
         <label className="relative block min-w-0">
           <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" />
@@ -881,8 +869,8 @@ function GalleryHeader({
             onRole={onColorRoleChange}
           />
           <LabelSelect
-            label={t("gallery.motifFilter")}
-            value={category}
+            label={t("gallery.detailCategory")}
+            value={isCategoryGroupId(category) ? "all" : category}
             onChange={onCategoryChange}
             options={["all", ...motifCategories]}
             getOptionLabel={(option) =>
@@ -904,6 +892,33 @@ function GalleryHeader({
               {t("gallery.clearFilters")}
             </Button>
           ) : null}
+        </div>
+        <div
+          role="group"
+          aria-label={t("gallery.categoryGroup")}
+          className="flex [scrollbar-width:thin] gap-2 overflow-x-auto pb-1"
+        >
+          <Button
+            variant={category === "all" ? "default" : "outline"}
+            size="sm"
+            onClick={() => onCategoryChange("all")}
+            aria-pressed={category === "all"}
+            className="shrink-0"
+          >
+            {t("common.all")}
+          </Button>
+          {CATEGORY_GROUPS.map((group) => (
+            <Button
+              key={group.id}
+              variant={category === group.id ? "default" : "outline"}
+              size="sm"
+              onClick={() => onCategoryChange(group.id)}
+              aria-pressed={category === group.id}
+              className="shrink-0"
+            >
+              {translateCategoryGroup(language, group.id)}
+            </Button>
+          ))}
         </div>
       </div>
     </header>
@@ -1003,6 +1018,7 @@ function SystemDetail({
             <AssetThumb
               label={t("gallery.motif")}
               href={activeSystem.assets.motif}
+              gentleSystem={activeSystem}
             />
             <AssetThumb
               label={t("gallery.lightBoard")}
@@ -1201,16 +1217,10 @@ function ActionBar({
   font: string
   jaFont: string
 }) {
-  const { t } = useLanguage()
+  const { language, t } = useLanguage()
   const favorites = use(FavoritesContext)
-  const [copied, setCopied] = useState(false)
   const isFavorite = favorites.slugs.includes(system.slug)
-  const copyShareUrl = useCallback(async () => {
-    const shareUrl = buildSystemShareUrl(window.location.href, system.slug)
-    await navigator.clipboard.writeText(shareUrl)
-    setCopied(true)
-    window.setTimeout(() => setCopied(false), 1800)
-  }, [system.slug])
+  const identity = systemDisplayIdentity(language, system)
 
   return (
     <section className="rounded-xl border border-primary/30 bg-card p-3 shadow-sm ring-1 ring-primary/10">
@@ -1225,7 +1235,12 @@ function ActionBar({
             <p className="text-[10px] font-medium tracking-[0.18em] text-muted-foreground uppercase">
               {t("gallery.systemUse")}
             </p>
-            <p className="truncate text-sm font-semibold">{system.name}</p>
+            <p className="truncate text-sm font-semibold">{identity.name}</p>
+            {identity.originalName ? (
+              <p className="truncate text-[11px] text-muted-foreground">
+                {identity.originalName}
+              </p>
+            ) : null}
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-1.5">
@@ -1234,6 +1249,11 @@ function ActionBar({
             variant={isFavorite ? "default" : "outline"}
             onClick={() => favorites.toggle(system.slug)}
             aria-pressed={isFavorite}
+            aria-label={
+              isFavorite
+                ? t("gallery.favoriteRemove")
+                : t("gallery.favoriteAdd")
+            }
             title={
               isFavorite
                 ? t("gallery.favoriteRemove")
@@ -1248,21 +1268,16 @@ function ActionBar({
               {isFavorite ? t("gallery.favoriteSaved") : t("gallery.favorite")}
             </span>
           </Button>
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={copyShareUrl}
-            title={t("gallery.copyUrlTitle")}
-          >
-            {copied ? (
-              <Check data-icon="inline-start" />
-            ) : (
-              <Share2 data-icon="inline-start" />
-            )}
-            <span className="hidden sm:inline">
-              {copied ? t("common.copied") : t("gallery.copyUrl")}
-            </span>
-          </Button>
+          <ShareMenu
+            slug={system.slug}
+            title={
+              identity.originalName
+                ? `${identity.name}（${identity.originalName}）`
+                : system.name.startsWith("Morphous ")
+                  ? system.name
+                  : `Morphous ${system.name}`
+            }
+          />
           <span
             className="mx-1 hidden h-5 w-px bg-border sm:block"
             aria-hidden
@@ -1305,6 +1320,7 @@ function ActionBar({
 function Hero({ system }: { system: MorphousSystem }) {
   const { language, t } = useLanguage()
   const openLightbox = useLightbox()
+  const identity = systemDisplayIdentity(language, system)
   return (
     <section className="overflow-hidden rounded-2xl border border-border bg-card/85 shadow-sm backdrop-blur">
       <div className="grid lg:grid-cols-[1fr_1fr]">
@@ -1327,8 +1343,13 @@ function Hero({ system }: { system: MorphousSystem }) {
 
           <div className="space-y-3">
             <h2 className="text-3xl leading-[1.05] font-semibold tracking-tight sm:text-4xl lg:text-5xl">
-              {system.name}
+              {identity.name}
             </h2>
+            {identity.originalName ? (
+              <p className="text-sm font-medium tracking-wide text-muted-foreground sm:text-base">
+                {identity.originalName}
+              </p>
+            ) : null}
             <p className="text-sm leading-6 text-muted-foreground sm:text-base sm:leading-7 lg:text-lg">
               {translateSystemDescription(
                 language,
@@ -1356,27 +1377,22 @@ function Hero({ system }: { system: MorphousSystem }) {
             background: `radial-gradient(circle at 50% 35%, color-mix(in oklch, var(--palette-accent), transparent 70%), transparent 70%), color-mix(in oklch, var(--palette-background), transparent 25%)`,
           }}
         >
-          <button
-            type="button"
-            onClick={() =>
+          <MotifPreview
+            system={system}
+            label={identity.motifName}
+            className="aspect-square w-full max-w-[28rem] rounded-[2rem] object-contain drop-shadow-xl transition hover:scale-[1.02]"
+            loading="eager"
+            fetchPriority="high"
+            sizes="(max-width: 768px) 90vw, 640px"
+            allowReveal
+            onOpen={() =>
               openLightbox?.({
                 src: system.assets.motif,
-                alt: `${system.motifName} motif`,
+                alt: `${identity.motifName} motif`,
               })
             }
-            aria-label={t("gallery.fullMotif", { name: system.motifName })}
-            className="cursor-zoom-in"
-          >
-            <PreviewImage
-              src={system.assets.motif}
-              alt={`${system.motifName} motif`}
-              kind="motif"
-              className="max-h-[28rem] w-auto object-contain drop-shadow-xl transition hover:scale-[1.02]"
-              loading="eager"
-              fetchPriority="high"
-              sizes="(max-width: 768px) 90vw, 640px"
-            />
-          </button>
+            openLabel={t("gallery.fullMotif", { name: identity.motifName })}
+          />
         </div>
       </div>
     </section>
@@ -1392,6 +1408,8 @@ function SystemCard({
   active: boolean
   onClick: () => void
 }) {
+  const { language } = useLanguage()
+  const identity = systemDisplayIdentity(language, system)
   return (
     <button
       type="button"
@@ -1403,21 +1421,25 @@ function SystemCard({
       }`}
     >
       <div className="grid grid-cols-[3.25rem_1fr] gap-3">
-        <PreviewImage
-          src={system.assets.motif}
-          alt={`${system.motifName} motif`}
-          kind="motif"
+        <MotifPreview
+          system={system}
+          label={identity.motifName}
           className="aspect-square rounded-md border border-border bg-background object-cover"
           loading="lazy"
           sizes="52px"
         />
         <div className="min-w-0">
           <span className="block truncate text-sm font-semibold">
-            {system.name}
+            {identity.name}
           </span>
           <span className="block truncate text-xs text-muted-foreground">
-            {system.motifName}
+            {identity.originalName ?? identity.motifName}
           </span>
+          {identity.originalName ? (
+            <span className="block truncate text-[11px] text-muted-foreground/80">
+              {identity.motifName}
+            </span>
+          ) : null}
           <span className="mt-2 flex h-1.5 overflow-hidden rounded-full">
             {system.palette.slice(0, 8).map((color) => (
               <span
@@ -2856,7 +2878,15 @@ function PromptCard({
   )
 }
 
-function AssetThumb({ label, href }: { label: string; href: string }) {
+function AssetThumb({
+  label,
+  href,
+  gentleSystem,
+}: {
+  label: string
+  href: string
+  gentleSystem?: MorphousSystem
+}) {
   const { t } = useLanguage()
   const openLightbox = useLightbox()
   return (
@@ -2873,13 +2903,23 @@ function AssetThumb({ label, href }: { label: string; href: string }) {
             backgroundImage: `linear-gradient(135deg, color-mix(in oklch, var(--palette-surface), transparent 50%), color-mix(in oklch, var(--palette-depth), transparent 70%))`,
           }}
         >
-          <PreviewImage
-            src={href}
-            alt={label}
-            className="absolute inset-0 size-full object-cover"
-            loading="lazy"
-            sizes="(max-width: 768px) 50vw, 240px"
-          />
+          {gentleSystem ? (
+            <MotifPreview
+              system={gentleSystem}
+              label={label}
+              className="absolute inset-0 size-full object-cover"
+              loading="lazy"
+              sizes="(max-width: 768px) 50vw, 240px"
+            />
+          ) : (
+            <PreviewImage
+              src={href}
+              alt={label}
+              className="absolute inset-0 size-full object-cover"
+              loading="lazy"
+              sizes="(max-width: 768px) 50vw, 240px"
+            />
+          )}
         </span>
         <span className="block truncate px-2.5 py-1.5 text-xs font-medium">
           {label}
