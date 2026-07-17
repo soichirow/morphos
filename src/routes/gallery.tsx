@@ -14,6 +14,7 @@ import {
   ChevronDown,
   Copy,
   Download,
+  Grid3X3,
   Heart,
   Image as ImageIcon,
   Moon,
@@ -57,6 +58,7 @@ import {
   translateTaxonomy,
 } from "@/lib/i18n"
 import { useLanguage } from "@/lib/i18n-context"
+import { useGentleImages } from "@/lib/gentle-images-context"
 import { paletteGradient, themeStyle } from "@/lib/morphous-theme"
 import {
   buildPromptsJson,
@@ -1468,8 +1470,10 @@ function BoardSwitcher({
   onModeChange: (mode: ThemeMode) => void
 }) {
   const { t } = useLanguage()
+  const { displayMode } = useGentleImages()
   const openLightbox = useLightbox()
   const fullSrc = mode === "light" ? light : dark
+  const protectsOriginalAsset = displayMode !== "normal"
   return (
     <section className="overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur">
       <div className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
@@ -1498,13 +1502,18 @@ function BoardSwitcher({
       </div>
       <button
         type="button"
-        onClick={() =>
-          openLightbox?.({ src: fullSrc, alt: `${mode} system board` })
-        }
-        className="block w-full cursor-zoom-in"
+        onClick={() => {
+          if (!protectsOriginalAsset) {
+            openLightbox?.({ src: fullSrc, alt: `${mode} system board` })
+          }
+        }}
+        disabled={protectsOriginalAsset}
+        className={`block w-full ${
+          protectsOriginalAsset ? "cursor-default" : "cursor-zoom-in"
+        }`}
         aria-label={t("gallery.viewBoard")}
       >
-        <PreviewImage
+        <SensitiveAssetPreview
           src={fullSrc}
           alt={`${mode} system board`}
           kind="board"
@@ -2878,6 +2887,72 @@ function PromptCard({
   )
 }
 
+function SensitiveAssetPreview({
+  src,
+  alt,
+  kind,
+  className,
+  loading,
+  sizes,
+}: {
+  src: string
+  alt: string
+  kind?: "motif" | "board"
+  className?: string
+  loading?: "eager" | "lazy"
+  sizes?: string
+}) {
+  const { t } = useLanguage()
+  const { displayMode } = useGentleImages()
+  const protectsOriginalAsset = displayMode !== "normal"
+
+  if (!protectsOriginalAsset) {
+    return (
+      <PreviewImage
+        src={src}
+        alt={alt}
+        {...(kind ? { kind } : {})}
+        {...(className ? { className } : {})}
+        {...(loading ? { loading } : {})}
+        {...(sizes ? { sizes } : {})}
+      />
+    )
+  }
+
+  const isAbsolutelyPlaced = className?.includes("absolute") ?? false
+  const frameClassName = isAbsolutelyPlaced
+    ? className
+    : "relative block overflow-hidden bg-muted"
+  const imageClassName = isAbsolutelyPlaced
+    ? "absolute -inset-[6%] size-[112%] object-cover blur-[18px] saturate-75 contrast-75"
+    : `${className ?? ""} scale-[1.04] blur-[18px] saturate-75 contrast-75`
+
+  return (
+    <span className={frameClassName}>
+      <PreviewImage
+        src={src}
+        alt={`${alt}${t("gallery.mosaicPreviewSuffix")}`}
+        {...(kind ? { kind } : {})}
+        className={imageClassName}
+        {...(loading ? { loading } : {})}
+        {...(sizes ? { sizes } : {})}
+      />
+      <span
+        className="pointer-events-none absolute inset-0 opacity-25"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg, currentColor 1px, transparent 1px), linear-gradient(currentColor 1px, transparent 1px)",
+          backgroundSize: "18px 18px",
+        }}
+        aria-hidden
+      />
+      <span className="pointer-events-none absolute top-2 left-2 inline-flex items-center gap-1 rounded-full border border-white/50 bg-background/80 px-2 py-1 text-[10px] font-semibold tracking-wide text-primary shadow-sm backdrop-blur">
+        <Grid3X3 className="size-3 stroke-[1.5]" aria-hidden />
+        <span>{t("gallery.mosaicBadge")}</span>
+      </span>
+    </span>
+  )
+}
 function AssetThumb({
   label,
   href,
@@ -2888,14 +2963,23 @@ function AssetThumb({
   gentleSystem?: MorphousSystem
 }) {
   const { t } = useLanguage()
+  const { displayMode } = useGentleImages()
   const openLightbox = useLightbox()
+  const protectsOriginalAsset = !gentleSystem && displayMode !== "normal"
   return (
     <div className="group relative block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary">
       <button
         type="button"
-        onClick={() => openLightbox?.({ src: href, alt: label })}
+        onClick={() => {
+          if (!protectsOriginalAsset) {
+            openLightbox?.({ src: href, alt: label })
+          }
+        }}
+        disabled={protectsOriginalAsset}
         title={t("gallery.viewAsset", { label })}
-        className="block w-full cursor-zoom-in text-left"
+        className={`block w-full text-left ${
+          protectsOriginalAsset ? "cursor-default" : "cursor-zoom-in"
+        }`}
       >
         <span
           className="relative block aspect-square w-full"
@@ -2912,7 +2996,7 @@ function AssetThumb({
               sizes="(max-width: 768px) 50vw, 240px"
             />
           ) : (
-            <PreviewImage
+            <SensitiveAssetPreview
               src={href}
               alt={label}
               className="absolute inset-0 size-full object-cover"
