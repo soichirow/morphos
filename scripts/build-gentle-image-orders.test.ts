@@ -3,19 +3,17 @@ import { resolve } from "node:path"
 import { describe, expect, it } from "vitest"
 
 import { systems } from "../src/data/systems"
-import { motifPresentationFor } from "../src/domain/motif-presentation"
 import { buildGentleImageOrders } from "./build-gentle-image-orders"
 
 describe("gentle image orders", () => {
-  it("covers every real catalog system that can use a gentle motif", () => {
+  it("covers every real catalog system", () => {
     const expectedSlugs = systems
-      .filter((system) => motifPresentationFor(system) !== "standard")
       .map((system) => system.slug)
       .sort()
 
     const orders = buildGentleImageOrders(systems)
 
-    expect(orders).toHaveLength(125)
+    expect(orders).toHaveLength(611)
     expect(orders.map((order) => order.slug).sort()).toEqual(expectedSlugs)
     expect(new Set(orders.map((order) => order.slug))).toHaveLength(
       orders.length
@@ -23,9 +21,7 @@ describe("gentle image orders", () => {
   })
 
   it("passes the real source image and truthful canonical colors to gpt-image-2", () => {
-    const selectedSystems = systems.filter(
-      (system) => motifPresentationFor(system) !== "standard"
-    )
+    const selectedSystems = systems
     const orders = buildGentleImageOrders(systems)
 
     for (const system of selectedSystems) {
@@ -68,7 +64,7 @@ describe("gentle image orders", () => {
       .filter((name) => name.endsWith(".webp"))
       .sort()
 
-    expect(shipped).toHaveLength(125)
+    expect(shipped).toHaveLength(611)
     expect(shipped).toEqual(expected)
   })
 })

@@ -72,18 +72,15 @@ describe("MotifPreview", () => {
     expect(realMotifNode(container, system.slug)).toBeNull()
   })
 
-  it("falls back to mosaic for a motif without a shipped scribble", () => {
+  it("uses a shipped scribble for a formerly standard motif", () => {
     const { container, system } = renderPreview("morphous-artichoke")
 
-    expect(
-      screen.getByRole("img", { name: `${system.motifName}のモザイク表示` })
-    ).not.toBeNull()
-    expect(realMotifNode(container, system.slug)).not.toBeNull()
     expect(
       container.querySelector(
         `img[src="/gentle-motifs/${system.slug}.webp"]`
       )
-    ).toBeNull()
+    ).not.toBeNull()
+    expect(realMotifNode(container, system.slug)).toBeNull()
   })
 
   it("uses a blurred mosaic presentation when the user selects mosaic mode", async () => {

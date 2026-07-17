@@ -89,9 +89,9 @@ export function motifPresentationFor(
 }
 
 export function hasGentleMotifIllustration(
-  system: MotifPresentationSource
+  _system: MotifPresentationSource
 ): boolean {
-  return motifPresentationFor(system) !== "standard"
+  return true
 }
 
 export function shouldUseGentleMotif(

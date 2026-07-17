@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest"
 
 import {
+  hasGentleMotifIllustration,
   motifPresentationFor,
   shouldUseGentleMotif,
 } from "./motif-presentation"
@@ -64,6 +65,9 @@ describe("motif presentation safety", () => {
 
     expect(formerlyStandard).toBeDefined()
     expect(motifPresentationFor(formerlyStandard!)).toBe("standard")
+    expect(
+      systems.every((system) => hasGentleMotifIllustration(system))
+    ).toBe(true)
     expect(shouldUseGentleMotif("fluffy")).toBe(true)
     expect(shouldUseGentleMotif("normal")).toBe(false)
     expect(shouldUseGentleMotif("fluffy", true)).toBe(false)

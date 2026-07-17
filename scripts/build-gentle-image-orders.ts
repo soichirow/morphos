@@ -1,4 +1,3 @@
-import { motifPresentationFor } from "../src/domain/motif-presentation.ts"
 import type { MorphousSystem } from "../src/domain/morphous-system.ts"
 
 export type GentleImageOrder = {
@@ -73,9 +72,7 @@ No photorealism, clean editorial illustration, professional icon design, creepy 
 export function buildGentleImageOrders(
   systems: ReadonlyArray<MorphousSystem>
 ): Array<GentleImageOrder> {
-  return systems
-    .filter((system) => motifPresentationFor(system) !== "standard")
-    .map((system) => ({
+  return systems.map((system) => ({
       slug: system.slug,
       model: "gpt-image-2",
       sourceImage: system.assets.motif,
