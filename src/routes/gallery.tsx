@@ -29,6 +29,7 @@ import {
 import type { ThemeMode } from "@/lib/morphous-theme"
 import type { ColorRoleKey, GallerySearch, SortKey } from "@/domain/catalog"
 import type { MorphousSystem } from "@/domain/morphous-system"
+import { originalAssetAccess } from "@/domain/motif-presentation"
 import { CATEGORY_GROUPS, isCategoryGroupId } from "@/domain/catalog-categories"
 import {
   COLOR_ROLE_OPTIONS as colorRoleOptions,
@@ -1473,7 +1474,7 @@ function BoardSwitcher({
   const { displayMode } = useGentleImages()
   const openLightbox = useLightbox()
   const fullSrc = mode === "light" ? light : dark
-  const protectsOriginalAsset = displayMode !== "normal"
+  const assetAccess = originalAssetAccess(displayMode)
   return (
     <section className="overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur">
       <div className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
@@ -1503,13 +1504,13 @@ function BoardSwitcher({
       <button
         type="button"
         onClick={() => {
-          if (!protectsOriginalAsset) {
+          if (assetAccess.canOpen) {
             openLightbox?.({ src: fullSrc, alt: `${mode} system board` })
           }
         }}
-        disabled={protectsOriginalAsset}
+        disabled={!assetAccess.canOpen}
         className={`block w-full ${
-          protectsOriginalAsset ? "cursor-default" : "cursor-zoom-in"
+          assetAccess.canOpen ? "cursor-zoom-in" : "cursor-default"
         }`}
         aria-label={t("gallery.viewBoard")}
       >
@@ -2965,20 +2966,20 @@ function AssetThumb({
   const { t } = useLanguage()
   const { displayMode } = useGentleImages()
   const openLightbox = useLightbox()
-  const protectsOriginalAsset = !gentleSystem && displayMode !== "normal"
+  const assetAccess = originalAssetAccess(displayMode)
   return (
     <div className="group relative block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary">
       <button
         type="button"
         onClick={() => {
-          if (!protectsOriginalAsset) {
+          if (assetAccess.canOpen) {
             openLightbox?.({ src: href, alt: label })
           }
         }}
-        disabled={protectsOriginalAsset}
+        disabled={!assetAccess.canOpen}
         title={t("gallery.viewAsset", { label })}
         className={`block w-full text-left ${
-          protectsOriginalAsset ? "cursor-default" : "cursor-zoom-in"
+          assetAccess.canOpen ? "cursor-zoom-in" : "cursor-default"
         }`}
       >
         <span
@@ -3009,16 +3010,18 @@ function AssetThumb({
           {label}
         </span>
       </button>
-      <a
-        href={href}
-        download
-        onClick={(e) => e.stopPropagation()}
-        title={t("gallery.downloadAsset", { label })}
-        aria-label={t("gallery.downloadAsset", { label })}
-        className="absolute top-1.5 right-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100"
-      >
-        <Download className="size-3.5" />
-      </a>
+      {assetAccess.canDownload ? (
+        <a
+          href={href}
+          download
+          onClick={(e) => e.stopPropagation()}
+          title={t("gallery.downloadAsset", { label })}
+          aria-label={t("gallery.downloadAsset", { label })}
+          className="absolute top-1.5 right-1.5 grid size-6 place-items-center rounded-md bg-background/80 text-primary opacity-0 backdrop-blur transition group-hover:opacity-100"
+        >
+          <Download className="size-3.5" />
+        </a>
+      ) : null}
     </div>
   )
 }

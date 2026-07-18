@@ -14,7 +14,6 @@
     "prepare": "husky",
     "check": "npm run lint && npm run typecheck",
     "ci": "npm run check && npm run test && npm run generate:catalog:check && npm run validate:catalog && npm run build:cloudflare && npm run test:e2e",
-    "pages:prepare": "test -f .output/public/index.html && cp public/CNAME .output/public/CNAME && cp .output/public/index.html .output/public/404.html && touch .output/public/.nojekyll",
     "precommit": "bun run precommit:previews && bun run check",
     "precommit:previews": "node scripts/precommit-previews.mjs",
     "generate:catalog": "node scripts/generate-catalog.mjs",
@@ -23,11 +22,13 @@
     "generate:previews": "uv run python scripts/generate-previews.py",
     "render:og": "node scripts/render-og-image.mjs",
     "validate:catalog": "node scripts/validate-catalog.mjs",
-    "test": "vitest run --passWithNoTests",
+    "test": "vitest run",
     "test:e2e": "playwright test",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx}\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:e2e:critical": "playwright test --grep-invert @upstream",
+    "test:e2e:upstream": "playwright test --grep @upstream"
   },
   "knip": {
     "ignore": [

@@ -1,4 +1,4 @@
-import { copyFile, mkdir, writeFile } from "node:fs/promises"
+import { copyFile, mkdir, rm, writeFile } from "node:fs/promises"
 import { resolve } from "node:path"
 
 import { writeDiscoveryFiles } from "./build-sitemap.mjs"
@@ -7,6 +7,7 @@ const outputDir = resolve(".output/public")
 const indexPath = resolve(outputDir, "index.html")
 
 await mkdir(outputDir, { recursive: true })
+await rm(resolve(outputDir, "systems"), { recursive: true, force: true })
 await copyFile(indexPath, resolve(outputDir, "404.html"))
 const discoveryResult = await writeDiscoveryFiles()
 await writeFile(resolve(outputDir, ".nojekyll"), "", "utf8")

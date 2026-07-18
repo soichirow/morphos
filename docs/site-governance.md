@@ -31,15 +31,15 @@
 
 | 項目                     | リポジトリ側                            | 管理画面側                | 現在の状態                       |
 | ------------------------ | --------------------------------------- | ------------------------- | -------------------------------- |
-| sitemap                  | canonical絶対URLだけを自動生成          | GSC/Bingへ送信            | 本番200確認済み / 送信待ち      |
+| sitemap                  | canonical絶対URLだけを自動生成          | GSC/Bingへ送信            | 本番200確認済み / 送信待ち       |
 | robots.txt               | sitemap絶対URLを同一originから生成      | 本番200確認               | 本番確認済み                     |
-| canonical                | `/`, `/gallery/`, `/privacy/` に絶対URL | URL検査                   | 本番確認済み / URL検査待ち      |
+| canonical                | `/`, `/gallery/`, `/privacy/` に絶対URL | URL検査                   | 本番確認済み / URL検査待ち       |
 | meta robots              | `index,follow`                          | HTML・HTTP header確認     | 本番確認済み                     |
-| Google Search Console    | DNSまたは環境変数metaに対応             | 所有権確認・sitemap送信   | DNS TXTあり / 管理画面確認待ち  |
+| Google Search Console    | DNSまたは環境変数metaに対応             | 所有権確認・sitemap送信   | DNS TXTあり / 管理画面確認待ち   |
 | Bing Webmaster Tools     | meta環境変数に対応                      | GSC importを優先          | 管理画面確認待ち                 |
 | GA4                      | 同意後のみ読み込み、広告系は常時denied  | stream作成・page_view実測 | Measurement ID未設定             |
 | Cloudflare Web Analytics | 自動挿入を阻害しないheader              | Pages MetricsでEnable     | beacon未有効                     |
-| 旧pages.dev redirect     | canonicalは独自ドメインへ統一           | Bulk Redirect設定         | canonical統一済み / redirect待ち|
+| 旧pages.dev redirect     | canonicalは独自ドメインへ統一           | Bulk Redirect設定         | canonical統一済み / redirect待ち |
 | プライバシー             | `/privacy/` と同意変更UI                | 法令・運用方針確認        | 実装済み / 管理者確認待ち        |
 
 「完了」は管理画面の画面または管理者の明示確認と、本番ネットワーク検証が揃った時だけ使用する。

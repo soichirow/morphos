@@ -1,128 +1,59 @@
-# Morphous
+# Morphous Japanese Edition
 
-Morphous is a static TanStack Start catalog for nature-inspired design systems. Each system starts from an animal, plant, mineral, weather, or landscape motif and ships a transparent motif asset, light and dark design-system boards, recorded prompts, and shadcn/tweakcn-compatible theme exports.
+Morphous is a bilingual Japanese/English catalog of 611 nature-inspired design systems. This repository is a Japanese fork of [Ameyanagi/morphos](https://github.com/Ameyanagi/morphos).
 
-The published site is configured for:
+Production: https://morphos.so1ro.com/
 
-```text
-morphos.ameyanagi.com
-```
+日本語ドキュメント: [README.ja.md](README.ja.md)
 
-## Stack
+## Features
 
-- Bun for package management and scripts
-- TanStack Start, Vite, React, and Tailwind CSS
-- shadcn-style component primitives and CSS variable theme exports
-- Static prerender output from `.output/public`
-- GitHub Actions deployment to GitHub Pages
+- Japanese-first names with the original English names retained
+- Search, category, color, and sort controls
+- URL sharing with `?system=<slug>` for browsers, people, and LLMs
+- Browser-local favorites
+- Random system selection
+- Fluffy, mosaic, and normal image modes
+- Copy actions for CSS, JSON, prompts, and colors
+- Social sharing, OGP, PowerPoint, and Word export
+- Cloudflare Pages discovery and analytics foundations
 
-## Commands
-
-```bash
-bun install
-bun run dev
-bun run check
-bun run test
-bun run ci
-bun run build
-bun run generate:previews
-bun run pages:prepare
-```
-
-`bun run check` runs lint and typecheck. `bun run ci` runs lint, typecheck, tests, and the production build. `bun run generate:previews` creates lightweight WebP preview derivatives for gallery rendering. `bun run pages:prepare` validates the static build output and adds the GitHub Pages files needed for deployment.
+See the [Japanese user guide](docs/user-guide.md) for the complete behavior and privacy boundaries.
 
 ## Development
 
-Start the local dev server:
-
-```bash
-bun run dev
+```powershell
+npm install
+npx playwright install chromium
+npm run dev
 ```
 
-The app uses the generated catalog data in `src/data/systems.json` and static bundle assets under `public/systems`.
+Run the quality gates:
 
-## Catalog Bundles
-
-Each system bundle lives at:
-
-```text
-public/systems/{slug}/
+```powershell
+npm run lint
+npm run typecheck
+npm test
+npm run build:cloudflare
+npm run test:e2e
 ```
 
-Core bundle files:
+`npm run ci` runs the complete local release gate. A Cloudflare build must exist before running Playwright by itself.
 
-```text
-prompts.json
-system.json
-theme.css
-theme.json
-```
+## Documentation
 
-Most current systems also include `motif.png`, `design-system-light.png`, and `design-system-dark.png`. Older bundles may use equivalent asset names recorded in `system.json`, such as `animal.png` or `design-system.png`. Some systems also keep source or generated-image records in nested folders. The catalog UI reads the public bundle files and exposes prompts and theme exports from the individual system directory.
+- [User guide (Japanese)](docs/user-guide.md)
+- [Architecture (Japanese)](docs/architecture.md)
+- [Testing and E2E scenarios (Japanese)](docs/testing.md)
+- [Cloudflare release procedure (Japanese)](docs/releasing.md)
+- [SEO and analytics governance (Japanese)](docs/site-governance.md)
 
-## Generation
+## Hosting and assets
 
-The project-specific Codex skill lives at:
+The canonical production deployment is the Cloudflare Pages project `morphos-ja`, served at `morphos.so1ro.com`. The bundled app contains localized catalog data, copyable artifacts, and 611 gentle illustrations. Normal-mode motif and board images are fetched from `morphos.ameyanagi.com`; see the architecture document for the exact boundary.
 
-```text
-.codex/skills/morphous-catalog/SKILL.md
-```
-
-Use it when creating or refreshing motif assets, design-system boards, prompt records, and theme exports. Image generation is intentionally handled by the Codex image tool, then copied into each system bundle.
-
-After generated assets or system metadata changes, refresh and validate the catalog:
-
-```bash
-bun run generate:catalog
-bun run generate:previews
-bun run validate:catalog
-```
-
-## Pre-Commit Hook
-
-Husky installs a local pre-commit hook through `bun install` via the `prepare` script. The hook runs:
-
-```bash
-bun run precommit
-```
-
-That runs `bun run generate:previews` first, then `bun run check`, so commits are gated by generated previews, lint, and typecheck without running the full production build locally. Current previews are skipped by timestamp; if generation updates preview files, stage those generated files and retry the commit.
-
-## GitHub Pages
-
-GitHub Pages is deployed by [`.github/workflows/pages.yml`](.github/workflows/pages.yml). The workflow runs on pushes to `main` and can also be started manually from GitHub Actions.
-
-Deployment flow:
-
-1. Install dependencies with Bun.
-2. Run `bun run ci`.
-3. Upload `.output/public` as the Pages artifact.
-4. Deploy with `actions/deploy-pages`.
-
-The custom domain is committed in `public/CNAME`, and `.nojekyll` is included so GitHub Pages serves generated assets exactly as built.
-
-Pull requests to `main` run [`.github/workflows/ci.yml`](.github/workflows/ci.yml), which executes the same CI script without deploying.
-
-## Publishing Checklist
-
-Before pushing a catalog update:
-
-```bash
-bun run validate:catalog
-bun run generate:previews
-bun run ci
-bun run pages:prepare
-```
-
-`pages:prepare` creates a static `404.html` fallback from `index.html` so deep links work when served by GitHub Pages.
+Search Console, Bing Webmaster Tools, GA4, and Cloudflare Web Analytics remain incomplete until dashboard evidence and live measurement are recorded. Do not infer completion from repository configuration alone.
 
 ## License
 
-Licensed under either of:
-
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
-
-at your option.
-
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
+Licensed under Apache-2.0 or MIT, at your option. See `LICENSE-APACHE` and `LICENSE-MIT`.

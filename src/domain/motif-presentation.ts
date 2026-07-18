@@ -1,5 +1,27 @@
 export type MotifDisplayMode = "fluffy" | "mosaic" | "normal"
 
+export type OriginalAssetAccess = Readonly<{
+  canOpen: boolean
+  canDownload: boolean
+}>
+
+const protectedOriginalAssetAccess: OriginalAssetAccess = Object.freeze({
+  canOpen: false,
+  canDownload: false,
+})
+const normalOriginalAssetAccess: OriginalAssetAccess = Object.freeze({
+  canOpen: true,
+  canDownload: true,
+})
+
+export function originalAssetAccess(
+  displayMode: MotifDisplayMode
+): OriginalAssetAccess {
+  return displayMode === "normal"
+    ? normalOriginalAssetAccess
+    : protectedOriginalAssetAccess
+}
+
 export type MotifPresentationPolicy =
   "default-stylized" | "safe-optional" | "standard"
 

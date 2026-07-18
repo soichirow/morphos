@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest"
 import {
   hasGentleMotifIllustration,
   motifPresentationFor,
+  originalAssetAccess,
   shouldUseGentleMotif,
 } from "./motif-presentation"
 import { systems } from "@/data/systems"
@@ -58,6 +59,20 @@ describe("motif presentation safety", () => {
     expect(shouldUseGentleMotif("mosaic")).toBe(true)
   })
 
+  it("allows original asset access only in normal mode", () => {
+    expect(originalAssetAccess("fluffy")).toEqual({
+      canOpen: false,
+      canDownload: false,
+    })
+    expect(originalAssetAccess("mosaic")).toEqual({
+      canOpen: false,
+      canDownload: false,
+    })
+    expect(originalAssetAccess("normal")).toEqual({
+      canOpen: true,
+      canDownload: true,
+    })
+  })
   it("protects every catalog motif while cautious display is enabled", () => {
     const formerlyStandard = systems.find(
       (system) => system.slug === "morphous-artichoke"
@@ -65,9 +80,9 @@ describe("motif presentation safety", () => {
 
     expect(formerlyStandard).toBeDefined()
     expect(motifPresentationFor(formerlyStandard!)).toBe("standard")
-    expect(
-      systems.every((system) => hasGentleMotifIllustration(system))
-    ).toBe(true)
+    expect(systems.every((system) => hasGentleMotifIllustration(system))).toBe(
+      true
+    )
     expect(shouldUseGentleMotif("fluffy")).toBe(true)
     expect(shouldUseGentleMotif("normal")).toBe(false)
     expect(shouldUseGentleMotif("fluffy", true)).toBe(false)
