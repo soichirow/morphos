@@ -1,6 +1,6 @@
 # モーファス サイトガバナンス
 
-最終更新: 2026-07-16
+最終更新: 2026-07-18
 対象: `https://morphos.so1ro.com/`
 管理者: soichirow / Cloudflare・Google・Microsoft各アカウントの管理者
 是正期限: 2026-08-14（既存公開サイトのため30日以内）
@@ -31,11 +31,11 @@
 
 | 項目                     | リポジトリ側                            | 管理画面側                | 現在の状態                       |
 | ------------------------ | --------------------------------------- | ------------------------- | -------------------------------- |
-| sitemap                  | canonical絶対URLだけを自動生成          | GSC/Bingへ送信            | 本番200確認済み / 送信待ち       |
+| sitemap                  | canonical絶対URLだけを自動生成          | GSC/Bingへ送信            | 本番200・GSC成功（3 URL）        |
 | robots.txt               | sitemap絶対URLを同一originから生成      | 本番200確認               | 本番確認済み                     |
 | canonical                | `/`, `/gallery/`, `/privacy/` に絶対URL | URL検査                   | 本番確認済み / URL検査待ち       |
 | meta robots              | `index,follow`                          | HTML・HTTP header確認     | 本番確認済み                     |
-| Google Search Console    | DNSまたは環境変数metaに対応             | 所有権確認・sitemap送信   | DNS TXTあり / 管理画面確認待ち   |
+| Google Search Console    | DNSまたは環境変数metaに対応             | 所有権確認・sitemap送信   | Domain property確認・送信成功    |
 | Bing Webmaster Tools     | meta環境変数に対応                      | GSC importを優先          | 管理画面確認待ち                 |
 | GA4                      | 同意後のみ読み込み、広告系は常時denied  | stream作成・page_view実測 | Measurement ID未設定             |
 | Cloudflare Web Analytics | 自動挿入を阻害しないheader              | Pages MetricsでEnable     | beacon未有効                     |
@@ -46,7 +46,7 @@
 
 ## 環境変数
 
-本プロジェクトはDirect Uploadのため、Vite用の公開設定値はローカルまたはCIのビルド環境へ設定してから `npm run build:cloudflare` を実行する。Pages管理画面のruntime変数は、ビルド済み静的HTMLを書き換えない。
+本プロジェクトはGitHub連携したCloudflare Pagesで`main`を自動デプロイする。Vite用の公開設定値はPagesのビルド環境へ設定し、`npm run build:cloudflare` で静的成果物を生成する。Pages管理画面のruntime変数は、ビルド済み静的HTMLを書き換えない。
 Gitへ検証トークンや資格情報を書かない。
 
 ```text
@@ -142,3 +142,14 @@ Invoke-WebRequest "$origin/privacy/"
 - 代表3ページ: canonicalと`og:url`が `https://morphos.so1ro.com` に統一
 - HTML response: `X-Robots-Tag: index, follow`、意図しないmeta `noindex`なし
 - sitemap: canonicalな3 URLのみ。旧originと共有用query URLの混入なし
+
+## 2026-07-18 Git連携・Search Console確認記録
+
+- Cloudflare Pages Git repository: `soichirow/morphos`
+- production branch: `main`、自動デプロイ有効
+- build command: `npm run build:cloudflare`
+- build output: `.output/public`
+- production deployment: commit `5d896ee`、status `Active`
+- Search Console property: Domain property `morphos.so1ro.com`
+- submitted sitemap: `https://morphos.so1ro.com/sitemap.xml`
+- Search Console status: 成功、検出されたページ数3、最終読み込み2026-07-18

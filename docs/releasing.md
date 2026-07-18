@@ -5,10 +5,11 @@
 - Cloudflare Pages project: `morphos-ja`
 - custom domain: `https://morphos.so1ro.com`
 - build output: `.output/public`
-- deploy command: `npm run deploy`
-- Git branch: `codex/morphos-ja-launch` で検証し、レビュー後にmainへ統合
+- build command: `npm run build:cloudflare`
+- production branch: `main`
+- feature branchで検証し、レビュー後に`main`へfast-forward可能な形で統合する
 
-GitHub Pagesは公開正本ではありません。Cloudflare Direct Uploadと二重配信しません。
+GitHub PagesやWrangler Direct Uploadは公開正本ではありません。GitHub連携したCloudflare Pagesの`main`自動デプロイを正本とし、手動デプロイと二重運用しません。
 
 ## 1. 変更範囲を確認
 
@@ -52,13 +53,22 @@ git push origin codex/morphos-ja-launch
 
 ## 4. Cloudflareへデプロイ
 
-Wranglerで対象アカウントへログイン済みであることを確認し、秘密情報を出力しないで実行します。
+レビュー済みcommitを`main`へpushすると、Cloudflare Pagesが自動ビルド・本番デプロイします。
 
 ```powershell
-npm run deploy
+git push origin HEAD:main
+npx wrangler pages deployment list --project-name=morphos-ja
 ```
 
-Wranglerが返したdeployment URL、Git commit SHA、実行日時をリリース記録へ残します。custom domainの反映はdeployment URLとは別に確認します。
+Cloudflare Pagesの設定は次を維持します。
+
+- Git repository: `soichirow/morphos`
+- production branch: `main`
+- build command: `npm run build:cloudflare`
+- build output: `.output/public`
+- automatic deployments: enabled
+
+最新deploymentが`Production`、対象commit、`Active`であることを確認し、deployment URL、Git commit SHA、実行日時をリリース記録へ残します。custom domainの反映はdeployment URLとは別に確認します。
 
 ## 5. 本番検証
 
