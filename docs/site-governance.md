@@ -149,7 +149,7 @@ Invoke-WebRequest "$origin/privacy/"
 - production branch: `main`、自動デプロイ有効
 - build command: `npm run build:cloudflare`
 - build output: `.output/public`
-- production deployment: commit `5d896ee`、status `Active`
+- production deployment: `main`最新、status `Active`（2026-07-18確認）
 - Search Console property: Domain property `morphos.so1ro.com`
 - submitted sitemap: `https://morphos.so1ro.com/sitemap.xml`
 - Search Console status: 成功、検出されたページ数3、最終読み込み2026-07-18
