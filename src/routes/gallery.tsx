@@ -1472,10 +1472,9 @@ function BoardSwitcher({
   onModeChange: (mode: ThemeMode) => void
 }) {
   const { t } = useLanguage()
-  const { displayMode } = useGentleImages()
   const openLightbox = useLightbox()
   const fullSrc = mode === "light" ? light : dark
-  const assetAccess = originalAssetAccess(displayMode)
+  const assetAccess = originalAssetAccess("normal")
   return (
     <section className="overflow-hidden rounded-xl border border-border bg-card/85 backdrop-blur">
       <div className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
@@ -2906,7 +2905,8 @@ function SensitiveAssetPreview({
 }) {
   const { t } = useLanguage()
   const { displayMode } = useGentleImages()
-  const protectsOriginalAsset = displayMode !== "normal"
+  const protectsOriginalAsset =
+    kind === "motif" && displayMode !== "normal"
 
   if (!protectsOriginalAsset) {
     return (
@@ -2934,7 +2934,7 @@ function SensitiveAssetPreview({
       <PreviewImage
         src={src}
         alt={`${alt}${t("gallery.mosaicPreviewSuffix")}`}
-        {...(kind ? { kind } : {})}
+        kind="motif"
         className={imageClassName}
         {...(loading ? { loading } : {})}
         {...(sizes ? { sizes } : {})}
@@ -2967,7 +2967,9 @@ function AssetThumb({
   const { t } = useLanguage()
   const { displayMode } = useGentleImages()
   const openLightbox = useLightbox()
-  const assetAccess = originalAssetAccess(displayMode)
+  const assetAccess = originalAssetAccess(
+    gentleSystem ? displayMode : "normal"
+  )
   return (
     <div className="group relative block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary">
       <button
