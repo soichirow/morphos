@@ -17,6 +17,7 @@ type Props = {
   loading?: "eager" | "lazy"
   fetchPriority?: "high" | "low" | "auto"
   sizes?: string
+  showModeBadge?: boolean
   allowReveal?: boolean
   onOpen?: () => void
   openLabel?: string
@@ -29,6 +30,7 @@ export function MotifPreview({
   loading,
   fetchPriority,
   sizes,
+  showModeBadge = true,
   allowReveal = false,
   onOpen,
   openLabel,
@@ -36,10 +38,7 @@ export function MotifPreview({
   const { t } = useLanguage()
   const { displayMode } = useGentleImages()
   const [revealedSlug, setRevealedSlug] = useState<string | null>(null)
-  const gentle = shouldUseGentleMotif(
-    displayMode,
-    revealedSlug === system.slug
-  )
+  const gentle = shouldUseGentleMotif(displayMode, revealedSlug === system.slug)
 
   if (gentle) {
     const presentation =
@@ -56,7 +55,7 @@ export function MotifPreview({
             src={system.assets.motif}
             alt={`${label}${t("gallery.mosaicPreviewSuffix")}`}
             kind="motif"
-            className="absolute -inset-[8%] size-[116%] object-cover blur-[16px] saturate-75 contrast-75"
+            className="absolute -inset-[8%] size-[116%] object-cover blur-[16px] contrast-75 saturate-75"
             {...(loading ? { loading } : {})}
             {...(fetchPriority ? { fetchPriority } : {})}
             {...(sizes ? { sizes } : {})}
@@ -70,10 +69,12 @@ export function MotifPreview({
             }}
             aria-hidden
           />
-          <span className="pointer-events-none absolute top-2 left-2 inline-flex items-center gap-1 rounded-full border border-white/50 bg-background/80 px-2 py-1 text-[10px] font-semibold tracking-wide text-primary shadow-sm backdrop-blur">
-            <Grid3X3 className="size-3 stroke-[1.5]" aria-hidden />
-            <span>{t("gallery.mosaicBadge")}</span>
-          </span>
+          {showModeBadge ? (
+            <span className="pointer-events-none absolute top-2 left-2 inline-flex items-center gap-1 rounded-full border border-white/50 bg-background/80 px-2 py-1 text-[10px] font-semibold tracking-wide text-primary shadow-sm backdrop-blur">
+              <Grid3X3 className="size-3 stroke-[1.5]" aria-hidden />
+              <span>{t("gallery.mosaicBadge")}</span>
+            </span>
+          ) : null}
           {allowReveal ? (
             <button
               type="button"
@@ -111,10 +112,12 @@ export function MotifPreview({
           fetchPriority={fetchPriority}
           sizes={sizes}
         />
-        <span className="pointer-events-none absolute top-2 left-2 inline-flex items-center gap-1 rounded-full border border-white/50 bg-background/80 px-2 py-1 text-[10px] font-semibold tracking-wide text-primary shadow-sm backdrop-blur">
-          <Icon className="size-3 stroke-[1.5]" aria-hidden />
-          <span>{t("gallery.gentleBadge")}</span>
-        </span>
+        {showModeBadge ? (
+          <span className="pointer-events-none absolute top-2 left-2 inline-flex items-center gap-1 rounded-full border border-white/50 bg-background/80 px-2 py-1 text-[10px] font-semibold tracking-wide text-primary shadow-sm backdrop-blur">
+            <Icon className="size-3 stroke-[1.5]" aria-hidden />
+            <span>{t("gallery.gentleBadge")}</span>
+          </span>
+        ) : null}
         {allowReveal ? (
           <button
             type="button"

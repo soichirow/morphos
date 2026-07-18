@@ -1430,6 +1430,7 @@ function SystemCard({
           className="aspect-square rounded-md border border-border bg-background object-cover"
           loading="lazy"
           sizes="52px"
+          showModeBadge={false}
         />
         <div className="min-w-0">
           <span className="block truncate text-sm font-semibold">
