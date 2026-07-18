@@ -1387,7 +1387,7 @@ function Hero({ system }: { system: MorphousSystem }) {
             loading="eager"
             fetchPriority="high"
             sizes="(max-width: 768px) 90vw, 640px"
-            allowReveal
+            allowModeSwitch
             onOpen={() =>
               openLightbox?.({
                 src: system.assets.motif,
@@ -2965,10 +2965,10 @@ function AssetThumb({
   gentleSystem?: MorphousSystem
 }) {
   const { t } = useLanguage()
-  const { displayMode } = useGentleImages()
+  const { displayModeFor } = useGentleImages()
   const openLightbox = useLightbox()
   const assetAccess = originalAssetAccess(
-    gentleSystem ? displayMode : "normal"
+    gentleSystem ? displayModeFor(gentleSystem.slug) : "normal"
   )
   return (
     <div className="group relative block overflow-hidden rounded-lg border border-border bg-background/70 transition hover:border-primary">

@@ -1,8 +1,17 @@
 import { useState } from "react"
-import { Bug, Eye, Grid3X3, Sparkles, Waves } from "lucide-react"
+import {
+  Bug,
+  Cloud,
+  Eye,
+  Grid3X3,
+  Image,
+  Sparkles,
+  Waves,
+} from "lucide-react"
 
 import { PreviewImage } from "./preview-image"
 import type { MorphousSystem } from "@/domain/morphous-system"
+import type { MotifDisplayMode } from "@/domain/motif-presentation"
 import {
   hasGentleMotifIllustration,
   shouldUseGentleMotif,
@@ -19,6 +28,7 @@ type Props = {
   sizes?: string
   showModeBadge?: boolean
   allowReveal?: boolean
+  allowModeSwitch?: boolean
   onOpen?: () => void
   openLabel?: string
 }
@@ -32,13 +42,52 @@ export function MotifPreview({
   sizes,
   showModeBadge = true,
   allowReveal = false,
+  allowModeSwitch = false,
   onOpen,
   openLabel,
 }: Props) {
   const { t } = useLanguage()
-  const { displayMode } = useGentleImages()
+  const { displayModeFor, setMotifDisplayMode } = useGentleImages()
   const [revealedSlug, setRevealedSlug] = useState<string | null>(null)
+  const displayMode = displayModeFor(system.slug)
   const gentle = shouldUseGentleMotif(displayMode, revealedSlug === system.slug)
+  const modeOptions: ReadonlyArray<{
+    value: MotifDisplayMode
+    label: "gallery.fluffyMode" | "gallery.mosaicMode" | "gallery.normalMode"
+    Icon: typeof Cloud
+  }> = [
+    { value: "fluffy", label: "gallery.fluffyMode", Icon: Cloud },
+    { value: "mosaic", label: "gallery.mosaicMode", Icon: Grid3X3 },
+    { value: "normal", label: "gallery.normalMode", Icon: Image },
+  ]
+  const modeControls = allowModeSwitch ? (
+    <span
+      role="group"
+      aria-label={t("gallery.individualDisplayMode", { name: label })}
+      className="absolute right-2 bottom-2 z-10 inline-flex gap-1 rounded-xl border border-border bg-background/90 p-1 shadow-md backdrop-blur"
+    >
+      {modeOptions.map(({ value, label: modeLabel, Icon }) => (
+        <button
+          key={value}
+          type="button"
+          onClick={() => setMotifDisplayMode(system.slug, value)}
+          aria-label={t("gallery.setMotifDisplayMode", {
+            name: label,
+            mode: t(modeLabel),
+          })}
+          aria-pressed={displayMode === value}
+          title={t(modeLabel)}
+          className={`grid size-9 place-items-center rounded-lg transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring ${
+            displayMode === value
+              ? "bg-primary text-primary-foreground"
+              : "text-foreground hover:bg-muted"
+          }`}
+        >
+          <Icon className="size-4" aria-hidden />
+        </button>
+      ))}
+    </span>
+  ) : null
 
   if (gentle) {
     const presentation =
@@ -85,6 +134,7 @@ export function MotifPreview({
               {t("gallery.showOriginalMotif")}
             </button>
           ) : null}
+          {modeControls}
         </span>
       )
     }
@@ -128,6 +178,7 @@ export function MotifPreview({
             {t("gallery.showOriginalMotif")}
           </button>
         ) : null}
+        {modeControls}
       </span>
     )
   }
@@ -143,16 +194,21 @@ export function MotifPreview({
       {...(sizes ? { sizes } : {})}
     />
   )
-  return onOpen ? (
-    <button
-      type="button"
-      onClick={onOpen}
-      aria-label={openLabel}
-      className="cursor-zoom-in"
-    >
-      {image}
-    </button>
-  ) : (
-    image
+  return (
+    <>
+      {onOpen ? (
+        <button
+          type="button"
+          onClick={onOpen}
+          aria-label={openLabel}
+          className="cursor-zoom-in"
+        >
+          {image}
+        </button>
+      ) : (
+        image
+      )}
+      {modeControls}
+    </>
   )
 }

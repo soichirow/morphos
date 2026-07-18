@@ -226,6 +226,14 @@ export const messages = {
     ja: "元の画像をそのまま表示",
     en: "Show original motif images",
   },
+  "gallery.individualDisplayMode": {
+    ja: "{name}の個別表示モード",
+    en: "Individual display mode for {name}",
+  },
+  "gallery.setMotifDisplayMode": {
+    ja: "{name}を{mode}で表示",
+    en: "Show {name} in {mode}",
+  },
   "gallery.gentleStyle": { ja: "控えめ画像の種類", en: "Gentle image style" },
   "gallery.scribbleStyle": { ja: "らくがき", en: "Scribble" },
   "gallery.mosaicStyle": { ja: "モザイク", en: "Mosaic" },
