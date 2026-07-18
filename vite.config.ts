@@ -9,7 +9,10 @@ import { nitro } from "nitro/vite"
 const config = defineConfig({
   plugins: [
     devtools(),
-    nitro(),
+    // Cloudflare Pages auto-detection selects the worker preset in CI. This
+    // project deploys the prerendered `.output/public` directory, so keep the
+    // build environment-independent and use Node only for prerendering.
+    nitro({ preset: "node-server" }),
     // this is the plugin that enables path aliases
     viteTsConfigPaths({
       projects: ["./tsconfig.json"],
