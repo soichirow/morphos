@@ -51,16 +51,18 @@ function readInitialMode(): MotifDisplayMode {
   return legacyStyle === "mosaic" ? "mosaic" : "fluffy"
 }
 
-function readInitialMotifDisplayModes(): Record<string, MotifDisplayMode> {
-  const stored = readStorageItem(
-    window.localStorage,
-    MOTIF_MODES_STORAGE_KEY
-  )
+export function parseMotifDisplayModeOverrides(
+  stored: string | null
+): Record<string, MotifDisplayMode> {
   if (!stored) return {}
 
   try {
     const parsed: unknown = JSON.parse(stored)
-    if (parsed === null || typeof parsed !== "object" || Array.isArray(parsed)) {
+    if (
+      parsed === null ||
+      typeof parsed !== "object" ||
+      Array.isArray(parsed)
+    ) {
       return {}
     }
 
@@ -74,6 +76,12 @@ function readInitialMotifDisplayModes(): Record<string, MotifDisplayMode> {
   } catch {
     return {}
   }
+}
+
+function readInitialMotifDisplayModes(): Record<string, MotifDisplayMode> {
+  return parseMotifDisplayModeOverrides(
+    readStorageItem(window.localStorage, MOTIF_MODES_STORAGE_KEY)
+  )
 }
 
 export function GentleImagesProvider({
